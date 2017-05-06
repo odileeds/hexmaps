@@ -31,8 +31,9 @@ function HexMap(id,w,h,s,file){
 
 		// Add event to button
 		S('#colour-pop').on('click',{me:this},function(e){ e.data.me.setColours('population'); });
-		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours(); });
+		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours('region'); });
 		S('#colour-pty').on('click',{me:this},function(e){ e.data.me.setColours('party'); });
+		S('#colour-ref').on('click',{me:this},function(e){ e.data.me.setColours('referendum'); });
 
 	}else{
 		S('#save').css({'display':'none'});
@@ -243,7 +244,7 @@ function HexMap(id,w,h,s,file){
 	}
 
 	var b = new Colour('#F9BC26');
-	var a = new Colour('#722EA5');
+	var a = new Colour('#2254F4');
 
 	function getColour(pc){
 		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
@@ -324,7 +325,8 @@ function HexMap(id,w,h,s,file){
 					var rs = {'SC':'Scotland','NI':'Northern Ireland','WA':'Wales','NE':'North East','NW':'North West','YH':'Yorkshire &amp; Humber','WM':'West Midlands','EM':'East Midlands','EA':'East Anglia','LO':'London','SE':'South East','SW':'South West'};
 					var lbl = e.data.hexmap.mapping.hexes[e.data.region].label;
 					if(e.data.hexmap.by == "population") lbl = this.attr('title')+'<br />Population: '+e.data.pop;
-					else if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data[e.data.region];
+					else if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data['2015'][e.data.region];
+					else if(e.data.hexmap.by == "referendum") lbl = this.attr('title')+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
 					else lbl = this.attr('title')+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 					e.data.hexmap.label(e.data.hexmap.id,lbl);
 					e.data.me.attr({'fill-opacity':0.8});//'fill':(e.data.me.selected ? colour : colour_selected)});
@@ -350,36 +352,62 @@ function HexMap(id,w,h,s,file){
 		return this;
 	}
 	
-	this.loadResults = function(){
-	
-		S().ajax('data/2015results.csv',{
-			'complete':function(d){
-				if(typeof d==="string"){
-					d = d.replace(/\r/,'');
-					d = d.split(/[\n]/);
-				}
-				this.data = {};
-				for(var i = 0; i < d.length; i++){
-					c = d[i].split(/,/);
-					this.data[c[0]] = c[1];
-				}
-				this.setColours("party");
-			},
-			'this': this,
-			'error':function(){},
-			'dataType':'csv'
-		});
+	this.loadResults = function(type){
+		console.log('here')
+		if(!type) type = "2015";
+
+		if(!this.data) this.data = {};
+		this.data[type] = {};
+		if(type == "referendum"){
+			S().ajax('data/2016referendum-estimates.csv',{
+				'complete':function(d){
+					if(typeof d==="string"){
+						d = d.replace(/\r/,'');
+						d = d.split(/[\n]/);
+					}
+					for(var i = 1; i < d.length; i++){
+						c = d[i].split(/,/);
+						this.data[type][c[0]] = c[1];
+					}
+					this.setColours("referendum");
+				},
+				'this': this,
+				'error':function(){},
+				'dataType':'csv'
+			});
+		}else{
+			S().ajax('data/2015results.csv',{
+				'complete':function(d){
+					if(typeof d==="string"){
+						d = d.replace(/\r/,'');
+						d = d.split(/[\n]/);
+					}
+					for(var i = 0; i < d.length; i++){
+						c = d[i].split(/,/);
+						this.data[type][c[0]] = c[1];
+					}
+					this.setColours("party");
+				},
+				'this': this,
+				'error':function(){},
+				'dataType':'csv'
+			});
+		
+		}
 	}
 
 
 	this.setColours = function(type){
 		if(!type) type = "region";
 		this.by = type;
-		if(type == "party" && !this.data) return this.loadResults();
+		console.log(type)
+		if(type == "party" && (!this.data || !this.data["2015"])) return this.loadResults("2015");
+		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
 		for(region in this.mapping.hexes){
 			if(type == "population") this.hexes[region].fillcolour = getColour(this.values[region]);
-			else if(type == "party") this.hexes[region].fillcolour = getPartyColour(this.data[region]);
-			else this.hexes[region].fillcolour = getRegionColour(this.mapping.hexes[region].a);
+			else if(type == "party") this.hexes[region].fillcolour = getPartyColour(this.data["2015"][region]);
+			else if(type == "referendum") this.hexes[region].fillcolour = getColour(1 - (this.data["referendum"][region]-0.2)/0.6);
+			else this.hexes[region].fillcolour = getColour(this.mapping.hexes[region].a);
 			this.hexes[region].attr({'fill':this.hexes[region].fillcolour });
 		}
 		return this;

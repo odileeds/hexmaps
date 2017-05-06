@@ -32,6 +32,7 @@ function HexMap(id,w,h,s,file){
 		// Add event to button
 		S('#colour-pop').on('click',{me:this},function(e){ e.data.me.setColours('population'); });
 		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours(); });
+		S('#colour-pty').on('click',{me:this},function(e){ e.data.me.setColours('party'); });
 
 	}else{
 		S('#save').css({'display':'none'});
@@ -248,19 +249,12 @@ function HexMap(id,w,h,s,file){
 		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
 	}
 	function getRegionColour(r){
-		if(r == "YH") return "#F9BC26";
-		if(r == "EM") return "#00B6FF";
-		if(r == "WM") return "#E6007C";
-		if(r == "EA") return "#FF6700";
-		if(r == "SC") return "#2254F4";
-		if(r == "NI") return "#722EA5";
-		if(r == "WA") return "#0DBC37";
-		if(r == "NW") return "#1DD3A7";
-		if(r == "NE") return "#D60303";
-		if(r == "SW") return "#178CFF";
-		if(r == "LO") return "#D73058";
-		if(r == "SE") return "#67E767";
-		return colour;
+		rs = {'YH':'#F9BC26','EM':'#00B6FF','WM':'#E6007C','EA':'#FF6700','SC':'#2254F4','NI':'#722EA5','WA':'#0DBC37','NW':'#1DD3A7','NE':'#D60303','SW':'#178CFF','LO':'#D73058','SE':'#67E767'};
+		return (rs[r] || colour);
+	}
+	function getPartyColour(r){
+		var p = {'Con':'#2254F4','Lab':'#D60303','LD':'#F9BC26','SNP':'#FF6700','PC':'#1DD3A7','UKIP':'#722EA5','Green':'#0DBC37','DUP':'#4f4c9a','SDLP':'#fbb675','SF':'#b6c727','UUP':'#EF3AAB','Ind':'#dfdfdf','Spk':'#909090'};
+		return (p[r] || colour);
 	}
 
 	this.draw = function(){
@@ -327,7 +321,9 @@ function HexMap(id,w,h,s,file){
 				var _obj = this.hexes[region];
 				_obj.id = 'hex-'+region;
 				_obj.on('mouseover',{hexmap:this,me:_obj,region:region,pop:this.mapping.hexes[region].p},function(e){
-					e.data.hexmap.label(e.data.hexmap.id,(e.data.hexmap.mapping.hexes[e.data.region].label ? e.data.hexmap.mapping.hexes[e.data.region].label : this.attr('title')+'<br />Population: '+e.data.pop));
+					lbl = (e.data.hexmap.mapping.hexes[e.data.region].label ? e.data.hexmap.mapping.hexes[e.data.region].label : this.attr('title')+'<br />Population: '+e.data.pop);
+					if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data[e.data.region];
+					e.data.hexmap.label(e.data.hexmap.id,lbl);
 					e.data.me.attr({'fill-opacity':0.8});//'fill':(e.data.me.selected ? colour : colour_selected)});
 				}).on('mouseout',{hexmap:this,me:_obj},function(e){
 					S('.infobubble').remove();
@@ -351,9 +347,34 @@ function HexMap(id,w,h,s,file){
 		return this;
 	}
 	
+	this.loadResults = function(){
+	
+		S().ajax('maps/2015results.csv',{
+			'complete':function(d){
+				if(typeof d==="string"){
+					d = d.replace(/\r/,'');
+					d = d.split(/[\n]/);
+				}
+				this.data = {};
+				for(var i = 0; i < d.length; i++){
+					c = d[i].split(/,/);
+					this.data[c[0]] = c[1];
+				}
+				this.setColours("party");
+			},
+			'this': this,
+			'error':function(){},
+			'dataType':'csv'
+		});
+	}
+
+
 	this.setColours = function(type){
+		this.by = type;
+		if(type == "party" && !this.data) return this.loadResults();
 		for(region in this.mapping.hexes){
 			if(type == "population") this.hexes[region].fillcolour = getColour(this.values[region]);
+			else if(type == "party") this.hexes[region].fillcolour = getPartyColour(this.data[region]);
 			else this.hexes[region].fillcolour = getRegionColour(this.mapping.hexes[region].a);
 			this.hexes[region].attr({'fill':this.hexes[region].fillcolour });
 		}

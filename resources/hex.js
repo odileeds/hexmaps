@@ -16,7 +16,7 @@ function HexMap(id,w,h,s,file){
 
 	// Update text of button
 	if(this.saveable){
-		S('#save').html('Save <span class="line">H</span>exJSON as file');
+		S('#save').html('Save data as <span class="line">H</span>exJSON');
 		// Add event to button
 		S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
 		// Add key binding

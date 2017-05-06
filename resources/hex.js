@@ -29,6 +29,10 @@ function HexMap(id,w,h,s,file){
 		// Add event to button
 		S('#savesvg').on('click',{me:this},function(e){ e.data.me.saveSVG(); });
 
+		// Add event to button
+		S('#colour-pop').on('click',{me:this},function(e){ e.data.me.setColours('population'); });
+		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours(); });
+
 	}else{
 		S('#save').css({'display':'none'});
 		S('#savesvg').css({'display':'none'});
@@ -44,23 +48,10 @@ function HexMap(id,w,h,s,file){
 		'dataType':'json'
 	});
 
-
 	var _obj = this;
 	// We'll need to change the sizes when the window changes size
 	window.addEventListener('resize', function(event){ _obj.resize(); });
 
-/*
-	this.toggleRegion = function(r){
-		for(nut in this.hexes){
-			if(nut.indexOf(r)==0){
-				h = this.hexes[nut];
-				h.selected = !h.selected;
-				h.attr({'fill':(h.selected ? h.fillcolour : '#5f5f5f')});
-			}
-		}
-		return this;
-	}
-*/
 	this.selectRegion = function(r){
 		this.selected = r;
 		for(region in this.hexes){
@@ -107,10 +98,6 @@ function HexMap(id,w,h,s,file){
 	}
 	this.resize = function(){
 		return this;
-/*		this.size();
-		this.paper.clear();
-		this.draw();
-		return this;*/
 	}
 
 	this.initialized = function(){
@@ -209,6 +196,7 @@ function HexMap(id,w,h,s,file){
 
 		return this;
 	}
+
 	this.setSize = function(size){
 		if(size) this.properties.size = size;
 		this.properties.s = { 'cos': this.properties.size*Math.sqrt(3)/2, 'sin': this.properties.size*0.5 };
@@ -216,6 +204,7 @@ function HexMap(id,w,h,s,file){
 		this.properties.s.s = this.properties.s.sin.toFixed(2);
 		return this;
 	}
+
 	this.drawHex = function(q,r,scale){
 		if(this.properties){
 			if(typeof scale!=="number") scale = 1;
@@ -251,30 +240,30 @@ function HexMap(id,w,h,s,file){
 		}
 		return this;
 	}
-	
+
+	var b = new Colour('#F9BC26');
+	var a = new Colour('#722EA5');
+
+	function getColour(pc){
+		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
+	}
+	function getRegionColour(r){
+		if(r == "YH") return "#F9BC26";
+		if(r == "EM") return "#00B6FF";
+		if(r == "WM") return "#E6007C";
+		if(r == "EA") return "#FF6700";
+		if(r == "SC") return "#2254F4";
+		if(r == "NI") return "#722EA5";
+		if(r == "WA") return "#0DBC37";
+		if(r == "NW") return "#1DD3A7";
+		if(r == "NE") return "#D60303";
+		if(r == "SW") return "#178CFF";
+		if(r == "LO") return "#D73058";
+		if(r == "SE") return "#67E767";
+		return colour;
+	}
+
 	this.draw = function(){
-
-		var b = new Colour('#F9BC26');
-		var a = new Colour('#722EA5');
-
-		function getColour(pc){
-			return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
-		}
-		function getRegionColour(r){
-			if(r == "YH") return "#F9BC26";
-			if(r == "EM") return "#00B6FF";
-			if(r == "WM") return "#E6007C";
-			if(r == "EA") return "#FF6700";
-			if(r == "SC") return "#2254F4";
-			if(r == "NI") return "#722EA5";
-			if(r == "WA") return "#0DBC37";
-			if(r == "NW") return "#1DD3A7";
-			if(r == "NE") return "#D60303";
-			if(r == "SW") return "#178CFF";
-			if(r == "LO") return "#D73058";
-			if(r == "SE") return "#67E767";
-			return colour;
-		}
 
 		var r,q;
 		var h,p;
@@ -316,7 +305,8 @@ function HexMap(id,w,h,s,file){
 		for(region in this.mapping.hexes){
 			if(this.mapping.hexes[region].p > max) max = this.mapping.hexes[region].p;
 			if(this.mapping.hexes[region].p < min) min = this.mapping.hexes[region].p;
-		}*/
+		}
+		*/
 		this.values = {};
 
 		for(region in this.mapping.hexes){
@@ -358,6 +348,15 @@ function HexMap(id,w,h,s,file){
 
 		this.constructed = true;
 
+		return this;
+	}
+	
+	this.setColours = function(type){
+		for(region in this.mapping.hexes){
+			if(type == "population") this.hexes[region].fillcolour = getColour(this.values[region]);
+			else this.hexes[region].fillcolour = getRegionColour(this.mapping.hexes[region].a);
+			this.hexes[region].attr({'fill':this.hexes[region].fillcolour });
+		}
 		return this;
 	}
 	

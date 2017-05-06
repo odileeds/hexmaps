@@ -322,7 +322,9 @@ function HexMap(id,w,h,s,file){
 				_obj.id = 'hex-'+region;
 				_obj.on('mouseover',{hexmap:this,me:_obj,region:region,pop:this.mapping.hexes[region].p},function(e){
 					lbl = (e.data.hexmap.mapping.hexes[e.data.region].label ? e.data.hexmap.mapping.hexes[e.data.region].label : this.attr('title')+'<br />Population: '+e.data.pop);
+					rs = {'SC':'Scotland','NI':'Northern Ireland','WA':'Wales','NE':'North East','NW':'North West','YH':'Yorkshire &amp; Humber','WM':'West Midlands','EM':'East Midlands','EA':'East Anglia','LO':'London','SE':'South East','SW':'South West'};
 					if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data[e.data.region];
+					if(e.data.hexmap.by == "region") lbl = this.attr('title')+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 					e.data.hexmap.label(e.data.hexmap.id,lbl);
 					e.data.me.attr({'fill-opacity':0.8});//'fill':(e.data.me.selected ? colour : colour_selected)});
 				}).on('mouseout',{hexmap:this,me:_obj},function(e){
@@ -370,6 +372,7 @@ function HexMap(id,w,h,s,file){
 
 
 	this.setColours = function(type){
+		if(!type) type = "region";
 		this.by = type;
 		if(type == "party" && !this.data) return this.loadResults();
 		for(region in this.mapping.hexes){

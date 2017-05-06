@@ -349,7 +349,7 @@ function HexMap(id,w,h,s,file){
 	
 	this.loadResults = function(){
 	
-		S().ajax('maps/2015results.csv',{
+		S().ajax('data/2015results.csv',{
 			'complete':function(d){
 				if(typeof d==="string"){
 					d = d.replace(/\r/,'');

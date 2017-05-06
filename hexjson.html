@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<title>HexJSON format</title>
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.github.io/hexmaps/hexjson">
+	<meta name="twitter:title" property="og:title" content="HexJSON format">
+	<meta name="twitter:description" property="og:description" content="Defining a format for sharing hex-based maps.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/resources/images/odileeds.png">
+	<script type="text/javascript" src="resources/stuquery.js"></script>
+	<script type="text/javascript" src="resources/stuquery.svg.js"></script>
+	<script>
+	S(document).ready(function(){
+
+	});
+	</script>
+</head>
+<body>
+
+
+	<div id="main">
+
+		<div class="b1-bg">
+			<div class="holder">
+				<h1>HexJSON format</h1>
+			</div>
+		</div>
+
+		<div class="holder">
+			<p>We want to make sharing hexagon-based maps - such as our <a href="constituencies.html">UK constituency hex map</a> - easy. We've defined a simple JSON format to achieve that. The format is:</p>
+			<pre><code>{
+	"layout": "odd-r",
+	"hexes": {
+		"E14000530":{"q":-3,"r":-11},
+		"E14000531":{"q":-3,"r":-1}
+	}
+}</code></pre>
+			<p>The <code>layout</code> property is one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a>:</p>
+			<ul>
+				<li><code>odd-r</code> (pointy-topped)</li>
+				<li><code>even-r</code> (pointy-topped)</li>
+				<li><code>odd-q</code> (flat-topped)</li>
+				<li><code>even-q</code> (flat-topped)</li>
+			</ul>
+			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates.</p>
+		</div>
+	</div>
+
+	<footer class="b1-bg">
+		<div class="holder">
+			&copy; 2017 ODI Leeds. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+		</div>
+	</footer>
+</body>
+</html>

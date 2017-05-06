@@ -1,0 +1,304 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1em; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* End of reset */
+html, body {
+	padding: 0px;
+	margin: 0px;
+	min-height: 100%!important;
+	height: 100%!important;
+	background-color: #efefef;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+	font-size: 16px;
+	color: #333;
+	line-height: 1.44em;
+}
+.leaflet-container { font-size: inherit; }
+h1 { font-size: 2em; line-height: 1em; }
+h2 { font-size: 1.7em; margin-top: 1.17647em; margin-bottom: 16px; }
+h1, h2 { margin-top: 0em; }
+strong { font-weight: 700; }
+em { font-style: italic; }
+header, footer, #main {
+	width: 100%;
+	transition: margin-left 0.3s ease-in;
+}
+footer {
+	width: 100%;
+	padding: 1em;
+	padding-bottom: 3em;
+}
+footer a {
+	color: white;
+}
+.line {
+	text-decoration: underline;
+}
+#main p, #main iframe, #main h2, #main h3, #main figcaption, #main ul, #main ol, .block, .padded-bottom { margin-bottom: 16px; }
+#main p:last-child, #main figure iframe { margin-bottom: 0; }
+.holder {
+	position: relative;
+	width: 1080px;
+	max-width: 100%;
+	margin: auto;
+}
+#main .holder, footer .holder {
+	padding: 1em 1em;
+}
+#main .holder, footer .holder {
+	padding: 1em 1em;
+}
+#main > .holder { padding: 2em 1em; }
+.info {
+	padding: 0.25em 0.5em;
+	font-size: 1em;
+	color: #444;
+	background: white;
+	background: rgba(255,255,255,1);
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.info h4 {
+	margin: 0 0 5px;
+	color: #777;
+}
+.legend {
+	line-height: 1em;
+	color: #555;
+	padding: 0.75em;
+}
+.legend li {
+	margin-bottom: 0.5em;
+}
+.legend li:last-child {
+	margin-bottom: 0px;
+}
+.legend span {
+	width: 1em;
+	height: 1em;
+	float: left;
+	margin-right: 0.5em;
+	opacity: 0.7;
+}
+.padded {
+	padding: 2em;
+}
+.centre-block {
+	z-index: 3;
+	top: 50%;
+	left: 50%;
+	width: 50%;
+	transform: translate3d(-50%,-50%, 0);
+	position: absolute;
+	text-align: center;
+	margin-right: -50%;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+}
+.centre-block p, .centre-block blockquote {
+	text-align: left;
+}
+#infobutton {
+	float: right;
+	display: none;
+	width: 1.5em;
+	line-height: 1.5em;
+	cursor: pointer;
+	text-align: center;
+	font-size: 1em;
+	border-radius: 100%;
+	background-color: white;
+	color: #722EA5;
+}
+blockquote {
+	min-height: auto!important;
+	background: white;
+	padding: 1em 3em;
+	margin-bottom: 1em;
+	position: relative;
+	quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+	content: open-quote;
+	left: 0.25em;
+}
+blockquote:after {
+	content: close-quote;
+	right: 0.25em;
+}
+blockquote:before, blockquote:after {
+	color: #ccc;
+	position: absolute;
+	top: 0.6em;
+	line-height: 0.1em;
+	font-size: 4em;
+}
+blockquote footer {
+	padding: 1em 0 0 0;
+}
+blockquote cite:before {
+	content: "-- ";
+}
+blockquote:last-child {
+	margin-bottom: 0;
+}
+.c1-bg, .elsewhere .facebook:hover, .c1-bg-hover:hover { background-color: #2254F4; color: white; }
+.c2-bg, .c2-bg-hover:hover { background-color: #178CFF; color: black; }
+.c3-bg, .elsewhere .twitter:hover, .c3-bg-hover:hover { background-color: #00B6FF; color: black; }
+.c4-bg, .c4-bg-hover:hover { background-color: #08DEF9; color: black; }
+.c5-bg, .c5-bg-hover:hover { background-color: #1DD3A7; color: black; }
+.c6-bg, .c6-bg-hover:hover { background-color: #0DBC37; color: black; }
+.c7-bg, .c7-bg-hover:hover, .seasonal-accent { background-color: #67E767; color: black; }
+.c8-bg, .c8-bg-hover:hover { background-color: #722EA5; color: white; }
+.c9-bg, .c9-bg-hover:hover { background-color: #E6007C; color: white; }
+.c10-bg, .c10-bg-hover:hover, .flickr:hover, .seasonal { background-color: #EF3AAB; color: black; }
+.c11-bg, .c11-bg-hover:hover { background-color: #D73058; color: white; }
+.c12-bg, .c12-bg-hover:hover { background-color: #D60303; color: white; }
+.c13-bg, .c13-bg-hover:hover { background-color: #FF6700; color: black; }
+.c14-bg, .c14-bg-hover:hover { background-color: #F9BC26; color: black; }
+.s1-bg, .s1-bg-hover:hover { background-color: #2f529f; color: white; }
+.s2-bg, .s2-bg-hover:hover { background-color: #00ace8; color: black; }
+.s3-bg, .s3-bg-hover:hover { background-color: #7dc5ea; color: black; }
+.b1-bg { background-color: #000000; color: white; }
+.b2-bg { background-color: #333333; color: white; }
+.b3-bg, .github:hover { background-color: #999999; color: black; }
+.b4-bg { background-color: #bbbbbb; color: black; }
+.b5-bg { background-color: #dfdfdf; color: black; }
+.b6-bg { background-color: #ffffff; color: black; }
+button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
+.c1-bg .button, .c2-bg .button, .c3-bg .button, .c4-bg .button, .c5-bg .button, .c6-bg .button, .c7-bg .button, .c8-bg .button, .c9-bg .button, .c10-bg .button, .c11-bg .button, .c12-bg .button, .c13-bg .button, .c14-bg .button { background-color: #efefef; color: black!important; }
+button:hover, a.button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
+.c8-bg a { color: inherit; }
+
+#hexmap {
+	margin: auto;
+	max-width: 100%;
+	position: relative;
+}
+.infobubble {
+    z-index: 3;
+    top: 1em;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    position: fixed;
+    text-align: center;
+    margin-right: -50%;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+    background-color: white;
+    padding: 0.5em 1em;
+}
+code,pre {
+	font-family: monospace;
+	color: #555555;
+	background-color: white;
+}
+code {
+	padding: 0.125em 0.25em;
+}
+pre {
+	max-width: 100%;
+	overflow-x: auto;
+	padding: 16px;
+	margin-bottom: 16px;
+}
+#main ul { list-style: disc; }
+#main ol { list-style: decimal; }
+#main ul, #main ol { margin-left: 2em; }
+
+
+.spinner {
+	margin: auto;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+.spinner > div {
+	height: 100%;
+	width: 6px;
+	margin-right: 1px;
+	display: inline-block;
+	-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+	animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+.spinner .rect2 {
+	-webkit-animation-delay: -1.1s;
+	animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+	-webkit-animation-delay: -1.0s;
+	animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+	-webkit-animation-delay: -0.9s;
+	animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+	-webkit-animation-delay: -0.8s;
+	animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+	20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+	0%, 40%, 100% { 
+		transform: scaleY(0.4);
+		-webkit-transform: scaleY(0.4);
+	}  20% { 
+		transform: scaleY(1.0);
+		-webkit-transform: scaleY(1.0);
+	}
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.centre-block {
+		left: 5%;
+		transform: translate3d(0%,0%, 0);
+		top: 5%;
+		width: 90%;
+	}
+}

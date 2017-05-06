@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hex map of UK constituencies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.github.io/hexmaps/hexjson">
+	<meta name="twitter:title" property="og:title" content="Hex map of UK constituencies">
+	<meta name="twitter:description" property="og:description" content="The 2017 UK parliamentary constituencies as a point-topped hex map.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/resources/images/odileeds.png">
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<script type="text/javascript" src="http://slowe.github.io/stuquery/js/stuquery.js"></script>
+	<script type="text/javascript" src="http://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+	<script type="text/javascript" src="resources/hex.js"></script>
+	<script>
+	var hex;
+	S(document).ready(function(){
+		hex = new HexMap('hexmap',915,1120,16,"maps/constituencies.hexjson");
+	});
+	</script>
+</head>
+<body>
+
+	<div id="main">
+
+		<div class="b1-bg">
+			<div class="holder">
+				<div id="infobutton" style="float:right;">&#8505;</div>
+				<h1>Hex map of UK constituencies</h1>
+			</div>
+		</div>
+
+		<div class="holder">
+			<p>We've created a (pointy-topped) hex map of UK parliamentary constituencies. We had to make some compromises. If you disagree, move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Make sure to save the resulting <a href="hexjson.html">HexJSON file</a> so you have your version for the future. You can also save the map as an scalable vector graphic (SVG).</p>
+		</div>
+
+		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
+
+		<div id="hexmap"></div>
+
+		<div class="holder">
+			<button id="save" class="c10-bg"></button>
+			<button id="savesvg" class="c10-bg"></button>
+		</div>
+		
+	</div>
+	
+	<footer class="b1-bg">
+		<div class="holder">
+			&copy; 2017 ODI Leeds. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+		</div>
+	</footer>
+	
+</body>
+</html>

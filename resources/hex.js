@@ -321,9 +321,10 @@ function HexMap(id,w,h,s,file){
 				var _obj = this.hexes[region];
 				_obj.id = 'hex-'+region;
 				_obj.on('mouseover',{hexmap:this,me:_obj,region:region,pop:this.mapping.hexes[region].p},function(e){
-					rs = {'SC':'Scotland','NI':'Northern Ireland','WA':'Wales','NE':'North East','NW':'North West','YH':'Yorkshire &amp; Humber','WM':'West Midlands','EM':'East Midlands','EA':'East Anglia','LO':'London','SE':'South East','SW':'South West'};
-					if(e.data.hexmap.by == "population") lbl = (e.data.hexmap.mapping.hexes[e.data.region].label ? e.data.hexmap.mapping.hexes[e.data.region].label : this.attr('title')+'<br />Population: '+e.data.pop);
-					if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data[e.data.region];
+					var rs = {'SC':'Scotland','NI':'Northern Ireland','WA':'Wales','NE':'North East','NW':'North West','YH':'Yorkshire &amp; Humber','WM':'West Midlands','EM':'East Midlands','EA':'East Anglia','LO':'London','SE':'South East','SW':'South West'};
+					var lbl = e.data.hexmap.mapping.hexes[e.data.region].label;
+					if(e.data.hexmap.by == "population") lbl = this.attr('title')+'<br />Population: '+e.data.pop;
+					else if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data[e.data.region];
 					else lbl = this.attr('title')+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 					e.data.hexmap.label(e.data.hexmap.id,lbl);
 					e.data.me.attr({'fill-opacity':0.8});//'fill':(e.data.me.selected ? colour : colour_selected)});

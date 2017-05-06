@@ -407,7 +407,7 @@ function HexMap(id,w,h,s,file){
 			if(type == "population") this.hexes[region].fillcolour = getColour(this.values[region]);
 			else if(type == "party") this.hexes[region].fillcolour = getPartyColour(this.data["2015"][region]);
 			else if(type == "referendum") this.hexes[region].fillcolour = getColour(1 - (this.data["referendum"][region]-0.2)/0.6);
-			else this.hexes[region].fillcolour = getColour(this.mapping.hexes[region].a);
+			else if(type == "region") this.hexes[region].fillcolour = getRegionColour(this.mapping.hexes[region].a);
 			this.hexes[region].attr({'fill':this.hexes[region].fillcolour });
 		}
 		return this;

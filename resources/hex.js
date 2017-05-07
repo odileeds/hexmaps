@@ -27,12 +27,15 @@ function HexMap(id,w,h,s,file){
 		// Add event to button
 		S('#savesvg').on('click',{me:this},function(e){ e.data.me.saveSVG(); });
 
+		function updateClass(btn){
+			S('.switchdata').addClass('b5-bg').removeClass('c10-bg');btn.removeClass('b5-bg').addClass('c10-bg');
+		}
 		// Add event to button
-		S('#colour-pop').on('click',{me:this},function(e){ e.data.me.setColours('population'); });
-		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours('region'); });
-		S('#colour-pty').on('click',{me:this},function(e){ e.data.me.setColours('party'); });
-		S('#colour-ref').on('click',{me:this},function(e){ e.data.me.setColours('referendum'); });
-		S('#colour-can').on('click',{me:this},function(e){ e.data.me.setColours('candidates'); });
+		S('#colour-pop').on('click',{me:this},function(e){ e.data.me.setColours('population'); updateClass(this); });
+		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours('region'); updateClass(this); });
+		S('#colour-pty').on('click',{me:this},function(e){ e.data.me.setColours('party'); updateClass(this); });
+		S('#colour-ref').on('click',{me:this},function(e){ e.data.me.setColours('referendum'); updateClass(this); });
+		S('#colour-can').on('click',{me:this},function(e){ e.data.me.setColours('candidates'); updateClass(this); });
 
 	}else{
 		S('#save').css({'display':'none'});
@@ -372,7 +375,6 @@ function HexMap(id,w,h,s,file){
 	}
 	
 	this.loadResults = function(type){
-		console.log('here')
 		if(!type) type = "2015";
 
 		if(!this.data) this.data = {};
@@ -429,7 +431,6 @@ function HexMap(id,w,h,s,file){
 	this.setColours = function(type){
 		if(!type) type = "region";
 		this.by = type;
-		console.log(type)
 		if(type == "party" && (!this.data || !this.data["2015"])) return this.loadResults("2015");
 		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
 		if(type == "candidates" && (!this.data || !this.data["candidates"])) return this.loadResults("candidates");

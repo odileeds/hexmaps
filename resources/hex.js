@@ -349,9 +349,13 @@ function HexMap(id,w,h,s,file){
 					S('.infobubble').remove();
 					e.data.me.attr({'fill-opacity':0.5});//{'fill':(e.data.me.selected ? e.data.me.fillcolour : colour_selected)});
 				}).on('click',{hexmap:this,region:region,me:_obj},function(e){
-					e.data.hexmap.selectRegion(e.data.region)
-					e.data.hexmap.label(e.data.hexmap.id,this.attr('title'));
-					e.data.me.attr({'fill':(e.data.me.selected ? colour : colour_selected)});
+					if(e.data.hexmap.by=="candidates"){
+						location.href = "https://candidates.democracyclub.org.uk/election/parl.2017-06-08/post/WMC:"+e.data.region+"/";
+					}else{
+						e.data.hexmap.selectRegion(e.data.region)
+						e.data.hexmap.label(e.data.hexmap.id,this.attr('title'));
+						e.data.me.attr({'fill':(e.data.me.selected ? colour : colour_selected)});
+					}
 				});
 			}
 			this.hexes[region].fillcolour = getRegionColour(this.mapping.hexes[region].a);

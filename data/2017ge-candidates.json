@@ -815,7 +815,9 @@
 		{ "n": "Andy Redfern", "g": "m", "p": "Green Party", "i": 2189 }
 	],
 	"E14000710": [
-		{ "n": "Vernon Coaker", "g": "m", "p": "Labour Party", "i": 1272 }
+		{ "n": "Carolyn Abbott", "g": "f", "p": "Conservative and Unionist Party", "i": 4900 },
+		{ "n": "Vernon Coaker", "g": "m", "p": "Labour Party", "i": 1272 },
+		{ "n": "Lee Waters", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4902 }
 	],
 	"E14000711": [
 		{ "n": "Rehman Chishti", "g": "m", "p": "Conservative and Unionist Party", "i": 2225 },
@@ -1026,6 +1028,7 @@
 		{ "n": "James Smith", "g": "m", "p": "Something New", "i": 4582 }
 	],
 	"E14000754": [
+		{ "n": "Richard Peter Bradley", "g": "m", "p": "Green Party", "i": 11628 },
 		{ "n": "Paul Edgeworth", "g": "m", "p": "Liberal Democrats", "i": 11618 },
 		{ "n": "Bridget Phillipson", "g": "f", "p": "Labour Party", "i": 3733 }
 	],
@@ -2071,6 +2074,7 @@
 	],
 	"E14000982": [
 		{ "n": "Julie Elliott", "g": "f", "p": "Labour Party", "i": 3985 },
+		{ "n": "Rachel Featherstone", "g": "f", "p": "Green Party", "i": 6271 },
 		{ "n": "Niall Dane Hodson", "g": "", "p": "Liberal Democrats", "i": 11589 },
 		{ "n": "Robert Oliver", "g": "m", "p": "Conservative and Unionist Party", "i": 4121 }
 	],
@@ -2358,6 +2362,7 @@
 	"E14001047": [
 		{ "n": "James William Brierley", "g": "m", "p": "Green Party", "i": 13589 },
 		{ "n": "Fiona Colley", "g": "", "p": "Labour Party", "i": 34486 },
+		{ "n": "Will Forster", "g": "m", "p": "Liberal Democrats", "i": 13560 },
 		{ "n": "Jonathan Lord", "g": "m", "p": "Conservative and Unionist Party", "i": 2546 }
 	],
 	"E14001048": [

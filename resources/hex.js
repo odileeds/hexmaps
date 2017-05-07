@@ -32,6 +32,7 @@ function HexMap(id,w,h,s,file){
 		S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours('region'); });
 		S('#colour-pty').on('click',{me:this},function(e){ e.data.me.setColours('party'); });
 		S('#colour-ref').on('click',{me:this},function(e){ e.data.me.setColours('referendum'); });
+		S('#colour-can').on('click',{me:this},function(e){ e.data.me.setColours('candidates'); });
 
 	}else{
 		S('#save').css({'display':'none'});
@@ -251,6 +252,16 @@ function HexMap(id,w,h,s,file){
 		rs = {'YH':'#F9BC26','EM':'#00B6FF','WM':'#E6007C','EA':'#FF6700','SC':'#2254F4','NI':'#722EA5','WA':'#0DBC37','NW':'#1DD3A7','NE':'#D60303','SW':'#178CFF','LO':'#D73058','SE':'#67E767'};
 		return (rs[r] || colour);
 	}
+	function getCandidateColour(n){
+		c = '#2254F4';
+		if(n > 1) c = '#178CFF';
+		if(n > 2) c = '#00B6FF';
+		if(n > 3) c = '#08DEF9';
+		if(n > 4) c = '#1DD3A7';
+		if(n > 5) c = '#67E767';
+		if(n > 6) c = '#F9BC26';
+		return c;
+	}
 	function getPartyColour(r){
 		var p = {'Con':'#2254F4','Lab':'#D60303','LD':'#F9BC26','SNP':'#FF6700','PC':'#1DD3A7','UKIP':'#722EA5','Green':'#0DBC37','DUP':'#4f4c9a','SDLP':'#fbb675','SF':'#b6c727','UUP':'#EF3AAB','Ind':'#dfdfdf','Spk':'#909090'};
 		return (p[r] || colour);
@@ -325,7 +336,13 @@ function HexMap(id,w,h,s,file){
 					if(e.data.hexmap.by == "population") lbl = this.attr('title')+'<br />Population: '+e.data.pop;
 					else if(e.data.hexmap.by == "party") lbl = this.attr('title')+'<br />Party: '+e.data.hexmap.data['2015'][e.data.region];
 					else if(e.data.hexmap.by == "referendum") lbl = this.attr('title')+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
-					else lbl = this.attr('title')+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
+					else if(e.data.hexmap.by == "candidates"){
+						lbl = this.attr('title');
+						var c = e.data.hexmap.data['candidates'][e.data.region];
+						for(var i = 0; i < c.length; i++){
+							lbl += '<br /><strong><!--<a href="https://candidates.democracyclub.org.uk/person/'+c[i].i+'">-->'+c[i].n+'<!--</a>--></strong> - '+c[i].p;
+						}
+					}else lbl = this.attr('title')+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 					e.data.hexmap.label(e.data.hexmap.id,lbl);
 					e.data.me.attr({'fill-opacity':0.8});//'fill':(e.data.me.selected ? colour : colour_selected)});
 				}).on('mouseout',{hexmap:this,me:_obj},function(e){
@@ -373,6 +390,16 @@ function HexMap(id,w,h,s,file){
 				'error':function(){},
 				'dataType':'csv'
 			});
+		}else if(type == "candidates"){
+			S().ajax('data/2017ge-candidates.json',{
+				'complete':function(d){
+					this.data[type] = d;
+					this.setColours("candidates");
+				},
+				'this': this,
+				'error':function(){},
+				'dataType':'json'
+			});
 		}else{
 			S().ajax('data/2015results.csv',{
 				'complete':function(d){
@@ -401,10 +428,12 @@ function HexMap(id,w,h,s,file){
 		console.log(type)
 		if(type == "party" && (!this.data || !this.data["2015"])) return this.loadResults("2015");
 		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
+		if(type == "candidates" && (!this.data || !this.data["candidates"])) return this.loadResults("candidates");
 		for(region in this.mapping.hexes){
 			if(type == "population") this.hexes[region].fillcolour = getColour(this.values[region]);
 			else if(type == "party") this.hexes[region].fillcolour = getPartyColour(this.data["2015"][region]);
 			else if(type == "referendum") this.hexes[region].fillcolour = getColour(1 - (this.data["referendum"][region]-0.2)/0.6);
+			else if(type == "candidates") this.hexes[region].fillcolour = getCandidateColour(this.data["candidates"][region].length);
 			else if(type == "region") this.hexes[region].fillcolour = getRegionColour(this.mapping.hexes[region].a);
 			this.hexes[region].attr({'fill':this.hexes[region].fillcolour });
 		}

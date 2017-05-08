@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="holder">
-			<p>We want to make sharing hexagon-based maps - such as our <a href="constituencies.html">UK constituency hex map</a> - easy. We've defined a simple JSON format to achieve that. The format is:</p>
+			<p>We want to make sharing hexagon-based maps - such as our <a href="constituencies.html">UK constituency hex map</a> - easy. We've defined a simple <a href="http://jsonlint.com/">JSON format</a> to achieve that. The format is:</p>
 			<pre><code>{
 	"layout": "odd-r",
 	"hexes": {
@@ -39,7 +39,7 @@
 		"E14000531":{"q":-3,"r":-1}
 	}
 }</code></pre>
-			<p>The <code>layout</code> property is one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a>:</p>
+			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a>:</p>
 			<ul>
 				<li><code>odd-r</code> (pointy-topped)</li>
 				<li><code>even-r</code> (pointy-topped)</li>
@@ -47,6 +47,30 @@
 				<li><code>even-q</code> (flat-topped)</li>
 			</ul>
 			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates.</p>
+			<p>You can add your own custom data fields to each hex if you want to. Just make sure you don't use the keys <code>q</code> and <code>r</code> as they will be the coordinates e.g.</p>
+			<pre><code>{
+	"layout": "odd-r",
+	"hexes": {
+		"E14000530":{
+			"name": "Aldershot",
+			"q": -3,
+			"r": -11,
+			"area": "SE",
+			"NUTS1": "UKJ",
+			"electorate": 72430
+		},
+		"E14000531":{
+			"name": "Aldridge-Brownhills",
+			"q": -3,
+			"r": -1,
+			"area": "WM",
+			"NUTS1": "UKG",
+			"electorate": 60215
+		}
+		...
+	}
+}</code></pre>
+
 		</div>
 	</div>
 

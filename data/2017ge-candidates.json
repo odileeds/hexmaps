@@ -615,6 +615,7 @@
 	],
 	"E14000662": [
 		{ "n": "Lucy Care", "g": "f", "p": "Liberal Democrats", "i": 284 },
+		{ "n": "Amanda Solloway", "g": "f", "p": "Conservative and Unionist Party", "i": 4183 },
 		{ "n": "Chris Williamson", "g": "m", "p": "Labour Party", "i": 373 }
 	],
 	"E14000663": [
@@ -692,7 +693,8 @@
 		{ "n": "Glanville Williams", "g": "m", "p": "Liberal Democrats", "i": 15513 }
 	],
 	"E14000680": [
-		{ "n": "Rohit Dasgupta", "g": "m", "p": "Labour Party", "i": 34283 }
+		{ "n": "Rohit Dasgupta", "g": "m", "p": "Labour Party", "i": 34283 },
+		{ "n": "Damian Hinds", "g": "m", "p": "Conservative and Unionist Party", "i": 3449 }
 	],
 	"E14000681": [
 		{ "n": "Sam Gyimah", "g": "m", "p": "Conservative and Unionist Party", "i": 3936 },
@@ -707,6 +709,7 @@
 		{ "n": "Greg Knight", "g": "m", "p": "Conservative and Unionist Party", "i": 2878 }
 	],
 	"E14000684": [
+		{ "n": "Caroline Ansell", "g": "f", "p": "Conservative and Unionist Party", "i": 4188 },
 		{ "n": "Alex Hough", "g": "f", "p": "Green Party", "i": 29753 },
 		{ "n": "Jake Lambert", "g": "m", "p": "Labour Party", "i": 5292 },
 		{ "n": "Stephen Lloyd", "g": "m", "p": "Liberal Democrats", "i": 1056 }
@@ -1218,9 +1221,6 @@
 		{ "n": "Louise Ellman", "g": "f", "p": "Labour and Co-operative Party", "i": 2159 },
 		{ "n": "Stephanie Pitchers", "g": "f", "p": "Green Party", "i": 34494 }
 	],
-	"E14000794": [
-		{ "n": "Stephen Philip Rotheram", "g": "m", "p": "Labour Party", "i": 822 }
-	],
 	"E14000795": [
 		{ "n": "Luciana Berger", "g": "f", "p": "Labour and Co-operative Party", "i": 2709 }
 	],
@@ -1294,6 +1294,7 @@
 	],
 	"E14000809": [
 		{ "n": "Sally Carr", "g": "f", "p": "Women's Equality Party", "i": 13712 },
+		{ "n": "Sarah Heald", "g": "f", "p": "Conservative and Unionist Party", "i": 34521 },
 		{ "n": "John Leech", "g": "m", "p": "Liberal Democrats", "i": 1554 },
 		{ "n": "Jeff Smith", "g": "m", "p": "Labour Party", "i": 4378 }
 	],

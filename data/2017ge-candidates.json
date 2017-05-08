@@ -189,6 +189,7 @@
 		{ "n": "Kate Hollern", "g": "f", "p": "Labour Party", "i": 4269 }
 	],
 	"E14000571": [
+		{ "n": "David Goss", "g": "", "p": "Conservative and Unionist Party", "i": 34523 },
 		{ "n": "Graham Stringer", "g": "m", "p": "Labour Party", "i": 1179 }
 	],
 	"E14000572": [
@@ -470,7 +471,8 @@
 		{ "n": "Peter Jones", "g": "m", "p": "Liberal Democrats", "i": 3047 }
 	],
 	"E14000632": [
-		{ "n": "Toby Perkins", "g": "m", "p": "Labour Party", "i": 582 }
+		{ "n": "Toby Perkins", "g": "m", "p": "Labour Party", "i": 582 },
+		{ "n": "Spencer Pitfield", "g": "m", "p": "Conservative and Unionist Party", "i": 2869 }
 	],
 	"E14000633": [
 		{ "n": "Jonathan Brown", "g": "m", "p": "Liberal Democrats", "i": 34188 },
@@ -554,7 +556,8 @@
 	],
 	"E14000649": [
 		{ "n": "Colleen Fletcher", "g": "f", "p": "Labour Party", "i": 4315 },
-		{ "n": "Matthew Handley", "g": "m", "p": "Green Party", "i": 6934 }
+		{ "n": "Matthew Handley", "g": "m", "p": "Green Party", "i": 6934 },
+		{ "n": "Tim Mayer", "g": "m", "p": "Conservative and Unionist Party", "i": 11848 }
 	],
 	"E14000650": [
 		{ "n": "Mick Gee", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5563 },
@@ -988,6 +991,7 @@
 	"E14000742": [
 		{ "n": "Robin Francis Bennett", "g": "m", "p": "Green Party", "i": 24338 },
 		{ "n": "Laura Coyle", "g": "f", "p": "Liberal Democrats", "i": 6582 },
+		{ "n": "John Howell", "g": "m", "p": "Conservative and Unionist Party", "i": 1682 },
 		{ "n": "Oliver Kavanagh", "g": "m", "p": "Labour Party", "i": 34473 }
 	],
 	"E14000743": [
@@ -1051,6 +1055,7 @@
 		{ "n": "Peter Kyle", "g": "m", "p": "Labour Party", "i": 4358 }
 	],
 	"E14000756": [
+		{ "n": "Scott Benton", "g": "m", "p": "Conservative and Unionist Party", "i": 19718 },
 		{ "n": "Andrew Cooper", "g": "m", "p": "Green Party", "i": 2182 },
 		{ "n": "Barry Sheerman", "g": "m", "p": "Labour and Co-operative Party", "i": 2183 }
 	],
@@ -1087,6 +1092,7 @@
 		{ "n": "Caroline Russell", "g": "f", "p": "Green Party", "i": 4750 }
 	],
 	"E14000764": [
+		{ "n": "Jason Charalambous‏", "g": "m", "p": "Conservative and Unionist Party", "i": 34524 },
 		{ "n": "Alain Desmier", "g": "m", "p": "Liberal Democrats", "i": 34139 },
 		{ "n": "Benali Hamdache", "g": "m", "p": "Green Party", "i": 7778 },
 		{ "n": "Emily Thornberry", "g": "f", "p": "Labour Party", "i": 2519 }
@@ -1101,6 +1107,7 @@
 		{ "n": "Kris Hopkins", "g": "m", "p": "Conservative and Unionist Party", "i": 1607 }
 	],
 	"E14000767": [
+		{ "n": "Bally Singh", "g": "m", "p": "Labour Party", "i": 4364 },
 		{ "n": "Jeremy Wright", "g": "m", "p": "Conservative and Unionist Party", "i": 1604 }
 	],
 	"E14000768": [
@@ -1207,6 +1214,7 @@
 	],
 	"E14000790": [
 		{ "n": "John Cryer", "g": "m", "p": "Labour Party", "i": 3601 },
+		{ "n": "Laura Farris", "g": "f", "p": "Conservative and Unionist Party", "i": 34522 },
 		{ "n": "Benjamin Sims", "g": "m", "p": "Liberal Democrats", "i": 34137 }
 	],
 	"E14000791": [
@@ -1354,7 +1362,8 @@
 	"E14000822": [
 		{ "n": "Graham Findlay", "g": "m", "p": "Green Party", "i": 34264 },
 		{ "n": "Tahir Maher", "g": "m", "p": "Liberal Democrats", "i": 34176 },
-		{ "n": "Hannah Frances O'Neill", "g": "f", "p": "Labour Party", "i": 13327 }
+		{ "n": "Hannah Frances O'Neill", "g": "f", "p": "Labour Party", "i": 13327 },
+		{ "n": "Iain Stewart", "g": "m", "p": "Conservative and Unionist Party", "i": 2180 }
 	],
 	"E14000823": [
 		{ "n": "Laura Collins", "g": "f", "p": "Green Party", "i": 34167 },
@@ -1704,7 +1713,7 @@
 	],
 	"E14000896": [
 		{ "n": "Zac Goldsmith", "g": "m", "p": "Conservative and Unionist Party", "i": 502 },
-		{ "n": "Sarah Holney", "g": "f", "p": "Liberal Democrats", "i": 34333 },
+		{ "n": "Sarah Olney", "g": "f", "p": "Liberal Democrats", "i": 34333 },
 		{ "n": "Cate Tuitt", "g": "f", "p": "Labour Party", "i": 34390 }
 	],
 	"E14000897": [
@@ -1895,6 +1904,7 @@
 		{ "n": "Sheryll Murray", "g": "f", "p": "Conservative and Unionist Party", "i": 1021 }
 	],
 	"E14000939": [
+		{ "n": "Julia Cambridge", "g": "f", "p": "Liberal Democrats", "i": 4487 },
 		{ "n": "John Hayes", "g": "m", "p": "Conservative and Unionist Party", "i": 3445 },
 		{ "n": "Wojciech Kowalewski", "g": "m", "p": "Labour Party", "i": 30059 },
 		{ "n": "Daniel Wilshire", "g": "m", "p": "Green Party", "i": 6378 }
@@ -1965,7 +1975,7 @@
 	"E14000953": [
 		{ "n": "David Black", "g": "m", "p": "Labour Party", "i": 34475 },
 		{ "n": "Jeremy Hunt", "g": "m", "p": "Conservative and Unionist Party", "i": 3155 },
-		{ "n": "Louise Irvine", "g": "f", "p": "National Health Action Party", "i": 4583 }
+		{ "n": "Marie-Louise Irvine", "g": "f", "p": "National Health Action Party", "i": 4583 }
 	],
 	"E14000954": [
 		{ "n": "Andrew Murrison", "g": "m", "p": "Conservative and Unionist Party", "i": 1022 }
@@ -2057,6 +2067,7 @@
 	],
 	"E14000974": [
 		{ "n": "Peter Andras", "g": "m", "p": "Liberal Democrats", "i": 3488 },
+		{ "n": "Jack Brereton", "g": "m", "p": "Conservative and Unionist Party", "i": 19836 },
 		{ "n": "Rob Flello", "g": "m", "p": "Labour Party", "i": 3387 }
 	],
 	"E14000975": [
@@ -2065,7 +2076,8 @@
 		{ "n": "Samantha Pancheri", "g": "f", "p": "Green Party", "i": 5224 }
 	],
 	"E14000976": [
-		{ "n": "Pete Lowe", "g": "m", "p": "Labour Party", "i": 4443 }
+		{ "n": "Pete Lowe", "g": "m", "p": "Labour Party", "i": 4443 },
+		{ "n": "Andi Mohr", "g": "m", "p": "Green Party", "i": 16338 }
 	],
 	"E14000977": [
 		{ "n": "Elizabeth Adams", "g": "f", "p": "Liberal Democrats", "i": 4535 },
@@ -2130,6 +2142,7 @@
 		{ "n": "Kuldip Sahota", "g": "m", "p": "Labour Party", "i": 34353 }
 	],
 	"E14000990": [
+		{ "n": "Manjinder Singh Kang", "g": "m", "p": "Labour Party", "i": 4771 },
 		{ "n": "Laurence Robertson", "g": "m", "p": "Conservative and Unionist Party", "i": 1900 }
 	],
 	"E14000991": [
@@ -2311,7 +2324,8 @@
 	"E14001032": [
 		{ "n": "Lyn Brown", "g": "f", "p": "Labour Party", "i": 2259 },
 		{ "n": "Rachel Collinson", "g": "f", "p": "Green Party", "i": 6926 },
-		{ "n": "Paul Reynolds", "g": "m", "p": "Liberal Democrats", "i": 4046 }
+		{ "n": "Paul Reynolds", "g": "m", "p": "Liberal Democrats", "i": 4046 },
+		{ "n": "Patrick Spencer", "g": "m", "p": "Conservative and Unionist Party", "i": 34525 }
 	],
 	"E14001033": [
 		{ "n": "Rosie Cooper", "g": "f", "p": "Labour Party", "i": 4066 },
@@ -2350,6 +2364,7 @@
 	],
 	"E14001040": [
 		{ "n": "Charles Barraball", "g": "m", "p": "Green Party", "i": 6342 },
+		{ "n": "Stephen Hammond", "g": "m", "p": "Conservative and Unionist Party", "i": 2253 },
 		{ "n": "Carl Quilliam", "g": "m", "p": "Liberal Democrats", "i": 6027 },
 		{ "n": "Imran Uddin", "g": "m", "p": "Labour Party", "i": 34395 }
 	],

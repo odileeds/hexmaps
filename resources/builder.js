@@ -149,7 +149,6 @@ function Builder(id,w,h,padding,file){
 					}else if(typ == "csv"){
 						var cols = result.slice(0,result.indexOf("\n")).split(/,(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))/);
 						var data = _obj.parseCSV(result,{'url':f.name,'cols':cols.length,'rows':lines.length});
-						console.log(data)
 						_obj.data = { 'layout': 'odd-r', 'hexes': {} };
 						// Create a HexJSON format
 						for(var i = 0; i < data.rows.length; i++){
@@ -170,7 +169,6 @@ function Builder(id,w,h,padding,file){
 						for(var region in _obj.data.hexes){
 							q = _obj.data.hexes[region].q;
 							r = _obj.data.hexes[region].r;
-							console.log(region,q,r)
 							if(typeof q==="number" && typeof r==="number"){
 								if(!got[q]) got[q] = {};
 								got[q][r] = true;
@@ -347,7 +345,6 @@ function Builder(id,w,h,padding,file){
 			}
 		}
 		
-		console.log(header)
 		// Now, for each column, we sum the different formats we've found
 		var format = new Array(header.length);
 		for(var j = 0; j < header.length; j++){

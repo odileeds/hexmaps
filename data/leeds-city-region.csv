@@ -1,0 +1,11 @@
+name,url,q,r
+"Barnsley","https://www.barnsley.gov.uk/",0,-2
+"Bradford","http://bradford.gov.uk/",-1,0
+"Calderdale","http://calderdale.gov.uk/",-2,-1
+"Craven","http://www.cravendc.gov.uk/",-2,1
+"Harrogate","https://www.harrogate.gov.uk/",-1,1
+"Kirklees","http://kirklees.gov.uk/",-1,-1
+"Leeds","http://leeds.gov.uk/",0,0
+"Selby","http://www.selby.gov.uk/",1,0
+"Wakefield","http://wakefield.gov.uk/",0,-1
+"York","http://york.gov.uk/",0,1

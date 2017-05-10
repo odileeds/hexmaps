@@ -1,0 +1,15 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"Barnsley":{"n":"Barnsley","colour":"#E6007C","q":0,"r":-2},
+		"Bradford":{"n":"Bradford","colour":"#FF6700","q":-1,"r":0},
+		"Calderdale":{"n":"Calderdale","colour":"#0DBC37","q":-2,"r":-1},
+		"Craven":{"n":"Craven","colour":"#178CFF","q":-2,"r":1},
+		"Harrogate":{"n":"Harrogate","colour":"#2f529f","q":-1,"r":1},
+		"Kirklees":{"n":"Kirklees","colour":"#722EA5","q":-1,"r":-1},
+		"Leeds":{"n":"Leeds","colour":"#F9BC26","q":0,"r":0},
+		"Selby":{"n":"Selby","colour":"#1DD3A7","q":1,"r":0},
+		"Wakefield":{"n":"Wakefield","colour":"#EF3AAB","q":0,"r":-1},
+		"York":{"n":"York","colour":"#000000","q":0,"r":1}
+	}
+}

@@ -1,26 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Hex map of UK constituencies</title>
+	<title>Hex map builder</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@ODILeeds">
-	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/constituencies">
-	<meta name="twitter:title" property="og:title" content="Hex map of UK constituencies">
-	<meta name="twitter:description" property="og:description" content="The 2017 UK parliamentary constituencies as a point-topped hex map.">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/builder">
+	<meta name="twitter:title" property="og:title" content="Hex map builder">
+	<meta name="twitter:description" property="og:description" content="Create your own point-topped hex map from a data file.">
 	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
 	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
 	<script type="text/javascript" src="resources/stuquery.hexmap.js"></script>
-	<script type="text/javascript" src="resources/constituencies.js"></script>
+	<script type="text/javascript" src="resources/builder.js"></script>
 	<script>
-	var constituencies;
+	var builder;
 	S(document).ready(function(){
-		constituencies = new Constituencies('hexmap',915,1120,2,"maps/constituencies.hexjson");
+		builder = new Builder('hexmap',1080,1220,2);
 	});
 	</script>
+	<style>
+	.dropzone {
+		border: 2px dashed #999999;
+		border-radius: 5px;
+		color: #333333;
+		padding: 25px;
+		text-align: center;
+		position: relative;
+	}
+	.dropzone.loaded {
+		border: 2px solid #333333;
+		color: #333333;
+	}
+	.dropzone.loaded .helpertext {
+		display: none;
+	}
+	.dropzone.drop {
+		background-color: #ddd;
+	}
+	.dropzone input {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+	}
+	</style>
 </head>
 <body>
 
@@ -29,22 +57,20 @@
 		<div class="b1-bg">
 			<div class="holder">
 				<div id="infobutton" style="float:right;">&#8505;</div>
-				<h1>Hex map of UK constituencies</h1>
+				<h1>Hex map builder</h1>
 			</div>
 		</div>
 
 		<div class="holder">
-			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies. We had to make some compromises. If you disagree, move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Make sure to save the resulting <a href="hexjson.html">HexJSON file</a> so you have your version for the future. You can also save the map as a scalable vector graphic (SVG).</p>
-			<p style="text-align:center;">Colour by: 
-			<button id="colour-pop" class="switchdata b5-bg">population</button>
-			<button id="colour-reg" class="switchdata c10-bg">region</button>
-			<button id="colour-pty" class="switchdata b5-bg">2015 General Election</button>
-			<button id="colour-ref" class="switchdata b5-bg">EU Ref estimates</button>
-			<button id="colour-can" class="switchdata b5-bg">2017 General Election candidates</button>
-			</p>
+			<p>We've created a tool to help you make hex maps from your own data (we <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">created one</a> for <a href="constituencies.html">UK parliamentary constituencies</a>). Load a csv file (or a <a href="hexjson.html">HexJSON file</a>). The first column should contain a unique key. Move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Save the output.</p>
+			
+			<div id="drop_zone" class="dropzone block">
+				<div class="helpertext">
+					Drop a CSV or HexJSON file here (or click to browse files)<br />
+					<input id="standard_files" class="fileselect" type="file" title="browse" name="files[]" multiple="multiple" accept=".csv, .hexjson">
+				</div>
+			</div>
 		</div>
-
-		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
 
 		<div id="hexmap"></div>
 

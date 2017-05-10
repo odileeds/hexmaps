@@ -120,9 +120,8 @@ function Builder(id,w,h,padding,file){
 			if(this.file.indexOf(".hexjson")>=0){
 				typ = "hexjson";
 			}
-			f.type = typ;
 
-			output += '<div><strong>'+ escape(f.name)+ '</strong> ('+ (f.type || 'n/a')+ ') - ' + niceSize(f.size) + ', last modified: ' + (f.lastModified ? (new Date(f.lastModified)).toLocaleDateString() : 'n/a') + '</div>';
+			output += '<div><strong>'+ escape(f.name)+ '</strong> - ' + niceSize(f.size) + ', last modified: ' + (f.lastModified ? (new Date(f.lastModified)).toLocaleDateString() : 'n/a') + '</div>';
 
 			// DEPRECATED as not reliable // Only process csv files.
 			//if(!f.type.match('text/csv')) continue;

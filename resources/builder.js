@@ -149,12 +149,18 @@ function Builder(id,w,h,padding,file){
 						var cols = result.slice(0,result.indexOf("\n")).split(/,(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))/);
 						var data = _obj.parseCSV(result,{'url':f.name,'cols':cols.length,'rows':lines.length});
 						_obj.data = { 'layout': 'odd-r', 'hexes': {} };
+						var id = 0;
+						if(data.rows > 0){
+							for(var j = 0; j < data.rows[0].length; j++){
+								if(data.rows[0][j]=="id") id = j;
+							}
+						}
 						// Create a HexJSON format
 						for(var i = 0; i < data.rows.length; i++){
 							// Set a default in case it doesn't exist
-							_obj.data.hexes[data.rows[i][0]] = { "n": data.rows[i][0] }
+							_obj.data.hexes[data.rows[i][id]] = { "n": data.rows[i][id] };
 							// Set the properties of the hex
-							for(var j = 1; j < data.rows[i].length; j++){
+							for(var j = 0; j < data.rows[i].length; j++){
 								if(data.fields.format[j]=="integer") data.rows[i][j] = parseInt(data.rows[i][j]);
 								if(data.fields.format[j]=="float") data.rows[i][j] = parseFloat(data.rows[i][j]);
 								if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j]=="true" ? true : false);

@@ -62,7 +62,7 @@
 		</div>
 
 		<div class="holder">
-			<p>We've created a tool to help you make hex maps from your own data (we <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">created one</a> for <a href="constituencies.html">UK parliamentary constituencies</a>). Load a csv file (or a <a href="hexjson.html">HexJSON file</a>). The first column should contain a unique key. Move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Save the output.</p>
+			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex maps</a> so we've created a tool to help you make them from your own data. You can either read in an existing <a href="hexjson.html">HexJSON file</a> or start creating your own hex map from a CSV file. The CSV should contain a column with the heading <code>id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code>q</code> and <code>r</code>. A column with the heading <code>n</code> or <code>name</code> will set the displayed name of the hex. Once you have hexagons, move them to your desired positions (click one then click an empty hex to move it there). When you everything where you want it, save the output.</p>
 			
 			<div id="drop_zone" class="dropzone block">
 				<div class="helpertext">
@@ -86,9 +86,6 @@
 	<footer class="b1-bg">
 		<div class="holder">
 			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
-			<br /><a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">2015 election results from the Electoral Commission</a>.
-			<br /><a href="https://docs.google.com/spreadsheets/d/1b71SDKPFbk-ktmUTXmDpUP5PT299qq24orEA0_TOpmw/edit#gid=579044181">EU referendum estimates</a> from <a href="http://www.tandfonline.com/doi/abs/10.1080/17457289.2017.1287081?journalCode=fbep20">Hanretty 2017</a> (<a href="https://medium.com/@chrishanretty/final-estimates-of-the-leave-vote-or-areal-interpolation-and-the-uks-referendum-on-eu-membership-5490b6cab878">blog post</a>).
-			<br /><a href="https://democracyclub.org.uk/data/">2017 general election candidates are from Democracy Club</a> under a CC-BY-SA 3.0 license. You can <a href="https://democracyclub.org.uk/quests/">help to add missing candidates</a>.
 		</div>
 	</footer>
 	

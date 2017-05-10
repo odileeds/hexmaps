@@ -152,7 +152,7 @@ function Builder(id,w,h,padding,file){
 						var id = 0;
 						if(data.rows > 0){
 							for(var j = 0; j < data.rows[0].length; j++){
-								if(data.rows[0][j]=="id") id = j;
+								if(data.rows[0][j].toLowerCase()=="id") id = j;
 							}
 						}
 						// Create a HexJSON format
@@ -163,9 +163,9 @@ function Builder(id,w,h,padding,file){
 							for(var j = 0; j < data.rows[i].length; j++){
 								if(data.fields.format[j]=="integer") data.rows[i][j] = parseInt(data.rows[i][j]);
 								if(data.fields.format[j]=="float") data.rows[i][j] = parseFloat(data.rows[i][j]);
-								if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j]=="true" ? true : false);
+								if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j].toLowerCase()=="true" ? true : false);
 								_obj.data.hexes[data.rows[i][0]][data.fields.name[j]] = data.rows[i][j];
-								if(data.fields.name[j] == "name") _obj.data.hexes[data.rows[i][0]].n = data.rows[i][j];
+								if(data.fields.name[j].toLowerCase() == "name") _obj.data.hexes[data.rows[i][0]].n = data.rows[i][j];
 							}
 						}
 

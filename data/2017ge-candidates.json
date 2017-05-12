@@ -1244,7 +1244,7 @@
 	],
 	"E14000705": [
 		{ "n": "Julian Marcus Burrett", "g": "", "p": "Independent", "i": 34948 },
-		{ "n": "Janet Katherine Olive Ellard", "g": "", "p": "Liberal Democrats", "i": 34949 },
+		{ "n": "Janet Ellard", "g": "f", "p": "Liberal Democrats", "i": 6320 },
 		{ "n": "James Greenwood", "g": "m", "p": "Green Party", "i": 3177 },
 		{ "n": "Mark Harper", "g": "m", "p": "Conservative and Unionist Party", "i": 2346 },
 		{ "n": "Shaun Stammers", "g": "", "p": "Labour Party", "i": 32655 },
@@ -1353,7 +1353,7 @@
 		{ "n": "Diane Abbott", "g": "f", "p": "Labour Party", "i": 2567 },
 		{ "n": "Alastair Binnie-Lubbock", "g": "m", "p": "Green Party", "i": 19503 },
 		{ "n": "Amy Gray", "g": "f", "p": "Conservative and Unionist Party", "i": 4192 },
-		{ "n": "Jonathan David Burton Homan", "g": "", "p": "Animal Welfare Party", "i": 7958 },
+		{ "n": "Jon Homan", "g": "m", "p": "Animal Welfare Party", "i": 7247 },
 		{ "n": "Shahahandria Khan", "g": "", "p": "Friends Party", "i": 34818 },
 		{ "n": "Joe Richards", "g": "m", "p": "Liberal Democrats", "i": 34112 },
 		{ "n": "Abraham Spielmann", "g": "", "p": "Independent", "i": 34819 }
@@ -1540,7 +1540,7 @@
 	],
 	"E14000746": [
 		{ "n": "Wesley James Foot", "g": "", "p": "Green Party", "i": 31496 },
-		{ "n": "Fiona Hall", "g": "", "p": "Liberal Democrats", "i": 34830 },
+		{ "n": "Fiona Hall", "g": "f", "p": "Liberal Democrats", "i": 34830 },
 		{ "n": "Francis Miles", "g": "", "p": "UK Independence Party (UKIP)", "i": 34831 },
 		{ "n": "Guy Opperman", "g": "m", "p": "Conservative and Unionist Party", "i": 2209 },
 		{ "n": "Stephen Powers", "g": "m", "p": "Labour and Co-operative Party", "i": 34460 }
@@ -1566,7 +1566,7 @@
 	],
 	"E14000750": [
 		{ "n": "Timothy Barnes", "g": "m", "p": "Conservative and Unionist Party", "i": 8005 },
-		{ "n": "Sian Berry", "g": "", "p": "Green Party", "i": 34835 },
+		{ "n": "Siân Berry", "g": "f", "p": "Green Party", "i": 34835 },
 		{ "n": "Stephen Crosher", "g": "m", "p": "Liberal Democrats", "i": 25400 },
 		{ "n": "Giles Game", "g": "", "p": "UK Independence Party (UKIP)", "i": 25402 },
 		{ "n": "Janus Polenceus", "g": "m", "p": "English Democrats", "i": 1528 }
@@ -1684,7 +1684,7 @@
 	],
 	"E14000765": [
 		{ "n": "James Lee Askwith", "g": "", "p": "UK Independence Party (UKIP)", "i": 13271 },
-		{ "n": "Robin Gwynn", "g": "", "p": "Conservative and Unionist Party", "i": 34969 },
+		{ "n": "Robin Gwynn", "g": "", "p": "Conservative and Unionist Party", "i": 13058 },
 		{ "n": "Stephen Hepburn", "g": "m", "p": "Labour Party", "i": 448 },
 		{ "n": "David Herbert", "g": "m", "p": "Green Party", "i": 5115 },
 		{ "n": "Peter Maughan", "g": "m", "p": "Liberal Democrats", "i": 6452 }
@@ -1720,7 +1720,7 @@
 		{ "n": "Mick Scrimshaw", "g": "m", "p": "Labour Party", "i": 32108 }
 	],
 	"E14000770": [
-		{ "n": "Michael Basman", "g": "", "p": "Independent", "i": 34838 },
+		{ "n": "Michael Basman", "g": "m", "p": "Independent", "i": 34838 },
 		{ "n": "James Berry", "g": "m", "p": "Conservative and Unionist Party", "i": 4201 },
 		{ "n": "Jason 'Chinners' Chinnery", "g": "m", "p": "Official Monster Raving Loony Party", "i": 3454 },
 		{ "n": "Edward Davey", "g": "m", "p": "Liberal Democrats", "i": 4507 },
@@ -2300,7 +2300,7 @@
 	"E14000851": [
 		{ "n": "Andy Bentley", "g": "", "p": "Green Party", "i": 14695 },
 		{ "n": "Mark Dempsey", "g": "m", "p": "Labour Party", "i": 3801 },
-		{ "n": "Steve Halden", "g": "", "p": "UK Independence Party (UKIP)", "i": 34961 },
+		{ "n": "Steve Halden", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34961 },
 		{ "n": "Justin Tomlinson", "g": "m", "p": "Conservative and Unionist Party", "i": 190 },
 		{ "n": "Liz Webster", "g": "", "p": "Liberal Democrats", "i": 34962 }
 	],
@@ -2984,7 +2984,7 @@
 		{ "n": "Stan Pajak", "g": "m", "p": "Liberal Democrats", "i": 14729 }
 	],
 	"E14000948": [
-		{ "n": "Raushan Ara", "g": "f", "p": "Labour Party", "i": 34474 },
+		{ "n": "Raushan Ara", "g": "f", "p": "Labour Party", "i": 19761 },
 		{ "n": "Faith Miracle Fisher", "g": "", "p": "Christian Peoples Alliance", "i": 34880 },
 		{ "n": "Tim Garbutt", "g": "m", "p": "Independent", "i": 7537 },
 		{ "n": "Craig Mackinlay", "g": "m", "p": "Conservative and Unionist Party", "i": 4230 },

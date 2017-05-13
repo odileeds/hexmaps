@@ -76,7 +76,7 @@
 		{ "n": "Sean Woodcock", "g": "m", "p": "Labour Party", "i": 4258 }
 	],
 	"E14000540": [
-		{ "n": "Shannon Butterfield", "g": "", "p": "Green Party", "i": 34726 },
+		{ "n": "Shannon Butterfield", "g": "f", "p": "Green Party", "i": 34726 },
 		{ "n": "Noel Falvey", "g": "", "p": "Independent", "i": 34729 },
 		{ "n": "Roger Gravett", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4937 },
 		{ "n": "Margaret Hodge", "g": "f", "p": "Labour Party", "i": 807 },
@@ -118,7 +118,7 @@
 		{ "n": "Scott Neville", "g": "", "p": "Libertarian Party", "i": 34904 },
 		{ "n": "John Shaw", "g": "m", "p": "Liberal Democrats", "i": 2524 },
 		{ "n": "Alan Harvey Stone", "g": "m", "p": "UK Independence Party (UKIP)", "i": 9733 },
-		{ "n": "Richard Simon Winter", "g": "", "p": "Green Party", "i": 17259 }
+		{ "n": "Richard Simon Winter", "g": "m", "p": "Green Party", "i": 17259 }
 	],
 	"E14000546": [
 		{ "n": "Leon Duveen", "g": "m", "p": "Liberal Democrats", "i": 4476 },
@@ -567,7 +567,7 @@
 	],
 	"E14000610": [
 		{ "n": "Andrew Griffiths", "g": "m", "p": "Conservative and Unionist Party", "i": 632 },
-		{ "n": "Simon Edward Hales", "g": "", "p": "Green Party", "i": 30165 },
+		{ "n": "Simon Edward Hales", "g": "m", "p": "Green Party", "i": 30165 },
 		{ "n": "Dominic Hardwick", "g": "", "p": "Liberal Democrats", "i": 14417 },
 		{ "n": "John McKiernan", "g": "m", "p": "Labour Party", "i": 19635 }
 	],
@@ -1497,7 +1497,7 @@
 	],
 	"E14000740": [
 		{ "n": "David Dews", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5834 },
-		{ "n": "Mike Jordan", "g": "m", "p": "Conservative and Unionist Party", "i": 34727 },
+		{ "n": "Mike Jordan", "g": "m", "p": "Conservative and Unionist Party", "i": 30581 },
 		{ "n": "Joan Mary Macqueen", "g": "f", "p": "Liberal Democrats", "i": 6372 },
 		{ "n": "Martin Roberts", "g": "m", "p": "The Yorkshire Party", "i": 6642 },
 		{ "n": "Jon Trickett", "g": "m", "p": "Labour Party", "i": 456 }

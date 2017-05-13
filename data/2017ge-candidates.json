@@ -214,7 +214,7 @@
 	],
 	"E14000559": [
 		{ "n": "Allan Brame", "g": "m", "p": "Liberal Democrats", "i": 5428 },
-		{ "n": "Jane Louise Stephanie Clough", "g": "f", "p": "Green Party", "i": 34794 },
+		{ "n": "Jayne Clough", "g": "f", "p": "Green Party", "i": 34794 },
 		{ "n": "Frank Field", "g": "m", "p": "Labour Party", "i": 92 },
 		{ "n": "Stewart Anthony Gardiner", "g": "", "p": "Conservative and Unionist Party", "i": 34795 }
 	],
@@ -1387,7 +1387,7 @@
 	"E14000724": [
 		{ "n": "David Davis", "g": "m", "p": "Conservative and Unionist Party", "i": 2885 },
 		{ "n": "Hollie Devanney", "g": "f", "p": "Labour Party", "i": 34299 },
-		{ "n": "Carole Needham", "g": "", "p": "Green Party", "i": 34837 },
+		{ "n": "Angela Needham", "g": "f", "p": "Green Party", "i": 34837 },
 		{ "n": "David Nolan", "g": "m", "p": "Liberal Democrats", "i": 6502 },
 		{ "n": "Diana Wallis", "g": "f", "p": "The Yorkshire Party", "i": 6393 }
 	],
@@ -2442,7 +2442,7 @@
 		{ "n": "Christopher Glenny", "g": "", "p": "Conservative and Unionist Party", "i": 35140 },
 		{ "n": "Garth Harkness", "g": "m", "p": "Liberal Democrats", "i": 4520 },
 		{ "n": "Ruth Keating", "g": "", "p": "UK Independence Party (UKIP)", "i": 14929 },
-		{ "n": "Adam King", "g": "", "p": "Green Party", "i": 14897 },
+		{ "n": "Adam King", "g": "m", "p": "Green Party", "i": 14897 },
 		{ "n": "Jim McMahon", "g": "m", "p": "Labour and Co-operative Party", "i": 34144 }
 	],
 	"E14000872": [
@@ -3722,7 +3722,7 @@
 	"E14001055": [
 		{ "n": "Peter Bottomley", "g": "m", "p": "Conservative and Unionist Party", "i": 1642 },
 		{ "n": "Rebecca Cooper", "g": "f", "p": "Labour Party", "i": 31906 },
-		{ "n": "Benjamin Cornish", "g": "", "p": "Green Party", "i": 35127 },
+		{ "n": "Benjamin Cornish", "g": "m", "p": "Green Party", "i": 35127 },
 		{ "n": "Hazel Thorpe", "g": "f", "p": "Liberal Democrats", "i": 1845 },
 		{ "n": "Mark Withers", "g": "", "p": "UK Independence Party (UKIP)", "i": 12849 }
 	],
@@ -3731,7 +3731,7 @@
 		{ "n": "Steve Guy", "g": "m", "p": "Liberal Democrats", "i": 3242 },
 		{ "n": "Richard Neal Phoenix", "g": "", "p": "UK Independence Party (UKIP)", "i": 27283 },
 		{ "n": "Rafiq Raja", "g": "m", "p": "Labour Party", "i": 35070 },
-		{ "n": "Peter James Sims", "g": "", "p": "Green Party", "i": 23634 }
+		{ "n": "Peter Sims", "g": "m", "p": "Green Party", "i": 23634 }
 	],
 	"E14001057": [
 		{ "n": "Michelle Heaton-Bentley", "g": "f", "p": "Labour Party", "i": 33806 },

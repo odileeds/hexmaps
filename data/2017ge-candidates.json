@@ -214,7 +214,7 @@
 	],
 	"E14000559": [
 		{ "n": "Allan Brame", "g": "m", "p": "Liberal Democrats", "i": 5428 },
-		{ "n": "Jane Louise Stephanie Clough", "g": "", "p": "Green Party", "i": 34794 },
+		{ "n": "Jane Louise Stephanie Clough", "g": "f", "p": "Green Party", "i": 34794 },
 		{ "n": "Frank Field", "g": "m", "p": "Labour Party", "i": 92 },
 		{ "n": "Stewart Anthony Gardiner", "g": "", "p": "Conservative and Unionist Party", "i": 34795 }
 	],
@@ -3678,7 +3678,7 @@
 	"E14001049": [
 		{ "n": "Graham Eardley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 3882 },
 		{ "n": "Ian Jenkins", "g": "m", "p": "Liberal Democrats", "i": 7124 },
-		{ "n": "Sarah Macken", "g": "", "p": "Conservative and Unionist Party", "i": 34480 },
+		{ "n": "Sarah Macken", "g": "f", "p": "Conservative and Unionist Party", "i": 34480 },
 		{ "n": "Emma Reynolds", "g": "f", "p": "Labour Party", "i": 2148 },
 		{ "n": "Clive Wood", "g": "", "p": "Green Party", "i": 35103 }
 	],
@@ -3693,7 +3693,7 @@
 		{ "n": "Andrea Cantrill", "g": "f", "p": "Green Party", "i": 6947 },
 		{ "n": "Rob Jones", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34238 },
 		{ "n": "Sarah Quarmby", "g": "f", "p": "Liberal Democrats", "i": 34181 },
-		{ "n": "Jagmeet Singh", "g": "", "p": "Independent", "i": 35107 },
+		{ "n": "Jagmeet Singh", "g": "m", "p": "Independent", "i": 35107 },
 		{ "n": "Eleanor Smith", "g": "f", "p": "Labour Party", "i": 34228 },
 		{ "n": "Paul Uppal", "g": "m", "p": "Conservative and Unionist Party", "i": 2307 }
 	],
@@ -3730,7 +3730,7 @@
 		{ "n": "Steven Baker", "g": "m", "p": "Conservative and Unionist Party", "i": 1481 },
 		{ "n": "Steve Guy", "g": "m", "p": "Liberal Democrats", "i": 3242 },
 		{ "n": "Richard Neal Phoenix", "g": "", "p": "UK Independence Party (UKIP)", "i": 27283 },
-		{ "n": "Rafiq Raja", "g": "", "p": "Labour Party", "i": 35070 },
+		{ "n": "Rafiq Raja", "g": "m", "p": "Labour Party", "i": 35070 },
 		{ "n": "Peter James Sims", "g": "", "p": "Green Party", "i": 23634 }
 	],
 	"E14001057": [

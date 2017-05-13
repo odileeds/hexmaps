@@ -1101,7 +1101,7 @@
 	],
 	"E14000685": [
 		{ "n": "Mims Davies", "g": "f", "p": "Conservative and Unionist Party", "i": 4189 },
-		{ "n": "Malcolm Jones", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34615 },
+		{ "n": "Malcolm Jones", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6518 },
 		{ "n": "Ron Meldrum", "g": "m", "p": "Green Party", "i": 34611 },
 		{ "n": "Jillian Payne", "g": "f", "p": "Labour Party", "i": 34469 },
 		{ "n": "Mike Thornton", "g": "m", "p": "Liberal Democrats", "i": 4495 }
@@ -1622,7 +1622,7 @@
 	],
 	"E14000757": [
 		{ "n": "Paul Bullen", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5035 },
-		{ "n": "Rob Cantrill", "g": "", "p": "Liberal Democrats", "i": 34883 },
+		{ "n": "Rod Cantrill", "g": "m", "p": "Liberal Democrats", "i": 5607 },
 		{ "n": "Jonathan Djanogly", "g": "m", "p": "Conservative and Unionist Party", "i": 1910 },
 		{ "n": "Nik Johnson", "g": "m", "p": "Labour Party", "i": 4359 },
 		{ "n": "Tom MacLennan", "g": "m", "p": "Green Party", "i": 6703 }
@@ -1916,7 +1916,7 @@
 		{ "n": "Steve Radford", "g": "m", "p": "The Liberal Party", "i": 2480 },
 		{ "n": "Paul Richardson", "g": "m", "p": "Conservative and Unionist Party", "i": 6146 },
 		{ "n": "Stephen Twigg", "g": "m", "p": "Labour and Co-operative Party", "i": 2469 },
-		{ "n": "Will Ward", "g": "", "p": "Green Party", "i": 35037 }
+		{ "n": "William Ward", "g": "m", "p": "Green Party", "i": 4627 }
 	],
 	"E14000797": [
 		{ "n": "Philip Leicester", "g": "", "p": "Green Party", "i": 35025 },
@@ -2361,7 +2361,7 @@
 	],
 	"E14000860": [
 		{ "n": "Peter Neil Baldrey", "g": "m", "p": "Labour Party", "i": 4394 },
-		{ "n": "Phil Chamberlain", "g": "", "p": "Green Party", "i": 35058 },
+		{ "n": "Phil Chamberlain", "g": "m", "p": "Green Party", "i": 35058 },
 		{ "n": "James Gray", "g": "m", "p": "Conservative and Unionist Party", "i": 3271 },
 		{ "n": "Paddy Singh", "g": "", "p": "UK Independence Party (UKIP)", "i": 28840 },
 		{ "n": "Lisa Anne  Tweedie", "g": "", "p": "Independent", "i": 35057 }
@@ -4172,7 +4172,7 @@
 		{ "n": "Irene Lang", "g": "", "p": "Liberal Democrats", "i": 34939 }
 	],
 	"S14000041": [
-		{ "n": "David Adam Coburn", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34702 },
+		{ "n": "David Coburn", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5285 },
 		{ "n": "Dave Dempsey", "g": "m", "p": "Conservative and Unionist Party", "i": 5047 },
 		{ "n": "Lesley Laird", "g": "f", "p": "Labour Party", "i": 15307 },
 		{ "n": "Roger Mullin", "g": "m", "p": "Scottish National Party (SNP)", "i": 5553 },

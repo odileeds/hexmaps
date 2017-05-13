@@ -41,7 +41,7 @@
 		{ "n": "Bob Charlesworth", "g": "m", "p": "Liberal Democrats", "i": 34851 },
 		{ "n": "Tony Harper", "g": "m", "p": "Conservative and Unionist Party", "i": 7562 },
 		{ "n": "Gloria de Piero", "g": "f", "p": "Labour Party", "i": 3365 },
-		{ "n": "Arran Rangi", "g": "", "p": "Green Party", "i": 34852 },
+		{ "n": "Arran Rangi", "g": "m", "p": "Green Party", "i": 34852 },
 		{ "n": "Gail Turner", "g": "", "p": "Ashfield Independents", "i": 34853 },
 		{ "n": "Ray Young", "g": "", "p": "UK Independence Party (UKIP)", "i": 25786 }
 	],
@@ -1157,7 +1157,7 @@
 		{ "n": "Thomas Hall", "g": "", "p": "Young People's Party YPP", "i": 34867 },
 		{ "n": "Simon Alexander Heap", "g": "", "p": "Green Party", "i": 12758 },
 		{ "n": "Eleanor Laing", "g": "f", "p": "Conservative and Unionist Party", "i": 3755 },
-		{ "n": "Patrick O'Flynn", "g": "", "p": "UK Independence Party (UKIP)", "i": 34868 },
+		{ "n": "Patrick O'Flynn", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4587 },
 		{ "n": "Liam Preston", "g": "m", "p": "Labour Party", "i": 4276 },
 		{ "n": "Jon Whitehouse", "g": "m", "p": "Liberal Democrats", "i": 7054 }
 	],
@@ -1248,7 +1248,7 @@
 		{ "n": "James Greenwood", "g": "m", "p": "Green Party", "i": 3177 },
 		{ "n": "Mark Harper", "g": "m", "p": "Conservative and Unionist Party", "i": 2346 },
 		{ "n": "Shaun Stammers", "g": "", "p": "Labour Party", "i": 32655 },
-		{ "n": "Ernie Warrender", "g": "", "p": "UK Independence Party (UKIP)", "i": 34950 }
+		{ "n": "Ernie Warrender", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5828 }
 	],
 	"E14000706": [
 		{ "n": "Mark Menzies", "g": "m", "p": "Conservative and Unionist Party", "i": 1338 },
@@ -1827,6 +1827,7 @@
 	"E14000784": [
 		{ "n": "David John Bowley", "g": "m", "p": "Independent", "i": 2772 },
 		{ "n": "Ian Bradwell", "g": "m", "p": "Liberal Democrats", "i": 6819 },
+		{ "n": "Mel Gould", "g": "", "p": "Green Party", "i": 35160 },
 		{ "n": "Jack Hickey", "g": "m", "p": "Conservative and Unionist Party", "i": 34243 },
 		{ "n": "Liz Kendall", "g": "f", "p": "Labour Party", "i": 1292 },
 		{ "n": "Stuart Young", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6877 }

@@ -3358,7 +3358,7 @@
 		{ "n": "Brian Haley", "g": "", "p": "Liberal Democrats", "i": 34847 },
 		{ "n": "David Lammy", "g": "m", "p": "Labour Party", "i": 4875 },
 		{ "n": "Patricia Rumble", "g": "", "p": "UK Independence Party (UKIP)", "i": 34848 },
-		{ "n": "Myles Stacey", "g": "", "p": "Conservative and Unionist Party", "i": 34849 }
+		{ "n": "Myles Stacey", "g": "m", "p": "Conservative and Unionist Party", "i": 34849 }
 	],
 	"E14001003": [
 		{ "n": "Jayne Kirkham", "g": "f", "p": "Labour Party", "i": 35100 },

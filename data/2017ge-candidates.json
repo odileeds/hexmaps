@@ -2749,7 +2749,8 @@
 	"E14000914": [
 		{ "n": "Nicholas Dakin", "g": "m", "p": "Labour Party", "i": 3663 },
 		{ "n": "Ryk Downes", "g": "m", "p": "Liberal Democrats", "i": 6095 },
-		{ "n": "Holly Mumby-Croft", "g": "", "p": "Conservative and Unionist Party", "i": 34479 }
+		{ "n": "Holly Mumby-Croft", "g": "", "p": "Conservative and Unionist Party", "i": 34479 },
+		{ "n": "Andy Talliss", "g": "", "p": "UK Independence Party (UKIP)", "i": 35163 }
 	],
 	"E14000915": [
 		{ "n": "Dehenna Davison", "g": "f", "p": "Conservative and Unionist Party", "i": 4202 },
@@ -3293,12 +3294,13 @@
 		{ "n": "Mark Pritchard", "g": "m", "p": "Conservative and Unionist Party", "i": 1616 }
 	],
 	"E14000993": [
-		{ "n": "Alan Avery", "g": "m", "p": "Labour Party", "i": 4801 },
+		{ "n": "Alan Philip Avery", "g": "m", "p": "Labour Party", "i": 4801 },
 		{ "n": "Martin Brampton", "g": "m", "p": "Green Party", "i": 6288 },
 		{ "n": "John Clark", "g": "m", "p": "The Liberal Party", "i": 3514 },
-		{ "n": "Kevin Hollinrake", "g": "m", "p": "Conservative and Unionist Party", "i": 4236 },
+		{ "n": "Kevin Paul Hollinrake", "g": "m", "p": "Conservative and Unionist Party", "i": 4236 },
 		{ "n": "Toby Horton", "g": "m", "p": "UK Independence Party (UKIP)", "i": 3352 },
-		{ "n": "Dinah Keal", "g": "f", "p": "Liberal Democrats", "i": 4802 }
+		{ "n": "Dinah Keal", "g": "f", "p": "Liberal Democrats", "i": 4802 },
+		{ "n": "Philip James Tate", "g": "m", "p": "Independent", "i": 7243 }
 	],
 	"E14000994": [
 		{ "n": "Luke Hall", "g": "m", "p": "Conservative and Unionist Party", "i": 4237 },
@@ -3755,7 +3757,7 @@
 	"E14001060": [
 		{ "n": "Marcus Fysh", "g": "m", "p": "Conservative and Unionist Party", "i": 4251 },
 		{ "n": "Jo Roundell Greene", "g": "f", "p": "Liberal Democrats", "i": 34482 },
-		{ "n": "Ian J Martin", "g": "", "p": "Labour Party", "i": 26286 },
+		{ "n": "Ian J Martin", "g": "m", "p": "Labour Party", "i": 26286 },
 		{ "n": "Katy Pritchard", "g": "", "p": "Independent", "i": 34859 },
 		{ "n": "Robert Charles Wood", "g": "", "p": "Green Party", "i": 32971 }
 	],
@@ -3768,7 +3770,7 @@
 		{ "n": "James Blanchard", "g": "m", "p": "Liberal Democrats", "i": 2181 },
 		{ "n": "Luke Charters-Reid", "g": "m", "p": "Labour Party", "i": 34405 },
 		{ "n": "Julian Sturdy", "g": "m", "p": "Conservative and Unionist Party", "i": 4113 },
-		{ "n": "Bethan Vincent", "g": "", "p": "Green Party", "i": 35115 }
+		{ "n": "Bethan Vincent", "g": "f", "p": "Green Party", "i": 35115 }
 	],
 	"N06000001": [
 		{ "n": "Bobby Beck", "g": "", "p": "Independent", "i": 34721 },

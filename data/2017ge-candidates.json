@@ -247,7 +247,7 @@
 	"E14000564": [
 		{ "n": "Andrew Richard Browning", "g": "", "p": "Conservative and Unionist Party", "i": 34890 },
 		{ "n": "Lee Dargue", "g": "m", "p": "Liberal Democrats", "i": 4821 },
-		{ "n": "Kefentse Dennis", "g": "", "p": "Green Party", "i": 10067 },
+		{ "n": "Kefentse Dennis", "g": "m", "p": "Green Party", "i": 10067 },
 		{ "n": "Shabana Mahmood", "g": "f", "p": "Labour Party", "i": 216 }
 	],
 	"E14000565": [
@@ -260,7 +260,7 @@
 		{ "n": "Shangara Bhatoe", "g": "m", "p": "Socialist Labour Party", "i": 928 },
 		{ "n": "Charlotte Hodivala", "g": "f", "p": "Conservative and Unionist Party", "i": 5083 },
 		{ "n": "Khalid Mahmood", "g": "m", "p": "Labour Party", "i": 3367 },
-		{ "n": "Vijay Rana", "g": "", "p": "Green Party", "i": 34897 },
+		{ "n": "Vijay Rana", "g": "m", "p": "Green Party", "i": 34897 },
 		{ "n": "Harjinder Singh", "g": "m", "p": "Open Borders Party", "i": 7119 },
 		{ "n": "Harjun Singh", "g": "", "p": "Liberal Democrats", "i": 34898 }
 	],
@@ -3541,7 +3541,7 @@
 	],
 	"E14001029": [
 		{ "n": "Emma Crane", "g": "", "p": "Conservative and Unionist Party", "i": 35016 },
-		{ "n": "John Dell Macefield", "g": "", "p": "Green Party", "i": 18973 },
+		{ "n": "John Dell Macefield", "g": "m", "p": "Green Party", "i": 18973 },
 		{ "n": "Colin Rankine", "g": "", "p": "Independent", "i": 35017 },
 		{ "n": "Karen Trench", "g": "f", "p": "Liberal Democrats", "i": 7027 },
 		{ "n": "Tom Watson", "g": "m", "p": "Labour Party", "i": 2252 }

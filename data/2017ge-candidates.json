@@ -1780,7 +1780,7 @@
 	],
 	"E14000778": [
 		{ "n": "Richard Burgon", "g": "m", "p": "Labour Party", "i": 4369 },
-		{ "n": "Jaimes Lewis Moran", "g": "m", "p": "Green Party", "i": 34680 },
+		{ "n": "Jaimes Lewis Moran", "g": "m", "p": "Green Party", "i": 15256 },
 		{ "n": "John Otley", "g": "m", "p": "The Yorkshire Party", "i": 15260 },
 		{ "n": "Matthew James Robinson", "g": "m", "p": "Conservative and Unionist Party", "i": 34681 },
 		{ "n": "Ed Sanderson", "g": "m", "p": "Liberal Democrats", "i": 34682 },
@@ -4000,7 +4000,7 @@
 	],
 	"S14000014": [
 		{ "n": "Douglas Beattie", "g": "m", "p": "Labour Party", "i": 34257 },
-		{ "n": "John Ferry", "g": "", "p": "Liberal Democrats", "i": 34693 },
+		{ "n": "John Ferry", "g": "m", "p": "Liberal Democrats", "i": 34693 },
 		{ "n": "Màiri McAllan", "g": "f", "p": "Scottish National Party (SNP)", "i": 10997 },
 		{ "n": "David Mundell", "g": "m", "p": "Conservative and Unionist Party", "i": 1592 }
 	],
@@ -4524,7 +4524,7 @@
 		{ "n": "David Rowlands", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5183 }
 	],
 	"W07000072": [
-		{ "n": "Vicki Leanne Browning", "g": "", "p": "Independent", "i": 34983 },
+		{ "n": "Vicki Leanne Browning", "g": "f", "p": "Independent", "i": 34983 },
 		{ "n": "Nigel Copner", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 8055 },
 		{ "n": "Dennis Walter May", "g": "", "p": "UK Independence Party (UKIP)", "i": 34046 },
 		{ "n": "Nick Smith", "g": "m", "p": "Labour Party", "i": 3908 },

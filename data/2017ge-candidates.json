@@ -2889,7 +2889,7 @@
 		{ "n": "Paul Borg", "g": "m", "p": "British National Party", "i": 6547 },
 		{ "n": "Sim Harman", "g": "", "p": "Green Party", "i": 34871 },
 		{ "n": "Stephen Metcalfe", "g": "m", "p": "Conservative and Unionist Party", "i": 2211 },
-		{ "n": "Byron Taylor", "g": "", "p": "Labour Party", "i": 34430 },
+		{ "n": "Byron Taylor", "g": "m", "p": "Labour Party", "i": 34430 },
 		{ "n": "Peter Whittle", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7457 }
 	],
 	"E14000934": [
@@ -3097,7 +3097,7 @@
 		{ "n": "Brian Spencer", "g": "m", "p": "Liberal Democrats", "i": 3797 }
 	],
 	"E14000964": [
-		{ "n": "Christopher John Drew", "g": "m", "p": "Labour Party", "i": 29480 },
+		{ "n": "Christopher Drew", "g": "m", "p": "Labour Party", "i": 29480 },
 		{ "n": "Andrew George", "g": "m", "p": "Liberal Democrats", "i": 2504 },
 		{ "n": "Derek Thomas", "g": "m", "p": "Conservative and Unionist Party", "i": 191 }
 	],

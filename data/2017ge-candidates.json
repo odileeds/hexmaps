@@ -873,7 +873,7 @@
 		{ "n": "Tracey Hague", "g": "f", "p": "Green Party", "i": 7723 },
 		{ "n": "Gill Hickson", "g": "f", "p": "Liberal Democrats", "i": 5413 },
 		{ "n": "Sarah Jones", "g": "f", "p": "Labour Party", "i": 4316 },
-		{ "n": "Don Locke", "g": "", "p": "Independent", "i": 34785 },
+		{ "n": "Don Locke", "g": "m", "p": "Independent", "i": 34785 },
 		{ "n": "Peter Staveley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4879 }
 	],
 	"E14000655": [

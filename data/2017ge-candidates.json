@@ -3480,7 +3480,7 @@
 	],
 	"E14001020": [
 		{ "n": "Tom Appleby", "g": "m", "p": "Liberal Democrats", "i": 363 },
-		{ "n": "Michal Chantkowski", "g": "", "p": "Green Party", "i": 11637 },
+		{ "n": "Michal Chantkowski", "g": "m", "p": "Green Party", "i": 11637 },
 		{ "n": "Bryan Foster", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6659 },
 		{ "n": "Jonathan Gullis", "g": "m", "p": "Conservative and Unionist Party", "i": 20069 },
 		{ "n": "Sharon Hodgson", "g": "f", "p": "Labour Party", "i": 3067 }
@@ -3488,7 +3488,7 @@
 	"E14001021": [
 		{ "n": "Ian Frederick James Green", "g": "", "p": "UK Independence Party (UKIP)", "i": 17238 },
 		{ "n": "Richard Harrington", "g": "m", "p": "Conservative and Unionist Party", "i": 1980 },
-		{ "n": "Alex Murray", "g": "", "p": "Green Party", "i": 34879 },
+		{ "n": "Alex Murray", "g": "m", "p": "Green Party", "i": 34879 },
 		{ "n": "Chris Ostrowski", "g": "m", "p": "Labour Party", "i": 34366 },
 		{ "n": "Ian Alexander Eric Stotesbury", "g": "m", "p": "Liberal Democrats", "i": 15668 }
 	],

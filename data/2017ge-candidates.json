@@ -801,7 +801,7 @@
 	"E14000644": [
 		{ "n": "Mark George Goacher", "g": "m", "p": "Green Party", "i": 5001 },
 		{ "n": "Will Quince", "g": "m", "p": "Conservative and Unionist Party", "i": 1613 },
-		{ "n": "Robin Rennie", "g": "", "p": "Christian Peoples Alliance", "i": 34866 },
+		{ "n": "Robin Rennie", "g": "m", "p": "Christian Peoples Alliance", "i": 34866 },
 		{ "n": "Bob Russell", "g": "m", "p": "Liberal Democrats", "i": 4489 },
 		{ "n": "Tim Young", "g": "m", "p": "Labour Party", "i": 4312 }
 	],
@@ -1422,7 +1422,7 @@
 		{ "n": "Darren Neil Woodiwiss", "g": "m", "p": "Green Party", "i": 23461 }
 	],
 	"E14000729": [
-		{ "n": "Hannah Ellen Clare", "g": "Woman", "p": "Green Party", "i": 29818 },
+		{ "n": "Hannah Ellen Clare", "g": "f", "p": "Green Party", "i": 29818 },
 		{ "n": "Mark Gough", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5109 },
 		{ "n": "Robert Halfon", "g": "m", "p": "Conservative and Unionist Party", "i": 3741 },
 		{ "n": "Geoffrey Seeff", "g": "m", "p": "Liberal Democrats", "i": 3112 },
@@ -3865,7 +3865,7 @@
 		{ "n": "Ian Paisley Jnr", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 2135 },
 		{ "n": "Cara McShane", "g": "f", "p": "Sinn Féin", "i": 34536 },
 		{ "n": "Jackson Minford", "g": "m", "p": "Ulster Unionist Party", "i": 34317 },
-		{ "n": "Declan O'Loan", "g": "", "p": "SDLP (Social Democratic & Labour Party)", "i": 34980 },
+		{ "n": "Declan O'Loan", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 3710 },
 		{ "n": "Patricia O'Lynn", "g": "f", "p": "Alliance - Alliance Party of Northern Ireland", "i": 19695 }
 	],
 	"N06000013": [

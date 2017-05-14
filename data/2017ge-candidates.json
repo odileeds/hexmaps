@@ -2140,7 +2140,7 @@
 	"E14000827": [
 		{ "n": "David Harrison", "g": "m", "p": "Liberal Democrats", "i": 33638 },
 		{ "n": "Julian Lewis", "g": "m", "p": "Conservative and Unionist Party", "i": 2872 },
-		{ "n": "Henry Mellor", "g": "", "p": "Green Party", "i": 26150 },
+		{ "n": "Henry Mellor", "g": "m", "p": "Green Party", "i": 26150 },
 		{ "n": "Julie Renyard", "g": "f", "p": "Labour Party", "i": 23708 }
 	],
 	"E14000828": [
@@ -2261,7 +2261,7 @@
 	],
 	"E14000845": [
 		{ "n": "Oliver Heald", "g": "m", "p": "Conservative and Unionist Party", "i": 3446 },
-		{ "n": "Tim Lee", "g": "", "p": "Green Party", "i": 34878 },
+		{ "n": "Tim Lee", "g": "m", "p": "Green Party", "i": 34878 },
 		{ "n": "Nicky Shepard", "g": "f", "p": "Liberal Democrats", "i": 9144 },
 		{ "n": "Doug Swanney", "g": "m", "p": "Labour Party", "i": 26542 }
 	],
@@ -2932,7 +2932,7 @@
 	"E14000940": [
 		{ "n": "Shabbir Aslam", "g": "", "p": "Labour Party", "i": 23319 },
 		{ "n": "Alberto Costa", "g": "m", "p": "Conservative and Unionist Party", "i": 5023 },
-		{ "n": "Roger Helmer", "g": "", "p": "UK Independence Party (UKIP)", "i": 4861 },
+		{ "n": "Roger Helmer", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4861 },
 		{ "n": "Mary Scott Morgan", "g": "", "p": "Green Party", "i": 35045 },
 		{ "n": "Gregory Phillip Webb", "g": "", "p": "Liberal Democrats", "i": 35046 }
 	],
@@ -3585,7 +3585,7 @@
 		{ "n": "Harriett Mary Morison Baldwin", "g": "f", "p": "Conservative and Unionist Party", "i": 1476 },
 		{ "n": "Samantha Kay Charles", "g": "f", "p": "Labour Party", "i": 25228 },
 		{ "n": "Edward Hugh Chrstian McMillan-Scott", "g": "m", "p": "Liberal Democrats", "i": 6451 },
-		{ "n": "Natalia Maria McVey", "g": "", "p": "Green Party", "i": 35092 },
+		{ "n": "Natalie McVey", "g": "f", "p": "Green Party", "i": 35092 },
 		{ "n": "Mike Savage", "g": "", "p": "UK Independence Party (UKIP)", "i": 32456 }
 	],
 	"E14001036": [
@@ -3632,7 +3632,7 @@
 	],
 	"E14001042": [
 		{ "n": "Adam Afriyie", "g": "m", "p": "Conservative and Unionist Party", "i": 4114 },
-		{ "n": "Fintan Thomas McKeown", "g": "", "p": "Green Party", "i": 34991 },
+		{ "n": "Fintan Thomas McKeown", "g": "m", "p": "Green Party", "i": 34991 },
 		{ "n": "Peter Shearman", "g": "m", "p": "Labour Party", "i": 34354 },
 		{ "n": "Julian Tisi", "g": "m", "p": "Liberal Democrats", "i": 618 }
 	],

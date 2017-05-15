@@ -2976,7 +2976,7 @@
 		{ "n": "Emma Bishton", "g": "f", "p": "Labour Party", "i": 1142 },
 		{ "n": "James Cartlidge", "g": "m", "p": "Conservative and Unionist Party", "i": 4229 },
 		{ "n": "Robert Lindsay", "g": "m", "p": "Green Party", "i": 4648 },
-		{ "n": "Aidan Christopher Ulrich Powlesland", "g": "", "p": "UK Independence Party (UKIP)", "i": 30751 }
+		{ "n": "Aidan Christopher Ulrich Powlesland", "g": "m", "p": "UK Independence Party (UKIP)", "i": 30751 }
 	],
 	"E14000947": [
 		{ "n": "Robert Buckland", "g": "m", "p": "Conservative and Unionist Party", "i": 1643 },
@@ -3934,7 +3934,7 @@
 		{ "n": "Jennifer Mary Donnellan", "g": "", "p": "Conservative and Unionist Party", "i": 34757 },
 		{ "n": "Neil Gray", "g": "m", "p": "Scottish National Party (SNP)", "i": 6031 },
 		{ "n": "Helen McFarlane", "g": "f", "p": "Labour Party", "i": 34251 },
-		{ "n": "Ewan McRobert", "g": "", "p": "Liberal Democrats", "i": 34679 }
+		{ "n": "Ewan McRobert", "g": "m", "p": "Liberal Democrats", "i": 34679 }
 	],
 	"S14000004": [
 		{ "n": "William Campbell", "g": "m", "p": "Labour Party", "i": 34252 },

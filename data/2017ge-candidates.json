@@ -3586,7 +3586,7 @@
 		{ "n": "Samantha Kay Charles", "g": "f", "p": "Labour Party", "i": 25228 },
 		{ "n": "Edward Hugh Chrstian McMillan-Scott", "g": "m", "p": "Liberal Democrats", "i": 6451 },
 		{ "n": "Natalie Maria McVey", "g": "f", "p": "Green Party", "i": 35092 },
-		{ "n": "Mike Savage", "g": "", "p": "UK Independence Party (UKIP)", "i": 32456 }
+		{ "n": "Mike Savage", "g": "m", "p": "UK Independence Party (UKIP)", "i": 32456 }
 	],
 	"E14001036": [
 		{ "n": "Karen Buck", "g": "f", "p": "Labour Party", "i": 1311 },
@@ -3627,7 +3627,7 @@
 		{ "n": "Mark Chaloner", "g": "m", "p": "Labour Party", "i": 4987 },
 		{ "n": "Martin Edward Lyon", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34671 },
 		{ "n": "Jackie Porter", "g": "f", "p": "Liberal Democrats", "i": 4542 },
-		{ "n": "Teresa Mary Skelton", "g": "", "p": "The Justice & Anti-Corruption Party", "i": 34673 },
+		{ "n": "Teresa Skelton", "g": "f", "p": "The Justice & Anti-Corruption Party", "i": 30269 },
 		{ "n": "Andrew Karl Wainwright", "g": "m", "p": "Green Party", "i": 30270 }
 	],
 	"E14001042": [

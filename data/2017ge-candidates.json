@@ -1569,7 +1569,7 @@
 		{ "n": "Keir Starmer", "g": "m", "p": "Labour Party", "i": 5077 }
 	],
 	"E14000751": [
-		{ "n": "Peter Caton", "g": "", "p": "Green Party", "i": 34738 },
+		{ "n": "Peter Caton", "g": "m", "p": "Green Party", "i": 34738 },
 		{ "n": "Julia Dockerill", "g": "", "p": "Conservative and Unionist Party", "i": 34203 },
 		{ "n": "David Furness", "g": "", "p": "British National Party", "i": 34739 },
 		{ "n": "Rocky Gill", "g": "m", "p": "Labour Party", "i": 34387 },
@@ -3623,7 +3623,7 @@
 		{ "n": "Martin Edward Lyon", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34671 },
 		{ "n": "Jackie Porter", "g": "f", "p": "Liberal Democrats", "i": 4542 },
 		{ "n": "Teresa Skelton", "g": "f", "p": "The Justice & Anti-Corruption Party", "i": 30269 },
-		{ "n": "Andrew Karl Wainwright", "g": "m", "p": "Green Party", "i": 30270 }
+		{ "n": "Andrew Wainwright", "g": "m", "p": "Green Party", "i": 30270 }
 	],
 	"E14001042": [
 		{ "n": "Adam Afriyie", "g": "m", "p": "Conservative and Unionist Party", "i": 4114 },

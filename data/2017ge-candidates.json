@@ -822,7 +822,7 @@
 	"E14000647": [
 		{ "n": "Herbert Crossman", "g": "m", "p": "UK Independence Party (UKIP)", "i": 303 },
 		{ "n": "Rebecca Hanson", "g": "f", "p": "Liberal Democrats", "i": 19844 },
-		{ "n": "Trudy Lynne Harrison", "g": "f", "p": "Conservative and Unionist Party", "i": 19845 },
+		{ "n": "Trudy Harrison", "g": "f", "p": "Conservative and Unionist Party", "i": 19845 },
 		{ "n": "Gillian Ruth Troughton", "g": "f", "p": "Labour Party", "i": 19848 }
 	],
 	"E14000648": [
@@ -2737,7 +2737,7 @@
 		{ "n": "Paul William Leslie Sample", "g": "", "p": "Liberal Democrats", "i": 28769 }
 	],
 	"E14000913": [
-		{ "n": "Bill Black", "g": "", "p": "The Yorkshire Party", "i": 26875 },
+		{ "n": "Bill Black", "g": "m", "p": "The Yorkshire Party", "i": 26875 },
 		{ "n": "Eric Broadbent", "g": "m", "p": "Labour Party", "i": 26887 },
 		{ "n": "Sam Cross", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4581 },
 		{ "n": "John Freeman", "g": "m", "p": "Independent", "i": 34921 },

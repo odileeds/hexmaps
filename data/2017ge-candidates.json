@@ -694,7 +694,7 @@
 		{ "n": "Alan De'Ath", "g": "m", "p": "Labour Party", "i": 34384 },
 		{ "n": "Greg Hands", "g": "m", "p": "Conservative and Unionist Party", "i": 590 },
 		{ "n": "Louise Rowntree", "g": "f", "p": "Liberal Democrats", "i": 34102 },
-		{ "n": "Alasdair Seton-Marsden", "g": "", "p": "UK Independence Party (UKIP)", "i": 34768 }
+		{ "n": "Alasdair Seton-Marsden", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34768 }
 	],
 	"E14000630": [
 		{ "n": "Alex Chalk", "g": "m", "p": "Conservative and Unionist Party", "i": 4176 },

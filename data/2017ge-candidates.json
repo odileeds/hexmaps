@@ -59,7 +59,7 @@
 		{ "n": "Mark Bateman", "g": "m", "p": "Labour Party", "i": 34398 },
 		{ "n": "Steven Lambert", "g": "m", "p": "Liberal Democrats", "i": 4100 },
 		{ "n": "David Lidington", "g": "m", "p": "Conservative and Unionist Party", "i": 4099 },
-		{ "n": "Kyle Arron Paul Michael", "g": "", "p": "Independent", "i": 34858 },
+		{ "n": "Kyle Arron Paul Michael", "g": "m", "p": "Independent", "i": 34858 },
 		{ "n": "Coral Simpson", "g": "f", "p": "Green Party", "i": 24917 },
 		{ "n": "Vijay Singh Srao", "g": "", "p": "UK Independence Party (UKIP)", "i": 26528 }
 	],
@@ -436,7 +436,7 @@
 		{ "n": "Dawn Butler", "g": "f", "p": "Labour Party", "i": 1474 },
 		{ "n": "Anton Georgiou", "g": "m", "p": "Liberal Democrats", "i": 7825 },
 		{ "n": "Shaka Lish", "g": "f", "p": "Green Party", "i": 34334 },
-		{ "n": "Janice Marion April North", "g": "", "p": "UK Independence Party (UKIP)", "i": 34712 }
+		{ "n": "Janice Marion April North", "g": "f", "p": "UK Independence Party (UKIP)", "i": 34712 }
 	],
 	"E14000592": [
 		{ "n": "Barry Gardiner", "g": "m", "p": "Labour Party", "i": 2456 },
@@ -1407,7 +1407,7 @@
 	],
 	"E14000727": [
 		{ "n": "Kirsty Allan", "g": "f", "p": "Liberal Democrats", "i": 6358 },
-		{ "n": "Hugh Easterbrook", "g": "", "p": "Independent", "i": 34826 },
+		{ "n": "Hugh Easterbrook", "g": "m", "p": "Independent", "i": 34826 },
 		{ "n": "Claire-Louise Leyland", "g": "f", "p": "Conservative and Unionist Party", "i": 6982 },
 		{ "n": "John Mansook", "g": "m", "p": "Green Party", "i": 34335 },
 		{ "n": "Tulip Siddiq", "g": "f", "p": "Labour Party", "i": 4346 },
@@ -1526,7 +1526,7 @@
 		{ "n": "Mark Timothy Argent", "g": "m", "p": "Liberal Democrats", "i": 6450 },
 		{ "n": "Katherine Chibah", "g": "f", "p": "Labour Party", "i": 5162 },
 		{ "n": "Mark Prisk", "g": "m", "p": "Conservative and Unionist Party", "i": 3199 },
-		{ "n": "David Rupert Woollcombe", "g": "", "p": "Green Party", "i": 24261 }
+		{ "n": "David Rupert Woollcombe", "g": "m", "p": "Green Party", "i": 24261 }
 	],
 	"E14000745": [
 		{ "n": "Oliver Dowden", "g": "m", "p": "Conservative and Unionist Party", "i": 4796 },
@@ -2501,7 +2501,7 @@
 		{ "n": "Danny Bamping", "g": "m", "p": "Independent", "i": 34642 },
 		{ "n": "Henrietta Bewley", "g": "f", "p": "Liberal Democrats", "i": 34619 },
 		{ "n": "Oliver Colvile", "g": "m", "p": "Conservative and Unionist Party", "i": 1931 },
-		{ "n": "Richard Michael Ellison", "g": "", "p": "UK Independence Party (UKIP)", "i": 35109 },
+		{ "n": "Richard Michael Ellison", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35109 },
 		{ "n": "Luke Pollard", "g": "m", "p": "Labour and Co-operative Party", "i": 3562 },
 		{ "n": "Daniel Michael Sheaff", "g": "m", "p": "Green Party", "i": 17694 }
 	],
@@ -3238,7 +3238,7 @@
 		{ "n": "Rob Pocock", "g": "m", "p": "Labour Party", "i": 3035 },
 		{ "n": "David Ratcliff", "g": "m", "p": "Green Party", "i": 6145 },
 		{ "n": "Hannah Sophia", "g": "", "p": "Independent", "i": 34900 },
-		{ "n": "Jennifer Jane Wilkinson", "g": "", "p": "Liberal Democrats", "i": 10038 }
+		{ "n": "Jennifer Jane Wilkinson", "g": "f", "p": "Liberal Democrats", "i": 10038 }
 	],
 	"E14000986": [
 		{ "n": "Andrew Hammond", "g": "", "p": "Labour Party", "i": 34782 },
@@ -3417,7 +3417,7 @@
 	"E14001011": [
 		{ "n": "Elizabeth Hazell", "g": "f", "p": "UK Independence Party (UKIP)", "i": 5493 },
 		{ "n": "Eddie Hughes", "g": "m", "p": "Conservative and Unionist Party", "i": 34351 },
-		{ "n": "Isabelle Amanda Parasram", "g": "", "p": "Liberal Democrats", "i": 7949 },
+		{ "n": "Isabelle Amanda Parasram", "g": "f", "p": "Liberal Democrats", "i": 7949 },
 		{ "n": "David Winnick", "g": "m", "p": "Labour Party", "i": 2485 }
 	],
 	"E14001012": [
@@ -4509,7 +4509,7 @@
 	"W07000071": [
 		{ "n": "Bob Griffin", "g": "m", "p": "Liberal Democrats", "i": 6325 },
 		{ "n": "Gerald Jones", "g": "m", "p": "Labour Party", "i": 5097 },
-		{ "n": "Pauline Alison Jorgensen", "g": "", "p": "Conservative and Unionist Party", "i": 35047 },
+		{ "n": "Pauline Alison Jorgensen", "g": "f", "p": "Conservative and Unionist Party", "i": 35047 },
 		{ "n": "Amy Kitcher", "g": "f", "p": "Plaid Cymru - The Party of Wales", "i": 1255 },
 		{ "n": "David Rowlands", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5183 }
 	],

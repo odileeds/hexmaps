@@ -1916,7 +1916,7 @@
 		{ "n": "William Ward", "g": "m", "p": "Green Party", "i": 4627 }
 	],
 	"E14000797": [
-		{ "n": "Philip Leicester", "g": "", "p": "Green Party", "i": 35025 },
+		{ "n": "Philip Leicester", "g": "m", "p": "Green Party", "i": 35025 },
 		{ "n": "Andy McWilliam", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4822 },
 		{ "n": "Jewel Miah", "g": "m", "p": "Labour Party", "i": 23375 },
 		{ "n": "Nicky Morgan", "g": "f", "p": "Conservative and Unionist Party", "i": 2783 },
@@ -2296,7 +2296,7 @@
 		{ "n": "Charley Pattison", "g": "", "p": "Green Party", "i": 34446 }
 	],
 	"E14000851": [
-		{ "n": "Andy Bentley", "g": "", "p": "Green Party", "i": 14695 },
+		{ "n": "Andy Bentley", "g": "m", "p": "Green Party", "i": 14695 },
 		{ "n": "Mark Dempsey", "g": "m", "p": "Labour Party", "i": 3801 },
 		{ "n": "Steve Halden", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34961 },
 		{ "n": "Justin Tomlinson", "g": "m", "p": "Conservative and Unionist Party", "i": 190 },
@@ -2802,7 +2802,7 @@
 	],
 	"E14000922": [
 		{ "n": "Nick Clegg", "g": "m", "p": "Liberal Democrats", "i": 254 },
-		{ "n": "Jared Cain O'Mara", "g": "", "p": "Labour Party", "i": 12562 },
+		{ "n": "Jared Cain O'Mara", "g": "m", "p": "Labour Party", "i": 12562 },
 		{ "n": "Logan Robin", "g": "m", "p": "Green Party", "i": 12266 },
 		{ "n": "John Gordon Thurley", "g": "", "p": "UK Independence Party (UKIP)", "i": 34947 },
 		{ "n": "Ian Geoffrey Walker", "g": "", "p": "Conservative and Unionist Party", "i": 34951 },
@@ -3891,7 +3891,6 @@
 		{ "n": "Kellie Armstrong", "g": "f", "p": "Alliance - Alliance Party of Northern Ireland", "i": 4590 },
 		{ "n": "Ricky Bamford", "g": "f", "p": "Green Party", "i": 19706 },
 		{ "n": "Joe Boyle", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 7179 },
-		{ "n": "Claire Hiscott", "g": "f", "p": "Conservative and Unionist Party", "i": 35131 },
 		{ "n": "Carole Murphy", "g": "", "p": "Sinn Féin", "i": 35132 },
 		{ "n": "Mike Nesbitt", "g": "m", "p": "Ulster Unionist Party", "i": 302 },
 		{ "n": "Jim Shannon", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 3066 }
@@ -4264,7 +4263,7 @@
 		{ "n": "Jean Davis", "g": "f", "p": "Liberal Democrats", "i": 1350 },
 		{ "n": "Robert Mackenzie", "g": "", "p": "Conservative and Unionist Party", "i": 34724 },
 		{ "n": "Peter O'Donnghaile", "g": "m", "p": "Labour Party", "i": 22647 },
-		{ "n": "Lewis Sturrock", "g": "", "p": "Something New", "i": 34492 }
+		{ "n": "Lewis Sturrock", "g": "m", "p": "Something New", "i": 34492 }
 	],
 	"S14000056": [
 		{ "n": "Ann Le Blond", "g": "", "p": "Conservative and Unionist Party", "i": 9210 },

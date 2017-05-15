@@ -4303,10 +4303,10 @@
 	],
 	"W07000041": [
 		{ "n": "Tomos Dafydd Davies", "g": "m", "p": "Conservative and Unionist Party", "i": 34666 },
-		{ "n": "Sarah May Jackson", "g": "", "p": "Liberal Democrats", "i": 35009 },
+		{ "n": "Sarah May Jackson", "g": "f", "p": "Liberal Democrats", "i": 35009 },
 		{ "n": "Ieuan Wyn Jones", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 34207 },
 		{ "n": "Albert Owen", "g": "m", "p": "Labour Party", "i": 800 },
-		{ "n": "James Nicholas Turner", "g": "", "p": "UK Independence Party (UKIP)", "i": 35010 }
+		{ "n": "James Nicholas Turner", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35010 }
 	],
 	"W07000042": [
 		{ "n": "David Hanson", "g": "m", "p": "Labour Party", "i": 1869 },

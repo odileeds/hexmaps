@@ -1128,7 +1128,7 @@
 		{ "n": "Dylan Brown", "g": "m", "p": "Green Party", "i": 34599 },
 		{ "n": "Matthew Clover", "g": "", "p": "The Yorkshire Party", "i": 34568 },
 		{ "n": "Stewart Golton", "g": "m", "p": "Liberal Democrats", "i": 165 },
-		{ "n": "David Patrick Nagle", "g": "", "p": "Labour Party", "i": 18887 },
+		{ "n": "David Nagle", "g": "m", "p": "Labour Party", "i": 18887 },
 		{ "n": "Alec Shelbrooke", "g": "m", "p": "Conservative and Unionist Party", "i": 4036 }
 	],
 	"E14000690": [
@@ -2993,7 +2993,7 @@
 	"E14000949": [
 		{ "n": "Morenike Mafoh", "g": "m", "p": "Christian Peoples Alliance", "i": 7188 },
 		{ "n": "Daniel Norton", "g": "m", "p": "Liberal Democrats", "i": 34122 },
-		{ "n": "Morvern Rennie", "g": "", "p": "Green Party", "i": 34899 },
+		{ "n": "Morvern Rennie", "g": "f", "p": "Green Party", "i": 34899 },
 		{ "n": "Daniel Scott", "g": "m", "p": "Labour Party", "i": 4433 },
 		{ "n": "Andrew Selous", "g": "m", "p": "Conservative and Unionist Party", "i": 1896 }
 	],

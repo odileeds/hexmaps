@@ -586,7 +586,7 @@
 	"E14000614": [
 		{ "n": "Janet Mary Battye", "g": "f", "p": "Liberal Democrats", "i": 12909 },
 		{ "n": "Joshua Fenton-Glynn", "g": "m", "p": "Labour Party", "i": 4289 },
-		{ "n": "Robert Holden", "g": "", "p": "Independent", "i": 35155 },
+		{ "n": "Robert Holden", "g": "m", "p": "Independent", "i": 35155 },
 		{ "n": "Paul Rogan", "g": "m", "p": "UK Independence Party (UKIP)", "i": 759 },
 		{ "n": "Kieran Turner", "g": "m", "p": "Green Party", "i": 34374 },
 		{ "n": "Craig Whittaker", "g": "m", "p": "Conservative and Unionist Party", "i": 438 }
@@ -2363,7 +2363,7 @@
 		{ "n": "James Gray", "g": "m", "p": "Conservative and Unionist Party", "i": 3271 },
 		{ "n": "Brian George Felton Mathew", "g": "m", "p": "Liberal Democrats", "i": 1251 },
 		{ "n": "Paddy Singh", "g": "", "p": "UK Independence Party (UKIP)", "i": 28840 },
-		{ "n": "Lisa Anne  Tweedie", "g": "", "p": "Independent", "i": 35057 }
+		{ "n": "Lisa Anne  Tweedie", "g": "f", "p": "Independent", "i": 35057 }
 	],
 	"E14000861": [
 		{ "n": "Jonathan Bullock", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5706 },

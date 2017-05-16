@@ -1242,7 +1242,7 @@
 		{ "n": "Martin Edward Whybrow", "g": "m", "p": "Green Party", "i": 27453 }
 	],
 	"E14000705": [
-		{ "n": "Julian Marcus Burrett", "g": "", "p": "Independent", "i": 34948 },
+		{ "n": "Julian Marcus Burrett", "g": "m", "p": "Independent", "i": 34948 },
 		{ "n": "Janet Ellard", "g": "f", "p": "Liberal Democrats", "i": 6320 },
 		{ "n": "James Greenwood", "g": "m", "p": "Green Party", "i": 3177 },
 		{ "n": "Mark Harper", "g": "m", "p": "Conservative and Unionist Party", "i": 2346 },
@@ -2037,7 +2037,7 @@
 		{ "n": "Alison Gavin", "g": "f", "p": "Green Party", "i": 6106 },
 		{ "n": "Leslie Kaye", "g": "m", "p": "UK Independence Party (UKIP)", "i": 8720 },
 		{ "n": "Tom McNeil", "g": "m", "p": "Labour Party", "i": 4379 },
-		{ "n": "Antony Richard Rogers", "g": "", "p": "Liberal Democrats", "i": 8735 },
+		{ "n": "Antony Richard Rogers", "g": "m", "p": "Liberal Democrats", "i": 8735 },
 		{ "n": "Caroline Spelman", "g": "f", "p": "Conservative and Unionist Party", "i": 1547 }
 	],
 	"E14000813": [
@@ -2428,7 +2428,7 @@
 		{ "n": "Drew Heffernan", "g": "m", "p": "Liberal Democrats", "i": 34777 },
 		{ "n": "Michael Jones", "g": "", "p": "British National Party", "i": 7975 },
 		{ "n": "Derek Moran", "g": "m", "p": "Green Party", "i": 5213 },
-		{ "n": "Chinwe Nwadikeduruibe", "g": "", "p": "Christian Peoples Alliance", "i": 34778 },
+		{ "n": "Chinwe Nwadikeduruibe", "g": "f", "p": "Christian Peoples Alliance", "i": 34778 },
 		{ "n": "Freddy Vachha", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5850 }
 	],
 	"E14000870": [
@@ -2612,7 +2612,7 @@
 		{ "n": "Chris Pearson", "g": "", "p": "The Yorkshire Party", "i": 30551 },
 		{ "n": "Daniel Perry", "g": "", "p": "Labour Party", "i": 34424 },
 		{ "n": "Rishi Sunak", "g": "m", "p": "Conservative and Unionist Party", "i": 5371 },
-		{ "n": "Fiona Elizabeth Yorke", "g": "", "p": "Green Party", "i": 30559 }
+		{ "n": "Fiona Elizabeth Yorke", "g": "f", "p": "Green Party", "i": 30559 }
 	],
 	"E14000896": [
 		{ "n": "Zac Goldsmith", "g": "m", "p": "Conservative and Unionist Party", "i": 502 },
@@ -2630,7 +2630,7 @@
 	],
 	"E14000898": [
 		{ "n": "David John Allen", "g": "m", "p": "UK Independence Party (UKIP)", "i": 28570 },
-		{ "n": "Steve Ayorinde Benson", "g": "", "p": "Christian Peoples Alliance", "i": 35048 },
+		{ "n": "Steve Ayorinde Benson", "g": "m", "p": "Christian Peoples Alliance", "i": 35048 },
 		{ "n": "Primerose Chiguri", "g": "", "p": "Independent", "i": 35049 },
 		{ "n": "Sonia Hyner", "g": "f", "p": "Green Party", "i": 34370 },
 		{ "n": "Teresa Murray", "g": "f", "p": "Labour Party", "i": 791 },
@@ -3077,7 +3077,7 @@
 	"E14000961": [
 		{ "n": "Steve Double", "g": "m", "p": "Conservative and Unionist Party", "i": 4231 },
 		{ "n": "Stephen Gilbert", "g": "m", "p": "Liberal Democrats", "i": 1489 },
-		{ "n": "Kevin Neil", "g": "", "p": "Labour Party", "i": 35098 }
+		{ "n": "Kevin Neil", "g": "m", "p": "Labour Party", "i": 35098 }
 	],
 	"E14000962": [
 		{ "n": "Conor McGinn", "g": "m", "p": "Labour Party", "i": 6209 },

@@ -4099,7 +4099,7 @@
 	"S14000030": [
 		{ "n": "Matthew Clark", "g": "", "p": "Liberal Democrats", "i": 21717 },
 		{ "n": "John Ferguson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 8140 },
-		{ "n": "Karin Finegan", "g": "", "p": "Independent", "i": 34888 },
+		{ "n": "Karin Finegan", "g": "f", "p": "Independent", "i": 34888 },
 		{ "n": "David Linden", "g": "m", "p": "Scottish National Party (SNP)", "i": 34515 },
 		{ "n": "Steven Marshall", "g": "m", "p": "Social Democratic Party", "i": 21340 },
 		{ "n": "Kate Watson", "g": "f", "p": "Labour Party", "i": 34221 }

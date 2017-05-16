@@ -4058,7 +4058,7 @@
 		{ "n": "Martin Veart", "g": "m", "p": "Liberal Democrats", "i": 6304 }
 	],
 	"S14000024": [
-		{ "n": "Alan Christopher Beal", "g": "", "p": "Liberal Democrats", "i": 34775 },
+		{ "n": "Alan Christopher Beal", "g": "m", "p": "Liberal Democrats", "i": 34775 },
 		{ "n": "Ian Murray", "g": "m", "p": "Labour Party", "i": 1116 },
 		{ "n": "Stephanie Smith", "g": "f", "p": "Conservative and Unionist Party", "i": 8291 }
 	],
@@ -4571,7 +4571,7 @@
 	"W07000079": [
 		{ "n": "Kevin Brennan", "g": "m", "p": "Labour Party", "i": 2628 },
 		{ "n": "Michael Andrew Christopher Deem", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 12654 },
-		{ "n": "Richard Vaughan Lewis", "g": "", "p": "UK Independence Party (UKIP)", "i": 28965 },
+		{ "n": "Richard Vaughan Lewis", "g": "m", "p": "UK Independence Party (UKIP)", "i": 28965 },
 		{ "n": "Alex Meredith", "g": "m", "p": "Liberal Democrats", "i": 5447 },
 		{ "n": "Matthew Smith", "g": "m", "p": "Conservative and Unionist Party", "i": 4157 }
 	],

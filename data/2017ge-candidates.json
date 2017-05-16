@@ -97,7 +97,7 @@
 	"E14000543": [
 		{ "n": "Loraine Birchall", "g": "f", "p": "Liberal Democrats", "i": 5633 },
 		{ "n": "Simon Fell", "g": "m", "p": "Conservative and Unionist Party", "i": 5174 },
-		{ "n": "Rob O'Hara", "g": "", "p": "Green Party", "i": 34903 },
+		{ "n": "Robert O'Hara", "g": "m", "p": "Green Party", "i": 5299 },
 		{ "n": "Alan Piper", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7171 },
 		{ "n": "John Woodcock", "g": "m", "p": "Labour and Co-operative Party", "i": 1813 }
 	],
@@ -1632,7 +1632,7 @@
 		{ "n": "Les Jones", "g": "m", "p": "Liberal Democrats", "i": 2425 }
 	],
 	"E14000759": [
-		{ "n": "Rich Clare", "g": "m", "p": "Liberal Democrats", "i": 6828 },
+		{ "n": "Richard Clare", "g": "m", "p": "Liberal Democrats", "i": 6828 },
 		{ "n": "Doris Osen", "g": "f", "p": "Independent", "i": 5465 },
 		{ "n": "Lee Scott", "g": "m", "p": "Conservative and Unionist Party", "i": 1915 },
 		{ "n": "Wes Streeting", "g": "m", "p": "Labour Party", "i": 4360 }
@@ -2291,7 +2291,7 @@
 	],
 	"E14000850": [
 		{ "n": "Greg Chambers", "g": "m", "p": "Labour Party", "i": 6096 },
-		{ "n": "Donald Davies", "g": "", "p": "Independent", "i": 35050 },
+		{ "n": "Donald Davies", "g": "m", "p": "Independent", "i": 35050 },
 		{ "n": "Richard Foord", "g": "", "p": "Liberal Democrats", "i": 35051 },
 		{ "n": "Liam Fox", "g": "m", "p": "Conservative and Unionist Party", "i": 451 },
 		{ "n": "Charley Pattison", "g": "", "p": "Green Party", "i": 34446 }

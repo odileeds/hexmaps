@@ -4494,7 +4494,7 @@
 	],
 	"W07000069": [
 		{ "n": "Frank Little", "g": "m", "p": "Liberal Democrats", "i": 3942 },
-		{ "n": "Orla Sarah Lowe", "g": "", "p": "Conservative and Unionist Party", "i": 24123 },
+		{ "n": "Orla Sarah Lowe", "g": "f", "p": "Conservative and Unionist Party", "i": 24123 },
 		{ "n": "Richard Herbert Pritchard", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5572 },
 		{ "n": "Christina Rees", "g": "f", "p": "Labour and Co-operative Party", "i": 4564 },
 		{ "n": "Daniel Williams", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 34201 }

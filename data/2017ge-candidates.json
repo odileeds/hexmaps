@@ -775,7 +775,7 @@
 		{ "n": "Jim Clark", "g": "", "p": "Independent", "i": 34793 },
 		{ "n": "Jon Collings", "g": "m", "p": "Young People's Party YPP", "i": 1842 },
 		{ "n": "Jonathan Elmer", "g": "m", "p": "Green Party", "i": 22817 },
-		{ "n": "Amanda Jayne Hopgood", "g": "", "p": "Liberal Democrats", "i": 25919 },
+		{ "n": "Amanda Jayne Hopgood", "g": "f", "p": "Liberal Democrats", "i": 25919 },
 		{ "n": "Richard Lawrie", "g": "m", "p": "Conservative and Unionist Party", "i": 34495 }
 	],
 	"E14000642": [
@@ -4347,7 +4347,7 @@
 		{ "n": "Carolyn Harris", "g": "f", "p": "Labour Party", "i": 5787 },
 		{ "n": "Charley Hasted", "g": "m", "p": "Liberal Democrats", "i": 34562 },
 		{ "n": "Clifford Johnson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5865 },
-		{ "n": "Steffan John Phillips", "g": "", "p": "Plaid Cymru - The Party of Wales", "i": 28633 }
+		{ "n": "Steffan John Phillips", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 28633 }
 	],
 	"W07000049": [
 		{ "n": "Andrew Leonard John Bennison", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 20533 },

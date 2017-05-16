@@ -601,7 +601,7 @@
 		{ "n": "Ray Towey", "g": "", "p": "Christian Peoples Alliance", "i": 7989 }
 	],
 	"E14000616": [
-		{ "n": "Charles George Eustice", "g": "m", "p": "Conservative and Unionist Party", "i": 3888 },
+		{ "n": "George Eustice", "g": "m", "p": "Conservative and Unionist Party", "i": 3888 },
 		{ "n": "Geoffrey George Garbett", "g": "m", "p": "Green Party", "i": 5410 },
 		{ "n": "Geoff Williams", "g": "m", "p": "Liberal Democrats", "i": 4030 },
 		{ "n": "Graham Winter", "g": "m", "p": "Labour Party", "i": 34592 }
@@ -636,7 +636,7 @@
 		{ "n": "Tom Brake", "g": "m", "p": "Liberal Democrats", "i": 3585 },
 		{ "n": "Ashley Dickenson", "g": "m", "p": "Christian Peoples Alliance", "i": 6332 },
 		{ "n": "Emina Ibrahim", "g": "f", "p": "Labour Party", "i": 34383 },
-		{ "n": "Sasha Khan", "g": "f", "p": "Green Party", "i": 34439 },
+		{ "n": "Shasha Khan", "g": "m", "p": "Green Party", "i": 4614 },
 		{ "n": "Nick Mattey", "g": "m", "p": "Independent", "i": 34640 },
 		{ "n": "Matthew Maxwell Scott", "g": "m", "p": "Conservative and Unionist Party", "i": 4174 }
 	],
@@ -1658,7 +1658,7 @@
 		{ "n": "Julian Critchley", "g": "m", "p": "Labour Party", "i": 24612 },
 		{ "n": "Julie Jones-Evans", "g": "f", "p": "Independent", "i": 24644 },
 		{ "n": "Vix Lowthion", "g": "f", "p": "Green Party", "i": 4912 },
-		{ "n": "Darryl Pitcher", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34667 },
+		{ "n": "Daryll Pitcher", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5193 },
 		{ "n": "Bob Seely", "g": "m", "p": "Conservative and Unionist Party", "i": 24695 }
 	],
 	"E14000763": [
@@ -1959,7 +1959,6 @@
 	"E14000803": [
 		{ "n": "Gerard Batten", "g": "m", "p": "UK Independence Party (UKIP)", "i": 183 },
 		{ "n": "Lord Buckethead", "g": "", "p": "Independent", "i": 34750 },
-		{ "n": "Victor Edmonds", "g": "m", "p": "Christian Peoples Alliance", "i": 34753 },
 		{ "n": "Yemi Hailemariam", "g": "", "p": "Independent", "i": 34751 },
 		{ "n": "Tony Hill", "g": "m", "p": "Liberal Democrats", "i": 2809 },
 		{ "n": "Howling Laud Hope", "g": "m", "p": "Official Monster Raving Loony Party", "i": 422 },
@@ -1969,12 +1968,13 @@
 		{ "n": "Julian Reid", "g": "m", "p": "The Just Political Party", "i": 34614 },
 		{ "n": "Bobby Elmo Smith", "g": "m", "p": "Independent", "i": 7292 },
 		{ "n": "Grant Smith", "g": "m", "p": "Independent", "i": 34752 },
+		{ "n": "Edmonds Victor", "g": "m", "p": "Christian Peoples Alliance", "i": 34753 },
 		{ "n": "Derek Wall", "g": "m", "p": "Green Party", "i": 2836 }
 	],
 	"E14000804": [
 		{ "n": "Emily Fermor", "g": "f", "p": "Liberal Democrats", "i": 12122 },
 		{ "n": "Helen Grant", "g": "f", "p": "Conservative and Unionist Party", "i": 2107 },
-		{ "n": "Stuart Jeffrey", "g": "", "p": "Green Party", "i": 34958 },
+		{ "n": "Stuart Jeffery", "g": "m", "p": "Green Party", "i": 2111 },
 		{ "n": "Yolande Ann Kenward", "g": "", "p": "Independent", "i": 28382 },
 		{ "n": "Allen Simpson", "g": "m", "p": "Labour Party", "i": 4377 },
 		{ "n": "Pamela Elizabeth Watts", "g": "", "p": "UK Independence Party (UKIP)", "i": 12153 }
@@ -4079,7 +4079,7 @@
 		{ "n": "John Cormack", "g": "m", "p": "Christian Party \"Proclaiming Christ's Lordship\"", "i": 6732 },
 		{ "n": "Ealasaid MacDonald", "g": "f", "p": "Labour Party", "i": 34276 },
 		{ "n": "Angus MacNeil", "g": "m", "p": "Scottish National Party (SNP)", "i": 3013 },
-		{ "n": "Daniel McCroskie", "g": "", "p": "Conservative and Unionist Party", "i": 34803 },
+		{ "n": "Daniel McCroskrie", "g": "", "p": "Conservative and Unionist Party", "i": 34803 },
 		{ "n": "Jamie Paterson", "g": "m", "p": "Liberal Democrats", "i": 3468 }
 	],
 	"S14000028": [
@@ -4482,7 +4482,7 @@
 		{ "n": "David Darkin", "g": "m", "p": "Labour Party", "i": 19891 },
 		{ "n": "Jonathan Edwards", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 3577 },
 		{ "n": "Neil Hamilton", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7758 },
-		{ "n": "Anthony Havard Maengwyn Hughes", "g": "m", "p": "Conservative and Unionist Party", "i": 34910 },
+		{ "n": "Havard Hughes", "g": "m", "p": "Conservative and Unionist Party", "i": 34910 },
 		{ "n": "Lesley Ann Prosser", "g": "f", "p": "Liberal Democrats", "i": 26060 }
 	],
 	"W07000068": [

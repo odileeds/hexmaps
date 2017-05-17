@@ -2377,7 +2377,7 @@
 		{ "n": "Rose Elizabeth Gibbins", "g": "", "p": "UK Independence Party (UKIP)", "i": 33392 },
 		{ "n": "Jill Hope", "g": "", "p": "Liberal Democrats", "i": 30444 },
 		{ "n": "Andrew Lewer", "g": "m", "p": "Conservative and Unionist Party", "i": 34338 },
-		{ "n": "Scott Kyle Mabbutt", "g": "", "p": "Green Party", "i": 35076 },
+		{ "n": "Scott Mabbutt", "g": "m", "p": "Green Party", "i": 22866 },
 		{ "n": "Kevin McKeever", "g": "m", "p": "Labour Party", "i": 1276 }
 	],
 	"E14000863": [
@@ -3154,7 +3154,7 @@
 	],
 	"E14000973": [
 		{ "n": "Ben Adams", "g": "m", "p": "Conservative and Unionist Party", "i": 4810 },
-		{ "n": "Douglas Peter Rouxel", "g": "", "p": "Green Party", "i": 34953 },
+		{ "n": "Douglas Peter Rouxel", "g": "m", "p": "Green Party", "i": 34953 },
 		{ "n": "Ruth Smeeth", "g": "f", "p": "Labour Party", "i": 3979 },
 		{ "n": "Richard Whelan", "g": "", "p": "Liberal Democrats", "i": 34954 }
 	],
@@ -3769,7 +3769,7 @@
 		{ "n": "Bethan Vincent", "g": "f", "p": "Green Party", "i": 35115 }
 	],
 	"N06000001": [
-		{ "n": "Bobby Beck", "g": "", "p": "Independent", "i": 34721 },
+		{ "n": "Bobby Beck", "g": "m", "p": "Independent", "i": 34721 },
 		{ "n": "Sheila Bodel", "g": "f", "p": "Conservative and Unionist Party", "i": 19719 },
 		{ "n": "Séamas de Faoite", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 19745 },
 		{ "n": "Hazel Legge", "g": "f", "p": "Ulster Unionist Party", "i": 34531 },
@@ -3782,7 +3782,7 @@
 		{ "n": "Nigel Dodds", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 2140 },
 		{ "n": "John Finucane", "g": "m", "p": "Sinn Féin", "i": 34499 },
 		{ "n": "Martin McAuley", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 574 },
-		{ "n": "Sam Nelson", "g": "", "p": "Alliance - Alliance Party of Northern Ireland", "i": 34659 },
+		{ "n": "Sam Nelson", "g": "m", "p": "Alliance - Alliance Party of Northern Ireland", "i": 34659 },
 		{ "n": "Malachai O'Hara", "g": "m", "p": "Green Party", "i": 11378 },
 		{ "n": "Gemma Weir ", "g": "f", "p": "The Workers Party", "i": 6264 }
 	],
@@ -3793,7 +3793,7 @@
 		{ "n": "Emma Little-Pengelly", "g": "f", "p": "Democratic Unionist Party - D.U.P.", "i": 11458 },
 		{ "n": "Alasdair McDonnell", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 3431 },
 		{ "n": "Máirtín Ó Muilleoir", "g": "m", "p": "Sinn Féin", "i": 4597 },
-		{ "n": "Clare Salier", "g": "", "p": "Conservative and Unionist Party", "i": 34731 }
+		{ "n": "Clare Salier", "g": "f", "p": "Conservative and Unionist Party", "i": 34731 }
 	],
 	"N06000004": [
 		{ "n": "Tim Attwood", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 34916 },
@@ -3829,7 +3829,7 @@
 	"N06000008": [
 		{ "n": "John Doherty", "g": "m", "p": "Alliance - Alliance Party of Northern Ireland", "i": 34589 },
 		{ "n": "Mark Durkan", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 2137 },
-		{ "n": "Shaun Harkin", "g": "", "p": "People Before Profit Alliance", "i": 35060 },
+		{ "n": "Shaun Harkin", "g": "m", "p": "People Before Profit Alliance", "i": 35060 },
 		{ "n": "Elisha McCallion", "g": "f", "p": "Sinn Féin", "i": 19678 },
 		{ "n": "Gary Middleton", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 7209 }
 	],
@@ -3840,7 +3840,7 @@
 		{ "n": "Aaron McIntyre", "g": "m", "p": "Alliance - Alliance Party of Northern Ireland", "i": 34658 },
 		{ "n": "Ian Nickels", "g": "m", "p": "Conservative and Unionist Party", "i": 12436 },
 		{ "n": "Jonny Orr", "g": "m", "p": "Independent", "i": 7410 },
-		{ "n": "Jacqui Russell", "g": "", "p": "Sinn Féin", "i": 35062 }
+		{ "n": "Jacqui Russell", "g": "f", "p": "Sinn Féin", "i": 35062 }
 	],
 	"N06000010": [
 		{ "n": "Keith Alexander Buchanan", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 11273 },
@@ -3892,7 +3892,7 @@
 		{ "n": "Kellie Armstrong", "g": "f", "p": "Alliance - Alliance Party of Northern Ireland", "i": 4590 },
 		{ "n": "Ricky Bamford", "g": "f", "p": "Green Party", "i": 19706 },
 		{ "n": "Joe Boyle", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 7179 },
-		{ "n": "Carole Murphy", "g": "", "p": "Sinn Féin", "i": 35132 },
+		{ "n": "Carole Murphy", "g": "f", "p": "Sinn Féin", "i": 35132 },
 		{ "n": "Mike Nesbitt", "g": "m", "p": "Ulster Unionist Party", "i": 302 },
 		{ "n": "Jim Shannon", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 3066 }
 	],

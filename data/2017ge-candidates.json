@@ -328,7 +328,7 @@
 		{ "n": "Nick Gibb", "g": "m", "p": "Conservative and Unionist Party", "i": 918 },
 		{ "n": "Patrick Lowe", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7542 },
 		{ "n": "Francis Oppler", "g": "m", "p": "Liberal Democrats", "i": 4482 },
-		{ "n": "Paul Sanderson", "g": "", "p": "Independent", "i": 34500 }
+		{ "n": "Paul Sanderson", "g": "m", "p": "Independent", "i": 34500 }
 	],
 	"E14000577": [
 		{ "n": "Helen Harrison", "g": "f", "p": "Conservative and Unionist Party", "i": 6107 },

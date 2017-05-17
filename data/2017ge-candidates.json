@@ -509,7 +509,7 @@
 	"E14000602": [
 		{ "n": "Molly Scott Cato", "g": "f", "p": "Green Party", "i": 34111 },
 		{ "n": "Thangam Debbonaire", "g": "f", "p": "Labour Party", "i": 4281 },
-		{ "n": "Jodian Rodgers", "g": "", "p": "Money Free Party", "i": 34922 },
+		{ "n": "Jodian Rodgers", "g": "m", "p": "Money Free Party", "i": 34922 },
 		{ "n": "Annabel Tall", "g": "f", "p": "Conservative and Unionist Party", "i": 34519 },
 		{ "n": "Stephen Williams", "g": "m", "p": "Liberal Democrats", "i": 1491 }
 	],
@@ -3775,7 +3775,7 @@
 		{ "n": "Hazel Legge", "g": "f", "p": "Ulster Unionist Party", "i": 34531 },
 		{ "n": "Naomi Long", "g": "f", "p": "Alliance - Alliance Party of Northern Ireland", "i": 2454 },
 		{ "n": "Georgina Milne", "g": "f", "p": "Green Party", "i": 19699 },
-		{ "n": "Mairéad O'Donnell", "g": "f", "p": "Sinn Féin", "i": 34597 },
+		{ "n": "Mairéad O'Donnell", "g": "f", "p": "Sinn Féin", "i": 19680 },
 		{ "n": "Gavin Robinson", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 4595 }
 	],
 	"N06000002": [

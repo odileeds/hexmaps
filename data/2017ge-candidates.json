@@ -2325,7 +2325,7 @@
 		{ "n": "Craig Tracey", "g": "m", "p": "Conservative and Unionist Party", "i": 4219 }
 	],
 	"E14000855": [
-		{ "n": "Greg Guthrie", "g": "", "p": "Green Party", "i": 34885 },
+		{ "n": "Greg Guthrie", "g": "m", "p": "Green Party", "i": 34885 },
 		{ "n": "Iain Ramsbottom", "g": "m", "p": "Labour Party", "i": 9053 },
 		{ "n": "Bridget Smith", "g": "f", "p": "Liberal Democrats", "i": 34361 },
 		{ "n": "Shailesh Vara", "g": "m", "p": "Conservative and Unionist Party", "i": 489 },
@@ -3325,7 +3325,7 @@
 	],
 	"E14000998": [
 		{ "n": "Rosena Allin-Khan", "g": "f", "p": "Labour Party", "i": 34186 },
-		{ "n": "Ryan Coshall", "g": "", "p": "UK Independence Party (UKIP)", "i": 34846 },
+		{ "n": "Ryan Coshall", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34846 },
 		{ "n": "Alex Glassbrook", "g": "m", "p": "Liberal Democrats", "i": 34625 },
 		{ "n": "Esther Obiri-Darko", "g": "f", "p": "Green Party", "i": 4749 },
 		{ "n": "Dan Watkins", "g": "m", "p": "Conservative and Unionist Party", "i": 4239 }

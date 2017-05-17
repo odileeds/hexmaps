@@ -3882,7 +3882,7 @@
 		{ "n": "Roisin Lynch", "g": "f", "p": "SDLP (Social Democratic & Labour Party)", "i": 5390 }
 	],
 	"N06000015": [
-		{ "n": "Diane Forsythe", "g": "", "p": "Democratic Unionist Party - D.U.P.", "i": 34534 },
+		{ "n": "Diane Forsythe", "g": "f", "p": "Democratic Unionist Party - D.U.P.", "i": 34534 },
 		{ "n": "Chris Hazzard", "g": "m", "p": "Sinn Féin", "i": 5994 },
 		{ "n": "Harold McKee", "g": "m", "p": "Ulster Unionist Party", "i": 6709 },
 		{ "n": "Andrew McMurray", "g": "m", "p": "Alliance - Alliance Party of Northern Ireland", "i": 34661 },

@@ -820,7 +820,7 @@
 		{ "n": "Herbert Crossman", "g": "m", "p": "UK Independence Party (UKIP)", "i": 303 },
 		{ "n": "Rebecca Hanson", "g": "f", "p": "Liberal Democrats", "i": 19844 },
 		{ "n": "Trudy Harrison", "g": "f", "p": "Conservative and Unionist Party", "i": 19845 },
-		{ "n": "Gillian Ruth Troughton", "g": "f", "p": "Labour Party", "i": 19848 }
+		{ "n": "Gillian Troughton", "g": "f", "p": "Labour Party", "i": 19848 }
 	],
 	"E14000648": [
 		{ "n": "Beth Miller", "g": "f", "p": "Labour Party", "i": 34301 },
@@ -2728,7 +2728,7 @@
 	"E14000912": [
 		{ "n": "Tom Corbin", "g": "m", "p": "Labour Party", "i": 4419 },
 		{ "n": "John Glen", "g": "m", "p": "Conservative and Unionist Party", "i": 155 },
-		{ "n": "Brig Oubridge", "g": "", "p": "Green Party", "i": 34780 },
+		{ "n": "Brig Oubridge", "g": "m", "p": "Green Party", "i": 34780 },
 		{ "n": "Dean Palethorpe", "g": "", "p": "UK Independence Party (UKIP)", "i": 28853 },
 		{ "n": "Arthur Pendragon", "g": "m", "p": "Independent", "i": 1195 },
 		{ "n": "Paul William Leslie Sample", "g": "m", "p": "Liberal Democrats", "i": 28769 }
@@ -2757,7 +2757,7 @@
 		{ "n": "Phil Wilson", "g": "m", "p": "Labour Party", "i": 174 }
 	],
 	"E14000916": [
-		{ "n": "Mike Carter", "g": "", "p": "Green Party", "i": 16127 },
+		{ "n": "Mike Carter", "g": "m", "p": "Green Party", "i": 16127 },
 		{ "n": "Bill Esterson", "g": "m", "p": "Labour Party", "i": 1961 },
 		{ "n": "Daniel Lewis", "g": "m", "p": "Liberal Democrats", "i": 4541 },
 		{ "n": "Jade Marsden", "g": "f", "p": "Conservative and Unionist Party", "i": 6800 }
@@ -2884,7 +2884,7 @@
 	"E14000933": [
 		{ "n": "Reetendra Nath Banerji", "g": "m", "p": "Liberal Democrats", "i": 4527 },
 		{ "n": "Paul Borg", "g": "m", "p": "British National Party", "i": 6547 },
-		{ "n": "Sim Harman", "g": "", "p": "Green Party", "i": 34871 },
+		{ "n": "Sim Harman", "g": "m", "p": "Green Party", "i": 34871 },
 		{ "n": "Stephen Metcalfe", "g": "m", "p": "Conservative and Unionist Party", "i": 2211 },
 		{ "n": "Byron Taylor", "g": "m", "p": "Labour Party", "i": 34430 },
 		{ "n": "Peter Whittle", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7457 }
@@ -3139,7 +3139,7 @@
 	],
 	"E14000971": [
 		{ "n": "Drew Durning", "g": "m", "p": "Liberal Democrats", "i": 5803 },
-		{ "n": "Jo Fitzgerald", "g": "", "p": "Green Party", "i": 35144 },
+		{ "n": "Jo Fitzgerald", "g": "f", "p": "Green Party", "i": 35144 },
 		{ "n": "David Outterside", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34450 },
 		{ "n": "James Wharton", "g": "m", "p": "Conservative and Unionist Party", "i": 4110 },
 		{ "n": "Paul Daniel Williams", "g": "", "p": "Labour Party", "i": 35145 }
@@ -4073,7 +4073,7 @@
 		{ "n": "Toni Giugliano", "g": "m", "p": "Scottish National Party (SNP)", "i": 8284 },
 		{ "n": "Christine Jardine", "g": "f", "p": "Liberal Democrats", "i": 4499 },
 		{ "n": "Mandy Telford", "g": "f", "p": "Labour Party", "i": 9262 },
-		{ "n": "Mark Robertson Whittet", "g": "make", "p": "Scotland's Independence Referendum Party", "i": 34783 }
+		{ "n": "Mark Robertson Whittet", "g": "m", "p": "Scotland's Independence Referendum Party", "i": 34783 }
 	],
 	"S14000027": [
 		{ "n": "John Cormack", "g": "m", "p": "Christian Party \"Proclaiming Christ's Lordship\"", "i": 6732 },
@@ -4457,7 +4457,7 @@
 		{ "n": "Sir Dudley the Crazed", "g": "m", "p": "Official Monster Raving Loony Party", "i": 34402 },
 		{ "n": "Ruth Rosamond Davis", "g": "f", "p": "Conservative and Unionist Party", "i": 34697 },
 		{ "n": "Grenville Ham", "g": "m", "p": "Green Party", "i": 7461 },
-		{ "n": "Tom Harrison", "g": "", "p": "UK Independence Party (UKIP)", "i": 28961 },
+		{ "n": "Tom Harrison", "g": "m", "p": "UK Independence Party (UKIP)", "i": 28961 },
 		{ "n": "Ben Lake", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 34192 },
 		{ "n": "Dinah Mulholland", "g": "f", "p": "Labour Party", "i": 27009 },
 		{ "n": "Mark Williams", "g": "m", "p": "Liberal Democrats", "i": 15 }

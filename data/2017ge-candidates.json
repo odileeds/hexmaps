@@ -1402,7 +1402,7 @@
 		{ "n": "Jack Bovill", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6866 },
 		{ "n": "Charlie Dewhirst", "g": "m", "p": "Conservative and Unionist Party", "i": 4194 },
 		{ "n": "Jagdeosingh Hauzaree", "g": "", "p": "Independent", "i": 34824 },
-		{ "n": "Alex Horn", "g": "", "p": "Green Party", "i": 34825 },
+		{ "n": "Alex Horn", "g": "m", "p": "Green Party", "i": 34825 },
 		{ "n": "Joyce Onstad", "g": "f", "p": "Liberal Democrats", "i": 34113 },
 		{ "n": "Andrew Slaughter", "g": "m", "p": "Labour Party", "i": 234 }
 	],

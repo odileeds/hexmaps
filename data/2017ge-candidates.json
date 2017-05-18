@@ -3914,7 +3914,7 @@
 	],
 	"S14000001": [
 		{ "n": "Kirsty Blackman", "g": "f", "p": "Scottish National Party (SNP)", "i": 6042 },
-		{ "n": "Isobel Davidson", "g": "", "p": "Liberal Democrats", "i": 34672 },
+		{ "n": "Isobel Davidson", "g": "f", "p": "Liberal Democrats", "i": 8217 },
 		{ "n": "Richard John Durkin", "g": "", "p": "Independent", "i": 34745 },
 		{ "n": "Grace O'Keeffe", "g": "f", "p": "Conservative and Unionist Party", "i": 34304 },
 		{ "n": "Orr Vinegold", "g": "m", "p": "Labour Party", "i": 34249 }
@@ -3923,7 +3923,7 @@
 		{ "n": "Callum McCaig", "g": "m", "p": "Scottish National Party (SNP)", "i": 6043 },
 		{ "n": "Callum O'Dwyer", "g": "m", "p": "Labour Party", "i": 34250 },
 		{ "n": "Ross Thomson", "g": "m", "p": "Conservative and Unionist Party", "i": 2865 },
-		{ "n": "Jenny Wilson", "g": "", "p": "Liberal Democrats", "i": 21237 }
+		{ "n": "Jenny Wilson", "g": "f", "p": "Liberal Democrats", "i": 21237 }
 	],
 	"S14000003": [
 		{ "n": "Jennifer Mary Donnellan", "g": "", "p": "Conservative and Unionist Party", "i": 34757 },

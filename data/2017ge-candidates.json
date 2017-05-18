@@ -1269,7 +1269,7 @@
 	],
 	"E14000709": [
 		{ "n": "Mark Bell", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6670 },
-		{ "n": "Lauren Anne Hankinson", "g": "", "p": "Conservative and Unionist Party", "i": 34862 },
+		{ "n": "Lauren Hankinson", "g": "f", "p": "Conservative and Unionist Party", "i": 6006 },
 		{ "n": "Frank Hindle", "g": "m", "p": "Liberal Democrats", "i": 1199 },
 		{ "n": "Ian Mearns", "g": "m", "p": "Labour Party", "i": 2657 },
 		{ "n": "Andy Redfern", "g": "m", "p": "Green Party", "i": 2189 }
@@ -1809,7 +1809,7 @@
 	],
 	"E14000782": [
 		{ "n": "Sujata Barot", "g": "f", "p": "Independent", "i": 34142 },
-		{ "n": "Nitesh Pravin Dave", "g": "", "p": "Liberal Democrats", "i": 23556 },
+		{ "n": "Nitesh Dave", "g": "m", "p": "Liberal Democrats", "i": 23556 },
 		{ "n": "Ian Micheal Fox", "g": "", "p": "Independent", "i": 34941 },
 		{ "n": "Edward Yi He", "g": "m", "p": "Conservative and Unionist Party", "i": 5518 },
 		{ "n": "Keith Vaz", "g": "m", "p": "Labour Party", "i": 427 },
@@ -2063,7 +2063,7 @@
 		{ "n": "Tracy Selina Knowles", "g": "", "p": "UK Independence Party (UKIP)", "i": 35074 },
 		{ "n": "Hannah Lester", "g": "f", "p": "Green Party", "i": 34648 },
 		{ "n": "Sarah Simpson", "g": "f", "p": "Labour Party", "i": 34363 },
-		{ "n": "Fionna Margaret  Ruth Tod", "g": "", "p": "Liberal Democrats", "i": 35075 }
+		{ "n": "Fionna Tod", "g": "f", "p": "Liberal Democrats", "i": 35075 }
 	],
 	"E14000817": [
 		{ "n": "Toby Brothers", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5236 },
@@ -2113,7 +2113,7 @@
 		{ "n": "Laura Collins", "g": "f", "p": "Green Party", "i": 34167 },
 		{ "n": "Richard Hilton", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5627 },
 		{ "n": "Alicia Kearns", "g": "f", "p": "Conservative and Unionist Party", "i": 34194 },
-		{ "n": "Claire Mathys", "g": "", "p": "Liberal Democrats", "i": 34841 },
+		{ "n": "Claire Mathys", "g": "f", "p": "Liberal Democrats", "i": 34841 },
 		{ "n": "Siobhain McDonagh", "g": "f", "p": "Labour Party", "i": 3048 }
 	],
 	"E14000824": [

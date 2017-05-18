@@ -104,7 +104,7 @@
 	"E14000544": [
 		{ "n": "John Baron", "g": "m", "p": "Conservative and Unionist Party", "i": 2580 },
 		{ "n": "Kayte Block", "g": "f", "p": "Labour Party", "i": 9674 },
-		{ "n": "Antonia Harrison", "g": "", "p": "Liberal Democrats", "i": 34863 },
+		{ "n": "Antonia Harrison", "g": "f", "p": "Liberal Democrats", "i": 34863 },
 		{ "n": "Tina Hughes", "g": "", "p": "UK Independence Party (UKIP)", "i": 9802 }
 	],
 	"E14000545": [
@@ -430,7 +430,7 @@
 		{ "n": "James Cleverly", "g": "m", "p": "Conservative and Unionist Party", "i": 5464 },
 		{ "n": "Malcolm Fincken", "g": "m", "p": "Labour Party", "i": 4273 },
 		{ "n": "Thomas Pashby", "g": "", "p": "Green Party", "i": 34864 },
-		{ "n": "Peter Turner", "g": "", "p": "Liberal Democrats", "i": 30077 }
+		{ "n": "Peter Turner", "g": "m", "p": "Liberal Democrats", "i": 30077 }
 	],
 	"E14000591": [
 		{ "n": "Rahoul Bhansali", "g": "m", "p": "Conservative and Unionist Party", "i": 2599 },
@@ -562,7 +562,7 @@
 	"E14000610": [
 		{ "n": "Andrew Griffiths", "g": "m", "p": "Conservative and Unionist Party", "i": 632 },
 		{ "n": "Simon Hales", "g": "m", "p": "Green Party", "i": 32538 },
-		{ "n": "Dominic Hardwick", "g": "", "p": "Liberal Democrats", "i": 14417 },
+		{ "n": "Dominic Hardwick", "g": "m", "p": "Liberal Democrats", "i": 14417 },
 		{ "n": "John McKiernan", "g": "m", "p": "Labour Party", "i": 19635 }
 	],
 	"E14000611": [
@@ -729,7 +729,7 @@
 		{ "n": "Sinead King", "g": "f", "p": "Green Party", "i": 34652 },
 		{ "n": "Bilal Mahmood", "g": "m", "p": "Labour Party", "i": 4306 },
 		{ "n": "Iain Duncan Smith", "g": "m", "p": "Conservative and Unionist Party", "i": 308 },
-		{ "n": "Deborah Unger", "g": "", "p": "Liberal Democrats", "i": 34764 }
+		{ "n": "Deborah Unger", "g": "f", "p": "Liberal Democrats", "i": 34764 }
 	],
 	"E14000635": [
 		{ "n": "Helen Belcher", "g": "f", "p": "Liberal Democrats", "i": 9388 },

@@ -1000,7 +1000,7 @@
 	],
 	"E14000672": [
 		{ "n": "Mitch Bolton", "g": "", "p": "UK Independence Party (UKIP)", "i": 35138 },
-		{ "n": "Jon Bramall", "g": "", "p": "Liberal Democrats", "i": 35139 },
+		{ "n": "Jonathan Bramall", "g": "m", "p": "Liberal Democrats", "i": 3124 },
 		{ "n": "Jenny Maxwell", "g": "", "p": "Green Party", "i": 16218 },
 		{ "n": "Natasha Millward", "g": "f", "p": "Labour Party", "i": 4321 },
 		{ "n": "Mike Wood", "g": "m", "p": "Conservative and Unionist Party", "i": 4687 }
@@ -1217,7 +1217,7 @@
 		{ "n": "Tony Firkins", "g": "m", "p": "Green Party", "i": 4890 },
 		{ "n": "Samir Jassal", "g": "m", "p": "Conservative and Unionist Party", "i": 5254 },
 		{ "n": "Seema Malhotra", "g": "f", "p": "Labour and Co-operative Party", "i": 4892 },
-		{ "n": "Hina Malik", "g": "", "p": "Liberal Democrats", "i": 34861 }
+		{ "n": "Hina Malik", "g": "f", "p": "Liberal Democrats", "i": 34861 }
 	],
 	"E14000702": [
 		{ "n": "Eva Lily Fielding", "g": "f", "p": "Liberal Democrats", "i": 34108 },
@@ -4006,7 +4006,7 @@
 		{ "n": "Eleanor Price", "g": "f", "p": "Conservative and Unionist Party", "i": 34518 }
 	],
 	"S14000016": [
-		{ "n": "Jenny Marion Margaret Blain", "g": "", "p": "Liberal Democrats", "i": 22050 },
+		{ "n": "Jenny Marion Margaret Blain", "g": "f", "p": "Liberal Democrats", "i": 22050 },
 		{ "n": "Darren Cormack", "g": "", "p": "Conservative and Unionist Party", "i": 34798 },
 		{ "n": "Alan Cowan", "g": "m", "p": "Labour Party", "i": 34258 },
 		{ "n": "Sean David Dobson", "g": "", "p": "Independent", "i": 34799 },
@@ -4130,7 +4130,7 @@
 		{ "n": "Taylor Muir", "g": "m", "p": "Conservative and Unionist Party", "i": 5050 }
 	],
 	"S14000035": [
-		{ "n": "Ben Denton-Cardew", "g": "", "p": "Liberal Democrats", "i": 21690 },
+		{ "n": "Ben Denton-Cardew", "g": "m", "p": "Liberal Democrats", "i": 21690 },
 		{ "n": "Thomas Haddow", "g": "m", "p": "Conservative and Unionist Party", "i": 8358 },
 		{ "n": "Sarah Louise Hemy", "g": "f", "p": "UK Independence Party (UKIP)", "i": 21813 },
 		{ "n": "Matt Kerr", "g": "m", "p": "Labour and Co-operative Party", "i": 21652 },
@@ -4488,7 +4488,7 @@
 	"W07000068": [
 		{ "n": "Chris Davies", "g": "m", "p": "Conservative and Unionist Party", "i": 4166 },
 		{ "n": "James Gibson-Watt", "g": "m", "p": "Liberal Democrats", "i": 24816 },
-		{ "n": " Peter Charles Gilbert", "g": "", "p": "UK Independence Party (UKIP)", "i": 35019 },
+		{ "n": "Peter Charles Gilbert", "g": "", "p": "UK Independence Party (UKIP)", "i": 35019 },
 		{ "n": "Kate Heneghan", "g": "f", "p": "Plaid Cymru - The Party of Wales", "i": 34191 },
 		{ "n": "Dan Lodge", "g": "m", "p": "Labour Party", "i": 9314 }
 	],

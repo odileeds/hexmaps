@@ -2592,7 +2592,7 @@
 		{ "n": "Neal Stote", "g": "m", "p": "National Health Action Party", "i": 34650 },
 		{ "n": "Paul James Swansborough", "g": "m", "p": "UK Independence Party (UKIP)", "i": 24237 },
 		{ "n": "Kevin White", "g": "m", "p": "Green Party", "i": 1346 },
-		{ "n": "Sally Kristina Woodhall", "g": "", "p": "Independent", "i": 32802 }
+		{ "n": "Sally Woodhall", "g": "f", "p": "Independent", "i": 32802 }
 	],
 	"E14000893": [
 		{ "n": "Crispin Blunt", "g": "m", "p": "Conservative and Unionist Party", "i": 1641 },
@@ -2668,7 +2668,7 @@
 		{ "n": "Kevin Barron", "g": "m", "p": "Labour Party", "i": 3080 },
 		{ "n": "Bethan Sian Eddy", "g": "", "p": "Conservative and Unionist Party", "i": 13864 },
 		{ "n": "Lee Hunter", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6739 },
-		{ "n": "Paul Neville Martin", "g": "", "p": "Green Party", "i": 18598 },
+		{ "n": "Paul Martin", "g": "m", "p": "Green Party", "i": 18598 },
 		{ "n": "Katie Pruszynski", "g": "f", "p": "Liberal Democrats", "i": 34140 }
 	],
 	"E14000904": [
@@ -4228,12 +4228,12 @@
 	],
 	"S14000050": [
 		{ "n": "Tasmina Ahmed-Sheikh", "g": "f", "p": "Scottish National Party (SNP)", "i": 5924 },
-		{ "n": "Joanne Ross", "g": "", "p": "Labour Party", "i": 34278 },
+		{ "n": "Joanne Ross", "g": "f", "p": "Labour Party", "i": 34278 },
 		{ "n": "Iliyan Stefanov", "g": "m", "p": "Liberal Democrats", "i": 6610 }
 	],
 	"S14000051": [
 		{ "n": "Robina Barton", "g": "f", "p": "Labour Party", "i": 8865 },
-		{ "n": "Miriam Brett", "g": "", "p": "Scottish National Party (SNP)", "i": 34266 },
+		{ "n": "Miriam Brett", "g": "f", "p": "Scottish National Party (SNP)", "i": 34266 },
 		{ "n": "Alistair Carmichael", "g": "m", "p": "Liberal Democrats", "i": 1331 },
 		{ "n": "Stuart Hill", "g": "", "p": "Independent", "i": 34686 },
 		{ "n": "Jamie Halcro Johnston", "g": "m", "p": "Conservative and Unionist Party", "i": 8871 },
@@ -4243,7 +4243,7 @@
 		{ "n": "John Boyd", "g": "", "p": "Liberal Democrats", "i": 21948 },
 		{ "n": "David John Gardiner", "g": "", "p": "Conservative and Unionist Party", "i": 34973 },
 		{ "n": "Gavin Newlands", "g": "m", "p": "Scottish National Party (SNP)", "i": 6054 },
-		{ "n": "Alison Taylor", "g": "", "p": "Labour Party", "i": 34279 }
+		{ "n": "Alison Taylor", "g": "f", "p": "Labour Party", "i": 34279 }
 	],
 	"S14000053": [
 		{ "n": "Mhairi Black", "g": "f", "p": "Scottish National Party (SNP)", "i": 6055 },

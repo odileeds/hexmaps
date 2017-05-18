@@ -2716,7 +2716,7 @@
 		{ "n": "Kemi Badenoch", "g": "f", "p": "Conservative and Unionist Party", "i": 7997 },
 		{ "n": "Jane Berney", "g": "f", "p": "Labour Party", "i": 4418 },
 		{ "n": "Mike Hibbs", "g": "m", "p": "Liberal Democrats", "i": 1632 },
-		{ "n": "Lorna Ann Howe", "g": "", "p": "UK Independence Party (UKIP)", "i": 33413 }
+		{ "n": "Lorna Ann Howe", "g": "f", "p": "UK Independence Party (UKIP)", "i": 33413 }
 	],
 	"E14000911": [
 		{ "n": "Christopher Barnes", "g": "", "p": "UK Independence Party (UKIP)", "i": 15775 },

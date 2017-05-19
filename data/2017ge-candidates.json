@@ -2255,7 +2255,7 @@
 		{ "n": "Mike Gascoigne", "g": "", "p": "UK Independence Party (UKIP)", "i": 14264 },
 		{ "n": "Ranil Jayawardena", "g": "m", "p": "Conservative and Unionist Party", "i": 4217 },
 		{ "n": "Barry Jones", "g": "m", "p": "Labour Party", "i": 1835 },
-		{ "n": "Chas Spradbery", "g": "", "p": "Green Party", "i": 34997 }
+		{ "n": "Chas Spradbery", "g": "m", "p": "Green Party", "i": 34997 }
 	],
 	"E14000845": [
 		{ "n": "Oliver Heald", "g": "m", "p": "Conservative and Unionist Party", "i": 3446 },

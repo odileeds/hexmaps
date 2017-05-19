@@ -1846,7 +1846,7 @@
 		{ "n": "Peter Fortune", "g": "m", "p": "Conservative and Unionist Party", "i": 4204 },
 		{ "n": "Emily Frith", "g": "f", "p": "Liberal Democrats", "i": 34381 },
 		{ "n": "Maureen Martin", "g": "f", "p": "Christian Peoples Alliance", "i": 7412 },
-		{ "n": "Storm Poorun", "g": "", "p": "Green Party", "i": 34802 },
+		{ "n": "Störm Poorun", "g": "m", "p": "Green Party", "i": 34802 },
 		{ "n": "Willow Winston", "g": "f", "p": "Independent", "i": 34538 }
 	],
 	"E14000788": [
@@ -4183,7 +4183,7 @@
 		{ "n": "Joan Coombes", "g": "f", "p": "Labour Party", "i": 22575 },
 		{ "n": "Martyn Day", "g": "m", "p": "Scottish National Party (SNP)", "i": 6053 },
 		{ "n": "Charles John Kennedy", "g": "m", "p": "Conservative and Unionist Party", "i": 35114 },
-		{ "n": "Sally Pattle", "g": "", "p": "Liberal Democrats", "i": 22418 }
+		{ "n": "Sally Pattle", "g": "f", "p": "Liberal Democrats", "i": 22418 }
 	],
 	"S14000044": [
 		{ "n": "Hannah Bardell", "g": "f", "p": "Scottish National Party (SNP)", "i": 6063 },

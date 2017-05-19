@@ -26,7 +26,7 @@ function Constituencies(id,w,h,padding,file){
 	}	
 	this.hex.on('mouseover',{'builder':this},function(e){
 		e.data.builder.label(getLabel(e,this.attr('title')));
-		this.attr('fill-opacity',0.5).attr('stroke-width',4.5);
+		this.attr('fill-opacity',0.75).attr('stroke-width',4.5);
 		// Simulate a change of z-index by moving this element to the end of the SVG
 		this.parent()[0].appendChild(this[0]);
 	}).on('mouseout',function(e){

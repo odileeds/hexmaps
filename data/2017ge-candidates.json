@@ -236,7 +236,7 @@
 		{ "n": "Phil Bennion", "g": "m", "p": "Liberal Democrats", "i": 6951 },
 		{ "n": "Liam Byrne", "g": "m", "p": "Labour Party", "i": 3962 },
 		{ "n": "Mohammed Gultasab Khan", "g": "", "p": "UK Independence Party (UKIP)", "i": 9902 },
-		{ "n": "Ahmereen Reza", "g": "", "p": "Conservative and Unionist Party", "i": 34889 },
+		{ "n": "Ahmereen Reza", "g": "f", "p": "Conservative and Unionist Party", "i": 34889 },
 		{ "n": "Clare Thomas", "g": "f", "p": "Green Party", "i": 6015 }
 	],
 	"E14000564": [
@@ -1052,7 +1052,7 @@
 	"E14000679": [
 		{ "n": "Choudhry Afzal", "g": "", "p": "Friends Party", "i": 34746 },
 		{ "n": "Kirsty Finlayson", "g": "f", "p": "Conservative and Unionist Party", "i": 34612 },
-		{ "n": "Chidi Oti-Obihara", "g": "", "p": "Green Party", "i": 34747 },
+		{ "n": "Chidi Oti-Obihara", "g": "m", "p": "Green Party", "i": 34747 },
 		{ "n": "Daniel Oxley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6863 },
 		{ "n": "Mirza Rahman", "g": "", "p": "Independent", "i": 34748 },
 		{ "n": "Stephen Timms", "g": "m", "p": "Labour Party", "i": 983 },
@@ -1246,7 +1246,7 @@
 		{ "n": "Janet Ellard", "g": "f", "p": "Liberal Democrats", "i": 6320 },
 		{ "n": "James Greenwood", "g": "m", "p": "Green Party", "i": 3177 },
 		{ "n": "Mark Harper", "g": "m", "p": "Conservative and Unionist Party", "i": 2346 },
-		{ "n": "Shaun Stammers", "g": "", "p": "Labour Party", "i": 32655 },
+		{ "n": "Shaun Stammers", "g": "m", "p": "Labour Party", "i": 32655 },
 		{ "n": "Ernie Warrender", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5828 }
 	],
 	"E14000706": [
@@ -1343,7 +1343,7 @@
 	],
 	"E14000719": [
 		{ "n": "Mark Bray-Parry", "g": "m", "p": "Green Party", "i": 28114 },
-		{ "n": "Semi Essessi", "g": "", "p": "Independent", "i": 34717 },
+		{ "n": "Semi Essessi", "g": "m", "p": "Independent", "i": 34717 },
 		{ "n": "Zöe Franklin", "g": "f", "p": "Liberal Democrats", "i": 34110 },
 		{ "n": "Anne Milton", "g": "f", "p": "Conservative and Unionist Party", "i": 1018 },
 		{ "n": "John Hugh Morris", "g": "m", "p": "The Peace Party - Non-violence, Justice, Environment", "i": 28127 },
@@ -1489,7 +1489,7 @@
 		{ "n": "William Wragg", "g": "m", "p": "Conservative and Unionist Party", "i": 4197 }
 	],
 	"E14000739": [
-		{ "n": "Sherief Mamoun Hassan", "g": "", "p": "Green Party", "i": 26776 },
+		{ "n": "Sherief Mamoun Hassan", "g": "m", "p": "Green Party", "i": 26776 },
 		{ "n": "Mike Penning", "g": "m", "p": "Conservative and Unionist Party", "i": 1330 },
 		{ "n": "Sally Symington", "g": "f", "p": "Liberal Democrats", "i": 20334 },
 		{ "n": "Mandi Tattershall", "g": "f", "p": "Labour Party", "i": 26757 }
@@ -2143,7 +2143,7 @@
 	],
 	"E14000828": [
 		{ "n": "Jo Graham", "g": "", "p": "Labour Party", "i": 34408 },
-		{ "n": "Des Hjerling", "g": "", "p": "Pirate Party UK", "i": 33234 },
+		{ "n": "Des Hjerling", "g": "m", "p": "Pirate Party UK", "i": 33234 },
 		{ "n": "Janet Richards", "g": "f", "p": "Green Party", "i": 1122 },
 		{ "n": "Terry Scriven", "g": "m", "p": "Liberal Democrats", "i": 2444 },
 		{ "n": "Desmond Swayne", "g": "m", "p": "Conservative and Unionist Party", "i": 195 }
@@ -2217,7 +2217,7 @@
 	],
 	"E14000839": [
 		{ "n": "Simon Hoare", "g": "m", "p": "Conservative and Unionist Party", "i": 5986 },
-		{ "n": "Pat Osborne", "g": "", "p": "Labour Party", "i": 25410 },
+		{ "n": "Pat Osborne", "g": "m", "p": "Labour Party", "i": 25410 },
 		{ "n": "Tom Panton", "g": "m", "p": "Liberal Democrats", "i": 35034 },
 		{ "n": "John Tutton", "g": "m", "p": "Green Party", "i": 35035 }
 	],
@@ -3052,7 +3052,7 @@
 		{ "n": "Dominic Ellis", "g": "m", "p": "Green Party", "i": 6694 },
 		{ "n": "Jason Pilley", "g": "m", "p": "Independent", "i": 7633 },
 		{ "n": "Lucy Salek", "g": "f", "p": "Liberal Democrats", "i": 34360 },
-		{ "n": "John Stansfield", "g": "", "p": "UK Independence Party (UKIP)", "i": 35122 },
+		{ "n": "David Stansfield", "g": "", "p": "UK Independence Party (UKIP)", "i": 35122 },
 		{ "n": "Julian Ware-Lane", "g": "m", "p": "Labour Party", "i": 3251 }
 	],
 	"E14000958": [

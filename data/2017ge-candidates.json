@@ -2745,7 +2745,7 @@
 	"E14000914": [
 		{ "n": "Nicholas Dakin", "g": "m", "p": "Labour Party", "i": 3663 },
 		{ "n": "Ryk Downes", "g": "m", "p": "Liberal Democrats", "i": 6095 },
-		{ "n": "Holly Mumby-Croft", "g": "", "p": "Conservative and Unionist Party", "i": 34479 },
+		{ "n": "Holly Mumby-Croft", "g": "f", "p": "Conservative and Unionist Party", "i": 34479 },
 		{ "n": "Andy Talliss", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35163 }
 	],
 	"E14000915": [
@@ -3116,7 +3116,7 @@
 		{ "n": "Julie Wood", "g": "", "p": "Green Party", "i": 15689 }
 	],
 	"E14000968": [
-		{ "n": "Barbara Ann Gibson", "g": "", "p": "Liberal Democrats", "i": 21119 },
+		{ "n": "Barbara Gibson", "g": "f", "p": "Liberal Democrats", "i": 21119 },
 		{ "n": "Stephen McPartland", "g": "m", "p": "Conservative and Unionist Party", "i": 2214 },
 		{ "n": "Victoria Louise Snelling", "g": "f", "p": "Green Party", "i": 18761 },
 		{ "n": "Sharon Taylor", "g": "f", "p": "Labour and Co-operative Party", "i": 218 }

@@ -286,7 +286,7 @@
 		{ "n": "Duncan Miller", "g": "", "p": "Independent", "i": 35005 }
 	],
 	"E14000571": [
-		{ "n": "Abi Ajoku", "g": "", "p": "Christian Peoples Alliance", "i": 34935 },
+		{ "n": "Abi Ajoku", "g": "f", "p": "Christian Peoples Alliance", "i": 34935 },
 		{ "n": "Richard Gadsden", "g": "m", "p": "Liberal Democrats", "i": 2946 },
 		{ "n": "David Goss", "g": "m", "p": "Conservative and Unionist Party", "i": 34523 },
 		{ "n": "David Jones", "g": "m", "p": "Green Party", "i": 5750 },
@@ -2806,7 +2806,7 @@
 		{ "n": "Jared Cain O'Mara", "g": "m", "p": "Labour Party", "i": 12562 },
 		{ "n": "Logan Robin", "g": "m", "p": "Green Party", "i": 12266 },
 		{ "n": "John Gordon Thurley", "g": "", "p": "UK Independence Party (UKIP)", "i": 34947 },
-		{ "n": "Ian Geoffrey Walker", "g": "", "p": "Conservative and Unionist Party", "i": 34951 },
+		{ "n": "Ian Geoffrey Walker", "g": "m", "p": "Conservative and Unionist Party", "i": 34951 },
 		{ "n": "Steven Winstone", "g": "m", "p": "Social Democratic Party", "i": 6749 }
 	],
 	"E14000923": [

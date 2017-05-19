@@ -19,10 +19,12 @@ function Builder(id,w,h,padding,file){
 
 	this.hex.on('mouseover',{'builder':this},function(e){
 		e.data.builder.label(this.attr('title'));
-		this.attr({'fill-opacity':0.8});
+		this.attr('fill-opacity',0.8).attr('stroke-width',3);
+		// Simulate a change of z-index by moving this element to the end of the SVG
+		this.parent()[0].appendChild(this[0]);
 	}).on('mouseout',function(e){
 		S('.infobubble').remove();
-		this.attr({'fill-opacity':0.5});
+		this.attr('fill-opacity',0.5).attr('stroke-width',1.5);
 	}).on('click',{'builder':this},function(e){
 		e.data.hexmap.regionToggleSelected(e.data.region,true);
 		e.data.builder.label(this.attr('title'));

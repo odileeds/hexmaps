@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hex map builder</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/lcr">
+	<meta name="twitter:title" property="og:title" content="Leeds City Region Wards">
+	<meta name="twitter:description" property="og:description" content="Arranage the wards of Leeds City Region.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
+	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+	<script type="text/javascript" src="resources/stuquery.hexmap.js"></script>
+	<script type="text/javascript" src="resources/lcr.js"></script>
+	<script>
+	var builder;
+	S(document).ready(function(){
+		builder = new Builder('hexmap',1080,800,2,"maps/wards-leeds-city-region.hexjson");
+	});
+	</script>
+</head>
+<body>
+
+	<div id="main">
+
+		<div class="b1-bg">
+			<div class="holder">
+				<div id="infobutton" style="float:right;">&#8505;</div>
+				<h1>Leeds City Region Wards</h1>
+			</div>
+		</div>
+
+		<div class="holder">
+			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex maps</a>. We need help making a hex map of the wards of Leeds City Region. Fancy helping? We've already colour-coded the wards by the local authority they are in. To move a ward, click its hexagon to highlight it, then click an empty space to move it. You can select all hexagons of the same colour by pressing the 'c' key on your keyboard when one hexagon is selected. Once you have everything where you want it, <a href="https://github.com/odileeds/hexmaps/blob/gh-pages/maps/wards-leeds-city-region.hexjson">save the output to maps/wards-leeds-city-regions.hexjson</a> and send a pull request on Github. Thanks.</p>
+		</div>
+
+		<div id="hexmap"></div>
+
+		<div class="holder" style="text-align:center;">
+			<p>
+			<button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button>
+			<button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button>
+			</p>
+		</div>
+		
+	</div>
+	
+	<footer class="b1-bg">
+		<div class="holder">
+			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+		</div>
+	</footer>
+	
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05001396":{"n":"Dalton","q":2,"r":-1,"colour":"#722EA5"},
+		"E05008561":{"n":"Holme Valley North","q":0,"r":-3,"colour":"#722EA5"},
+		"E05008559":{"n":"Colne Valley","q":0,"r":-2,"colour":"#722EA5"},
+		"E05001408":{"n":"Liversedge and Gomersal","q":2,"r":1,"colour":"#722EA5"},
+		"E05001407":{"n":"Lindley","q":1,"r":0,"colour":"#722EA5"},
+		"E05001392":{"n":"Birstall and Birkenshaw","q":4,"r":2,"colour":"#722EA5"},
+		"E05001410":{"n":"Newsome","q":2,"r":-2,"colour":"#722EA5"},
+		"E05001389":{"n":"Ashbrow","q":2,"r":0,"colour":"#722EA5"},
+		"E05001401":{"n":"Golcar","q":0,"r":-1,"colour":"#722EA5"},
+		"E05001402":{"n":"Greenhead","q":1,"r":-1,"colour":"#722EA5"},
+		"E05008558":{"n":"Almondbury","q":3,"r":-2,"colour":"#722EA5"},
+		"E05001400":{"n":"Dewsbury West","q":4,"r":0,"colour":"#722EA5"},
+		"E05001399":{"n":"Dewsbury South","q":3,"r":-1,"colour":"#722EA5"},
+		"E05008562":{"n":"Kirkburton","q":1,"r":-3,"colour":"#722EA5"},
+		"E05001391":{"n":"Batley West","q":4,"r":1,"colour":"#722EA5"},
+		"E05001409":{"n":"Mirfield","q":3,"r":0,"colour":"#722EA5"},
+		"E05001390":{"n":"Batley East","q":5,"r":1,"colour":"#722EA5"},
+		"E05001393":{"n":"Cleckheaton","q":3,"r":2,"colour":"#722EA5"},
+		"E05008560":{"n":"Crosland Moor and Netherton","q":1,"r":-2,"colour":"#722EA5"},
+		"E05001398":{"n":"Dewsbury East","q":5,"r":0,"colour":"#722EA5"},
+		"E05001405":{"n":"Holme Valley South","q":1,"r":-4,"colour":"#722EA5"},
+		"E05001403":{"n":"Heckmondwike","q":3,"r":1,"colour":"#722EA5"},
+		"E05001397":{"n":"Denby Dale","q":2,"r":-3,"colour":"#722EA5"}
+	}
+}

@@ -1,0 +1,26 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05010321":{"n":"Heworth Without","q":2,"r":-1,"colour":"#D60303"},
+		"E05010316":{"n":"Fishergate","q":2,"r":-3,"colour":"#D60303"},
+		"E05010322":{"n":"Holgate","q":1,"r":-2,"colour":"#D60303"},
+		"E05010330":{"n":"Westfield","q":0,"r":-2,"colour":"#D60303"},
+		"E05010328":{"n":"Rural West York","q":-1,"r":-1,"colour":"#D60303"},
+		"E05010323":{"n":"Hull Road","q":3,"r":-3,"colour":"#D60303"},
+		"E05010326":{"n":"Osbaldwick & Derwent","q":3,"r":-1,"colour":"#D60303"},
+		"E05010329":{"n":"Strensall","q":2,"r":1,"colour":"#D60303"},
+		"E05010314":{"n":"Copmanthorpe","q":0,"r":-4,"colour":"#D60303"},
+		"E05010325":{"n":"Micklegate","q":1,"r":-3,"colour":"#D60303"},
+		"E05010311":{"n":"Acomb","q":0,"r":-1,"colour":"#D60303"},
+		"E05010318":{"n":"Guildhall","q":2,"r":-2,"colour":"#D60303"},
+		"E05010312":{"n":"Bishopthorpe","q":1,"r":-4,"colour":"#D60303"},
+		"E05010324":{"n":"Huntington & New Earswick","q":2,"r":0,"colour":"#D60303"},
+		"E05010315":{"n":"Dringhouses & Woodthorpe","q":0,"r":-3,"colour":"#D60303"},
+		"E05010317":{"n":"Fulford & Heslington","q":2,"r":-4,"colour":"#D60303"},
+		"E05010313":{"n":"Clifton","q":1,"r":-1,"colour":"#D60303"},
+		"E05010319":{"n":"Haxby & Wigginton","q":1,"r":1,"colour":"#D60303"},
+		"E05010320":{"n":"Heworth","q":3,"r":-2,"colour":"#D60303"},
+		"E05010331":{"n":"Wheldrake","q":3,"r":-4,"colour":"#D60303"},
+		"E05010327":{"n":"Rawcliffe & Clifton Without","q":1,"r":0,"colour":"#D60303"}
+	}
+}

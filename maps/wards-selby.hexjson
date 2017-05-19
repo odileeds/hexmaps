@@ -1,0 +1,24 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05010050":{"n":"Derwent","q":5,"r":-7,"colour":"#67E767"},
+		"E05010053":{"n":"Hambleton","q":3,"r":-9,"colour":"#67E767"},
+		"E05010052":{"n":"Escrick","q":4,"r":-5,"colour":"#67E767"},
+		"E05010055":{"n":"Riccall","q":5,"r":-6,"colour":"#67E767"},
+		"E05010058":{"n":"Sherburn in Elmet","q":3,"r":-6,"colour":"#67E767"},
+		"E05010057":{"n":"Selby West","q":3,"r":-7,"colour":"#67E767"},
+		"E05010059":{"n":"South Milford","q":2,"r":-7,"colour":"#67E767"},
+		"E05010062":{"n":"Whitley","q":2,"r":-11,"colour":"#67E767"},
+		"E05010046":{"n":"Brayton","q":4,"r":-9,"colour":"#67E767"},
+		"E05010048":{"n":"Camblesforth & Carlton","q":4,"r":-10,"colour":"#67E767"},
+		"E05010051":{"n":"Eggborough","q":3,"r":-10,"colour":"#67E767"},
+		"E05010054":{"n":"Monk Fryston","q":2,"r":-9,"colour":"#67E767"},
+		"E05010060":{"n":"Tadcaster","q":2,"r":-5,"colour":"#67E767"},
+		"E05010047":{"n":"Byram & Brotherton","q":2,"r":-8,"colour":"#67E767"},
+		"E05010045":{"n":"Barlby Village","q":4,"r":-7,"colour":"#67E767"},
+		"E05010061":{"n":"Thorpe Willoughby","q":3,"r":-8,"colour":"#67E767"},
+		"E05010049":{"n":"Cawood & Wistow","q":4,"r":-6,"colour":"#67E767"},
+		"E05010056":{"n":"Selby East","q":4,"r":-8,"colour":"#67E767"},
+		"E05010044":{"n":"Appleton Roebuck & Church Fenton","q":3,"r":-5,"colour":"#67E767"}
+	}
+}

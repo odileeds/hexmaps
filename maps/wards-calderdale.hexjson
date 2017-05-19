@@ -1,0 +1,22 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05001372":{"n":"Calder","q":1,"r":2,"colour":"#0DBC37"},
+		"E05001376":{"n":"Illingworth &amp; Mixenden","q":3,"r":2,"colour":"#0DBC37"},
+		"E05001385":{"n":"Todmorden","q":1,"r":1,"colour":"#0DBC37"},
+		"E05001377":{"n":"Luddendenfoot","q":2,"r":1,"colour":"#0DBC37"},
+		"E05001387":{"n":"Warley","q":3,"r":1,"colour":"#0DBC37"},
+		"E05001379":{"n":"Ovenden","q":4,"r":1,"colour":"#0DBC37"},
+		"E05001378":{"n":"Northowram &amp; Shelf","q":5,"r":1,"colour":"#0DBC37"},
+		"E05001382":{"n":"Ryburn","q":1,"r":0,"colour":"#0DBC37"},
+		"E05001384":{"n":"Sowerby Bridge","q":2,"r":0,"colour":"#0DBC37"},
+		"E05001380":{"n":"Park","q":3,"r":0,"colour":"#0DBC37"},
+		"E05001386":{"n":"Town","q":4,"r":0,"colour":"#0DBC37"},
+		"E05001375":{"n":"Hipperholme &amp; Lightcliffe","q":5,"r":0,"colour":"#0DBC37"},
+		"E05001374":{"n":"Greetland &amp; Stainland","q":2,"r":-1,"colour":"#0DBC37"},
+		"E05001383":{"n":"Skircoat","q":3,"r":-1,"colour":"#0DBC37"},
+		"E05001373":{"n":"Elland","q":4,"r":-1,"colour":"#0DBC37"},
+		"E05001371":{"n":"Brighouse","q":5,"r":-1,"colour":"#0DBC37"},
+		"E05001381":{"n":"Rastrick","q":3,"r":-2,"colour":"#0DBC37"}
+	}
+}

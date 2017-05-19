@@ -1,0 +1,26 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05001444":{"n":"Ackworth, North Elmsall and Upton","q":6,"r":-4,"colour":"#EF3AAB"},
+		"E05001445":{"n":"Airedale and Ferry Fryston","q":6,"r":-1,"colour":"#EF3AAB"},
+		"E05001446":{"n":"Altofts and Whitwood","q":4,"r":-1,"colour":"#EF3AAB"},
+		"E05001447":{"n":"Castleford Central and Glasshoughton","q":5,"r":-1,"colour":"#EF3AAB"},
+		"E05001448":{"n":"Crofton, Ryhill and Walton","q":4,"r":-4,"colour":"#EF3AAB"},
+		"E05001449":{"n":"Featherstone","q":5,"r":-2,"colour":"#EF3AAB"},
+		"E05001450":{"n":"Hemsworth","q":5,"r":-4,"colour":"#EF3AAB"},
+		"E05001451":{"n":"Horbury and South Ossett","q":1,"r":-3,"colour":"#EF3AAB"},
+		"E05001452":{"n":"Knottingley","q":7,"r":-2,"colour":"#EF3AAB"},
+		"E05001453":{"n":"Normanton","q":4,"r":-3,"colour":"#EF3AAB"},
+		"E05001454":{"n":"Ossett","q":2,"r":-2,"colour":"#EF3AAB"},
+		"E05001455":{"n":"Pontefract North","q":6,"r":-2,"colour":"#EF3AAB"},
+		"E05001456":{"n":"Pontefract South","q":5,"r":-3,"colour":"#EF3AAB"},
+		"E05001457":{"n":"South Elmsall and South Kirkby","q":5,"r":-5,"colour":"#EF3AAB"},
+		"E05001458":{"n":"Stanley and Outwood East","q":3,"r":-1,"colour":"#EF3AAB"},
+		"E05001459":{"n":"Wakefield East","q":4,"r":-2,"colour":"#EF3AAB"},
+		"E05001460":{"n":"Wakefield North","q":3,"r":-2,"colour":"#EF3AAB"},
+		"E05001461":{"n":"Wakefield Rural","q":3,"r":-4,"colour":"#EF3AAB"},
+		"E05001462":{"n":"Wakefield South","q":3,"r":-3,"colour":"#EF3AAB"},
+		"E05001463":{"n":"Wakefield West","q":2,"r":-3,"colour":"#EF3AAB"},
+		"E05001464":{"n":"Wrenthorpe and Outwood West","q":2,"r":-1,"colour":"#EF3AAB"}
+	}
+}

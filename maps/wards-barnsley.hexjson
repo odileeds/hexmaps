@@ -1,0 +1,26 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05000982":{"n":"Dearne South","q":1,"r":-2,"colour":"#F9BC26"},
+		"E05000978":{"n":"Darfield","q":0,"r":-2,"colour":"#F9BC26"},
+		"E05000987":{"n":"North East","q":0,"r":0,"colour":"#F9BC26"},
+		"E05000979":{"n":"Darton East","q":-3,"r":0,"colour":"#F9BC26"},
+		"E05000992":{"n":"Royston","q":-1,"r":1,"colour":"#F9BC26"},
+		"E05000986":{"n":"Monk Bretton","q":-1,"r":0,"colour":"#F9BC26"},
+		"E05000985":{"n":"Kingstone","q":-3,"r":-1,"colour":"#F9BC26"},
+		"E05000984":{"n":"Hoyland Milton","q":-3,"r":-3,"colour":"#F9BC26"},
+		"E05000990":{"n":"Penistone West","q":-6,"r":-1,"colour":"#F9BC26"},
+		"E05000994":{"n":"Stairfoot","q":-1,"r":-2,"colour":"#F9BC26"},
+		"E05000988":{"n":"Old Town","q":-2,"r":0,"colour":"#F9BC26"},
+		"E05000995":{"n":"Wombwell","q":-2,"r":-3,"colour":"#F9BC26"},
+		"E05000991":{"n":"Rockingham","q":-3,"r":-2,"colour":"#F9BC26"},
+		"E05000980":{"n":"Darton West","q":-4,"r":0,"colour":"#F9BC26"},
+		"E05000981":{"n":"Dearne North","q":0,"r":-1,"colour":"#F9BC26"},
+		"E05000993":{"n":"St Helens","q":-2,"r":1,"colour":"#F9BC26"},
+		"E05000996":{"n":"Worsbrough","q":-2,"r":-2,"colour":"#F9BC26"},
+		"E05000989":{"n":"Penistone East","q":-5,"r":-1,"colour":"#F9BC26"},
+		"E05000977":{"n":"Cudworth","q":-1,"r":-1,"colour":"#F9BC26"},
+		"E05000983":{"n":"Dodworth","q":-4,"r":-1,"colour":"#F9BC26"},
+		"E05000976":{"n":"Central","q":-2,"r":-1,"colour":"#F9BC26"}
+	}
+}

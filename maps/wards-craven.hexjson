@@ -1,0 +1,24 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"E05006206":{"n":"Upper Wharfedale","q":2,"r":0,"colour":"#1DD3A7"},
+		"E05006203":{"n":"Skipton South","q":2,"r":-4,"colour":"#1DD3A7"},
+		"E05009665":{"n":"Gargrave and Malhamdale","q":1,"r":-1,"colour":"#1DD3A7"},
+		"E05009668":{"n":"Skipton North","q":1,"r":-3,"colour":"#1DD3A7"},
+		"E05006191":{"n":"Bentham","q":-1,"r":0,"colour":"#1DD3A7"},
+		"E05010774":{"n":"Aire Valley with Lothersdale","q":1,"r":-5,"colour":"#1DD3A7"},
+		"E05010776":{"n":"Cowling","q":1,"r":-6,"colour":"#1DD3A7"},
+		"E05010777":{"n":"Grassington","q":3,"r":0,"colour":"#1DD3A7"},
+		"E05009666":{"n":"Glusburn","q":2,"r":-6,"colour":"#1DD3A7"},
+		"E05009670":{"n":"Sutton-in-Craven","q":1,"r":-7,"colour":"#1DD3A7"},
+		"E05010778":{"n":"Hellifield and Long Preston","q":1,"r":-2,"colour":"#1DD3A7"},
+		"E05010779":{"n":"Penyghent","q":1,"r":0,"colour":"#1DD3A7"},
+		"E05009664":{"n":"Embsay-with-Eastby","q":2,"r":-2,"colour":"#1DD3A7"},
+		"E05009669":{"n":"Skipton West","q":1,"r":-4,"colour":"#1DD3A7"},
+		"E05009671":{"n":"West Craven","q":0,"r":-3,"colour":"#1DD3A7"},
+		"E05009667":{"n":"Skipton East","q":2,"r":-3,"colour":"#1DD3A7"},
+		"E05010775":{"n":"Barden Fell","q":2,"r":-1,"colour":"#1DD3A7"},
+		"E05006198":{"n":"Ingleton and Clapham","q":0,"r":0,"colour":"#1DD3A7"},
+		"E05010780":{"n":"Settle and Ribblebanks","q":0,"r":-1,"colour":"#1DD3A7"}
+	}
+}

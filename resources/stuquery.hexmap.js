@@ -1,18 +1,44 @@
-function HexMap(id,w,h,s,padding,file){
+// Display a hex map
+// Requires stuquery.svg.js to be loaded first
+// Input structure:
+//    id: the ID for the HTML element to attach this to
+//    width: the width of the SVG element created
+//    height: the height of the SVG element created
+//    padding: an integer number of hexes to leave as padding around the displayed map
+//    showgrid: do we show the background grid?
+//    formatLabel: a function to format the hex label
+//    size: the size of a hexagon in pixels
+function HexMap(attr){
 
-	this.w = w;
-	this.h = h;
-	this.aspectratio = w/h;
-	this.id = id;
+	this.version = "0.2";
+	if(!attr) attr  = {};
+	if(S('#'+attr.id).length==0){
+		console.log("Can't find the element to draw into (#"+attr.id+")");
+		return {};
+	}
+
+	this.w = attr.width || 300;
+	this.h = attr.height || 150;
+	this.aspectratio = this.w/this.h;
+	this.id = attr.id;
 	this.hexes = {};
-	this.colour = { "off": "#cccccc", "on": "#ffffff" };
 	this.min = 0;
 	this.max = 1;
-	this.padding = (typeof padding==="number" ? padding : 0);
+	this.padding = (typeof attr.padding==="number" ? attr.padding : 0);
+	this.properties = { 'size': (typeof attr.size==="number" ? attr.size : 10) };
+	this.options = {
+		'showgrid':(typeof attr.grid==="boolean" ? attr.grid : true),
+		'showlabel':(typeof attr.showlabel==="boolean" ? attr.showlabel : true),
+		'formatLabel': (typeof attr.formatLabel==="function" ? attr.formatLabel : function(txt){ return txt.substr(0,3); })
+	};
+
+	this.style = { 'default': { 'fill': '#cccccc','fill-opacity':(this.options.showlabel ? 0.5 : 1) }, 'selected': { 'fill': '#ffffff','fill-opacity':(this.options.showlabel ? 0.8 : 1) } };
+	for(var s in attr.style){
+		if(attr.style[s]['fill']) this.style[s]['fill'] = attr.style[s]['fill'];
+		if(attr.style[s]['fill-opacity']) this.style[s]['fill-opacity'] = attr.style[s]['fill-opacity'];
+	}
 	
 	this.mapping = {};
-	this.properties = { 'size': (typeof s==="number" ? s : 10) };
-
 
 	// Can load a file or a hexjson data structure
 	this.load = function(file,attr,fn){
@@ -42,13 +68,54 @@ function HexMap(id,w,h,s,padding,file){
 	var _obj = this;
 	// We'll need to change the sizes when the window changes size
 	window.addEventListener('resize', function(event){ _obj.resize(); });
+	
+	
+	// style = none, default, selected
+	this.setHexStyle = function(r){
+		var h = this.hexes[r];
+		if(h.selected) h.attr({'fill': (this.style.selected.fill ? this.style.selected.fill : h.fillcolour), 'fill-opacity': this.style.selected['fill-opacity'] });
+		else h.attr({'fill': (h.active ? h.fillcolour : this.style.default.fill), 'fill-opacity': this.style.default['fill-opacity']});
 
-	this.toggleRegion = function(r){
+		return h;
+	}
+
+	this.regionToggleSelected = function(r,all){
 		this.selected = (this.selected==r) ? "" : r;
 		h = this.hexes[r];
 		h.selected = !h.selected;
-		h.attr((h.selected ? {'fill':this.colour.on} : {'fill':h.fillcolour}));
+		this.setHexStyle(r);
+
+		// If we've deselected a region, deselect any other regions selected
+		if(!h.selected){
+			if(all){
+				for(region in this.hexes){
+					if(this.hexes[region].selected){
+						this.hexes[region].selected = false;
+						this.setHexStyle(region);
+					}
+				}
+			}
+		}
+console.log(r,h,h.selected)
 		return this;
+	}
+
+	this.regionActivate = function(r){
+		h = this.hexes[r];
+		h.active = true;
+		this.setHexStyle(r);
+	}
+
+	this.regionDeactivate = function(r){
+		h = this.hexes[r];
+		h.active = false;
+		this.setHexStyle(r);
+	}
+
+	this.regionToggleActive = function(r){
+		h = this.hexes[r];
+		h.active = !h.active;
+		this.setHexStyle(r);
 	}
 
 	this.selectRegion = function(r){
@@ -57,10 +124,10 @@ function HexMap(id,w,h,s,padding,file){
 			h = this.hexes[region];
 			if(region.indexOf(r)==0){
 				h.selected = true;
-				h.attr({'fill':(h.selected ? h.fillcolour : this.colour.off)});
+				this.setHexStyle(region);
 			}else{
 				h.selected = false;
-				h.attr({'fill': h.fillcolour});
+				this.setHexStyle(region);
 			}
 		}
 		return this;
@@ -81,16 +148,21 @@ function HexMap(id,w,h,s,padding,file){
 	// Move the selected hex to the new coordinates
 	this.moveTo = function(q,r){
 		if(this.selected){
-			var h = this.drawHex(q,r);
-			this.hexes[this.selected].attr({'path':h.path}).update();
-			this.labels[this.selected].attr({'x':h.x,'y':h.y+this.properties.fs/2});
-			this.mapping.hexes[this.selected].q = q;
-			this.mapping.hexes[this.selected].r = r;
+			dq = q - this.mapping.hexes[this.selected].q;
+			dr = r - this.mapping.hexes[this.selected].r;
+
 			for(region in this.hexes){
 				if(region.indexOf(this.selected)==0){
-					h = this.hexes[region];
-					h.selected = false;
-					h.attr({'fill':h.fillcolour});
+					this.hexes[region].selected = true;
+				}
+				if(this.hexes[region].selected){
+					this.mapping.hexes[region].q += dq;
+					this.mapping.hexes[region].r += dr;
+					var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
+					this.hexes[region].attr({'path':h.path}).update();
+					if(this.options.showlabel) this.labels[region].attr({'x':h.x,'y':h.y+this.properties.fs/2});
+					this.hexes[region].selected = false;
+					this.setHexStyle(region);
 				}
 			}
 			this.selected = "";
@@ -140,21 +212,6 @@ function HexMap(id,w,h,s,padding,file){
 		return this;
 	}
 */
-/*
-	this.update = function(){
-		var b = new Colour(colour);
-		var a = new Colour('#cccccc');
-
-		function getColour(pc){ return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')'; }
-		
-		var range = this.max-this.min;
-		for(var region in this.mapping.hexes){
-			this.hexes[region].fillcolour = (typeof this.values[region]==="number") ? getColour((this.values[region]-this.min)/range) : '#5f5f5f';
-			this.hexes[region].attr({'fill':(this.hexes.hexes[region].selected ? this.hexes[region].fillcolour : '#5f5f5f')});
-		}
-		return this;
-	}*/
-
 	this.setMapping = function(mapping){
 		this.mapping = mapping;
 		if(!this.properties) this.properties = { "x": 100, "y": 100 };
@@ -185,12 +242,12 @@ function HexMap(id,w,h,s,padding,file){
 			var y = this.properties.y - (r * this.properties.s.sin * 3);
 
 			if(this.properties.orientation == "r"){
-				if(this.properties.shift=="odd" && r&1==1) x += this.properties.s.cos;
-				if(this.properties.shift=="even" && r&1==0) x += this.properties.s.cos;
+				if(this.properties.shift=="odd" && (r&1) == 1) x += this.properties.s.cos;
+				if(this.properties.shift=="even" && (r&1) == 0) x += this.properties.s.cos;
 			}
 			if(this.properties.orientation == "q"){
-				if(this.properties.shift=="odd" && q&1==1) y += this.properties.s.cos;
-				if(this.properties.shift=="even" && q&1==0) y += this.properties.s.cos;
+				if(this.properties.shift=="odd" && ((q&1) == 1)) y += this.properties.s.cos;
+				if(this.properties.shift=="even" && ((q&1) == 0)) y += this.properties.s.cos;
 			}
 			
 			var path = [['M',[x,y]]];
@@ -214,12 +271,12 @@ function HexMap(id,w,h,s,padding,file){
 
 	this.updateColours = function(){
 
-		var fn = (typeof this.setColours==="function") ? this.setColours : function(){ return this.colours.off; };
+		var fn = (typeof this.setColours==="function") ? this.setColours : function(){ return this.style.default.fill; };
 		for(region in this.mapping.hexes){
 			this.hexes[region].fillcolour = fn.call(this,region);
-			this.hexes[region].attr({'fill': (this.hexes[region].selected ? this.colour.on : this.hexes[region].fillcolour) });
+			this.setHexStyle(region);
 		}
-	
+
 		return this;
 	}
 	
@@ -252,17 +309,17 @@ function HexMap(id,w,h,s,padding,file){
 		this.properties.x = (this.w/2) - (this.properties.s.cos * 2 *qp);
 		this.properties.y = (this.h/2) + (this.properties.s.sin * 3 *rp);
 		
+		if(this.options.showgrid){
+			this.grid = new Array();
 		
-		this.grid = new Array();
-		
-		for(q = range.q.min; q <= range.q.max; q++){
-			for(r = range.r.min; r <= range.r.max; r++){
-				h = this.drawHex(q,r);
-				//this.paper.text(h.x,h.y+this.properties.fs/2,q+"\n"+r).attr({'text-anchor':'middle','font-size':this.properties.fs+'px','fill':'#777'});
-				this.grid.push(this.paper.path(h.path).attr({'fill':this.colour.on,'fill-opacity':0.1,'stroke':'#aaa','style':'cursor: pointer;'}));
-				this.grid[this.grid.length-1].on('click',{hexmap:this,q:q,r:r},function(e){
-					e.data.hexmap.moveTo(e.data.q,e.data.r);
-				});
+			for(q = range.q.min; q <= range.q.max; q++){
+				for(r = range.r.min; r <= range.r.max; r++){
+					h = this.drawHex(q,r);
+					this.grid.push(this.paper.path(h.path).attr({'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','style':'cursor: pointer;'}));
+					this.grid[this.grid.length-1].on('click',{hexmap:this,q:q,r:r},function(e){
+						e.data.hexmap.moveTo(e.data.q,e.data.r);
+					});
+				}
 			}
 		}
 
@@ -285,10 +342,13 @@ function HexMap(id,w,h,s,padding,file){
 			var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);//,this.mapping.hexes[region].value*0.5 + 0.5);
 			
 			if(!this.constructed){
-				if(!this.labels) this.labels = {};
-				this.labels[region] = this.paper.text(h.x,h.y+this.properties.fs/2,this.mapping.hexes[region].n.substr(0,3)).attr({'text-anchor':'middle','font-size':this.properties.fs+'px','title':(this.mapping.hexes[region].n || region)});
+				if(this.options.showlabel){
+					if(!this.labels) this.labels = {};
+					this.labels[region] = this.paper.text(h.x,h.y+this.properties.fs/2,this.options.formatLabel(this.mapping.hexes[region].n)).attr({'text-anchor':'middle','font-size':this.properties.fs+'px','title':(this.mapping.hexes[region].n || region)});
+				}
 				this.hexes[region] = this.paper.path(h.path);
 				this.hexes[region].selected = false;
+				this.hexes[region].active = true;
 
 				// Attach events
 				var _obj = this.hexes[region];
@@ -313,7 +373,9 @@ function HexMap(id,w,h,s,padding,file){
 					}
 				});
 			}
-			this.hexes[region].attr({'fill-opacity':0.5,'fill':(this.hexes[region].selected ? this.colour.on : this.colour.off),'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
+			this.setHexStyle(region);
+			this.hexes[region].attr({'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
+			//this.hexes[region].attr({'fill-opacity':this.style.selected['fill-opacity'],'fill':(this.hexes[region].selected ? this.style.selected.fill||this.hexes[region].fillcolour : this.style.default.fill),'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
 			this.hexes[region].update();
 		}
 
@@ -324,8 +386,28 @@ function HexMap(id,w,h,s,padding,file){
 		return this;
 	}
 	
+	S(document).on('keypress',{me:this},function(e){
+		e.stopPropagation();
+		if(e.originalEvent.charCode==99) e.data.me.selectBySameColour(e);		// C
+	});
+		
+
+	this.selectBySameColour = function(){
+		if(this.selected){
+			for(region in this.hexes){
+				if(this.hexes[region].fillcolour==this.hexes[this.selected].fillcolour){
+					this.hexes[region].selected = true;
+					this.setHexStyle(region);
+					//this.hexes[region].attr({'fill':this.style.selected.fill||this.hexes[region].fillcolour,'fill-opacity':this.style.selected['fill-opacity']});
+				}
+			}
+		}
+		return this;
+	}
+		
 	this.size();
-	if(file) this.load(file);
+	if(attr.file) this.load(attr.file);
+	
 	
 	return this;
 }

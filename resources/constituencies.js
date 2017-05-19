@@ -5,7 +5,8 @@ function Constituencies(id,w,h,padding,file){
 	this.aspectratio = w/h;
 	this.id = id;
 
-	this.hex = new HexMap(id,w,h,16,padding);
+	this.hex = new HexMap({'id':id,'width':w,'height':h,'size':16,'padding':padding});
+
 	this.hex.load(file,{me:this},function(e){ e.data.me.setColours("region"); });
 
 	function getLabel(e,title){
@@ -33,7 +34,7 @@ function Constituencies(id,w,h,padding,file){
 		if(e.data.builder.by=="candidates"){
 			location.href = "https://candidates.democracyclub.org.uk/election/parl.2017-06-08/post/WMC:"+e.data.region+"/";
 		}else{
-			e.data.hexmap.toggleRegion(e.data.region);
+			e.data.hexmap.regionToggleSelected(e.data.region,true);
 			e.data.builder.label(getLabel(e,this.attr('title')));
 		}
 	});

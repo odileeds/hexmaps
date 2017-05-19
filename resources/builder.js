@@ -6,7 +6,14 @@ function Builder(id,w,h,padding,file){
 	this.side = 16;
 	this.id = id;
 
-	this.hex = new HexMap(id,w,h,this.side,padding);
+	this.hex = new HexMap({
+		'id':id,
+		'width':w,
+		'height':h,
+		'size':this.side,
+		'padding':padding,
+		'style': {'selected':{'fill-opacity':0.5 },'default':{'fill-opacity':0.5,'fill':'#cccccc'}}
+	});
 
 	this.hex.load(file,{me:this},function(e){ e.data.me.setColours("region"); });
 
@@ -17,7 +24,7 @@ function Builder(id,w,h,padding,file){
 		S('.infobubble').remove();
 		this.attr({'fill-opacity':0.5});
 	}).on('click',{'builder':this},function(e){
-		e.data.hexmap.toggleRegion(e.data.region);
+		e.data.hexmap.regionToggleSelected(e.data.region,true);
 		e.data.builder.label(this.attr('title'));
 	});
 	
@@ -35,9 +42,9 @@ function Builder(id,w,h,padding,file){
 		// Add event to button
 		S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
 		// Add key binding
-		S(document).on('keypress',function(e){
-			if(e.originalEvent.charCode==109) S('#savesvg').trigger('click');     // M
-			if(e.originalEvent.charCode==104) S('#save').trigger('click');     // H
+		S(document).on('keypress',{me:this},function(e){
+			if(e.originalEvent.charCode==109) S('#savesvg').trigger('click');	// M
+			if(e.originalEvent.charCode==104) S('#save').trigger('click');		// H
 		});
 
 		// Add event to button
@@ -47,7 +54,6 @@ function Builder(id,w,h,padding,file){
 		S('#save').css({'display':'none'});
 		S('#savesvg').css({'display':'none'});
 	}
-
 
 	function dropOver(evt){
 		evt.stopPropagation();
@@ -278,7 +284,7 @@ function Builder(id,w,h,padding,file){
 		return this;
 	}
 	
-// Function to parse a CSV file and return a JSON structure
+	// Function to parse a CSV file and return a JSON structure
 	// Guesses the format of each column based on the data in it.
 	function CSV2JSON(data,start,end){
 

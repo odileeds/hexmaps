@@ -1054,7 +1054,7 @@
 		{ "n": "Kirsty Finlayson", "g": "f", "p": "Conservative and Unionist Party", "i": 34612 },
 		{ "n": "Chidi Oti-Obihara", "g": "m", "p": "Green Party", "i": 34747 },
 		{ "n": "Daniel Oxley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6863 },
-		{ "n": "Mirza Rahman", "g": "", "p": "Independent", "i": 34748 },
+		{ "n": "Mirza Rahman", "g": "m", "p": "Independent", "i": 34748 },
 		{ "n": "Stephen Timms", "g": "m", "p": "Labour Party", "i": 983 },
 		{ "n": "Glanville Williams", "g": "m", "p": "Liberal Democrats", "i": 15513 }
 	],
@@ -1824,7 +1824,7 @@
 	"E14000784": [
 		{ "n": "David John Bowley", "g": "m", "p": "Independent", "i": 2772 },
 		{ "n": "Ian Bradwell", "g": "m", "p": "Liberal Democrats", "i": 6819 },
-		{ "n": "Mel Gould", "g": "", "p": "Green Party", "i": 35160 },
+		{ "n": "Mel Gould", "g": "f", "p": "Green Party", "i": 35160 },
 		{ "n": "Jack Hickey", "g": "m", "p": "Conservative and Unionist Party", "i": 34243 },
 		{ "n": "Liz Kendall", "g": "f", "p": "Labour Party", "i": 1292 },
 		{ "n": "Stuart Young", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6877 }

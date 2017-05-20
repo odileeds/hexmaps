@@ -1704,7 +1704,7 @@
 	"E14000768": [
 		{ "n": "Victoria Borwick", "g": "f", "p": "Conservative and Unionist Party", "i": 6773 },
 		{ "n": "Emma Dent Coad", "g": "f", "p": "Labour Party", "i": 34327 },
-		{ "n": "John Robert Lloyd", "g": "", "p": "Alliance For Green Socialism", "i": 35022 },
+		{ "n": "John Robert Lloyd", "g": "m", "p": "Alliance For Green Socialism", "i": 35022 },
 		{ "n": "Peter Charles Christopher Marshall", "g": "", "p": "Independent", "i": 35023 },
 		{ "n": "Annabel Mullin", "g": "f", "p": "Liberal Democrats", "i": 7844 },
 		{ "n": "Jennifer Nadel", "g": "f", "p": "Green Party", "i": 5694 },
@@ -1845,7 +1845,7 @@
 		{ "n": "Peter Fortune", "g": "m", "p": "Conservative and Unionist Party", "i": 4204 },
 		{ "n": "Emily Frith", "g": "f", "p": "Liberal Democrats", "i": 34381 },
 		{ "n": "Maureen Martin", "g": "f", "p": "Christian Peoples Alliance", "i": 7412 },
-		{ "n": "Störm Poorun", "g": "m", "p": "Green Party", "i": 34802 },
+		{ "n": "Störm Poorun", "g": "m", "p": "Green Party", "i": 5188 },
 		{ "n": "Willow Winston", "g": "f", "p": "Independent", "i": 34538 }
 	],
 	"E14000788": [
@@ -4506,7 +4506,7 @@
 	"W07000071": [
 		{ "n": "Bob Griffin", "g": "m", "p": "Liberal Democrats", "i": 6325 },
 		{ "n": "Gerald Jones", "g": "m", "p": "Labour Party", "i": 5097 },
-		{ "n": "Pauline Alison Jorgensen", "g": "f", "p": "Conservative and Unionist Party", "i": 35047 },
+		{ "n": "Pauline Alison Jorgensen", "g": "f", "p": "Conservative and Unionist Party", "i": 18303 },
 		{ "n": "Amy Kitcher", "g": "f", "p": "Plaid Cymru - The Party of Wales", "i": 1255 },
 		{ "n": "David Rowlands", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5183 }
 	],

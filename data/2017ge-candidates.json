@@ -73,7 +73,7 @@
 	],
 	"E14000540": [
 		{ "n": "Shannon Butterfield", "g": "f", "p": "Green Party", "i": 34726 },
-		{ "n": "Noel Falvey", "g": "", "p": "Independent", "i": 34729 },
+		{ "n": "Noel Falvey", "g": "m", "p": "Independent", "i": 34729 },
 		{ "n": "Roger Gravett", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4937 },
 		{ "n": "Margaret Hodge", "g": "f", "p": "Labour Party", "i": 807 },
 		{ "n": "Minesh Talati", "g": "", "p": "Conservative and Unionist Party", "i": 34733 }
@@ -896,7 +896,7 @@
 		{ "n": "Peter Harris", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4940 },
 		{ "n": "Terry London", "g": "m", "p": "Concordia", "i": 7364 },
 		{ "n": "Julie Marson", "g": "f", "p": "Conservative and Unionist Party", "i": 6468 },
-		{ "n": "Paul Sturdy", "g": "", "p": "British National Party", "i": 34723 }
+		{ "n": "Paul Sturdy", "g": "m", "p": "British National Party", "i": 34723 }
 	],
 	"E14000658": [
 		{ "n": "Kevin Brack", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34984 },
@@ -1127,7 +1127,7 @@
 	],
 	"E14000689": [
 		{ "n": "Dylan Brown", "g": "m", "p": "Green Party", "i": 34599 },
-		{ "n": "Matthew Clover", "g": "", "p": "The Yorkshire Party", "i": 34568 },
+		{ "n": "Matthew Clover", "g": "m", "p": "The Yorkshire Party", "i": 34568 },
 		{ "n": "Stewart Golton", "g": "m", "p": "Liberal Democrats", "i": 165 },
 		{ "n": "David Nagle", "g": "m", "p": "Labour Party", "i": 18887 },
 		{ "n": "Alec Shelbrooke", "g": "m", "p": "Conservative and Unionist Party", "i": 4036 }
@@ -1557,7 +1557,7 @@
 		{ "n": "Hugh Annand", "g": "m", "p": "Liberal Democrats", "i": 266 },
 		{ "n": "Ray Blake", "g": "m", "p": "Independent", "i": 34876 },
 		{ "n": "Richard Alexander Cano", "g": "m", "p": "Green Party", "i": 18706 },
-		{ "n": "Sid Cordle", "g": "", "p": "Christian Peoples Alliance", "i": 34877 },
+		{ "n": "Sid Cordle", "g": "m", "p": "Christian Peoples Alliance", "i": 34877 },
 		{ "n": "John Hayes", "g": "m", "p": "Labour Party", "i": 18671 }
 	],
 	"E14000750": [
@@ -2293,7 +2293,7 @@
 		{ "n": "Donald Davies", "g": "m", "p": "Independent", "i": 35050 },
 		{ "n": "Richard Foord", "g": "", "p": "Liberal Democrats", "i": 35051 },
 		{ "n": "Liam Fox", "g": "m", "p": "Conservative and Unionist Party", "i": 451 },
-		{ "n": "Charley Pattison", "g": "", "p": "Green Party", "i": 34446 }
+		{ "n": "Charley Pattison", "g": "f", "p": "Green Party", "i": 34446 }
 	],
 	"E14000851": [
 		{ "n": "Andy Bentley", "g": "m", "p": "Green Party", "i": 14695 },
@@ -2607,7 +2607,7 @@
 	],
 	"E14000895": [
 		{ "n": "Tobie Abel", "g": "m", "p": "Liberal Democrats", "i": 34358 },
-		{ "n": "Chris Pearson", "g": "", "p": "The Yorkshire Party", "i": 30551 },
+		{ "n": "Chris Pearson", "g": "m", "p": "The Yorkshire Party", "i": 30551 },
 		{ "n": "Daniel Perry", "g": "", "p": "Labour Party", "i": 34424 },
 		{ "n": "Rishi Sunak", "g": "m", "p": "Conservative and Unionist Party", "i": 5371 },
 		{ "n": "Fiona Elizabeth Yorke", "g": "f", "p": "Green Party", "i": 30559 }
@@ -2835,7 +2835,7 @@
 		{ "n": "Daniel Kawczynski", "g": "m", "p": "Conservative and Unionist Party", "i": 1073 }
 	],
 	"E14000927": [
-		{ "n": "Mike Baldock", "g": "", "p": "Independent", "i": 28519 },
+		{ "n": "Mike Baldock", "g": "m", "p": "Independent", "i": 28519 },
 		{ "n": "Gordon Henderson", "g": "m", "p": "Conservative and Unionist Party", "i": 282 },
 		{ "n": "Mark Lindop", "g": "m", "p": "Green Party", "i": 5153 },
 		{ "n": "Lee Robert McCall", "g": "m", "p": "Independent", "i": 35081 },

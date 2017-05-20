@@ -2036,7 +2036,7 @@
 		{ "n": "Alison Gavin", "g": "f", "p": "Green Party", "i": 6106 },
 		{ "n": "Leslie Kaye", "g": "m", "p": "UK Independence Party (UKIP)", "i": 8720 },
 		{ "n": "Tom McNeil", "g": "m", "p": "Labour Party", "i": 4379 },
-		{ "n": "Antony Richard Rogers", "g": "m", "p": "Liberal Democrats", "i": 8735 },
+		{ "n": "Antony Rogers", "g": "m", "p": "Liberal Democrats", "i": 8735 },
 		{ "n": "Caroline Spelman", "g": "f", "p": "Conservative and Unionist Party", "i": 1547 }
 	],
 	"E14000813": [
@@ -3781,7 +3781,7 @@
 		{ "n": "Martin McAuley", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 574 },
 		{ "n": "Sam Nelson", "g": "m", "p": "Alliance - Alliance Party of Northern Ireland", "i": 34659 },
 		{ "n": "Malachai O'Hara", "g": "m", "p": "Green Party", "i": 11378 },
-		{ "n": "Gemma Weir ", "g": "f", "p": "The Workers Party", "i": 6264 }
+		{ "n": "Gemma Weir", "g": "f", "p": "The Workers Party", "i": 6264 }
 	],
 	"N06000003": [
 		{ "n": "Clare Bailey", "g": "f", "p": "Green Party", "i": 5824 },

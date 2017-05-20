@@ -261,7 +261,7 @@
 	],
 	"E14000567": [
 		{ "n": "Steve McCabe", "g": "m", "p": "Labour Party", "i": 1230 },
-		{ "n": "Julien Pritchard", "g": "", "p": "Green Party", "i": 10012 },
+		{ "n": "Julien Pritchard", "g": "m", "p": "Green Party", "i": 10012 },
 		{ "n": "Dave Radcliffe", "g": "m", "p": "Liberal Democrats", "i": 1249 },
 		{ "n": "Sophie Shrubsole", "g": "f", "p": "Conservative and Unionist Party", "i": 34478 }
 	],

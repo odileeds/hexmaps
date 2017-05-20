@@ -2580,7 +2580,7 @@
 	],
 	"E14000891": [
 		{ "n": "Chris Gallacher", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4570 },
-		{ "n": "Peter Gibson", "g": "", "p": "Conservative and Unionist Party", "i": 34517 },
+		{ "n": "Peter Gibson", "g": "m", "p": "Conservative and Unionist Party", "i": 34517 },
 		{ "n": "Josh Mason", "g": "m", "p": "Liberal Democrats", "i": 4525 },
 		{ "n": "Anna Turley", "g": "f", "p": "Labour and Co-operative Party", "i": 4408 }
 	],

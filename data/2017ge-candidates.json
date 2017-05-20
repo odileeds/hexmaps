@@ -2077,7 +2077,7 @@
 		{ "n": "Fred Grindrod", "g": "m", "p": "Labour Party", "i": 34594 },
 		{ "n": "Nigel Huddleston", "g": "m", "p": "Conservative and Unionist Party", "i": 2493 },
 		{ "n": "Margaret Rowley", "g": "f", "p": "Liberal Democrats", "i": 2443 },
-		{ "n": "Fay Emily Veare Whitfield", "g": "", "p": "Green Party", "i": 32255 }
+		{ "n": "Fay Whitfield", "g": "f", "p": "Green Party", "i": 32255 }
 	],
 	"E14000819": [
 		{ "n": "David Hodgson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5948 },
@@ -2660,7 +2660,7 @@
 		{ "n": "Alyson Barnes", "g": "f", "p": "Labour Party", "i": 33182 },
 		{ "n": "Jake Berry", "g": "m", "p": "Conservative and Unionist Party", "i": 4079 },
 		{ "n": "Sean Bonner", "g": "m", "p": "Liberal Democrats", "i": 34654 },
-		{ "n": "John David Payne", "g": "", "p": "Green Party", "i": 18319 }
+		{ "n": "John Payne", "g": "m", "p": "Green Party", "i": 18319 }
 	],
 	"E14000903": [
 		{ "n": "Kevin Barron", "g": "m", "p": "Labour Party", "i": 3080 },
@@ -2795,7 +2795,7 @@
 		{ "n": "Mike Driver", "g": "m", "p": "Workers Revolutionary Party", "i": 7193 },
 		{ "n": "Gill Furniss", "g": "f", "p": "Labour Party", "i": 19647 },
 		{ "n": "Christine Gilligan", "g": "f", "p": "Green Party", "i": 6930 },
-		{ "n": "Shane Harper", "g": "", "p": "UK Independence Party (UKIP)", "i": 12517 },
+		{ "n": "Shane Harper", "g": "m", "p": "UK Independence Party (UKIP)", "i": 12517 },
 		{ "n": "Michael Naughton", "g": "m", "p": "Conservative and Unionist Party", "i": 5911 },
 		{ "n": "Muzafar Rahman", "g": "m", "p": "Social Democratic Party", "i": 12343 }
 	],
@@ -3244,7 +3244,7 @@
 		{ "n": "Jenny Pinkett", "g": "f", "p": "Liberal Democrats", "i": 4034 }
 	],
 	"E14000987": [
-		{ "n": "Quentin Abel", "g": "", "p": "Independent", "i": 35064 },
+		{ "n": "Quentin Abel", "g": "m", "p": "Independent", "i": 35064 },
 		{ "n": "Nigel Robert Hennerley", "g": "m", "p": "Green Party", "i": 34124 },
 		{ "n": "Esther Louise McVey", "g": "f", "p": "Conservative and Unionist Party", "i": 3524 },
 		{ "n": "Sam Rushworth", "g": "m", "p": "Labour Party", "i": 4270 },

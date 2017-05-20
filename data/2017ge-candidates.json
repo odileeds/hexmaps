@@ -1106,7 +1106,7 @@
 	"E14000686": [
 		{ "n": "John Bickley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5300 },
 		{ "n": "Mark Green", "g": "m", "p": "Green Party", "i": 34542 },
-		{ "n": "Morgan Robert Hill", "g": "34931", "p": "Pirate Party UK", "i": 34931 },
+		{ "n": "Morgan Hill", "g": "m", "p": "Pirate Party UK", "i": 34931 },
 		{ "n": "Ian Priestner", "g": "m", "p": "Liberal Democrats", "i": 4991 },
 		{ "n": "Cathy Reynolds", "g": "f", "p": "Labour Party", "i": 34448 },
 		{ "n": "Antoinette Sandbach", "g": "f", "p": "Conservative and Unionist Party", "i": 1904 }
@@ -1160,7 +1160,7 @@
 		{ "n": "Jon Whitehouse", "g": "m", "p": "Liberal Democrats", "i": 7054 }
 	],
 	"E14000694": [
-		{ "n": "Janice Baker", "g": "", "p": "Green Party", "i": 30538 },
+		{ "n": "Janice Baker", "g": "f", "p": "Green Party", "i": 30538 },
 		{ "n": "Steve Gee", "g": "m", "p": "Liberal Democrats", "i": 34703 },
 		{ "n": "Chris Grayling", "g": "m", "p": "Conservative and Unionist Party", "i": 3284 },
 		{ "n": "Ed Mayne", "g": "m", "p": "Labour Party", "i": 34470 }
@@ -4542,7 +4542,7 @@
 	],
 	"W07000076": [
 		{ "n": "Andrew Creak", "g": "Non-binary", "p": "Green Party", "i": 7465 },
-		{ "n": "Kay David", "g": "", "p": "Liberal Democrats", "i": 2382 },
+		{ "n": "Kay David", "g": "f", "p": "Liberal Democrats", "i": 2382 },
 		{ "n": "Wayne David", "g": "m", "p": "Labour Party", "i": 3906 },
 		{ "n": "Jane Pratt", "g": "f", "p": "Conservative and Unionist Party", "i": 13544 },
 		{ "n": "Lindsay Whittle", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 59 },

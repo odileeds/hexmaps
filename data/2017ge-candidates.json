@@ -1061,7 +1061,7 @@
 	"E14000680": [
 		{ "n": "Rohit Dasgupta", "g": "m", "p": "Labour Party", "i": 34283 },
 		{ "n": "Damian Hinds", "g": "m", "p": "Conservative and Unionist Party", "i": 3449 },
-		{ "n": "Susan Jerrard", "g": "", "p": "The Justice & Anti-Corruption Party", "i": 34993 },
+		{ "n": "Susan Jerrard", "g": "f", "p": "The Justice & Anti-Corruption Party", "i": 34993 },
 		{ "n": "Richard Knight", "g": "", "p": "Green Party", "i": 34992 },
 		{ "n": "Richard Robinson", "g": "m", "p": "Liberal Democrats", "i": 6258 }
 	],
@@ -4272,7 +4272,7 @@
 		{ "n": "Caroline Santos", "g": "f", "p": "UK Independence Party (UKIP)", "i": 4851 }
 	],
 	"S14000057": [
-		{ "n": "Wendy Chamberlain", "g": "", "p": "Liberal Democrats", "i": 21148 },
+		{ "n": "Wendy Chamberlain", "g": "f", "p": "Liberal Democrats", "i": 21148 },
 		{ "n": "Chris Kane", "g": "m", "p": "Labour Party", "i": 22509 },
 		{ "n": "Stephen Kerr", "g": "m", "p": "Conservative and Unionist Party", "i": 5524 },
 		{ "n": "Steven Paterson", "g": "m", "p": "Scottish National Party (SNP)", "i": 5448 },

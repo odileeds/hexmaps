@@ -2141,7 +2141,7 @@
 		{ "n": "Julie Renyard", "g": "f", "p": "Labour Party", "i": 23708 }
 	],
 	"E14000828": [
-		{ "n": "Jo Graham", "g": "", "p": "Labour Party", "i": 34408 },
+		{ "n": "Jo Graham", "g": "f", "p": "Labour Party", "i": 34408 },
 		{ "n": "Des Hjerling", "g": "m", "p": "Pirate Party UK", "i": 33234 },
 		{ "n": "Janet Richards", "g": "f", "p": "Green Party", "i": 1122 },
 		{ "n": "Terry Scriven", "g": "m", "p": "Liberal Democrats", "i": 2444 },
@@ -2859,7 +2859,7 @@
 	],
 	"E14000930": [
 		{ "n": "Tanmanjit Singh Dhesi", "g": "m", "p": "Labour Party", "i": 4341 },
-		{ "n": "Paul Janik", "g": "", "p": "Independent", "i": 26230 },
+		{ "n": "Paul Janik", "g": "m", "p": "Independent", "i": 26230 },
 		{ "n": "Tom McCann", "g": "m", "p": "Liberal Democrats", "i": 6315 },
 		{ "n": "Karen Perez", "g": "", "p": "UK Independence Party (UKIP)", "i": 26300 },
 		{ "n": "Mark Vivis", "g": "m", "p": "Conservative and Unionist Party", "i": 5102 }

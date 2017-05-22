@@ -1517,7 +1517,7 @@
 	"E14000743": [
 		{ "n": "Anna Coda", "g": "f", "p": "Labour Party", "i": 5934 },
 		{ "n": "Lucy Hurds", "g": "f", "p": "Liberal Democrats", "i": 301 },
-		{ "n": "Jim Kenyon", "g": "", "p": "Independent", "i": 35026 },
+		{ "n": "Jim Kenyon", "g": "m", "p": "Independent", "i": 35026 },
 		{ "n": "Jesse Norman", "g": "m", "p": "Conservative and Unionist Party", "i": 3417 },
 		{ "n": "Gwyn James Price", "g": "", "p": "UK Independence Party (UKIP)", "i": 35027 },
 		{ "n": "Diana Toynbee", "g": "f", "p": "Green Party", "i": 5716 }
@@ -1809,7 +1809,7 @@
 	"E14000782": [
 		{ "n": "Sujata Barot", "g": "f", "p": "Independent", "i": 34142 },
 		{ "n": "Nitesh Dave", "g": "m", "p": "Liberal Democrats", "i": 23556 },
-		{ "n": "Ian Micheal Fox", "g": "", "p": "Independent", "i": 34941 },
+		{ "n": "Ian Micheal Fox", "g": "m", "p": "Independent", "i": 34941 },
 		{ "n": "Edward Yi He", "g": "m", "p": "Conservative and Unionist Party", "i": 5518 },
 		{ "n": "Keith Vaz", "g": "m", "p": "Labour Party", "i": 427 },
 		{ "n": "Melanie Wakley", "g": "f", "p": "Green Party", "i": 34942 }
@@ -2554,7 +2554,7 @@
 		{ "n": "Justine Greening", "g": "f", "p": "Conservative and Unionist Party", "i": 4021 },
 		{ "n": "Ryan Mercer", "g": "m", "p": "Liberal Democrats", "i": 34219 },
 		{ "n": "Neeraj Patil", "g": "m", "p": "Labour Party", "i": 34389 },
-		{ "n": "Lotta Quizeen", "g": "", "p": "Independent", "i": 34842 },
+		{ "n": "Lotta Quizeen", "g": "f", "p": "Independent", "i": 34842 },
 		{ "n": "Patricia Ward", "g": "f", "p": "UK Independence Party (UKIP)", "i": 5383 }
 	],
 	"E14000888": [

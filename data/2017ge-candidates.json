@@ -1418,7 +1418,7 @@
 		{ "n": "Teck Khong", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34582 },
 		{ "n": "Neil O'Brien", "g": "m", "p": "Conservative and Unionist Party", "i": 34491 },
 		{ "n": "Andy Thomas", "g": "m", "p": "Labour Party", "i": 23457 },
-		{ "n": "Darren Neil Woodiwiss", "g": "m", "p": "Green Party", "i": 23461 }
+		{ "n": "Darren Woodiwiss", "g": "m", "p": "Green Party", "i": 23461 }
 	],
 	"E14000729": [
 		{ "n": "Hannah Ellen Clare", "g": "f", "p": "Green Party", "i": 29818 },
@@ -2291,7 +2291,7 @@
 	"E14000850": [
 		{ "n": "Greg Chambers", "g": "m", "p": "Labour Party", "i": 6096 },
 		{ "n": "Donald Davies", "g": "m", "p": "Independent", "i": 35050 },
-		{ "n": "Richard Foord", "g": "", "p": "Liberal Democrats", "i": 35051 },
+		{ "n": "Richard Foord", "g": "m", "p": "Liberal Democrats", "i": 35051 },
 		{ "n": "Liam Fox", "g": "m", "p": "Conservative and Unionist Party", "i": 451 },
 		{ "n": "Charley Pattison", "g": "f", "p": "Green Party", "i": 34446 }
 	],
@@ -2975,7 +2975,7 @@
 	"E14000947": [
 		{ "n": "Robert Buckland", "g": "m", "p": "Conservative and Unionist Party", "i": 1643 },
 		{ "n": "Sarah Church", "g": "f", "p": "Labour and Co-operative Party", "i": 25753 },
-		{ "n": "Martin Paul Costello", "g": "", "p": "UK Independence Party (UKIP)", "i": 35065 },
+		{ "n": "Martin Paul Costello", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35065 },
 		{ "n": "Talis Kimberley-Fairbourn", "g": "f", "p": "Green Party", "i": 4928 },
 		{ "n": "Stan Pajak", "g": "m", "p": "Liberal Democrats", "i": 14729 }
 	],

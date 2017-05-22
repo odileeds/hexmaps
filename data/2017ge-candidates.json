@@ -885,7 +885,7 @@
 		{ "n": "Jennifer Brathwaite", "g": "f", "p": "Labour Party", "i": 34386 },
 		{ "n": "Kathleen Garner", "g": "f", "p": "UK Independence Party (UKIP)", "i": 4939 },
 		{ "n": "Anna Jones", "g": "f", "p": "Liberal Democrats", "i": 34342 },
-		{ "n": "David Omamogho", "g": "", "p": "Christian Peoples Alliance", "i": 34789 },
+		{ "n": "David Omamogho", "g": "m", "p": "Christian Peoples Alliance", "i": 34789 },
 		{ "n": "Chris Philp", "g": "m", "p": "Conservative and Unionist Party", "i": 513 },
 		{ "n": "Catherine Shelley", "g": "f", "p": "Green Party", "i": 34581 }
 	],
@@ -1367,7 +1367,7 @@
 		{ "n": "Luke Parker", "g": "m", "p": "Conservative and Unionist Party", "i": 5124 },
 		{ "n": "Dave Raval", "g": "m", "p": "Liberal Democrats", "i": 7045 },
 		{ "n": "Hugo Sugg", "g": "m", "p": "Independent", "i": 34637 },
-		{ "n": "Angel Watt", "g": "", "p": "Christian Peoples Alliance", "i": 34821 }
+		{ "n": "Angel Watt", "g": "f", "p": "Christian Peoples Alliance", "i": 34821 }
 	],
 	"E14000722": [
 		{ "n": "Ian Gordon Cooper", "g": "m", "p": "Labour Party", "i": 35149 },
@@ -1769,7 +1769,7 @@
 	"E14000777": [
 		{ "n": "Hilary Benn", "g": "m", "p": "Labour Party", "i": 738 },
 		{ "n": "Ed Carlisle", "g": "m", "p": "Green Party", "i": 18712 },
-		{ "n": "Alex Coetzee", "g": "", "p": "Christian Peoples Alliance", "i": 34743 },
+		{ "n": "Alex Coetzee", "g": "m", "p": "Christian Peoples Alliance", "i": 34743 },
 		{ "n": "Gareth Davies", "g": "m", "p": "Conservative and Unionist Party", "i": 34744 },
 		{ "n": "Andy Nash", "g": "m", "p": "Liberal Democrats", "i": 9105 },
 		{ "n": "Bill Palfreman", "g": "", "p": "UK Independence Party (UKIP)", "i": 16470 }
@@ -2981,7 +2981,7 @@
 	],
 	"E14000948": [
 		{ "n": "Raushan Ara", "g": "f", "p": "Labour Party", "i": 19761 },
-		{ "n": "Faith Miracle Fisher", "g": "", "p": "Christian Peoples Alliance", "i": 34880 },
+		{ "n": "Faith Miracle Fisher", "g": "f", "p": "Christian Peoples Alliance", "i": 34880 },
 		{ "n": "Tim Garbutt", "g": "m", "p": "Independent", "i": 7537 },
 		{ "n": "Craig Mackinlay", "g": "m", "p": "Conservative and Unionist Party", "i": 4230 },
 		{ "n": "Stuart Piper", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34214 },
@@ -3514,7 +3514,7 @@
 		{ "n": "Andrea Jayne Watts", "g": "f", "p": "Labour Party", "i": 34456 }
 	],
 	"E14001026": [
-		{ "n": "Lorna Irene Bromley Corke", "g": "", "p": "Christian Peoples Alliance", "i": 32589 },
+		{ "n": "Lorna Irene Bromley Corke", "g": "f", "p": "Christian Peoples Alliance", "i": 32589 },
 		{ "n": "James Heappey", "g": "m", "p": "Conservative and Unionist Party", "i": 4245 },
 		{ "n": "Andy Merryfield", "g": "m", "p": "Labour Party", "i": 1698 },
 		{ "n": "Tessa Jane Munt", "g": "f", "p": "Liberal Democrats", "i": 1699 }

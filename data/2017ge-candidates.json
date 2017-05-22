@@ -2505,7 +2505,7 @@
 		{ "n": "Daniel Michael Sheaff", "g": "m", "p": "Green Party", "i": 17694 }
 	],
 	"E14000881": [
-		{ "n": "Marty Caine", "g": "", "p": "Demos Direct Initiative Party", "i": 35042 },
+		{ "n": "Marty Caine", "g": "m", "p": "Demos Direct Initiative Party", "i": 35042 },
 		{ "n": "Adrian Oliver", "g": "m", "p": "Green Party", "i": 5981 },
 		{ "n": "Mike Plummer", "g": "m", "p": "Liberal Democrats", "i": 1753 },
 		{ "n": "Robert Syms", "g": "m", "p": "Conservative and Unionist Party", "i": 193 },
@@ -2623,7 +2623,7 @@
 		{ "n": "Simon Danczuk", "g": "m", "p": "Independent", "i": 500 },
 		{ "n": "Jane Elizabeth Ann Howard", "g": "f", "p": "Conservative and Unionist Party", "i": 12481 },
 		{ "n": "Andy Kelly", "g": "m", "p": "Liberal Democrats", "i": 4896 },
-		{ "n": "Andy Littlewood", "g": "", "p": "Greater Manchester Homeless Voice", "i": 12505 },
+		{ "n": "Andy Littlewood", "g": "m", "p": "Greater Manchester Homeless Voice", "i": 12505 },
 		{ "n": "Tony Lloyd", "g": "m", "p": "Labour Party", "i": 1852 }
 	],
 	"E14000898": [
@@ -2946,7 +2946,7 @@
 	],
 	"E14000943": [
 		{ "n": "Julie Gibson", "g": "f", "p": "Labour Party", "i": 26816 },
-		{ "n": "Mark Andrew Jarnell", "g": "", "p": "National Health Action Party", "i": 35101 },
+		{ "n": "Mark Jarnell", "g": "m", "p": "National Health Action Party", "i": 35101 },
 		{ "n": "Seema Kennedy", "g": "f", "p": "Conservative and Unionist Party", "i": 4104 },
 		{ "n": "Mark Lawrence Smith", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5631 },
 		{ "n": "Andrew Wight", "g": "m", "p": "Green Party", "i": 35102 },

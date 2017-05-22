@@ -2158,7 +2158,7 @@
 		{ "n": "Judith Bunting", "g": "f", "p": "Liberal Democrats", "i": 4516 },
 		{ "n": "Paul Field", "g": "m", "p": "Green Party", "i": 6687 },
 		{ "n": "Alex Skirvin", "g": "m", "p": "Labour Party", "i": 34409 },
-		{ "n": "Dave Yates", "g": "", "p": "Apolitical Democrats", "i": 35004 }
+		{ "n": "David Yates", "g": "m", "p": "Apolitical Democrats", "i": 860 }
 	],
 	"E14000831": [
 		{ "n": "Nick Cott", "g": "m", "p": "Liberal Democrats", "i": 4947 },
@@ -2251,7 +2251,7 @@
 	"E14000844": [
 		{ "n": "Rob Blay", "g": "m", "p": "Independent", "i": 5739 },
 		{ "n": "Graham John Cockarill", "g": "m", "p": "Liberal Democrats", "i": 6314 },
-		{ "n": "Mike Gascoigne", "g": "", "p": "UK Independence Party (UKIP)", "i": 14264 },
+		{ "n": "Mike Gascoigne", "g": "m", "p": "UK Independence Party (UKIP)", "i": 14264 },
 		{ "n": "Ranil Jayawardena", "g": "m", "p": "Conservative and Unionist Party", "i": 4217 },
 		{ "n": "Barry Jones", "g": "m", "p": "Labour Party", "i": 1835 },
 		{ "n": "Chas Spradbery", "g": "m", "p": "Green Party", "i": 34997 }
@@ -2393,7 +2393,7 @@
 		{ "n": "James Wright", "g": "m", "p": "Liberal Democrats", "i": 5364 }
 	],
 	"E14000865": [
-		{ "n": "David Laurence Bishop", "g": "", "p": "Church of the Militant Elvis", "i": 26221 },
+		{ "n": "David Bishop", "g": "m", "p": "Church of the Militant Elvis", "i": 26221 },
 		{ "n": "Kat Boettge", "g": "f", "p": "Green Party", "i": 5783 },
 		{ "n": "Robert Guy Michael Hall-Palmer", "g": "", "p": "UK Independence Party (UKIP)", "i": 35072 },
 		{ "n": "Barry Ian Holliday", "g": "m", "p": "Liberal Democrats", "i": 26224 },

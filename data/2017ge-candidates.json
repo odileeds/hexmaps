@@ -1207,7 +1207,7 @@
 	],
 	"E14000700": [
 		{ "n": "Michael Desmond", "g": "m", "p": "Labour Party", "i": 5894 },
-		{ "n": "Mark John McGiffin", "g": "", "p": "UK Independence Party (UKIP)", "i": 12108 },
+		{ "n": "Mark John McGiffin", "g": "m", "p": "UK Independence Party (UKIP)", "i": 12108 },
 		{ "n": "Dave Naghi", "g": "m", "p": "Liberal Democrats", "i": 2759 },
 		{ "n": "Helen Whately", "g": "f", "p": "Conservative and Unionist Party", "i": 4119 }
 	],
@@ -3112,7 +3112,7 @@
 		{ "n": "Paul Ankers", "g": "m", "p": "Liberal Democrats", "i": 68 },
 		{ "n": "Tom Dowse", "g": "m", "p": "Conservative and Unionist Party", "i": 11087 },
 		{ "n": "Jonathan Reynolds", "g": "m", "p": "Labour and Co-operative Party", "i": 1043 },
-		{ "n": "Julie Wood", "g": "", "p": "Green Party", "i": 15689 }
+		{ "n": "Julie Wood", "g": "f", "p": "Green Party", "i": 15689 }
 	],
 	"E14000968": [
 		{ "n": "Barbara Gibson", "g": "f", "p": "Liberal Democrats", "i": 21119 },

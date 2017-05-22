@@ -1989,7 +1989,7 @@
 		{ "n": "Peter Edwards", "g": "m", "p": "Labour Party", "i": 4837 },
 		{ "n": "Zoe O'Connell", "g": "f", "p": "Liberal Democrats", "i": 6292 },
 		{ "n": "Richard Andrew Perry", "g": "", "p": "British National Party", "i": 30014 },
-		{ "n": "Jesse Pryke ", "g": "", "p": "UK Independence Party (UKIP)", "i": 23753 },
+		{ "n": "Jesse Pryke", "g": "m", "p": "UK Independence Party (UKIP)", "i": 1927 },
 		{ "n": "John Whittingdale", "g": "m", "p": "Conservative and Unionist Party", "i": 765 }
 	],
 	"E14000807": [
@@ -2332,7 +2332,7 @@
 	],
 	"E14000856": [
 		{ "n": "Alan John Breeze", "g": "", "p": "UK Independence Party (UKIP)", "i": 31001 },
-		{ "n": "Sally-Ann Hart", "g": "", "p": "Conservative and Unionist Party", "i": 34796 },
+		{ "n": "Sally-Ann Hart", "g": "f", "p": "Conservative and Unionist Party", "i": 34796 },
 		{ "n": "Dominic Horsman", "g": "m", "p": "Green Party", "i": 34797 },
 		{ "n": "Laura Pidcock", "g": "f", "p": "Labour Party", "i": 31607 },
 		{ "n": "Owen Leighton Temple", "g": "m", "p": "Liberal Democrats", "i": 22180 }
@@ -2608,7 +2608,7 @@
 	"E14000895": [
 		{ "n": "Tobie Abel", "g": "m", "p": "Liberal Democrats", "i": 34358 },
 		{ "n": "Chris Pearson", "g": "m", "p": "The Yorkshire Party", "i": 30551 },
-		{ "n": "Daniel Perry", "g": "", "p": "Labour Party", "i": 34424 },
+		{ "n": "Daniel Perry", "g": "m", "p": "Labour Party", "i": 34424 },
 		{ "n": "Rishi Sunak", "g": "m", "p": "Conservative and Unionist Party", "i": 5371 },
 		{ "n": "Fiona Elizabeth Yorke", "g": "f", "p": "Green Party", "i": 30559 }
 	],
@@ -4252,7 +4252,7 @@
 	"S14000054": [
 		{ "n": "Peter Anthony Barrett", "g": "m", "p": "Liberal Democrats", "i": 2801 },
 		{ "n": "Ian Duncan", "g": "m", "p": "Conservative and Unionist Party", "i": 34162 },
-		{ "n": "David Roemmele", "g": "", "p": "Labour Party", "i": 34280 },
+		{ "n": "David Roemmele", "g": "m", "p": "Labour Party", "i": 34280 },
 		{ "n": "Pete Wishart", "g": "m", "p": "Scottish National Party (SNP)", "i": 2419 }
 	],
 	"S14000055": [

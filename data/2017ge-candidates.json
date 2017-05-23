@@ -80,7 +80,7 @@
 	],
 	"E14000541": [
 		{ "n": "Gavin Felton", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7701 },
-		{ "n": "Amanda Jayne Ford", "g": "", "p": "Conservative and Unionist Party", "i": 34759 },
+		{ "n": "Amanda Ford", "g": "f", "p": "Conservative and Unionist Party", "i": 34759 },
 		{ "n": "Dan Jarvis", "g": "m", "p": "Labour Party", "i": 5266 },
 		{ "n": "Stephen Morris", "g": "m", "p": "English Democrats", "i": 7011 },
 		{ "n": "David Ridgway", "g": "m", "p": "Liberal Democrats", "i": 7064 },
@@ -977,7 +977,7 @@
 	],
 	"E14000669": [
 		{ "n": "Robert Adamson", "g": "m", "p": "Liberal Democrats", "i": 3196 },
-		{ "n": "Shade Adoh", "g": "", "p": "Conservative and Unionist Party", "i": 34857 },
+		{ "n": "Shade Adoh", "g": "f", "p": "Conservative and Unionist Party", "i": 34857 },
 		{ "n": "David Allen", "g": "m", "p": "English Democrats", "i": 5812 },
 		{ "n": "Charlie Bridges", "g": "", "p": "The Yorkshire Party", "i": 34856 },
 		{ "n": "Frank Lloyd Calladine", "g": "m", "p": "Independent", "i": 23049 },
@@ -2785,7 +2785,7 @@
 	],
 	"E14000920": [
 		{ "n": "Clive Betts", "g": "m", "p": "Labour Party", "i": 1074 },
-		{ "n": "Lindsey Ann Cawrey", "g": "", "p": "Conservative and Unionist Party", "i": 28410 },
+		{ "n": "Lindsey Cawrey", "g": "f", "p": "Conservative and Unionist Party", "i": 28410 },
 		{ "n": "Dennise Ann Dawson", "g": "", "p": "UK Independence Party (UKIP)", "i": 12159 },
 		{ "n": "Ishleen Oberoi", "g": "", "p": "Social Democratic Party", "i": 12341 },
 		{ "n": "Colin Ross", "g": "m", "p": "Liberal Democrats", "i": 12298 }
@@ -2809,7 +2809,7 @@
 	],
 	"E14000923": [
 		{ "n": "Howard Denby", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6661 },
-		{ "n": "Gordon Cristopher Gregory", "g": "", "p": "Conservative and Unionist Party", "i": 35052 },
+		{ "n": "Gordon Gregory", "g": "m", "p": "Conservative and Unionist Party", "i": 35052 },
 		{ "n": "Louise Haigh", "g": "f", "p": "Labour Party", "i": 4421 },
 		{ "n": "Jaspreet Oberoi", "g": "", "p": "Social Democratic Party", "i": 35053 },
 		{ "n": "Joe Otten", "g": "m", "p": "Liberal Democrats", "i": 4897 },

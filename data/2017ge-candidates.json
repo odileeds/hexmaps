@@ -1864,7 +1864,7 @@
 		{ "n": "Jane Lawrence", "g": "f", "p": "The Realists' Party", "i": 7290 },
 		{ "n": "Malcolm Martin", "g": "m", "p": "Christian Peoples Alliance", "i": 3545 },
 		{ "n": "Laura McAnea", "g": "f", "p": "Animal Welfare Party", "i": 11348 },
-		{ "n": "Melanie McLean", "g": "", "p": "Conservative and Unionist Party", "i": 34800 }
+		{ "n": "Melanie McLean", "g": "f", "p": "Conservative and Unionist Party", "i": 34800 }
 	],
 	"E14000790": [
 		{ "n": "John Cryer", "g": "m", "p": "Labour Party", "i": 3601 },

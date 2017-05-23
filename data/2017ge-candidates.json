@@ -165,7 +165,7 @@
 	],
 	"E14000553": [
 		{ "n": "Siobhan Baillie", "g": "f", "p": "Conservative and Unionist Party", "i": 34539 },
-		{ "n": "James Clarke", "g": "", "p": "Independent", "i": 34810 },
+		{ "n": "James Clarke", "g": "m", "p": "Independent", "i": 34810 },
 		{ "n": "Neil Coyle", "g": "m", "p": "Labour Party", "i": 4264 },
 		{ "n": "Simon Hughes", "g": "m", "p": "Liberal Democrats", "i": 3434 },
 		{ "n": "Elizabeth Jones", "g": "f", "p": "UK Independence Party (UKIP)", "i": 52 },
@@ -3274,7 +3274,7 @@
 		{ "n": "Geoffrey Clifton-Brown", "g": "m", "p": "Conservative and Unionist Party", "i": 3809 },
 		{ "n": "Andrew Gant", "g": "m", "p": "Liberal Democrats", "i": 8867 },
 		{ "n": "Christopher William Harlow", "g": "m", "p": "UK Independence Party (UKIP)", "i": 31912 },
-		{ "n": "Mark Christopher Huband", "g": "", "p": "Labour Party", "i": 18431 },
+		{ "n": "Mark Christopher Huband", "g": "m", "p": "Labour Party", "i": 18431 },
 		{ "n": "Sabrina Poole", "g": "f", "p": "Green Party", "i": 31895 },
 		{ "n": "Sandy Steel", "g": "", "p": "Independent", "i": 34690 }
 	],

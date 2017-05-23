@@ -1411,7 +1411,7 @@
 		{ "n": "Claire-Louise Leyland", "g": "f", "p": "Conservative and Unionist Party", "i": 6982 },
 		{ "n": "John Mansook", "g": "m", "p": "Green Party", "i": 34335 },
 		{ "n": "Tulip Siddiq", "g": "f", "p": "Labour Party", "i": 4346 },
-		{ "n": "Rainbow George Weiss", "g": "", "p": "Independent", "i": 34827 }
+		{ "n": "Rainbow George Weiss", "g": "m", "p": "Independent", "i": 34827 }
 	],
 	"E14000728": [
 		{ "n": "Zuffar Haq", "g": "m", "p": "Liberal Democrats", "i": 3982 },
@@ -2237,7 +2237,7 @@
 		{ "n": "Stephen Barclay", "g": "m", "p": "Conservative and Unionist Party", "i": 239 },
 		{ "n": "Darren Fower", "g": "m", "p": "Liberal Democrats", "i": 5840 },
 		{ "n": "Stephen Kenneth Savill Goldspink", "g": "m", "p": "English Democrats", "i": 126 },
-		{ "n": "Ruth Johnson", "g": "", "p": "Green Party", "i": 34884 },
+		{ "n": "Ruth Johnson", "g": "f", "p": "Green Party", "i": 34884 },
 		{ "n": "Ken Rustidge", "g": "m", "p": "Labour Party", "i": 5838 },
 		{ "n": "Robin Talbot", "g": "m", "p": "UK Independence Party (UKIP)", "i": 3118 }
 	],
@@ -2463,7 +2463,7 @@
 		{ "n": "Marie Tidball", "g": "f", "p": "Labour Party", "i": 8802 }
 	],
 	"E14000875": [
-		{ "n": "Ian Royston Barnett", "g": "", "p": "Green Party", "i": 18916 },
+		{ "n": "Ian Barnett", "g": "m", "p": "Green Party", "i": 18916 },
 		{ "n": "Wayne Blackburn", "g": "m", "p": "Labour Party", "i": 33544 },
 		{ "n": "Gordon Lishman", "g": "m", "p": "Liberal Democrats", "i": 6022 },
 		{ "n": "Brian Norton Parker", "g": "", "p": "British National Party", "i": 32394 },
@@ -4006,7 +4006,7 @@
 		{ "n": "Jenny Marion Margaret Blain", "g": "f", "p": "Liberal Democrats", "i": 22050 },
 		{ "n": "Darren Cormack", "g": "", "p": "Conservative and Unionist Party", "i": 34798 },
 		{ "n": "Alan Cowan", "g": "m", "p": "Labour Party", "i": 34258 },
-		{ "n": "Sean David Dobson", "g": "", "p": "Independent", "i": 34799 },
+		{ "n": "Sean Dobson", "g": "m", "p": "Independent", "i": 34799 },
 		{ "n": "Chris Law", "g": "m", "p": "Scottish National Party (SNP)", "i": 6020 }
 	],
 	"S14000017": [

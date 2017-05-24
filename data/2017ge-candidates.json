@@ -1310,7 +1310,7 @@
 		{ "n": "Barrie Fairbairn", "g": "m", "p": "Labour Party", "i": 6912 },
 		{ "n": "Marietta King", "g": "f", "p": "UK Independence Party (UKIP)", "i": 5037 },
 		{ "n": "Tariq Mahmood", "g": "m", "p": "Independent", "i": 35078 },
-		{ "n": "Becca Thackray", "g": "f", "p": "Green Party", "i": 7137 }
+		{ "n": "Rebecca Thackray", "g": "f", "p": "Green Party", "i": 7137 }
 	],
 	"E14000715": [
 		{ "n": "Emmanuel Korede Feyisetan", "g": "", "p": "UK Independence Party (UKIP)", "i": 29313 },
@@ -2249,8 +2249,8 @@
 		{ "n": "Lee Benjamin Rowley", "g": "m", "p": "Conservative and Unionist Party", "i": 2207 }
 	],
 	"E14000844": [
-		{ "n": "Rob Blay", "g": "m", "p": "Independent", "i": 5739 },
-		{ "n": "Graham John Cockarill", "g": "m", "p": "Liberal Democrats", "i": 6314 },
+		{ "n": "Robert Blay", "g": "m", "p": "Independent", "i": 5739 },
+		{ "n": "Graham Cockarill", "g": "m", "p": "Liberal Democrats", "i": 6314 },
 		{ "n": "Mike Gascoigne", "g": "m", "p": "UK Independence Party (UKIP)", "i": 14264 },
 		{ "n": "Ranil Jayawardena", "g": "m", "p": "Conservative and Unionist Party", "i": 4217 },
 		{ "n": "Barry Jones", "g": "m", "p": "Labour Party", "i": 1835 },

@@ -2727,7 +2727,7 @@
 		{ "n": "Tom Corbin", "g": "m", "p": "Labour Party", "i": 4419 },
 		{ "n": "John Glen", "g": "m", "p": "Conservative and Unionist Party", "i": 155 },
 		{ "n": "Brig Oubridge", "g": "m", "p": "Green Party", "i": 34780 },
-		{ "n": "Dean Palethorpe", "g": "", "p": "UK Independence Party (UKIP)", "i": 28853 },
+		{ "n": "Dean Palethorpe", "g": "m", "p": "UK Independence Party (UKIP)", "i": 28853 },
 		{ "n": "Arthur Pendragon", "g": "m", "p": "Independent", "i": 1195 },
 		{ "n": "Paul William Leslie Sample", "g": "m", "p": "Liberal Democrats", "i": 28769 }
 	],
@@ -2764,12 +2764,12 @@
 		{ "n": "Nigel Adams", "g": "m", "p": "Conservative and Unionist Party", "i": 1959 },
 		{ "n": "David Bowgett", "g": "m", "p": "Labour Party", "i": 34428 },
 		{ "n": "Callum Delhoy", "g": "m", "p": "Liberal Democrats", "i": 7056 },
-		{ "n": "Tony Pycroft", "g": "", "p": "UK Independence Party (UKIP)", "i": 35083 }
+		{ "n": "Tony Pycroft", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35083 }
 	],
 	"E14000918": [
 		{ "n": "Alan Bullion", "g": "m", "p": "Liberal Democrats", "i": 1337 },
 		{ "n": "Chris Clark", "g": "m", "p": "Labour Party", "i": 5995 },
-		{ "n": "Graham Russell Cushway", "g": "m", "p": "UK Independence Party (UKIP)", "i": 28395 },
+		{ "n": "Graham Cushway", "g": "m", "p": "UK Independence Party (UKIP)", "i": 28395 },
 		{ "n": "Philip Dodd", "g": "m", "p": "Green Party", "i": 28396 },
 		{ "n": "Michael Fallon", "g": "m", "p": "Conservative and Unionist Party", "i": 2832 }
 	],

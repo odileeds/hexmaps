@@ -3999,7 +3999,7 @@
 	"S14000015": [
 		{ "n": "Lesley Brennan", "g": "f", "p": "Labour Party", "i": 4324 },
 		{ "n": "Stewart Hosie", "g": "m", "p": "Scottish National Party (SNP)", "i": 1046 },
-		{ "n": "Christopher John McIntyre", "g": "", "p": "Liberal Democrats", "i": 22025 },
+		{ "n": "Christopher John McIntyre", "g": "m", "p": "Liberal Democrats", "i": 22025 },
 		{ "n": "Eleanor Price", "g": "f", "p": "Conservative and Unionist Party", "i": 34518 }
 	],
 	"S14000016": [

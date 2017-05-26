@@ -1386,7 +1386,7 @@
 	"E14000724": [
 		{ "n": "David Davis", "g": "m", "p": "Conservative and Unionist Party", "i": 2885 },
 		{ "n": "Hollie Devanney", "g": "f", "p": "Labour Party", "i": 34299 },
-		{ "n": "Angela Needham", "g": "f", "p": "Green Party", "i": 34837 },
+		{ "n": "Carole Needham", "g": "f", "p": "Green Party", "i": 34837 },
 		{ "n": "David Nolan", "g": "m", "p": "Liberal Democrats", "i": 6502 },
 		{ "n": "Diana Wallis", "g": "f", "p": "The Yorkshire Party", "i": 6393 }
 	],
@@ -3981,7 +3981,7 @@
 		{ "n": "Elisha Fisher", "g": "f", "p": "Labour Party", "i": 34256 },
 		{ "n": "Stephen Charles Johnston", "g": "", "p": "Conservative and Unionist Party", "i": 35059 },
 		{ "n": "Stuart McDonald", "g": "m", "p": "Scottish National Party (SNP)", "i": 5172 },
-		{ "n": "Carl Dean Pearson", "g": "", "p": "UK Independence Party (UKIP)", "i": 22150 }
+		{ "n": "Carl Dean Pearson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 22150 }
 	],
 	"S14000013": [
 		{ "n": "Richard Arkless", "g": "m", "p": "Scottish National Party (SNP)", "i": 5920 },

@@ -283,7 +283,7 @@
 		{ "n": "Irfan Ahmed", "g": "m", "p": "Liberal Democrats", "i": 34172 },
 		{ "n": "Bob Eastwood", "g": "m", "p": "Conservative and Unionist Party", "i": 5606 },
 		{ "n": "Kate Hollern", "g": "f", "p": "Labour Party", "i": 4269 },
-		{ "n": "Duncan Miller", "g": "", "p": "Independent", "i": 35005 }
+		{ "n": "Duncan Miller", "g": "m", "p": "Independent", "i": 35005 }
 	],
 	"E14000571": [
 		{ "n": "Abi Ajoku", "g": "f", "p": "Christian Peoples Alliance", "i": 34935 },
@@ -353,7 +353,7 @@
 		{ "n": "Rebecca Forrest", "g": "f", "p": "Liberal Democrats", "i": 34653 },
 		{ "n": "Chris Green", "g": "m", "p": "Conservative and Unionist Party", "i": 4164 },
 		{ "n": "Julie Hilling", "g": "f", "p": "Labour Party", "i": 663 },
-		{ "n": "Martin Tighe", "g": "", "p": "UK Independence Party (UKIP)", "i": 11720 }
+		{ "n": "Martin Tighe", "g": "m", "p": "UK Independence Party (UKIP)", "i": 11720 }
 	],
 	"E14000581": [
 		{ "n": "Kim Bryan", "g": "", "p": "Socialist Labour Party", "i": 16268 },

@@ -1,6 +1,6 @@
 {
 	"layout":"odd-r",
-	"source":"http://www.npr.org/sections/health-shots/2015/09/23/442801737/obesity-maps-put-racial-differences-on-stark-display",
+	"source":"http://blog.apps.npr.org/2015/05/11/hex-tile-maps.html",
 	"hexes": {
 		"AL":{"n":"Alabama","type":"state","capital":"Montgomery","founding":"December 14 1819","q":8,"r":0},
 		"AK":{"n":"Alaska","type":"state","capital":"Juneau","founding":"January 3 1959","q":1,"r":6},

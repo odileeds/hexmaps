@@ -1855,7 +1855,7 @@
 		{ "n": "Ellie Reeves", "g": "f", "p": "Labour Party", "i": 34205 },
 		{ "n": "John Russell", "g": "m", "p": "Liberal Democrats", "i": 34187 },
 		{ "n": "Karen Wheller", "g": "f", "p": "Green Party", "i": 34808 },
-		{ "n": "Russell White", "g": "", "p": "Populist Party", "i": 34809 }
+		{ "n": "Russell White", "g": "m", "p": "Populist Party", "i": 34809 }
 	],
 	"E14000789": [
 		{ "n": "John Coughlin", "g": "m", "p": "Green Party", "i": 5823 },

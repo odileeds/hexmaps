@@ -1830,7 +1830,7 @@
 	],
 	"E14000785": [
 		{ "n": "Mark Bradley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6335 },
-		{ "n": "James Nelson Grundy", "g": "m", "p": "Conservative and Unionist Party", "i": 15397 },
+		{ "n": "James Grundy", "g": "m", "p": "Conservative and Unionist Party", "i": 15397 },
 		{ "n": "Richard Kilpatrick", "g": "m", "p": "Liberal Democrats", "i": 6225 },
 		{ "n": "Jo Platt", "g": "f", "p": "Labour and Co-operative Party", "i": 13928 }
 	],
@@ -1898,7 +1898,7 @@
 		{ "n": "Dan Carden", "g": "m", "p": "Labour Party", "i": 34624 },
 		{ "n": "Laura Evans", "g": "f", "p": "Conservative and Unionist Party", "i": 34872 },
 		{ "n": "Colm Feeley", "g": "m", "p": "Green Party", "i": 34873 },
-		{ "n": "Terry May", "g": "", "p": "Independent", "i": 34874 }
+		{ "n": "Terry May", "g": "m", "p": "Independent", "i": 34874 }
 	],
 	"E14000795": [
 		{ "n": "Luciana Berger", "g": "f", "p": "Labour and Co-operative Party", "i": 2709 },
@@ -1908,7 +1908,7 @@
 		{ "n": "Richard Kemp", "g": "m", "p": "Liberal Democrats", "i": 7681 }
 	],
 	"E14000796": [
-		{ "n": "Graham David Hughes", "g": "m", "p": "Independent", "i": 35036 },
+		{ "n": "Graham Hughes", "g": "m", "p": "Independent", "i": 35036 },
 		{ "n": "Paul Parr", "g": "m", "p": "Liberal Democrats", "i": 34602 },
 		{ "n": "Steve Radford", "g": "m", "p": "The Liberal Party", "i": 2480 },
 		{ "n": "Paul Richardson", "g": "m", "p": "Conservative and Unionist Party", "i": 6146 },
@@ -1980,7 +1980,7 @@
 	],
 	"E14000805": [
 		{ "n": "Bob Brierley", "g": "m", "p": "Independent", "i": 1461 },
-		{ "n": "Adam Robert Carney", "g": "m", "p": "Conservative and Unionist Party", "i": 15791 },
+		{ "n": "Adam Carney", "g": "m", "p": "Conservative and Unionist Party", "i": 15791 },
 		{ "n": "Yvonne Fovargue", "g": "f", "p": "Labour Party", "i": 375 },
 		{ "n": "John Skipworth", "g": "m", "p": "Liberal Democrats", "i": 5637 }
 	],

@@ -578,7 +578,7 @@
 		{ "n": "Peter Wright", "g": "", "p": "Independent", "i": 35143 }
 	],
 	"E14000613": [
-		{ "n": "Liam Byrne", "g": "", "p": "Independent", "i": 34860 },
+		{ "n": "Liam Byrne", "g": "m", "p": "Independent", "i": 34860 },
 		{ "n": "Jo Churchill", "g": "f", "p": "Conservative and Unionist Party", "i": 4657 },
 		{ "n": "William Edwards", "g": "m", "p": "Labour Party", "i": 4287 },
 		{ "n": "Helen Geake", "g": "f", "p": "Green Party", "i": 4647 },
@@ -1598,7 +1598,7 @@
 	"E14000754": [
 		{ "n": "Richard Peter Bradley", "g": "m", "p": "Green Party", "i": 11628 },
 		{ "n": "Paul Edgeworth", "g": "m", "p": "Liberal Democrats", "i": 11618 },
-		{ "n": "Paul Howell", "g": "", "p": "Conservative and Unionist Party", "i": 31326 },
+		{ "n": "Paul Howell", "g": "m", "p": "Conservative and Unionist Party", "i": 31326 },
 		{ "n": "Michael Anthony Joyce", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34967 },
 		{ "n": "Bridget Phillipson", "g": "f", "p": "Labour Party", "i": 3733 },
 		{ "n": "Mick Watson", "g": "", "p": "Independent", "i": 11587 }
@@ -1607,7 +1607,7 @@
 		{ "n": "Phélim Mac Cafferty", "g": "m", "p": "Green Party", "i": 34182 },
 		{ "n": "Caroline Hynds", "g": "f", "p": "Liberal Democrats", "i": 34115 },
 		{ "n": "Peter Kyle", "g": "m", "p": "Labour Party", "i": 4358 },
-		{ "n": "Charley Sabel", "g": "", "p": "Independent", "i": 34678 }
+		{ "n": "Charley Sabel", "g": "f", "p": "Independent", "i": 34678 }
 	],
 	"E14000756": [
 		{ "n": "Zulfiqar Ali", "g": "m", "p": "Liberal Democrats", "i": 6384 },
@@ -2940,7 +2940,7 @@
 		{ "n": "Sophie Johnson", "g": "f", "p": "Labour Party", "i": 33180 },
 		{ "n": "Andrea Leadsom", "g": "f", "p": "Conservative and Unionist Party", "i": 2875 },
 		{ "n": "Chris Lofts", "g": "m", "p": "Liberal Democrats", "i": 34121 },
-		{ "n": "Josh Phillips", "g": "", "p": "Independent", "i": 35130 },
+		{ "n": "Josh Phillips", "g": "m", "p": "Independent", "i": 35130 },
 		{ "n": "Nigel Wickens", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5082 }
 	],
 	"E14000943": [
@@ -4186,7 +4186,7 @@
 	"S14000044": [
 		{ "n": "Hannah Bardell", "g": "f", "p": "Scottish National Party (SNP)", "i": 6063 },
 		{ "n": "Charles Dundas", "g": "m", "p": "Liberal Democrats", "i": 4033 },
-		{ "n": "Damian Timson", "g": "", "p": "Conservative and Unionist Party", "i": 22451 },
+		{ "n": "Damian Timson", "g": "m", "p": "Conservative and Unionist Party", "i": 22451 },
 		{ "n": "Rhea Wolfson", "g": "f", "p": "Labour Party", "i": 34217 }
 	],
 	"S14000045": [

@@ -1373,7 +1373,7 @@
 		{ "n": "Ian Gordon Cooper", "g": "m", "p": "Labour Party", "i": 35149 },
 		{ "n": "Stuart Carl Henley", "g": "", "p": "UK Independence Party (UKIP)", "i": 35150 },
 		{ "n": "James Morris", "g": "m", "p": "Conservative and Unionist Party", "i": 729 },
-		{ "n": "James Alan Robertson", "g": "m", "p": "Green Party", "i": 9986 },
+		{ "n": "James Robertson", "g": "m", "p": "Green Party", "i": 9986 },
 		{ "n": "Jamie Christian Scott", "g": "m", "p": "Liberal Democrats", "i": 35151 },
 		{ "n": "Tim Weller", "g": "", "p": "Independent", "i": 35152 }
 	],
@@ -1530,7 +1530,7 @@
 	],
 	"E14000745": [
 		{ "n": "Oliver Dowden", "g": "m", "p": "Conservative and Unionist Party", "i": 4796 },
-		{ "n": "David Thomas Hoy", "g": "", "p": "UK Independence Party (UKIP)", "i": 27100 },
+		{ "n": "David Hoy", "g": "m", "p": "UK Independence Party (UKIP)", "i": 27100 },
 		{ "n": "Joe Jordan", "g": "m", "p": "Liberal Democrats", "i": 7167 },
 		{ "n": "Fiona Smith", "g": "f", "p": "Labour Party", "i": 34457 },
 		{ "n": "Sophie Summerhayes", "g": "f", "p": "Green Party", "i": 34875 }

@@ -4003,7 +4003,7 @@
 	],
 	"S14000016": [
 		{ "n": "Jenny Marion Margaret Blain", "g": "f", "p": "Liberal Democrats", "i": 22050 },
-		{ "n": "Darren Cormack", "g": "", "p": "Conservative and Unionist Party", "i": 34798 },
+		{ "n": "Darren Cormack", "g": "m", "p": "Conservative and Unionist Party", "i": 34798 },
 		{ "n": "Alan Cowan", "g": "m", "p": "Labour Party", "i": 34258 },
 		{ "n": "Sean Dobson", "g": "m", "p": "Independent", "i": 34799 },
 		{ "n": "Chris Law", "g": "m", "p": "Scottish National Party (SNP)", "i": 6020 }

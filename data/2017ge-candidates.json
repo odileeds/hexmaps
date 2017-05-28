@@ -994,7 +994,7 @@
 	"E14000671": [
 		{ "n": "Ian Austin", "g": "m", "p": "Labour Party", "i": 4148 },
 		{ "n": "Bill Etheridge", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4797 },
-		{ "n": "Ben France", "g": "", "p": "Liberal Democrats", "i": 35136 },
+		{ "n": "Ben France", "g": "m", "p": "Liberal Democrats", "i": 35136 },
 		{ "n": "Les Jones", "g": "m", "p": "Conservative and Unionist Party", "i": 7022 },
 		{ "n": "Andrew Nixon", "g": "m", "p": "Green Party", "i": 35137 }
 	],

@@ -202,7 +202,7 @@
 	"E14000558": [
 		{ "n": "Stefano Borella", "g": "m", "p": "Labour Party", "i": 4267 },
 		{ "n": "David Evennett", "g": "m", "p": "Conservative and Unionist Party", "i": 135 },
-		{ "n": "Mike Ferro", "g": "", "p": "UK Independence Party (UKIP)", "i": 34771 },
+		{ "n": "Mike Ferro", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34771 },
 		{ "n": "Peter Finch", "g": "", "p": "British National Party", "i": 7976 },
 		{ "n": "Ivor Lobo", "g": "m", "p": "Green Party", "i": 34549 },
 		{ "n": "Simone Reynolds", "g": "f", "p": "Liberal Democrats", "i": 34541 }
@@ -240,7 +240,7 @@
 		{ "n": "Clare Thomas", "g": "f", "p": "Green Party", "i": 6015 }
 	],
 	"E14000564": [
-		{ "n": "Andrew Richard Browning", "g": "m", "p": "Conservative and Unionist Party", "i": 34890 },
+		{ "n": "Andrew Browning", "g": "m", "p": "Conservative and Unionist Party", "i": 34890 },
 		{ "n": "Lee Dargue", "g": "m", "p": "Liberal Democrats", "i": 4821 },
 		{ "n": "Kefentse Dennis", "g": "m", "p": "Green Party", "i": 10067 },
 		{ "n": "Shabana Mahmood", "g": "f", "p": "Labour Party", "i": 216 }
@@ -515,7 +515,7 @@
 	],
 	"E14000603": [
 		{ "n": "Andrew Boswell", "g": "m", "p": "Green Party", "i": 6350 },
-		{ "n": "David John Moreland", "g": "m", "p": "UK Independence Party (UKIP)", "i": 24098 },
+		{ "n": "David Moreland", "g": "m", "p": "UK Independence Party (UKIP)", "i": 24098 },
 		{ "n": "Steve Riley", "g": "m", "p": "Liberal Democrats", "i": 5458 },
 		{ "n": "Iain Simpson", "g": "m", "p": "Labour Party", "i": 34362 },
 		{ "n": "Keith Simpson", "g": "m", "p": "Conservative and Unionist Party", "i": 1807 }

@@ -1328,7 +1328,6 @@
 		{ "n": "Melanie Onn", "g": "f", "p": "Labour Party", "i": 4846 }
 	],
 	"E14000717": [
-		{ "n": "Catherine Blaiklock", "g": "f", "p": "UK Independence Party (UKIP)", "i": 30097 },
 		{ "n": "James Joyce", "g": "m", "p": "Liberal Democrats", "i": 7051 },
 		{ "n": "Brandon Lewis", "g": "m", "p": "Conservative and Unionist Party", "i": 3533 },
 		{ "n": "Mike Smith-Clare", "g": "m", "p": "Labour Party", "i": 32938 },
@@ -1772,7 +1771,7 @@
 		{ "n": "Alex Coetzee", "g": "m", "p": "Christian Peoples Alliance", "i": 34743 },
 		{ "n": "Gareth Davies", "g": "m", "p": "Conservative and Unionist Party", "i": 34744 },
 		{ "n": "Andy Nash", "g": "m", "p": "Liberal Democrats", "i": 9105 },
-		{ "n": "Bill Palfreman", "g": "", "p": "UK Independence Party (UKIP)", "i": 16470 }
+		{ "n": "Bill Palfreman", "g": "m", "p": "UK Independence Party (UKIP)", "i": 16470 }
 	],
 	"E14000778": [
 		{ "n": "Richard Burgon", "g": "m", "p": "Labour Party", "i": 4369 },
@@ -1801,7 +1800,7 @@
 		{ "n": "Mike Davies", "g": "m", "p": "Alliance For Green Socialism", "i": 482 },
 		{ "n": "Edward Jones", "g": "m", "p": "The Yorkshire Party", "i": 34208 },
 		{ "n": "Alisdair Calder McGregor", "g": "m", "p": "Liberal Democrats", "i": 4894 },
-		{ "n": "Zoe Metcalfe", "g": "f", "p": "Conservative and Unionist Party", "i": 30710 },
+		{ "n": "Zoe Metcalfe", "g": "f", "p": "Conservative and Unionist Party", "i": 6546 },
 		{ "n": "Andrew Pointon", "g": "m", "p": "Green Party", "i": 4544 },
 		{ "n": "Rachel Reeves", "g": "f", "p": "Labour Party", "i": 1299 },
 		{ "n": "Mark Thackray", "g": "m", "p": "UK Independence Party (UKIP)", "i": 2348 }

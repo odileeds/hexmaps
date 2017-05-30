@@ -247,7 +247,8 @@ function Constituencies(id,w,h,padding,file){
 			}
 			key += '&ge;6';
 		}else if(type == "gender"){
-			var b = new Colour('#0DBC37');
+			var c = new Colour('#0DBC37');
+			var b = new Colour('#F9BC26');
 			var a = new Colour('#722EA5');
 			this.hex.setColours = function(region){
 				var m = 0;
@@ -258,9 +259,9 @@ function Constituencies(id,w,h,padding,file){
 				}
 				var t = m + f;
 				this.data["gender"][region].ratio = (t > 0 ? (m/(m+f)) : 0.5);
-				return getColour(this.data["gender"][region].ratio,a,b);
+				return getColour(this.data["gender"][region].ratio,a,c);
 			}
-			key = 'male<span style="'+makeGradient(b,a)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>female';
+			key = 'The gender-split of candidates in each constituency<br />male<span style="'+makeGradient(c,a)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>female';
 
 		}else if(type == "region"){
 			var names = {'YH':'Yorkshire and Humber','EM':'East Midlands','WM':'West Midlands','EA':'East Anglia','NI':'Northern Ireland','WA':'Wales','NW':'North West','NE':'North East','SE':'South East','SW':'South West','SC':'Scotland','LO':'London'};

@@ -315,7 +315,7 @@ console.log(r,h,h.selected)
 			for(q = range.q.min; q <= range.q.max; q++){
 				for(r = range.r.min; r <= range.r.max; r++){
 					h = this.drawHex(q,r);
-					this.grid.push(this.paper.path(h.path).attr({'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','style':'cursor: pointer;'}));
+					this.grid.push(this.paper.path(h.path).attr({'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','stroke-opacity':0.2,'style':'cursor: pointer;'}));
 					this.grid[this.grid.length-1].on('click',{hexmap:this,q:q,r:r},function(e){
 						e.data.hexmap.moveTo(e.data.q,e.data.r);
 					});

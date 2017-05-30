@@ -242,7 +242,7 @@ pre {
 #main ol { list-style: decimal; }
 #main ul, #main ol { margin-left: 2em; }
 
-
+#key { text-align: center; }
 .spinner {
 	margin: auto;
 	width: 50px;

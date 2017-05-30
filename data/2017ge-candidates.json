@@ -1883,7 +1883,7 @@
 		{ "n": "Karen Lee", "g": "f", "p": "Labour Party", "i": 17438 },
 		{ "n": "Ben Loryman", "g": "m", "p": "Green Party", "i": 17439 },
 		{ "n": "Karl McCartney", "g": "m", "p": "Conservative and Unionist Party", "i": 1886 },
-		{ "n": "Iain Alexander Scott-Burdon", "g": "m", "p": "Independent", "i": 35113 },
+		{ "n": "Iain Scott-Burdon", "g": "m", "p": "Independent", "i": 35113 },
 		{ "n": "Nick Smith", "g": "m", "p": "UK Independence Party (UKIP)", "i": 1452 }
 	],
 	"E14000793": [
@@ -3838,7 +3838,7 @@
 		{ "n": "Jacqui Russell", "g": "f", "p": "Sinn Féin", "i": 35062 }
 	],
 	"N06000010": [
-		{ "n": "Keith Alexander Buchanan", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 11273 },
+		{ "n": "Keith Buchanan", "g": "m", "p": "Democratic Unionist Party - D.U.P.", "i": 11273 },
 		{ "n": "Mark Glasgow", "g": "m", "p": "Ulster Unionist Party", "i": 34319 },
 		{ "n": "Francie Molloy", "g": "m", "p": "Sinn Féin", "i": 4601 },
 		{ "n": "Malachy Quinn", "g": "m", "p": "SDLP (Social Democratic & Labour Party)", "i": 6462 },

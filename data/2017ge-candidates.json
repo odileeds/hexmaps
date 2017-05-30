@@ -356,7 +356,7 @@
 		{ "n": "Martin Tighe", "g": "m", "p": "UK Independence Party (UKIP)", "i": 11720 }
 	],
 	"E14000581": [
-		{ "n": "Kim Bryan", "g": "", "p": "Socialist Labour Party", "i": 16268 },
+		{ "n": "Kim Bryan", "g": "f", "p": "Socialist Labour Party", "i": 16268 },
 		{ "n": "Peter Dowd", "g": "m", "p": "Labour Party", "i": 5191 },
 		{ "n": "Charles Fifield", "g": "m", "p": "Conservative and Unionist Party", "i": 34579 },
 		{ "n": "Alison Gibbon", "g": "f", "p": "Green Party", "i": 16186 },
@@ -410,7 +410,7 @@
 	"E14000588": [
 		{ "n": "Judith Cummins", "g": "f", "p": "Labour Party", "i": 5600 },
 		{ "n": "Tanya Graham", "g": "f", "p": "Conservative and Unionist Party", "i": 5301 },
-		{ "n": "Therese Hirst", "g": "f", "p": "English Democrats", "i": 7009 },
+		{ "n": "Thérèse Hirst", "g": "f", "p": "English Democrats", "i": 7009 },
 		{ "n": "Darren Parkinson", "g": "m", "p": "Green Party", "i": 13665 },
 		{ "n": "Stephen  Anthony Place", "g": "m", "p": "UK Independence Party (UKIP)", "i": 30552 },
 		{ "n": "Stuart David Thomas", "g": "m", "p": "Liberal Democrats", "i": 15034 }
@@ -1393,7 +1393,7 @@
 		{ "n": "Ryan Bate", "g": "m", "p": "Liberal Democrats", "i": 5635 },
 		{ "n": "Matthew Lloyd", "g": "m", "p": "Conservative and Unionist Party", "i": 6366 },
 		{ "n": "Glyn Redican", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6872 },
-		{ "n": "Vic Turton", "g": "m", "p": "Independent", "i": 7228 },
+		{ "n": "VICTOR TURTON", "g": "m", "p": "Independent", "i": 7228 },
 		{ "n": "Derek Twigg", "g": "m", "p": "Labour Party", "i": 1495 }
 	],
 	"E14000726": [

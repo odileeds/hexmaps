@@ -25,7 +25,7 @@ function Constituencies(id,w,h,padding,file){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
 			var c = e.data.hexmap.data['gender'][e.data.region];
 			for(var i = 0; i < c.length; i++){
-				lbl += '<br /><strong>'+c[i].n+'</strong> - '+c[i].p+' ('+(c[i].g=="f" ? "Female" : (c[i].g=="m" ? "Male":"Unknown/diverse"))+')';
+				lbl += '<br /><strong>'+c[i].n+'</strong> - '+c[i].p+' ('+(c[i].g=="f" ? "Female" : (c[i].g=="m" ? "Male": (c[i].g ? "Diverse":"Unknown")))+')';
 			}
 		}else lbl = title+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 		return lbl;

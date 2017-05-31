@@ -598,7 +598,7 @@
 		{ "n": "Eleanor Margolies", "g": "f", "p": "Green Party", "i": 34226 },
 		{ "n": "Aminata Sellu", "g": "f", "p": "Workers Revolutionary Party", "i": 34663 },
 		{ "n": "Ben Spencer", "g": "m", "p": "Conservative and Unionist Party", "i": 34572 },
-		{ "n": "Ray Towey", "g": "", "p": "Christian Peoples Alliance", "i": 7989 }
+		{ "n": "Ray Towey", "g": "m", "p": "Christian Peoples Alliance", "i": 7989 }
 	],
 	"E14000616": [
 		{ "n": "George Eustice", "g": "m", "p": "Conservative and Unionist Party", "i": 3888 },

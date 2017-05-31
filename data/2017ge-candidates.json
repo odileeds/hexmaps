@@ -1361,7 +1361,7 @@
 		{ "n": "Meg Hillier", "g": "f", "p": "Labour and Co-operative Party", "i": 2563 },
 		{ "n": "Vanessa Helen Hudson", "g": "f", "p": "Animal Welfare Party", "i": 7400 },
 		{ "n": "Rebecca Johnson", "g": "f", "p": "Green Party", "i": 4753 },
-		{ "n": "Dale Kalamazad", "g": "", "p": "Independent", "i": 34820 },
+		{ "n": "Dale Kalamazad", "g": "m", "p": "Independent", "i": 34820 },
 		{ "n": "Jonty Leff", "g": "m", "p": "Workers Revolutionary Party", "i": 28 },
 		{ "n": "Luke Parker", "g": "m", "p": "Conservative and Unionist Party", "i": 5124 },
 		{ "n": "Dave Raval", "g": "m", "p": "Liberal Democrats", "i": 7045 },
@@ -1719,7 +1719,7 @@
 		{ "n": "James Berry", "g": "m", "p": "Conservative and Unionist Party", "i": 4201 },
 		{ "n": "Jason 'Chinners' Chinnery", "g": "m", "p": "Official Monster Raving Loony Party", "i": 3454 },
 		{ "n": "Edward Davey", "g": "m", "p": "Liberal Democrats", "i": 4507 },
-		{ "n": "Graham Matthews", "g": "", "p": "UK Independence Party (UKIP)", "i": 34839 },
+		{ "n": "Graham Matthews", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34839 },
 		{ "n": "Laurie South", "g": "m", "p": "Labour Party", "i": 34388 },
 		{ "n": "Chris Walker", "g": "m", "p": "Green Party", "i": 1322 }
 	],

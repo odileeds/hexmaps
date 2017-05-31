@@ -1316,7 +1316,7 @@
 		{ "n": "Emmanuel Korede Feyisetan", "g": "", "p": "UK Independence Party (UKIP)", "i": 29313 },
 		{ "n": "Mandy Garford", "g": "f", "p": "Labour Party", "i": 29208 },
 		{ "n": "Marna Gilligan", "g": "f", "p": "Green Party", "i": 27485 },
-		{ "n": "Adam James Harold Holloway", "g": "m", "p": "Conservative and Unionist Party", "i": 1688 },
+		{ "n": "Adam Holloway", "g": "m", "p": "Conservative and Unionist Party", "i": 1688 },
 		{ "n": "Michael Leo Patrick Rogan", "g": "m", "p": "Independent", "i": 34765 },
 		{ "n": "James Willis", "g": "m", "p": "Liberal Democrats", "i": 3692 }
 	],
@@ -3574,9 +3574,9 @@
 	],
 	"E14001035": [
 		{ "n": "Harriett Baldwin", "g": "f", "p": "Conservative and Unionist Party", "i": 1476 },
-		{ "n": "Samantha Kay Charles", "g": "f", "p": "Labour Party", "i": 25228 },
+		{ "n": "Samantha Charles", "g": "f", "p": "Labour Party", "i": 25228 },
 		{ "n": "Edward McMillan-Scott", "g": "m", "p": "Liberal Democrats", "i": 6451 },
-		{ "n": "Natalie Maria McVey", "g": "f", "p": "Green Party", "i": 35092 },
+		{ "n": "Natalie McVey", "g": "f", "p": "Green Party", "i": 35092 },
 		{ "n": "Mike Savage", "g": "m", "p": "UK Independence Party (UKIP)", "i": 32456 }
 	],
 	"E14001036": [

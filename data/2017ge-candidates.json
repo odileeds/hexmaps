@@ -2081,7 +2081,7 @@
 	"E14000819": [
 		{ "n": "David Hodgson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5948 },
 		{ "n": "Dawud Islam", "g": "m", "p": "Liberal Democrats", "i": 9112 },
-		{ "n": "Terry Lawton", "g": "", "p": "Independent", "i": 35123 },
+		{ "n": "Terry Lawton", "g": "m", "p": "Independent", "i": 35123 },
 		{ "n": "Carl Martinez", "g": "", "p": "Green Party", "i": 35124 },
 		{ "n": "Andy McDonald", "g": "m", "p": "Labour Party", "i": 5541 },
 		{ "n": "Jacob Young", "g": "m", "p": "Conservative and Unionist Party", "i": 5212 }
@@ -4198,7 +4198,7 @@
 	"S14000046": [
 		{ "n": "Anne Betty Glen", "g": "f", "p": "Independent", "i": 34965 },
 		{ "n": "Joanne Kirby", "g": "f", "p": "Labour Party", "i": 34275 },
-		{ "n": "Alex Linklater", "g": "", "p": "Liberal Democrats", "i": 34966 },
+		{ "n": "Alex Linklater", "g": "m", "p": "Liberal Democrats", "i": 34966 },
 		{ "n": "Angus Robertson", "g": "m", "p": "Scottish National Party (SNP)", "i": 2751 },
 		{ "n": "Douglas Ross", "g": "m", "p": "Conservative and Unionist Party", "i": 2756 }
 	],

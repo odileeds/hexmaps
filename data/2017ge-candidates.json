@@ -1725,7 +1725,7 @@
 	],
 	"E14000771": [
 		{ "n": "Julia Brown", "g": "f", "p": "Green Party", "i": 34617 },
-		{ "n": "Simon Edward Burton", "g": "", "p": "Conservative and Unionist Party", "i": 35030 },
+		{ "n": "Simon Edward Burton", "g": "m", "p": "Conservative and Unionist Party", "i": 35030 },
 		{ "n": "Mark Fox", "g": "m", "p": "UK Independence Party (UKIP)", "i": 17348 },
 		{ "n": "Andrew Marchington", "g": "m", "p": "Liberal Democrats", "i": 35031 },
 		{ "n": "Karl Turner", "g": "m", "p": "Labour Party", "i": 2684 }

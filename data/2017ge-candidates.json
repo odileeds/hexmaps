@@ -76,7 +76,7 @@
 		{ "n": "Noel Falvey", "g": "m", "p": "Independent", "i": 34729 },
 		{ "n": "Roger Gravett", "g": "m", "p": "UK Independence Party (UKIP)", "i": 4937 },
 		{ "n": "Margaret Hodge", "g": "f", "p": "Labour Party", "i": 807 },
-		{ "n": "Minesh Talati", "g": "", "p": "Conservative and Unionist Party", "i": 34733 }
+		{ "n": "Minesh Talati", "g": "m", "p": "Conservative and Unionist Party", "i": 34733 }
 	],
 	"E14000541": [
 		{ "n": "Gavin Felton", "g": "m", "p": "UK Independence Party (UKIP)", "i": 7701 },
@@ -266,7 +266,7 @@
 		{ "n": "Sophie Shrubsole", "g": "f", "p": "Conservative and Unionist Party", "i": 34478 }
 	],
 	"E14000568": [
-		{ "n": "Mohammed Afzal", "g": "", "p": "Conservative and Unionist Party", "i": 34901 },
+		{ "n": "Mohammed Afzal", "g": "m", "p": "Conservative and Unionist Party", "i": 34901 },
 		{ "n": "Paul Clayton", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6990 },
 		{ "n": "Christopher Garghan", "g": "m", "p": "Green Party", "i": 10055 },
 		{ "n": "John Hemming", "g": "m", "p": "Liberal Democrats", "i": 3373 },

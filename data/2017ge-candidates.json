@@ -1050,7 +1050,7 @@
 		{ "n": "Claire Wright", "g": "f", "p": "Independent", "i": 5123 }
 	],
 	"E14000679": [
-		{ "n": "Choudhry Afzal", "g": "", "p": "Friends Party", "i": 34746 },
+		{ "n": "Afzal Choudhry", "g": "m", "p": "Friends Party", "i": 34746 },
 		{ "n": "Kirsty Finlayson", "g": "f", "p": "Conservative and Unionist Party", "i": 34612 },
 		{ "n": "Chidi Oti-Obihara", "g": "m", "p": "Green Party", "i": 34747 },
 		{ "n": "Daniel Oxley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6863 },
@@ -2959,7 +2959,7 @@
 		{ "n": "Emma Lewell-Buck", "g": "f", "p": "Labour Party", "i": 5539 }
 	],
 	"E14000945": [
-		{ "n": "Adam Ashley Freeman", "g": "", "p": "Labour Party", "i": 23677 },
+		{ "n": "Adam Ashley Freeman", "g": "m", "p": "Labour Party", "i": 23677 },
 		{ "n": "Claire McIlvenna", "g": "f", "p": "Green Party", "i": 5988 },
 		{ "n": "Hilary Myers", "g": "f", "p": "Liberal Democrats", "i": 6646 },
 		{ "n": "Gavin Williamson", "g": "m", "p": "Conservative and Unionist Party", "i": 769 }
@@ -3970,7 +3970,7 @@
 		{ "n": "Philippa Whitford", "g": "f", "p": "Scottish National Party (SNP)", "i": 5919 }
 	],
 	"S14000011": [
-		{ "n": "David Bennie", "g": "", "p": "Liberal Democrats", "i": 22789 },
+		{ "n": "David Bennie", "g": "m", "p": "Liberal Democrats", "i": 22789 },
 		{ "n": "Phil Boswell", "g": "m", "p": "Scottish National Party (SNP)", "i": 6281 },
 		{ "n": "Hugh Gaffney", "g": "m", "p": "Labour Party", "i": 8414 },
 		{ "n": "Robyn Halbert", "g": "f", "p": "Conservative and Unionist Party", "i": 9239 }
@@ -4002,7 +4002,7 @@
 		{ "n": "Eleanor Price", "g": "f", "p": "Conservative and Unionist Party", "i": 34518 }
 	],
 	"S14000016": [
-		{ "n": "Jenny Marion Margaret Blain", "g": "f", "p": "Liberal Democrats", "i": 22050 },
+		{ "n": "Jenny Blain", "g": "f", "p": "Liberal Democrats", "i": 22050 },
 		{ "n": "Darren Cormack", "g": "m", "p": "Conservative and Unionist Party", "i": 34798 },
 		{ "n": "Alan Cowan", "g": "m", "p": "Labour Party", "i": 34258 },
 		{ "n": "Sean Dobson", "g": "m", "p": "Independent", "i": 34799 },
@@ -4147,7 +4147,7 @@
 	"S14000038": [
 		{ "n": "Ronnie Cowan", "g": "m", "p": "Scottish National Party (SNP)", "i": 6058 },
 		{ "n": "Martin McCluskey", "g": "m", "p": "Labour Party", "i": 13061 },
-		{ "n": "David Stevens", "g": "", "p": "Liberal Democrats", "i": 21623 },
+		{ "n": "David Stevens", "g": "m", "p": "Liberal Democrats", "i": 21623 },
 		{ "n": "David Wilson", "g": "m", "p": "Conservative and Unionist Party", "i": 2842 }
 	],
 	"S14000039": [

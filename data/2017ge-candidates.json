@@ -1370,7 +1370,7 @@
 	],
 	"E14000722": [
 		{ "n": "Ian Gordon Cooper", "g": "m", "p": "Labour Party", "i": 35149 },
-		{ "n": "Stuart Carl Henley", "g": "", "p": "UK Independence Party (UKIP)", "i": 35150 },
+		{ "n": "Stuart Carl Henley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35150 },
 		{ "n": "James Morris", "g": "m", "p": "Conservative and Unionist Party", "i": 729 },
 		{ "n": "James Robertson", "g": "m", "p": "Green Party", "i": 9986 },
 		{ "n": "Jamie Christian Scott", "g": "m", "p": "Liberal Democrats", "i": 35151 },
@@ -3521,7 +3521,7 @@
 	"E14001027": [
 		{ "n": "Melvyn Jones", "g": "m", "p": "Independent", "i": 18211 },
 		{ "n": "Anawar Miah", "g": "m", "p": "Labour Party", "i": 4463 },
-		{ "n": "Dean James Milliken", "g": "", "p": "UK Independence Party (UKIP)", "i": 18183 },
+		{ "n": "Dean James Milliken", "g": "m", "p": "UK Independence Party (UKIP)", "i": 18183 },
 		{ "n": "Nigel Alan Quinton", "g": "m", "p": "Liberal Democrats", "i": 24403 },
 		{ "n": "Christianne Sayers", "g": "f", "p": "Green Party", "i": 18115 },
 		{ "n": "Grant Shapps", "g": "m", "p": "Conservative and Unionist Party", "i": 2595 }
@@ -4246,7 +4246,7 @@
 		{ "n": "Alison Dowling", "g": "f", "p": "Labour Party", "i": 21942 },
 		{ "n": "Paul Mack", "g": "m", "p": "Independent", "i": 2678 },
 		{ "n": "Eileen McCartin", "g": "f", "p": "Liberal Democrats", "i": 6612 },
-		{ "n": "Amy Louise Thomson", "g": "", "p": "Conservative and Unionist Party", "i": 34976 }
+		{ "n": "Amy Thomson", "g": "f", "p": "Conservative and Unionist Party", "i": 34976 }
 	],
 	"S14000054": [
 		{ "n": "Peter Anthony Barrett", "g": "m", "p": "Liberal Democrats", "i": 2801 },

@@ -2360,7 +2360,7 @@
 		{ "n": "Peter Neil Baldrey", "g": "m", "p": "Labour Party", "i": 4394 },
 		{ "n": "Phil Chamberlain", "g": "m", "p": "Green Party", "i": 35058 },
 		{ "n": "James Gray", "g": "m", "p": "Conservative and Unionist Party", "i": 3271 },
-		{ "n": "Brian George Felton Mathew", "g": "m", "p": "Liberal Democrats", "i": 1251 },
+		{ "n": "Brian Mathew", "g": "m", "p": "Liberal Democrats", "i": 1251 },
 		{ "n": "Paddy Singh", "g": "", "p": "UK Independence Party (UKIP)", "i": 28840 },
 		{ "n": "Lisa Anne Tweedie", "g": "f", "p": "Independent", "i": 35057 }
 	],
@@ -3494,10 +3494,10 @@
 	],
 	"E14001023": [
 		{ "n": "Chris Bowers", "g": "m", "p": "Liberal Democrats", "i": 1254 },
-		{ "n": "Nicola Burton", "g": "", "p": "UK Independence Party (UKIP)", "i": 34634 },
+		{ "n": "Nicola Burton", "g": "f", "p": "UK Independence Party (UKIP)", "i": 34634 },
 		{ "n": "Nusrat Ghani", "g": "f", "p": "Conservative and Unionist Party", "i": 85 },
 		{ "n": "Angela Smith", "g": "f", "p": "Labour Party", "i": 34596 },
-		{ "n": "Colin Geoffrey Stocks", "g": "m", "p": "Green Party", "i": 30531 }
+		{ "n": "Colin Stocks", "g": "m", "p": "Green Party", "i": 30531 }
 	],
 	"E14001024": [
 		{ "n": "Mike Amesbury", "g": "m", "p": "Labour Party", "i": 34321 },

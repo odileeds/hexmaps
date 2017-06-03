@@ -203,7 +203,7 @@
 		{ "n": "Stefano Borella", "g": "m", "p": "Labour Party", "i": 4267 },
 		{ "n": "David Evennett", "g": "m", "p": "Conservative and Unionist Party", "i": 135 },
 		{ "n": "Mike Ferro", "g": "m", "p": "UK Independence Party (UKIP)", "i": 34771 },
-		{ "n": "Peter Finch", "g": "", "p": "British National Party", "i": 7976 },
+		{ "n": "Peter Finch", "g": "m", "p": "British National Party", "i": 7976 },
 		{ "n": "Ivor Lobo", "g": "m", "p": "Green Party", "i": 34549 },
 		{ "n": "Simone Reynolds", "g": "f", "p": "Liberal Democrats", "i": 34541 }
 	],
@@ -979,7 +979,7 @@
 		{ "n": "Robert Adamson", "g": "m", "p": "Liberal Democrats", "i": 3196 },
 		{ "n": "Shade Adoh", "g": "f", "p": "Conservative and Unionist Party", "i": 34857 },
 		{ "n": "David Allen", "g": "m", "p": "English Democrats", "i": 5812 },
-		{ "n": "Charlie Bridges", "g": "", "p": "The Yorkshire Party", "i": 34856 },
+		{ "n": "Charlie Bridges", "g": "m", "p": "The Yorkshire Party", "i": 34856 },
 		{ "n": "Frank Lloyd Calladine", "g": "m", "p": "Independent", "i": 23049 },
 		{ "n": "Ed Miliband", "g": "m", "p": "Labour Party", "i": 3056 },
 		{ "n": "Kim Parkinson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5116 }
@@ -1133,7 +1133,7 @@
 		{ "n": "Alec Shelbrooke", "g": "m", "p": "Conservative and Unionist Party", "i": 4036 }
 	],
 	"E14000690": [
-		{ "n": "John James Clarke", "g": "m", "p": "British National Party", "i": 7974 },
+		{ "n": "John Clarke", "g": "m", "p": "British National Party", "i": 7974 },
 		{ "n": "Clive Efford", "g": "m", "p": "Labour Party", "i": 4037 },
 		{ "n": "David Hall-Matthews", "g": "m", "p": "Liberal Democrats", "i": 34193 },
 		{ "n": "Matt Hartley", "g": "m", "p": "Conservative and Unionist Party", "i": 4191 }
@@ -2423,7 +2423,7 @@
 		{ "n": "James Brokenshire", "g": "m", "p": "Conservative and Unionist Party", "i": 2534 },
 		{ "n": "Danny Hackett", "g": "m", "p": "Labour Party", "i": 34368 },
 		{ "n": "Drew Heffernan", "g": "m", "p": "Liberal Democrats", "i": 34777 },
-		{ "n": "Michael Jones", "g": "", "p": "British National Party", "i": 7975 },
+		{ "n": "Michael Jones", "g": "m", "p": "British National Party", "i": 7975 },
 		{ "n": "Derek Moran", "g": "m", "p": "Green Party", "i": 5213 },
 		{ "n": "Chinwe Nwadikeduruibe", "g": "f", "p": "Christian Peoples Alliance", "i": 34778 },
 		{ "n": "Freddy Vachha", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5850 }

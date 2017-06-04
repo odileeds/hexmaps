@@ -1507,7 +1507,7 @@
 	"E14000742": [
 		{ "n": "Robin Francis Bennett", "g": "m", "p": "Green Party", "i": 24338 },
 		{ "n": "Laura Coyle", "g": "f", "p": "Liberal Democrats", "i": 6582 },
-		{ "n": "Patrick Hugo Gray", "g": "", "p": "The Radical Party", "i": 35011 },
+		{ "n": "Patrick Hugo Gray", "g": "m", "p": "The Radical Party", "i": 35011 },
 		{ "n": "John Howell", "g": "m", "p": "Conservative and Unionist Party", "i": 1682 },
 		{ "n": "Oliver Kavanagh", "g": "m", "p": "Labour Party", "i": 34473 },
 		{ "n": "Tim Scott", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5533 }
@@ -1972,7 +1972,7 @@
 		{ "n": "Emily Fermor", "g": "f", "p": "Liberal Democrats", "i": 12122 },
 		{ "n": "Helen Grant", "g": "f", "p": "Conservative and Unionist Party", "i": 2107 },
 		{ "n": "Stuart Jeffery", "g": "m", "p": "Green Party", "i": 2111 },
-		{ "n": "Yolande Ann Kenward", "g": "", "p": "Independent", "i": 28382 },
+		{ "n": "Yolande Ann Kenward", "g": "f", "p": "Independent", "i": 28382 },
 		{ "n": "Allen Simpson", "g": "m", "p": "Labour Party", "i": 4377 },
 		{ "n": "Pamela Elizabeth Watts", "g": "f", "p": "UK Independence Party (UKIP)", "i": 12153 }
 	],
@@ -2534,7 +2534,7 @@
 		{ "n": "Gerald Vernon-Jackson", "g": "m", "p": "Liberal Democrats", "i": 4522 }
 	],
 	"E14000885": [
-		{ "n": "Kevin Michael Beaty", "g": "", "p": "Conservative and Unionist Party", "i": 35093 },
+		{ "n": "Kevin Michael Beaty", "g": "m", "p": "Conservative and Unionist Party", "i": 35093 },
 		{ "n": "Neil Darby", "g": "m", "p": "Liberal Democrats", "i": 34595 },
 		{ "n": "Mark Hendrick", "g": "m", "p": "Labour and Co-operative Party", "i": 3878 },
 		{ "n": "Simon Platt", "g": "m", "p": "UK Independence Party (UKIP)", "i": 32183 },

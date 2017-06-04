@@ -2352,7 +2352,7 @@
 		{ "n": "Henry Bellingham", "g": "m", "p": "Conservative and Unionist Party", "i": 1681 },
 		{ "n": "Rupert Moss-Eccardt", "g": "m", "p": "Liberal Democrats", "i": 6293 },
 		{ "n": "JoAnne Rust", "g": "f", "p": "Labour Party", "i": 5832 },
-		{ "n": "Michael Stone", "g": "", "p": "UK Independence Party (UKIP)", "i": 33802 },
+		{ "n": "Michael Stone", "g": "m", "p": "UK Independence Party (UKIP)", "i": 33802 },
 		{ "n": "Michael de Whalley", "g": "m", "p": "Green Party", "i": 1629 }
 	],
 	"E14000860": [
@@ -4388,7 +4388,7 @@
 		{ "n": "Roy Neale", "g": "", "p": "UK Independence Party (UKIP)", "i": 34912 }
 	],
 	"W07000055": [
-		{ "n": "Nadeem Ahmed", "g": "", "p": "Independent", "i": 34919 },
+		{ "n": "Nadeem Ahmed", "g": "m", "p": "Independent", "i": 34919 },
 		{ "n": "Natasha Asghar", "g": "f", "p": "Conservative and Unionist Party", "i": 5946 },
 		{ "n": "Pete Brown", "g": "m", "p": "Liberal Democrats", "i": 25549 },
 		{ "n": "Ian William Gorman", "g": "", "p": "UK Independence Party (UKIP)", "i": 27910 },

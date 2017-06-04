@@ -803,7 +803,6 @@
 		{ "n": "Tim Young", "g": "m", "p": "Labour Party", "i": 4312 }
 	],
 	"E14000645": [
-		{ "n": "Cahal Burke", "g": "m", "p": "Liberal Democrats", "i": 6002 },
 		{ "n": "Sonia King", "g": "f", "p": "Green Party", "i": 34710 },
 		{ "n": "Jason McCartney", "g": "m", "p": "Conservative and Unionist Party", "i": 3383 },
 		{ "n": "Patricia Sadio", "g": "f", "p": "Independent", "i": 34711 },
@@ -1313,7 +1312,7 @@
 		{ "n": "Rebecca Thackray", "g": "f", "p": "Green Party", "i": 7137 }
 	],
 	"E14000715": [
-		{ "n": "Emmanuel Korede Feyisetan", "g": "", "p": "UK Independence Party (UKIP)", "i": 29313 },
+		{ "n": "Emmanuel Korede Feyisetan", "g": "m", "p": "UK Independence Party (UKIP)", "i": 29313 },
 		{ "n": "Mandy Garford", "g": "f", "p": "Labour Party", "i": 29208 },
 		{ "n": "Marna Gilligan", "g": "f", "p": "Green Party", "i": 27485 },
 		{ "n": "Adam Holloway", "g": "m", "p": "Conservative and Unionist Party", "i": 1688 },

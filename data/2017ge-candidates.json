@@ -4160,7 +4160,7 @@
 		{ "n": "Alan Brown", "g": "m", "p": "Scottish National Party (SNP)", "i": 5921 },
 		{ "n": "Laura Dover", "g": "f", "p": "Labour Party", "i": 34273 },
 		{ "n": "Alison Harper", "g": "f", "p": "Conservative and Unionist Party", "i": 22376 },
-		{ "n": "Irene Lang", "g": "", "p": "Liberal Democrats", "i": 34939 }
+		{ "n": "Irene Lang", "g": "f", "p": "Liberal Democrats", "i": 34939 }
 	],
 	"S14000041": [
 		{ "n": "David Coburn", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5285 },

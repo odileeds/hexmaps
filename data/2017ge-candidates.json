@@ -4079,7 +4079,7 @@
 	"S14000028": [
 		{ "n": "Callum Laidlaw", "g": "m", "p": "Conservative and Unionist Party", "i": 9162 },
 		{ "n": "Craig Martin", "g": "m", "p": "Labour Party", "i": 8409 },
-		{ "n": "Stuart Martin", "g": "", "p": "UK Independence Party (UKIP)", "i": 22590 },
+		{ "n": "Stuart Martin", "g": "m", "p": "UK Independence Party (UKIP)", "i": 22590 },
 		{ "n": "John McNally", "g": "m", "p": "Scottish National Party (SNP)", "i": 1788 },
 		{ "n": "Debra Pickering", "g": "f", "p": "Scottish Green Party", "i": 20382 },
 		{ "n": "Austin Reid", "g": "m", "p": "Liberal Democrats", "i": 35028 }

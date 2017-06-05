@@ -2001,7 +2001,6 @@
 	"E14000808": [
 		{ "n": "Kemi Abidogun", "g": "f", "p": "Christian Peoples Alliance", "i": 22584 },
 		{ "n": "Peter Clifford", "g": "m", "p": "Communist League Election Campaign", "i": 14797 },
-		{ "n": "Phil Eckersley", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6223 },
 		{ "n": "George Galloway", "g": "m", "p": "Independent", "i": 4754 },
 		{ "n": "David Michael Hopkins", "g": "m", "p": "Independent", "i": 24942 },
 		{ "n": "Shadan Jaradat", "g": "m", "p": "Conservative and Unionist Party", "i": 34707 },
@@ -2779,7 +2778,7 @@
 		{ "n": "Shaffaq Mohammed", "g": "m", "p": "Liberal Democrats", "i": 12326 },
 		{ "n": "Robert Moran", "g": "m", "p": "Pirate Party UK", "i": 34805 },
 		{ "n": "Stephanie Roe", "g": "f", "p": "Conservative and Unionist Party", "i": 6551 },
-		{ "n": "Joe Westnidge", "g": "", "p": "Social Democratic Party", "i": 35055 }
+		{ "n": "Joe Westnidge", "g": "m", "p": "Social Democratic Party", "i": 35055 }
 	],
 	"E14000920": [
 		{ "n": "Clive Betts", "g": "m", "p": "Labour Party", "i": 1074 },
@@ -2809,7 +2808,7 @@
 		{ "n": "Howard Denby", "g": "m", "p": "UK Independence Party (UKIP)", "i": 6661 },
 		{ "n": "Gordon Gregory", "g": "m", "p": "Conservative and Unionist Party", "i": 35052 },
 		{ "n": "Louise Haigh", "g": "f", "p": "Labour Party", "i": 4421 },
-		{ "n": "Jaspreet Oberoi", "g": "", "p": "Social Democratic Party", "i": 35053 },
+		{ "n": "Jaspreet Oberoi", "g": "m", "p": "Social Democratic Party", "i": 35053 },
 		{ "n": "Joe Otten", "g": "m", "p": "Liberal Democrats", "i": 4897 },
 		{ "n": "Declan Walsh", "g": "m", "p": "Green Party", "i": 34607 }
 	],

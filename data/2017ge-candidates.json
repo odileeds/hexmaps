@@ -3233,7 +3233,7 @@
 		{ "n": "Rob Pocock", "g": "m", "p": "Labour Party", "i": 3035 },
 		{ "n": "David Ratcliff", "g": "m", "p": "Green Party", "i": 6145 },
 		{ "n": "Hannah Sophia", "g": "f", "p": "Independent", "i": 34900 },
-		{ "n": "Jennifer Jane Wilkinson", "g": "f", "p": "Liberal Democrats", "i": 10038 }
+		{ "n": "Jenny Wilkinson", "g": "f", "p": "Liberal Democrats", "i": 10038 }
 	],
 	"E14000986": [
 		{ "n": "Andrew Hammond", "g": "m", "p": "Labour Party", "i": 34782 },
@@ -3432,7 +3432,7 @@
 		{ "n": "Melanie Hurst", "g": "f", "p": "UK Independence Party (UKIP)", "i": 4567 },
 		{ "n": "Ian Lavery", "g": "m", "p": "Labour Party", "i": 3057 },
 		{ "n": "Steve Leyland", "g": "m", "p": "Green Party", "i": 34779 },
-		{ "n": "Joan Carol Tebbutt", "g": "f", "p": "Liberal Democrats", "i": 24820 }
+		{ "n": "Joan Tebbutt", "g": "f", "p": "Liberal Democrats", "i": 24820 }
 	],
 	"E14001015": [
 		{ "n": "Sue Ap-Roberts", "g": "f", "p": "Green Party", "i": 24112 },
@@ -4339,7 +4339,7 @@
 		{ "n": "Daniel Stephen Boucher", "g": "m", "p": "Conservative and Unionist Party", "i": 12598 },
 		{ "n": "Chris Evans", "g": "m", "p": "Green Party", "i": 34699 },
 		{ "n": "Carolyn Harris", "g": "f", "p": "Labour Party", "i": 5787 },
-		{ "n": "Charley Hasted", "g": "m", "p": "Liberal Democrats", "i": 34562 },
+		{ "n": "Charley Hasted", "g": "Transgender", "p": "Liberal Democrats", "i": 34562 },
 		{ "n": "Clifford Johnson", "g": "m", "p": "UK Independence Party (UKIP)", "i": 5865 },
 		{ "n": "Steffan John Phillips", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 28633 }
 	],

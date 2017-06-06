@@ -2718,7 +2718,7 @@
 		{ "n": "Christopher Barnes", "g": "", "p": "UK Independence Party (UKIP)", "i": 15775 },
 		{ "n": "Wendy Kay Olsen", "g": "f", "p": "Green Party", "i": 7571 },
 		{ "n": "John Reid", "g": "m", "p": "Liberal Democrats", "i": 6822 },
-		{ "n": "Jason Sugarman", "g": "", "p": "Conservative and Unionist Party", "i": 35141 }
+		{ "n": "Jason Sugarman", "g": "m", "p": "Conservative and Unionist Party", "i": 35141 }
 	],
 	"E14000912": [
 		{ "n": "Tom Corbin", "g": "m", "p": "Labour Party", "i": 4419 },
@@ -4085,7 +4085,7 @@
 		{ "n": "Austin Reid", "g": "m", "p": "Liberal Democrats", "i": 35028 }
 	],
 	"S14000029": [
-		{ "n": "Charlotte Fairbanks", "g": "", "p": "Conservative and Unionist Party", "i": 34887 },
+		{ "n": "Charlotte Fairbanks", "g": "f", "p": "Conservative and Unionist Party", "i": 34887 },
 		{ "n": "Faten Hameed", "g": "f", "p": "Labour Party", "i": 21638 },
 		{ "n": "Isabel Nelson", "g": "f", "p": "Liberal Democrats", "i": 3134 },
 		{ "n": "Alison Thewliss", "g": "f", "p": "Scottish National Party (SNP)", "i": 5784 }
@@ -4235,7 +4235,7 @@
 	],
 	"S14000052": [
 		{ "n": "John Boyd", "g": "m", "p": "Liberal Democrats", "i": 21948 },
-		{ "n": "David John Gardiner", "g": "", "p": "Conservative and Unionist Party", "i": 34973 },
+		{ "n": "David Gardiner", "g": "m", "p": "Conservative and Unionist Party", "i": 34973 },
 		{ "n": "Gavin Newlands", "g": "m", "p": "Scottish National Party (SNP)", "i": 6054 },
 		{ "n": "Alison Taylor", "g": "f", "p": "Labour Party", "i": 34279 }
 	],
@@ -4289,7 +4289,7 @@
 	],
 	"W07000041": [
 		{ "n": "Tomos Dafydd Davies", "g": "m", "p": "Conservative and Unionist Party", "i": 34666 },
-		{ "n": "Sarah May Jackson", "g": "f", "p": "Liberal Democrats", "i": 35009 },
+		{ "n": "Sarah Jackson", "g": "f", "p": "Liberal Democrats", "i": 35009 },
 		{ "n": "Ieuan Wyn Jones", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 34207 },
 		{ "n": "Albert Owen", "g": "m", "p": "Labour Party", "i": 800 },
 		{ "n": "James Nicholas Turner", "g": "m", "p": "UK Independence Party (UKIP)", "i": 35010 }
@@ -4392,7 +4392,7 @@
 		{ "n": "Pete Brown", "g": "m", "p": "Liberal Democrats", "i": 25549 },
 		{ "n": "Ian William Gorman", "g": "", "p": "UK Independence Party (UKIP)", "i": 27910 },
 		{ "n": "Jessica Morden", "g": "f", "p": "Labour Party", "i": 1369 },
-		{ "n": "Cameron Thomas Wixcey", "g": "", "p": "Plaid Cymru - The Party of Wales", "i": 34920 }
+		{ "n": "Cameron Wixcey", "g": "m", "p": "Plaid Cymru - The Party of Wales", "i": 34920 }
 	],
 	"W07000056": [
 		{ "n": "Pippa Bartolotti", "g": "f", "p": "Green Party", "i": 3762 },

@@ -2144,7 +2144,7 @@
 		{ "n": "Desmond Swayne", "g": "m", "p": "Conservative and Unionist Party", "i": 195 }
 	],
 	"E14000829": [
-		{ "n": "Xandra Arundel", "g": "", "p": "UK Independence Party (UKIP)", "i": 34999 },
+		{ "n": "Xandra Arundel", "g": "f", "p": "UK Independence Party (UKIP)", "i": 34999 },
 		{ "n": "Robert Jenrick", "g": "m", "p": "Conservative and Unionist Party", "i": 5031 },
 		{ "n": "Chantal Lee", "g": "f", "p": "Labour Party", "i": 34307 },
 		{ "n": "David Watts", "g": "m", "p": "Liberal Democrats", "i": 2132 }

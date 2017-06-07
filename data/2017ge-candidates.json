@@ -1644,7 +1644,7 @@
 	],
 	"E14000761": [
 		{ "n": "Charlotte Armstrong", "g": "f", "p": "Green Party", "i": 14775 },
-		{ "n": "Tony Gould", "g": "", "p": "UK Independence Party (UKIP)", "i": 14887 },
+		{ "n": "Tony Gould", "g": "m", "p": "UK Independence Party (UKIP)", "i": 14887 },
 		{ "n": "Ben Gummer", "g": "m", "p": "Conservative and Unionist Party", "i": 2835 },
 		{ "n": "Adrian Hyyrylainen-Trett", "g": "m", "p": "Liberal Democrats", "i": 7835 },
 		{ "n": "Sandy Martin", "g": "m", "p": "Labour Party", "i": 23025 },
@@ -3747,7 +3747,7 @@
 		{ "n": "Marcus Fysh", "g": "m", "p": "Conservative and Unionist Party", "i": 4251 },
 		{ "n": "Jo Roundell Greene", "g": "f", "p": "Liberal Democrats", "i": 34482 },
 		{ "n": "Ian J Martin", "g": "m", "p": "Labour Party", "i": 26286 },
-		{ "n": "Katy Pritchard", "g": "", "p": "Independent", "i": 34859 },
+		{ "n": "Katy Pritchard", "g": "f", "p": "Independent", "i": 34859 },
 		{ "n": "Robert Wood", "g": "m", "p": "Green Party", "i": 32971 }
 	],
 	"E14001061": [

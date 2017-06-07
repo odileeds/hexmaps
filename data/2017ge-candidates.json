@@ -2116,7 +2116,7 @@
 		{ "n": "Jacquetta Jane Fewster", "g": "f", "p": "Green Party", "i": 5071 },
 		{ "n": "Marc Patrick Green", "g": "m", "p": "Labour Party", "i": 14142 },
 		{ "n": "Paul Kennedy", "g": "m", "p": "Liberal Democrats", "i": 5072 },
-		{ "n": "Judy Moore", "g": "", "p": "UK Independence Party (UKIP)", "i": 35063 }
+		{ "n": "Judy Moore", "g": "f", "p": "UK Independence Party (UKIP)", "i": 35063 }
 	],
 	"E14000825": [
 		{ "n": "Robert Wilson Gillespie", "g": "m", "p": "UK Independence Party (UKIP)", "i": 19528 },

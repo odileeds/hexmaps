@@ -3982,7 +3982,7 @@
 	"S14000013": [
 		{ "n": "Richard Arkless", "g": "m", "p": "Scottish National Party (SNP)", "i": 5920 },
 		{ "n": "Daniel Goodare", "g": "m", "p": "Labour Party", "i": 34220 },
-		{ "n": "Alister Jack", "g": "", "p": "Conservative and Unionist Party", "i": 34790 },
+		{ "n": "Alister Jack", "g": "m", "p": "Conservative and Unionist Party", "i": 34790 },
 		{ "n": "Yen Hongmei Jin", "g": "f", "p": "Independent", "i": 21314 },
 		{ "n": "Joan Mitchell", "g": "f", "p": "Liberal Democrats", "i": 34403 }
 	],

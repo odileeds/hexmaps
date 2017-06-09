@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>General Election 2017 results</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/ge2017/">
+	<meta name="twitter:title" property="og:title" content="General Election 2017 results">
+	<meta name="twitter:description" property="og:description" content="The 2017 UK General Election results as a point-topped hex map.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<link rel="StyleSheet" href="../resources/style.css" type="text/css" />
+	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
+	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+	<script type="text/javascript" src="../resources/stuquery.hexmap.js"></script>
+	<script type="text/javascript" src="constituencies.js"></script>
+	<script>
+	var constituencies;
+	S(document).ready(function(){
+		//constituencies = new Constituencies('hexmap',912,1120,0,"constituencies.hexjson");
+		constituencies = new Constituencies('hexmap',800,905,0,"constituencies.hexjson");
+	});
+	</script>
+	<style>
+	svg {
+		max-width: 100%;
+		height: auto;
+	}
+	#key {
+		width: 60%;
+		margin: auto;
+	}
+	#extra {
+		margin: auto;
+		text-align: center;
+	}
+	#update {
+		position: fixed;
+		bottom: 0.5em;
+		right: 0.5em;
+		background-color: white;
+		padding: 0.5em;
+	}
+	</style>
+</head>
+<body>
+
+	<div id="main">
+
+		<div class="b1-bg">
+			<div class="holder">
+				<div id="infobutton" style="float:right;">&#8505;</div>
+				<h1>General Election 2017 results</h1>
+			</div>
+		</div>
+
+		<div class="holder" style="padding-bottom: 0.5em;">
+			<p style="text-align:center;">The 2017 General Election results from <a href="https://democracyclub.org.uk/">Democracy Club</a> as a pointy-topped hex map.</p>
+			<div id="key"></div>
+			<div id="summary" style="text-align:center;"></div>
+		</div>
+
+		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
+
+		<div id="hexmap"></div>
+
+		<div class="holder" style="text-align:center;">
+			<p>
+			<button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button>
+			<button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button>
+			</p>
+			<div id="extra"></div>
+		</div>
+		<div id="update"></div>
+		<div class="holder">
+			<h2>Other versions</h2>
+			<p>Leeds-based mapping company <a href="https://parallel.co.uk/">parallel</a> have created <a href="https://parallel.co.uk/election-2017/">an extruded 3D view</a> that can be rotated to <a href="https://twitter.com/thomasforth/status/864460489354596352">prioritise the focus</a> and <a href="https://parallel.co.uk/election-2017/majority/#15.29/51.4646/-0.0016/0/45">a view showing majorities</a>. Leeds-based developer <a href="https://twitter.com/daalwr">Daniel Wright</a> has also <a href="https://daalwr.github.io/3dmap/">created a 3D view</a> using <a href="https://threejs.org/">three.js</a> which currently shows votes by party, electorate size, and gains. <a href="https://twitter.com/olihawkins/status/865552316023296001">Oli Hawkins</a> has created <a href="https://github.com/olihawkins/d3-hexjson">a plugin to read HexJSON files with D3.js</a>. <a href="https://twitter.com/puntofisso">Giuseppe Sollazzo‏</a> has created <a href="http://swing.puntofisso.net/">an election swing viewer</a> using the map and the D3 plugin.</p>
+		</div>
+		
+	</div>
+	
+	<footer class="b1-bg">
+		<div class="holder">
+			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+			<br /><a href="https://candidates.democracyclub.org.uk/help/results">2017 general election results are from Democracy Club</a> under a CC-BY-SA 3.0 license.
+		</div>
+	</footer>
+	
+</body>
+</html>
+

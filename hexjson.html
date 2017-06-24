@@ -39,16 +39,16 @@
 
 			<p>The format is:</p>
 			<pre><code>{
-	"version": "1.0.0",
+	"version": "1.0",
 	"layout": "odd-r",
-	"maxCoordinates": "right-top",
+	"minCoordinates": "right-top",
 	"hexes": {
 		"E14000530":{"q":-3,"r":-11},
 		"E14000531":{"q":-3,"r":-1}
 	}
 }</code></pre>
 			<p>The <code>version</code> property follows the <a href="http://semver.org/">semantic versioning 2.0.0</a> standard. 
-			If the version property is missing, it is assumed to be "1.0.0" as this JSON scheme is already used in production.
+			We only use major and minor version numbers. If the version property is missing, it is assumed to be "1.0" as this JSON scheme is already used in production.
 			</p>
 
 			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate system layouts</a>:</p>
@@ -60,30 +60,31 @@
 				<li><code>axial-r</code> (pointy-topped, axial coordinate system)</li>
 				<li><code>axial-q</code> (flat-topped, axial coordinate system)</li>
 			</ul>
-			<p>The <code>maxCoordinates</code> property defines the corner of the map where both axes reach their maximum value.
-			If the <code>maxCoordinates</code> is <code>right-top</code>, for instance, the hexagons with the highest q-coordinate are on the rightmost part of the map,
-			and the hexagons with the highest r-coordinate are on the topmost part of the map. While a displaying agent may choose to revert or rotate the map, 
-			at least the intention of the designer of the map is made clear by using the <code>maxCoordinates</code> property.
+			<p>The <code>minCoordinates</code> property defines the corner of the map where both axes reach their minimum value.
+			If the <code>minCoordinates</code> is <code>left-bottom</code>, for instance, the hexagons with the lowest q-coordinate are on the leftmost part of the map,
+			and the hexagons with the lowest r-coordinate are on the bottom part of the map. While a displaying agent may choose to revert or rotate the map, 
+			at least the intention of the designer of the map is made clear by using the <code>minCoordinates</code> property.
+			This property usually matches the origin of the graph (<code>0,0</code>), except in axial coordinate system layouts.
 			</p>
 			<p>
-			The maxCoordinates should be one of the following values:
+			The minCoordinates should be one of the following values:
 			<ul>
 				<li><code>left-top</code></li>
 				<li><code>left-bottom</code></li>
 				<li><code>right-top</code></li>
 				<li><code>right-bottom</code></li>
 			</ul>
-			If there is no defined maxCoordinates, the assumption is that it is <code>right-top</code>, which is the standard layout for graphs in math.
+			If there is no defined minCoordinates, the assumption is that it is <code>left-bottom</code>, which is the standard position of the origin in graphs.
 			Please note that this differs from the <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate system layouts</a> description, 
-			which uses <code>right-bottom</code> maxCoordinates.
+			which uses <code>left-top</code> minCoordinates.
 			</p>
 
 			<p>Finally, the <code>hexes</code> are defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates.</p>
 			<p>You can add your own custom data fields to each hex if you want to. Just make sure you don't use the keys <code>q</code> and <code>r</code> as they will be the coordinates e.g.</p>
 			<pre><code>{
-	"version": "1.0.0",
+	"version": "1.0",
 	"layout": "odd-r",
-	"maxCoordinates": "right-top",
+	"minCoordinates": "right-top",
 	"hexes": {
 		"E14000530":{
 			"name": "Aldershot",
@@ -104,7 +105,7 @@
 		...
 	}
 }</code></pre>
-			<p><em>Note that with the maxCoordinates for q and r in the right-top, the Aldershot location is much lower than the Aldridge-Brownhills location, 
+			<p><em>Note that with the minCoordinates for q and r in the right-top, the Aldershot location is much lower than the Aldridge-Brownhills location, 
 				and both are to the left of the center of the map (assuming the center is located at at 0,0).</em>
 			</p>
 

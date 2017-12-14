@@ -1,0 +1,28 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"1":{"n":"Linn","id":"01","name":"Linn","q":6,"r":-2},
+		"2":{"n":"Newlands/Auldburn","id":"02","name":"Newlands/Auldburn","q":5,"r":-1},
+		"3":{"n":"Greater Pollok","id":"03","name":"Greater Pollok","q":4,"r":-1},
+		"4":{"n":"Cardonald","id":"04","name":"Cardonald","q":5,"r":0},
+		"5":{"n":"Govan","id":"05","name":"Govan","q":5,"r":1},
+		"6":{"n":"Pollokshields","id":"06","name":"Pollokshields","q":6,"r":0},
+		"7":{"n":"Langside","id":"07","name":"Langside","q":6,"r":-1},
+		"8":{"n":"Southside Central","id":"08","name":"Southside Central","q":7,"r":0},
+		"9":{"n":"Calton","id":"09","name":"Calton","q":8,"r":0},
+		"10":{"n":"Anderston/City/Yorkhill","id":"10","name":"Anderston/City/Yorkhill","q":6,"r":1},
+		"11":{"n":"Hillhead","id":"11","name":"Hillhead","q":7,"r":2},
+		"12":{"n":"Victoria Park","id":"12","name":"Victoria Park","q":5,"r":2},
+		"13":{"n":"Garscadden/Scotstounhill","id":"13","name":"Garscadden/Scotstounhill","q":4,"r":3},
+		"14":{"n":"Drumchapel/Anniesland","id":"14","name":"Drumchapel/Anniesland","q":5,"r":3},
+		"15":{"n":"Maryhill","id":"15","name":"Maryhill","q":6,"r":3},
+		"16":{"n":"Canal","id":"16","name":"Canal","q":8,"r":2},
+		"17":{"n":"Springburn/Robroyston","id":"17","name":"Springburn/Robroyston","q":9,"r":2},
+		"18":{"n":"East Centre","id":"18","name":"East Centre","q":8,"r":1},
+		"19":{"n":"Shettleston","id":"19","name":"Shettleston","q":9,"r":0},
+		"20":{"n":"Baillieston","id":"20","name":"Baillieston","q":10,"r":0},
+		"21":{"n":"North East","id":"21","name":"North East","q":9,"r":1},
+		"22":{"n":"Dennistoun","id":"22","name":"Dennistoun","q":7,"r":1},
+		"23":{"n":"Partick East/Kelvindale","id":"23","name":"Partick East/Kelvindale","q":6,"r":2}
+	}
+}

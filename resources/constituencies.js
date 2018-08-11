@@ -15,6 +15,7 @@ function Constituencies(id,w,h,padding,file){
 		if(e.data.builder.by == "population") lbl = title+'<br />Population: '+e.data.pop;
 		else if(e.data.builder.by == "party") lbl = title+'<br />Party: '+e.data.hexmap.data['2015'][e.data.region];
 		else if(e.data.builder.by == "referendum") lbl = title+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
+		else if(e.data.builder.by == "benefits") lbl = '<strong>'+title+'</strong><br />Percentage of constituency on income-based<br />benefits (IS/JSA/ESA): <strong>'+(e.data.hexmap.data['benefits'][e.data.region] ? (parseFloat(e.data.hexmap.data['benefits'][e.data.region]).toFixed(2))+'%':'unknown')+'</strong>';
 		else if(e.data.builder.by == "candidates"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
 			var c = e.data.hexmap.data['candidates'][e.data.region];
@@ -84,6 +85,7 @@ function Constituencies(id,w,h,padding,file){
 	S('#colour-ref').on('click',{me:this},function(e){ e.data.me.setColours('referendum'); updateClass(this); });
 	S('#colour-can').on('click',{me:this},function(e){ e.data.me.setColours('candidates'); updateClass(this); });
 	S('#colour-gen').on('click',{me:this},function(e){ e.data.me.setColours('gender'); updateClass(this); });
+	S('#colour-ben').on('click',{me:this},function(e){ e.data.me.setColours('benefits'); updateClass(this); });
 
 	this.saveSVG = function(){
 
@@ -133,7 +135,7 @@ function Constituencies(id,w,h,padding,file){
 		if(!this.hex.data) this.hex.data = {};
 		this.hex.data[type] = {};
 		if(type == "referendum"){
-			S().ajax('data/2016referendum-estimates.csv',{
+			S().ajax('../data/2016referendum-estimates.csv',{
 				'complete':function(d){
 					if(typeof d==="string"){
 						d = d.replace(/\r/,'');
@@ -151,7 +153,7 @@ function Constituencies(id,w,h,padding,file){
 				'dataType':'csv'
 			});
 		}else if(type == "candidates" || type == "gender"){
-			S().ajax('data/2017ge-candidates.json',{
+			S().ajax('../data/2017ge-candidates.json',{
 				'complete':function(d){
 					this.data["candidates"] = d;
 					this.hex.data["candidates"] = this.data["candidates"];
@@ -164,8 +166,26 @@ function Constituencies(id,w,h,padding,file){
 				'error':function(){},
 				'dataType':'json'
 			});
+		}else if(type == "benefits"){
+			S().ajax('../data/2017benefits.csv',{
+				'complete':function(d){
+					if(typeof d==="string"){
+						d = d.replace(/\r/g,'');
+						d = d.split(/[\n]/);
+					}
+					for(var i = 1; i < d.length; i++){
+						c = d[i].split(/,/);
+						this.data[type][c[0]] = c[8];
+					}
+					this.hex.data[type] = this.data[type];
+					this.setColours("benefits");
+				},
+				'this': this,
+				'error':function(){},
+				'dataType':'csv'
+			});
 		}else{
-			S().ajax('data/2015results.csv',{
+			S().ajax('../data/2015results.csv',{
 				'complete':function(d){
 					if(typeof d==="string"){
 						d = d.replace(/\r/,'');
@@ -200,6 +220,7 @@ function Constituencies(id,w,h,padding,file){
 		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
 		if(type == "candidates" && (!this.data || !this.data["candidates"])) return this.loadResults("candidates");
 		if(type == "gender" && (!this.data || !this.data["gender"])) return this.loadResults("gender");
+		if(type == "benefits" && (!this.data || !this.data["benefits"])) return this.loadResults("benefits");
 
 		var key = "";
 
@@ -233,6 +254,14 @@ function Constituencies(id,w,h,padding,file){
 				return getColour(1 - (this.data["referendum"][region]-0.2)/0.6,a,b);
 			}
 			key = 'leave<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>remain';
+		}else if(type == "benefits"){
+			var b = new Colour('#F9BC26');
+			var a = new Colour('#722EA5');
+			this.hex.setColours = function(region){
+				if(this.data["benefits"][region]) return getColour(Math.min(1,(this.data["benefits"][region])/10),a,b);
+				else return '';
+			}
+			key = 'Percentage of constituency on income-based benefits (IS/JSA/ESA)<br />0%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>10%+';
 		}else if(type == "candidates"){
 			var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
 			this.hex.setColours = function(region){

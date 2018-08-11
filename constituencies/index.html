@@ -10,17 +10,20 @@
 	<meta name="twitter:title" property="og:title" content="Hex map of UK constituencies">
 	<meta name="twitter:description" property="og:description" content="The 2017 UK parliamentary constituencies as a point-topped hex map.">
 	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
-	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<link rel="StyleSheet" href="../resources/style.css" type="text/css" />
 	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
 	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
-	<script type="text/javascript" src="resources/stuquery.hexmap.js"></script>
-	<script type="text/javascript" src="resources/constituencies.js"></script>
+	<script type="text/javascript" src="../resources/stuquery.hexmap.js"></script>
+	<script type="text/javascript" src="../resources/constituencies.js"></script>
 	<script>
 	var constituencies;
 	S(document).ready(function(){
-		constituencies = new Constituencies('hexmap',915,1120,0,"maps/constituencies.hexjson");
+		constituencies = new Constituencies('hexmap',915,1120,0,"../maps/constituencies.hexjson");
 	});
 	</script>
+	<style>
+	button { margin-top: 0.25em; }
+	</style>
 </head>
 <body>
 
@@ -34,7 +37,7 @@
 		</div>
 
 		<div class="holder">
-			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies. We had to make some compromises. If you disagree, move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Make sure to save the resulting <a href="hexjson.html">HexJSON file</a> so you have your version for the future (it can be <a href="builder.html">read with this tool</a>). You can also save the map as a scalable vector graphic (SVG).</p>
+			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies. We had to make some compromises. If you disagree, move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Make sure to save the resulting <a href="../hexjson.html">HexJSON file</a> so you have your version for the future (it can be <a href="../builder.html">read with this tool</a>). You can also save the map as a scalable vector graphic (SVG).</p>
 			<p style="text-align:center;">Colour by: 
 			<button id="colour-pop" class="switchdata b5-bg">population</button>
 			<button id="colour-reg" class="switchdata c10-bg">region</button>
@@ -42,6 +45,7 @@
 			<button id="colour-ref" class="switchdata b5-bg">EU Ref estimates</button>
 			<button id="colour-can" class="switchdata b5-bg">2017 GE candidates</button>
 			<button id="colour-gen" class="switchdata b5-bg">2017 GE candidates' gender-split</button>
+			<button id="colour-ben" class="switchdata b5-bg">% people on benefits</button>
 			</p>
 			<div id="key"></div>
 		</div>

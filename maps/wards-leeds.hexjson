@@ -3,10 +3,10 @@
 	"hexes": {
 		"E05001425":{"n":"Guiseley and Rawdon","q":-3,"r":3},
 		"E05001437":{"n":"Otley and Yeadon","q":-2,"r":3},
-		"E05001411":{"n":"Adel and Wharfdale","q":-1,"r":3},
+		"E05001411":{"n":"Adel and Wharfedale","q":-1,"r":3},
 		"E05001412":{"n":"Alwoodley","q":0,"r":3},
 		"E05001426":{"n":"Harewood","q":1,"r":3},
-		"E05001443":{"n":"Wetherby","q":2,"r":3},
+		"E05001443":{"n":"Wetherby","q":2,"r":3,"pop":15753},
 		"E05001428":{"n":"Horsforth","q":-2,"r":2},
 		"E05001442":{"n":"Weetwood","q":-1,"r":2},
 		"E05001434":{"n":"Moortown","q":0,"r":2},
@@ -14,17 +14,17 @@
 		"E05001418":{"n":"Calverley and Farsley","q":-4,"r":1},
 		"E05001416":{"n":"Bramley and Stanningley","q":-3,"r":1},
 		"E05001432":{"n":"Kirkstall","q":-2,"r":1},
-		"E05001427":{"n":"Headingley","q":-1,"r":1},
+		"E05001427":{"n":"Headingley and Hyde Park","q":-1,"r":1},
 		"E05001419":{"n":"Chapel Allerton","q":0,"r":1},
 		"E05001430":{"n":"Killingbeck and Seacroft","q":1,"r":1},
 		"E05001438":{"n":"Pudsey","q":-3,"r":0},
 		"E05001414":{"n":"Armley","q":-2,"r":0},
-		"E05001429":{"n":"Hyde Park and Woodhouse","q":-1,"r":0},
-		"E05001424":{"n":"Gipton and Harehills","q":1,"r":0},
-		"E05001421":{"n":"Cross Gates and Whinmoor","q":2,"r":0},
+		"E05001429":{"n":"Little London and Woodhouse","q":-1,"r":0},
+		"E05001424":{"n":"Gipton and Harehills","q":0,"r":0},
+		"E05001421":{"n":"Cross Gates and Whinmoor","q":1,"r":0},
 		"E05001422":{"n":"Farnley and Wortley","q":-3,"r":-1},
 		"E05001415":{"n":"Beeston and Holbeck","q":-2,"r":-1},
-		"E05001420":{"n":"City and Hunslet","q":-1,"r":-1},
+		"E05001420":{"n":"Hunslet and Riverside","q":-1,"r":-1},
 		"E05001417":{"n":"Burmantofts and Richmond Hill","q":0,"r":-1},
 		"E05001441":{"n":"Temple Newsam","q":1,"r":-1},
 		"E05001435":{"n":"Morley North","q":-2,"r":-2},
@@ -33,6 +33,6 @@
 		"E05001423":{"n":"Garforth and Swillington","q":1,"r":-2},
 		"E05001436":{"n":"Morley South","q":-2,"r":-3},
 		"E05001413":{"n":"Ardsley and Robin Hood","q":-1,"r":-3},
-		"E05001431":{"n":"Kippax and Methley","q":0,"r":-3}
+		"E05001431":{"n":"Kippax and Methley","q":0,"r":-3,"pop":16355}
 	}
 }

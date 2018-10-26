@@ -489,10 +489,13 @@ function Hexify(el){
 		context.fillStyle = d.hex;
 		r = (d.radius > 1 ? d.radius : 0);
 		context.moveTo(d.x + 3, d.y);
-		//context.arc(d.x, d.y, r/2, 0, 2 * Math.PI);
-		context.textBaseline = "middle";
-		context.textAlign = "center";
-		context.fillText(d.value,d.x,d.y)
+		if(d.value){
+			context.textBaseline = "middle";
+			context.textAlign = "center";
+			context.fillText(d.value,d.x,d.y)
+		}else{
+			context.arc(d.x, d.y, r/2, 0, 2 * Math.PI);
+		}
 		context.fill();
 	}
 	

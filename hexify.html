@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hexify</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/builder">
+	<meta name="twitter:title" property="og:title" content="Hex map builder">
+	<meta name="twitter:description" property="og:description" content="Create your own point-topped hex map from a data file.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
+	<script src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
+	<script src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+
+	<script src="resources/d3.v5.min.js"></script>
+	<script src="resources/stuquery.hexmap.js"></script>
+	<!--<script type="text/javascript" src="resources/builder.js"></script>-->
+	<script src="resources/hexify.js"></script>
+	<script>
+	var hexify;
+
+	S(document).ready(function(){
+		//builder = new Builder('hexmap',1080,1220,2);
+		hexify = new Hexify('hexify');
+		S('#restart').on('click',function(e){
+			hexify.start();
+		});
+		S('#jiggle').on('click',function(e){
+			hexify.start(true);
+		});
+		S('#gridify').on('click',function(e){
+			hexify.stop();
+			hexify.gridify();
+			hexify.draw();
+			S('#hexjson').html(hexify.makeHexJSON())
+		});
+		S('#save').on('click',function(e){
+			json = hexify.makeHexJSON();
+			hexify.save(json);
+		});
+	});
+	</script>
+	<style>
+	.dropzone {
+		border: 2px dashed #999999;
+		border-radius: 5px;
+		color: #333333;
+		padding: 25px;
+		text-align: center;
+		position: relative;
+	}
+	.dropzone.loaded {
+		border: 2px solid #333333;
+		color: #333333;
+	}
+	.dropzone.loaded .helpertext {
+		display: none;
+	}
+	.dropzone.drop {
+		background-color: #ddd;
+	}
+	.dropzone input {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		opacity: 0;
+	}
+	#hexify, #hexmap { width: 100%; height: 200px; }
+	#d3 { width: 100%; height: 800px; }
+	</style>
+</head>
+<body>
+
+	<div id="main">
+
+		<div class="b1-bg">
+			<div class="holder">
+				<div id="infobutton" style="float:right;">&#8505;</div>
+				<h1>Hexify</h1>
+			</div>
+		</div>
+
+		<div class="holder">
+			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex maps</a> so we've created a tool to help you make them from GeoJSON files.</p>
+			
+			<div id="drop_zone" class="dropzone block">
+				<div class="helpertext">
+					Drop a GeoJSON file here (or click to browse files)<br />
+					<input id="standard_files" class="fileselect" type="file" title="browse" name="files[]" multiple="multiple" accept=".csv, .hexjson">
+				</div>
+			</div>
+		</div>
+
+		<div class="holder">
+			<div id="hexify"></div>
+			<div id="d3"><canvas style="width:100%;height:100%"></canvas></div>
+
+			<div style="text-align:center;">
+				<button id="restart" class="c1-bg">Collapse</button>
+				<button id="jiggle" class="c1-bg">Jiggle</button>
+				<button id="gridify" class="c1-bg">Gridify</button>
+				<button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button>
+			</div>
+		</div>
+	
+		
+	</div>
+	
+	<footer class="b1-bg">
+		<div class="holder">
+			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+		</div>
+	</footer>
+	
+</body>
+</html>

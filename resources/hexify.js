@@ -205,24 +205,6 @@ function Hexify(el){
 		this.collapse();
 	}
 
-
-	/*S().ajax("ons-constituencies.geojson",{
-		'type':'json',
-		'this': this,
-		'success':function(d){
-			this.data = JSON.parse(d);
-			this.loaded();
-		}
-	})
-	S().ajax("imd-leeds.geojson",{
-		'type':'json',
-		'this': this,
-		'success':function(d){
-			this.data = JSON.parse(d);
-			this.loaded("lsoa11cd","lsoa11nm");
-		}
-	})*/
-
 	this.stop = function(){
 		this.force.alpha(0).stop();
 		for(var i = 0; i < nodes.length; i++){
@@ -236,7 +218,6 @@ function Hexify(el){
 		for(var i = 0; i < this.cells.length; i++) this.cells[i].occupied = null;
 
 		for(var i = 0; i < nodes.length; i++){
-			//console.log(nodes[i],this.occupyNearest(nodes[i]))
 			var gridpoint = this.occupyNearest(nodes[i]);
 			if(gridpoint){
 				nodes[i].x = gridpoint.x;
@@ -326,8 +307,6 @@ function Hexify(el){
 	
 	this.collapse = function(){
 
-		console.log('collapse')
-		//var canvas = S('#d3')[0];
 		var maxr = 0;
 		width = S('#d3')[0].offsetWidth;
 		height = S('#d3')[0].offsetHeight;
@@ -352,7 +331,6 @@ function Hexify(el){
 			xs.push(areas[i].x);
 			ys.push(areas[i].y);
 		}
-		console.log(G.mean(xs),G.mean(ys))
 		
 		var xo = G.mean(xs);
 		var yo = G.mean(ys);
@@ -441,7 +419,7 @@ function Hexify(el){
 				)
 				.force('link', d3.forceLink().links(links).distance(GRID_SIZE))
 				.force("gravity",d3.forceManyBody().strength(function(d){
-					return 1;
+					return 0.1;
 				}))
 				.force("charge",d3.forceManyBody().strength(function(d){
 					return -(Math.pow(d.radius, 2) / 100);
@@ -450,6 +428,7 @@ function Hexify(el){
 					drawFrame();
 				})
 		}else{
+			var _obj = this;
 			this.force = d3.forceSimulation(nodes)
 				.force("center", d3.forceCenter())
 				.force("collision", d3.forceCollide()
@@ -461,11 +440,11 @@ function Hexify(el){
 				)
 				.force('link', d3.forceLink().links(links).distance(10))
 				.force("gravity",d3.forceManyBody().strength(function(d){
-					return 0.05;
+					return 0.02;
 				}))
 				.on("tick", function(){
-					//this.gridify();
 					drawFrame();
+					//_obj.gridify();
 				})
 		}
 

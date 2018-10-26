@@ -353,8 +353,7 @@ function Hexify(el){
 				hex: areas[i]['hex'],
 				x: areas[i]['x']*scale,
 				y: areas[i]['y']*scale,
-				theta: areas[i]['angle'],
-				value: (areas[i].properties["2015 decile"] || "")
+				theta: areas[i]['angle']
 			};
 		});
 		

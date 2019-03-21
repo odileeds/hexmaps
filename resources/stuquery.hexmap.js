@@ -19,6 +19,7 @@ function HexMap(attr){
 
 	this.w = attr.width || 300;
 	this.h = attr.height || 150;
+	this.s = attr.size || 10;
 	this.aspectratio = this.w/this.h;
 	this.id = attr.id;
 	this.hexes = {};
@@ -96,7 +97,6 @@ function HexMap(attr){
 				}
 			}
 		}
-console.log(r,h,h.selected)
 		return this;
 	}
 
@@ -160,7 +160,7 @@ console.log(r,h,h.selected)
 					this.mapping.hexes[region].r += dr;
 					var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
 					this.hexes[region].attr({'path':h.path}).update();
-					if(this.options.showlabel) this.labels[region].attr({'x':h.x,'y':h.y+this.properties.fs/2});
+					if(this.options.showlabel && this.labels[region]) this.labels[region].attr({'x':h.x,'y':h.y+this.properties.fs/2});
 					this.hexes[region].selected = false;
 					this.setHexStyle(region);
 				}
@@ -176,6 +176,10 @@ console.log(r,h,h.selected)
 		this.paper = new SVG(this.id);
 		w = this.paper.w;
 		h = this.paper.h;
+		scale = w/this.w;
+		this.properties.size = this.s*scale;
+		this.w = w;
+		this.h = h;
 		this.transform = {'type':'scale','props':{x:w,y:h,cx:w,cy:h,r:w,'stroke-width':w}};
 		
 		return this;
@@ -249,7 +253,7 @@ console.log(r,h,h.selected)
 				if(this.properties.shift=="odd" && ((q&1) == 1)) y += this.properties.s.cos;
 				if(this.properties.shift=="even" && ((q&1) == 0)) y += this.properties.s.cos;
 			}
-			
+
 			var path = [['M',[x,y]]];
 			var cs = this.properties.s.c * scale;
 			var ss = this.properties.s.s * scale;
@@ -344,7 +348,7 @@ console.log(r,h,h.selected)
 			if(!this.constructed){
 				if(this.options.showlabel){
 					if(!this.labels) this.labels = {};
-					this.labels[region] = this.paper.text(h.x,h.y+this.properties.fs/2,this.options.formatLabel(this.mapping.hexes[region].n)).attr({'text-anchor':'middle','font-size':this.properties.fs+'px','title':(this.mapping.hexes[region].n || region)});
+					if(this.properties.fs > 4) this.labels[region] = this.paper.text(h.x,h.y+this.properties.fs/2,this.options.formatLabel(this.mapping.hexes[region].n)).attr({'text-anchor':'middle','font-size':this.properties.fs+'px','title':(this.mapping.hexes[region].n || region)});
 				}
 				this.hexes[region] = this.paper.path(h.path);
 				this.hexes[region].selected = false;
@@ -353,7 +357,7 @@ console.log(r,h,h.selected)
 				// Attach events
 				var _obj = this.hexes[region];
 				_obj.id = 'hex-'+region;
-				_obj.on('mouseover',{hexmap:this,region:region,pop:this.mapping.hexes[region].p},function(e){
+				_obj.on('mouseover',{hexmap:this,region:region,pop:this.mapping.hexes[region].p,data:this.mapping.hexes[region]},function(e){
 					var t = 'mouseover';
 					if(e.data.hexmap.callback[t]){
 						for(var a in e.data.hexmap.callback[t].attr) e.data[a] = e.data.hexmap.callback[t].attr[a];

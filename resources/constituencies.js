@@ -12,11 +12,26 @@ function Constituencies(id,w,h,padding,file){
 	function getLabel(e,title){
 		var rs = {'SC':'Scotland','NI':'Northern Ireland','WA':'Wales','NE':'North East','NW':'North West','YH':'Yorkshire &amp; Humber','WM':'West Midlands','EM':'East Midlands','EA':'East Anglia','LO':'London','SE':'South East','SW':'South West'};
 		var lbl = e.data.hexmap.mapping.hexes[e.data.region].label;
-		if(e.data.builder.by == "population") lbl = title+'<br />Population: '+e.data.pop;
-		else if(e.data.builder.by == "party") lbl = title+'<br />Party: '+e.data.hexmap.data['2015'][e.data.region];
-		else if(e.data.builder.by == "referendum") lbl = title+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
-		else if(e.data.builder.by == "benefits") lbl = '<strong>'+title+'</strong><br />Percentage of constituency on income-based<br />benefits (IS/JSA/ESA): <strong>'+(e.data.hexmap.data['benefits'][e.data.region] ? (parseFloat(e.data.hexmap.data['benefits'][e.data.region]).toFixed(2))+'%':'unknown')+'</strong>';
-		else if(e.data.builder.by == "candidates"){
+		var cls = "";
+		if(e.data.builder.by == "population"){
+			lbl = title+'<br />Population: '+e.data.pop;
+		}else if(e.data.builder.by == "electorate"){
+			lbl = title+'<br />Electorate: '+e.data.electorate;
+		}else if(e.data.builder.by == "GE2015-results"){
+			lbl = title+'<br />Party: '+e.data.hexmap.data['GE2015-results'][e.data.region];
+		}else if(e.data.builder.by == "GE2017-results"){
+			r = e.data.hexmap.data['constituency-card'][e.data.region];
+			cls = "generalelection";
+			lbl = '<div><img src="'+r['photo_url']+'" /></div><div><strong>'+title+'</strong><br /><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
+		}else if(e.data.builder.by == "GE2017-turnout"){
+			r = e.data.hexmap.data['constituency-card'][e.data.region];
+			cls = "generalelection";
+			lbl = '<div><img src="'+r['photo_url']+'" /></div><div><strong>'+title+'</strong><br /><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
+		}else if(e.data.builder.by == "referendum"){
+			lbl = title+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
+		}else if(e.data.builder.by == "benefits"){
+			lbl = '<strong>'+title+'</strong><br />Percentage of constituency on income-based<br />benefits (IS/JSA/ESA): <strong>'+(e.data.hexmap.data['benefits'][e.data.region] ? (parseFloat(e.data.hexmap.data['benefits'][e.data.region]).toFixed(2))+'%':'unknown')+'</strong>';
+		}else if(e.data.builder.by == "candidates"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
 			var c = e.data.hexmap.data['candidates'][e.data.region];
 			for(var i = 0; i < c.length; i++){
@@ -29,29 +44,32 @@ function Constituencies(id,w,h,padding,file){
 				lbl += '<br /><strong>'+c[i].n+'</strong> - '+c[i].p+' ('+(c[i].g=="f" ? "Female" : (c[i].g=="m" ? "Male": (c[i].g ? "Diverse":"Unknown")))+')';
 			}
 		}else lbl = title+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
-		return lbl;
-	}	
+		return {'label':lbl,'class':cls};
+	}
 	this.hex.on('mouseover',{'builder':this},function(e){
-		e.data.builder.label(getLabel(e,this.attr('title')));
 		this.attr('fill-opacity',0.75).attr('stroke-width',4.5);
 		// Simulate a change of z-index by moving this element to the end of the SVG
 		this.parent()[0].appendChild(this[0]);
 	}).on('mouseout',function(e){
-		S('.infobubble').remove();
 		this.attr('fill-opacity',0.5).attr('stroke-width',1.5);
 	}).on('click',{'builder':this},function(e){
 		if(e.data.builder.by=="candidates"){
 			location.href = "https://candidates.democracyclub.org.uk/election/parl.2017-06-08/post/WMC:"+e.data.region+"/";
 		}else{
-			e.data.hexmap.regionToggleSelected(e.data.region,true);
-			e.data.builder.label(getLabel(e,this.attr('title')));
+			var previous = e.data.hexmap.selected;
+			var current = e.data.region;
+			if(previous && current == previous) e.data.hexmap.regionToggleSelected(previous,true);
+			else e.data.hexmap.selectRegion(e.data.region);
+			if(!e.data.hexmap.selected) S('.infobubble').remove();
+			else e.data.builder.label(e,this.attr('title'));
 		}
 	});
-	
-	
-	this.label = function(l){
+
+	this.label = function(e,title){
+		l = getLabel(e,title);
 		if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><div class="infobubble_inner"></div></div>');
-		S('.infobubble_inner').html(l);
+		S('.infobubble_inner').html(l.label).css({'width':(l.w ? l.w+'px':''),'height':(l.h ? l.h+'px':'')});
+		S('.infobubble').attr('class','infobubble'+(l['class'] ? ' '+l['class'] : ''));
 		return this;
 	}
 
@@ -75,17 +93,12 @@ function Constituencies(id,w,h,padding,file){
 		S('#savesvg').css({'display':'none'});
 	}
 
-	function updateClass(btn){
-		S('.switchdata').addClass('b5-bg').removeClass('c10-bg');btn.removeClass('b5-bg').addClass('c10-bg');
-	}
 	// Add events to buttons for colour changing
-	S('#colour-pop').on('click',{me:this},function(e){ e.data.me.setColours('population'); updateClass(this); });
-	S('#colour-reg').on('click',{me:this},function(e){ e.data.me.setColours('region'); updateClass(this); });
-	S('#colour-pty').on('click',{me:this},function(e){ e.data.me.setColours('party'); updateClass(this); });
-	S('#colour-ref').on('click',{me:this},function(e){ e.data.me.setColours('referendum'); updateClass(this); });
-	S('#colour-can').on('click',{me:this},function(e){ e.data.me.setColours('candidates'); updateClass(this); });
-	S('#colour-gen').on('click',{me:this},function(e){ e.data.me.setColours('gender'); updateClass(this); });
-	S('#colour-ben').on('click',{me:this},function(e){ e.data.me.setColours('benefits'); updateClass(this); });
+	S('#data-selector').on('change',{me:this},function(e){
+		e.data.me.setColours(e.currentTarget.selectedOptions[0].getAttribute('data'));
+		S(e.currentTarget).removeClass('c10-bg').addClass('b5-bg');
+		S(e.currentTarget.selectedOptions[0]).addClass('c10-bg').removeClass('b5-bg');
+	});
 
 	this.saveSVG = function(){
 
@@ -128,7 +141,7 @@ function Constituencies(id,w,h,padding,file){
 	}
 
 	this.loadResults = function(type){
-		if(!type) type = "2015";
+		if(!type) type = "GE2015-results";
 
 		if(!this.data) this.data = {};
 		this.data[type] = {};
@@ -143,24 +156,25 @@ function Constituencies(id,w,h,padding,file){
 					}
 					for(var i = 1; i < d.length; i++){
 						c = d[i].split(/,/);
-						this.data[type][c[0]] = c[1];
+						this.data[type][c[0]] = parseFloat(c[1]);
 					}
 					this.hex.data[type] = this.data[type];
 					this.setColours("referendum");
 				},
 				'this': this,
 				'error':function(){},
-				'dataType':'csv'
+				'dataType':'text'
 			});
 		}else if(type == "candidates" || type == "gender"){
 			S().ajax('../data/2017ge-candidates.json',{
-				'complete':function(d){
+				'type': type,
+				'complete':function(d,attr){
 					this.data["candidates"] = d;
 					this.hex.data["candidates"] = this.data["candidates"];
 					this.setColours("candidates");
 					this.data["gender"] = d;
 					this.hex.data["gender"] = this.data["gender"];
-					this.setColours("gender");
+					this.setColours(attr['type']);
 				},
 				'this': this,
 				'error':function(){},
@@ -182,7 +196,35 @@ function Constituencies(id,w,h,padding,file){
 				},
 				'this': this,
 				'error':function(){},
-				'dataType':'csv'
+				'dataType':'text'
+			});
+		}else if(type == "constituency-card" || type == "GE2017-results" || type == "GE2017-turnout"){
+			S().ajax('https://raw.githubusercontent.com/alasdairrae/wpc/master/files/wpc_2019_flat_file_v9.csv',{
+				'complete':function(d){
+					var data = CSV2JSON(d,{
+						'Type':{'format':'string'},
+						'Regions':{'format':'string'},
+						'Name':{'format':'string'},
+						'BCR lower':{'format':'number','name':'BCRlower'},
+						'BCR upper':{'format':'number','name':'BCRupper'},
+						'Funded':{'format':'string'}
+					});
+					this.data['constituency-card'] = {};
+					this.data['GE2017-turnout'] = {};
+					this.data['GE2017-results'] = {};
+					for(var i = 0; i < data.length; i++){
+						this.data['constituency-card'][data[i]['ccode1']] = data[i];
+						this.data['GE2017-results'][data[i]['ccode1']] = data[i]['first17'];
+						this.data['GE2017-turnout'][data[i]['ccode1']] = data[i]['turnout17'];
+					}
+					this.hex.data['GE2017-results'] = this.data['GE2017-results'];
+					this.hex.data['GE2017-turnout'] = this.data['GE2017-turnout'];
+					this.hex.data['constituency-card'] = this.data['constituency-card'];
+					this.setColours(type);
+				},
+				'this': this,
+				'error':function(){},
+				'dataType':'text'
 			});
 		}else{
 			S().ajax('../data/2015results.csv',{
@@ -193,43 +235,49 @@ function Constituencies(id,w,h,padding,file){
 					}
 					for(var i = 1; i < d.length; i++){
 						c = d[i].split(/,/);
-						this.data[type][c[0]] = c[1];
+						this.data['GE2015-results'][c[0]] = c[1];
 					}
-					this.hex.data[type] = this.data[type];
-					this.setColours("party");
+					this.hex.data['GE2015-results'] = this.data['GE2015-results'];
+					this.setColours("GE2015-results");
 				},
 				'this': this,
 				'error':function(){},
-				'dataType':'csv'
+				'dataType':'text'
 			});
 		
 		}
 	}
 
 	function getColour(pc,a,b){
+		if(!b) b = a;
 		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
 	}
 	function makeGradient(a,b){
+		if(!b) b = a;
 		return 'background: '+a.hex+'; background: -moz-linear-gradient(left, '+a.hex+' 0%, '+b.hex+' 100%);background: -webkit-linear-gradient(left, '+a.hex+' 0%,'+b.hex+' 100%);background: linear-gradient(to right, '+a.hex+' 0%,'+b.hex+' 100%);';
 	}
 
 	this.setColours = function(type){
 		if(!type) type = "region";
 		this.by = type;
-		if(type == "party" && (!this.data || !this.data["2015"])) return this.loadResults("2015");
+		if(type == "GE2015-results" && (!this.data || !this.data["GE2015-results"])) return this.loadResults("GE2015-results");
+		if(type == "GE2017-results" && (!this.data || !this.data["constituency-card"])) return this.loadResults("GE2017-results");
+		if(type == "GE2017-turnout" && (!this.data || !this.data["constituency-card"])) return this.loadResults("GE2017-turnout");
 		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
 		if(type == "candidates" && (!this.data || !this.data["candidates"])) return this.loadResults("candidates");
 		if(type == "gender" && (!this.data || !this.data["gender"])) return this.loadResults("gender");
 		if(type == "benefits" && (!this.data || !this.data["benefits"])) return this.loadResults("benefits");
 
 		var key = "";
+		var names = {'Con':'Conservative','Lab':'Labour','LD':'Lib Dem','PC':'Plaid Cymru','Ind':'Independent','Spk':'Speaker'};
+		var p = {'Con':'#2254F4','Lab':'#D60303','LD':'#F9BC26','SNP':'#FF6700','PC':'#1DD3A7','UKIP':'#722EA5','Green':'#0DBC37','DUP':'#4f4c9a','SDLP':'#fbb675','SF':'#b6c727','UUP':'#EF3AAB','Ind':'#dfdfdf','Spk':'#909090'};
 
 		// Set the function for changing the colours
 		if(type == "population"){
 			var b = new Colour('#F9BC26');
 			var a = new Colour('#D60303');
-			var min = 50000;
-			var max = 80000;
+			var min = 25000;
+			var max = 150000;
 			this.hex.setColours = function(region){
 				var value = (this.mapping.hexes[region].p - min)/(max-min);
 				if(value < 0) value = 0;
@@ -237,16 +285,48 @@ function Constituencies(id,w,h,padding,file){
 				return getColour(value,a,b);
 			};
 			key = '&le;'+min+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+max;
-		}else if(type == "party"){
-			var names = {'Con':'Conservative','Lab':'Labour','LD':'Lib Dem','PC':'Plaid Cymru','Ind':'Independent','Spk':'Speaker'};
-			var p = {'Con':'#2254F4','Lab':'#D60303','LD':'#F9BC26','SNP':'#FF6700','PC':'#1DD3A7','UKIP':'#722EA5','Green':'#0DBC37','DUP':'#4f4c9a','SDLP':'#fbb675','SF':'#b6c727','UUP':'#EF3AAB','Ind':'#dfdfdf','Spk':'#909090'};
+		}else if(type == "electorate"){
+			var b = new Colour('#F9BC26');
+			var a = new Colour('#D60303');
+			var mine = 50000;
+			var maxe = 80000;
 			this.hex.setColours = function(region){
-				r = this.data["2015"][region];
+				var value = (this.mapping.hexes[region].e - mine)/(maxe-mine);
+				if(value < 0) value = 0;
+				if(value > 1) value = 1;
+				return getColour(value,a,b);
+			};
+			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
+		}else if(type == "GE2015-results"){
+			this.hex.setColours = function(region){
+				r = this.data["GE2015-results"][region].replace(/[\n\r]/g,"");
 				return (p[r] || '#000');
 			}
 			for(var party in p){
 				key += '<span style="background-color:'+p[party]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>'+(names[party] || party);
 			}
+		}else if(type == "GE2017-results"){
+			this.hex.setColours = function(region){
+				r = this.data["GE2017-results"][region];
+				if(r) r = r.replace(/[\n\r]/g,"");
+				else console.log(r,region,p[r]);
+				return (p[r] || '#000');
+			}
+			for(var party in p){
+				key += '<span style="background-color:'+p[party]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>'+(names[party] || party);
+			}
+		}else if(type == "GE2017-turnout"){
+			var b = new Colour('#F9BC26');
+			var a = new Colour('#D60303');
+			var mine = 40;
+			var maxe = 80;
+			this.hex.setColours = function(region){
+				var value = (this.data["GE2017-turnout"][region] - mine)/(maxe-mine);
+				if(value < 0) value = 0;
+				if(value > 1) value = 1;
+				return getColour(value,a,b);
+			};
+			key = '&le;'+mine+'%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe+'%';
 		}else if(type == "referendum"){
 			var b = new Colour('#F9BC26');
 			var a = new Colour('#2254F4');
@@ -310,6 +390,101 @@ function Constituencies(id,w,h,padding,file){
 
 		return this;
 	}
+
+
+	function CSV2JSON(data,format,start,end){
+
+		if(typeof start!=="number") start = 1;
+		var delim = ",";
+
+		if(typeof data==="string"){
+			data = data.replace(/\r/,'');
+			data = data.split(/[\n]/);
+		}
+		console.log(data)
+		if(typeof end!=="number") end = data.length;
+
+		if(data[0].indexOf("\t") > 0) delim = /\t/;
+		var header = CSVtoArray(data[0]);
+		var simpleheader = JSON.parse(JSON.stringify(header));
+		var line,datum,key,key2,f,i;
+		var newdata = new Array();
+		var lookup = {};
+		// Work out a simplified (no spaces, all lowercase) version of the 
+		// keys for matching against column headings.
+		if(format){
+			for(i in format){
+				key = i.replace(/ /g,"").toLowerCase();
+				lookup[key] = i+'';
+			}
+			for(i = 0; i < simpleheader.length; i++) simpleheader[i] = simpleheader[i].replace(/ /g,"").toLowerCase();
+		}
+		for(i = start; i < end; i++){
+			line = CSVtoArray(data[i]);
+			if(i == 556) console.log(line,data[i]);
+			datum = {};
+			if(line){
+				for(var j=0; j < line.length; j++){
+					key = header[j];
+					key2 = simpleheader[j];
+					if(format && lookup[key2]){
+						key = lookup[key2];
+						f = format[key];
+						if(format[key].name) key = format[key].name;
+						if(f.format=="number"){
+							if(line[j]!=""){
+								if(line[j]=="infinity" || line[j]=="Inf") datum[key] = Number.POSITIVE_INFINITY;
+								else datum[key] = parseFloat(line[j]);
+							}
+						}else if(f.format=="eval"){
+							if(line[j]!="") datum[key] = eval(line[j]);
+						}else if(f.format=="date"){
+							if(line[j]){
+								line[j] = line[j].replace(/^"/,"").replace(/"$/,"");
+								try {
+									datum[key] = new Date(line[j]);
+								}catch(err){
+									this.log.warning('Invalid date '+line[j]);
+									datum[key] = new Date('0001-01-01');
+								}
+							}else datum[key] = null;
+						}else if(f.format=="boolean"){
+							if(line[j]=="1" || line[j]=="true" || line[j]=="Y") datum[key] = true;
+							else if(line[j]=="0" || line[j]=="false" || line[j]=="N") datum[key] = false;
+							else datum[key] = null;
+						}else{
+							datum[key] = (line[j][0]=='"' && line[j][line[j].length-1]=='"') ? line[j].substring(1,line[j].length-1) : line[j];
+						}
+					}else{
+						datum[key] = (line[j][0]=='"' && line[j][line[j].length-1]=='"') ? line[j].substring(1,line[j].length-1) : line[j];
+					}
+				}
+				newdata.push(datum);
+			}
+		}
+		return newdata;
+	}
+	// Return array of string values, or NULL if CSV string not well formed.
+	function CSVtoArray(text) {
+		var re_valid = /^\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*(?:,\s*(?:'[^'\\]*(?:\\[\S\s][^'\\]*)*'|"[^"\\]*(?:\\[\S\s][^"\\]*)*"|[^,'"\s\\]*(?:\s+[^,'"\s\\]+)*)\s*)*$/;
+		var re_value = /(?!\s*$)\s*(?:'([^'\\]*(?:\\[\S\s][^'\\]*)*)'|"([^"\\]*(?:\\[\S\s][^"\\]*)*)"|([^,'"\s\\]*(?:\s+[^,'"\s\\]+)*))\s*(?:,|$)/g;
+		// Return NULL if input string is not well formed CSV string.
+		// Some strings fail the test
+		//if (!re_valid.test(text)) return null;
+		var a = [];					 // Initialize array to receive values.
+		text.replace(re_value, // "Walk" the string using replace with callback.
+			function(m0, m1, m2, m3) {
+				// Remove backslash from \' in single quoted values.
+				if	  (m1 !== undefined) a.push(m1.replace(/\\'/g, "'"));
+				// Remove backslash from \" in double quoted values.
+				else if (m2 !== undefined) a.push(m2.replace(/\\"/g, '"'));
+				else if (m3 !== undefined) a.push(m3);
+				return ''; // Return empty string.
+			});
+		// Handle special case of empty last value.
+		if (/,\s*$/.test(text)) a.push('');
+		return a;
+	};
 	
 	return this;
 

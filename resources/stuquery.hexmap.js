@@ -10,7 +10,7 @@
 //    size: the size of a hexagon in pixels
 function HexMap(attr){
 
-	this.version = "0.2";
+	this.version = "0.3";
 	if(!attr) attr  = {};
 	if(S('#'+attr.id).length==0){
 		console.log("Can't find the element to draw into (#"+attr.id+")");
@@ -19,6 +19,8 @@ function HexMap(attr){
 
 	this.w = attr.width || 300;
 	this.h = attr.height || 150;
+	this.maxw = this.w;
+	this.maxh = this.h;
 	this.s = attr.size || 10;
 	this.aspectratio = this.w/this.h;
 	this.id = attr.id;
@@ -80,7 +82,7 @@ function HexMap(attr){
 		return h;
 	}
 
-	this.regionToggleSelected = function(r,all){
+	this.regionToggleSelected = function(r,others){
 		this.selected = (this.selected==r) ? "" : r;
 		h = this.hexes[r];
 		h.selected = !h.selected;
@@ -88,7 +90,7 @@ function HexMap(attr){
 
 		// If we've deselected a region, deselect any other regions selected
 		if(!h.selected){
-			if(all){
+			if(others){
 				for(region in this.hexes){
 					if(this.hexes[region].selected){
 						this.hexes[region].selected = false;
@@ -173,7 +175,7 @@ function HexMap(attr){
 		S('#'+this.id).css({'height':'','width':''});
 		w = Math.min(this.w,S('#'+this.id)[0].offsetWidth);
 		S('#'+this.id).css({'height':(w/this.aspectratio)+'px','width':w+'px'});
-		this.paper = new SVG(this.id);
+		this.paper = new SVG(this.id,this.maxw,this.maxh);
 		w = this.paper.w;
 		h = this.paper.h;
 		scale = w/this.w;
@@ -181,6 +183,7 @@ function HexMap(attr){
 		this.w = w;
 		this.h = h;
 		this.transform = {'type':'scale','props':{x:w,y:h,cx:w,cy:h,r:w,'stroke-width':w}};
+		S('#'+this.id).css({'height':'','width':''})
 		
 		return this;
 	}
@@ -313,16 +316,16 @@ function HexMap(attr){
 		this.properties.x = (this.w/2) - (this.properties.s.cos * 2 *qp);
 		this.properties.y = (this.h/2) + (this.properties.s.sin * 3 *rp);
 		
+		// Store this for use elsewhere
+		this.range = range;
+		
 		if(this.options.showgrid){
 			this.grid = new Array();
 		
 			for(q = range.q.min; q <= range.q.max; q++){
 				for(r = range.r.min; r <= range.r.max; r++){
 					h = this.drawHex(q,r);
-					this.grid.push(this.paper.path(h.path).attr({'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','stroke-opacity':0.2,'style':'cursor: pointer;'}));
-					this.grid[this.grid.length-1].on('click',{hexmap:this,q:q,r:r},function(e){
-						e.data.hexmap.moveTo(e.data.q,e.data.r);
-					});
+					this.grid.push(this.paper.path(h.path).attr({'class':'hex-cell','data-q':q,'data-r':r,'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','stroke-opacity':0.2,'style':'cursor: pointer;'}));
 				}
 			}
 		}
@@ -348,9 +351,9 @@ function HexMap(attr){
 			if(!this.constructed){
 				if(this.options.showlabel){
 					if(!this.labels) this.labels = {};
-					if(this.properties.fs > 4) this.labels[region] = this.paper.text(h.x,h.y+this.properties.fs/2,this.options.formatLabel(this.mapping.hexes[region].n)).attr({'text-anchor':'middle','font-size':this.properties.fs+'px','title':(this.mapping.hexes[region].n || region)});
+					if(this.properties.fs > 4) this.labels[region] = this.paper.text(h.x,h.y+this.properties.fs/2,this.options.formatLabel(this.mapping.hexes[region].n)).attr({'data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r,'class':'hex-label','text-anchor':'middle','font-size':this.properties.fs+'px','title':(this.mapping.hexes[region].n || region)});
 				}
-				this.hexes[region] = this.paper.path(h.path);
+				this.hexes[region] = this.paper.path(h.path).attr({'class':'hex-cell','data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r});
 				this.hexes[region].selected = false;
 				this.hexes[region].active = true;
 

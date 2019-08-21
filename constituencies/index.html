@@ -11,8 +11,9 @@
 	<meta name="twitter:description" property="og:description" content="The 2017 UK parliamentary constituencies as a point-topped hex map.">
 	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
 	<link rel="StyleSheet" href="../resources/style.css" type="text/css" />
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+	<script type="text/javascript" src="../resources/stuquery.js"></script>
+	<script type="text/javascript" src="../resources/stuquery.svg.js"></script>
+	<!--<script type="text/javascript" src="../hexmaps/resources/stuquery.hexmap.js"></script>-->
 	<script type="text/javascript" src="../resources/stuquery.hexmap.js"></script>
 	<script type="text/javascript" src="../resources/constituencies.js"></script>
 	<script>
@@ -22,37 +23,75 @@
 	});
 	</script>
 	<style>
-	button { margin-top: 0.25em; }
+	button { margin-top: 0.25em; }	
+	#hexmap {
+		margin: auto;
+		max-width: 100%;
+		position: relative;
+		width: 100%; height: auto; max-width: 100vw;
+	}
+	svg { max-width: 100%; height: auto; }
+	select {
+		font-size: 1em;
+		height: 2em;
+		margin-bottom: 1em;
+	}
+	form {
+		text-align: center;
+	}
+	#key { max-width: 800px; margin: auto; margin-bottom: 1em; }
+	.generalelection .infobubble_inner { display: flex; }
+	.generalelection {
+		width: 500px;
+		max-width: 80%;
+		text-align: left;
+		line-height: 1.5em;
+		padding: 1em;
+	}
+	.generalelection img {
+		width: 5.5em;
+		height: auto;
+		margin-right: 0.5em;
+	}
+	.generalelection table {
+		width: 100%;
+	}
 	</style>
 </head>
 <body>
 
 	<div id="main">
 
-		<div class="b1-bg">
-			<div class="holder">
-				<div id="infobutton" style="float:right;">&#8505;</div>
-				<h1>Hex map of UK constituencies</h1>
+		<header>
+			<div class="b1-bg">
+				<div class="holder" style="text-align:center;">
+					<a href="https://odileeds.org/"><img src="../../resources/images/odileeds.svg" /></a>
+					<h1>Hex map of UK constituencies</h1>
+				</div>
 			</div>
-		</div>
+		</header>
 
 		<div class="holder">
-			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies. We had to make some compromises. If you disagree, move the hexes around until you are happy (click on a hex you want to move then click on an empty hex). Make sure to save the resulting <a href="../hexjson.html">HexJSON file</a> so you have your version for the future (it can be <a href="../builder.html">read with this tool</a>). You can also save the map as a scalable vector graphic (SVG).</p>
-			<p style="text-align:center;">Colour by: 
-			<button id="colour-pop" class="switchdata b5-bg">population</button>
-			<button id="colour-reg" class="switchdata c10-bg">region</button>
-			<button id="colour-pty" class="switchdata b5-bg">2015 GE</button>
-			<button id="colour-ref" class="switchdata b5-bg">EU Ref estimates</button>
-			<button id="colour-can" class="switchdata b5-bg">2017 GE candidates</button>
-			<button id="colour-gen" class="switchdata b5-bg">2017 GE candidates' gender-split</button>
-			<button id="colour-ben" class="switchdata b5-bg">% people on benefits</button>
-			</p>
+			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies to show each constituency with equal visual weight. Obviously we've had to make some compromises but <a href="https://github.com/odileeds/hexmaps/blob/gh-pages/maps/constituencies.hexjson">the hex layout is open</a> if you want to make changes. Below you can see data from a variety of sources. We've also made a <a href="https://odileeds.org/projects/petitions/">constituency hex map for UK Parliament petitions</a>.</p>
+			<form>
+				<label style="text-align:center;">Colour by:</label>
+				<select id="data-selector">
+					<option class="switchdata b5-bg" data="population">Population</option>
+					<option class="switchdata b5-bg" data="electorate">Electorate</option>
+					<option class="switchdata c10-bg" selected="selected" data="region">Region</option>
+					<option class="switchdata b5-bg" data="GE2017-results">2017 General Election: results</option>
+					<option class="switchdata b5-bg" data="GE2017-turnout">2017 General Election: turnout</option>
+					<option class="switchdata b5-bg" data="candidates">2017 General Election: candidates</option>
+					<option class="switchdata b5-bg" data="gender">2017 General Election: gender-split</option>
+					<option class="switchdata b5-bg" data="GE2015-results">2015 General Election: results</option>
+					<option class="switchdata b5-bg" data="referendum">EU Referedum estimates</option>
+					<option class="switchdata b5-bg" data="benefits">% people on benefits</option>
+				</select>
+			</form>
 			<div id="key"></div>
+			<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
+			<div id="hexmap" style="text-align:center;margin:auto;"></div>
 		</div>
-
-		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
-
-		<div id="hexmap"></div>
 
 		<div class="holder" style="text-align:center;">
 			<p>

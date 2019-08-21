@@ -325,7 +325,7 @@ function HexMap(attr){
 			for(q = range.q.min; q <= range.q.max; q++){
 				for(r = range.r.min; r <= range.r.max; r++){
 					h = this.drawHex(q,r);
-					this.grid.push(this.paper.path(h.path).attr({'class':'hex-cell','data-q':q,'data-r':r,'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','stroke-opacity':0.2,'style':'cursor: pointer;'}));
+					this.grid.push(this.paper.path(h.path).attr({'class':'hex-grid','data-q':q,'data-r':r,'fill':this.style['default']['fill']||'','fill-opacity':0.1,'stroke':'#aaa','stroke-opacity':0.2,'style':'cursor: pointer;'}));
 				}
 			}
 		}

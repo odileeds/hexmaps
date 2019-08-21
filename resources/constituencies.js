@@ -309,7 +309,7 @@ function Constituencies(id,w,h,padding,file){
 			this.hex.setColours = function(region){
 				r = this.data["GE2017-results"][region];
 				if(r) r = r.replace(/[\n\r]/g,"");
-				else console.log(r,region,p[r]);
+				else console.warning('No region',r,region,p[r]);
 				return (p[r] || '#000');
 			}
 			for(var party in p){
@@ -401,7 +401,6 @@ function Constituencies(id,w,h,padding,file){
 			data = data.replace(/\r/,'');
 			data = data.split(/[\n]/);
 		}
-		console.log(data)
 		if(typeof end!=="number") end = data.length;
 
 		if(data[0].indexOf("\t") > 0) delim = /\t/;
@@ -421,7 +420,6 @@ function Constituencies(id,w,h,padding,file){
 		}
 		for(i = start; i < end; i++){
 			line = CSVtoArray(data[i]);
-			if(i == 556) console.log(line,data[i]);
 			datum = {};
 			if(line){
 				for(var j=0; j < line.length; j++){

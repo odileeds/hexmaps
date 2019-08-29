@@ -201,19 +201,12 @@ function Constituencies(id,w,h,padding,file){
 		}else if(type == "constituency-card" || type == "GE2017-results" || type == "GE2017-turnout"){
 			S().ajax('https://raw.githubusercontent.com/alasdairrae/wpc/master/files/wpc_2019_flat_file_v9.csv',{
 				'complete':function(d){
-					var data = CSV2JSON(d,{
-						'Type':{'format':'string'},
-						'Regions':{'format':'string'},
-						'Name':{'format':'string'},
-						'BCR lower':{'format':'number','name':'BCRlower'},
-						'BCR upper':{'format':'number','name':'BCRupper'},
-						'Funded':{'format':'string'}
-					});
+					var data = CSV2JSON(d);
 					this.data['constituency-card'] = {};
 					this.data['GE2017-turnout'] = {};
 					this.data['GE2017-results'] = {};
 					for(var i = 0; i < data.length; i++){
-						this.data['constituency-card'][data[i]['ccode1']] = data[i];
+						this.data['constituency-card'][data[i]['ccode1']] = JSON.parse(JSON.stringify(data[i]));
 						this.data['GE2017-results'][data[i]['ccode1']] = data[i]['first17'];
 						this.data['GE2017-turnout'][data[i]['ccode1']] = data[i]['turnout17'];
 					}

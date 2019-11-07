@@ -31,9 +31,9 @@ function Constituencies(id,w,h,padding,file){
 			lbl = title+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
 		}else if(e.data.builder.by == "benefits"){
 			lbl = '<strong>'+title+'</strong><br />Percentage of constituency on income-based<br />benefits (IS/JSA/ESA): <strong>'+(e.data.hexmap.data['benefits'][e.data.region] ? (parseFloat(e.data.hexmap.data['benefits'][e.data.region]).toFixed(2))+'%':'unknown')+'</strong>';
-		}else if(e.data.builder.by == "candidates"){
+		}else if(e.data.builder.by == "GE2017-candidates"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
-			var c = e.data.hexmap.data['candidates'][e.data.region];
+			var c = e.data.hexmap.data['GE2017-candidates'][e.data.region];
 			for(var i = 0; i < c.length; i++){
 				lbl += '<br /><strong><!--<a href="https://candidates.democracyclub.org.uk/person/'+c[i].i+'">-->'+c[i].n+'<!--</a>--></strong> - '+c[i].p;
 			}
@@ -53,7 +53,7 @@ function Constituencies(id,w,h,padding,file){
 	}).on('mouseout',function(e){
 		this.attr('fill-opacity',0.5).attr('stroke-width',1.5);
 	}).on('click',{'builder':this},function(e){
-		if(e.data.builder.by=="candidates"){
+		if(e.data.builder.by=="GE2017-candidates"){
 			location.href = "https://candidates.democracyclub.org.uk/election/parl.2017-06-08/post/WMC:"+e.data.region+"/";
 		}else{
 			var previous = e.data.hexmap.selected;
@@ -165,13 +165,13 @@ function Constituencies(id,w,h,padding,file){
 				'error':function(){},
 				'dataType':'text'
 			});
-		}else if(type == "candidates" || type == "gender"){
+		}else if(type == "GE2017-candidates" || type == "gender"){
 			S().ajax('../data/2017ge-candidates.json',{
 				'type': type,
 				'complete':function(d,attr){
-					this.data["candidates"] = d;
-					this.hex.data["candidates"] = this.data["candidates"];
-					this.setColours("candidates");
+					this.data["GE2017-candidates"] = d;
+					this.hex.data["GE2017-candidates"] = this.data["GE2017-candidates"];
+					this.setColours("GE2017-candidates");
 					this.data["gender"] = d;
 					this.hex.data["gender"] = this.data["gender"];
 					this.setColours(attr['type']);
@@ -219,6 +219,31 @@ function Constituencies(id,w,h,padding,file){
 				'error':function(){},
 				'dataType':'text'
 			});
+		}else if(type == "GE2019-candidates"){
+			S().ajax('https://candidates.democracyclub.org.uk/media/candidates-parl.2019-12-12.csv',{
+				'complete':function(d){
+					var data = CSV2JSON(d);
+					console.log(data);
+/*					this.data['constituency-card'] = {};
+					this.data['GE2017-turnout'] = {};
+					this.data['GE2017-results'] = {};
+					for(var i = 0; i < data.length; i++){
+						this.data['constituency-card'][data[i]['ccode1']] = JSON.parse(JSON.stringify(data[i]));
+						this.data['GE2017-results'][data[i]['ccode1']] = data[i]['first17'];
+						this.data['GE2017-turnout'][data[i]['ccode1']] = data[i]['turnout17'];
+					}
+					this.hex.data['GE2017-results'] = this.data['GE2017-results'];
+					this.hex.data['GE2017-turnout'] = this.data['GE2017-turnout'];
+					this.hex.data['constituency-card'] = this.data['constituency-card'];
+					this.setColours(type);*/
+				},
+				'this': this,
+				'error':function(e,attr){
+					console.error('Unable to load '+attr.file );
+					
+				},
+				'dataType':'text'
+			});
 		}else{
 			S().ajax('../data/2015results.csv',{
 				'complete':function(d){
@@ -257,7 +282,7 @@ function Constituencies(id,w,h,padding,file){
 		if(type == "GE2017-results" && (!this.data || !this.data["constituency-card"])) return this.loadResults("GE2017-results");
 		if(type == "GE2017-turnout" && (!this.data || !this.data["constituency-card"])) return this.loadResults("GE2017-turnout");
 		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
-		if(type == "candidates" && (!this.data || !this.data["candidates"])) return this.loadResults("candidates");
+		if(type == "GE2017-candidates" && (!this.data || !this.data["GE2017-candidates"])) return this.loadResults("GE2017-candidates");
 		if(type == "gender" && (!this.data || !this.data["gender"])) return this.loadResults("gender");
 		if(type == "benefits" && (!this.data || !this.data["benefits"])) return this.loadResults("benefits");
 
@@ -335,10 +360,10 @@ function Constituencies(id,w,h,padding,file){
 				else return '';
 			}
 			key = 'Percentage of constituency on income-based benefits (IS/JSA/ESA)<br />0%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>10%+';
-		}else if(type == "candidates"){
+		}else if(type == "GE2017-candidates"){
 			var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
 			this.hex.setColours = function(region){
-				var n = this.data["candidates"][region].length;
+				var n = this.data["GE2017-candidates"][region].length;
 				var c = '#2254F4';
 				if(n > 0) c = (levels[n] || levels[6]);
 				return c;

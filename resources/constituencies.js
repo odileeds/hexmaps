@@ -4,10 +4,53 @@ function Constituencies(id,w,h,padding,file){
 	this.h = h;
 	this.aspectratio = w/h;
 	this.id = id;
+	this.type = S('#data-selector')[0].value;
+	this.defaulttype = this.type;
 
+	// Use the search string to pick a parameter to display
+	var t = location.search.replace(/\?/,"");
+	
+	// Check if this is in the list
+	var options = S('#data-selector option');
+	var ok = false;
+	var v = "";
+	for(var i = 0; i < options.length; i++){
+		if(options[i].getAttribute('value')==t){
+			ok = true;
+		}
+	}
+	if(ok) S('#data-selector')[0].value = t;
+
+
+	// Create a hex map
 	this.hex = new HexMap({'id':id,'width':w,'height':h,'size':16,'padding':padding});
 
-	this.hex.load(file,{me:this},function(e){ e.data.me.setColours("region"); });
+	// Do we update the address bar?
+	this.pushstate = !!(window.history && history.pushState);
+
+	// Add "back" button functionality
+	var _obj = this;
+	if(this.pushstate){
+		window[(this.pushstate) ? 'onpopstate' : 'onhashchange'] = function(e){
+			if(e.state && e.state.type) _obj.setColours(e.state.type);
+			else _obj.setColours(_obj.defaulttype)
+		};
+	}
+
+	this.hex.load(file,{me:this},function(e){
+		e.data.me.setType(e.data.me.type);
+	});
+	
+	this.setType = function(t){
+
+		// Update the history
+		if(this.pushstate) history.pushState({type:t},"Hexes",(t==this.defaulttype ? '' : '?'+t));
+
+		// Set the colours
+		this.setColours(t);
+		
+		return this;
+	}
 
 	function getLabel(e,title){
 		var rs = {'SC':'Scotland','NI':'Northern Ireland','WA':'Wales','NE':'North East','NW':'North West','YH':'Yorkshire &amp; Humber','WM':'West Midlands','EM':'East Midlands','EA':'East Anglia','LO':'London','SE':'South East','SW':'South West'};
@@ -37,6 +80,15 @@ function Constituencies(id,w,h,padding,file){
 			for(var i = 0; i < c.length; i++){
 				lbl += '<br /><strong><!--<a href="https://candidates.democracyclub.org.uk/person/'+c[i].i+'">-->'+c[i].n+'<!--</a>--></strong> - '+c[i].p;
 			}
+		}else if(e.data.builder.by == "GE2019-candidates"){
+			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
+			var c = e.data.hexmap.data['GE2019-candidates'][e.data.region];
+			if(c){
+				for(var i = 0; i < c.length; i++){
+					lbl += '<br /><strong><!--<a href="https://candidates.democracyclub.org.uk/person/'+c[i].id+'">-->'+c[i].name+'<!--</a>--></strong> - '+c[i].party_name;
+				}
+			}
+			lbl += '<br /><div style="font-size:0.8em;color:#999;margin-top:16px;border-top:1px solid black;">Missing candidates? <a href="https://candidates.democracyclub.org.uk/election/parl.2019-12-12/post/WMC:'+e.data.region+'">Add them to Democracy Club.</a></div>'
 		}else if(e.data.builder.by == "gender"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
 			var c = e.data.hexmap.data['gender'][e.data.region];
@@ -95,7 +147,7 @@ function Constituencies(id,w,h,padding,file){
 
 	// Add events to buttons for colour changing
 	S('#data-selector').on('change',{me:this},function(e){
-		e.data.me.setColours(e.currentTarget.selectedOptions[0].getAttribute('data'));
+		e.data.me.setType(e.currentTarget.selectedOptions[0].getAttribute('value'));
 		S(e.currentTarget).removeClass('c10-bg').addClass('b5-bg');
 		S(e.currentTarget.selectedOptions[0]).addClass('c10-bg').removeClass('b5-bg');
 	});
@@ -221,28 +273,25 @@ function Constituencies(id,w,h,padding,file){
 			});
 		}else if(type == "GE2019-candidates"){
 			S().ajax('https://candidates.democracyclub.org.uk/media/candidates-parl.2019-12-12.csv',{
-				'complete':function(d){
-					var data = CSV2JSON(d);
-					console.log(data);
-/*					this.data['constituency-card'] = {};
-					this.data['GE2017-turnout'] = {};
-					this.data['GE2017-results'] = {};
-					for(var i = 0; i < data.length; i++){
-						this.data['constituency-card'][data[i]['ccode1']] = JSON.parse(JSON.stringify(data[i]));
-						this.data['GE2017-results'][data[i]['ccode1']] = data[i]['first17'];
-						this.data['GE2017-turnout'][data[i]['ccode1']] = data[i]['turnout17'];
-					}
-					this.hex.data['GE2017-results'] = this.data['GE2017-results'];
-					this.hex.data['GE2017-turnout'] = this.data['GE2017-turnout'];
-					this.hex.data['constituency-card'] = this.data['constituency-card'];
-					this.setColours(type);*/
-				},
 				'this': this,
+				'dataType':'text',
+				'success':function(d){
+					var data = CSV2JSON(d);
+					this.data['GE2019-candidates'] = {};
+					for(var i = 0; i < data.length; i++){
+						// We need a valid post_id to be set
+						if(data[i].post_id && data[i].post_id.indexOf("WMC")>=0){
+							pcd = data[i].post_id.replace(/^.*\:/,"");
+							if(!this.data['GE2019-candidates'][pcd]) this.data['GE2019-candidates'][pcd] = [];
+							this.data['GE2019-candidates'][pcd].push(JSON.parse(JSON.stringify(data[i])));
+						}
+					}
+					this.hex.data['GE2019-candidates'] = this.data['GE2019-candidates'];
+					this.setColours(type);
+				},
 				'error':function(e,attr){
 					console.error('Unable to load '+attr.file );
-					
-				},
-				'dataType':'text'
+				}
 			});
 		}else{
 			S().ajax('../data/2015results.csv',{
@@ -277,12 +326,16 @@ function Constituencies(id,w,h,padding,file){
 
 	this.setColours = function(type){
 		if(!type) type = "region";
+
+		S('#data-selector')[0].value = type;
+
 		this.by = type;
 		if(type == "GE2015-results" && (!this.data || !this.data["GE2015-results"])) return this.loadResults("GE2015-results");
 		if(type == "GE2017-results" && (!this.data || !this.data["constituency-card"])) return this.loadResults("GE2017-results");
 		if(type == "GE2017-turnout" && (!this.data || !this.data["constituency-card"])) return this.loadResults("GE2017-turnout");
 		if(type == "referendum" && (!this.data || !this.data["referendum"])) return this.loadResults("referendum");
 		if(type == "GE2017-candidates" && (!this.data || !this.data["GE2017-candidates"])) return this.loadResults("GE2017-candidates");
+		if(type == "GE2019-candidates" && (!this.data || !this.data["GE2019-candidates"])) return this.loadResults("GE2019-candidates");
 		if(type == "gender" && (!this.data || !this.data["gender"])) return this.loadResults("gender");
 		if(type == "benefits" && (!this.data || !this.data["benefits"])) return this.loadResults("benefits");
 
@@ -365,6 +418,22 @@ function Constituencies(id,w,h,padding,file){
 			this.hex.setColours = function(region){
 				var n = this.data["GE2017-candidates"][region].length;
 				var c = '#2254F4';
+				if(n > 0) c = (levels[n] || levels[6]);
+				return c;
+			}
+			key = '0';
+			for(var n in levels){
+				key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>';
+			}
+			key += '&ge;6';
+		}else if(type == "GE2019-candidates"){
+			var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
+			this.hex.setColours = function(region){
+				var n = 0;
+				var c = '#2254F4';
+				if(this.data["GE2019-candidates"][region]){
+					n = this.data["GE2019-candidates"][region].length;
+				}
 				if(n > 0) c = (levels[n] || levels[6]);
 				return c;
 			}

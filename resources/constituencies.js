@@ -9,18 +9,21 @@ function Constituencies(id,w,h,padding,file){
 
 	// Use the search string to pick a parameter to display
 	var t = location.search.replace(/\?/,"");
-	
-	// Check if this is in the list
-	var options = S('#data-selector option');
-	var ok = false;
-	var v = "";
-	for(var i = 0; i < options.length; i++){
-		if(options[i].getAttribute('value')==t){
-			ok = true;
+	if(t){
+		// Check if this is in the list
+		var options = S('#data-selector option');
+		var ok = false;
+		var v = "";
+		for(var i = 0; i < options.length; i++){
+			if(options[i].getAttribute('value')==t){
+				ok = true;
+			}
+		}
+		if(ok){
+			S('#data-selector')[0].value = t;
+			this.type = t;
 		}
 	}
-	if(ok) S('#data-selector')[0].value = t;
-
 
 	// Create a hex map
 	this.hex = new HexMap({'id':id,'width':w,'height':h,'size':16,'padding':padding});

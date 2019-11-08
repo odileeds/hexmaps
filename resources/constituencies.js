@@ -100,11 +100,12 @@ function Constituencies(id,w,h,padding,file){
 				}
 			}
 			lbl += '<br /><div style="font-size:0.8em;color:#999;margin-top:16px;border-top:1px solid black;">Missing candidates? <a href="https://candidates.democracyclub.org.uk/election/parl.2019-12-12/post/WMC:'+e.data.region+'">Add them to Democracy Club.</a></div>'
-		}else if(e.data.builder.by == "GE2017-gender"){
+		}else if(e.data.builder.by == "GE2017-gender" || e.data.builder.by == "GE2019-gender"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
-			var c = e.data.hexmap.data['GE2017-gender'][e.data.region];
+			var c = e.data.hexmap.data[e.data.builder.by][e.data.region];
 			for(var i = 0; i < c.length; i++){
-				lbl += '<br /><strong>'+c[i].n+'</strong> - '+c[i].p+' ('+(c[i].g=="f" ? "Female" : (c[i].g=="m" ? "Male": (c[i].g ? "Diverse":"Unknown")))+')';
+				if(c[i].g) lbl += '<br /><strong>'+c[i].n+'</strong> - '+c[i].p+' ('+(c[i].g.toLowerCase()=="f" ? "Female" : (c[i].g.toLowerCase()=="m" ? "Male": (c[i].g ? "Diverse":"Unknown")))+')';
+				if(c[i].gender) lbl += '<br /><strong>'+c[i].name+'</strong> - '+c[i].party_name+' ('+(c[i].gender.toLowerCase()=="female" ? "Female" : (c[i].gender.toLowerCase()=="male" ? "Male": (c[i].gender ? "Diverse":"Unknown")))+')';
 			}
 		}else lbl = title+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 		return {'label':lbl,'class':cls};
@@ -210,6 +211,28 @@ function Constituencies(id,w,h,padding,file){
 		this.data[type] = {};
 		if(!this.hex.data) this.hex.data = {};
 		this.hex.data[type] = {};
+
+		function tidyGender(person){
+			var g = "";
+			if(person.g) g = person.g;
+			if(person.gender) g = person.gender;
+
+			if(g){
+				if(g.toLowerCase()=="m" || g.toLowerCase()=="male") g = "male";
+				else if(g.toLowerCase()=="f" || g.toLowerCase()=="female" || g.toLowerCase()=="femal") g = "female";
+				else if(g.toLowerCase()=="non-binary") g = "non-binary";
+				else if(g.toLowerCase()=="non-binary") g = "transgender";
+				else{
+					console.info((person.n||person.name)+' given gender: '+g);
+				}
+			}else{
+				//console.warn('No gender given for '+(person.n||person.name),person);
+			}
+			person.gender = g;
+			return person;				
+		}
+
+
 		if(type == "referendum"){
 			S().ajax('../data/2016referendum-estimates.csv',{
 				'complete':function(d){
@@ -232,9 +255,19 @@ function Constituencies(id,w,h,padding,file){
 			S().ajax('../data/2017ge-candidates.json',{
 				'type': type,
 				'complete':function(d,attr){
+					for(var pcd in d){
+						for(var i = 0; i < d[pcd].length; i++){
+							d[pcd][i] = tidyGender(d[pcd][i]);
+						}
+					}
+
 					this.data["GE2017-candidates"] = d;
 					this.hex.data["GE2017-candidates"] = this.data["GE2017-candidates"];
 					this.setColours("GE2017-candidates");
+
+
+
+
 					this.data["GE2017-gender"] = d;
 					this.hex.data["GE2017-gender"] = this.data["GE2017-gender"];
 					this.setColours(attr['type']);
@@ -282,23 +315,28 @@ function Constituencies(id,w,h,padding,file){
 				'error':function(){},
 				'dataType':'text'
 			});
-		}else if(type == "GE2019-candidates"){
+		}else if(type == "GE2019-candidates" || type == "GE2019-gender"){
 			S().ajax('https://candidates.democracyclub.org.uk/media/candidates-parl.2019-12-12.csv',{
 				'this': this,
+				'type':type,
 				'dataType':'text',
-				'success':function(d){
+				'success':function(d,attr){
 					var data = CSV2JSON(d);
 					this.data['GE2019-candidates'] = {};
 					for(var i = 0; i < data.length; i++){
 						// We need a valid post_id to be set
 						if(data[i].post_id && data[i].post_id.indexOf("WMC")>=0){
 							pcd = data[i].post_id.replace(/^.*\:/,"");
+							data[i] = tidyGender(data[i]);
 							if(!this.data['GE2019-candidates'][pcd]) this.data['GE2019-candidates'][pcd] = [];
 							this.data['GE2019-candidates'][pcd].push(JSON.parse(JSON.stringify(data[i])));
+							if(!this.data['GE2019-gender'][pcd]) this.data['GE2019-gender'][pcd] = [];
+							this.data['GE2019-gender'][pcd].push(JSON.parse(JSON.stringify(data[i])));
 						}
 					}
 					this.hex.data['GE2019-candidates'] = this.data['GE2019-candidates'];
-					this.setColours(type);
+					this.hex.data['GE2019-gender'] = this.data['GE2019-gender'];
+					this.setColours(attr['type']);
 				},
 				'error':function(e,attr){
 					console.error('Unable to load '+attr.file );
@@ -348,6 +386,7 @@ function Constituencies(id,w,h,padding,file){
 		if(type == "GE2017-candidates" && (!this.data || !this.data["GE2017-candidates"])) return this.loadResults("GE2017-candidates");
 		if(type == "GE2017-gender" && (!this.data || !this.data["GE2017-gender"])) return this.loadResults("GE2017-gender");
 		if(type == "GE2019-candidates" && (!this.data || !this.data["GE2019-candidates"])) return this.loadResults("GE2019-candidates");
+		if(type == "GE2019-gender" && (!this.data || !this.data["GE2019-gender"])) return this.loadResults("GE2019-gender");
 		if(type == "benefits" && (!this.data || !this.data["benefits"])) return this.loadResults("benefits");
 
 		var key = "";
@@ -453,20 +492,36 @@ function Constituencies(id,w,h,padding,file){
 				key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>';
 			}
 			key += '&ge;6';
-		}else if(type == "GE2017-gender"){
+		}else if(type == "GE2017-gender" || type == "GE2019-gender"){
 			var c = new Colour('#0DBC37');
 			var b = new Colour('#F9BC26');
 			var a = new Colour('#722EA5');
 			this.hex.setColours = function(region){
 				var m = 0;
 				var f = 0;
-				for(var i = 0; i < this.data["GE2017-gender"][region].length; i++){
-					if(this.data["GE2017-gender"][region][i].g=="f") f++;
-					if(this.data["GE2017-gender"][region][i].g=="m") m++;
+				var o = 0;
+				var n = 0;
+				var u = 0;
+				if(this.data[type][region]){
+					for(var i = 0; i < this.data[type][region].length; i++){
+						if(this.data[type][region][i].gender){
+							if(this.data[type][region][i].gender=="female") f++;
+							else if(this.data[type][region][i].gender=="male") m++;
+							else if(this.data[type][region][i].gender=="non-binary") n++;
+							else u++;
+						}else{
+							o++;
+						}
+					}
+				}else{
+					console.warn('No data for '+pcd);
+					this.data[type][region] = {};
 				}
+				if(n > 0) console.info(n+' non-binary '+(n == 1 ? 'person':'people')+' in '+region,this.data[type][region])
+				if(u > 0) console.warn('Diverse gender for '+region,this.data[type][region])
 				var t = m + f;
-				this.data["GE2017-gender"][region].ratio = (t > 0 ? (m/(m+f)) : 0.5);
-				return getColour(this.data["GE2017-gender"][region].ratio,a,c);
+				this.data[type][region].ratio = (t > 0 ? ((m+0.5*o)/(m+f+o)) : 0.5);
+				return getColour(this.data[type][region].ratio,a,c);
 			}
 			key = 'The gender-split of candidates in each constituency<br />male<span style="'+makeGradient(c,a)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>female';
 

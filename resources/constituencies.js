@@ -291,18 +291,20 @@ function Constituencies(id,w,h,padding,file){
 			});
 		}else if(type == "rural"){
 			S().ajax('../data/2011rural.csv',{
-				'complete':function(d){
+				'complete':function(d,attr){
 					if(typeof d==="string"){
 						d = d.replace(/\r/g,'');
 						d = d.split(/[\n]/);
 					}
 					for(var i = 1; i < d.length; i++){
 						c = d[i].split(/,/);
-						this.data[type][c[0]] = c[2];
+						this.data[attr.type][c[0]] = c[2];
 					}
-					this.hex.data[type] = this.data[type];
+					console.log(attr.type,this.data[attr.type])
+					this.hex.data[attr.type] = this.data[attr.type];
 					this.setColours("rural");
 				},
+				'type': type,
 				'this': this,
 				'error':function(){},
 				'dataType':'text'

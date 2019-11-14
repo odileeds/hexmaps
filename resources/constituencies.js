@@ -298,9 +298,8 @@ function Constituencies(id,w,h,padding,file){
 					}
 					for(var i = 1; i < d.length; i++){
 						c = d[i].split(/,/);
-						this.data[attr.type][c[0]] = c[2];
+						this.data[attr.type][c[0]] = parseFloat(c[2]);
 					}
-					console.log(attr.type,this.data[attr.type])
 					this.hex.data[attr.type] = this.data[attr.type];
 					this.setColours("rural");
 				},

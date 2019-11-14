@@ -69,29 +69,27 @@
 		<header>
 			<div class="b1-bg">
 				<div class="holder" style="text-align:center;">
-					<a href="https://odileeds.org/"><img src="https://odileeds.github.io/website-helper/odileeds.svg" /></a>
+					<a href="https://odileeds.org/"><img src="https://odileeds.org/resources/images/odileeds.svg" /></a>
 					<h1>Hex map of UK constituencies</h1>
 				</div>
 			</div>
 		</header>
 
 		<div class="holder">
-			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies to show each constituency with equal visual weight. Obviously we've had to make some compromises but <a href="https://github.com/odileeds/hexmaps/blob/gh-pages/maps/constituencies.hexjson">the hex layout is open</a> if you want to make changes. Below you can see data from a variety of sources. We've also made a <a href="https://odileeds.org/projects/petitions/">constituency hex map for UK Parliament petitions</a> and a <a href="https://odileeds.org/projects/divisions/">constituency hex map for House of Commons Divisions</a>.</p>
+			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies to show each constituency with equal visual weight. Obviously we've had to make some compromises but <a href="https://github.com/odileeds/hexmaps/blob/gh-pages/maps/constituencies.hexjson">the hex layout is open</a> if you want to make changes. Below you can see data from a variety of sources. We've also made a <a href="https://odileeds.org/projects/petitions/">constituency hex map for UK Parliament petitions</a>.</p>
 			<form>
 				<label style="text-align:center;">Colour by:</label>
 				<select id="data-selector">
-					<option class="switchdata b5-bg" value="population">Population</option>
-					<option class="switchdata b5-bg" value="electorate">Electorate</option>
-					<option class="switchdata c10-bg" selected="selected" value="region">Region</option>
-					<option class="switchdata b5-bg" value="GE2019-candidates">2019 General Election: candidates</option>
-					<option class="switchdata b5-bg" value="GE2019-gender">2019 General Election: gender-split</option>
-					<option class="switchdata b5-bg" value="GE2017-results">2017 General Election: results</option>
-					<option class="switchdata b5-bg" value="GE2017-turnout">2017 General Election: turnout</option>
-					<option class="switchdata b5-bg" value="GE2017-candidates">2017 General Election: candidates</option>
-					<option class="switchdata b5-bg" value="GE2017-gender">2017 General Election: gender-split</option>
-					<option class="switchdata b5-bg" value="GE2015-results">2015 General Election: results</option>
-					<option class="switchdata b5-bg" value="referendum">EU Referendum estimates</option>
-					<option class="switchdata b5-bg" value="benefits">% people on benefits</option>
+					<option class="switchdata b5-bg" data="population">Population</option>
+					<option class="switchdata b5-bg" data="electorate">Electorate</option>
+					<option class="switchdata c10-bg" selected="selected" data="region">Region</option>
+					<option class="switchdata b5-bg" data="GE2017-results">2017 General Election: results</option>
+					<option class="switchdata b5-bg" data="GE2017-turnout">2017 General Election: turnout</option>
+					<option class="switchdata b5-bg" data="candidates">2017 General Election: candidates</option>
+					<option class="switchdata b5-bg" data="gender">2017 General Election: gender-split</option>
+					<option class="switchdata b5-bg" data="GE2015-results">2015 General Election: results</option>
+					<option class="switchdata b5-bg" data="referendum">EU Referendum estimates</option>
+					<option class="switchdata b5-bg" data="benefits">% people on benefits</option>
 				</select>
 			</form>
 			<div id="key"></div>
@@ -107,19 +105,14 @@
 		</div>
 		<div class="holder">
 			<h2>Other versions</h2>
-			<p>Leeds-based mapping company <a href="https://parallel.co.uk/">parallel</a> have created <a href="https://parallel.co.uk/election-2017/">an extruded 3D view</a> that can be rotated to <a href="https://twitter.com/thomasforth/status/864460489354596352">prioritise the focus</a> and <a href="https://parallel.co.uk/election-2017/majority/#15.29/51.4646/-0.0016/0/45">a view showing majorities</a>. Leeds-based developer <a href="https://twitter.com/daalwr">Daniel Wright</a> has also <a href="https://daalwr.github.io/3dmap/">created a 3D view</a> using <a href="https://threejs.org/">three.js</a> which currently shows votes by party, electorate size, and gains. <a href="https://twitter.com/olihawkins/status/865552316023296001">Oli Hawkins</a> has created <a href="https://github.com/olihawkins/d3-hexjson">a plugin to read HexJSON files with D3.js</a>. <a href="https://twitter.com/puntofisso">Giuseppe Sollazzo‏</a> has created <a href="http://swing.puntofisso.net/">an election swing viewer</a> using the map and the D3 plugin. Phil Gorman has made a map that shows <a href="https://mognar.github.io/divisionmap/">the number of Divisions MPs (2017 Parliament) took part in</a>.</p>
+			<p>Leeds-based mapping company <a href="https://parallel.co.uk/">parallel</a> have created <a href="https://parallel.co.uk/election-2017/">an extruded 3D view</a> that can be rotated to <a href="https://twitter.com/thomasforth/status/864460489354596352">prioritise the focus</a> and <a href="https://parallel.co.uk/election-2017/majority/#15.29/51.4646/-0.0016/0/45">a view showing majorities</a>. Leeds-based developer <a href="https://twitter.com/daalwr">Daniel Wright</a> has also <a href="https://daalwr.github.io/3dmap/">created a 3D view</a> using <a href="https://threejs.org/">three.js</a> which currently shows votes by party, electorate size, and gains. <a href="https://twitter.com/olihawkins/status/865552316023296001">Oli Hawkins</a> has created <a href="https://github.com/olihawkins/d3-hexjson">a plugin to read HexJSON files with D3.js</a>. <a href="https://twitter.com/puntofisso">Giuseppe Sollazzo‏</a> has created <a href="http://swing.puntofisso.net/">an election swing viewer</a> using the map and the D3 plugin.</p>
 		</div>
 		
 	</div>
 	
 	<footer class="b1-bg">
 		<div class="holder">
-			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
-			<br /><a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">2015 election results from the Electoral Commission</a>.
-			<br /><a href="https://docs.google.com/spreadsheets/d/1b71SDKPFbk-ktmUTXmDpUP5PT299qq24orEA0_TOpmw/edit#gid=579044181">EU referendum estimates</a> from <a href="http://www.tandfonline.com/doi/abs/10.1080/17457289.2017.1287081?journalCode=fbep20">Hanretty 2017</a> (<a href="https://medium.com/@chrishanretty/final-estimates-of-the-leave-vote-or-areal-interpolation-and-the-uks-referendum-on-eu-membership-5490b6cab878">blog post</a>).
-			<br /><a href="https://democracyclub.org.uk/data/">2017 general election candidates are from Democracy Club</a> under a CC-BY-SA 3.0 license. You can <a href="https://democracyclub.org.uk/quests/">help to add missing candidates</a>.
-			<br /><a href="https://github.com/alasdairrae/wpc">2017 general election results and constituency data are from Alasdair Rae</a> (<a href="https://github.com/alasdairrae/wpc/blob/master/files/wpc_2019_flat_file_v9.csv">CSV</a>).
-			<br /><a href="https://democracyclub.org.uk/data/">2019 general election candidates are from Democracy Club</a> under a <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0 license</a>. You can <a href="https://democracyclub.org.uk/quests/">help to add missing candidates</a>.
+			&copy; 2017-9 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
 		</div>
 	</footer>
 	

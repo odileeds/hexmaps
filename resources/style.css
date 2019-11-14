@@ -179,33 +179,8 @@ blockquote cite:before {
 blockquote:last-child {
 	margin-bottom: 0;
 }
-.c1-bg, .elsewhere .facebook:hover, .c1-bg-hover:hover { background-color: #2254F4; color: white; }
-.c2-bg, .c2-bg-hover:hover { background-color: #178CFF; color: black; }
-.c3-bg, .elsewhere .twitter:hover, .c3-bg-hover:hover { background-color: #00B6FF; color: black; }
-.c4-bg, .c4-bg-hover:hover { background-color: #08DEF9; color: black; }
-.c5-bg, .c5-bg-hover:hover { background-color: #1DD3A7; color: black; }
-.c6-bg, .c6-bg-hover:hover { background-color: #0DBC37; color: black; }
-.c7-bg, .c7-bg-hover:hover, .seasonal-accent { background-color: #67E767; color: black; }
-.c8-bg, .c8-bg-hover:hover { background-color: #722EA5; color: white; }
-.c9-bg, .c9-bg-hover:hover { background-color: #E6007C; color: white; }
-.c10-bg, .c10-bg-hover:hover, .flickr:hover, .seasonal { background-color: #EF3AAB; color: black; }
-.c11-bg, .c11-bg-hover:hover { background-color: #D73058; color: white; }
-.c12-bg, .c12-bg-hover:hover { background-color: #D60303; color: white; }
-.c13-bg, .c13-bg-hover:hover { background-color: #FF6700; color: black; }
-.c14-bg, .c14-bg-hover:hover { background-color: #F9BC26; color: black; }
-.s1-bg, .s1-bg-hover:hover { background-color: #2f529f; color: white; }
-.s2-bg, .s2-bg-hover:hover { background-color: #00ace8; color: black; }
-.s3-bg, .s3-bg-hover:hover { background-color: #7dc5ea; color: black; }
-.b1-bg { background-color: #000000; color: white; }
-.b2-bg { background-color: #333333; color: white; }
-.b3-bg, .github:hover { background-color: #999999; color: black; }
-.b4-bg { background-color: #bbbbbb; color: black; }
-.b5-bg { background-color: #dfdfdf; color: black; }
-.b6-bg { background-color: #ffffff; color: black; }
 button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
-.c1-bg .button, .c2-bg .button, .c3-bg .button, .c4-bg .button, .c5-bg .button, .c6-bg .button, .c7-bg .button, .c8-bg .button, .c9-bg .button, .c10-bg .button, .c11-bg .button, .c12-bg .button, .c13-bg .button, .c14-bg .button { background-color: #efefef; color: black!important; }
-button:hover, a.button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
-.c8-bg a { color: inherit; }
+a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
 
 #hexmap {
 	margin: auto;
@@ -292,6 +267,31 @@ pre {
 	}
 }
 
+.c1-bg, .elsewhere .facebook:hover, .c1-bg-hover:hover { background-color: #2254F4; color: white; }
+.c2-bg, .c2-bg-hover:hover { background-color: #178CFF; color: black; }
+.c3-bg, .elsewhere .twitter:hover, .c3-bg-hover:hover { background-color: #00B6FF; color: black; }
+.c4-bg, .c4-bg-hover:hover { background-color: #08DEF9; color: black; }
+.c5-bg, .c5-bg-hover:hover { background-color: #1DD3A7; color: black; }
+.c6-bg, .c6-bg-hover:hover { background-color: #0DBC37; color: black; }
+.c7-bg, .c7-bg-hover:hover, .seasonal-accent { background-color: #67E767; color: black; }
+.c8-bg, .c8-bg-hover:hover { background-color: #722EA5; color: white; }
+.c9-bg, .c9-bg-hover:hover { background-color: #E6007C; color: white; }
+.c10-bg, .c10-bg-hover:hover, .flickr:hover, .seasonal { background-color: #EF3AAB; color: black; }
+.c11-bg, .c11-bg-hover:hover { background-color: #D73058; color: white; }
+.c12-bg, .c12-bg-hover:hover { background-color: #D60303; color: white; }
+.c13-bg, .c13-bg-hover:hover { background-color: #FF6700; color: black; }
+.c14-bg, .c14-bg-hover:hover { background-color: #F9BC26; color: black; }
+.s1-bg, .s1-bg-hover:hover { background-color: #2f529f; color: white; }
+.s2-bg, .s2-bg-hover:hover { background-color: #00ace8; color: black; }
+.s3-bg, .s3-bg-hover:hover { background-color: #7dc5ea; color: black; }
+.b1-bg { background-color: #000000; color: white; }
+.b2-bg { background-color: #333333; color: white; }
+.b3-bg, .github:hover { background-color: #999999; color: black; }
+.b4-bg { background-color: #bbbbbb; color: black; }
+.b5-bg { background-color: #dfdfdf; color: black; }
+.b6-bg { background-color: #ffffff; color: black; }
+.c1-bg .button, .c2-bg .button, .c3-bg .button, .c4-bg .button, .c5-bg .button, .c6-bg .button, .c7-bg .button, .c8-bg .button, .c9-bg .button, .c10-bg .button, .c11-bg .button, .c12-bg .button, .c13-bg .button, .c14-bg .button { background-color: #efefef; color: black!important; }
+.c8-bg a { color: inherit; }
 
 
 @media screen and (max-width: 900px) {

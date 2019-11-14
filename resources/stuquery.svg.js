@@ -3,7 +3,7 @@
 */
 function SVG(id,w,h){
 	if(!id) return this;
-	this.version = "0.1.4";
+	this.version = "0.1.5";
 	this.canvas = S('#'+id);
 	this.w = parseInt(w || this.canvas[0].offsetWidth);
 	this.h = parseInt(h || this.canvas[0].offsetHeight);
@@ -15,6 +15,9 @@ function SVG(id,w,h){
 	this.nodes = new Array();
 	this.clippaths = new Array();
 	this.patterns = new Array();
+	
+	var _obj = this;
+	var counter = 0;
 	
 	function Path(path){
 		this.path = path;
@@ -68,6 +71,7 @@ function SVG(id,w,h){
 	Path.prototype.copy = function(){
 		return new Path(copy(this.p));
 	}
+	var _obj = this;
 	function Node(inp){
 		this.transforms = [];
 		// Make a structure to hold the original properties
@@ -81,6 +85,9 @@ function SVG(id,w,h){
 			this.orig.path = this.path.copy();
 			this.orig.d = this.d;
 		}
+		this.id = _obj.id+'-svg-node-'+counter;
+		counter++;
+
 		return this;
 	}
 	Node.prototype.on = function(type,attr,fn){
@@ -99,8 +106,20 @@ function SVG(id,w,h){
 			if(typeof attr[a]==="string") attr[a] = attr[a].replace(/\"/g,"\'");
 			this.attributes[a] = attr[a];
 			this.el.attr(a,attr[a]);
+			// Update the path on the element's "d" property
+			if(a=="path") this.el.attr('d',(new Path(attr[a])).string());
+			if(this.type=="text"){
+				// Update any tspan elements' x position
+				var tspan = this.el.find('tspan');
+				for(var i = 0 ; i < tspan.length; i++) tspan[i].setAttribute('x',this.attributes.x);
+			}
 		}
 		this.orig.attributes = JSON.parse(JSON.stringify(this.attributes));
+		
+		// Set the ID if we've been given one
+		var oldid = this.id+'';
+		if(this.attributes && this.attributes['id']) this.id = this.attributes['id'];
+
 		return this;
 	}
 	Node.prototype.transform = function(ts){
@@ -213,37 +232,46 @@ SVG.prototype.draw = function(head){
 		dom += '</defs>';
 	}
 
-	for(var i = 0; i < this.nodes.length; i++){
-		var t = this.nodes[i].type;
-		var arr = (this.nodes[i].text) ? this.nodes[i].text.split(/\n/) : [];
-		if(!this.nodes[i].id) this.nodes[i].id = this.id+'-svg-node-'+i;
-		// Set the ID if we've been given one
-		if(this.nodes[i].attributes && this.nodes[i].attributes['id']) this.nodes[i].id = this.nodes[i].attributes['id'];
+	var _obj = this;
 
-		if(this.nodes[i].type){
-			dom += '<'+t;
+	function buildChunk(nodes,node){
+		
+		n = nodes[node];
+		var chunk = "";
+		var t = n.type;
+		var arr = (n.text) ? n.text.split(/\n/) : [];
+		
+		if(n.type){
+			chunk += '<'+t;
 			// Update node with any transforms
-			this.nodes[i].update();
+			n.update();
 			// Add properties
-			for(var j in this.nodes[i]){
-				if(j != "type" && typeof this.nodes[i][j]!=="object" && typeof this.nodes[i][j]!=="function" && j != "attributes") dom += ' '+j+'="'+this.nodes[i][j]+'"';
+			for(var j in n){
+				if(j != "type" && typeof n[j]!=="object" && typeof n[j]!=="function" && j != "attributes") chunk += ' '+j+'="'+n[j]+'"';
 			}
-			dom += ' id="'+this.nodes[i].id+'"';
+			chunk += ' id="'+n.id+'"';
 			// Add attributes
-			for(var a in this.nodes[i].attributes) dom += ' '+a+'="'+(a == "clip-path" ? 'url(#':'')+this.nodes[i].attributes[a]+(a == "clip-path" ? ')':'')+'"';
-			// Draw internal parts of a text elements
-			if(this.nodes[i].text){
+			for(var a in n.attributes) chunk += ' '+a+'="'+(a == "clip-path" ? 'url(#':'')+n.attributes[a]+(a == "clip-path" ? ')':'')+'"';
+			// Draw internal parts of a text element
+			if(n.text){
 				var y = 0;
 				var lh = 1.2;
-				dom += '>';
+				chunk += '>';
 				var off = -0.5 + arr.length*0.5;
 				for(var a = 0; a < arr.length; a++, y+=lh){
-					dom += '<tspan'+(a==0 ? ' dy="-'+(lh*off)+'em"':' x="'+this.nodes[i].x+'" dy="'+lh+'em"')+'>'+arr[a]+'</tspan>';
+					chunk += '<tspan'+(a==0 ? ' dy="-'+(lh*off)+'em"':' x="'+(n.attributes.x||n.x)+'" dy="'+lh+'em"')+'>'+arr[a]+'</tspan>';
 				}
-				dom += '</'+t+'>';
-			}else dom += ' />';
+				chunk += '</'+t+'>';
+			}else{
+				chunk += ' />';
+			}
 		}
+		return chunk;
 	}
+
+	// Build the SVG chunks for each node
+	for(var i = 0; i < this.nodes.length; i++) dom += buildChunk(this.nodes,i);
+
 	this.paper.html(dom);
 
 	// Attach events to DOM

@@ -485,10 +485,14 @@ function Constituencies(id,w,h,padding,file){
 			var mine = 0;
 			var maxe = 100;
 			this.hex.setColours = function(region){
-				var value = (this.data.rural[region] - mine)/(maxe-mine);
-				if(value < 0) value = 0;
-				if(value > 1) value = 1;
-				return getColour(value,a,b);
+				if(this.data.rural[region]){
+					var value = (this.data.rural[region] - mine)/(maxe-mine);
+					if(value < 0) value = 0;
+					if(value > 1) value = 1;
+					return getColour(value,a,b);
+				}else{
+					return "#ffffff";
+				}
 			};
 			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
 		}else if(type == "GE2017-candidates"){

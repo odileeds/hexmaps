@@ -53,7 +53,6 @@ function Constituencies(id,w,h,padding,file){
 	});
 	
 	this.setType = function(t){
-
 		// Update the history
 		if(this.pushstate) history.pushState({type:t},"Hexes",(t==this.defaulttype ? '' : '?'+t));
 
@@ -68,7 +67,7 @@ function Constituencies(id,w,h,padding,file){
 		var lbl = e.data.hexmap.mapping.hexes[e.data.region].label;
 		var cls = "";
 		if(e.data.builder.by == "population"){
-			lbl = title+'<br />Population: '+e.data.pop;
+			lbl = title+'<br />Population: '+(e.data.pop||0);
 		}else if(e.data.builder.by == "electorate"){
 			lbl = title+'<br />Electorate: '+e.data.electorate;
 		}else if(e.data.builder.by == "GE2015-results"){

@@ -11,28 +11,47 @@
 	<meta name="twitter:description" property="og:description" content="Create your own point-topped hex map from a data file.">
 	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+	<script type="text/javascript" src="resources/stuquery.js"></script>
+	<script type="text/javascript" src="resources/stuquery.svg.js"></script>
 	<script type="text/javascript" src="resources/stuquery.hexmap.js"></script>
 	<script type="text/javascript" src="resources/builder.js"></script>
 	<script>
 	var builder;
 	S(document).ready(function(){
-		builder = new Builder('hexmap',1080,1220,2);
+		builder = new HexBuilder('builder',1080,1220,2);
+		builder.init();
 	});
 	</script>
 	<style>
-	.dropzone {
-		border: 2px dashed #999999;
-		border-radius: 5px;
-		color: #333333;
-		padding: 25px;
-		text-align: center;
+	section { margin-bottom: 1em; }
+	.chooser { text-align: left; display: flex; line-height: 1.5em; }
+	.chooser input { font-size:1em; }
+	.chooser .vs { display: inline; margin: 2.5em 0.5em 0 0.5em; font-family: serif; font-style: italic; color: #666666; text-align: center; vertical-align: middle; }
+	.chooser .part { position: relative; margin: 0px; width: 100%; display: inline; padding: 1em; line-height: 1.5em;  }
+	.chooser .part input { padding: 0px 2px; }
+	.chooser .part label { display: block; }
+	.chooser .choose { display: inline; }
+	.chooser .choose button { height: 100%; margin-left: 1em; }
+	#url {
+		line-height: 1.5em;
+		width: 100%;
+	}
+	form { 
 		position: relative;
 	}
+	.dropzone {
+		line-height: 1.5em;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		padding: 1em;
+		box-sizing: border-box;
+		border: 2px dashed #999999;
+	}
 	.dropzone.loaded {
-		border: 2px solid #333333;
-		color: #333333;
+		border: 2px solid transparent;
 	}
 	.dropzone.loaded .helpertext {
 		display: none;
@@ -46,46 +65,69 @@
 		top: 0px;
 		width: 100%;
 		height: 100%;
-		opacity: 0;
+		opacity: 0.01;
 	}
+	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
+	.spinner img { width: 5em; margin: auto; }
+	#hexmap svg { margin: auto; display: block; }
 	</style>
 </head>
-<body>
+<body class="b1-bg">
 
-	<div id="main">
 
-		<div class="b1-bg">
-			<div class="holder">
-				<div id="infobutton" style="float:right;">&#8505;</div>
-				<h1>Hex map builder</h1>
+	<div id="main" class="b6-bg">
+	
+		<header>
+			<div class="b1-bg">
+				<div class="holder" style="text-align:center;">
+					<a href="https://odileeds.org/"><img src="https://odileeds.org/resources/images/odileeds-10.svg" /></a>
+					<h1>Hex map builder</h1>
+				</div>
 			</div>
+		</header>
+		
+		<div class="c10-bg">
+			<div id="messages"></div>
 		</div>
 
 		<div class="holder">
-			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex maps</a> so we've created a tool to help you make them from your own data. You can either read in an existing <a href="hexjson.html">HexJSON file</a> or start creating your own hex map from a CSV file. The CSV should contain a column with the heading <code>id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code>q</code> and <code>r</code>. A column with the heading <code>n</code> or <code>name</code> will set the displayed name of the hex. Once you have hexagons, move them to your desired positions (click one then click an empty hex to move it there). When you everything where you want it, save the output.</p>
+			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex maps</a> so we've created a tool to help you make them from your own data. You can either read in an existing <a href="hexjson.html">HexJSON file</a> or start creating your own hex map from a CSV file. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. Once you have hexagons, move them to your desired positions (click one then click an empty hex to move it there). When you everything where you want it, save the output.</p>
 			
-			<div id="drop_zone" class="dropzone block">
-				<div class="helpertext">
-					Drop a CSV or HexJSON file here (or click to browse files)<br />
-					<input id="standard_files" class="fileselect" type="file" title="browse" name="files[]" multiple="multiple" accept=".csv, .hexjson">
-				</div>
+			<form id="validation_form" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" >
+
+				<section class="chooser">
+					<div class="part b5-bg">
+						<label for="url">URL</label><input id="url" type="url" name="url" class="" placeholder="e.g. https://odileeds.github.io/hexmaps/data/wards-leeds.csv" pattern="https://.*" />
+					</div>
+					<div class="vs">or</div>
+					<div class="part b5-bg dropzone" id="drop_zone">
+						<label for="standard_files">File</label>
+						<div class="helpertext">Drop a .csv or .hexjson file here (or click to browse files)</div>
+						<input id="standard_files" class="fileselect" type="file" title="browse" name="file" accept=".csv, .hexjson">
+					</div>
+				</section>
+				<button id="submit" type="submit" class="button c10-bg">Hexify</button>
+				<button id="example" class="c8-bg">Load example</button>
+				<button id="reset" type="reset" class="c8-bg">Reset</button>
+			</form>
+		</div>
+
+		<div id="builder">
+			<div id="hexmap"></div>
+			
+			<div class="spinner">
+				<img src="https://odileeds.org/resources/images/odi.svg" alt="Loading..." />
 			</div>
+
+			<div class="options"></div>
 		</div>
 
-		<div id="hexmap"></div>
-
-		<div class="holder" style="text-align:center;">
-			<p>
-			<button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button>
-			<button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button>
-			</p>
-		</div>
 		
 	</div>
 	
 	<footer class="b1-bg">
 		<div class="holder">
-			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+			&copy; 2017-9 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
 		</div>
 	</footer>
 	

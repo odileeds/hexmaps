@@ -485,7 +485,7 @@ function Constituencies(id,w,h,padding,file){
 			var mine = 0;
 			var maxe = 100;
 			this.hex.setColours = function(region){
-				var value = (this.mapping.hexes[region].e - mine)/(maxe-mine);
+				var value = (this.data.rural - mine)/(maxe-mine);
 				if(value < 0) value = 0;
 				if(value > 1) value = 1;
 				return getColour(value,a,b);

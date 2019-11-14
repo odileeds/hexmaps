@@ -78,6 +78,8 @@ function Constituencies(id,w,h,padding,file){
 			lbl = title+'<br />Estimated leave vote: '+(e.data.hexmap.data['referendum'][e.data.region] ? Math.round(e.data.hexmap.data['referendum'][e.data.region]*100)+'%':'unknown');
 		}else if(e.data.builder.by == "benefits"){
 			lbl = '<strong>'+title+'</strong><br />Percentage of constituency on income-based<br />benefits (IS/JSA/ESA): <strong>'+(e.data.hexmap.data['benefits'][e.data.region] ? (parseFloat(e.data.hexmap.data['benefits'][e.data.region]).toFixed(2))+'%':'unknown')+'</strong>';
+		}else if(e.data.builder.by == "rural"){
+			lbl = title+'<br />Rural: '+(e.data.hexmap.data['rural'][e.data.region]+'%'||'?');
 		}else if(e.data.builder.by == "GE2017-candidates"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
 			var c = e.data.hexmap.data['GE2017-candidates'][e.data.region];
@@ -287,6 +289,24 @@ function Constituencies(id,w,h,padding,file){
 				'error':function(){},
 				'dataType':'text'
 			});
+		}else if(type == "rural"){
+			S().ajax('../data/2011rural.csv',{
+				'complete':function(d){
+					if(typeof d==="string"){
+						d = d.replace(/\r/g,'');
+						d = d.split(/[\n]/);
+					}
+					for(var i = 1; i < d.length; i++){
+						c = d[i].split(/,/);
+						this.data[type][c[0]] = c[2];
+					}
+					this.hex.data[type] = this.data[type];
+					this.setColours("rural");
+				},
+				'this': this,
+				'error':function(){},
+				'dataType':'text'
+			});
 		}else if(type == "constituency-card" || type == "GE2017-results" || type == "GE2017-turnout"){
 			S().ajax('https://raw.githubusercontent.com/alasdairrae/wpc/master/files/wpc_2019_flat_file_v9.csv',{
 				'complete':function(d){
@@ -382,6 +402,7 @@ function Constituencies(id,w,h,padding,file){
 		if(type == "GE2019-candidates" && (!this.data || !this.data["GE2019-candidates"])) return this.loadResults("GE2019-candidates");
 		if(type == "GE2019-gender" && (!this.data || !this.data["GE2019-gender"])) return this.loadResults("GE2019-gender");
 		if(type == "benefits" && (!this.data || !this.data["benefits"])) return this.loadResults("benefits");
+		if(type == "rural" && (!this.data || !this.data["rural"])) return this.loadResults("rural");
 
 		var key = "";
 		var names = {'Con':'Conservative','Lab':'Labour','LD':'Lib Dem','PC':'Plaid Cymru','Ind':'Independent','Spk':'Speaker'};
@@ -457,6 +478,18 @@ function Constituencies(id,w,h,padding,file){
 				else return '';
 			}
 			key = 'Percentage of constituency on income-based benefits (IS/JSA/ESA)<br />0%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>10%+';
+		}else if(type == "rural"){
+			var b = new Colour('#0DBC37');
+			var a = new Colour('#000000');
+			var mine = 0;
+			var maxe = 100;
+			this.hex.setColours = function(region){
+				var value = (this.mapping.hexes[region].e - mine)/(maxe-mine);
+				if(value < 0) value = 0;
+				if(value > 1) value = 1;
+				return getColour(value,a,b);
+			};
+			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
 		}else if(type == "GE2017-candidates"){
 			var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
 			this.hex.setColours = function(region){

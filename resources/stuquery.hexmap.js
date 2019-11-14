@@ -346,6 +346,7 @@ function HexMap(attr){
 			},
 			'click': function(e){
 				var t = 'click';
+				console.log('e',e,this)
 				if(e.data.hexmap.callback[t]){
 					for(var a in e.data.hexmap.callback[t].attr) e.data[a] = e.data.hexmap.callback[t].attr[a];
 					if(typeof e.data.hexmap.callback[t].fn==="function") return e.data.hexmap.callback[t].fn.call(this,e);
@@ -399,7 +400,7 @@ function HexMap(attr){
 
 				// Attach events
 				var _obj = this.hexes[region];
-				_obj.on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region]},events.mouseover)
+				_obj.on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
 					.on('mouseout',{type:'hex',hexmap:this,me:_obj},events.mouseout)
 					.on('click',{type:'hex',hexmap:this,region:region,me:_obj,data:this.mapping.hexes[region]},events.click);
 			}

@@ -294,11 +294,13 @@ pre {
 .c1-bg .button, .c2-bg .button, .c3-bg .button, .c4-bg .button, .c5-bg .button, .c6-bg .button, .c7-bg .button, .c8-bg .button, .c9-bg .button, .c10-bg .button, .c11-bg .button, .c12-bg .button, .c13-bg .button, .c14-bg .button { background-color: #efefef; color: black!important; }
 .c8-bg a { color: inherit; }
 
-.search { position: absolute; top: 0.5em; left: 0.5em; display: flex; border: 1px solid #999; }
-.search input { box-sizing: border-box; font-size: 1em; }
+.search { position: absolute; top: 0.5em; left: 0.5em; display: flex; }
+.search input { box-sizing: border-box; font-size: 1em; display: none; }
 .search input[type=text] { width: 10em; height: 2em; border: 0px; padding: 0; padding-left: 0.25em; }
-.search button { border: 0px; height: 2em; background-image: url("search.svg"); background-position: center center; width: 2em; background-repeat: no-repeat; padding: 0px; background-size: 0.8em; }
+.search button { border: 0px; height: 2em; margin: 0px; background-image: url("search.svg"); background-position: center center; width: 2em; background-repeat: no-repeat; padding: 0px; background-size: 0.8em; }
 .search button:hover, .search button:focus { background-color: #dddddd; cursor: pointer; }
+.search.searching { border: 1px solid #999; }
+.search.searching input { display: block; }
 
 
 @media screen and (max-width: 900px) {

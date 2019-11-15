@@ -233,12 +233,14 @@ function HexMap(attr){
 	}
 
 	this.addSearch = function(){
-		S('#'+this.id).append('<div class="search"><button class="b6-bg" title="Search hexes by name"></button><input type="text" name="q" value="" style="display:none;" /></div>');
-		S('#'+this.id+' .search button').on('click',{el:S('#'+this.id+' .search')},function(e){
-			vis = !(e.data.el.find('input').css('display')=="block");
-			console.log(vis,e.data.el.find('input'));
-			e.data.el.find('input').css({'display':(vis ? 'block':'none')});
-			if(vis) e.data.el.find('input')[0].focus();
+		S('#'+this.id).append('<div class="search"><button class="b6-bg" title="Search hexes by name"></button><input type="text" name="q" value="" /></div>');
+		
+		S('#'+this.id+' .search button').on('click',{me:this},function(e){
+			var id = '#'+e.data.me.id+' .search';
+			S(id).toggleClass('searching');
+			if(S(id).hasClass('searching')){
+				S(id).find('input')[0].focus();
+			}
 		});
 		S('#'+this.id+' .search input').on('keyup',{me:this},function(e){
 			var value = e.currentTarget.value.toLowerCase();
@@ -251,6 +253,8 @@ function HexMap(attr){
 				}
 			}
 			e.data.me.highlightRegions(regions);
+		}).on('blur',{me:this},function(e){
+			S('#'+e.data.me.id+' .search').toggleClass('searching');
 		});
 
 		return this;

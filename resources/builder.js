@@ -35,6 +35,7 @@ function HexBuilder(id,attr){
 			'size':side,
 			'padding':padding,
 			'minFontSize': 0,
+			'grid': true,
 			'style': {
 				'selected':{'fill-opacity':0.5, 'fill':'#EF3AAB' },
 				'default':{'fill-opacity':0.5,'fill':'#722EA5','font-size':side/4},

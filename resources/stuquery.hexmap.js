@@ -33,7 +33,7 @@ function HexMap(attr){
 	var fs = (typeof attr.size==="number" ? attr.size : 10)*0.4;
 
 	this.options = {
-		'showgrid':(typeof attr.grid==="boolean" ? attr.grid : true),
+		'showgrid':(typeof attr.grid==="boolean" ? attr.grid : false),
 		'showlabel':(typeof attr.showlabel==="boolean" ? attr.showlabel : true),
 		'formatLabel': (typeof attr.formatLabel==="function" ? attr.formatLabel : function(txt,attr){ return txt.substr(0,3); }),
 		'minFontSize': (typeof attr.minFontSize==="number" ? attr.minFontSize : 4)

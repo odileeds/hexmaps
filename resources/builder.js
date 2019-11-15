@@ -72,6 +72,7 @@ function HexBuilder(id,attr){
 			}
 		}).on('click',{'builder':this},function(e){
 			if(e.data.type=="hex"){
+				e.data.hexmap.highlightRegions();
 				e.data.hexmap.regionToggleSelected(e.data.region,true);
 				e.data.builder.label(e.data.data);
 			}else if(e.data.type=="grid"){

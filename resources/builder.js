@@ -46,7 +46,7 @@ function HexBuilder(id,attr){
 		
 		this.hex.on('mouseover',{'builder':this},function(e){
 			if(e.data.type=="hex"){
-				e.data.builder.label(this.attr('title'));
+				e.data.builder.label(e.data.data);
 				this.attr('fill-opacity',0.8);
 				this.attr('stroke','#000000');
 				this.attr('stroke-width',3);
@@ -71,7 +71,7 @@ function HexBuilder(id,attr){
 		}).on('click',{'builder':this},function(e){
 			if(e.data.type=="hex"){
 				e.data.hexmap.regionToggleSelected(e.data.region,true);
-				e.data.builder.label(this.attr('title'));
+				e.data.builder.label(e.data.data);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
 					e.data.hexmap.moveTo(e.data.data.q,e.data.data.r);
@@ -90,8 +90,16 @@ function HexBuilder(id,attr){
 	}
 
 	
-	this.label = function(l){
+	this.label = function(data){
+		var l = "";
 		if(S('.infobubble').length == 0) S('#'+this.id+' svg').after('<div class="infobubble"><div class="infobubble_inner"></div></div>');
+		
+		if(typeof data==="string") l = data;
+		else{
+			for(var a in data){
+				l += (l ? '<br />':'')+a+': '+data[a];
+			}
+		}
 		S('.infobubble_inner').html(l);
 		return this;
 	}

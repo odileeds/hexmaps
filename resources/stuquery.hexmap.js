@@ -35,7 +35,8 @@ function HexMap(attr){
 	this.options = {
 		'showgrid':(typeof attr.grid==="boolean" ? attr.grid : true),
 		'showlabel':(typeof attr.showlabel==="boolean" ? attr.showlabel : true),
-		'formatLabel': (typeof attr.formatLabel==="function" ? attr.formatLabel : function(txt,attr){ return txt.substr(0,3); })
+		'formatLabel': (typeof attr.formatLabel==="function" ? attr.formatLabel : function(txt,attr){ return txt.substr(0,3); }),
+		'minFontSize': (typeof attr.minFontSize==="number" ? attr.minFontSize : 4)
 	};
 
 	this.style = {
@@ -386,7 +387,7 @@ function HexMap(attr){
 			if(!this.constructed){
 				if(this.options.showlabel){
 					if(!this.labels) this.labels = {};
-					if(this.style['default']['font-size'] > 4){
+					if(this.style['default']['font-size'] > this.options.minFontSize){
 						this.labels[region] = this.paper.text(h.x,h.y+this.style['default']['font-size']/2,this.options.formatLabel(this.mapping.hexes[region].n,{'size':this.properties.size,'font-size':this.style['default']['font-size']})).attr({'clip-path':'hex-clip-'+this.mapping.hexes[region].q+'-'+this.mapping.hexes[region].r,'data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r,'class':'hex-label','text-anchor':'middle','font-size':this.style['default']['font-size']+'px','title':(this.mapping.hexes[region].n || region)});
 						this.labels[region].attr({'id':'hex-'+region+'-label'});
 						//this.paper.clip({'path':h.path,'type':'path'}).attr({'id':'hex-'+region+'-clip'});

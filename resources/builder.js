@@ -34,6 +34,7 @@ function HexBuilder(id,attr){
 			'height':height,
 			'size':side,
 			'padding':padding,
+			'minFontSize': 0,
 			'style': {
 				'selected':{'fill-opacity':0.5, 'fill':'#EF3AAB' },
 				'default':{'fill-opacity':0.5,'fill':'#722EA5','font-size':side/4},
@@ -225,42 +226,47 @@ function HexBuilder(id,attr){
 				}
 			}
 
-			got = {};
-			// Find out which q,r combinations we have
-			for(var region in this.data.hexes){
-				q = this.data.hexes[region].q;
-				r = this.data.hexes[region].r;
-				if(typeof q==="number" && typeof r==="number"){
-					if(!got[q]) got[q] = {};
-					got[q][r] = true;
-				}
-			}
-			var s = Math.ceil(Math.sqrt(data.rows.length)) + padding*2;
-
-			// Need to create dummy q, r values if they don't exist
-			var q = 0;
-			var r = 0;
-			for(var region in this.data.hexes){
-				if(typeof this.data.hexes[region].q!=="number" && typeof this.data.hexes[region].r!=="number"){
-					while(got[q] && got[q][r]){
-						q++;
-						if(q > s){
-							q = 0;
-							r+=2;
-						}
-					}
-					if(!got[q]) got[q] = {};
-					got[q][r] = true;
-					this.data.hexes[region].q = q;
-					this.data.hexes[region].r = r;
-				}
-			}
-
 		}else if(this.file.type == "hexjson"){
-			
-			this.data = JSON.parse(this.file.contents);
-			
+
+			if(typeof this.file.contents==="string") this.data = JSON.parse(this.file.contents);
+			else this.data = this.file.contents;
+
 		}
+		
+		console.log(this.data)
+		
+		got = {};
+		var len = 0;
+		// Find out which q,r combinations we have
+		for(var region in this.data.hexes){
+			q = this.data.hexes[region].q;
+			r = this.data.hexes[region].r;
+			if(typeof q==="number" && typeof r==="number"){
+				if(!got[q]) got[q] = {};
+				got[q][r] = true;
+			}
+			len++;
+		}
+		var s = Math.ceil(Math.sqrt(len)) + padding*2;
+		// Do we need to create dummy q, r values?
+		var q = 0;
+		var r = 0;
+		for(var region in this.data.hexes){
+			if(typeof this.data.hexes[region].q!=="number" && typeof this.data.hexes[region].r!=="number"){
+				while(got[q] && got[q][r]){
+					q++;
+					if(q > s){
+						q = 0;
+						r+=2;
+					}
+				}
+				if(!got[q]) got[q] = {};
+				got[q][r] = true;
+				this.data.hexes[region].q = q;
+				this.data.hexes[region].r = r;
+			}
+		}
+
 
 		this.createMap();
 		this.hex.load(this.data,{me:this},function(e){ e.data.me.setColours("region"); });
@@ -307,6 +313,7 @@ function HexBuilder(id,attr){
 
 	this.getFromURL = function(url,callback){
 		S().ajax(url,{
+			'dataType': (url.indexOf('\.hexjson') > 0 ? 'json':'text'),
 			'this':this,
 			'callback': callback,
 			'success':function(result,attr){

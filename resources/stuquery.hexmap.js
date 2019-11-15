@@ -42,6 +42,7 @@ function HexMap(attr){
 	this.style = {
 		'default': { 'fill': '#cccccc','fill-opacity':(this.options.showlabel ? 0.5 : 1),'font-size':fs },
 		'selected': { 'fill': '#ffffff','fill-opacity':(this.options.showlabel ? 0.8 : 1),'font-size':fs },
+		'highlight': { 'fill': '#1DD3A7' },
 		'grid': { 'fill': '#aaa','fill-opacity':0.1 }
 	};
 
@@ -50,6 +51,7 @@ function HexMap(attr){
 		if(attr.style[s]['fill-opacity']) this.style[s]['fill-opacity'] = attr.style[s]['fill-opacity'];
 		if(attr.style[s]['font-size']) this.style[s]['font-size'] = attr.style[s]['font-size'];
 		if(attr.style[s]['stroke']) this.style[s]['stroke'] = attr.style[s]['stroke'];
+		if(attr.style[s]['stroke-width']) this.style[s]['stroke-width'] = attr.style[s]['stroke-width'];
 	}
 	
 	this.mapping = {};
@@ -83,14 +85,42 @@ function HexMap(attr){
 	// We'll need to change the sizes when the window changes size
 	window.addEventListener('resize', function(event){ _obj.resize(); });
 	
-	
+	function clone(d){
+		return JSON.parse(JSON.stringify(d));
+	}
+
 	// style = none, default, selected
 	this.setHexStyle = function(r){
 		var h = this.hexes[r];
-		if(h.selected) h.attr({'fill': (this.style.selected.fill ? this.style.selected.fill : h.fillcolour), 'fill-opacity': this.style.selected['fill-opacity'] });
-		else h.attr({'fill': (h.active ? h.fillcolour : this.style['default'].fill), 'fill-opacity': this.style['default']['fill-opacity']});
+		var style = clone(this.style['default']);
+
+		if(h.active) style['fill'] = h.fillcolour;
+		if(h.selected){
+			for(var p in this.style.selected) style[p] = this.style.selected[p];
+		}
+		if(h.highlight){
+			for(var p in this.style.highlight) style[p] = this.style.highlight[p];
+		}
+
+		h.attr(style);
 
 		return h;
+	}
+
+	this.highlightRegions = function(rs){
+		if(rs){
+			for(var region in this.hexes){
+				this.hexes[region].highlight = (rs[region]);
+				this.setHexStyle(region);
+			}
+		}else{
+			for(var region in this.hexes){
+				this.hexes[region].highlight = false;
+				this.setHexStyle(region);
+			}
+		}
+
+		return this;
 	}
 
 	this.regionToggleSelected = function(r,others){
@@ -197,7 +227,32 @@ function HexMap(attr){
 		this.h = h;
 		this.transform = {'type':'scale','props':{x:w,y:h,cx:w,cy:h,r:w,'stroke-width':w}};
 		S('#'+this.id).css({'height':'','width':''})
-		
+		this.addSearch();
+
+		return this;
+	}
+
+	this.addSearch = function(){
+		S('#'+this.id).append('<div class="search"><button class="b6-bg" title="Search hexes by name"></button><input type="text" name="q" value="" style="display:none;" /></div>');
+		S('#'+this.id+' .search button').on('click',{el:S('#'+this.id+' .search')},function(e){
+			vis = !(e.data.el.find('input').css('display')=="block");
+			console.log(vis,e.data.el.find('input'));
+			e.data.el.find('input').css({'display':(vis ? 'block':'none')});
+			if(vis) e.data.el.find('input')[0].focus();
+		});
+		S('#'+this.id+' .search input').on('keyup',{me:this},function(e){
+			var value = e.currentTarget.value.toLowerCase();
+			var regions = {};
+			if(value.length > 1){
+				for(var region in e.data.me.hexes){
+					if(e.data.me.hexes[region].attributes.title.toLowerCase().indexOf(value)>=0){
+						regions[region] = true;
+					}
+				}
+			}
+			e.data.me.highlightRegions(regions);
+		});
+
 		return this;
 	}
 

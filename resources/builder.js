@@ -25,7 +25,7 @@ function HexBuilder(id,attr){
 		width = Math.min(S('#hexmap')[0].clientWidth,1080);
 		height = width*(range.r.max-range.r.min)/dim;
 
-		side = width/((dim+4)*1.73205);
+		side = width/((dim+3)*1.73205);
 		
 
 		this.hex = new HexMap({
@@ -53,7 +53,7 @@ function HexBuilder(id,attr){
 				this.attr('stroke','#000000');
 				this.attr('stroke-width',3);
 				// Simulate z-index by moving this element to the end of the SVG
-				S('svg')[0].appendChild(this[0]);
+				S('#'+e.data.builder.hex.id+' svg')[0].appendChild(this[0]);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
 					this.attr('fill-opacity',0.5);
@@ -233,8 +233,6 @@ function HexBuilder(id,attr){
 			else this.data = this.file.contents;
 
 		}
-		
-		console.log(this.data)
 		
 		got = {};
 		var len = 0;

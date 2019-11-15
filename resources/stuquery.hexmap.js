@@ -346,7 +346,6 @@ function HexMap(attr){
 			},
 			'click': function(e){
 				var t = 'click';
-				console.log('e',e,this)
 				if(e.data.hexmap.callback[t]){
 					for(var a in e.data.hexmap.callback[t].attr) e.data[a] = e.data.hexmap.callback[t].attr[a];
 					if(typeof e.data.hexmap.callback[t].fn==="function") return e.data.hexmap.callback[t].fn.call(this,e);

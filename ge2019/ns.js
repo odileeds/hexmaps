@@ -82,7 +82,7 @@ function ResultsMap(id,attr){
 		}
 
 		// Update the history
-		if(this.pushstate) history.pushState({type:t},"Hexes",(firstUpdate ? '' : '?'+t));
+		if(this.pushstate) history.pushState({type:t},"Hexes",(firstUpdate ? '?' : '?'+t));
 
 		this.updateData(t);
 

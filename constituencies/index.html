@@ -19,9 +19,6 @@
 	<script>
 	var constituencies;
 	S(document).ready(function(){
-
-
-
 		constituencies = new Constituencies('hexmap',{
 			'width':915,
 			'height':1120,
@@ -66,6 +63,16 @@
 		width: 100%;
 	}
 	#hexmap .hex-grid { display: none; }
+	
+	.hex-cell { fill-opacity: 1; }
+	.hex-label { fill: white; }
+	.hex-cell.highlighted { stroke: black!important; stroke-width: 2px!important; }
+	.hex-cell.not-highlighted { opacity: 0.3!important; }
+	.hex-cell.hover { stroke: white!important; stroke-width: 5px!important; opacity:1!important; fill-opacity: 1!important; }
+	.hex-label.hover { fill: white!important; }
+	.hex-label.selected { fill: black!important;}
+	.hex-cell.selected { fill: #dfdfdf!important; }
+	
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
 	}

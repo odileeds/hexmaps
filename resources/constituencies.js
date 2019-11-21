@@ -459,7 +459,7 @@ function Constituencies(id,attr){
 				if(value > 1) value = 1;
 				return getColour(value,a,b);
 			};
-			key = '&le;'+min+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+max;
+			key = '&le;'+min+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>&ge;'+max;
 		}else if(type == "electorate"){
 			var b = new Colour('#F9BC26');
 			var a = new Colour('#D60303');
@@ -478,7 +478,7 @@ function Constituencies(id,attr){
 				return (p[r] || '#000');
 			}
 			for(var party in p){
-				key += '<span style="background-color:'+p[party]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>'+(names[party] || party);
+				key += '<span style="background-color:'+p[party]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>'+(names[party] || party);
 			}
 		}else if(type == "GE2017-results"){
 			this.hex.setColours = function(region){
@@ -501,14 +501,14 @@ function Constituencies(id,attr){
 				if(value > 1) value = 1;
 				return getColour(value,a,b);
 			};
-			key = '&le;'+mine+'%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe+'%';
+			key = '&le;'+mine+'%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe+'%';
 		}else if(type == "referendum"){
 			var b = new Colour('#F9BC26');
 			var a = new Colour('#2254F4');
 			this.hex.setColours = function(region){
 				return getColour(1 - (this.data["referendum"][region]-0.2)/0.6,a,b);
 			}
-			key = 'leave<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>remain';
+			key = 'leave<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>remain';
 		}else if(type == "benefits"){
 			var b = new Colour('#F9BC26');
 			var a = new Colour('#722EA5');
@@ -516,7 +516,7 @@ function Constituencies(id,attr){
 				if(this.data["benefits"][region]) return getColour(Math.min(1,(this.data["benefits"][region])/10),a,b);
 				else return '';
 			}
-			key = 'Percentage of constituency on income-based benefits (IS/JSA/ESA)<br />0%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>10%+';
+			key = 'Percentage of constituency on income-based benefits (IS/JSA/ESA)<br />0%<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>10%+';
 		}else if(type == "rural"){
 			var b = new Colour('#0DBC37');
 			var a = new Colour('#000000');
@@ -532,7 +532,7 @@ function Constituencies(id,attr){
 					return "#ffffff";
 				}
 			};
-			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
+			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
 		}else if(type == "GE2017-candidates"){
 			var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
 			this.hex.setColours = function(region){
@@ -543,7 +543,7 @@ function Constituencies(id,attr){
 			}
 			key = '0';
 			for(var n in levels){
-				key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>';
+				key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>';
 			}
 			key += '&ge;6';
 		}else if(type == "GE2019-candidates"){
@@ -559,7 +559,7 @@ function Constituencies(id,attr){
 			}
 			key = '0';
 			for(var n in levels){
-				key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>';
+				key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>';
 			}
 			key += '&ge;6';
 		}else if(type == "GE2017-gender" || type == "GE2019-gender"){
@@ -593,7 +593,7 @@ function Constituencies(id,attr){
 				this.data[type][region].ratio = (t > 0 ? ((m+0.5*o)/(m+f+o)) : 0.5);
 				return getColour(this.data[type][region].ratio,a,c);
 			}
-			key = 'The gender-split of candidates in each constituency<br />male<span style="'+makeGradient(c,a)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>female';
+			key = 'The gender-split of candidates in each constituency<br />male<span style="'+makeGradient(c,a)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>female';
 
 		}else if(type == "region"){
 			var names = {'YH':'Yorkshire and Humber','EM':'East Midlands','WM':'West Midlands','EA':'East Anglia','NI':'Northern Ireland','WA':'Wales','NW':'North West','NE':'North East','SE':'South East','SW':'South West','SC':'Scotland','LO':'London'};
@@ -603,7 +603,7 @@ function Constituencies(id,attr){
 				return (rs[r] || this.colour.on);
 			}
 			for(var r in rs){
-				key += '<span style="background-color:'+rs[r]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>'+(names[r] || r);
+				key += '<span style="background-color:'+rs[r]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>'+(names[r] || r);
 			}
 		}
 		

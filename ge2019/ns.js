@@ -81,6 +81,8 @@ function ResultsMap(id,attr){
 			return this;
 		}
 
+		if(this.hex.selected) this.toggleActive(this.hex.selected);
+
 		// Update the history
 		if(this.pushstate) history.pushState({type:t},"Hexes",(update ? '?'+t : ''));
 
@@ -155,15 +157,20 @@ function ResultsMap(id,attr){
 
 	}).on('click',{'builder':this},function(e){
 
-		var previous = e.data.hexmap.selected;
-		var current = e.data.region;
-		if(e.data.hexmap.search.active) e.data.hexmap.search.toggle();
-		if(previous && current == previous) e.data.hexmap.regionToggleSelected(previous,true);
-		else e.data.hexmap.selectRegion(e.data.region);
-		if(!e.data.hexmap.selected) S('.infobubble').remove();
-		else e.data.builder.label(e,this.attr('title'));
+		e.data.builder.toggleActive(e.data.region);
 
 	});
+	
+	this.toggleActive = function(region){
+		
+		var previous = this.hex.selected;
+		var current = region;
+		if(this.hex.search.active) this.hex.search.toggle();
+		if(previous && current == previous) this.hex.regionToggleSelected(previous,true);
+		else this.hex.selectRegion(region);
+		if(!this.hex.selected) S('.infobubble').remove();
+		else this.label({'data':{'builder':this,'hexmap':this.hex,'region':region}},this.hex.hexes[region].el[0].getAttribute('title'));
+	}
 
 	this.label = function(e,title){
 		l = getLabel(e,title);

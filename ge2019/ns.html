@@ -90,26 +90,6 @@
 	form {
 		text-align: center;
 	}
-	#key { max-width: 800px; margin: auto; margin-bottom: 1em; }
-	.generalelection .infobubble_inner { display: flex; }
-	.generalelection {
-		width: 500px;
-		max-width: 80%;
-		text-align: left;
-		line-height: 1.5em;
-		padding: 1em;
-	}
-	.generalelection img {
-		width: 5.5em;
-		height: auto;
-		margin-right: 0.5em;
-	}
-	.generalelection table {
-		width: 100%;
-	}
-	#hexmap .hex-grid { display: none; }
-	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
-	.bottom a, .bottom a:visited { color: inherit; }
 
 
 
@@ -183,6 +163,29 @@
 	}
 	.infobubble.generalelection { text-align: left; }
 	.infobubble a, .infobubble a:visited { color: inherit; }
+	.infobubble .popup-title { border-bottom:1px solid #333;margin-bottom:0.25em; display:block; }
+	#key { max-width: 800px; margin: auto; margin-bottom: 1em; }
+	.popup-bio { display: flex; }
+	.generalelection {
+		width: 500px;
+		max-width: 80%;
+		text-align: left;
+		line-height: 1.5em;
+		padding: 1em;
+	}
+	.generalelection img {
+		width: 5.5em;
+		height: auto;
+		margin-right: 0.5em;
+	}
+	.generalelection table {
+		width: 100%;
+	}
+	#hexmap .hex-grid { display: none; }
+	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
+	.bottom a, .bottom a:visited { color: inherit; }
+
+
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
 	}
@@ -254,7 +257,7 @@
 				'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': function(title,region){
-					lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
+					lbl = '<div class="popup-title">'+title+'</div>';
 					var c = this.data['GE2019-candidates'][region];
 					if(c){
 						for(var i = 0; i < c.length; i++) lbl += '<br /><strong>'+(c[i].id ? '<a href="https://candidates.democracyclub.org.uk/person/'+c[i].id+'">'+c[i].name+'</a>':c[i].name)+'</strong> - '+c[i].party_name;
@@ -293,15 +296,14 @@
 				'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': function(title,region){
-					var cls = "generalelection";
 					var r;
 					if(this.data['constituency-card']) r = this.data['constituency-card'][region];
 					if(r){
-						lbl = '<div><img src="'+r['photo_url']+'" /></div><div><strong>'+title+'</strong><br /><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
+						lbl = '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>'+title+'</strong><br /><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
 					}else{
-						lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
+						lbl = '<div class="popup-title">'+title+'</div>Party: '+this.data["GE2017-results"][region].first;
 					}
-					return {'label':lbl,'class':cls};
+					return {'label':lbl,'class':'generalelection'};
 				}
 			},
 			'key': function(){
@@ -332,8 +334,8 @@
 				'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': function(title,region){
-					lbl = title+'<br />Party: '+this.data['GE2015-results'][region].first;
-					return {'label':lbl,'class':''};
+					lbl = '<div class="popup-title">'+title+'</div>Party: '+this.data['GE2015-results'][region].first;
+					return {'label':lbl,'class':'generalelection'};
 				}
 			},
 			'key': function(){

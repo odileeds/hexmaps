@@ -202,8 +202,7 @@
 		</div>
 		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
 		<div id="hexmap" style="text-align:center;margin:auto;">
-				<div id="search"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"></div>
-
+			<div id="search"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"></div>
 		</div>
 		<div id="key"></div>
 
@@ -246,8 +245,8 @@
 				'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': function(title,region){
-					lbl = '<div class="popup-title">'+title+'</div>';
 					var c = this.data['GE2019-candidates'][region];
+					lbl = '<div class="popup-title">'+title+'</div>'+c.candidates+' candidates';
 					if(c){
 						for(var i = 0; i < c.length; i++) lbl += '<br /><strong>'+(c[i].id ? '<a href="https://candidates.democracyclub.org.uk/person/'+c[i].id+'">'+c[i].name+'</a>':c[i].name)+'</strong> - '+c[i].party_name;
 					}

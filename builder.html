@@ -70,6 +70,16 @@
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner img { width: 5em; margin: auto; }
 	#hexmap svg { margin: auto; display: block; }
+	
+	.hex-cell { fill-opacity: 1; }
+	.hex-label { fill: white; }
+	.hex-cell.highlighted { stroke: black!important; stroke-width: 2px!important; }
+	.hex-cell.not-highlighted { opacity: 0.3!important; }
+	.hex-cell.hover { stroke: white!important; stroke-width: 5px!important; opacity:1!important; fill-opacity: 1!important; }
+	.hex-label.hover { fill: white!important; }
+	.hex-label.selected { fill: black!important;}
+	.hex-cell.selected { fill: #dfdfdf!important; }
+
 	</style>
 </head>
 <body class="b1-bg">

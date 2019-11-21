@@ -3,7 +3,7 @@
 */
 function SVG(id,w,h){
 	if(!id) return this;
-	this.version = "0.1.5";
+	this.version = "0.1.6";
 	this.canvas = S('#'+id);
 	this.w = parseInt(w || this.canvas[0].offsetWidth);
 	this.h = parseInt(h || this.canvas[0].offsetHeight);
@@ -111,7 +111,7 @@ function SVG(id,w,h){
 			if(this.type=="text"){
 				// Update any tspan elements' x position
 				var tspan = this.el.find('tspan');
-				for(var i = 0 ; i < tspan.length; i++) tspan[i].setAttribute('x',this.attributes.x);
+				for(var i = 0 ; i < tspan.length; i++) tspan[i].setAttribute('x',(this.attributes.x||this.x));
 			}
 		}
 		this.orig.attributes = JSON.parse(JSON.stringify(this.attributes));
@@ -156,6 +156,7 @@ function SVG(id,w,h){
 						this.path.path = this.path.string();
 						this.d = this.path.path;
 					}else{
+						console.log('here',t)
 						for(var p in this.transforms[t].props){
 							if(this[p]) this[p] *= this.transforms[t].props[p];
 						}
@@ -247,7 +248,10 @@ SVG.prototype.draw = function(head){
 			n.update();
 			// Add properties
 			for(var j in n){
-				if(j != "type" && typeof n[j]!=="object" && typeof n[j]!=="function" && j != "attributes") chunk += ' '+j+'="'+n[j]+'"';
+				if(j != "type" && typeof n[j]!=="object" && typeof n[j]!=="function" && j != "attributes"){
+					if(j=="text" && arr.length > 1) chunk += '';
+					else chunk += ' '+j+'="'+n[j]+'"';
+				}
 			}
 			chunk += ' id="'+n.id+'"';
 			// Add attributes

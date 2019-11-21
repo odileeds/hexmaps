@@ -10,8 +10,9 @@
 //    size: the size of a hexagon in pixels
 function HexMap(attr){
 
-	this.version = "0.3";
+	this.version = "0.4";
 	if(!attr) attr  = {};
+	this._attr = attr;
 	if(S('#'+attr.id).length==0){
 		console.log("Can't find the element to draw into (#"+attr.id+")");
 		return {};
@@ -32,6 +33,9 @@ function HexMap(attr){
 	
 	var fs = (typeof attr.size==="number" ? attr.size : 10)*0.4;
 
+	if(S('#'+this.id+'-inner').length==0) S('#'+this.id).append('<div id="'+this.id+'-inner"></div>');
+	this.el = S('#'+this.id+'-inner');
+
 	this.options = {
 		'showgrid':(typeof attr.grid==="boolean" ? attr.grid : false),
 		'showlabel':(typeof attr.showlabel==="boolean" ? attr.showlabel : true),
@@ -41,17 +45,19 @@ function HexMap(attr){
 
 	this.style = {
 		'default': { 'fill': '#cccccc','fill-opacity':(this.options.showlabel ? 0.5 : 1),'font-size':fs },
-		'selected': { 'fill': '#ffffff','fill-opacity':(this.options.showlabel ? 0.8 : 1),'font-size':fs },
 		'highlight': { 'fill': '#1DD3A7' },
 		'grid': { 'fill': '#aaa','fill-opacity':0.1 }
 	};
 
 	for(var s in attr.style){
-		if(attr.style[s]['fill']) this.style[s]['fill'] = attr.style[s]['fill'];
-		if(attr.style[s]['fill-opacity']) this.style[s]['fill-opacity'] = attr.style[s]['fill-opacity'];
-		if(attr.style[s]['font-size']) this.style[s]['font-size'] = attr.style[s]['font-size'];
-		if(attr.style[s]['stroke']) this.style[s]['stroke'] = attr.style[s]['stroke'];
-		if(attr.style[s]['stroke-width']) this.style[s]['stroke-width'] = attr.style[s]['stroke-width'];
+		if(attr.style[s]){
+			if(!this.style[s]) this.style[s] = {};
+			if(attr.style[s]['fill']) this.style[s]['fill'] = attr.style[s]['fill'];
+			if(attr.style[s]['fill-opacity']) this.style[s]['fill-opacity'] = attr.style[s]['fill-opacity'];
+			if(attr.style[s]['font-size']) this.style[s]['font-size'] = attr.style[s]['font-size'];
+			if(attr.style[s]['stroke']) this.style[s]['stroke'] = attr.style[s]['stroke'];
+			if(attr.style[s]['stroke-width']) this.style[s]['stroke-width'] = attr.style[s]['stroke-width'];
+		}
 	}
 	
 	this.mapping = {};
@@ -89,37 +95,35 @@ function HexMap(attr){
 		return JSON.parse(JSON.stringify(d));
 	}
 
-	// style = none, default, selected
 	this.setHexStyle = function(r){
 		var h = this.hexes[r];
 		var style = clone(this.style['default']);
+		var cls = "";
 
-		if(h.active) style['fill'] = h.fillcolour;
+		if(h.active){
+			style['fill'] = h.fillcolour;
+			//cls += ' active';
+		}
+		if(h.hover){
+			cls += ' hover';
+		}
 		if(h.selected){
 			for(var p in this.style.selected) style[p] = this.style.selected[p];
+			cls += ' selected';
 		}
-		if(h.highlight){
-			for(var p in this.style.highlight) style[p] = this.style.highlight[p];
-		}
-
+		if(this.search.active) cls += (h.highlight) ? ' highlighted' : ' not-highlighted';
+		style['class'] = 'hex-cell'+cls;
 		h.attr(style);
+
+		this.labels[r].attr({'class':'hex-label'+cls});
 
 		return h;
 	}
-
-	this.highlightRegions = function(rs){
-		if(rs){
-			for(var region in this.hexes){
-				this.hexes[region].highlight = (rs[region]);
-				this.setHexStyle(region);
-			}
-		}else{
-			for(var region in this.hexes){
-				this.hexes[region].highlight = false;
-				this.setHexStyle(region);
-			}
-		}
-
+	
+	this.toFront = function(r){
+		// Simulate a change of z-index by moving this element (hex and label) to the end of the SVG
+		this.paper.paper[0].appendChild(this.hexes[r].el[0]);
+		this.paper.paper[0].appendChild(this.labels[r].el[0]);
 		return this;
 	}
 
@@ -140,6 +144,21 @@ function HexMap(attr){
 				}
 			}
 		}
+		return this;
+	}
+
+	this.regionFocus = function(r){
+		h = this.hexes[r];
+		h.hover = true;
+		this.setHexStyle(r);
+		this.toFront(r);
+		return this;
+	}
+
+	this.regionBlur = function(r){
+		h = this.hexes[r];
+		h.hover = false;
+		this.setHexStyle(r);
 		return this;
 	}
 
@@ -215,10 +234,10 @@ function HexMap(attr){
 	}
 
 	this.size = function(w,h){
-		S('#'+this.id).css({'height':'','width':''});
+		this.el.css({'height':'','width':''});
 		w = Math.min(this.w,S('#'+this.id)[0].offsetWidth);
-		S('#'+this.id).css({'height':(w/this.aspectratio)+'px','width':w+'px'});
-		this.paper = new SVG(this.id,this.maxw,this.maxh);
+		this.el.css({'height':(w/this.aspectratio)+'px','width':w+'px'});
+		this.paper = new SVG(this.id+'-inner',this.maxw,this.maxh);
 		w = this.paper.w;
 		h = this.paper.h;
 		scale = w/this.w;
@@ -226,36 +245,87 @@ function HexMap(attr){
 		this.w = w;
 		this.h = h;
 		this.transform = {'type':'scale','props':{x:w,y:h,cx:w,cy:h,r:w,'stroke-width':w}};
-		S('#'+this.id).css({'height':'','width':''})
-		this.addSearch();
+		this.el.css({'height':'','width':''});
+
 
 		return this;
 	}
+	
+	function Search(attr){
 
-	this.addSearch = function(){
-		S('#'+this.id).append('<div class="search"><button class="b6-bg" title="Search hexes by name"></button><input type="text" name="q" value="" /></div>');
-		
-		S('#'+this.id+' .search button').on('click',{me:this},function(e){
-			var id = '#'+e.data.me.id+' .search';
-			S(id).toggleClass('searching');
-			if(S(id).hasClass('searching')){
-				S(id).find('input')[0].focus();
+		if(!attr) attr = {};
+		this.attr = attr;
+		this.el = '';
+		this.active = false;
+
+		this.init = function(){
+
+			if(this.attr.id) this.el = S('#'+this.attr.id);
+
+			if(this.el.length == 0){
+				S('#'+hexmap.id).append('<div class="hex-search"></div>');
+				this.el = S('#'+_obj.id+' .hex-search');
 			}
-		});
-		S('#'+this.id+' .search input').on('keyup',{me:this},function(e){
-			var value = e.currentTarget.value.toLowerCase();
-			var regions = {};
-			if(value.length > 1){
-				for(var region in e.data.me.hexes){
-					if(e.data.me.hexes[region].attributes.title.toLowerCase().indexOf(value)>=0){
-						regions[region] = true;
+			
+			if(this.el.find('.search-input').length==0) this.el.append('<input type="text" class="search-input" name="constituencies" id="constituencies" value="">');
+			if(this.el.find('.search-button').length==0) this.el.append('<button class="search-button"></button>');
+
+			this.el.find('.search-button').on('click',{hexmap:_obj,me:this},function(e){
+				e.data.me.toggle();
+			});
+			this.el.find('.search-input').on('keyup',{hexmap:_obj,me:this},function(e){
+				var value = e.currentTarget.value.toLowerCase();
+				var regions = {};
+				if(value.length > 1){
+					for(var region in e.data.hexmap.hexes){
+						if(e.data.hexmap.hexes[region].attributes.title.toLowerCase().indexOf(value)>=0){
+							regions[region] = true;
+						}
 					}
 				}
+				e.data.me.highlight(regions);
+			});
+		}
+		this.toggle = function(){
+			this.active = !this.active;
+			
+			if(this.active){
+				this.el.addClass('searching');
+				this.el.find('.search-input')[0].focus();
+				// Force the cursor to go to the end by clearing and resetting
+				var v = this.el.find('.search-input')[0].value;
+				this.el.find('.search-input')[0].value = '';
+				this.el.find('.search-input')[0].value = v;
+				if(this.el.find('.search-input')[0].value) this.el.find('.search-input').trigger('keyup');
+			}else{
+				this.el.removeClass('searching');
+				this.highlight({});
 			}
-			e.data.me.highlightRegions(regions);
-		}).on('blur',{me:this},function(e){
-			S('#'+e.data.me.id+' .search').toggleClass('searching');
-		});
+		}
+
+		this.highlight = function(rs){
+			this.n = 0;
+			for(var region in rs) this.n++;
+			
+			for(var region in _obj.hexes){
+				if(this.n>0){
+					if(rs[region]){
+						_obj.hexes[region].highlight = true;//(rs[region]);
+						_obj.hexes[region].attr({'class':'hex-cell highlighted'});
+					}else{
+						_obj.hexes[region].highlight = false;
+						_obj.hexes[region].attr({'class':'hex-cell not-highlighted'});
+					}
+				}else{
+					_obj.hexes[region].highlight = false;
+					_obj.hexes[region].attr({'class':'hex-cell'});
+				}
+			}
+
+			return this;
+		}
+
+		this.init();
 
 		return this;
 	}
@@ -441,9 +511,20 @@ function HexMap(attr){
 			if(this.values[region].value < 0) this.values[region] = 0;
 			if(this.values[region].value > 1) this.values[region] = 1;
 
-			var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);//,this.mapping.hexes[region].value*0.5 + 0.5);
+			var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
 			
 			if(!this.constructed){
+				this.hexes[region] = this.paper.path(h.path).attr({'class':'hex-cell','data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r});
+				this.hexes[region].selected = false;
+				this.hexes[region].active = true;
+				this.hexes[region].attr({'id':'hex-'+region});
+
+				// Attach events
+				this.hexes[region].on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
+					.on('mouseout',{type:'hex',hexmap:this,region:region,me:this.hexes[region]},events.mouseout)
+					.on('click',{type:'hex',hexmap:this,region:region,me:this.hexes[region],data:this.mapping.hexes[region]},events.click);
+
+
 				if(this.options.showlabel){
 					if(!this.labels) this.labels = {};
 					if(this.style['default']['font-size'] > this.options.minFontSize){
@@ -452,16 +533,12 @@ function HexMap(attr){
 						//this.paper.clip({'path':h.path,'type':'path'}).attr({'id':'hex-'+region+'-clip'});
 					}
 				}
-				this.hexes[region] = this.paper.path(h.path).attr({'class':'hex-cell','data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r});
-				this.hexes[region].selected = false;
-				this.hexes[region].active = true;
-				this.hexes[region].attr({'id':'hex-'+region});
 
 				// Attach events
-				var _obj = this.hexes[region];
-				_obj.on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
-					.on('mouseout',{type:'hex',hexmap:this,me:_obj},events.mouseout)
-					.on('click',{type:'hex',hexmap:this,region:region,me:_obj,data:this.mapping.hexes[region]},events.click);
+				this.labels[region].on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
+					.on('mouseout',{type:'hex',hexmap:this,region:region,me:this.labels[region]},events.mouseout)
+					.on('click',{type:'hex',hexmap:this,region:region,me:this.labels[region],data:this.mapping.hexes[region]},events.click);
+
 			}
 			this.setHexStyle(region);
 			this.hexes[region].attr({'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
@@ -499,6 +576,9 @@ function HexMap(attr){
 	if(attr.file) this.load(attr.file);
 	
 	
+	this.search = new Search(attr.search);
+
+
 	return this;
 }
 

@@ -1,10 +1,17 @@
-function Constituencies(id,w,h,padding,file){
+function Constituencies(id,attr){
+	if(!attr) attr = {};
+	if(!attr.padding) attr.padding = 0;
+	if(!attr.width || !attr.height || !attr.file) return {};
 
-	this.w = w;
-	this.h = h;
-	this.aspectratio = w/h;
+	this.w = attr.width;
+	this.h = attr.height;
+	this.aspectratio = attr.width/attr.height;
 	this.id = id;
-	this.type = S('#data-selector')[0].value;
+	this.type = "";
+
+	if(S('#data-selector').length > 0) this.type = S('#data-selector')[0].value;
+	if(S('.view-toggle').length > 0) this.type = document.querySelector('input[name="view"]:checked').id;
+
 	this.defaulttype = this.type;
 
 	// Use the search string to pick a parameter to display
@@ -12,21 +19,41 @@ function Constituencies(id,w,h,padding,file){
 	if(t){
 		// Check if this is in the list
 		var options = S('#data-selector option');
-		var ok = false;
-		var v = "";
-		for(var i = 0; i < options.length; i++){
-			if(options[i].getAttribute('value')==t){
-				ok = true;
+		if(options.length > 0){
+			var ok = false;
+			var v = "";
+			for(var i = 0; i < options.length; i++){
+				if(options[i].getAttribute('value')==t){
+					ok = true;
+				}
 			}
-		}
-		if(ok){
-			S('#data-selector')[0].value = t;
-			this.type = t;
+			if(ok){
+				S('#data-selector')[0].value = t;
+				this.type = t;
+			}
+		}else{
+			// Check if this is in the list
+			var options = S('.view-toggle');
+
+			if(options.length > 0){
+				var v = "";
+				for(var i = 0; i < options.length; i++){
+					if(options[i].getAttribute('id')==t){
+						options[i].checked = true;
+						this.type = t;
+					}
+				}
+			}
 		}
 	}
 
+
 	// Create a hex map
-	this.hex = new HexMap({'id':id,'width':w,'height':h,'size':16,'padding':padding});
+	attrhex = JSON.parse(JSON.stringify(attr));
+	attrhex.id = id;
+	attrhex.size = 16;
+
+	this.hex = new HexMap(attrhex);
 
 	// Do we update the address bar?
 	this.pushstate = !!(window.history && history.pushState);
@@ -40,7 +67,7 @@ function Constituencies(id,w,h,padding,file){
 		};
 	}
 
-	this.hex.load(file,{me:this},function(e){
+	this.hex.load(attr.file,{me:this},function(e){
 		e.data.me.setType(e.data.me.type);
 	});
 	
@@ -94,7 +121,7 @@ function Constituencies(id,w,h,padding,file){
 					lbl += '<br /><strong>'+(c[i].id ? '<a href="https://candidates.democracyclub.org.uk/person/'+c[i].id+'">'+c[i].name+'</a>':c[i].name)+'</strong> - '+c[i].party_name;
 				}
 			}
-			lbl += '<br /><div style="font-size:0.8em;color:#999;margin-top:16px;border-top:1px solid black;">Missing candidates? <a href="https://candidates.democracyclub.org.uk/election/parl.2019-12-12/post/WMC:'+e.data.region+'">Add them to Democracy Club.</a></div>'
+			//lbl += '<br /><div style="font-size:0.8em;color:#999;margin-top:16px;border-top:1px solid black;">Missing candidates? <a href="https://candidates.democracyclub.org.uk/election/parl.2019-12-12/post/WMC:'+e.data.region+'">Add them to Democracy Club.</a></div>'
 		}else if(e.data.builder.by == "GE2017-gender" || e.data.builder.by == "GE2019-gender"){
 			lbl = '<span style="border-bottom:1px solid #333;margin-bottom:0.25em;display:inline-block;">'+title+'</span>';
 			var c = e.data.hexmap.data[e.data.builder.by][e.data.region];
@@ -105,23 +132,24 @@ function Constituencies(id,w,h,padding,file){
 		}else lbl = title+'<br />Region: '+rs[e.data.hexmap.mapping.hexes[e.data.region].a];
 		return {'label':lbl,'class':cls};
 	}
-	this.hex.on('mouseover',{'builder':this},function(e){
-		this.attr('fill-opacity',0.75).attr('stroke-width',4.5);
-		// Simulate a change of z-index by moving this element to the end of the SVG
-		this.parent()[0].appendChild(this[0]);
-	}).on('mouseout',function(e){
-		this.attr('fill-opacity',0.5).attr('stroke-width',1.5);
+	this.hex.on('mouseover',function(e){
+
+		e.data.hexmap.regionFocus(e.data.region);
+
+	}).on('mouseout',{'builder':this},function(e){
+
+		e.data.hexmap.regionBlur(e.data.region);
+
 	}).on('click',{'builder':this},function(e){
-		if(e.data.builder.by=="GE2017-candidates"){
-			location.href = "https://candidates.democracyclub.org.uk/election/parl.2017-06-08/post/WMC:"+e.data.region+"/";
-		}else{
-			var previous = e.data.hexmap.selected;
-			var current = e.data.region;
-			if(previous && current == previous) e.data.hexmap.regionToggleSelected(previous,true);
-			else e.data.hexmap.selectRegion(e.data.region);
-			if(!e.data.hexmap.selected) S('.infobubble').remove();
-			else e.data.builder.label(e,this.attr('title'));
-		}
+
+		var previous = e.data.hexmap.selected;
+		var current = e.data.region;
+		if(e.data.hexmap.search.active) e.data.hexmap.search.toggle();
+		if(previous && current == previous) e.data.hexmap.regionToggleSelected(previous,true);
+		else e.data.hexmap.selectRegion(e.data.region);
+		if(!e.data.hexmap.selected) S('.infobubble').remove();
+		else e.data.builder.label(e,this.attr('title'));
+
 	});
 
 	this.label = function(e,title){
@@ -152,11 +180,15 @@ function Constituencies(id,w,h,padding,file){
 		S('#savesvg').css({'display':'none'});
 	}
 
-	// Add events to buttons for colour changing
+	// Add events to select options for colour changing
 	S('#data-selector').on('change',{me:this},function(e){
 		e.data.me.setType(e.currentTarget.selectedOptions[0].getAttribute('value'));
 		S(e.currentTarget).removeClass('c10-bg').addClass('b5-bg');
 		S(e.currentTarget.selectedOptions[0]).addClass('c10-bg').removeClass('b5-bg');
+	});
+	// Add events to buttons for colour changing
+	S('.view-toggle').on('change',{me:this},function(e){
+		e.data.me.setType(document.querySelector('input[name="view"]:checked').id);
 	});
 
 	this.saveSVG = function(){
@@ -354,7 +386,7 @@ function Constituencies(id,w,h,padding,file){
 					this.setColours(attr['type']);
 				},
 				'error':function(e,attr){
-					console.error('Unable to load '+attr.file );
+					console.error('Unable to load '+attr.url);
 				}
 			});
 		}else{
@@ -390,8 +422,14 @@ function Constituencies(id,w,h,padding,file){
 
 	this.setColours = function(type){
 		if(!type) type = "region";
-
-		S('#data-selector')[0].value = type;
+		
+		if(S('#data-selector').length > 0) S('#data-selector')[0].value = type;
+		if(S('.view-toggle').length > 0){
+			var options = S('.view-toggle');
+			for(var i = 0; i < options.length; i++){
+				if(options[i].getAttribute('id')==type) options[i].checked = true;
+			}
+		}
 
 		this.by = type;
 		if(type == "GE2015-results" && (!this.data || !this.data["GE2015-results"])) return this.loadResults("GE2015-results");
@@ -433,7 +471,7 @@ function Constituencies(id,w,h,padding,file){
 				if(value > 1) value = 1;
 				return getColour(value,a,b);
 			};
-			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
+			key = '&le;'+mine+'<span style="'+makeGradient(a,b)+';width: 10em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>&ge;'+maxe;
 		}else if(type == "GE2015-results"){
 			this.hex.setColours = function(region){
 				r = this.data["GE2015-results"][region].replace(/[\n\r]/g,"");
@@ -450,7 +488,7 @@ function Constituencies(id,w,h,padding,file){
 				return (p[r] || '#000');
 			}
 			for(var party in p){
-				key += '<span style="background-color:'+p[party]+';width: 1em; height: 1em;opacity: 0.7;display: inline-block;margin: 0 0.25em;"></span>'+(names[party] || party);
+				key += '<span style="background-color:'+p[party]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>'+(names[party] || party);
 			}
 		}else if(type == "GE2017-turnout"){
 			var b = new Colour('#F9BC26');

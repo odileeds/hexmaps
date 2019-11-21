@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hex map of UK constituencies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/ge2019/">
+	<meta name="twitter:title" property="og:title" content="GE2019: hex map">
+	<meta name="twitter:description" property="og:description" content="The 2019 UK General Elections results on a constituency hex map.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<script type="text/javascript" src="../resources/stuquery.js"></script>
+	<script type="text/javascript" src="../resources/stuquery.svg.js"></script>
+	<script type="text/javascript" src="../resources/stuquery.hexmap.js"></script>
+	<script type="text/javascript" src="../resources/constituencies.js"></script>
+	<script>
+	var constituencies;
+	S(document).ready(function(){
+		constituencies = new Constituencies('hexmap',{
+			'width':915,
+			'height':1120,
+			'padding':0,
+			'file':'../maps/constituencies.hexjson',
+			'search':{'id':'search'}
+		});
+	});
+	</script>
+	<style>
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	  display: block; }
+
+	body {
+	  line-height: 1em; }
+
+	ol, ul {
+	  list-style: none; }
+
+	blockquote, q {
+	  quotes: none; }
+
+	blockquote:before, blockquote:after, q:before, q:after {
+	  content: '';
+	  content: none; }
+
+	table {
+	  border-collapse: collapse;
+	  border-spacing: 0; }
+
+	/* apply a natural box layout model to all elements */
+	*, *:before, *:after {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+
+	/* End of reset */
+	html, body {
+		padding: 0px;
+		margin: 0px;
+		min-height: 100%!important;
+		height: 100%!important;
+		background-color: #ffffff;
+		font-family: Merriweather, Georgia, "Times New Roman", serif;
+		font-size: 16px;
+		color: #333;
+		line-height: 1.44em;
+	}
+	#main { padding: 1em; }
+	button, .button { margin-top: 0.25em; border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
+	a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
+	.c10-bg { background-color: #c1002a; }
+	.b5-bg { background-color: #efefef; }
+	
+	#hexmap {
+		margin: auto;
+		max-width: 100%;
+		position: relative;
+		width: 100%; height: auto; max-width: 100vw;
+	}
+	svg { max-width: 100%; height: auto; }
+	select {
+		font-size: 1em;
+		height: 2em;
+		margin-bottom: 1em;
+	}
+	form {
+		text-align: center;
+	}
+	#key { max-width: 800px; margin: auto; margin-bottom: 1em; }
+	.generalelection .infobubble_inner { display: flex; }
+	.generalelection {
+		width: 500px;
+		max-width: 80%;
+		text-align: left;
+		line-height: 1.5em;
+		padding: 1em;
+	}
+	.generalelection img {
+		width: 5.5em;
+		height: auto;
+		margin-right: 0.5em;
+	}
+	.generalelection table {
+		width: 100%;
+	}
+	#hexmap .hex-grid { display: none; }
+	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
+	.bottom a, .bottom a:visited { color: inherit; }
+
+
+
+	/* New Statesman styles */
+	p, ul, ol, dl, input, .cta, button, .toggle, .more-link, select { font-family: Merriweather, Georgia, "Times New Roman", serif; text-rendering: optimizeLegibility; }
+	#key { text-align: center; }
+	#search { position: absolute; display: block; }
+	#search input {
+		font-size: 1em;
+		background: rgba(255,255,255,0.7) !important;
+		border: solid 0.5em #c1002a;
+		border-left: 0px;
+		display: none;
+		color: black;
+		padding: 0 0.5em;
+		height: 3em;
+	}
+	#search label {
+		font-size: 1em;
+		display: inline-block;
+		background: #c1002a;
+		color: white;
+		padding: 1.13em;
+		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height: 1;
+		text-transform: uppercase;
+		padding: 0.5em 1em;
+		font-weight: bold;
+		text-decoration: none;
+		letter-spacing: 0.05em;
+		background-image: url("search.svg");
+		background-position: center center;
+		line-height: 2em;
+		background-repeat: no-repeat;
+		background-size: 0.8em;
+	}
+	#search svg { position: relative; top: 0.2em; }
+	#search.searching input { display: inline-block; }
+	.hex-cell { fill-opacity: 1; }
+	.hex-cell.highlighted { stroke: black!important; stroke-width: 2px!important; }
+	.hex-cell.not-highlighted { opacity: 0.3!important; }
+	.hex-cell.hover { stroke: #c1002a!important; stroke-width: 5px!important; fill: black!important; opacity:1!important; fill-opacity: 1!important; }
+	.hex-label.hover { fill: white!important; }
+	.hex-label.selected { fill: black!important;}
+	.hex-cell.selected { fill: #dfdfdf!important; }
+	.infobubble {
+		z-index: 3;
+		top: 1em;
+		left: 50%;
+		transform: translate3d(-50%, 0, 0);
+		position: fixed;
+		text-align: center;
+		margin-right: -50%;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+		background-color: #c1002a;
+		color: white;
+		padding: 1em;
+	}
+	.controls { margin-bottom: 1em; }
+	button.on, button.on:hover {
+		background-color: #c1002a!important;
+		color: white!important;
+	}
+	.controls label { padding: 1em; display: inline-block; line-height: 1em; cursor: pointer; }
+	.controls label:hover { background-color: #ddd; }
+	.controls input { opacity: 0.01; position: absolute; float: left; }
+	.controls input:checked + label {
+		background-color: #c1002a!important;
+		color: white!important;
+	}
+	.infobubble.generalelection { text-align: left; }
+	.infobubble a, .infobubble a:visited { color: inherit; }
+	@media only screen and (max-width: 700px) {
+		#hexmap text { display: none; }
+	}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+<body class="b6-bg">
+
+	<div id="main">
+
+		<!--
+		<form>
+			<label style="text-align:center;">Colour by:</label>
+			<select id="data-selector">
+				<option class="switchdata b5-bg" selected="selected" value="GE2019-candidates">2019: candidates</option>
+				<option class="switchdata b5-bg" value="GE2017-results">2017: results</option>
+				<option class="switchdata b5-bg" value="GE2015-results">2015: results</option>
+			</select>
+		</form>
+		-->
+		<div class="controls">
+			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-candidates" name="view" checked="checked" /><label for="GE2019-candidates">2019 candidates</label>
+			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017 results</label>
+			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015 results</label>
+		</div>
+		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
+		<div id="hexmap" style="text-align:center;margin:auto;">
+				<div id="search"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value=""></div>
+
+		</div>
+		<div id="key"></div>
+
+		<div class="bottom">
+			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a>, <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
+		</div>
+	</div>
+</body>
+</html>

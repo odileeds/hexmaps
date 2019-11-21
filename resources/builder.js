@@ -48,12 +48,8 @@ function HexBuilder(id,attr){
 		
 		this.hex.on('mouseover',{'builder':this},function(e){
 			if(e.data.type=="hex"){
+				e.data.hexmap.regionFocus(e.data.region);
 				e.data.builder.label(e.data.data);
-				this.attr('fill-opacity',0.8);
-				this.attr('stroke','#000000');
-				this.attr('stroke-width',3);
-				// Simulate z-index by moving this element to the end of the SVG
-				S('#'+e.data.builder.hex.id+' svg')[0].appendChild(this[0]);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
 					this.attr('fill-opacity',0.5);
@@ -62,9 +58,7 @@ function HexBuilder(id,attr){
 		}).on('mouseout',function(e){
 			if(e.data.type=="hex"){
 				S('.infobubble').remove();
-				this.attr('fill-opacity',0.5);
-				this.attr('stroke','#ffffff');
-				this.attr('stroke-width',1.5);
+				e.data.hexmap.regionBlur(e.data.region);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
 					this.attr('fill-opacity',0.1);
@@ -72,7 +66,7 @@ function HexBuilder(id,attr){
 			}
 		}).on('click',{'builder':this},function(e){
 			if(e.data.type=="hex"){
-				e.data.hexmap.highlightRegions();
+				if(e.data.hexmap.search.active) e.data.hexmap.search.toggle();
 				e.data.hexmap.regionToggleSelected(e.data.region,true);
 				e.data.builder.label(e.data.data);
 			}else if(e.data.type=="grid"){

@@ -19,7 +19,16 @@
 	<script>
 	var constituencies;
 	S(document).ready(function(){
-		constituencies = new Constituencies('hexmap',915,1120,0,"../maps/constituencies.hexjson");
+
+
+
+		constituencies = new Constituencies('hexmap',{
+			'width':915,
+			'height':1120,
+			'padding':0,
+			'file':'../maps/constituencies.hexjson',
+			'search':{'id':'search'}
+		});
 	});
 	</script>
 	<style>

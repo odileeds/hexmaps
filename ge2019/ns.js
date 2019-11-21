@@ -139,9 +139,10 @@ function ResultsMap(id,attr){
 		var lbl = e.data.hexmap.mapping.hexes[e.data.region].label;
 		
 		var view = e.data.builder.views[e.data.builder.by];
-		if(view.popup && typeof view.popup.render==="function"){
+		if(view && view.popup && typeof view.popup.render==="function"){
 			return view.popup.render.call(e.data.builder,title,e.data.region);
 		}else{
+			console.warning('No view for '+e.data.builder.by);
 			return {'label':title,'class':cls};
 		}
 	}

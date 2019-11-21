@@ -70,10 +70,10 @@ function ResultsMap(id,attr){
 	}
 
 	this.hex.load(attr.file,{me:this},function(e){
-		e.data.me.setType(e.data.me.type,true);
+		e.data.me.setType(e.data.me.type,(e.data.me.type!=e.data.me.defaulttype ? true : false));
 	});
 	
-	this.setType = function(t,firstUpdate){
+	this.setType = function(t,update){
 
 		// Have we changed type?
 		if(t==this.by){
@@ -82,7 +82,7 @@ function ResultsMap(id,attr){
 		}
 
 		// Update the history
-		if(this.pushstate) history.pushState({type:t},"Hexes",(firstUpdate ? '?' : '?'+t));
+		if(this.pushstate) history.pushState({type:t},"Hexes",(update ? '?'+t : ''));
 
 		this.updateData(t);
 
@@ -173,15 +173,9 @@ function ResultsMap(id,attr){
 		return this;
 	}
 
-	// Add events to select options for colour changing
-	S('#data-selector').on('change',{me:this},function(e){
-		e.data.me.setType(e.currentTarget.selectedOptions[0].getAttribute('value'));
-		S(e.currentTarget).removeClass('c10-bg').addClass('b5-bg');
-		S(e.currentTarget.selectedOptions[0]).addClass('c10-bg').removeClass('b5-bg');
-	});
 	// Add events to buttons for colour changing
 	S('.view-toggle').on('change',{me:this},function(e){
-		e.data.me.setType(document.querySelector('input[name="view"]:checked').id);
+		e.data.me.setType(document.querySelector('input[name="view"]:checked').id,true);
 	});
 
 

@@ -70,10 +70,10 @@ function ResultsMap(id,attr){
 	}
 
 	this.hex.load(attr.file,{me:this},function(e){
-		e.data.me.setType(e.data.me.type);
+		e.data.me.setType(e.data.me.type,true);
 	});
 	
-	this.setType = function(t){
+	this.setType = function(t,firstUpdate){
 
 		// Have we changed type?
 		if(t==this.by){
@@ -82,7 +82,7 @@ function ResultsMap(id,attr){
 		}
 
 		// Update the history
-		if(this.pushstate) history.pushState({type:t},"Hexes",(t==this.defaulttype ? '' : '?'+t));
+		if(this.pushstate) history.pushState({type:t},"Hexes",(firstUpdate ? '' : '?'+t));
 
 		this.updateData(t);
 

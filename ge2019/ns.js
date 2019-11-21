@@ -99,7 +99,7 @@ function ResultsMap(id,attr){
 					// Set the colours of the map
 					this.setColours(attr.type);
 				});
-			},6000);
+			},60000);
 		}else{
 			if(this.polling){
 				console.info('Stop loop');

@@ -73,7 +73,7 @@ close($fh);
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
 foreach $pcd (sort(keys(%con))){
-	open(FILE,">","constituencies/$pcd.json");
+	open(FILE,">:encoding(UTF-8)","constituencies/$pcd.json");
 	print FILE "{\n";
 	print FILE "\t\"id\": \"$pcd\",\n";
 	print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";

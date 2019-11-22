@@ -266,7 +266,7 @@
 					party = data.elections['2019'].candidates[c].party;
 					name = data.elections['2019'].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
-					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span><a href="'+url+'" target="_parent">'+name+' ('+party+')</a>'+'</li>'
+					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span><a href="'+url+'" target="_parent">'+name+' - '+party+'</a>'+'</li>'
 				}
 				lbl += '</ul>';
 				
@@ -274,7 +274,7 @@
 			if(data.elections['2017']){
 				lbl += '<div class="popup-title" style="border-color:%COLOR%">2017</div>';
 				party = data.elections['2017'].first;
-				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2017'].mysoc ? '<a href="'+data.elections['2017'].mysoc+'" target="_parent">':'')+data.elections['2017'].mp+' ('+(parties[party] ? (parties[party].title||party) : party)+')'+(data.elections['2017'].mysoc ? '</a>':'')+'<br />';
+				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2017'].mysoc ? '<a href="'+data.elections['2017'].mysoc+'" target="_parent">':'')+data.elections['2017'].mp+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections['2017'].mysoc ? '</a>':'')+'<br />';
 				if(data.elections['2017'].turnout) lbl += 'Turnout: '+data.elections['2017'].turnout+'%<br />';
 				if(data.elections['2017'].majority) lbl += 'Majority: '+data.elections['2017'].majority.toLocaleString()+'<br />';
 			}

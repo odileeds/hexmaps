@@ -97,7 +97,6 @@
 	p, ul, ol, dl, input, .cta, button, .toggle, .more-link, select { font-family: Merriweather, Georgia, "Times New Roman", serif; text-rendering: optimizeLegibility; }
 
 	#hexmap .hex-grid { display: none; }
-	#key { text-align: center; }
 	#search { position: absolute; display: block; }
 	#search input {
 		font-size: 1em;
@@ -150,9 +149,9 @@
 		background-color: #c1002a!important;
 		color: white!important;
 	}
-	#key { max-width: 800px; margin: auto; margin-bottom: 1em; }
+	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; }
 	#key .party { display: inline-block; margin-right: 0.5em; }
-	#key .party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em; position: relative; top:0.1em; }
+	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em; position: relative; top:0.1em; border:1px solid white; }
 
 	.infobubble {
 		z-index: 3;
@@ -163,7 +162,7 @@
 		text-align: center;
 		margin-right: -50%;
 		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
-		background-color: white;
+		background-color: #efefef;
 		color: black;
 		padding: 1em;
 	}
@@ -173,8 +172,8 @@
 	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
 	.popup-bio { display: flex; }
 	.generalelection {
-		width: 500px;
-		max-width: 80%;
+		width: 600px;
+		max-width: calc(100% - 2em);
 		text-align: left;
 		line-height: 1.5em;
 		padding: 1em;
@@ -203,8 +202,8 @@
 	<div id="main">
 		<div class="controls">
 			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-candidates" name="view" checked="checked" /><label for="GE2019-candidates">2019 candidates</label>
-			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017 results</label>
-			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015 results</label>
+			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017</label>
+			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015</label>
 		</div>
 		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
 		<div id="hexmap" style="text-align:center;margin:auto;">
@@ -220,43 +219,66 @@
 	<script>
 	var constituencies;
 
+	var lookup = {'Conservative and Unionist Party':'Con','Scottish National Party (SNP)':'SNP','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Liberal Democrats':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian'};
 	var parties = {
 		'Con':{'color':'#2254F4','title':'Conservative'},
 		'Lab':{'color':'#D60303','title':'Labour'},
 		'LD':{'color':'#faa61a','title':'Lib Dem'},
-		'SNP':{'color':'#fdf38e'},
-		'PC':{'color':'#1DD3A7','title':'Plaid Cymru'},
-		'UKIP':{'color':'#470A65'},
 		'Green':{'color':'#0DBC37'},
+		'Brexit':{'color':'#09b7d0'},
+		'SNP':{'color':'#fdf38e'},
+		'UKIP':{'color':'#470A65'},
+		'PC':{'color':'#1DD3A7','title':'Plaid Cymru'},
+		'YP':{'color':'#21a8e0','title':'Yorkshire'},
+		'Christian':{'color':'#813887','title':'Christian Peoples'},
+		'Monster':{'color':'#fff000','title':'Monster Raving Loony'},
+		'SDP':{'color':'#d25469'},
+		'Liberal':{'color':'#eb7a43'},
+		'Alliance':{'color':'#f6cb2f'},
+		/*'WE':{'color':'#63b69a','title':'Women\'s Equality Party'},*/
 		'DUP':{'color':'#4f4c9a'},
 		'SDLP':{'color':'#fbb675'},
 		'SF':{'color':'#b6c727'},
 		'UUP':{'color':'#EF3AAB'},
-		'Ind':{'color':'#dfdfdf'},
+		'Ind':{'color':'#dfdfdf','title':'Independent'},
 		'Spk':{'color':'#909090','title':'Speaker'}
 	};
 	
 	var render = function(title,region,data){
-		var r,p = "",lbl = "";
+		var r;
+		var p = "";
+		var lbl = "";
+		var wincolour = "";
 		if(!data) data = {};
 
-		lbl = '<div class="popup-title">'+(data.title||title)+'</div>';
-
-		if(data.turnout) lbl += 'Turnout: '+data.turnout+'%<br />';
-		if(data.majority) lbl += 'Majority: '+data.majority.toLocaleString()+'<br />';
-
-		// Add 2019 candidates
-		if(this.data['GE2019-candidates']){
-			var c = this.data['GE2019-candidates'][region];
-			lbl += 'Candidates: '+this.data['GE2019-candidates'][region].candidates+'<br />';
+		lbl = '<div class="popup-title" style="border-color:%COLOR%">'+(data.title||title)+'</div>';
+		if(data.elections){
+			if(data.elections['2019']){
+				if(data.elections['2019'].first){
+					party = data.elections['2019'].first;
+					wincolour = (parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'));
+					lbl += ''+(parties[party] ? parties[party].title||party : '?')+(data.elections['2017'].first==data.elections['2019'].first ? ' HOLD':' GAIN')+'<br />';
+				}
+				lbl += 'Candidates:<ul>';
+				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
+					party = data.elections['2019'].candidates[c].party;
+					name = data.elections['2019'].candidates[c].name;
+					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
+					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span><a href="'+url+'" target="_democlub">'+name+' ('+party+')</a>'+'</li>'
+				}
+				lbl += '</ul>';
+				
+			}
+			if(data.elections['2017']){
+				lbl += '<strong>2017</strong><br />';
+				p = data.elections['2017'].first
+				lbl += 'Party: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
+				if(data.elections['2017'].turnout) lbl += 'Turnout: '+data.elections['2017'].turnout+'%<br />';
+				if(data.elections['2017'].majority) lbl += 'Majority: '+data.elections['2017'].majority.toLocaleString()+'<br />';
+			}
 		}
 
-		// Add 2017 results
-		if(this.data["GE2017-results"]){
-			if(!p) p = this.data["GE2017-results"][region].first;
-			lbl += '2017: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
-		}
-		// Add 2017 results
+		// Add 2015 results
 		if(this.data["GE2015-results"]){
 			if(!p) p = this.data["GE2015-results"][region].first;
 			lbl += '2015: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
@@ -267,8 +289,10 @@
 			r = this.data['constituency-card'][region];
 			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
 		}
+		
+		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a>.</p>'
 
-		return {'label':lbl,'class':'generalelection','color':(p && parties[p] ? (parties[p].color||''):'')};
+		return {'label':lbl,'class':'generalelection','color':wincolour};
 	}
 
 	var views = {
@@ -283,8 +307,8 @@
 				}
 			},
 			'popup': {
-				/*'file': 'constituencies/%region%.json',
-				'live':true,*/
+				'file': 'constituencies/%region%.json',
+				'live':true,
 				'render': render
 			},
 			'key': function(){
@@ -315,8 +339,8 @@
 				}
 			},
 			'popup': {
-				/*'file': 'constituencies/%region%.json',
-				'live':true,*/
+				'file': 'constituencies/%region%.json',
+				'live':true,
 				'render': render
 			},
 			'key': function(){
@@ -344,8 +368,8 @@
 				}
 			},
 			'popup': {
-				/*'file': 'constituencies/%region%.json',
-				'live':true,*/
+				'file': 'constituencies/%region%.json',
+				'live':true,
 				'render': render
 			},
 			'key': function(){

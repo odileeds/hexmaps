@@ -176,8 +176,9 @@ function ResultsMap(id,attr){
 				l = {'label':title,'class':cls};
 			}
 			var c = l.color;
-			var t = (l.color ? setTextColor(c) : '');
+			var t = (l.color ? setTextColor(c) : 'black');
 			var txt = l.label;
+			txt = txt.replace(/%COLOR%/g,t);
 			if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><button class="close button" title="Close constituency information">&times;</button><div class="infobubble_inner"></div></div>');
 			S('.infobubble_inner').html(txt).css({'width':(l.w ? l.w+'px':''),'height':(l.h ? l.h+'px':'')});
 			S('.infobubble').attr('class','infobubble'+(l['class'] ? ' '+l['class'] : ''));
@@ -188,6 +189,7 @@ function ResultsMap(id,attr){
 		// May need to load data first
 		if(popup.file){
 			// Load data from a file
+			console.info('Loading data for '+region,popup.file.replace(/%region%/g,region));
 			S().ajax(popup.file.replace(/%region%/g,region),{
 				'this': this,
 				'callback': callback,

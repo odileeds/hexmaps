@@ -95,6 +95,8 @@
 
 	/* New Statesman styles */
 	p, ul, ol, dl, input, .cta, button, .toggle, .more-link, select { font-family: Merriweather, Georgia, "Times New Roman", serif; text-rendering: optimizeLegibility; }
+
+	#hexmap .hex-grid { display: none; }
 	#key { text-align: center; }
 	#search { position: absolute; display: block; }
 	#search input {
@@ -161,12 +163,13 @@
 		background-color: #c1002a!important;
 		color: white!important;
 	}
-	.infobubble.generalelection { text-align: left; }
-	.infobubble a, .infobubble a:visited { color: inherit; }
-	.infobubble .popup-title { border-bottom:1px solid #333;margin-bottom:0.25em; display:block; }
 	#key { max-width: 800px; margin: auto; margin-bottom: 1em; }
 	#key .party { display: inline-block; margin-right: 0.5em; }
 	#key .party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em; position: relative; top:0.1em; }
+
+	.infobubble.generalelection { text-align: left; }
+	.infobubble a, .infobubble a:visited { color: inherit; }
+	.infobubble .popup-title { border-bottom:1px solid #333;margin-bottom:0.25em; display:block; }
 	.popup-bio { display: flex; }
 	.generalelection {
 		width: 500px;
@@ -183,9 +186,10 @@
 	.generalelection table {
 		width: 100%;
 	}
-	#hexmap .hex-grid { display: none; }
+
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
 	.bottom a, .bottom a:visited { color: inherit; }
+	.close.button, .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit; }
 
 
 	@media only screen and (max-width: 700px) {
@@ -231,6 +235,41 @@
 		'Ind':{'color':'#dfdfdf'},
 		'Spk':{'color':'#909090','title':'Speaker'}
 	};
+	
+	var render = function(title,region,data){
+		var r,p,lbl = "";
+		if(!data) data = {};
+
+		lbl = '<div class="popup-title">'+(data.title||title)+'</div>';
+
+		if(data.turnout) lbl += 'Turnout: '+data.turnout+'%<br />';
+		if(data.majority) lbl += 'Majority: '+data.majority.toLocaleString()+'<br />';
+
+		// Add 2019 candidates
+		if(this.data['GE2019-candidates']){
+			var c = this.data['GE2019-candidates'][region];
+			lbl += 'Candidates: '+this.data['GE2019-candidates'][region].candidates+'<br />';
+		}
+
+		// Add 2017 results
+		if(this.data["GE2017-results"]){
+			p = this.data["GE2017-results"][region].first;
+			lbl += '2017: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
+		}
+		// Add 2017 results
+		if(this.data["GE2015-results"]){
+			p = this.data["GE2015-results"][region].first;
+			lbl += '2015: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
+		}
+
+		// Add bio
+		if(this.data['constituency-card']){
+			r = this.data['constituency-card'][region];
+			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
+		}
+
+		return {'label':lbl,'class':'generalelection','color':(parties[p] ? (parties[p].color||''):'')};
+	}
 
 	var views = {
 		'GE2019-candidates':{
@@ -246,14 +285,7 @@
 			'popup': {
 				'file': 'constituencies/%region%.json',
 				'live':true,
-				'render': function(title,region){
-					var c = this.data['GE2019-candidates'][region];
-					lbl = '<div class="popup-title">'+title+'</div>'+c.candidates+' candidates';
-					if(c){
-						for(var i = 0; i < c.length; i++) lbl += '<br /><strong>'+(c[i].id ? '<a href="https://candidates.democracyclub.org.uk/person/'+c[i].id+'">'+c[i].name+'</a>':c[i].name)+'</strong> - '+c[i].party_name;
-					}
-					return {'label':lbl,'class':''};
-				}
+				'render': render
 			},
 			'key': function(){
 				var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
@@ -285,16 +317,7 @@
 			'popup': {
 				'file': 'constituencies/%region%.json',
 				'live':true,
-				'render': function(title,region){
-					var r;
-					if(this.data['constituency-card']) r = this.data['constituency-card'][region];
-					if(r){
-						lbl = '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>'+title+'</strong><br /><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
-					}else{
-						lbl = '<div class="popup-title">'+title+'</div>Party: '+this.data["GE2017-results"][region].first;
-					}
-					return {'label':lbl,'class':'generalelection'};
-				}
+				'render': render
 			},
 			'key': function(){
 				var key = "";
@@ -323,18 +346,16 @@
 			'popup': {
 				'file': 'constituencies/%region%.json',
 				'live':true,
-				'render': function(title,region){
-					lbl = '<div class="popup-title">'+title+'</div>Party: '+this.data['GE2015-results'][region].first;
-					return {'label':lbl,'class':'generalelection'};
-				}
+				'render': render
 			},
 			'key': function(){
 				var key = "";
 				var _obj = this;
 				this.hex.setColours = function(region){
-					r = _obj.data["GE2015-results"][region].first;
-					if(r) r = r.replace(/[\n\r]/g,"");
-					else console.warning('No region',r,region,parties[r]);
+					if(_obj.data["GE2015-results"][region]){
+						r = _obj.data["GE2015-results"][region].first;
+						if(r) r = r.replace(/[\n\r]/g,"");
+					}else console.warning('No region',r,region,parties[r]);
 					return (parties[r].color || '#000');
 				}
 				for(var party in parties){

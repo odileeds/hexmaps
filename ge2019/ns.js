@@ -81,8 +81,6 @@ function ResultsMap(id,attr){
 			return this;
 		}
 
-		if(this.hex.selected) this.toggleActive(this.hex.selected);
-
 		// Update the history
 		if(this.pushstate) history.pushState({type:t},"Hexes",(update ? '?'+t : ''));
 
@@ -135,18 +133,6 @@ function ResultsMap(id,attr){
 		return this;
 	}
 
-	function getLabel(e,title){
-		var lbl = e.data.hexmap.mapping.hexes[e.data.region].label;
-		
-		var view = e.data.builder.views[e.data.builder.by];
-		if(view && view.popup && typeof view.popup.render==="function"){
-			return view.popup.render.call(e.data.builder,title,e.data.region);
-		}else{
-			console.warning('No view for '+e.data.builder.by);
-			return {'label':title,'class':cls};
-		}
-	}
-
 	// Add events to map
 	this.hex.on('mouseover',function(e){
 
@@ -174,10 +160,55 @@ function ResultsMap(id,attr){
 	}
 
 	this.label = function(e,title){
-		l = getLabel(e,title);
-		if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><div class="infobubble_inner"></div></div>');
-		S('.infobubble_inner').html(l.label).css({'width':(l.w ? l.w+'px':''),'height':(l.h ? l.h+'px':'')});
-		S('.infobubble').attr('class','infobubble'+(l['class'] ? ' '+l['class'] : ''));
+		var view = this.views[this.by];
+		var popup = view.popup;
+
+		function callback(title,region,data){
+			var lbl = this.hex.mapping.hexes[region].label;
+			var l = {};
+			if(popup && typeof popup.render==="function"){
+				l = popup.render.call(this,title,region,data);
+			}else{
+				console.warning('No view for '+this.by);
+				l = {'label':title,'class':cls};
+			}
+			var c = l.color;
+			var t = (l.color ? setTextColor(c) : '');
+			var txt = l.label;
+			if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><button class="close button">&times;</button><div class="infobubble_inner"></div></div>');
+			S('.infobubble_inner').html(txt).css({'width':(l.w ? l.w+'px':''),'height':(l.h ? l.h+'px':'')});
+			S('.infobubble').attr('class','infobubble'+(l['class'] ? ' '+l['class'] : ''));
+			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.toggleActive(); });
+			if(c) S('.infobubble').css({'background-color':c,'color':setTextColor(c)});
+			return this;
+		}
+		// May need to load data first
+		if(popup.file){
+			// Load data from a file
+			S().ajax(popup.file.replace(/%region%/g,e.data.region),{
+				'this': this,
+				'callback': callback,
+				'dataType':(popup.file.indexOf(".json") > 0 ? 'json':'text'),
+				'region': e.data.region,
+				'cache': (typeof popup.live==="boolean" ? !popup.live : true),
+				'render': popup.render,
+				'title': title,
+				'success': function(d,attr){
+					// Convert to JSON if CSV
+					if(attr.dataType=="text") d = CSV2JSON(d);
+					// Render the data
+					attr.render.call(this,attr.title,attr.region,d);
+					if(typeof attr.callback==="function") attr.callback.call(this,attr.title,attr.region,d);
+				},
+				'error': function(e,attr){
+					console.error('Unable to load '+attr.url);
+					if(typeof attr.callback==="function") attr.callback.call(this,attr.title,attr.region);
+				}
+			});
+		}else{
+			callback.call(this,title,e.data.region);
+		}
+
 		return this;
 	}
 
@@ -276,15 +307,6 @@ function ResultsMap(id,attr){
 			
 		}
 		return this;
-	}
-
-	function getColour(pc,a,b){
-		if(!b) b = a;
-		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
-	}
-	function makeGradient(a,b){
-		if(!b) b = a;
-		return 'background: '+a.hex+'; background: -moz-linear-gradient(left, '+a.hex+' 0%, '+b.hex+' 100%);background: -webkit-linear-gradient(left, '+a.hex+' 0%,'+b.hex+' 100%);background: linear-gradient(to right, '+a.hex+' 0%,'+b.hex+' 100%);';
 	}
 
 	this.setColours = function(type){
@@ -430,7 +452,100 @@ function ResultsMap(id,attr){
 	   }
 	   return rows; // Return the parsed data Array
 	}
-	
+
+
+	// Start of colour code
+
+	function d2h(d) { return ((d < 16) ? "0" : "")+d.toString(16);}
+	function h2d(h) {return parseInt(h,16);}
+
+	// Define colour routines
+	function Colour(c,n){
+		if(!c) return {};
+
+		/**
+		 * Converts an RGB color value to HSV. Conversion formula
+		 * adapted from http://en.wikipedia.org/wiki/HSV_color_space.
+		 * Assumes r, g, and b are contained in the set [0, 255] and
+		 * returns h, s, and v in the set [0, 1].
+		 *
+		 * @param   Number  r       The red color value
+		 * @param   Number  g       The green color value
+		 * @param   Number  b       The blue color value
+		 * @return  Array           The HSV representation
+		 */
+		function rgb2hsv(r, g, b){
+			r = r/255, g = g/255, b = b/255;
+			var max = Math.max(r, g, b), min = Math.min(r, g, b);
+			var h, s, v = max;
+			var d = max - min;
+			s = max == 0 ? 0 : d / max;
+			if(max == min) h = 0; // achromatic
+			else{
+				switch(max){
+					case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+					case g: h = (b - r) / d + 2; break;
+					case b: h = (r - g) / d + 4; break;
+				}
+				h /= 6;
+			}
+			return [h, s, v];
+		}
+
+		this.alpha = 1;
+
+		// Let's deal with a variety of input
+		if(c.indexOf('#')==0){
+			this.hex = c;
+			this.rgb = [h2d(c.substring(1,3)),h2d(c.substring(3,5)),h2d(c.substring(5,7))];
+		}else if(c.indexOf('rgb')==0){
+			var bits = c.match(/[0-9\.]+/g);
+			if(bits.length == 4) this.alpha = parseFloat(bits[3]);
+			this.rgb = [parseInt(bits[0]),parseInt(bits[1]),parseInt(bits[2])];
+			this.hex = "#"+d2h(this.rgb[0])+d2h(this.rgb[1])+d2h(this.rgb[2]);
+		}else return {};
+		this.hsv = rgb2hsv(this.rgb[0],this.rgb[1],this.rgb[2]);
+		this.name = (n || "Name");
+		var r,sat;
+		for(r = 0, sat = 0; r < this.rgb.length ; r++){
+			if(this.rgb[r] > 200) sat++;
+		}
+		this.text = (this.rgb[0] + this.rgb[1] + this.rgb[2] > 500 || sat > 1) ? "black" : "white";
+		return this;
+	}
+	function getColour(pc,a,b){
+		if(!b) b = a;
+		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
+	}
+	function makeGradient(a,b){
+		if(!b) b = a;
+		return 'background: '+a.hex+'; background: -moz-linear-gradient(left, '+a.hex+' 0%, '+b.hex+' 100%);background: -webkit-linear-gradient(left, '+a.hex+' 0%,'+b.hex+' 100%);background: linear-gradient(to right, '+a.hex+' 0%,'+b.hex+' 100%);';
+	}
+	function setTextColor(hex){
+		if(!hex) return '';
+		var colour = new Colour(hex);
+		hex = colour.hex;
+		var L1 = getL(hex);
+		var Lb = getL('#000000');
+		var Lw = getL('#ffffff');
+		var rb = (Math.max(L1, Lb) + 0.05) / (Math.min(L1, Lb) + 0.05);
+		var rw = (Math.max(L1, Lw) + 0.05) / (Math.min(L1, Lw) + 0.05);
+		if(L1 == Lw) return '#000000';
+		return (rb > rw ? '#000000':'#FFFFFF');
+	}
+	function getL(c) {
+		return (0.2126 * getsRGB(c.substr(1, 2)) + 0.7152 * getsRGB(c.substr(3, 2)) + 0.0722 * getsRGB(c.substr(-2)));
+	}
+	function getRGB(c) {
+		try { var c = parseInt(c, 16); } catch (err) { var c = false; }
+		return c;
+	}
+	function getsRGB(c) {
+		c = getRGB(c) / 255;
+		c = (c <= 0.03928) ? c / 12.92 : Math.pow(((c + 0.055) / 1.055), 2.4);
+		return c;
+	}
+
 	return this;
 
 }

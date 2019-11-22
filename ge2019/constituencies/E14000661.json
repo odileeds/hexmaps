@@ -1,0 +1,45 @@
+{
+	"id": "E14000661",
+	"title": "Denton and Reddish",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3802,
+				"name": "Andrew Gwynne",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535065cb247335574a42e5f.png"
+			},{
+				"id": 4638,
+				"name": "Gary Lawson",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa70fc0ff2778587ee2b8.png"
+			},{
+				"id": 5975,
+				"name": "Martin Power",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54edde4708de75df104c6b62.png"
+			},{
+				"id": 14417,
+				"name": "Dominic FT Hardwick",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14417.png"
+			},{
+				"id": 34995,
+				"name": "Farmin Lord F'Tang F'Tang Dave",
+				"party": "Official Monster Raving Loony Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34995.png"
+			},{
+				"id": 38747,
+				"name": "Iain James Bott",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38747.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 65751,
+			"turnout": 60.2,
+			"majority": 14077
+		}
+	}
+}

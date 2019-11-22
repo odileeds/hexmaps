@@ -1,0 +1,35 @@
+{
+	"id": "E14000997",
+	"title": "Tonbridge and Malling",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4238,
+				"name": "Tom Tugendhat",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e77bb150e238702c0533.png"
+			},{
+				"id": 28573,
+				"name": "April Clark",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28573.png"
+			},{
+				"id": 34476,
+				"name": "Dylan Jones",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34476.png"
+			},{
+				"id": 71693,
+				"name": "Richard Morris",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71693.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 77417,
+			"turnout": 73.5,
+			"majority": 23508
+		}
+	}
+}

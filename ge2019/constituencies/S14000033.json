@@ -1,0 +1,35 @@
+{
+	"id": "S14000033",
+	"title": "Glasgow North West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5878,
+				"name": "Carol Monaghan",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f9cf84e9778b52be3989.png"
+			},{
+				"id": 6962,
+				"name": "James Douglas Speirs",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8333.png"
+			},{
+				"id": 8356,
+				"name": "Patricia Ferguson",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8356.png"
+			},{
+				"id": 21779,
+				"name": "Ade Aibinu",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 63773,
+			"turnout": 60.9,
+			"majority": 2561
+		}
+	}
+}

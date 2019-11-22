@@ -1,0 +1,50 @@
+{
+	"id": "E14000752",
+	"title": "Hornsey and Wood Green",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1986,
+				"name": "Dawn Barnes",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1986.png"
+			},{
+				"id": 4357,
+				"name": "Catherine West",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1ae0668e142f73d3b4b1.png"
+			},{
+				"id": 7988,
+				"name": "Helen Spiby-Vann",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7988.png"
+			},{
+				"id": 34623,
+				"name": "Jarelle Francis",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34623.png"
+			},{
+				"id": 47202,
+				"name": "Ed McGuinness",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47202-e841f359-ce5d-487e-9f75-0ce5807efd18.png"
+			},{
+				"id": 72625,
+				"name": "Salah El-Din Wakie",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 72626,
+				"name": "Daniel John Corrigan",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 79946,
+			"turnout": 77.9,
+			"majority": 30738
+		}
+	}
+}

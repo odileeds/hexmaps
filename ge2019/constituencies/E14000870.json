@@ -1,0 +1,50 @@
+{
+	"id": "E14000870",
+	"title": "Oldham East and Saddleworth",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1862,
+				"name": "Debbie Abrahams",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e4b367dc5383f552cb0.png"
+			},{
+				"id": 7571,
+				"name": "Wendy Olsen",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7571_02Zxfue.png"
+			},{
+				"id": 35771,
+				"name": "Tom Lord",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 44712,
+				"name": "Sam Al-Hamdani",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44712.png"
+			},{
+				"id": 51196,
+				"name": "Amoy Lindo",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 71316,
+				"name": "Paul Brierley",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71316.png"
+			},{
+				"id": 72299,
+				"name": "Paul Errock",
+				"party": "Proud of Oldham & Saddleworth",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72184,
+			"turnout": 65.2,
+			"majority": 8182
+		}
+	}
+}

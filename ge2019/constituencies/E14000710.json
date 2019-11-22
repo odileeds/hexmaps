@@ -1,0 +1,40 @@
+{
+	"id": "E14000710",
+	"title": "Gedling",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1272,
+				"name": "Vernon Coaker",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8ce5a621e036281d5742.png"
+			},{
+				"id": 4901,
+				"name": "Jim Norris",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/554800f7202d360b737e0ffa.png"
+			},{
+				"id": 7411,
+				"name": "Anita Prabhakar",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548acb09b4dcd1028de1cc0.png"
+			},{
+				"id": 71449,
+				"name": "Graham Hunt",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71449-780af7e4-64ec-4757-a77f-3569ac88d6be.png"
+			},{
+				"id": 71450,
+				"name": "Tom Randall",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71450.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 71223,
+			"turnout": 72.6,
+			"majority": 4694
+		}
+	}
+}

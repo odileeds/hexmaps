@@ -1,0 +1,40 @@
+{
+	"id": "E14000904",
+	"title": "Rotherham",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5542,
+				"name": "Sarah Champion",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5542.png"
+			},{
+				"id": 18365,
+				"name": "Adam Jonathon Carter",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 18444,
+				"name": "Paul Hague",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 59113,
+				"name": "Gerri Hickton",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72118,
+				"name": "Dennis Bannan",
+				"party": "Yorkshire Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 63237,
+			"turnout": 60.0,
+			"majority": 11387
+		}
+	}
+}

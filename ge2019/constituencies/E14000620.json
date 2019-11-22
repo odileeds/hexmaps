@@ -1,0 +1,35 @@
+{
+	"id": "E14000620",
+	"title": "Carlisle",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2625,
+				"name": "John Stevenson",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551840b1249b917507bee57a.png"
+			},{
+				"id": 5414,
+				"name": "Fiona Mills",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551840d1249b917507bee57b.png"
+			},{
+				"id": 10803,
+				"name": "Ruth Alcroft",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10803.png"
+			},{
+				"id": 71351,
+				"name": "Julia Aglionby",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71351-5b2501a7-2fc7-4171-aea3-4fa12ad4ef1d.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 62294,
+			"turnout": 69.1,
+			"majority": 2599
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"id": "E14000664",
+	"title": "Derbyshire Dales",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 34998,
+				"name": "Matthew Buckler",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34998.png"
+			},{
+				"id": 67749,
+				"name": "Claire Elizabeth Raw",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67749-9e5efe06-bddd-40de-9f38-44319801f508.png"
+			},{
+				"id": 71396,
+				"name": "Robert Court",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71396.png"
+			},{
+				"id": 72440,
+				"name": "Sarah Elizabeth Dines",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 64430,
+			"turnout": 76.9,
+			"majority": 14327
+		}
+	}
+}

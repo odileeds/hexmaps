@@ -1,0 +1,45 @@
+{
+	"id": "E14000576",
+	"title": "Bognor Regis and Littlehampton",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 918,
+				"name": "Nick Gibb",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225b7b328bff5d39338a6e.png"
+			},{
+				"id": 4271,
+				"name": "Alan Butcher",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516d00c929f1bbe286be03f.png"
+			},{
+				"id": 4482,
+				"name": "Francis Oppler",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4482.png"
+			},{
+				"id": 6829,
+				"name": "David Kurten",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552687ed59bbc5c063445b62.png"
+			},{
+				"id": 33261,
+				"name": "Carol Jane Birch",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33261.png"
+			},{
+				"id": 72347,
+				"name": "Andrew Elston",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 75827,
+			"turnout": 67.7,
+			"majority": 17494
+		}
+	}
+}

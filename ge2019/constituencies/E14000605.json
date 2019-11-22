@@ -1,0 +1,35 @@
+{
+	"id": "E14000605",
+	"title": "Bromsgrove",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 349,
+				"name": "Sajid Javid",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225854328bff5d39338a5b.png"
+			},{
+				"id": 1346,
+				"name": "Kevin White",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54bd390bead6762e54811af6.png"
+			},{
+				"id": 27330,
+				"name": "Rory James Shannon",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27330.png"
+			},{
+				"id": 71334,
+				"name": "David Nicholl",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71334-d4df1404-829c-4061-b06c-918713ce5814.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 73571,
+			"turnout": 73.5,
+			"majority": 16573
+		}
+	}
+}

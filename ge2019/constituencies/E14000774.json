@@ -1,0 +1,40 @@
+{
+	"id": "E14000774",
+	"title": "Kingswood",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3745,
+				"name": "Chris Skidmore",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534e394b247335574a42e14.png"
+			},{
+				"id": 9780,
+				"name": "Nicola Jane Bowden-Jones",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9780.png"
+			},{
+				"id": 50024,
+				"name": "Dine Romero",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50024.png"
+			},{
+				"id": 71865,
+				"name": "Joseph Evans",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71865.png"
+			},{
+				"id": 72177,
+				"name": "Angelika Cowell",
+				"party": "Animal Welfare Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72177-cb534d89-5c08-4091-a925-fcef97c110ae.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 69368,
+			"turnout": 70.3,
+			"majority": 7500
+		}
+	}
+}

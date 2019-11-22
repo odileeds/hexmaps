@@ -1,0 +1,40 @@
+{
+	"id": "E14000588",
+	"title": "Bradford South",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5600,
+				"name": "Judith Cummins",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a94bf3a37ac9054592954.png"
+			},{
+				"id": 6017,
+				"name": "Alun Griffiths",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c97a842c427035c8db3e9.png"
+			},{
+				"id": 13459,
+				"name": "Matthew Clive Edwards",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13459.png"
+			},{
+				"id": 71321,
+				"name": "Kulvinder Singh Manik",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71321-ffa8b00d-7627-46a1-b444-2ff2871e06e1.png"
+			},{
+				"id": 72388,
+				"name": "Narinder Singh Sekhon",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67752,
+			"turnout": 60.6,
+			"majority": 6700
+		}
+	}
+}

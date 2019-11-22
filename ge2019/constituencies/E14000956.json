@@ -1,0 +1,45 @@
+{
+	"id": "E14000956",
+	"title": "Southampton, Test",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3111,
+				"name": "Alan Whitehead",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bdf3736b6dcb123cb431f.png"
+			},{
+				"id": 13989,
+				"name": "Steven Galton",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13989.png"
+			},{
+				"id": 14448,
+				"name": "Katherine Jane Barbour",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14448.png"
+			},{
+				"id": 34112,
+				"name": "Joe Richards",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34112.png"
+			},{
+				"id": 71656,
+				"name": "Philip Crook",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71656.png"
+			},{
+				"id": 72402,
+				"name": "Kev Barry",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 70199,
+			"turnout": 66.8,
+			"majority": 11503
+		}
+	}
+}

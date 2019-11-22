@@ -1,0 +1,40 @@
+{
+	"id": "E14000793",
+	"title": "Liverpool, Riverside",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 11,
+				"name": "Tom Crone",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11.png"
+			},{
+				"id": 35917,
+				"name": "Rob McAllister-Bell",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35917.png"
+			},{
+				"id": 71862,
+				"name": "Kim Johnson",
+				"party": "Labour Party",
+				"img": ""
+			},{
+				"id": 72595,
+				"name": "David Raymond Leach",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72596,
+				"name": "Sean Paul Malkeson",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 76332,
+			"turnout": 62.9,
+			"majority": 35947
+		}
+	}
+}

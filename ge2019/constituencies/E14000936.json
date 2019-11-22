@@ -1,0 +1,40 @@
+{
+	"id": "E14000936",
+	"title": "South Dorset",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2850,
+				"name": "Richard Drax",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aaca478c2688c57905d0c.png"
+			},{
+				"id": 8580,
+				"name": "Jon Orrell",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50055.png"
+			},{
+				"id": 24399,
+				"name": "Nick Ireland",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24399.png"
+			},{
+				"id": 71633,
+				"name": "Carralyn Parkes",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71633.png"
+			},{
+				"id": 72581,
+				"name": "Joseph Green",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 75553,
+			"turnout": 68.7,
+			"majority": 11695
+		}
+	}
+}

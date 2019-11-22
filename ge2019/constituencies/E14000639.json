@@ -1,0 +1,45 @@
+{
+	"id": "E14000639",
+	"title": "Cities of London and Westminster",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2918,
+				"name": "Chuka Umunna",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2918.png"
+			},{
+				"id": 7505,
+				"name": "Zack Polanski",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38753.png"
+			},{
+				"id": 41462,
+				"name": "Nickie Aiken",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41462.png"
+			},{
+				"id": 71369,
+				"name": "Dirk van Heck",
+				"party": "The Liberal Party",
+				"img": ""
+			},{
+				"id": 71883,
+				"name": "Gordon Nardell",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71883.png"
+			},{
+				"id": 72470,
+				"name": "Jill McLachlan",
+				"party": "Christian Peoples Alliance",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 61533,
+			"turnout": 62.8,
+			"majority": 3148
+		}
+	}
+}

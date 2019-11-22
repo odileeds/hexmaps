@@ -1,0 +1,35 @@
+{
+	"id": "E14000585",
+	"title": "Bournemouth West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 382,
+				"name": "David Stokes",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/382.png"
+			},{
+				"id": 2433,
+				"name": "Conor Burns",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f76774c689026478f43673.png"
+			},{
+				"id": 5399,
+				"name": "Jon Nicholas",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71889.png"
+			},{
+				"id": 34940,
+				"name": "Simon Bull",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34940_pHDdQuD.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 73195,
+			"turnout": 60.8,
+			"majority": 7711
+		}
+	}
+}

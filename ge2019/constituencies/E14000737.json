@@ -1,0 +1,45 @@
+{
+	"id": "E14000737",
+	"title": "Hayes and Harlington",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1860,
+				"name": "John McDonnell",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e59367dc5383f552cb1.png"
+			},{
+				"id": 34483,
+				"name": "Alex Cunliffe",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34483.png"
+			},{
+				"id": 40253,
+				"name": "Wayne Bridges",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72076.png"
+			},{
+				"id": 47641,
+				"name": "Harry Boparai",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47641-8ecdb014-d8e5-4d81-8da5-1143cd0bdd73.png"
+			},{
+				"id": 71476,
+				"name": "Christine West",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 72329,
+				"name": "Chika Amadi",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72329-1b5f983a-ab9b-4fbe-8e8c-3e4baac9f8cf.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 73268,
+			"turnout": 65.2,
+			"majority": 18115
+		}
+	}
+}

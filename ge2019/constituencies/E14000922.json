@@ -1,0 +1,50 @@
+{
+	"id": "E14000922",
+	"title": "Sheffield, Hallam",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5593,
+				"name": "Ian Walker",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34951.png"
+			},{
+				"id": 6373,
+				"name": "Laura Gordon",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6373.png"
+			},{
+				"id": 12544,
+				"name": "Olivia Frances Blake",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12544.png"
+			},{
+				"id": 71617,
+				"name": "Natalie Thomas",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71617.png"
+			},{
+				"id": 72085,
+				"name": "Liz Aspden",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72085-5dadf4e0-5c51-4641-ae7e-d0d02824f6a2.png"
+			},{
+				"id": 72156,
+				"name": "Terence Alan McHale",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72160,
+				"name": "Michael Joseph Virgo",
+				"party": "UK Independence Party (UKIP)",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 73455,
+			"turnout": 77.6,
+			"majority": 2125
+		}
+	}
+}

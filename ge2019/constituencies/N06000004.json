@@ -1,0 +1,45 @@
+{
+	"id": "N06000004",
+	"title": "Belfast West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4603,
+				"name": "Paul Maskey",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4603.png"
+			},{
+				"id": 7174,
+				"name": "Frank McCoubrey",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7174.png"
+			},{
+				"id": 7199,
+				"name": "Gerry Carroll",
+				"party": "People Before Profit Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bbbd8a51642637514d647.png"
+			},{
+				"id": 19714,
+				"name": "Monica Digney",
+				"party": "Aontú",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19714.png"
+			},{
+				"id": 50308,
+				"name": "Donnamarie Higgins",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50308-8f45fc42-bdff-4aec-b3d9-f9203792165b.png"
+			},{
+				"id": 69199,
+				"name": "Paul Doherty",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69199.png"
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 62423,
+			"turnout": 65.1,
+			"majority": 21652
+		}
+	}
+}

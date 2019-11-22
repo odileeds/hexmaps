@@ -1,0 +1,40 @@
+{
+	"id": "S14000056",
+	"title": "Rutherglen and Hamilton West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5918,
+				"name": "Margaret Ferrier",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7ac1ccf185f0d8cc4bd.png"
+			},{
+				"id": 6704,
+				"name": "Janice MacKay",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6704.png"
+			},{
+				"id": 22760,
+				"name": "Gerard Killen",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22760.png"
+			},{
+				"id": 22797,
+				"name": "Mark McGeever",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22797-76ab477f-9e29-4fc6-bfac-4676b6af5e84.png"
+			},{
+				"id": 22803,
+				"name": "Lynne Nailon",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 80098,
+			"turnout": 63.5,
+			"majority": 265
+		}
+	}
+}

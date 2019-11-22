@@ -1,0 +1,50 @@
+{
+	"id": "S14000055",
+	"title": "Ross, Skye and Lochaber",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3580,
+				"name": "Donald MacLeod Boyd",
+				"party": "Christian Party "Proclaiming Christ's Lordship"",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516b1f4929f1bbe286be023.png"
+			},{
+				"id": 4288,
+				"name": "John Erskine",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4288.png"
+			},{
+				"id": 5485,
+				"name": "Ian Blackford",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb888ec0766d3759c0460.png"
+			},{
+				"id": 7111,
+				"name": "Richard Lucas",
+				"party": "Scottish Family Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526918659bbc5c063445bad.png"
+			},{
+				"id": 49214,
+				"name": "Gavin Berkenheger",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49214.png"
+			},{
+				"id": 71602,
+				"name": "Craig Harrow",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71602.png"
+			},{
+				"id": 72460,
+				"name": "Kate Brownlie",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 53638,
+			"turnout": 71.7,
+			"majority": 5919
+		}
+	}
+}

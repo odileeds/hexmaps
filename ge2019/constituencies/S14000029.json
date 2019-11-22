@@ -1,0 +1,40 @@
+{
+	"id": "S14000029",
+	"title": "Glasgow Central",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5784,
+				"name": "Alison Thewliss",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5784.png"
+			},{
+				"id": 6604,
+				"name": "Ewan Hoyle",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6604.png"
+			},{
+				"id": 21638,
+				"name": "Faten Hameed",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21638.png"
+			},{
+				"id": 71800,
+				"name": "Elaine Gallagher",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71800.png"
+			},{
+				"id": 72243,
+				"name": "Flora Minerva Scarabello",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 64346,
+			"turnout": 55.9,
+			"majority": 2267
+		}
+	}
+}

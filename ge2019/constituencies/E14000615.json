@@ -1,0 +1,45 @@
+{
+	"id": "E14000615",
+	"title": "Camberwell and Peckham",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1088,
+				"name": "Joshua Ogunleye",
+				"party": "Workers Revolutionary Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b359c96b7d3221f3519e.png"
+			},{
+				"id": 3885,
+				"name": "Harriet Harman",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552cf2553d3371cf3592d9d6.png"
+			},{
+				"id": 36021,
+				"name": "Julia Ogiehor",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36021.png"
+			},{
+				"id": 48361,
+				"name": "Claire Sheppard",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48361-f0358fa8-0406-4da7-a383-7b41e83b3644.png"
+			},{
+				"id": 72552,
+				"name": "Cass Jean-Claude Cass-Horne",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72553,
+				"name": "Peter James Quentin",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 85613,
+			"turnout": 67.1,
+			"majority": 37316
+		}
+	}
+}

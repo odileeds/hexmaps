@@ -1,0 +1,50 @@
+{
+	"id": "E14000717",
+	"title": "Great Yarmouth",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 39,
+				"name": "Margaret McMahon-Morris",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 3533,
+				"name": "Brandon Lewis",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/552a7efa5b858ee163ed6367.png"
+			},{
+				"id": 7051,
+				"name": "James Joyce",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5518988b249b917507bee58f.png"
+			},{
+				"id": 32938,
+				"name": "Mike Smith-Clare",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32938.png"
+			},{
+				"id": 42767,
+				"name": "Adrian Paul Myers",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42767.png"
+			},{
+				"id": 63554,
+				"name": "Dave Harding",
+				"party": "Veterans and People’s Party",
+				"img": ""
+			},{
+				"id": 72242,
+				"name": "Anne Marie Killett",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72242-6606e28a-a397-4caa-8250-7fa518c55fe5.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 71408,
+			"turnout": 61.8,
+			"majority": 7973
+		}
+	}
+}

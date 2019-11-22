@@ -1,0 +1,40 @@
+{
+	"id": "E14000575",
+	"title": "Blyth Valley",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5693,
+				"name": "Dawn Furness",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f0e6b247335574a42e1b.png"
+			},{
+				"id": 26992,
+				"name": "Ian Levy",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26992.png"
+			},{
+				"id": 31562,
+				"name": "Susan Elizabeth Dungworth",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31562.png"
+			},{
+				"id": 72219,
+				"name": "Mark Peart",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72225,
+				"name": "Thom Chapman",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72225-c0273ce2-b977-455a-8664-ba6626b6fb1b.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 63415,
+			"turnout": 67.0,
+			"majority": 7915
+		}
+	}
+}

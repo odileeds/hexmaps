@@ -1,0 +1,45 @@
+{
+	"id": "E14000604",
+	"title": "Bromley and Chislehurst",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1023,
+				"name": "Bob Neill",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225877328bff5d39338a5c.png"
+			},{
+				"id": 8019,
+				"name": "Julie Ireland",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8019.png"
+			},{
+				"id": 40531,
+				"name": "Angela Wilkins",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40531-6c0b1af1-964d-42bf-aab8-4eee6dc695e8.png"
+			},{
+				"id": 48504,
+				"name": "Mary Elizabeth Ion",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48504.png"
+			},{
+				"id": 71333,
+				"name": "Jyoti Dialani",
+				"party": "Renew",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71333.png"
+			},{
+				"id": 72406,
+				"name": "Zion Amodu",
+				"party": "Christian Peoples Alliance",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 65117,
+			"turnout": 71.7,
+			"majority": 9590
+		}
+	}
+}

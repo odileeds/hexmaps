@@ -1,0 +1,35 @@
+{
+	"id": "E14000583",
+	"title": "Bosworth",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 388,
+				"name": "Michael Mullaney",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8d1b150e238702c0603.png"
+			},{
+				"id": 4158,
+				"name": "Luke Evans",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4158-3c616f46-e6cd-4bd2-a736-889b64bff7bd.png"
+			},{
+				"id": 23450,
+				"name": "Rick Middleton",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23450.png"
+			},{
+				"id": 35142,
+				"name": "Mick Gregg",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35142.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 81661,
+			"turnout": 68.8,
+			"majority": 18351
+		}
+	}
+}

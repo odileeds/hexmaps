@@ -1,0 +1,40 @@
+{
+	"id": "E14000641",
+	"title": "City of Durham",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 22817,
+				"name": "Jonathan Elmer",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22817.png"
+			},{
+				"id": 25919,
+				"name": "Amanda Jayne Hopgood",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25919.png"
+			},{
+				"id": 45398,
+				"name": "Mary Foy",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45398.png"
+			},{
+				"id": 72450,
+				"name": "William Harvey Morgan",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72451,
+				"name": "Lesley Anne Wright",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 71132,
+			"turnout": 67.9,
+			"majority": 12364
+		}
+	}
+}

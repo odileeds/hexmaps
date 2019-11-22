@@ -1,0 +1,35 @@
+{
+	"id": "E14001021",
+	"title": "Watford",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5039,
+				"name": "Dean Russell",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1998668e142f73d3b491.png"
+			},{
+				"id": 15668,
+				"name": "Ian Alexander Eric Stotesbury",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15668.png"
+			},{
+				"id": 34366,
+				"name": "Chris Ostrowski",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34366-a614f988-cdd6-4a82-a759-4f213f912efb.png"
+			},{
+				"id": 72453,
+				"name": "Michael McGetrick",
+				"party": "Social Democratic Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72453-ad364920-5079-485a-abbc-902435a0634e.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 86507,
+			"turnout": 67.8,
+			"majority": 2092
+		}
+	}
+}

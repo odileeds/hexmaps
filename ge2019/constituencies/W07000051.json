@@ -1,0 +1,50 @@
+{
+	"id": "W07000051",
+	"title": "Cardiff North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 8175,
+				"name": "Anna McMorrin",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71841.png"
+			},{
+				"id": 8442,
+				"name": "Christopher John Butler",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8442.png"
+			},{
+				"id": 9473,
+				"name": "Rhys Taylor",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9473.png"
+			},{
+				"id": 19897,
+				"name": "Steffan Webb",
+				"party": "Plaid Cymru - The Party of Wales",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19897.png"
+			},{
+				"id": 19924,
+				"name": "Michael Cope",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19924-b597adcf-833d-4b7a-bf94-d9a7a3dfa790.png"
+			},{
+				"id": 38612,
+				"name": "Mohamed Ali",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38612.png"
+			},{
+				"id": 72086,
+				"name": "Richard Jones",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72086-e18c73be-d57a-4e9c-b296-42f083cbe31a.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67221,
+			"turnout": 77.4,
+			"majority": 4174
+		}
+	}
+}

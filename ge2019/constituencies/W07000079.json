@@ -1,0 +1,45 @@
+{
+	"id": "W07000079",
+	"title": "Cardiff West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2628,
+				"name": "Kevin Brennan",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357476367dc5383f552cdd.png"
+			},{
+				"id": 11577,
+				"name": "Callum James Littlemore",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24593.png"
+			},{
+				"id": 12599,
+				"name": "Carolyn Webster",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12599.png"
+			},{
+				"id": 70712,
+				"name": "David Griffin",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70712.png"
+			},{
+				"id": 72106,
+				"name": "Boyd Clack",
+				"party": "Plaid Cymru - The Party of Wales",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72106-5e201a67-37ef-4a92-b965-c024132c1414.png"
+			},{
+				"id": 72398,
+				"name": "Nick Mullins",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 66775,
+			"turnout": 69.8,
+			"majority": 12551
+		}
+	}
+}

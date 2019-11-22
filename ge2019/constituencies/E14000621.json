@@ -1,0 +1,45 @@
+{
+	"id": "E14000621",
+	"title": "Carshalton and Wallington",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3585,
+				"name": "Tom Brake",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3585.png"
+			},{
+				"id": 6332,
+				"name": "Ashley Dickenson",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6332.png"
+			},{
+				"id": 7723,
+				"name": "Tracey Hague",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7723.png"
+			},{
+				"id": 35728,
+				"name": "Ahmad Nawaz Wattoo",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35728.png"
+			},{
+				"id": 48737,
+				"name": "Elliot Colburn",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48737.png"
+			},{
+				"id": 71353,
+				"name": "James Woudhuysen",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71353-f180af76-314c-4e36-a45b-892f8f48f0f9.png"
+			}]
+		},
+		"2017": {
+			"first": "LD",
+			"electorate": 70849,
+			"turnout": 71.6,
+			"majority": 1369
+		}
+	}
+}

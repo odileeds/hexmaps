@@ -1,0 +1,45 @@
+{
+	"id": "E14000918",
+	"title": "Sevenoaks",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 47959,
+				"name": "Sean Edward Finch",
+				"party": "Libertarian Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47959.png"
+			},{
+				"id": 61808,
+				"name": "Paulette Furse",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61808.png"
+			},{
+				"id": 61931,
+				"name": "Paul Wharton",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 61983,
+				"name": "Gareth James Willis",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 72018,
+				"name": "Laura Trott",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72383,
+				"name": "Seamus McCauley",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72383-1fc31894-5a34-450f-b65c-a0ac8974d440.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 71565,
+			"turnout": 71.6,
+			"majority": 21917
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"id": "E14000850",
+	"title": "North Somerset",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 451,
+				"name": "Liam Fox",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535060fb247335574a42e5d.png"
+			},{
+				"id": 53308,
+				"name": "Hannah Margaret Young",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53308.png"
+			},{
+				"id": 53535,
+				"name": "Ashley Cartman",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53535.png"
+			},{
+				"id": 72013,
+				"name": "Phil Neve",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72013-1c79e1eb-c715-4fbe-9cc6-d035d0bfbfbd.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 80529,
+			"turnout": 77.0,
+			"majority": 17103
+		}
+	}
+}

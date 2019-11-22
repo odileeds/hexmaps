@@ -1,0 +1,45 @@
+{
+	"id": "E14000882",
+	"title": "Poplar and Limehouse",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 64404,
+				"name": "Sheun Oke",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64404.png"
+			},{
+				"id": 71586,
+				"name": "Andrew Cregan",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71586.png"
+			},{
+				"id": 71587,
+				"name": "Apsana Begum",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71587.png"
+			},{
+				"id": 71588,
+				"name": "Catherine Cui",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71588.png"
+			},{
+				"id": 71769,
+				"name": "Neil Jameson",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71769.png"
+			},{
+				"id": 72294,
+				"name": "Andy Erlam",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 87331,
+			"turnout": 67.3,
+			"majority": 27712
+		}
+	}
+}

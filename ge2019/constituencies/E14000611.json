@@ -1,0 +1,40 @@
+{
+	"id": "E14000611",
+	"title": "Bury North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4163,
+				"name": "James Daly",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4163.png"
+			},{
+				"id": 4286,
+				"name": "James Frith",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4286.png"
+			},{
+				"id": 14560,
+				"name": "Charlie Allen",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14560.png"
+			},{
+				"id": 44315,
+				"name": "Gareth David Lee Lloyd-Johnson",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44315.png"
+			},{
+				"id": 46828,
+				"name": "Alan Michael McCarthy",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46828-c4001b1a-54fa-492a-b9b8-367c7f94f066.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67580,
+			"turnout": 70.9,
+			"majority": 4375
+		}
+	}
+}

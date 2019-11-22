@@ -1,0 +1,45 @@
+{
+	"id": "E14000673",
+	"title": "Dulwich and West Norwood",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4322,
+				"name": "Helen Hayes",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4322.png"
+			},{
+				"id": 4878,
+				"name": "Jonathan Bartley",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551598a24fb3d15c51926dcd.png"
+			},{
+				"id": 48100,
+				"name": "Jane Lyons",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48100-ed430bd4-8412-4885-a1a9-fa94db2f2839.png"
+			},{
+				"id": 49276,
+				"name": "John Kenneth Plume",
+				"party": "UK Independence Party (UKIP)",
+				"img": ""
+			},{
+				"id": 72221,
+				"name": "Anthony Paul Hodgson",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72221-28c4c738-cbfe-4238-bd01-d7d4528fc54e.png"
+			},{
+				"id": 72222,
+				"name": "Julia Caroline Stephenson",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 78037,
+			"turnout": 71.9,
+			"majority": 28156
+		}
+	}
+}

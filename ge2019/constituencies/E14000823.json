@@ -1,0 +1,45 @@
+{
+	"id": "E14000823",
+	"title": "Mitcham and Morden",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3048,
+				"name": "Siobhain McDonagh",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c30790aa751ab25174175.png"
+			},{
+				"id": 6297,
+				"name": "Luke Alexander Taylor",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6297.png"
+			},{
+				"id": 6479,
+				"name": "Des Coke",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6479_ApTxaTF.png"
+			},{
+				"id": 48223,
+				"name": "Pippa Maslin",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71539.png"
+			},{
+				"id": 72133,
+				"name": "Jeremy Christopher Catterall Maddocks",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72133-7a84f1d5-f528-47b4-a5d7-d7f6a5767d1b.png"
+			},{
+				"id": 72134,
+				"name": "Toby Edward Williams",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72134-9ff0ad8f-68b8-47c3-8e2b-342def2ab2de.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 68705,
+			"turnout": 70.0,
+			"majority": 21375
+		}
+	}
+}

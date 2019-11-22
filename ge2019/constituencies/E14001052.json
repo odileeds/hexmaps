@@ -1,0 +1,40 @@
+{
+	"id": "E14001052",
+	"title": "Worcester",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 496,
+				"name": "Robin Walker",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551be5a8209513973bc512a3.png"
+			},{
+				"id": 2531,
+				"name": "Louis Stephen",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5de53676900a02e1643e.png"
+			},{
+				"id": 5860,
+				"name": "Stephen Kearney",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a2337328b3f41504933ed.png"
+			},{
+				"id": 12771,
+				"name": "Lynn Denham",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12771.png"
+			},{
+				"id": 72632,
+				"name": "Martin Julian Keith Potter",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72632-75110c4d-04dc-4966-b2cf-4c62cc4dd392.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 73893,
+			"turnout": 69.6,
+			"majority": 2508
+		}
+	}
+}

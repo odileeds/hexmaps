@@ -1,0 +1,40 @@
+{
+	"id": "E14000581",
+	"title": "Bootle",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5191,
+				"name": "Peter Dowd",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bac05a8c0192f732ca8d3.png"
+			},{
+				"id": 16127,
+				"name": "Mike Carter",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16127.png"
+			},{
+				"id": 19844,
+				"name": "Rebecca Hanson",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19844.png"
+			},{
+				"id": 72126,
+				"name": "Tarsilo Onuluk",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72126-02fa9df2-37ea-40a2-8a6c-01bf021f89d9.png"
+			},{
+				"id": 72249,
+				"name": "Kim Sherrie Knight",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72872,
+			"turnout": 69.0,
+			"majority": 36200
+		}
+	}
+}

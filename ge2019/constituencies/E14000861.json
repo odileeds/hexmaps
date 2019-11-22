@@ -1,0 +1,35 @@
+{
+	"id": "E14000861",
+	"title": "Northampton North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1059,
+				"name": "Sally Keeble",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8b8d7b9de399275bb498.png"
+			},{
+				"id": 1066,
+				"name": "Michael Ellis",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f8b1b247335574a42e3d.png"
+			},{
+				"id": 33023,
+				"name": "Martin Thomas Sawyer",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33023.png"
+			},{
+				"id": 72521,
+				"name": "Katherine Anne Pate",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72521-409ee4fc-6493-443a-a2fc-8e171926280c.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 58861,
+			"turnout": 68.6,
+			"majority": 807
+		}
+	}
+}

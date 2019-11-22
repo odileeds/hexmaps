@@ -1,0 +1,35 @@
+{
+	"id": "E14000539",
+	"title": "Banbury",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4907,
+				"name": "Victoria Prentis",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55159c964fb3d15c51926dd4.png"
+			},{
+				"id": 5126,
+				"name": "Ian Middleton",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5502a9384a4c7d71797616b7.png"
+			},{
+				"id": 48341,
+				"name": "Suzette Elizabeth Watson",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48341-fdde8e7a-77d5-4f83-9f46-96bba06ed464.png"
+			},{
+				"id": 49227,
+				"name": "Tim Bearder",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49227-86f75af6-9b95-4ede-bf5d-77119a0f44b2.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 83824,
+			"turnout": 73.4,
+			"majority": 12399
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "E14000864",
+	"title": "Norwich South",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4396,
+				"name": "Clive Lewis",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4396.png"
+			},{
+				"id": 5364,
+				"name": "James William Wright",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5364_ZQSBmaH.png"
+			},{
+				"id": 5998,
+				"name": "Catherine Joanna Rowett",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517cbdd249b917507bee4e2.png"
+			},{
+				"id": 71946,
+				"name": "Michael David Spencer",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72099,
+				"name": "Alexander Donald Gilchrist",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72099-1891a2ba-2b8b-427c-b32e-0d54c592aeaf.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 74182,
+			"turnout": 69.2,
+			"majority": 15596
+		}
+	}
+}

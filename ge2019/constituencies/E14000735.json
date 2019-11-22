@@ -1,0 +1,35 @@
+{
+	"id": "E14000735",
+	"title": "Hastings and Rye",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 518,
+				"name": "Nick Perry",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e90db150e238702c0626.png"
+			},{
+				"id": 14740,
+				"name": "Peter Chowney",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14740_Ep451eA.png"
+			},{
+				"id": 72407,
+				"name": "Paul Edward Crosland",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72407-401366e8-04d9-43cc-9b71-29c6caab851f.png"
+			},{
+				"id": 72411,
+				"name": "Sally-Ann Hart",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72411-668d2157-2f32-46cf-bf56-db43df93838d.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 78319,
+			"turnout": 69.9,
+			"majority": 346
+		}
+	}
+}

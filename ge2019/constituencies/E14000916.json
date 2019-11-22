@@ -1,0 +1,50 @@
+{
+	"id": "E14000916",
+	"title": "Sefton Central",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1961,
+				"name": "Bill Esterson",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553573d6367dc5383f552cd7.png"
+			},{
+				"id": 16186,
+				"name": "Alison Gibbon",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16186.png"
+			},{
+				"id": 39338,
+				"name": "Keith William Cawdron",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39338.png"
+			},{
+				"id": 70543,
+				"name": "Wazz Mughal",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72055.png"
+			},{
+				"id": 71616,
+				"name": "Angela Preston",
+				"party": "The Liberal Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71616.png"
+			},{
+				"id": 71657,
+				"name": "Carla Burns",
+				"party": "Renew",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71657.png"
+			},{
+				"id": 72250,
+				"name": "Paul David Lomas",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 69019,
+			"turnout": 75.5,
+			"majority": 15618
+		}
+	}
+}

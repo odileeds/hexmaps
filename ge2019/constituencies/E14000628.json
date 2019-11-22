@@ -1,0 +1,35 @@
+{
+	"id": "E14000628",
+	"title": "Chelmsford",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 24456,
+				"name": "Marie Goldman",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24456.png"
+			},{
+				"id": 34298,
+				"name": "Vicky Ford",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34298.png"
+			},{
+				"id": 66368,
+				"name": "Penny Richards",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66368-d2cfce86-c10e-41f9-a7ed-29094640cd44.png"
+			},{
+				"id": 72188,
+				"name": "Mark Alan Lawrence",
+				"party": "Official Monster Raving Loony Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72188-92a5d727-9473-4e04-b69a-6ade2d7ddbe2.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 81032,
+			"turnout": 70.2,
+			"majority": 13572
+		}
+	}
+}

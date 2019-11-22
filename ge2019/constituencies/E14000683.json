@@ -1,0 +1,40 @@
+{
+	"id": "E14000683",
+	"title": "East Yorkshire",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1415,
+				"name": "Mike Jackson",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1415.png"
+			},{
+				"id": 2878,
+				"name": "Greg Knight",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517c742249b917507bee4d8.png"
+			},{
+				"id": 35033,
+				"name": "Timothy Norman",
+				"party": "Yorkshire Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35033.png"
+			},{
+				"id": 62224,
+				"name": "Catherine Louise Minnis",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62224-fc6a0719-efd0-42e5-bf9e-0a5810ecbc48.png"
+			},{
+				"id": 62302,
+				"name": "Dale Richard Needham",
+				"party": "Liberal Democrats",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 81065,
+			"turnout": 66.6,
+			"majority": 15006
+		}
+	}
+}

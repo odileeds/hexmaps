@@ -1,0 +1,30 @@
+{
+	"id": "E14000934",
+	"title": "South Cambridgeshire",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6685,
+				"name": "Dan Greef",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6685_Fn92QJf.png"
+			},{
+				"id": 37499,
+				"name": "Ian Sollom",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37499.png"
+			},{
+				"id": 71630,
+				"name": "Anthony Browne",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71630.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 85257,
+			"turnout": 76.2,
+			"majority": 15952
+		}
+	}
+}

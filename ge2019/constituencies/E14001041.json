@@ -1,0 +1,35 @@
+{
+	"id": "E14001041",
+	"title": "Winchester",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1009,
+				"name": "Steve Brine",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34670.png"
+			},{
+				"id": 30269,
+				"name": "Teresa Skelton",
+				"party": "The Justice & Anti-Corruption Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30269.png"
+			},{
+				"id": 68354,
+				"name": "Paula Wendy Ferguson",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68354.png"
+			},{
+				"id": 72178,
+				"name": "George Baker",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72178-afca3f26-a67b-4c43-ba06-d68162407a9c.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 72497,
+			"turnout": 78.8,
+			"majority": 9999
+		}
+	}
+}

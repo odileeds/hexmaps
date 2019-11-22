@@ -1,0 +1,45 @@
+{
+	"id": "E14000632",
+	"title": "Chesterfield",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 582,
+				"name": "Toby Perkins",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f926b247335574a42e40.png"
+			},{
+				"id": 2318,
+				"name": "John Daramy",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72071.png"
+			},{
+				"id": 9107,
+				"name": "John Scotting",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9107.png"
+			},{
+				"id": 65426,
+				"name": "Emily Jane Coy",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65426-cba5b15d-075f-4757-8c12-1798cd5f25d5.png"
+			},{
+				"id": 66562,
+				"name": "Neil Jackson",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66562-2ed09652-27c0-40f1-b597-1c613660c7dc.png"
+			},{
+				"id": 72119,
+				"name": "Leigh Higgins",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72119-f01d3919-2955-456b-9c96-41eb31dfbaa2.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72069,
+			"turnout": 66.5,
+			"majority": 9605
+		}
+	}
+}

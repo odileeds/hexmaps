@@ -1,0 +1,40 @@
+{
+	"id": "E14000831",
+	"title": "Newcastle upon Tyne Central",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3658,
+				"name": "Chi Onwurah",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55292052b6a860ed1648be47.png"
+			},{
+				"id": 13217,
+				"name": "Tay Pitman",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13217.png"
+			},{
+				"id": 35779,
+				"name": "Emily Payne",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 37915,
+				"name": "Ali Avaei",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37915.png"
+			},{
+				"id": 72298,
+				"name": "Mark Frederick Glenn Griffin",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72298-124fcefa-4000-4d84-8a43-6d36467e35e4.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 55368,
+			"turnout": 67.0,
+			"majority": 14937
+		}
+	}
+}

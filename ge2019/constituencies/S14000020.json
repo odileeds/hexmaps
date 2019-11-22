@@ -1,0 +1,40 @@
+{
+	"id": "S14000020",
+	"title": "East Lothian",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 20469,
+				"name": "Robert O'Riordan",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 34234,
+				"name": "Martin Whitfield",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34234.png"
+			},{
+				"id": 50431,
+				"name": "Craig Hoy",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50431.png"
+			},{
+				"id": 50938,
+				"name": "David Sisson",
+				"party": "UK Independence Party (UKIP)",
+				"img": ""
+			},{
+				"id": 71831,
+				"name": "Kenny MacAskill",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71831.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 79093,
+			"turnout": 70.6,
+			"majority": 3083
+		}
+	}
+}

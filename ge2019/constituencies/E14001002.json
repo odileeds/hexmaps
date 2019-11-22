@@ -1,0 +1,55 @@
+{
+	"id": "E14001002",
+	"title": "Tottenham",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4065,
+				"name": "Frank Sweeney",
+				"party": "Workers Revolutionary Party",
+				"img": ""
+			},{
+				"id": 4875,
+				"name": "David Lammy",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323e9829c5d53959d9e45e.png"
+			},{
+				"id": 6911,
+				"name": "Jonathan Silberman",
+				"party": "Communist League Election Campaign",
+				"img": ""
+			},{
+				"id": 36032,
+				"name": "Tammy Palmer",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36032.png"
+			},{
+				"id": 47756,
+				"name": "James Newhall",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47756.png"
+			},{
+				"id": 71700,
+				"name": "Emma Chan",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71700.png"
+			},{
+				"id": 72629,
+				"name": "Andrew Charles Bence",
+				"party": "Social Democratic Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72629-3e7f3902-c996-478f-a6e7-ec9ddc8f031a.png"
+			},{
+				"id": 72630,
+				"name": "Abdul Hamid Turay",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72884,
+			"turnout": 67.7,
+			"majority": 34584
+		}
+	}
+}

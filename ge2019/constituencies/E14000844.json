@@ -1,0 +1,45 @@
+{
+	"id": "E14000844",
+	"title": "North East Hampshire",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 422,
+				"name": "Howling Laud Hope",
+				"party": "Official Monster Raving Loony Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534fa1fb247335574a42e45.png"
+			},{
+				"id": 1835,
+				"name": "Barry Jones",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1835.png"
+			},{
+				"id": 4217,
+				"name": "Ranil Jayawardena",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4217.png"
+			},{
+				"id": 6314,
+				"name": "Graham Cockarill",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6314.png"
+			},{
+				"id": 43826,
+				"name": "Culann Walsh",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43826.png"
+			},{
+				"id": 72183,
+				"name": "Tony Durrant",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72183-875a9292-d895-4b31-a7f0-d2126475180f.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 74576,
+			"turnout": 77.3,
+			"majority": 27772
+		}
+	}
+}

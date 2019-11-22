@@ -1,0 +1,45 @@
+{
+	"id": "E14000785",
+	"title": "Leigh",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 13928,
+				"name": "Jo Platt",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13928.png"
+			},{
+				"id": 15397,
+				"name": "James Grundy",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15397.png"
+			},{
+				"id": 45973,
+				"name": "Richard Mark Clayton",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 51054,
+				"name": "Leon Adam Peters",
+				"party": "UK Independence Party (UKIP)",
+				"img": ""
+			},{
+				"id": 71968,
+				"name": "Ann Maureen O'Bern",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71968.png"
+			},{
+				"id": 72409,
+				"name": "James Paul Melly",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72409-4ef7d143-9b97-4efe-91fc-ff5cef45b79e.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 76202,
+			"turnout": 61.5,
+			"majority": 9554
+		}
+	}
+}

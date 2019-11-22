@@ -1,0 +1,40 @@
+{
+	"id": "E14000914",
+	"title": "Scunthorpe",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3663,
+				"name": "Nicholas Dakin",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b9f9ea51642637514d626.png"
+			},{
+				"id": 6095,
+				"name": "Ryk Downes",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ce58b209513973bc512ba.png"
+			},{
+				"id": 34479,
+				"name": "Holly Mumby-Croft",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34479.png"
+			},{
+				"id": 65231,
+				"name": "Peter Dennington",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65231-e49266d6-f531-4f7f-9b77-798915274c95.png"
+			},{
+				"id": 71615,
+				"name": "Jerry Gorman",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71615.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 61578,
+			"turnout": 65.3,
+			"majority": 3431
+		}
+	}
+}

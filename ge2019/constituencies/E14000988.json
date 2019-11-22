@@ -1,0 +1,35 @@
+{
+	"id": "E14000988",
+	"title": "Taunton Deane",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4234,
+				"name": "Rebecca Pow",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4234.png"
+			},{
+				"id": 19894,
+				"name": "John Hunt",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19894.png"
+			},{
+				"id": 33356,
+				"name": "Liam Canham",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33356.png"
+			},{
+				"id": 35085,
+				"name": "Gideon Amos",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35085.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 85457,
+			"turnout": 73.8,
+			"majority": 15887
+		}
+	}
+}

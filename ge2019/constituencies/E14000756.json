@@ -1,0 +1,40 @@
+{
+	"id": "E14000756",
+	"title": "Huddersfield",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2182,
+				"name": "Andrew Cooper",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69921.png"
+			},{
+				"id": 2183,
+				"name": "Barry Sheerman",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a0641b989d5e837ae99d6.png"
+			},{
+				"id": 71379,
+				"name": "Stuart Hale",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71379.png"
+			},{
+				"id": 71489,
+				"name": "James Wilkinson",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 72261,
+				"name": "Ken Davy",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67037,
+			"turnout": 65.4,
+			"majority": 12005
+		}
+	}
+}

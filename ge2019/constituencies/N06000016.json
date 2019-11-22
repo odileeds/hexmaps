@@ -1,0 +1,55 @@
+{
+	"id": "N06000016",
+	"title": "Strangford",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3066,
+				"name": "Jim Shannon",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535721f367dc5383f552ccd.png"
+			},{
+				"id": 4590,
+				"name": "Kellie Armstrong",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b182e13eb34c82843cb4b.png"
+			},{
+				"id": 6814,
+				"name": "Robert Stephenson",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55268b7a59bbc5c063445b73.png"
+			},{
+				"id": 7179,
+				"name": "Joe Boyle",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16576.png"
+			},{
+				"id": 8115,
+				"name": "Philip Smith",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8115.png"
+			},{
+				"id": 49644,
+				"name": "Ryan Carlin",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49644.png"
+			},{
+				"id": 69269,
+				"name": "Maurice Macartney",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 72077,
+				"name": "Grant Abraham",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "DUP",
+			"electorate": 64327,
+			"turnout": 60.2,
+			"majority": 18343
+		}
+	}
+}

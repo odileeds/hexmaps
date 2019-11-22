@@ -1,0 +1,45 @@
+{
+	"id": "N06000010",
+	"title": "Mid Ulster",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4601,
+				"name": "Francie Molloy",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356f6c367dc5383f552cb9.png"
+			},{
+				"id": 11273,
+				"name": "Keith Buchanan",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11273.png"
+			},{
+				"id": 49547,
+				"name": "Denise Johnston",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49547.png"
+			},{
+				"id": 69411,
+				"name": "Mel Boyle",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69411.png"
+			},{
+				"id": 71956,
+				"name": "Neil Richardson",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71956.png"
+			},{
+				"id": 72336,
+				"name": "Conor Rafferty",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 68485,
+			"turnout": 68.2,
+			"majority": 12890
+		}
+	}
+}

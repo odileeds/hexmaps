@@ -1,0 +1,55 @@
+{
+	"id": "E14000765",
+	"title": "Jarrow",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 20040,
+				"name": "Nick Oliver",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72098.png"
+			},{
+				"id": 39814,
+				"name": "John Andrew Robertson",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 39815,
+				"name": "David Wilkinson",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 39997,
+				"name": "Kate Osborne",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39997-c91dc774-9437-4116-9796-9363e92c7fa2.png"
+			},{
+				"id": 58982,
+				"name": "James Paul Milne",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58982-eb44019c-5549-401c-bc97-2b51fada1f54.png"
+			},{
+				"id": 70499,
+				"name": "Richard Leslie Monaghan",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 71959,
+				"name": "Mark Conway",
+				"party": "Social Democratic Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71959.png"
+			},{
+				"id": 72323,
+				"name": "Shaun William Sadler",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 64778,
+			"turnout": 66.4,
+			"majority": 17263
+		}
+	}
+}

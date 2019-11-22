@@ -1,0 +1,35 @@
+{
+	"id": "E14000992",
+	"title": "The Wrekin",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1616,
+				"name": "Mark Pritchard",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba6b710284be476aae899.png"
+			},{
+				"id": 34365,
+				"name": "Dylan Harrison",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34365.png"
+			},{
+				"id": 53090,
+				"name": "Thomas Janke",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53090.png"
+			},{
+				"id": 72149,
+				"name": "Tim Dawes",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72149-030e16c3-3ebd-423b-a0ad-327c926ea09c.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 68604,
+			"turnout": 72.2,
+			"majority": 9564
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "N06000007",
+	"title": "Fermanagh and South Tyrone",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2427,
+				"name": "Michelle Gildernew",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351f95b247335574a42e80.png"
+			},{
+				"id": 4933,
+				"name": "Tom Elliott",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bec4eec0766d3759c046e.png"
+			},{
+				"id": 50100,
+				"name": "Adam Gannon",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50100.png"
+			},{
+				"id": 68972,
+				"name": "Matthew Beaumont",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68972.png"
+			},{
+				"id": 72331,
+				"name": "Caroline Wheeler",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 70601,
+			"turnout": 75.8,
+			"majority": 875
+		}
+	}
+}

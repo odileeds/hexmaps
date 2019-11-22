@@ -1,0 +1,35 @@
+{
+	"id": "E14000902",
+	"title": "Rossendale and Darwen",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4079,
+				"name": "Jake Berry",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356fa7367dc5383f552cbc.png"
+			},{
+				"id": 26035,
+				"name": "Paul Valentine",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26035.png"
+			},{
+				"id": 33182,
+				"name": "Alyson Barnes",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33182-a106bdc8-6b85-41cc-bf0c-97bef5dac5ec.png"
+			},{
+				"id": 43955,
+				"name": "Sarah Elizabeth Hall",
+				"party": "Green Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 72486,
+			"turnout": 69.2,
+			"majority": 3216
+		}
+	}
+}

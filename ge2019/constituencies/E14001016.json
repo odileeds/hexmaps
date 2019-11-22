@@ -1,0 +1,40 @@
+{
+	"id": "E14001016",
+	"title": "Warley",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3777,
+				"name": "John Francis Spellar",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f421b247335574a42e29.png"
+			},{
+				"id": 18993,
+				"name": "Bryan Manley-Green",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18993.png"
+			},{
+				"id": 55080,
+				"name": "Chandra Mohan Kanneganti",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72023.png"
+			},{
+				"id": 71886,
+				"name": "Kathryn Downs",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71886.png"
+			},{
+				"id": 72187,
+				"name": "Michael Andrew Cooper",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 63739,
+			"turnout": 63.1,
+			"majority": 16483
+		}
+	}
+}

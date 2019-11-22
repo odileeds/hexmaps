@@ -1,0 +1,50 @@
+{
+	"id": "E14000856",
+	"title": "North West Durham",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2338,
+				"name": "Watts Stelling",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 5777,
+				"name": "Richard Holden",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5777.png"
+			},{
+				"id": 23981,
+				"name": "David Alexander Stephen Lindsay",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 31607,
+				"name": "Laura Pidcock",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31607.png"
+			},{
+				"id": 33881,
+				"name": "Michael Keith Peacock",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33881.png"
+			},{
+				"id": 71987,
+				"name": "David Sewell",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71987.png"
+			},{
+				"id": 72633,
+				"name": "John Wolstenholme",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72633-4063ce8c-47be-47af-8ed4-279b2aa668dd.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 71918,
+			"turnout": 66.6,
+			"majority": 8792
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "E14000810",
+	"title": "Mansfield",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6351,
+				"name": "Sid Pepper",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf4684aa4fdc23cc908f3.png"
+			},{
+				"id": 14495,
+				"name": "Sarah Louise Brown",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14495.png"
+			},{
+				"id": 20405,
+				"name": "Ben Bradley",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20405.png"
+			},{
+				"id": 56101,
+				"name": "Sonya Rose Ward",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56101.png"
+			},{
+				"id": 64078,
+				"name": "Stephen Leonard Harvey",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64078-aa82075b-c29c-4227-9ee0-57f41ab88110.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 77811,
+			"turnout": 64.5,
+			"majority": 1057
+		}
+	}
+}

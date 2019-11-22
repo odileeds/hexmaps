@@ -1,0 +1,40 @@
+{
+	"id": "E14000981",
+	"title": "Suffolk Coastal",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 84,
+				"name": "Therese Coffey",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f956b247335574a42e41.png"
+			},{
+				"id": 4620,
+				"name": "Rachel Smith-Lyte",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4620.png"
+			},{
+				"id": 34459,
+				"name": "Cameron Matthews",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34459-1cf4c5fe-71db-4fb4-87db-b64844faef51.png"
+			},{
+				"id": 48925,
+				"name": "Jules Ewart",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48925.png"
+			},{
+				"id": 71679,
+				"name": "Tony Love",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71679-b799d117-1a61-46e1-bb96-c55afea7950a.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 79366,
+			"turnout": 73.2,
+			"majority": 16012
+		}
+	}
+}

@@ -1,0 +1,50 @@
+{
+	"id": "N06000008",
+	"title": "Foyle",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 7209,
+				"name": "Gary Middleton",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72315-5b582878-76da-4bf3-ba13-b93a3536defd.png"
+			},{
+				"id": 11857,
+				"name": "Colum Eastwood",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11857.png"
+			},{
+				"id": 11862,
+				"name": "Anne McCloskey",
+				"party": "Aontú",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50485.png"
+			},{
+				"id": 19678,
+				"name": "Elisha McCallion",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19678.png"
+			},{
+				"id": 35060,
+				"name": "Shaun Harkin",
+				"party": "People Before Profit Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35060.png"
+			},{
+				"id": 72309,
+				"name": "Rachael Ferguson",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72309-13942359-b1f8-41fa-ae3d-1b918d082436.png"
+			},{
+				"id": 72311,
+				"name": "Darren Guy",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72311-69f7860c-8833-4537-9613-7ce907087fab.png"
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 70324,
+			"turnout": 65.4,
+			"majority": 169
+		}
+	}
+}

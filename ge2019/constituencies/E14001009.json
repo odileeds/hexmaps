@@ -1,0 +1,45 @@
+{
+	"id": "E14001009",
+	"title": "Wakefield",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2655,
+				"name": "Mary Creagh",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f801b247335574a42e39.png"
+			},{
+				"id": 38371,
+				"name": "Jamie Needle",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38371-8c5e75f3-0966-4195-8f5d-ee07a6756d1d.png"
+			},{
+				"id": 70481,
+				"name": "Peter David Wiltshire",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70481.png"
+			},{
+				"id": 71807,
+				"name": "Stephen Whyte",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71807-1cf3586e-5bae-4ca2-994e-cdbbcc70e8ef.png"
+			},{
+				"id": 71848,
+				"name": "Ryan Kett",
+				"party": "Yorkshire Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71848-d77aeb58-7afa-4b51-a712-6578bbb63be0.png"
+			},{
+				"id": 71986,
+				"name": "Imran Nasir Ahmad Khan",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71986-62b4d81e-b7ea-4629-a66f-73221c843a35.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 70340,
+			"turnout": 65.8,
+			"majority": 2176
+		}
+	}
+}

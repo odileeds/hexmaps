@@ -1,0 +1,45 @@
+{
+	"id": "S14000031",
+	"title": "Glasgow North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1952,
+				"name": "Patrick Grady",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f100b247335574a42e1c.png"
+			},{
+				"id": 2682,
+				"name": "Andrew Chamberlain",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2682-326e1b70-88be-40dc-8b58-49344cbdf33c.png"
+			},{
+				"id": 6079,
+				"name": "Cass Macgregor",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55167f22929f1bbe286be017.png"
+			},{
+				"id": 21754,
+				"name": "Tony Curtis",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 34271,
+				"name": "Pam Duncan-Glancy",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34271.png"
+			},{
+				"id": 72556,
+				"name": "Dionne Moore Cocozza",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72556-3e07dbb0-9d32-40b1-90e1-25d5c66cef78.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 53862,
+			"turnout": 62.1,
+			"majority": 1060
+		}
+	}
+}

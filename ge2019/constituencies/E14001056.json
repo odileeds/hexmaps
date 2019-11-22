@@ -1,0 +1,50 @@
+{
+	"id": "E14001056",
+	"title": "Wycombe",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1481,
+				"name": "Steve Baker",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1481.png"
+			},{
+				"id": 23634,
+				"name": "Peter Sims",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23634.png"
+			},{
+				"id": 26528,
+				"name": "Vijay Singh Srao",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26528.png"
+			},{
+				"id": 27621,
+				"name": "Julia Wassell",
+				"party": "Wycombe Independents",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27621-974d427f-0e87-43f9-884e-ef699135eaf4.png"
+			},{
+				"id": 71743,
+				"name": "Khalil Ahmed",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71743.png"
+			},{
+				"id": 71744,
+				"name": "Toni Brodelle",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71744.png"
+			},{
+				"id": 72424,
+				"name": "Edmund John Gemmell",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 77087,
+			"turnout": 69.4,
+			"majority": 6578
+		}
+	}
+}

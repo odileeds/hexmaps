@@ -1,0 +1,40 @@
+{
+	"id": "E14000732",
+	"title": "Harrow West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1126,
+				"name": "Gareth Thomas",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f8e8b247335574a42e3e.png"
+			},{
+				"id": 3490,
+				"name": "Rowan Langley",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/554875a3cce2c20e27fea5e0.png"
+			},{
+				"id": 35798,
+				"name": "Anwara Ali",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35798.png"
+			},{
+				"id": 45767,
+				"name": "Lisa-Maria Bornemann",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45767.png"
+			},{
+				"id": 72274,
+				"name": "Richard Austin Jones",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72274-d10442f8-d877-4915-a2c2-8d016fef7860.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 69797,
+			"turnout": 72.1,
+			"majority": 13314
+		}
+	}
+}

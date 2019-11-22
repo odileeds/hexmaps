@@ -1,0 +1,40 @@
+{
+	"id": "E14000925",
+	"title": "Shipley",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 835,
+				"name": "Philip Davies",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551599bf4fb3d15c51926dcf.png"
+			},{
+				"id": 5112,
+				"name": "Celia Hickson",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54b9eeaacb19ebca71e2af6f.png"
+			},{
+				"id": 34120,
+				"name": "Caroline Jones",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34120.png"
+			},{
+				"id": 71621,
+				"name": "Jo Pike",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71621.png"
+			},{
+				"id": 71856,
+				"name": "Darren Longhorn",
+				"party": "Yorkshire Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71856-5004da2c-afde-44dc-8fb3-fc20fca932ff.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 73133,
+			"turnout": 73.0,
+			"majority": 4681
+		}
+	}
+}

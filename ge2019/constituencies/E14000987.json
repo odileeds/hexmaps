@@ -1,0 +1,35 @@
+{
+	"id": "E14000987",
+	"title": "Tatton",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3524,
+				"name": "Esther McVey",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551be4ff209513973bc512a0.png"
+			},{
+				"id": 34124,
+				"name": "Nigel Robert Hennerley",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34124.png"
+			},{
+				"id": 71688,
+				"name": "Jonathan Smith",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 71954,
+				"name": "James Weinberg",
+				"party": "Labour Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 67874,
+			"turnout": 72.4,
+			"majority": 14787
+		}
+	}
+}

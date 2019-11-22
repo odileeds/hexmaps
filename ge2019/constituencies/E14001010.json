@@ -1,0 +1,40 @@
+{
+	"id": "E14001010",
+	"title": "Wallasey",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2917,
+				"name": "Angela Eagle",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534e2f8b247335574a42e10.png"
+			},{
+				"id": 12734,
+				"name": "Lily Clough",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12734.png"
+			},{
+				"id": 44667,
+				"name": "Vicky Downie",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44667.png"
+			},{
+				"id": 71523,
+				"name": "Martin York",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71523.png"
+			},{
+				"id": 72089,
+				"name": "James Baker",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72089.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67454,
+			"turnout": 71.7,
+			"majority": 23320
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"id": "N06000012",
+	"title": "North Antrim",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2135,
+				"name": "Ian Paisley Jnr",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553572bb367dc5383f552cd2.png"
+			},{
+				"id": 4723,
+				"name": "Robin Swann",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550e9a869253711a232cfb99.png"
+			},{
+				"id": 5389,
+				"name": "Margaret Anne McKillop",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5389_OJ0k3LL.png"
+			},{
+				"id": 7339,
+				"name": "Stephen Palmer",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 19695,
+				"name": "Patricia O'Lynn",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19695.png"
+			},{
+				"id": 34536,
+				"name": "Cara McShane",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34536.png"
+			}]
+		},
+		"2017": {
+			"first": "DUP",
+			"electorate": 75657,
+			"turnout": 64.1,
+			"majority": 20643
+		}
+	}
+}

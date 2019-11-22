@@ -1,0 +1,45 @@
+{
+	"id": "E14000608",
+	"title": "Buckingham",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 16,
+				"name": "Stephen Dorrell",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16.png"
+			},{
+				"id": 34503,
+				"name": "Greg Smith",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34503.png"
+			},{
+				"id": 71338,
+				"name": "Andrew Bell",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71338.png"
+			},{
+				"id": 71933,
+				"name": "David Morgan",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71933-8597a253-65e2-4f02-9e77-bd8edfeee542.png"
+			},{
+				"id": 72283,
+				"name": "Ned Stephen Thompson",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 72284,
+				"name": "Antonio Daniel Vitiello",
+				"party": "English Democrats",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Spk",
+			"electorate": 79615,
+			"turnout": 66.2,
+			"majority": 25725
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"id": "E14001014",
+	"title": "Wansbeck",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 331,
+				"name": "Stephen Psallidas",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/331.png"
+			},{
+				"id": 875,
+				"name": "Michael Flynn",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/875-881e0d93-c429-48fb-92d3-d0a97db9cded.png"
+			},{
+				"id": 3057,
+				"name": "Ian Lavery",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3057.png"
+			},{
+				"id": 20004,
+				"name": "Jack Alexander Gebhard",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 34779,
+				"name": "Steve Leyland",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34779.png"
+			},{
+				"id": 72211,
+				"name": "Eden Webley",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72211-a9d4e390-e1ba-421d-9865-ced773b2f4c7.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 62151,
+			"turnout": 68.3,
+			"majority": 10435
+		}
+	}
+}

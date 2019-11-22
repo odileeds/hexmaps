@@ -1,0 +1,45 @@
+{
+	"id": "E14000889",
+	"title": "Reading East",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4406,
+				"name": "Matt Rodda",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb673a8c0192f732ca8df.png"
+			},{
+				"id": 6475,
+				"name": "Yemi Awolola",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6475-45187744-2281-4a52-bce9-c586e1fe4e3a.png"
+			},{
+				"id": 6584,
+				"name": "Imogen Shepherd-DuBey",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551596144fb3d15c51926dc8.png"
+			},{
+				"id": 71594,
+				"name": "Craig Morley",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71594.png"
+			},{
+				"id": 71595,
+				"name": "Mitchell Feierstein",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71595.png"
+			},{
+				"id": 71921,
+				"name": "David McElroy",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71921-68b25662-e7f7-4f14-be32-a0e829249c3b.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 75537,
+			"turnout": 73.1,
+			"majority": 3749
+		}
+	}
+}

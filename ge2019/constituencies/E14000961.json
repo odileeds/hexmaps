@@ -1,0 +1,45 @@
+{
+	"id": "E14000961",
+	"title": "St Austell and Newquay",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1318,
+				"name": "Dick Cole",
+				"party": "Mebyon Kernow - The Party for Cornwall",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a066fb989d5e837ae99d7.png"
+			},{
+				"id": 4231,
+				"name": "Steve Double",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4231.png"
+			},{
+				"id": 29362,
+				"name": "Tim Styles",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29362-1b78814c-855b-4e80-b29d-50b60fad8eab.png"
+			},{
+				"id": 71659,
+				"name": "Collin Harker",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71659-ea1cc713-9d9e-4cee-8226-47ad853c7985.png"
+			},{
+				"id": 71660,
+				"name": "Felicity Owen",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71660.png"
+			},{
+				"id": 72174,
+				"name": "Richard Byrne",
+				"party": "The Liberal Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 78609,
+			"turnout": 69.0,
+			"majority": 11142
+		}
+	}
+}

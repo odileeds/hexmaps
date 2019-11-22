@@ -1,0 +1,45 @@
+{
+	"id": "W07000048",
+	"title": "Swansea East",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5787,
+				"name": "Carolyn Harris",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5787.png"
+			},{
+				"id": 16766,
+				"name": "Denise Howard",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 34699,
+				"name": "Chris Evans",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34699.png"
+			},{
+				"id": 71348,
+				"name": "Tony Willicombe",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71348.png"
+			},{
+				"id": 71798,
+				"name": "Chloe Hutchinson",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71798.png"
+			},{
+				"id": 71814,
+				"name": "Geraint Havard",
+				"party": "Plaid Cymru - The Party of Wales",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71814.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 58521,
+			"turnout": 60.1,
+			"majority": 13168
+		}
+	}
+}

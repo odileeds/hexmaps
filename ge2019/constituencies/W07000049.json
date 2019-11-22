@@ -1,0 +1,50 @@
+{
+	"id": "W07000049",
+	"title": "Aberavon",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 20,
+				"name": "Captain Beany",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20-1d5fd4e6-c664-41c7-b519-6a3a88b4862a.png"
+			},{
+				"id": 4252,
+				"name": "Stephen Kinnock",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e791b150e238702c0545.png"
+			},{
+				"id": 5592,
+				"name": "Glenda Marie Davies",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55256525413cb4432adffa42.png"
+			},{
+				"id": 9204,
+				"name": "Sheila Kingston-Jones",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9204.png"
+			},{
+				"id": 23660,
+				"name": "Nigel Hunt",
+				"party": "Plaid Cymru - The Party of Wales",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23660.png"
+			},{
+				"id": 72049,
+				"name": "Giorgia Finney",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72049.png"
+			},{
+				"id": 72095,
+				"name": "Charlotte Lang",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72095.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 49892,
+			"turnout": 66.7,
+			"majority": 16761
+		}
+	}
+}

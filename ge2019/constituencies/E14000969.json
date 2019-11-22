@@ -1,0 +1,40 @@
+{
+	"id": "E14000969",
+	"title": "Stockport",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 11099,
+				"name": "Helena Julia Mellish",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11099.png"
+			},{
+				"id": 34462,
+				"name": "Navendu Mishra",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34462.png"
+			},{
+				"id": 55390,
+				"name": "Wendy Meikle",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55390-2d37b86f-62ab-47f6-b27d-b4c508cc42dd.png"
+			},{
+				"id": 64217,
+				"name": "Isy Imarni",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72120,
+				"name": "Lee Thomas Montague-Trenchard",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 64236,
+			"turnout": 64.7,
+			"majority": 14477
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "E14000560",
+	"title": "Birmingham, Edgbaston",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 90,
+				"name": "Phil Simpson",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525eff2413cb4432adffa62.png"
+			},{
+				"id": 4481,
+				"name": "Colin Green",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8cfb150e238702c0601.png"
+			},{
+				"id": 10033,
+				"name": "Alex Wan Yip",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10033.png"
+			},{
+				"id": 19009,
+				"name": "Preet Gill",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19009.png"
+			},{
+				"id": 72525,
+				"name": "David Jonathon Wilks",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72525-b41f7ac8-49e1-4217-87f6-99d8bea23d09.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 68091,
+			"turnout": 64.0,
+			"majority": 6917
+		}
+	}
+}

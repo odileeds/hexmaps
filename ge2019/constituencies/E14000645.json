@@ -1,0 +1,55 @@
+{
+	"id": "E14000645",
+	"title": "Colne Valley",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 294,
+				"name": "Melanie Roberts",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55268e2159bbc5c063445b7f.png"
+			},{
+				"id": 3383,
+				"name": "Jason McCartney",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55238bd0944e4aac612ace66.png"
+			},{
+				"id": 6002,
+				"name": "Cahal Burke",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6002.png"
+			},{
+				"id": 7750,
+				"name": "Thelma Walker",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7750.png"
+			},{
+				"id": 12919,
+				"name": "Colin Bryan Peel",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12919-7be8a5ef-fdd8-4479-9d08-1ffff4f567d1.png"
+			},{
+				"id": 53704,
+				"name": "Darryl Paul Anthony Gould",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 71895,
+				"name": "Owen Aspinall",
+				"party": "Yorkshire Party",
+				"img": ""
+			},{
+				"id": 72226,
+				"name": "Sue Harrison",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 84387,
+			"turnout": 71.6,
+			"majority": 915
+		}
+	}
+}

@@ -1,0 +1,45 @@
+{
+	"id": "N06000015",
+	"title": "South Down",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5994,
+				"name": "Chris Hazzard",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323d8c29c5d53959d9e459.png"
+			},{
+				"id": 11532,
+				"name": "Patrick Brown",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11532.png"
+			},{
+				"id": 68954,
+				"name": "Jill Macauley",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68954.png"
+			},{
+				"id": 69379,
+				"name": "Michael Savage",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69379-39c6418f-4abb-4ca9-8e72-274d2f558c06.png"
+			},{
+				"id": 69431,
+				"name": "Glyn Hanna",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69431-3928e84e-69ba-478b-8b0d-37175a94533e.png"
+			},{
+				"id": 72037,
+				"name": "Paul Brady",
+				"party": "Aontú",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72037.png"
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 75685,
+			"turnout": 67.2,
+			"majority": 2446
+		}
+	}
+}

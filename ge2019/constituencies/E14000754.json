@@ -1,0 +1,45 @@
+{
+	"id": "E14000754",
+	"title": "Houghton and Sunderland South",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3594,
+				"name": "Richard Elvin",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526928359bbc5c063445bc3.png"
+			},{
+				"id": 3733,
+				"name": "Bridget Phillipson",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5506fe5b5399523471f7e1a5.png"
+			},{
+				"id": 11618,
+				"name": "Paul Edgeworth",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11618.png"
+			},{
+				"id": 11628,
+				"name": "Richard Peter Bradley",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11628.png"
+			},{
+				"id": 71487,
+				"name": "Kevin Yuill",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71487.png"
+			},{
+				"id": 72176,
+				"name": "Christopher John Charles Howarth",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72176-f21d6a06-869f-4086-ad1a-9e460103cda2.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 68123,
+			"turnout": 60.9,
+			"majority": 12341
+		}
+	}
+}

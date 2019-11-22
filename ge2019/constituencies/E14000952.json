@@ -1,0 +1,40 @@
+{
+	"id": "E14000952",
+	"title": "South West Norfolk",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 188,
+				"name": "Elizabeth Truss",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5532303a29c5d53959d9e453.png"
+			},{
+				"id": 33490,
+				"name": "Josie Ratcliffe",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72035.png"
+			},{
+				"id": 63686,
+				"name": "Emily Blake",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63686.png"
+			},{
+				"id": 63688,
+				"name": "Pallavi Devulapalli",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63688.png"
+			},{
+				"id": 72256,
+				"name": "Earl Elvis Of Outwell",
+				"party": "Official Monster Raving Loony Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 77874,
+			"turnout": 67.3,
+			"majority": 18312
+		}
+	}
+}

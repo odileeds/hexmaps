@@ -1,0 +1,50 @@
+{
+	"id": "E14000871",
+	"title": "Oldham West and Royton",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4520,
+				"name": "Garth Harkness",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4520.png"
+			},{
+				"id": 34144,
+				"name": "Jim McMahon",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34144.png"
+			},{
+				"id": 34612,
+				"name": "Kirsty Finlayson",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34612.png"
+			},{
+				"id": 34696,
+				"name": "Dan Jerrome",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34696.png"
+			},{
+				"id": 51144,
+				"name": "Anthony Joseph Prince",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51144-1a5422ed-a86a-4867-95cc-fd02d93061af.png"
+			},{
+				"id": 72008,
+				"name": "Helen Formby",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72008.png"
+			},{
+				"id": 72498,
+				"name": "Debbie Cole",
+				"party": "Proud of Oldham & Saddleworth",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72401,
+			"turnout": 63.2,
+			"majority": 17198
+		}
+	}
+}

@@ -1,0 +1,35 @@
+{
+	"id": "S14000053",
+	"title": "Paisley and Renfrewshire South",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6055,
+				"name": "Mhairi Black",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6055.png"
+			},{
+				"id": 13062,
+				"name": "Moira Ramage",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13062.png"
+			},{
+				"id": 21184,
+				"name": "Mark Dougan",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 21923,
+				"name": "Jack Clark",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21923.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 61344,
+			"turnout": 68.0,
+			"majority": 2541
+		}
+	}
+}

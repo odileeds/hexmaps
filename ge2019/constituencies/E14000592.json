@@ -1,0 +1,50 @@
+{
+	"id": "E14000592",
+	"title": "Brent North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2456,
+				"name": "Barry Gardiner",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323cfc29c5d53959d9e455.png"
+			},{
+				"id": 6276,
+				"name": "Paul Lorber",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489aa539a8ee0311018609.png"
+			},{
+				"id": 7320,
+				"name": "Elcena Jeffers",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7320.png"
+			},{
+				"id": 7404,
+				"name": "Noel Coonan",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 47668,
+				"name": "Anjana Patel",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47668-b4ac59dc-cfa7-4a99-9a4c-f3d3625a5053.png"
+			},{
+				"id": 48143,
+				"name": "Simon David Rebbitt",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 71935,
+				"name": "Suzie O'Brien",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71935.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 82567,
+			"turnout": 68.4,
+			"majority": 17061
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "E14000684",
+	"title": "Eastbourne",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1056,
+				"name": "Stephen Lloyd",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e901b150e238702c061e.png"
+			},{
+				"id": 4188,
+				"name": "Caroline Ansell",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4188.png"
+			},{
+				"id": 5292,
+				"name": "Jake Lambert",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517f4a0249b917507bee50f.png"
+			},{
+				"id": 71422,
+				"name": "Stephen Gander",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71422.png"
+			},{
+				"id": 72599,
+				"name": "Ken Pollock",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "LD",
+			"electorate": 78754,
+			"turnout": 72.9,
+			"majority": 1609
+		}
+	}
+}

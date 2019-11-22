@@ -1,0 +1,40 @@
+{
+	"id": "S14000057",
+	"title": "Stirling",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5524,
+				"name": "Stephen Kerr",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca0cededa58bc5cca66e8.png"
+			},{
+				"id": 14772,
+				"name": "Bryan Quinn",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14772.png"
+			},{
+				"id": 22500,
+				"name": "Fayzan Rehman",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 70176,
+				"name": "Alyn Smith",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70176.png"
+			},{
+				"id": 72433,
+				"name": "Mary Kate Ross",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72433-2ee2c498-fa84-47ed-95b7-244770865e5c.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 66415,
+			"turnout": 74.3,
+			"majority": 148
+		}
+	}
+}

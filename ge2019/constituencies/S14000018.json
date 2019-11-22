@@ -1,0 +1,55 @@
+{
+	"id": "S14000018",
+	"title": "East Dunbartonshire",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 108,
+				"name": "Jo Swinson",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8fbb150e238702c061c.png"
+			},{
+				"id": 1516,
+				"name": "Donald Mackay",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1516.png"
+			},{
+				"id": 20554,
+				"name": "Carolynn Scrimgeour",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20554.png"
+			},{
+				"id": 34259,
+				"name": "Callum McNally",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34259.png"
+			},{
+				"id": 71416,
+				"name": "Amy Callaghan",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71416.png"
+			},{
+				"id": 71980,
+				"name": "Pam Gosal",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71980.png"
+			},{
+				"id": 72496,
+				"name": "Rosie Dickson",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 72497,
+				"name": "Liam McKechnie",
+				"party": "Scottish Family Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "LD",
+			"electorate": 66300,
+			"turnout": 78.1,
+			"majority": 5339
+		}
+	}
+}

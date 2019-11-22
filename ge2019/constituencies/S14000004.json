@@ -1,0 +1,35 @@
+{
+	"id": "S14000004",
+	"title": "Angus",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 8231,
+				"name": "Kirstene Hair",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8231.png"
+			},{
+				"id": 15353,
+				"name": "Dave Doogan",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15353.png"
+			},{
+				"id": 19726,
+				"name": "Ben Lawrie",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19726-f9c20d17-0a3e-4c6c-a908-d6a41094ab3f.png"
+			},{
+				"id": 72121,
+				"name": "Monique Tamara Miller",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72121-3572d521-eb5d-4abf-966e-8b61682126ec.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 63840,
+			"turnout": 63.0,
+			"majority": 2645
+		}
+	}
+}

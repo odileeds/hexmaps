@@ -1,0 +1,35 @@
+{
+	"id": "E14000821",
+	"title": "Milton Keynes North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4838,
+				"name": "Charlynne Pullen",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4838_6PoNyoD.png"
+			},{
+				"id": 6961,
+				"name": "Aisha Mir",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6961.png"
+			},{
+				"id": 13291,
+				"name": "Catherine Jean Rose",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13291-a6e4cf28-6a18-4174-8f0e-dd0f5f559232.png"
+			},{
+				"id": 72597,
+				"name": "Ben Everitt",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72597-9948fa06-ddcc-492b-ad5f-d5bb40619d13.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 89207,
+			"turnout": 71.7,
+			"majority": 1975
+		}
+	}
+}

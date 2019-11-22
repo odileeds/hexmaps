@@ -1,0 +1,35 @@
+{
+	"id": "E14000829",
+	"title": "Newark",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2132,
+				"name": "David Watts",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2132.png"
+			},{
+				"id": 5031,
+				"name": "Robert Jenrick",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bd1c8ec0766d3759c0463.png"
+			},{
+				"id": 66904,
+				"name": "James Baggaley",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66904.png"
+			},{
+				"id": 72127,
+				"name": "Jay Lewis Henderson",
+				"party": "Green Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 75510,
+			"turnout": 72.9,
+			"majority": 18149
+		}
+	}
+}

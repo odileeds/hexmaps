@@ -1,0 +1,50 @@
+{
+	"id": "E14000718",
+	"title": "Greenwich and Woolwich",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4343,
+				"name": "Matthew Pennycook",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4343_DCXcQ5E.png"
+			},{
+				"id": 42751,
+				"name": "Victoria Rance",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42751-7e0370fb-7c93-4a4a-94d0-d5000be0656a.png"
+			},{
+				"id": 42755,
+				"name": "Thomas Turrell",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42755-e96f6820-a233-4a01-8a6f-b9e383efabe7.png"
+			},{
+				"id": 43063,
+				"name": "Rhian O'Connor",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43063.png"
+			},{
+				"id": 71810,
+				"name": "Sushil Gaikwad",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71810.png"
+			},{
+				"id": 72072,
+				"name": "Kailash Trivedi",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72072.png"
+			},{
+				"id": 72622,
+				"name": "Eunice Odesanmi",
+				"party": "Christian Peoples Alliance",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72622-6e046a6b-5d65-4d1f-b2a9-c984bf15e68b.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 77190,
+			"turnout": 68.8,
+			"majority": 20714
+		}
+	}
+}

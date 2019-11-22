@@ -1,0 +1,40 @@
+{
+	"id": "W07000047",
+	"title": "Swansea West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3608,
+				"name": "Geraint Davies",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9fb8dcfe1d5b5cf8146d.png"
+			},{
+				"id": 34563,
+				"name": "Michael Ely O'Carroll",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34563.png"
+			},{
+				"id": 71685,
+				"name": "Gwyn Williams",
+				"party": "Plaid Cymru - The Party of Wales",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71685-d2962e77-0022-49ae-b926-84caa37b18e2.png"
+			},{
+				"id": 72356,
+				"name": "Peter Meireon Hopkins",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72356-499f2161-2ae8-49ab-8ecb-ddeda5c217a1.png"
+			},{
+				"id": 72358,
+				"name": "James Price",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 56892,
+			"turnout": 65.5,
+			"majority": 10598
+		}
+	}
+}

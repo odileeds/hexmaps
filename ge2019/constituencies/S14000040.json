@@ -1,0 +1,40 @@
+{
+	"id": "S14000040",
+	"title": "Kilmarnock and Loudoun",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5921,
+				"name": "Alan Brown",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde6381ccf185f0d8cc4b5.png"
+			},{
+				"id": 22339,
+				"name": "Stef Johnstone",
+				"party": "Scottish Libertarian Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22339-15ca7a76-f535-431c-a751-32b5944a11e7.png"
+			},{
+				"id": 34766,
+				"name": "Caroline Hollins-Martin",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34766.png"
+			},{
+				"id": 71504,
+				"name": "Kevin McGregor",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71504.png"
+			},{
+				"id": 72481,
+				"name": "Edward John Thornley",
+				"party": "Liberal Democrats",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 73327,
+			"turnout": 63.4,
+			"majority": 6269
+		}
+	}
+}

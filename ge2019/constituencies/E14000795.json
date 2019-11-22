@@ -1,0 +1,45 @@
+{
+	"id": "E14000795",
+	"title": "Liverpool, Wavertree",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6881,
+				"name": "Adam Heatherington",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6881.png"
+			},{
+				"id": 7681,
+				"name": "Richard Kemp",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7681.png"
+			},{
+				"id": 49755,
+				"name": "Kay Inckle",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49755.png"
+			},{
+				"id": 51203,
+				"name": "Mick Coyne",
+				"party": "The Liberal Party",
+				"img": ""
+			},{
+				"id": 71518,
+				"name": "Paula Barker",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71518.png"
+			},{
+				"id": 72319,
+				"name": "Catherine Riordan Mulhern",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 62411,
+			"turnout": 69.9,
+			"majority": 29466
+		}
+	}
+}

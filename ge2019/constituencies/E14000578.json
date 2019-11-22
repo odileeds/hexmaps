@@ -1,0 +1,40 @@
+{
+	"id": "E14000578",
+	"title": "Bolton North East",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 919,
+				"name": "David Crausby",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a0a9fb989d5e837ae99e3.png"
+			},{
+				"id": 11310,
+				"name": "Warren Fox",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11310.png"
+			},{
+				"id": 34432,
+				"name": "Liz Spencer",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34432.png"
+			},{
+				"id": 71314,
+				"name": "Mark Logan",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 71315,
+				"name": "Trevor Jones",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71315.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67233,
+			"turnout": 67.2,
+			"majority": 3797
+		}
+	}
+}

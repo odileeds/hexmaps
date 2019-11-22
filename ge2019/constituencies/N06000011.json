@@ -1,0 +1,45 @@
+{
+	"id": "N06000011",
+	"title": "Newry and Armagh",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1872,
+				"name": "William George Irwin",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1872.png"
+			},{
+				"id": 4600,
+				"name": "Mickey Brady",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356f79367dc5383f552cba.png"
+			},{
+				"id": 8158,
+				"name": "Sam Nicholson",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8158.png"
+			},{
+				"id": 19696,
+				"name": "Jackie Coade",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19696.png"
+			},{
+				"id": 49544,
+				"name": "Pete Byrne",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49544.png"
+			},{
+				"id": 68335,
+				"name": "Martin Kelly",
+				"party": "Aontú",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68335.png"
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 78266,
+			"turnout": 68.5,
+			"majority": 12489
+		}
+	}
+}

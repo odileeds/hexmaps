@@ -1,0 +1,40 @@
+{
+	"id": "N06000017",
+	"title": "Upper Bann",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 699,
+				"name": "Dolores Kelly",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553be5e0ec0766d3759c0467.png"
+			},{
+				"id": 3752,
+				"name": "John O'Dowd",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3752.png"
+			},{
+				"id": 8150,
+				"name": "Doug Beattie",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8150.png"
+			},{
+				"id": 12439,
+				"name": "Carla Lockhart",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12439.png"
+			},{
+				"id": 50332,
+				"name": "Eóin Tennyson",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69134-8ae070b0-664c-44f8-b10f-aad5b05f29b6.png"
+			}]
+		},
+		"2017": {
+			"first": "DUP",
+			"electorate": 80168,
+			"turnout": 63.9,
+			"majority": 7992
+		}
+	}
+}

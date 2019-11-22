@@ -1,0 +1,50 @@
+{
+	"id": "E14000750",
+	"title": "Holborn and St Pancras",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5077,
+				"name": "Keir Starmer",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323ec329c5d53959d9e45f.png"
+			},{
+				"id": 6874,
+				"name": "Mohammad Ali Bhatti",
+				"party": "UK Independence Party (UKIP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526945559bbc5c063445bda.png"
+			},{
+				"id": 36698,
+				"name": "Matthew Kirk",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36698.png"
+			},{
+				"id": 41904,
+				"name": "Kirsten De Keyser",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41904.png"
+			},{
+				"id": 47604,
+				"name": "Alexandra Hayward",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72612,
+				"name": "Hector Birchwood",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72612-b7d0ad17-8972-4758-8dcc-2e2e291d84db.png"
+			},{
+				"id": 72613,
+				"name": "Thomas Scripps",
+				"party": "Socialist Equality Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 88088,
+			"turnout": 67.0,
+			"majority": 30509
+		}
+	}
+}

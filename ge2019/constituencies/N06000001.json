@@ -1,0 +1,30 @@
+{
+	"id": "N06000001",
+	"title": "Belfast East",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2454,
+				"name": "Naomi Long",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5522e4ea328bff5d39338a74.png"
+			},{
+				"id": 4595,
+				"name": "Gavin Robinson",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357404367dc5383f552cd9.png"
+			},{
+				"id": 8156,
+				"name": "Carl  McClean",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8156.png"
+			}]
+		},
+		"2017": {
+			"first": "DUP",
+			"electorate": 63495,
+			"turnout": 67.5,
+			"majority": 8474
+		}
+	}
+}

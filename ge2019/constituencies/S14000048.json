@@ -1,0 +1,40 @@
+{
+	"id": "S14000048",
+	"title": "North Ayrshire and Arran",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2706,
+				"name": "Patricia Gibson",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7721ccf185f0d8cc4bb.png"
+			},{
+				"id": 9213,
+				"name": "Louise Young",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9213-ede20b87-75d4-4f8d-8abe-9ebe262e4ef7.png"
+			},{
+				"id": 34651,
+				"name": "David Rocks",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72591,
+				"name": "Cameron Craig Gilmore",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72591-40246048-d001-4eb6-8dc8-a6d671916cbd.png"
+			},{
+				"id": 72592,
+				"name": "David John Nairn",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72592-a051029a-57a0-4cce-866f-703ccd5840c4.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 73176,
+			"turnout": 64.8,
+			"majority": 3633
+		}
+	}
+}

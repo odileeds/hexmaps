@@ -1,0 +1,45 @@
+{
+	"id": "E14000967",
+	"title": "Stalybridge and Hyde",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1043,
+				"name": "Jonathan Reynolds",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf2a636b6dcb123cb433c.png"
+			},{
+				"id": 15689,
+				"name": "Julie Wood",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15689.png"
+			},{
+				"id": 49604,
+				"name": "Jamie Dwan",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49604.png"
+			},{
+				"id": 72384,
+				"name": "Tayub Amjad",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72384-b5a1558b-6f1d-46c1-acc5-4510ceb6ba35.png"
+			},{
+				"id": 72385,
+				"name": "John Anthony Edge",
+				"party": "The Liberal Party",
+				"img": ""
+			},{
+				"id": 72386,
+				"name": "Julian Barrie Newton",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 71409,
+			"turnout": 59.5,
+			"majority": 8084
+		}
+	}
+}

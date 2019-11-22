@@ -1,0 +1,35 @@
+{
+	"id": "S14000012",
+	"title": "Cumbernauld, Kilsyth and Kirkintilloch East",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5172,
+				"name": "Stuart McDonald",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde1aa1ccf185f0d8cc4b0.png"
+			},{
+				"id": 21538,
+				"name": "Susan Murray",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21538.png"
+			},{
+				"id": 21986,
+				"name": "Roz McCall",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72011,
+				"name": "James McPhilemy",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72011.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 66554,
+			"turnout": 65.9,
+			"majority": 4264
+		}
+	}
+}

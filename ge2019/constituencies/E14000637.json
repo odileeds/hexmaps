@@ -1,0 +1,30 @@
+{
+	"id": "E14000637",
+	"title": "Chorley",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 595,
+				"name": "Lindsay Hoyle",
+				"party": "Speaker seeking re-election",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ab62c78c2688c57905d10.png"
+			},{
+				"id": 5631,
+				"name": "Mark Brexit-Smith",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 63726,
+				"name": "James Fletcher Melling",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63726.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 76404,
+			"turnout": 72.8,
+			"majority": 7512
+		}
+	}
+}

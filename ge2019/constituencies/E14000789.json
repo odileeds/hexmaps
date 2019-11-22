@@ -1,0 +1,50 @@
+{
+	"id": "E14000789",
+	"title": "Lewisham, Deptford",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4372,
+				"name": "Vicky Foxcroft",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4372.png"
+			},{
+				"id": 7779,
+				"name": "Andrea Carey Fuller",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7779.png"
+			},{
+				"id": 34211,
+				"name": "Bobby Dean",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34211_a7CA6hp.png"
+			},{
+				"id": 72228,
+				"name": "Tan Bui",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 72231,
+				"name": "Moses John Etienne",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72233,
+				"name": "Gavin Daniel Haran",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72235,
+				"name": "John Robert Lloyd",
+				"party": "Alliance For Green Socialism",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 78468,
+			"turnout": 70.2,
+			"majority": 34899
+		}
+	}
+}

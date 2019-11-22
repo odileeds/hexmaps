@@ -1,0 +1,55 @@
+{
+	"id": "E14000781",
+	"title": "Leeds West",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 482,
+				"name": "Mike Davies",
+				"party": "Alliance For Green Socialism",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/482.png"
+			},{
+				"id": 1299,
+				"name": "Rachel Reeves",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c30c9fc4fe0dc23f26c6d.png"
+			},{
+				"id": 36971,
+				"name": "Dan Walker",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36971.png"
+			},{
+				"id": 52249,
+				"name": "Victoria Smith",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52249-536d7740-964b-4d1e-a6ca-f29d997d1069.png"
+			},{
+				"id": 53257,
+				"name": "Daniel Whetstone",
+				"party": "Social Democratic Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53257.png"
+			},{
+				"id": 71857,
+				"name": "Ian Cowling",
+				"party": "Yorkshire Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71857.png"
+			},{
+				"id": 72550,
+				"name": "Mark Dormer",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72550-b8e18f48-bb21-4486-815e-4314d3568902.png"
+			},{
+				"id": 72551,
+				"name": "Phillip Mars",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72551-8a3f6601-efbd-4a51-9173-8300337969bc.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 67955,
+			"turnout": 62.1,
+			"majority": 15965
+		}
+	}
+}

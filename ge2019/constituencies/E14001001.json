@@ -1,0 +1,35 @@
+{
+	"id": "E14001001",
+	"title": "Totnes",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 548,
+				"name": "Sarah Wollaston",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb2bfa8c0192f732ca8dd.png"
+			},{
+				"id": 34574,
+				"name": "Anthony Mangnall",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34574-4d078d6f-d426-44a9-bf4d-b49e616cee07.png"
+			},{
+				"id": 58066,
+				"name": "Louise Webberley",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71758.png"
+			},{
+				"id": 72206,
+				"name": "John Jeremy Francis Kitson",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 68914,
+			"turnout": 72.9,
+			"majority": 13477
+		}
+	}
+}

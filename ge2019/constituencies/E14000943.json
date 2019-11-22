@@ -1,0 +1,35 @@
+{
+	"id": "E14000943",
+	"title": "South Ribble",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4762,
+				"name": "Katherine Fletcher",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1972668e142f73d3b489.png"
+			},{
+				"id": 4767,
+				"name": "Jo Barton",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba10210284be476aae88f.png"
+			},{
+				"id": 15130,
+				"name": "Andy Fewings",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15130.png"
+			},{
+				"id": 15315,
+				"name": "Kim Snape",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15315.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 75752,
+			"turnout": 72.4,
+			"majority": 7421
+		}
+	}
+}

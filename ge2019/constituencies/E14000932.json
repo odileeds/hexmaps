@@ -1,0 +1,35 @@
+{
+	"id": "E14000932",
+	"title": "Somerton and Frome",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4226,
+				"name": "David Warburton",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e769b150e238702c0524.png"
+			},{
+				"id": 6318,
+				"name": "Adam Boyden",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517c7de249b917507bee4dc.png"
+			},{
+				"id": 34356,
+				"name": "Sean Dromgoole",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34356.png"
+			},{
+				"id": 71627,
+				"name": "Andrea Dexter",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71627-bbdee464-911c-4d13-b1e2-dfc2a8a6ee8a.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 84437,
+			"turnout": 75.7,
+			"majority": 22906
+		}
+	}
+}

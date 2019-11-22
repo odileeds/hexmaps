@@ -1,0 +1,45 @@
+{
+	"id": "E14000824",
+	"title": "Mole Valley",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3051,
+				"name": "Paul Beresford",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3051.png"
+			},{
+				"id": 5072,
+				"name": "Paul Kennedy",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7584.png"
+			},{
+				"id": 55839,
+				"name": "Lisa Claire Scott",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55839.png"
+			},{
+				"id": 72477,
+				"name": "Brian Andrew Bostock",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72477-4f249556-caac-4fbe-8a23-c11d4987d7c1.png"
+			},{
+				"id": 72478,
+				"name": "Geoffrey Paul Cox",
+				"party": "UK Independence Party (UKIP)",
+				"img": ""
+			},{
+				"id": 72479,
+				"name": "Robin Michael Horsley",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 74545,
+			"turnout": 76.1,
+			"majority": 24137
+		}
+	}
+}

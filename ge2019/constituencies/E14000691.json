@@ -1,0 +1,40 @@
+{
+	"id": "E14000691",
+	"title": "Enfield North",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 8002,
+				"name": "Joanne Louise Laban",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8002.png"
+			},{
+				"id": 40987,
+				"name": "Guy Russo",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40987.png"
+			},{
+				"id": 43070,
+				"name": "Isobel Whittaker",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43070-fa517a95-8418-40ff-8be5-f72786078440.png"
+			},{
+				"id": 71432,
+				"name": "Feryal Clark",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71432.png"
+			},{
+				"id": 72578,
+				"name": "Ike Ijeh",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72578-3f18b13a-ca25-405c-9fc7-801d58f83767.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 68076,
+			"turnout": 71.3,
+			"majority": 10247
+		}
+	}
+}

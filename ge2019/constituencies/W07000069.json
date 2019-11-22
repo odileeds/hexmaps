@@ -1,0 +1,55 @@
+{
+	"id": "W07000069",
+	"title": "Neath",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1644,
+				"name": "Jonathan Burns",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 4564,
+				"name": "Christina Rees",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9763e22f98bc5d30fa55.png"
+			},{
+				"id": 34201,
+				"name": "Daniel Williams",
+				"party": "Plaid Cymru - The Party of Wales",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34201.png"
+			},{
+				"id": 71916,
+				"name": "Megan Lloyd",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 72351,
+				"name": "Simon Jonathan Wilson Briscoe",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72352,
+				"name": "Adrian Kingston-Jones",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 72353,
+				"name": "Philip Rogers",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 72354,
+				"name": "Carl Gerard Williams",
+				"party": "Social Democratic Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 55862,
+			"turnout": 68.5,
+			"majority": 12631
+		}
+	}
+}

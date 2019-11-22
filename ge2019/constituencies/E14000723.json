@@ -1,0 +1,40 @@
+{
+	"id": "E14000723",
+	"title": "Halifax",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2540,
+				"name": "Kashif Ali",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2540-2db7cddb-8621-4384-b43c-a2b5e260483d.png"
+			},{
+				"id": 6919,
+				"name": "Holly Walker-Lynch",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb45aa51642637514d641.png"
+			},{
+				"id": 34223,
+				"name": "James Baker",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34223.png"
+			},{
+				"id": 71466,
+				"name": "Sarah Wood",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71466-b8158cfb-4db3-4ba8-9747-84c2d36faef0.png"
+			},{
+				"id": 72441,
+				"name": "Bella Jessop",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72441-b8ce3339-8753-4bf4-b78d-94a87a0a3b07.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 71224,
+			"turnout": 67.8,
+			"majority": 5376
+		}
+	}
+}

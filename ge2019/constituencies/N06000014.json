@@ -1,0 +1,40 @@
+{
+	"id": "N06000014",
+	"title": "South Antrim",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4709,
+				"name": "Danny Kinahan",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6feee2ac8b7333e6a25e.png"
+			},{
+				"id": 4711,
+				"name": "Declan Kearney",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bae7eec0766d3759c0454.png"
+			},{
+				"id": 5390,
+				"name": "Roisin Lynch",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb1e1ec0766d3759c045b.png"
+			},{
+				"id": 13370,
+				"name": "Paul Girvan",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13370.png"
+			},{
+				"id": 71629,
+				"name": "John Blair",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71629.png"
+			}]
+		},
+		"2017": {
+			"first": "DUP",
+			"electorate": 68244,
+			"turnout": 63.3,
+			"majority": 3208
+		}
+	}
+}

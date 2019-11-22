@@ -1,0 +1,40 @@
+{
+	"id": "E14000794",
+	"title": "Liverpool, Walton",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2242,
+				"name": "David Newman",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489a908c4324bb13e43ba5.png"
+			},{
+				"id": 10217,
+				"name": "Ted Grant",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10217.png"
+			},{
+				"id": 33166,
+				"name": "Alexander George Phillips",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 34624,
+				"name": "Dan Carden",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34624.png"
+			},{
+				"id": 43538,
+				"name": "Billy Lake",
+				"party": "The Liberal Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43538-5eb9c9af-e658-49da-8c27-2953fedfae5f.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 62738,
+			"turnout": 67.3,
+			"majority": 32551
+		}
+	}
+}

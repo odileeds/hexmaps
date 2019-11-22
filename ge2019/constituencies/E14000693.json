@@ -1,0 +1,45 @@
+{
+	"id": "E14000693",
+	"title": "Epping Forest",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3755,
+				"name": "Eleanor Laing",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/550822ee7a8b511079bc5bce.png"
+			},{
+				"id": 7054,
+				"name": "Jon Whitehouse",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55189719249b917507bee58c.png"
+			},{
+				"id": 34867,
+				"name": "Thomas Hall",
+				"party": "Young People's Party YPP",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34867-424ac54e-b98d-4c12-ae44-d8110a443cdb.png"
+			},{
+				"id": 46409,
+				"name": "Steven Neville",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46409.png"
+			},{
+				"id": 72509,
+				"name": "Vicky Ashworth Te Velde",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72509-acbd1dd8-c796-4b8a-9aa4-e46f0dd0aa5d.png"
+			},{
+				"id": 72511,
+				"name": "Jon Newham",
+				"party": "Social Democratic Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 74737,
+			"turnout": 67.9,
+			"majority": 18243
+		}
+	}
+}

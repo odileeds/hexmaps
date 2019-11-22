@@ -1,0 +1,50 @@
+{
+	"id": "N06000018",
+	"title": "West Tyrone",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1871,
+				"name": "Thomas Buchanan",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1871.png"
+			},{
+				"id": 5185,
+				"name": "Daniel McCrossan",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5185_pV4vr24.png"
+			},{
+				"id": 6365,
+				"name": "Stephen Donnelly",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba318a8c0192f732ca8c9.png"
+			},{
+				"id": 36364,
+				"name": "Órfhlaith Begley",
+				"party": "Sinn Féin",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36364.png"
+			},{
+				"id": 68878,
+				"name": "Susan Glass",
+				"party": "Green Party",
+				"img": ""
+			},{
+				"id": 68899,
+				"name": "Andy McKane",
+				"party": "Ulster Unionist Party",
+				"img": ""
+			},{
+				"id": 72373,
+				"name": "James Hope",
+				"party": "Aontú",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SF",
+			"electorate": 64009,
+			"turnout": 55.1,
+			"majority": 7956
+		}
+	}
+}

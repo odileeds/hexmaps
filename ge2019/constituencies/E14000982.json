@@ -1,0 +1,45 @@
+{
+	"id": "E14000982",
+	"title": "Sunderland Central",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3985,
+				"name": "Julie Elliott",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c964d42c427035c8db3e1.png"
+			},{
+				"id": 6271,
+				"name": "Rachel Featherstone",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6271.png"
+			},{
+				"id": 11589,
+				"name": "Niall Hodson",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11589.png"
+			},{
+				"id": 31863,
+				"name": "Viral Parikh",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31863.png"
+			},{
+				"id": 72486,
+				"name": "Tom D'Silva",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 72487,
+				"name": "Dale McKenzie",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72487-428728c1-c0e1-4d09-90d5-9132d80189b8.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72728,
+			"turnout": 62.0,
+			"majority": 9997
+		}
+	}
+}

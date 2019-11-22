@@ -1,0 +1,45 @@
+{
+	"id": "S14000041",
+	"title": "Kirkcaldy and Cowdenbeath",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 9052,
+				"name": "Gillian Cole-Hamilton",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9052.png"
+			},{
+				"id": 15307,
+				"name": "Lesley Laird",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15307.png"
+			},{
+				"id": 15357,
+				"name": "Neale Hanvey",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15357.png"
+			},{
+				"id": 20425,
+				"name": "Scott Rutherford",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20425-21a478ff-1bce-45cd-9aea-310458c4a35a.png"
+			},{
+				"id": 20804,
+				"name": "Kathleen Leslie",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20804.png"
+			},{
+				"id": 72199,
+				"name": "Mitch William",
+				"party": "The Brexit Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 72721,
+			"turnout": 63.5,
+			"majority": 259
+		}
+	}
+}

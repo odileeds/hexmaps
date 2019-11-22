@@ -1,0 +1,40 @@
+{
+	"id": "N06000003",
+	"title": "Belfast South",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1679,
+				"name": "Paula Bradshaw",
+				"party": "Alliance - Alliance Party of Northern Ireland",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551bd2a6209513973bc5129d.png"
+			},{
+				"id": 3475,
+				"name": "Claire Hanna",
+				"party": "SDLP (Social Democratic & Labour Party)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3475.png"
+			},{
+				"id": 11458,
+				"name": "Emma Little-Pengelly",
+				"party": "Democratic Unionist Party - D.U.P.",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11458.png"
+			},{
+				"id": 19709,
+				"name": "Michael Henderson",
+				"party": "Ulster Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19709.png"
+			},{
+				"id": 72320,
+				"name": "Chris McHugh",
+				"party": "Aontú",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "DUP",
+			"electorate": 66105,
+			"turnout": 66.1,
+			"majority": 1996
+		}
+	}
+}

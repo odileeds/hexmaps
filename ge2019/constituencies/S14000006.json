@@ -1,0 +1,35 @@
+{
+	"id": "S14000006",
+	"title": "Ayr, Carrick and Cumnock",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 22533,
+				"name": "Allan Dorans",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22533.png"
+			},{
+				"id": 22534,
+				"name": "Martin Dowey",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22534-30f96cfe-08be-4733-81f9-4774713bb6a8.png"
+			},{
+				"id": 72412,
+				"name": "Helena Ivy Bongard",
+				"party": "Liberal Democrats",
+				"img": ""
+			},{
+				"id": 72413,
+				"name": "Duncan Christopher Townson",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72413-c86b1f87-2c6b-4e68-a635-54e37cc739aa.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 71241,
+			"turnout": 64.9,
+			"majority": 2774
+		}
+	}
+}

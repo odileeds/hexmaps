@@ -1,0 +1,50 @@
+{
+	"id": "S14000043",
+	"title": "Linlithgow and East Falkirk",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6053,
+				"name": "Martyn Day",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7111ccf185f0d8cc4b8.png"
+			},{
+				"id": 20479,
+				"name": "Gillian Mackay",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20479.png"
+			},{
+				"id": 22418,
+				"name": "Sally Pattle",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22418.png"
+			},{
+				"id": 35114,
+				"name": "Charles John Kennedy",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			},{
+				"id": 71517,
+				"name": "Wendy Milne",
+				"party": "Labour Party",
+				"img": ""
+			},{
+				"id": 71667,
+				"name": "Marc Bozza",
+				"party": "The Brexit Party",
+				"img": ""
+			},{
+				"id": 72080,
+				"name": "Mark Andrew Tunnicliff",
+				"party": "Veterans and People’s Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72080.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 86186,
+			"turnout": 65.1,
+			"majority": 2919
+		}
+	}
+}

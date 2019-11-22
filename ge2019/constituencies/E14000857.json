@@ -1,0 +1,35 @@
+{
+	"id": "E14000857",
+	"title": "North West Hampshire",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5272,
+				"name": "Kit Malthouse",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34290.png"
+			},{
+				"id": 31129,
+				"name": "Luigi Gregori",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31129-10820cb9-a151-4d38-a990-28a510882bcc.png"
+			},{
+				"id": 58489,
+				"name": "Lance Mitchell",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58489.png"
+			},{
+				"id": 72027,
+				"name": "Liz Bell",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72027.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 81430,
+			"turnout": 72.2,
+			"majority": 22679
+		}
+	}
+}

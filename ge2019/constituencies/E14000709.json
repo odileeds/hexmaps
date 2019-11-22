@@ -1,0 +1,35 @@
+{
+	"id": "E14000709",
+	"title": "Gateshead",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 2657,
+				"name": "Ian Mearns",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2657.png"
+			},{
+				"id": 6452,
+				"name": "Peter Maughan",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6452-790142a8-983a-477c-9e50-112aa3257cad.png"
+			},{
+				"id": 45522,
+				"name": "Rachel Cabral",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45522-61afe46f-6567-4edc-80e6-9ee7f7fc084f.png"
+			},{
+				"id": 72490,
+				"name": "Jane MacBean",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72490-27504579-ce71-4416-9bea-919bf7180e00.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 65186,
+			"turnout": 64.6,
+			"majority": 17350
+		}
+	}
+}

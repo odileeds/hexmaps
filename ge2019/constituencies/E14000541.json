@@ -1,0 +1,50 @@
+{
+	"id": "E14000541",
+	"title": "Barnsley Central",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1351,
+				"name": "Donald Wood",
+				"party": "Independent",
+				"img": ""
+			},{
+				"id": 5266,
+				"name": "Dan Jarvis",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55292311b6a860ed1648be54.png"
+			},{
+				"id": 5944,
+				"name": "Iftikhar Ahmed",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55180198249b917507bee543.png"
+			},{
+				"id": 46749,
+				"name": "Tom Heyes",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46749.png"
+			},{
+				"id": 50982,
+				"name": "Victoria Felton",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50982-3eefd107-e264-4350-8a5b-d863a4d1acf3.png"
+			},{
+				"id": 50984,
+				"name": "Ryan Thomas Williams",
+				"party": "Yorkshire Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50984.png"
+			},{
+				"id": 52079,
+				"name": "Will Sapwell",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52079.png"
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 64204,
+			"turnout": 60.9,
+			"majority": 15546
+		}
+	}
+}

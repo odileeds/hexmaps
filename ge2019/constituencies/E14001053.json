@@ -1,0 +1,50 @@
+{
+	"id": "E14001053",
+	"title": "Workington",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4641,
+				"name": "Jill Perry",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/55487973901889bf26175530.png"
+			},{
+				"id": 4926,
+				"name": "Mark Jenkinson",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32702.png"
+			},{
+				"id": 6275,
+				"name": "Sue Hayman",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b4de181ca637726b503a2.png"
+			},{
+				"id": 7416,
+				"name": "Roy Ivinson",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7416.png"
+			},{
+				"id": 54555,
+				"name": "Nicky Cockburn",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54555-690699b2-5581-4662-a754-39fc245d1121.png"
+			},{
+				"id": 71382,
+				"name": "David Walker",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71382.png"
+			},{
+				"id": 72300,
+				"name": "Neil Hughes",
+				"party": "Liberal Democrats",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Lab",
+			"electorate": 60265,
+			"turnout": 69.2,
+			"majority": 3925
+		}
+	}
+}

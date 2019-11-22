@@ -1,0 +1,40 @@
+{
+	"id": "E14000938",
+	"title": "South East Cornwall",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1021,
+				"name": "Sheryll Murray",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54971a82f066ea063f8a0a71.jpg"
+			},{
+				"id": 7813,
+				"name": "Gareth Gwyn James Derrick",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14184.png"
+			},{
+				"id": 28437,
+				"name": "Martha Ajan Green",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28437-604715a8-e30f-4a67-8d71-bd8a3058a385.png"
+			},{
+				"id": 29517,
+				"name": "Colin Edward Martin",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29517.png"
+			},{
+				"id": 72463,
+				"name": "Jay Latham",
+				"party": "The Liberal Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 71880,
+			"turnout": 74.0,
+			"majority": 17443
+		}
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "E14000536",
+	"title": "Ashford",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3486,
+				"name": "Damian Green",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b3b5d13eb34c82843cb63.png"
+			},{
+				"id": 5151,
+				"name": "Mandy Rossi",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5151.png"
+			},{
+				"id": 29066,
+				"name": "Dara Farrell",
+				"party": "Labour Party",
+				"img": ""
+			},{
+				"id": 34616,
+				"name": "Adrian Gee-Turner",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34616.png"
+			},{
+				"id": 72537,
+				"name": "Susannah Louise De Sanvil",
+				"party": "Independent",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 87387,
+			"turnout": 68.5,
+			"majority": 17478
+		}
+	}
+}

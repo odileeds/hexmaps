@@ -1,0 +1,35 @@
+{
+	"id": "E14000991",
+	"title": "The Cotswolds",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 3809,
+				"name": "Geoffrey Robert Clifton-Brown",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f7fa84e9778b52be3986.png"
+			},{
+				"id": 31895,
+				"name": "Sabrina Helen Marie Poole",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31895_TZJVqoo.png"
+			},{
+				"id": 34962,
+				"name": "Liz Webster",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34962.png"
+			},{
+				"id": 55255,
+				"name": "Alan MacKenzie",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55255-1b27aa9e-940a-44cd-92a0-f6103d59f845.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 80449,
+			"turnout": 74.2,
+			"majority": 25499
+		}
+	}
+}

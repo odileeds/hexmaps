@@ -1,0 +1,35 @@
+{
+	"id": "E14000851",
+	"title": "North Swindon",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 190,
+				"name": "Justin Tomlinson",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ab7ae3a37ac9054592963.png"
+			},{
+				"id": 14695,
+				"name": "Andy Bentley",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14695-f80ac0de-420b-4724-b01e-73dc2703088c.png"
+			},{
+				"id": 62128,
+				"name": "Kate Linnegar",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62128.png"
+			},{
+				"id": 72282,
+				"name": "Katie Critchlow",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72282-1f180ae2-e814-4fd0-8f75-14da4918426e.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 80168,
+			"turnout": 68.5,
+			"majority": 8335
+		}
+	}
+}

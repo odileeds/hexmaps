@@ -1,0 +1,40 @@
+{
+	"id": "E14000689",
+	"title": "Elmet and Rothwell",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 165,
+				"name": "Stewart Golton",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8d9ce6d2cbcd26e36a2b.png"
+			},{
+				"id": 4036,
+				"name": "Alec Shelbrooke",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a4fef0e9e2c82406ebbd.png"
+			},{
+				"id": 18887,
+				"name": "David Nagle",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18887.png"
+			},{
+				"id": 34568,
+				"name": "Matthew Clover",
+				"party": "Yorkshire Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34568.png"
+			},{
+				"id": 71430,
+				"name": "Penny Stables",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71430.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 80291,
+			"turnout": 74.2,
+			"majority": 9805
+		}
+	}
+}

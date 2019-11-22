@@ -1,0 +1,40 @@
+{
+	"id": "S14000017",
+	"title": "Dunfermline and West Fife",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6050,
+				"name": "Douglas Chapman",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c06ada8c0192f732ca8ea.png"
+			},{
+				"id": 8111,
+				"name": "Cara Hilton",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8111_gKHqSFS.png"
+			},{
+				"id": 9022,
+				"name": "Rebecca Bell",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9022.png"
+			},{
+				"id": 20570,
+				"name": "Mags Hall",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20570.png"
+			},{
+				"id": 72223,
+				"name": "Moira McDonald Benny",
+				"party": "Conservative and Unionist Party",
+				"img": ""
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 75672,
+			"turnout": 67.4,
+			"majority": 844
+		}
+	}
+}

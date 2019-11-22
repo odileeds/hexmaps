@@ -1,0 +1,45 @@
+{
+	"id": "S14000059",
+	"title": "West Dunbartonshire",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 6056,
+				"name": "Martin Docherty",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f7b04dc689026478f4368f.png"
+			},{
+				"id": 7499,
+				"name": "Andrew Muir",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7499.png"
+			},{
+				"id": 9240,
+				"name": "Jenni Lang",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9240.png"
+			},{
+				"id": 34281,
+				"name": "Jean Anne Mitchell",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34281.png"
+			},{
+				"id": 71828,
+				"name": "Alix Mathieson",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71828.png"
+			},{
+				"id": 72502,
+				"name": "Peter Connolly",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72502-8f01602b-31bf-4b6a-8fc0-fe780e88d92e.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 67602,
+			"turnout": 65.2,
+			"majority": 2288
+		}
+	}
+}

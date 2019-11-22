@@ -1,0 +1,50 @@
+{
+	"id": "E14000607",
+	"title": "Broxtowe",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 4072,
+				"name": "Anna Soubry",
+				"party": "The Independent Group for Change",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517d88b249b917507bee4f9.png"
+			},{
+				"id": 5614,
+				"name": "Darren George Henry",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1a0c668e142f73d3b4ad.png"
+			},{
+				"id": 5783,
+				"name": "Kat Boettge",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5783-e981f4ee-531c-436d-bcd3-e15de6e1352b.png"
+			},{
+				"id": 26221,
+				"name": "David Bishop",
+				"party": "Church of the Militant Elvis",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26221.png"
+			},{
+				"id": 34296,
+				"name": "Greg Marshall",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71834.png"
+			},{
+				"id": 34582,
+				"name": "Teck Khong",
+				"party": "Independent",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34582.png"
+			},{
+				"id": 72514,
+				"name": "Amy Beth Dalla Mura",
+				"party": "English Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72514-11f4a1d8-7dd7-470e-b023-6ba24550061a.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 74013,
+			"turnout": 75.0,
+			"majority": 863
+		}
+	}
+}

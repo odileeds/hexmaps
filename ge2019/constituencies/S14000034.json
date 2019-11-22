@@ -1,0 +1,45 @@
+{
+	"id": "S14000034",
+	"title": "Glasgow South",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 5173,
+				"name": "Stewart McDonald",
+				"party": "Scottish National Party (SNP)",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f767b5c689026478f43676.png"
+			},{
+				"id": 5896,
+				"name": "Kyle Thornton",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba433b9c95afe74c5d326.png"
+			},{
+				"id": 7642,
+				"name": "Johann Lamont",
+				"party": "Labour and Co-operative Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7642.png"
+			},{
+				"id": 8336,
+				"name": "Carole Ford",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8336.png"
+			},{
+				"id": 71453,
+				"name": "Danyaal Raja",
+				"party": "The Brexit Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71453-ed12c211-bffd-4a54-8316-6baf9cf4cf8e.png"
+			},{
+				"id": 71801,
+				"name": "Dan Hutchison",
+				"party": "Scottish Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71801.png"
+			}]
+		},
+		"2017": {
+			"first": "SNP",
+			"electorate": 69126,
+			"turnout": 64.4,
+			"majority": 2027
+		}
+	}
+}

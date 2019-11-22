@@ -1,0 +1,35 @@
+{
+	"id": "E14000950",
+	"title": "South West Devon",
+	"elections": {
+		"2019": {
+			"candidates": [{
+				"id": 1683,
+				"name": "Gary Streeter",
+				"party": "Conservative and Unionist Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/553baf2ab9c95afe74c5d332.png"
+			},{
+				"id": 17648,
+				"name": "Sima Davarian",
+				"party": "Liberal Democrats",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17648-3908d5a9-c885-4f96-ac31-95d721a2acd7.png"
+			},{
+				"id": 58483,
+				"name": "Ian Andrew Poyser",
+				"party": "Green Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58483-de88fa23-fb34-453e-91ac-b026ff744a65.png"
+			},{
+				"id": 71885,
+				"name": "Alex Beverley",
+				"party": "Labour Party",
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71885.png"
+			}]
+		},
+		"2017": {
+			"first": "Con",
+			"electorate": 71260,
+			"turnout": 74.2,
+			"majority": 15816
+		}
+	}
+}

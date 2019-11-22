@@ -162,6 +162,7 @@ function ResultsMap(id,attr){
 
 	this.label = function(region){
 		var view = this.views[this.by];
+		if(!view) return this;
 		var popup = view.popup;
 		var title = this.hex.hexes[region].el[0].getAttribute('title');
 

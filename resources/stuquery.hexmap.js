@@ -44,7 +44,7 @@ function HexMap(attr){
 	};
 
 	this.style = {
-		'default': { 'fill': '#cccccc','fill-opacity':(this.options.showlabel ? 0.5 : 1),'font-size':fs },
+		'default': { 'fill': '#cccccc','fill-opacity':(this.options.showlabel ? 0.5 : 1),'font-size':fs,'stroke-width':1.5,'stroke-opacity':1,'stroke':'#ffffff' },
 		'highlight': { 'fill': '#1DD3A7' },
 		'grid': { 'fill': '#aaa','fill-opacity':0.1 }
 	};
@@ -57,6 +57,7 @@ function HexMap(attr){
 			if(attr.style[s]['font-size']) this.style[s]['font-size'] = attr.style[s]['font-size'];
 			if(attr.style[s]['stroke']) this.style[s]['stroke'] = attr.style[s]['stroke'];
 			if(attr.style[s]['stroke-width']) this.style[s]['stroke-width'] = attr.style[s]['stroke-width'];
+			if(attr.style[s]['stroke-opacity']) this.style[s]['stroke-opacity'] = attr.style[s]['stroke-opacity'];
 		}
 	}
 	
@@ -121,6 +122,15 @@ function HexMap(attr){
 	}
 	
 	this.toFront = function(r){
+		// Simulate a change of z-index by moving elements to the end of the SVG
+		
+		// Keep selected items on top
+		for(var region in this.hexes){
+			if(this.hexes[region].selected){
+				this.paper.paper[0].appendChild(this.hexes[region].el[0]);
+				this.paper.paper[0].appendChild(this.labels[region].el[0]);
+			}
+		}
 		// Simulate a change of z-index by moving this element (hex and label) to the end of the SVG
 		this.paper.paper[0].appendChild(this.hexes[r].el[0]);
 		this.paper.paper[0].appendChild(this.labels[r].el[0]);
@@ -541,7 +551,7 @@ function HexMap(attr){
 
 			}
 			this.setHexStyle(region);
-			this.hexes[region].attr({'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
+			this.hexes[region].attr({'stroke':this.style['default'].stroke,'stroke-opacity':this.style['default']['stroke-opacity'],'stroke-width':this.style['default']['stroke-width'],'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
 			//this.hexes[region].attr({'fill-opacity':this.style.selected['fill-opacity'],'fill':(this.hexes[region].selected ? this.style.selected.fill||this.hexes[region].fillcolour : this.style.default.fill),'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
 			this.hexes[region].update();
 		}

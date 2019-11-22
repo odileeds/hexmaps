@@ -156,12 +156,14 @@ function ResultsMap(id,attr){
 		if(previous && current == previous) this.hex.regionToggleSelected(previous,true);
 		else this.hex.selectRegion(region);
 		if(!this.hex.selected) S('.infobubble').remove();
-		else this.label({'data':{'builder':this,'hexmap':this.hex,'region':region}},this.hex.hexes[region].el[0].getAttribute('title'));
+		else this.label(region);
+		return this;
 	}
 
-	this.label = function(e,title){
+	this.label = function(region){
 		var view = this.views[this.by];
 		var popup = view.popup;
+		var title = this.hex.hexes[region].el[0].getAttribute('title');
 
 		function callback(title,region,data){
 			var lbl = this.hex.mapping.hexes[region].label;
@@ -185,11 +187,11 @@ function ResultsMap(id,attr){
 		// May need to load data first
 		if(popup.file){
 			// Load data from a file
-			S().ajax(popup.file.replace(/%region%/g,e.data.region),{
+			S().ajax(popup.file.replace(/%region%/g,region),{
 				'this': this,
 				'callback': callback,
 				'dataType':(popup.file.indexOf(".json") > 0 ? 'json':'text'),
-				'region': e.data.region,
+				'region': region,
 				'cache': (typeof popup.live==="boolean" ? !popup.live : true),
 				'render': popup.render,
 				'title': title,
@@ -206,7 +208,7 @@ function ResultsMap(id,attr){
 				}
 			});
 		}else{
-			callback.call(this,title,e.data.region);
+			callback.call(this,title,region);
 		}
 
 		return this;
@@ -332,6 +334,9 @@ function ResultsMap(id,attr){
 
 		// Update the map colours
 		this.hex.updateColours();
+		
+		// Re-render the popup?
+		if(this.hex.selected) this.label(this.hex.selected); //re-render
 
 		return this;
 	}

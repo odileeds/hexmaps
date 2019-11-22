@@ -37,6 +37,8 @@
 		},
 		"2017": {
 			"first": "DUP",
+			"mp": "Ian Paisley",
+			"mysoc": "https://www.theyworkforyou.com/mp/13852/ian_paisley_jnr/north_antrim",
 			"electorate": 75657,
 			"turnout": 64.1,
 			"majority": 20643

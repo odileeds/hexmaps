@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "Con",
+			"mp": "John Baron",
+			"mysoc": "https://www.theyworkforyou.com/mp/10715/john_baron/basildon_and_billericay",
 			"electorate": 69149,
 			"turnout": 65.0,
 			"majority": 13400

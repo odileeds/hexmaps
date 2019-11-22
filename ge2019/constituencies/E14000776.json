@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "Lab",
+			"mp": "Cat Smith",
+			"mysoc": "https://www.theyworkforyou.com/mp/25432/cat_smith/lancaster_and_fleetwood",
 			"electorate": 67154,
 			"turnout": 68.5,
 			"majority": 6661

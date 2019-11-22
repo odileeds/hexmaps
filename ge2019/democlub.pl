@@ -93,6 +93,8 @@ foreach $pcd (sort(keys(%con))){
 	print FILE "\t\t},\n";
 	print FILE "\t\t\"2017\": {\n";
 	print FILE "\t\t\t\"first\": \"$con{$pcd}{'first17'}\",\n";
+	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'dispname'}\",\n";
+	print FILE "\t\t\t\"mysoc\": \"$con{$pcd}{'mysocuri'}\",\n";
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'elect17'},\n";
 	print FILE "\t\t\t\"turnout\": $con{$pcd}{'turnout17'},\n";
 	print FILE "\t\t\t\"majority\": $con{$pcd}{'majority'}\n";

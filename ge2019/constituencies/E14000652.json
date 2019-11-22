@@ -27,6 +27,8 @@
 		},
 		"2017": {
 			"first": "Con",
+			"mp": "Henry Smith",
+			"mysoc": "https://www.theyworkforyou.com/mp/24802/henry_smith/crawley",
 			"electorate": 73425,
 			"turnout": 68.5,
 			"majority": 2457

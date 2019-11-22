@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "SNP",
+			"mp": "Peter Grant",
+			"mysoc": "https://www.theyworkforyou.com/mp/25273/peter_grant/glenrothes",
 			"electorate": 66378,
 			"turnout": 60.9,
 			"majority": 3267

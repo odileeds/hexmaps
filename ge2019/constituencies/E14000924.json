@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "Con",
+			"mp": "Mark Spencer",
+			"mysoc": "https://www.theyworkforyou.com/mp/24909/mark_spencer/sherwood",
 			"electorate": 76196,
 			"turnout": 70.0,
 			"majority": 5198

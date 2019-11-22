@@ -37,6 +37,8 @@
 		},
 		"2017": {
 			"first": "SNP",
+			"mp": "Stewart McDonald",
+			"mysoc": "https://www.theyworkforyou.com/mp/25322/stewart_mcdonald/glasgow_south",
 			"electorate": 69126,
 			"turnout": 64.4,
 			"majority": 2027

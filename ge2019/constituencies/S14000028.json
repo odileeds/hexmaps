@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "SNP",
+			"mp": "John McNally",
+			"mysoc": "https://www.theyworkforyou.com/mp/25271/john_mcnally/falkirk",
 			"electorate": 82240,
 			"turnout": 65.4,
 			"majority": 4923

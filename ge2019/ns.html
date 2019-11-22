@@ -151,7 +151,7 @@
 	}
 	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; }
 	#key .party { display: inline-block; margin-right: 0.5em; }
-	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em; position: relative; top:0.1em; border:1px solid white; }
+	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; }
 
 	.infobubble {
 		z-index: 3;
@@ -264,15 +264,15 @@
 					party = data.elections['2019'].candidates[c].party;
 					name = data.elections['2019'].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
-					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span><a href="'+url+'" target="_democlub">'+name+' ('+party+')</a>'+'</li>'
+					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span><a href="'+url+'" target="_parent">'+name+' ('+party+')</a>'+'</li>'
 				}
 				lbl += '</ul>';
 				
 			}
 			if(data.elections['2017']){
 				lbl += '<strong>2017</strong><br />';
-				p = data.elections['2017'].first
-				lbl += 'Party: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
+				party = data.elections['2017'].first;
+				lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2017'].mysoc ? '<a href="'+data.elections['2017'].mysoc+'" target="_parent">':'')+data.elections['2017'].mp+' ('+(parties[party] ? (parties[party].title||party) : party)+')'+(data.elections['2017'].mysoc ? '</a>':'')+'<br />';
 				if(data.elections['2017'].turnout) lbl += 'Turnout: '+data.elections['2017'].turnout+'%<br />';
 				if(data.elections['2017'].majority) lbl += 'Majority: '+data.elections['2017'].majority.toLocaleString()+'<br />';
 			}

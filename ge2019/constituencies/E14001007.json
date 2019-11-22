@@ -67,6 +67,8 @@
 		},
 		"2017": {
 			"first": "Con",
+			"mp": "Boris Johnson",
+			"mysoc": "https://www.theyworkforyou.com/mp/10999/boris_johnson/uxbridge_and_south_ruislip",
 			"electorate": 69936,
 			"turnout": 66.8,
 			"majority": 5034

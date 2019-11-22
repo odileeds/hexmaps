@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "Con",
+			"mp": "Michael Gove",
+			"mysoc": "https://www.theyworkforyou.com/mp/11858/michael_gove/surrey_heath",
 			"electorate": 80764,
 			"turnout": 71.6,
 			"majority": 24943

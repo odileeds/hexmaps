@@ -42,6 +42,8 @@
 		},
 		"2017": {
 			"first": "Lab",
+			"mp": "Stephen Kinnock",
+			"mysoc": "https://www.theyworkforyou.com/mp/25297/stephen_kinnock/aberavon",
 			"electorate": 49892,
 			"turnout": 66.7,
 			"majority": 16761

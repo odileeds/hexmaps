@@ -27,6 +27,8 @@
 		},
 		"2017": {
 			"first": "SNP",
+			"mp": "David Linden",
+			"mysoc": "https://www.theyworkforyou.com/mp/25677/david_linden/glasgow_east",
 			"electorate": 66242,
 			"turnout": 54.6,
 			"majority": 75

@@ -32,6 +32,8 @@
 		},
 		"2017": {
 			"first": "SNP",
+			"mp": "Chris Stephens",
+			"mysoc": "https://www.theyworkforyou.com/mp/25306/chris_stephens/glasgow_south_west",
 			"electorate": 62991,
 			"turnout": 56.2,
 			"majority": 60

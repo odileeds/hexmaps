@@ -37,6 +37,8 @@
 		},
 		"2017": {
 			"first": "Lab",
+			"mp": "Nick Smith",
+			"mysoc": "https://www.theyworkforyou.com/mp/24728/nick_smith/blaenau_gwent",
 			"electorate": 51227,
 			"turnout": 63.2,
 			"majority": 11907

@@ -83,6 +83,7 @@ foreach $pcd (sort(keys(%con))){
 	@candidates = @{$con{$pcd}{'candidates'}};
 	for($c = 0; $c < @candidates ;$c++){
 		if($c > 0){ print FILE "\t\t\t},{\n"; }
+		$con{$pcd}{'candidates'}[$c]{'name'} =~ s/\"/\\\"/g;
 		print FILE "\t\t\t\t\"id\": $con{$pcd}{'candidates'}[$c]{'id'},\n";
 		print FILE "\t\t\t\t\"name\": \"$con{$pcd}{'candidates'}[$c]{'name'}\",\n";
 		print FILE "\t\t\t\t\"party\": \"$con{$pcd}{'candidates'}[$c]{'party'}\",\n";

@@ -177,7 +177,7 @@ function ResultsMap(id,attr){
 			var c = l.color;
 			var t = (l.color ? setTextColor(c) : '');
 			var txt = l.label;
-			if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><button class="close button">&times;</button><div class="infobubble_inner"></div></div>');
+			if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><button class="close button" title="Close constituency information">&times;</button><div class="infobubble_inner"></div></div>');
 			S('.infobubble_inner').html(txt).css({'width':(l.w ? l.w+'px':''),'height':(l.h ? l.h+'px':'')});
 			S('.infobubble').attr('class','infobubble'+(l['class'] ? ' '+l['class'] : ''));
 			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.toggleActive(); });

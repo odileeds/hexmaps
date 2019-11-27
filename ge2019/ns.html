@@ -292,9 +292,9 @@
 					lbl += '<div class="popup-title">'+yy+'</div><p>';
 					party = data.elections[yy].first;
 					lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
-					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout+'%<br />';
-					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';
 					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
+					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')<br />';
+					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';
 					lbl += '</p>';
 				}
 			}

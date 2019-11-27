@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24905/bill_esterson/sefton_central",
 			"electorate": 69019,
 			"turnout": 75.5,
+			"spoiled": 128,
 			"majority": 15618
 		},
 		"2015": {

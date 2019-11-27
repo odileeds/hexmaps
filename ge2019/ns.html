@@ -285,21 +285,18 @@
 				lbl += '</ul>';
 				
 			}
-			if(data.elections['2017']){
-				lbl += '<div class="popup-title">2017</div><p>';
-				party = data.elections['2017'].first;
-				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2017'].mysoc ? '<a href="'+data.elections['2017'].mysoc+'" target="_parent">':'')+data.elections['2017'].mp+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections['2017'].mysoc ? '</a>':'')+'<br />';
-				if(data.elections['2017'].turnout) lbl += 'Turnout: '+data.elections['2017'].turnout+'%<br />';
-				if(data.elections['2017'].majority) lbl += 'Majority: '+data.elections['2017'].majority.toLocaleString()+'<br />';
-				lbl += '</p>';
-			}
-			if(data.elections['2015']){
-				lbl += '<div class="popup-title">2015</div><p>';
-				party = data.elections['2015'].first;
-				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2015'].mysoc ? '<a href="'+data.elections['2015'].mysoc+'" target="_parent">':'')+(data.elections['2015'].mp||'')+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections['2015'].mysoc ? '</a>':'')+'<br />';
-				if(data.elections['2015'].turnout) lbl += 'Turnout: '+data.elections['2015'].turnout+'%<br />';
-				if(data.elections['2015'].majority) lbl += 'Majority: '+data.elections['2015'].majority.toLocaleString()+'<br />';
-				lbl += '</p>';
+			years = ['2017','2015'];
+			for(var y = 0; y < years.length; y++){
+				yy = years[y];
+				if(data.elections[yy]){
+					lbl += '<div class="popup-title">'+yy+'</div><p>';
+					party = data.elections[yy].first;
+					lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
+					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout+'%<br />';
+					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';
+					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
+					lbl += '</p>';
+				}
 			}
 		}
 

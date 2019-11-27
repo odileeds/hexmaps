@@ -37,6 +37,14 @@
 			"electorate": 65937,
 			"turnout": 70.5,
 			"majority": 11805
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Menzies",
+			"electorate": 65679,
+			"turnout": 66.6,
+			"spoiled": 190,
+			"majority": 13224
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 72477,
 			"turnout": 71.2,
 			"majority": 7950
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Stuart Donaldson",
+			"electorate": 73445,
+			"turnout": 75.2,
+			"spoiled": 43,
+			"majority": 7033
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 79007,
 			"turnout": 66.8,
 			"majority": 19641
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Victoria Atkins",
+			"electorate": 74870,
+			"turnout": 67.5,
+			"spoiled": 236,
+			"majority": 14977
 		}
 	}
 }

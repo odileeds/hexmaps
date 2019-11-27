@@ -42,6 +42,14 @@
 			"electorate": 85358,
 			"turnout": 67.5,
 			"majority": 31647
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Mike Gapes",
+			"electorate": 91987,
+			"turnout": 56.6,
+			"spoiled": 164,
+			"majority": 19777
 		}
 	}
 }

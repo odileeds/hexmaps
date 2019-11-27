@@ -37,6 +37,14 @@
 			"electorate": 83012,
 			"turnout": 65.5,
 			"majority": 15987
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Karin Smyth",
+			"electorate": 81496,
+			"turnout": 62.6,
+			"spoiled": 164,
+			"majority": 7128
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 71565,
 			"turnout": 71.6,
 			"majority": 21917
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Michael Fallon",
+			"electorate": 71958,
+			"turnout": 70.0,
+			"spoiled": 231,
+			"majority": 19561
 		}
 	}
 }

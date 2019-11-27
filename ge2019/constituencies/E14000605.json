@@ -32,6 +32,14 @@
 			"electorate": 73571,
 			"turnout": 73.5,
 			"majority": 16573
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Sajid Javid",
+			"electorate": 73337,
+			"turnout": 71.5,
+			"spoiled": 173,
+			"majority": 16529
 		}
 	}
 }

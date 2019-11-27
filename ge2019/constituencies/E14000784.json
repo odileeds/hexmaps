@@ -37,6 +37,14 @@
 			"electorate": 64843,
 			"turnout": 57.9,
 			"majority": 11060
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Liz Kendall",
+			"electorate": 63204,
+			"turnout": 55.0,
+			"spoiled": 236,
+			"majority": 7203
 		}
 	}
 }

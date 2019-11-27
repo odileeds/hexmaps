@@ -42,6 +42,14 @@
 			"electorate": 68485,
 			"turnout": 68.2,
 			"majority": 12890
+		},
+		"2015": {
+			"first": "Sinn Fein",
+			"mp": "Francie Molloy",
+			"electorate": 67832,
+			"turnout": 60.9,
+			"spoiled": 395,
+			"majority": 13617
 		}
 	}
 }

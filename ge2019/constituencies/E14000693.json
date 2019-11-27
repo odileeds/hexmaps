@@ -42,6 +42,14 @@
 			"electorate": 74737,
 			"turnout": 67.9,
 			"majority": 18243
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Eleanor Laing",
+			"electorate": 73447,
+			"turnout": 67.4,
+			"spoiled": 142,
+			"majority": 17978
 		}
 	}
 }

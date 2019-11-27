@@ -32,6 +32,14 @@
 			"electorate": 82546,
 			"turnout": 71.2,
 			"majority": 14656
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Lidington",
+			"electorate": 80315,
+			"turnout": 69.3,
+			"spoiled": 235,
+			"majority": 17158
 		}
 	}
 }

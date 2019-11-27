@@ -37,6 +37,14 @@
 			"electorate": 76088,
 			"turnout": 66.0,
 			"majority": 18406
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Conor McGinn",
+			"electorate": 75262,
+			"turnout": 61.7,
+			"spoiled": 192,
+			"majority": 17291
 		}
 	}
 }

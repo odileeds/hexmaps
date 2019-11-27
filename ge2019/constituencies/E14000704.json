@@ -52,6 +52,14 @@
 			"electorate": 86272,
 			"turnout": 68.2,
 			"majority": 15411
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Damian Collins",
+			"electorate": 83651,
+			"turnout": 66.1,
+			"spoiled": 265,
+			"majority": 13797
 		}
 	}
 }

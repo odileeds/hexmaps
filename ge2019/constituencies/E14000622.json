@@ -27,6 +27,14 @@
 			"electorate": 69470,
 			"turnout": 64.4,
 			"majority": 18872
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Rebecca Harris",
+			"electorate": 68170,
+			"turnout": 66.8,
+			"spoiled": 117,
+			"majority": 8934
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 72497,
 			"turnout": 78.8,
 			"majority": 9999
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Steve Brine",
+			"electorate": 74119,
+			"turnout": 74.9,
+			"spoiled": 165,
+			"majority": 16914
 		}
 	}
 }

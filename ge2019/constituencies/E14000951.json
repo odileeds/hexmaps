@@ -37,6 +37,14 @@
 			"electorate": 81087,
 			"turnout": 74.8,
 			"majority": 19550
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Gauke",
+			"electorate": 79668,
+			"turnout": 72.1,
+			"spoiled": 174,
+			"majority": 23263
 		}
 	}
 }

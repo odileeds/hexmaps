@@ -32,6 +32,14 @@
 			"electorate": 72175,
 			"turnout": 71.1,
 			"majority": 8212
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Pawsey",
+			"electorate": 71655,
+			"turnout": 68.5,
+			"spoiled": 93,
+			"majority": 10345
 		}
 	}
 }

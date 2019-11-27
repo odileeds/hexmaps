@@ -32,6 +32,14 @@
 			"electorate": 83362,
 			"turnout": 79.5,
 			"majority": 9762
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Tania Mathias",
+			"electorate": 80250,
+			"turnout": 77.4,
+			"spoiled": 122,
+			"majority": 2017
 		}
 	}
 }

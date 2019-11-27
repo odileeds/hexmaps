@@ -37,6 +37,14 @@
 			"electorate": 79366,
 			"turnout": 73.2,
 			"majority": 16012
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Therese Coffey",
+			"electorate": 77816,
+			"turnout": 71.7,
+			"spoiled": 168,
+			"majority": 18842
 		}
 	}
 }

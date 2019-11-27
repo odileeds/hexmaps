@@ -52,6 +52,14 @@
 			"electorate": 71870,
 			"turnout": 63.9,
 			"majority": 10174
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jon Trickett",
+			"electorate": 72714,
+			"turnout": 58.5,
+			"spoiled": 167,
+			"majority": 12078
 		}
 	}
 }

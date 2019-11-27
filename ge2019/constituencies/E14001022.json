@@ -37,6 +37,14 @@
 			"electorate": 80763,
 			"turnout": 65.2,
 			"majority": 9215
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Peter Aldous",
+			"electorate": 80166,
+			"turnout": 65.3,
+			"spoiled": 143,
+			"majority": 2408
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 70718,
 			"turnout": 59.2,
 			"majority": 7650
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Iain Wright",
+			"electorate": 69947,
+			"turnout": 56.6,
+			"spoiled": 112,
+			"majority": 3024
 		}
 	}
 }

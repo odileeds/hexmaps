@@ -42,6 +42,14 @@
 			"electorate": 61743,
 			"turnout": 57.5,
 			"majority": 2565
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Melanie Onn",
+			"electorate": 59200,
+			"turnout": 57.2,
+			"spoiled": 104,
+			"majority": 4540
 		}
 	}
 }

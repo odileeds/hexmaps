@@ -32,6 +32,14 @@
 			"electorate": 69918,
 			"turnout": 64.8,
 			"majority": 11248
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Margaret Beckett",
+			"electorate": 70240,
+			"turnout": 58.4,
+			"spoiled": 166,
+			"majority": 8828
 		}
 	}
 }

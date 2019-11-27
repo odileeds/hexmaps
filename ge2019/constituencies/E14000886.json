@@ -37,6 +37,14 @@
 			"electorate": 72622,
 			"turnout": 74.3,
 			"majority": 331
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Stuart Andrew",
+			"electorate": 70533,
+			"turnout": 72.4,
+			"spoiled": 134,
+			"majority": 4501
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 70309,
 			"turnout": 72.0,
 			"majority": 25171
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Christopher Chope",
+			"electorate": 69303,
+			"turnout": 72.1,
+			"spoiled": 233,
+			"majority": 18224
 		}
 	}
 }

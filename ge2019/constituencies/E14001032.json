@@ -47,6 +47,14 @@
 			"electorate": 92418,
 			"turnout": 65.7,
 			"majority": 36754
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Lyn Brown",
+			"electorate": 90640,
+			"turnout": 58.5,
+			"spoiled": 217,
+			"majority": 27986
 		}
 	}
 }

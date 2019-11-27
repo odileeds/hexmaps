@@ -47,6 +47,14 @@
 			"electorate": 72401,
 			"turnout": 63.2,
 			"majority": 17198
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Michael Meacher",
+			"electorate": 71652,
+			"turnout": 60.5,
+			"spoiled": 202,
+			"majority": 14738
 		}
 	}
 }

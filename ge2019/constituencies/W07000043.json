@@ -37,6 +37,14 @@
 			"electorate": 63013,
 			"turnout": 71.0,
 			"majority": 5235
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Mark Tami",
+			"electorate": 62016,
+			"turnout": 66.7,
+			"spoiled": 55,
+			"majority": 3343
 		}
 	}
 }

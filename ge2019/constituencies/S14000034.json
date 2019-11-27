@@ -42,6 +42,14 @@
 			"electorate": 69126,
 			"turnout": 64.4,
 			"majority": 2027
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Stewart McDonald",
+			"electorate": 74051,
+			"turnout": 66.0,
+			"spoiled": 87,
+			"majority": 12269
 		}
 	}
 }

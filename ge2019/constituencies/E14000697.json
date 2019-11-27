@@ -42,6 +42,14 @@
 			"electorate": 80938,
 			"turnout": 73.9,
 			"majority": 23298
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Dominic Raab",
+			"electorate": 79894,
+			"turnout": 71.6,
+			"spoiled": 189,
+			"majority": 28616
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 64665,
 			"turnout": 57.4,
 			"majority": 14322
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Diana Johnson",
+			"electorate": 64148,
+			"turnout": 55.3,
+			"spoiled": 136,
+			"majority": 12899
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 81443,
 			"turnout": 67.1,
 			"majority": 19198
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Caroline Spelman",
+			"electorate": 81928,
+			"turnout": 64.4,
+			"spoiled": 161,
+			"majority": 18795
 		}
 	}
 }

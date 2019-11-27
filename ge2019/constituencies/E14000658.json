@@ -42,6 +42,14 @@
 			"electorate": 66341,
 			"turnout": 67.6,
 			"majority": 3280
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jenny Chapman",
+			"electorate": 65851,
+			"turnout": 62.7,
+			"spoiled": 163,
+			"majority": 3158
 		}
 	}
 }

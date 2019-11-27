@@ -32,6 +32,14 @@
 			"electorate": 64413,
 			"turnout": 70.2,
 			"majority": 7363
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Karen Lumley",
+			"electorate": 65531,
+			"turnout": 67.5,
+			"spoiled": 124,
+			"majority": 7054
 		}
 	}
 }

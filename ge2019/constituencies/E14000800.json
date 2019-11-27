@@ -47,6 +47,14 @@
 			"electorate": 66811,
 			"turnout": 69.8,
 			"majority": 14364
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kelvin Hopkins",
+			"electorate": 67329,
+			"turnout": 63.7,
+			"spoiled": 291,
+			"majority": 9504
 		}
 	}
 }

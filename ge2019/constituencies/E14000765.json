@@ -52,6 +52,14 @@
 			"electorate": 64778,
 			"turnout": 66.4,
 			"majority": 17263
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Stephen Hepburn",
+			"electorate": 64002,
+			"turnout": 60.4,
+			"spoiled": 107,
+			"majority": 13881
 		}
 	}
 }

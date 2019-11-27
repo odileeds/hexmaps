@@ -37,6 +37,14 @@
 			"electorate": 66285,
 			"turnout": 64.5,
 			"majority": 8715
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Alex Cunningham",
+			"electorate": 66126,
+			"turnout": 60.2,
+			"spoiled": 212,
+			"majority": 8367
 		}
 	}
 }

@@ -27,6 +27,14 @@
 			"electorate": 63166,
 			"turnout": 69.9,
 			"majority": 5514
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "William Wragg",
+			"electorate": 63098,
+			"turnout": 68.7,
+			"spoiled": 127,
+			"majority": 6552
 		}
 	}
 }

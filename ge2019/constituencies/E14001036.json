@@ -42,6 +42,14 @@
 			"electorate": 63846,
 			"turnout": 67.8,
 			"majority": 11512
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Karen Buck",
+			"electorate": 62346,
+			"turnout": 63.7,
+			"spoiled": 186,
+			"majority": 1977
 		}
 	}
 }

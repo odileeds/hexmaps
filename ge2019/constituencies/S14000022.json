@@ -37,6 +37,14 @@
 			"electorate": 65896,
 			"turnout": 66.0,
 			"majority": 3425
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Tommy Sheppard",
+			"electorate": 67141,
+			"turnout": 70.2,
+			"spoiled": 69,
+			"majority": 9106
 		}
 	}
 }

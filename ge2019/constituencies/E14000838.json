@@ -37,6 +37,14 @@
 			"electorate": 75801,
 			"turnout": 73.5,
 			"majority": 4332
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Peter Heaton-Jones",
+			"electorate": 74737,
+			"turnout": 70.2,
+			"spoiled": 133,
+			"majority": 6936
 		}
 	}
 }

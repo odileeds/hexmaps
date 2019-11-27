@@ -42,6 +42,14 @@
 			"electorate": 64909,
 			"turnout": 76.6,
 			"majority": 8206
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Davies",
+			"electorate": 62248,
+			"turnout": 76.4,
+			"spoiled": 104,
+			"majority": 10982
 		}
 	}
 }

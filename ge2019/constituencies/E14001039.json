@@ -37,6 +37,14 @@
 			"electorate": 75359,
 			"turnout": 63.1,
 			"majority": 16027
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Lisa Nandy",
+			"electorate": 75990,
+			"turnout": 59.8,
+			"spoiled": 126,
+			"majority": 14236
 		}
 	}
 }

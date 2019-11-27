@@ -32,6 +32,14 @@
 			"electorate": 67874,
 			"turnout": 72.4,
 			"majority": 14787
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "George Osborne",
+			"electorate": 65004,
+			"turnout": 70.0,
+			"spoiled": 185,
+			"majority": 18241
 		}
 	}
 }

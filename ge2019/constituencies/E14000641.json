@@ -37,6 +37,14 @@
 			"electorate": 71132,
 			"turnout": 67.9,
 			"majority": 12364
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Roberta Blackman-Woods",
+			"electorate": 68725,
+			"turnout": 66.6,
+			"spoiled": 116,
+			"majority": 11439
 		}
 	}
 }

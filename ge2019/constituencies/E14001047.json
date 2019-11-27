@@ -37,6 +37,14 @@
 			"electorate": 76170,
 			"turnout": 72.5,
 			"majority": 16724
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jonathan Lord",
+			"electorate": 74269,
+			"turnout": 70.2,
+			"spoiled": 149,
+			"majority": 20810
 		}
 	}
 }

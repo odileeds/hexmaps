@@ -47,6 +47,14 @@
 			"electorate": 72380,
 			"turnout": 62.1,
 			"majority": 19229
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Jeffrey Donaldson",
+			"electorate": 71152,
+			"turnout": 56.2,
+			"spoiled": 191,
+			"majority": 13000
 		}
 	}
 }

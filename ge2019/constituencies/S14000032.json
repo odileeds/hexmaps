@@ -32,6 +32,14 @@
 			"electorate": 59931,
 			"turnout": 53.0,
 			"majority": 242
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Anne McLaughlin",
+			"electorate": 66678,
+			"turnout": 56.9,
+			"spoiled": 88,
+			"majority": 9222
 		}
 	}
 }

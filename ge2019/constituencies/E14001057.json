@@ -37,6 +37,14 @@
 			"electorate": 72319,
 			"turnout": 72.8,
 			"majority": 12246
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Ben Wallace",
+			"electorate": 70637,
+			"turnout": 70.9,
+			"spoiled": 190,
+			"majority": 14151
 		}
 	}
 }

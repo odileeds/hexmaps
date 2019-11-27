@@ -37,6 +37,14 @@
 			"electorate": 68076,
 			"turnout": 71.3,
 			"majority": 10247
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Joan Ryan",
+			"electorate": 68118,
+			"turnout": 67.9,
+			"spoiled": 117,
+			"majority": 1086
 		}
 	}
 }

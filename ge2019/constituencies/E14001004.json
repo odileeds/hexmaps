@@ -37,6 +37,14 @@
 			"electorate": 74782,
 			"turnout": 72.5,
 			"majority": 16465
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Greg Clark",
+			"electorate": 73429,
+			"turnout": 70.3,
+			"spoiled": 165,
+			"majority": 22874
 		}
 	}
 }

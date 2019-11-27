@@ -42,6 +42,14 @@
 			"electorate": 73990,
 			"turnout": 62.2,
 			"majority": 5169
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Caroline Flint",
+			"electorate": 71299,
+			"turnout": 59.8,
+			"spoiled": 171,
+			"majority": 8885
 		}
 	}
 }

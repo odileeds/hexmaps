@@ -37,6 +37,14 @@
 			"electorate": 65210,
 			"turnout": 74.1,
 			"majority": 4355
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Burrowes",
+			"electorate": 64937,
+			"turnout": 70.7,
+			"spoiled": 130,
+			"majority": 4753
 		}
 	}
 }

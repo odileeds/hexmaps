@@ -37,6 +37,14 @@
 			"electorate": 54090,
 			"turnout": 72.9,
 			"majority": 4240
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "David Hanson",
+			"electorate": 53639,
+			"turnout": 70.0,
+			"spoiled": 66,
+			"majority": 2930
 		}
 	}
 }

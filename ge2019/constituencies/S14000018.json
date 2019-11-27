@@ -52,6 +52,14 @@
 			"electorate": 66300,
 			"turnout": 78.1,
 			"majority": 5339
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "John  Nicolson",
+			"electorate": 66966,
+			"turnout": 82.0,
+			"spoiled": 47,
+			"majority": 2167
 		}
 	}
 }

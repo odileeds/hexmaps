@@ -37,6 +37,14 @@
 			"electorate": 71714,
 			"turnout": 72.0,
 			"majority": 17160
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Anne Marie Morris",
+			"electorate": 69928,
+			"turnout": 69.3,
+			"spoiled": 200,
+			"majority": 11234
 		}
 	}
 }

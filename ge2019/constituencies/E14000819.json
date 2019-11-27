@@ -42,6 +42,14 @@
 			"electorate": 61059,
 			"turnout": 58.4,
 			"majority": 13873
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Andy McDonald",
+			"electorate": 61873,
+			"turnout": 53.1,
+			"spoiled": 174,
+			"majority": 12477
 		}
 	}
 }

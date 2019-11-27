@@ -37,6 +37,14 @@
 			"electorate": 74259,
 			"turnout": 63.2,
 			"majority": 13542
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Yvonne Fovargue",
+			"electorate": 74320,
+			"turnout": 60.4,
+			"spoiled": 131,
+			"majority": 13155
 		}
 	}
 }

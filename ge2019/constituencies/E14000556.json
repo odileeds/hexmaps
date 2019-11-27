@@ -37,6 +37,14 @@
 			"electorate": 80657,
 			"turnout": 69.0,
 			"majority": 14042
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Graham Stuart",
+			"electorate": 80805,
+			"turnout": 65.4,
+			"spoiled": 159,
+			"majority": 12203
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 65031,
 			"turnout": 72.1,
 			"majority": 1554
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Justine Greening",
+			"electorate": 63923,
+			"turnout": 67.2,
+			"spoiled": 115,
+			"majority": 10180
 		}
 	}
 }

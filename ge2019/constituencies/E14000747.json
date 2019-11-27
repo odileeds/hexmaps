@@ -37,6 +37,14 @@
 			"electorate": 79901,
 			"turnout": 62.4,
 			"majority": 7617
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Liz McInnes",
+			"electorate": 79989,
+			"turnout": 60.8,
+			"spoiled": 135,
+			"majority": 5299
 		}
 	}
 }

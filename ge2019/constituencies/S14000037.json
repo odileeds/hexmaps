@@ -32,6 +32,14 @@
 			"electorate": 78531,
 			"turnout": 68.4,
 			"majority": 2607
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Alex  Salmond",
+			"electorate": 79393,
+			"turnout": 73.3,
+			"spoiled": 62,
+			"majority": 8687
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 81032,
 			"turnout": 70.2,
 			"majority": 13572
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Simon Burns",
+			"electorate": 78580,
+			"turnout": 68.7,
+			"spoiled": 190,
+			"majority": 18250
 		}
 	}
 }

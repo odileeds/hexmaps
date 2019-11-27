@@ -32,6 +32,14 @@
 			"electorate": 68034,
 			"turnout": 73.4,
 			"majority": 19286
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Philip Dunne",
+			"electorate": 66374,
+			"turnout": 72.6,
+			"spoiled": 120,
+			"majority": 18929
 		}
 	}
 }

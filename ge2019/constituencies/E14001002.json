@@ -52,6 +52,14 @@
 			"electorate": 72884,
 			"turnout": 67.7,
 			"majority": 34584
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "David Lammy",
+			"electorate": 70803,
+			"turnout": 60.4,
+			"spoiled": 213,
+			"majority": 23564
 		}
 	}
 }

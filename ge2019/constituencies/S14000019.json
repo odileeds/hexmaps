@@ -42,6 +42,14 @@
 			"electorate": 80442,
 			"turnout": 67.3,
 			"majority": 3866
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Lisa Cameron",
+			"electorate": 83205,
+			"turnout": 72.8,
+			"spoiled": 64,
+			"majority": 16527
 		}
 	}
 }

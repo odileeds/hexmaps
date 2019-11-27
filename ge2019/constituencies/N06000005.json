@@ -47,6 +47,14 @@
 			"electorate": 62908,
 			"turnout": 60.6,
 			"majority": 15923
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Sammy Wilson",
+			"electorate": 62811,
+			"turnout": 53.6,
+			"spoiled": 191,
+			"majority": 5795
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 78609,
 			"turnout": 69.0,
 			"majority": 11142
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Steve Double",
+			"electorate": 76607,
+			"turnout": 65.9,
+			"spoiled": 95,
+			"majority": 8173
 		}
 	}
 }

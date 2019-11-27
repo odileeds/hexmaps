@@ -47,6 +47,14 @@
 			"electorate": 64009,
 			"turnout": 55.1,
 			"majority": 7956
+		},
+		"2015": {
+			"first": "Sinn Fein",
+			"mp": "Pat Doherty",
+			"electorate": 63856,
+			"turnout": 61.1,
+			"spoiled": 353,
+			"majority": 10060
 		}
 	}
 }

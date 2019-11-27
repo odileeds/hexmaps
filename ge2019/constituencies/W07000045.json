@@ -32,6 +32,14 @@
 			"electorate": 59434,
 			"turnout": 67.9,
 			"majority": 12024
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Nia Griffith",
+			"electorate": 59314,
+			"turnout": 65.1,
+			"spoiled": 40,
+			"majority": 7095
 		}
 	}
 }

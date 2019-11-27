@@ -32,6 +32,14 @@
 			"electorate": 76205,
 			"turnout": 64.2,
 			"majority": 11473
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Gerald Howarth",
+			"electorate": 72430,
+			"turnout": 63.9,
+			"spoiled": 114,
+			"majority": 14901
 		}
 	}
 }

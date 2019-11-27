@@ -32,6 +32,14 @@
 			"electorate": 81440,
 			"turnout": 72.5,
 			"majority": 22574
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Laurence Robertson",
+			"electorate": 78910,
+			"turnout": 70.4,
+			"spoiled": 192,
+			"majority": 21972
 		}
 	}
 }

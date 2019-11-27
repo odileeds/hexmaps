@@ -42,6 +42,14 @@
 			"electorate": 65164,
 			"turnout": 69.3,
 			"majority": 32908
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Stephen Twigg",
+			"electorate": 63651,
+			"turnout": 64.7,
+			"spoiled": 132,
+			"majority": 27367
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 65067,
 			"turnout": 57.2,
 			"majority": 7285
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jack Dromey",
+			"electorate": 65128,
+			"turnout": 53.4,
+			"spoiled": 109,
+			"majority": 5129
 		}
 	}
 }

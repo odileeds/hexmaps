@@ -72,6 +72,14 @@
 			"electorate": 69936,
 			"turnout": 66.8,
 			"majority": 5034
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Boris Johnson",
+			"electorate": 70631,
+			"turnout": 63.6,
+			"spoiled": 103,
+			"majority": 10695
 		}
 	}
 }

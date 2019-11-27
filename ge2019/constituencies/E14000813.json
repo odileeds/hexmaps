@@ -42,6 +42,14 @@
 			"electorate": 84161,
 			"turnout": 75.0,
 			"majority": 20983
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nadine Dorries",
+			"electorate": 78501,
+			"turnout": 74.3,
+			"spoiled": 228,
+			"majority": 23327
 		}
 	}
 }

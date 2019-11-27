@@ -37,6 +37,14 @@
 			"electorate": 67893,
 			"turnout": 72.5,
 			"majority": 9868
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Simon Kirby",
+			"electorate": 67858,
+			"turnout": 67.0,
+			"spoiled": 177,
+			"majority": 690
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 68244,
 			"turnout": 63.3,
 			"majority": 3208
+		},
+		"2015": {
+			"first": "Ulster Unionist Party",
+			"mp": "Danny Kinahan",
+			"electorate": 67425,
+			"turnout": 54.5,
+			"spoiled": 211,
+			"majority": 949
 		}
 	}
 }

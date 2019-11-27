@@ -32,6 +32,14 @@
 			"electorate": 66242,
 			"turnout": 54.6,
 			"majority": 75
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Natalie McGarry",
+			"electorate": 70378,
+			"turnout": 60.3,
+			"spoiled": 29,
+			"majority": 10387
 		}
 	}
 }

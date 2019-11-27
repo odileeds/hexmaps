@@ -37,6 +37,14 @@
 			"electorate": 77811,
 			"turnout": 64.5,
 			"majority": 1057
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Alan Meale",
+			"electorate": 77534,
+			"turnout": 61.0,
+			"spoiled": 136,
+			"majority": 5315
 		}
 	}
 }

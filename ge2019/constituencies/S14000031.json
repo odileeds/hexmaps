@@ -42,6 +42,14 @@
 			"electorate": 53862,
 			"turnout": 62.1,
 			"majority": 1060
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Patrick Grady",
+			"electorate": 60169,
+			"turnout": 61.5,
+			"spoiled": 65,
+			"majority": 9295
 		}
 	}
 }

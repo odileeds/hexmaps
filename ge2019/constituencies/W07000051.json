@@ -47,6 +47,14 @@
 			"electorate": 67221,
 			"turnout": 77.4,
 			"majority": 4174
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Craig Williams",
+			"electorate": 67196,
+			"turnout": 76.2,
+			"spoiled": 80,
+			"majority": 2137
 		}
 	}
 }

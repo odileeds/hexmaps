@@ -37,6 +37,14 @@
 			"electorate": 66924,
 			"turnout": 68.6,
 			"majority": 507
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chloe Smith",
+			"electorate": 64515,
+			"turnout": 67.8,
+			"spoiled": 173,
+			"majority": 4463
 		}
 	}
 }

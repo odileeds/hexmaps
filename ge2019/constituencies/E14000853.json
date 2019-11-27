@@ -37,6 +37,14 @@
 			"electorate": 78914,
 			"turnout": 65.8,
 			"majority": 19284
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Mary Glindon",
+			"electorate": 79300,
+			"turnout": 59.2,
+			"spoiled": 137,
+			"majority": 17194
 		}
 	}
 }

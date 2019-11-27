@@ -42,6 +42,14 @@
 			"electorate": 76844,
 			"turnout": 68.7,
 			"majority": 4924
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Drew Hendry",
+			"electorate": 77628,
+			"turnout": 74.3,
+			"spoiled": 54,
+			"majority": 10809
 		}
 	}
 }

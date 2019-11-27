@@ -37,6 +37,14 @@
 			"electorate": 71918,
 			"turnout": 67.5,
 			"majority": 9582
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Helen Jones",
+			"electorate": 72104,
+			"turnout": 63.3,
+			"spoiled": 201,
+			"majority": 8923
 		}
 	}
 }

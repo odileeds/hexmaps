@@ -37,6 +37,14 @@
 			"electorate": 78810,
 			"turnout": 73.1,
 			"majority": 12429
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Edward Garnier",
+			"electorate": 77760,
+			"turnout": 67.7,
+			"spoiled": 210,
+			"majority": 19632
 		}
 	}
 }

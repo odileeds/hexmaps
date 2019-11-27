@@ -37,6 +37,14 @@
 			"electorate": 55368,
 			"turnout": 67.0,
 			"majority": 14937
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Chi Onwurah",
+			"electorate": 58147,
+			"turnout": 60.5,
+			"spoiled": 97,
+			"majority": 12673
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 66378,
 			"turnout": 60.9,
 			"majority": 3267
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Peter Grant",
+			"electorate": 69781,
+			"turnout": 68.3,
+			"spoiled": 53,
+			"majority": 13897
 		}
 	}
 }

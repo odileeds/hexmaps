@@ -32,6 +32,14 @@
 			"electorate": 82965,
 			"turnout": 65.2,
 			"majority": 5520
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Richard Graham",
+			"electorate": 82968,
+			"turnout": 63.5,
+			"spoiled": 111,
+			"majority": 7251
 		}
 	}
 }

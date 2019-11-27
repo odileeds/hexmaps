@@ -52,6 +52,14 @@
 			"electorate": 64327,
 			"turnout": 60.2,
 			"majority": 18343
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Jim Shannon",
+			"electorate": 64289,
+			"turnout": 53.0,
+			"spoiled": 180,
+			"majority": 10185
 		}
 	}
 }

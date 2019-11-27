@@ -37,6 +37,14 @@
 			"electorate": 77524,
 			"turnout": 72.3,
 			"majority": 24543
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Dominic Grieve",
+			"electorate": 74726,
+			"turnout": 71.5,
+			"spoiled": 261,
+			"majority": 26311
 		}
 	}
 }

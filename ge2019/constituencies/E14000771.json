@@ -37,6 +37,14 @@
 			"electorate": 65959,
 			"turnout": 55.5,
 			"majority": 10396
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Karl Turner",
+			"electorate": 65710,
+			"turnout": 53.6,
+			"spoiled": 102,
+			"majority": 10319
 		}
 	}
 }

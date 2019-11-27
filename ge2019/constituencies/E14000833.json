@@ -37,6 +37,14 @@
 			"electorate": 66073,
 			"turnout": 73.1,
 			"majority": 10349
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Catherine McKinnell",
+			"electorate": 67902,
+			"turnout": 66.3,
+			"spoiled": 155,
+			"majority": 10153
 		}
 	}
 }

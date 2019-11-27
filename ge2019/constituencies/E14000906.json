@@ -47,6 +47,14 @@
 			"electorate": 73427,
 			"turnout": 72.7,
 			"majority": 13980
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nick Hurd",
+			"electorate": 73216,
+			"turnout": 70.2,
+			"spoiled": 159,
+			"majority": 20224
 		}
 	}
 }

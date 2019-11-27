@@ -32,6 +32,14 @@
 			"electorate": 78506,
 			"turnout": 69.1,
 			"majority": 13186
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Gareth Johnson",
+			"electorate": 75209,
+			"turnout": 70.0,
+			"spoiled": 199,
+			"majority": 12345
 		}
 	}
 }

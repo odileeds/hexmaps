@@ -47,6 +47,14 @@
 			"electorate": 79473,
 			"turnout": 71.2,
 			"majority": 1625
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Deidre  Brock",
+			"electorate": 80910,
+			"turnout": 71.8,
+			"spoiled": 76,
+			"majority": 5597
 		}
 	}
 }

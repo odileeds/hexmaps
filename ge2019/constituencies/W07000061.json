@@ -32,6 +32,14 @@
 			"electorate": 44699,
 			"turnout": 67.9,
 			"majority": 4850
+		},
+		"2015": {
+			"first": "Plaid Cymru",
+			"mp": "Liz Saville-Roberts",
+			"electorate": 44394,
+			"turnout": 65.3,
+			"spoiled": 65,
+			"majority": 5261
 		}
 	}
 }

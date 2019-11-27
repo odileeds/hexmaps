@@ -37,6 +37,14 @@
 			"electorate": 71182,
 			"turnout": 67.6,
 			"majority": 15162
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Lilian Greenwood",
+			"electorate": 68987,
+			"turnout": 63.3,
+			"spoiled": 234,
+			"majority": 6936
 		}
 	}
 }

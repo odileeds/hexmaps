@@ -42,6 +42,14 @@
 			"electorate": 89537,
 			"turnout": 53.2,
 			"majority": 23698
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Hilary Benn",
+			"electorate": 81799,
+			"turnout": 55.3,
+			"spoiled": 213,
+			"majority": 16967
 		}
 	}
 }

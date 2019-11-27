@@ -37,6 +37,14 @@
 			"electorate": 72205,
 			"turnout": 68.9,
 			"majority": 17413
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Helen Whately",
+			"electorate": 69523,
+			"turnout": 66.0,
+			"spoiled": 104,
+			"majority": 16652
 		}
 	}
 }

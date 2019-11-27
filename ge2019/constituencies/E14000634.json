@@ -27,6 +27,14 @@
 			"electorate": 65958,
 			"turnout": 71.2,
 			"majority": 2438
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Iain Duncan Smith",
+			"electorate": 66680,
+			"turnout": 65.9,
+			"spoiled": 129,
+			"majority": 8386
 		}
 	}
 }

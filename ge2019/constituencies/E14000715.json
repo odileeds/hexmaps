@@ -32,6 +32,14 @@
 			"electorate": 72954,
 			"turnout": 67.2,
 			"majority": 9347
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Adam Holloway",
+			"electorate": 72043,
+			"turnout": 69.8,
+			"spoiled": 181,
+			"majority": 8370
 		}
 	}
 }

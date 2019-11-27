@@ -32,6 +32,14 @@
 			"electorate": 85786,
 			"turnout": 74.1,
 			"majority": 17380
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Edward Vaizey",
+			"electorate": 82931,
+			"turnout": 70.6,
+			"spoiled": 212,
+			"majority": 21749
 		}
 	}
 }

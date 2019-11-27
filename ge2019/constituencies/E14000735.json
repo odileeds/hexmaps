@@ -32,6 +32,14 @@
 			"electorate": 78319,
 			"turnout": 69.9,
 			"majority": 346
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Amber Rudd",
+			"electorate": 75095,
+			"turnout": 68.0,
+			"spoiled": 124,
+			"majority": 4796
 		}
 	}
 }

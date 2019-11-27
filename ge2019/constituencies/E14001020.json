@@ -42,6 +42,14 @@
 			"electorate": 67280,
 			"turnout": 60.3,
 			"majority": 12940
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Sharon Hodgson",
+			"electorate": 68190,
+			"turnout": 54.9,
+			"spoiled": 190,
+			"majority": 13157
 		}
 	}
 }

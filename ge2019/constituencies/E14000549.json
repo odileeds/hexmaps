@@ -37,6 +37,14 @@
 			"electorate": 77574,
 			"turnout": 71.0,
 			"majority": 2416
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jane Ellison",
+			"electorate": 76111,
+			"turnout": 67.2,
+			"spoiled": 141,
+			"majority": 7938
 		}
 	}
 }

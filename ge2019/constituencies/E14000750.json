@@ -47,6 +47,14 @@
 			"electorate": 88088,
 			"turnout": 67.0,
 			"majority": 30509
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Keir Starmer",
+			"electorate": 86764,
+			"turnout": 63.5,
+			"spoiled": 219,
+			"majority": 17048
 		}
 	}
 }

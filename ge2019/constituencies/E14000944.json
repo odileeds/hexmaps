@@ -42,6 +42,14 @@
 			"electorate": 63433,
 			"turnout": 64.3,
 			"majority": 14508
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Emma Lewell-Buck",
+			"electorate": 62730,
+			"turnout": 57.9,
+			"spoiled": 81,
+			"majority": 10614
 		}
 	}
 }

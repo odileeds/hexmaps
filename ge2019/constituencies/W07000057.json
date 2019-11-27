@@ -32,6 +32,14 @@
 			"electorate": 41367,
 			"turnout": 68.2,
 			"majority": 92
+		},
+		"2015": {
+			"first": "Plaid Cymru",
+			"mp": "Hywel Williams",
+			"electorate": 40492,
+			"turnout": 66.5,
+			"spoiled": 95,
+			"majority": 3668
 		}
 	}
 }

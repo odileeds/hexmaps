@@ -47,6 +47,14 @@
 			"electorate": 51334,
 			"turnout": 62.0,
 			"majority": 13238
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ann Clwyd",
+			"electorate": 51422,
+			"turnout": 59.4,
+			"spoiled": 83,
+			"majority": 9406
 		}
 	}
 }

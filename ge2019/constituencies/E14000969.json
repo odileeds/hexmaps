@@ -37,6 +37,14 @@
 			"electorate": 64236,
 			"turnout": 64.7,
 			"majority": 14477
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ann Coffey",
+			"electorate": 63931,
+			"turnout": 62.2,
+			"spoiled": 135,
+			"majority": 10061
 		}
 	}
 }

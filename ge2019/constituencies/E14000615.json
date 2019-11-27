@@ -42,6 +42,14 @@
 			"electorate": 85613,
 			"turnout": 67.1,
 			"majority": 37316
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Harriet Harman",
+			"electorate": 82746,
+			"turnout": 62.6,
+			"spoiled": 218,
+			"majority": 25824
 		}
 	}
 }

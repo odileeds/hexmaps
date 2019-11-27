@@ -42,6 +42,14 @@
 			"electorate": 54262,
 			"turnout": 73.3,
 			"majority": 104
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "Mark Williams",
+			"electorate": 54242,
+			"turnout": 69.2,
+			"spoiled": 96,
+			"majority": 3067
 		}
 	}
 }

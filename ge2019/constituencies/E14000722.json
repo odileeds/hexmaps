@@ -47,6 +47,14 @@
 			"electorate": 68856,
 			"turnout": 64.5,
 			"majority": 5253
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Morris",
+			"electorate": 66048,
+			"turnout": 66.5,
+			"spoiled": 119,
+			"majority": 3082
 		}
 	}
 }

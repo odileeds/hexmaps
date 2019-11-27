@@ -37,6 +37,14 @@
 			"electorate": 67580,
 			"turnout": 70.9,
 			"majority": 4375
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Nuttall",
+			"electorate": 67580,
+			"turnout": 67.2,
+			"spoiled": 186,
+			"majority": 378
 		}
 	}
 }

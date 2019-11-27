@@ -37,6 +37,14 @@
 			"electorate": 67674,
 			"turnout": 58.8,
 			"majority": 11295
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Angela Rayner",
+			"electorate": 68343,
+			"turnout": 57.2,
+			"spoiled": 198,
+			"majority": 10756
 		}
 	}
 }

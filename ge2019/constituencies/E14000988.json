@@ -32,6 +32,14 @@
 			"electorate": 85457,
 			"turnout": 73.8,
 			"majority": 15887
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Rebecca Pow",
+			"electorate": 83221,
+			"turnout": 69.7,
+			"spoiled": 158,
+			"majority": 15491
 		}
 	}
 }

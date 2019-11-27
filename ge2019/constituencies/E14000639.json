@@ -42,6 +42,14 @@
 			"electorate": 61533,
 			"turnout": 62.8,
 			"majority": 3148
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Field",
+			"electorate": 60992,
+			"turnout": 59.6,
+			"spoiled": 167,
+			"majority": 9671
 		}
 	}
 }

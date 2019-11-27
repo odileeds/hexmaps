@@ -37,6 +37,14 @@
 			"electorate": 79199,
 			"turnout": 70.6,
 			"majority": 16016
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Phillip Lee",
+			"electorate": 81271,
+			"turnout": 65.6,
+			"spoiled": 215,
+			"majority": 20650
 		}
 	}
 }

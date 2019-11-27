@@ -42,6 +42,14 @@
 			"electorate": 62423,
 			"turnout": 65.1,
 			"majority": 21652
+		},
+		"2015": {
+			"first": "Sinn Fein",
+			"mp": "Paul Maskey",
+			"electorate": 62697,
+			"turnout": 56.8,
+			"spoiled": 281,
+			"majority": 12365
 		}
 	}
 }

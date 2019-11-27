@@ -37,6 +37,14 @@
 			"electorate": 80535,
 			"turnout": 69.0,
 			"majority": 16355
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Owen Paterson",
+			"electorate": 78858,
+			"turnout": 66.8,
+			"spoiled": 116,
+			"majority": 16494
 		}
 	}
 }

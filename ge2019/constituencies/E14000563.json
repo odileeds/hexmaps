@@ -42,6 +42,14 @@
 			"electorate": 75698,
 			"turnout": 61.3,
 			"majority": 31026
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Liam Byrne",
+			"electorate": 75302,
+			"turnout": 54.9,
+			"spoiled": 267,
+			"majority": 23362
 		}
 	}
 }

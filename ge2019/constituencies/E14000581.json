@@ -37,6 +37,14 @@
 			"electorate": 72872,
 			"turnout": 69.0,
 			"majority": 36200
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Peter Dowd",
+			"electorate": 70145,
+			"turnout": 64.6,
+			"spoiled": 148,
+			"majority": 28704
 		}
 	}
 }

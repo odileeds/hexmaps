@@ -32,6 +32,14 @@
 			"electorate": 82136,
 			"turnout": 68.7,
 			"majority": 11544
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Penrose",
+			"electorate": 80309,
+			"turnout": 65.7,
+			"spoiled": 231,
+			"majority": 15609
 		}
 	}
 }

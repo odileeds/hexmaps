@@ -47,6 +47,14 @@
 			"electorate": 74888,
 			"turnout": 68.9,
 			"majority": 18050
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Philip Hammond",
+			"electorate": 73771,
+			"turnout": 68.1,
+			"spoiled": 182,
+			"majority": 22134
 		}
 	}
 }

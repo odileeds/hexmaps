@@ -42,6 +42,14 @@
 			"electorate": 61760,
 			"turnout": 63.7,
 			"majority": 19590
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Christopher Leslie",
+			"electorate": 60464,
+			"turnout": 58.6,
+			"spoiled": 253,
+			"majority": 11894
 		}
 	}
 }

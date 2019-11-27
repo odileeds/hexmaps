@@ -37,6 +37,14 @@
 			"electorate": 63237,
 			"turnout": 60.0,
 			"majority": 11387
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Sarah Champion",
+			"electorate": 63698,
+			"turnout": 59.6,
+			"spoiled": 153,
+			"majority": 8446
 		}
 	}
 }

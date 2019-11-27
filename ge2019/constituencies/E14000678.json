@@ -42,6 +42,14 @@
 			"electorate": 82369,
 			"turnout": 73.3,
 			"majority": 8036
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Hugo Swire",
+			"electorate": 76519,
+			"turnout": 71.8,
+			"spoiled": 217,
+			"majority": 12261
 		}
 	}
 }

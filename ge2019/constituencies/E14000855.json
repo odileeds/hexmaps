@@ -32,6 +32,14 @@
 			"electorate": 93221,
 			"turnout": 68.6,
 			"majority": 18008
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Shailesh Vara",
+			"electorate": 90318,
+			"turnout": 67.8,
+			"spoiled": 180,
+			"majority": 19795
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 70215,
 			"turnout": 67.1,
 			"majority": 7654
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Margot James",
+			"electorate": 69077,
+			"turnout": 66.8,
+			"spoiled": 103,
+			"majority": 6694
 		}
 	}
 }

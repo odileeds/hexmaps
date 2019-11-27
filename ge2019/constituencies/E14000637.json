@@ -27,6 +27,14 @@
 			"electorate": 76404,
 			"turnout": 72.8,
 			"majority": 7512
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Lindsay Hoyle",
+			"electorate": 74679,
+			"turnout": 69.4,
+			"spoiled": 142,
+			"majority": 4530
 		}
 	}
 }

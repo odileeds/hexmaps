@@ -37,6 +37,14 @@
 			"electorate": 76584,
 			"turnout": 66.9,
 			"majority": 6807
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Oliver Colvile",
+			"electorate": 73274,
+			"turnout": 65.7,
+			"spoiled": 157,
+			"majority": 523
 		}
 	}
 }

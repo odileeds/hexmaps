@@ -32,6 +32,14 @@
 			"electorate": 74152,
 			"turnout": 66.7,
 			"majority": 17211
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Caroline Dinenage",
+			"electorate": 73268,
+			"turnout": 65.2,
+			"spoiled": 86,
+			"majority": 17098
 		}
 	}
 }

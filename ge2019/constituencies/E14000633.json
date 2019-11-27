@@ -42,6 +42,14 @@
 			"electorate": 84991,
 			"turnout": 70.5,
 			"majority": 22621
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Tyrie",
+			"electorate": 83396,
+			"turnout": 68.8,
+			"spoiled": 198,
+			"majority": 24413
 		}
 	}
 }

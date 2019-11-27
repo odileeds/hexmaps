@@ -37,6 +37,14 @@
 			"electorate": 70941,
 			"turnout": 76.4,
 			"majority": 5508
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Maria Caulfield",
+			"electorate": 69481,
+			"turnout": 73.0,
+			"spoiled": 191,
+			"majority": 1083
 		}
 	}
 }

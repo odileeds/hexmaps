@@ -47,6 +47,14 @@
 			"electorate": 77315,
 			"turnout": 68.7,
 			"majority": 18575
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Rachael Maskell",
+			"electorate": 75351,
+			"turnout": 63.6,
+			"spoiled": 224,
+			"majority": 6716
 		}
 	}
 }

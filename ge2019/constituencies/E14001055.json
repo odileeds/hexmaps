@@ -37,6 +37,14 @@
 			"electorate": 77757,
 			"turnout": 70.1,
 			"majority": 12090
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Peter Bottomley",
+			"electorate": 75617,
+			"turnout": 67.4,
+			"spoiled": 193,
+			"majority": 16855
 		}
 	}
 }

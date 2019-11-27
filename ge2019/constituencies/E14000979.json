@@ -37,6 +37,14 @@
 			"electorate": 71833,
 			"turnout": 69.9,
 			"majority": 19705
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kate Green",
+			"electorate": 69026,
+			"turnout": 67.5,
+			"spoiled": 183,
+			"majority": 11685
 		}
 	}
 }

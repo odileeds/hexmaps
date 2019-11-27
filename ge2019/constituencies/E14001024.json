@@ -37,6 +37,14 @@
 			"electorate": 69016,
 			"turnout": 73.3,
 			"majority": 3928
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Graham Evans",
+			"electorate": 68407,
+			"turnout": 68.6,
+			"spoiled": 77,
+			"majority": 806
 		}
 	}
 }

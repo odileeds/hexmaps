@@ -42,6 +42,14 @@
 			"electorate": 79615,
 			"turnout": 66.2,
 			"majority": 25725
+		},
+		"2015": {
+			"first": "Speaker",
+			"mp": "John Bercow",
+			"electorate": 77425,
+			"turnout": 71.0,
+			"spoiled": 1289,
+			"majority": 22942
 		}
 	}
 }

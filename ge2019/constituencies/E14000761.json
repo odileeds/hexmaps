@@ -37,6 +37,14 @@
 			"electorate": 75668,
 			"turnout": 67.6,
 			"majority": 831
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Benedict Gummer",
+			"electorate": 74499,
+			"turnout": 65.5,
+			"spoiled": 139,
+			"majority": 3733
 		}
 	}
 }

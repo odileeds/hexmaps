@@ -37,6 +37,14 @@
 			"electorate": 53729,
 			"turnout": 69.7,
 			"majority": 4356
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Susan Elan Jones",
+			"electorate": 54996,
+			"turnout": 63.9,
+			"spoiled": 55,
+			"majority": 2402
 		}
 	}
 }

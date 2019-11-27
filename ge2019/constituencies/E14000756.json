@@ -37,6 +37,14 @@
 			"electorate": 67037,
 			"turnout": 65.4,
 			"majority": 12005
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Barry Sheerman",
+			"electorate": 65269,
+			"turnout": 62.3,
+			"spoiled": 173,
+			"majority": 7345
 		}
 	}
 }

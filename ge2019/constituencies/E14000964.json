@@ -42,6 +42,14 @@
 			"electorate": 67145,
 			"turnout": 76.3,
 			"majority": 312
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Derek Thomas",
+			"electorate": 65570,
+			"turnout": 73.8,
+			"spoiled": 78,
+			"majority": 2469
 		}
 	}
 }

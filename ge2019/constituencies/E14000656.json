@@ -37,6 +37,14 @@
 			"electorate": 83518,
 			"turnout": 73.3,
 			"majority": 11406
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chris Philp",
+			"electorate": 82010,
+			"turnout": 70.5,
+			"spoiled": 146,
+			"majority": 17140
 		}
 	}
 }

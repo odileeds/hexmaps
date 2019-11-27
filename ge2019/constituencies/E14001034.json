@@ -32,6 +32,14 @@
 			"electorate": 77348,
 			"turnout": 66.9,
 			"majority": 17063
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Matthew Hancock",
+			"electorate": 76198,
+			"turnout": 64.9,
+			"spoiled": 197,
+			"majority": 14984
 		}
 	}
 }

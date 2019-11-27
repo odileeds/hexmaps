@@ -32,6 +32,14 @@
 			"electorate": 73195,
 			"turnout": 60.8,
 			"majority": 7711
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Conor Burns",
+			"electorate": 72082,
+			"turnout": 58.2,
+			"spoiled": 171,
+			"majority": 12410
 		}
 	}
 }

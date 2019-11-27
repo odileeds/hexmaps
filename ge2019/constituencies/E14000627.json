@@ -27,6 +27,14 @@
 			"electorate": 73406,
 			"turnout": 74.3,
 			"majority": 4507
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mary Robinson",
+			"electorate": 73239,
+			"turnout": 72.7,
+			"spoiled": 169,
+			"majority": 6453
 		}
 	}
 }

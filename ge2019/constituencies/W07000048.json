@@ -42,6 +42,14 @@
 			"electorate": 58521,
 			"turnout": 60.1,
 			"majority": 13168
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Carolyn Harris",
+			"electorate": 58011,
+			"turnout": 58.1,
+			"spoiled": 107,
+			"majority": 12028
 		}
 	}
 }

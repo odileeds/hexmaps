@@ -47,6 +47,14 @@
 			"electorate": 69019,
 			"turnout": 75.5,
 			"majority": 15618
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Bill Esterson",
+			"electorate": 67744,
+			"turnout": 72.7,
+			"spoiled": 200,
+			"majority": 11846
 		}
 	}
 }

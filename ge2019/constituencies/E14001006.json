@@ -37,6 +37,14 @@
 			"electorate": 77434,
 			"turnout": 73.4,
 			"majority": 11666
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Alan Campbell",
+			"electorate": 77524,
+			"turnout": 69.2,
+			"spoiled": 126,
+			"majority": 8240
 		}
 	}
 }

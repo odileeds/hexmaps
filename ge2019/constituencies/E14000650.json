@@ -37,6 +37,14 @@
 			"electorate": 75196,
 			"turnout": 66.3,
 			"majority": 8580
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Geoffrey Robinson",
+			"electorate": 73626,
+			"turnout": 61.7,
+			"spoiled": 172,
+			"majority": 4509
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 70389,
 			"turnout": 64.8,
 			"majority": 20540
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Imran Hussain",
+			"electorate": 66121,
+			"turnout": 62.9,
+			"spoiled": 207,
+			"majority": 7084
 		}
 	}
 }

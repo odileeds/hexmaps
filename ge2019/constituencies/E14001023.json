@@ -32,6 +32,14 @@
 			"electorate": 81425,
 			"turnout": 74.3,
 			"majority": 23628
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nusrat Ghani",
+			"electorate": 80236,
+			"turnout": 71.3,
+			"spoiled": 181,
+			"majority": 22967
 		}
 	}
 }

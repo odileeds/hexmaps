@@ -32,6 +32,14 @@
 			"electorate": 67925,
 			"turnout": 76.0,
 			"majority": 15087
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Bob Stewart",
+			"electorate": 67439,
+			"turnout": 72.5,
+			"spoiled": 119,
+			"majority": 18471
 		}
 	}
 }

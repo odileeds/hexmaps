@@ -32,6 +32,14 @@
 			"electorate": 78182,
 			"turnout": 72.7,
 			"majority": 187
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Julian Brazier",
+			"electorate": 81341,
+			"turnout": 66.0,
+			"spoiled": 182,
+			"majority": 9798
 		}
 	}
 }

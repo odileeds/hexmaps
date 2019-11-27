@@ -37,6 +37,14 @@
 			"electorate": 65315,
 			"turnout": 69.2,
 			"majority": 9073
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Evennett",
+			"electorate": 64828,
+			"turnout": 67.6,
+			"spoiled": 110,
+			"majority": 9192
 		}
 	}
 }

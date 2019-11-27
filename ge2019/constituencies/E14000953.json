@@ -27,6 +27,14 @@
 			"electorate": 78042,
 			"turnout": 77.4,
 			"majority": 21590
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jeremy Hunt",
+			"electorate": 77548,
+			"turnout": 74.0,
+			"spoiled": 247,
+			"majority": 28556
 		}
 	}
 }

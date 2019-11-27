@@ -47,6 +47,14 @@
 			"electorate": 59288,
 			"turnout": 68.1,
 			"majority": 17196
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jo Stevens",
+			"electorate": 57456,
+			"turnout": 67.5,
+			"spoiled": 117,
+			"majority": 4981
 		}
 	}
 }

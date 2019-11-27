@@ -42,6 +42,14 @@
 			"electorate": 75827,
 			"turnout": 67.7,
 			"majority": 17494
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nick Gibb",
+			"electorate": 72995,
+			"turnout": 64.9,
+			"spoiled": 224,
+			"majority": 13944
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 67902,
 			"turnout": 74.3,
 			"majority": 19461
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Joseph Johnson",
+			"electorate": 68129,
+			"turnout": 72.1,
+			"spoiled": 94,
+			"majority": 19979
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 74628,
 			"turnout": 72.1,
 			"majority": 17614
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Crispin Blunt",
+			"electorate": 73429,
+			"turnout": 70.2,
+			"spoiled": 165,
+			"majority": 22334
 		}
 	}
 }

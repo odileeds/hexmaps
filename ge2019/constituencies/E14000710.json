@@ -37,6 +37,14 @@
 			"electorate": 71223,
 			"turnout": 72.6,
 			"majority": 4694
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Vernon Coaker",
+			"electorate": 70000,
+			"turnout": 68.8,
+			"spoiled": 145,
+			"majority": 2986
 		}
 	}
 }

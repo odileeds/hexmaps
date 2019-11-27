@@ -42,6 +42,14 @@
 			"electorate": 65117,
 			"turnout": 71.7,
 			"majority": 9590
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Robert Neill",
+			"electorate": 65477,
+			"turnout": 67.5,
+			"spoiled": 131,
+			"majority": 13564
 		}
 	}
 }

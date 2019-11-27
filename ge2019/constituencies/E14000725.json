@@ -37,6 +37,14 @@
 			"electorate": 73457,
 			"turnout": 67.4,
 			"majority": 25405
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Derek Twigg",
+			"electorate": 72818,
+			"turnout": 62.1,
+			"spoiled": 168,
+			"majority": 20285
 		}
 	}
 }

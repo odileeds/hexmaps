@@ -32,6 +32,14 @@
 			"electorate": 81430,
 			"turnout": 72.2,
 			"majority": 22679
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kit Malthouse",
+			"electorate": 79223,
+			"turnout": 69.9,
+			"spoiled": 200,
+			"majority": 23943
 		}
 	}
 }

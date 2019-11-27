@@ -42,6 +42,14 @@
 			"electorate": 75316,
 			"turnout": 69.5,
 			"majority": 18422
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Cleverly",
+			"electorate": 73557,
+			"turnout": 68.6,
+			"spoiled": 201,
+			"majority": 17610
 		}
 	}
 }

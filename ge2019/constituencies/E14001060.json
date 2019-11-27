@@ -42,6 +42,14 @@
 			"electorate": 82916,
 			"turnout": 71.6,
 			"majority": 14723
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Marcus Fysh",
+			"electorate": 82447,
+			"turnout": 69.3,
+			"spoiled": 163,
+			"majority": 5313
 		}
 	}
 }

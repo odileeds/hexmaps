@@ -27,6 +27,14 @@
 			"electorate": 71755,
 			"turnout": 70.9,
 			"majority": 1757
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Bob Blackman",
+			"electorate": 70981,
+			"turnout": 69.2,
+			"spoiled": 143,
+			"majority": 4757
 		}
 	}
 }

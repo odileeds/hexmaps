@@ -37,6 +37,14 @@
 			"electorate": 78754,
 			"turnout": 72.9,
 			"majority": 1609
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Caroline Ansell",
+			"electorate": 78262,
+			"turnout": 67.8,
+			"spoiled": 154,
+			"majority": 733
 		}
 	}
 }

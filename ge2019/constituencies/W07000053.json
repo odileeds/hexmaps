@@ -42,6 +42,14 @@
 			"electorate": 61839,
 			"turnout": 62.1,
 			"majority": 10240
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Nick Thomas-Symonds",
+			"electorate": 61896,
+			"turnout": 61.4,
+			"spoiled": 68,
+			"majority": 8169
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 71500,
 			"turnout": 73.8,
 			"majority": 2988
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Michelle  Thomson",
+			"electorate": 71717,
+			"turnout": 76.6,
+			"spoiled": 49,
+			"majority": 3210
 		}
 	}
 }

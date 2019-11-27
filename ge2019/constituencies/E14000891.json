@@ -42,6 +42,14 @@
 			"electorate": 66836,
 			"turnout": 63.7,
 			"majority": 9485
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Anna Turley",
+			"electorate": 64826,
+			"turnout": 63.4,
+			"spoiled": 163,
+			"majority": 10388
 		}
 	}
 }

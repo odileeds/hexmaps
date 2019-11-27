@@ -52,6 +52,14 @@
 			"electorate": 55862,
 			"turnout": 68.5,
 			"majority": 12631
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Christina Rees",
+			"electorate": 56097,
+			"turnout": 66.4,
+			"spoiled": 114,
+			"majority": 9548
 		}
 	}
 }

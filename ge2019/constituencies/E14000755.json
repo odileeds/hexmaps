@@ -47,6 +47,14 @@
 			"electorate": 74236,
 			"turnout": 77.6,
 			"majority": 18757
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Peter Kyle",
+			"electorate": 73505,
+			"turnout": 71.4,
+			"spoiled": 234,
+			"majority": 1236
 		}
 	}
 }

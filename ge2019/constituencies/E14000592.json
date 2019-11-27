@@ -47,6 +47,14 @@
 			"electorate": 82567,
 			"turnout": 68.4,
 			"majority": 17061
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Barry Gardiner",
+			"electorate": 82196,
+			"turnout": 63.9,
+			"spoiled": 291,
+			"majority": 10834
 		}
 	}
 }

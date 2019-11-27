@@ -37,6 +37,14 @@
 			"electorate": 71224,
 			"turnout": 67.8,
 			"majority": 5376
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Holly Lynch",
+			"electorate": 70462,
+			"turnout": 62.4,
+			"spoiled": 241,
+			"majority": 428
 		}
 	}
 }

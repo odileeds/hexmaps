@@ -37,6 +37,14 @@
 			"electorate": 80764,
 			"turnout": 71.6,
 			"majority": 24943
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Michael Gove",
+			"electorate": 79515,
+			"turnout": 68.8,
+			"spoiled": 252,
+			"majority": 24804
 		}
 	}
 }

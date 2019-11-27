@@ -37,6 +37,14 @@
 			"electorate": 82924,
 			"turnout": 73.4,
 			"majority": 24380
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Richard Benyon",
+			"electorate": 79512,
+			"turnout": 72.3,
+			"spoiled": 205,
+			"majority": 26368
 		}
 	}
 }

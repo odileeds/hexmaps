@@ -32,6 +32,14 @@
 			"electorate": 65186,
 			"turnout": 64.6,
 			"majority": 17350
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ian Mearns",
+			"electorate": 64524,
+			"turnout": 59.0,
+			"spoiled": 96,
+			"majority": 14784
 		}
 	}
 }

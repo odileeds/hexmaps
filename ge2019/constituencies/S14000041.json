@@ -42,6 +42,14 @@
 			"electorate": 72721,
 			"turnout": 63.5,
 			"majority": 259
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Roger Mullin",
+			"electorate": 75941,
+			"turnout": 69.7,
+			"spoiled": 64,
+			"majority": 9974
 		}
 	}
 }

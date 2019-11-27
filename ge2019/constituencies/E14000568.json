@@ -37,6 +37,14 @@
 			"electorate": 72581,
 			"turnout": 61.3,
 			"majority": 16574
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jess Phillips",
+			"electorate": 72146,
+			"turnout": 57.3,
+			"spoiled": 162,
+			"majority": 6595
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 76196,
 			"turnout": 70.0,
 			"majority": 5198
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Spencer",
+			"electorate": 73349,
+			"turnout": 69.3,
+			"spoiled": 127,
+			"majority": 4647
 		}
 	}
 }

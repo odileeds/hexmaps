@@ -32,6 +32,14 @@
 			"electorate": 63840,
 			"turnout": 63.0,
 			"majority": 2645
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Mike Weir",
+			"electorate": 65792,
+			"turnout": 67.7,
+			"spoiled": 35,
+			"majority": 11230
 		}
 	}
 }

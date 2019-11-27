@@ -37,6 +37,14 @@
 			"electorate": 65139,
 			"turnout": 71.3,
 			"majority": 15910
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Rory Stewart",
+			"electorate": 65209,
+			"turnout": 67.6,
+			"spoiled": 143,
+			"majority": 19894
 		}
 	}
 }

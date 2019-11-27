@@ -42,6 +42,14 @@
 			"electorate": 50514,
 			"turnout": 65.2,
 			"majority": 13746
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Chris Bryant",
+			"electorate": 51811,
+			"turnout": 61.0,
+			"spoiled": 58,
+			"majority": 7455
 		}
 	}
 }

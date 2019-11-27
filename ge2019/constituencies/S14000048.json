@@ -37,6 +37,14 @@
 			"electorate": 73176,
 			"turnout": 64.8,
 			"majority": 3633
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Patricia Gibson",
+			"electorate": 75791,
+			"turnout": 71.2,
+			"spoiled": 86,
+			"majority": 13573
 		}
 	}
 }

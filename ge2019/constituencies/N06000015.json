@@ -42,6 +42,14 @@
 			"electorate": 75685,
 			"turnout": 67.2,
 			"majority": 2446
+		},
+		"2015": {
+			"first": "Social Democratic and Labour Party",
+			"mp": "Margaret Ritchie",
+			"electorate": 75220,
+			"turnout": 57.2,
+			"spoiled": 303,
+			"majority": 5891
 		}
 	}
 }

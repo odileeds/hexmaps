@@ -37,6 +37,14 @@
 			"electorate": 66818,
 			"turnout": 68.3,
 			"majority": 1399
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Morris",
+			"electorate": 66985,
+			"turnout": 64.8,
+			"spoiled": 143,
+			"majority": 4590
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 70736,
 			"turnout": 66.5,
 			"majority": 7947
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jim Cunningham",
+			"electorate": 70397,
+			"turnout": 62.3,
+			"spoiled": 178,
+			"majority": 3188
 		}
 	}
 }

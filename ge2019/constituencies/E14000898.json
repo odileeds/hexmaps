@@ -42,6 +42,14 @@
 			"electorate": 82702,
 			"turnout": 65.0,
 			"majority": 9850
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kelly Tolhurst",
+			"electorate": 77119,
+			"turnout": 68.3,
+			"spoiled": 164,
+			"majority": 7133
 		}
 	}
 }

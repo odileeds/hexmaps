@@ -37,6 +37,14 @@
 			"electorate": 71829,
 			"turnout": 67.5,
 			"majority": 789
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Richard Fuller",
+			"electorate": 69311,
+			"turnout": 66.9,
+			"spoiled": 258,
+			"majority": 1097
 		}
 	}
 }

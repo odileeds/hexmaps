@@ -37,6 +37,14 @@
 			"electorate": 71355,
 			"turnout": 75.7,
 			"majority": 10235
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jacob Rees-Mogg",
+			"electorate": 69380,
+			"turnout": 73.9,
+			"spoiled": 153,
+			"majority": 12749
 		}
 	}
 }

@@ -27,6 +27,14 @@
 			"electorate": 63495,
 			"turnout": 67.5,
 			"majority": 8474
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Gavin Robinson",
+			"electorate": 63157,
+			"turnout": 63.1,
+			"spoiled": 178,
+			"majority": 2597
 		}
 	}
 }

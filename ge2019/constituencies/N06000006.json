@@ -42,6 +42,14 @@
 			"electorate": 67038,
 			"turnout": 61.2,
 			"majority": 8842
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Gregory Campbell",
+			"electorate": 66926,
+			"turnout": 52.2,
+			"spoiled": 251,
+			"majority": 7804
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 71880,
 			"turnout": 74.0,
 			"majority": 17443
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Sheryll Murray",
+			"electorate": 71071,
+			"turnout": 71.2,
+			"spoiled": 78,
+			"majority": 16995
 		}
 	}
 }

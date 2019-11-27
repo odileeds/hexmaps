@@ -47,6 +47,14 @@
 			"electorate": 64204,
 			"turnout": 60.9,
 			"majority": 15546
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Dan Jarvis",
+			"electorate": 64534,
+			"turnout": 56.8,
+			"spoiled": 110,
+			"majority": 12435
 		}
 	}
 }

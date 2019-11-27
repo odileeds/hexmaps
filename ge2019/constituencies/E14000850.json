@@ -32,6 +32,14 @@
 			"electorate": 80529,
 			"turnout": 77.0,
 			"majority": 17103
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Liam Fox",
+			"electorate": 80161,
+			"turnout": 73.8,
+			"spoiled": 220,
+			"majority": 23099
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 73796,
 			"turnout": 67.6,
 			"majority": 14209
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Robert Syms",
+			"electorate": 72557,
+			"turnout": 65.5,
+			"spoiled": 138,
+			"majority": 15789
 		}
 	}
 }

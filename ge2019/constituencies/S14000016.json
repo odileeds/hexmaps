@@ -42,6 +42,14 @@
 			"electorate": 62644,
 			"turnout": 61.7,
 			"majority": 5262
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Chris Law",
+			"electorate": 65927,
+			"turnout": 67.9,
+			"spoiled": 46,
+			"majority": 17092
 		}
 	}
 }

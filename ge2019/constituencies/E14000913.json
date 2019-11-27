@@ -32,6 +32,14 @@
 			"electorate": 73599,
 			"turnout": 68.5,
 			"majority": 3435
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Robert Goodwill",
+			"electorate": 73511,
+			"turnout": 65.2,
+			"spoiled": 186,
+			"majority": 6200
 		}
 	}
 }

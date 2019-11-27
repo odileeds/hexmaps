@@ -42,6 +42,14 @@
 			"electorate": 66775,
 			"turnout": 69.8,
 			"majority": 12551
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kevin Brennan",
+			"electorate": 66762,
+			"turnout": 65.8,
+			"spoiled": 113,
+			"majority": 6789
 		}
 	}
 }

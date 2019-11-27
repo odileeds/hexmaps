@@ -37,6 +37,14 @@
 			"electorate": 78064,
 			"turnout": 64.1,
 			"majority": 14819
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Simon Danczuk",
+			"electorate": 77248,
+			"turnout": 59.1,
+			"spoiled": 240,
+			"majority": 12442
 		}
 	}
 }

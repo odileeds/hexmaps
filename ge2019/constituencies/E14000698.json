@@ -42,6 +42,14 @@
 			"electorate": 77330,
 			"turnout": 71.7,
 			"majority": 16117
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ben Bradshaw",
+			"electorate": 76968,
+			"turnout": 70.4,
+			"spoiled": 200,
+			"majority": 7183
 		}
 	}
 }

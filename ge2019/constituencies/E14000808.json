@@ -37,6 +37,14 @@
 			"electorate": 75362,
 			"turnout": 61.0,
 			"majority": 31730
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Gerald Kaufman",
+			"electorate": 72992,
+			"turnout": 57.9,
+			"spoiled": 275,
+			"majority": 24079
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 64381,
 			"turnout": 64.1,
 			"majority": 12078
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Wayne David",
+			"electorate": 63603,
+			"turnout": 63.5,
+			"spoiled": 81,
+			"majority": 10073
 		}
 	}
 }

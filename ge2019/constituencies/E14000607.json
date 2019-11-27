@@ -47,6 +47,14 @@
 			"electorate": 74013,
 			"turnout": 75.0,
 			"majority": 863
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Anna Soubry",
+			"electorate": 71764,
+			"turnout": 74.7,
+			"spoiled": 200,
+			"majority": 4287
 		}
 	}
 }

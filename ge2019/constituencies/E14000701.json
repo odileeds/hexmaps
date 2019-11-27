@@ -37,6 +37,14 @@
 			"electorate": 81714,
 			"turnout": 64.9,
 			"majority": 15603
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Seema Malhotra",
+			"electorate": 82340,
+			"turnout": 60.2,
+			"spoiled": 142,
+			"majority": 11463
 		}
 	}
 }

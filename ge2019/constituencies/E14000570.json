@@ -42,6 +42,14 @@
 			"electorate": 70664,
 			"turnout": 67.2,
 			"majority": 20368
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kate Hollern",
+			"electorate": 73260,
+			"turnout": 60.5,
+			"spoiled": 325,
+			"majority": 12760
 		}
 	}
 }

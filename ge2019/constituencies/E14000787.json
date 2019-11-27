@@ -57,6 +57,14 @@
 			"electorate": 68124,
 			"turnout": 33.3,
 			"majority": 5629
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Heidi Alexander",
+			"electorate": 66913,
+			"turnout": 64.3,
+			"spoiled": 133,
+			"majority": 14333
 		}
 	}
 }

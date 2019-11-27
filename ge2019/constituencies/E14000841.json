@@ -37,6 +37,14 @@
 			"electorate": 87505,
 			"turnout": 73.4,
 			"majority": 20862
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alistair Burt",
+			"electorate": 83551,
+			"turnout": 70.5,
+			"spoiled": 195,
+			"majority": 25644
 		}
 	}
 }

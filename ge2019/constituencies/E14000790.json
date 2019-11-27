@@ -42,6 +42,14 @@
 			"electorate": 65149,
 			"turnout": 70.9,
 			"majority": 22607
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "John Cryer",
+			"electorate": 64580,
+			"turnout": 63.3,
+			"spoiled": 171,
+			"majority": 14917
 		}
 	}
 }

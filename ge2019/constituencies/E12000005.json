@@ -1,0 +1,25 @@
+{
+	"id": "E12000005",
+	"title": "",
+	"elections": {
+		"2019": {
+			"candidates": [{
+			}]
+		},
+		"2017": {
+			"first": "",
+			"mp": "",
+			"mysoc": "",
+			"electorate": ,
+			"turnout": ,
+			"majority": 
+		},
+		"2015": {
+			"first": "Con",
+			"electorate": 77407,
+			"turnout": 49548,
+			"spoiled": 108,
+			"majority": 12871
+		}
+	}
+}

@@ -37,6 +37,14 @@
 			"electorate": 78104,
 			"turnout": 74.4,
 			"majority": 19985
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Julian Smith",
+			"electorate": 76645,
+			"turnout": 71.4,
+			"spoiled": 199,
+			"majority": 20761
 		}
 	}
 }

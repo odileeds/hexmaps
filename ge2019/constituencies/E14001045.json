@@ -32,6 +32,14 @@
 			"electorate": 69137,
 			"turnout": 71.2,
 			"majority": 18646
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Priti Patel",
+			"electorate": 67090,
+			"turnout": 70.6,
+			"spoiled": 167,
+			"majority": 19554
 		}
 	}
 }

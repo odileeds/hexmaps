@@ -42,6 +42,14 @@
 			"electorate": 72069,
 			"turnout": 66.5,
 			"majority": 9605
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Toby Perkins",
+			"electorate": 71625,
+			"turnout": 63.9,
+			"spoiled": 179,
+			"majority": 13598
 		}
 	}
 }

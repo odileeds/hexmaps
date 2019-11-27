@@ -37,6 +37,14 @@
 			"electorate": 71722,
 			"turnout": 65.2,
 			"majority": 31
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Royston Smith",
+			"electorate": 72281,
+			"turnout": 62.0,
+			"spoiled": 115,
+			"majority": 2316
 		}
 	}
 }

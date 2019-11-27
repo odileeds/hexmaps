@@ -37,6 +37,14 @@
 			"electorate": 46868,
 			"turnout": 65.9,
 			"majority": 2044
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Paul Monaghan",
+			"electorate": 47558,
+			"turnout": 72.0,
+			"spoiled": 45,
+			"majority": 3844
 		}
 	}
 }

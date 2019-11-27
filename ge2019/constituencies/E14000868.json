@@ -32,6 +32,14 @@
 			"electorate": 69201,
 			"turnout": 66.6,
 			"majority": 4739
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Marcus Jones",
+			"electorate": 68037,
+			"turnout": 67.4,
+			"spoiled": 75,
+			"majority": 4882
 		}
 	}
 }

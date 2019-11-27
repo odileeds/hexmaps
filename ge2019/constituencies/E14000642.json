@@ -47,6 +47,14 @@
 			"electorate": 69263,
 			"turnout": 63.7,
 			"majority": 15828
+		},
+		"2015": {
+			"first": "UK Independence Party",
+			"mp": "Douglas Carswell",
+			"electorate": 68936,
+			"turnout": 64.4,
+			"spoiled": 168,
+			"majority": 3437
 		}
 	}
 }

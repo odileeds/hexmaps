@@ -42,6 +42,14 @@
 			"electorate": 62185,
 			"turnout": 69.6,
 			"majority": 4700
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Madeleine Moon",
+			"electorate": 59998,
+			"turnout": 65.9,
+			"spoiled": 63,
+			"majority": 1927
 		}
 	}
 }

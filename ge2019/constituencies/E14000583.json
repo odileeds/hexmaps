@@ -32,6 +32,14 @@
 			"electorate": 81661,
 			"turnout": 68.8,
 			"majority": 18351
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Tredinnick",
+			"electorate": 79738,
+			"turnout": 67.5,
+			"spoiled": 206,
+			"majority": 10988
 		}
 	}
 }

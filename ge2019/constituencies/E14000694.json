@@ -37,6 +37,14 @@
 			"electorate": 80029,
 			"turnout": 74.1,
 			"majority": 20475
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chris Grayling",
+			"electorate": 78633,
+			"turnout": 72.9,
+			"spoiled": 189,
+			"majority": 24443
 		}
 	}
 }

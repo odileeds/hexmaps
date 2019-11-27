@@ -37,6 +37,14 @@
 			"electorate": 57791,
 			"turnout": 61.6,
 			"majority": 15723
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Mark Hendrick",
+			"electorate": 59981,
+			"turnout": 56.0,
+			"spoiled": 140,
+			"majority": 12067
 		}
 	}
 }

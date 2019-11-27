@@ -32,6 +32,14 @@
 			"electorate": 50755,
 			"turnout": 68.7,
 			"majority": 9285
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Glyn Davies",
+			"electorate": 48690,
+			"turnout": 69.4,
+			"spoiled": 54,
+			"majority": 5325
 		}
 	}
 }

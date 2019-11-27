@@ -32,6 +32,14 @@
 			"electorate": 86121,
 			"turnout": 73.2,
 			"majority": 16158
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Lucy Frazer",
+			"electorate": 84570,
+			"turnout": 70.6,
+			"spoiled": 203,
+			"majority": 16837
 		}
 	}
 }

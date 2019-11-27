@@ -42,6 +42,14 @@
 			"electorate": 110683,
 			"turnout": 67.3,
 			"majority": 21069
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Turner",
+			"electorate": 108804,
+			"turnout": 64.7,
+			"spoiled": 107,
+			"majority": 13703
 		}
 	}
 }

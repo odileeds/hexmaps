@@ -32,6 +32,14 @@
 			"electorate": 81212,
 			"turnout": 70.5,
 			"majority": 14179
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mims Davies",
+			"electorate": 79609,
+			"turnout": 69.9,
+			"spoiled": 158,
+			"majority": 9147
 		}
 	}
 }

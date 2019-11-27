@@ -47,6 +47,14 @@
 			"electorate": 73429,
 			"turnout": 63.4,
 			"majority": 5288
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Dennis Skinner",
+			"electorate": 71979,
+			"turnout": 61.4,
+			"spoiled": 193,
+			"majority": 11778
 		}
 	}
 }

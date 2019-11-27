@@ -32,6 +32,14 @@
 			"electorate": 67751,
 			"turnout": 74.1,
 			"majority": 21602
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Bill Wiggin",
+			"electorate": 67926,
+			"turnout": 71.0,
+			"spoiled": 190,
+			"majority": 19996
 		}
 	}
 }

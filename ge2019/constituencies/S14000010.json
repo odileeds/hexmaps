@@ -32,6 +32,14 @@
 			"electorate": 68999,
 			"turnout": 65.3,
 			"majority": 1267
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Philippa Whitford",
+			"electorate": 70021,
+			"turnout": 72.6,
+			"spoiled": 68,
+			"majority": 13589
 		}
 	}
 }

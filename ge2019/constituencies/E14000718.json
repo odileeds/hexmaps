@@ -47,6 +47,14 @@
 			"electorate": 77190,
 			"turnout": 68.8,
 			"majority": 20714
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Matthew Pennycook",
+			"electorate": 73315,
+			"turnout": 64.0,
+			"spoiled": 171,
+			"majority": 11946
 		}
 	}
 }

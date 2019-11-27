@@ -37,6 +37,14 @@
 			"electorate": 73327,
 			"turnout": 63.4,
 			"majority": 6269
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Alan Brown",
+			"electorate": 75250,
+			"turnout": 71.8,
+			"spoiled": 92,
+			"majority": 13638
 		}
 	}
 }

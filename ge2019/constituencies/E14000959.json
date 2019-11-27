@@ -32,6 +32,14 @@
 			"electorate": 72641,
 			"turnout": 69.0,
 			"majority": 13425
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kwasi Kwarteng",
+			"electorate": 71592,
+			"turnout": 68.8,
+			"spoiled": 191,
+			"majority": 14152
 		}
 	}
 }

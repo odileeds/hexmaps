@@ -32,6 +32,14 @@
 			"electorate": 67466,
 			"turnout": 74.7,
 			"majority": 11616
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Pauline Latham",
+			"electorate": 67477,
+			"turnout": 70.9,
+			"spoiled": 116,
+			"majority": 12774
 		}
 	}
 }

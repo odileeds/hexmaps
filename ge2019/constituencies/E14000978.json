@@ -37,6 +37,14 @@
 			"electorate": 78649,
 			"turnout": 70.9,
 			"majority": 26285
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Chuka Umunna",
+			"electorate": 79137,
+			"turnout": 63.3,
+			"spoiled": 155,
+			"majority": 13934
 		}
 	}
 }

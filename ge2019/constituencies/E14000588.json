@@ -37,6 +37,14 @@
 			"electorate": 67752,
 			"turnout": 60.6,
 			"majority": 6700
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Judith Cummins",
+			"electorate": 63674,
+			"turnout": 59.2,
+			"spoiled": 106,
+			"majority": 6450
 		}
 	}
 }

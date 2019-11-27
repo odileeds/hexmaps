@@ -27,6 +27,14 @@
 			"electorate": 83020,
 			"turnout": 72.3,
 			"majority": 2690
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Tom Pursglove",
+			"electorate": 79775,
+			"turnout": 70.6,
+			"spoiled": 132,
+			"majority": 2412
 		}
 	}
 }

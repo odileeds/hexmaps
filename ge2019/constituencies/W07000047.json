@@ -37,6 +37,14 @@
 			"electorate": 56892,
 			"turnout": 65.5,
 			"majority": 10598
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Geraint Davies",
+			"electorate": 58776,
+			"turnout": 60.0,
+			"spoiled": 116,
+			"majority": 7036
 		}
 	}
 }

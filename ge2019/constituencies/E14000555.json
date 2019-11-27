@@ -42,6 +42,14 @@
 			"electorate": 86075,
 			"turnout": 69.5,
 			"majority": 35393
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Rushanara Ali",
+			"electorate": 82727,
+			"turnout": 64.3,
+			"spoiled": 263,
+			"majority": 24317
 		}
 	}
 }

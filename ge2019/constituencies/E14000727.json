@@ -37,6 +37,14 @@
 			"electorate": 82957,
 			"turnout": 70.4,
 			"majority": 15560
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Tulip Siddiq",
+			"electorate": 80195,
+			"turnout": 67.5,
+			"spoiled": 184,
+			"majority": 1138
 		}
 	}
 }

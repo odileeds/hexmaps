@@ -37,6 +37,14 @@
 			"electorate": 68666,
 			"turnout": 74.2,
 			"majority": 11390
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Justin Madders",
+			"electorate": 69223,
+			"turnout": 67.7,
+			"spoiled": 160,
+			"majority": 6275
 		}
 	}
 }

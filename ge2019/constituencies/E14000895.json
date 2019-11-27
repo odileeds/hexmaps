@@ -42,6 +42,14 @@
 			"electorate": 80905,
 			"turnout": 70.5,
 			"majority": 23108
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Rishi Sunak",
+			"electorate": 79062,
+			"turnout": 68.5,
+			"spoiled": 164,
+			"majority": 19550
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 86507,
 			"turnout": 67.8,
 			"majority": 2092
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Richard Harrington",
+			"electorate": 83535,
+			"turnout": 67.5,
+			"spoiled": 211,
+			"majority": 9794
 		}
 	}
 }

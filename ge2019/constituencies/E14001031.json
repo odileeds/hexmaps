@@ -32,6 +32,14 @@
 			"electorate": 79048,
 			"turnout": 75.4,
 			"majority": 19091
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Oliver Letwin",
+			"electorate": 78000,
+			"turnout": 72.6,
+			"spoiled": 185,
+			"majority": 16130
 		}
 	}
 }

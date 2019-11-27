@@ -37,6 +37,14 @@
 			"electorate": 65967,
 			"turnout": 54.7,
 			"majority": 4460
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Adrian Bailey",
+			"electorate": 65524,
+			"turnout": 53.7,
+			"spoiled": 130,
+			"majority": 7742
 		}
 	}
 }

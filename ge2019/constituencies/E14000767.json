@@ -37,6 +37,14 @@
 			"electorate": 66319,
 			"turnout": 77.4,
 			"majority": 18076
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jeremy Wright",
+			"electorate": 63957,
+			"turnout": 76.5,
+			"spoiled": 129,
+			"majority": 21002
 		}
 	}
 }

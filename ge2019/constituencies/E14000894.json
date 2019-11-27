@@ -37,6 +37,14 @@
 			"electorate": 77968,
 			"turnout": 70.8,
 			"majority": 13199
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nigel Evans",
+			"electorate": 77379,
+			"turnout": 67.7,
+			"spoiled": 168,
+			"majority": 13606
 		}
 	}
 }

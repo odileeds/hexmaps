@@ -32,6 +32,14 @@
 			"electorate": 73493,
 			"turnout": 68.0,
 			"majority": 13778
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Rosindell",
+			"electorate": 72594,
+			"turnout": 68.0,
+			"spoiled": 159,
+			"majority": 13859
 		}
 	}
 }

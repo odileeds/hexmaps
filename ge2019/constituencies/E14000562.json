@@ -42,6 +42,14 @@
 			"electorate": 78271,
 			"turnout": 69.4,
 			"majority": 33944
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Roger Godsiff",
+			"electorate": 76330,
+			"turnout": 62.0,
+			"spoiled": 277,
+			"majority": 19818
 		}
 	}
 }

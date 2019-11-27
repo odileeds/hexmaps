@@ -37,6 +37,14 @@
 			"electorate": 76767,
 			"turnout": 70.6,
 			"majority": 3359
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Tasmina Ahmed-Sheikh",
+			"electorate": 77370,
+			"turnout": 74.9,
+			"spoiled": 75,
+			"majority": 10168
 		}
 	}
 }

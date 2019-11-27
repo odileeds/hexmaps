@@ -37,6 +37,14 @@
 			"electorate": 70023,
 			"turnout": 59.0,
 			"majority": 28714
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Shabana Mahmood",
+			"electorate": 68128,
+			"turnout": 53.1,
+			"spoiled": 253,
+			"majority": 21868
 		}
 	}
 }

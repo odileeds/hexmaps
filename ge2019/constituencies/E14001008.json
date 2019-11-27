@@ -42,6 +42,14 @@
 			"electorate": 82055,
 			"turnout": 67.1,
 			"majority": 20250
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kate Hoey",
+			"electorate": 82231,
+			"turnout": 58.6,
+			"spoiled": 234,
+			"majority": 12708
 		}
 	}
 }

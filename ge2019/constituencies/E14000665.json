@@ -32,6 +32,14 @@
 			"electorate": 72184,
 			"turnout": 70.1,
 			"majority": 21136
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Claire Perry",
+			"electorate": 69205,
+			"turnout": 71.0,
+			"spoiled": 132,
+			"majority": 20751
 		}
 	}
 }

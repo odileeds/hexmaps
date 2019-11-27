@@ -32,6 +32,14 @@
 			"electorate": 61344,
 			"turnout": 68.0,
 			"majority": 2541
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Mhairi Black",
+			"electorate": 61281,
+			"turnout": 75.5,
+			"spoiled": 69,
+			"majority": 5684
 		}
 	}
 }

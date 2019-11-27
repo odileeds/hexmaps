@@ -32,6 +32,14 @@
 			"electorate": 71408,
 			"turnout": 75.2,
 			"majority": 22877
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Gray",
+			"electorate": 67851,
+			"turnout": 74.7,
+			"spoiled": 111,
+			"majority": 21046
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 55995,
 			"turnout": 78.5,
 			"majority": 5365
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Margaret Greenwood",
+			"electorate": 55377,
+			"turnout": 75.9,
+			"spoiled": 150,
+			"majority": 417
 		}
 	}
 }

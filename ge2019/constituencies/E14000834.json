@@ -37,6 +37,14 @@
 			"electorate": 65596,
 			"turnout": 66.8,
 			"majority": 30
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Paul Farrelly",
+			"electorate": 67619,
+			"turnout": 63.8,
+			"spoiled": 125,
+			"majority": 650
 		}
 	}
 }

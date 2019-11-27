@@ -37,6 +37,14 @@
 			"electorate": 75918,
 			"turnout": 73.9,
 			"majority": 13772
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nigel Adams",
+			"electorate": 76082,
+			"turnout": 69.6,
+			"spoiled": 172,
+			"majority": 13557
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 79478,
 			"turnout": 75.8,
 			"majority": 23883
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nick Herbert",
+			"electorate": 77242,
+			"turnout": 73.4,
+			"spoiled": 242,
+			"majority": 26177
 		}
 	}
 }

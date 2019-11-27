@@ -32,6 +32,14 @@
 			"electorate": 77313,
 			"turnout": 65.3,
 			"majority": 266
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Angela Crawley",
+			"electorate": 79962,
+			"turnout": 69.2,
+			"spoiled": 70,
+			"majority": 10100
 		}
 	}
 }

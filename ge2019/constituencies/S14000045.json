@@ -32,6 +32,14 @@
 			"electorate": 68328,
 			"turnout": 66.3,
 			"majority": 885
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Owen Thompson",
+			"electorate": 67875,
+			"turnout": 71.3,
+			"spoiled": 34,
+			"majority": 9859
 		}
 	}
 }

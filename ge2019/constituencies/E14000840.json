@@ -42,6 +42,14 @@
 			"electorate": 66970,
 			"turnout": 64.6,
 			"majority": 12939
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kevan Jones",
+			"electorate": 65359,
+			"turnout": 61.5,
+			"spoiled": 60,
+			"majority": 13644
 		}
 	}
 }

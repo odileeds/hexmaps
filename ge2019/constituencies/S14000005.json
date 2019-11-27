@@ -32,6 +32,14 @@
 			"electorate": 67230,
 			"turnout": 71.5,
 			"majority": 1328
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Brendan O'Hara",
+			"electorate": 68875,
+			"turnout": 75.4,
+			"spoiled": 59,
+			"majority": 8473
 		}
 	}
 }

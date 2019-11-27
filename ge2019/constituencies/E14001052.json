@@ -37,6 +37,14 @@
 			"electorate": 73893,
 			"turnout": 69.6,
 			"majority": 2508
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Robin Walker",
+			"electorate": 72461,
+			"turnout": 68.8,
+			"spoiled": 137,
+			"majority": 5646
 		}
 	}
 }

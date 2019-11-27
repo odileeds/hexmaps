@@ -32,6 +32,14 @@
 			"electorate": 67186,
 			"turnout": 74.6,
 			"majority": 18046
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Caroline Nokes",
+			"electorate": 66519,
+			"turnout": 73.0,
+			"spoiled": 141,
+			"majority": 17712
 		}
 	}
 }

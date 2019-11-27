@@ -37,6 +37,14 @@
 			"electorate": 64346,
 			"turnout": 55.9,
 			"majority": 2267
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Alison Thewliss",
+			"electorate": 70945,
+			"turnout": 55.5,
+			"spoiled": 63,
+			"majority": 7662
 		}
 	}
 }

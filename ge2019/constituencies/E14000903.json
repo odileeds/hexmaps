@@ -42,6 +42,14 @@
 			"electorate": 75230,
 			"turnout": 65.8,
 			"majority": 3882
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Kevin Barron",
+			"electorate": 74275,
+			"turnout": 63.6,
+			"spoiled": 195,
+			"majority": 7297
 		}
 	}
 }

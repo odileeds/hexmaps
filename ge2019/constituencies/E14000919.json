@@ -52,6 +52,14 @@
 			"electorate": 77560,
 			"turnout": 61.7,
 			"majority": 27748
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Paul Blomfield",
+			"electorate": 72321,
+			"turnout": 61.4,
+			"spoiled": 199,
+			"majority": 17309
 		}
 	}
 }

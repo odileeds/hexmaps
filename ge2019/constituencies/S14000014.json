@@ -32,6 +32,14 @@
 			"electorate": 67672,
 			"turnout": 72.4,
 			"majority": 9441
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Mundell",
+			"electorate": 68483,
+			"turnout": 76.2,
+			"spoiled": 34,
+			"majority": 798
 		}
 	}
 }

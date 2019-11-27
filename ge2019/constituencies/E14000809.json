@@ -37,6 +37,14 @@
 			"electorate": 74654,
 			"turnout": 71.8,
 			"majority": 29875
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jeff Smith",
+			"electorate": 74102,
+			"turnout": 67.8,
+			"spoiled": 252,
+			"majority": 14873
 		}
 	}
 }

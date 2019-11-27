@@ -42,6 +42,14 @@
 			"electorate": 67602,
 			"turnout": 65.2,
 			"majority": 2288
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Martin Docherty",
+			"electorate": 69208,
+			"turnout": 74.0,
+			"spoiled": 61,
+			"majority": 14171
 		}
 	}
 }

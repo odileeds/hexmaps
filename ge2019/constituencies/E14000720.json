@@ -47,6 +47,14 @@
 			"electorate": 85058,
 			"turnout": 66.2,
 			"majority": 35139
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Diane Abbott",
+			"electorate": 88153,
+			"turnout": 56.8,
+			"spoiled": 202,
+			"majority": 24008
 		}
 	}
 }

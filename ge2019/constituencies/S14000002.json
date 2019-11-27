@@ -32,6 +32,14 @@
 			"electorate": 64964,
 			"turnout": 68.5,
 			"majority": 4752
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Callum McCaig",
+			"electorate": 68056,
+			"turnout": 71.4,
+			"spoiled": 56,
+			"majority": 7230
 		}
 	}
 }

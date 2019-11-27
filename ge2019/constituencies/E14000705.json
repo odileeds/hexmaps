@@ -32,6 +32,14 @@
 			"electorate": 70898,
 			"turnout": 73.0,
 			"majority": 9502
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Harper",
+			"electorate": 69865,
+			"turnout": 71.1,
+			"spoiled": 184,
+			"majority": 10987
 		}
 	}
 }

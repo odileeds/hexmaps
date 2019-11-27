@@ -52,6 +52,14 @@
 			"electorate": 73715,
 			"turnout": 69.2,
 			"majority": 5965
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ivan Lewis",
+			"electorate": 73883,
+			"turnout": 64.2,
+			"spoiled": 181,
+			"majority": 4922
 		}
 	}
 }

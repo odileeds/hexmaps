@@ -42,6 +42,14 @@
 			"electorate": 67957,
 			"turnout": 70.8,
 			"majority": 32017
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Stella Creasy",
+			"electorate": 67015,
+			"turnout": 62.6,
+			"spoiled": 181,
+			"majority": 23195
 		}
 	}
 }

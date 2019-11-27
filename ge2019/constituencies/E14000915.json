@@ -42,6 +42,14 @@
 			"electorate": 63889,
 			"turnout": 65.1,
 			"majority": 6059
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Phil Wilson",
+			"electorate": 62844,
+			"turnout": 61.8,
+			"spoiled": 96,
+			"majority": 6843
 		}
 	}
 }

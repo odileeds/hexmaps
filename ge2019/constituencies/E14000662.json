@@ -42,6 +42,14 @@
 			"electorate": 69919,
 			"turnout": 69.6,
 			"majority": 2015
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Amanda Solloway",
+			"electorate": 69794,
+			"turnout": 64.3,
+			"spoiled": 137,
+			"majority": 41
 		}
 	}
 }

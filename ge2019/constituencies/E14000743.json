@@ -32,6 +32,14 @@
 			"electorate": 71088,
 			"turnout": 71.0,
 			"majority": 15013
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jesse Norman",
+			"electorate": 71485,
+			"turnout": 66.4,
+			"spoiled": 202,
+			"majority": 16890
 		}
 	}
 }

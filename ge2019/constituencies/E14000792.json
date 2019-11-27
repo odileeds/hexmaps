@@ -47,6 +47,14 @@
 			"electorate": 73111,
 			"turnout": 66.6,
 			"majority": 1538
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Karl McCartney",
+			"electorate": 74121,
+			"turnout": 63.5,
+			"spoiled": 224,
+			"majority": 1443
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 64553,
 			"turnout": 74.1,
 			"majority": 15514
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ian Murray",
+			"electorate": 65801,
+			"turnout": 75.0,
+			"spoiled": 54,
+			"majority": 2637
 		}
 	}
 }

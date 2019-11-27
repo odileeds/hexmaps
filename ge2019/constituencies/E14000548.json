@@ -42,6 +42,14 @@
 			"electorate": 80161,
 			"turnout": 67.1,
 			"majority": 8961
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jo Cox",
+			"electorate": 78373,
+			"turnout": 64.7,
+			"spoiled": 200,
+			"majority": 6057
 		}
 	}
 }

@@ -27,6 +27,14 @@
 			"electorate": 73329,
 			"turnout": 71.4,
 			"majority": 1657
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mike Freer",
+			"electorate": 72530,
+			"turnout": 70.2,
+			"spoiled": 133,
+			"majority": 5662
 		}
 	}
 }

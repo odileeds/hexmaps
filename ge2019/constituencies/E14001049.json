@@ -37,6 +37,14 @@
 			"electorate": 60770,
 			"turnout": 60.1,
 			"majority": 4587
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Emma Reynolds",
+			"electorate": 61065,
+			"turnout": 55.9,
+			"spoiled": 130,
+			"majority": 5495
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 87331,
 			"turnout": 67.3,
 			"majority": 27712
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jim Fitzpatrick",
+			"electorate": 82081,
+			"turnout": 62.4,
+			"spoiled": 202,
+			"majority": 16924
 		}
 	}
 }

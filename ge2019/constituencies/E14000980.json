@@ -37,6 +37,14 @@
 			"electorate": 82839,
 			"turnout": 77.0,
 			"majority": 687
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Neil Carmichael",
+			"electorate": 80544,
+			"turnout": 75.7,
+			"spoiled": 121,
+			"majority": 4866
 		}
 	}
 }

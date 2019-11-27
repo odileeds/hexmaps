@@ -37,6 +37,14 @@
 			"electorate": 82772,
 			"turnout": 74.9,
 			"majority": 23484
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jeremy Quin",
+			"electorate": 79085,
+			"turnout": 72.3,
+			"spoiled": 234,
+			"majority": 24658
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 74200,
 			"turnout": 74.6,
 			"majority": 13807
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Rupa Huq",
+			"electorate": 71422,
+			"turnout": 71.5,
+			"spoiled": 165,
+			"majority": 274
 		}
 	}
 }

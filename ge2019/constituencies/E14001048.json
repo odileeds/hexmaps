@@ -37,6 +37,14 @@
 			"electorate": 79111,
 			"turnout": 75.5,
 			"majority": 18798
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Redwood",
+			"electorate": 77881,
+			"turnout": 72.1,
+			"spoiled": 166,
+			"majority": 24197
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 64146,
 			"turnout": 59.2,
 			"majority": 195
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Neil Gray",
+			"electorate": 66792,
+			"turnout": 66.4,
+			"spoiled": 45,
+			"majority": 8779
 		}
 	}
 }

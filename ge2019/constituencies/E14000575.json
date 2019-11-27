@@ -37,6 +37,14 @@
 			"electorate": 63415,
 			"turnout": 67.0,
 			"majority": 7915
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ronnie Campbell",
+			"electorate": 61247,
+			"turnout": 62.9,
+			"spoiled": 41,
+			"majority": 9229
 		}
 	}
 }

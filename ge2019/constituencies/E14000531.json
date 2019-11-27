@@ -37,6 +37,14 @@
 			"electorate": 60363,
 			"turnout": 66.7,
 			"majority": 14307
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Wendy Morton",
+			"electorate": 60215,
+			"turnout": 65.8,
+			"spoiled": 105,
+			"majority": 11723
 		}
 	}
 }

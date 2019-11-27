@@ -37,6 +37,14 @@
 			"electorate": 65950,
 			"turnout": 62.8,
 			"majority": 12752
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Richard Burgon",
+			"electorate": 64754,
+			"turnout": 59.3,
+			"spoiled": 186,
+			"majority": 12533
 		}
 	}
 }

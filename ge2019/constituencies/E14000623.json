@@ -32,6 +32,14 @@
 			"electorate": 74370,
 			"turnout": 77.8,
 			"majority": 15680
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mel Stride",
+			"electorate": 72737,
+			"turnout": 75.1,
+			"spoiled": 192,
+			"majority": 21265
 		}
 	}
 }

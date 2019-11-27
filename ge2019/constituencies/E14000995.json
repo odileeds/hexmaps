@@ -37,6 +37,14 @@
 			"electorate": 78154,
 			"turnout": 64.4,
 			"majority": 345
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jackie Doyle-Price",
+			"electorate": 77559,
+			"turnout": 64.1,
+			"spoiled": 126,
+			"majority": 536
 		}
 	}
 }

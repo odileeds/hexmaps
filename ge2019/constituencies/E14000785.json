@@ -42,6 +42,14 @@
 			"electorate": 76202,
 			"turnout": 61.5,
 			"majority": 9554
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Andy Burnham",
+			"electorate": 75905,
+			"turnout": 59.7,
+			"spoiled": 189,
+			"majority": 14096
 		}
 	}
 }

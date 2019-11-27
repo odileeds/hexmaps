@@ -52,6 +52,14 @@
 			"electorate": 78670,
 			"turnout": 71.1,
 			"majority": 19001
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kevin Hollinrake",
+			"electorate": 77451,
+			"turnout": 67.8,
+			"spoiled": 170,
+			"majority": 19456
 		}
 	}
 }

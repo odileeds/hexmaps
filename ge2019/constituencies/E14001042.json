@@ -42,6 +42,14 @@
 			"electorate": 73595,
 			"turnout": 73.3,
 			"majority": 22384
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Adam Afriyie",
+			"electorate": 71538,
+			"turnout": 70.4,
+			"spoiled": 189,
+			"majority": 25083
 		}
 	}
 }

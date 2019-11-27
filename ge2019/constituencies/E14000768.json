@@ -52,6 +52,14 @@
 			"electorate": 60588,
 			"turnout": 63.8,
 			"majority": 20
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Victoria Borwick",
+			"electorate": 61133,
+			"turnout": 57.2,
+			"spoiled": 139,
+			"majority": 7361
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 62991,
 			"turnout": 56.2,
 			"majority": 60
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Christopher Stephens",
+			"electorate": 66209,
+			"turnout": 61.9,
+			"spoiled": 44,
+			"majority": 9950
 		}
 	}
 }

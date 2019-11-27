@@ -32,6 +32,14 @@
 			"electorate": 66780,
 			"turnout": 77.2,
 			"majority": 5622
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Stephen Hammond",
+			"electorate": 65853,
+			"turnout": 73.7,
+			"spoiled": 144,
+			"majority": 12619
 		}
 	}
 }

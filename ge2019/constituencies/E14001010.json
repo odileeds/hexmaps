@@ -37,6 +37,14 @@
 			"electorate": 67454,
 			"turnout": 71.7,
 			"majority": 23320
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Angela Eagle",
+			"electorate": 65495,
+			"turnout": 66.5,
+			"spoiled": 179,
+			"majority": 16348
 		}
 	}
 }

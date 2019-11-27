@@ -42,6 +42,14 @@
 			"electorate": 72997,
 			"turnout": 72.5,
 			"majority": 9639
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Wes Streeting",
+			"electorate": 75294,
+			"turnout": 65.1,
+			"spoiled": 105,
+			"majority": 589
 		}
 	}
 }

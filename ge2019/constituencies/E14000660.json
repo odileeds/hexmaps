@@ -32,6 +32,14 @@
 			"electorate": 75268,
 			"turnout": 74.0,
 			"majority": 21734
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chris Heaton-Harris",
+			"electorate": 72873,
+			"turnout": 72.3,
+			"spoiled": 137,
+			"majority": 21059
 		}
 	}
 }

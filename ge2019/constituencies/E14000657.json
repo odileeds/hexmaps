@@ -47,6 +47,14 @@
 			"electorate": 70616,
 			"turnout": 64.9,
 			"majority": 4652
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jon Cruddas",
+			"electorate": 69128,
+			"turnout": 62.4,
+			"spoiled": 83,
+			"majority": 4980
 		}
 	}
 }

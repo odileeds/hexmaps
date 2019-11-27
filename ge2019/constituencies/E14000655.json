@@ -42,6 +42,14 @@
 			"electorate": 87461,
 			"turnout": 68.2,
 			"majority": 32365
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Steve Reed",
+			"electorate": 85941,
+			"turnout": 62.5,
+			"spoiled": 188,
+			"majority": 21364
 		}
 	}
 }

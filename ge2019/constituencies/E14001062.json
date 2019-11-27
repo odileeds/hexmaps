@@ -32,6 +32,14 @@
 			"electorate": 75835,
 			"turnout": 75.7,
 			"majority": 8289
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Julian Sturdy",
+			"electorate": 78561,
+			"turnout": 68.8,
+			"spoiled": 154,
+			"majority": 13129
 		}
 	}
 }

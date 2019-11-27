@@ -37,6 +37,14 @@
 			"electorate": 77218,
 			"turnout": 71.8,
 			"majority": 353
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Theresa Villiers",
+			"electorate": 77807,
+			"turnout": 68.3,
+			"spoiled": 139,
+			"majority": 7656
 		}
 	}
 }

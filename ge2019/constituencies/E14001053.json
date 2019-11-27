@@ -47,6 +47,14 @@
 			"electorate": 60265,
 			"turnout": 69.2,
 			"majority": 3925
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Sue Hayman",
+			"electorate": 58615,
+			"turnout": 66.0,
+			"spoiled": 232,
+			"majority": 4686
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 67677,
 			"turnout": 69.7,
 			"majority": 10000
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Amess",
+			"electorate": 66876,
+			"turnout": 66.8,
+			"spoiled": 145,
+			"majority": 14021
 		}
 	}
 }

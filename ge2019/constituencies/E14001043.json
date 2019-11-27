@@ -37,6 +37,14 @@
 			"electorate": 57670,
 			"turnout": 78.4,
 			"majority": 8323
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Alison McGovern",
+			"electorate": 56956,
+			"turnout": 73.7,
+			"spoiled": 143,
+			"majority": 4599
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 84437,
 			"turnout": 75.7,
 			"majority": 22906
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Warburton",
+			"electorate": 83281,
+			"turnout": 72.6,
+			"spoiled": 168,
+			"majority": 20268
 		}
 	}
 }

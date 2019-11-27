@@ -47,6 +47,14 @@
 			"electorate": 53638,
 			"turnout": 71.7,
 			"majority": 5919
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Ian Blackford",
+			"electorate": 54169,
+			"turnout": 77.3,
+			"spoiled": 39,
+			"majority": 5124
 		}
 	}
 }

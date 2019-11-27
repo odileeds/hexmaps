@@ -32,6 +32,14 @@
 			"electorate": 68065,
 			"turnout": 67.3,
 			"majority": 8300
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nigel Mills",
+			"electorate": 69510,
+			"turnout": 65.9,
+			"spoiled": 103,
+			"majority": 4205
 		}
 	}
 }

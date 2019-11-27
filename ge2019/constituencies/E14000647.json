@@ -32,6 +32,14 @@
 			"electorate": 61751,
 			"turnout": 69.5,
 			"majority": 1695
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jamie Reed",
+			"electorate": 62087,
+			"turnout": 64.1,
+			"spoiled": 151,
+			"majority": 2564
 		}
 	}
 }

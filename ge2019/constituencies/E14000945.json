@@ -32,6 +32,14 @@
 			"electorate": 73441,
 			"turnout": 69.6,
 			"majority": 22733
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Gavin Williamson",
+			"electorate": 72771,
+			"turnout": 68.4,
+			"spoiled": 153,
+			"majority": 20371
 		}
 	}
 }

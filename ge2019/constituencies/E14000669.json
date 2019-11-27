@@ -57,6 +57,14 @@
 			"electorate": 72377,
 			"turnout": 58.5,
 			"majority": 14024
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Edward Miliband",
+			"electorate": 70989,
+			"turnout": 55.9,
+			"spoiled": 166,
+			"majority": 11780
 		}
 	}
 }

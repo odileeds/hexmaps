@@ -32,6 +32,14 @@
 			"electorate": 70765,
 			"turnout": 69.7,
 			"majority": 3386
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Stephen McPartland",
+			"electorate": 70597,
+			"turnout": 67.9,
+			"spoiled": 127,
+			"majority": 4955
 		}
 	}
 }

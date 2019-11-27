@@ -37,6 +37,14 @@
 			"electorate": 80291,
 			"turnout": 74.2,
 			"majority": 9805
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alec Shelbrooke",
+			"electorate": 79143,
+			"turnout": 73.2,
+			"spoiled": 153,
+			"majority": 8490
 		}
 	}
 }

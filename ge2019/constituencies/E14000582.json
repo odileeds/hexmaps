@@ -32,6 +32,14 @@
 			"electorate": 68402,
 			"turnout": 62.7,
 			"majority": 16572
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Matt Warman",
+			"electorate": 67064,
+			"turnout": 64.9,
+			"spoiled": 179,
+			"majority": 4336
 		}
 	}
 }

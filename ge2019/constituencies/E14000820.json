@@ -32,6 +32,14 @@
 			"electorate": 72336,
 			"turnout": 65.8,
 			"majority": 1020
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Tom Blenkinsop",
+			"electorate": 71154,
+			"turnout": 64.4,
+			"spoiled": 158,
+			"majority": 2268
 		}
 	}
 }

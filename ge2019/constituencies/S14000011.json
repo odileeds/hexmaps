@@ -37,6 +37,14 @@
 			"electorate": 71198,
 			"turnout": 63.3,
 			"majority": 1586
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Phil Boswell",
+			"electorate": 73894,
+			"turnout": 68.7,
+			"spoiled": 55,
+			"majority": 11501
 		}
 	}
 }

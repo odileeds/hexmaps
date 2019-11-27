@@ -47,6 +47,14 @@
 			"electorate": 49892,
 			"turnout": 66.7,
 			"majority": 16761
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Stephen Kinnock",
+			"electorate": 49821,
+			"turnout": 63.4,
+			"spoiled": 57,
+			"majority": 10445
 		}
 	}
 }

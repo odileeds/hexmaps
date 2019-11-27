@@ -32,6 +32,14 @@
 			"electorate": 72097,
 			"turnout": 69.9,
 			"majority": 2860
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Natascha Engel",
+			"electorate": 71445,
+			"turnout": 67.3,
+			"spoiled": 147,
+			"majority": 1883
 		}
 	}
 }

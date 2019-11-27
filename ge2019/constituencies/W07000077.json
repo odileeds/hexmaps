@@ -42,6 +42,14 @@
 			"electorate": 56256,
 			"turnout": 64.2,
 			"majority": 11412
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Chris Evans",
+			"electorate": 55697,
+			"turnout": 63.6,
+			"spoiled": 46,
+			"majority": 10404
 		}
 	}
 }

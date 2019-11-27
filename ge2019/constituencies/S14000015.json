@@ -37,6 +37,14 @@
 			"electorate": 65854,
 			"turnout": 65.2,
 			"majority": 6645
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Stewart Hosie",
+			"electorate": 67822,
+			"turnout": 71.2,
+			"spoiled": 73,
+			"majority": 19162
 		}
 	}
 }

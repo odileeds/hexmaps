@@ -32,6 +32,14 @@
 			"electorate": 59971,
 			"turnout": 70.6,
 			"majority": 2185
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Rob Marris",
+			"electorate": 60368,
+			"turnout": 66.8,
+			"spoiled": 139,
+			"majority": 801
 		}
 	}
 }

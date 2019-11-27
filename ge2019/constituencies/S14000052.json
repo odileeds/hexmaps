@@ -32,6 +32,14 @@
 			"electorate": 67436,
 			"turnout": 69.1,
 			"majority": 2613
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Gavin Newlands",
+			"electorate": 66206,
+			"turnout": 76.3,
+			"spoiled": 60,
+			"majority": 9076
 		}
 	}
 }

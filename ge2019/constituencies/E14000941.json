@@ -32,6 +32,14 @@
 			"electorate": 83055,
 			"turnout": 73.6,
 			"majority": 16678
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Richard Bacon",
+			"electorate": 80721,
+			"turnout": 71.0,
+			"spoiled": 221,
+			"majority": 20493
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 58861,
 			"turnout": 68.6,
 			"majority": 807
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Michael Ellis",
+			"electorate": 59144,
+			"turnout": 66.8,
+			"spoiled": 112,
+			"majority": 3245
 		}
 	}
 }

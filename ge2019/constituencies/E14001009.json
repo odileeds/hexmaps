@@ -42,6 +42,14 @@
 			"electorate": 70340,
 			"turnout": 65.8,
 			"majority": 2176
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Mary Creagh",
+			"electorate": 70521,
+			"turnout": 61.1,
+			"spoiled": 106,
+			"majority": 2613
 		}
 	}
 }

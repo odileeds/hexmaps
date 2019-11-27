@@ -32,6 +32,14 @@
 			"electorate": 70067,
 			"turnout": 76.7,
 			"majority": 4712
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Kirsten  Oswald",
+			"electorate": 69982,
+			"turnout": 81.2,
+			"spoiled": 95,
+			"majority": 3718
 		}
 	}
 }

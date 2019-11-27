@@ -42,6 +42,14 @@
 			"electorate": 90261,
 			"turnout": 55.1,
 			"majority": 31445
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Lucy Powell",
+			"electorate": 86078,
+			"turnout": 52.9,
+			"spoiled": 229,
+			"majority": 21639
 		}
 	}
 }

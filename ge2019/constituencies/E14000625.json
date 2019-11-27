@@ -32,6 +32,14 @@
 			"electorate": 78071,
 			"turnout": 70.7,
 			"majority": 16341
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Edward Argar",
+			"electorate": 77269,
+			"turnout": 67.9,
+			"spoiled": 177,
+			"majority": 16931
 		}
 	}
 }

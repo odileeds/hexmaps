@@ -37,6 +37,14 @@
 			"electorate": 72892,
 			"turnout": 73.1,
 			"majority": 17333
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Glen",
+			"electorate": 69582,
+			"turnout": 73.0,
+			"spoiled": 68,
+			"majority": 20421
 		}
 	}
 }

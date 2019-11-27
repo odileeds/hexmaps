@@ -32,6 +32,14 @@
 			"electorate": 62294,
 			"turnout": 69.1,
 			"majority": 2599
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Stevenson",
+			"electorate": 65827,
+			"turnout": 64.8,
+			"spoiled": 93,
+			"majority": 2774
 		}
 	}
 }

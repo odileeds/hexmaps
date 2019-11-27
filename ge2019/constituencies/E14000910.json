@@ -32,6 +32,14 @@
 			"electorate": 83072,
 			"turnout": 73.3,
 			"majority": 24966
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alan Haselhurst",
+			"electorate": 80615,
+			"turnout": 71.7,
+			"spoiled": 219,
+			"majority": 24991
 		}
 	}
 }

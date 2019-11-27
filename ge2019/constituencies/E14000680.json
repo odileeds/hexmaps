@@ -42,6 +42,14 @@
 			"electorate": 74151,
 			"turnout": 74.7,
 			"majority": 25852
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Damian Hinds",
+			"electorate": 71074,
+			"turnout": 73.0,
+			"spoiled": 218,
+			"majority": 25147
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 68844,
 			"turnout": 74.0,
 			"majority": 7200
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Scott Mann",
+			"electorate": 67192,
+			"turnout": 71.9,
+			"spoiled": 45,
+			"majority": 6621
 		}
 	}
 }

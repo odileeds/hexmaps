@@ -42,6 +42,14 @@
 			"electorate": 75657,
 			"turnout": 64.1,
 			"majority": 20643
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Ian Paisley",
+			"electorate": 75876,
+			"turnout": 55.5,
+			"spoiled": 209,
+			"majority": 11546
 		}
 	}
 }

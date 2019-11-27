@@ -47,6 +47,14 @@
 			"electorate": 81717,
 			"turnout": 62.9,
 			"majority": 15211
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Gordon Henderson",
+			"electorate": 76018,
+			"turnout": 65.2,
+			"spoiled": 167,
+			"majority": 12168
 		}
 	}
 }

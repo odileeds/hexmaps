@@ -32,6 +32,14 @@
 			"electorate": 68786,
 			"turnout": 72.1,
 			"majority": 23431
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Desmond Swayne",
+			"electorate": 68446,
+			"turnout": 69.5,
+			"spoiled": 190,
+			"majority": 20604
 		}
 	}
 }

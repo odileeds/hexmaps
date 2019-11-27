@@ -37,6 +37,14 @@
 			"electorate": 72470,
 			"turnout": 63.9,
 			"majority": 15956
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alan Mak",
+			"electorate": 70573,
+			"turnout": 63.7,
+			"spoiled": 148,
+			"majority": 13920
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 85617,
 			"turnout": 72.4,
 			"majority": 2549
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Mowat",
+			"electorate": 84767,
+			"turnout": 70.3,
+			"spoiled": 199,
+			"majority": 2750
 		}
 	}
 }

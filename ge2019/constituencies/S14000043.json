@@ -47,6 +47,14 @@
 			"electorate": 86186,
 			"turnout": 65.1,
 			"majority": 2919
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Martyn Day",
+			"electorate": 86955,
+			"turnout": 70.9,
+			"spoiled": 90,
+			"majority": 12934
 		}
 	}
 }

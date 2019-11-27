@@ -37,6 +37,14 @@
 			"electorate": 75916,
 			"turnout": 77.4,
 			"majority": 12031
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Peter Lilley",
+			"electorate": 80333,
+			"turnout": 69.1,
+			"spoiled": 173,
+			"majority": 20055
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 68123,
 			"turnout": 60.9,
 			"majority": 12341
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Bridget Phillipson",
+			"electorate": 68324,
+			"turnout": 56.6,
+			"spoiled": 175,
+			"majority": 12938
 		}
 	}
 }

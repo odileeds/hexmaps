@@ -47,6 +47,14 @@
 			"electorate": 70324,
 			"turnout": 65.4,
 			"majority": 169
+		},
+		"2015": {
+			"first": "Social Democratic and Labour Party",
+			"mp": "Mark Durkan",
+			"electorate": 70036,
+			"turnout": 53.6,
+			"spoiled": 526,
+			"majority": 6046
 		}
 	}
 }

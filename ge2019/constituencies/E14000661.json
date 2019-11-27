@@ -42,6 +42,14 @@
 			"electorate": 65751,
 			"turnout": 60.2,
 			"majority": 14077
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Andrew Gwynne",
+			"electorate": 66141,
+			"turnout": 58.7,
+			"spoiled": 144,
+			"majority": 10511
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 74545,
 			"turnout": 76.1,
 			"majority": 24137
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Paul Beresford",
+			"electorate": 74038,
+			"turnout": 74.7,
+			"spoiled": 192,
+			"majority": 25453
 		}
 	}
 }

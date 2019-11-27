@@ -37,6 +37,14 @@
 			"electorate": 82240,
 			"turnout": 65.4,
 			"majority": 4923
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "John McNally",
+			"electorate": 83380,
+			"turnout": 72.4,
+			"spoiled": 57,
+			"majority": 19701
 		}
 	}
 }

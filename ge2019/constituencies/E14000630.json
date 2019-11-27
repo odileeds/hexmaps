@@ -32,6 +32,14 @@
 			"electorate": 78878,
 			"turnout": 72.3,
 			"majority": 2569
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alex Chalk",
+			"electorate": 77287,
+			"turnout": 69.7,
+			"spoiled": 104,
+			"majority": 6516
 		}
 	}
 }

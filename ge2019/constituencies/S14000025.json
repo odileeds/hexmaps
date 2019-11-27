@@ -47,6 +47,14 @@
 			"electorate": 71178,
 			"turnout": 69.4,
 			"majority": 1097
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Joanna  Cherry",
+			"electorate": 72149,
+			"turnout": 71.6,
+			"spoiled": 74,
+			"majority": 8135
 		}
 	}
 }

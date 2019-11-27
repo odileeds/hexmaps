@@ -52,6 +52,14 @@
 			"electorate": 71522,
 			"turnout": 48.4,
 			"majority": 683
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Stewart Jackson",
+			"electorate": 72530,
+			"turnout": 65.1,
+			"spoiled": 177,
+			"majority": 1925
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 72803,
 			"turnout": 71.8,
 			"majority": 18651
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Andy Slaughter",
+			"electorate": 72254,
+			"turnout": 66.6,
+			"spoiled": 170,
+			"majority": 6518
 		}
 	}
 }

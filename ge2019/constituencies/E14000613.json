@@ -32,6 +32,14 @@
 			"electorate": 86071,
 			"turnout": 72.2,
 			"majority": 18441
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jo Churchill",
+			"electorate": 85982,
+			"turnout": 69.3,
+			"spoiled": 237,
+			"majority": 21301
 		}
 	}
 }

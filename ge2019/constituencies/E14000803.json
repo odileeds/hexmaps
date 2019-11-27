@@ -32,6 +32,14 @@
 			"electorate": 76076,
 			"turnout": 76.6,
 			"majority": 26457
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Theresa May",
+			"electorate": 74187,
+			"turnout": 72.8,
+			"spoiled": 183,
+			"majority": 29059
 		}
 	}
 }

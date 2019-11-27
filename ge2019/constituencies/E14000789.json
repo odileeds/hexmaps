@@ -47,6 +47,14 @@
 			"electorate": 78468,
 			"turnout": 70.2,
 			"majority": 34899
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Vicky Foxcroft",
+			"electorate": 73428,
+			"turnout": 64.9,
+			"spoiled": 222,
+			"majority": 21516
 		}
 	}
 }

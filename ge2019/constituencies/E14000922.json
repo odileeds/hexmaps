@@ -47,6 +47,14 @@
 			"electorate": 73455,
 			"turnout": 77.6,
 			"majority": 2125
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "Nick Clegg",
+			"electorate": 72351,
+			"turnout": 76.9,
+			"spoiled": 121,
+			"majority": 2353
 		}
 	}
 }

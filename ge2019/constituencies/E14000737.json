@@ -42,6 +42,14 @@
 			"electorate": 73268,
 			"turnout": 65.2,
 			"majority": 18115
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "John McDonnell",
+			"electorate": 74874,
+			"turnout": 60.4,
+			"spoiled": 142,
+			"majority": 15700
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 73425,
 			"turnout": 68.5,
 			"majority": 2457
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Henry Smith",
+			"electorate": 73936,
+			"turnout": 65.8,
+			"spoiled": 130,
+			"majority": 6526
 		}
 	}
 }

@@ -47,6 +47,14 @@
 			"electorate": 79946,
 			"turnout": 77.9,
 			"majority": 30738
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Catherine West",
+			"electorate": 79247,
+			"turnout": 73.1,
+			"spoiled": 177,
+			"majority": 11058
 		}
 	}
 }

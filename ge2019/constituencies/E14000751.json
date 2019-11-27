@@ -37,6 +37,14 @@
 			"electorate": 80802,
 			"turnout": 69.4,
 			"majority": 17723
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Angela Watkinson",
+			"electorate": 79331,
+			"turnout": 69.7,
+			"spoiled": 89,
+			"majority": 13074
 		}
 	}
 }

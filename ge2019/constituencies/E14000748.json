@@ -37,6 +37,14 @@
 			"electorate": 73248,
 			"turnout": 73.5,
 			"majority": 2322
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Bingham",
+			"electorate": 73336,
+			"turnout": 69.5,
+			"spoiled": 153,
+			"majority": 4894
 		}
 	}
 }

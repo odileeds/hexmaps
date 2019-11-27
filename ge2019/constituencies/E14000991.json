@@ -32,6 +32,14 @@
 			"electorate": 80449,
 			"turnout": 74.2,
 			"majority": 25499
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Geoffrey Clifton-Brown",
+			"electorate": 78290,
+			"turnout": 72.6,
+			"spoiled": 197,
+			"majority": 21477
 		}
 	}
 }

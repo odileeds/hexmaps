@@ -37,6 +37,14 @@
 			"electorate": 56010,
 			"turnout": 59.7,
 			"majority": 1425
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chris Davies",
+			"electorate": 54441,
+			"turnout": 73.7,
+			"spoiled": 71,
+			"majority": 5102
 		}
 	}
 }

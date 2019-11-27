@@ -32,6 +32,14 @@
 			"electorate": 68604,
 			"turnout": 72.2,
 			"majority": 9564
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Pritchard",
+			"electorate": 65942,
+			"turnout": 69.2,
+			"spoiled": 206,
+			"majority": 10743
 		}
 	}
 }

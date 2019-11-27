@@ -37,6 +37,14 @@
 			"electorate": 71440,
 			"turnout": 69.2,
 			"majority": 10562
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Philip Hollobone",
+			"electorate": 70155,
+			"turnout": 67.5,
+			"spoiled": 140,
+			"majority": 12590
 		}
 	}
 }

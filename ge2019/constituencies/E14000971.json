@@ -32,6 +32,14 @@
 			"electorate": 75625,
 			"turnout": 71.2,
 			"majority": 888
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Wharton",
+			"electorate": 75111,
+			"turnout": 69.2,
+			"spoiled": 147,
+			"majority": 5046
 		}
 	}
 }

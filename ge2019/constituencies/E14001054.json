@@ -37,6 +37,14 @@
 			"electorate": 73689,
 			"turnout": 61.9,
 			"majority": 8379
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Barbara Keeley",
+			"electorate": 72177,
+			"turnout": 58.4,
+			"spoiled": 136,
+			"majority": 5946
 		}
 	}
 }

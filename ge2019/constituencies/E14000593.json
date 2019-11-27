@@ -37,6 +37,14 @@
 			"electorate": 85164,
 			"turnout": 72.4,
 			"majority": 12182
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ruth Cadbury",
+			"electorate": 84602,
+			"turnout": 68.0,
+			"spoiled": 147,
+			"majority": 465
 		}
 	}
 }

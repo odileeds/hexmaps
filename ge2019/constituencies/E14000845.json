@@ -32,6 +32,14 @@
 			"electorate": 75965,
 			"turnout": 73.2,
 			"majority": 16835
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Oliver Heald",
+			"electorate": 74000,
+			"turnout": 70.9,
+			"spoiled": 196,
+			"majority": 19080
 		}
 	}
 }

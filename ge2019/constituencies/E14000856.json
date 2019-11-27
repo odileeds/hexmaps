@@ -47,6 +47,14 @@
 			"electorate": 71918,
 			"turnout": 66.6,
 			"majority": 8792
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Pat Glass",
+			"electorate": 69816,
+			"turnout": 61.5,
+			"spoiled": 94,
+			"majority": 10056
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 80168,
 			"turnout": 63.9,
 			"majority": 7992
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "David Simpson",
+			"electorate": 80060,
+			"turnout": 59.3,
+			"spoiled": 254,
+			"majority": 2264
 		}
 	}
 }

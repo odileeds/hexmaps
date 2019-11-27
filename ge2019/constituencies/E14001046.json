@@ -27,6 +27,14 @@
 			"electorate": 82727,
 			"turnout": 73.6,
 			"majority": 21241
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Cameron",
+			"electorate": 79767,
+			"turnout": 73.6,
+			"spoiled": 188,
+			"majority": 25155
 		}
 	}
 }

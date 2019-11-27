@@ -32,6 +32,14 @@
 			"electorate": 78116,
 			"turnout": 72.4,
 			"majority": 17185
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Daniel Poulter",
+			"electorate": 76666,
+			"turnout": 70.7,
+			"spoiled": 145,
+			"majority": 20144
 		}
 	}
 }

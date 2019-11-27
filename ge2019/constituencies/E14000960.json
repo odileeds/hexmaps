@@ -37,6 +37,14 @@
 			"electorate": 72811,
 			"turnout": 78.3,
 			"majority": 6109
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Anne Main",
+			"electorate": 75825,
+			"turnout": 72.0,
+			"spoiled": 156,
+			"majority": 12732
 		}
 	}
 }

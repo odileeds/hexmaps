@@ -32,6 +32,14 @@
 			"electorate": 72651,
 			"turnout": 66.5,
 			"majority": 10738
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Roger Gale",
+			"electorate": 71478,
+			"turnout": 66.1,
+			"spoiled": 161,
+			"majority": 10948
 		}
 	}
 }

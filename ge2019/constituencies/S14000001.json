@@ -42,6 +42,14 @@
 			"electorate": 62130,
 			"turnout": 59.2,
 			"majority": 4139
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Kirsty Blackman",
+			"electorate": 67745,
+			"turnout": 65.0,
+			"spoiled": 78,
+			"majority": 13396
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 68040,
 			"turnout": 65.0,
 			"majority": 13828
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Louise Haigh",
+			"electorate": 67950,
+			"turnout": 62.1,
+			"spoiled": 131,
+			"majority": 12954
 		}
 	}
 }

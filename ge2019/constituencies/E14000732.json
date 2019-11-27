@@ -37,6 +37,14 @@
 			"electorate": 69797,
 			"turnout": 72.1,
 			"majority": 13314
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Gareth Thomas",
+			"electorate": 69644,
+			"turnout": 67.1,
+			"spoiled": 136,
+			"majority": 2208
 		}
 	}
 }

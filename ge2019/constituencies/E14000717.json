@@ -47,6 +47,14 @@
 			"electorate": 71408,
 			"turnout": 61.8,
 			"majority": 7973
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Brandon Lewis",
+			"electorate": 69793,
+			"turnout": 63.9,
+			"spoiled": 160,
+			"majority": 6154
 		}
 	}
 }

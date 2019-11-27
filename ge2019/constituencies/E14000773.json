@@ -37,6 +37,14 @@
 			"electorate": 60181,
 			"turnout": 57.4,
 			"majority": 8025
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Alan Johnson",
+			"electorate": 59100,
+			"turnout": 54.0,
+			"spoiled": 83,
+			"majority": 9333
 		}
 	}
 }

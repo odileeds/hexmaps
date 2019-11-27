@@ -32,6 +32,14 @@
 			"electorate": 75510,
 			"turnout": 72.9,
 			"majority": 18149
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Robert Jenrick",
+			"electorate": 73747,
+			"turnout": 71.1,
+			"spoiled": 165,
+			"majority": 18474
 		}
 	}
 }

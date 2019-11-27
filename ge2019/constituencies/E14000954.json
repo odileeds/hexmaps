@@ -32,6 +32,14 @@
 			"electorate": 76898,
 			"turnout": 71.2,
 			"majority": 18326
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Murrison",
+			"electorate": 73018,
+			"turnout": 70.9,
+			"spoiled": 108,
+			"majority": 18168
 		}
 	}
 }

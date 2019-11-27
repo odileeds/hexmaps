@@ -32,6 +32,14 @@
 			"electorate": 70404,
 			"turnout": 73.8,
 			"majority": 12698
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Paul Scully",
+			"electorate": 69228,
+			"turnout": 72.3,
+			"spoiled": 116,
+			"majority": 3921
 		}
 	}
 }

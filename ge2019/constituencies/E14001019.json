@@ -47,6 +47,14 @@
 			"electorate": 74237,
 			"turnout": 72.8,
 			"majority": 1206
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chris White",
+			"electorate": 71578,
+			"turnout": 71.0,
+			"spoiled": 213,
+			"majority": 6606
 		}
 	}
 }

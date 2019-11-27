@@ -37,6 +37,14 @@
 			"electorate": 74430,
 			"turnout": 71.9,
 			"majority": 18581
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Michael Fabricant",
+			"electorate": 74234,
+			"turnout": 69.5,
+			"spoiled": 147,
+			"majority": 18189
 		}
 	}
 }

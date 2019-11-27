@@ -32,6 +32,14 @@
 			"electorate": 72797,
 			"turnout": 70.1,
 			"majority": 936
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Chris Green",
+			"electorate": 72719,
+			"turnout": 67.1,
+			"spoiled": 197,
+			"majority": 801
 		}
 	}
 }

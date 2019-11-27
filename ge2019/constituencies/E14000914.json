@@ -37,6 +37,14 @@
 			"electorate": 61578,
 			"turnout": 65.3,
 			"majority": 3431
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Nic Dakin",
+			"electorate": 64025,
+			"turnout": 57.9,
+			"spoiled": 133,
+			"majority": 3134
 		}
 	}
 }

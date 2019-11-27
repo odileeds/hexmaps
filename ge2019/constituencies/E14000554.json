@@ -32,6 +32,14 @@
 			"electorate": 58807,
 			"turnout": 71.8,
 			"majority": 11781
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Anne-Marie Trevelyan",
+			"electorate": 56969,
+			"turnout": 71.1,
+			"spoiled": 78,
+			"majority": 4914
 		}
 	}
 }

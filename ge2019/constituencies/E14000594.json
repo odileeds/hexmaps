@@ -37,6 +37,14 @@
 			"electorate": 75067,
 			"turnout": 70.5,
 			"majority": 24002
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Eric Pickles",
+			"electorate": 71918,
+			"turnout": 72.4,
+			"spoiled": 151,
+			"majority": 21810
 		}
 	}
 }

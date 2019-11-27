@@ -37,6 +37,14 @@
 			"electorate": 56890,
 			"turnout": 68.0,
 			"majority": 2379
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Davies",
+			"electorate": 56505,
+			"turnout": 62.5,
+			"spoiled": 77,
+			"majority": 237
 		}
 	}
 }

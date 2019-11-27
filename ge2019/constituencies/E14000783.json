@@ -37,6 +37,14 @@
 			"electorate": 75534,
 			"turnout": 66.9,
 			"majority": 26261
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Jon Ashworth",
+			"electorate": 73518,
+			"turnout": 63.0,
+			"spoiled": 398,
+			"majority": 17845
 		}
 	}
 }

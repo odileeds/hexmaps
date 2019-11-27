@@ -37,6 +37,14 @@
 			"electorate": 62738,
 			"turnout": 67.3,
 			"majority": 32551
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Steve Rotheram",
+			"electorate": 61908,
+			"turnout": 62.3,
+			"spoiled": 146,
+			"majority": 27777
 		}
 	}
 }

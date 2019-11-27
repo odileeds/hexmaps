@@ -32,6 +32,14 @@
 			"electorate": 68914,
 			"turnout": 72.9,
 			"majority": 13477
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Sarah Wollaston",
+			"electorate": 68630,
+			"turnout": 68.9,
+			"spoiled": 170,
+			"majority": 18285
 		}
 	}
 }

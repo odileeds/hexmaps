@@ -42,6 +42,14 @@
 			"electorate": 73226,
 			"turnout": 72.1,
 			"majority": 6426
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Graham Brady",
+			"electorate": 71511,
+			"turnout": 70.9,
+			"spoiled": 158,
+			"majority": 13290
 		}
 	}
 }

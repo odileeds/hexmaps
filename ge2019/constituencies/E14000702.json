@@ -37,6 +37,14 @@
 			"electorate": 72483,
 			"turnout": 70.0,
 			"majority": 4190
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jack Lopresti",
+			"electorate": 71310,
+			"turnout": 69.1,
+			"spoiled": 152,
+			"majority": 9838
 		}
 	}
 }

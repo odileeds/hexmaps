@@ -37,6 +37,14 @@
 			"electorate": 70601,
 			"turnout": 75.8,
 			"majority": 875
+		},
+		"2015": {
+			"first": "Ulster Unionist Party",
+			"mp": "Tom Elliott",
+			"electorate": 70108,
+			"turnout": 73.0,
+			"spoiled": 286,
+			"majority": 530
 		}
 	}
 }

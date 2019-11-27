@@ -32,6 +32,14 @@
 			"electorate": 72888,
 			"turnout": 70.9,
 			"majority": 7369
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Grant Shapps",
+			"electorate": 73247,
+			"turnout": 68.8,
+			"spoiled": 171,
+			"majority": 12153
 		}
 	}
 }

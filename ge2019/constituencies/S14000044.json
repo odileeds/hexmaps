@@ -37,6 +37,14 @@
 			"electorate": 81208,
 			"turnout": 64.7,
 			"majority": 3878
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Hannah Bardell",
+			"electorate": 82373,
+			"turnout": 70.0,
+			"spoiled": 84,
+			"majority": 16843
 		}
 	}
 }

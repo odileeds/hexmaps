@@ -32,6 +32,14 @@
 			"electorate": 75893,
 			"turnout": 67.8,
 			"majority": 17023
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Edward Leigh",
+			"electorate": 74686,
+			"turnout": 66.2,
+			"spoiled": 189,
+			"majority": 15449
 		}
 	}
 }

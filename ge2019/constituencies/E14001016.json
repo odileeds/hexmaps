@@ -37,6 +37,14 @@
 			"electorate": 63739,
 			"turnout": 63.1,
 			"majority": 16483
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "John Spellar",
+			"electorate": 63738,
+			"turnout": 59.7,
+			"spoiled": 209,
+			"majority": 14702
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 69214,
 			"turnout": 58.9,
 			"majority": 13283
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Michael Dugher",
+			"electorate": 69135,
+			"turnout": 56.0,
+			"spoiled": 180,
+			"majority": 12034
 		}
 	}
 }

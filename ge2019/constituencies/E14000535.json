@@ -42,6 +42,14 @@
 			"electorate": 78076,
 			"turnout": 64.0,
 			"majority": 441
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Gloria De Piero",
+			"electorate": 77091,
+			"turnout": 61.8,
+			"spoiled": 209,
+			"majority": 8820
 		}
 	}
 }

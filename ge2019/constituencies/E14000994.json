@@ -27,6 +27,14 @@
 			"electorate": 67892,
 			"turnout": 74.7,
 			"majority": 12071
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Luke Hall",
+			"electorate": 66066,
+			"turnout": 73.8,
+			"spoiled": 163,
+			"majority": 1495
 		}
 	}
 }

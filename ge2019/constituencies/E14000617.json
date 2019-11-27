@@ -52,6 +52,14 @@
 			"electorate": 78544,
 			"turnout": 71.2,
 			"majority": 12661
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Daniel Zeichner",
+			"electorate": 83384,
+			"turnout": 62.3,
+			"spoiled": 171,
+			"majority": 599
 		}
 	}
 }

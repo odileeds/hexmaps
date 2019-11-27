@@ -42,6 +42,14 @@
 			"electorate": 81343,
 			"turnout": 69.5,
 			"majority": 3321
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Paula Sherriff",
+			"electorate": 79770,
+			"turnout": 67.5,
+			"spoiled": 238,
+			"majority": 1451
 		}
 	}
 }

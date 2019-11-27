@@ -37,6 +37,14 @@
 			"electorate": 79607,
 			"turnout": 68.0,
 			"majority": 4269
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nicky Morgan",
+			"electorate": 75217,
+			"turnout": 69.4,
+			"spoiled": 210,
+			"majority": 9183
 		}
 	}
 }

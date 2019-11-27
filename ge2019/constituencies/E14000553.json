@@ -32,6 +32,14 @@
 			"electorate": 87282,
 			"turnout": 67.0,
 			"majority": 12972
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Neil Coyle",
+			"electorate": 83298,
+			"turnout": 62.0,
+			"spoiled": 206,
+			"majority": 4489
 		}
 	}
 }

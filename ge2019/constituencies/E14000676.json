@@ -47,6 +47,14 @@
 			"electorate": 65188,
 			"turnout": 69.3,
 			"majority": 22090
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Virendra Sharma",
+			"electorate": 65606,
+			"turnout": 66.3,
+			"spoiled": 182,
+			"majority": 18760
 		}
 	}
 }

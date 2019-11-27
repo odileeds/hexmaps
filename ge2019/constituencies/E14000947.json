@@ -27,6 +27,14 @@
 			"electorate": 72372,
 			"turnout": 70.8,
 			"majority": 2464
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Robert Buckland",
+			"electorate": 73926,
+			"turnout": 66.8,
+			"spoiled": 147,
+			"majority": 5785
 		}
 	}
 }

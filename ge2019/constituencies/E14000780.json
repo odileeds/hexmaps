@@ -37,6 +37,14 @@
 			"electorate": 68152,
 			"turnout": 67.9,
 			"majority": 4224
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "Greg Mulholland",
+			"electorate": 61974,
+			"turnout": 70.2,
+			"spoiled": 159,
+			"majority": 2907
 		}
 	}
 }

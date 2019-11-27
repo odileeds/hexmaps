@@ -32,6 +32,14 @@
 			"electorate": 72062,
 			"turnout": 67.7,
 			"majority": 13788
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Henry Bellingham",
+			"electorate": 74402,
+			"turnout": 64.0,
+			"spoiled": 226,
+			"majority": 13948
 		}
 	}
 }

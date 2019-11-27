@@ -32,6 +32,14 @@
 			"electorate": 80027,
 			"turnout": 69.6,
 			"majority": 16086
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "George Freeman",
+			"electorate": 77154,
+			"turnout": 68.0,
+			"spoiled": 239,
+			"majority": 17276
 		}
 	}
 }

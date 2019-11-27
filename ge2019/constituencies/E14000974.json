@@ -27,6 +27,14 @@
 			"electorate": 66057,
 			"turnout": 63.1,
 			"majority": 663
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Robert Flello",
+			"electorate": 68091,
+			"turnout": 57.7,
+			"spoiled": 159,
+			"majority": 2539
 		}
 	}
 }

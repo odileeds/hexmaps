@@ -42,6 +42,14 @@
 			"electorate": 74591,
 			"turnout": 65.2,
 			"majority": 7937
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Tobias Ellwood",
+			"electorate": 72275,
+			"turnout": 62.3,
+			"spoiled": 191,
+			"majority": 14612
 		}
 	}
 }

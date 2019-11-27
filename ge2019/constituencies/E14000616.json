@@ -37,6 +37,14 @@
 			"electorate": 68419,
 			"turnout": 70.8,
 			"majority": 1577
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "George Eustice",
+			"electorate": 66944,
+			"turnout": 68.6,
+			"spoiled": 84,
+			"majority": 7004
 		}
 	}
 }

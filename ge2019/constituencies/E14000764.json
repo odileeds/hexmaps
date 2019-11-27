@@ -42,6 +42,14 @@
 			"electorate": 69536,
 			"turnout": 69.1,
 			"majority": 20263
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Emily Thornberry",
+			"electorate": 68127,
+			"turnout": 65.2,
+			"spoiled": 151,
+			"majority": 12708
 		}
 	}
 }

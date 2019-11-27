@@ -42,6 +42,14 @@
 			"electorate": 84273,
 			"turnout": 70.9,
 			"majority": 14475
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jonathan Djanogly",
+			"electorate": 82593,
+			"turnout": 67.9,
+			"spoiled": 177,
+			"majority": 19403
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 75291,
 			"turnout": 73.7,
 			"majority": 17040
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Anne Milton",
+			"electorate": 75733,
+			"turnout": 71.5,
+			"spoiled": 188,
+			"majority": 22448
 		}
 	}
 }

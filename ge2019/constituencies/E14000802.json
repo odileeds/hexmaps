@@ -32,6 +32,14 @@
 			"electorate": 75228,
 			"turnout": 72.2,
 			"majority": 8608
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Rutley",
+			"electorate": 71712,
+			"turnout": 69.5,
+			"spoiled": 248,
+			"majority": 14811
 		}
 	}
 }

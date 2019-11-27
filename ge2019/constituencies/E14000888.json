@@ -32,6 +32,14 @@
 			"electorate": 78556,
 			"turnout": 70.4,
 			"majority": 23450
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Francois",
+			"electorate": 77174,
+			"turnout": 69.1,
+			"spoiled": 136,
+			"majority": 17230
 		}
 	}
 }

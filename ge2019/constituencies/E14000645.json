@@ -52,6 +52,14 @@
 			"electorate": 84387,
 			"turnout": 71.6,
 			"majority": 915
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Jason McCartney",
+			"electorate": 82516,
+			"turnout": 69.0,
+			"spoiled": 153,
+			"majority": 5378
 		}
 	}
 }

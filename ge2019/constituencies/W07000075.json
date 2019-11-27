@@ -47,6 +47,14 @@
 			"electorate": 60564,
 			"turnout": 65.9,
 			"majority": 11448
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Owen Smith",
+			"electorate": 58940,
+			"turnout": 64.4,
+			"spoiled": 101,
+			"majority": 8985
 		}
 	}
 }

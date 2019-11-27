@@ -32,6 +32,14 @@
 			"electorate": 73954,
 			"turnout": 67.5,
 			"majority": 10047
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Griffiths",
+			"electorate": 75248,
+			"turnout": 65.3,
+			"spoiled": 176,
+			"majority": 10892
 		}
 	}
 }

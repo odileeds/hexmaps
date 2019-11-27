@@ -32,6 +32,14 @@
 			"electorate": 72711,
 			"turnout": 65.8,
 			"majority": 10400
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Martin Vickers",
+			"electorate": 71008,
+			"turnout": 63.7,
+			"spoiled": 132,
+			"majority": 7893
 		}
 	}
 }

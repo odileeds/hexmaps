@@ -32,6 +32,14 @@
 			"electorate": 64430,
 			"turnout": 76.9,
 			"majority": 14327
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Patrick McLoughlin",
+			"electorate": 63476,
+			"turnout": 74.8,
+			"spoiled": 130,
+			"majority": 14044
 		}
 	}
 }

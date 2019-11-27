@@ -32,6 +32,14 @@
 			"electorate": 61766,
 			"turnout": 66.4,
 			"majority": 1159
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "David Mackintosh",
+			"electorate": 61287,
+			"turnout": 63.7,
+			"spoiled": 161,
+			"majority": 3793
 		}
 	}
 }

@@ -47,6 +47,14 @@
 			"electorate": 67188,
 			"turnout": 68.7,
 			"majority": 13925
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Gavin Shuker",
+			"electorate": 67741,
+			"turnout": 63.0,
+			"spoiled": 431,
+			"majority": 5711
 		}
 	}
 }

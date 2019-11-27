@@ -32,6 +32,14 @@
 			"electorate": 80168,
 			"turnout": 68.5,
 			"majority": 8335
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Justin Tomlinson",
+			"electorate": 80983,
+			"turnout": 64.7,
+			"spoiled": 148,
+			"majority": 11786
 		}
 	}
 }

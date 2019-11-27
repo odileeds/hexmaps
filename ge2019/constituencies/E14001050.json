@@ -37,6 +37,14 @@
 			"electorate": 60301,
 			"turnout": 60.2,
 			"majority": 8514
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Pat McFadden",
+			"electorate": 62556,
+			"turnout": 55.8,
+			"spoiled": 138,
+			"majority": 10778
 		}
 	}
 }

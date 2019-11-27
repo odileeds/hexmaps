@@ -37,6 +37,14 @@
 			"electorate": 70649,
 			"turnout": 67.4,
 			"majority": 4159
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Angus Robertson",
+			"electorate": 71685,
+			"turnout": 68.8,
+			"spoiled": 41,
+			"majority": 9065
 		}
 	}
 }

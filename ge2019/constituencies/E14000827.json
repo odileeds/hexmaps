@@ -37,6 +37,14 @@
 			"electorate": 72602,
 			"turnout": 70.8,
 			"majority": 21995
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Julian Lewis",
+			"electorate": 72697,
+			"turnout": 68.3,
+			"spoiled": 184,
+			"majority": 19162
 		}
 	}
 }

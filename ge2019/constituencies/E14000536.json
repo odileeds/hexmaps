@@ -37,6 +37,14 @@
 			"electorate": 87387,
 			"turnout": 68.5,
 			"majority": 17478
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Damian Green",
+			"electorate": 85177,
+			"turnout": 67.6,
+			"spoiled": 175,
+			"majority": 19296
 		}
 	}
 }

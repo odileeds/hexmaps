@@ -42,6 +42,14 @@
 			"electorate": 62151,
 			"turnout": 68.3,
 			"majority": 10435
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ian Lavery",
+			"electorate": 60705,
+			"turnout": 63.6,
+			"spoiled": 68,
+			"majority": 10881
 		}
 	}
 }

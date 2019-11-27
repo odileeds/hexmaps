@@ -37,6 +37,14 @@
 			"electorate": 81875,
 			"turnout": 68.3,
 			"majority": 9466
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Maria Miller",
+			"electorate": 79665,
+			"turnout": 66.9,
+			"spoiled": 219,
+			"majority": 11063
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 79043,
 			"turnout": 73.6,
 			"majority": 6627
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Daniel Kawczynski",
+			"electorate": 76400,
+			"turnout": 71.0,
+			"spoiled": 113,
+			"majority": 9565
 		}
 	}
 }

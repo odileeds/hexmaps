@@ -52,6 +52,14 @@
 			"electorate": 78350,
 			"turnout": 68.8,
 			"majority": 23284
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Andrew Smith",
+			"electorate": 78978,
+			"turnout": 64.4,
+			"spoiled": 165,
+			"majority": 15280
 		}
 	}
 }

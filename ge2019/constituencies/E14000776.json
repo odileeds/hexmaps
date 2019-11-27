@@ -37,6 +37,14 @@
 			"electorate": 67154,
 			"turnout": 68.5,
 			"majority": 6661
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Catherine Smith",
+			"electorate": 61922,
+			"turnout": 67.7,
+			"spoiled": 172,
+			"majority": 1265
 		}
 	}
 }

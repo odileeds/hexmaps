@@ -37,6 +37,14 @@
 			"electorate": 74738,
 			"turnout": 78.0,
 			"majority": 8010
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kenneth Clarke",
+			"electorate": 73278,
+			"turnout": 75.7,
+			"spoiled": 289,
+			"majority": 13829
 		}
 	}
 }

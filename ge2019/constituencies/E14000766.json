@@ -42,6 +42,14 @@
 			"electorate": 71429,
 			"turnout": 72.4,
 			"majority": 239
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kris Hopkins",
+			"electorate": 68865,
+			"turnout": 71.6,
+			"spoiled": 198,
+			"majority": 3053
 		}
 	}
 }

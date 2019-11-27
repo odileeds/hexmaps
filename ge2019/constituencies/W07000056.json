@@ -42,6 +42,14 @@
 			"electorate": 64399,
 			"turnout": 37.1,
 			"majority": 1951
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Paul Flynn",
+			"electorate": 62137,
+			"turnout": 65.1,
+			"spoiled": 76,
+			"majority": 3510
 		}
 	}
 }

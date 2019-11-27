@@ -37,6 +37,14 @@
 			"electorate": 68091,
 			"turnout": 64.0,
 			"majority": 6917
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Gisela Stuart",
+			"electorate": 65591,
+			"turnout": 63.2,
+			"spoiled": 156,
+			"majority": 2706
 		}
 	}
 }

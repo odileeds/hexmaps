@@ -37,6 +37,14 @@
 			"electorate": 71608,
 			"turnout": 63.1,
 			"majority": 5815
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Graham Jones",
+			"electorate": 68341,
+			"turnout": 63.0,
+			"spoiled": 179,
+			"majority": 4400
 		}
 	}
 }

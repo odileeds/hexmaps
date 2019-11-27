@@ -42,6 +42,14 @@
 			"electorate": 58470,
 			"turnout": 59.8,
 			"majority": 2523
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Gordon Marsden",
+			"electorate": 57411,
+			"turnout": 56.8,
+			"spoiled": 192,
+			"majority": 2585
 		}
 	}
 }

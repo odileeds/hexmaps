@@ -32,6 +32,14 @@
 			"electorate": 74375,
 			"turnout": 75.9,
 			"majority": 21328
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Harriett Baldwin",
+			"electorate": 73394,
+			"turnout": 74.0,
+			"spoiled": 198,
+			"majority": 22578
 		}
 	}
 }

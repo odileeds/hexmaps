@@ -42,6 +42,14 @@
 			"electorate": 34164,
 			"turnout": 68.1,
 			"majority": 4563
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "Alistair Carmichael",
+			"electorate": 34552,
+			"turnout": 66.0,
+			"spoiled": 75,
+			"majority": 817
 		}
 	}
 }

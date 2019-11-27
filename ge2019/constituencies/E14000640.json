@@ -37,6 +37,14 @@
 			"electorate": 72859,
 			"turnout": 77.4,
 			"majority": 9176
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Chris Matheson",
+			"electorate": 74485,
+			"turnout": 69.0,
+			"spoiled": 228,
+			"majority": 93
 		}
 	}
 }

@@ -52,6 +52,14 @@
 			"electorate": 67955,
 			"turnout": 62.1,
 			"majority": 15965
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Rachel Reeves",
+			"electorate": 64950,
+			"turnout": 59.4,
+			"spoiled": 153,
+			"majority": 10727
 		}
 	}
 }

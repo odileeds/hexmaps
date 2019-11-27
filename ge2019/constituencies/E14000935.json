@@ -32,6 +32,14 @@
 			"electorate": 76380,
 			"turnout": 68.9,
 			"majority": 11970
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Heather Wheeler",
+			"electorate": 73923,
+			"turnout": 68.9,
+			"spoiled": 190,
+			"majority": 11471
 		}
 	}
 }

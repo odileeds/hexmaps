@@ -37,6 +37,14 @@
 			"electorate": 76057,
 			"turnout": 72.4,
 			"majority": 23326
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nigel Huddleston",
+			"electorate": 73069,
+			"turnout": 71.7,
+			"spoiled": 199,
+			"majority": 20532
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 75553,
 			"turnout": 68.7,
 			"majority": 11695
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Richard Drax",
+			"electorate": 71534,
+			"turnout": 68.1,
+			"spoiled": 140,
+			"majority": 11994
 		}
 	}
 }

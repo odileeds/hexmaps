@@ -37,6 +37,14 @@
 			"electorate": 75931,
 			"turnout": 67.4,
 			"majority": 14283
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Kevin Foster",
+			"electorate": 76350,
+			"turnout": 63.1,
+			"spoiled": 135,
+			"majority": 3286
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 70199,
 			"turnout": 66.8,
 			"majority": 11503
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Alan Whitehead",
+			"electorate": 70270,
+			"turnout": 62.3,
+			"spoiled": 147,
+			"majority": 3810
 		}
 	}
 }

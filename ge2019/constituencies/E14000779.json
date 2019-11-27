@@ -42,6 +42,14 @@
 			"electorate": 70112,
 			"turnout": 75.6,
 			"majority": 16991
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Fabian Hamilton",
+			"electorate": 69097,
+			"turnout": 70.2,
+			"spoiled": 239,
+			"majority": 7250
 		}
 	}
 }

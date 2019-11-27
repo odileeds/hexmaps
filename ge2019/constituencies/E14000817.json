@@ -42,6 +42,14 @@
 			"electorate": 84170,
 			"turnout": 73.2,
 			"majority": 19673
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nicholas Soames",
+			"electorate": 81034,
+			"turnout": 71.3,
+			"spoiled": 252,
+			"majority": 24286
 		}
 	}
 }

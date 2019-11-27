@@ -37,6 +37,14 @@
 			"electorate": 81065,
 			"turnout": 66.6,
 			"majority": 15006
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Greg Knight",
+			"electorate": 81023,
+			"turnout": 62.0,
+			"spoiled": 227,
+			"majority": 14933
 		}
 	}
 }

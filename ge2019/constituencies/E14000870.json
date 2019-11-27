@@ -47,6 +47,14 @@
 			"electorate": 72184,
 			"turnout": 65.2,
 			"majority": 8182
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Debbie Abrahams",
+			"electorate": 71475,
+			"turnout": 62.5,
+			"spoiled": 178,
+			"majority": 6002
 		}
 	}
 }

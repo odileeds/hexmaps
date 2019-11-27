@@ -37,6 +37,14 @@
 			"electorate": 74370,
 			"turnout": 65.9,
 			"majority": 15207
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Stephen McCabe",
+			"electorate": 75092,
+			"turnout": 60.6,
+			"spoiled": 175,
+			"majority": 8447
 		}
 	}
 }

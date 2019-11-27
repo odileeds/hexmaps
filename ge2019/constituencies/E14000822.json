@@ -42,6 +42,14 @@
 			"electorate": 92417,
 			"turnout": 69.8,
 			"majority": 1665
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Iain Stewart",
+			"electorate": 89656,
+			"turnout": 66.0,
+			"spoiled": 215,
+			"majority": 8672
 		}
 	}
 }

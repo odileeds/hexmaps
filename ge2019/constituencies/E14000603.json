@@ -37,6 +37,14 @@
 			"electorate": 77334,
 			"turnout": 72.4,
 			"majority": 15816
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Keith Simpson",
+			"electorate": 73552,
+			"turnout": 72.4,
+			"spoiled": 182,
+			"majority": 16838
 		}
 	}
 }

@@ -27,6 +27,14 @@
 			"electorate": 74540,
 			"turnout": 64.2,
 			"majority": 8391
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Amanda Milling",
+			"electorate": 74532,
+			"turnout": 63.4,
+			"spoiled": 169,
+			"majority": 4923
 		}
 	}
 }

@@ -47,6 +47,14 @@
 			"electorate": 63846,
 			"turnout": 61.2,
 			"majority": 7713
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Tom Watson",
+			"electorate": 63637,
+			"turnout": 59.1,
+			"spoiled": 141,
+			"majority": 9470
 		}
 	}
 }

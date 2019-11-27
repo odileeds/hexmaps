@@ -37,6 +37,14 @@
 			"electorate": 77874,
 			"turnout": 67.3,
 			"majority": 18312
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Elizabeth Truss",
+			"electorate": 76970,
+			"turnout": 65.4,
+			"spoiled": 192,
+			"majority": 13861
 		}
 	}
 }

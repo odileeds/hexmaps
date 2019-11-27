@@ -32,6 +32,14 @@
 			"electorate": 71654,
 			"turnout": 77.1,
 			"majority": 22140
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Cheryl Gillan",
+			"electorate": 72547,
+			"turnout": 73.0,
+			"spoiled": 249,
+			"majority": 23920
 		}
 	}
 }

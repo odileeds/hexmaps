@@ -42,6 +42,14 @@
 			"electorate": 78463,
 			"turnout": 73.4,
 			"majority": 23104
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alan Duncan",
+			"electorate": 79693,
+			"turnout": 68.8,
+			"spoiled": 214,
+			"majority": 21705
 		}
 	}
 }

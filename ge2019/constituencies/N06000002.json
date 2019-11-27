@@ -27,6 +27,14 @@
 			"electorate": 68249,
 			"turnout": 67.3,
 			"majority": 2081
+		},
+		"2015": {
+			"first": "Democratic Unionist Party",
+			"mp": "Nigel Dodds",
+			"electorate": 68553,
+			"turnout": 59.6,
+			"spoiled": 294,
+			"majority": 5326
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 75434,
 			"turnout": 71.7,
 			"majority": 4761
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Charlotte Leslie",
+			"electorate": 74743,
+			"turnout": 69.5,
+			"spoiled": 121,
+			"majority": 4944
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 72728,
 			"turnout": 62.0,
 			"majority": 9997
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Julie Elliott",
+			"electorate": 72950,
+			"turnout": 57.5,
+			"spoiled": 166,
+			"majority": 11179
 		}
 	}
 }

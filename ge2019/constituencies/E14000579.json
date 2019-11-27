@@ -37,6 +37,14 @@
 			"electorate": 68886,
 			"turnout": 61.4,
 			"majority": 13126
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Yasmin Qureshi",
+			"electorate": 69687,
+			"turnout": 58.7,
+			"spoiled": 134,
+			"majority": 10928
 		}
 	}
 }

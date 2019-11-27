@@ -32,6 +32,14 @@
 			"electorate": 67661,
 			"turnout": 64.0,
 			"majority": 502
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Helen Goodman",
+			"electorate": 66070,
+			"turnout": 59.7,
+			"spoiled": 68,
+			"majority": 3508
 		}
 	}
 }

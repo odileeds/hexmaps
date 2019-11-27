@@ -37,6 +37,14 @@
 			"electorate": 62163,
 			"turnout": 73.3,
 			"majority": 3269
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Byron Davies",
+			"electorate": 61820,
+			"turnout": 69.3,
+			"spoiled": 57,
+			"majority": 27
 		}
 	}
 }

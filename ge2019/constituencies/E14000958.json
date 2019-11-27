@@ -27,6 +27,14 @@
 			"electorate": 69400,
 			"turnout": 69.1,
 			"majority": 2914
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "John Pugh",
+			"electorate": 67326,
+			"turnout": 65.8,
+			"spoiled": 171,
+			"majority": 1322
 		}
 	}
 }

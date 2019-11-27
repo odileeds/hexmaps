@@ -42,6 +42,14 @@
 			"electorate": 70344,
 			"turnout": 59.5,
 			"majority": 19143
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Harry Harpham",
+			"electorate": 70874,
+			"turnout": 56.7,
+			"spoiled": 149,
+			"majority": 13807
 		}
 	}
 }

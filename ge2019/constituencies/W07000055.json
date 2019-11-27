@@ -42,6 +42,14 @@
 			"electorate": 57233,
 			"turnout": 64.3,
 			"majority": 8003
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jessica Morden",
+			"electorate": 56015,
+			"turnout": 62.8,
+			"spoiled": 70,
+			"majority": 4705
 		}
 	}
 }

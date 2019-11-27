@@ -52,6 +52,14 @@
 			"electorate": 68459,
 			"turnout": 70.2,
 			"majority": 13477
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "David Anderson",
+			"electorate": 67901,
+			"turnout": 66.3,
+			"spoiled": 96,
+			"majority": 14227
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 80524,
 			"turnout": 73.9,
 			"majority": 20686
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Geoffrey Cox",
+			"electorate": 78621,
+			"turnout": 72.2,
+			"spoiled": 202,
+			"majority": 18403
 		}
 	}
 }

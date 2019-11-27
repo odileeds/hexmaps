@@ -42,6 +42,14 @@
 			"electorate": 72322,
 			"turnout": 61.3,
 			"majority": 4667
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Richard Burden",
+			"electorate": 71428,
+			"turnout": 59.6,
+			"spoiled": 98,
+			"majority": 2509
 		}
 	}
 }

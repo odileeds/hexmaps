@@ -42,6 +42,14 @@
 			"electorate": 72899,
 			"turnout": 73.0,
 			"majority": 23162
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Jim Dowd",
+			"electorate": 72290,
+			"turnout": 66.8,
+			"spoiled": 159,
+			"majority": 12714
 		}
 	}
 }

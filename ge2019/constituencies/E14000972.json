@@ -37,6 +37,14 @@
 			"electorate": 56915,
 			"turnout": 58.2,
 			"majority": 3897
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Tristram Hunt",
+			"electorate": 60634,
+			"turnout": 51.5,
+			"spoiled": 150,
+			"majority": 5179
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 78540,
 			"turnout": 66.5,
 			"majority": 4852
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "John Mann",
+			"electorate": 76796,
+			"turnout": 64.4,
+			"spoiled": 170,
+			"majority": 8843
 		}
 	}
 }

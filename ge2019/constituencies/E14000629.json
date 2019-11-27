@@ -32,6 +32,14 @@
 			"electorate": 63728,
 			"turnout": 66.1,
 			"majority": 8188
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Greg Hands",
+			"electorate": 63478,
+			"turnout": 63.6,
+			"spoiled": 133,
+			"majority": 16022
 		}
 	}
 }

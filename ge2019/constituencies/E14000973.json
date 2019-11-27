@@ -42,6 +42,14 @@
 			"electorate": 71558,
 			"turnout": 58.4,
 			"majority": 2359
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ruth Smeeth",
+			"electorate": 71438,
+			"turnout": 54.3,
+			"spoiled": 168,
+			"majority": 4836
 		}
 	}
 }

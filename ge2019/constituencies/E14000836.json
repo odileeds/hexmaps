@@ -37,6 +37,14 @@
 			"electorate": 81641,
 			"turnout": 60.3,
 			"majority": 14499
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Yvette Cooper",
+			"electorate": 82592,
+			"turnout": 55.8,
+			"spoiled": 183,
+			"majority": 15428
 		}
 	}
 }

@@ -37,6 +37,14 @@
 			"electorate": 83272,
 			"turnout": 65.2,
 			"majority": 16998
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Fiona Mactaggart",
+			"electorate": 86366,
+			"turnout": 56.2,
+			"spoiled": 260,
+			"majority": 7336
 		}
 	}
 }

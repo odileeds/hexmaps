@@ -42,6 +42,14 @@
 			"electorate": 49881,
 			"turnout": 70.4,
 			"majority": 1832
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Ian Lucas",
+			"electorate": 50992,
+			"turnout": 64.3,
+			"spoiled": 55,
+			"majority": 1831
 		}
 	}
 }

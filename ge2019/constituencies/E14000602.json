@@ -32,6 +32,14 @@
 			"electorate": 93003,
 			"turnout": 77.0,
 			"majority": 37336
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Thangam Debbonaire",
+			"electorate": 91236,
+			"turnout": 70.6,
+			"spoiled": 198,
+			"majority": 5673
 		}
 	}
 }

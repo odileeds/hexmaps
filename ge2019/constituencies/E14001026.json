@@ -37,6 +37,14 @@
 			"electorate": 82451,
 			"turnout": 73.8,
 			"majority": 7582
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Heappey",
+			"electorate": 79405,
+			"turnout": 71.9,
+			"spoiled": 182,
+			"majority": 7585
 		}
 	}
 }

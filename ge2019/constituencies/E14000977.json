@@ -32,6 +32,14 @@
 			"electorate": 72572,
 			"turnout": 73.8,
 			"majority": 21958
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nadhim Zahawi",
+			"electorate": 71304,
+			"turnout": 72.4,
+			"spoiled": 157,
+			"majority": 22876
 		}
 	}
 }

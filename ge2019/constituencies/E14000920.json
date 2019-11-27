@@ -37,6 +37,14 @@
 			"electorate": 68945,
 			"turnout": 63.2,
 			"majority": 11798
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Clive Betts",
+			"electorate": 70422,
+			"turnout": 59.3,
+			"spoiled": 108,
+			"majority": 12311
 		}
 	}
 }

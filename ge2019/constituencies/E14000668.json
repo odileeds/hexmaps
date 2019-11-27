@@ -42,6 +42,14 @@
 			"electorate": 71718,
 			"turnout": 60.0,
 			"majority": 10131
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Rosie Winterton",
+			"electorate": 71136,
+			"turnout": 57.1,
+			"spoiled": 208,
+			"majority": 10093
 		}
 	}
 }

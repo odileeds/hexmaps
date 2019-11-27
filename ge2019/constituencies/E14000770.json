@@ -52,6 +52,14 @@
 			"electorate": 81588,
 			"turnout": 76.2,
 			"majority": 4124
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Berry",
+			"electorate": 81238,
+			"turnout": 73.1,
+			"spoiled": 137,
+			"majority": 2834
 		}
 	}
 }

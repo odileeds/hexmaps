@@ -32,6 +32,14 @@
 			"electorate": 67601,
 			"turnout": 61.6,
 			"majority": 3693
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Eilidh Whiteford",
+			"electorate": 68609,
+			"turnout": 66.7,
+			"spoiled": 112,
+			"majority": 14339
 		}
 	}
 }

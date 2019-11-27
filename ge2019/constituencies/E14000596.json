@@ -32,6 +32,14 @@
 			"electorate": 66069,
 			"turnout": 68.2,
 			"majority": 12363
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Percy",
+			"electorate": 68488,
+			"turnout": 63.4,
+			"spoiled": 168,
+			"majority": 11176
 		}
 	}
 }

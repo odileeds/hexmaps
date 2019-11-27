@@ -42,6 +42,14 @@
 			"electorate": 78037,
 			"turnout": 71.9,
 			"majority": 28156
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Helen Hayes",
+			"electorate": 76575,
+			"turnout": 67.3,
+			"spoiled": 186,
+			"majority": 16122
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 83928,
 			"turnout": 67.5,
 			"majority": 39883
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Stephen Timms",
+			"electorate": 87382,
+			"turnout": 60.1,
+			"spoiled": 211,
+			"majority": 34252
 		}
 	}
 }

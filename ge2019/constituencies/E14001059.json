@@ -42,6 +42,14 @@
 			"electorate": 76361,
 			"turnout": 60.0,
 			"majority": 14944
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Mike Kane",
+			"electorate": 75994,
+			"turnout": 57.2,
+			"spoiled": 168,
+			"majority": 10569
 		}
 	}
 }

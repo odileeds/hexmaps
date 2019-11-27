@@ -27,6 +27,14 @@
 			"electorate": 76432,
 			"turnout": 74.8,
 			"majority": 16630
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Michelle Donelan",
+			"electorate": 74218,
+			"turnout": 74.8,
+			"spoiled": 100,
+			"majority": 10076
 		}
 	}
 }

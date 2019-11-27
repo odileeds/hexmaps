@@ -37,6 +37,14 @@
 			"electorate": 73257,
 			"turnout": 74.2,
 			"majority": 11689
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Rosie Cooper",
+			"electorate": 70906,
+			"turnout": 70.2,
+			"spoiled": 117,
+			"majority": 8360
 		}
 	}
 }

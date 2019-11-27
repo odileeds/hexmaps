@@ -47,6 +47,14 @@
 			"electorate": 72903,
 			"turnout": 67.0,
 			"majority": 9430
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Rehman Chishti",
+			"electorate": 70984,
+			"turnout": 66.6,
+			"spoiled": 194,
+			"majority": 10530
 		}
 	}
 }

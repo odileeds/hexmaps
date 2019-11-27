@@ -37,6 +37,14 @@
 			"electorate": 76495,
 			"turnout": 68.4,
 			"majority": 2104
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrea Jenkyns",
+			"electorate": 75820,
+			"turnout": 63.8,
+			"spoiled": 139,
+			"majority": 422
 		}
 	}
 }

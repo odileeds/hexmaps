@@ -37,6 +37,14 @@
 			"electorate": 75759,
 			"turnout": 61.4,
 			"majority": 15580
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Colleen Fletcher",
+			"electorate": 75462,
+			"turnout": 56.2,
+			"spoiled": 185,
+			"majority": 12274
 		}
 	}
 }

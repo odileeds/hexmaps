@@ -37,6 +37,14 @@
 			"electorate": 64474,
 			"turnout": 71.6,
 			"majority": 6296
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Clive Efford",
+			"electorate": 63998,
+			"turnout": 67.6,
+			"spoiled": 97,
+			"majority": 2693
 		}
 	}
 }

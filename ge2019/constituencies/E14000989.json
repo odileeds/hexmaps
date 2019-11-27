@@ -27,6 +27,14 @@
 			"electorate": 68106,
 			"turnout": 65.6,
 			"majority": 720
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Lucy Allan",
+			"electorate": 66166,
+			"turnout": 61.8,
+			"spoiled": 214,
+			"majority": 730
 		}
 	}
 }

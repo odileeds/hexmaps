@@ -32,6 +32,14 @@
 			"electorate": 66391,
 			"turnout": 77.9,
 			"majority": 777
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "Tim Farron",
+			"electorate": 65857,
+			"turnout": 74.5,
+			"spoiled": 123,
+			"majority": 8949
 		}
 	}
 }

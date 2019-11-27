@@ -37,6 +37,14 @@
 			"electorate": 67233,
 			"turnout": 67.2,
 			"majority": 3797
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "David Crausby",
+			"electorate": 67895,
+			"turnout": 63.8,
+			"spoiled": 150,
+			"majority": 4377
 		}
 	}
 }

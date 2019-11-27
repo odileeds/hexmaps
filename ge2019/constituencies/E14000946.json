@@ -32,6 +32,14 @@
 			"electorate": 75485,
 			"turnout": 71.8,
 			"majority": 17749
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Cartlidge",
+			"electorate": 73836,
+			"turnout": 70.5,
+			"spoiled": 179,
+			"majority": 17545
 		}
 	}
 }

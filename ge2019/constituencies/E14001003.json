@@ -37,6 +37,14 @@
 			"electorate": 74683,
 			"turnout": 75.8,
 			"majority": 3792
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Sarah Newton",
+			"electorate": 73601,
+			"turnout": 70.1,
+			"spoiled": 78,
+			"majority": 14000
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 67824,
 			"turnout": 73.8,
 			"majority": 17495
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Bill Cash",
+			"electorate": 67339,
+			"turnout": 70.0,
+			"spoiled": 138,
+			"majority": 16250
 		}
 	}
 }

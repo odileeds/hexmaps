@@ -42,6 +42,14 @@
 			"electorate": 75362,
 			"turnout": 71.0,
 			"majority": 13286
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Andrew Bridgen",
+			"electorate": 72193,
+			"turnout": 71.6,
+			"spoiled": 170,
+			"majority": 11373
 		}
 	}
 }

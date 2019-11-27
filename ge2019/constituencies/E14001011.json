@@ -32,6 +32,14 @@
 			"electorate": 67308,
 			"turnout": 56.6,
 			"majority": 2601
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "David Winnick",
+			"electorate": 67080,
+			"turnout": 55.2,
+			"spoiled": 137,
+			"majority": 1937
 		}
 	}
 }

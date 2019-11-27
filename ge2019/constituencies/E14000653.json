@@ -42,6 +42,14 @@
 			"electorate": 78895,
 			"turnout": 69.7,
 			"majority": 48
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Edward Timpson",
+			"electorate": 74169,
+			"turnout": 67.6,
+			"spoiled": 213,
+			"majority": 3620
 		}
 	}
 }

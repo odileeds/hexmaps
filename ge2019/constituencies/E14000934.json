@@ -27,6 +27,14 @@
 			"electorate": 85257,
 			"turnout": 76.2,
 			"majority": 15952
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Heidi Allen",
+			"electorate": 84132,
+			"turnout": 73.5,
+			"spoiled": 259,
+			"majority": 20594
 		}
 	}
 }

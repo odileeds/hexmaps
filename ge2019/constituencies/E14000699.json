@@ -32,6 +32,14 @@
 			"electorate": 78837,
 			"turnout": 72.3,
 			"majority": 21555
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Suella Fernandes",
+			"electorate": 77114,
+			"turnout": 71.1,
+			"spoiled": 118,
+			"majority": 22262
 		}
 	}
 }

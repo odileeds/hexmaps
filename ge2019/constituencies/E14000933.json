@@ -32,6 +32,14 @@
 			"electorate": 73537,
 			"turnout": 64.1,
 			"majority": 11490
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Stephen Metcalfe",
+			"electorate": 71155,
+			"turnout": 64.2,
+			"spoiled": 106,
+			"majority": 7691
 		}
 	}
 }

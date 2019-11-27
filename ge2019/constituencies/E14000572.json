@@ -37,6 +37,14 @@
 			"electorate": 63967,
 			"turnout": 64.1,
 			"majority": 2023
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Paul Maynard",
+			"electorate": 62468,
+			"turnout": 63.4,
+			"spoiled": 207,
+			"majority": 3340
 		}
 	}
 }

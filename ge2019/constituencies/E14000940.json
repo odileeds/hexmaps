@@ -32,6 +32,14 @@
 			"electorate": 78985,
 			"turnout": 71.8,
 			"majority": 18631
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Alberto Costa",
+			"electorate": 76851,
+			"turnout": 70.6,
+			"spoiled": 300,
+			"majority": 16824
 		}
 	}
 }

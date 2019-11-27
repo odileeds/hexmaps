@@ -42,6 +42,14 @@
 			"electorate": 65777,
 			"turnout": 66.4,
 			"majority": 21115
+		},
+		"2015": {
+			"first": "Labour and Co-operative",
+			"mp": "Kate Osamor",
+			"electorate": 66016,
+			"turnout": 62.9,
+			"spoiled": 161,
+			"majority": 15419
 		}
 	}
 }

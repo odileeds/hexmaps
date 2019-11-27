@@ -37,6 +37,14 @@
 			"electorate": 68215,
 			"turnout": 61.5,
 			"majority": 318
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Marion Fellows",
+			"electorate": 70283,
+			"turnout": 68.7,
+			"spoiled": 42,
+			"majority": 11898
 		}
 	}
 }

@@ -1,0 +1,25 @@
+{
+	"id": "N92000002",
+	"title": "",
+	"elections": {
+		"2019": {
+			"candidates": [{
+			}]
+		},
+		"2017": {
+			"first": "",
+			"mp": "",
+			"mysoc": "",
+			"electorate": ,
+			"turnout": ,
+			"majority": 
+		},
+		"2015": {
+			"first": "SF",
+			"electorate": 63856,
+			"turnout": 39007,
+			"spoiled": 353,
+			"majority": 10060
+		}
+	}
+}

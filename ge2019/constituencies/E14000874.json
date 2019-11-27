@@ -32,6 +32,14 @@
 			"electorate": 75574,
 			"turnout": 79.4,
 			"majority": 816
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Nicola Blackwood",
+			"electorate": 76174,
+			"turnout": 75.4,
+			"spoiled": 153,
+			"majority": 9582
 		}
 	}
 }

@@ -42,6 +42,14 @@
 			"electorate": 71308,
 			"turnout": 66.1,
 			"majority": 12347
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Christopher Pincher",
+			"electorate": 71913,
+			"turnout": 65.7,
+			"spoiled": 105,
+			"majority": 11302
 		}
 	}
 }

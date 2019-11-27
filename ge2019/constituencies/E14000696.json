@@ -42,6 +42,14 @@
 			"electorate": 69724,
 			"turnout": 63.8,
 			"majority": 10014
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Teresa Pearce",
+			"electorate": 70397,
+			"turnout": 60.7,
+			"spoiled": 97,
+			"majority": 9525
 		}
 	}
 }

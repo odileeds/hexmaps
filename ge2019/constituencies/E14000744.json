@@ -42,6 +42,14 @@
 			"electorate": 82339,
 			"turnout": 72.9,
 			"majority": 19035
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Mark Prisk",
+			"electorate": 80610,
+			"turnout": 70.1,
+			"spoiled": 266,
+			"majority": 21509
 		}
 	}
 }

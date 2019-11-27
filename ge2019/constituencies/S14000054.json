@@ -37,6 +37,14 @@
 			"electorate": 71762,
 			"turnout": 71.8,
 			"majority": 21
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Pete Wishart",
+			"electorate": 72459,
+			"turnout": 74.9,
+			"spoiled": 64,
+			"majority": 9641
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 58853,
 			"turnout": 66.4,
 			"majority": 384
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Ronnie Cowan",
+			"electorate": 59350,
+			"turnout": 75.2,
+			"spoiled": 52,
+			"majority": 11063
 		}
 	}
 }

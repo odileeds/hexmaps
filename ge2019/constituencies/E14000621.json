@@ -42,6 +42,14 @@
 			"electorate": 70849,
 			"turnout": 71.6,
 			"majority": 1369
+		},
+		"2015": {
+			"first": "Liberal Democrat",
+			"mp": "Tom Brake",
+			"electorate": 69981,
+			"turnout": 68.2,
+			"spoiled": 131,
+			"majority": 1510
 		}
 	}
 }

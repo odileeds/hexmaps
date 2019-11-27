@@ -32,6 +32,14 @@
 			"electorate": 73561,
 			"turnout": 71.0,
 			"majority": 16951
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Oliver Dowden",
+			"electorate": 73767,
+			"turnout": 68.2,
+			"spoiled": 200,
+			"majority": 18461
 		}
 	}
 }

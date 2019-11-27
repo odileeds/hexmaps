@@ -42,6 +42,14 @@
 			"electorate": 74890,
 			"turnout": 58.7,
 			"majority": 14803
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "John Healey",
+			"electorate": 74283,
+			"turnout": 58.4,
+			"spoiled": 158,
+			"majority": 13838
 		}
 	}
 }

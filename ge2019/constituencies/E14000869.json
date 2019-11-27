@@ -37,6 +37,14 @@
 			"electorate": 66005,
 			"turnout": 72.8,
 			"majority": 15466
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "James Brokenshire",
+			"electorate": 66035,
+			"turnout": 71.0,
+			"spoiled": 105,
+			"majority": 15803
 		}
 	}
 }

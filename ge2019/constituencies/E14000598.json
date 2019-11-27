@@ -47,6 +47,14 @@
 			"electorate": 75486,
 			"turnout": 76.4,
 			"majority": 14699
+		},
+		"2015": {
+			"first": "Green",
+			"mp": "Caroline Lucas",
+			"electorate": 76557,
+			"turnout": 71.7,
+			"spoiled": 186,
+			"majority": 7967
 		}
 	}
 }

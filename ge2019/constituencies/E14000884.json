@@ -37,6 +37,14 @@
 			"electorate": 69785,
 			"turnout": 63.9,
 			"majority": 1554
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Flick Drummond",
+			"electorate": 71639,
+			"turnout": 58.8,
+			"spoiled": 185,
+			"majority": 5241
 		}
 	}
 }

@@ -32,6 +32,14 @@
 			"electorate": 45251,
 			"turnout": 71.0,
 			"majority": 635
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Guto Bebb",
+			"electorate": 45525,
+			"turnout": 66.4,
+			"spoiled": 59,
+			"majority": 3999
 		}
 	}
 }

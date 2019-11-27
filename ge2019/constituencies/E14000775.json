@@ -42,6 +42,14 @@
 			"electorate": 81760,
 			"turnout": 67.9,
 			"majority": 42214
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "George Howarth",
+			"electorate": 79108,
+			"turnout": 64.4,
+			"spoiled": 192,
+			"majority": 34655
 		}
 	}
 }

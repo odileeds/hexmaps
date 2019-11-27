@@ -32,6 +32,14 @@
 			"electorate": 74206,
 			"turnout": 69.5,
 			"majority": 5643
+		},
+		"2015": {
+			"first": "Scottish National Party",
+			"mp": "Richard  Arkless",
+			"electorate": 75249,
+			"turnout": 75.3,
+			"spoiled": 66,
+			"majority": 6514
 		}
 	}
 }

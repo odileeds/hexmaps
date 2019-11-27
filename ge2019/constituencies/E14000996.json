@@ -37,6 +37,14 @@
 			"electorate": 80731,
 			"turnout": 71.6,
 			"majority": 19801
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Neil Parish",
+			"electorate": 76270,
+			"turnout": 71.0,
+			"spoiled": 378,
+			"majority": 20173
 		}
 	}
 }

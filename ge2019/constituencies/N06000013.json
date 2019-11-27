@@ -32,6 +32,14 @@
 			"electorate": 64334,
 			"turnout": 60.9,
 			"majority": 1208
+		},
+		"2015": {
+			"first": "Independent",
+			"mp": "Sylvia Hermon",
+			"electorate": 64207,
+			"turnout": 56.1,
+			"spoiled": 97,
+			"majority": 9202
 		}
 	}
 }

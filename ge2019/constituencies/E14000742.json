@@ -32,6 +32,14 @@
 			"electorate": 74997,
 			"turnout": 76.1,
 			"majority": 22294
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Howell",
+			"electorate": 77946,
+			"turnout": 71.1,
+			"spoiled": 162,
+			"majority": 25375
 		}
 	}
 }

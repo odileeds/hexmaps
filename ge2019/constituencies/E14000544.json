@@ -37,6 +37,14 @@
 			"electorate": 69149,
 			"turnout": 65.0,
 			"majority": 13400
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Baron",
+			"electorate": 66347,
+			"turnout": 65.2,
+			"spoiled": 198,
+			"majority": 12482
 		}
 	}
 }

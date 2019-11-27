@@ -37,6 +37,14 @@
 			"electorate": 76374,
 			"turnout": 65.9,
 			"majority": 24897
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "John Hayes",
+			"electorate": 76460,
+			"turnout": 64.6,
+			"spoiled": 160,
+			"majority": 18567
 		}
 	}
 }

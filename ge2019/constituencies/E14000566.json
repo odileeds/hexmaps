@@ -42,6 +42,14 @@
 			"electorate": 70106,
 			"turnout": 63.0,
 			"majority": 18383
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Khalid Mahmood",
+			"electorate": 69943,
+			"turnout": 59.4,
+			"spoiled": 272,
+			"majority": 14828
 		}
 	}
 }

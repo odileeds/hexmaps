@@ -32,6 +32,14 @@
 			"electorate": 76522,
 			"turnout": 68.2,
 			"majority": 1072
+		},
+		"2015": {
+			"first": "Conservative",
+			"mp": "Matthew Offord",
+			"electorate": 75285,
+			"turnout": 66.1,
+			"spoiled": 135,
+			"majority": 3724
 		}
 	}
 }

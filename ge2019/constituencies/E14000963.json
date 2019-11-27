@@ -37,6 +37,14 @@
 			"electorate": 79036,
 			"turnout": 66.9,
 			"majority": 24343
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Marie Rimmer",
+			"electorate": 77720,
+			"turnout": 62.5,
+			"spoiled": 171,
+			"majority": 21243
 		}
 	}
 }

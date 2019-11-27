@@ -32,6 +32,14 @@
 			"electorate": 80499,
 			"turnout": 65.0,
 			"majority": 27997
+		},
+		"2015": {
+			"first": "Labour",
+			"mp": "Dawn Butler",
+			"electorate": 77038,
+			"turnout": 61.4,
+			"spoiled": 260,
+			"majority": 19649
 		}
 	}
 }

@@ -70,6 +70,56 @@ while (my $row = $csv->getline ($fh)) {
 close($fh);	
 
 
+
+# First read in the summary results
+$file = "temp/hocl-ge2015-results-summary.csv";
+#ons_id,ons_region_id,constituency_name,county_name,region_name,country_name,constituency_type,declaration_time,result,first_party,second_party,electorate,valid_votes,invalid_votes,majority,con,lab,ld,ukip,green,snp,pc,dup,sf,sdlp,uup,alliance,other
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		for($i = 0; $i < @fields; $i++){
+			$con{$pcd}{'2015-'.$header[$i]} = $fields[$i];
+		}
+	}
+	$line++;
+}
+close($fh);
+
+# Now read in the full results to add data
+$file = "temp/hocl-ge2015-results-full.csv";
+#ons_id,ons_region_id,constituency_name,county_name,region_name,country_name,constituency_type,party_name,party_abbreviation,firstname,surname,gender,sitting_mp,former_mp,votes,share,change
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		for($i = 0; $i < @fields; $i++){
+			# Take the first entry
+			if(!$con{$pcd}{'2015-'.$header[$i]}){
+				$con{$pcd}{'2015-'.$header[$i]} = $fields[$i];
+			}
+		}
+	}
+	$line++;
+}
+close($fh);	
+
+
+
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
 foreach $pcd (sort(keys(%con))){
@@ -99,6 +149,14 @@ foreach $pcd (sort(keys(%con))){
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'elect17'},\n";
 	print FILE "\t\t\t\"turnout\": $con{$pcd}{'turnout17'},\n";
 	print FILE "\t\t\t\"majority\": $con{$pcd}{'majority'}\n";
+	print FILE "\t\t},\n";
+	print FILE "\t\t\"2015\": {\n";
+	print FILE "\t\t\t\"first\": \"$con{$pcd}{'2015-party_name'}\",\n";
+	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2015-firstname'} $con{$pcd}{'2015-surname'}\",\n";
+	print FILE "\t\t\t\"electorate\": $con{$pcd}{'2015-electorate'},\n";
+	print FILE "\t\t\t\"turnout\": ".sprintf("%0.1f",100*($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})/$con{$pcd}{'2015-electorate'}).",\n";
+	print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2015-invalid_votes'},\n";
+	print FILE "\t\t\t\"majority\": $con{$pcd}{'2015-majority'}\n";
 	print FILE "\t\t}\n";
 	print FILE "\t}\n";
 	print FILE "}";

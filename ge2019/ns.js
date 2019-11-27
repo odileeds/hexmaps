@@ -151,6 +151,7 @@ function ResultsMap(id,attr){
 		this.hex.selected = "";
 		this.hex.selectRegion('');
 		S('.infobubble').remove();
+		S('body').removeClass('modal');
 		return this;
 	}
 	
@@ -222,6 +223,8 @@ function ResultsMap(id,attr){
 		}else{
 			callback.call(this,title,region);
 		}
+		
+		S('body').addClass('modal');
 
 		return this;
 	}

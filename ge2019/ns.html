@@ -155,16 +155,18 @@
 		left: 50%;
 		transform: translate3d(-50%, 0, 0);
 		position: fixed;
+		max-height: calc(100% - 2em);
+		overflow-y: auto; 
 		text-align: center;
 		margin-right: -50%;
 		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
 		background-color: #efefef;
 		color: black;
-		padding: 1em;
 	}
+	.infobubble .infobubble_inner { margin: 1em; }
 	.infobubble.generalelection { text-align: left; }
 	.infobubble a, .infobubble a:visited { color: inherit; }
-	.infobubble .popup-title { border-bottom:1px solid #333;margin-bottom:0.25em; display:block; }
+	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0.25em 0; display:block; }
 	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
 	.popup-bio { display: flex; }
 	.generalelection {
@@ -172,7 +174,6 @@
 		max-width: calc(100% - 2em);
 		text-align: left;
 		line-height: 1.5em;
-		padding: 1em;
 	}
 	.generalelection img {
 		width: 5.5em;
@@ -186,9 +187,23 @@
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
 	.bottom a, .bottom a:visited { color: inherit; }
 
+	body.modal { overflow: hidden; }
 
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
+		.infobubble {
+			z-index: 3;
+			top: 0em;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			overflow-y: auto;
+			transform: none;
+			position: fixed;
+			margin-right: 0px;
+		}
+		.generalelection { max-width: 100%; }
+
 	}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
@@ -208,14 +223,14 @@
 		<div id="key"></div>
 
 		<div class="bottom">
-			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a>, <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
+			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
 		</div>
 	</div>
 	
 	<script>
 	var constituencies;
 
-	var lookup = {'Conservative and Unionist Party':'Con','Scottish National Party (SNP)':'SNP','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Liberal Democrats':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF'};
+	var lookup = {'Conservative and Unionist Party':'Con','Scottish National Party (SNP)':'SNP','Scottish National Party':'SNP','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Liberal Democrats':'LD','Liberal Democrat':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF'};
 	var parties = {
 		'Con':{'color':'#2254F4','title':'Conservative'},
 		'Lab':{'color':'#D60303','title':'Labour'},
@@ -274,22 +289,22 @@
 				if(data.elections['2017'].turnout) lbl += 'Turnout: '+data.elections['2017'].turnout+'%<br />';
 				if(data.elections['2017'].majority) lbl += 'Majority: '+data.elections['2017'].majority.toLocaleString()+'<br />';
 			}
+			if(data.elections['2015']){
+				lbl += '<div class="popup-title" style="border-color:%COLOR%">2015</div>';
+				party = data.elections['2015'].first;
+				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2015'].mysoc ? '<a href="'+data.elections['2015'].mysoc+'" target="_parent">':'')+(data.elections['2015'].mp||'')+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections['2015'].mysoc ? '</a>':'')+'<br />';
+				if(data.elections['2015'].turnout) lbl += 'Turnout: '+data.elections['2015'].turnout+'%<br />';
+				if(data.elections['2015'].majority) lbl += 'Majority: '+data.elections['2015'].majority.toLocaleString()+'<br />';
+			}
 		}
 
-/*
-		// Add 2015 results
-		if(this.data["GE2015-results"]){
-			if(!p) p = this.data["GE2015-results"][region].first;
-			lbl += '2015: '+(parties[p] ? (parties[p].title||p) : p)+'<br />';
-		}
-*/
 		// Add bio
 		if(this.data['constituency-card']){
 			r = this.data['constituency-card'][region];
 			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
 		}
 		
-		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a>.</p>'
+		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>.</p>'
 
 		return {'label':lbl,'class':'generalelection','color':wincolour};
 	}

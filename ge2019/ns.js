@@ -181,9 +181,9 @@ function ResultsMap(id,attr){
 				l = popup.render.call(this,title,region,data);
 			}else{
 				console.warning('No view for '+this.by);
-				l = {'label':title,'class':cls};
+				l = {'label':title,'class':cls,'color':''};
 			}
-			var c = l.color;
+			var c = (l.color||'');
 			var t = (l.color ? setTextColor(c) : 'black');
 			var txt = l.label;
 			txt = txt.replace(/%COLOR%/g,t);
@@ -193,7 +193,7 @@ function ResultsMap(id,attr){
 			S('.infobubble .close').remove();
 			S('.infobubble').prepend('<button class="close button" title="Close constituency information">&times;</button>');
 			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.closeActive(); });
-			if(c) S('.infobubble').css({'background-color':c,'color':setTextColor(c)});
+			S('.infobubble').css({'background-color':c,'color':t});
 			return this;
 		}
 		// May need to load data first

@@ -194,7 +194,7 @@ function HexMap(attr){
 		this.selected = r;
 		for(region in this.hexes){
 			h = this.hexes[region];
-			if(region.indexOf(r)==0){
+			if(r.length > 0 && region.indexOf(r)==0){
 				h.selected = true;
 				this.setHexStyle(region);
 			}else{

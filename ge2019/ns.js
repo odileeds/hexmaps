@@ -49,7 +49,6 @@ function ResultsMap(id,attr){
 		}
 	}
 
-
 	// Create a hex map
 	attrhex = JSON.parse(JSON.stringify(attr));
 	attrhex.id = id;
@@ -97,7 +96,7 @@ function ResultsMap(id,attr){
 			this.polling = window.setInterval(function(){
 				_obj.loadResults(type,function(type){
 					// Set the colours of the map
-					this.setColours(attr.type);
+					this.setColours(type);
 				});
 			},60000);
 		}else{
@@ -148,6 +147,13 @@ function ResultsMap(id,attr){
 
 	});
 	
+	this.closeActive = function(){
+		this.hex.selected = "";
+		this.hex.selectRegion('');
+		S('.infobubble').remove();
+		return this;
+	}
+	
 	this.toggleActive = function(region){
 		
 		var previous = this.hex.selected;
@@ -155,7 +161,7 @@ function ResultsMap(id,attr){
 		if(this.hex.search.active) this.hex.search.toggle();
 		if(previous && current == previous) this.hex.regionToggleSelected(previous,true);
 		else this.hex.selectRegion(region);
-		if(!this.hex.selected) S('.infobubble').remove();
+		if(this.hex.selected=="") S('.infobubble').remove();
 		else this.label(region);
 		return this;
 	}
@@ -164,6 +170,7 @@ function ResultsMap(id,attr){
 		var view = this.views[this.by];
 		if(!view) return this;
 		var popup = view.popup;
+
 		var title = this.hex.hexes[region].el[0].getAttribute('title');
 
 		function callback(title,region,data){
@@ -179,10 +186,12 @@ function ResultsMap(id,attr){
 			var t = (l.color ? setTextColor(c) : 'black');
 			var txt = l.label;
 			txt = txt.replace(/%COLOR%/g,t);
-			if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><button class="close button" title="Close constituency information">&times;</button><div class="infobubble_inner"></div></div>');
+			if(S('.infobubble').length == 0) S('#'+this.id+'').after('<div class="infobubble"><div class="infobubble_inner"></div></div>');
 			S('.infobubble_inner').html(txt).css({'width':(l.w ? l.w+'px':''),'height':(l.h ? l.h+'px':'')});
 			S('.infobubble').attr('class','infobubble'+(l['class'] ? ' '+l['class'] : ''));
-			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.toggleActive(); });
+			S('.infobubble .close').remove();
+			S('.infobubble').prepend('<button class="close button" title="Close constituency information">&times;</button>');
+			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.closeActive(); });
 			if(c) S('.infobubble').css({'background-color':c,'color':setTextColor(c)});
 			return this;
 		}
@@ -222,64 +231,11 @@ function ResultsMap(id,attr){
 		e.data.me.setType(document.querySelector('input[name="view"]:checked').id,true);
 	});
 
-
-	// Make save functions
-	if(typeof Blob==="function"){
-		// Add event to button
-		S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
-		// Add key binding
-		S(document).on('keypress',function(e){
-			if(e.originalEvent.charCode==109) S('#savesvg').trigger('click');     // M
-			if(e.originalEvent.charCode==104) S('#save').trigger('click');     // H
-		});
-
-		// Add event to button
-		S('#savesvg').on('click',{me:this},function(e){ e.data.me.saveSVG(); });
-
-	}else{
-		S('#save').css({'display':'none'});
-		S('#savesvg').css({'display':'none'});
-	}
-
-	this.saveSVG = function(){
-
-		// Make hex json
-		var str = this.hex.paper.canvas.html();
-		this.save(str,"map.svg",'text/application/svg+xml');
-
-		return this;
-	}
-
-	this.save = function(str,file,type){
-
-		// Make hex json
-
-		if(!str) str = JSON.stringify(this.hex.mapping).replace(/\}\,/g,"},\n\t\t").replace(/\}\}\}/,"}\n\t\}\n\}").replace(/\"hexes\":{/,"\n\t\"hexes\": {\n\t\t").replace(/{"layout"/,"{\n\t\"layout\"");
-		if(!file) file = "test.hexjson";
-		if(!type) type = 'text/application/json';
-
-		var textFileAsBlob = new Blob([str], {type:type});
-		var fileNameToSaveAs = file;
+	S(document).on('keypress',function(e){
+		//if(e.originalEvent.charCode==109) S('#savesvg').trigger('click');     // M
+		//if(e.originalEvent.charCode==104) S('#save').trigger('click');     // H
+	});
 	
-		function destroyClickedElement(event){ document.body.removeChild(event.target); }
-		var dl = document.createElement("a");
-		dl.download = fileNameToSaveAs;
-		dl.innerHTML = "Download File";
-		if(window.webkitURL != null){
-			// Chrome allows the link to be clicked
-			// without actually adding it to the DOM.
-			dl.href = window.webkitURL.createObjectURL(textFileAsBlob);
-		}else{
-			// Firefox requires the link to be added to the DOM
-			// before it can be clicked.
-			dl.href = window.URL.createObjectURL(textFileAsBlob);
-			dl.onclick = destroyClickedElement;
-			dl.style.display = "none";
-			document.body.appendChild(dl);
-		}
-		dl.click();
-		return this;
-	}
 
 	this.loadResults = function(type,callback){
 		if(!type) type = "GE2015-results";
@@ -315,7 +271,7 @@ function ResultsMap(id,attr){
 	}
 
 	this.setColours = function(type){
-		if(!type) type = "region";
+		if(!type) type = "";
 		
 		if(S('#data-selector').length > 0) S('#data-selector')[0].value = type;
 		if(S('.view-toggle').length > 0){
@@ -337,7 +293,7 @@ function ResultsMap(id,attr){
 
 		// Update the map colours
 		this.hex.updateColours();
-		
+
 		// Re-render the popup?
 		if(this.hex.selected) this.label(this.hex.selected); //re-render
 

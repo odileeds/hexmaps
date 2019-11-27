@@ -299,7 +299,7 @@
 			'file': '2019-candidates.csv',
 			'live': true,
 			'process': function(type,data){
-				if(!this.data[type]) this.data[type] = {};
+				if(typeof this.data[type]!=="object") this.data[type] = {};
 				for(var i = 0; i < data.length; i++){
 					code = data[i]['ccode'];
 					if(code) this.data[type][code] = {'candidates': parseInt(data[i].number)};

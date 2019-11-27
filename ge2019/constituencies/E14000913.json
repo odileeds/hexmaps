@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11804/robert_goodwill/scarborough_and_whitby",
 			"electorate": 73599,
 			"turnout": 68.5,
+			"valid": 50449,
 			"spoiled": 74,
 			"majority": 3435
 		},
@@ -39,6 +40,7 @@
 			"mp": "Robert Goodwill",
 			"electorate": 73511,
 			"turnout": 65.2,
+			"valid": 47739,
 			"spoiled": 186,
 			"majority": 6200
 		}

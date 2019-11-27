@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24740/alun_cairns/vale_of_glamorgan",
 			"electorate": 73959,
 			"turnout": 72.6,
+			"valid": 53718,
 			"spoiled": 63,
 			"majority": 2190
 		},
@@ -39,6 +40,7 @@
 			"mp": "Alun Cairns",
 			"electorate": 72794,
 			"turnout": 70.6,
+			"valid": 51293,
 			"spoiled": 86,
 			"majority": 6880
 		}

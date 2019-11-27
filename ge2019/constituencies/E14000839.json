@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25427/simon_hoare/north_dorset",
 			"electorate": 76324,
 			"turnout": 73.0,
+			"valid": 55724,
 			"spoiled": 167,
 			"majority": 25777
 		},
@@ -39,6 +40,7 @@
 			"mp": "Simon Hoare",
 			"electorate": 73759,
 			"turnout": 72.6,
+			"valid": 53385,
 			"spoiled": 160,
 			"majority": 21118
 		}

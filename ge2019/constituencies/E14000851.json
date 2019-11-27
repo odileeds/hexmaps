@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24870/justin_tomlinson/north_swindon",
 			"electorate": 80168,
 			"turnout": 68.5,
+			"valid": 54911,
 			"spoiled": 104,
 			"majority": 8335
 		},
@@ -39,6 +40,7 @@
 			"mp": "Justin Tomlinson",
 			"electorate": 80983,
 			"turnout": 64.7,
+			"valid": 52242,
 			"spoiled": 148,
 			"majority": 11786
 		}

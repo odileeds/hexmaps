@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25684/danielle_rowley/midlothian",
 			"electorate": 68328,
 			"turnout": 66.3,
+			"valid": 45273,
 			"spoiled": 71,
 			"majority": 885
 		},
@@ -39,6 +40,7 @@
 			"mp": "Owen Thompson",
 			"electorate": 67875,
 			"turnout": 71.3,
+			"valid": 48331,
 			"spoiled": 34,
 			"majority": 9859
 		}

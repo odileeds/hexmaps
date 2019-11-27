@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10243/dominic_grieve/beaconsfield",
 			"electorate": 77524,
 			"turnout": 72.3,
+			"valid": 56028,
 			"spoiled": 109,
 			"majority": 24543
 		},
@@ -44,6 +45,7 @@
 			"mp": "Dominic Grieve",
 			"electorate": 74726,
 			"turnout": 71.5,
+			"valid": 53163,
 			"spoiled": 261,
 			"majority": 26311
 		}

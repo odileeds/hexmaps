@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10095/bill_cash/stone",
 			"electorate": 67824,
 			"turnout": 73.8,
+			"valid": 50032,
 			"spoiled": 99,
 			"majority": 17495
 		},
@@ -39,6 +40,7 @@
 			"mp": "Bill Cash",
 			"electorate": 67339,
 			"turnout": 70.0,
+			"valid": 47031,
 			"spoiled": 138,
 			"majority": 16250
 		}

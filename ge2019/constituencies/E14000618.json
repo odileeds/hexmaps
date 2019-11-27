@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25350/amanda_milling/cannock_chase",
 			"electorate": 74540,
 			"turnout": 64.2,
+			"valid": 47872,
 			"spoiled": 78,
 			"majority": 8391
 		},
@@ -34,6 +35,7 @@
 			"mp": "Amanda Milling",
 			"electorate": 74532,
 			"turnout": 63.4,
+			"valid": 47099,
 			"spoiled": 169,
 			"majority": 4923
 		}

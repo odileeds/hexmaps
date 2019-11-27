@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25387/tom_pursglove/corby",
 			"electorate": 83020,
 			"turnout": 72.3,
+			"valid": 59997,
 			"spoiled": 94,
 			"majority": 2690
 		},
@@ -34,6 +35,7 @@
 			"mp": "Tom Pursglove",
 			"electorate": 79775,
 			"turnout": 70.6,
+			"valid": 56174,
 			"spoiled": 132,
 			"majority": 2412
 		}

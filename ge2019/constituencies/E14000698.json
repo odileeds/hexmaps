@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10061/ben_bradshaw/exeter",
 			"electorate": 77330,
 			"turnout": 71.7,
+			"valid": 55423,
 			"spoiled": 131,
 			"majority": 16117
 		},
@@ -49,6 +50,7 @@
 			"mp": "Ben Bradshaw",
 			"electorate": 76968,
 			"turnout": 70.4,
+			"valid": 54018,
 			"spoiled": 200,
 			"majority": 7183
 		}

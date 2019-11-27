@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11172/mark_prisk/hertford_and_stortford",
 			"electorate": 82339,
 			"turnout": 72.9,
+			"valid": 59992,
 			"spoiled": 230,
 			"majority": 19035
 		},
@@ -49,6 +50,7 @@
 			"mp": "Mark Prisk",
 			"electorate": 80610,
 			"turnout": 70.1,
+			"valid": 56277,
 			"spoiled": 266,
 			"majority": 21509
 		}

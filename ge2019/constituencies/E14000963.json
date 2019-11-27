@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25321/marie_rimmer/st_helens_south_and_whiston",
 			"electorate": 79036,
 			"turnout": 66.9,
+			"valid": 52886,
 			"spoiled": 79,
 			"majority": 24343
 		},
@@ -44,6 +45,7 @@
 			"mp": "Marie Rimmer",
 			"electorate": 77720,
 			"turnout": 62.5,
+			"valid": 48397,
 			"spoiled": 171,
 			"majority": 21243
 		}

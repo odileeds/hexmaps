@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10186/louise_ellman/liverpool%2C_riverside",
 			"electorate": 76332,
 			"turnout": 62.9,
+			"valid": 48020,
 			"spoiled": 158,
 			"majority": 35947
 		},
@@ -44,6 +45,7 @@
 			"mp": "Louise Ellman",
 			"electorate": 70829,
 			"turnout": 62.8,
+			"valid": 44263,
 			"spoiled": 249,
 			"majority": 24463
 		}

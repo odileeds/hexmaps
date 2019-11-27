@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24765/phillip_lee/bracknell",
 			"electorate": 79199,
 			"turnout": 70.6,
+			"valid": 55892,
 			"spoiled": 146,
 			"majority": 16016
 		},
@@ -44,6 +45,7 @@
 			"mp": "Phillip Lee",
 			"electorate": 81271,
 			"turnout": 65.6,
+			"valid": 53086,
 			"spoiled": 215,
 			"majority": 20650
 		}

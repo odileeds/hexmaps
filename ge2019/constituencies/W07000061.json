@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25302/liz_saville-roberts/dwyfor_meirionnydd",
 			"electorate": 44699,
 			"turnout": 67.9,
+			"valid": 30348,
 			"spoiled": 67,
 			"majority": 4850
 		},
@@ -39,6 +40,7 @@
 			"mp": "Liz Saville-Roberts",
 			"electorate": 44394,
 			"turnout": 65.3,
+			"valid": 28913,
 			"spoiled": 65,
 			"majority": 5261
 		}

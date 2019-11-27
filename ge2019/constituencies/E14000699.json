@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25272/suella_braverman/fareham",
 			"electorate": 78837,
 			"turnout": 72.3,
+			"valid": 57014,
 			"spoiled": 124,
 			"majority": 21555
 		},
@@ -39,6 +40,7 @@
 			"mp": "Suella Fernandes",
 			"electorate": 77114,
 			"turnout": 71.1,
+			"valid": 54700,
 			"spoiled": 118,
 			"majority": 22262
 		}

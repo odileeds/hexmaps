@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10352/edward_leigh/gainsborough",
 			"electorate": 75893,
 			"turnout": 67.8,
+			"valid": 51425,
 			"spoiled": 150,
 			"majority": 17023
 		},
@@ -39,6 +40,7 @@
 			"mp": "Edward Leigh",
 			"electorate": 74686,
 			"turnout": 66.2,
+			"valid": 49261,
 			"spoiled": 189,
 			"majority": 15449
 		}

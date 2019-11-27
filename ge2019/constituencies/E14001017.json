@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10319/helen_jones/warrington_north",
 			"electorate": 71918,
 			"turnout": 67.5,
+			"valid": 48517,
 			"spoiled": 99,
 			"majority": 9582
 		},
@@ -44,6 +45,7 @@
 			"mp": "Helen Jones",
 			"electorate": 72104,
 			"turnout": 63.3,
+			"valid": 45419,
 			"spoiled": 201,
 			"majority": 8923
 		}

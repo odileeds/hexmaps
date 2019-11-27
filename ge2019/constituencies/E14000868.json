@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24745/marcus_jones/nuneaton",
 			"electorate": 69201,
 			"turnout": 66.6,
+			"valid": 46067,
 			"spoiled": 71,
 			"majority": 4739
 		},
@@ -39,6 +40,7 @@
 			"mp": "Marcus Jones",
 			"electorate": 68037,
 			"turnout": 67.4,
+			"valid": 45749,
 			"spoiled": 75,
 			"majority": 4882
 		}

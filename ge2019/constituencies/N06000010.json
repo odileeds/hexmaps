@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/13836/francie_molloy/mid_ulster",
 			"electorate": 68485,
 			"turnout": 68.2,
+			"valid": 46694,
 			"spoiled": 278,
 			"majority": 12890
 		},
@@ -49,6 +50,7 @@
 			"mp": "Francie Molloy",
 			"electorate": 67832,
 			"turnout": 60.9,
+			"valid": 40922,
 			"spoiled": 395,
 			"majority": 13617
 		}

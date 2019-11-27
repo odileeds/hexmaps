@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10268/john_healey/wentworth_and_dearne",
 			"electorate": 74890,
 			"turnout": 58.7,
+			"valid": 43947,
 			"spoiled": 280,
 			"majority": 14803
 		},
@@ -49,6 +50,7 @@
 			"mp": "John Healey",
 			"electorate": 74283,
 			"turnout": 58.4,
+			"valid": 43189,
 			"spoiled": 158,
 			"majority": 13838
 		}

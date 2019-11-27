@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25692/rachel_maclean/redditch",
 			"electorate": 64413,
 			"turnout": 70.2,
+			"valid": 45203,
 			"spoiled": 95,
 			"majority": 7363
 		},
@@ -39,6 +40,7 @@
 			"mp": "Karen Lumley",
 			"electorate": 65531,
 			"turnout": 67.5,
+			"valid": 44098,
 			"spoiled": 124,
 			"majority": 7054
 		}

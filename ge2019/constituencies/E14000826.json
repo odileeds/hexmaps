@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25431/andrea_jenkyns/morley_and_outwood",
 			"electorate": 76495,
 			"turnout": 68.4,
+			"valid": 52357,
 			"spoiled": 198,
 			"majority": 2104
 		},
@@ -44,6 +45,7 @@
 			"mp": "Andrea Jenkyns",
 			"electorate": 75820,
 			"turnout": 63.8,
+			"valid": 48250,
 			"spoiled": 139,
 			"majority": 422
 		}

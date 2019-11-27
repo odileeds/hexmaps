@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10559/caroline_spelman/meriden",
 			"electorate": 81443,
 			"turnout": 67.1,
+			"valid": 54643,
 			"spoiled": 97,
 			"majority": 19198
 		},
@@ -39,6 +40,7 @@
 			"mp": "Caroline Spelman",
 			"electorate": 81928,
 			"turnout": 64.4,
+			"valid": 52603,
 			"spoiled": 161,
 			"majority": 18795
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/13933/phil_wilson/sedgefield",
 			"electorate": 63889,
 			"turnout": 65.1,
+			"valid": 41591,
 			"spoiled": 62,
 			"majority": 6059
 		},
@@ -49,6 +50,7 @@
 			"mp": "Phil Wilson",
 			"electorate": 62844,
 			"turnout": 61.8,
+			"valid": 38716,
 			"spoiled": 96,
 			"majority": 6843
 		}

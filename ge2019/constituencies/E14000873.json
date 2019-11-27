@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25618/anneliese_dodds/oxford_east",
 			"electorate": 78350,
 			"turnout": 68.8,
+			"valid": 53896,
 			"spoiled": 90,
 			"majority": 23284
 		},
@@ -59,6 +60,7 @@
 			"mp": "Andrew Smith",
 			"electorate": 78978,
 			"turnout": 64.4,
+			"valid": 50689,
 			"spoiled": 165,
 			"majority": 15280
 		}

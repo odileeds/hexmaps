@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25593/robert_courts/witney",
 			"electorate": 82727,
 			"turnout": 73.6,
+			"valid": 60927,
 			"spoiled": 124,
 			"majority": 21241
 		},
@@ -34,6 +35,7 @@
 			"mp": "David Cameron",
 			"electorate": 79767,
 			"turnout": 73.6,
+			"valid": 58482,
 			"spoiled": 188,
 			"majority": 25155
 		}

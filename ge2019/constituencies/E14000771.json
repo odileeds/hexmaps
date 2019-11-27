@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24767/karl_turner/kingston_upon_hull_east",
 			"electorate": 65959,
 			"turnout": 55.5,
+			"valid": 36638,
 			"spoiled": 60,
 			"majority": 10396
 		},
@@ -44,6 +45,7 @@
 			"mp": "Karl Turner",
 			"electorate": 65710,
 			"turnout": 53.6,
+			"valid": 35144,
 			"spoiled": 102,
 			"majority": 10319
 		}

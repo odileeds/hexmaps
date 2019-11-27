@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25381/nigel_huddleston/mid_worcestershire",
 			"electorate": 76057,
 			"turnout": 72.4,
+			"valid": 55089,
 			"spoiled": 102,
 			"majority": 23326
 		},
@@ -44,6 +45,7 @@
 			"mp": "Nigel Huddleston",
 			"electorate": 73069,
 			"turnout": 71.7,
+			"valid": 52225,
 			"spoiled": 199,
 			"majority": 20532
 		}

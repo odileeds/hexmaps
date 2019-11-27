@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25402/thangam_debbonaire/bristol_west",
 			"electorate": 93003,
 			"turnout": 77.0,
+			"valid": 71608,
 			"spoiled": 174,
 			"majority": 37336
 		},
@@ -39,6 +40,7 @@
 			"mp": "Thangam Debbonaire",
 			"electorate": 91236,
 			"turnout": 70.6,
+			"valid": 64218,
 			"spoiled": 198,
 			"majority": 5673
 		}

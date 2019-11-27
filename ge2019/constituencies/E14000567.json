@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10377/steve_mccabe/birmingham%2C_selly_oak",
 			"electorate": 74370,
 			"turnout": 65.9,
+			"valid": 48985,
 			"spoiled": 138,
 			"majority": 15207
 		},
@@ -44,6 +45,7 @@
 			"mp": "Stephen McCabe",
 			"electorate": 75092,
 			"turnout": 60.6,
+			"valid": 45294,
 			"spoiled": 175,
 			"majority": 8447
 		}

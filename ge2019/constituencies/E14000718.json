@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25379/matthew_pennycook/greenwich_and_woolwich",
 			"electorate": 77190,
 			"turnout": 68.8,
+			"valid": 53106,
 			"spoiled": 200,
 			"majority": 20714
 		},
@@ -54,6 +55,7 @@
 			"mp": "Matthew Pennycook",
 			"electorate": 73315,
 			"turnout": 64.0,
+			"valid": 46716,
 			"spoiled": 171,
 			"majority": 11946
 		}

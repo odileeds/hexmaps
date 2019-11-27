@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25268/alan_brown/kilmarnock_and_loudoun",
 			"electorate": 73327,
 			"turnout": 63.4,
+			"valid": 46509,
 			"spoiled": 81,
 			"majority": 6269
 		},
@@ -44,6 +45,7 @@
 			"mp": "Alan Brown",
 			"electorate": 75250,
 			"turnout": 71.8,
+			"valid": 53903,
 			"spoiled": 92,
 			"majority": 13638
 		}

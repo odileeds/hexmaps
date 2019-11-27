@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/13864/jim_shannon/strangford",
 			"electorate": 64327,
 			"turnout": 60.2,
+			"valid": 38749,
 			"spoiled": 77,
 			"majority": 18343
 		},
@@ -59,6 +60,7 @@
 			"mp": "Jim Shannon",
 			"electorate": 64289,
 			"turnout": 53.0,
+			"valid": 33924,
 			"spoiled": 180,
 			"majority": 10185
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11927/stephen_hammond/wimbledon",
 			"electorate": 66780,
 			"turnout": 77.2,
+			"valid": 51526,
 			"spoiled": 127,
 			"majority": 5622
 		},
@@ -39,6 +40,7 @@
 			"mp": "Stephen Hammond",
 			"electorate": 65853,
 			"turnout": 73.7,
+			"valid": 48422,
 			"spoiled": 144,
 			"majority": 12619
 		}

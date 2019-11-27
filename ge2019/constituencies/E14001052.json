@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24862/robin_walker/worcester",
 			"electorate": 73893,
 			"turnout": 69.6,
+			"valid": 51423,
 			"spoiled": 92,
 			"majority": 2508
 		},
@@ -44,6 +45,7 @@
 			"mp": "Robin Walker",
 			"electorate": 72461,
 			"turnout": 68.8,
+			"valid": 49723,
 			"spoiled": 137,
 			"majority": 5646
 		}

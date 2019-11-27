@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25680/alex_sobel/leeds_north_west",
 			"electorate": 68152,
 			"turnout": 67.9,
+			"valid": 46287,
 			"spoiled": 97,
 			"majority": 4224
 		},
@@ -44,6 +45,7 @@
 			"mp": "Greg Mulholland",
 			"electorate": 61974,
 			"turnout": 70.2,
+			"valid": 43357,
 			"spoiled": 159,
 			"majority": 2907
 		}

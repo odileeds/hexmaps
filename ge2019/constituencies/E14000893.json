@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10051/crispin_blunt/reigate",
 			"electorate": 74628,
 			"turnout": 72.1,
+			"valid": 53823,
 			"spoiled": 170,
 			"majority": 17614
 		},
@@ -44,6 +45,7 @@
 			"mp": "Crispin Blunt",
 			"electorate": 73429,
 			"turnout": 70.2,
+			"valid": 51349,
 			"spoiled": 165,
 			"majority": 22334
 		}

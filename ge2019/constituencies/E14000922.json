@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25636/jared_o%27mara/sheffield%2C_hallam",
 			"electorate": 73455,
 			"turnout": 77.6,
+			"valid": 57020,
 			"spoiled": 89,
 			"majority": 2125
 		},
@@ -54,6 +55,7 @@
 			"mp": "Nick Clegg",
 			"electorate": 72351,
 			"turnout": 76.9,
+			"valid": 55481,
 			"spoiled": 121,
 			"majority": 2353
 		}

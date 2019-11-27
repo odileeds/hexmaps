@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24829/andrea_leadsom/south_northamptonshire",
 			"electorate": 85759,
 			"turnout": 75.8,
+			"valid": 64998,
 			"spoiled": 125,
 			"majority": 22840
 		},
@@ -49,6 +50,7 @@
 			"mp": "Andrea Leadsom",
 			"electorate": 85781,
 			"turnout": 71.2,
+			"valid": 60862,
 			"spoiled": 187,
 			"majority": 26416
 		}

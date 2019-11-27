@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24780/conor_burns/bournemouth_west",
 			"electorate": 73195,
 			"turnout": 60.8,
+			"valid": 44507,
 			"spoiled": 147,
 			"majority": 7711
 		},
@@ -39,6 +40,7 @@
 			"mp": "Conor Burns",
 			"electorate": 72082,
 			"turnout": 58.2,
+			"valid": 41773,
 			"spoiled": 171,
 			"majority": 12410
 		}

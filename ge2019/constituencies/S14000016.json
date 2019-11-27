@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25270/chris_law/dundee_west",
 			"electorate": 62644,
 			"turnout": 61.7,
+			"valid": 38677,
 			"spoiled": 99,
 			"majority": 5262
 		},
@@ -49,6 +50,7 @@
 			"mp": "Chris Law",
 			"electorate": 65927,
 			"turnout": 67.9,
+			"valid": 44714,
 			"spoiled": 46,
 			"majority": 17092
 		}

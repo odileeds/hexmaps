@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25382/drew_hendry/inverness%2C_nairn%2C_badenoch_and_strathspey",
 			"electorate": 76844,
 			"turnout": 68.7,
+			"valid": 52801,
 			"spoiled": 67,
 			"majority": 4924
 		},
@@ -49,6 +50,7 @@
 			"mp": "Drew Hendry",
 			"electorate": 77628,
 			"turnout": 74.3,
+			"valid": 57613,
 			"spoiled": 54,
 			"majority": 10809
 		}

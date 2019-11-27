@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11610/greg_hands/chelsea_and_fulham",
 			"electorate": 63728,
 			"turnout": 66.1,
+			"valid": 42128,
 			"spoiled": 126,
 			"majority": 8188
 		},
@@ -39,6 +40,7 @@
 			"mp": "Greg Hands",
 			"electorate": 63478,
 			"turnout": 63.6,
+			"valid": 40226,
 			"spoiled": 133,
 			"majority": 16022
 		}

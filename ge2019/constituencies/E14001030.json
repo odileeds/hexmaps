@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10683/adrian_bailey/west_bromwich_west",
 			"electorate": 65967,
 			"turnout": 54.7,
+			"valid": 36094,
 			"spoiled": 90,
 			"majority": 4460
 		},
@@ -44,6 +45,7 @@
 			"mp": "Adrian Bailey",
 			"electorate": 65524,
 			"turnout": 53.7,
+			"valid": 35026,
 			"spoiled": 130,
 			"majority": 7742
 		}

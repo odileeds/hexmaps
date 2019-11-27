@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25181/emma_lewell-buck/south_shields",
 			"electorate": 63433,
 			"turnout": 64.3,
+			"valid": 40772,
 			"spoiled": 77,
 			"majority": 14508
 		},
@@ -49,6 +50,7 @@
 			"mp": "Emma Lewell-Buck",
 			"electorate": 62730,
 			"turnout": 57.9,
+			"valid": 36265,
 			"spoiled": 81,
 			"majority": 10614
 		}

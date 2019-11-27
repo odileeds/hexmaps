@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24773/matthew_hancock/west_suffolk",
 			"electorate": 77348,
 			"turnout": 66.9,
+			"valid": 51746,
 			"spoiled": 104,
 			"majority": 17063
 		},
@@ -39,6 +40,7 @@
 			"mp": "Matthew Hancock",
 			"electorate": 76198,
 			"turnout": 64.9,
+			"valid": 49232,
 			"spoiled": 197,
 			"majority": 14984
 		}

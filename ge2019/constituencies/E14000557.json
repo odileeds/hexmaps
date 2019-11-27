@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25426/huw_merriman/bexhill_and_battle",
 			"electorate": 81331,
 			"turnout": 73.1,
+			"valid": 59472,
 			"spoiled": 102,
 			"majority": 22165
 		},
@@ -39,6 +40,7 @@
 			"mp": "Huw Merriman",
 			"electorate": 78796,
 			"turnout": 70.5,
+			"valid": 55218,
 			"spoiled": 300,
 			"majority": 20075
 		}

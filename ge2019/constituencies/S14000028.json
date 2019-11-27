@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25271/john_mcnally/falkirk",
 			"electorate": 82240,
 			"turnout": 65.4,
+			"valid": 53809,
 			"spoiled": 58,
 			"majority": 4923
 		},
@@ -44,6 +45,7 @@
 			"mp": "John McNally",
 			"electorate": 83380,
 			"turnout": 72.4,
+			"valid": 60340,
 			"spoiled": 57,
 			"majority": 19701
 		}

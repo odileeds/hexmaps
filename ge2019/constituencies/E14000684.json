@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24754/stephen_lloyd/eastbourne",
 			"electorate": 78754,
 			"turnout": 72.9,
+			"valid": 57420,
 			"spoiled": 91,
 			"majority": 1609
 		},
@@ -44,6 +45,7 @@
 			"mp": "Caroline Ansell",
 			"electorate": 78262,
 			"turnout": 67.8,
+			"valid": 52907,
 			"spoiled": 154,
 			"majority": 733
 		}

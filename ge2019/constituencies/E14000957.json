@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10009/sir_david_amess/southend_west",
 			"electorate": 67677,
 			"turnout": 69.7,
+			"valid": 47191,
 			"spoiled": 101,
 			"majority": 10000
 		},
@@ -39,6 +40,7 @@
 			"mp": "David Amess",
 			"electorate": 66876,
 			"turnout": 66.8,
+			"valid": 44509,
 			"spoiled": 145,
 			"majority": 14021
 		}

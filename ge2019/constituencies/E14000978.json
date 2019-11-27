@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24950/chuka_umunna/streatham",
 			"electorate": 78649,
 			"turnout": 70.9,
+			"valid": 55795,
 			"spoiled": 161,
 			"majority": 26285
 		},
@@ -44,6 +45,7 @@
 			"mp": "Chuka Umunna",
 			"electorate": 79137,
 			"turnout": 63.3,
+			"valid": 49933,
 			"spoiled": 155,
 			"majority": 13934
 		}

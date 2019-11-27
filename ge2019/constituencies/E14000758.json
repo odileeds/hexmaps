@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24835/graham_jones/hyndburn",
 			"electorate": 71608,
 			"turnout": 63.1,
+			"valid": 45202,
 			"spoiled": 105,
 			"majority": 5815
 		},
@@ -44,6 +45,7 @@
 			"mp": "Graham Jones",
 			"electorate": 68341,
 			"turnout": 63.0,
+			"valid": 42887,
 			"spoiled": 179,
 			"majority": 4400
 		}

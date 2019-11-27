@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25298/kate_hollern/blackburn",
 			"electorate": 70664,
 			"turnout": 67.2,
+			"valid": 47515,
 			"spoiled": 187,
 			"majority": 20368
 		},
@@ -49,6 +50,7 @@
 			"mp": "Kate Hollern",
 			"electorate": 73260,
 			"turnout": 60.5,
+			"valid": 43999,
 			"spoiled": 325,
 			"majority": 12760
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24873/caroline_dinenage/gosport",
 			"electorate": 74152,
 			"turnout": 66.7,
+			"valid": 49481,
 			"spoiled": 28,
 			"majority": 17211
 		},
@@ -39,6 +40,7 @@
 			"mp": "Caroline Dinenage",
 			"electorate": 73268,
 			"turnout": 65.2,
+			"valid": 47665,
 			"spoiled": 86,
 			"majority": 17098
 		}

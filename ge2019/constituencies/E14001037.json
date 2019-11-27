@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11923/tim_farron/westmorland_and_lonsdale",
 			"electorate": 66391,
 			"turnout": 77.9,
+			"valid": 51687,
 			"spoiled": 81,
 			"majority": 777
 		},
@@ -39,6 +40,7 @@
 			"mp": "Tim Farron",
 			"electorate": 65857,
 			"turnout": 74.5,
+			"valid": 48929,
 			"spoiled": 123,
 			"majority": 8949
 		}

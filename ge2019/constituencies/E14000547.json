@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25648/wera_hobhouse/bath",
 			"electorate": 66778,
 			"turnout": 74.3,
+			"valid": 49583,
 			"spoiled": 112,
 			"majority": 5694
 		},
@@ -44,6 +45,7 @@
 			"mp": "Ben Howlett",
 			"electorate": 63084,
 			"turnout": 75.1,
+			"valid": 47167,
 			"spoiled": 192,
 			"majority": 3833
 		}

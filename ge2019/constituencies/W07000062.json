@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24720/susan_elan_jones/clwyd_south",
 			"electorate": 53729,
 			"turnout": 69.7,
+			"valid": 37474,
 			"spoiled": 56,
 			"majority": 4356
 		},
@@ -44,6 +45,7 @@
 			"mp": "Susan Elan Jones",
 			"electorate": 54996,
 			"turnout": 63.9,
+			"valid": 35064,
 			"spoiled": 55,
 			"majority": 2402
 		}

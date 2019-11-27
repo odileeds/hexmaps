@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11667/rosie_cooper/west_lancashire",
 			"electorate": 73257,
 			"turnout": 74.2,
+			"valid": 54389,
 			"spoiled": 114,
 			"majority": 11689
 		},
@@ -44,6 +45,7 @@
 			"mp": "Rosie Cooper",
 			"electorate": 70906,
 			"turnout": 70.2,
+			"valid": 49676,
 			"spoiled": 117,
 			"majority": 8360
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24845/toby_perkins/chesterfield",
 			"electorate": 72069,
 			"turnout": 66.5,
+			"valid": 47927,
 			"spoiled": 74,
 			"majority": 9605
 		},
@@ -49,6 +50,7 @@
 			"mp": "Toby Perkins",
 			"electorate": 71625,
 			"turnout": 63.9,
+			"valid": 45567,
 			"spoiled": 179,
 			"majority": 13598
 		}

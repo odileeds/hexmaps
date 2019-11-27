@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25341/tommy_sheppard/edinburgh_east",
 			"electorate": 65896,
 			"turnout": 66.0,
+			"valid": 43523,
 			"spoiled": 100,
 			"majority": 3425
 		},
@@ -44,6 +45,7 @@
 			"mp": "Tommy Sheppard",
 			"electorate": 67141,
 			"turnout": 70.2,
+			"valid": 47089,
 			"spoiled": 69,
 			"majority": 9106
 		}

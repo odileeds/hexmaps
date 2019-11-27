@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24831/lisa_nandy/wigan",
 			"electorate": 75359,
 			"turnout": 63.1,
+			"valid": 47542,
 			"spoiled": 96,
 			"majority": 16027
 		},
@@ -44,6 +45,7 @@
 			"mp": "Lisa Nandy",
 			"electorate": 75990,
 			"turnout": 59.8,
+			"valid": 45293,
 			"spoiled": 126,
 			"majority": 14236
 		}

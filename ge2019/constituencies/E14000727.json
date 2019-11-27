@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25344/tulip_siddiq/hampstead_and_kilburn",
 			"electorate": 82957,
 			"turnout": 70.4,
+			"valid": 58407,
 			"spoiled": 165,
 			"majority": 15560
 		},
@@ -44,6 +45,7 @@
 			"mp": "Tulip Siddiq",
 			"electorate": 80195,
 			"turnout": 67.5,
+			"valid": 53964,
 			"spoiled": 184,
 			"majority": 1138
 		}

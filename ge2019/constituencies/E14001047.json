@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24884/jonathan_lord/woking",
 			"electorate": 76170,
 			"turnout": 72.5,
+			"valid": 55246,
 			"spoiled": 127,
 			"majority": 16724
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jonathan Lord",
 			"electorate": 74269,
 			"turnout": 70.2,
+			"valid": 51964,
 			"spoiled": 149,
 			"majority": 20810
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24807/chi_onwurah/newcastle_upon_tyne_central",
 			"electorate": 55368,
 			"turnout": 67.0,
+			"valid": 37094,
 			"spoiled": 79,
 			"majority": 14937
 		},
@@ -44,6 +45,7 @@
 			"mp": "Chi Onwurah",
 			"electorate": 58147,
 			"turnout": 60.5,
+			"valid": 35085,
 			"spoiled": 97,
 			"majority": 12673
 		}

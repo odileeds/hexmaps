@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10523/joan_ryan/enfield_north",
 			"electorate": 68076,
 			"turnout": 71.3,
+			"valid": 48565,
 			"spoiled": 125,
 			"majority": 10247
 		},
@@ -44,6 +45,7 @@
 			"mp": "Joan Ryan",
 			"electorate": 68118,
 			"turnout": 67.9,
+			"valid": 46137,
 			"spoiled": 117,
 			"majority": 1086
 		}

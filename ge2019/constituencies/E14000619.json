@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25656/rosie_duffield/canterbury",
 			"electorate": 78182,
 			"turnout": 72.7,
+			"valid": 56800,
 			"spoiled": 178,
 			"majority": 187
 		},
@@ -39,6 +40,7 @@
 			"mp": "Julian Brazier",
 			"electorate": 81341,
 			"turnout": 66.0,
+			"valid": 53465,
 			"spoiled": 182,
 			"majority": 9798
 		}

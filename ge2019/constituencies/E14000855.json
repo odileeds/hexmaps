@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11475/shailesh_vara/north_west_cambridgeshire",
 			"electorate": 93221,
 			"turnout": 68.6,
+			"valid": 63991,
 			"spoiled": 132,
 			"majority": 18008
 		},
@@ -39,6 +40,7 @@
 			"mp": "Shailesh Vara",
 			"electorate": 90318,
 			"turnout": 67.8,
+			"valid": 61100,
 			"spoiled": 180,
 			"majority": 19795
 		}

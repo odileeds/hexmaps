@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25300/patricia_gibson/north_ayrshire_and_arran",
 			"electorate": 73176,
 			"turnout": 64.8,
+			"valid": 47433,
 			"spoiled": 82,
 			"majority": 3633
 		},
@@ -44,6 +45,7 @@
 			"mp": "Patricia Gibson",
 			"electorate": 75791,
 			"turnout": 71.2,
+			"valid": 53869,
 			"spoiled": 86,
 			"majority": 13573
 		}

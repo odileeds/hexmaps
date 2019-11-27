@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10715/john_baron/basildon_and_billericay",
 			"electorate": 69149,
 			"turnout": 65.0,
+			"valid": 44918,
 			"spoiled": 121,
 			"majority": 13400
 		},
@@ -44,6 +45,7 @@
 			"mp": "John Baron",
 			"electorate": 66347,
 			"turnout": 65.2,
+			"valid": 43028,
 			"spoiled": 198,
 			"majority": 12482
 		}

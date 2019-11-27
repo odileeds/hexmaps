@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24785/harriett_baldwin/west_worcestershire",
 			"electorate": 74375,
 			"turnout": 75.9,
+			"valid": 56471,
 			"spoiled": 112,
 			"majority": 21328
 		},
@@ -39,6 +40,7 @@
 			"mp": "Harriett Baldwin",
 			"electorate": 73394,
 			"turnout": 74.0,
+			"valid": 54100,
 			"spoiled": 198,
 			"majority": 22578
 		}

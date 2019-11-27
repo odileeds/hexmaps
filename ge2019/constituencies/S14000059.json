@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25275/martin_docherty/west_dunbartonshire",
 			"electorate": 67602,
 			"turnout": 65.2,
+			"valid": 44083,
 			"spoiled": 86,
 			"majority": 2288
 		},
@@ -49,6 +50,7 @@
 			"mp": "Martin Docherty",
 			"electorate": 69208,
 			"turnout": 74.0,
+			"valid": 51141,
 			"spoiled": 61,
 			"majority": 14171
 		}

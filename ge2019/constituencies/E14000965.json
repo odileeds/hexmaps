@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24760/jeremy_lefroy/stafford",
 			"electorate": 68445,
 			"turnout": 75.9,
+			"valid": 51924,
 			"spoiled": 122,
 			"majority": 7729
 		},
@@ -39,6 +40,7 @@
 			"mp": "Jeremy Lefroy",
 			"electorate": 68705,
 			"turnout": 71.2,
+			"valid": 48767,
 			"spoiled": 173,
 			"majority": 9177
 		}

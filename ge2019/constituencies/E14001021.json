@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24954/richard_harrington/watford",
 			"electorate": 86507,
 			"turnout": 67.8,
+			"valid": 58610,
 			"spoiled": 113,
 			"majority": 2092
 		},
@@ -39,6 +40,7 @@
 			"mp": "Richard Harrington",
 			"electorate": 83535,
 			"turnout": 67.5,
+			"valid": 56149,
 			"spoiled": 211,
 			"majority": 9794
 		}

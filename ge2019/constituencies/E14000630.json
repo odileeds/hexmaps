@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25340/alex_chalk/cheltenham",
 			"electorate": 78878,
 			"turnout": 72.3,
+			"valid": 57012,
 			"spoiled": 107,
 			"majority": 2569
 		},
@@ -39,6 +40,7 @@
 			"mp": "Alex Chalk",
 			"electorate": 77287,
 			"turnout": 69.7,
+			"valid": 53735,
 			"spoiled": 104,
 			"majority": 6516
 		}

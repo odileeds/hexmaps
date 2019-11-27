@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/13904/paul_maskey/belfast_west",
 			"electorate": 62423,
 			"turnout": 65.1,
+			"valid": 40633,
 			"spoiled": 190,
 			"majority": 21652
 		},
@@ -49,6 +50,7 @@
 			"mp": "Paul Maskey",
 			"electorate": 62697,
 			"turnout": 56.8,
+			"valid": 35329,
 			"spoiled": 281,
 			"majority": 12365
 		}

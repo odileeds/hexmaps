@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10348/eleanor_laing/epping_forest",
 			"electorate": 74737,
 			"turnout": 67.9,
+			"valid": 50779,
 			"spoiled": 130,
 			"majority": 18243
 		},
@@ -49,6 +50,7 @@
 			"mp": "Eleanor Laing",
 			"electorate": 73447,
 			"turnout": 67.4,
+			"valid": 49348,
 			"spoiled": 142,
 			"majority": 17978
 		}

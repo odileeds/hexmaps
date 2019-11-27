@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25475/jim_mcmahon/oldham_west_and_royton",
 			"electorate": 72401,
 			"turnout": 63.2,
+			"valid": 45788,
 			"spoiled": 99,
 			"majority": 17198
 		},
@@ -54,6 +55,7 @@
 			"mp": "Michael Meacher",
 			"electorate": 71652,
 			"turnout": 60.5,
+			"valid": 43137,
 			"spoiled": 202,
 			"majority": 14738
 		}

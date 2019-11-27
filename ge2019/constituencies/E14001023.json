@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25354/nusrat_ghani/wealden",
 			"electorate": 81425,
 			"turnout": 74.3,
+			"valid": 60464,
 			"spoiled": 113,
 			"majority": 23628
 		},
@@ -39,6 +40,7 @@
 			"mp": "Nusrat Ghani",
 			"electorate": 80236,
 			"turnout": 71.3,
+			"valid": 57017,
 			"spoiled": 181,
 			"majority": 22967
 		}

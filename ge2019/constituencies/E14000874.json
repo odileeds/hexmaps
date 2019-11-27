@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25689/layla_moran/oxford_west_and_abingdon",
 			"electorate": 75574,
 			"turnout": 79.4,
+			"valid": 60020,
 			"spoiled": 114,
 			"majority": 816
 		},
@@ -39,6 +40,7 @@
 			"mp": "Nicola Blackwood",
 			"electorate": 76174,
 			"turnout": 75.4,
+			"valid": 57247,
 			"spoiled": 153,
 			"majority": 9582
 		}

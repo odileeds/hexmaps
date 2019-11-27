@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25336/deidre_brock/edinburgh_north_and_leith",
 			"electorate": 79473,
 			"turnout": 71.2,
+			"valid": 56552,
 			"spoiled": 72,
 			"majority": 1625
 		},
@@ -54,6 +55,7 @@
 			"mp": "Deidre  Brock",
 			"electorate": 80910,
 			"turnout": 71.8,
+			"valid": 58008,
 			"spoiled": 76,
 			"majority": 5597
 		}

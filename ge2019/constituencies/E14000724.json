@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10162/david_davis/haltemprice_and_howden",
 			"electorate": 71519,
 			"turnout": 71.9,
+			"valid": 51440,
 			"spoiled": 159,
 			"majority": 15405
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Davis",
 			"electorate": 71195,
 			"turnout": 68.7,
+			"valid": 48757,
 			"spoiled": 180,
 			"majority": 16195
 		}

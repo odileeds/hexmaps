@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25695/tanmanjeet_singh_dhesi/slough",
 			"electorate": 83272,
 			"turnout": 65.2,
+			"valid": 54295,
 			"spoiled": 168,
 			"majority": 16998
 		},
@@ -44,6 +45,7 @@
 			"mp": "Fiona Mactaggart",
 			"electorate": 86366,
 			"turnout": 56.2,
+			"valid": 48275,
 			"spoiled": 260,
 			"majority": 7336
 		}

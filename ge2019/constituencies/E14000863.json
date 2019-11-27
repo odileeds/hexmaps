@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24691/chloe_smith/norwich_north",
 			"electorate": 66924,
 			"turnout": 68.6,
+			"valid": 45895,
 			"spoiled": 82,
 			"majority": 507
 		},
@@ -44,6 +45,7 @@
 			"mp": "Chloe Smith",
 			"electorate": 64515,
 			"turnout": 67.8,
+			"valid": 43592,
 			"spoiled": 173,
 			"majority": 4463
 		}

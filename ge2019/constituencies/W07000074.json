@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25490/chris_elmore/ogmore",
 			"electorate": 57125,
 			"turnout": 65.1,
+			"valid": 37204,
 			"spoiled": 72,
 			"majority": 13871
 		},
@@ -49,6 +50,7 @@
 			"mp": "Huw Irranca-Davies",
 			"electorate": 55572,
 			"turnout": 63.6,
+			"valid": 35250,
 			"spoiled": 72,
 			"majority": 13043
 		}

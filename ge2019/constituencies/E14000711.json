@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24920/rehman_chishti/gillingham_and_rainham",
 			"electorate": 72903,
 			"turnout": 67.0,
+			"valid": 48868,
 			"spoiled": 90,
 			"majority": 9430
 		},
@@ -54,6 +55,7 @@
 			"mp": "Rehman Chishti",
 			"electorate": 70984,
 			"turnout": 66.6,
+			"valid": 47078,
 			"spoiled": 194,
 			"majority": 10530
 		}

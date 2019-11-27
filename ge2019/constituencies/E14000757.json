@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10854/jonathan_djanogly/huntingdon",
 			"electorate": 84273,
 			"turnout": 70.9,
+			"valid": 59720,
 			"spoiled": 136,
 			"majority": 14475
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jonathan Djanogly",
 			"electorate": 82593,
 			"turnout": 67.9,
+			"valid": 55927,
 			"spoiled": 177,
 			"majority": 19403
 		}

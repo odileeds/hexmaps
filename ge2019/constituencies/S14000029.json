@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25327/alison_thewliss/glasgow_central",
 			"electorate": 64346,
 			"turnout": 55.9,
+			"valid": 35984,
 			"spoiled": 114,
 			"majority": 2267
 		},
@@ -44,6 +45,7 @@
 			"mp": "Alison Thewliss",
 			"electorate": 70945,
 			"turnout": 55.5,
+			"valid": 39318,
 			"spoiled": 63,
 			"majority": 7662
 		}

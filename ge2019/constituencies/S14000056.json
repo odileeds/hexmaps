@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25612/ged_killen/rutherglen_and_hamilton_west",
 			"electorate": 80098,
 			"turnout": 63.5,
+			"valid": 50872,
 			"spoiled": 57,
 			"majority": 265
 		},
@@ -44,6 +45,7 @@
 			"mp": "Margaret Ferrier",
 			"electorate": 82830,
 			"turnout": 69.6,
+			"valid": 57615,
 			"spoiled": 54,
 			"majority": 9975
 		}

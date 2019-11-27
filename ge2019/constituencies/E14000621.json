@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10063/tom_brake/carshalton_and_wallington",
 			"electorate": 70849,
 			"turnout": 71.6,
+			"valid": 50753,
 			"spoiled": 97,
 			"majority": 1369
 		},
@@ -49,6 +50,7 @@
 			"mp": "Tom Brake",
 			"electorate": 69981,
 			"turnout": 68.2,
+			"valid": 47613,
 			"spoiled": 131,
 			"majority": 1510
 		}

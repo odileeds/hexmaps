@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25331/paul_scully/sutton_and_cheam",
 			"electorate": 70404,
 			"turnout": 73.8,
+			"valid": 51970,
 			"spoiled": 123,
 			"majority": 12698
 		},
@@ -39,6 +40,7 @@
 			"mp": "Paul Scully",
 			"electorate": 69228,
 			"turnout": 72.3,
+			"valid": 49905,
 			"spoiled": 116,
 			"majority": 3921
 		}

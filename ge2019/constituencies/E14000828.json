@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10580/desmond_swayne/new_forest_west",
 			"electorate": 68786,
 			"turnout": 72.1,
+			"valid": 49627,
 			"spoiled": 98,
 			"majority": 23431
 		},
@@ -39,6 +40,7 @@
 			"mp": "Desmond Swayne",
 			"electorate": 68446,
 			"turnout": 69.5,
+			"valid": 47410,
 			"spoiled": 190,
 			"majority": 20604
 		}

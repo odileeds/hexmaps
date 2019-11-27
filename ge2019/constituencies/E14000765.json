@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10274/stephen_hepburn/jarrow",
 			"electorate": 64778,
 			"turnout": 66.4,
+			"valid": 43023,
 			"spoiled": 77,
 			"majority": 17263
 		},
@@ -59,6 +60,7 @@
 			"mp": "Stephen Hepburn",
 			"electorate": 64002,
 			"turnout": 60.4,
+			"valid": 38564,
 			"spoiled": 107,
 			"majority": 13881
 		}

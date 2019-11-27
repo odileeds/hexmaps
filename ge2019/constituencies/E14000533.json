@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24965/nigel_mills/amber_valley",
 			"electorate": 68065,
 			"turnout": 67.3,
+			"valid": 45811,
 			"spoiled": 99,
 			"majority": 8300
 		},
@@ -39,6 +40,7 @@
 			"mp": "Nigel Mills",
 			"electorate": 69510,
 			"turnout": 65.9,
+			"valid": 45717,
 			"spoiled": 103,
 			"majority": 4205
 		}

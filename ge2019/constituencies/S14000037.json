@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25678/colin_clark/gordon",
 			"electorate": 78531,
 			"turnout": 68.4,
+			"valid": 53685,
 			"spoiled": 55,
 			"majority": 2607
 		},
@@ -39,6 +40,7 @@
 			"mp": "Alex  Salmond",
 			"electorate": 79393,
 			"turnout": 73.3,
+			"valid": 58161,
 			"spoiled": 62,
 			"majority": 8687
 		}

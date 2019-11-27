@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25170/steve_reed/croydon_north",
 			"electorate": 87461,
 			"turnout": 68.2,
+			"valid": 59623,
 			"spoiled": 131,
 			"majority": 32365
 		},
@@ -49,6 +50,7 @@
 			"mp": "Steve Reed",
 			"electorate": 85941,
 			"turnout": 62.5,
+			"valid": 53522,
 			"spoiled": 188,
 			"majority": 21364
 		}

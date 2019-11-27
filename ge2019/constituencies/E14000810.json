@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25683/ben_bradley/mansfield",
 			"electorate": 77811,
 			"turnout": 64.5,
+			"valid": 50157,
 			"spoiled": 99,
 			"majority": 1057
 		},
@@ -44,6 +45,7 @@
 			"mp": "Alan Meale",
 			"electorate": 77534,
 			"turnout": 61.0,
+			"valid": 47193,
 			"spoiled": 136,
 			"majority": 5315
 		}

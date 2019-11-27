@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24789/sam_gyimah/east_surrey",
 			"electorate": 82004,
 			"turnout": 72.2,
+			"valid": 59203,
 			"spoiled": 121,
 			"majority": 23914
 		},
@@ -49,6 +50,7 @@
 			"mp": "Sam Gyimah",
 			"electorate": 79654,
 			"turnout": 70.6,
+			"valid": 56103,
 			"spoiled": 161,
 			"majority": 22658
 		}

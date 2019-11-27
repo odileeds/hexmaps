@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11057/ian_lucas/wrexham",
 			"electorate": 49881,
 			"turnout": 70.4,
+			"valid": 35092,
 			"spoiled": 68,
 			"majority": 1832
 		},
@@ -49,6 +50,7 @@
 			"mp": "Ian Lucas",
 			"electorate": 50992,
 			"turnout": 64.3,
+			"valid": 32719,
 			"spoiled": 55,
 			"majority": 1831
 		}

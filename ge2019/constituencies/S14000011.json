@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25660/hugh_gaffney/coatbridge%2C_chryston_and_bellshill",
 			"electorate": 71198,
 			"turnout": 63.3,
+			"valid": 45040,
 			"spoiled": 79,
 			"majority": 1586
 		},
@@ -44,6 +45,7 @@
 			"mp": "Phil Boswell",
 			"electorate": 73894,
 			"turnout": 68.7,
+			"valid": 50698,
 			"spoiled": 55,
 			"majority": 11501
 		}

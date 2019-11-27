@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25406/carol_monaghan/glasgow_north_west",
 			"electorate": 63773,
 			"turnout": 60.9,
+			"valid": 38844,
 			"spoiled": 89,
 			"majority": 2561
 		},
@@ -39,6 +40,7 @@
 			"mp": "Carol Monaghan",
 			"electorate": 68418,
 			"turnout": 64.3,
+			"valid": 43854,
 			"spoiled": 107,
 			"majority": 10364
 		}

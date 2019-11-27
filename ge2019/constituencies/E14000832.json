@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10069/nick_brown/newcastle_upon_tyne_east",
 			"electorate": 61989,
 			"turnout": 67.2,
+			"valid": 41637,
 			"spoiled": 84,
 			"majority": 19261
 		},
@@ -39,6 +40,7 @@
 			"mp": "Nicholas Brown",
 			"electorate": 64243,
 			"turnout": 61.3,
+			"valid": 39222,
 			"spoiled": 127,
 			"majority": 12494
 		}

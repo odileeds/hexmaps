@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24711/jenny_chapman/darlington",
 			"electorate": 66341,
 			"turnout": 67.6,
+			"valid": 44817,
 			"spoiled": 79,
 			"majority": 3280
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jenny Chapman",
 			"electorate": 65851,
 			"turnout": 62.7,
+			"valid": 41141,
 			"spoiled": 163,
 			"majority": 3158
 		}

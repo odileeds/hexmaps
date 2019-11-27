@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24830/chris_williamson/derby_north",
 			"electorate": 69919,
 			"turnout": 69.6,
+			"valid": 48672,
 			"spoiled": 109,
 			"majority": 2015
 		},
@@ -49,6 +50,7 @@
 			"mp": "Amanda Solloway",
 			"electorate": 69794,
 			"turnout": 64.3,
+			"valid": 44745,
 			"spoiled": 137,
 			"majority": 41
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25662/afzal_khan/manchester%2C_gorton",
 			"electorate": 75362,
 			"turnout": 61.0,
+			"valid": 45953,
 			"spoiled": 145,
 			"majority": 31730
 		},
@@ -44,6 +45,7 @@
 			"mp": "Gerald Kaufman",
 			"electorate": 72992,
 			"turnout": 57.9,
+			"valid": 42019,
 			"spoiled": 275,
 			"majority": 24079
 		}

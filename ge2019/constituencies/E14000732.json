@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10594/gareth_thomas/harrow_west",
 			"electorate": 69797,
 			"turnout": 72.1,
+			"valid": 50355,
 			"spoiled": 128,
 			"majority": 13314
 		},
@@ -44,6 +45,7 @@
 			"mp": "Gareth Thomas",
 			"electorate": 69644,
 			"turnout": 67.1,
+			"valid": 46603,
 			"spoiled": 136,
 			"majority": 2208
 		}

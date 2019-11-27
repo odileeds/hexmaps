@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24826/andrew_griffiths/burton",
 			"electorate": 73954,
 			"turnout": 67.5,
+			"valid": 49911,
 			"spoiled": 143,
 			"majority": 10047
 		},
@@ -39,6 +40,7 @@
 			"mp": "Andrew Griffiths",
 			"electorate": 75248,
 			"turnout": 65.3,
+			"valid": 48974,
 			"spoiled": 176,
 			"majority": 10892
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11333/pete_wishart/perth_and_north_perthshire",
 			"electorate": 71762,
 			"turnout": 71.8,
+			"valid": 51525,
 			"spoiled": 99,
 			"majority": 21
 		},
@@ -44,6 +45,7 @@
 			"mp": "Pete Wishart",
 			"electorate": 72459,
 			"turnout": 74.9,
+			"valid": 54200,
 			"spoiled": 64,
 			"majority": 9641
 		}

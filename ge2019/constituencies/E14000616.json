@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24933/george_eustice/camborne_and_redruth",
 			"electorate": 68419,
 			"turnout": 70.8,
+			"valid": 48456,
 			"spoiled": 93,
 			"majority": 1577
 		},
@@ -44,6 +45,7 @@
 			"mp": "George Eustice",
 			"electorate": 66944,
 			"turnout": 68.6,
+			"valid": 45868,
 			"spoiled": 84,
 			"majority": 7004
 		}

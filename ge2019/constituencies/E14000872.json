@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24895/jo_johnson/orpington",
 			"electorate": 67902,
 			"turnout": 74.3,
+			"valid": 50461,
 			"spoiled": 104,
 			"majority": 19461
 		},
@@ -39,6 +40,7 @@
 			"mp": "Joseph Johnson",
 			"electorate": 68129,
 			"turnout": 72.1,
+			"valid": 49032,
 			"spoiled": 94,
 			"majority": 19979
 		}

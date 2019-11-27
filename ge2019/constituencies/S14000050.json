@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25625/luke_graham/ochil_and_south_perthshire",
 			"electorate": 76767,
 			"turnout": 70.6,
+			"valid": 54168,
 			"spoiled": 77,
 			"majority": 3359
 		},
@@ -44,6 +45,7 @@
 			"mp": "Tasmina Ahmed-Sheikh",
 			"electorate": 77370,
 			"turnout": 74.9,
+			"valid": 57871,
 			"spoiled": 75,
 			"majority": 10168
 		}

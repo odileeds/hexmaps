@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24803/gareth_johnson/dartford",
 			"electorate": 78506,
 			"turnout": 69.1,
+			"valid": 54224,
 			"spoiled": 117,
 			"majority": 13186
 		},
@@ -39,6 +40,7 @@
 			"mp": "Gareth Johnson",
 			"electorate": 75209,
 			"turnout": 70.0,
+			"valid": 52418,
 			"spoiled": 199,
 			"majority": 12345
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25432/cat_smith/lancaster_and_fleetwood",
 			"electorate": 67154,
 			"turnout": 68.5,
+			"valid": 45989,
 			"spoiled": 94,
 			"majority": 6661
 		},
@@ -44,6 +45,7 @@
 			"mp": "Catherine Smith",
 			"electorate": 61922,
 			"turnout": 67.7,
+			"valid": 41738,
 			"spoiled": 172,
 			"majority": 1265
 		}

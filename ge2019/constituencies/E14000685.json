@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25330/mims_davies/eastleigh",
 			"electorate": 81212,
 			"turnout": 70.5,
+			"valid": 57280,
 			"spoiled": 136,
 			"majority": 14179
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mims Davies",
 			"electorate": 79609,
 			"turnout": 69.9,
+			"valid": 55505,
 			"spoiled": 158,
 			"majority": 9147
 		}

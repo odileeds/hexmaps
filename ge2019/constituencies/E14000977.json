@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24822/nadhim_zahawi/stratford-on-avon",
 			"electorate": 72572,
 			"turnout": 73.8,
+			"valid": 53532,
 			"spoiled": 152,
 			"majority": 21958
 		},
@@ -39,6 +40,7 @@
 			"mp": "Nadhim Zahawi",
 			"electorate": 71304,
 			"turnout": 72.4,
+			"valid": 51459,
 			"spoiled": 157,
 			"majority": 22876
 		}

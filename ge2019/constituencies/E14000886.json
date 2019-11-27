@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24864/stuart_andrew/pudsey",
 			"electorate": 72622,
 			"turnout": 74.3,
+			"valid": 53959,
 			"spoiled": 118,
 			"majority": 331
 		},
@@ -44,6 +45,7 @@
 			"mp": "Stuart Andrew",
 			"electorate": 70533,
 			"turnout": 72.4,
+			"valid": 50927,
 			"spoiled": 134,
 			"majority": 4501
 		}

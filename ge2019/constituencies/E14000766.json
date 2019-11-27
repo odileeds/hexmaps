@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10248/john_grogan/keighley",
 			"electorate": 71429,
 			"turnout": 72.4,
+			"valid": 51714,
 			"spoiled": 91,
 			"majority": 239
 		},
@@ -49,6 +50,7 @@
 			"mp": "Kris Hopkins",
 			"electorate": 68865,
 			"turnout": 71.6,
+			"valid": 49123,
 			"spoiled": 198,
 			"majority": 3053
 		}

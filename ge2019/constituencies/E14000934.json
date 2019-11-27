@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25348/heidi_allen/south_cambridgeshire",
 			"electorate": 85257,
 			"turnout": 76.2,
+			"valid": 64924,
 			"spoiled": 166,
 			"majority": 15952
 		},
@@ -34,6 +35,7 @@
 			"mp": "Heidi Allen",
 			"electorate": 84132,
 			"turnout": 73.5,
+			"valid": 61540,
 			"spoiled": 259,
 			"majority": 20594
 		}

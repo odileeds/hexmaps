@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24824/mark_garnier/wyre_forest",
 			"electorate": 77758,
 			"turnout": 65.8,
+			"valid": 51129,
 			"spoiled": 90,
 			"majority": 13334
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mark Garnier",
 			"electorate": 77407,
 			"turnout": 64.0,
+			"valid": 49440,
 			"spoiled": 108,
 			"majority": 12871
 		}

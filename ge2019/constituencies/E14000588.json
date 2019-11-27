@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25393/judith_cummins/bradford_south",
 			"electorate": 67752,
 			"turnout": 60.6,
+			"valid": 41049,
 			"spoiled": 62,
 			"majority": 6700
 		},
@@ -44,6 +45,7 @@
 			"mp": "Judith Cummins",
 			"electorate": 63674,
 			"turnout": 59.2,
+			"valid": 37600,
 			"spoiled": 106,
 			"majority": 6450
 		}

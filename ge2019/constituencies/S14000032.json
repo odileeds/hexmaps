@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25639/paul_sweeney/glasgow_north_east",
 			"electorate": 59931,
 			"turnout": 53.0,
+			"valid": 31775,
 			"spoiled": 57,
 			"majority": 242
 		},
@@ -39,6 +40,7 @@
 			"mp": "Anne McLaughlin",
 			"electorate": 66678,
 			"turnout": 56.9,
+			"valid": 37857,
 			"spoiled": 88,
 			"majority": 9222
 		}

@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25297/stephen_kinnock/aberavon",
 			"electorate": 49892,
 			"turnout": 66.7,
+			"valid": 33268,
 			"spoiled": 57,
 			"majority": 16761
 		},
@@ -54,6 +55,7 @@
 			"mp": "Stephen Kinnock",
 			"electorate": 49821,
 			"turnout": 63.4,
+			"valid": 31523,
 			"spoiled": 57,
 			"majority": 10445
 		}

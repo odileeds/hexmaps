@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25601/gareth_snell/stoke-on-trent_central",
 			"electorate": 56915,
 			"turnout": 58.2,
+			"valid": 33145,
 			"spoiled": 64,
 			"majority": 3897
 		},
@@ -44,6 +45,7 @@
 			"mp": "Tristram Hunt",
 			"electorate": 60634,
 			"turnout": 51.5,
+			"valid": 31084,
 			"spoiled": 150,
 			"majority": 5179
 		}

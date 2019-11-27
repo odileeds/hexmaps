@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10084/vincent_cable/twickenham",
 			"electorate": 83362,
 			"turnout": 79.5,
+			"valid": 66290,
 			"spoiled": 143,
 			"majority": 9762
 		},
@@ -39,6 +40,7 @@
 			"mp": "Tania Mathias",
 			"electorate": 80250,
 			"turnout": 77.4,
+			"valid": 62004,
 			"spoiled": 122,
 			"majority": 2017
 		}

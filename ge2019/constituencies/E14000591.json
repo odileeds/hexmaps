@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11447/dawn_butler/brent_central",
 			"electorate": 80499,
 			"turnout": 65.0,
+			"valid": 52296,
 			"spoiled": 199,
 			"majority": 27997
 		},
@@ -39,6 +40,7 @@
 			"mp": "Dawn Butler",
 			"electorate": 77038,
 			"turnout": 61.4,
+			"valid": 47032,
 			"spoiled": 260,
 			"majority": 19649
 		}

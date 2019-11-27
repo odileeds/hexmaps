@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25168/sarah_champion/rotherham",
 			"electorate": 63237,
 			"turnout": 60.0,
+			"valid": 37923,
 			"spoiled": 83,
 			"majority": 11387
 		},
@@ -44,6 +45,7 @@
 			"mp": "Sarah Champion",
 			"electorate": 63698,
 			"turnout": 59.6,
+			"valid": 37823,
 			"spoiled": 153,
 			"majority": 8446
 		}

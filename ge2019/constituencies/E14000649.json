@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25319/colleen_fletcher/coventry_north_east",
 			"electorate": 75759,
 			"turnout": 61.4,
+			"valid": 46508,
 			"spoiled": 128,
 			"majority": 15580
 		},
@@ -44,6 +45,7 @@
 			"mp": "Colleen Fletcher",
 			"electorate": 75462,
 			"turnout": 56.2,
+			"valid": 42231,
 			"spoiled": 185,
 			"majority": 12274
 		}

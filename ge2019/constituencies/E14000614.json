@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24944/craig_whittaker/calder_valley",
 			"electorate": 79045,
 			"turnout": 73.4,
+			"valid": 58054,
 			"spoiled": 115,
 			"majority": 609
 		},
@@ -39,6 +40,7 @@
 			"mp": "Craig Whittaker",
 			"electorate": 77754,
 			"turnout": 69.1,
+			"valid": 53541,
 			"spoiled": 220,
 			"majority": 4427
 		}

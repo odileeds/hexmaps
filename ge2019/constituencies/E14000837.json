@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25383/scott_mann/north_cornwall",
 			"electorate": 68844,
 			"turnout": 74.0,
+			"valid": 50944,
 			"spoiled": 103,
 			"majority": 7200
 		},
@@ -39,6 +40,7 @@
 			"mp": "Scott Mann",
 			"electorate": 67192,
 			"turnout": 71.9,
+			"valid": 48245,
 			"spoiled": 45,
 			"majority": 6621
 		}

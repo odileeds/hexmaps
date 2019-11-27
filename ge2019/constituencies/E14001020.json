@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11592/sharon_hodgson/washington_and_sunderland_west",
 			"electorate": 67280,
 			"turnout": 60.3,
+			"valid": 40574,
 			"spoiled": 74,
 			"majority": 12940
 		},
@@ -49,6 +50,7 @@
 			"mp": "Sharon Hodgson",
 			"electorate": 68190,
 			"turnout": 54.9,
+			"valid": 37257,
 			"spoiled": 190,
 			"majority": 13157
 		}

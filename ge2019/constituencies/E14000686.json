@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25363/antoinette_sandbach/eddisbury",
 			"electorate": 70272,
 			"turnout": 73.0,
+			"valid": 51319,
 			"spoiled": 85,
 			"majority": 11942
 		},
@@ -44,6 +45,7 @@
 			"mp": "Antoinette Sandbach",
 			"electorate": 68569,
 			"turnout": 69.3,
+			"valid": 47352,
 			"spoiled": 178,
 			"majority": 12974
 		}

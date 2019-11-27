@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25701/matt_western/warwick_and_leamington",
 			"electorate": 74237,
 			"turnout": 72.8,
+			"valid": 54055,
 			"spoiled": 125,
 			"majority": 1206
 		},
@@ -54,6 +55,7 @@
 			"mp": "Chris White",
 			"electorate": 71578,
 			"turnout": 71.0,
+			"valid": 50581,
 			"spoiled": 213,
 			"majority": 6606
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25349/margaret_greenwood/wirral_west",
 			"electorate": 55995,
 			"turnout": 78.5,
+			"valid": 43951,
 			"spoiled": 83,
 			"majority": 5365
 		},
@@ -44,6 +45,7 @@
 			"mp": "Margaret Greenwood",
 			"electorate": 55377,
 			"turnout": 75.9,
+			"valid": 41858,
 			"spoiled": 150,
 			"majority": 417
 		}

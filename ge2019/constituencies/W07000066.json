@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24813/simon_hart/carmarthen_west_and_south_pembrokeshire",
 			"electorate": 58565,
 			"turnout": 72.1,
+			"valid": 42226,
 			"spoiled": 65,
 			"majority": 3110
 		},
@@ -39,6 +40,7 @@
 			"mp": "Simon Hart",
 			"electorate": 57755,
 			"turnout": 70.0,
+			"valid": 40350,
 			"spoiled": 69,
 			"majority": 6054
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25376/james_cleverly/braintree",
 			"electorate": 75316,
 			"turnout": 69.5,
+			"valid": 52326,
 			"spoiled": 74,
 			"majority": 18422
 		},
@@ -49,6 +50,7 @@
 			"mp": "James Cleverly",
 			"electorate": 73557,
 			"turnout": 68.6,
+			"valid": 50283,
 			"spoiled": 201,
 			"majority": 17610
 		}

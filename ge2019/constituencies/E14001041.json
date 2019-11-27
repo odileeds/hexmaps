@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24901/steve_brine/winchester",
 			"electorate": 72497,
 			"turnout": 78.8,
+			"valid": 57156,
 			"spoiled": 100,
 			"majority": 9999
 		},
@@ -39,6 +40,7 @@
 			"mp": "Steve Brine",
 			"electorate": 74119,
 			"turnout": 74.9,
+			"valid": 55316,
 			"spoiled": 165,
 			"majority": 16914
 		}

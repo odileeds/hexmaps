@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10001/diane_abbott/hackney_north_and_stoke_newington",
 			"electorate": 85058,
 			"turnout": 66.2,
+			"valid": 56298,
 			"spoiled": 187,
 			"majority": 35139
 		},
@@ -54,6 +55,7 @@
 			"mp": "Diane Abbott",
 			"electorate": 88153,
 			"turnout": 56.8,
+			"valid": 49887,
 			"spoiled": 202,
 			"majority": 24008
 		}

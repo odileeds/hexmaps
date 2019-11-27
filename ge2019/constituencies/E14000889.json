@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25691/matt_rodda/reading_east",
 			"electorate": 75537,
 			"turnout": 73.1,
+			"valid": 55238,
 			"spoiled": 132,
 			"majority": 3749
 		},
@@ -49,6 +50,7 @@
 			"mp": "Rob Wilson",
 			"electorate": 73232,
 			"turnout": 69.2,
+			"valid": 50494,
 			"spoiled": 191,
 			"majority": 6520
 		}

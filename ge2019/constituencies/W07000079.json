@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10753/kevin_brennan/cardiff_west",
 			"electorate": 66775,
 			"turnout": 69.8,
+			"valid": 46629,
 			"spoiled": 89,
 			"majority": 12551
 		},
@@ -49,6 +50,7 @@
 			"mp": "Kevin Brennan",
 			"electorate": 66762,
 			"turnout": 65.8,
+			"valid": 43792,
 			"spoiled": 113,
 			"majority": 6789
 		}

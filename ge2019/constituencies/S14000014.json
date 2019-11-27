@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11970/david_mundell/dumfriesshire%2C_clydesdale_and_tweeddale",
 			"electorate": 67672,
 			"turnout": 72.4,
+			"valid": 48964,
 			"spoiled": 60,
 			"majority": 9441
 		},
@@ -39,6 +40,7 @@
 			"mp": "David Mundell",
 			"electorate": 68483,
 			"turnout": 76.2,
+			"valid": 52134,
 			"spoiled": 34,
 			"majority": 798
 		}

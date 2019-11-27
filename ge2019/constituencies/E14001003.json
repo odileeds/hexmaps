@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24948/sarah_newton/truro_and_falmouth",
 			"electorate": 74683,
 			"turnout": 75.8,
+			"valid": 56647,
 			"spoiled": 70,
 			"majority": 3792
 		},
@@ -44,6 +45,7 @@
 			"mp": "Sarah Newton",
 			"electorate": 73601,
 			"turnout": 70.1,
+			"valid": 51544,
 			"spoiled": 78,
 			"majority": 14000
 		}

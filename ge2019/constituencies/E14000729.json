@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24784/robert_halfon/harlow",
 			"electorate": 67699,
 			"turnout": 66.2,
+			"valid": 44846,
 			"spoiled": 75,
 			"majority": 7031
 		},
@@ -34,6 +35,7 @@
 			"mp": "Robert Halfon",
 			"electorate": 67994,
 			"turnout": 65.3,
+			"valid": 44251,
 			"spoiled": 125,
 			"majority": 8350
 		}

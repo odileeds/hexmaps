@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10582/robert_syms/poole",
 			"electorate": 73796,
 			"turnout": 67.6,
+			"valid": 49850,
 			"spoiled": 126,
 			"majority": 14209
 		},
@@ -44,6 +45,7 @@
 			"mp": "Robert Syms",
 			"electorate": 72557,
 			"turnout": 65.5,
+			"valid": 47393,
 			"spoiled": 138,
 			"majority": 15789
 		}

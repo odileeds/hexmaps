@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10901/mark_francois/rayleigh_and_wickford",
 			"electorate": 78556,
 			"turnout": 70.4,
+			"valid": 55323,
 			"spoiled": 96,
 			"majority": 23450
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mark Francois",
 			"electorate": 77174,
 			"turnout": 69.1,
+			"valid": 53220,
 			"spoiled": 136,
 			"majority": 17230
 		}

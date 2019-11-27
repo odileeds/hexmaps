@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25295/angela_crawley/lanark_and_hamilton_east",
 			"electorate": 77313,
 			"turnout": 65.3,
+			"valid": 50470,
 			"spoiled": 57,
 			"majority": 266
 		},
@@ -39,6 +40,7 @@
 			"mp": "Angela Crawley",
 			"electorate": 79962,
 			"turnout": 69.2,
+			"valid": 55258,
 			"spoiled": 70,
 			"majority": 10100
 		}

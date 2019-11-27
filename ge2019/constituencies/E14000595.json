@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11048/ian_liddell-grainger/bridgwater_and_west_somerset",
 			"electorate": 89294,
 			"turnout": 65.3,
+			"valid": 58267,
 			"spoiled": 131,
 			"majority": 15448
 		},
@@ -44,6 +45,7 @@
 			"mp": "Ian Liddell-Grainger",
 			"electorate": 80491,
 			"turnout": 67.9,
+			"valid": 54447,
 			"spoiled": 203,
 			"majority": 14583
 		}

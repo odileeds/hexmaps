@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10282/kate_hoey/vauxhall",
 			"electorate": 82055,
 			"turnout": 67.1,
+			"valid": 55042,
 			"spoiled": 164,
 			"majority": 20250
 		},
@@ -49,6 +50,7 @@
 			"mp": "Kate Hoey",
 			"electorate": 82231,
 			"turnout": 58.6,
+			"valid": 47941,
 			"spoiled": 234,
 			"majority": 12708
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25643/bill_grant/ayr%2C_carrick_and_cumnock",
 			"electorate": 71241,
 			"turnout": 64.9,
+			"valid": 46222,
 			"spoiled": 74,
 			"majority": 2774
 		},
@@ -39,6 +40,7 @@
 			"mp": "Corri Wilson",
 			"electorate": 72995,
 			"turnout": 71.6,
+			"valid": 52209,
 			"spoiled": 59,
 			"majority": 11265
 		}

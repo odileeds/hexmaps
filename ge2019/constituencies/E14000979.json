@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24896/kate_green/stretford_and_urmston",
 			"electorate": 71833,
 			"turnout": 69.9,
+			"valid": 50191,
 			"spoiled": 95,
 			"majority": 19705
 		},
@@ -44,6 +45,7 @@
 			"mp": "Kate Green",
 			"electorate": 69026,
 			"turnout": 67.5,
+			"valid": 46386,
 			"spoiled": 183,
 			"majority": 11685
 		}

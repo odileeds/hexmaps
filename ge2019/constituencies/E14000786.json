@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25397/maria_caulfield/lewes",
 			"electorate": 70941,
 			"turnout": 76.4,
+			"valid": 54192,
 			"spoiled": 136,
 			"majority": 5508
 		},
@@ -44,6 +45,7 @@
 			"mp": "Maria Caulfield",
 			"electorate": 69481,
 			"turnout": 73.0,
+			"valid": 50540,
 			"spoiled": 191,
 			"majority": 1083
 		}

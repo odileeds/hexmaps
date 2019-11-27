@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25357/louise_haigh/sheffield%2C_heeley",
 			"electorate": 68040,
 			"turnout": 65.0,
+			"valid": 44226,
 			"spoiled": 79,
 			"majority": 13828
 		},
@@ -44,6 +45,7 @@
 			"mp": "Louise Haigh",
 			"electorate": 67950,
 			"turnout": 62.1,
+			"valid": 42048,
 			"spoiled": 131,
 			"majority": 12954
 		}

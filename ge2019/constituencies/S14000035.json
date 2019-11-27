@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25306/chris_stephens/glasgow_south_west",
 			"electorate": 62991,
 			"turnout": 56.2,
+			"valid": 35378,
 			"spoiled": 66,
 			"majority": 60
 		},
@@ -44,6 +45,7 @@
 			"mp": "Christopher Stephens",
 			"electorate": 66209,
 			"turnout": 61.9,
+			"valid": 40921,
 			"spoiled": 44,
 			"majority": 9950
 		}

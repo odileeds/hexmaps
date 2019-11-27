@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24961/julian_smith/skipton_and_ripon",
 			"electorate": 78104,
 			"turnout": 74.4,
+			"valid": 58138,
 			"spoiled": 186,
 			"majority": 19985
 		},
@@ -44,6 +45,7 @@
 			"mp": "Julian Smith",
 			"electorate": 76645,
 			"turnout": 71.4,
+			"valid": 54559,
 			"spoiled": 199,
 			"majority": 20761
 		}

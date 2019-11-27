@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24852/valerie_vaz/walsall_south",
 			"electorate": 67417,
 			"turnout": 65.4,
+			"valid": 44072,
 			"spoiled": 117,
 			"majority": 8892
 		},
@@ -49,6 +50,7 @@
 			"mp": "Valerie Vaz",
 			"electorate": 67743,
 			"turnout": 62.1,
+			"valid": 41838,
 			"spoiled": 198,
 			"majority": 6007
 		}

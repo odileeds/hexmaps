@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10383/john_martin_mcdonnell/hayes_and_harlington",
 			"electorate": 73268,
 			"turnout": 65.2,
+			"valid": 47802,
 			"spoiled": 118,
 			"majority": 18115
 		},
@@ -49,6 +50,7 @@
 			"mp": "John McDonnell",
 			"electorate": 74874,
 			"turnout": 60.4,
+			"valid": 45056,
 			"spoiled": 142,
 			"majority": 15700
 		}

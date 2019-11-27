@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25386/daniel_zeichner/cambridge",
 			"electorate": 78544,
 			"turnout": 71.2,
+			"valid": 55934,
 			"spoiled": 135,
 			"majority": 12661
 		},
@@ -59,6 +60,7 @@
 			"mp": "Daniel Zeichner",
 			"electorate": 83384,
 			"turnout": 62.3,
+			"valid": 51774,
 			"spoiled": 171,
 			"majority": 599
 		}

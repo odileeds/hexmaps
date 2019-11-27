@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25647/anna_mcmorrin/cardiff_north",
 			"electorate": 67221,
 			"turnout": 77.4,
+			"valid": 52022,
 			"spoiled": 98,
 			"majority": 4174
 		},
@@ -54,6 +55,7 @@
 			"mp": "Craig Williams",
 			"electorate": 67196,
 			"turnout": 76.2,
+			"valid": 51151,
 			"spoiled": 80,
 			"majority": 2137
 		}

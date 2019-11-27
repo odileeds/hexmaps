@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10857/nigel_dodds/belfast_north",
 			"electorate": 68249,
 			"turnout": 67.3,
+			"valid": 45936,
 			"spoiled": 158,
 			"majority": 2081
 		},
@@ -34,6 +35,7 @@
 			"mp": "Nigel Dodds",
 			"electorate": 68553,
 			"turnout": 59.6,
+			"valid": 40593,
 			"spoiled": 294,
 			"majority": 5326
 		}

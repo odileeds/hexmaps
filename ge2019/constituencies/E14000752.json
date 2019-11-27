@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25328/catherine_west/hornsey_and_wood_green",
 			"electorate": 79946,
 			"turnout": 77.9,
+			"valid": 62293,
 			"spoiled": 158,
 			"majority": 30738
 		},
@@ -54,6 +55,7 @@
 			"mp": "Catherine West",
 			"electorate": 79247,
 			"turnout": 73.1,
+			"valid": 57785,
 			"spoiled": 177,
 			"majority": 11058
 		}

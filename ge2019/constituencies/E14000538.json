@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10361/david_lidington/aylesbury",
 			"electorate": 82546,
 			"turnout": 71.2,
+			"valid": 58783,
 			"spoiled": 122,
 			"majority": 14656
 		},
@@ -39,6 +40,7 @@
 			"mp": "David Lidington",
 			"electorate": 80315,
 			"turnout": 69.3,
+			"valid": 55419,
 			"spoiled": 235,
 			"majority": 17158
 		}

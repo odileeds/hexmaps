@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25323/oliver_dowden/hertsmere",
 			"electorate": 73561,
 			"turnout": 71.0,
+			"valid": 52253,
 			"spoiled": 136,
 			"majority": 16951
 		},
@@ -39,6 +40,7 @@
 			"mp": "Oliver Dowden",
 			"electorate": 73767,
 			"turnout": 68.2,
+			"valid": 50091,
 			"spoiled": 200,
 			"majority": 18461
 		}

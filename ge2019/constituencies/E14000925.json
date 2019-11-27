@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11816/philip_davies/shipley",
 			"electorate": 73133,
 			"turnout": 73.0,
+			"valid": 53395,
 			"spoiled": 138,
 			"majority": 4681
 		},
@@ -44,6 +45,7 @@
 			"mp": "Philip Davies",
 			"electorate": 70464,
 			"turnout": 71.9,
+			"valid": 50542,
 			"spoiled": 120,
 			"majority": 9624
 		}

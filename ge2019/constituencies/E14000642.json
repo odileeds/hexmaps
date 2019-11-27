@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25644/giles_watling/clacton",
 			"electorate": 69263,
 			"turnout": 63.7,
+			"valid": 44145,
 			"spoiled": 73,
 			"majority": 15828
 		},
@@ -54,6 +55,7 @@
 			"mp": "Douglas Carswell",
 			"electorate": 68936,
 			"turnout": 64.4,
+			"valid": 44207,
 			"spoiled": 168,
 			"majority": 3437
 		}

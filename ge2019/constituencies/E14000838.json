@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25412/peter_heaton-jones/north_devon",
 			"electorate": 75801,
 			"turnout": 73.5,
+			"valid": 55705,
 			"spoiled": 66,
 			"majority": 4332
 		},
@@ -44,6 +45,7 @@
 			"mp": "Peter Heaton-Jones",
 			"electorate": 74737,
 			"turnout": 70.2,
+			"valid": 52320,
 			"spoiled": 133,
 			"majority": 6936
 		}

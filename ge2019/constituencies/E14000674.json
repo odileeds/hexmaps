@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25284/rupa_huq/ealing_central_and_acton",
 			"electorate": 74200,
 			"turnout": 74.6,
+			"valid": 55342,
 			"spoiled": 191,
 			"majority": 13807
 		},
@@ -44,6 +45,7 @@
 			"mp": "Rupa Huq",
 			"electorate": 71422,
 			"turnout": 71.5,
+			"valid": 50894,
 			"spoiled": 165,
 			"majority": 274
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24796/helen_grant/maidstone_and_the_weald",
 			"electorate": 75334,
 			"turnout": 68.7,
+			"valid": 51717,
 			"spoiled": 86,
 			"majority": 17723
 		},
@@ -44,6 +45,7 @@
 			"mp": "Helen Grant",
 			"electorate": 73181,
 			"turnout": 68.5,
+			"valid": 50010,
 			"spoiled": 111,
 			"majority": 10709
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25579/rosena_allin-khan/tooting",
 			"electorate": 77971,
 			"turnout": 74.6,
+			"valid": 58171,
 			"spoiled": 133,
 			"majority": 15458
 		},
@@ -49,6 +50,7 @@
 			"mp": "Sadiq Khan",
 			"electorate": 76782,
 			"turnout": 70.0,
+			"valid": 53529,
 			"spoiled": 212,
 			"majority": 2842
 		}

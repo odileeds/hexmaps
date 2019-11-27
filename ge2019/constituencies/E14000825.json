@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24966/david_morris/morecambe_and_lunesdale",
 			"electorate": 66818,
 			"turnout": 68.3,
+			"valid": 45657,
 			"spoiled": 72,
 			"majority": 1399
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Morris",
 			"electorate": 66985,
 			"turnout": 64.8,
+			"valid": 43242,
 			"spoiled": 143,
 			"majority": 4590
 		}

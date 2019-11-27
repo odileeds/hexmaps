@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11588/mark_harper/forest_of_dean",
 			"electorate": 70898,
 			"turnout": 73.0,
+			"valid": 51767,
 			"spoiled": 81,
 			"majority": 9502
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mark Harper",
 			"electorate": 69865,
 			"turnout": 71.1,
+			"valid": 49520,
 			"spoiled": 184,
 			"majority": 10987
 		}

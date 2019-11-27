@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24837/john_woodcock/barrow_and_furness",
 			"electorate": 69474,
 			"turnout": 68.5,
+			"valid": 47590,
 			"spoiled": 60,
 			"majority": 209
 		},
@@ -44,6 +45,7 @@
 			"mp": "John Woodcock",
 			"electorate": 68338,
 			"turnout": 63.6,
+			"valid": 43275,
 			"spoiled": 159,
 			"majority": 795
 		}

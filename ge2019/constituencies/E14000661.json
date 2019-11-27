@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11531/andrew_gwynne/denton_and_reddish",
 			"electorate": 65751,
 			"turnout": 60.2,
+			"valid": 39599,
 			"spoiled": 72,
 			"majority": 14077
 		},
@@ -49,6 +50,7 @@
 			"mp": "Andrew Gwynne",
 			"electorate": 66141,
 			"turnout": 58.7,
+			"valid": 38681,
 			"spoiled": 144,
 			"majority": 10511
 		}

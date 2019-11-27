@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24802/henry_smith/crawley",
 			"electorate": 73425,
 			"turnout": 68.5,
+			"valid": 50273,
 			"spoiled": 181,
 			"majority": 2457
 		},
@@ -39,6 +40,7 @@
 			"mp": "Henry Smith",
 			"electorate": 73936,
 			"turnout": 65.8,
+			"valid": 48550,
 			"spoiled": 130,
 			"majority": 6526
 		}

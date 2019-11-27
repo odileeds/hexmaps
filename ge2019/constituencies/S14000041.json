@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25653/lesley_laird/kirkcaldy_and_cowdenbeath",
 			"electorate": 72721,
 			"turnout": 63.5,
+			"valid": 46193,
 			"spoiled": 57,
 			"majority": 259
 		},
@@ -49,6 +50,7 @@
 			"mp": "Roger Mullin",
 			"electorate": 75941,
 			"turnout": 69.7,
+			"valid": 52892,
 			"spoiled": 64,
 			"majority": 9974
 		}

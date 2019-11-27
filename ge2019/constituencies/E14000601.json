@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25390/karin_smyth/bristol_south",
 			"electorate": 83012,
 			"turnout": 65.5,
+			"valid": 54382,
 			"spoiled": 112,
 			"majority": 15987
 		},
@@ -44,6 +45,7 @@
 			"mp": "Karin Smyth",
 			"electorate": 81496,
 			"turnout": 62.6,
+			"valid": 50842,
 			"spoiled": 164,
 			"majority": 7128
 		}

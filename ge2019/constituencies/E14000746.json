@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24962/guy_opperman/hexham",
 			"electorate": 61053,
 			"turnout": 75.7,
+			"valid": 46224,
 			"spoiled": 79,
 			"majority": 9236
 		},
@@ -39,6 +40,7 @@
 			"mp": "Guy Opperman",
 			"electorate": 59708,
 			"turnout": 72.7,
+			"valid": 43345,
 			"spoiled": 82,
 			"majority": 12031
 		}

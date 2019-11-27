@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10295/lindsay_hoyle/chorley",
 			"electorate": 76404,
 			"turnout": 72.8,
+			"valid": 55634,
 			"spoiled": 134,
 			"majority": 7512
 		},
@@ -34,6 +35,7 @@
 			"mp": "Lindsay Hoyle",
 			"electorate": 74679,
 			"turnout": 69.4,
+			"valid": 51712,
 			"spoiled": 142,
 			"majority": 4530
 		}

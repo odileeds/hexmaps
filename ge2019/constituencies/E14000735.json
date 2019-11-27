@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24795/amber_rudd/hastings_and_rye",
 			"electorate": 78319,
 			"turnout": 69.9,
+			"valid": 54766,
 			"spoiled": 97,
 			"majority": 346
 		},
@@ -39,6 +40,7 @@
 			"mp": "Amber Rudd",
 			"electorate": 75095,
 			"turnout": 68.0,
+			"valid": 50927,
 			"spoiled": 124,
 			"majority": 4796
 		}

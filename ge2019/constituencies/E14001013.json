@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24949/stella_creasy/walthamstow",
 			"electorate": 67957,
 			"turnout": 70.8,
+			"valid": 48143,
 			"spoiled": 159,
 			"majority": 32017
 		},
@@ -49,6 +50,7 @@
 			"mp": "Stella Creasy",
 			"electorate": 67015,
 			"turnout": 62.6,
+			"valid": 41796,
 			"spoiled": 181,
 			"majority": 23195
 		}

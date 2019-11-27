@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25539/ross_thomson/aberdeen_south",
 			"electorate": 64964,
 			"turnout": 68.5,
+			"valid": 44493,
 			"spoiled": 63,
 			"majority": 4752
 		},
@@ -39,6 +40,7 @@
 			"mp": "Callum McCaig",
 			"electorate": 68056,
 			"turnout": 71.4,
+			"valid": 48551,
 			"spoiled": 56,
 			"majority": 7230
 		}

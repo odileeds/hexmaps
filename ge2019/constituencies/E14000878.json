@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25772/lisa_forbes/peterborough",
 			"electorate": 71522,
 			"turnout": 48.4,
+			"valid": 33920,
 			"spoiled": 145,
 			"majority": 683
 		},
@@ -59,6 +60,7 @@
 			"mp": "Stewart Jackson",
 			"electorate": 72530,
 			"turnout": 65.1,
+			"valid": 47075,
 			"spoiled": 177,
 			"majority": 1925
 		}

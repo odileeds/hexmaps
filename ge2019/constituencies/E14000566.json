@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11087/khalid_mahmood/birmingham%2C_perry_barr",
 			"electorate": 70106,
 			"turnout": 63.0,
+			"valid": 44197,
 			"spoiled": 164,
 			"majority": 18383
 		},
@@ -49,6 +50,7 @@
 			"mp": "Khalid Mahmood",
 			"electorate": 69943,
 			"turnout": 59.4,
+			"valid": 41260,
 			"spoiled": 272,
 			"majority": 14828
 		}

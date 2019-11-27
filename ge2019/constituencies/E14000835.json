@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24912/anne_marie_morris/newton_abbot",
 			"electorate": 71714,
 			"turnout": 72.0,
+			"valid": 51637,
 			"spoiled": 131,
 			"majority": 17160
 		},
@@ -44,6 +45,7 @@
 			"mp": "Anne Marie Morris",
 			"electorate": 69928,
 			"turnout": 69.3,
+			"valid": 48253,
 			"spoiled": 200,
 			"majority": 11234
 		}

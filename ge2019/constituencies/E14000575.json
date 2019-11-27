@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10089/ronnie_campbell/blyth_valley",
 			"electorate": 63415,
 			"turnout": 67.0,
+			"valid": 42490,
 			"spoiled": 70,
 			"majority": 7915
 		},
@@ -44,6 +45,7 @@
 			"mp": "Ronnie Campbell",
 			"electorate": 61247,
 			"turnout": 62.9,
+			"valid": 38461,
 			"spoiled": 41,
 			"majority": 9229
 		}

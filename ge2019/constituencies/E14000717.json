@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24879/brandon_lewis/great_yarmouth",
 			"electorate": 71408,
 			"turnout": 61.8,
+			"valid": 44146,
 			"spoiled": 203,
 			"majority": 7973
 		},
@@ -54,6 +55,7 @@
 			"mp": "Brandon Lewis",
 			"electorate": 69793,
 			"turnout": 63.9,
+			"valid": 44469,
 			"spoiled": 160,
 			"majority": 6154
 		}

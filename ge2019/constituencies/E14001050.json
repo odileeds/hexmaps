@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11936/pat_mcfadden/wolverhampton_south_east",
 			"electorate": 60301,
 			"turnout": 60.2,
+			"valid": 36304,
 			"spoiled": 86,
 			"majority": 8514
 		},
@@ -44,6 +45,7 @@
 			"mp": "Pat McFadden",
 			"electorate": 62556,
 			"turnout": 55.8,
+			"valid": 34764,
 			"spoiled": 138,
 			"majority": 10778
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10183/maria_eagle/garston_and_halewood",
 			"electorate": 75248,
 			"turnout": 71.1,
+			"valid": 53522,
 			"spoiled": 143,
 			"majority": 32149
 		},
@@ -49,6 +50,7 @@
 			"mp": "Maria Eagle",
 			"electorate": 73719,
 			"turnout": 66.7,
+			"valid": 48983,
 			"spoiled": 192,
 			"majority": 27146
 		}

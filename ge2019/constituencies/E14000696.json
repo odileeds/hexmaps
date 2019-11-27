@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24956/teresa_pearce/erith_and_thamesmead",
 			"electorate": 69724,
 			"turnout": 63.8,
+			"valid": 44464,
 			"spoiled": 79,
 			"majority": 10014
 		},
@@ -49,6 +50,7 @@
 			"mp": "Teresa Pearce",
 			"electorate": 70397,
 			"turnout": 60.7,
+			"valid": 42617,
 			"spoiled": 97,
 			"majority": 9525
 		}

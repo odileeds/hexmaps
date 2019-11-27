@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11715/mark_lancaster/milton_keynes_north",
 			"electorate": 89207,
 			"turnout": 71.7,
+			"valid": 63924,
 			"spoiled": 115,
 			"majority": 1975
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mark Lancaster",
 			"electorate": 86826,
 			"turnout": 66.7,
+			"valid": 57692,
 			"spoiled": 213,
 			"majority": 9753
 		}

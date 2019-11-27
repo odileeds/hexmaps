@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25346/kit_malthouse/north_west_hampshire",
 			"electorate": 81430,
 			"turnout": 72.2,
+			"valid": 58772,
 			"spoiled": 108,
 			"majority": 22679
 		},
@@ -39,6 +40,7 @@
 			"mp": "Kit Malthouse",
 			"electorate": 79223,
 			"turnout": 69.9,
+			"valid": 55195,
 			"spoiled": 200,
 			"majority": 23943
 		}

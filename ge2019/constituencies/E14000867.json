@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24774/lilian_greenwood/nottingham_south",
 			"electorate": 71182,
 			"turnout": 67.6,
+			"valid": 48129,
 			"spoiled": 137,
 			"majority": 15162
 		},
@@ -44,6 +45,7 @@
 			"mp": "Lilian Greenwood",
 			"electorate": 68987,
 			"turnout": 63.3,
+			"valid": 43465,
 			"spoiled": 234,
 			"majority": 6936
 		}

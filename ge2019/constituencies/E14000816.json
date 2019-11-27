@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24817/george_freeman/mid_norfolk",
 			"electorate": 80027,
 			"turnout": 69.6,
+			"valid": 55668,
 			"spoiled": 96,
 			"majority": 16086
 		},
@@ -39,6 +40,7 @@
 			"mp": "George Freeman",
 			"electorate": 77154,
 			"turnout": 68.0,
+			"valid": 52212,
 			"spoiled": 239,
 			"majority": 17276
 		}

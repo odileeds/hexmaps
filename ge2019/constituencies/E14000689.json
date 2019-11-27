@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24893/alec_shelbrooke/elmet_and_rothwell",
 			"electorate": 80291,
 			"turnout": 74.2,
+			"valid": 59542,
 			"spoiled": 134,
 			"majority": 9805
 		},
@@ -44,6 +45,7 @@
 			"mp": "Alec Shelbrooke",
 			"electorate": 79143,
 			"turnout": 73.2,
+			"valid": 57797,
 			"spoiled": 153,
 			"majority": 8490
 		}

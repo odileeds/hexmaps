@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24868/emma_reynolds/wolverhampton_north_east",
 			"electorate": 60770,
 			"turnout": 60.1,
+			"valid": 36508,
 			"spoiled": 85,
 			"majority": 4587
 		},
@@ -44,6 +45,7 @@
 			"mp": "Emma Reynolds",
 			"electorate": 61065,
 			"turnout": 55.9,
+			"valid": 34003,
 			"spoiled": 130,
 			"majority": 5495
 		}

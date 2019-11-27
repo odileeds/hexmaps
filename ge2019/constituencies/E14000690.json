@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10185/clive_efford/eltham",
 			"electorate": 64474,
 			"turnout": 71.6,
+			"valid": 46155,
 			"spoiled": 150,
 			"majority": 6296
 		},
@@ -44,6 +45,7 @@
 			"mp": "Clive Efford",
 			"electorate": 63998,
 			"turnout": 67.6,
+			"valid": 43157,
 			"spoiled": 97,
 			"majority": 2693
 		}

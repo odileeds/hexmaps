@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25377/chris_philp/croydon_south",
 			"electorate": 83518,
 			"turnout": 73.3,
+			"valid": 61257,
 			"spoiled": 123,
 			"majority": 11406
 		},
@@ -44,6 +45,7 @@
 			"mp": "Chris Philp",
 			"electorate": 82010,
 			"turnout": 70.5,
+			"valid": 57712,
 			"spoiled": 146,
 			"majority": 17140
 		}

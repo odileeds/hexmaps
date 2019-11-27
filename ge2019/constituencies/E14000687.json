@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25365/kate_osamor/edmonton",
 			"electorate": 65777,
 			"turnout": 66.4,
+			"valid": 43678,
 			"spoiled": 113,
 			"majority": 21115
 		},
@@ -49,6 +50,7 @@
 			"mp": "Kate Osamor",
 			"electorate": 66016,
 			"turnout": 62.9,
+			"valid": 41338,
 			"spoiled": 161,
 			"majority": 15419
 		}

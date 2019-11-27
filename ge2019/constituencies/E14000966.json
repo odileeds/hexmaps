@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24725/karen_bradley/staffordshire_moorlands",
 			"electorate": 63260,
 			"turnout": 70.6,
+			"valid": 44655,
 			"spoiled": 84,
 			"majority": 10830
 		},
@@ -39,6 +40,7 @@
 			"mp": "Karen Bradley",
 			"electorate": 63104,
 			"turnout": 67.7,
+			"valid": 42587,
 			"spoiled": 126,
 			"majority": 10174
 		}

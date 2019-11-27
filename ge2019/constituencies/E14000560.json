@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25666/preet_kaur_gill/birmingham%2C_edgbaston",
 			"electorate": 68091,
 			"turnout": 64.0,
+			"valid": 43612,
 			"spoiled": 108,
 			"majority": 6917
 		},
@@ -44,6 +45,7 @@
 			"mp": "Gisela Stuart",
 			"electorate": 65591,
 			"turnout": 63.2,
+			"valid": 41293,
 			"spoiled": 156,
 			"majority": 2706
 		}

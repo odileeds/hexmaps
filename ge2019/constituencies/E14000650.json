@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10506/geoffrey_robinson/coventry_north_west",
 			"electorate": 75196,
 			"turnout": 66.3,
+			"valid": 49849,
 			"spoiled": 88,
 			"majority": 8580
 		},
@@ -44,6 +45,7 @@
 			"mp": "Geoffrey Robinson",
 			"electorate": 73626,
 			"turnout": 61.7,
+			"valid": 45246,
 			"spoiled": 172,
 			"majority": 4509
 		}

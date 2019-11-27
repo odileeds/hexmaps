@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24715/grahame_morris/easington",
 			"electorate": 62385,
 			"turnout": 58.3,
+			"valid": 36364,
 			"spoiled": 57,
 			"majority": 14892
 		},
@@ -44,6 +45,7 @@
 			"mp": "Grahame Morris",
 			"electorate": 61659,
 			"turnout": 56.2,
+			"valid": 34624,
 			"spoiled": 53,
 			"majority": 14641
 		}

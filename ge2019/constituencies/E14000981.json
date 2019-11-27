@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24771/therese_coffey/suffolk_coastal",
 			"electorate": 79366,
 			"turnout": 73.2,
+			"valid": 58074,
 			"spoiled": 236,
 			"majority": 16012
 		},
@@ -44,6 +45,7 @@
 			"mp": "Therese Coffey",
 			"electorate": 77816,
 			"turnout": 71.7,
+			"valid": 55594,
 			"spoiled": 168,
 			"majority": 18842
 		}

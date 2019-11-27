@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25435/ruth_smeeth/stoke-on-trent_north",
 			"electorate": 71558,
 			"turnout": 58.4,
+			"valid": 41786,
 			"spoiled": 123,
 			"majority": 2359
 		},
@@ -49,6 +50,7 @@
 			"mp": "Ruth Smeeth",
 			"electorate": 71438,
 			"turnout": 54.3,
+			"valid": 38654,
 			"spoiled": 168,
 			"majority": 4836
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25629/paul_girvan/south_antrim",
 			"electorate": 68244,
 			"turnout": 63.3,
+			"valid": 43170,
 			"spoiled": 122,
 			"majority": 3208
 		},
@@ -44,6 +45,7 @@
 			"mp": "Danny Kinahan",
 			"electorate": 67425,
 			"turnout": 54.5,
+			"valid": 36523,
 			"spoiled": 211,
 			"majority": 949
 		}

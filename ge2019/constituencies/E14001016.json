@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10558/john_spellar/warley",
 			"electorate": 63739,
 			"turnout": 63.1,
+			"valid": 40206,
 			"spoiled": 116,
 			"majority": 16483
 		},
@@ -44,6 +45,7 @@
 			"mp": "John Spellar",
 			"electorate": 63738,
 			"turnout": 59.7,
+			"valid": 37829,
 			"spoiled": 209,
 			"majority": 14702
 		}

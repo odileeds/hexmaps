@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25371/maggie_throup/erewash",
 			"electorate": 72995,
 			"turnout": 68.2,
+			"valid": 49781,
 			"spoiled": 86,
 			"majority": 4534
 		},
@@ -54,6 +55,7 @@
 			"mp": "Maggie Throup",
 			"electorate": 71943,
 			"turnout": 67.4,
+			"valid": 48322,
 			"spoiled": 146,
 			"majority": 3584
 		}

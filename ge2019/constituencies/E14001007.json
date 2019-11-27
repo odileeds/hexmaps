@@ -71,6 +71,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10999/boris_johnson/uxbridge_and_south_ruislip",
 			"electorate": 69936,
 			"turnout": 66.8,
+			"valid": 46694,
 			"spoiled": 84,
 			"majority": 5034
 		},
@@ -79,6 +80,7 @@
 			"mp": "Boris Johnson",
 			"electorate": 70631,
 			"turnout": 63.6,
+			"valid": 44811,
 			"spoiled": 103,
 			"majority": 10695
 		}

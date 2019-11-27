@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25405/mary_robinson/cheadle",
 			"electorate": 73406,
 			"turnout": 74.3,
+			"valid": 54572,
 			"spoiled": 117,
 			"majority": 4507
 		},
@@ -34,6 +35,7 @@
 			"mp": "Mary Robinson",
 			"electorate": 73239,
 			"turnout": 72.7,
+			"valid": 53095,
 			"spoiled": 169,
 			"majority": 6453
 		}

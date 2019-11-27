@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24915/claire_perry/devizes",
 			"electorate": 72184,
 			"turnout": 70.1,
+			"valid": 50593,
 			"spoiled": 107,
 			"majority": 21136
 		},
@@ -39,6 +40,7 @@
 			"mp": "Claire Perry",
 			"electorate": 69205,
 			"turnout": 71.0,
+			"valid": 49006,
 			"spoiled": 132,
 			"majority": 20751
 		}

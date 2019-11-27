@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11921/lyn_brown/west_ham",
 			"electorate": 92418,
 			"turnout": 65.7,
+			"valid": 60708,
 			"spoiled": 161,
 			"majority": 36754
 		},
@@ -54,6 +55,7 @@
 			"mp": "Lyn Brown",
 			"electorate": 90640,
 			"turnout": 58.5,
+			"valid": 52793,
 			"spoiled": 217,
 			"majority": 27986
 		}

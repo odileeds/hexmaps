@@ -148,6 +148,7 @@ foreach $pcd (sort(keys(%con))){
 	print FILE "\t\t\t\"mysoc\": \"$con{$pcd}{'mysocuri'}\",\n";
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'elect17'},\n";
 	print FILE "\t\t\t\"turnout\": $con{$pcd}{'turnout17'},\n";
+	print FILE "\t\t\t\"valid\": $con{$pcd}{'valid17'},\n";
 	print FILE "\t\t\t\"spoiled\": $con{$pcd}{'invalid17'},\n";
 	print FILE "\t\t\t\"majority\": $con{$pcd}{'majority'}\n";
 	print FILE "\t\t},\n";
@@ -156,6 +157,7 @@ foreach $pcd (sort(keys(%con))){
 	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2015-firstname'} $con{$pcd}{'2015-surname'}\",\n";
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'2015-electorate'},\n";
 	print FILE "\t\t\t\"turnout\": ".sprintf("%0.1f",100*($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})/$con{$pcd}{'2015-electorate'}).",\n";
+	print FILE "\t\t\t\"valid\": $con{$pcd}{'2015-valid_votes'},\n";
 	print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2015-invalid_votes'},\n";
 	print FILE "\t\t\t\"majority\": $con{$pcd}{'2015-majority'}\n";
 	print FILE "\t\t}\n";

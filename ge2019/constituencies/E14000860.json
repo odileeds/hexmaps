@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10240/james_gray/north_wiltshire",
 			"electorate": 71408,
 			"turnout": 75.2,
+			"valid": 53706,
 			"spoiled": 91,
 			"majority": 22877
 		},
@@ -39,6 +40,7 @@
 			"mp": "James Gray",
 			"electorate": 67851,
 			"turnout": 74.7,
+			"valid": 50556,
 			"spoiled": 111,
 			"majority": 21046
 		}

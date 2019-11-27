@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25366/jeff_smith/manchester%2C_withington",
 			"electorate": 74654,
 			"turnout": 71.8,
+			"valid": 53602,
 			"spoiled": 134,
 			"majority": 29875
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jeff Smith",
 			"electorate": 74102,
 			"turnout": 67.8,
+			"valid": 49966,
 			"spoiled": 252,
 			"majority": 14873
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11768/stephen_crabb/preseli_pembrokeshire",
 			"electorate": 58554,
 			"turnout": 72.1,
+			"valid": 42197,
 			"spoiled": 59,
 			"majority": 314
 		},
@@ -39,6 +40,7 @@
 			"mp": "Stephen Crabb",
 			"electorate": 57291,
 			"turnout": 70.9,
+			"valid": 40556,
 			"spoiled": 64,
 			"majority": 4969
 		}

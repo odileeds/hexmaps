@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10882/paul_farrelly/newcastle-under-lyme",
 			"electorate": 65596,
 			"turnout": 66.8,
+			"valid": 43842,
 			"spoiled": 172,
 			"majority": 30
 		},
@@ -44,6 +45,7 @@
 			"mp": "Paul Farrelly",
 			"electorate": 67619,
 			"turnout": 63.8,
+			"valid": 42997,
 			"spoiled": 125,
 			"majority": 650
 		}

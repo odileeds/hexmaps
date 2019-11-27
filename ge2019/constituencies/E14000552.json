@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25649/mohammad_yasin/bedford",
 			"electorate": 71829,
 			"turnout": 67.5,
+			"valid": 48480,
 			"spoiled": 176,
 			"majority": 789
 		},
@@ -44,6 +45,7 @@
 			"mp": "Richard Fuller",
 			"electorate": 69311,
 			"turnout": 66.9,
+			"valid": 46086,
 			"spoiled": 258,
 			"majority": 1097
 		}

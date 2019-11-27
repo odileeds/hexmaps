@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24798/nicholas_dakin/scunthorpe",
 			"electorate": 61578,
 			"turnout": 65.3,
+			"valid": 40202,
 			"spoiled": 72,
 			"majority": 3431
 		},
@@ -44,6 +45,7 @@
 			"mp": "Nic Dakin",
 			"electorate": 64025,
 			"turnout": 57.9,
+			"valid": 36941,
 			"spoiled": 133,
 			"majority": 3134
 		}

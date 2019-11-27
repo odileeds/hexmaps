@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24872/ian_murray/edinburgh_south",
 			"electorate": 64553,
 			"turnout": 74.1,
+			"valid": 47840,
 			"spoiled": 73,
 			"majority": 15514
 		},
@@ -44,6 +45,7 @@
 			"mp": "Ian Murray",
 			"electorate": 65801,
 			"turnout": 75.0,
+			"valid": 49286,
 			"spoiled": 54,
 			"majority": 2637
 		}

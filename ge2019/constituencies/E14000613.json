@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25408/jo_churchill/bury_st_edmunds",
 			"electorate": 86071,
 			"turnout": 72.2,
+			"valid": 62160,
 			"spoiled": 152,
 			"majority": 18441
 		},
@@ -39,6 +40,7 @@
 			"mp": "Jo Churchill",
 			"electorate": 85982,
 			"turnout": 69.3,
+			"valid": 59341,
 			"spoiled": 237,
 			"majority": 21301
 		}

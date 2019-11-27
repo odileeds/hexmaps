@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24888/stephen_mcpartland/stevenage",
 			"electorate": 70765,
 			"turnout": 69.7,
+			"valid": 49327,
 			"spoiled": 141,
 			"majority": 3386
 		},
@@ -39,6 +40,7 @@
 			"mp": "Stephen McPartland",
 			"electorate": 70597,
 			"turnout": 67.9,
+			"valid": 47799,
 			"spoiled": 127,
 			"majority": 4955
 		}

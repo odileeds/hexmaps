@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25592/tracy_brabin/batley_and_spen",
 			"electorate": 80161,
 			"turnout": 67.1,
+			"valid": 53780,
 			"spoiled": 128,
 			"majority": 8961
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jo Cox",
 			"electorate": 78373,
 			"turnout": 64.7,
+			"valid": 50479,
 			"spoiled": 200,
 			"majority": 6057
 		}

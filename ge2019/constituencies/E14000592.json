@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10220/barry_gardiner/brent_north",
 			"electorate": 82567,
 			"turnout": 68.4,
+			"valid": 56444,
 			"spoiled": 203,
 			"majority": 17061
 		},
@@ -54,6 +55,7 @@
 			"mp": "Barry Gardiner",
 			"electorate": 82196,
 			"turnout": 63.9,
+			"valid": 52235,
 			"spoiled": 291,
 			"majority": 10834
 		}

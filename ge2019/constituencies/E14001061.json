@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25433/rachael_maskell/york_central",
 			"electorate": 77315,
 			"turnout": 68.7,
+			"valid": 53088,
 			"spoiled": 213,
 			"majority": 18575
 		},
@@ -54,6 +55,7 @@
 			"mp": "Rachael Maskell",
 			"electorate": 75351,
 			"turnout": 63.6,
+			"valid": 47677,
 			"spoiled": 224,
 			"majority": 6716
 		}

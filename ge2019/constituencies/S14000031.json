@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25299/patrick_grady/glasgow_north",
 			"electorate": 53862,
 			"turnout": 62.1,
+			"valid": 33473,
 			"spoiled": 61,
 			"majority": 1060
 		},
@@ -49,6 +50,7 @@
 			"mp": "Patrick Grady",
 			"electorate": 60169,
 			"turnout": 61.5,
+			"valid": 36922,
 			"spoiled": 65,
 			"majority": 9295
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10076/richard_burden/birmingham%2C_northfield",
 			"electorate": 72322,
 			"turnout": 61.3,
+			"valid": 44348,
 			"spoiled": 151,
 			"majority": 4667
 		},
@@ -49,6 +50,7 @@
 			"mp": "Richard Burden",
 			"electorate": 71428,
 			"turnout": 59.6,
+			"valid": 42461,
 			"spoiled": 98,
 			"majority": 2509
 		}

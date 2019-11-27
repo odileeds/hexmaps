@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11389/maria_miller/basingstoke",
 			"electorate": 81875,
 			"turnout": 68.3,
+			"valid": 55960,
 			"spoiled": 138,
 			"majority": 9466
 		},
@@ -44,6 +45,7 @@
 			"mp": "Maria Miller",
 			"electorate": 79665,
 			"turnout": 66.9,
+			"valid": 53076,
 			"spoiled": 219,
 			"majority": 11063
 		}

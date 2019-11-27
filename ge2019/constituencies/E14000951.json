@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11633/david_gauke/south_west_hertfordshire",
 			"electorate": 81087,
 			"turnout": 74.8,
+			"valid": 60653,
 			"spoiled": 138,
 			"majority": 19550
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Gauke",
 			"electorate": 79668,
 			"turnout": 72.1,
+			"valid": 57267,
 			"spoiled": 174,
 			"majority": 23263
 		}

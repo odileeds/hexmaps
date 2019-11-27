@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25385/naseem_shah/bradford_west",
 			"electorate": 67568,
 			"turnout": 67.4,
+			"valid": 45528,
 			"spoiled": 221,
 			"majority": 21902
 		},
@@ -49,6 +50,7 @@
 			"mp": "Naz Shah",
 			"electorate": 63372,
 			"turnout": 64.0,
+			"valid": 40290,
 			"spoiled": 237,
 			"majority": 11420
 		}

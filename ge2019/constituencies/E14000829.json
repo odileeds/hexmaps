@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25227/robert_jenrick/newark",
 			"electorate": 75510,
 			"turnout": 72.9,
+			"valid": 55042,
 			"spoiled": 137,
 			"majority": 18149
 		},
@@ -39,6 +40,7 @@
 			"mp": "Robert Jenrick",
 			"electorate": 73747,
 			"turnout": 71.1,
+			"valid": 52302,
 			"spoiled": 165,
 			"majority": 18474
 		}

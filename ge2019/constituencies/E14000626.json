@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24871/tracey_crouch/chatham_and_aylesford",
 			"electorate": 70419,
 			"turnout": 63.7,
+			"valid": 44890,
 			"spoiled": 73,
 			"majority": 10458
 		},
@@ -44,6 +45,7 @@
 			"mp": "Tracey Crouch",
 			"electorate": 66355,
 			"turnout": 65.2,
+			"valid": 43073,
 			"spoiled": 166,
 			"majority": 11455
 		}

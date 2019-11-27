@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25679/neil_o%27brien/harborough",
 			"electorate": 78810,
 			"turnout": 73.1,
+			"valid": 57598,
 			"spoiled": 118,
 			"majority": 12429
 		},
@@ -44,6 +45,7 @@
 			"mp": "Edward Garnier",
 			"electorate": 77760,
 			"turnout": 67.7,
+			"valid": 52471,
 			"spoiled": 210,
 			"majority": 19632
 		}

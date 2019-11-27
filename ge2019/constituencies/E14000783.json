@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25120/jon_ashworth/leicester_south",
 			"electorate": 75534,
 			"turnout": 66.9,
+			"valid": 50517,
 			"spoiled": 182,
 			"majority": 26261
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jon Ashworth",
 			"electorate": 73518,
 			"turnout": 63.0,
+			"valid": 45942,
 			"spoiled": 398,
 			"majority": 17845
 		}

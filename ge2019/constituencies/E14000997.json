@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25374/thomas_tugendhat/tonbridge_and_malling",
 			"electorate": 77417,
 			"turnout": 73.5,
+			"valid": 56907,
 			"spoiled": 108,
 			"majority": 23508
 		},
@@ -39,6 +40,7 @@
 			"mp": "Tom Tugendhat",
 			"electorate": 74877,
 			"turnout": 71.9,
+			"valid": 53670,
 			"spoiled": 162,
 			"majority": 23734
 		}

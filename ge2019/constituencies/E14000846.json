@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24926/jacob_rees-mogg/north_east_somerset",
 			"electorate": 71355,
 			"turnout": 75.7,
+			"valid": 54043,
 			"spoiled": 104,
 			"majority": 10235
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jacob Rees-Mogg",
 			"electorate": 69380,
 			"turnout": 73.9,
+			"valid": 51110,
 			"spoiled": 153,
 			"majority": 12749
 		}

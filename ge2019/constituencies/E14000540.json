@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10281/margaret_hodge/barking",
 			"electorate": 77022,
 			"turnout": 61.9,
+			"valid": 47679,
 			"spoiled": 103,
 			"majority": 21608
 		},
@@ -44,6 +45,7 @@
 			"mp": "Margaret Hodge",
 			"electorate": 73977,
 			"turnout": 58.3,
+			"valid": 43041,
 			"spoiled": 111,
 			"majority": 15272
 		}

@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24910/caroline_lucas/brighton%2C_pavilion",
 			"electorate": 75486,
 			"turnout": 76.4,
+			"valid": 57687,
 			"spoiled": 154,
 			"majority": 14699
 		},
@@ -54,6 +55,7 @@
 			"mp": "Caroline Lucas",
 			"electorate": 76557,
 			"turnout": 71.7,
+			"valid": 54676,
 			"spoiled": 186,
 			"majority": 7967
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24741/andrew_bridgen/north_west_leicestershire",
 			"electorate": 75362,
 			"turnout": 71.0,
+			"valid": 53541,
 			"spoiled": 153,
 			"majority": 13286
 		},
@@ -49,6 +50,7 @@
 			"mp": "Andrew Bridgen",
 			"electorate": 72193,
 			"turnout": 71.6,
+			"valid": 51548,
 			"spoiled": 170,
 			"majority": 11373
 		}

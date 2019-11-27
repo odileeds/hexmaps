@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10121/vernon_coaker/gedling",
 			"electorate": 71223,
 			"turnout": 72.6,
+			"valid": 51682,
 			"spoiled": 83,
 			"majority": 4694
 		},
@@ -44,6 +45,7 @@
 			"mp": "Vernon Coaker",
 			"electorate": 70000,
 			"turnout": 68.8,
+			"valid": 47998,
 			"spoiled": 145,
 			"majority": 2986
 		}

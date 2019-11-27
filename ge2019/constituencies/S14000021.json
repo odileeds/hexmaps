@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25654/paul_masterton/east_renfrewshire",
 			"electorate": 70067,
 			"turnout": 76.7,
+			"valid": 53738,
 			"spoiled": 67,
 			"majority": 4712
 		},
@@ -39,6 +40,7 @@
 			"mp": "Kirsten  Oswald",
 			"electorate": 69982,
 			"turnout": 81.2,
+			"valid": 56730,
 			"spoiled": 95,
 			"majority": 3718
 		}

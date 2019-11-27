@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25690/luke_pollard/plymouth%2C_sutton_and_devonport",
 			"electorate": 76584,
 			"turnout": 66.9,
+			"valid": 51208,
 			"spoiled": 83,
 			"majority": 6807
 		},
@@ -44,6 +45,7 @@
 			"mp": "Oliver Colvile",
 			"electorate": 73274,
 			"turnout": 65.7,
+			"valid": 47963,
 			"spoiled": 157,
 			"majority": 523
 		}

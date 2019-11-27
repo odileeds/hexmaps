@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10484/steve_pound/ealing_north",
 			"electorate": 74764,
 			"turnout": 70.2,
+			"valid": 52516,
 			"spoiled": 152,
 			"majority": 19693
 		},
@@ -39,6 +40,7 @@
 			"mp": "Stephen Pound",
 			"electorate": 73881,
 			"turnout": 65.9,
+			"valid": 48510,
 			"spoiled": 198,
 			"majority": 12326
 		}

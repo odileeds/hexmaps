@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11929/adam_afriyie/windsor",
 			"electorate": 73595,
 			"turnout": 73.3,
+			"valid": 53921,
 			"spoiled": 164,
 			"majority": 22384
 		},
@@ -49,6 +50,7 @@
 			"mp": "Adam Afriyie",
 			"electorate": 71538,
 			"turnout": 70.4,
+			"valid": 50160,
 			"spoiled": 189,
 			"majority": 25083
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10534/barry_sheerman/huddersfield",
 			"electorate": 67037,
 			"turnout": 65.4,
+			"valid": 43834,
 			"spoiled": 116,
 			"majority": 12005
 		},
@@ -44,6 +45,7 @@
 			"mp": "Barry Sheerman",
 			"electorate": 65269,
 			"turnout": 62.3,
+			"valid": 40478,
 			"spoiled": 173,
 			"majority": 7345
 		}

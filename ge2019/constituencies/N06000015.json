@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25154/christopher_hazzard/south_down",
 			"electorate": 75685,
 			"turnout": 67.2,
+			"valid": 50893,
 			"spoiled": 189,
 			"majority": 2446
 		},
@@ -49,6 +50,7 @@
 			"mp": "Margaret Ritchie",
 			"electorate": 75220,
 			"turnout": 57.2,
+			"valid": 42697,
 			"spoiled": 303,
 			"majority": 5891
 		}

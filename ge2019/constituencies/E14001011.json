@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25699/eddie_hughes/walsall_north",
 			"electorate": 67308,
 			"turnout": 56.6,
+			"valid": 38118,
 			"spoiled": 78,
 			"majority": 2601
 		},
@@ -39,6 +40,7 @@
 			"mp": "David Winnick",
 			"electorate": 67080,
 			"turnout": 55.2,
+			"valid": 36883,
 			"spoiled": 137,
 			"majority": 1937
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24919/ian_mearns/gateshead",
 			"electorate": 65186,
 			"turnout": 64.6,
+			"valid": 42103,
 			"spoiled": 71,
 			"majority": 17350
 		},
@@ -39,6 +40,7 @@
 			"mp": "Ian Mearns",
 			"electorate": 64524,
 			"turnout": 59.0,
+			"valid": 37949,
 			"spoiled": 96,
 			"majority": 14784
 		}

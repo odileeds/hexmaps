@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11026/greg_knight/east_yorkshire",
 			"electorate": 81065,
 			"turnout": 66.6,
+			"valid": 53956,
 			"spoiled": 97,
 			"majority": 15006
 		},
@@ -44,6 +45,7 @@
 			"mp": "Greg Knight",
 			"electorate": 81023,
 			"turnout": 62.0,
+			"valid": 49991,
 			"spoiled": 227,
 			"majority": 14933
 		}

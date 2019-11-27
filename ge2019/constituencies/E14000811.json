@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24936/george_hollingbery/meon_valley",
 			"electorate": 74246,
 			"turnout": 73.0,
+			"valid": 54192,
 			"spoiled": 115,
 			"majority": 25692
 		},
@@ -39,6 +40,7 @@
 			"mp": "George Hollingbery",
 			"electorate": 72738,
 			"turnout": 71.2,
+			"valid": 51717,
 			"spoiled": 103,
 			"majority": 23913
 		}

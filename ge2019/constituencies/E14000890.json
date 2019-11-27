@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24902/alok_sharma/reading_west",
 			"electorate": 74523,
 			"turnout": 69.5,
+			"valid": 51766,
 			"spoiled": 147,
 			"majority": 2876
 		},
@@ -39,6 +40,7 @@
 			"mp": "Alok Sharma",
 			"electorate": 72567,
 			"turnout": 66.9,
+			"valid": 48404,
 			"spoiled": 119,
 			"majority": 6650
 		}

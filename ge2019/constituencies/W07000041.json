@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11148/albert_owen/ynys_mon",
 			"electorate": 52921,
 			"turnout": 70.6,
+			"valid": 37367,
 			"spoiled": 40,
 			"majority": 5259
 		},
@@ -39,6 +40,7 @@
 			"mp": "Albert Owen",
 			"electorate": 49939,
 			"turnout": 70.1,
+			"valid": 34926,
 			"spoiled": 67,
 			"majority": 229
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25220/mike_kane/wythenshawe_and_sale_east",
 			"electorate": 76361,
 			"turnout": 60.0,
+			"valid": 45846,
 			"spoiled": 71,
 			"majority": 14944
 		},
@@ -49,6 +50,7 @@
 			"mp": "Mike Kane",
 			"electorate": 75994,
 			"turnout": 57.2,
+			"valid": 43263,
 			"spoiled": 168,
 			"majority": 10569
 		}

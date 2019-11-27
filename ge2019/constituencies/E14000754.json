@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24709/bridget_phillipson/houghton_and_sunderland_south",
 			"electorate": 68123,
 			"turnout": 60.9,
+			"valid": 41480,
 			"spoiled": 77,
 			"majority": 12341
 		},
@@ -49,6 +50,7 @@
 			"mp": "Bridget Phillipson",
 			"electorate": 68324,
 			"turnout": 56.6,
+			"valid": 38489,
 			"spoiled": 175,
 			"majority": 12938
 		}

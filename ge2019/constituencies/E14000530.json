@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25628/leo_docherty/aldershot",
 			"electorate": 76205,
 			"turnout": 64.2,
+			"valid": 48950,
 			"spoiled": 102,
 			"majority": 11473
 		},
@@ -39,6 +40,7 @@
 			"mp": "Gerald Howarth",
 			"electorate": 72430,
 			"turnout": 63.9,
+			"valid": 46191,
 			"spoiled": 114,
 			"majority": 14901
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25687/alex_norris/nottingham_north",
 			"electorate": 66886,
 			"turnout": 57.3,
+			"valid": 38319,
 			"spoiled": 71,
 			"majority": 11160
 		},
@@ -44,6 +45,7 @@
 			"mp": "Graham Allen",
 			"electorate": 65918,
 			"turnout": 53.6,
+			"valid": 35343,
 			"spoiled": 22,
 			"majority": 11860
 		}

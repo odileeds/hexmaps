@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25034/debbie_abrahams/oldham_east_and_saddleworth",
 			"electorate": 72184,
 			"turnout": 65.2,
+			"valid": 47037,
 			"spoiled": 104,
 			"majority": 8182
 		},
@@ -54,6 +55,7 @@
 			"mp": "Debbie Abrahams",
 			"electorate": 71475,
 			"turnout": 62.5,
+			"valid": 44483,
 			"spoiled": 178,
 			"majority": 6002
 		}

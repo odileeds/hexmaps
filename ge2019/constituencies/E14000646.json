@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24857/fiona_bruce/congleton",
 			"electorate": 76694,
 			"turnout": 73.3,
+			"valid": 56231,
 			"spoiled": 98,
 			"majority": 12619
 		},
@@ -44,6 +45,7 @@
 			"mp": "Fiona Bruce",
 			"electorate": 72503,
 			"turnout": 70.5,
+			"valid": 50976,
 			"spoiled": 166,
 			"majority": 16773
 		}

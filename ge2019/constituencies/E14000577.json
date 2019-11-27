@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10544/dennis_skinner/bolsover",
 			"electorate": 73429,
 			"turnout": 63.4,
+			"valid": 46519,
 			"spoiled": 107,
 			"majority": 5288
 		},
@@ -54,6 +55,7 @@
 			"mp": "Dennis Skinner",
 			"electorate": 71979,
 			"turnout": 61.4,
+			"valid": 43998,
 			"spoiled": 193,
 			"majority": 11778
 		}

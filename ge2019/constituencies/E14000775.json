@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10292/george_howarth/knowsley",
 			"electorate": 81760,
 			"turnout": 67.9,
+			"valid": 55483,
 			"spoiled": 68,
 			"majority": 42214
 		},
@@ -49,6 +50,7 @@
 			"mp": "George Howarth",
 			"electorate": 79108,
 			"turnout": 64.4,
+			"valid": 50728,
 			"spoiled": 192,
 			"majority": 34655
 		}

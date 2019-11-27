@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10260/harriet_harman/camberwell_and_peckham",
 			"electorate": 85613,
 			"turnout": 67.1,
+			"valid": 57412,
 			"spoiled": 236,
 			"majority": 37316
 		},
@@ -49,6 +50,7 @@
 			"mp": "Harriet Harman",
 			"electorate": 82746,
 			"turnout": 62.6,
+			"valid": 51561,
 			"spoiled": 218,
 			"majority": 25824
 		}

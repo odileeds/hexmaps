@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25617/stephanie_peacock/barnsley_east",
 			"electorate": 69214,
 			"turnout": 58.9,
+			"valid": 40776,
 			"spoiled": 91,
 			"majority": 13283
 		},
@@ -44,6 +45,7 @@
 			"mp": "Michael Dugher",
 			"electorate": 69135,
 			"turnout": 56.0,
+			"valid": 38517,
 			"spoiled": 180,
 			"majority": 12034
 		}

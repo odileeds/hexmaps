@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25597/dr_caroline_johnson/sleaford_and_north_hykeham",
 			"electorate": 90929,
 			"turnout": 72.4,
+			"valid": 65797,
 			"spoiled": 107,
 			"majority": 25237
 		},
@@ -49,6 +50,7 @@
 			"mp": "Stephen Phillips",
 			"electorate": 87972,
 			"turnout": 70.7,
+			"valid": 61944,
 			"spoiled": 225,
 			"majority": 24115
 		}

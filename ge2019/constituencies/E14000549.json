@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25620/marsha_de_cordova/battersea",
 			"electorate": 77574,
 			"turnout": 71.0,
+			"valid": 55058,
 			"spoiled": 112,
 			"majority": 2416
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jane Ellison",
 			"electorate": 76111,
 			"turnout": 67.2,
+			"valid": 51031,
 			"spoiled": 141,
 			"majority": 7938
 		}

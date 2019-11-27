@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10075/karen_buck/westminster_north",
 			"electorate": 63846,
 			"turnout": 67.8,
+			"valid": 43295,
 			"spoiled": 192,
 			"majority": 11512
 		},
@@ -49,6 +50,7 @@
 			"mp": "Karen Buck",
 			"electorate": 62346,
 			"turnout": 63.7,
+			"valid": 39514,
 			"spoiled": 186,
 			"majority": 1977
 		}

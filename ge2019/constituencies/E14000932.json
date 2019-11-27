@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25372/david_warburton/somerton_and_frome",
 			"electorate": 84437,
 			"turnout": 75.7,
+			"valid": 63892,
 			"spoiled": 104,
 			"majority": 22906
 		},
@@ -39,6 +40,7 @@
 			"mp": "David Warburton",
 			"electorate": 83281,
 			"turnout": 72.6,
+			"valid": 60309,
 			"spoiled": 168,
 			"majority": 20268
 		}

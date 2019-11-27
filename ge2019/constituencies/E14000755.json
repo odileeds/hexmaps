@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25418/peter_kyle/hove",
 			"electorate": 74236,
 			"turnout": 77.6,
+			"valid": 57596,
 			"spoiled": 120,
 			"majority": 18757
 		},
@@ -54,6 +55,7 @@
 			"mp": "Peter Kyle",
 			"electorate": 73505,
 			"turnout": 71.4,
+			"valid": 52214,
 			"spoiled": 234,
 			"majority": 1236
 		}

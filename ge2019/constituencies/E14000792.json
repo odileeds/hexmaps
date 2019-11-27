@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25682/karen_lee/lincoln",
 			"electorate": 73111,
 			"turnout": 66.6,
+			"valid": 48718,
 			"spoiled": 79,
 			"majority": 1538
 		},
@@ -54,6 +55,7 @@
 			"mp": "Karl McCartney",
 			"electorate": 74121,
 			"turnout": 63.5,
+			"valid": 46852,
 			"spoiled": 224,
 			"majority": 1443
 		}

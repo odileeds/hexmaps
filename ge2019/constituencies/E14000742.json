@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/14131/john_howell/henley",
 			"electorate": 74997,
 			"turnout": 76.1,
+			"valid": 57099,
 			"spoiled": 119,
 			"majority": 22294
 		},
@@ -39,6 +40,7 @@
 			"mp": "John Howell",
 			"electorate": 77946,
 			"turnout": 71.1,
+			"valid": 55236,
 			"spoiled": 162,
 			"majority": 25375
 		}

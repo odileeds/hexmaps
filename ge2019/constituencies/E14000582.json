@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25395/matt_warman/boston_and_skegness",
 			"electorate": 68402,
 			"turnout": 62.7,
+			"valid": 42879,
 			"spoiled": 92,
 			"majority": 16572
 		},
@@ -39,6 +40,7 @@
 			"mp": "Matt Warman",
 			"electorate": 67064,
 			"turnout": 64.9,
+			"valid": 43339,
 			"spoiled": 179,
 			"majority": 4336
 		}

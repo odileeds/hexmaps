@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24782/damian_hinds/east_hampshire",
 			"electorate": 74151,
 			"turnout": 74.7,
+			"valid": 55408,
 			"spoiled": 159,
 			"majority": 25852
 		},
@@ -49,6 +50,7 @@
 			"mp": "Damian Hinds",
 			"electorate": 71074,
 			"turnout": 73.0,
+			"valid": 51649,
 			"spoiled": 218,
 			"majority": 25147
 		}

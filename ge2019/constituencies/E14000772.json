@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11647/diana_r._johnson/kingston_upon_hull_north",
 			"electorate": 64665,
 			"turnout": 57.4,
+			"valid": 37122,
 			"spoiled": 76,
 			"majority": 14322
 		},
@@ -44,6 +45,7 @@
 			"mp": "Diana Johnson",
 			"electorate": 64148,
 			"turnout": 55.3,
+			"valid": 35336,
 			"spoiled": 136,
 			"majority": 12899
 		}

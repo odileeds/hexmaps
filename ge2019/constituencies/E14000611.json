@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25622/james_frith/bury_north",
 			"electorate": 67580,
 			"turnout": 70.9,
+			"valid": 47903,
 			"spoiled": 156,
 			"majority": 4375
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Nuttall",
 			"electorate": 67580,
 			"turnout": 67.2,
+			"valid": 45230,
 			"spoiled": 186,
 			"majority": 378
 		}

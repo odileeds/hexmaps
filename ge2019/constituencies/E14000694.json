@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10920/chris_grayling/epsom_and_ewell",
 			"electorate": 80029,
 			"turnout": 74.1,
+			"valid": 59266,
 			"spoiled": 202,
 			"majority": 20475
 		},
@@ -44,6 +45,7 @@
 			"mp": "Chris Grayling",
 			"electorate": 78633,
 			"turnout": 72.9,
+			"valid": 57143,
 			"spoiled": 189,
 			"majority": 24443
 		}

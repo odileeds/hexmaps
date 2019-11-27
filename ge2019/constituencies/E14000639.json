@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10884/mark_field/cities_of_london_and_westminster",
 			"electorate": 61533,
 			"turnout": 62.8,
+			"valid": 38654,
 			"spoiled": 133,
 			"majority": 3148
 		},
@@ -49,6 +50,7 @@
 			"mp": "Mark Field",
 			"electorate": 60992,
 			"turnout": 59.6,
+			"valid": 36185,
 			"spoiled": 167,
 			"majority": 9671
 		}

@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24843/robert_buckland/south_swindon",
 			"electorate": 72372,
 			"turnout": 70.8,
+			"valid": 51271,
 			"spoiled": 87,
 			"majority": 2464
 		},
@@ -34,6 +35,7 @@
 			"mp": "Robert Buckland",
 			"electorate": 73926,
 			"turnout": 66.8,
+			"valid": 49263,
 			"spoiled": 147,
 			"majority": 5785
 		}

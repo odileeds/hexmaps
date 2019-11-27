@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25345/royston_smith/southampton%2C_itchen",
 			"electorate": 71722,
 			"turnout": 65.2,
+			"valid": 46783,
 			"spoiled": 92,
 			"majority": 31
 		},
@@ -44,6 +45,7 @@
 			"mp": "Royston Smith",
 			"electorate": 72281,
 			"turnout": 62.0,
+			"valid": 44710,
 			"spoiled": 115,
 			"majority": 2316
 		}

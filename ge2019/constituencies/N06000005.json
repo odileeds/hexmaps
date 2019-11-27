@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11374/sammy_wilson/east_antrim",
 			"electorate": 62908,
 			"turnout": 60.6,
+			"valid": 38143,
 			"spoiled": 126,
 			"majority": 15923
 		},
@@ -54,6 +55,7 @@
 			"mp": "Sammy Wilson",
 			"electorate": 62811,
 			"turnout": 53.6,
+			"valid": 33497,
 			"spoiled": 191,
 			"majority": 5795
 		}

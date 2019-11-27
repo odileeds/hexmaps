@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24804/mark_menzies/fylde",
 			"electorate": 65937,
 			"turnout": 70.5,
+			"valid": 46467,
 			"spoiled": 127,
 			"majority": 11805
 		},
@@ -44,6 +45,7 @@
 			"mp": "Mark Menzies",
 			"electorate": 65679,
 			"turnout": 66.6,
+			"valid": 43557,
 			"spoiled": 190,
 			"majority": 13224
 		}

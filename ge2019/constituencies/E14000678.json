@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11265/hugo_swire/east_devon",
 			"electorate": 82369,
 			"turnout": 73.3,
+			"valid": 60382,
 			"spoiled": 61,
 			"majority": 8036
 		},
@@ -49,6 +50,7 @@
 			"mp": "Hugo Swire",
 			"electorate": 76519,
 			"turnout": 71.8,
+			"valid": 54717,
 			"spoiled": 217,
 			"majority": 12261
 		}

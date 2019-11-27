@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25288/ronnie_cowan/inverclyde",
 			"electorate": 58853,
 			"turnout": 66.4,
+			"valid": 39093,
 			"spoiled": 57,
 			"majority": 384
 		},
@@ -39,6 +40,7 @@
 			"mp": "Ronnie Cowan",
 			"electorate": 59350,
 			"turnout": 75.2,
+			"valid": 44607,
 			"spoiled": 52,
 			"majority": 11063
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10241/damian_green/ashford",
 			"electorate": 87387,
 			"turnout": 68.5,
+			"valid": 59879,
 			"spoiled": 135,
 			"majority": 17478
 		},
@@ -44,6 +45,7 @@
 			"mp": "Damian Green",
 			"electorate": 85177,
 			"turnout": 67.6,
+			"valid": 57372,
 			"spoiled": 175,
 			"majority": 19296
 		}

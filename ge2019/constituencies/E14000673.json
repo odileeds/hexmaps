@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25310/helen_hayes/dulwich_and_west_norwood",
 			"electorate": 78037,
 			"turnout": 71.9,
+			"valid": 56143,
 			"spoiled": 162,
 			"majority": 28156
 		},
@@ -49,6 +50,7 @@
 			"mp": "Helen Hayes",
 			"electorate": 76575,
 			"turnout": 67.3,
+			"valid": 51362,
 			"spoiled": 186,
 			"majority": 16122
 		}

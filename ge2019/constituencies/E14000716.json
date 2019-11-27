@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25317/melanie_onn/great_grimsby",
 			"electorate": 61743,
 			"turnout": 57.5,
+			"valid": 35521,
 			"spoiled": 60,
 			"majority": 2565
 		},
@@ -49,6 +50,7 @@
 			"mp": "Melanie Onn",
 			"electorate": 59200,
 			"turnout": 57.2,
+			"valid": 33731,
 			"spoiled": 104,
 			"majority": 4540
 		}

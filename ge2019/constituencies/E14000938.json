@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24875/sheryll_murray/south_east_cornwall",
 			"electorate": 71880,
 			"turnout": 74.0,
+			"valid": 53224,
 			"spoiled": 133,
 			"majority": 17443
 		},
@@ -44,6 +45,7 @@
 			"mp": "Sheryll Murray",
 			"electorate": 71071,
 			"turnout": 71.2,
+			"valid": 50498,
 			"spoiled": 78,
 			"majority": 16995
 		}

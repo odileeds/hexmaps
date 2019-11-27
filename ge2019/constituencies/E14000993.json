@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25415/kevin_hollinrake/thirsk_and_malton",
 			"electorate": 78670,
 			"turnout": 71.1,
+			"valid": 55929,
 			"spoiled": 94,
 			"majority": 19001
 		},
@@ -59,6 +60,7 @@
 			"mp": "Kevin Hollinrake",
 			"electorate": 77451,
 			"turnout": 67.8,
+			"valid": 52365,
 			"spoiled": 170,
 			"majority": 19456
 		}

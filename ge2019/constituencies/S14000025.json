@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25404/joanna_cherry/edinburgh_south_west",
 			"electorate": 71178,
 			"turnout": 69.4,
+			"valid": 49390,
 			"spoiled": 74,
 			"majority": 1097
 		},
@@ -54,6 +55,7 @@
 			"mp": "Joanna  Cherry",
 			"electorate": 72149,
 			"turnout": 71.6,
+			"valid": 51602,
 			"spoiled": 74,
 			"majority": 8135
 		}

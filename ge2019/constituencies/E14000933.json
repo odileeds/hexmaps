@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24749/stephen_metcalfe/south_basildon_and_east_thurrock",
 			"electorate": 73537,
 			"turnout": 64.1,
+			"valid": 47120,
 			"spoiled": 75,
 			"majority": 11490
 		},
@@ -39,6 +40,7 @@
 			"mp": "Stephen Metcalfe",
 			"electorate": 71155,
 			"turnout": 64.2,
+			"valid": 45593,
 			"spoiled": 106,
 			"majority": 7691
 		}

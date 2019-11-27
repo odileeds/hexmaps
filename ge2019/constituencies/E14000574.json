@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25623/liz_twist/blaydon",
 			"electorate": 68459,
 			"turnout": 70.2,
+			"valid": 48084,
 			"spoiled": 64,
 			"majority": 13477
 		},
@@ -59,6 +60,7 @@
 			"mp": "David Anderson",
 			"electorate": 67901,
 			"turnout": 66.3,
+			"valid": 44936,
 			"spoiled": 96,
 			"majority": 14227
 		}

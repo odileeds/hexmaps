@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10842/wayne_david/caerphilly",
 			"electorate": 64381,
 			"turnout": 64.1,
+			"valid": 41297,
 			"spoiled": 83,
 			"majority": 12078
 		},
@@ -39,6 +40,7 @@
 			"mp": "Wayne David",
 			"electorate": 63603,
 			"turnout": 63.5,
+			"valid": 40283,
 			"spoiled": 81,
 			"majority": 10073
 		}

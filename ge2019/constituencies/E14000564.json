@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24788/shabana_mahmood/birmingham%2C_ladywood",
 			"electorate": 70023,
 			"turnout": 59.0,
+			"valid": 41307,
 			"spoiled": 155,
 			"majority": 28714
 		},
@@ -44,6 +45,7 @@
 			"mp": "Shabana Mahmood",
 			"electorate": 68128,
 			"turnout": 53.1,
+			"valid": 35916,
 			"spoiled": 253,
 			"majority": 21868
 		}

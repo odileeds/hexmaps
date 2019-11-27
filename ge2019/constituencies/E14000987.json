@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24882/esther_mcvey/tatton",
 			"electorate": 67874,
 			"turnout": 72.4,
+			"valid": 49116,
 			"spoiled": 104,
 			"majority": 14787
 		},
@@ -39,6 +40,7 @@
 			"mp": "George Osborne",
 			"electorate": 65004,
 			"turnout": 70.0,
+			"valid": 45298,
 			"spoiled": 185,
 			"majority": 18241
 		}

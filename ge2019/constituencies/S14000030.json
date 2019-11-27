@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25677/david_linden/glasgow_east",
 			"electorate": 66242,
 			"turnout": 54.6,
+			"valid": 36166,
 			"spoiled": 56,
 			"majority": 75
 		},
@@ -39,6 +40,7 @@
 			"mp": "Natalie McGarry",
 			"electorate": 70378,
 			"turnout": 60.3,
+			"valid": 42417,
 			"spoiled": 29,
 			"majority": 10387
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10122/ann_coffey/stockport",
 			"electorate": 64236,
 			"turnout": 64.7,
+			"valid": 41544,
 			"spoiled": 97,
 			"majority": 14477
 		},
@@ -44,6 +45,7 @@
 			"mp": "Ann Coffey",
 			"electorate": 63931,
 			"turnout": 62.2,
+			"valid": 39649,
 			"spoiled": 135,
 			"majority": 10061
 		}

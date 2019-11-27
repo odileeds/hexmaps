@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25424/victoria_atkins/louth_and_horncastle",
 			"electorate": 79007,
 			"turnout": 66.8,
+			"valid": 52771,
 			"spoiled": 84,
 			"majority": 19641
 		},
@@ -39,6 +40,7 @@
 			"mp": "Victoria Atkins",
 			"electorate": 74870,
 			"turnout": 67.5,
+			"valid": 50336,
 			"spoiled": 236,
 			"majority": 14977
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11696/philip_dunne/ludlow",
 			"electorate": 68034,
 			"turnout": 73.4,
+			"valid": 49970,
 			"spoiled": 140,
 			"majority": 19286
 		},
@@ -39,6 +40,7 @@
 			"mp": "Philip Dunne",
 			"electorate": 66374,
 			"turnout": 72.6,
+			"valid": 48063,
 			"spoiled": 120,
 			"majority": 18929
 		}

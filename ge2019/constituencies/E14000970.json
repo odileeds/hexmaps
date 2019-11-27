@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24742/alex_cunningham/stockton_north",
 			"electorate": 66285,
 			"turnout": 64.5,
+			"valid": 42731,
 			"spoiled": 74,
 			"majority": 8715
 		},
@@ -44,6 +45,7 @@
 			"mp": "Alex Cunningham",
 			"electorate": 66126,
 			"turnout": 60.2,
+			"valid": 39571,
 			"spoiled": 212,
 			"majority": 8367
 		}

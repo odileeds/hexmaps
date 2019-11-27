@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25673/sarah_jones/croydon_central",
 			"electorate": 80045,
 			"turnout": 71.3,
+			"valid": 57091,
 			"spoiled": 109,
 			"majority": 5652
 		},
@@ -44,6 +45,7 @@
 			"mp": "Gavin Barwell",
 			"electorate": 78171,
 			"turnout": 67.9,
+			"valid": 52941,
 			"spoiled": 102,
 			"majority": 165
 		}

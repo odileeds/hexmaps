@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24929/jonathan_reynolds/stalybridge_and_hyde",
 			"electorate": 71409,
 			"turnout": 59.5,
+			"valid": 42457,
 			"spoiled": 127,
 			"majority": 8084
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jonathan Reynolds",
 			"electorate": 71357,
 			"turnout": 57.8,
+			"valid": 41034,
 			"spoiled": 201,
 			"majority": 6686
 		}

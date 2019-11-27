@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10415/gordon_marsden/blackpool_south",
 			"electorate": 58470,
 			"turnout": 59.8,
+			"valid": 34953,
 			"spoiled": 44,
 			"majority": 2523
 		},
@@ -49,6 +50,7 @@
 			"mp": "Gordon Marsden",
 			"electorate": 57411,
 			"turnout": 56.8,
+			"valid": 32436,
 			"spoiled": 192,
 			"majority": 2585
 		}

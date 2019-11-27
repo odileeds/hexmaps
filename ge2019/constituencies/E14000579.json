@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24775/yasmin_qureshi/bolton_south_east",
 			"electorate": 68886,
 			"turnout": 61.4,
+			"valid": 42323,
 			"spoiled": 97,
 			"majority": 13126
 		},
@@ -44,6 +45,7 @@
 			"mp": "Yasmin Qureshi",
 			"electorate": 69687,
 			"turnout": 58.7,
+			"valid": 40743,
 			"spoiled": 134,
 			"majority": 10928
 		}

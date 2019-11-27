@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25659/alex_burghart/brentwood_and_ongar",
 			"electorate": 75067,
 			"turnout": 70.5,
+			"valid": 52910,
 			"spoiled": 107,
 			"majority": 24002
 		},
@@ -44,6 +45,7 @@
 			"mp": "Eric Pickles",
 			"electorate": 71918,
 			"turnout": 72.4,
+			"valid": 51897,
 			"spoiled": 151,
 			"majority": 21810
 		}

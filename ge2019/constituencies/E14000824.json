@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10041/paul_beresford/mole_valley",
 			"electorate": 74545,
 			"turnout": 76.1,
+			"valid": 56726,
 			"spoiled": 140,
 			"majority": 24137
 		},
@@ -49,6 +50,7 @@
 			"mp": "Paul Beresford",
 			"electorate": 74038,
 			"turnout": 74.7,
+			"valid": 55140,
 			"spoiled": 192,
 			"majority": 25453
 		}

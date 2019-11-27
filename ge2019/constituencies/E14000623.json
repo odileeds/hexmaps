@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24914/mel_stride/central_devon",
 			"electorate": 74370,
 			"turnout": 77.8,
+			"valid": 57844,
 			"spoiled": 84,
 			"majority": 15680
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mel Stride",
 			"electorate": 72737,
 			"turnout": 75.1,
+			"valid": 54448,
 			"spoiled": 192,
 			"majority": 21265
 		}

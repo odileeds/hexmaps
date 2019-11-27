@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25289/gerald_jones/merthyr_tydfil_and_rhymney",
 			"electorate": 55463,
 			"turnout": 60.5,
+			"valid": 33545,
 			"spoiled": 71,
 			"majority": 16334
 		},
@@ -49,6 +50,7 @@
 			"mp": "Gerald Jones",
 			"electorate": 61716,
 			"turnout": 53.2,
+			"valid": 32715,
 			"spoiled": 95,
 			"majority": 11513
 		}

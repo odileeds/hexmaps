@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10505/laurence_robertson/tewkesbury",
 			"electorate": 81440,
 			"turnout": 72.5,
+			"valid": 59084,
 			"spoiled": 115,
 			"majority": 22574
 		},
@@ -39,6 +40,7 @@
 			"mp": "Laurence Robertson",
 			"electorate": 78910,
 			"turnout": 70.4,
+			"valid": 55344,
 			"spoiled": 192,
 			"majority": 21972
 		}

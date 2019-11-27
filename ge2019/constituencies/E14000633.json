@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25670/gillian_keegan/chichester",
 			"electorate": 84991,
 			"turnout": 70.5,
+			"valid": 59918,
 			"spoiled": 129,
 			"majority": 22621
 		},
@@ -49,6 +50,7 @@
 			"mp": "Andrew Tyrie",
 			"electorate": 83396,
 			"turnout": 68.8,
+			"valid": 57139,
 			"spoiled": 198,
 			"majority": 24413
 		}

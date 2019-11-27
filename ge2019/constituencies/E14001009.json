@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11898/mary_creagh/wakefield",
 			"electorate": 70340,
 			"turnout": 65.8,
+			"valid": 46284,
 			"spoiled": 112,
 			"majority": 2176
 		},
@@ -49,6 +50,7 @@
 			"mp": "Mary Creagh",
 			"electorate": 70521,
 			"turnout": 61.1,
+			"valid": 42973,
 			"spoiled": 106,
 			"majority": 2613
 		}

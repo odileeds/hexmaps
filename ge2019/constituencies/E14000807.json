@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25165/lucy_powell/manchester_central",
 			"electorate": 90261,
 			"turnout": 55.1,
+			"valid": 49720,
 			"spoiled": 150,
 			"majority": 31445
 		},
@@ -49,6 +50,7 @@
 			"mp": "Lucy Powell",
 			"electorate": 86078,
 			"turnout": 52.9,
+			"valid": 45331,
 			"spoiled": 229,
 			"majority": 21639
 		}

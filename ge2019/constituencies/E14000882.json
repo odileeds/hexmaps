@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10199/jim_fitzpatrick/poplar_and_limehouse",
 			"electorate": 87331,
 			"turnout": 67.3,
+			"valid": 58814,
 			"spoiled": 277,
 			"majority": 27712
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jim Fitzpatrick",
 			"electorate": 82081,
 			"turnout": 62.4,
+			"valid": 51044,
 			"spoiled": 202,
 			"majority": 16924
 		}

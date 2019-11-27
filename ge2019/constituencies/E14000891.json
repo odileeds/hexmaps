@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25313/anna_turley/redcar",
 			"electorate": 66836,
 			"turnout": 63.7,
+			"valid": 42560,
 			"spoiled": 66,
 			"majority": 9485
 		},
@@ -49,6 +50,7 @@
 			"mp": "Anna Turley",
 			"electorate": 64826,
 			"turnout": 63.4,
+			"valid": 40919,
 			"spoiled": 163,
 			"majority": 10388
 		}

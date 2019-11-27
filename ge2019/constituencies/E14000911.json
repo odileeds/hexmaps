@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25368/rebecca_long-bailey/salford_and_eccles",
 			"electorate": 78080,
 			"turnout": 61.0,
+			"valid": 47619,
 			"spoiled": 111,
 			"majority": 19132
 		},
@@ -44,6 +45,7 @@
 			"mp": "Rebecca Long Bailey",
 			"electorate": 74291,
 			"turnout": 58.5,
+			"valid": 43261,
 			"spoiled": 201,
 			"majority": 12541
 		}

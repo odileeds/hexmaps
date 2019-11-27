@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10159/geraint_davies/swansea_west",
 			"electorate": 56892,
 			"turnout": 65.5,
+			"valid": 37282,
 			"spoiled": 83,
 			"majority": 10598
 		},
@@ -44,6 +45,7 @@
 			"mp": "Geraint Davies",
 			"electorate": 58776,
 			"turnout": 60.0,
+			"valid": 35156,
 			"spoiled": 116,
 			"majority": 7036
 		}

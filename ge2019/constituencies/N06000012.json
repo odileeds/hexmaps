@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/13852/ian_paisley_jnr/north_antrim",
 			"electorate": 75657,
 			"turnout": 64.1,
+			"valid": 48460,
 			"spoiled": 112,
 			"majority": 20643
 		},
@@ -49,6 +50,7 @@
 			"mp": "Ian Paisley",
 			"electorate": 75876,
 			"turnout": 55.5,
+			"valid": 41907,
 			"spoiled": 209,
 			"majority": 11546
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24805/yvonne_fovargue/makerfield",
 			"electorate": 74259,
 			"turnout": 63.2,
+			"valid": 46933,
 			"spoiled": 104,
 			"majority": 13542
 		},
@@ -44,6 +45,7 @@
 			"mp": "Yvonne Fovargue",
 			"electorate": 74320,
 			"turnout": 60.4,
+			"valid": 44788,
 			"spoiled": 131,
 			"majority": 13155
 		}

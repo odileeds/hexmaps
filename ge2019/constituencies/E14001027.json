@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11917/grant_shapps/welwyn_hatfield",
 			"electorate": 72888,
 			"turnout": 70.9,
+			"valid": 51669,
 			"spoiled": 109,
 			"majority": 7369
 		},
@@ -39,6 +40,7 @@
 			"mp": "Grant Shapps",
 			"electorate": 73247,
 			"turnout": 68.8,
+			"valid": 50205,
 			"spoiled": 171,
 			"majority": 12153
 		}

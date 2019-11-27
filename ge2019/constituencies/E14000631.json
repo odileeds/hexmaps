@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10228/dame_cheryl_gillan/chesham_and_amersham",
 			"electorate": 71654,
 			"turnout": 77.1,
+			"valid": 55252,
 			"spoiled": 136,
 			"majority": 22140
 		},
@@ -39,6 +40,7 @@
 			"mp": "Cheryl Gillan",
 			"electorate": 72547,
 			"turnout": 73.0,
+			"valid": 52730,
 			"spoiled": 249,
 			"majority": 23920
 		}

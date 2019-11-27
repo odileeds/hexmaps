@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11798/anne_main/st_albans",
 			"electorate": 72811,
 			"turnout": 78.3,
+			"valid": 56998,
 			"spoiled": 142,
 			"majority": 6109
 		},
@@ -44,6 +45,7 @@
 			"mp": "Anne Main",
 			"electorate": 75825,
 			"turnout": 72.0,
+			"valid": 54433,
 			"spoiled": 156,
 			"majority": 12732
 		}

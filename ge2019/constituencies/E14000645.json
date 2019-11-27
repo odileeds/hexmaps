@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25671/thelma_walker/colne_valley",
 			"electorate": 84387,
 			"turnout": 71.6,
+			"valid": 60420,
 			"spoiled": 158,
 			"majority": 915
 		},
@@ -59,6 +60,7 @@
 			"mp": "Jason McCartney",
 			"electorate": 82516,
 			"turnout": 69.0,
+			"valid": 56800,
 			"spoiled": 153,
 			"majority": 5378
 		}

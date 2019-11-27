@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24907/bob_stewart/beckenham",
 			"electorate": 67925,
 			"turnout": 76.0,
+			"valid": 51630,
 			"spoiled": 182,
 			"majority": 15087
 		},
@@ -39,6 +40,7 @@
 			"mp": "Bob Stewart",
 			"electorate": 67439,
 			"turnout": 72.5,
+			"valid": 48803,
 			"spoiled": 119,
 			"majority": 18471
 		}

@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25067/dan_jarvis/barnsley_central",
 			"electorate": 64204,
 			"turnout": 60.9,
+			"valid": 39087,
 			"spoiled": 66,
 			"majority": 15546
 		},
@@ -54,6 +55,7 @@
 			"mp": "Dan Jarvis",
 			"electorate": 64534,
 			"turnout": 56.8,
+			"valid": 36560,
 			"spoiled": 110,
 			"majority": 12435
 		}

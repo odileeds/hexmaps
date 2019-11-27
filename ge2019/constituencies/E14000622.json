@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24731/rebecca_harris/castle_point",
 			"electorate": 69470,
 			"turnout": 64.4,
+			"valid": 44710,
 			"spoiled": 87,
 			"majority": 18872
 		},
@@ -34,6 +35,7 @@
 			"mp": "Rebecca Harris",
 			"electorate": 68170,
 			"turnout": 66.8,
+			"valid": 45450,
 			"spoiled": 117,
 			"majority": 8934
 		}

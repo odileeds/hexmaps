@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24916/stephen_barclay/north_east_cambridgeshire",
 			"electorate": 84414,
 			"turnout": 63.1,
+			"valid": 53284,
 			"spoiled": 81,
 			"majority": 21270
 		},
@@ -39,6 +40,7 @@
 			"mp": "Stephen Barclay",
 			"electorate": 82990,
 			"turnout": 62.7,
+			"valid": 51780,
 			"spoiled": 226,
 			"majority": 16874
 		}

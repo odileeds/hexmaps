@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25307/martyn_day/linlithgow_and_east_falkirk",
 			"electorate": 86186,
 			"turnout": 65.1,
+			"valid": 56094,
 			"spoiled": 92,
 			"majority": 2919
 		},
@@ -54,6 +55,7 @@
 			"mp": "Martyn Day",
 			"electorate": 86955,
 			"turnout": 70.9,
+			"valid": 61597,
 			"spoiled": 90,
 			"majority": 12934
 		}

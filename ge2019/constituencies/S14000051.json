@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10785/alistair_carmichael/orkney_and_shetland",
 			"electorate": 34164,
 			"turnout": 68.1,
+			"valid": 23277,
 			"spoiled": 43,
 			"majority": 4563
 		},
@@ -49,6 +50,7 @@
 			"mp": "Alistair Carmichael",
 			"electorate": 34552,
 			"turnout": 66.0,
+			"valid": 22728,
 			"spoiled": 75,
 			"majority": 817
 		}

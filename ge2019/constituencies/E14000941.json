@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10707/richard_bacon/south_norfolk",
 			"electorate": 83055,
 			"turnout": 73.6,
+			"valid": 61111,
 			"spoiled": 182,
 			"majority": 16678
 		},
@@ -39,6 +40,7 @@
 			"mp": "Richard Bacon",
 			"electorate": 80721,
 			"turnout": 71.0,
+			"valid": 57123,
 			"spoiled": 221,
 			"majority": 20493
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25658/stephen_morgan/portsmouth_south",
 			"electorate": 69785,
 			"turnout": 63.9,
+			"valid": 44566,
 			"spoiled": 94,
 			"majority": 1554
 		},
@@ -44,6 +45,7 @@
 			"mp": "Flick Drummond",
 			"electorate": 71639,
 			"turnout": 58.8,
+			"valid": 41903,
 			"spoiled": 185,
 			"majority": 5241
 		}

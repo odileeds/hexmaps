@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11792/nick_hurd/ruislip%2C_northwood_and_pinner",
 			"electorate": 73427,
 			"turnout": 72.7,
+			"valid": 53382,
 			"spoiled": 146,
 			"majority": 13980
 		},
@@ -54,6 +55,7 @@
 			"mp": "Nick Hurd",
 			"electorate": 73216,
 			"turnout": 70.2,
+			"valid": 51222,
 			"spoiled": 159,
 			"majority": 20224
 		}

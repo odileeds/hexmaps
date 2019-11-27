@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25421/paula_sherriff/dewsbury",
 			"electorate": 81343,
 			"turnout": 69.5,
+			"valid": 56545,
 			"spoiled": 155,
 			"majority": 3321
 		},
@@ -49,6 +50,7 @@
 			"mp": "Paula Sherriff",
 			"electorate": 79770,
 			"turnout": 67.5,
+			"valid": 53630,
 			"spoiled": 238,
 			"majority": 1451
 		}

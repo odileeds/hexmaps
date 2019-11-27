@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10575/gary_streeter/south_west_devon",
 			"electorate": 71260,
 			"turnout": 74.2,
+			"valid": 52857,
 			"spoiled": 97,
 			"majority": 15816
 		},
@@ -39,6 +40,7 @@
 			"mp": "Gary Streeter",
 			"electorate": 71035,
 			"turnout": 71.1,
+			"valid": 50372,
 			"spoiled": 122,
 			"majority": 20109
 		}

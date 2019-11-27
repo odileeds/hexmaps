@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24743/jonathan_edwards/carmarthen_east_and_dinefwr",
 			"electorate": 55976,
 			"turnout": 73.3,
+			"valid": 41029,
 			"spoiled": 45,
 			"majority": 3908
 		},
@@ -39,6 +40,7 @@
 			"mp": "Jonathan Edwards",
 			"electorate": 55750,
 			"turnout": 70.8,
+			"valid": 39399,
 			"spoiled": 61,
 			"majority": 5599
 		}

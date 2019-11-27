@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11323/hywel_williams/arfon",
 			"electorate": 41367,
 			"turnout": 68.2,
+			"valid": 28208,
 			"spoiled": 67,
 			"majority": 92
 		},
@@ -39,6 +40,7 @@
 			"mp": "Hywel Williams",
 			"electorate": 40492,
 			"turnout": 66.5,
+			"valid": 26837,
 			"spoiled": 95,
 			"majority": 3668
 		}

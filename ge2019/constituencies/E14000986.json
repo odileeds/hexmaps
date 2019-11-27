@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24747/christopher_pincher/tamworth",
 			"electorate": 71308,
 			"turnout": 66.1,
+			"valid": 47110,
 			"spoiled": 180,
 			"majority": 12347
 		},
@@ -49,6 +50,7 @@
 			"mp": "Christopher Pincher",
 			"electorate": 71913,
 			"turnout": 65.7,
+			"valid": 47174,
 			"spoiled": 105,
 			"majority": 11302
 		}

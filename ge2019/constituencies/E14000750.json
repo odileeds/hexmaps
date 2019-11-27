@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25353/keir_starmer/holborn_and_st_pancras",
 			"electorate": 88088,
 			"turnout": 67.0,
+			"valid": 58997,
 			"spoiled": 178,
 			"majority": 30509
 		},
@@ -54,6 +55,7 @@
 			"mp": "Keir Starmer",
 			"electorate": 86764,
 			"turnout": 63.5,
+			"valid": 54917,
 			"spoiled": 219,
 			"majority": 17048
 		}

@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25380/vicky_foxcroft/lewisham%2C_deptford",
 			"electorate": 78468,
 			"turnout": 70.2,
+			"valid": 55112,
 			"spoiled": 208,
 			"majority": 34899
 		},
@@ -54,6 +55,7 @@
 			"mp": "Vicky Foxcroft",
 			"electorate": 73428,
 			"turnout": 64.9,
+			"valid": 47426,
 			"spoiled": 222,
 			"majority": 21516
 		}

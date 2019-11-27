@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10265/john_hayes/south_holland_and_the_deepings",
 			"electorate": 76374,
 			"turnout": 65.9,
+			"valid": 50315,
 			"spoiled": 84,
 			"majority": 24897
 		},
@@ -44,6 +45,7 @@
 			"mp": "John Hayes",
 			"electorate": 76460,
 			"turnout": 64.6,
+			"valid": 49207,
 			"spoiled": 160,
 			"majority": 18567
 		}

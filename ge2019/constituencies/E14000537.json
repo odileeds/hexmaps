@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25429/angela_rayner/ashton-under-lyne",
 			"electorate": 67674,
 			"turnout": 58.8,
+			"valid": 39773,
 			"spoiled": 81,
 			"majority": 11295
 		},
@@ -44,6 +45,7 @@
 			"mp": "Angela Rayner",
 			"electorate": 68343,
 			"turnout": 57.2,
+			"valid": 38918,
 			"spoiled": 198,
 			"majority": 10756
 		}

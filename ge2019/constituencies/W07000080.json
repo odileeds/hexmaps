@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25166/stephen_doughty/cardiff_south_and_penarth",
 			"electorate": 76499,
 			"turnout": 66.3,
+			"valid": 50736,
 			"spoiled": 107,
 			"majority": 14864
 		},
@@ -49,6 +50,7 @@
 			"mp": "Stephen Doughty",
 			"electorate": 76006,
 			"turnout": 61.6,
+			"valid": 46667,
 			"spoiled": 121,
 			"majority": 7453
 		}

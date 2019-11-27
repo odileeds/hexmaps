@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25290/craig_tracey/north_warwickshire",
 			"electorate": 72277,
 			"turnout": 65.3,
+			"valid": 47178,
 			"spoiled": 137,
 			"majority": 8510
 		},
@@ -39,6 +40,7 @@
 			"mp": "Craig Tracey",
 			"electorate": 70152,
 			"turnout": 67.7,
+			"valid": 47377,
 			"spoiled": 137,
 			"majority": 2973
 		}

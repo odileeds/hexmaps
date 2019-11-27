@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24759/andrew_stephenson/pendle",
 			"electorate": 64962,
 			"turnout": 69.0,
+			"valid": 44854,
 			"spoiled": 82,
 			"majority": 1279
 		},
@@ -44,6 +45,7 @@
 			"mp": "Andrew Stephenson",
 			"electorate": 64573,
 			"turnout": 69.1,
+			"valid": 44448,
 			"spoiled": 198,
 			"majority": 5453
 		}

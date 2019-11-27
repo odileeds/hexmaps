@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10397/patrick_mcloughlin/derbyshire_dales",
 			"electorate": 64430,
 			"turnout": 76.9,
+			"valid": 49571,
 			"spoiled": 151,
 			"majority": 14327
 		},
@@ -39,6 +40,7 @@
 			"mp": "Patrick McLoughlin",
 			"electorate": 63476,
 			"turnout": 74.8,
+			"valid": 47361,
 			"spoiled": 130,
 			"majority": 14044
 		}

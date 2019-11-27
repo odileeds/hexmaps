@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10225/nick_gibb/bognor_regis_and_littlehampton",
 			"electorate": 75827,
 			"turnout": 67.7,
+			"valid": 51352,
 			"spoiled": 98,
 			"majority": 17494
 		},
@@ -49,6 +50,7 @@
 			"mp": "Nick Gibb",
 			"electorate": 72995,
 			"turnout": 64.9,
+			"valid": 47116,
 			"spoiled": 224,
 			"majority": 13944
 		}

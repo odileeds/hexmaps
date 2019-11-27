@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25398/helen_whately/faversham_and_mid_kent",
 			"electorate": 72205,
 			"turnout": 68.9,
+			"valid": 49749,
 			"spoiled": 77,
 			"majority": 17413
 		},
@@ -44,6 +45,7 @@
 			"mp": "Helen Whately",
 			"electorate": 69523,
 			"turnout": 66.0,
+			"valid": 45803,
 			"spoiled": 104,
 			"majority": 16652
 		}

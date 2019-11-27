@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25706/emma_dent_coad/kensington",
 			"electorate": 60588,
 			"turnout": 63.8,
+			"valid": 38677,
 			"spoiled": 118,
 			"majority": 20
 		},
@@ -59,6 +60,7 @@
 			"mp": "Victoria Borwick",
 			"electorate": 61133,
 			"turnout": 57.2,
+			"valid": 34828,
 			"spoiled": 139,
 			"majority": 7361
 		}

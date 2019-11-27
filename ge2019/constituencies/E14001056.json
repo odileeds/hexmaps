@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24786/steven_baker/wycombe",
 			"electorate": 77087,
 			"turnout": 69.4,
+			"valid": 53493,
 			"spoiled": 144,
 			"majority": 6578
 		},
@@ -54,6 +55,7 @@
 			"mp": "Steve Baker",
 			"electorate": 76371,
 			"turnout": 67.8,
+			"valid": 51439,
 			"spoiled": 319,
 			"majority": 14856
 		}

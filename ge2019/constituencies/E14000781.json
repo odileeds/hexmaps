@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24851/rachel_reeves/leeds_west",
 			"electorate": 67955,
 			"turnout": 62.1,
+			"valid": 42229,
 			"spoiled": 72,
 			"majority": 15965
 		},
@@ -59,6 +60,7 @@
 			"mp": "Rachel Reeves",
 			"electorate": 64950,
 			"turnout": 59.4,
+			"valid": 38423,
 			"spoiled": 153,
 			"majority": 10727
 		}

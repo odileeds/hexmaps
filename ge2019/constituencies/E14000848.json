@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11032/norman_lamb/north_norfolk",
 			"electorate": 69271,
 			"turnout": 75.3,
+			"valid": 52188,
 			"spoiled": 91,
 			"majority": 3512
 		},
@@ -39,6 +40,7 @@
 			"mp": "Norman Lamb",
 			"electorate": 68867,
 			"turnout": 72.0,
+			"valid": 49414,
 			"spoiled": 136,
 			"majority": 4043
 		}

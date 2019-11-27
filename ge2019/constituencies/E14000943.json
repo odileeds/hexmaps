@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25389/seema_kennedy/south_ribble",
 			"electorate": 75752,
 			"turnout": 72.4,
+			"valid": 54834,
 			"spoiled": 92,
 			"majority": 7421
 		},
@@ -39,6 +40,7 @@
 			"mp": "Seema Kennedy",
 			"electorate": 76489,
 			"turnout": 68.7,
+			"valid": 52370,
 			"spoiled": 162,
 			"majority": 5945
 		}

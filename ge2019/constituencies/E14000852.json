@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10217/roger_gale/north_thanet",
 			"electorate": 72651,
 			"turnout": 66.5,
+			"valid": 48325,
 			"spoiled": 82,
 			"majority": 10738
 		},
@@ -39,6 +40,7 @@
 			"mp": "Roger Gale",
 			"electorate": 71478,
 			"turnout": 66.1,
+			"valid": 47053,
 			"spoiled": 161,
 			"majority": 10948
 		}

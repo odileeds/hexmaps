@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25283/julie_cooper/burnley",
 			"electorate": 64709,
 			"turnout": 62.3,
+			"valid": 40290,
 			"spoiled": 63,
 			"majority": 6353
 		},
@@ -54,6 +55,7 @@
 			"mp": "Julie Cooper",
 			"electorate": 64477,
 			"turnout": 61.9,
+			"valid": 39746,
 			"spoiled": 150,
 			"majority": 3244
 		}

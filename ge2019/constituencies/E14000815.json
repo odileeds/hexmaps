@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25422/michael_tomlinson/mid_dorset_and_north_poole",
 			"electorate": 65050,
 			"turnout": 74.2,
+			"valid": 48254,
 			"spoiled": 145,
 			"majority": 15339
 		},
@@ -39,6 +40,7 @@
 			"mp": "Michael Tomlinson",
 			"electorate": 64299,
 			"turnout": 72.5,
+			"valid": 46499,
 			"spoiled": 137,
 			"majority": 10530
 		}

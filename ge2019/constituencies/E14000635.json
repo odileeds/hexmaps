@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25316/michelle_donelan/chippenham",
 			"electorate": 76432,
 			"turnout": 74.8,
+			"valid": 57140,
 			"spoiled": 210,
 			"majority": 16630
 		},
@@ -34,6 +35,7 @@
 			"mp": "Michelle Donelan",
 			"electorate": 74218,
 			"turnout": 74.8,
+			"valid": 55407,
 			"spoiled": 100,
 			"majority": 10076
 		}

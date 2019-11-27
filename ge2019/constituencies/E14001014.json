@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24963/ian_lavery/wansbeck",
 			"electorate": 62151,
 			"turnout": 68.3,
+			"valid": 42454,
 			"spoiled": 57,
 			"majority": 10435
 		},
@@ -49,6 +50,7 @@
 			"mp": "Ian Lavery",
 			"electorate": 60705,
 			"turnout": 63.6,
+			"valid": 38528,
 			"spoiled": 68,
 			"majority": 10881
 		}

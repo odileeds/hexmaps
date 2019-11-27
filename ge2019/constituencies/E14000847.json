@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11318/bill_wiggin/north_herefordshire",
 			"electorate": 67751,
 			"turnout": 74.1,
+			"valid": 50177,
 			"spoiled": 116,
 			"majority": 21602
 		},
@@ -39,6 +40,7 @@
 			"mp": "Bill Wiggin",
 			"electorate": 67926,
 			"turnout": 71.0,
+			"valid": 48023,
 			"spoiled": 190,
 			"majority": 19996
 		}

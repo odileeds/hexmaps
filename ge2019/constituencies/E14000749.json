@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25661/bim_afolami/hitchin_and_harpenden",
 			"electorate": 75916,
 			"turnout": 77.4,
+			"valid": 58783,
 			"spoiled": 138,
 			"majority": 12031
 		},
@@ -44,6 +45,7 @@
 			"mp": "Peter Lilley",
 			"electorate": 80333,
 			"turnout": 69.1,
+			"valid": 55375,
 			"spoiled": 173,
 			"majority": 20055
 		}

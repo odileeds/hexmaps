@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25364/jess_phillips/birmingham%2C_yardley",
 			"electorate": 72581,
 			"turnout": 61.3,
+			"valid": 44502,
 			"spoiled": 103,
 			"majority": 16574
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jess Phillips",
 			"electorate": 72146,
 			"turnout": 57.3,
+			"valid": 41151,
 			"spoiled": 162,
 			"majority": 6595
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25685/lee_rowley/north_east_derbyshire",
 			"electorate": 72097,
 			"turnout": 69.9,
+			"valid": 50380,
 			"spoiled": 78,
 			"majority": 2860
 		},
@@ -39,6 +40,7 @@
 			"mp": "Natascha Engel",
 			"electorate": 71445,
 			"turnout": 67.3,
+			"valid": 47948,
 			"spoiled": 147,
 			"majority": 1883
 		}

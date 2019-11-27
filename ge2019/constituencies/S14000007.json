@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25664/david_duguid/banff_and_buchan",
 			"electorate": 67601,
 			"turnout": 61.6,
+			"valid": 41643,
 			"spoiled": 46,
 			"majority": 3693
 		},
@@ -39,6 +40,7 @@
 			"mp": "Eilidh Whiteford",
 			"electorate": 68609,
 			"turnout": 66.7,
+			"valid": 45629,
 			"spoiled": 112,
 			"majority": 14339
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10576/graham_stringer/blackley_and_broughton",
 			"electorate": 71648,
 			"turnout": 56.0,
+			"valid": 40113,
 			"spoiled": 101,
 			"majority": 19601
 		},
@@ -44,6 +45,7 @@
 			"mp": "Graham Stringer",
 			"electorate": 71913,
 			"turnout": 51.9,
+			"valid": 37112,
 			"spoiled": 194,
 			"majority": 16874
 		}

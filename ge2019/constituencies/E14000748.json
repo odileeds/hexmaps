@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25633/ruth_george/high_peak",
 			"electorate": 73248,
 			"turnout": 73.5,
+			"valid": 53853,
 			"spoiled": 160,
 			"majority": 2322
 		},
@@ -44,6 +45,7 @@
 			"mp": "Andrew Bingham",
 			"electorate": 73336,
 			"turnout": 69.5,
+			"valid": 50789,
 			"spoiled": 153,
 			"majority": 4894
 		}

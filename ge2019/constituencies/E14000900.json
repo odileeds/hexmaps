@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11199/andrew_rosindell/romford",
 			"electorate": 73493,
 			"turnout": 68.0,
+			"valid": 49944,
 			"spoiled": 126,
 			"majority": 13778
 		},
@@ -39,6 +40,7 @@
 			"mp": "Andrew Rosindell",
 			"electorate": 72594,
 			"turnout": 68.0,
+			"valid": 49178,
 			"spoiled": 159,
 			"majority": 13859
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10194/michael_fallon/sevenoaks",
 			"electorate": 71565,
 			"turnout": 71.6,
+			"valid": 51218,
 			"spoiled": 146,
 			"majority": 21917
 		},
@@ -49,6 +50,7 @@
 			"mp": "Michael Fallon",
 			"electorate": 71958,
 			"turnout": 70.0,
+			"valid": 50124,
 			"spoiled": 231,
 			"majority": 19561
 		}

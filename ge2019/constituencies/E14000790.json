@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10143/john_cryer/leyton_and_wanstead",
 			"electorate": 65149,
 			"turnout": 70.9,
+			"valid": 46173,
 			"spoiled": 139,
 			"majority": 22607
 		},
@@ -49,6 +50,7 @@
 			"mp": "John Cryer",
 			"electorate": 64580,
 			"turnout": 63.3,
+			"valid": 40703,
 			"spoiled": 171,
 			"majority": 14917
 		}

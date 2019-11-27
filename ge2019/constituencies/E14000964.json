@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25440/derek_thomas/st_ives",
 			"electorate": 67145,
 			"turnout": 76.3,
+			"valid": 51226,
 			"spoiled": 109,
 			"majority": 312
 		},
@@ -49,6 +50,7 @@
 			"mp": "Derek Thomas",
 			"electorate": 65570,
 			"turnout": 73.8,
+			"valid": 48312,
 			"spoiled": 78,
 			"majority": 2469
 		}

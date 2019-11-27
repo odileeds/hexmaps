@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11719/david_davies/monmouth",
 			"electorate": 64909,
 			"turnout": 76.6,
+			"valid": 49734,
 			"spoiled": 64,
 			"majority": 8206
 		},
@@ -49,6 +50,7 @@
 			"mp": "David Davies",
 			"electorate": 62248,
 			"turnout": 76.4,
+			"valid": 47462,
 			"spoiled": 104,
 			"majority": 10982
 		}

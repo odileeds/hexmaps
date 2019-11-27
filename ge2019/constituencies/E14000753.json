@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25417/jeremy_quin/horsham",
 			"electorate": 82772,
 			"turnout": 74.9,
+			"valid": 61987,
 			"spoiled": 106,
 			"majority": 23484
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jeremy Quin",
 			"electorate": 79085,
 			"turnout": 72.3,
+			"valid": 56925,
 			"spoiled": 234,
 			"majority": 24658
 		}

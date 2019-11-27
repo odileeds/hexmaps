@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25407/rebecca_pow/taunton_deane",
 			"electorate": 85457,
 			"turnout": 73.8,
+			"valid": 63053,
 			"spoiled": 99,
 			"majority": 15887
 		},
@@ -39,6 +40,7 @@
 			"mp": "Rebecca Pow",
 			"electorate": 83221,
 			"turnout": 69.7,
+			"valid": 57887,
 			"spoiled": 158,
 			"majority": 15491
 		}

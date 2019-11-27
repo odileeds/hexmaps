@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10062/graham_brady/altrincham_and_sale_west",
 			"electorate": 73226,
 			"turnout": 72.1,
+			"valid": 52790,
 			"spoiled": 132,
 			"majority": 6426
 		},
@@ -49,6 +50,7 @@
 			"mp": "Graham Brady",
 			"electorate": 71511,
 			"turnout": 70.9,
+			"valid": 50517,
 			"spoiled": 158,
 			"majority": 13290
 		}

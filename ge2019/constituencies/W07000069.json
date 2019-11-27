@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25332/christina_rees/neath",
 			"electorate": 55862,
 			"turnout": 68.5,
+			"valid": 38285,
 			"spoiled": 83,
 			"majority": 12631
 		},
@@ -59,6 +60,7 @@
 			"mp": "Christina Rees",
 			"electorate": 56097,
 			"turnout": 66.4,
+			"valid": 37135,
 			"spoiled": 114,
 			"majority": 9548
 		}

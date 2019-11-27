@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24878/nigel_adams/selby_and_ainsty",
 			"electorate": 75918,
 			"turnout": 73.9,
+			"valid": 56076,
 			"spoiled": 145,
 			"majority": 13772
 		},
@@ -44,6 +45,7 @@
 			"mp": "Nigel Adams",
 			"electorate": 76082,
 			"turnout": 69.6,
+			"valid": 52804,
 			"spoiled": 172,
 			"majority": 13557
 		}

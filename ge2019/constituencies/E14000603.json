@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10542/keith_simpson/broadland",
 			"electorate": 77334,
 			"turnout": 72.4,
+			"valid": 55971,
 			"spoiled": 104,
 			"majority": 15816
 		},
@@ -44,6 +45,7 @@
 			"mp": "Keith Simpson",
 			"electorate": 73552,
 			"turnout": 72.4,
+			"valid": 53089,
 			"spoiled": 182,
 			"majority": 16838
 		}

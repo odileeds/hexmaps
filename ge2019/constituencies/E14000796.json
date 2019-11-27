@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10611/stephen_twigg/liverpool%2C_west_derby",
 			"electorate": 65164,
 			"turnout": 69.3,
+			"valid": 45163,
 			"spoiled": 112,
 			"majority": 32908
 		},
@@ -49,6 +50,7 @@
 			"mp": "Stephen Twigg",
 			"electorate": 63651,
 			"turnout": 64.7,
+			"valid": 41031,
 			"spoiled": 132,
 			"majority": 27367
 		}

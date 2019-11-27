@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25322/stewart_mcdonald/glasgow_south",
 			"electorate": 69126,
 			"turnout": 64.4,
+			"valid": 44550,
 			"spoiled": 83,
 			"majority": 2027
 		},
@@ -49,6 +50,7 @@
 			"mp": "Stewart McDonald",
 			"electorate": 74051,
 			"turnout": 66.0,
+			"valid": 48778,
 			"spoiled": 87,
 			"majority": 12269
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11541/geoffrey_cox/torridge_and_west_devon",
 			"electorate": 80524,
 			"turnout": 73.9,
+			"valid": 59480,
 			"spoiled": 144,
 			"majority": 20686
 		},
@@ -44,6 +45,7 @@
 			"mp": "Geoffrey Cox",
 			"electorate": 78621,
 			"turnout": 72.2,
+			"valid": 56584,
 			"spoiled": 202,
 			"majority": 18403
 		}

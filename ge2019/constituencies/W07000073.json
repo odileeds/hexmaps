@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11450/madeleine_moon/bridgend",
 			"electorate": 62185,
 			"turnout": 69.6,
+			"valid": 43255,
 			"spoiled": 55,
 			"majority": 4700
 		},
@@ -49,6 +50,7 @@
 			"mp": "Madeleine Moon",
 			"electorate": 59998,
 			"turnout": 65.9,
+			"valid": 39453,
 			"spoiled": 63,
 			"majority": 1927
 		}

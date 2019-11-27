@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25309/peter_dowd/bootle",
 			"electorate": 72872,
 			"turnout": 69.0,
+			"valid": 50288,
 			"spoiled": 163,
 			"majority": 36200
 		},
@@ -44,6 +45,7 @@
 			"mp": "Peter Dowd",
 			"electorate": 70145,
 			"turnout": 64.6,
+			"valid": 45152,
 			"spoiled": 148,
 			"majority": 28704
 		}

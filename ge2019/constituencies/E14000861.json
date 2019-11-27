@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24866/michael_ellis/northampton_north",
 			"electorate": 58861,
 			"turnout": 68.6,
+			"valid": 40378,
 			"spoiled": 63,
 			"majority": 807
 		},
@@ -39,6 +40,7 @@
 			"mp": "Michael Ellis",
 			"electorate": 59144,
 			"turnout": 66.8,
+			"valid": 39411,
 			"spoiled": 112,
 			"majority": 3245
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25637/darren_jones/bristol_north_west",
 			"electorate": 75434,
 			"turnout": 71.7,
+			"valid": 54096,
 			"spoiled": 132,
 			"majority": 4761
 		},
@@ -39,6 +40,7 @@
 			"mp": "Charlotte Leslie",
 			"electorate": 74743,
 			"turnout": 69.5,
+			"valid": 51805,
 			"spoiled": 121,
 			"majority": 4944
 		}

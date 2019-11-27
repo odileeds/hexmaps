@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11397/nadine_dorries/mid_bedfordshire",
 			"electorate": 84161,
 			"turnout": 75.0,
+			"valid": 63138,
 			"spoiled": 185,
 			"majority": 20983
 		},
@@ -49,6 +50,7 @@
 			"mp": "Nadine Dorries",
 			"electorate": 78501,
 			"turnout": 74.3,
+			"valid": 58060,
 			"spoiled": 228,
 			"majority": 23327
 		}

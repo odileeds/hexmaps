@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25630/damien_moore/southport",
 			"electorate": 69400,
 			"turnout": 69.1,
+			"valid": 47956,
 			"spoiled": 63,
 			"majority": 2914
 		},
@@ -34,6 +35,7 @@
 			"mp": "John Pugh",
 			"electorate": 67326,
 			"turnout": 65.8,
+			"valid": 44101,
 			"spoiled": 171,
 			"majority": 1322
 		}

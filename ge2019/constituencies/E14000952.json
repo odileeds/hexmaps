@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24941/elizabeth_truss/south_west_norfolk",
 			"electorate": 77874,
 			"turnout": 67.3,
+			"valid": 52416,
 			"spoiled": 154,
 			"majority": 18312
 		},
@@ -44,6 +45,7 @@
 			"mp": "Elizabeth Truss",
 			"electorate": 76970,
 			"turnout": 65.4,
+			"valid": 50110,
 			"spoiled": 192,
 			"majority": 13861
 		}

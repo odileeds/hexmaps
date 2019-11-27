@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10256/fabian_hamilton/leeds_north_east",
 			"electorate": 70112,
 			"turnout": 75.6,
+			"valid": 52999,
 			"spoiled": 103,
 			"majority": 16991
 		},
@@ -49,6 +50,7 @@
 			"mp": "Fabian Hamilton",
 			"electorate": 69097,
 			"turnout": 70.2,
+			"valid": 48291,
 			"spoiled": 239,
 			"majority": 7250
 		}

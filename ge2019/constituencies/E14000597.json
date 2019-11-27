@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25667/lloyd_russell-moyle/brighton%2C_kemptown",
 			"electorate": 67893,
 			"turnout": 72.5,
+			"valid": 49207,
 			"spoiled": 154,
 			"majority": 9868
 		},
@@ -44,6 +45,7 @@
 			"mp": "Simon Kirby",
 			"electorate": 67858,
 			"turnout": 67.0,
+			"valid": 45306,
 			"spoiled": 177,
 			"majority": 690
 		}

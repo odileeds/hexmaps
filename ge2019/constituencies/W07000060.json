@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10518/chris_ruane/vale_of_clwyd",
 			"electorate": 56890,
 			"turnout": 68.0,
+			"valid": 38684,
 			"spoiled": 91,
 			"majority": 2379
 		},
@@ -44,6 +45,7 @@
 			"mp": "James Davies",
 			"electorate": 56505,
 			"turnout": 62.5,
+			"valid": 35261,
 			"spoiled": 77,
 			"majority": 237
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11915/peter_bone/wellingborough",
 			"electorate": 79254,
 			"turnout": 67.2,
+			"valid": 53240,
 			"spoiled": 100,
 			"majority": 12460
 		},
@@ -39,6 +40,7 @@
 			"mp": "Peter Bone",
 			"electorate": 74317,
 			"turnout": 68.2,
+			"valid": 50430,
 			"spoiled": 239,
 			"majority": 16397
 		}

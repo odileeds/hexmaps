@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24927/mary_glindon/north_tyneside",
 			"electorate": 78914,
 			"turnout": 65.8,
+			"valid": 51892,
 			"spoiled": 92,
 			"majority": 19284
 		},
@@ -44,6 +45,7 @@
 			"mp": "Mary Glindon",
 			"electorate": 79300,
 			"turnout": 59.2,
+			"valid": 46818,
 			"spoiled": 137,
 			"majority": 17194
 		}

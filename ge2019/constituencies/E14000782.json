@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10614/keith_vaz/leicester_east",
 			"electorate": 77788,
 			"turnout": 67.4,
+			"valid": 52424,
 			"spoiled": 258,
 			"majority": 22428
 		},
@@ -49,6 +50,7 @@
 			"mp": "Keith Vaz",
 			"electorate": 75430,
 			"turnout": 64.4,
+			"valid": 48068,
 			"spoiled": 533,
 			"majority": 18352
 		}

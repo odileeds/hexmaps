@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11421/helen_goodman/bishop_auckland",
 			"electorate": 67661,
 			"turnout": 64.0,
+			"valid": 43281,
 			"spoiled": 78,
 			"majority": 502
 		},
@@ -39,6 +40,7 @@
 			"mp": "Helen Goodman",
 			"electorate": 66070,
 			"turnout": 59.7,
+			"valid": 39389,
 			"spoiled": 68,
 			"majority": 3508
 		}

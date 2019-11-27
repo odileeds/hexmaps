@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11858/michael_gove/surrey_heath",
 			"electorate": 80764,
 			"turnout": 71.6,
+			"valid": 57822,
 			"spoiled": 226,
 			"majority": 24943
 		},
@@ -44,6 +45,7 @@
 			"mp": "Michael Gove",
 			"electorate": 79515,
 			"turnout": 68.8,
+			"valid": 54431,
 			"spoiled": 252,
 			"majority": 24804
 		}

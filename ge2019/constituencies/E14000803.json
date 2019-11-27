@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10426/theresa_may/maidenhead",
 			"electorate": 76076,
 			"turnout": 76.6,
+			"valid": 58239,
 			"spoiled": 108,
 			"majority": 26457
 		},
@@ -39,6 +40,7 @@
 			"mp": "Theresa May",
 			"electorate": 74187,
 			"turnout": 72.8,
+			"valid": 53855,
 			"spoiled": 183,
 			"majority": 29059
 		}

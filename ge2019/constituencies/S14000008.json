@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/14026/john_lamont/berwickshire%2C_roxburgh_and_selkirk",
 			"electorate": 73191,
 			"turnout": 71.5,
+			"valid": 52367,
 			"spoiled": 96,
 			"majority": 11060
 		},
@@ -39,6 +40,7 @@
 			"mp": "Calum Kerr",
 			"electorate": 74214,
 			"turnout": 74.2,
+			"valid": 55038,
 			"spoiled": 56,
 			"majority": 328
 		}

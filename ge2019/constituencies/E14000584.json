@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11437/tobias_ellwood/bournemouth_east",
 			"electorate": 74591,
 			"turnout": 65.2,
+			"valid": 48618,
 			"spoiled": 115,
 			"majority": 7937
 		},
@@ -49,6 +50,7 @@
 			"mp": "Tobias Ellwood",
 			"electorate": 72275,
 			"turnout": 62.3,
+			"valid": 44827,
 			"spoiled": 191,
 			"majority": 14612
 		}

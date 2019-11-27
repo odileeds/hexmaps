@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10761/chris_bryant/rhondda",
 			"electorate": 50514,
 			"turnout": 65.2,
+			"valid": 32936,
 			"spoiled": 60,
 			"majority": 13746
 		},
@@ -49,6 +50,7 @@
 			"mp": "Chris Bryant",
 			"electorate": 51811,
 			"turnout": 61.0,
+			"valid": 31538,
 			"spoiled": 58,
 			"majority": 7455
 		}

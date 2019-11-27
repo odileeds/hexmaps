@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11553/ian_austin/dudley_north",
 			"electorate": 62043,
 			"turnout": 62.7,
+			"valid": 38910,
 			"spoiled": 72,
 			"majority": 22
 		},
@@ -39,6 +40,7 @@
 			"mp": "Ian Austin",
 			"electorate": 60717,
 			"turnout": 62.7,
+			"valid": 37992,
 			"spoiled": 97,
 			"majority": 4181
 		}

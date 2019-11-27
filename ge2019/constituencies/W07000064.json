@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25669/ben_lake/ceredigion",
 			"electorate": 54262,
 			"turnout": 73.3,
+			"valid": 39767,
 			"spoiled": 52,
 			"majority": 104
 		},
@@ -49,6 +50,7 @@
 			"mp": "Mark Williams",
 			"electorate": 54242,
 			"turnout": 69.2,
+			"valid": 37416,
 			"spoiled": 96,
 			"majority": 3067
 		}

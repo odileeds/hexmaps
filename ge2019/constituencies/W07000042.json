@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10259/david_hanson/delyn",
 			"electorate": 54090,
 			"turnout": 72.9,
+			"valid": 39418,
 			"spoiled": 69,
 			"majority": 4240
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Hanson",
 			"electorate": 53639,
 			"turnout": 70.0,
+			"valid": 37457,
 			"spoiled": 66,
 			"majority": 2930
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25362/mike_wood/dudley_south",
 			"electorate": 61323,
 			"turnout": 62.4,
+			"valid": 38244,
 			"spoiled": 51,
 			"majority": 7730
 		},
@@ -39,6 +40,7 @@
 			"mp": "Mike Wood",
 			"electorate": 60363,
 			"turnout": 63.4,
+			"valid": 38210,
 			"spoiled": 85,
 			"majority": 4270
 		}

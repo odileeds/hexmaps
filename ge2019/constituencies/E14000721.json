@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11605/meg_hillier/hackney_south_and_shoreditch",
 			"electorate": 83099,
 			"turnout": 66.6,
+			"valid": 55354,
 			"spoiled": 215,
 			"majority": 37931
 		},
@@ -49,6 +50,7 @@
 			"mp": "Meg Hillier",
 			"electorate": 84971,
 			"turnout": 56.2,
+			"valid": 47580,
 			"spoiled": 191,
 			"majority": 24213
 		}

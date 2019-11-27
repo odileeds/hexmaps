@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25150/seema_malhotra/feltham_and_heston",
 			"electorate": 81714,
 			"turnout": 64.9,
+			"valid": 53027,
 			"spoiled": 111,
 			"majority": 15603
 		},
@@ -44,6 +45,7 @@
 			"mp": "Seema Malhotra",
 			"electorate": 82340,
 			"turnout": 60.2,
+			"valid": 49405,
 			"spoiled": 142,
 			"majority": 11463
 		}

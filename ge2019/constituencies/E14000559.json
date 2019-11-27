@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10197/frank_field/birkenhead",
 			"electorate": 64484,
 			"turnout": 67.7,
+			"valid": 43663,
 			"spoiled": 108,
 			"majority": 25514
 		},
@@ -49,6 +50,7 @@
 			"mp": "Frank Field",
 			"electorate": 62410,
 			"turnout": 62.9,
+			"valid": 39144,
 			"spoiled": 125,
 			"majority": 20652
 		}

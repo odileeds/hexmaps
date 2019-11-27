@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24799/john_stevenson/carlisle",
 			"electorate": 62294,
 			"turnout": 69.1,
+			"valid": 43056,
 			"spoiled": 88,
 			"majority": 2599
 		},
@@ -39,6 +40,7 @@
 			"mp": "John Stevenson",
 			"electorate": 65827,
 			"turnout": 64.8,
+			"valid": 42587,
 			"spoiled": 93,
 			"majority": 2774
 		}

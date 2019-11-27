@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10103/christopher_chope/christchurch",
 			"electorate": 70309,
 			"turnout": 72.0,
+			"valid": 50634,
 			"spoiled": 161,
 			"majority": 25171
 		},
@@ -39,6 +40,7 @@
 			"mp": "Christopher Chope",
 			"electorate": 69303,
 			"turnout": 72.1,
+			"valid": 49707,
 			"spoiled": 233,
 			"majority": 18224
 		}

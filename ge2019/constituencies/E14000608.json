@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10040/john_bercow/buckingham",
 			"electorate": 79615,
 			"turnout": 66.2,
+			"valid": 52679,
 			"spoiled": 1967,
 			"majority": 25725
 		},
@@ -49,6 +50,7 @@
 			"mp": "John Bercow",
 			"electorate": 77425,
 			"turnout": 71.0,
+			"valid": 53692,
 			"spoiled": 1289,
 			"majority": 22942
 		}

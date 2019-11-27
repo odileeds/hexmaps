@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24716/jack_lopresti/filton_and_bradley_stoke",
 			"electorate": 72483,
 			"turnout": 70.0,
+			"valid": 50702,
 			"spoiled": 164,
 			"majority": 4190
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jack Lopresti",
 			"electorate": 71310,
 			"turnout": 69.1,
+			"valid": 49101,
 			"spoiled": 152,
 			"majority": 9838
 		}

@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11859/jeremy_hunt/south_west_surrey",
 			"electorate": 78042,
 			"turnout": 77.4,
+			"valid": 60432,
 			"spoiled": 151,
 			"majority": 21590
 		},
@@ -34,6 +35,7 @@
 			"mp": "Jeremy Hunt",
 			"electorate": 77548,
 			"turnout": 74.0,
+			"valid": 57119,
 			"spoiled": 247,
 			"majority": 28556
 		}

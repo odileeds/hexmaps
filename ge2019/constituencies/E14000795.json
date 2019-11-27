@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24924/luciana_berger/liverpool%2C_wavertree",
 			"electorate": 62411,
 			"turnout": 69.9,
+			"valid": 43640,
 			"spoiled": 119,
 			"majority": 29466
 		},
@@ -49,6 +50,7 @@
 			"mp": "Luciana Berger",
 			"electorate": 61549,
 			"turnout": 66.8,
+			"valid": 40974,
 			"spoiled": 162,
 			"majority": 24303
 		}

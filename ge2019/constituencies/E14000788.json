@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25681/ellie_reeves/lewisham_west_and_penge",
 			"electorate": 72899,
 			"turnout": 73.0,
+			"valid": 53196,
 			"spoiled": 156,
 			"majority": 23162
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jim Dowd",
 			"electorate": 72290,
 			"turnout": 66.8,
+			"valid": 48125,
 			"spoiled": 159,
 			"majority": 12714
 		}

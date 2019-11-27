@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25621/paul_williams/stockton_south",
 			"electorate": 75625,
 			"turnout": 71.2,
+			"valid": 53824,
 			"spoiled": 82,
 			"majority": 888
 		},
@@ -39,6 +40,7 @@
 			"mp": "James Wharton",
 			"electorate": 75111,
 			"turnout": 69.2,
+			"valid": 51797,
 			"spoiled": 147,
 			"majority": 5046
 		}

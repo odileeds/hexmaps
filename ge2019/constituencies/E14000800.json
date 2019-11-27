@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10288/kelvin_hopkins/luton_north",
 			"electorate": 66811,
 			"turnout": 69.8,
+			"valid": 46622,
 			"spoiled": 120,
 			"majority": 14364
 		},
@@ -54,6 +55,7 @@
 			"mp": "Kelvin Hopkins",
 			"electorate": 67329,
 			"turnout": 63.7,
+			"valid": 42571,
 			"spoiled": 291,
 			"majority": 9504
 		}

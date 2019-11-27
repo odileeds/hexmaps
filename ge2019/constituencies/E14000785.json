@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25611/jo_platt/leigh",
 			"electorate": 76202,
 			"turnout": 61.5,
+			"valid": 46874,
 			"spoiled": 105,
 			"majority": 9554
 		},
@@ -49,6 +50,7 @@
 			"mp": "Andy Burnham",
 			"electorate": 75905,
 			"turnout": 59.7,
+			"valid": 45123,
 			"spoiled": 189,
 			"majority": 14096
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10770/alistair_burt/north_east_bedfordshire",
 			"electorate": 87505,
 			"turnout": 73.4,
+			"valid": 64220,
 			"spoiled": 134,
 			"majority": 20862
 		},
@@ -44,6 +45,7 @@
 			"mp": "Alistair Burt",
 			"electorate": 83551,
 			"turnout": 70.5,
+			"valid": 58672,
 			"spoiled": 195,
 			"majority": 25644
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25320/wes_streeting/ilford_north",
 			"electorate": 72997,
 			"turnout": 72.5,
+			"valid": 52941,
 			"spoiled": 111,
 			"majority": 9639
 		},
@@ -49,6 +50,7 @@
 			"mp": "Wes Streeting",
 			"electorate": 75294,
 			"turnout": 65.1,
+			"valid": 48932,
 			"spoiled": 105,
 			"majority": 589
 		}

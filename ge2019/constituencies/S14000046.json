@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25531/douglas_ross/moray",
 			"electorate": 70649,
 			"turnout": 67.4,
+			"valid": 47605,
 			"spoiled": 62,
 			"majority": 4159
 		},
@@ -44,6 +45,7 @@
 			"mp": "Angus Robertson",
 			"electorate": 71685,
 			"turnout": 68.8,
+			"valid": 49280,
 			"spoiled": 41,
 			"majority": 9065
 		}

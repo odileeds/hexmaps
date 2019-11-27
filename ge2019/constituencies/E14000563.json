@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11360/liam_byrne/birmingham%2C_hodge_hill",
 			"electorate": 75698,
 			"turnout": 61.3,
+			"valid": 46394,
 			"spoiled": 159,
 			"majority": 31026
 		},
@@ -49,6 +50,7 @@
 			"mp": "Liam Byrne",
 			"electorate": 75302,
 			"turnout": 54.9,
+			"valid": 41039,
 			"spoiled": 267,
 			"majority": 23362
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10630/alan_whitehead/southampton%2C_test",
 			"electorate": 70199,
 			"turnout": 66.8,
+			"valid": 46903,
 			"spoiled": 119,
 			"majority": 11503
 		},
@@ -49,6 +50,7 @@
 			"mp": "Alan Whitehead",
 			"electorate": 70270,
 			"turnout": 62.3,
+			"valid": 43652,
 			"spoiled": 147,
 			"majority": 3810
 		}

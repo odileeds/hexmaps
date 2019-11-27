@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25434/holly_lynch/halifax",
 			"electorate": 71224,
 			"turnout": 67.8,
+			"valid": 48276,
 			"spoiled": 99,
 			"majority": 5376
 		},
@@ -44,6 +45,7 @@
 			"mp": "Holly Lynch",
 			"electorate": 70462,
 			"turnout": 62.4,
+			"valid": 43753,
 			"spoiled": 241,
 			"majority": 428
 		}

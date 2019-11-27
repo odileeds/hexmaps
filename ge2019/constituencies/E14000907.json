@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10257/philip_hammond/runnymede_and_weybridge",
 			"electorate": 74888,
 			"turnout": 68.9,
+			"valid": 51609,
 			"spoiled": 140,
 			"majority": 18050
 		},
@@ -54,6 +55,7 @@
 			"mp": "Philip Hammond",
 			"electorate": 73771,
 			"turnout": 68.1,
+			"valid": 50052,
 			"spoiled": 182,
 			"majority": 22134
 		}

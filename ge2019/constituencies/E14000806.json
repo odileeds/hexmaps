@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10632/john_whittingdale/maldon",
 			"electorate": 71470,
 			"turnout": 70.2,
+			"valid": 50202,
 			"spoiled": 99,
 			"majority": 23430
 		},
@@ -39,6 +40,7 @@
 			"mp": "John Whittingdale",
 			"electorate": 69066,
 			"turnout": 69.8,
+			"valid": 48045,
 			"spoiled": 175,
 			"majority": 22070
 		}

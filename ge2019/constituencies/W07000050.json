@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25304/jo_stevens/cardiff_central",
 			"electorate": 59288,
 			"turnout": 68.1,
+			"valid": 40367,
 			"spoiled": 80,
 			"majority": 17196
 		},
@@ -54,6 +55,7 @@
 			"mp": "Jo Stevens",
 			"electorate": 57456,
 			"turnout": 67.5,
+			"valid": 38646,
 			"spoiled": 117,
 			"majority": 4981
 		}

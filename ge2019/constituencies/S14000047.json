@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25277/marion_fellows/motherwell_and_wishaw",
 			"electorate": 68215,
 			"turnout": 61.5,
+			"valid": 41926,
 			"spoiled": 58,
 			"majority": 318
 		},
@@ -44,6 +45,7 @@
 			"mp": "Marion Fellows",
 			"electorate": 70283,
 			"turnout": 68.7,
+			"valid": 48237,
 			"spoiled": 42,
 			"majority": 11898
 		}

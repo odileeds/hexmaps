@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11408/david_evennett/bexleyheath_and_crayford",
 			"electorate": 65315,
 			"turnout": 69.2,
+			"valid": 45189,
 			"spoiled": 92,
 			"majority": 9073
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Evennett",
 			"electorate": 64828,
 			"turnout": 67.6,
+			"valid": 43685,
 			"spoiled": 110,
 			"majority": 9192
 		}

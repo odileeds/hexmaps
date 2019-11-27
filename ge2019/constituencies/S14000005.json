@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25370/brendan_o%27hara/argyll_and_bute",
 			"electorate": 67230,
 			"turnout": 71.5,
+			"valid": 48069,
 			"spoiled": 69,
 			"majority": 1328
 		},
@@ -39,6 +40,7 @@
 			"mp": "Brendan O'Hara",
 			"electorate": 68875,
 			"turnout": 75.4,
+			"valid": 51883,
 			"spoiled": 59,
 			"majority": 8473
 		}

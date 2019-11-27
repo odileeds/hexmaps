@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11817/daniel_kawczynski/shrewsbury_and_atcham",
 			"electorate": 79043,
 			"turnout": 73.6,
+			"valid": 58203,
 			"spoiled": 109,
 			"majority": 6627
 		},
@@ -44,6 +45,7 @@
 			"mp": "Daniel Kawczynski",
 			"electorate": 76400,
 			"turnout": 71.0,
+			"valid": 54102,
 			"spoiled": 113,
 			"majority": 9565
 		}

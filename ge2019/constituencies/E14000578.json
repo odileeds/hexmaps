@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10141/david_crausby/bolton_north_east",
 			"electorate": 67233,
 			"turnout": 67.2,
+			"valid": 45183,
 			"spoiled": 90,
 			"majority": 3797
 		},
@@ -44,6 +45,7 @@
 			"mp": "David Crausby",
 			"electorate": 67895,
 			"turnout": 63.8,
+			"valid": 43161,
 			"spoiled": 150,
 			"majority": 4377
 		}

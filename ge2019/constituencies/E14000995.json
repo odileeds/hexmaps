@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24957/jackie_doyle-price/thurrock",
 			"electorate": 78154,
 			"turnout": 64.4,
+			"valid": 50325,
 			"spoiled": 97,
 			"majority": 345
 		},
@@ -44,6 +45,7 @@
 			"mp": "Jackie Doyle-Price",
 			"electorate": 77559,
 			"turnout": 64.1,
+			"valid": 49564,
 			"spoiled": 126,
 			"majority": 536
 		}

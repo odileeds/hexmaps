@@ -26,6 +26,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24934/mike_freer/finchley_and_golders_green",
 			"electorate": 73329,
 			"turnout": 71.4,
+			"valid": 52385,
 			"spoiled": 159,
 			"majority": 1657
 		},
@@ -34,6 +35,7 @@
 			"mp": "Mike Freer",
 			"electorate": 72530,
 			"turnout": 70.2,
+			"valid": 50759,
 			"spoiled": 133,
 			"majority": 5662
 		}

@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25645/bob_seely/isle_of_wight",
 			"electorate": 110683,
 			"turnout": 67.3,
+			"valid": 74479,
 			"spoiled": 95,
 			"majority": 21069
 		},
@@ -49,6 +50,7 @@
 			"mp": "Andrew Turner",
 			"electorate": 108804,
 			"turnout": 64.7,
+			"valid": 70300,
 			"spoiled": 107,
 			"majority": 13703
 		}

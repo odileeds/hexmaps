@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25675/christine_jardine/edinburgh_west",
 			"electorate": 71500,
 			"turnout": 73.8,
+			"valid": 52795,
 			"spoiled": 71,
 			"majority": 2988
 		},
@@ -44,6 +45,7 @@
 			"mp": "Michelle  Thomson",
 			"electorate": 71717,
 			"turnout": 76.6,
+			"valid": 54858,
 			"spoiled": 49,
 			"majority": 3210
 		}

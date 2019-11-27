@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24958/rushanara_ali/bethnal_green_and_bow",
 			"electorate": 86075,
 			"turnout": 69.5,
+			"valid": 59825,
 			"spoiled": 275,
 			"majority": 35393
 		},
@@ -49,6 +50,7 @@
 			"mp": "Rushanara Ali",
 			"electorate": 82727,
 			"turnout": 64.3,
+			"valid": 52924,
 			"spoiled": 263,
 			"majority": 24317
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25693/kemi_badenoch/saffron_walden",
 			"electorate": 83072,
 			"turnout": 73.3,
+			"valid": 60911,
 			"spoiled": 197,
 			"majority": 24966
 		},
@@ -39,6 +40,7 @@
 			"mp": "Alan Haselhurst",
 			"electorate": 80615,
 			"turnout": 71.7,
+			"valid": 57563,
 			"spoiled": 219,
 			"majority": 24991
 		}

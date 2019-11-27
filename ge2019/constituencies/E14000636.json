@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11500/theresa_villiers/chipping_barnet",
 			"electorate": 77218,
 			"turnout": 71.8,
+			"valid": 55423,
 			"spoiled": 204,
 			"majority": 353
 		},
@@ -44,6 +45,7 @@
 			"mp": "Theresa Villiers",
 			"electorate": 77807,
 			"turnout": 68.3,
+			"valid": 53013,
 			"spoiled": 139,
 			"majority": 7656
 		}

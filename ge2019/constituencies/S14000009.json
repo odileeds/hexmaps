@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25668/jamie_stone/caithness%2C_sutherland_and_easter_ross",
 			"electorate": 46868,
 			"turnout": 65.9,
+			"valid": 30901,
 			"spoiled": 35,
 			"majority": 2044
 		},
@@ -44,6 +45,7 @@
 			"mp": "Paul Monaghan",
 			"electorate": 47558,
 			"turnout": 72.0,
+			"valid": 34186,
 			"spoiled": 45,
 			"majority": 3844
 		}

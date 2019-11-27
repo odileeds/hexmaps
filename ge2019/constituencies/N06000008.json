@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25604/elisha_mccallion/foyle",
 			"electorate": 70324,
 			"turnout": 65.4,
+			"valid": 45965,
 			"spoiled": 177,
 			"majority": 169
 		},
@@ -54,6 +55,7 @@
 			"mp": "Mark Durkan",
 			"electorate": 70036,
 			"turnout": 53.6,
+			"valid": 37002,
 			"spoiled": 526,
 			"majority": 6046
 		}

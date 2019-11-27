@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24955/matthew_offord/hendon",
 			"electorate": 76522,
 			"turnout": 68.2,
+			"valid": 52215,
 			"spoiled": 115,
 			"majority": 1072
 		},
@@ -39,6 +40,7 @@
 			"mp": "Matthew Offord",
 			"electorate": 75285,
 			"turnout": 66.1,
+			"valid": 49630,
 			"spoiled": 135,
 			"majority": 3724
 		}

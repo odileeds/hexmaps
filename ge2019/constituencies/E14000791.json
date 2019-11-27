@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10193/michael_fabricant/lichfield",
 			"electorate": 74430,
 			"turnout": 71.9,
+			"valid": 53524,
 			"spoiled": 147,
 			"majority": 18581
 		},
@@ -44,6 +45,7 @@
 			"mp": "Michael Fabricant",
 			"electorate": 74234,
 			"turnout": 69.5,
+			"valid": 51467,
 			"spoiled": 147,
 			"majority": 18189
 		}

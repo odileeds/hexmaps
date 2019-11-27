@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24736/guto_bebb/aberconwy",
 			"electorate": 45251,
 			"turnout": 71.0,
+			"valid": 32150,
 			"spoiled": 78,
 			"majority": 635
 		},
@@ -39,6 +40,7 @@
 			"mp": "Guto Bebb",
 			"electorate": 45525,
 			"turnout": 66.4,
+			"valid": 30148,
 			"spoiled": 59,
 			"majority": 3999
 		}

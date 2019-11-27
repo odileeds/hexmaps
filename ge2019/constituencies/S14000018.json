@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11971/jo_swinson/east_dunbartonshire",
 			"electorate": 66300,
 			"turnout": 78.1,
+			"valid": 51801,
 			"spoiled": 68,
 			"majority": 5339
 		},
@@ -59,6 +60,7 @@
 			"mp": "John  Nicolson",
 			"electorate": 66966,
 			"turnout": 82.0,
+			"valid": 54871,
 			"spoiled": 47,
 			"majority": 2167
 		}

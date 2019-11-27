@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25614/vicky_ford/chelmsford",
 			"electorate": 81032,
 			"turnout": 70.2,
+			"valid": 56860,
 			"spoiled": 103,
 			"majority": 13572
 		},
@@ -39,6 +40,7 @@
 			"mp": "Simon Burns",
 			"electorate": 78580,
 			"turnout": 68.7,
+			"valid": 53817,
 			"spoiled": 190,
 			"majority": 18250
 		}

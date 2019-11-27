@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24769/heather_wheeler/south_derbyshire",
 			"electorate": 76380,
 			"turnout": 68.9,
+			"valid": 52631,
 			"spoiled": 120,
 			"majority": 11970
 		},
@@ -39,6 +40,7 @@
 			"mp": "Heather Wheeler",
 			"electorate": 73923,
 			"turnout": 68.9,
+			"valid": 50762,
 			"spoiled": 190,
 			"majority": 11471
 		}

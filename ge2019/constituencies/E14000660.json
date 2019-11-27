@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24841/chris_heaton-harris/daventry",
 			"electorate": 75268,
 			"turnout": 74.0,
+			"valid": 55663,
 			"spoiled": 102,
 			"majority": 21734
 		},
@@ -39,6 +40,7 @@
 			"mp": "Chris Heaton-Harris",
 			"electorate": 72873,
 			"turnout": 72.3,
+			"valid": 52518,
 			"spoiled": 137,
 			"majority": 21059
 		}

@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25631/eleanor_smith/wolverhampton_south_west",
 			"electorate": 59971,
 			"turnout": 70.6,
+			"valid": 42346,
 			"spoiled": 115,
 			"majority": 2185
 		},
@@ -39,6 +40,7 @@
 			"mp": "Rob Marris",
 			"electorate": 60368,
 			"turnout": 66.8,
+			"valid": 40209,
 			"spoiled": 139,
 			"majority": 801
 		}

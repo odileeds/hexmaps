@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24943/paul_blomfield/sheffield_central",
 			"electorate": 77560,
 			"turnout": 61.7,
+			"valid": 47877,
 			"spoiled": 137,
 			"majority": 27748
 		},
@@ -59,6 +60,7 @@
 			"mp": "Paul Blomfield",
 			"electorate": 72321,
 			"turnout": 61.4,
+			"valid": 44173,
 			"spoiled": 199,
 			"majority": 17309
 		}

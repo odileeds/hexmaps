@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10147/jim_cunningham/coventry_south",
 			"electorate": 70736,
 			"turnout": 66.5,
+			"valid": 47009,
 			"spoiled": 114,
 			"majority": 7947
 		},
@@ -49,6 +50,7 @@
 			"mp": "Jim Cunningham",
 			"electorate": 70397,
 			"turnout": 62.3,
+			"valid": 43699,
 			"spoiled": 178,
 			"majority": 3188
 		}

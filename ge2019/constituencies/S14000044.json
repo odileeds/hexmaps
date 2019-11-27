@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25409/hannah_bardell/livingston",
 			"electorate": 81208,
 			"turnout": 64.7,
+			"valid": 52505,
 			"spoiled": 84,
 			"majority": 3878
 		},
@@ -44,6 +45,7 @@
 			"mp": "Hannah Bardell",
 			"electorate": 82373,
 			"turnout": 70.0,
+			"valid": 57547,
 			"spoiled": 84,
 			"majority": 16843
 		}

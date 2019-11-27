@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24770/kwasi_kwarteng/spelthorne",
 			"electorate": 72641,
 			"turnout": 69.0,
+			"valid": 50115,
 			"spoiled": 106,
 			"majority": 13425
 		},
@@ -39,6 +40,7 @@
 			"mp": "Kwasi Kwarteng",
 			"electorate": 71592,
 			"turnout": 68.8,
+			"valid": 49079,
 			"spoiled": 191,
 			"majority": 14152
 		}

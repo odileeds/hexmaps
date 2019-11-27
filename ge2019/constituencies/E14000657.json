@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10828/jon_cruddas/dagenham_and_rainham",
 			"electorate": 70616,
 			"turnout": 64.9,
+			"valid": 45843,
 			"spoiled": 73,
 			"majority": 4652
 		},
@@ -54,6 +55,7 @@
 			"mp": "Jon Cruddas",
 			"electorate": 69128,
 			"turnout": 62.4,
+			"valid": 43050,
 			"spoiled": 83,
 			"majority": 4980
 		}

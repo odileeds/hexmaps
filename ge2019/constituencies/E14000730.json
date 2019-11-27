@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24758/andrew_jones/harrogate_and_knaresborough",
 			"electorate": 77280,
 			"turnout": 73.4,
+			"valid": 56740,
 			"spoiled": 139,
 			"majority": 18168
 		},
@@ -39,6 +40,7 @@
 			"mp": "Andrew Jones",
 			"electorate": 76408,
 			"turnout": 70.0,
+			"valid": 53376,
 			"spoiled": 138,
 			"majority": 16371
 		}

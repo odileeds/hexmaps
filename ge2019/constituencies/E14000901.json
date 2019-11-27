@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24809/caroline_nokes/romsey_and_southampton_north",
 			"electorate": 67186,
 			"turnout": 74.6,
+			"valid": 50128,
 			"spoiled": 117,
 			"majority": 18046
 		},
@@ -39,6 +40,7 @@
 			"mp": "Caroline Nokes",
 			"electorate": 66519,
 			"turnout": 73.0,
+			"valid": 48398,
 			"spoiled": 141,
 			"majority": 17712
 		}

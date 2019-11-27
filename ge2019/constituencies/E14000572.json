@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24764/paul_maynard/blackpool_north_and_cleveleys",
 			"electorate": 63967,
 			"turnout": 64.1,
+			"valid": 41007,
 			"spoiled": 59,
 			"majority": 2023
 		},
@@ -44,6 +45,7 @@
 			"mp": "Paul Maynard",
 			"electorate": 62468,
 			"turnout": 63.4,
+			"valid": 39393,
 			"spoiled": 207,
 			"majority": 3340
 		}

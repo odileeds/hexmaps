@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10177/david_drew/stroud",
 			"electorate": 82839,
 			"turnout": 77.0,
+			"valid": 63816,
 			"spoiled": 97,
 			"majority": 687
 		},
@@ -44,6 +45,7 @@
 			"mp": "Neil Carmichael",
 			"electorate": 80544,
 			"turnout": 75.7,
+			"valid": 60819,
 			"spoiled": 121,
 			"majority": 4866
 		}

@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24911/zac_goldsmith/richmond_park",
 			"electorate": 80025,
 			"turnout": 79.1,
+			"valid": 63330,
 			"spoiled": 131,
 			"majority": 45
 		},
@@ -44,6 +45,7 @@
 			"mp": "Zac Goldsmith",
 			"electorate": 77303,
 			"turnout": 76.6,
+			"valid": 59101,
 			"spoiled": 146,
 			"majority": 23015
 		}

@@ -46,6 +46,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24847/gavin_shuker/luton_south",
 			"electorate": 67188,
 			"turnout": 68.7,
+			"valid": 46133,
 			"spoiled": 100,
 			"majority": 13925
 		},
@@ -54,6 +55,7 @@
 			"mp": "Gavin Shuker",
 			"electorate": 67741,
 			"turnout": 63.0,
+			"valid": 42216,
 			"spoiled": 431,
 			"majority": 5711
 		}

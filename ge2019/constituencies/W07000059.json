@@ -31,6 +31,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/11506/david_jones/clwyd_west",
 			"electorate": 58263,
 			"turnout": 69.8,
+			"valid": 40654,
 			"spoiled": 79,
 			"majority": 3437
 		},
@@ -39,6 +40,7 @@
 			"mp": "David Jones",
 			"electorate": 58644,
 			"turnout": 65.0,
+			"valid": 38028,
 			"spoiled": 76,
 			"majority": 6730
 		}

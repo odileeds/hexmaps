@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/24732/nicky_morgan/loughborough",
 			"electorate": 79607,
 			"turnout": 68.0,
+			"valid": 54148,
 			"spoiled": 110,
 			"majority": 4269
 		},
@@ -44,6 +45,7 @@
 			"mp": "Nicky Morgan",
 			"electorate": 75217,
 			"turnout": 69.4,
+			"valid": 52020,
 			"spoiled": 210,
 			"majority": 9183
 		}

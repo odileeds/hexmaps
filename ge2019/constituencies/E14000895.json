@@ -41,6 +41,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25428/rishi_sunak/richmond_%28yorks%29",
 			"electorate": 80905,
 			"turnout": 70.5,
+			"valid": 57013,
 			"spoiled": 135,
 			"majority": 23108
 		},
@@ -49,6 +50,7 @@
 			"mp": "Rishi Sunak",
 			"electorate": 79062,
 			"turnout": 68.5,
+			"valid": 53999,
 			"spoiled": 164,
 			"majority": 19550
 		}

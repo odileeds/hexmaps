@@ -51,6 +51,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10155/edward_davey/kingston_and_surbiton",
 			"electorate": 81588,
 			"turnout": 76.2,
+			"valid": 62178,
 			"spoiled": 87,
 			"majority": 4124
 		},
@@ -59,6 +60,7 @@
 			"mp": "James Berry",
 			"electorate": 81238,
 			"turnout": 73.1,
+			"valid": 59253,
 			"spoiled": 137,
 			"majority": 2834
 		}

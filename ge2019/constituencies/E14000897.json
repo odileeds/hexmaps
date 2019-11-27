@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/10367/tony_lloyd/rochdale",
 			"electorate": 78064,
 			"turnout": 64.1,
+			"valid": 50044,
 			"spoiled": 103,
 			"majority": 14819
 		},
@@ -44,6 +45,7 @@
 			"mp": "Simon Danczuk",
 			"electorate": 77248,
 			"turnout": 59.1,
+			"valid": 45430,
 			"spoiled": 240,
 			"majority": 12442
 		}

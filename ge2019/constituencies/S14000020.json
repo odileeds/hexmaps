@@ -36,6 +36,7 @@
 			"mysoc": "https://www.theyworkforyou.com/mp/25651/martin_whitfield/east_lothian",
 			"electorate": 79093,
 			"turnout": 70.6,
+			"valid": 55878,
 			"spoiled": 57,
 			"majority": 3083
 		},
@@ -44,6 +45,7 @@
 			"mp": "George Kerevan",
 			"electorate": 79481,
 			"turnout": 74.3,
+			"valid": 59014,
 			"spoiled": 36,
 			"majority": 6803
 		}

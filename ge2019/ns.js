@@ -180,7 +180,7 @@ function ResultsMap(id,attr){
 			if(popup && typeof popup.render==="function"){
 				l = popup.render.call(this,title,region,data);
 			}else{
-				console.warning('No view for '+this.by);
+				console.warn('No view for '+this.by);
 				l = {'label':title,'class':cls,'color':''};
 			}
 			var c = (l.color||'');

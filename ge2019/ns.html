@@ -218,6 +218,7 @@
 	<div id="main">
 		<div class="controls">
 			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-candidates" name="view" checked="checked" /><label for="GE2019-candidates">2019 candidates</label>
+			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-results" name="view" checked="checked" /><label for="GE2019-results">2019</label>
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017</label>
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015</label>
 		</div>
@@ -235,7 +236,7 @@
 	<script>
 	var constituencies;
 
-	var lookup = {'Conservative and Unionist Party':'Con','Conservative':'Con','Scottish National Party (SNP)':'SNP','Scottish National Party':'SNP','Labour':'Lab','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Labour and Co-operative':'Lab','Liberal Democrats':'LD','Liberal Democrat':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party':'DUP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF','Plaid Cymru':'PC','Plaid Cymru - The Party of Wales':'PC','The Monster Raving Loony Party':'Monster','Monster Raving Loony Party':'Monster','Official Monster Raving Loony Party':'Monster'};
+	var lookup = {'Conservative and Unionist Party':'Con','Conservative':'Con','Scottish National Party (SNP)':'SNP','Scottish National Party':'SNP','Labour':'Lab','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Labour and Co-operative':'Lab','Liberal Democrats':'LD','Liberal Democrat':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party':'DUP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF','Plaid Cymru':'PC','Plaid Cymru - The Party of Wales':'PC','The Monster Raving Loony Party':'Monster','Monster Raving Loony Party':'Monster','Official Monster Raving Loony Party':'Monster','Speaker':'Spk'};
 	var parties = {
 		'Con':{'color':'#2254F4','title':'Conservative'},
 		'Lab':{'color':'#D60303','title':'Labour'},
@@ -314,9 +315,38 @@
 	}
 
 	var views = {
+		'GE2019-results':{
+			'file': '2019-results.csv',
+			'live': true,
+			'process': function(type,data){
+				if(!this.data[type]) this.data[type] = {};
+				for(var i = 0; i < data.length; i++){
+					code = data[i]['ccode'];
+					if(code) this.data[type][code] = {'first': data[i].first19};
+				}
+			},
+			'popup': {
+				'file': 'constituencies/%region%.json',
+				'live':true,
+				'render': render
+			},
+			'key': function(){
+				var _obj = this;
+				var key = "";
+				this.hex.setColours = function(region){
+					r = _obj.data["GE2019-results"][region].first;
+					if(r) r = r.replace(/[\n\r]/g,"");
+					else console.warn('No region',r,region,parties[r]);
+					return (parties[r] ? parties[r].color : '#f9f9f9');
+				}
+				for(var party in parties){
+					key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+				}
+				return key;
+			}
+		},
 		'GE2019-candidates':{
 			'file': '2019-candidates.csv',
-			'live': true,
 			'process': function(type,data){
 				if(typeof this.data[type]!=="object") this.data[type] = {};
 				for(var i = 0; i < data.length; i++){
@@ -339,11 +369,11 @@
 					if(n > 0) c = (levels[n] || levels[6]);
 					return c;
 				}
-				var key = '0';
+				var key = '0 candidates';
 				for(var n in levels){
-					key += '<span style="background-color:'+levels[n]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>';
+					key += '<span title="'+n+'" style="background-color:'+levels[n]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>';
 				}
-				key += '&ge;6';
+				key += '&ge;6 candidates';
 				return key;
 			}
 		},

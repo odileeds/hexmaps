@@ -166,7 +166,8 @@
 	.infobubble .infobubble_inner { margin: 1em; }
 	.infobubble.generalelection { text-align: left; }
 	.infobubble a, .infobubble a:visited { color: inherit; }
-	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0.25em 0; display:block; }
+	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; }
+	.infobubble .popup-title + p { margin-top: 0.25em; }
 	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
 	.popup-bio { display: flex; }
 	.generalelection {
@@ -183,6 +184,7 @@
 	.generalelection table {
 		width: 100%;
 	}
+	.win { width: 100%; padding: 0.5em; margin-bottom: 0.25em; text-align: center; }
 
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
 	.bottom a, .bottom a:visited { color: inherit; }
@@ -263,17 +265,17 @@
 		var wincolour = "";
 		if(!data) data = {};
 
-		lbl = '<div class="popup-title" style="border-color:%COLOR%">'+(data.title||title)+'</div>';
+		lbl = '<div class="popup-title">'+(data.title||title)+'</div>';
 		if(data.elections){
 			if(data.elections['2019']){
 				if(data.elections['2019'].first){
 					party = data.elections['2019'].first;
 					wincolour = (parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'));
-					lbl += ''+(parties[party] ? parties[party].title||party : '?')+(data.elections['2017'].first==data.elections['2019'].first ? ' HOLD':' GAIN from '+data.elections['2017'].first)+'<br />';
+					if(data.elections['2019'].first) lbl += '<div class="win" style="background-color:'+wincolour+';color:%COLOR%">'+(parties[party] ? parties[party].title||party : '?')+(data.elections['2017'].first==data.elections['2019'].first ? ' HOLD':' GAIN from '+data.elections['2017'].first)+'</div>';
 					if(data.elections['2019'].turnout) lbl += 'Turnout: '+data.elections['2019'].turnout+'%<br />';
 					if(data.elections['2019'].majority) lbl += 'Majority: '+data.elections['2019'].majority.toLocaleString()+'<br />';
 				}
-				lbl += 'Candidates:<ul>';
+				lbl += '<p>Candidates:</p><ul>';
 				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
 					party = data.elections['2019'].candidates[c].party;
 					name = data.elections['2019'].candidates[c].name;
@@ -284,18 +286,20 @@
 				
 			}
 			if(data.elections['2017']){
-				lbl += '<div class="popup-title" style="border-color:%COLOR%">2017</div>';
+				lbl += '<div class="popup-title">2017</div><p>';
 				party = data.elections['2017'].first;
 				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2017'].mysoc ? '<a href="'+data.elections['2017'].mysoc+'" target="_parent">':'')+data.elections['2017'].mp+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections['2017'].mysoc ? '</a>':'')+'<br />';
 				if(data.elections['2017'].turnout) lbl += 'Turnout: '+data.elections['2017'].turnout+'%<br />';
 				if(data.elections['2017'].majority) lbl += 'Majority: '+data.elections['2017'].majority.toLocaleString()+'<br />';
+				lbl += '</p>';
 			}
 			if(data.elections['2015']){
-				lbl += '<div class="popup-title" style="border-color:%COLOR%">2015</div>';
+				lbl += '<div class="popup-title">2015</div><p>';
 				party = data.elections['2015'].first;
 				lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections['2015'].mysoc ? '<a href="'+data.elections['2015'].mysoc+'" target="_parent">':'')+(data.elections['2015'].mp||'')+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections['2015'].mysoc ? '</a>':'')+'<br />';
 				if(data.elections['2015'].turnout) lbl += 'Turnout: '+data.elections['2015'].turnout+'%<br />';
 				if(data.elections['2015'].majority) lbl += 'Majority: '+data.elections['2015'].majority.toLocaleString()+'<br />';
+				lbl += '</p>';
 			}
 		}
 

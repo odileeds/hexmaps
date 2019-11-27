@@ -193,7 +193,6 @@ function ResultsMap(id,attr){
 			S('.infobubble .close').remove();
 			S('.infobubble').prepend('<button class="close button" title="Close constituency information">&times;</button>');
 			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.closeActive(); });
-			S('.infobubble').css({'background-color':c,'color':t});
 			return this;
 		}
 		// May need to load data first

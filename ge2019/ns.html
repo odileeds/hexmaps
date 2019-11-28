@@ -367,7 +367,7 @@
 				this.hex.setColours = function(region){
 					r = _obj.data["GE2019-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
-					else console.warn('No region',r,region,parties[r]);
+					//else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color : parties.none.color);
 				}
 				got = validParties(_obj,'GE2019-results');

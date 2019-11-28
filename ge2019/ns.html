@@ -147,7 +147,7 @@
 		background-color: #c1002a!important;
 		color: white!important;
 	}
-	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; font-size: 0.8em; }
+	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; font-size: 0.8em; line-height: 1.5em; }
 	#key .party { display: inline-block; margin-right: 0.5em; }
 	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; }
 
@@ -188,10 +188,8 @@
 		width: 100%;
 	}
 	.win { width: 100%; padding: 0.5em; margin-bottom: 0.25em; text-align: center; }
-
-	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; }
+	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
 	.bottom a, .bottom a:visited { color: inherit; }
-
 	body.modal { overflow: hidden; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner svg { width: 5em; margin: auto; }
@@ -340,7 +338,7 @@
 	function validParties(_obj,key){
 		var got = {};
 		for(var r in _obj.data[key]){
-			party = _obj.data[key][r].first;
+			party = _obj.data[key][r].party;
 			if(!got[party]) got[party] = 0;
 			got[party]++;
 		}

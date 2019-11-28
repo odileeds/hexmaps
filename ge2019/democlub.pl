@@ -191,7 +191,7 @@ foreach $pcd (sort(keys(%con))){
 		if(!$parties{$con{$pcd}{'candidates'}[$c]{'party'}}){
 			print "Need: $con{$pcd}{'candidates'}[$c]{'party'}\n";
 		}
-		print FILE "\t\t\t\t\"party\": { \"code\": \"$parties{$con{$pcd}{'candidates'}[$c]{'party'}}\", \"title\": \"$con{$pcd}{'candidates'}[$c]{'party'}\" },\n";
+		print FILE "\t\t\t\t\"party\": { \"code\": \"$parties{$con{$pcd}{'candidates'}[$c]{'party'}}\", \"title\": \"".safeName($con{$pcd}{'candidates'}[$c]{'party'})."\" },\n";
 		print FILE "\t\t\t\t\"img\": \"$con{$pcd}{'candidates'}[$c]{'img'}\"\n";
 		if($con{$pcd}{'candidates'}[$c]{'img'} eq ""){ print MISSING "$con{$pcd}{'cname1'}\t$con{$pcd}{'candidates'}[$c]{'name'}\t$con{$pcd}{'candidates'}[$c]{'party'}\thttps://candidates.democracyclub.org.uk/person/$con{$pcd}{'candidates'}[$c]{'id'}\n"; }
 	}
@@ -229,3 +229,10 @@ foreach $pcd (sort(keys(%con))){
 	close(FILE);
 }
 close(MISSING);
+
+
+sub safeName(){
+	my $name = $_[0];
+	$name =~ s/\"/\\\"/g;
+	return $name;
+}

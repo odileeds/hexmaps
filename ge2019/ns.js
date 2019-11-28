@@ -143,7 +143,7 @@ function ResultsMap(id,attr){
 
 	}).on('click',{'builder':this},function(e){
 
-		e.data.builder.toggleActive(e.data.region);
+		e.data.builder.openActive(e.data.region);
 
 	});
 	
@@ -155,13 +155,12 @@ function ResultsMap(id,attr){
 		return this;
 	}
 	
-	this.toggleActive = function(region){
+	this.openActive = function(region){
 		
 		var previous = this.hex.selected;
 		var current = region;
 		if(this.hex.search.active) this.hex.search.toggle();
-		if(previous && current == previous) this.hex.regionToggleSelected(previous,true);
-		else this.hex.selectRegion(region);
+		this.hex.selectRegion(region);
 		if(this.hex.selected=="") S('.infobubble').remove();
 		else this.label(region);
 		return this;

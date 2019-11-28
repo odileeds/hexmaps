@@ -160,9 +160,11 @@ function ResultsMap(id,attr){
 		var previous = this.hex.selected;
 		var current = region;
 		if(this.hex.search.active) this.hex.search.toggle();
-		this.hex.selectRegion(region);
+
 		if(this.hex.selected=="") S('.infobubble').remove();
 		else this.label(region);
+
+		this.hex.selectRegion(region);
 		return this;
 	}
 

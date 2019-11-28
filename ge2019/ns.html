@@ -219,7 +219,7 @@
 		<div class="controls">
 <!--			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-candidates" name="view" checked="checked" /><label for="GE2019-candidates">2019 candidates</label>-->
 			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-results" name="view" checked="checked" /><label for="GE2019-results">2019</label>
-			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2017-dissolution" name="view" /><label for="GE2017-dissolution">At dissolution</label>
+			<input type="radio" class="view-toggle on switchdata b5-bg" id="2017-dissolution" name="view" /><label for="2017-dissolution">At dissolution</label>
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017</label>
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015</label>
 		</div>
@@ -382,7 +382,7 @@
 				return key;
 			}
 		},
-		'GE2017-dissolution': {
+		'2017-dissolution': {
 			'file': '2017-dissolution.csv',
 			'process': function(type,data){
 				if(!this.data[type]) this.data[type] = {};
@@ -400,7 +400,7 @@
 				var key = "";
 				var _obj = this;
 				this.hex.setColours = function(region){
-					r = _obj.data["GE2017-dissolution"][region].first;
+					r = _obj.data["2017-dissolution"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warning('No region',r,region,parties[r]);
 					return (parties[r].color || '#000');

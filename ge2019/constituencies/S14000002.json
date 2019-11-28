@@ -23,7 +23,11 @@
 				"name": "Shona Simpson",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Ross Thomson"
+			}
 		},
 		"2017": {
 			"first": "Con",

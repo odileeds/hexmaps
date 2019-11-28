@@ -33,7 +33,11 @@
 				"name": "Nathan Sutton",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72564-b551fabb-2f7c-447d-a0db-3888ec8138b3.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Charlie Elphicke"
+			}
 		},
 		"2017": {
 			"first": "Con",

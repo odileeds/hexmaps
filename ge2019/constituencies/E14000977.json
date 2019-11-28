@@ -23,7 +23,11 @@
 				"name": "Felix Ling",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53676.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nadhim Zahawi"
+			}
 		},
 		"2017": {
 			"first": "Con",

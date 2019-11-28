@@ -28,7 +28,11 @@
 				"name": "Kenny MacAskill",
 				"party": "Scottish National Party (SNP)",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71831.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Martin Whitfield"
+			}
 		},
 		"2017": {
 			"first": "Lab",

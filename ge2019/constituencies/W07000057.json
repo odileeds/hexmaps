@@ -23,7 +23,11 @@
 				"name": "Gonul Daniels",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72114-343d578d-ae4a-4fd0-9d44-8314cd13f282.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "PC",
+				"mp": "Hywel Williams"
+			}
 		},
 		"2017": {
 			"first": "PC",

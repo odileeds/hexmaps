@@ -23,7 +23,11 @@
 				"name": "Carolann Davidson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71931.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Paul Masterton"
+			}
 		},
 		"2017": {
 			"first": "Con",

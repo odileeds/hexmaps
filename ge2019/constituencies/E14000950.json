@@ -23,7 +23,11 @@
 				"name": "Alex Beverley",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71885.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Gary Streeter"
+			}
 		},
 		"2017": {
 			"first": "Con",

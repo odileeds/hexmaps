@@ -23,7 +23,11 @@
 				"name": "Sue Wixley",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45854.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Justine Greening"
+			}
 		},
 		"2017": {
 			"first": "Con",

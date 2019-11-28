@@ -33,7 +33,11 @@
 				"name": "Fiona Gay Fawcett",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72452-9c345023-d336-4ce1-95c1-7adaec880c2c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Drew Hendry"
+			}
 		},
 		"2017": {
 			"first": "SNP",

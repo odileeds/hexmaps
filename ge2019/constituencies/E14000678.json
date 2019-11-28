@@ -33,7 +33,11 @@
 				"name": "Simon Jupp",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72028.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Hugo Swire"
+			}
 		},
 		"2017": {
 			"first": "Con",

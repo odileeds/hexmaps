@@ -28,7 +28,11 @@
 				"name": "David Sydney Halpin",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Anne Marie Morris"
+			}
 		},
 		"2017": {
 			"first": "Con",

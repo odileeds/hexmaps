@@ -33,7 +33,11 @@
 				"name": "Helen Hitchcock",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71878.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Chris Williamson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

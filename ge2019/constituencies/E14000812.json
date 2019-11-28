@@ -23,7 +23,11 @@
 				"name": "Saqib Bhatti",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71880.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Caroline Spelman"
+			}
 		},
 		"2017": {
 			"first": "Con",

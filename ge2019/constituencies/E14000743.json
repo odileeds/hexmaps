@@ -23,7 +23,11 @@
 				"name": "Anna-Maria Coda",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jesse Norman"
+			}
 		},
 		"2017": {
 			"first": "Con",

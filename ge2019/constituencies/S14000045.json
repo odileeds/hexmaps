@@ -23,7 +23,11 @@
 				"name": "Rebecca Jane Fraser",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Danielle Rowley"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -23,7 +23,11 @@
 				"name": "Kim Snape",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15315.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Seema Kennedy"
+			}
 		},
 		"2017": {
 			"first": "Con",

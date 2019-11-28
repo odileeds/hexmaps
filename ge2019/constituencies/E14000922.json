@@ -38,7 +38,11 @@
 				"name": "Michael Joseph Virgo",
 				"party": "UK Independence Party (UKIP)",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Jared O'Mara"
+			}
 		},
 		"2017": {
 			"first": "Lab",

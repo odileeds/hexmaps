@@ -33,7 +33,11 @@
 				"name": "Seamus McCauley",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72383-1fc31894-5a34-450f-b65c-a0ac8974d440.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Michael Fallon"
+			}
 		},
 		"2017": {
 			"first": "Con",

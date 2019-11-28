@@ -23,7 +23,11 @@
 				"name": "Sam Jordon",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71957.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mims Davies"
+			}
 		},
 		"2017": {
 			"first": "Con",

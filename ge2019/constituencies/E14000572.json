@@ -28,7 +28,11 @@
 				"name": "Neil Holden",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Paul Maynard"
+			}
 		},
 		"2017": {
 			"first": "Con",

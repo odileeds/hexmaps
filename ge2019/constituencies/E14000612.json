@@ -43,7 +43,11 @@
 				"name": "Michael Boyle",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72081-a0d38567-647e-45e0-b681-65d2b04e36b2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Ivan Lewis"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -33,7 +33,11 @@
 				"name": "Jill McLachlan",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Field"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -33,7 +33,11 @@
 				"name": "Azfar Shah Bukhari",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72394-f99e6b16-3a52-4846-bb8a-b37b8c55fad8.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Naseem Shah"
+			}
 		},
 		"2017": {
 			"first": "Lab",

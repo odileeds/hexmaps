@@ -28,7 +28,11 @@
 				"name": "Billy Lake",
 				"party": "The Liberal Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43538-5eb9c9af-e658-49da-8c27-2953fedfae5f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Dan Carden"
+			}
 		},
 		"2017": {
 			"first": "Lab",

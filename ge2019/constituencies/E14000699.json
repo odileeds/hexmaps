@@ -23,7 +23,11 @@
 				"name": "Nick Lyle",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Suella Braverman"
+			}
 		},
 		"2017": {
 			"first": "Con",

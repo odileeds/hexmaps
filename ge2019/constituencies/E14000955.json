@@ -28,7 +28,11 @@
 				"name": "Osman Sen-Chadun",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72425-f8579ebc-a717-4ba6-923a-575711e684e5.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Royston Smith"
+			}
 		},
 		"2017": {
 			"first": "Con",

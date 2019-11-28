@@ -28,7 +28,11 @@
 				"name": "Catriona MacDonald",
 				"party": "Scottish National Party (SNP)",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71427.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ian Murray"
+			}
 		},
 		"2017": {
 			"first": "Lab",

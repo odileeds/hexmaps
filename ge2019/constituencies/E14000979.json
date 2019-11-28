@@ -28,7 +28,11 @@
 				"name": "Mussadak Mirza",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72579-62f727d7-4b53-4695-8b59-b8c350b31b20.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kate Green"
+			}
 		},
 		"2017": {
 			"first": "Lab",

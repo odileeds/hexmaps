@@ -38,7 +38,11 @@
 				"name": "Robert Speirs",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Deidre Brock"
+			}
 		},
 		"2017": {
 			"first": "SNP",

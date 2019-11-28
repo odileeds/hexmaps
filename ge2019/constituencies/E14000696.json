@@ -33,7 +33,11 @@
 				"name": "Joe Paul James Robertson",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72431-2296c4a7-bb76-4660-9921-186d14a27c1b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Teresa Pearce"
+			}
 		},
 		"2017": {
 			"first": "Lab",

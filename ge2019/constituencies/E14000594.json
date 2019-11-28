@@ -28,7 +28,11 @@
 				"name": "Oliver Durose",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71890.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alex Burghart"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Martin Paul Waring",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72191-22bb621e-61ee-423d-b9ea-176f30dd9014.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Alison McGovern"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -23,7 +23,11 @@
 				"name": "Bruce Horton",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71941-f3457f94-58b3-461e-af5a-19b50dd83f09.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Rachel Maclean"
+			}
 		},
 		"2017": {
 			"first": "Con",

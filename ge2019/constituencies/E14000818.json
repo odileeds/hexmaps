@@ -28,7 +28,11 @@
 				"name": "Helen Russell",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nigel Huddleston"
+			}
 		},
 		"2017": {
 			"first": "Con",

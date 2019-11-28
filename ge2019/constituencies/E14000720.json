@@ -38,7 +38,11 @@
 				"name": "Benjamin Obese-Jecty",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72584-ca0d4031-ee2a-4fd3-b8ce-5e04d9e7f688.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Diane Abbott"
+			}
 		},
 		"2017": {
 			"first": "Lab",

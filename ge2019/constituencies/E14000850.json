@@ -23,7 +23,11 @@
 				"name": "Phil Neve",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72013-1c79e1eb-c715-4fbe-9cc6-d035d0bfbfbd.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Liam Fox"
+			}
 		},
 		"2017": {
 			"first": "Con",

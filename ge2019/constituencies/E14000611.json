@@ -28,7 +28,11 @@
 				"name": "Alan Michael McCarthy",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46828-c4001b1a-54fa-492a-b9b8-367c7f94f066.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "James Frith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

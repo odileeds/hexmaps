@@ -18,7 +18,11 @@
 				"name": "Martha Patricia Anachury",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71884.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Michelle Donelan"
+			}
 		},
 		"2017": {
 			"first": "Con",

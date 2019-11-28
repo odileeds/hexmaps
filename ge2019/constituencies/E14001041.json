@@ -23,7 +23,11 @@
 				"name": "George Baker",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72178-afca3f26-a67b-4c43-ba06-d68162407a9c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Steve Brine"
+			}
 		},
 		"2017": {
 			"first": "Con",

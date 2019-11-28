@@ -28,7 +28,11 @@
 				"name": "Florence MacDonald",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29583.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "George Eustice"
+			}
 		},
 		"2017": {
 			"first": "Con",

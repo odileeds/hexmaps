@@ -23,7 +23,11 @@
 				"name": "David Nicholl",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71334-d4df1404-829c-4061-b06c-918713ce5814.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Sajid Javid"
+			}
 		},
 		"2017": {
 			"first": "Con",

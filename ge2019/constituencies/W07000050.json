@@ -38,7 +38,11 @@
 				"name": "Akil Kata",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72264-90753053-a193-47d8-aa9d-8ac9a573f163.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jo Stevens"
+			}
 		},
 		"2017": {
 			"first": "Lab",

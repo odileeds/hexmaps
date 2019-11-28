@@ -28,7 +28,11 @@
 				"name": "Nick Coates",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71560.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jacob Rees-Mogg"
+			}
 		},
 		"2017": {
 			"first": "Con",

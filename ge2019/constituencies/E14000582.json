@@ -23,7 +23,11 @@
 				"name": "Peter Mark Falloon Watson",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Matt Warman"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -38,7 +38,11 @@
 				"name": "Sophie Cooke",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72567-153c90d6-1e47-4b5d-9992-fd1b83262375.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Joanna Cherry"
+			}
 		},
 		"2017": {
 			"first": "SNP",

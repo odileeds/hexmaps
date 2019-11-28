@@ -23,7 +23,11 @@
 				"name": "Claire Unwin",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72128-a27a4039-42dc-435a-83ff-8d775989f473.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Matthew Hancock"
+			}
 		},
 		"2017": {
 			"first": "Con",

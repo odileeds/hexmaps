@@ -23,7 +23,11 @@
 				"name": "Lauren Bennie",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72520-4252686e-c64a-457b-a8a7-269345f49e68.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Paul Sweeney"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Bill McComish",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45195-82a2fda8-7426-45d2-a7c2-5baf378c6923.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Wendy Morton"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -38,7 +38,11 @@
 				"name": "Richard Jones",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72086-e18c73be-d57a-4e9c-b296-42f083cbe31a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Anna McMorrin"
+			}
 		},
 		"2017": {
 			"first": "Lab",

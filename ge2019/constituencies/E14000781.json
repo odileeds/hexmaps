@@ -43,7 +43,11 @@
 				"name": "Phillip Mars",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72551-8a3f6601-efbd-4a51-9173-8300337969bc.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rachel Reeves"
+			}
 		},
 		"2017": {
 			"first": "Lab",

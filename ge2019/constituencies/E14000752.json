@@ -38,7 +38,11 @@
 				"name": "Daniel John Corrigan",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Catherine West"
+			}
 		},
 		"2017": {
 			"first": "Lab",

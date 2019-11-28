@@ -33,7 +33,11 @@
 				"name": "Ewan McRobert",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34679.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Lisa Cameron"
+			}
 		},
 		"2017": {
 			"first": "SNP",

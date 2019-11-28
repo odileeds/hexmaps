@@ -28,7 +28,11 @@
 				"name": "Derek Brian Abram",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72517-63cd4d8d-0f72-4af2-99f8-003dedc4bf65.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Diana R. Johnson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

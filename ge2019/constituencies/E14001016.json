@@ -28,7 +28,11 @@
 				"name": "Michael Andrew Cooper",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "John Spellar"
+			}
 		},
 		"2017": {
 			"first": "Lab",

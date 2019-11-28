@@ -23,7 +23,11 @@
 				"name": "Belinda Loveluck-Edwards",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71707.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alun Cairns"
+			}
 		},
 		"2017": {
 			"first": "Con",

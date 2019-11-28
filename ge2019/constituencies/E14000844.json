@@ -33,7 +33,11 @@
 				"name": "Tony Durrant",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72183-875a9292-d895-4b31-a7f0-d2126475180f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Ranil Jayawardena"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Christopher Wilson",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49153-3f3d066a-2267-4e40-b232-c4dfe9c77ae9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Marion Fellows"
+			}
 		},
 		"2017": {
 			"first": "SNP",

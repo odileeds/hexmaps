@@ -28,7 +28,11 @@
 				"name": "Matt Mickler",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rebecca Long-Bailey"
+			}
 		},
 		"2017": {
 			"first": "Lab",

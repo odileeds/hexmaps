@@ -33,7 +33,11 @@
 				"name": "Mitch William",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lesley Laird"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Lynne Nailon",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ged Killen"
+			}
 		},
 		"2017": {
 			"first": "Lab",

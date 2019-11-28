@@ -28,7 +28,11 @@
 				"name": "Jules Anthony Sherrington",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Anne Main"
+			}
 		},
 		"2017": {
 			"first": "Con",

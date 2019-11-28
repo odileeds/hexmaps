@@ -28,7 +28,11 @@
 				"name": "Peter Sonnex",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71961-48c9d112-0488-4c0d-9b20-4f0fa8a24090.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Sarah Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

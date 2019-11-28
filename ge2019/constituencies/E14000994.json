@@ -18,7 +18,11 @@
 				"name": "Rob Logan",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71692-b0a80b1e-f832-4524-a04c-32124ae41768.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Luke Hall"
+			}
 		},
 		"2017": {
 			"first": "Con",

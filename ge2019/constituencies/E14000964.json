@@ -33,7 +33,11 @@
 				"name": "Robert Lee Smith",
 				"party": "The Liberal Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72494-0461249f-4988-48ea-a869-207f636ab38a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Derek Thomas"
+			}
 		},
 		"2017": {
 			"first": "Con",

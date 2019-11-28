@@ -33,7 +33,11 @@
 				"name": "Teixeira Hambro",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71593.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ellie Reeves"
+			}
 		},
 		"2017": {
 			"first": "Lab",

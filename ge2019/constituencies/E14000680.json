@@ -33,7 +33,11 @@
 				"name": "David Buxton",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71417.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Damian Hinds"
+			}
 		},
 		"2017": {
 			"first": "Con",

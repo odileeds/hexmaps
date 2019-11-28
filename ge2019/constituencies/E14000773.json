@@ -28,7 +28,11 @@
 				"name": "Scott Ashley Bell",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72469-9d20a976-7cfe-4815-9261-f1b8c0614a3f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Emma Hardy"
+			}
 		},
 		"2017": {
 			"first": "Lab",

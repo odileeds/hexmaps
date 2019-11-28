@@ -33,7 +33,11 @@
 				"name": "Julie Anne Price",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72619-754207e0-a2e8-4bfd-8d77-0346b6387b21.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jessica Morden"
+			}
 		},
 		"2017": {
 			"first": "Lab",

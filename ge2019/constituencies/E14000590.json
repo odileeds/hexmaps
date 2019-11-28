@@ -33,7 +33,11 @@
 				"name": "Alan Geoffrey Dorkins",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72408-33f5ef33-dbee-49b6-a177-f1bf2b68618a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Cleverly"
+			}
 		},
 		"2017": {
 			"first": "Con",

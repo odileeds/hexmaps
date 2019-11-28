@@ -23,7 +23,11 @@
 				"name": "John Jeremy Francis Kitson",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Sarah Wollaston"
+			}
 		},
 		"2017": {
 			"first": "Con",

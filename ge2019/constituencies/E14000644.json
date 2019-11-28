@@ -23,7 +23,11 @@
 				"name": "Tina McKay",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71378.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Will Quince"
+			}
 		},
 		"2017": {
 			"first": "Con",

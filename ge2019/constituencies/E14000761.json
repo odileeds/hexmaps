@@ -28,7 +28,11 @@
 				"name": "Nicola Thomas",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Sandy Martin"
+			}
 		},
 		"2017": {
 			"first": "Lab",

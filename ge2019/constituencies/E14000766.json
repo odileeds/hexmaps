@@ -33,7 +33,11 @@
 				"name": "Matthew Edward Rose",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "John Grogan"
+			}
 		},
 		"2017": {
 			"first": "Lab",

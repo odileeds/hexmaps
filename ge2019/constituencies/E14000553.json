@@ -23,7 +23,11 @@
 				"name": "Alex Paul Matheou Matthews",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72461-7f402cf0-2e64-4077-afd0-74a8ee1d9589.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Neil Coyle"
+			}
 		},
 		"2017": {
 			"first": "Lab",

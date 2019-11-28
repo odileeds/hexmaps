@@ -23,7 +23,11 @@
 				"name": "Emily Claire Elizabeth Tomalin",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71525-d06fe210-2a09-4654-929c-1f934d9b04d4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Theresa May"
+			}
 		},
 		"2017": {
 			"first": "Con",

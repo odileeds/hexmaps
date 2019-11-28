@@ -23,7 +23,11 @@
 				"name": "Kyle Grenville Albert Marsh",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67342.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Gareth Johnson"
+			}
 		},
 		"2017": {
 			"first": "Con",

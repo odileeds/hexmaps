@@ -23,7 +23,11 @@
 				"name": "Martin Edobor",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71738.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Priti Patel"
+			}
 		},
 		"2017": {
 			"first": "Con",

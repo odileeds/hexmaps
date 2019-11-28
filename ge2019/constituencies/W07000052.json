@@ -33,7 +33,11 @@
 				"name": "John Watkins",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72614-c6d22e29-f0cf-4ae3-8ffe-10cd91e2010c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Chris Bryant"
+			}
 		},
 		"2017": {
 			"first": "Lab",

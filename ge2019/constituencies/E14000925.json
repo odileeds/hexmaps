@@ -28,7 +28,11 @@
 				"name": "Darren Longhorn",
 				"party": "Yorkshire Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71856-5004da2c-afde-44dc-8fb3-fc20fca932ff.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Philip Davies"
+			}
 		},
 		"2017": {
 			"first": "Con",

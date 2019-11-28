@@ -38,7 +38,11 @@
 				"name": "Neil Hughes",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Sue Hayman"
+			}
 		},
 		"2017": {
 			"first": "Lab",

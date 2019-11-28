@@ -43,7 +43,11 @@
 				"name": "Liam McKechnie",
 				"party": "Scottish Family Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Jo Swinson"
+			}
 		},
 		"2017": {
 			"first": "LD",

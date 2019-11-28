@@ -33,7 +33,11 @@
 				"name": "Ryan Houghton",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71863-61577d8b-330a-49ce-9ae7-6c9001cf8aca.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Kirsty Blackman"
+			}
 		},
 		"2017": {
 			"first": "SNP",

@@ -33,7 +33,11 @@
 				"name": "Jane McKears",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72546-b6faa370-6359-4495-b421-3dbc2b4e1290.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Liam Byrne"
+			}
 		},
 		"2017": {
 			"first": "Lab",

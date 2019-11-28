@@ -28,7 +28,11 @@
 				"name": "Rachel Louise Storer",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72371-a5d73e18-c30e-4a91-afc6-235d25e4739e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Karl Turner"
+			}
 		},
 		"2017": {
 			"first": "Lab",

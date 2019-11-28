@@ -28,7 +28,11 @@
 				"name": "Olga FitzRoy",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71835.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Chris Philp"
+			}
 		},
 		"2017": {
 			"first": "Con",

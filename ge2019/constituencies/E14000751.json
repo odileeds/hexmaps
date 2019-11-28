@@ -28,7 +28,11 @@
 				"name": "Thomas Patrick Clarke",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43035.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Julia Lopez"
+			}
 		},
 		"2017": {
 			"first": "Con",

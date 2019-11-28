@@ -23,7 +23,11 @@
 				"name": "Patrick David Keating",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53277.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Penrose"
+			}
 		},
 		"2017": {
 			"first": "Con",

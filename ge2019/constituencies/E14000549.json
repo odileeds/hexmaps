@@ -28,7 +28,11 @@
 				"name": "Jake Thomas",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Marsha de Cordova"
+			}
 		},
 		"2017": {
 			"first": "Lab",

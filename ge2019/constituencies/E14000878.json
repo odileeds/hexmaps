@@ -43,7 +43,11 @@
 				"name": "The Very Raving Mr P",
 				"party": "Official Monster Raving Loony Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lisa Forbes"
+			}
 		},
 		"2017": {
 			"first": "Lab",

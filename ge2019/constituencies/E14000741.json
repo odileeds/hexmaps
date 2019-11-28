@@ -23,7 +23,11 @@
 				"name": "Portia Vincent-Kirby",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71479-3bd50a60-6036-4fd2-b3d2-72a24ac83ca5.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Matthew Offord"
+			}
 		},
 		"2017": {
 			"first": "Con",

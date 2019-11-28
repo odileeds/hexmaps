@@ -28,7 +28,11 @@
 				"name": "John Blair",
 				"party": "Alliance - Alliance Party of Northern Ireland",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71629.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Paul Girvan"
+			}
 		},
 		"2017": {
 			"first": "DUP",

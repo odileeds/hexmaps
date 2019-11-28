@@ -33,7 +33,11 @@
 				"name": "Ray Pearson",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stephen Twigg"
+			}
 		},
 		"2017": {
 			"first": "Lab",

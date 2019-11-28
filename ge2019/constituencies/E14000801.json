@@ -38,7 +38,11 @@
 				"name": "Garry Warren",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72333-356d7725-05f4-45a7-b5c2-f2bb338a4a65.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Gavin Shuker"
+			}
 		},
 		"2017": {
 			"first": "Lab",

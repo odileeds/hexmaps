@@ -23,7 +23,11 @@
 				"name": "Martin Saunders",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71298-61666898-219b-465e-8481-69d38175eab9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Huw Merriman"
+			}
 		},
 		"2017": {
 			"first": "Con",

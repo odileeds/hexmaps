@@ -28,7 +28,11 @@
 				"name": "Dan Costello",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72117-89fa80ff-c737-48b3-8abd-239c99d4e73c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Angela Rayner"
+			}
 		},
 		"2017": {
 			"first": "Lab",

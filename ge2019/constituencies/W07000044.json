@@ -33,7 +33,11 @@
 				"name": "Ian Jonathan Berkeley-Hurst",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72190-34bd631a-b9fd-4a50-8941-f67064ddd7b2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ian Lucas"
+			}
 		},
 		"2017": {
 			"first": "Lab",

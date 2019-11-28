@@ -28,7 +28,11 @@
 				"name": "Jane Stevenson",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72094-6d117946-be41-4fe6-b147-5caf631aa742.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Emma Reynolds"
+			}
 		},
 		"2017": {
 			"first": "Lab",

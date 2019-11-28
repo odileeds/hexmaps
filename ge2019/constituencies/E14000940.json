@@ -23,7 +23,11 @@
 				"name": "Tristan Naseem Koriya",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72360-d2d64455-ded7-4ce1-bb5d-447bf87c195d.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alberto Costa"
+			}
 		},
 		"2017": {
 			"first": "Con",

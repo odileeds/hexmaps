@@ -28,7 +28,11 @@
 				"name": "Ken Pollock",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Stephen Lloyd"
+			}
 		},
 		"2017": {
 			"first": "LD",

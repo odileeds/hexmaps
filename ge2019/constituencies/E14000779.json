@@ -33,7 +33,11 @@
 				"name": "Inaya Folarin Iman",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71510.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Fabian Hamilton"
+			}
 		},
 		"2017": {
 			"first": "Lab",

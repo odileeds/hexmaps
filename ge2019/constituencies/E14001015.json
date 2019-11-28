@@ -23,7 +23,11 @@
 				"name": "David Johnston",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Ed Vaizey"
+			}
 		},
 		"2017": {
 			"first": "Con",

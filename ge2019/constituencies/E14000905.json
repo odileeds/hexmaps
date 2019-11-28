@@ -23,7 +23,11 @@
 				"name": "Rana Das Gupta",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71605-c228352a-17b1-4eb8-94c2-fc958c163ca8.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Pawsey"
+			}
 		},
 		"2017": {
 			"first": "Con",

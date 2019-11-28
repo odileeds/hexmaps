@@ -38,7 +38,11 @@
 				"name": "Will Sapwell",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52079.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Dan Jarvis"
+			}
 		},
 		"2017": {
 			"first": "Lab",

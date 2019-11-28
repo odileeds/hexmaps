@@ -38,7 +38,11 @@
 				"name": "John Robert Lloyd",
 				"party": "Alliance For Green Socialism",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Vicky Foxcroft"
+			}
 		},
 		"2017": {
 			"first": "Lab",

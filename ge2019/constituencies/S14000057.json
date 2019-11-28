@@ -28,7 +28,11 @@
 				"name": "Mary Kate Ross",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72433-2ee2c498-fa84-47ed-95b7-244770865e5c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Stephen Kerr"
+			}
 		},
 		"2017": {
 			"first": "Con",

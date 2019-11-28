@@ -33,7 +33,11 @@
 				"name": "Zion Amodu",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bob Neill"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Ukonu Elisha Obasi",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65658.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Adam Holloway"
+			}
 		},
 		"2017": {
 			"first": "Con",

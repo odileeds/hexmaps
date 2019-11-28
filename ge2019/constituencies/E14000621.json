@@ -33,7 +33,11 @@
 				"name": "James Woudhuysen",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71353-f180af76-314c-4e36-a45b-892f8f48f0f9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Tom Brake"
+			}
 		},
 		"2017": {
 			"first": "LD",

@@ -38,7 +38,11 @@
 				"name": "Natalie Jane Hoy",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Dennis Skinner"
+			}
 		},
 		"2017": {
 			"first": "Lab",

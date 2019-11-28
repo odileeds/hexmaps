@@ -23,7 +23,11 @@
 				"name": "Coby Wing",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71609-7cc3a92a-dd65-4f38-b3eb-741ed3c55c39.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kemi Badenoch"
+			}
 		},
 		"2017": {
 			"first": "Con",

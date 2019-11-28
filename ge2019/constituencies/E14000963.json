@@ -28,7 +28,11 @@
 				"name": "Kai Taylor",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36621.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Marie Rimmer"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Chris Altree",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71286.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "John Woodcock"
+			}
 		},
 		"2017": {
 			"first": "Lab",

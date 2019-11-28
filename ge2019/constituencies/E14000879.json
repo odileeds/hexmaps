@@ -23,7 +23,11 @@
 				"name": "Ewan Melling Flavell",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71988-4ad31316-c4b5-4260-af99-c58edf3d9780.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Johnny Mercer"
+			}
 		},
 		"2017": {
 			"first": "Con",

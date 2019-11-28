@@ -23,7 +23,11 @@
 				"name": "Matt Turmaine",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72310-bc9a6110-2ffc-4efa-a53e-fb97e7ac1459.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Cheryl Gillan"
+			}
 		},
 		"2017": {
 			"first": "Con",

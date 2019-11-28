@@ -38,7 +38,11 @@
 				"name": "Sam Fisk",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71754-a81873e4-3352-4cfb-888d-b38fae4f5f81.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jon Cruddas"
+			}
 		},
 		"2017": {
 			"first": "Lab",

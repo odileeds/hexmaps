@@ -23,7 +23,11 @@
 				"name": "Jennifer Ross",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72403-772f0e28-16f7-4b5d-8f48-a96b62a45815.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Angus MacNeil"
+			}
 		},
 		"2017": {
 			"first": "SNP",

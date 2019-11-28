@@ -28,7 +28,11 @@
 				"name": "Susie Quatermass",
 				"party": "Motherworld Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Heappey"
+			}
 		},
 		"2017": {
 			"first": "Con",

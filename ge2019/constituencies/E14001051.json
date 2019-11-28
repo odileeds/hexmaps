@@ -23,7 +23,11 @@
 				"name": "Leo Antonio Grandison",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Eleanor Smith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

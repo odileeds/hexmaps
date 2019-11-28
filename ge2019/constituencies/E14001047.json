@@ -28,7 +28,11 @@
 				"name": "Ella Walding",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52782.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jonathan Lord"
+			}
 		},
 		"2017": {
 			"first": "Con",

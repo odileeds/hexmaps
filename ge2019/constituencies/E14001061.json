@@ -38,7 +38,11 @@
 				"name": "Andrew John Snedden",
 				"party": "Yorkshire Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rachael Maskell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

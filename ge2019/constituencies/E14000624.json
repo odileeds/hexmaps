@@ -23,7 +23,11 @@
 				"name": "Dan Pratt",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58399.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Daniel Poulter"
+			}
 		},
 		"2017": {
 			"first": "Con",

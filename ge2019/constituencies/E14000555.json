@@ -33,7 +33,11 @@
 				"name": "David Axe",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71945.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rushanara Ali"
+			}
 		},
 		"2017": {
 			"first": "Lab",

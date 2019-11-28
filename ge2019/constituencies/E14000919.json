@@ -43,7 +43,11 @@
 				"name": "Paul John Ward",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Paul Blomfield"
+			}
 		},
 		"2017": {
 			"first": "Lab",

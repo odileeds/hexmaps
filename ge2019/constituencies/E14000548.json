@@ -33,7 +33,11 @@
 				"name": "Ty Akram",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72052-8bbd4e70-6681-4af7-9a10-01f1db400fa6.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Tracy Brabin"
+			}
 		},
 		"2017": {
 			"first": "Lab",

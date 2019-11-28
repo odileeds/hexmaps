@@ -23,7 +23,11 @@
 				"name": "Frank Adlington-Stringer",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65433.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Lee Rowley"
+			}
 		},
 		"2017": {
 			"first": "Con",

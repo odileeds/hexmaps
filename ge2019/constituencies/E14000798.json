@@ -23,7 +23,11 @@
 				"name": "Ellie Green",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Victoria Atkins"
+			}
 		},
 		"2017": {
 			"first": "Con",

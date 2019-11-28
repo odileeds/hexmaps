@@ -23,7 +23,11 @@
 				"name": "David Chadwick",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71555.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Simon Hoare"
+			}
 		},
 		"2017": {
 			"first": "Con",

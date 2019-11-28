@@ -23,7 +23,11 @@
 				"name": "Tim Dawes",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72149-030e16c3-3ebd-423b-a0ad-327c926ea09c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Pritchard"
+			}
 		},
 		"2017": {
 			"first": "Con",

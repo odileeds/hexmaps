@@ -28,7 +28,11 @@
 				"name": "Brian McDaid",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43749.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Julian Smith"
+			}
 		},
 		"2017": {
 			"first": "Con",

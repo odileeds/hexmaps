@@ -38,7 +38,11 @@
 				"name": "Ally Haydock",
 				"party": "SDLP (Social Democratic & Labour Party)",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69335.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Jeffrey M. Donaldson"
+			}
 		},
 		"2017": {
 			"first": "DUP",

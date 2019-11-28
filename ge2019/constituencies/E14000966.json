@@ -23,7 +23,11 @@
 				"name": "Doug Rouxel",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24927.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Karen Bradley"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Terry Savage",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72220-a0cb3574-eb71-427c-93dc-6d37c5593f4b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Antoinette Sandbach"
+			}
 		},
 		"2017": {
 			"first": "Con",

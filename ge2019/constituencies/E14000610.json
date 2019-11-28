@@ -23,7 +23,11 @@
 				"name": "Louise Walker",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72620-4629fe3d-09fd-4865-bff5-37abcd92d2de.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Griffiths"
+			}
 		},
 		"2017": {
 			"first": "Con",

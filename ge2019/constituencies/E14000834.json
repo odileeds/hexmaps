@@ -28,7 +28,11 @@
 				"name": "Carl Richard Johnson",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72488-8eebdb90-6925-4da0-b3e8-fd8bf0735373.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Paul Farrelly"
+			}
 		},
 		"2017": {
 			"first": "Lab",

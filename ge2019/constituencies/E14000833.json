@@ -28,7 +28,11 @@
 				"name": "Richard Mark Ogden",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72304-9955867a-3b70-4c2d-b7ff-f87c5c03ec7e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Catherine McKinnell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Navin Kumar",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Duddridge"
+			}
 		},
 		"2017": {
 			"first": "Con",

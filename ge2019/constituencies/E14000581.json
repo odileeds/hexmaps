@@ -28,7 +28,11 @@
 				"name": "Kim Sherrie Knight",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Peter Dowd"
+			}
 		},
 		"2017": {
 			"first": "Lab",

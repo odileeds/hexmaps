@@ -23,7 +23,11 @@
 				"name": "David Hughes",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34736.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Rosindell"
+			}
 		},
 		"2017": {
 			"first": "Con",

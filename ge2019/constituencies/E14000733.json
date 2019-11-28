@@ -33,7 +33,11 @@
 				"name": "Joe Bousfield",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mike Hill"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Peter Ernest Jacobs",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lisa Nandy"
+			}
 		},
 		"2017": {
 			"first": "Lab",

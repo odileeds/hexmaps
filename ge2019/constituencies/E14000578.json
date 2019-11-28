@@ -28,7 +28,11 @@
 				"name": "Trevor Jones",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71315.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "David Crausby"
+			}
 		},
 		"2017": {
 			"first": "Lab",

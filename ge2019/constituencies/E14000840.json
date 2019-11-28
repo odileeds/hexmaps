@@ -33,7 +33,11 @@
 				"name": "Ed Parson",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72350-33f12a3e-a0bf-4e62-9104-971489a3cc0e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kevan Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -23,7 +23,11 @@
 				"name": "Rhea Louise Barnes",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72161-67b36975-544f-4cc6-8a45-facba34eeb50.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Brendan O'Hara"
+			}
 		},
 		"2017": {
 			"first": "SNP",

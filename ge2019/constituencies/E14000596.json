@@ -23,7 +23,11 @@
 				"name": "Majid Khan",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23173.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Percy"
+			}
 		},
 		"2017": {
 			"first": "Con",

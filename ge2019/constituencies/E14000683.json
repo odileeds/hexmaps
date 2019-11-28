@@ -28,7 +28,11 @@
 				"name": "Dale Richard Needham",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Greg Knight"
+			}
 		},
 		"2017": {
 			"first": "Con",

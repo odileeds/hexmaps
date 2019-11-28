@@ -38,7 +38,11 @@
 				"name": "James Hope",
 				"party": "Aontú",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SF",
+				"mp": "Ãrfhlaith Begley"
+			}
 		},
 		"2017": {
 			"first": "SF",

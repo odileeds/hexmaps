@@ -23,7 +23,11 @@
 				"name": "Jay Lewis Henderson",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Robert Jenrick"
+			}
 		},
 		"2017": {
 			"first": "Con",

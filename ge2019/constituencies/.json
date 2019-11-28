@@ -1,0 +1,33 @@
+{
+	"id": "",
+	"title": "",
+	"elections": {
+		"2019": {
+			"candidates": [{
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Albert Owen"
+			}
+		},
+		"2017": {
+			"first": "",
+			"mp": "",
+			"mysoc": "",
+			"electorate": ,
+			"turnout": ,
+			"valid": ,
+			"spoiled": ,
+			"majority": 
+		},
+		"2015": {
+			"first": "",
+			"mp": " ",
+			"electorate": ,
+			"turnout": 0.0,
+			"valid": ,
+			"spoiled": ,
+			"majority": 
+		}
+	}
+}

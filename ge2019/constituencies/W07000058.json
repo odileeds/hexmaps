@@ -23,7 +23,11 @@
 				"name": "Lisa Goodier",
 				"party": "Plaid Cymru - The Party of Wales",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71274.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Guto Bebb"
+			}
 		},
 		"2017": {
 			"first": "Con",

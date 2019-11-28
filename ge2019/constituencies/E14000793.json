@@ -28,7 +28,11 @@
 				"name": "Sean Paul Malkeson",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Louise Ellman"
+			}
 		},
 		"2017": {
 			"first": "Lab",

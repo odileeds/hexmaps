@@ -28,7 +28,11 @@
 				"name": "Samantha George",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71373.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Chris Matheson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

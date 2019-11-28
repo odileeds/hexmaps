@@ -23,7 +23,11 @@
 				"name": "Liz Bell",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72027.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kit Malthouse"
+			}
 		},
 		"2017": {
 			"first": "Con",

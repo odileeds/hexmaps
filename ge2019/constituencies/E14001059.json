@@ -33,7 +33,11 @@
 				"name": "Caroline Bellamy",
 				"party": "Communist League Election Campaign",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72215-0e87d1e4-a112-42fa-a04e-6db04efbc46c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mike Kane"
+			}
 		},
 		"2017": {
 			"first": "Lab",

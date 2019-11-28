@@ -33,7 +33,11 @@
 				"name": "Brett David Mortensen",
 				"party": "Advance Together",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Nicholas Soames"
+			}
 		},
 		"2017": {
 			"first": "Con",

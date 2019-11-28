@@ -23,7 +23,11 @@
 				"name": "Duncan Christopher Townson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72413-c86b1f87-2c6b-4e68-a635-54e37cc739aa.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bill Grant"
+			}
 		},
 		"2017": {
 			"first": "Con",

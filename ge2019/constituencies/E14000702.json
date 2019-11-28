@@ -28,7 +28,11 @@
 				"name": "Jenny Vernon",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57539.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jack Lopresti"
+			}
 		},
 		"2017": {
 			"first": "Con",

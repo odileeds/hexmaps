@@ -33,7 +33,11 @@
 				"name": "Roz Hubley",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rosena Allin-Khan"
+			}
 		},
 		"2017": {
 			"first": "Lab",

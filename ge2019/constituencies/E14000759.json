@@ -33,7 +33,11 @@
 				"name": "Donald Omoarebun Akhigbe",
 				"party": "Christian Peoples Alliance",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72454-202ccd93-2a7c-4c12-be0e-68887eb2adf9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Wes Streeting"
+			}
 		},
 		"2017": {
 			"first": "Lab",

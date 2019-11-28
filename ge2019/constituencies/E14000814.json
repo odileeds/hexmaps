@@ -23,7 +23,11 @@
 				"name": "Felix Dodds",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71529.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Pauline Latham"
+			}
 		},
 		"2017": {
 			"first": "Con",

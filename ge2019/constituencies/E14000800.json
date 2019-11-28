@@ -38,7 +38,11 @@
 				"name": "Muhammad Yasin Rehman",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72593-9aa1dcb6-dece-4cb2-a7a3-adf38206a4d4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Kelvin Hopkins"
+			}
 		},
 		"2017": {
 			"first": "Lab",

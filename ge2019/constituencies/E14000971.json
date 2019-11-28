@@ -23,7 +23,11 @@
 				"name": "John Prescott",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71672.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Paul Williams"
+			}
 		},
 		"2017": {
 			"first": "Lab",

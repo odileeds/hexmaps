@@ -23,7 +23,11 @@
 				"name": "Callum Anderson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72065-d21e27ea-a387-4d77-b069-bf96f614cf88.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Selous"
+			}
 		},
 		"2017": {
 			"first": "Con",

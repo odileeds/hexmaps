@@ -28,7 +28,11 @@
 				"name": "Chloe Hopkins",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68163.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Graham Stuart"
+			}
 		},
 		"2017": {
 			"first": "Con",

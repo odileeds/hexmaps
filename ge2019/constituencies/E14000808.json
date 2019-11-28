@@ -28,7 +28,11 @@
 				"name": "Lesley Barbara Kaya",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72392-25507176-ee8e-4f6f-b869-de5366890593.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Afzal Khan"
+			}
 		},
 		"2017": {
 			"first": "Lab",

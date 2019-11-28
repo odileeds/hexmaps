@@ -28,7 +28,11 @@
 				"name": "Amanda Martin",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72340-52799d25-5a5d-4d51-8eeb-2e95146b5c78.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Penny Mordaunt"
+			}
 		},
 		"2017": {
 			"first": "Con",

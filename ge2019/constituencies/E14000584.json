@@ -33,7 +33,11 @@
 				"name": "Emma Victoria Johnson",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Tobias Ellwood"
+			}
 		},
 		"2017": {
 			"first": "Con",

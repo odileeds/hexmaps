@@ -33,7 +33,11 @@
 				"name": "Nick Mullins",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kevin Brennan"
+			}
 		},
 		"2017": {
 			"first": "Lab",

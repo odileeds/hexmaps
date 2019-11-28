@@ -38,7 +38,11 @@
 				"name": "Amy Beth Dalla Mura",
 				"party": "English Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72514-11f4a1d8-7dd7-470e-b023-6ba24550061a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Anna Soubry"
+			}
 		},
 		"2017": {
 			"first": "Con",

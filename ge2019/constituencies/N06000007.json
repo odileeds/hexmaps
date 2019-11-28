@@ -28,7 +28,11 @@
 				"name": "Caroline Wheeler",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SF",
+				"mp": "Michelle Gildernew"
+			}
 		},
 		"2017": {
 			"first": "SF",

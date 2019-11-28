@@ -28,7 +28,11 @@
 				"name": "Paul Ryan Yates",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72214-98f29486-3d77-4b7c-a0b9-dfca65862ff1.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nigel Evans"
+			}
 		},
 		"2017": {
 			"first": "Con",

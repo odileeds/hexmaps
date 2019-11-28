@@ -33,7 +33,11 @@
 				"name": "Faye Clements",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71536.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Andy McDonald"
+			}
 		},
 		"2017": {
 			"first": "Lab",

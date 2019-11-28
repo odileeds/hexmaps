@@ -28,7 +28,11 @@
 				"name": "David McBride",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71755.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Evennett"
+			}
 		},
 		"2017": {
 			"first": "Con",

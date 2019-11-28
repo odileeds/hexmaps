@@ -33,7 +33,11 @@
 				"name": "Robert Sidney Lloyd",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72588-a0391706-eb47-4080-be8d-be045b819517.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Meg Hillier"
+			}
 		},
 		"2017": {
 			"first": "Lab",

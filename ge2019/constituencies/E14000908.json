@@ -28,7 +28,11 @@
 				"name": "John William Kirby",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Kenneth Clarke"
+			}
 		},
 		"2017": {
 			"first": "Con",

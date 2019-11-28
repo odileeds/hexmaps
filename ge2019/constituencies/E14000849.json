@@ -28,7 +28,11 @@
 				"name": "John George Walter Adams",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72526-ca031ae2-7321-45ba-bd7c-b88c77eec70c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Owen Paterson"
+			}
 		},
 		"2017": {
 			"first": "Con",

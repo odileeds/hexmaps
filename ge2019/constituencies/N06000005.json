@@ -38,7 +38,11 @@
 				"name": "Aaron Rankin",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72078-77a19e2c-8a4b-4896-89b9-70289f793b23.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Sammy Wilson"
+			}
 		},
 		"2017": {
 			"first": "DUP",

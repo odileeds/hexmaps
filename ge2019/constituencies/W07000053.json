@@ -33,7 +33,11 @@
 				"name": "John E Miller",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Nick Thomas-Symonds"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -23,7 +23,11 @@
 				"name": "Robert Pearson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34297.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Heather Wheeler"
+			}
 		},
 		"2017": {
 			"first": "Con",

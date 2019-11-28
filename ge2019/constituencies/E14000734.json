@@ -33,7 +33,11 @@
 				"name": "Stephen Dennis Rice",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bernard Jenkin"
+			}
 		},
 		"2017": {
 			"first": "Con",

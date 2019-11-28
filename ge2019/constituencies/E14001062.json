@@ -23,7 +23,11 @@
 				"name": "Scott Robert Marmion",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54416-23b21ac7-8ce1-42ac-85d9-dd303c5fc8e1.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Julian Sturdy"
+			}
 		},
 		"2017": {
 			"first": "Con",

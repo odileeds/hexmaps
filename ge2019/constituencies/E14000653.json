@@ -33,7 +33,11 @@
 				"name": "Andrew John Kinsman",
 				"party": "Libertarian Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71899.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Laura Smith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

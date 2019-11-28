@@ -28,7 +28,11 @@
 				"name": "Jerry Gorman",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71615.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Nicholas Dakin"
+			}
 		},
 		"2017": {
 			"first": "Lab",

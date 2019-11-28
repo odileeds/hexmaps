@@ -33,7 +33,11 @@
 				"name": "Martyn Ford",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Davies"
+			}
 		},
 		"2017": {
 			"first": "Con",

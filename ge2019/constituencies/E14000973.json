@@ -33,7 +33,11 @@
 				"name": "Richard Watkin",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72217-e4d8609c-28f6-4013-84a1-3f93a37dd573.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ruth Smeeth"
+			}
 		},
 		"2017": {
 			"first": "Lab",

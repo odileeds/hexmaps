@@ -33,7 +33,11 @@
 				"name": "Frankie Wales",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71596.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Anna Turley"
+			}
 		},
 		"2017": {
 			"first": "Lab",

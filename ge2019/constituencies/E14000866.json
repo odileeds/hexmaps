@@ -28,7 +28,11 @@
 				"name": "Julian Paul Carter",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71574-7fd3d152-458b-473e-973f-9d094e5daf92.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Alex Norris"
+			}
 		},
 		"2017": {
 			"first": "Lab",

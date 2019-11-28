@@ -28,7 +28,11 @@
 				"name": "Queenie Tea",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nicky Morgan"
+			}
 		},
 		"2017": {
 			"first": "Con",

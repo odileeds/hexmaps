@@ -18,7 +18,11 @@
 				"name": "Anne Denise Hobbs",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Amanda Milling"
+			}
 		},
 		"2017": {
 			"first": "Con",

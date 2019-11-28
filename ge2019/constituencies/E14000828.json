@@ -23,7 +23,11 @@
 				"name": "Nick Bubb",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72002.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Desmond Swayne"
+			}
 		},
 		"2017": {
 			"first": "Con",

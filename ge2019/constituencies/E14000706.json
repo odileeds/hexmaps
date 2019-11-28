@@ -28,7 +28,11 @@
 				"name": "Martin Mitchell",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64422.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Menzies"
+			}
 		},
 		"2017": {
 			"first": "Con",

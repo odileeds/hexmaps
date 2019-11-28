@@ -18,7 +18,11 @@
 				"name": "Faiza Shaheen",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71368.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Iain Duncan Smith"
+			}
 		},
 		"2017": {
 			"first": "Con",

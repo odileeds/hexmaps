@@ -23,7 +23,11 @@
 				"name": "Ted Thompson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71871.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alister Jack"
+			}
 		},
 		"2017": {
 			"first": "Con",

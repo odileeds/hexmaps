@@ -28,7 +28,11 @@
 				"name": "Moira McDonald Benny",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Douglas Chapman"
+			}
 		},
 		"2017": {
 			"first": "SNP",

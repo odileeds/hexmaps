@@ -23,7 +23,11 @@
 				"name": "Simon Bull",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34940_pHDdQuD.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Conor Burns"
+			}
 		},
 		"2017": {
 			"first": "Con",

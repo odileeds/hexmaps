@@ -23,7 +23,11 @@
 				"name": "Rosie Newbigging",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71725.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Grant Shapps"
+			}
 		},
 		"2017": {
 			"first": "Con",

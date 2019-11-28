@@ -28,7 +28,11 @@
 				"name": "Owen Thomas Lambert",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67243-30ee44c9-f467-4677-a459-6c4e56c78a56.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Morris"
+			}
 		},
 		"2017": {
 			"first": "Con",

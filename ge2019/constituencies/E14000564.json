@@ -28,7 +28,11 @@
 				"name": "Mary Noone",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Shabana Mahmood"
+			}
 		},
 		"2017": {
 			"first": "Lab",

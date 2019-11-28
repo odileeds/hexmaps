@@ -33,7 +33,11 @@
 				"name": "Toby Edward Williams",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72134-9ff0ad8f-68b8-47c3-8e2b-342def2ab2de.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Siobhain McDonagh"
+			}
 		},
 		"2017": {
 			"first": "Lab",

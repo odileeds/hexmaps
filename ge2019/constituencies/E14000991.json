@@ -23,7 +23,11 @@
 				"name": "Alan MacKenzie",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55255-1b27aa9e-940a-44cd-92a0-f6103d59f845.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Geoffrey Clifton-Brown"
+			}
 		},
 		"2017": {
 			"first": "Con",

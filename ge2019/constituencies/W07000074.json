@@ -33,7 +33,11 @@
 				"name": "Christine Roach",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72560-b0c5bb66-24b2-487c-b1e3-ab6062211ffe.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Chris Elmore"
+			}
 		},
 		"2017": {
 			"first": "Lab",

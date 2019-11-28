@@ -33,7 +33,11 @@
 				"name": "Tom Fox",
 				"party": "The Constitution and Reform Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Marcus Fysh"
+			}
 		},
 		"2017": {
 			"first": "Con",

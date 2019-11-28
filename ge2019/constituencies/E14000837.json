@@ -23,7 +23,11 @@
 				"name": "Elmars Vilnis Liepins",
 				"party": "The Liberal Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Scott Mann"
+			}
 		},
 		"2017": {
 			"first": "Con",

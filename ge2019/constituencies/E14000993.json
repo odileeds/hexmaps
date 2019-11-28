@@ -43,7 +43,11 @@
 				"name": "Michael John Taylor",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kevin Hollinrake"
+			}
 		},
 		"2017": {
 			"first": "Con",

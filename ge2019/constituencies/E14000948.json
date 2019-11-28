@@ -23,7 +23,11 @@
 				"name": "Rebecca Gordon-Nesbitt",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71646.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Craig Mackinlay"
+			}
 		},
 		"2017": {
 			"first": "Con",

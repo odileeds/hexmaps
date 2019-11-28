@@ -38,7 +38,11 @@
 				"name": "Clive Johnson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71934.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Gordon Henderson"
+			}
 		},
 		"2017": {
 			"first": "Con",

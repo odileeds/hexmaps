@@ -18,7 +18,11 @@
 				"name": "Shana Roberts",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52822.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Lucy Allan"
+			}
 		},
 		"2017": {
 			"first": "Con",

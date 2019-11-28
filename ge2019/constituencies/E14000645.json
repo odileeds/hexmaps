@@ -43,7 +43,11 @@
 				"name": "Sue Harrison",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Thelma Walker"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Jamie David Adams",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72417-9fcfee7a-d293-4563-a91b-ae373c374509.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Susan Elan Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

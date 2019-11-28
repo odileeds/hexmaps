@@ -23,7 +23,11 @@
 				"name": "David Knowles",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72529-50279ae5-4372-4619-9320-4a62a3094e58.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Mitchell"
+			}
 		},
 		"2017": {
 			"first": "Con",

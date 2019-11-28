@@ -28,7 +28,11 @@
 				"name": "Graham Cushway",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71927.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lloyd Russell-Moyle"
+			}
 		},
 		"2017": {
 			"first": "Lab",

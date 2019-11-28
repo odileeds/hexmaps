@@ -38,7 +38,11 @@
 				"name": "Paul Errock",
 				"party": "Proud of Oldham & Saddleworth",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Debbie Abrahams"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Bella Sankey",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72372-244b9663-4da9-426c-8e84-af0f0ac5d6c5.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nick Herbert"
+			}
 		},
 		"2017": {
 			"first": "Con",

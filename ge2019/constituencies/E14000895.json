@@ -33,7 +33,11 @@
 				"name": "Laurence Warwick Waterhouse",
 				"party": "Yorkshire Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72609-f3f94f16-3ee9-4707-b853-cea7ef744b5a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Rishi Sunak"
+			}
 		},
 		"2017": {
 			"first": "Con",

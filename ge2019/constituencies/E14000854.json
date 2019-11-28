@@ -23,7 +23,11 @@
 				"name": "James Platt",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Craig Tracey"
+			}
 		},
 		"2017": {
 			"first": "Con",

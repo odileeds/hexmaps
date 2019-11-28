@@ -28,7 +28,11 @@
 				"name": "Malcolm James Webster",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Conor McGinn"
+			}
 		},
 		"2017": {
 			"first": "Lab",

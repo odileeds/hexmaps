@@ -33,7 +33,11 @@
 				"name": "Hazel Lee Williams",
 				"party": "The Liberal Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72157-c3b18b9d-d370-4475-9971-7aa38bc528ff.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Maria Eagle"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "David Richard Ragozzino",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Ben Wallace"
+			}
 		},
 		"2017": {
 			"first": "Con",

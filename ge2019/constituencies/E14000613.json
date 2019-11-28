@@ -23,7 +23,11 @@
 				"name": "Cliff Waterman",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60116-0eb01294-1f59-40b6-a0d0-cdc5ee734f93.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jo Churchill"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "James McPhilemy",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72011.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Stuart McDonald"
+			}
 		},
 		"2017": {
 			"first": "SNP",

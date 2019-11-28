@@ -28,7 +28,11 @@
 				"name": "Rich McCarthy",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71381.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Fiona Bruce"
+			}
 		},
 		"2017": {
 			"first": "Con",

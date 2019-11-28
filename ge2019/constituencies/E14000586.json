@@ -28,7 +28,11 @@
 				"name": "James Sunderland",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72017.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Phillip Lee"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Richard Morris",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71693.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Thomas Tugendhat"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Aaron Hudson",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71676.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Margot James"
+			}
 		},
 		"2017": {
 			"first": "Con",

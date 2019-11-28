@@ -23,7 +23,11 @@
 				"name": "Mari Arthur",
 				"party": "Plaid Cymru - The Party of Wales",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34306.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Nia Griffith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

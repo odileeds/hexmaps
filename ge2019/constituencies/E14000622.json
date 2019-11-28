@@ -18,7 +18,11 @@
 				"name": "John Howson",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6531.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Rebecca Harris"
+			}
 		},
 		"2017": {
 			"first": "Con",

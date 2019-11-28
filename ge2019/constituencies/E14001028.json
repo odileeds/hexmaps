@@ -33,7 +33,11 @@
 				"name": "Stephen Paul Cavell",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "John Healey"
+			}
 		},
 		"2017": {
 			"first": "Lab",

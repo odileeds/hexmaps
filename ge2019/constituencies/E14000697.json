@@ -33,7 +33,11 @@
 				"name": "Kyle Gregory Taylor",
 				"party": "Advance Together",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Dominic Raab"
+			}
 		},
 		"2017": {
 			"first": "Con",

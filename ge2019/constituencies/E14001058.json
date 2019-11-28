@@ -23,7 +23,11 @@
 				"name": "Shazu Miah",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15076.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Garnier"
+			}
 		},
 		"2017": {
 			"first": "Con",

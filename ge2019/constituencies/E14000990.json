@@ -23,7 +23,11 @@
 				"name": "Lara Soraya Chaplin",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67148.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Laurence Robertson"
+			}
 		},
 		"2017": {
 			"first": "Con",

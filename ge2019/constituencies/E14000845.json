@@ -23,7 +23,11 @@
 				"name": "Amy Finch",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48228.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Oliver Heald"
+			}
 		},
 		"2017": {
 			"first": "Con",

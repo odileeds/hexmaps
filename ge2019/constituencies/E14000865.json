@@ -33,7 +33,11 @@
 				"name": "Michelle Kim Vacciana",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72278-dcc5469f-4743-4dfc-88ec-3b34e56d6644.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Chris Leslie"
+			}
 		},
 		"2017": {
 			"first": "Lab",

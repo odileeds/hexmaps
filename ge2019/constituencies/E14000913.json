@@ -23,7 +23,11 @@
 				"name": "Lee Derrick",
 				"party": "Yorkshire Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35213-3287b079-db81-490b-a149-16a77346ec63.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Robert Goodwill"
+			}
 		},
 		"2017": {
 			"first": "Con",

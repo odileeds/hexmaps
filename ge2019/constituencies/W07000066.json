@@ -23,7 +23,11 @@
 				"name": "Glanville Owen Rhys Thomas",
 				"party": "Plaid Cymru - The Party of Wales",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27802-1ade626e-e765-4b4f-9a66-9d647517aeb1.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Simon Hart"
+			}
 		},
 		"2017": {
 			"first": "Con",

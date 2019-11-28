@@ -63,7 +63,11 @@
 				"name": "Yace \"Interplanetary Time Lord\" Yogenstein",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Boris Johnson"
+			}
 		},
 		"2017": {
 			"first": "Con",

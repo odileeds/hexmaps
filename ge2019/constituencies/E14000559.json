@@ -33,7 +33,11 @@
 				"name": "Darren Lee Lythgoe",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72090.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Frank Field"
+			}
 		},
 		"2017": {
 			"first": "Lab",

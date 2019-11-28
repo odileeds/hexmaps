@@ -28,7 +28,11 @@
 				"name": "Paul Turpin",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36182.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Louise Haigh"
+			}
 		},
 		"2017": {
 			"first": "Lab",

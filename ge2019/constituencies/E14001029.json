@@ -38,7 +38,11 @@
 				"name": "Christian Mosiah Lucas",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72172-93bb9002-be51-41b8-a623-5a8b5f2f4f38.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Tom Watson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

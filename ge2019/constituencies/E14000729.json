@@ -18,7 +18,11 @@
 				"name": "Charlotte Cane",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71759-434e643f-d6ae-46b6-a232-751114935379.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Robert Halfon"
+			}
 		},
 		"2017": {
 			"first": "Con",

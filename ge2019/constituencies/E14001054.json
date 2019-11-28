@@ -28,7 +28,11 @@
 				"name": "Joe Johnson-Tod",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64189.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Barbara Keeley"
+			}
 		},
 		"2017": {
 			"first": "Lab",

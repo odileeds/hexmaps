@@ -28,7 +28,11 @@
 				"name": "Julie Maughan",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71415.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Grahame Morris"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -23,7 +23,11 @@
 				"name": "Debbie Soloman",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71847.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "John Mann"
+			}
 		},
 		"2017": {
 			"first": "Lab",

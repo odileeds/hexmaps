@@ -43,7 +43,11 @@
 				"name": "Carl Gerard Williams",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Christina Rees"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Lesley Anne Wright",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Roberta Blackman-Woods"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Karen Batley",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Margaret Hodge"
+			}
 		},
 		"2017": {
 			"first": "Lab",

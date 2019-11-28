@@ -28,7 +28,11 @@
 				"name": "James Keyse",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71468.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Andrew Slaughter"
+			}
 		},
 		"2017": {
 			"first": "Lab",

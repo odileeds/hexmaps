@@ -28,7 +28,11 @@
 				"name": "Louise Potter",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56788.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jeremy Quin"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Bob Wootton",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67507-1a998e4b-8565-427a-be18-c9cb001ef4c0.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Geoffrey Cox"
+			}
 		},
 		"2017": {
 			"first": "Con",

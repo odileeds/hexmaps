@@ -28,7 +28,11 @@
 				"name": "Stuart Powell",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71581-d79c242d-17d1-427a-9aed-2e6e22cf8b43.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Pete Wishart"
+			}
 		},
 		"2017": {
 			"first": "SNP",

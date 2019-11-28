@@ -33,7 +33,11 @@
 				"name": "Laura Anne Jones",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Nick Smith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

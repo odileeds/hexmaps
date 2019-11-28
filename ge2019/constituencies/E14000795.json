@@ -33,7 +33,11 @@
 				"name": "Catherine Riordan Mulhern",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Luciana Berger"
+			}
 		},
 		"2017": {
 			"first": "Lab",

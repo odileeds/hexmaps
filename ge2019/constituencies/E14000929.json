@@ -33,7 +33,11 @@
 				"name": "Caroline Coram",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71625.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Caroline Johnson"
+			}
 		},
 		"2017": {
 			"first": "Con",

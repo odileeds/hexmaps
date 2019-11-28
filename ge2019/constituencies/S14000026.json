@@ -28,7 +28,11 @@
 				"name": "Craig Bolton",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71924.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Christine Jardine"
+			}
 		},
 		"2017": {
 			"first": "LD",

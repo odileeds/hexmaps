@@ -33,7 +33,11 @@
 				"name": "Robert Morgan",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72238-e5e082ee-80b2-4a18-9424-c2fc0ed73914.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Madeleine Moon"
+			}
 		},
 		"2017": {
 			"first": "Lab",

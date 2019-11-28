@@ -33,7 +33,11 @@
 				"name": "Andy Erlam",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jim Fitzpatrick"
+			}
 		},
 		"2017": {
 			"first": "Lab",

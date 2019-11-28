@@ -33,7 +33,11 @@
 				"name": "Imran Nasir Ahmad Khan",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71986-62b4d81e-b7ea-4629-a66f-73221c843a35.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mary Creagh"
+			}
 		},
 		"2017": {
 			"first": "Lab",

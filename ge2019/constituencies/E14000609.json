@@ -38,7 +38,11 @@
 				"name": "Charlie Briggs",
 				"party": "Burnley and Padiham independent Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Julie Cooper"
+			}
 		},
 		"2017": {
 			"first": "Lab",

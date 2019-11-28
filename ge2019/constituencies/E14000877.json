@@ -28,7 +28,11 @@
 				"name": "Sarah Anne Williams",
 				"party": "Labour and Co-operative Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72267-d30adc8f-20e2-4439-a910-0a2e301e0407.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Rory Stewart"
+			}
 		},
 		"2017": {
 			"first": "Con",

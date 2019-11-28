@@ -28,7 +28,11 @@
 				"name": "Rob Roberts",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71395.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "David Hanson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

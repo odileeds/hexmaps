@@ -23,7 +23,11 @@
 				"name": "James Wild",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34313.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Henry Bellingham"
+			}
 		},
 		"2017": {
 			"first": "Con",

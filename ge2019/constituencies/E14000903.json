@@ -33,7 +33,11 @@
 				"name": "Alexander Stafford",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72159-e19fac1d-a459-499a-8e33-ddd0e900aa54.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kevin Barron"
+			}
 		},
 		"2017": {
 			"first": "Lab",

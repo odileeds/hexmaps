@@ -38,7 +38,11 @@
 				"name": "Geraint Benney",
 				"party": "Plaid Cymru - The Party of Wales",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71392.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ann Clwyd"
+			}
 		},
 		"2017": {
 			"first": "Lab",

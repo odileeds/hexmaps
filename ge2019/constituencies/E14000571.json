@@ -28,7 +28,11 @@
 				"name": "Alexander Victor Elias",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Graham Stringer"
+			}
 		},
 		"2017": {
 			"first": "Lab",

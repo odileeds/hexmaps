@@ -28,7 +28,11 @@
 				"name": "Mike Jordan",
 				"party": "Yorkshire Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71858.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nigel Adams"
+			}
 		},
 		"2017": {
 			"first": "Con",

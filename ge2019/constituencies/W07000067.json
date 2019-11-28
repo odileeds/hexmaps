@@ -23,7 +23,11 @@
 				"name": "Pete Prosser",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71937.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "PC",
+				"mp": "Jonathan Edwards"
+			}
 		},
 		"2017": {
 			"first": "PC",

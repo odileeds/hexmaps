@@ -23,7 +23,11 @@
 				"name": "Julie Pirone",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Gavin Newlands"
+			}
 		},
 		"2017": {
 			"first": "SNP",

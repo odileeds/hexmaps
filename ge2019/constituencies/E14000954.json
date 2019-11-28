@@ -23,7 +23,11 @@
 				"name": "Julie Elizabeth Phillips",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Murrison"
+			}
 		},
 		"2017": {
 			"first": "Con",

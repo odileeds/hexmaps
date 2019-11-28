@@ -28,7 +28,11 @@
 				"name": "Parag Shah",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72589-e683a67d-eef4-472e-a8c6-6a2c49c84d46.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Bambos Charalambous"
+			}
 		},
 		"2017": {
 			"first": "Lab",

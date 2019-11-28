@@ -23,7 +23,11 @@
 				"name": "Khalil Yousuf",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71386.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Henry Smith"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Edmund John Fordham",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72207-12f84a62-b9dd-4543-8c2c-5828e67415de.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Lucy Frazer"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Sonul Badiani-Hamment",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71412.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rupa Huq"
+			}
 		},
 		"2017": {
 			"first": "Lab",

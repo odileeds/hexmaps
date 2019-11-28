@@ -23,7 +23,11 @@
 				"name": "Mick Gregg",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35142.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Tredinnick"
+			}
 		},
 		"2017": {
 			"first": "Con",

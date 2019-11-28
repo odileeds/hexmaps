@@ -33,7 +33,11 @@
 				"name": "Cameron Owen Edwards",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72628-5f2043bd-0bed-41b8-bf1b-d19d2fd6c67e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ruth Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

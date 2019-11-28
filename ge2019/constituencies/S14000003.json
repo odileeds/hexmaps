@@ -28,7 +28,11 @@
 				"name": "William Crossman",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Neil Gray"
+			}
 		},
 		"2017": {
 			"first": "SNP",

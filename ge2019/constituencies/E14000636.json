@@ -28,7 +28,11 @@
 				"name": "John Anthony Sheffield",
 				"party": "Advance Together",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Theresa Villiers"
+			}
 		},
 		"2017": {
 			"first": "Con",

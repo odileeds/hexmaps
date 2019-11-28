@@ -28,7 +28,11 @@
 				"name": "Earl Elvis Of Outwell",
 				"party": "Official Monster Raving Loony Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Elizabeth Truss"
+			}
 		},
 		"2017": {
 			"first": "Con",

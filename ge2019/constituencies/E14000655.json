@@ -33,7 +33,11 @@
 				"name": "Candace Mitchell",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Steve Reed"
+			}
 		},
 		"2017": {
 			"first": "Lab",

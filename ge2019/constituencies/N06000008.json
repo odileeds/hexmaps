@@ -38,7 +38,11 @@
 				"name": "Darren Guy",
 				"party": "Ulster Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72311-69f7860c-8833-4537-9613-7ce907087fab.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SF",
+				"mp": "Elisha McCallion"
+			}
 		},
 		"2017": {
 			"first": "SF",

@@ -23,7 +23,11 @@
 				"name": "Julia Aglionby",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71351-5b2501a7-2fc7-4171-aea3-4fa12ad4ef1d.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Stevenson"
+			}
 		},
 		"2017": {
 			"first": "Con",

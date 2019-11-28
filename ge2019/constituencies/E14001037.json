@@ -23,7 +23,11 @@
 				"name": "Steven Paul Bolton",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Tim Farron"
+			}
 		},
 		"2017": {
 			"first": "LD",

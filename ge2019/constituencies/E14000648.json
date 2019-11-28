@@ -18,7 +18,11 @@
 				"name": "Beth Miller",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34301.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Tom Pursglove"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -33,7 +33,11 @@
 				"name": "James Paul Melly",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72409-4ef7d143-9b97-4efe-91fc-ff5cef45b79e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jo Platt"
+			}
 		},
 		"2017": {
 			"first": "Lab",

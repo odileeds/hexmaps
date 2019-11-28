@@ -23,7 +23,11 @@
 				"name": "Rosemary Ann Sexton",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50337.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Julian Knight"
+			}
 		},
 		"2017": {
 			"first": "Con",

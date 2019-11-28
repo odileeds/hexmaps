@@ -28,7 +28,11 @@
 				"name": "Nigel David Peacock",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72335-0bcc4195-fd30-4a8c-bd54-03797f08dc8f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Greg Clark"
+			}
 		},
 		"2017": {
 			"first": "Con",

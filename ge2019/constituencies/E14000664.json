@@ -23,7 +23,11 @@
 				"name": "Sarah Elizabeth Dines",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Patrick McLoughlin"
+			}
 		},
 		"2017": {
 			"first": "Con",

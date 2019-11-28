@@ -23,7 +23,11 @@
 				"name": "Kuldip Sahota",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34353.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Philip Dunne"
+			}
 		},
 		"2017": {
 			"first": "Con",

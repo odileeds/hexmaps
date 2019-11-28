@@ -33,7 +33,11 @@
 				"name": "Deborah Longe",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stella Creasy"
+			}
 		},
 		"2017": {
 			"first": "Lab",

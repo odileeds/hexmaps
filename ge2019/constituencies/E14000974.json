@@ -18,7 +18,11 @@
 				"name": "Rosalyn Jane Gordon",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jack Brereton"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -33,7 +33,11 @@
 				"name": "Julia Caroline Stephenson",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Helen Hayes"
+			}
 		},
 		"2017": {
 			"first": "Lab",

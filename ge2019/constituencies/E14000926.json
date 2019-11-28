@@ -28,7 +28,11 @@
 				"name": "Hannah Locke",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72083-a568bdca-46cc-4dba-acf7-e2139033ed2a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Daniel Kawczynski"
+			}
 		},
 		"2017": {
 			"first": "Con",

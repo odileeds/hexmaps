@@ -23,7 +23,11 @@
 				"name": "Sophie Brown",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71534.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Simon Clarke"
+			}
 		},
 		"2017": {
 			"first": "Con",

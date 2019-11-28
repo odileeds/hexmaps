@@ -23,7 +23,11 @@
 				"name": "Adam Thompson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72184-0054e71c-e2a7-41be-a8a3-37d2084db9f2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nigel Mills"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Nick Chisholm",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71867.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Mundell"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -48,7 +48,11 @@
 				"name": "Neil James Wood",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ed Miliband"
+			}
 		},
 		"2017": {
 			"first": "Lab",

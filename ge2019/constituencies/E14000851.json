@@ -23,7 +23,11 @@
 				"name": "Katie Critchlow",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72282-1f180ae2-e814-4fd0-8f75-14da4918426e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Justin Tomlinson"
+			}
 		},
 		"2017": {
 			"first": "Con",

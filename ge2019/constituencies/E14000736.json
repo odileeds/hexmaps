@@ -28,7 +28,11 @@
 				"name": "Alan Sinclair Black",
 				"party": "Social Democratic Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72426-2888def7-c080-41e0-8960-bc94168f11ec.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alan Mak"
+			}
 		},
 		"2017": {
 			"first": "Con",

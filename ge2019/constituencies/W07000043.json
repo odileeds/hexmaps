@@ -28,7 +28,11 @@
 				"name": "Simon Wall",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72322-2a20f48b-983d-457a-85a4-8c82b35e4261.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mark Tami"
+			}
 		},
 		"2017": {
 			"first": "Lab",

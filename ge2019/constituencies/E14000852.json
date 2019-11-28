@@ -23,7 +23,11 @@
 				"name": "Coral Jones",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72058.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Roger Gale"
+			}
 		},
 		"2017": {
 			"first": "Con",

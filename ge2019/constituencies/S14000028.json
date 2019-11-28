@@ -28,7 +28,11 @@
 				"name": "Austin Stanley Reid",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35028.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "John McNally"
+			}
 		},
 		"2017": {
 			"first": "SNP",

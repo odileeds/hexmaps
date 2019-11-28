@@ -18,7 +18,11 @@
 				"name": "Anthony Browne",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71630.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Heidi Allen"
+			}
 		},
 		"2017": {
 			"first": "Con",

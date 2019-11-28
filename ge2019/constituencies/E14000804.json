@@ -28,7 +28,11 @@
 				"name": "Yolande Ann Kenward",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28382.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Helen Grant"
+			}
 		},
 		"2017": {
 			"first": "Con",

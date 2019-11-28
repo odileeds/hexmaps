@@ -38,7 +38,11 @@
 				"name": "Kate Brownlie",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Ian Blackford"
+			}
 		},
 		"2017": {
 			"first": "SNP",

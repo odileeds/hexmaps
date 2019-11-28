@@ -23,7 +23,11 @@
 				"name": "Stephen Capper",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71973-faed4873-6006-4fd2-84d0-cdda6ee4ce46.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Whittingdale"
+			}
 		},
 		"2017": {
 			"first": "Con",

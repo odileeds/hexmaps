@@ -23,7 +23,11 @@
 				"name": "Allan Joseph James Tweddle",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48436.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jo Johnson"
+			}
 		},
 		"2017": {
 			"first": "Con",

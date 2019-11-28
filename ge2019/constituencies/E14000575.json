@@ -28,7 +28,11 @@
 				"name": "Thom Chapman",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72225-c0273ce2-b977-455a-8664-ba6626b6fb1b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ronnie Campbell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -33,7 +33,11 @@
 				"name": "Amarachi Marilyn Ogba",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Iain Stewart"
+			}
 		},
 		"2017": {
 			"first": "Con",

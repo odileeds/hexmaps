@@ -23,7 +23,11 @@
 				"name": "Kathryn Marie Salt",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Nicholas Boles"
+			}
 		},
 		"2017": {
 			"first": "Con",

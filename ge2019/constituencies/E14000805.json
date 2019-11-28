@@ -28,7 +28,11 @@
 				"name": "Ross Allan Wright",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72465-98e77bf8-f280-4924-9e7a-637d3497c33c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Yvonne Fovargue"
+			}
 		},
 		"2017": {
 			"first": "Lab",

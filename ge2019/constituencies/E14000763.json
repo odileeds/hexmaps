@@ -33,7 +33,11 @@
 				"name": "Nick Wakeling",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71497.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jeremy Corbyn"
+			}
 		},
 		"2017": {
 			"first": "Lab",

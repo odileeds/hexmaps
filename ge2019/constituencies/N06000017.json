@@ -28,7 +28,11 @@
 				"name": "Eóin Tennyson",
 				"party": "Alliance - Alliance Party of Northern Ireland",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69134-8ae070b0-664c-44f8-b10f-aad5b05f29b6.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "David Simpson"
+			}
 		},
 		"2017": {
 			"first": "DUP",

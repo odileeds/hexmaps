@@ -23,7 +23,11 @@
 				"name": "Cathy Cordiner-Achenbach",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35837.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Shailesh Vara"
+			}
 		},
 		"2017": {
 			"first": "Con",

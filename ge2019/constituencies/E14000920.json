@@ -28,7 +28,11 @@
 				"name": "Alex Martin",
 				"party": "Yorkshire Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Clive Betts"
+			}
 		},
 		"2017": {
 			"first": "Lab",

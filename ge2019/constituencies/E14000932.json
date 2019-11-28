@@ -23,7 +23,11 @@
 				"name": "Andrea Dexter",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71627-bbdee464-911c-4d13-b1e2-dfc2a8a6ee8a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Warburton"
+			}
 		},
 		"2017": {
 			"first": "Con",

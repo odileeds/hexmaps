@@ -23,7 +23,11 @@
 				"name": "77 Joseph",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Amess"
+			}
 		},
 		"2017": {
 			"first": "Con",

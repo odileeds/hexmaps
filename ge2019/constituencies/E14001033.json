@@ -28,7 +28,11 @@
 				"name": "Marc Stanton",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rosie Cooper"
+			}
 		},
 		"2017": {
 			"first": "Lab",

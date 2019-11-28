@@ -43,7 +43,11 @@
 				"name": "Pete Wilks",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jon Trickett"
+			}
 		},
 		"2017": {
 			"first": "Lab",

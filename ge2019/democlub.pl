@@ -1,12 +1,14 @@
 #!/usr/bin/perl
 
+
 use Text::CSV;
 
 
 %con;
 %header;
 %candidates;
-
+%conlookup;
+%parties;
 
 $url = "https://candidates.democracyclub.org.uk/media/candidates-parl.2019-12-12.csv";
 $file = "temp/candidates-parl.2019-12-12.csv";
@@ -30,6 +32,7 @@ while (my $row = $csv->getline ($fh)) {
 	}else{
 		if(!$con{$pcd}){ $con{$pcd} = ('candidates'=>()); }
 		push(@{$con{$pcd}{'candidates'}},{'name'=>$fields[1],'party'=>$fields[8],'id'=>$fields[0],'img'=>$fields[21]});
+		$conlookup{$fields[10]} = $pcd;
 	}
 	$line++;
 }
@@ -118,11 +121,58 @@ while (my $row = $csv->getline ($fh)) {
 }
 close($fh);	
 
+%parties = ('Labour/Co-operative'=>'Lab','Labour'=>'Lab','Conservative'=>'Con','Scottish National Party'=>'SNP','DUP'=>'DUP','Independent'=>'Ind','Liberal Democrat'=>'LD','Plaid Cymru'=>'PC','Speaker'=>'Spk','Green'=>'Green','Sinn Féin'=>'SF');
+
+# Now read in the full results to add data
+$file = "temp/mps.csv";
+#"Person ID","First name","Last name",Party,Constituency,URI
+my $csv = Text::CSV->new ({ binary => 1, decode_utf8 => 0 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+
+	$pcd = $conlookup{$fields[4]};
+
+	if($line == 0){
+		@header = @fields;
+		for($i = 0; $i < @header; $i++){
+			$header[$i] =~ s/ /\-/;
+		}
+	}else{
+		for($i = 0; $i < @fields; $i++){
+		
+			if($header[$i] eq "Party"){
+				if($parties{$fields[3]}){
+					$con{$pcd}{'2017-dissolution-party'} = $parties{$fields[3]};
+				}else{
+					print "Need to convert $fields[3]\n";
+				}
+			}
+			$con{$pcd}{'2017-dissolution-name'} = $fields[1]." ".$fields[2];
+		}
+	}
+	$line++;
+}
+close($fh);	
+
+
+open(FILE,">","2017-dissolution.csv");
+print FILE "ccode,dissolution17\n";
+@cid = sort(keys(%con));
+foreach $c (@cid){
+	if($c){
+		print FILE "$c,$con{$c}{'2017-dissolution-party'}\n";
+	}
+}
+close(FILE);
 
 
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
 foreach $pcd (sort(keys(%con))){
+print "$pcd\n";
 	open(FILE,">:encoding(UTF-8)","constituencies/$pcd.json");
 	print FILE "{\n";
 	print FILE "\t\"id\": \"$pcd\",\n";
@@ -140,7 +190,11 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\t\t\t\t\"img\": \"$con{$pcd}{'candidates'}[$c]{'img'}\"\n";
 		if($con{$pcd}{'candidates'}[$c]{'img'} eq ""){ print MISSING "$con{$pcd}{'cname1'}\t$con{$pcd}{'candidates'}[$c]{'name'}\t$con{$pcd}{'candidates'}[$c]{'party'}\thttps://candidates.democracyclub.org.uk/person/$con{$pcd}{'candidates'}[$c]{'id'}\n"; }
 	}
-	print FILE "\t\t\t}]\n";
+	print FILE "\t\t\t}],\n";
+	print FILE "\t\t\t\"incumbent\": {\n";
+	print FILE "\t\t\t\t\"party\": \"$con{$pcd}{'2017-dissolution-party'}\",\n";
+	print FILE "\t\t\t\t\"mp\": \"$con{$pcd}{'2017-dissolution-name'}\"\n";
+	print FILE "\t\t\t}\n";
 	print FILE "\t\t},\n";
 	print FILE "\t\t\"2017\": {\n";
 	print FILE "\t\t\t\"first\": \"$con{$pcd}{'first17'}\",\n";
@@ -156,7 +210,11 @@ foreach $pcd (sort(keys(%con))){
 	print FILE "\t\t\t\"first\": \"$con{$pcd}{'2015-party_name'}\",\n";
 	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2015-firstname'} $con{$pcd}{'2015-surname'}\",\n";
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'2015-electorate'},\n";
-	print FILE "\t\t\t\"turnout\": ".sprintf("%0.1f",100*($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})/$con{$pcd}{'2015-electorate'}).",\n";
+	$elect = $con{$pcd}{'2015-electorate'};
+	if($elect > 0){
+		$elect = 100*($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})/$con{$pcd}{'2015-electorate'};
+	}
+	print FILE "\t\t\t\"turnout\": ".sprintf("%0.1f",$elect).",\n";
 	print FILE "\t\t\t\"valid\": $con{$pcd}{'2015-valid_votes'},\n";
 	print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2015-invalid_votes'},\n";
 	print FILE "\t\t\t\"majority\": $con{$pcd}{'2015-majority'}\n";

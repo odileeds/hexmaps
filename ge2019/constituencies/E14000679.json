@@ -33,7 +33,11 @@
 				"name": "Michael Fox",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71757.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stephen Timms"
+			}
 		},
 		"2017": {
 			"first": "Lab",

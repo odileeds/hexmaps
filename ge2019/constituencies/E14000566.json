@@ -33,7 +33,11 @@
 				"name": "Raaj Shamji",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72531-d3d55b0e-a544-4e5a-b204-2bcb3ddbae1d.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Khalid Mahmood"
+			}
 		},
 		"2017": {
 			"first": "Lab",

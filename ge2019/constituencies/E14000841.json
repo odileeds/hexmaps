@@ -28,7 +28,11 @@
 				"name": "Adam Zerny",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72016.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Alistair Burt"
+			}
 		},
 		"2017": {
 			"first": "Con",

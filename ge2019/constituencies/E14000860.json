@@ -23,7 +23,11 @@
 				"name": "Bonnie Jackson",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71568-25ffe0a1-2d98-4317-8d35-b15d71e83d82.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Gray"
+			}
 		},
 		"2017": {
 			"first": "Con",

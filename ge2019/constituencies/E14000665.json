@@ -23,7 +23,11 @@
 				"name": "Rachael Katharine Schneider",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72189-ef2b9e56-1abd-46f1-9e0e-aa0bdba16511.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Claire Perry"
+			}
 		},
 		"2017": {
 			"first": "Con",

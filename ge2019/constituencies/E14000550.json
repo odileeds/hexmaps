@@ -28,7 +28,11 @@
 				"name": "Adam David Cleary",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72111-abb44a01-7eff-4674-afeb-4ed7ccff489a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Dominic Grieve"
+			}
 		},
 		"2017": {
 			"first": "Con",

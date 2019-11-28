@@ -33,7 +33,11 @@
 				"name": "Leigh Higgins",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72119-f01d3919-2955-456b-9c96-41eb31dfbaa2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Toby Perkins"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -33,7 +33,11 @@
 				"name": "David McElroy",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71921-68b25662-e7f7-4f14-be32-a0e829249c3b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Matt Rodda"
+			}
 		},
 		"2017": {
 			"first": "Lab",

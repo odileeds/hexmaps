@@ -28,7 +28,11 @@
 				"name": "James Pointon",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Tulip Siddiq"
+			}
 		},
 		"2017": {
 			"first": "Lab",

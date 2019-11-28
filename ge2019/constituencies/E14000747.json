@@ -28,7 +28,11 @@
 				"name": "Nigel Ian Ainsworth-Barnes",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71484.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Liz McInnes"
+			}
 		},
 		"2017": {
 			"first": "Lab",

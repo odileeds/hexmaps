@@ -28,7 +28,11 @@
 				"name": "Alexander Donald Gilchrist",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72099-1891a2ba-2b8b-427c-b32e-0d54c592aeaf.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Clive Lewis"
+			}
 		},
 		"2017": {
 			"first": "Lab",

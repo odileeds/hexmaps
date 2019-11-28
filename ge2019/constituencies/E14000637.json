@@ -18,7 +18,11 @@
 				"name": "James Fletcher Melling",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63726.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lindsay Hoyle"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -33,7 +33,11 @@
 				"name": "Graham Colley",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69530.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kelly Tolhurst"
+			}
 		},
 		"2017": {
 			"first": "Con",

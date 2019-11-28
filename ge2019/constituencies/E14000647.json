@@ -23,7 +23,11 @@
 				"name": "John Studholme",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69536.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Trudy Harrison"
+			}
 		},
 		"2017": {
 			"first": "Con",

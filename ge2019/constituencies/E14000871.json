@@ -38,7 +38,11 @@
 				"name": "Debbie Cole",
 				"party": "Proud of Oldham & Saddleworth",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jim McMahon"
+			}
 		},
 		"2017": {
 			"first": "Lab",

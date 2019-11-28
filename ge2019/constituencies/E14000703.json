@@ -18,7 +18,11 @@
 				"name": "Ross Semple Houston",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39462.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mike Freer"
+			}
 		},
 		"2017": {
 			"first": "Con",

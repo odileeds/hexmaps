@@ -28,7 +28,11 @@
 				"name": "Bill Blockhead",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Wera Hobhouse"
+			}
 		},
 		"2017": {
 			"first": "LD",

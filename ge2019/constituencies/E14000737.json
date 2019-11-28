@@ -33,7 +33,11 @@
 				"name": "Chika Amadi",
 				"party": "Christian Peoples Alliance",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72329-1b5f983a-ab9b-4fbe-8e8c-3e4baac9f8cf.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "John Martin McDonnell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

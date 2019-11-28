@@ -43,7 +43,11 @@
 				"name": "Abdul Hamid Turay",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "David Lammy"
+			}
 		},
 		"2017": {
 			"first": "Lab",

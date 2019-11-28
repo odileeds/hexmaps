@@ -28,7 +28,11 @@
 				"name": "Ashley Charles Joe Scott Ridley",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65455.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Tim Loughton"
+			}
 		},
 		"2017": {
 			"first": "Con",

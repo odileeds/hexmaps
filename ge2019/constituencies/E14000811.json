@@ -23,7 +23,11 @@
 				"name": "Malcolm Wallace",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72025-208997e5-dc33-4830-8f47-d35b486f4d0f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "George Hollingbery"
+			}
 		},
 		"2017": {
 			"first": "Con",

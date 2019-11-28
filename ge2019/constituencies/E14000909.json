@@ -33,7 +33,11 @@
 				"name": "Anthony Watchorn",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alan Duncan"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Dave Brennan",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Peter Aldous"
+			}
 		},
 		"2017": {
 			"first": "Con",

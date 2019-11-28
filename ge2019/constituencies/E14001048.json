@@ -28,7 +28,11 @@
 				"name": "Kizzi Johannessen",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18144.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Redwood"
+			}
 		},
 		"2017": {
 			"first": "Con",

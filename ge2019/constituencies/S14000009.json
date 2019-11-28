@@ -28,7 +28,11 @@
 				"name": "Cheryl Ann Mcdonald",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Jamie Stone"
+			}
 		},
 		"2017": {
 			"first": "LD",

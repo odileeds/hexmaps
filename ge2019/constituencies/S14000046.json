@@ -28,7 +28,11 @@
 				"name": "Rob Scorer",
 				"party": "UK Independence Party (UKIP)",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Douglas Ross"
+			}
 		},
 		"2017": {
 			"first": "Con",

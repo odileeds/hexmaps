@@ -28,7 +28,11 @@
 				"name": "Victor Robert Farrell",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72254-a2d4479f-c4ed-4587-b4d2-a5a31e51d864.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Peter Grant"
+			}
 		},
 		"2017": {
 			"first": "SNP",

@@ -28,7 +28,11 @@
 				"name": "Mark Popple",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71907.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Hayes"
+			}
 		},
 		"2017": {
 			"first": "Con",

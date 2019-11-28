@@ -23,7 +23,11 @@
 				"name": "Zaid Yaqoob Marham",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72577-70cb658a-4b23-44b6-a2da-bfcee53674c4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Howell"
+			}
 		},
 		"2017": {
 			"first": "Con",

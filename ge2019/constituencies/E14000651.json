@@ -33,7 +33,11 @@
 				"name": "Ed Manning",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72562-33b78734-44a4-40d7-beeb-aa3dfd234be9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jim Cunningham"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Colin Reed",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Neil Parish"
+			}
 		},
 		"2017": {
 			"first": "Con",

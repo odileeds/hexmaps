@@ -33,7 +33,11 @@
 				"name": "John Furness",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Phil Wilson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

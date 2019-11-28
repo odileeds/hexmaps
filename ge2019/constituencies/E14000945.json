@@ -23,7 +23,11 @@
 				"name": "Chris Fewtrell",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71920.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Gavin Williamson"
+			}
 		},
 		"2017": {
 			"first": "Con",

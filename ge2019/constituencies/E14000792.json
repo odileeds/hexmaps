@@ -38,7 +38,11 @@
 				"name": "Rob Bradley",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Karen Lee"
+			}
 		},
 		"2017": {
 			"first": "Lab",

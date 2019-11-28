@@ -23,7 +23,11 @@
 				"name": "Neil Robert Hipkiss",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72327-757bbcb5-4dcb-45e7-98b5-f2d31ed2a875.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Thangam Debbonaire"
+			}
 		},
 		"2017": {
 			"first": "Lab",

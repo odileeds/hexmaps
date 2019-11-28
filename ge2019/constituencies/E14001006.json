@@ -28,7 +28,11 @@
 				"name": "Ed Punchard",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72244-180a3091-d8e7-4f77-a65b-918a8ab1f52e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Alan Campbell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

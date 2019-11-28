@@ -28,7 +28,11 @@
 				"name": "Mark Frederick Glenn Griffin",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72298-124fcefa-4000-4d84-8a43-6d36467e35e4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Chi Onwurah"
+			}
 		},
 		"2017": {
 			"first": "Lab",

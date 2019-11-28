@@ -33,7 +33,11 @@
 				"name": "Dan Hutchison",
 				"party": "Scottish Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71801.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Stewart McDonald"
+			}
 		},
 		"2017": {
 			"first": "SNP",

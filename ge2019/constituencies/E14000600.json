@@ -23,7 +23,11 @@
 				"name": "Heather Mack",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10513.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Darren Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

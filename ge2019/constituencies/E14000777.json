@@ -33,7 +33,11 @@
 				"name": "Jack Holland",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71909.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Hilary Benn"
+			}
 		},
 		"2017": {
 			"first": "Lab",

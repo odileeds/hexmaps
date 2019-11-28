@@ -23,7 +23,11 @@
 				"name": "Alex Wagner",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71663.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jeremy Lefroy"
+			}
 		},
 		"2017": {
 			"first": "Con",

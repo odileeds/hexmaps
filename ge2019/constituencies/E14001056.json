@@ -38,7 +38,11 @@
 				"name": "Edmund John Gemmell",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Steven Baker"
+			}
 		},
 		"2017": {
 			"first": "Con",

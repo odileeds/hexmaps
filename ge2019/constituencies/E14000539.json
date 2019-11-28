@@ -23,7 +23,11 @@
 				"name": "Tim Bearder",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49227-86f75af6-9b95-4ede-bf5d-77119a0f44b2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Victoria Prentis"
+			}
 		},
 		"2017": {
 			"first": "Con",

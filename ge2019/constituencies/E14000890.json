@@ -23,7 +23,11 @@
 				"name": "Jamie Whitham",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35119.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alok Sharma"
+			}
 		},
 		"2017": {
 			"first": "Con",

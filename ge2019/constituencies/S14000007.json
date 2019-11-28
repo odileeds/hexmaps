@@ -23,7 +23,11 @@
 				"name": "Brian Robert Balcombe",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72400-6a3c882b-7090-4ee0-bda0-82d9a2c77601.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Duguid"
+			}
 		},
 		"2017": {
 			"first": "Con",

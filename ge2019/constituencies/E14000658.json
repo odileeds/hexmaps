@@ -33,7 +33,11 @@
 				"name": "Dave Mawson",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jenny Chapman"
+			}
 		},
 		"2017": {
 			"first": "Lab",

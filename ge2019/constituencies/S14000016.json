@@ -33,7 +33,11 @@
 				"name": "Tess White",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72281-8e88b544-c9f4-4219-97e2-5dc4649b6bf9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Chris Law"
+			}
 		},
 		"2017": {
 			"first": "SNP",

@@ -28,7 +28,11 @@
 				"name": "George Morton",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Stewart Hosie"
+			}
 		},
 		"2017": {
 			"first": "SNP",

@@ -23,7 +23,11 @@
 				"name": "Andrew Dunne",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60223.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Christopher Chope"
+			}
 		},
 		"2017": {
 			"first": "Con",

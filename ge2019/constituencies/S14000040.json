@@ -28,7 +28,11 @@
 				"name": "Edward John Thornley",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Alan Brown"
+			}
 		},
 		"2017": {
 			"first": "SNP",

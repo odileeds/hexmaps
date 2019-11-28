@@ -23,7 +23,11 @@
 				"name": "Stuart John Wells",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Vincent Cable"
+			}
 		},
 		"2017": {
 			"first": "LD",

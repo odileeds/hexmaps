@@ -38,7 +38,11 @@
 				"name": "Citizen Skwith",
 				"party": "Official Monster Raving Loony Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72123-78a9616d-3bc8-41d1-b2e2-adefe4a5b105.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Green",
+				"mp": "Caroline Lucas"
+			}
 		},
 		"2017": {
 			"first": "Green",

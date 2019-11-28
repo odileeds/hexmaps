@@ -28,7 +28,11 @@
 				"name": "Atifa Shah",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72269-1059b577-cc8e-4a46-9527-c35e15004dab.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Tony Lloyd"
+			}
 		},
 		"2017": {
 			"first": "Lab",

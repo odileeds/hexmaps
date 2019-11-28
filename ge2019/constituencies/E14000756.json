@@ -28,7 +28,11 @@
 				"name": "Ken Davy",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Barry Sheerman"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -38,7 +38,11 @@
 				"name": "Jon Cross",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Morris"
+			}
 		},
 		"2017": {
 			"first": "Con",

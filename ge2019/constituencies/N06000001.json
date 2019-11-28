@@ -18,7 +18,11 @@
 				"name": "Carl  McClean",
 				"party": "Ulster Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8156.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Gavin Robinson"
+			}
 		},
 		"2017": {
 			"first": "DUP",

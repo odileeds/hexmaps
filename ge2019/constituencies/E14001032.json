@@ -38,7 +38,11 @@
 				"name": "Emma Jane Stockdale",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lyn Brown"
+			}
 		},
 		"2017": {
 			"first": "Lab",

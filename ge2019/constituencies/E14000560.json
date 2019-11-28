@@ -28,7 +28,11 @@
 				"name": "David Jonathon Wilks",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72525-b41f7ac8-49e1-4217-87f6-99d8bea23d09.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Preet Kaur Gill"
+			}
 		},
 		"2017": {
 			"first": "Lab",

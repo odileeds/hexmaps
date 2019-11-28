@@ -28,7 +28,11 @@
 				"name": "Laura Walker",
 				"party": "Yorkshire Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59396.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Yvette Cooper"
+			}
 		},
 		"2017": {
 			"first": "Lab",

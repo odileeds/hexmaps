@@ -28,7 +28,11 @@
 				"name": "John Kennedy",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70478.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stephen Morgan"
+			}
 		},
 		"2017": {
 			"first": "Lab",

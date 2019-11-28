@@ -28,7 +28,11 @@
 				"name": "Jay Latham",
 				"party": "The Liberal Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Sheryll Murray"
+			}
 		},
 		"2017": {
 			"first": "Con",

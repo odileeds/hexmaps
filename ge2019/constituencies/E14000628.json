@@ -23,7 +23,11 @@
 				"name": "Mark Alan Lawrence",
 				"party": "Official Monster Raving Loony Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72188-92a5d727-9473-4e04-b69a-6ade2d7ddbe2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Vicky Ford"
+			}
 		},
 		"2017": {
 			"first": "Con",

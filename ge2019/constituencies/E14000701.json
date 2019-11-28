@@ -28,7 +28,11 @@
 				"name": "Martyn Nelson",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72541-f9f71681-0a3c-4c82-b08e-24723fab156f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Seema Malhotra"
+			}
 		},
 		"2017": {
 			"first": "Lab",

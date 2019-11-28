@@ -33,7 +33,11 @@
 				"name": "Dale McKenzie",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72487-428728c1-c0e1-4d09-90d5-9132d80189b8.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Julie Elliott"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Brahma Mohanty",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Michael Gove"
+			}
 		},
 		"2017": {
 			"first": "Con",

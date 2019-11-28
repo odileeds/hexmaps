@@ -33,7 +33,11 @@
 				"name": "John Barry Wright",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Christopher Pincher"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -18,7 +18,11 @@
 				"name": "John Wright",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Damien Moore"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -33,7 +33,11 @@
 				"name": "Andrew Elston",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nick Gibb"
+			}
 		},
 		"2017": {
 			"first": "Con",

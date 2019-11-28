@@ -23,7 +23,11 @@
 				"name": "Tom Chatwin",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72390-b880e839-c3d6-408a-a487-f0c94a0af83d.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Caroline Dinenage"
+			}
 		},
 		"2017": {
 			"first": "Con",

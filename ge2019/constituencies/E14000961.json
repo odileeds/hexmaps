@@ -33,7 +33,11 @@
 				"name": "Richard Byrne",
 				"party": "The Liberal Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Steve Double"
+			}
 		},
 		"2017": {
 			"first": "Con",

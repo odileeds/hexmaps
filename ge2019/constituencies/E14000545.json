@@ -28,7 +28,11 @@
 				"name": "Jonathan Edward Jenkin",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Maria Miller"
+			}
 		},
 		"2017": {
 			"first": "Con",

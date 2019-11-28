@@ -23,7 +23,11 @@
 				"name": "Andrea Watts",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34456_FjF43nQ.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Peter Bone"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Claire Ransom",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72141-ee198ac6-c767-403b-b619-825e72bc9fe8.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Caroline Nokes"
+			}
 		},
 		"2017": {
 			"first": "Con",

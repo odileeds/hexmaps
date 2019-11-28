@@ -28,7 +28,11 @@
 				"name": "Kanwal Toor Gill",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71626.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Tanmanjeet Singh Dhesi"
+			}
 		},
 		"2017": {
 			"first": "Lab",

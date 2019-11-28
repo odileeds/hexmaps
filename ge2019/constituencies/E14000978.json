@@ -28,7 +28,11 @@
 				"name": "Penelope Margaret Kimpton Becker",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Chuka Umunna"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Lee Thomas Montague-Trenchard",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Ann Coffey"
+			}
 		},
 		"2017": {
 			"first": "Lab",

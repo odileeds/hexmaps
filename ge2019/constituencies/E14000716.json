@@ -33,7 +33,11 @@
 				"name": "Nigel James Winn",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Melanie Onn"
+			}
 		},
 		"2017": {
 			"first": "Lab",

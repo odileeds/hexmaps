@@ -28,7 +28,11 @@
 				"name": "Joseph Green",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Richard Drax"
+			}
 		},
 		"2017": {
 			"first": "Con",

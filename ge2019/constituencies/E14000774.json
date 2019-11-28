@@ -28,7 +28,11 @@
 				"name": "Angelika Cowell",
 				"party": "Animal Welfare Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72177-cb534d89-5c08-4091-a925-fcef97c110ae.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Chris Skidmore"
+			}
 		},
 		"2017": {
 			"first": "Con",

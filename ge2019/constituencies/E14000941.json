@@ -23,7 +23,11 @@
 				"name": "Beth Jones",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Richard Bacon"
+			}
 		},
 		"2017": {
 			"first": "Con",

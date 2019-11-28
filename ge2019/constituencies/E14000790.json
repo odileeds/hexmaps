@@ -33,7 +33,11 @@
 				"name": "Henry Scott",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72232-6494941e-08d5-46ed-86af-25d747a3123d.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "John Cryer"
+			}
 		},
 		"2017": {
 			"first": "Lab",

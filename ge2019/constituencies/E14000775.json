@@ -33,7 +33,11 @@
 				"name": "Tim McCullough",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71923-888d5576-630d-4958-9f64-4873f7f34444.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "George Howarth"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -33,7 +33,11 @@
 				"name": "David Barnard",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72108-dada7032-2c2b-4e00-ba4c-22abf5a4946c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Alistair Carmichael"
+			}
 		},
 		"2017": {
 			"first": "LD",

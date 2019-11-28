@@ -28,7 +28,11 @@
 				"name": "Cath Sutherland",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72539-50aedddf-5669-44f1-a516-08f62a799ab1.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lilian Greenwood"
+			}
 		},
 		"2017": {
 			"first": "Lab",

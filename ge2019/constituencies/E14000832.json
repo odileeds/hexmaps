@@ -23,7 +23,11 @@
 				"name": "Nick Hartley",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38029-5d263fc3-0d82-4ea8-b95b-2b692ed85172.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Nick Brown"
+			}
 		},
 		"2017": {
 			"first": "Lab",

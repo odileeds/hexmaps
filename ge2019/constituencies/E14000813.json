@@ -33,7 +33,11 @@
 				"name": "Rachel McGann",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71910-eb923d10-2965-4392-b83c-3ab560123581.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nadine Dorries"
+			}
 		},
 		"2017": {
 			"first": "Con",

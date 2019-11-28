@@ -28,7 +28,11 @@
 				"name": "Steve Kelleher",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71431.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Clive Efford"
+			}
 		},
 		"2017": {
 			"first": "Lab",

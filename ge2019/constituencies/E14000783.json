@@ -28,7 +28,11 @@
 				"name": "James Dalgliesh Potter",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72291-ecddcc31-a913-4eef-9067-d7a1fa1aa93b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jon Ashworth"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Michele Middleditch",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kevin Foster"
+			}
 		},
 		"2017": {
 			"first": "Con",

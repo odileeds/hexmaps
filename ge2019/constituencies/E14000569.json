@@ -23,7 +23,11 @@
 				"name": "Nick Brown",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71308.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Helen Goodman"
+			}
 		},
 		"2017": {
 			"first": "Lab",

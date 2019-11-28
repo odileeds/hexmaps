@@ -33,7 +33,11 @@
 				"name": "Tom Varghese",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72213-09c0747a-f458-47a8-955c-e9c4c95094f9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jonathan Djanogly"
+			}
 		},
 		"2017": {
 			"first": "Con",

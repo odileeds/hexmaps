@@ -28,7 +28,11 @@
 				"name": "Tom Davies",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70652.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Jane Dodds"
+			}
 		},
 		"2017": {
 			"first": "Con",

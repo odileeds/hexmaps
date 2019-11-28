@@ -28,7 +28,11 @@
 				"name": "Susannah Louise De Sanvil",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Damian Green"
+			}
 		},
 		"2017": {
 			"first": "Con",

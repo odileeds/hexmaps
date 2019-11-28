@@ -28,7 +28,11 @@
 				"name": "Cherilyn Mackrory",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71932.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Sarah Newton"
+			}
 		},
 		"2017": {
 			"first": "Con",

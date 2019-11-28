@@ -23,7 +23,11 @@
 				"name": "Joanne Oldale",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60393-ccd49415-cc35-4037-8af7-7976ccc0cf01.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Michael Tomlinson"
+			}
 		},
 		"2017": {
 			"first": "Con",

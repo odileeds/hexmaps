@@ -33,7 +33,11 @@
 				"name": "Stuart Robert Mccutcheon",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrea Leadsom"
+			}
 		},
 		"2017": {
 			"first": "Con",

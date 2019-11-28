@@ -23,7 +23,11 @@
 				"name": "Mary Elaine Cavill",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Edward Leigh"
+			}
 		},
 		"2017": {
 			"first": "Con",

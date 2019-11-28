@@ -43,7 +43,11 @@
 				"name": "Scott Holman",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71983.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Edward Davey"
+			}
 		},
 		"2017": {
 			"first": "LD",

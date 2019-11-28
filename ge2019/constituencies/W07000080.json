@@ -33,7 +33,11 @@
 				"name": "Philippa Ann Broom",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stephen Doughty"
+			}
 		},
 		"2017": {
 			"first": "Lab",

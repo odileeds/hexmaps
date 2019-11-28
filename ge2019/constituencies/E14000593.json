@@ -28,7 +28,11 @@
 				"name": "Lucy O'Sullivan",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71869.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ruth Cadbury"
+			}
 		},
 		"2017": {
 			"first": "Lab",

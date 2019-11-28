@@ -33,7 +33,11 @@
 				"name": "David Brown",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71309-16a1765a-291f-4ae0-b93b-4012b9d79d3a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Gordon Marsden"
+			}
 		},
 		"2017": {
 			"first": "Lab",

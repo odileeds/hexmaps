@@ -28,7 +28,11 @@
 				"name": "Peter Dain",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71706.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Chris Ruane"
+			}
 		},
 		"2017": {
 			"first": "Lab",

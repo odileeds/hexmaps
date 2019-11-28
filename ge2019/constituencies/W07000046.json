@@ -28,7 +28,11 @@
 				"name": "Rob Ross",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Tonia Antoniazzi"
+			}
 		},
 		"2017": {
 			"first": "Lab",

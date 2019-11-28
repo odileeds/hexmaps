@@ -28,7 +28,11 @@
 				"name": "Narinder Singh Sekhon",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Judith Cummins"
+			}
 		},
 		"2017": {
 			"first": "Lab",

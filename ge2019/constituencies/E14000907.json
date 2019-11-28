@@ -38,7 +38,11 @@
 				"name": "Lorna Rowland",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71607.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Philip Hammond"
+			}
 		},
 		"2017": {
 			"first": "Con",

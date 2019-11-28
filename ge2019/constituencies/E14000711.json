@@ -38,7 +38,11 @@
 				"name": "Peter Cook",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72527-16a26ef3-8f66-4832-8eb8-60500ce669db.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Rehman Chishti"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Ike Ijeh",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72578-3f18b13a-ca25-405c-9fc7-801d58f83767.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Joan Ryan"
+			}
 		},
 		"2017": {
 			"first": "Lab",

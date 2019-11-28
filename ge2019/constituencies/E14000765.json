@@ -43,7 +43,11 @@
 				"name": "Shaun William Sadler",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stephen Hepburn"
+			}
 		},
 		"2017": {
 			"first": "Lab",

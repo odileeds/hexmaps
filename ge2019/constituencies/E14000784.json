@@ -28,7 +28,11 @@
 				"name": "Anika Goddard",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Liz Kendall"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -28,7 +28,11 @@
 				"name": "Chris McHugh",
 				"party": "Aontú",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Emma Little Pengelly"
+			}
 		},
 		"2017": {
 			"first": "DUP",

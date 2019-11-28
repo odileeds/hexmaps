@@ -23,7 +23,11 @@
 				"name": "Andrew Bowie",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34501.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Bowie"
+			}
 		},
 		"2017": {
 			"first": "Con",

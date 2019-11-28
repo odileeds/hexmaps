@@ -38,7 +38,11 @@
 				"name": "Hassan Zulkifal",
 				"party": "Workers Revolutionary Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Virendra Sharma"
+			}
 		},
 		"2017": {
 			"first": "Lab",

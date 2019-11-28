@@ -33,7 +33,11 @@
 				"name": "Christopher John Charles Howarth",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72176-f21d6a06-869f-4086-ad1a-9e460103cda2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Bridget Phillipson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

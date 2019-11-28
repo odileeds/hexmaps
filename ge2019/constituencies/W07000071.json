@@ -33,7 +33,11 @@
 				"name": "Colin David Jones",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Gerald Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

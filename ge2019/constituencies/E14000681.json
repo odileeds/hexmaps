@@ -33,7 +33,11 @@
 				"name": "Claire Coryl Julia Coutinho",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72297-40234152-6dce-4fa1-afb7-c93efe8cfa38.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Sam Gyimah"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Michael James Gould",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72334-75e7fbad-1cf4-4193-bd0f-e69cd1660d15.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Rosie Duffield"
+			}
 		},
 		"2017": {
 			"first": "Lab",

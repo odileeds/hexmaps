@@ -28,7 +28,11 @@
 				"name": "Barry Harding-Rathbone",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72499-4749d1d8-411d-473c-a2c8-f124484ce94f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Robert Syms"
+			}
 		},
 		"2017": {
 			"first": "Con",

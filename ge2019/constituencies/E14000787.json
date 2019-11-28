@@ -48,7 +48,11 @@
 				"name": "Wesley Derek Bruce Pollard",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Janet Daby"
+			}
 		},
 		"2017": {
 			"first": "Lab",

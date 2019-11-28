@@ -28,7 +28,11 @@
 				"name": "Louise Thistlethwaite",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71507.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Cat Smith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -38,7 +38,11 @@
 				"name": "Just-John Sexton",
 				"party": "Official Monster Raving Loony Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Giles Watling"
+			}
 		},
 		"2017": {
 			"first": "Con",

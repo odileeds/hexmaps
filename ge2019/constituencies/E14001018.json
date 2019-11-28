@@ -28,7 +28,11 @@
 				"name": "Andy Carter",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71718.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Faisal Rashid"
+			}
 		},
 		"2017": {
 			"first": "Lab",

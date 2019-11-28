@@ -33,7 +33,11 @@
 				"name": "Kate Needham",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72503-01c79ea2-e994-4184-a9ec-2b199984173f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Caroline Flint"
+			}
 		},
 		"2017": {
 			"first": "Lab",

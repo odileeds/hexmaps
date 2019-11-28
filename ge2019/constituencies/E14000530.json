@@ -23,7 +23,11 @@
 				"name": "Donna Wallace",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46197-f0273bef-cf5a-4f8d-8d83-797e57efcea2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Leo Docherty"
+			}
 		},
 		"2017": {
 			"first": "Con",

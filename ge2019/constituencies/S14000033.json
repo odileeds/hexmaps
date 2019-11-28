@@ -23,7 +23,11 @@
 				"name": "Ade Aibinu",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Carol Monaghan"
+			}
 		},
 		"2017": {
 			"first": "SNP",

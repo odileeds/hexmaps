@@ -28,7 +28,11 @@
 				"name": "Farès K Moussa",
 				"party": "The Liberal Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72296-e9bdcd87-48f2-4be1-8358-2d5d5e928256.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Ian Liddell-Grainger"
+			}
 		},
 		"2017": {
 			"first": "Con",

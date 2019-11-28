@@ -28,7 +28,11 @@
 				"name": "James Baker",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72089.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Angela Eagle"
+			}
 		},
 		"2017": {
 			"first": "Lab",

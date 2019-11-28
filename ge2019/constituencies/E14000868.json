@@ -23,7 +23,11 @@
 				"name": "Zoe Mayou",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71575.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Marcus Jones"
+			}
 		},
 		"2017": {
 			"first": "Con",

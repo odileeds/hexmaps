@@ -23,7 +23,11 @@
 				"name": "Haroun Malik",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72346-e74c110b-932f-42aa-a4bd-5cb681f1b65e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Ronnie Cowan"
+			}
 		},
 		"2017": {
 			"first": "SNP",

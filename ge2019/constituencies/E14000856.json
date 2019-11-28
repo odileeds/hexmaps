@@ -38,7 +38,11 @@
 				"name": "John Wolstenholme",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72633-4063ce8c-47be-47af-8ed4-279b2aa668dd.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Laura Pidcock"
+			}
 		},
 		"2017": {
 			"first": "Lab",

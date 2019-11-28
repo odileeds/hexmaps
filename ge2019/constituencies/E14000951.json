@@ -28,7 +28,11 @@
 				"name": "Sally Symington",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20334.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "David Gauke"
+			}
 		},
 		"2017": {
 			"first": "Con",

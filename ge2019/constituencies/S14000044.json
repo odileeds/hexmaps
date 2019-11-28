@@ -28,7 +28,11 @@
 				"name": "Caitlin Kane",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71918.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Hannah Bardell"
+			}
 		},
 		"2017": {
 			"first": "SNP",

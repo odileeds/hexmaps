@@ -38,7 +38,11 @@
 				"name": "Anne Marie Killett",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72242-6606e28a-a397-4caa-8250-7fa518c55fe5.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Brandon Lewis"
+			}
 		},
 		"2017": {
 			"first": "Con",

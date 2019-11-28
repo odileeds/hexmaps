@@ -23,7 +23,11 @@
 				"name": "Phillip Howells",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60650.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bill Wiggin"
+			}
 		},
 		"2017": {
 			"first": "Con",

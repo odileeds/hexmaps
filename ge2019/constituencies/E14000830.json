@@ -28,7 +28,11 @@
 				"name": "Ben Holden-Crowther",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72573-02b645c4-5472-420a-8499-c1f44416063c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Richard Benyon"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -33,7 +33,11 @@
 				"name": "Conor Rafferty",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SF",
+				"mp": "Francie Molloy"
+			}
 		},
 		"2017": {
 			"first": "SF",

@@ -23,7 +23,11 @@
 				"name": "Rebecca Trimnell",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71455.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Richard Graham"
+			}
 		},
 		"2017": {
 			"first": "Con",

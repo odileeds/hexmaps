@@ -43,7 +43,11 @@
 				"name": "Jane Elizabeth Robins",
 				"party": "Social Democratic Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72136-bb8d6907-9e89-4e73-906b-e137c6e203b1.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Daniel Zeichner"
+			}
 		},
 		"2017": {
 			"first": "Lab",

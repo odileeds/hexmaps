@@ -23,7 +23,11 @@
 				"name": "P J O'Gorman",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "George Freeman"
+			}
 		},
 		"2017": {
 			"first": "Con",

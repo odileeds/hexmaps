@@ -23,7 +23,11 @@
 				"name": "David Linden",
 				"party": "Scottish National Party (SNP)",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34515.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "David Linden"
+			}
 		},
 		"2017": {
 			"first": "SNP",

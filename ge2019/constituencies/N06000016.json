@@ -43,7 +43,11 @@
 				"name": "Grant Abraham",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Jim Shannon"
+			}
 		},
 		"2017": {
 			"first": "DUP",

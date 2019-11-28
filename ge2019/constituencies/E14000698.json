@@ -33,7 +33,11 @@
 				"name": "Leslie David Willis",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ben Bradshaw"
+			}
 		},
 		"2017": {
 			"first": "Lab",

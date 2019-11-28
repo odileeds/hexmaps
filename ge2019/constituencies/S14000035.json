@@ -28,7 +28,11 @@
 				"name": "Peter Brown",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Chris Stephens"
+			}
 		},
 		"2017": {
 			"first": "SNP",

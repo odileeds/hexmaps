@@ -23,7 +23,11 @@
 				"name": "James Weinberg",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Esther McVey"
+			}
 		},
 		"2017": {
 			"first": "Con",

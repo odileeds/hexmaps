@@ -23,7 +23,11 @@
 				"name": "Sarah Elizabeth Hall",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jake Berry"
+			}
 		},
 		"2017": {
 			"first": "Con",

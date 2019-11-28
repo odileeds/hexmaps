@@ -23,7 +23,11 @@
 				"name": "Hina Bokhari",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47398.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Paul Scully"
+			}
 		},
 		"2017": {
 			"first": "Con",

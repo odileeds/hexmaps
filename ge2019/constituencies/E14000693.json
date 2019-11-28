@@ -33,7 +33,11 @@
 				"name": "Jon Newham",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Eleanor Laing"
+			}
 		},
 		"2017": {
 			"first": "Con",

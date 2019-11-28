@@ -33,7 +33,11 @@
 				"name": "Peter Connolly",
 				"party": "Scottish Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72502-8f01602b-31bf-4b6a-8fc0-fe780e88d92e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Martin Docherty"
+			}
 		},
 		"2017": {
 			"first": "SNP",

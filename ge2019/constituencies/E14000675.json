@@ -23,7 +23,11 @@
 				"name": "Anthony Pickles",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71922.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Steve Pound"
+			}
 		},
 		"2017": {
 			"first": "Lab",

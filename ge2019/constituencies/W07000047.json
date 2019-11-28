@@ -28,7 +28,11 @@
 				"name": "James Price",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Geraint Davies"
+			}
 		},
 		"2017": {
 			"first": "Lab",

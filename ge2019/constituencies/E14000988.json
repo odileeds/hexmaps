@@ -23,7 +23,11 @@
 				"name": "Gideon Amos",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35085.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Rebecca Pow"
+			}
 		},
 		"2017": {
 			"first": "Con",

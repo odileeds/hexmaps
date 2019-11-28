@@ -28,7 +28,11 @@
 				"name": "David Stevens",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Hugh Gaffney"
+			}
 		},
 		"2017": {
 			"first": "Lab",

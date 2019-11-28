@@ -23,7 +23,11 @@
 				"name": "Heather Herbert",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Colin Clark"
+			}
 		},
 		"2017": {
 			"first": "Con",

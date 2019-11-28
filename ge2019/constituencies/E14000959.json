@@ -23,7 +23,11 @@
 				"name": "David Campanale",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71658.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kwasi Kwarteng"
+			}
 		},
 		"2017": {
 			"first": "Con",

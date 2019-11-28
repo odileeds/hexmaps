@@ -23,7 +23,11 @@
 				"name": "Chloe-Jane Ross",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47808.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bob Stewart"
+			}
 		},
 		"2017": {
 			"first": "Con",

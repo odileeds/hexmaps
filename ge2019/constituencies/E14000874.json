@@ -23,7 +23,11 @@
 				"name": "Rosie Sourbut",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72401-9e0b3e4f-3749-4eff-bd11-b86082ed7263.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Layla Moran"
+			}
 		},
 		"2017": {
 			"first": "LD",

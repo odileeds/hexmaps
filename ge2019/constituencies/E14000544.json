@@ -28,7 +28,11 @@
 				"name": "Simon Breedon",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Baron"
+			}
 		},
 		"2017": {
 			"first": "Con",

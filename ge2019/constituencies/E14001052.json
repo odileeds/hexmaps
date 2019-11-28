@@ -28,7 +28,11 @@
 				"name": "Martin Julian Keith Potter",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72632-75110c4d-04dc-4966-b2cf-4c62cc4dd392.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Robin Walker"
+			}
 		},
 		"2017": {
 			"first": "Con",

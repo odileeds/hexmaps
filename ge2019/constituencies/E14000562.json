@@ -33,7 +33,11 @@
 				"name": "Penny-Anne O'Donnell",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Roger Godsiff"
+			}
 		},
 		"2017": {
 			"first": "Lab",

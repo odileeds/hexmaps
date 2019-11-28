@@ -38,7 +38,11 @@
 				"name": "Richard Shaw",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Maggie Throup"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Adam John Thomas Waller-Slack",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72623-0e4a9de8-283d-4e6d-8a5d-3c08bf03e799.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Graham Jones"
+			}
 		},
 		"2017": {
 			"first": "Lab",

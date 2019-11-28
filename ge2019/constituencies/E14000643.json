@@ -23,7 +23,11 @@
 				"name": "Jodi Shanahan",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71914-063dbba5-3e46-477a-8ec8-864b6988b438.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Martin Vickers"
+			}
 		},
 		"2017": {
 			"first": "Con",

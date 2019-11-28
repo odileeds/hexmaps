@@ -23,7 +23,11 @@
 				"name": "Tomos Dafydd Davies",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34666.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "PC",
+				"mp": "Liz Saville-Roberts"
+			}
 		},
 		"2017": {
 			"first": "PC",

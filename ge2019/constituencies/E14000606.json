@@ -23,7 +23,11 @@
 				"name": "Julia Bird",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71336.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Charles Walker"
+			}
 		},
 		"2017": {
 			"first": "Con",

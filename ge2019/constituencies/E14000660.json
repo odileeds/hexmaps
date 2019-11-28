@@ -23,7 +23,11 @@
 				"name": "Clare Slater",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71394-4db1d038-bba1-4acd-95c9-8e58e5f1587e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Chris Heaton-Harris"
+			}
 		},
 		"2017": {
 			"first": "Con",

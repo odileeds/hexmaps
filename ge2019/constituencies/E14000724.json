@@ -28,7 +28,11 @@
 				"name": "Richard Honnoraty",
 				"party": "Yorkshire Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70280-8fde66ed-5e9d-4ff1-95bd-9fe52a1e1ecf.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Davis"
+			}
 		},
 		"2017": {
 			"first": "Con",

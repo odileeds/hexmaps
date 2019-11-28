@@ -28,7 +28,11 @@
 				"name": "Geoff Wilkinson",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72205-8684c706-ce97-4bfc-abcb-505edec7f617.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Tracey Crouch"
+			}
 		},
 		"2017": {
 			"first": "Con",

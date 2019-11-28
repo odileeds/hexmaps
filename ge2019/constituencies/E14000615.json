@@ -33,7 +33,11 @@
 				"name": "Peter James Quentin",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Harriet Harman"
+			}
 		},
 		"2017": {
 			"first": "Lab",

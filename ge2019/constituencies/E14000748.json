@@ -28,7 +28,11 @@
 				"name": "Alan Graves Jnr",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67604.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ruth George"
+			}
 		},
 		"2017": {
 			"first": "Lab",

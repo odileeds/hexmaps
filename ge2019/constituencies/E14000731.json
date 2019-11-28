@@ -18,7 +18,11 @@
 				"name": "Pamela Fitzpatrick",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48028.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bob Blackman"
+			}
 		},
 		"2017": {
 			"first": "Con",

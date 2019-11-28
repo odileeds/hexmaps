@@ -23,7 +23,11 @@
 				"name": "Paris Hayes",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72069.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Chris Green"
+			}
 		},
 		"2017": {
 			"first": "Con",

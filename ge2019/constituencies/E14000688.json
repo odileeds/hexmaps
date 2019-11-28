@@ -28,7 +28,11 @@
 				"name": "Christopher Andrew Stevens",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72637-7be12386-bb0f-405b-b4b8-906ea20ea5b9.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Justin Madders"
+			}
 		},
 		"2017": {
 			"first": "Lab",

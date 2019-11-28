@@ -38,7 +38,11 @@
 				"name": "Paul David Lomas",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Bill Esterson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

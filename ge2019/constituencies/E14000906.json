@@ -38,7 +38,11 @@
 				"name": "Julian John Fitzwilliam Wilson",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72476-a1fcbfb6-0bd8-47ef-b1ac-bec95f20c60c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nick Hurd"
+			}
 		},
 		"2017": {
 			"first": "Con",

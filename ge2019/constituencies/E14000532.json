@@ -33,7 +33,11 @@
 				"name": "Iram Kiani",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72522-632c6fc9-dde5-471c-9600-f40fcc7ec365.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Graham Brady"
+			}
 		},
 		"2017": {
 			"first": "Con",

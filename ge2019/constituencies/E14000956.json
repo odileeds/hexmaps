@@ -33,7 +33,11 @@
 				"name": "Kev Barry",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Alan Whitehead"
+			}
 		},
 		"2017": {
 			"first": "Lab",

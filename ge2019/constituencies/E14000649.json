@@ -28,7 +28,11 @@
 				"name": "Iddrisu Sufyan",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71385.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Colleen Fletcher"
+			}
 		},
 		"2017": {
 			"first": "Lab",

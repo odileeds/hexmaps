@@ -33,7 +33,11 @@
 				"name": "Akheil Mehboob",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Valerie Vaz"
+			}
 		},
 		"2017": {
 			"first": "Lab",

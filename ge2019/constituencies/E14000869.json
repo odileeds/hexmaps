@@ -28,7 +28,11 @@
 				"name": "Carol Margaret Valinejad",
 				"party": "Christian Peoples Alliance",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Brokenshire"
+			}
 		},
 		"2017": {
 			"first": "Con",

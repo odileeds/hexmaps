@@ -23,7 +23,11 @@
 				"name": "Harry Sebastian Gwynne",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71893.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "LD",
+				"mp": "Norman Lamb"
+			}
 		},
 		"2017": {
 			"first": "LD",

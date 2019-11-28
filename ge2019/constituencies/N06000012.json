@@ -33,7 +33,11 @@
 				"name": "Cara McShane",
 				"party": "Sinn Féin",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34536.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Ian Paisley Jnr"
+			}
 		},
 		"2017": {
 			"first": "DUP",

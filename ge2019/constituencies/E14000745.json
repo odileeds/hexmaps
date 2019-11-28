@@ -23,7 +23,11 @@
 				"name": "John Humphries",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Oliver Dowden"
+			}
 		},
 		"2017": {
 			"first": "Con",

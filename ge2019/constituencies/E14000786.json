@@ -28,7 +28,11 @@
 				"name": "Paul Cragg",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Maria Caulfield"
+			}
 		},
 		"2017": {
 			"first": "Con",

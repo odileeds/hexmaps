@@ -23,7 +23,11 @@
 				"name": "Michael McGetrick",
 				"party": "Social Democratic Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72453-ad364920-5079-485a-abbc-902435a0634e.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Richard Harrington"
+			}
 		},
 		"2017": {
 			"first": "Con",

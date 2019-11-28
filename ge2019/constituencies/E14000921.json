@@ -33,7 +33,11 @@
 				"name": "Hannah Juliette Westropp",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72148-a2d76588-f469-4ea0-a2bd-0f93d0f45ad6.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Gill Furniss"
+			}
 		},
 		"2017": {
 			"first": "Lab",

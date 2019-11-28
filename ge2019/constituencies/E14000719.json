@@ -28,7 +28,11 @@
 				"name": "Angela Joy Richardson",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67024.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Anne Milton"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -33,7 +33,11 @@
 				"name": "Sir Archibald Earl 'Eaton Stanton",
 				"party": "Official Monster Raving Loony Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72266-830af731-a1dc-4f43-972f-ce3ab2cedde2.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Paula Sherriff"
+			}
 		},
 		"2017": {
 			"first": "Lab",

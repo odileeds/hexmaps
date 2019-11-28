@@ -38,7 +38,11 @@
 				"name": "Thomas Scripps",
 				"party": "Socialist Equality Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Keir Starmer"
+			}
 		},
 		"2017": {
 			"first": "Lab",

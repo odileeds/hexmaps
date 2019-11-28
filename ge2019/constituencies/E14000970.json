@@ -28,7 +28,11 @@
 				"name": "Martin Andrew Walker",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71670.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Alex Cunningham"
+			}
 		},
 		"2017": {
 			"first": "Lab",

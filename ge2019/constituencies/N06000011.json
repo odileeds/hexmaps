@@ -33,7 +33,11 @@
 				"name": "Martin Kelly",
 				"party": "Aontú",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68335.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SF",
+				"mp": "Mickey Brady"
+			}
 		},
 		"2017": {
 			"first": "SF",

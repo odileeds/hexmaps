@@ -33,7 +33,11 @@
 				"name": "Sachin Sehgal",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72590-122afbef-98e9-4316-b1d5-0f3326fcc0f4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kate Osamor"
+			}
 		},
 		"2017": {
 			"first": "Lab",

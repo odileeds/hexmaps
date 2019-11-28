@@ -28,7 +28,11 @@
 				"name": "Janet Barbara Balfe",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Derek Twigg"
+			}
 		},
 		"2017": {
 			"first": "Lab",

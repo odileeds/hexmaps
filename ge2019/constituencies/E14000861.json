@@ -23,7 +23,11 @@
 				"name": "Katherine Anne Pate",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72521-409ee4fc-6493-443a-a2fc-8e171926280c.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Michael Ellis"
+			}
 		},
 		"2017": {
 			"first": "Con",

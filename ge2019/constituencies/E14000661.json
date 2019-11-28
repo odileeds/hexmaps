@@ -33,7 +33,11 @@
 				"name": "Iain James Bott",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38747.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Andrew Gwynne"
+			}
 		},
 		"2017": {
 			"first": "Lab",

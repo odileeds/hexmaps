@@ -23,7 +23,11 @@
 				"name": "Penny Grennan",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31524.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Guy Opperman"
+			}
 		},
 		"2017": {
 			"first": "Con",

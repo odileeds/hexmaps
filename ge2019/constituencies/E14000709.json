@@ -23,7 +23,11 @@
 				"name": "Jane MacBean",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72490-27504579-ce71-4416-9bea-919bf7180e00.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Ian Mearns"
+			}
 		},
 		"2017": {
 			"first": "Lab",

@@ -33,7 +33,11 @@
 				"name": "Adam Gregory Brown",
 				"party": "Libertarian Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Gillian Keegan"
+			}
 		},
 		"2017": {
 			"first": "Con",

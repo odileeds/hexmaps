@@ -28,7 +28,11 @@
 				"name": "Steve Gee",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34703.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Chris Grayling"
+			}
 		},
 		"2017": {
 			"first": "Con",

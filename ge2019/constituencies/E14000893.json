@@ -28,7 +28,11 @@
 				"name": "Julia Florence Searle",
 				"party": "UK Independence Party (UKIP)",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Crispin Blunt"
+			}
 		},
 		"2017": {
 			"first": "Con",

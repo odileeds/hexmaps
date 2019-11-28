@@ -33,7 +33,11 @@
 				"name": "Geraint Havard",
 				"party": "Plaid Cymru - The Party of Wales",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71814.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Carolyn Harris"
+			}
 		},
 		"2017": {
 			"first": "Lab",

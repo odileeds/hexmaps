@@ -28,7 +28,11 @@
 				"name": "Steven James Pritchard",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Gareth Snell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

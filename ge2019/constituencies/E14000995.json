@@ -28,7 +28,11 @@
 				"name": "James Peter Woollard",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jackie Doyle-Price"
+			}
 		},
 		"2017": {
 			"first": "Con",

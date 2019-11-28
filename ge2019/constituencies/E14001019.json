@@ -38,7 +38,11 @@
 				"name": "Tim Griffiths",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72140-784a21a7-83af-4f3c-8fe8-a049b7447f88.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Matt Western"
+			}
 		},
 		"2017": {
 			"first": "Lab",

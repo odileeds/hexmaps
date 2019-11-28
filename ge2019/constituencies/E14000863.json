@@ -28,7 +28,11 @@
 				"name": "David Moreland",
 				"party": "UK Independence Party (UKIP)",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24098.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Chloe Smith"
+			}
 		},
 		"2017": {
 			"first": "Con",

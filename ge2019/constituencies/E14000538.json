@@ -23,7 +23,11 @@
 				"name": "Rob Butler",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Lidington"
+			}
 		},
 		"2017": {
 			"first": "Con",

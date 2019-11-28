@@ -18,7 +18,11 @@
 				"name": "Sarah Church",
 				"party": "Labour and Co-operative Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25753.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Robert Buckland"
+			}
 		},
 		"2017": {
 			"first": "Con",

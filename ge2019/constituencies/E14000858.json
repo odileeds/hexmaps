@@ -33,7 +33,11 @@
 				"name": "Edward Robert Nudd",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Bridgen"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Jenny Marr",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71293.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Lamont"
+			}
 		},
 		"2017": {
 			"first": "Con",

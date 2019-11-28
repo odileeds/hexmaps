@@ -23,7 +23,11 @@
 				"name": "Gwyn Wigley Evans",
 				"party": "Gwlad Gwlad",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Glyn Davies"
+			}
 		},
 		"2017": {
 			"first": "Con",

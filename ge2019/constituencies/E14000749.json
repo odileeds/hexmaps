@@ -28,7 +28,11 @@
 				"name": "Kay Frances Tart",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62072.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bim Afolami"
+			}
 		},
 		"2017": {
 			"first": "Con",

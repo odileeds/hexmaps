@@ -23,7 +23,11 @@
 				"name": "Cate Mohr",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mike Wood"
+			}
 		},
 		"2017": {
 			"first": "Con",

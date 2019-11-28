@@ -23,7 +23,11 @@
 				"name": "Mary Roberts",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71747.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "",
+				"mp": ""
+			}
 		},
 		"2017": {
 			"first": "Lab",

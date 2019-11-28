@@ -28,7 +28,11 @@
 				"name": "Julie Hope",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Julian Lewis"
+			}
 		},
 		"2017": {
 			"first": "Con",

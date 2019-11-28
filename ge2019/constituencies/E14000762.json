@@ -33,7 +33,11 @@
 				"name": "Carl Feeney",
 				"party": "Independent Network",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71982.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bob Seely"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Neil Puttick",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34463_jSIi0AC.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Rutley"
+			}
 		},
 		"2017": {
 			"first": "Con",

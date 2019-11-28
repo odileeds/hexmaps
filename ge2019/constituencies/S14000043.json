@@ -38,7 +38,11 @@
 				"name": "Mark Andrew Tunnicliff",
 				"party": "Veterans and People’s Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72080.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Martyn Day"
+			}
 		},
 		"2017": {
 			"first": "SNP",

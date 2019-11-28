@@ -18,7 +18,11 @@
 				"name": "Tom Morrison",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34655.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mary Robinson"
+			}
 		},
 		"2017": {
 			"first": "Con",

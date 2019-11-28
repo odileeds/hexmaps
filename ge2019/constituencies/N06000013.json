@@ -23,7 +23,11 @@
 				"name": "Matthew Robinson",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Sylvia Hermon"
+			}
 		},
 		"2017": {
 			"first": "Ind",

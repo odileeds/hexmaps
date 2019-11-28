@@ -33,7 +33,11 @@
 				"name": "Rizwan Ali Shah",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kate Hollern"
+			}
 		},
 		"2017": {
 			"first": "Lab",

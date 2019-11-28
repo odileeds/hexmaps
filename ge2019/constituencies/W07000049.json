@@ -38,7 +38,11 @@
 				"name": "Charlotte Lang",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72095.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Stephen Kinnock"
+			}
 		},
 		"2017": {
 			"first": "Lab",

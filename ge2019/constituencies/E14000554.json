@@ -23,7 +23,11 @@
 				"name": "Trish Williams",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72305-d503c612-47e4-4943-8ced-eb54fa50a8b3.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Anne-Marie Trevelyan"
+			}
 		},
 		"2017": {
 			"first": "Con",

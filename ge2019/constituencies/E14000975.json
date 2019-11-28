@@ -23,7 +23,11 @@
 				"name": "Tom Adamson",
 				"party": "Green Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Bill Cash"
+			}
 		},
 		"2017": {
 			"first": "Con",

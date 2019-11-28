@@ -28,7 +28,11 @@
 				"name": "Jill Reilly",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71425.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Tommy Sheppard"
+			}
 		},
 		"2017": {
 			"first": "SNP",

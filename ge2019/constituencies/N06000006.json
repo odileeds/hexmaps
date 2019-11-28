@@ -33,7 +33,11 @@
 				"name": "Seán McNicholl",
 				"party": "Aontú",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72036-a1683927-7005-48ce-8f3c-a1bd03462a9f.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "DUP",
+				"mp": "Gregory Campbell"
+			}
 		},
 		"2017": {
 			"first": "DUP",

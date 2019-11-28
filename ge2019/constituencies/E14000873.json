@@ -43,7 +43,11 @@
 				"name": "Louise Mary Staite",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72380-e1f54bf3-a0ab-4bc8-9131-dfc7de88deae.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Anneliese Dodds"
+			}
 		},
 		"2017": {
 			"first": "Lab",

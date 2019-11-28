@@ -28,7 +28,11 @@
 				"name": "Finola ONeill",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72377-8fd91715-cd9e-40e1-83a8-7e7b56112a0b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Peter Heaton-Jones"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "Kathryn Gilbert",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72152-eece7de5-1890-48db-ad18-6f77c700b8d7.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Pat McFadden"
+			}
 		},
 		"2017": {
 			"first": "Lab",

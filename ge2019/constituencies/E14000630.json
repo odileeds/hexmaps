@@ -23,7 +23,11 @@
 				"name": "George Penny",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71764.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Alex Chalk"
+			}
 		},
 		"2017": {
 			"first": "Con",

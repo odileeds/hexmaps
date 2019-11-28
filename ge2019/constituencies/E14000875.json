@@ -28,7 +28,11 @@
 				"name": "Clare Hales",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60604.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Andrew Stephenson"
+			}
 		},
 		"2017": {
 			"first": "Con",

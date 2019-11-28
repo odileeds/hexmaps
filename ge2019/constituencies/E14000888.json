@@ -23,7 +23,11 @@
 				"name": "Paul Richard Thorogood",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57720-c08a7e8c-72df-4a8c-ab67-6db9bcb8cf84.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Francois"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -28,7 +28,11 @@
 				"name": "John Madden",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Michael Fabricant"
+			}
 		},
 		"2017": {
 			"first": "Con",

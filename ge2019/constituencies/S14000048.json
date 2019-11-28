@@ -28,7 +28,11 @@
 				"name": "David John Nairn",
 				"party": "Scottish Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72592-a051029a-57a0-4cce-866f-703ccd5840c4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Patricia Gibson"
+			}
 		},
 		"2017": {
 			"first": "SNP",

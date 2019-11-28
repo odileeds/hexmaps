@@ -28,7 +28,11 @@
 				"name": "Andrew Husband",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72145-72ea9495-0dda-40fa-bda1-61d4e41cc763.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mary Glindon"
+			}
 		},
 		"2017": {
 			"first": "Lab",

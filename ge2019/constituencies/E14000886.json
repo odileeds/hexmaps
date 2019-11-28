@@ -28,7 +28,11 @@
 				"name": "Jane Aitchison",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71591.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Stuart Andrew"
+			}
 		},
 		"2017": {
 			"first": "Con",

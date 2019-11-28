@@ -28,7 +28,11 @@
 				"name": "Desi Latimer",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71678-77f65026-52a3-400b-8105-2b5d715fc8ab.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "David Drew"
+			}
 		},
 		"2017": {
 			"first": "Lab",

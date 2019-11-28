@@ -23,7 +23,11 @@
 				"name": "Sally-Ann Hart",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72411-668d2157-2f32-46cf-bf56-db43df93838d.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Amber Rudd"
+			}
 		},
 		"2017": {
 			"first": "Con",

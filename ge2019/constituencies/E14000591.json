@@ -23,7 +23,11 @@
 				"name": "William Relton",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47475.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Dawn Butler"
+			}
 		},
 		"2017": {
 			"first": "Lab",

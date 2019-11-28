@@ -23,7 +23,11 @@
 				"name": "Wendy Haynes",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71947-c3b55b7c-16ac-4614-acb7-5d3058256201.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Stephen Gethins"
+			}
 		},
 		"2017": {
 			"first": "SNP",

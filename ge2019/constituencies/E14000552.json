@@ -28,7 +28,11 @@
 				"name": "Charles Spencer Bunker",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72275-d882cca2-fac1-49df-851e-a5155b0d1c5b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mohammad Yasin"
+			}
 		},
 		"2017": {
 			"first": "Lab",

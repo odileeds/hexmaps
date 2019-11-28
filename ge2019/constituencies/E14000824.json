@@ -33,7 +33,11 @@
 				"name": "Robin Michael Horsley",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Paul Beresford"
+			}
 		},
 		"2017": {
 			"first": "Con",

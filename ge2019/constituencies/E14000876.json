@@ -23,7 +23,11 @@
 				"name": "Miriam Joy Cates",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39427.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Angela Smith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

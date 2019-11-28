@@ -33,7 +33,11 @@
 				"name": "Paul Doherty",
 				"party": "SDLP (Social Democratic & Labour Party)",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69199.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SF",
+				"mp": "Paul Maskey"
+			}
 		},
 		"2017": {
 			"first": "SF",

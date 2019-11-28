@@ -28,7 +28,11 @@
 				"name": "Michele Scott",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mark Hendrick"
+			}
 		},
 		"2017": {
 			"first": "Lab",

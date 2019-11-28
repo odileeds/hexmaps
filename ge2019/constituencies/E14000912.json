@@ -28,7 +28,11 @@
 				"name": "Victoria Charleston",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71613.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "John Glen"
+			}
 		},
 		"2017": {
 			"first": "Con",

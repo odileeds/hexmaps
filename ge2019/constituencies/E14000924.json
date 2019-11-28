@@ -28,7 +28,11 @@
 				"name": "Jerry Hague",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71620.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mark Spencer"
+			}
 		},
 		"2017": {
 			"first": "Con",

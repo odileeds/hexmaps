@@ -33,7 +33,11 @@
 				"name": "Natalie Fleet",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71279.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Gloria De Piero"
+			}
 		},
 		"2017": {
 			"first": "Lab",

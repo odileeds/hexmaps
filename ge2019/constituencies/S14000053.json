@@ -23,7 +23,11 @@
 				"name": "Jack Clark",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21923.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Mhairi Black"
+			}
 		},
 		"2017": {
 			"first": "SNP",

@@ -23,7 +23,11 @@
 				"name": "Graham Wilson Hadley",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Stephen Hammond"
+			}
 		},
 		"2017": {
 			"first": "Con",

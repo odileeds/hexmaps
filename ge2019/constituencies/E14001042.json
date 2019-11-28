@@ -33,7 +33,11 @@
 				"name": "David John Buckley",
 				"party": "Independent",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Adam Afriyie"
+			}
 		},
 		"2017": {
 			"first": "Con",

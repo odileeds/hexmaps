@@ -28,7 +28,11 @@
 				"name": "Simon Nicholas Rous",
 				"party": "The Universal Good Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72258-9ced2f12-0c6e-4df1-944d-0e79df1ff343.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Keith Simpson"
+			}
 		},
 		"2017": {
 			"first": "Con",

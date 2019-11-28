@@ -38,7 +38,11 @@
 				"name": "Sue Prior",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72616-7f8af480-62c5-44b0-8e70-3bfce3d63c05.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Owen Smith"
+			}
 		},
 		"2017": {
 			"first": "Lab",

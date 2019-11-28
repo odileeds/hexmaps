@@ -33,7 +33,11 @@
 				"name": "Ali Azeem",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71902.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Ind",
+				"mp": "Mike Gapes"
+			}
 		},
 		"2017": {
 			"first": "Lab",

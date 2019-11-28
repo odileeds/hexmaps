@@ -28,7 +28,11 @@
 				"name": "Celia Hibbert",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39871.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Neil O'Brien"
+			}
 		},
 		"2017": {
 			"first": "Con",

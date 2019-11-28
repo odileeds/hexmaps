@@ -33,7 +33,11 @@
 				"name": "Tara Dawn Baldwin",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72495-f57b9a74-5d56-464a-8620-98bae8c598ed.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Keith Vaz"
+			}
 		},
 		"2017": {
 			"first": "Lab",

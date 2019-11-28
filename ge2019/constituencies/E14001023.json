@@ -23,7 +23,11 @@
 				"name": "Georgia Taylor",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71997-71726490-add0-4463-9924-a6182e1c2627.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Nusrat Ghani"
+			}
 		},
 		"2017": {
 			"first": "Con",

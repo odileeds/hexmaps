@@ -23,7 +23,11 @@
 				"name": "Jane Pickard",
 				"party": "Liberal Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Angela Crawley"
+			}
 		},
 		"2017": {
 			"first": "SNP",

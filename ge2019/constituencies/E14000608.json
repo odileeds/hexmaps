@@ -33,7 +33,11 @@
 				"name": "Antonio Daniel Vitiello",
 				"party": "English Democrats",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Spk",
+				"mp": "John Bercow"
+			}
 		},
 		"2017": {
 			"first": "Spk",

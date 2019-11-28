@@ -28,7 +28,11 @@
 				"name": "Joshua David Richardson",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72575-d02de25a-f1a8-4c8b-9eef-c5904420e8b7.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Geoffrey Robinson"
+			}
 		},
 		"2017": {
 			"first": "Lab",

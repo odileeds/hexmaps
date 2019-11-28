@@ -28,7 +28,11 @@
 				"name": "Daniela Parker",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71722.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Mike Amesbury"
+			}
 		},
 		"2017": {
 			"first": "Lab",

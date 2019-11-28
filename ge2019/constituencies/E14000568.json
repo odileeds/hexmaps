@@ -28,7 +28,11 @@
 				"name": "Mary Ann McKenna",
 				"party": "The Brexit Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jess Phillips"
+			}
 		},
 		"2017": {
 			"first": "Lab",

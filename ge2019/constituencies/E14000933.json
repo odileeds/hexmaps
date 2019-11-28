@@ -23,7 +23,11 @@
 				"name": "Michael Bukola",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36110.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Stephen Metcalfe"
+			}
 		},
 		"2017": {
 			"first": "Con",

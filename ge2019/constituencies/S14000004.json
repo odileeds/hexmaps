@@ -23,7 +23,11 @@
 				"name": "Monique Tamara Miller",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72121-3572d521-eb5d-4abf-966e-8b61682126ec.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Kirstene Hair"
+			}
 		},
 		"2017": {
 			"first": "Con",

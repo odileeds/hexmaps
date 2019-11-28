@@ -28,7 +28,11 @@
 				"name": "Lorna Robertson",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72060.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Luke Graham"
+			}
 		},
 		"2017": {
 			"first": "Con",

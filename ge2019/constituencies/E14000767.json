@@ -28,7 +28,11 @@
 				"name": "Antony James Tucker",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72252-6c755876-5c69-4ac3-98a7-4afde95ababd.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Jeremy Wright"
+			}
 		},
 		"2017": {
 			"first": "Con",

@@ -23,7 +23,11 @@
 				"name": "Nabila Ahmed",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71833.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Mike Penning"
+			}
 		},
 		"2017": {
 			"first": "Con",

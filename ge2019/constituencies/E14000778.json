@@ -28,7 +28,11 @@
 				"name": "Sarah Wass",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71509-6bca1db6-9291-41f3-b222-e0dcc99834a8.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Richard Burgon"
+			}
 		},
 		"2017": {
 			"first": "Lab",

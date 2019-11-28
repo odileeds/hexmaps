@@ -28,7 +28,11 @@
 				"name": "Tony Love",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71679-b799d117-1a61-46e1-bb96-c55afea7950a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Therese Coffey"
+			}
 		},
 		"2017": {
 			"first": "Con",

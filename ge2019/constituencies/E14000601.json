@@ -28,7 +28,11 @@
 				"name": "Robert de Vito Boutin",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71662.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Karin Smyth"
+			}
 		},
 		"2017": {
 			"first": "Lab",

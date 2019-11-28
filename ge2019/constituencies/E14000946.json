@@ -23,7 +23,11 @@
 				"name": "David Beavan",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59127.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "James Cartlidge"
+			}
 		},
 		"2017": {
 			"first": "Con",

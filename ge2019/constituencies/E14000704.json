@@ -43,7 +43,11 @@
 				"name": "Colin John Menniss",
 				"party": "Social Democratic Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Damian Collins"
+			}
 		},
 		"2017": {
 			"first": "Con",

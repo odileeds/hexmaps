@@ -23,7 +23,11 @@
 				"name": "Gary Godden",
 				"party": "Labour Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70292-236e01b0-f3ae-4bef-87f5-b12af4eb4b7a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Edward Argar"
+			}
 		},
 		"2017": {
 			"first": "Con",

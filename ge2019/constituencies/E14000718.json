@@ -38,7 +38,11 @@
 				"name": "Eunice Odesanmi",
 				"party": "Christian Peoples Alliance",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72622-6e046a6b-5d65-4d1f-b2a9-c984bf15e68b.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Matthew Pennycook"
+			}
 		},
 		"2017": {
 			"first": "Lab",

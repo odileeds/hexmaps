@@ -28,7 +28,11 @@
 				"name": "Caroline Teresa Shah",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72326-f520e3b1-313c-4f4c-a860-79a94b1ff6f4.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Zac Goldsmith"
+			}
 		},
 		"2017": {
 			"first": "Con",

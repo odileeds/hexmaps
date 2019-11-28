@@ -33,7 +33,11 @@
 				"name": "Geoff Thompson",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72084-c8e9e83e-1668-4dc3-8a73-a7d31c4cdf1a.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Emma Lewell-Buck"
+			}
 		},
 		"2017": {
 			"first": "Lab",

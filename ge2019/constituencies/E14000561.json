@@ -28,7 +28,11 @@
 				"name": "Wendy Garcarz",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71302.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Jack Dromey"
+			}
 		},
 		"2017": {
 			"first": "Lab",

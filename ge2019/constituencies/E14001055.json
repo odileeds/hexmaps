@@ -28,7 +28,11 @@
 				"name": "Jo Paul",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63651.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Peter Bottomley"
+			}
 		},
 		"2017": {
 			"first": "Con",

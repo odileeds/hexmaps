@@ -28,7 +28,11 @@
 				"name": "Johno Lee",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25518-7053b59c-0354-4078-8d83-4c133bc5acea.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Yasmin Qureshi"
+			}
 		},
 		"2017": {
 			"first": "Lab",

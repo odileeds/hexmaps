@@ -23,7 +23,11 @@
 				"name": "Timothy Prosser",
 				"party": "The Brexit Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72513-259b2f36-0d5a-454a-b7cf-249d486aeba7.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Margaret Beckett"
+			}
 		},
 		"2017": {
 			"first": "Lab",

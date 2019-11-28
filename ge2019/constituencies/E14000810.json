@@ -28,7 +28,11 @@
 				"name": "Stephen Leonard Harvey",
 				"party": "Independent",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64078-aa82075b-c29c-4227-9ee0-57f41ab88110.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "Ben Bradley"
+			}
 		},
 		"2017": {
 			"first": "Con",

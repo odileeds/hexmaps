@@ -28,7 +28,11 @@
 				"name": "James Thomas Cunningham",
 				"party": "Labour Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Adrian Bailey"
+			}
 		},
 		"2017": {
 			"first": "Lab",

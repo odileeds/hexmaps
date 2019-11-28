@@ -28,7 +28,11 @@
 				"name": "Kamran Hussain",
 				"party": "Liberal Democrats",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72642-039703a3-6d9a-4ea6-b6fb-66275db1b6a0.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Alex Sobel"
+			}
 		},
 		"2017": {
 			"first": "Lab",

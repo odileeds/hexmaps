@@ -33,7 +33,11 @@
 				"name": "Dennis Leech",
 				"party": "Socialist Equality Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Lucy Powell"
+			}
 		},
 		"2017": {
 			"first": "Lab",

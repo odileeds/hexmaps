@@ -28,7 +28,11 @@
 				"name": "Tom Randall",
 				"party": "Conservative and Unionist Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71450.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Vernon Coaker"
+			}
 		},
 		"2017": {
 			"first": "Lab",

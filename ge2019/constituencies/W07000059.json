@@ -23,7 +23,11 @@
 				"name": "Huw Elfed Williams",
 				"party": "Plaid Cymru - The Party of Wales",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71376.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Con",
+				"mp": "David Jones"
+			}
 		},
 		"2017": {
 			"first": "Con",

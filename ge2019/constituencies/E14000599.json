@@ -28,7 +28,11 @@
 				"name": "Conan Connolly",
 				"party": "Green Party",
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71329.png"
-			}]
+			}],
+			"incumbent": {
+				"party": "Lab",
+				"mp": "Kerry McCarthy"
+			}
 		},
 		"2017": {
 			"first": "Lab",

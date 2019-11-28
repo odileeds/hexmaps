@@ -28,7 +28,11 @@
 				"name": "Flora Minerva Scarabello",
 				"party": "Conservative and Unionist Party",
 				"img": ""
-			}]
+			}],
+			"incumbent": {
+				"party": "SNP",
+				"mp": "Alison Thewliss"
+			}
 		},
 		"2017": {
 			"first": "SNP",

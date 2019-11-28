@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5925,
 				"name": "Stephen Gethins",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5925.png"
 			},{
 				"id": 20806,
 				"name": "Tony Miklinski",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20806.png"
 			},{
 				"id": 21148,
 				"name": "Wendy Chamberlain",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21148.png"
 			},{
 				"id": 71947,
 				"name": "Wendy Haynes",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71947-c3b55b7c-16ac-4614-acb7-5d3058256201.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Stephen Gethins"
+				"mp": "Stephen Gethins",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Stephen Gethins",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25324/stephen_gethins/north_east_fife",
 			"electorate": 58685,
 			"turnout": 71.3,
@@ -40,8 +40,8 @@
 			"majority": 2
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Stephen Gethins",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 62003,
 			"turnout": 73.1,
 			"valid": 45263,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 34351,
 				"name": "Eddie Hughes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34351.png"
 			},{
 				"id": 40110,
 				"name": "Jennifer Eileen Gray",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40110.png"
 			},{
 				"id": 59806,
 				"name": "Mark Frederick Wilson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59806-1481e4b2-2608-420f-b6cb-405e1f036787.png"
 			},{
 				"id": 71712,
 				"name": "Gill Ogilvie",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71712.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Eddie Hughes"
+				"mp": "Eddie Hughes",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Eddie Hughes",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25699/eddie_hughes/walsall_north",
 			"electorate": 67308,
 			"turnout": 56.6,
@@ -40,8 +40,8 @@
 			"majority": 2601
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "David Winnick",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67080,
 			"turnout": 55.2,
 			"valid": 36883,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6750,
 				"name": "John Booker",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70328.png"
 			},{
 				"id": 35931,
 				"name": "Hannah Ruth Kitching",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35931.png"
 			},{
 				"id": 39392,
 				"name": "Francyne Johnson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39392.png"
 			},{
 				"id": 39427,
 				"name": "Miriam Joy Cates",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39427.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Angela Smith"
+				"mp": "Angela Smith",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Angela Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11814/angela_smith/penistone_and_stocksbridge",
 			"electorate": 71293,
 			"turnout": 69.8,
@@ -40,8 +40,8 @@
 			"majority": 1322
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Angela Smith",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70817,
 			"turnout": 66.5,
 			"valid": 46854,

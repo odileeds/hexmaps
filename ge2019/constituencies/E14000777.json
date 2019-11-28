@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 738,
 				"name": "Hilary Benn",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351f21b247335574a42e7d.png"
 			},{
 				"id": 4204,
 				"name": "Peter Fortune",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4204.png"
 			},{
 				"id": 18712,
 				"name": "Ed Carlisle",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18712_E4c05GO.png"
 			},{
 				"id": 71508,
 				"name": "Paul Thomas",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 71818,
 				"name": "William Clouston",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71818.png"
 			},{
 				"id": 71909,
 				"name": "Jack Holland",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71909.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Hilary Benn"
+				"mp": "Hilary Benn",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Hilary Benn",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10669/hilary_benn/leeds_central",
 			"electorate": 89537,
 			"turnout": 53.2,
@@ -50,8 +50,8 @@
 			"majority": 23698
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Hilary Benn",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 81799,
 			"turnout": 55.3,
 			"valid": 45048,

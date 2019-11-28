@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2427,
 				"name": "Michelle Gildernew",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351f95b247335574a42e80.png"
 			},{
 				"id": 4933,
 				"name": "Tom Elliott",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bec4eec0766d3759c046e.png"
 			},{
 				"id": 50100,
 				"name": "Adam Gannon",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50100.png"
 			},{
 				"id": 68972,
 				"name": "Matthew Beaumont",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68972.png"
 			},{
 				"id": 72331,
 				"name": "Caroline Wheeler",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "SF",
-				"mp": "Michelle Gildernew"
+				"mp": "Michelle Gildernew",
+				"party": { "code": "SF", "title": "Sinn Féin" }
 			}
 		},
 		"2017": {
-			"first": "SF",
 			"mp": "Michelle Gildernew",
+			"party": { "code": "SF" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10913/michelle_gildernew/fermanagh_and_south_tyrone",
 			"electorate": 70601,
 			"turnout": 75.8,
@@ -45,8 +45,8 @@
 			"majority": 875
 		},
 		"2015": {
-			"first": "Ulster Unionist Party",
 			"mp": "Tom Elliott",
+			"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 			"electorate": 70108,
 			"turnout": 73.0,
 			"valid": 50864,

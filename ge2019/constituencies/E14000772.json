@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1861,
 				"name": "Diana Johnson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351fc1b247335574a42e81.png"
 			},{
 				"id": 6068,
 				"name": "Richard Howarth",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6068.png"
 			},{
 				"id": 14278,
 				"name": "Holly Whitbread",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71993.png"
 			},{
 				"id": 36520,
 				"name": "Mike Ross",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36520.png"
 			},{
 				"id": 72517,
 				"name": "Derek Brian Abram",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72517-63cd4d8d-0f72-4af2-99f8-003dedc4bf65.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Diana R. Johnson"
+				"mp": "Diana R. Johnson",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Diana R. Johnson",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11647/diana_r._johnson/kingston_upon_hull_north",
 			"electorate": 64665,
 			"turnout": 57.4,
@@ -45,8 +45,8 @@
 			"majority": 14322
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Diana Johnson",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64148,
 			"turnout": 55.3,
 			"valid": 35336,

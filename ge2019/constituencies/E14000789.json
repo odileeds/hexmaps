@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 4372,
 				"name": "Vicky Foxcroft",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4372.png"
 			},{
 				"id": 7779,
 				"name": "Andrea Carey Fuller",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7779.png"
 			},{
 				"id": 34211,
 				"name": "Bobby Dean",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34211_a7CA6hp.png"
 			},{
 				"id": 72228,
 				"name": "Tan Bui",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72231,
 				"name": "Moses John Etienne",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72233,
 				"name": "Gavin Daniel Haran",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72235,
 				"name": "John Robert Lloyd",
-				"party": "Alliance For Green Socialism",
+				"party": { "code": "", "title": "Alliance For Green Socialism" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Vicky Foxcroft"
+				"mp": "Vicky Foxcroft",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Vicky Foxcroft",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25380/vicky_foxcroft/lewisham%2C_deptford",
 			"electorate": 78468,
 			"turnout": 70.2,
@@ -55,8 +55,8 @@
 			"majority": 34899
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Vicky Foxcroft",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73428,
 			"turnout": 64.9,
 			"valid": 47426,

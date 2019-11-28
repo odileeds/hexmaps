@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 373,
 				"name": "Chris Williamson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322b3529c5d53959d9e449.png"
 			},{
 				"id": 4183,
 				"name": "Amanda Solloway",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e721b150e238702c04eb.png"
 			},{
 				"id": 4864,
 				"name": "Alan Graves Snr",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36076.png"
 			},{
 				"id": 11946,
 				"name": "Greg Webb",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35046.png"
 			},{
 				"id": 70290,
 				"name": "Tony Tinley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70290.png"
 			},{
 				"id": 71878,
 				"name": "Helen Hitchcock",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71878.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Chris Williamson"
+				"mp": "Chris Williamson",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chris Williamson",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24830/chris_williamson/derby_north",
 			"electorate": 69919,
 			"turnout": 69.6,
@@ -50,8 +50,8 @@
 			"majority": 2015
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Amanda Solloway",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69794,
 			"turnout": 64.3,
 			"valid": 44745,

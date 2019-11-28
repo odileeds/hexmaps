@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6528,
 				"name": "Naz Shah",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bec3810284be476aae8b7.png"
 			},{
 				"id": 8351,
 				"name": "Derrick John Hodgson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8351.png"
 			},{
 				"id": 13665,
 				"name": "Darren Parkinson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13665.png"
 			},{
 				"id": 57263,
 				"name": "Mark Christie",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57263-3193c85c-059a-485d-84bf-dce83e742ad5.png"
 			},{
 				"id": 72393,
 				"name": "Mohammed Afzal",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72394,
 				"name": "Azfar Shah Bukhari",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72394-f99e6b16-3a52-4846-bb8a-b37b8c55fad8.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Naseem Shah"
+				"mp": "Naseem Shah",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Naz Shah",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25385/naseem_shah/bradford_west",
 			"electorate": 67568,
 			"turnout": 67.4,
@@ -50,8 +50,8 @@
 			"majority": 21902
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Naz Shah",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63372,
 			"turnout": 64.0,
 			"valid": 40290,

@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 456,
 				"name": "Jon Trickett",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bd1b8b9c95afe74c5d33e.png"
 			},{
 				"id": 2141,
 				"name": "Ian Womersley",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2141-75c7b497-9540-431b-92a8-dd362816ea69.png"
 			},{
 				"id": 6642,
 				"name": "Martin Roberts",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6642.png"
 			},{
 				"id": 30711,
 				"name": "James Monaghan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30711.png"
 			},{
 				"id": 62764,
 				"name": "Lyn Morton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62764-30205d56-1126-446d-bb57-efb3af764807.png"
 			},{
 				"id": 70751,
 				"name": "Louise Calland",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70751.png"
 			},{
 				"id": 72428,
 				"name": "Waj Ali",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72428-39f4e7ab-db58-4e94-b331-2c85726a77e5.png"
 			},{
 				"id": 72429,
 				"name": "Pete Wilks",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jon Trickett"
+				"mp": "Jon Trickett",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jon Trickett",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10604/jon_trickett/hemsworth",
 			"electorate": 71870,
 			"turnout": 63.9,
@@ -60,8 +60,8 @@
 			"majority": 10174
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jon Trickett",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72714,
 			"turnout": 58.5,
 			"valid": 42406,

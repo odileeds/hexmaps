@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 425,
 				"name": "Stephen Crabb",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534fa30b247335574a42e46.png"
 			},{
 				"id": 33270,
 				"name": "Cris Tomos",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33270.png"
 			},{
 				"id": 34231,
 				"name": "Philippa Ann Thompson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34231.png"
 			},{
 				"id": 71590,
 				"name": "Thomas James Hughes",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71590.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Stephen Crabb"
+				"mp": "Stephen Crabb",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Stephen Crabb",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11768/stephen_crabb/preseli_pembrokeshire",
 			"electorate": 58554,
 			"turnout": 72.1,
@@ -40,8 +40,8 @@
 			"majority": 314
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stephen Crabb",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 57291,
 			"turnout": 70.9,
 			"valid": 40556,

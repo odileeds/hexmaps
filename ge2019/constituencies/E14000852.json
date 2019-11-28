@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 995,
 				"name": "Roger Gale",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f6ed84e9778b52be3984.png"
 			},{
 				"id": 29080,
 				"name": "Angie Curwen",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29080.png"
 			},{
 				"id": 66313,
 				"name": "Rob Edwards",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66313-67d06d3f-6844-4625-a60d-f5a0fe7eacdc.png"
 			},{
 				"id": 72058,
 				"name": "Coral Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72058.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Roger Gale"
+				"mp": "Roger Gale",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Roger Gale",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10217/roger_gale/north_thanet",
 			"electorate": 72651,
 			"turnout": 66.5,
@@ -40,8 +40,8 @@
 			"majority": 10738
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Roger Gale",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71478,
 			"turnout": 66.1,
 			"valid": 47053,

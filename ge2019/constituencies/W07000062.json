@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2700,
 				"name": "Susan Elan Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f88ab247335574a42e3c.png"
 			},{
 				"id": 25272,
 				"name": "Calum Dafydd Davies",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25272.png"
 			},{
 				"id": 26974,
 				"name": "Simon Baynes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26974.png"
 			},{
 				"id": 34377,
 				"name": "Chris Allen",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34377.png"
 			},{
 				"id": 72417,
 				"name": "Jamie David Adams",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72417-9fcfee7a-d293-4563-a91b-ae373c374509.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Susan Elan Jones"
+				"mp": "Susan Elan Jones",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Susan Elan Jones",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24720/susan_elan_jones/clwyd_south",
 			"electorate": 53729,
 			"turnout": 69.7,
@@ -45,8 +45,8 @@
 			"majority": 4356
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Susan Elan Jones",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 54996,
 			"turnout": 63.9,
 			"valid": 35064,

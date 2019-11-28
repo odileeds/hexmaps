@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5258,
 				"name": "Simon Clarke",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f7c95639864752d05ba1.png"
 			},{
 				"id": 54814,
 				"name": "Jemma Louise Scarlett Joy",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54814.png"
 			},{
 				"id": 71533,
 				"name": "Lauren Dingsdale",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71533.png"
 			},{
 				"id": 71534,
 				"name": "Sophie Brown",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71534.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Simon Clarke"
+				"mp": "Simon Clarke",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Simon Clarke",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25657/simon_clarke/middlesbrough_south_and_east_cleveland",
 			"electorate": 72336,
 			"turnout": 65.8,
@@ -40,8 +40,8 @@
 			"majority": 1020
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Tom Blenkinsop",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71154,
 			"turnout": 64.4,
 			"valid": 45677,

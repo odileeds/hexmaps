@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4315,
 				"name": "Colleen Fletcher",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4315.png"
 			},{
 				"id": 6934,
 				"name": "Matthew Handley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548004b307e361270929101.png"
 			},{
 				"id": 39648,
 				"name": "Sophie Richards",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39648.png"
 			},{
 				"id": 40297,
 				"name": "Nukey Proctor",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40297.png"
 			},{
 				"id": 71385,
 				"name": "Iddrisu Sufyan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71385.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Colleen Fletcher"
+				"mp": "Colleen Fletcher",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Colleen Fletcher",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25319/colleen_fletcher/coventry_north_east",
 			"electorate": 75759,
 			"turnout": 61.4,
@@ -45,8 +45,8 @@
 			"majority": 15580
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Colleen Fletcher",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75462,
 			"turnout": 56.2,
 			"valid": 42231,

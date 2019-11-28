@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2706,
 				"name": "Patricia Gibson",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7721ccf185f0d8cc4bb.png"
 			},{
 				"id": 9213,
 				"name": "Louise Young",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9213-ede20b87-75d4-4f8d-8abe-9ebe262e4ef7.png"
 			},{
 				"id": 34651,
 				"name": "David Rocks",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72591,
 				"name": "Cameron Craig Gilmore",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72591-40246048-d001-4eb6-8dc8-a6d671916cbd.png"
 			},{
 				"id": 72592,
 				"name": "David John Nairn",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72592-a051029a-57a0-4cce-866f-703ccd5840c4.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Patricia Gibson"
+				"mp": "Patricia Gibson",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Patricia Gibson",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25300/patricia_gibson/north_ayrshire_and_arran",
 			"electorate": 73176,
 			"turnout": 64.8,
@@ -45,8 +45,8 @@
 			"majority": 3633
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Patricia Gibson",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 75791,
 			"turnout": 71.2,
 			"valid": 53869,

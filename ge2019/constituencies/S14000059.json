@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6056,
 				"name": "Martin Docherty",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f7b04dc689026478f4368f.png"
 			},{
 				"id": 7499,
 				"name": "Andrew Muir",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7499.png"
 			},{
 				"id": 9240,
 				"name": "Jenni Lang",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9240.png"
 			},{
 				"id": 34281,
 				"name": "Jean Anne Mitchell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34281.png"
 			},{
 				"id": 71828,
 				"name": "Alix Mathieson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71828.png"
 			},{
 				"id": 72502,
 				"name": "Peter Connolly",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72502-8f01602b-31bf-4b6a-8fc0-fe780e88d92e.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Martin Docherty"
+				"mp": "Martin Docherty",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Martin Docherty-Hughes",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25275/martin_docherty/west_dunbartonshire",
 			"electorate": 67602,
 			"turnout": 65.2,
@@ -50,8 +50,8 @@
 			"majority": 2288
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Martin Docherty",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 69208,
 			"turnout": 74.0,
 			"valid": 51141,

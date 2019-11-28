@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 155,
 				"name": "John Glen",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551d722a570782f7747687d9.png"
 			},{
 				"id": 1195,
 				"name": "Arthur Pendragon",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551d71af570782f7747687d8.png"
 			},{
 				"id": 4419,
 				"name": "Tom Corbin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4419.png"
 			},{
 				"id": 71611,
 				"name": "Rick Page",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71611.png"
 			},{
 				"id": 71613,
 				"name": "Victoria Charleston",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71613.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "John Glen"
+				"mp": "John Glen",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "John Glen",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24839/john_glen/salisbury",
 			"electorate": 72892,
 			"turnout": 73.1,
@@ -45,8 +45,8 @@
 			"majority": 17333
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "John Glen",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69582,
 			"turnout": 73.0,
 			"valid": 50705,

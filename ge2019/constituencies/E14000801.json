@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 1602,
 				"name": "Ben Foley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54b85fd27089b96b50247a38.png"
 			},{
 				"id": 2805,
 				"name": "Gavin Shuker",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2805-94ada20b-06b7-40c0-9bb9-fe6f5c695473.png"
 			},{
 				"id": 61101,
 				"name": "John Rodney French",
-				"party": "The Best For Luton Party",
+				"party": { "code": "", "title": "The Best For Luton Party" },
 				"img": ""
 			},{
 				"id": 61155,
 				"name": "Mohammed Ashraf",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 61165,
 				"name": "Rachel Hopkins",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61165.png"
 			},{
 				"id": 72332,
 				"name": "Parvez Akhtar",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72333,
 				"name": "Garry Warren",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72333-356d7725-05f4-45a7-b5c2-f2bb338a4a65.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Gavin Shuker"
+				"mp": "Gavin Shuker",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Gavin Shuker",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24847/gavin_shuker/luton_south",
 			"electorate": 67188,
 			"turnout": 68.7,
@@ -55,8 +55,8 @@
 			"majority": 13925
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Gavin Shuker",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 67741,
 			"turnout": 63.0,
 			"valid": 42216,

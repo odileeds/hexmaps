@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1549,
 				"name": "Alistair Cameron",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e964b150e238702c0663.png"
 			},{
 				"id": 3579,
 				"name": "Simon Anthony Hart",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a245f0e9e2c82406ebb3.png"
 			},{
 				"id": 8085,
 				"name": "Marc Liam Tierney",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8085_5tfyUNX.png"
 			},{
 				"id": 27802,
 				"name": "Glanville Owen Rhys Thomas",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27802-1ade626e-e765-4b4f-9a66-9d647517aeb1.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Simon Hart"
+				"mp": "Simon Hart",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Simon Hart",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24813/simon_hart/carmarthen_west_and_south_pembrokeshire",
 			"electorate": 58565,
 			"turnout": 72.1,
@@ -40,8 +40,8 @@
 			"majority": 3110
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Simon Hart",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 57755,
 			"turnout": 70.0,
 			"valid": 40350,

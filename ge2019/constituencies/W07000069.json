@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 1644,
 				"name": "Jonathan Burns",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 4564,
 				"name": "Christina Rees",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9763e22f98bc5d30fa55.png"
 			},{
 				"id": 34201,
 				"name": "Daniel Williams",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34201.png"
 			},{
 				"id": 71916,
 				"name": "Megan Lloyd",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 72351,
 				"name": "Simon Jonathan Wilson Briscoe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72352,
 				"name": "Adrian Kingston-Jones",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72353,
 				"name": "Philip Rogers",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72354,
 				"name": "Carl Gerard Williams",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Christina Rees"
+				"mp": "Christina Rees",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Christina Rees",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25332/christina_rees/neath",
 			"electorate": 55862,
 			"turnout": 68.5,
@@ -60,8 +60,8 @@
 			"majority": 12631
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Christina Rees",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 56097,
 			"turnout": 66.4,
 			"valid": 37135,

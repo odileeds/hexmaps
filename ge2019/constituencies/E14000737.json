@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1860,
 				"name": "John McDonnell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e59367dc5383f552cb1.png"
 			},{
 				"id": 34483,
 				"name": "Alex Cunliffe",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34483.png"
 			},{
 				"id": 40253,
 				"name": "Wayne Bridges",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72076.png"
 			},{
 				"id": 47641,
 				"name": "Harry Boparai",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47641-8ecdb014-d8e5-4d81-8da5-1143cd0bdd73.png"
 			},{
 				"id": 71476,
 				"name": "Christine West",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 72329,
 				"name": "Chika Amadi",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72329-1b5f983a-ab9b-4fbe-8e8c-3e4baac9f8cf.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "John Martin McDonnell"
+				"mp": "John Martin McDonnell",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "John McDonnell",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10383/john_martin_mcdonnell/hayes_and_harlington",
 			"electorate": 73268,
 			"turnout": 65.2,
@@ -50,8 +50,8 @@
 			"majority": 18115
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "John McDonnell",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74874,
 			"turnout": 60.4,
 			"valid": 45056,

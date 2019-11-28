@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4825,
 				"name": "Imran Hussain",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55180179249b917507bee542.png"
 			},{
 				"id": 8179,
 				"name": "Jonathan Daniel Stewart Barras",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8179.png"
 			},{
 				"id": 34714,
 				"name": "Andy Stanford",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34714.png"
 			},{
 				"id": 61928,
 				"name": "Linden Mary Kemkaran",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61928-1b66f26d-5583-4ba3-9ea3-37ba5e61415b.png"
 			},{
 				"id": 65760,
 				"name": "Jeanette Sunderland",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65760.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Imran Hussain"
+				"mp": "Imran Hussain",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Imran Hussain",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25375/imran_hussain/bradford_east",
 			"electorate": 70389,
 			"turnout": 64.8,
@@ -45,8 +45,8 @@
 			"majority": 20540
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Imran Hussain",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66121,
 			"turnout": 62.9,
 			"valid": 41406,

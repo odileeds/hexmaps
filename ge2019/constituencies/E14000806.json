@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 765,
 				"name": "John Whittingdale",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f70184e9778b52be3985.png"
 			},{
 				"id": 71526,
 				"name": "Colin Baldy",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71526.png"
 			},{
 				"id": 71527,
 				"name": "Janet Band",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71527-69882893-b0e0-4187-b23a-6a66bc8be9e5.png"
 			},{
 				"id": 71973,
 				"name": "Stephen Capper",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71973-faed4873-6006-4fd2-84d0-cdda6ee4ce46.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "John Whittingdale"
+				"mp": "John Whittingdale",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "John Whittingdale",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10632/john_whittingdale/maldon",
 			"electorate": 71470,
 			"turnout": 70.2,
@@ -40,8 +40,8 @@
 			"majority": 23430
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "John Whittingdale",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69066,
 			"turnout": 69.8,
 			"valid": 48045,

@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 5912,
 				"name": "Joanna Cherry",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5518965c249b917507bee589.png"
 			},{
 				"id": 9162,
 				"name": "Callum Laidlaw",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9162.png"
 			},{
 				"id": 34692,
 				"name": "Tom Inglis",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34692.png"
 			},{
 				"id": 48413,
 				"name": "Ben Parker",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48413.png"
 			},{
 				"id": 72565,
 				"name": "David Craig Ballantine",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72566,
 				"name": "Mev Brown",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72566-281a343f-7c2e-476a-8aeb-76c1c6f571f2.png"
 			},{
 				"id": 72567,
 				"name": "Sophie Cooke",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72567-153c90d6-1e47-4b5d-9992-fd1b83262375.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Joanna Cherry"
+				"mp": "Joanna Cherry",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Joanna Cherry",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25404/joanna_cherry/edinburgh_south_west",
 			"electorate": 71178,
 			"turnout": 69.4,
@@ -55,8 +55,8 @@
 			"majority": 1097
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Joanna  Cherry",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 72149,
 			"turnout": 71.6,
 			"valid": 51602,

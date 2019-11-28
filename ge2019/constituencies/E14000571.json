@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1179,
 				"name": "Graham Stringer",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1179.png"
 			},{
 				"id": 5750,
 				"name": "David Jones",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516a968929f1bbe286be021.png"
 			},{
 				"id": 10252,
 				"name": "Iain Donaldson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10252.png"
 			},{
 				"id": 72151,
 				"name": "James Edward Buckley",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72153,
 				"name": "Alexander Victor Elias",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Graham Stringer"
+				"mp": "Graham Stringer",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Graham Stringer",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10576/graham_stringer/blackley_and_broughton",
 			"electorate": 71648,
 			"turnout": 56.0,
@@ -45,8 +45,8 @@
 			"majority": 19601
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Graham Stringer",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71913,
 			"turnout": 51.9,
 			"valid": 37112,

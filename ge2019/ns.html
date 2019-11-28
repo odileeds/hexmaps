@@ -238,7 +238,6 @@
 	<script>
 	var constituencies;
 
-	var lookup = {'Conservative and Unionist Party':'Con','Conservative':'Con','Scottish National Party (SNP)':'SNP','Scottish National Party':'SNP','Labour':'Lab','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Labour and Co-operative':'Lab','Liberal Democrats':'LD','Liberal Democrat':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party':'DUP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF','Plaid Cymru':'PC','Plaid Cymru - The Party of Wales':'PC','The Monster Raving Loony Party':'Monster','Monster Raving Loony Party':'Monster','Official Monster Raving Loony Party':'Monster','Alliance - Alliance Party of Northern Ireland':'Alliance','Speaker':'Spk','Speaker seeking re-election':'Spk','Ex-speaker':'XSpk'};
 	var parties = {
 		'Con':{'color':'#2254F4','title':'Conservative'},
 		'Lab':{'color':'#D60303','title':'Labour'},
@@ -264,6 +263,17 @@
 		'XSpk':{'color':'#909090','title':'Ex-Speaker'}
 	};
 	
+	function getPartyDetails(party){
+		var out = {'color':'#dddddd','title':(party.title||'?')};
+		if(party.code){
+			if(parties[party.code]){
+				out.color = parties[party.code].color;
+				out.title = (party.title || parties[party.code].title || party.code);
+			}
+		}
+		return out;
+	}
+	
 	var render = function(title,region,data){
 		var r;
 		var p = "";
@@ -274,24 +284,27 @@
 		lbl = '<div class="popup-title">'+(data.title||title)+'</div>';
 		if(data.elections){
 			if(data.elections['2019']){
-				if(data.elections['2019'].first){
-					party = data.elections['2019'].first;
-					wincolour = (parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'));
-					if(data.elections['2019'].first) lbl += '<div class="win" style="background-color:'+wincolour+';color:%COLOR%">'+(parties[party] ? parties[party].title||party : '?')+(data.elections['2017'].first==data.elections['2019'].first ? ' HOLD':' GAIN from '+data.elections['2017'].first)+'</div>';
+				if(data.elections['2019'].party){
+					party = data.elections['2019'].party;
+					p1 = getPartyDetails(party);
+					p2 = getPartyDetails(data.elections['2017'].party);
+					if(data.elections['2019'].first) lbl += '<div class="win" style="background-color:'+p1.colour+';color:%COLOR%">'+p.title+' '+(data.elections['2019'].party.code==data.elections['2019'].incumbent.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
 					if(data.elections['2019'].turnout) lbl += 'Turnout: '+data.elections['2019'].turnout+'%<br />';
 					if(data.elections['2019'].majority) lbl += 'Majority: '+data.elections['2019'].majority.toLocaleString()+'<br />';
 				}
 				lbl += '<p>Candidates:</p><ul>';
 				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
 					party = data.elections['2019'].candidates[c].party;
+					p1 = getPartyDetails(party);
 					name = data.elections['2019'].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
-					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span><a href="'+url+'" target="_parent">'+name+' - '+party+'</a>'+'</li>'
+					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a>'+'</li>'
 				}
 				lbl += '</ul>';
 				if(data.elections['2019'].incumbent){
 					party = data.elections['2019'].incumbent.party;
-					lbl += 'Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+data.elections['2019'].incumbent.mp+' - '+(parties[party] ? (parties[party].title||party):party);
+					p1 = getPartyDetails(party);
+					lbl += 'Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019'].incumbent.mp+' - '+p1.title;
 				}
 				
 			}
@@ -300,8 +313,9 @@
 				yy = years[y];
 				if(data.elections[yy]){
 					lbl += '<div class="popup-title">'+yy+'</div><p>';
-					party = data.elections[yy].first;
-					lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+(parties[party] ? (parties[party].title||party) : party)+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
+					party = data.elections[yy].party;
+					p1 = getPartyDetails(party);
+					lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
 					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
 					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')<br />';
 					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';
@@ -369,7 +383,7 @@
 				if(!this.data[type]) this.data[type] = {};
 				for(var i = 0; i < data.length; i++){
 					code = data[i]['ccode'];
-					if(code) this.data[type][code] = {'first': data[i].dissolution17};
+					if(code) this.data[type][code] = {'party': data[i].dissolution17};
 				}
 			},
 			'popup': {
@@ -381,7 +395,7 @@
 				var key = "";
 				var _obj = this;
 				this.hex.setColours = function(region){
-					r = _obj.data["2017-dissolution"][region].first;
+					r = _obj.data["2017-dissolution"][region].party;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color||'#f9f9f9' : '#f9f9f9');
@@ -399,7 +413,7 @@
 				if(!this.data[type]) this.data[type] = {};
 				for(var i = 0; i < data.length; i++){
 					code = data[i]['ccode'];
-					if(code) this.data[type][code] = {'first': data[i].first17};
+					if(code) this.data[type][code] = {'party': data[i].first17};
 				}
 			},
 			'popup': {
@@ -411,7 +425,7 @@
 				var key = "";
 				var _obj = this;
 				this.hex.setColours = function(region){
-					r = _obj.data["GE2017-results"][region].first;
+					r = _obj.data["GE2017-results"][region].party;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
 					return (parties[r].color || '#f9f9f9');
@@ -429,7 +443,7 @@
 				if(!this.data[type]) this.data[type] = {};
 				for(var i = 0; i < data.length; i++){
 					code = data[i]['region'];
-					if(code) this.data[type][code] = {'first': data[i].party};
+					if(code) this.data[type][code] = {'party': data[i].party};
 				}
 			},
 			'popup': {
@@ -442,9 +456,9 @@
 				var _obj = this;
 				this.hex.setColours = function(region){
 					if(_obj.data["GE2015-results"][region]){
-						r = _obj.data["GE2015-results"][region].first;
+						r = _obj.data["GE2015-results"][region].party;
 						if(r) r = r.replace(/[\n\r]/g,"");
-					}else console.warning('No region',r,region,parties[r]);
+					}else console.warn('No region',r,region,parties[r]);
 					return (parties[r].color || '#f9f9f9');
 				}
 				got = validParties(_obj,'GE2015-results');

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5920,
 				"name": "Richard Arkless",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5920.png"
 			},{
 				"id": 34790,
 				"name": "Alister Jack",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34790.png"
 			},{
 				"id": 71408,
 				"name": "McNabb Laurie",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71408.png"
 			},{
 				"id": 71871,
 				"name": "Ted Thompson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71871.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alister Jack"
+				"mp": "Alister Jack",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alister Jack",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25674/alister_jack/dumfries_and_galloway",
 			"electorate": 74206,
 			"turnout": 69.5,
@@ -40,8 +40,8 @@
 			"majority": 5643
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Richard  Arkless",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 75249,
 			"turnout": 75.3,
 			"valid": 56602,

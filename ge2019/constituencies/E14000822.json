@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2180,
 				"name": "Iain Stewart",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f611b247335574a42e31.png"
 			},{
 				"id": 3355,
 				"name": "Alan Francis",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516c196929f1bbe286be02c.png"
 			},{
 				"id": 6743,
 				"name": "Stephen Fulton",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6743-9de031cd-73de-4043-a5ea-eee02fae7421.png"
 			},{
 				"id": 13327,
 				"name": "Hannah Frances O'Neill",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13327.png"
 			},{
 				"id": 70432,
 				"name": "Saleyha Ahsan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70432.png"
 			},{
 				"id": 72523,
 				"name": "Amarachi Marilyn Ogba",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Iain Stewart"
+				"mp": "Iain Stewart",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Iain Stewart",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24947/iain_stewart/milton_keynes_south",
 			"electorate": 92417,
 			"turnout": 69.8,
@@ -50,8 +50,8 @@
 			"majority": 1665
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Iain Stewart",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 89656,
 			"turnout": 66.0,
 			"valid": 58949,

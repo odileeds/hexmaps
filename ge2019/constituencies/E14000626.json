@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3857,
 				"name": "Tracey Crouch",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a118f0e9e2c82406ebad.png"
 			},{
 				"id": 6490,
 				"name": "John Wesley Gibson",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6490.png"
 			},{
 				"id": 7535,
 				"name": "David Naghi",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7535.png"
 			},{
 				"id": 34465,
 				"name": "Vince Maple",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34465-fe09987d-c6f0-411e-80a4-64a45ea70fd5.png"
 			},{
 				"id": 72205,
 				"name": "Geoff Wilkinson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72205-8684c706-ce97-4bfc-abcb-505edec7f617.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Tracey Crouch"
+				"mp": "Tracey Crouch",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Tracey Crouch",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24871/tracey_crouch/chatham_and_aylesford",
 			"electorate": 70419,
 			"turnout": 63.7,
@@ -45,8 +45,8 @@
 			"majority": 10458
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Tracey Crouch",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66355,
 			"turnout": 65.2,
 			"valid": 43073,

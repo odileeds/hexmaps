@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3079,
 				"name": "Chris Bryant",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55321cb429c5d53959d9e440.png"
 			},{
 				"id": 20032,
 				"name": "Rodney Simon Berman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20032-e122be8c-3df1-4157-823f-4df27f924313.png"
 			},{
 				"id": 34287,
 				"name": "Branwen Cennard",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34287.png"
 			},{
 				"id": 72031,
 				"name": "Shaun Thomas",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72031.png"
 			},{
 				"id": 72611,
 				"name": "Hannah Elizabeth Jarvis",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72611-77b39a8a-5c39-462a-830b-7c2283146388.png"
 			},{
 				"id": 72614,
 				"name": "John Watkins",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72614-c6d22e29-f0cf-4ae3-8ffe-10cd91e2010c.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Chris Bryant"
+				"mp": "Chris Bryant",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chris Bryant",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10761/chris_bryant/rhondda",
 			"electorate": 50514,
 			"turnout": 65.2,
@@ -50,8 +50,8 @@
 			"majority": 13746
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Chris Bryant",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 51811,
 			"turnout": 61.0,
 			"valid": 31538,

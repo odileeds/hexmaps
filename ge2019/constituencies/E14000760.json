@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2977,
 				"name": "Mike Gapes",
-				"party": "The Independent Group for Change",
+				"party": { "code": "", "title": "The Independent Group for Change" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ad80262426fe9b6b15128.jpg"
 			},{
 				"id": 6939,
 				"name": "RoseMary Warrington",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b49c47b9de399275bb48f.png"
 			},{
 				"id": 7046,
 				"name": "Ashburn Holder",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a1a6d669ac35f4d2bec80.png"
 			},{
 				"id": 71494,
 				"name": "Munish Sharma",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71494.png"
 			},{
 				"id": 71495,
 				"name": "Sam Tarry",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71495.png"
 			},{
 				"id": 71902,
 				"name": "Ali Azeem",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71902.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Mike Gapes"
+				"mp": "Mike Gapes",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Mike Gapes",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10219/mike_gapes/ilford_south",
 			"electorate": 85358,
 			"turnout": 67.5,
@@ -50,8 +50,8 @@
 			"majority": 31647
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Mike Gapes",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 91987,
 			"turnout": 56.6,
 			"valid": 51912,

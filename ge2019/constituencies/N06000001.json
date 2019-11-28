@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 2454,
 				"name": "Naomi Long",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5522e4ea328bff5d39338a74.png"
 			},{
 				"id": 4595,
 				"name": "Gavin Robinson",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357404367dc5383f552cd9.png"
 			},{
 				"id": 8156,
 				"name": "Carl  McClean",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8156.png"
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Gavin Robinson"
+				"mp": "Gavin Robinson",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Gavin Robinson",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25280/gavin_robinson/belfast_east",
 			"electorate": 63495,
 			"turnout": 67.5,
@@ -35,8 +35,8 @@
 			"majority": 8474
 		},
 		"2015": {
-			"first": "Democratic Unionist Party",
 			"mp": "Gavin Robinson",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 63157,
 			"turnout": 63.1,
 			"valid": 39682,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3556,
 				"name": "Edward Leigh",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3556.png"
 			},{
 				"id": 6821,
 				"name": "Lesley Rollings",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489e69f1cad250106f2e5f.png"
 			},{
 				"id": 63209,
 				"name": "Perry Peter Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			},{
 				"id": 72200,
 				"name": "Mary Elaine Cavill",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Edward Leigh"
+				"mp": "Edward Leigh",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Edward Leigh",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10352/edward_leigh/gainsborough",
 			"electorate": 75893,
 			"turnout": 67.8,
@@ -40,8 +40,8 @@
 			"majority": 17023
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Edward Leigh",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74686,
 			"turnout": 66.2,
 			"valid": 49261,

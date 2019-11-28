@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2947,
 				"name": "Barbara Keeley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54aa655aae93cef57e34e665.png"
 			},{
 				"id": 14205,
 				"name": "Daniel Towers",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 15766,
 				"name": "Seamus Martin",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15766.png"
 			},{
 				"id": 15769,
 				"name": "Arnold Saunders",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15769.png"
 			},{
 				"id": 64189,
 				"name": "Joe Johnson-Tod",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64189.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Barbara Keeley"
+				"mp": "Barbara Keeley",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Barbara Keeley",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11943/barbara_keeley/worsley_and_eccles_south",
 			"electorate": 73689,
 			"turnout": 61.9,
@@ -45,8 +45,8 @@
 			"majority": 8379
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Barbara Keeley",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72177,
 			"turnout": 58.4,
 			"valid": 42048,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4159,
 				"name": "Kieran John Mullan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4159.png"
 			},{
 				"id": 34382,
 				"name": "Laura Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34382.png"
 			},{
 				"id": 53351,
 				"name": "Te Ata Browne",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53351.png"
 			},{
 				"id": 53444,
 				"name": "Matthew Cameron Theobald",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53444.png"
 			},{
 				"id": 71388,
 				"name": "Matthew Wood",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 71899,
 				"name": "Andrew John Kinsman",
-				"party": "Libertarian Party",
+				"party": { "code": "", "title": "Libertarian Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71899.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Laura Smith"
+				"mp": "Laura Smith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Laura Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25672/laura_smith/crewe_and_nantwich",
 			"electorate": 78895,
 			"turnout": 69.7,
@@ -50,8 +50,8 @@
 			"majority": 48
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Edward Timpson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74169,
 			"turnout": 67.6,
 			"valid": 49896,

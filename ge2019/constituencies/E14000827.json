@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2872,
 				"name": "Julian Lewis",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55474e766e3a2a7d5402b56b.png"
 			},{
 				"id": 7366,
 				"name": "Andrew David Knight",
-				"party": "Animal Welfare Party",
+				"party": { "code": "", "title": "Animal Welfare Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a1a45328b3f41504933ea.png"
 			},{
 				"id": 68585,
 				"name": "Nicola Jolly",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68585.png"
 			},{
 				"id": 71549,
 				"name": "Bob Johnston",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72257,
 				"name": "Julie Hope",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Julian Lewis"
+				"mp": "Julian Lewis",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Julian Lewis",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10358/julian_lewis/new_forest_east",
 			"electorate": 72602,
 			"turnout": 70.8,
@@ -45,8 +45,8 @@
 			"majority": 21995
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Julian Lewis",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72697,
 			"turnout": 68.3,
 			"valid": 49447,

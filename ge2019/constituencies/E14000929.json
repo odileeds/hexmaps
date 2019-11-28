@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 163,
 				"name": "Marianne Overton",
-				"party": "Lincolnshire Independents Lincolnshire First",
+				"party": { "code": "", "title": "Lincolnshire Independents Lincolnshire First" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bec44a51642637514d651.png"
 			},{
 				"id": 25622,
 				"name": "Simon Tooke",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25622.png"
 			},{
 				"id": 30134,
 				"name": "Linda Edwards-Shea",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30134.png"
 			},{
 				"id": 34348,
 				"name": "Caroline Johnson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34348.png"
 			},{
 				"id": 61320,
 				"name": "Oliver William Craven",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61320.png"
 			},{
 				"id": 71625,
 				"name": "Caroline Coram",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71625.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Caroline Johnson"
+				"mp": "Caroline Johnson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Caroline Johnson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25597/dr_caroline_johnson/sleaford_and_north_hykeham",
 			"electorate": 90929,
 			"turnout": 72.4,
@@ -50,8 +50,8 @@
 			"majority": 25237
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stephen Phillips",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 87972,
 			"turnout": 70.7,
 			"valid": 61944,

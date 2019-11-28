@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 24456,
 				"name": "Marie Goldman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24456.png"
 			},{
 				"id": 34298,
 				"name": "Vicky Ford",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34298.png"
 			},{
 				"id": 66368,
 				"name": "Penny Richards",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66368-d2cfce86-c10e-41f9-a7ed-29094640cd44.png"
 			},{
 				"id": 72188,
 				"name": "Mark Alan Lawrence",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72188-92a5d727-9473-4e04-b69a-6ade2d7ddbe2.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Vicky Ford"
+				"mp": "Vicky Ford",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Vicky Ford",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25614/vicky_ford/chelmsford",
 			"electorate": 81032,
 			"turnout": 70.2,
@@ -40,8 +40,8 @@
 			"majority": 13572
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Simon Burns",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78580,
 			"turnout": 68.7,
 			"valid": 53817,

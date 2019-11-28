@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 7028,
 				"name": "Flo Clucas",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8db4788906ef2517bd6e.png"
 			},{
 				"id": 39408,
 				"name": "Keir Lawrence Williams",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39408.png"
 			},{
 				"id": 70750,
 				"name": "Shaun Stephen Bailey",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72022.png"
 			},{
 				"id": 71726,
 				"name": "Franco D'Aulerio",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71726.png"
 			},{
 				"id": 72067,
 				"name": "James Thomas Cunningham",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Adrian Bailey"
+				"mp": "Adrian Bailey",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Adrian Bailey",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10683/adrian_bailey/west_bromwich_west",
 			"electorate": 65967,
 			"turnout": 54.7,
@@ -45,8 +45,8 @@
 			"majority": 4460
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Adrian Bailey",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 65524,
 			"turnout": 53.7,
 			"valid": 35026,

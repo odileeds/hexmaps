@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 439,
 				"name": "Jonathan Essex",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/439.png"
 			},{
 				"id": 1641,
 				"name": "Crispin Blunt",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553500f7b247335574a42e4f.png"
 			},{
 				"id": 3559,
 				"name": "John Vincent",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52047.png"
 			},{
 				"id": 56246,
 				"name": "Susan Kathryn Gregory",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72204-0d7ab49b-fa24-43eb-94cd-8262e1be1e42.png"
 			},{
 				"id": 72210,
 				"name": "Julia Florence Searle",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Crispin Blunt"
+				"mp": "Crispin Blunt",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Crispin Blunt",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10051/crispin_blunt/reigate",
 			"electorate": 74628,
 			"turnout": 72.1,
@@ -45,8 +45,8 @@
 			"majority": 17614
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Crispin Blunt",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73429,
 			"turnout": 70.2,
 			"valid": 51349,

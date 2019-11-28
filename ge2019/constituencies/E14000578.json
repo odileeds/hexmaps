@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 919,
 				"name": "David Crausby",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a0a9fb989d5e837ae99e3.png"
 			},{
 				"id": 11310,
 				"name": "Warren Fox",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11310.png"
 			},{
 				"id": 34432,
 				"name": "Liz Spencer",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34432.png"
 			},{
 				"id": 71314,
 				"name": "Mark Logan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 71315,
 				"name": "Trevor Jones",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71315.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "David Crausby"
+				"mp": "David Crausby",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "David Crausby",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10141/david_crausby/bolton_north_east",
 			"electorate": 67233,
 			"turnout": 67.2,
@@ -45,8 +45,8 @@
 			"majority": 3797
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "David Crausby",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67895,
 			"turnout": 63.8,
 			"valid": 43161,

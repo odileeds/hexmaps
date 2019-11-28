@@ -6,57 +6,57 @@
 			"candidates": [{
 				"id": 7412,
 				"name": "Maureen Martin",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55390bcf539d9492693b0977.png"
 			},{
 				"id": 40161,
 				"name": "Ade Fatukasi",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40161.png"
 			},{
 				"id": 44584,
 				"name": "Sam Thurgood",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44584-b937aa0b-9d88-496c-9df3-ce13450a9379.png"
 			},{
 				"id": 45229,
 				"name": "Janet Daby",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45229.png"
 			},{
 				"id": 48952,
 				"name": "Rosamund Adoo-Kissi-Debrah",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48952.png"
 			},{
 				"id": 72342,
 				"name": "Mark Barber",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72342-2630c15b-41c0-477f-8d1f-e79f3bd387ce.png"
 			},{
 				"id": 72343,
 				"name": "Richard Galloway",
-				"party": "Young People's Party YPP",
+				"party": { "code": "", "title": "Young People's Party YPP" },
 				"img": ""
 			},{
 				"id": 72344,
 				"name": "Elder Roger N M Mighton",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72345,
 				"name": "Wesley Derek Bruce Pollard",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Janet Daby"
+				"mp": "Janet Daby",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Janet Daby",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25727/janet_daby/lewisham_east",
 			"electorate": 68124,
 			"turnout": 33.3,
@@ -65,8 +65,8 @@
 			"majority": 5629
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Heidi Alexander",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66913,
 			"turnout": 64.3,
 			"valid": 42923,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 16833,
 				"name": "Tonia Antoniazzi",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16833_xNRvSG0.png"
 			},{
 				"id": 26849,
 				"name": "Sam Bennett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26849.png"
 			},{
 				"id": 71458,
 				"name": "Francesca O'Brien",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71458-6034f3a6-8c53-45bb-97e8-132defe49f40.png"
 			},{
 				"id": 71850,
 				"name": "John Davies",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71850-e4b49faf-3f39-499c-bc31-be332bbd14ff.png"
 			},{
 				"id": 72395,
 				"name": "Rob Ross",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Tonia Antoniazzi"
+				"mp": "Tonia Antoniazzi",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Tonia Antoniazzi",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25634/tonia_antoniazzi/gower",
 			"electorate": 62163,
 			"turnout": 73.3,
@@ -45,8 +45,8 @@
 			"majority": 3269
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Byron Davies",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 61820,
 			"turnout": 69.3,
 			"valid": 42758,

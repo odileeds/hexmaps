@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1164,
 				"name": "Sam Webber",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9cb3dcfe1d5b5cf81465.png"
 			},{
 				"id": 34773,
 				"name": "Claudine Letsae",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34773.png"
 			},{
 				"id": 71437,
 				"name": "Tom Bright",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71437.png"
 			},{
 				"id": 71816,
 				"name": "Abena Oppong-Asare",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71816.png"
 			},{
 				"id": 72430,
 				"name": "Richard Mitchell",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			},{
 				"id": 72431,
 				"name": "Joe Paul James Robertson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72431-2296c4a7-bb76-4660-9921-186d14a27c1b.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Teresa Pearce"
+				"mp": "Teresa Pearce",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Teresa Pearce",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24956/teresa_pearce/erith_and_thamesmead",
 			"electorate": 69724,
 			"turnout": 63.8,
@@ -50,8 +50,8 @@
 			"majority": 10014
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Teresa Pearce",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70397,
 			"turnout": 60.7,
 			"valid": 42617,

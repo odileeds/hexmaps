@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5600,
 				"name": "Judith Cummins",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a94bf3a37ac9054592954.png"
 			},{
 				"id": 6017,
 				"name": "Alun Griffiths",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c97a842c427035c8db3e9.png"
 			},{
 				"id": 13459,
 				"name": "Matthew Clive Edwards",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13459.png"
 			},{
 				"id": 71321,
 				"name": "Kulvinder Singh Manik",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71321-ffa8b00d-7627-46a1-b444-2ff2871e06e1.png"
 			},{
 				"id": 72388,
 				"name": "Narinder Singh Sekhon",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Judith Cummins"
+				"mp": "Judith Cummins",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Judith Cummins",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25393/judith_cummins/bradford_south",
 			"electorate": 67752,
 			"turnout": 60.6,
@@ -45,8 +45,8 @@
 			"majority": 6700
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Judith Cummins",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63674,
 			"turnout": 59.2,
 			"valid": 37600,

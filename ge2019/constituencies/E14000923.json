@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 432,
 				"name": "Simon William Clement-Jones",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/432.png"
 			},{
 				"id": 4421,
 				"name": "Louise Haigh",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4421_U9bwOVm.png"
 			},{
 				"id": 35052,
 				"name": "Gordon C Gregory",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35052-e55ffef6-9fc7-4895-80b8-4f14ef7916e9.png"
 			},{
 				"id": 35074,
 				"name": "Tracy Knowles",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35074.png"
 			},{
 				"id": 36182,
 				"name": "Paul Turpin",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36182.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Louise Haigh"
+				"mp": "Louise Haigh",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Louise Haigh",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25357/louise_haigh/sheffield%2C_heeley",
 			"electorate": 68040,
 			"turnout": 65.0,
@@ -45,8 +45,8 @@
 			"majority": 13828
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Louise Haigh",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67950,
 			"turnout": 62.1,
 			"valid": 42048,

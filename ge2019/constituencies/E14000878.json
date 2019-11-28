@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 1259,
 				"name": "Paul Bristow",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1259.png"
 			},{
 				"id": 4402,
 				"name": "Lisa Forbes",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4402.png"
 			},{
 				"id": 19344,
 				"name": "Beki Sellick",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34886_bW1AfPi.png"
 			},{
 				"id": 19384,
 				"name": "Joseph Wells",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19384.png"
 			},{
 				"id": 70587,
 				"name": "Mike Greene",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70587.png"
 			},{
 				"id": 70589,
 				"name": "Tom Rogers",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70589.png"
 			},{
 				"id": 72442,
 				"name": "Luke Ferguson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72442-288d3a4d-346b-4004-8617-ce9be22b2ee9.png"
 			},{
 				"id": 72443,
 				"name": "The Very Raving Mr P",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Lisa Forbes"
+				"mp": "Lisa Forbes",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lisa Forbes",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25772/lisa_forbes/peterborough",
 			"electorate": 71522,
 			"turnout": 48.4,
@@ -60,8 +60,8 @@
 			"majority": 683
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stewart Jackson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72530,
 			"turnout": 65.1,
 			"valid": 47075,

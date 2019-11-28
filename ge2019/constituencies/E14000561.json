@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 752,
 				"name": "Ann Holtom",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489a73f1cad250106f2e59.png"
 			},{
 				"id": 3363,
 				"name": "Jack Dromey",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a52e29835427b757b1e09.png"
 			},{
 				"id": 3958,
 				"name": "Robert Alden",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525effc413cb4432adffa63.png"
 			},{
 				"id": 9957,
 				"name": "Robert Andrew Grant",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 71302,
 				"name": "Wendy Garcarz",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71302.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jack Dromey"
+				"mp": "Jack Dromey",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jack Dromey",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24825/jack_dromey/birmingham%2C_erdington",
 			"electorate": 65067,
 			"turnout": 57.2,
@@ -45,8 +45,8 @@
 			"majority": 7285
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jack Dromey",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65128,
 			"turnout": 53.4,
 			"valid": 34684,

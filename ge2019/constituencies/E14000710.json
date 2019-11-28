@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1272,
 				"name": "Vernon Coaker",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8ce5a621e036281d5742.png"
 			},{
 				"id": 4901,
 				"name": "Jim Norris",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/554800f7202d360b737e0ffa.png"
 			},{
 				"id": 7411,
 				"name": "Anita Prabhakar",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548acb09b4dcd1028de1cc0.png"
 			},{
 				"id": 71449,
 				"name": "Graham Hunt",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71449-780af7e4-64ec-4757-a77f-3569ac88d6be.png"
 			},{
 				"id": 71450,
 				"name": "Tom Randall",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71450.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Vernon Coaker"
+				"mp": "Vernon Coaker",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Vernon Coaker",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10121/vernon_coaker/gedling",
 			"electorate": 71223,
 			"turnout": 72.6,
@@ -45,8 +45,8 @@
 			"majority": 4694
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Vernon Coaker",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70000,
 			"turnout": 68.8,
 			"valid": 47998,

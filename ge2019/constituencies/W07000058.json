@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2283,
 				"name": "Robin John Millar",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2283.png"
 			},{
 				"id": 23474,
 				"name": "Emily Owen",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23474.png"
 			},{
 				"id": 24757,
 				"name": "Jason Edwards",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24757-cd367fa8-8fa5-47f5-863d-06855c652fe5.png"
 			},{
 				"id": 71274,
 				"name": "Lisa Goodier",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71274.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Guto Bebb"
+				"mp": "Guto Bebb",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Guto Bebb",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24736/guto_bebb/aberconwy",
 			"electorate": 45251,
 			"turnout": 71.0,
@@ -40,8 +40,8 @@
 			"majority": 635
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Guto Bebb",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 45525,
 			"turnout": 66.4,
 			"valid": 30148,

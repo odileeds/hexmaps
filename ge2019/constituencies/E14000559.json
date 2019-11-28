@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 92,
 				"name": "Frank Field",
-				"party": "Birkenhead Social Justice Party",
+				"party": { "code": "", "title": "Birkenhead Social Justice Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356f1d367dc5383f552cb7.png"
 			},{
 				"id": 93,
 				"name": "Stuart Kelly",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/93.png"
 			},{
 				"id": 44675,
 				"name": "Pat Cleary",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44675.png"
 			},{
 				"id": 50936,
 				"name": "Claire Rowles",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50936.png"
 			},{
 				"id": 71301,
 				"name": "Mick Whitley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71301.png"
 			},{
 				"id": 72090,
 				"name": "Darren Lee Lythgoe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72090.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Frank Field"
+				"mp": "Frank Field",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Frank Field",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10197/frank_field/birkenhead",
 			"electorate": 64484,
 			"turnout": 67.7,
@@ -50,8 +50,8 @@
 			"majority": 25514
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Frank Field",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62410,
 			"turnout": 62.9,
 			"valid": 39144,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4846,
 				"name": "Melanie Onn",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71813.png"
 			},{
 				"id": 18017,
 				"name": "Ian Barfield",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18017-102a5b9e-64e0-4aaf-a24c-934e7ab78e4c.png"
 			},{
 				"id": 34817,
 				"name": "Loyd Emmerson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34817-903f6b6a-407a-4fbe-857c-1dd7de457b34.png"
 			},{
 				"id": 35117,
 				"name": "Lia Nici",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35117.png"
 			},{
 				"id": 70534,
 				"name": "Christopher Barker",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70534.png"
 			},{
 				"id": 72435,
 				"name": "Nigel James Winn",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Melanie Onn"
+				"mp": "Melanie Onn",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Melanie Onn",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25317/melanie_onn/great_grimsby",
 			"electorate": 61743,
 			"turnout": 57.5,
@@ -50,8 +50,8 @@
 			"majority": 2565
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Melanie Onn",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 59200,
 			"turnout": 57.2,
 			"valid": 33731,

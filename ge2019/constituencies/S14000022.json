@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 818,
 				"name": "Sheila Gilmore",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa958319151d456c24fb1.png"
 			},{
 				"id": 5795,
 				"name": "Tommy Sheppard",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553624284eb6352b1643ebcb.png"
 			},{
 				"id": 20112,
 				"name": "Claire Miller",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71752.png"
 			},{
 				"id": 34518,
 				"name": "Eleanor Price",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34518.png"
 			},{
 				"id": 71425,
 				"name": "Jill Reilly",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71425.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Tommy Sheppard"
+				"mp": "Tommy Sheppard",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Tommy Sheppard",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25341/tommy_sheppard/edinburgh_east",
 			"electorate": 65896,
 			"turnout": 66.0,
@@ -45,8 +45,8 @@
 			"majority": 3425
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Tommy Sheppard",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67141,
 			"turnout": 70.2,
 			"valid": 47089,

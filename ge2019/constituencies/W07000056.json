@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2752,
 				"name": "Jonathan Clark",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2752.png"
 			},{
 				"id": 4383,
 				"name": "Ruth Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4383.png"
 			},{
 				"id": 7460,
 				"name": "Amelia Womack",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7460.png"
 			},{
 				"id": 8468,
 				"name": "Matthew Evans",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8468.png"
 			},{
 				"id": 32833,
 				"name": "Ryan Jones",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32833.png"
 			},{
 				"id": 72628,
 				"name": "Cameron Owen Edwards",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72628-5f2043bd-0bed-41b8-bf1b-d19d2fd6c67e.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ruth Jones"
+				"mp": "Ruth Jones",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ruth Jones",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25746/ruth_jones/newport_west",
 			"electorate": 64399,
 			"turnout": 37.1,
@@ -50,8 +50,8 @@
 			"majority": 1951
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Paul Flynn",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62137,
 			"turnout": 65.1,
 			"valid": 40347,

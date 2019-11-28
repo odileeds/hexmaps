@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6054,
 				"name": "Gavin Newlands",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8c91e6d2cbcd26e36a29.png"
 			},{
 				"id": 34279,
 				"name": "Alison Taylor",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34279.png"
 			},{
 				"id": 71906,
 				"name": "Ross Stalker",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71906.png"
 			},{
 				"id": 72420,
 				"name": "Julie Pirone",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Gavin Newlands"
+				"mp": "Gavin Newlands",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Gavin Newlands",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25291/gavin_newlands/paisley_and_renfrewshire_north",
 			"electorate": 67436,
 			"turnout": 69.1,
@@ -40,8 +40,8 @@
 			"majority": 2613
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Gavin Newlands",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 66206,
 			"turnout": 76.3,
 			"valid": 50462,

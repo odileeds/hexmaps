@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5427,
 				"name": "Jonny Roberts",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a231c328b3f41504933ec.png"
 			},{
 				"id": 24335,
 				"name": "Mark Stuart Gray",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 71716,
 				"name": "Richard Benwell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71716-4c6ff797-6ccc-4919-ac7f-77149c26582a.png"
 			},{
 				"id": 72039,
 				"name": "David Johnston",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Ed Vaizey"
+				"mp": "Ed Vaizey",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Edward Vaizey",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11905/ed_vaizey/wantage",
 			"electorate": 85786,
 			"turnout": 74.1,
@@ -40,8 +40,8 @@
 			"majority": 17380
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Edward Vaizey",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82931,
 			"turnout": 70.6,
 			"valid": 58320,

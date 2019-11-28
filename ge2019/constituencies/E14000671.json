@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 16082,
 				"name": "Ian Flynn",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16082.png"
 			},{
 				"id": 35819,
 				"name": "Mike Harrison",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35819.png"
 			},{
 				"id": 52116,
 				"name": "Marco Longhi",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52116.png"
 			},{
 				"id": 71974,
 				"name": "Melanie Dudley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71974.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Ian Austin"
+				"mp": "Ian Austin",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ian Austin",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11553/ian_austin/dudley_north",
 			"electorate": 62043,
 			"turnout": 62.7,
@@ -40,8 +40,8 @@
 			"majority": 22
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ian Austin",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60717,
 			"turnout": 62.7,
 			"valid": 37992,

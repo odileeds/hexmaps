@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 502,
 				"name": "Zac Goldsmith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351f40b247335574a42e7e.png"
 			},{
 				"id": 34333,
 				"name": "Sarah Olney",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34333.png"
 			},{
 				"id": 38061,
 				"name": "John Usher",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 48188,
 				"name": "Sandra Gay Keen",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			},{
 				"id": 72326,
 				"name": "Caroline Teresa Shah",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72326-f520e3b1-313c-4f4c-a860-79a94b1ff6f4.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Zac Goldsmith"
+				"mp": "Zac Goldsmith",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Zac Goldsmith",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24911/zac_goldsmith/richmond_park",
 			"electorate": 80025,
 			"turnout": 79.1,
@@ -45,8 +45,8 @@
 			"majority": 45
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Zac Goldsmith",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77303,
 			"turnout": 76.6,
 			"valid": 59101,

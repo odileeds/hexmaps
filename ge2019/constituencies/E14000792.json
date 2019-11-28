@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 1886,
 				"name": "Karl McCartney",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517d815249b917507bee4f7.png"
 			},{
 				"id": 17438,
 				"name": "Karen Lee",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17438_88idLbJ.png"
 			},{
 				"id": 17443,
 				"name": "Charles William Shaw",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17443.png"
 			},{
 				"id": 17516,
 				"name": "Sally Horscroft",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 25617,
 				"name": "Caroline Kenyon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25617.png"
 			},{
 				"id": 71516,
 				"name": "Reece Wilkes",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71516.png"
 			},{
 				"id": 72434,
 				"name": "Rob Bradley",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Karen Lee"
+				"mp": "Karen Lee",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Karen Lee",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25682/karen_lee/lincoln",
 			"electorate": 73111,
 			"turnout": 66.6,
@@ -55,8 +55,8 @@
 			"majority": 1538
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Karl McCartney",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74121,
 			"turnout": 63.5,
 			"valid": 46852,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1184,
 				"name": "Gordon Marsden",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b88a4788906ef2517bd68.png"
 			},{
 				"id": 3976,
 				"name": "Bill Greene",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3976.png"
 			},{
 				"id": 19718,
 				"name": "Scott Lloyd Benton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19718.png"
 			},{
 				"id": 53030,
 				"name": "Gary Ian Coleman",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 61820,
 				"name": "Rebecca Daniels",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 71309,
 				"name": "David Brown",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71309-16a1765a-291f-4ae0-b93b-4012b9d79d3a.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Gordon Marsden"
+				"mp": "Gordon Marsden",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Gordon Marsden",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10415/gordon_marsden/blackpool_south",
 			"electorate": 58470,
 			"turnout": 59.8,
@@ -50,8 +50,8 @@
 			"majority": 2523
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Gordon Marsden",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 57411,
 			"turnout": 56.8,
 			"valid": 32436,

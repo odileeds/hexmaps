@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4226,
 				"name": "David Warburton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e769b150e238702c0524.png"
 			},{
 				"id": 6318,
 				"name": "Adam Boyden",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517c7de249b917507bee4dc.png"
 			},{
 				"id": 34356,
 				"name": "Sean Dromgoole",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34356.png"
 			},{
 				"id": 71627,
 				"name": "Andrea Dexter",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71627-bbdee464-911c-4d13-b1e2-dfc2a8a6ee8a.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Warburton"
+				"mp": "David Warburton",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Warburton",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25372/david_warburton/somerton_and_frome",
 			"electorate": 84437,
 			"turnout": 75.7,
@@ -40,8 +40,8 @@
 			"majority": 22906
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Warburton",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83281,
 			"turnout": 72.6,
 			"valid": 60309,

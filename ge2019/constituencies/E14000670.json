@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 7182,
 				"name": "Simon Dodd",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548b58dc0821aec2c24221a.png"
 			},{
 				"id": 27457,
 				"name": "Beccy Sawbridge",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27457.png"
 			},{
 				"id": 71404,
 				"name": "Charlotte Cornell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71404.png"
 			},{
 				"id": 71406,
 				"name": "Eljai Morais",
-				"party": "Women's Equality Party",
+				"party": { "code": "", "title": "Women's Equality Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71406.png"
 			},{
 				"id": 71953,
 				"name": "Natalie Elphicke",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71953.png"
 			},{
 				"id": 72564,
 				"name": "Nathan Sutton",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72564-b551fabb-2f7c-447d-a0db-3888ec8138b3.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Charlie Elphicke"
+				"mp": "Charlie Elphicke",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Charlie Elphicke",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24777/charlie_elphicke/dover",
 			"electorate": 74564,
 			"turnout": 69.7,
@@ -50,8 +50,8 @@
 			"majority": 6437
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Charlie Elphicke",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72930,
 			"turnout": 69.1,
 			"valid": 50224,

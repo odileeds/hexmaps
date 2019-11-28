@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 4172,
 				"name": "Amanda Milling",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4172.png"
 			},{
 				"id": 6894,
 				"name": "Paul Woodhead",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55181ef6249b917507bee55c.png"
 			},{
 				"id": 64037,
 				"name": "Anne Denise Hobbs",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Amanda Milling"
+				"mp": "Amanda Milling",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Amanda Milling",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25350/amanda_milling/cannock_chase",
 			"electorate": 74540,
 			"turnout": 64.2,
@@ -35,8 +35,8 @@
 			"majority": 8391
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Amanda Milling",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74532,
 			"turnout": 63.4,
 			"valid": 47099,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4893,
 				"name": "Victoria Atkins",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1997668e142f73d3b490.png"
 			},{
 				"id": 5555,
 				"name": "Ross David Pepper",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5501a4a0551f41c939045335.png"
 			},{
 				"id": 8198,
 				"name": "The Iconic Arty-Pole",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8198.png"
 			},{
 				"id": 69344,
 				"name": "Ellie Green",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Victoria Atkins"
+				"mp": "Victoria Atkins",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Victoria Atkins",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25424/victoria_atkins/louth_and_horncastle",
 			"electorate": 79007,
 			"turnout": 66.8,
@@ -40,8 +40,8 @@
 			"majority": 19641
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Victoria Atkins",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74870,
 			"turnout": 67.5,
 			"valid": 50336,

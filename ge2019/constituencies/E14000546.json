@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 49193,
 				"name": "Helen Tamblyn-Saville",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49193.png"
 			},{
 				"id": 56018,
 				"name": "Keir Alexander Morrison",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56018.png"
 			},{
 				"id": 65408,
 				"name": "Brendan Clarke-Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65408-1feb77b7-385e-4654-92de-987332ae59c8.png"
 			},{
 				"id": 71847,
 				"name": "Debbie Soloman",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71847.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "John Mann"
+				"mp": "John Mann",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "John Mann",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11093/john_mann/bassetlaw",
 			"electorate": 78540,
 			"turnout": 66.5,
@@ -40,8 +40,8 @@
 			"majority": 4852
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "John Mann",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76796,
 			"turnout": 64.4,
 			"valid": 49289,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3658,
 				"name": "Chi Onwurah",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55292052b6a860ed1648be47.png"
 			},{
 				"id": 13217,
 				"name": "Tay Pitman",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13217.png"
 			},{
 				"id": 35779,
 				"name": "Emily Payne",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 37915,
 				"name": "Ali Avaei",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37915.png"
 			},{
 				"id": 72298,
 				"name": "Mark Frederick Glenn Griffin",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72298-124fcefa-4000-4d84-8a43-6d36467e35e4.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Chi Onwurah"
+				"mp": "Chi Onwurah",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chi Onwurah",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24807/chi_onwurah/newcastle_upon_tyne_central",
 			"electorate": 55368,
 			"turnout": 67.0,
@@ -45,8 +45,8 @@
 			"majority": 14937
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Chi Onwurah",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58147,
 			"turnout": 60.5,
 			"valid": 35085,

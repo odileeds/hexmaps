@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3384,
 				"name": "Chris Ruane",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b4276e6d2cbcd26e36a26.png"
 			},{
 				"id": 4241,
 				"name": "James Davies",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4241.png"
 			},{
 				"id": 26354,
 				"name": "Glenn Swingler",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26354.png"
 			},{
 				"id": 71705,
 				"name": "Gavin Scott",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71705-25c124eb-d8bb-4094-b7c1-e2852d581f38.png"
 			},{
 				"id": 71706,
 				"name": "Peter Dain",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71706.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Chris Ruane"
+				"mp": "Chris Ruane",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chris Ruane",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10518/chris_ruane/vale_of_clwyd",
 			"electorate": 56890,
 			"turnout": 68.0,
@@ -45,8 +45,8 @@
 			"majority": 2379
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Davies",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 56505,
 			"turnout": 62.5,
 			"valid": 35261,

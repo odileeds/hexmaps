@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 388,
 				"name": "Michael Mullaney",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8d1b150e238702c0603.png"
 			},{
 				"id": 4158,
 				"name": "Luke Evans",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4158-3c616f46-e6cd-4bd2-a736-889b64bff7bd.png"
 			},{
 				"id": 23450,
 				"name": "Rick Middleton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23450.png"
 			},{
 				"id": 35142,
 				"name": "Mick Gregg",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35142.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Tredinnick"
+				"mp": "David Tredinnick",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Tredinnick",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10602/david_tredinnick/bosworth",
 			"electorate": 81661,
 			"turnout": 68.8,
@@ -40,8 +40,8 @@
 			"majority": 18351
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Tredinnick",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79738,
 			"turnout": 67.5,
 			"valid": 53582,

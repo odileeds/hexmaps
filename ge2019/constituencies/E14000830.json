@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 34522,
 				"name": "Laura Farris",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34522.png"
 			},{
 				"id": 35189,
 				"name": "Steve Masters",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68141.png"
 			},{
 				"id": 50853,
 				"name": "James Wilder",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50853-21f65ab1-a59e-4091-8722-e16f4cc280ca.png"
 			},{
 				"id": 68032,
 				"name": "Lee Raymond James Dillon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68032.png"
 			},{
 				"id": 72573,
 				"name": "Ben Holden-Crowther",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72573-02b645c4-5472-420a-8499-c1f44416063c.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Richard Benyon"
+				"mp": "Richard Benyon",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Richard Benyon",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11727/richard_benyon/newbury",
 			"electorate": 82924,
 			"turnout": 73.4,
@@ -45,8 +45,8 @@
 			"majority": 24380
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Richard Benyon",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79512,
 			"turnout": 72.3,
 			"valid": 57300,

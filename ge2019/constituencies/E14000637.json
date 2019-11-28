@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 595,
 				"name": "Lindsay Hoyle",
-				"party": "Speaker seeking re-election",
+				"party": { "code": "Spk", "title": "Speaker seeking re-election" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ab62c78c2688c57905d10.png"
 			},{
 				"id": 5631,
 				"name": "Mark Brexit-Smith",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 63726,
 				"name": "James Fletcher Melling",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63726.png"
 			}],
 			"incumbent": {
-				"party": "Spk",
-				"mp": "Lindsay Hoyle"
+				"mp": "Lindsay Hoyle",
+				"party": { "code": "Spk", "title": "Speaker" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lindsay Hoyle",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10295/lindsay_hoyle/chorley",
 			"electorate": 76404,
 			"turnout": 72.8,
@@ -35,8 +35,8 @@
 			"majority": 7512
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Lindsay Hoyle",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74679,
 			"turnout": 69.4,
 			"valid": 51712,

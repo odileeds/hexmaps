@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2657,
 				"name": "Ian Mearns",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2657.png"
 			},{
 				"id": 6452,
 				"name": "Peter Maughan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6452-790142a8-983a-477c-9e50-112aa3257cad.png"
 			},{
 				"id": 45522,
 				"name": "Rachel Cabral",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45522-61afe46f-6567-4edc-80e6-9ee7f7fc084f.png"
 			},{
 				"id": 72490,
 				"name": "Jane MacBean",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72490-27504579-ce71-4416-9bea-919bf7180e00.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ian Mearns"
+				"mp": "Ian Mearns",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ian Mearns",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24919/ian_mearns/gateshead",
 			"electorate": 65186,
 			"turnout": 64.6,
@@ -40,8 +40,8 @@
 			"majority": 17350
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ian Mearns",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64524,
 			"turnout": 59.0,
 			"valid": 37949,

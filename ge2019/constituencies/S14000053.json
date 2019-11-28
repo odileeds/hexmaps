@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6055,
 				"name": "Mhairi Black",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6055.png"
 			},{
 				"id": 13062,
 				"name": "Moira Ramage",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13062.png"
 			},{
 				"id": 21184,
 				"name": "Mark Dougan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 21923,
 				"name": "Jack Clark",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21923.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Mhairi Black"
+				"mp": "Mhairi Black",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Mhairi Black",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25269/mhairi_black/paisley_and_renfrewshire_south",
 			"electorate": 61344,
 			"turnout": 68.0,
@@ -40,8 +40,8 @@
 			"majority": 2541
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Mhairi Black",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 61281,
 			"turnout": 75.5,
 			"valid": 46226,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 847,
 				"name": "David Schmitz",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/847.png"
 			},{
 				"id": 6425,
 				"name": "Kate Osamor",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5518ab50249b917507bee597.png"
 			},{
 				"id": 34832,
 				"name": "Sabriye Warsame",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34832.png"
 			},{
 				"id": 40852,
 				"name": "Benjamin Maydon",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40852.png"
 			},{
 				"id": 49202,
 				"name": "James Andrew Hockney",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49202.png"
 			},{
 				"id": 72590,
 				"name": "Sachin Sehgal",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72590-122afbef-98e9-4316-b1d5-0f3326fcc0f4.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Kate Osamor"
+				"mp": "Kate Osamor",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kate Osamor",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25365/kate_osamor/edmonton",
 			"electorate": 65777,
 			"turnout": 66.4,
@@ -50,8 +50,8 @@
 			"majority": 21115
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Kate Osamor",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 66016,
 			"turnout": 62.9,
 			"valid": 41338,

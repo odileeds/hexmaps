@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1365,
 				"name": "Grahame Morris",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1365.png"
 			},{
 				"id": 6061,
 				"name": "Susan McDonnell",
-				"party": "The North East Party",
+				"party": { "code": "", "title": "The North East Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535100cb247335574a42e77.png"
 			},{
 				"id": 6723,
 				"name": "Dominic Haney",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a4d2a7940863c767fde2e.png"
 			},{
 				"id": 39769,
 				"name": "Clare Ambrosino",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39769.png"
 			},{
 				"id": 71415,
 				"name": "Julie Maughan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71415.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Grahame Morris"
+				"mp": "Grahame Morris",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Grahame Morris",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24715/grahame_morris/easington",
 			"electorate": 62385,
 			"turnout": 58.3,
@@ -45,8 +45,8 @@
 			"majority": 14892
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Grahame Morris",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61659,
 			"turnout": 56.2,
 			"valid": 34624,

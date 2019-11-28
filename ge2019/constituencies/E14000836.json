@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2607,
 				"name": "Yvette Cooper",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2607.png"
 			},{
 				"id": 27702,
 				"name": "Andrew Lee",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27702.png"
 			},{
 				"id": 30169,
 				"name": "Deneice Florence-Jukes",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30169.png"
 			},{
 				"id": 37920,
 				"name": "Thomas Anthony Gordon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37920.png"
 			},{
 				"id": 59396,
 				"name": "Laura Walker",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59396.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Yvette Cooper"
+				"mp": "Yvette Cooper",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Yvette Cooper",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10131/yvette_cooper/normanton%2C_pontefract_and_castleford",
 			"electorate": 81641,
 			"turnout": 60.3,
@@ -45,8 +45,8 @@
 			"majority": 14499
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Yvette Cooper",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82592,
 			"turnout": 55.8,
 			"valid": 45897,

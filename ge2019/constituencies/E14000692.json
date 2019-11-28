@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4041,
 				"name": "David Burrowes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a4e8f0e9e2c82406ebbc.png"
 			},{
 				"id": 4331,
 				"name": "Bambos Charalambous",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55292c50b6a860ed1648be61.png"
 			},{
 				"id": 6790,
 				"name": "Luke Balnave",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ab3d9c0ff2778587ee2bb.png"
 			},{
 				"id": 42409,
 				"name": "Rob Wilson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42409.png"
 			},{
 				"id": 72589,
 				"name": "Parag Shah",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72589-e683a67d-eef4-472e-a8c6-6a2c49c84d46.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Bambos Charalambous"
+				"mp": "Bambos Charalambous",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Bambos Charalambous",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25676/bambos_charalambous/enfield%2C_southgate",
 			"electorate": 65210,
 			"turnout": 74.1,
@@ -45,8 +45,8 @@
 			"majority": 4355
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Burrowes",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64937,
 			"turnout": 70.7,
 			"valid": 45812,

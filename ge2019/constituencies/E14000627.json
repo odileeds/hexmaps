@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 4175,
 				"name": "Mary Robinson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4175.png"
 			},{
 				"id": 8884,
 				"name": "Zahid Chauhan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8884.png"
 			},{
 				"id": 34655,
 				"name": "Tom Morrison",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34655.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mary Robinson"
+				"mp": "Mary Robinson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mary Robinson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25405/mary_robinson/cheadle",
 			"electorate": 73406,
 			"turnout": 74.3,
@@ -35,8 +35,8 @@
 			"majority": 4507
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mary Robinson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73239,
 			"turnout": 72.7,
 			"valid": 53095,

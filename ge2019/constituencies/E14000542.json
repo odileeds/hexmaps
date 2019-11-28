@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3552,
 				"name": "Jim Ferguson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3552.png"
 			},{
 				"id": 4345,
 				"name": "Stephanie Peacock",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4345.png"
 			},{
 				"id": 9573,
 				"name": "Richard Thomas James Trotman",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9573.png"
 			},{
 				"id": 12184,
 				"name": "Sophie Thornton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 36831,
 				"name": "Adam Gregg",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36831.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Stephanie Peacock"
+				"mp": "Stephanie Peacock",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Stephanie Peacock",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25617/stephanie_peacock/barnsley_east",
 			"electorate": 69214,
 			"turnout": 58.9,
@@ -45,8 +45,8 @@
 			"majority": 13283
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Michael Dugher",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69135,
 			"turnout": 56.0,
 			"valid": 38517,

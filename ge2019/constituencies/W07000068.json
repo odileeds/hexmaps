@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4515,
 				"name": "Jane Dodds",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550e991e9253711a232cfb91.png"
 			},{
 				"id": 6892,
 				"name": "Jeff Green",
-				"party": "Christian Party "Proclaiming Christ's Lordship"",
+				"party": { "code": "Christian", "title": "Christian Party "Proclaiming Christ's Lordship"" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72387-dffe9d58-b268-4cc8-a215-657c6838f1a9.png"
 			},{
 				"id": 8247,
 				"name": "Lady Lily the Pink",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8247.png"
 			},{
 				"id": 70555,
 				"name": "Fay Alicia Jones",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70555.png"
 			},{
 				"id": 70652,
 				"name": "Tom Davies",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70652.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Jane Dodds"
+				"mp": "Jane Dodds",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jane Dodds",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25774/jane_dodds/brecon_and_radnorshire",
 			"electorate": 56010,
 			"turnout": 59.7,
@@ -45,8 +45,8 @@
 			"majority": 1425
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chris Davies",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 54441,
 			"turnout": 73.7,
 			"valid": 40074,

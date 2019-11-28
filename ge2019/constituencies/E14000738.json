@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 4197,
 				"name": "William Wragg",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4197.png"
 			},{
 				"id": 4503,
 				"name": "Lisa Smart",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e910b150e238702c0627.png"
 			},{
 				"id": 71826,
 				"name": "Tony Wilson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71826.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "William Wragg"
+				"mp": "William Wragg",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "William Wragg",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25360/william_wragg/hazel_grove",
 			"electorate": 63166,
 			"turnout": 69.9,
@@ -35,8 +35,8 @@
 			"majority": 5514
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "William Wragg",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63098,
 			"turnout": 68.7,
 			"valid": 43219,

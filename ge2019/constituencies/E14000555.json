@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 143,
 				"name": "Rushanara Ali",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535cf82367dc5383f552cef.png"
 			},{
 				"id": 4870,
 				"name": "Shahrar Ali",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4870.png"
 			},{
 				"id": 7400,
 				"name": "Vanessa Hudson",
-				"party": "Animal Welfare Party",
+				"party": { "code": "", "title": "Animal Welfare Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7400.png"
 			},{
 				"id": 20737,
 				"name": "Nicholas Stovold",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 71295,
 				"name": "Josh Babarinde",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71295.png"
 			},{
 				"id": 71945,
 				"name": "David Axe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71945.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Rushanara Ali"
+				"mp": "Rushanara Ali",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Rushanara Ali",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24958/rushanara_ali/bethnal_green_and_bow",
 			"electorate": 86075,
 			"turnout": 69.5,
@@ -50,8 +50,8 @@
 			"majority": 35393
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Rushanara Ali",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82727,
 			"turnout": 64.3,
 			"valid": 52924,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1973,
 				"name": "Matthew Faithfull",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 2662,
 				"name": "Cheryl Pidgeon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2662.png"
 			},{
 				"id": 24947,
 				"name": "Jason Richard Billin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24947-059d0ab3-cc07-44b9-b426-755a5d1f2804.png"
 			},{
 				"id": 34697,
 				"name": "Ruth Edwards",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34697.png"
 			},{
 				"id": 72532,
 				"name": "John William Kirby",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Kenneth Clarke"
+				"mp": "Kenneth Clarke",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Kenneth Clarke",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10115/kenneth_clarke/rushcliffe",
 			"electorate": 74738,
 			"turnout": 78.0,
@@ -45,8 +45,8 @@
 			"majority": 8010
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Kenneth Clarke",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73278,
 			"turnout": 75.7,
 			"valid": 55164,

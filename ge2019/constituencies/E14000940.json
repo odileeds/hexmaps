@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5023,
 				"name": "Alberto Costa",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5023.png"
 			},{
 				"id": 23333,
 				"name": "Nick Cox",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23333-f7c8986c-d20f-488c-93f2-c726f5cab68f.png"
 			},{
 				"id": 64358,
 				"name": "Phil Knowles",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70014.png"
 			},{
 				"id": 72360,
 				"name": "Tristan Naseem Koriya",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72360-d2d64455-ded7-4ce1-bb5d-447bf87c195d.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alberto Costa"
+				"mp": "Alberto Costa",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alberto Costa",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25413/alberto_costa/south_leicestershire",
 			"electorate": 78985,
 			"turnout": 71.8,
@@ -40,8 +40,8 @@
 			"majority": 18631
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alberto Costa",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76851,
 			"turnout": 70.6,
 			"valid": 53926,

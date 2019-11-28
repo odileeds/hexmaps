@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 3066,
 				"name": "Jim Shannon",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535721f367dc5383f552ccd.png"
 			},{
 				"id": 4590,
 				"name": "Kellie Armstrong",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b182e13eb34c82843cb4b.png"
 			},{
 				"id": 6814,
 				"name": "Robert Stephenson",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55268b7a59bbc5c063445b73.png"
 			},{
 				"id": 7179,
 				"name": "Joe Boyle",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16576.png"
 			},{
 				"id": 8115,
 				"name": "Philip Smith",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8115.png"
 			},{
 				"id": 49644,
 				"name": "Ryan Carlin",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49644.png"
 			},{
 				"id": 69269,
 				"name": "Maurice Macartney",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 72077,
 				"name": "Grant Abraham",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Jim Shannon"
+				"mp": "Jim Shannon",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Jim Shannon",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/13864/jim_shannon/strangford",
 			"electorate": 64327,
 			"turnout": 60.2,
@@ -60,8 +60,8 @@
 			"majority": 18343
 		},
 		"2015": {
-			"first": "Democratic Unionist Party",
 			"mp": "Jim Shannon",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 64289,
 			"turnout": 53.0,
 			"valid": 33924,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4253,
 				"name": "Mary Wimbury",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e793b150e238702c0546.png"
 			},{
 				"id": 4557,
 				"name": "Carrie Harper",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b424981ca637726b5039a.png"
 			},{
 				"id": 6381,
 				"name": "Duncan Rees",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ce65d209513973bc512bf.png"
 			},{
 				"id": 29813,
 				"name": "Sarah Atherton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29813.png"
 			},{
 				"id": 71950,
 				"name": "Tim Sly",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71950-812c493e-4a74-4cf6-8b1b-f290e97913ce.png"
 			},{
 				"id": 72190,
 				"name": "Ian Jonathan Berkeley-Hurst",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72190-34bd631a-b9fd-4a50-8941-f67064ddd7b2.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ian Lucas"
+				"mp": "Ian Lucas",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ian Lucas",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11057/ian_lucas/wrexham",
 			"electorate": 49881,
 			"turnout": 70.4,
@@ -50,8 +50,8 @@
 			"majority": 1832
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ian Lucas",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 50992,
 			"turnout": 64.3,
 			"valid": 32719,

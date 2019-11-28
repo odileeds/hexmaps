@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3124,
 				"name": "Jonathan Bramall",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3124.png"
 			},{
 				"id": 4687,
 				"name": "Mike Wood",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54903baead8307d10c2f1a0c.jpg"
 			},{
 				"id": 36296,
 				"name": "Lucy Caldicott",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36296.png"
 			},{
 				"id": 71407,
 				"name": "Cate Mohr",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mike Wood"
+				"mp": "Mike Wood",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mike Wood",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25362/mike_wood/dudley_south",
 			"electorate": 61323,
 			"turnout": 62.4,
@@ -40,8 +40,8 @@
 			"majority": 7730
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mike Wood",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 60363,
 			"turnout": 63.4,
 			"valid": 38210,

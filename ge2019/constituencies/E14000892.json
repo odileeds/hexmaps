@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4161,
 				"name": "Rachel Maclean",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4161_YvSZ7NH.png"
 			},{
 				"id": 32790,
 				"name": "Claire Davies",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32790.png"
 			},{
 				"id": 71598,
 				"name": "Rebecca Jenkins",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71598.png"
 			},{
 				"id": 71941,
 				"name": "Bruce Horton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71941-f3457f94-58b3-461e-af5a-19b50dd83f09.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Rachel Maclean"
+				"mp": "Rachel Maclean",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Rachel Maclean",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25692/rachel_maclean/redditch",
 			"electorate": 64413,
 			"turnout": 70.2,
@@ -40,8 +40,8 @@
 			"majority": 7363
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Karen Lumley",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65531,
 			"turnout": 67.5,
 			"valid": 44098,

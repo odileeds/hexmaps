@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3739,
 				"name": "Dominic Grieve",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225696328bff5d39338a54.png"
 			},{
 				"id": 8004,
 				"name": "Joy Morrissey",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8004.png"
 			},{
 				"id": 26136,
 				"name": "Alexa Collins",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26136.png"
 			},{
 				"id": 35311,
 				"name": "Zoe Hatch",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35311.png"
 			},{
 				"id": 72111,
 				"name": "Adam David Cleary",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72111-abb44a01-7eff-4674-afeb-4ed7ccff489a.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Dominic Grieve"
+				"mp": "Dominic Grieve",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Dominic Grieve",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10243/dominic_grieve/beaconsfield",
 			"electorate": 77524,
 			"turnout": 72.3,
@@ -45,8 +45,8 @@
 			"majority": 24543
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Dominic Grieve",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74726,
 			"turnout": 71.5,
 			"valid": 53163,

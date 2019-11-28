@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4234,
 				"name": "Rebecca Pow",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4234.png"
 			},{
 				"id": 19894,
 				"name": "John Hunt",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19894.png"
 			},{
 				"id": 33356,
 				"name": "Liam Canham",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33356.png"
 			},{
 				"id": 35085,
 				"name": "Gideon Amos",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35085.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Rebecca Pow"
+				"mp": "Rebecca Pow",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Rebecca Pow",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25407/rebecca_pow/taunton_deane",
 			"electorate": 85457,
 			"turnout": 73.8,
@@ -40,8 +40,8 @@
 			"majority": 15887
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Rebecca Pow",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83221,
 			"turnout": 69.7,
 			"valid": 57887,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1303,
 				"name": "Karen Bradley",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f7a5b247335574a42e37.png"
 			},{
 				"id": 4833,
 				"name": "Darren Price",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4833.png"
 			},{
 				"id": 8867,
 				"name": "Andrew Gant",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8867.png"
 			},{
 				"id": 24927,
 				"name": "Doug Rouxel",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24927.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Karen Bradley"
+				"mp": "Karen Bradley",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Karen Bradley",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24725/karen_bradley/staffordshire_moorlands",
 			"electorate": 63260,
 			"turnout": 70.6,
@@ -40,8 +40,8 @@
 			"majority": 10830
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Karen Bradley",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63104,
 			"turnout": 67.7,
 			"valid": 42587,

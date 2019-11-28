@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 29444,
 				"name": "Paul William Nicholson",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": ""
 			},{
 				"id": 29574,
 				"name": "Tom Scott",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29574.png"
 			},{
 				"id": 36114,
 				"name": "Ruth Gripper",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36114-c81f776c-e547-4642-a372-39ffc78e0f42.png"
 			},{
 				"id": 71701,
 				"name": "Jennifer Forbes",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71701.png"
 			},{
 				"id": 71932,
 				"name": "Cherilyn Mackrory",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71932.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Sarah Newton"
+				"mp": "Sarah Newton",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Sarah Newton",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24948/sarah_newton/truro_and_falmouth",
 			"electorate": 74683,
 			"turnout": 75.8,
@@ -45,8 +45,8 @@
 			"majority": 3792
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Sarah Newton",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73601,
 			"turnout": 70.1,
 			"valid": 51544,

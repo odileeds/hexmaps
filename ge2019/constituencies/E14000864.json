@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4396,
 				"name": "Clive Lewis",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4396.png"
 			},{
 				"id": 5364,
 				"name": "James William Wright",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5364_ZQSBmaH.png"
 			},{
 				"id": 5998,
 				"name": "Catherine Joanna Rowett",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517cbdd249b917507bee4e2.png"
 			},{
 				"id": 71946,
 				"name": "Michael David Spencer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72099,
 				"name": "Alexander Donald Gilchrist",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72099-1891a2ba-2b8b-427c-b32e-0d54c592aeaf.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Clive Lewis"
+				"mp": "Clive Lewis",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Clive Lewis",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25356/clive_lewis/norwich_south",
 			"electorate": 74182,
 			"turnout": 69.2,
@@ -45,8 +45,8 @@
 			"majority": 15596
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Clive Lewis",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74875,
 			"turnout": 65.0,
 			"valid": 48463,

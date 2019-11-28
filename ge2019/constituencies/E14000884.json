@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4522,
 				"name": "Gerald Vernon-Jackson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e942b150e238702c064c.png"
 			},{
 				"id": 7426,
 				"name": "Steven George George",
-				"party": "The Justice & Anti-Corruption Party",
+				"party": { "code": "", "title": "The Justice & Anti-Corruption Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a1910669ac35f4d2bec7d.png"
 			},{
 				"id": 17736,
 				"name": "Stephen Morgan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17736.png"
 			},{
 				"id": 17775,
 				"name": "Donna Jones",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17775.png"
 			},{
 				"id": 70478,
 				"name": "John Kennedy",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70478.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Stephen Morgan"
+				"mp": "Stephen Morgan",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Stephen Morgan",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25658/stephen_morgan/portsmouth_south",
 			"electorate": 69785,
 			"turnout": 63.9,
@@ -45,8 +45,8 @@
 			"majority": 1554
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Flick Drummond",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71639,
 			"turnout": 58.8,
 			"valid": 41903,

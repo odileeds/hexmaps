@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 983,
 				"name": "Stephen Timms",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351f08b247335574a42e7c.png"
 			},{
 				"id": 6296,
 				"name": "Kamran Malik",
-				"party": "Communities United Party",
+				"party": { "code": "", "title": "Communities United Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55321a9829c5d53959d9e43b.png"
 			},{
 				"id": 34422,
 				"name": "Michael Spracklin",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34422.png"
 			},{
 				"id": 47637,
 				"name": "Scott Curtis Pattenden",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47637.png"
 			},{
 				"id": 70450,
 				"name": "Alka Sehgal Cuthbert",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70450.png"
 			},{
 				"id": 71757,
 				"name": "Michael Fox",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71757.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Stephen Timms"
+				"mp": "Stephen Timms",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Stephen Timms",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10596/stephen_timms/east_ham",
 			"electorate": 83928,
 			"turnout": 67.5,
@@ -50,8 +50,8 @@
 			"majority": 39883
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Stephen Timms",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 87382,
 			"turnout": 60.1,
 			"valid": 52290,

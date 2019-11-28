@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1056,
 				"name": "Stephen Lloyd",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e901b150e238702c061e.png"
 			},{
 				"id": 4188,
 				"name": "Caroline Ansell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4188.png"
 			},{
 				"id": 5292,
 				"name": "Jake Lambert",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517f4a0249b917507bee50f.png"
 			},{
 				"id": 71422,
 				"name": "Stephen Gander",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71422.png"
 			},{
 				"id": 72599,
 				"name": "Ken Pollock",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Stephen Lloyd"
+				"mp": "Stephen Lloyd",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Stephen Lloyd",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24754/stephen_lloyd/eastbourne",
 			"electorate": 78754,
 			"turnout": 72.9,
@@ -45,8 +45,8 @@
 			"majority": 1609
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Caroline Ansell",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78262,
 			"turnout": 67.8,
 			"valid": 52907,

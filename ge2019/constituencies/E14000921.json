@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6930,
 				"name": "Christine Gilligan Kubo",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50237.png"
 			},{
 				"id": 12517,
 				"name": "Shane Harper",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12517.png"
 			},{
 				"id": 19647,
 				"name": "Gill Furniss",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19647.png"
 			},{
 				"id": 51967,
 				"name": "Stephen Porter",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51967.png"
 			},{
 				"id": 72147,
 				"name": "Johnny Johnson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72148,
 				"name": "Hannah Juliette Westropp",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72148-a2d76588-f469-4ea0-a2bd-0f93d0f45ad6.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Gill Furniss"
+				"mp": "Gill Furniss",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Gill Furniss",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25489/gill_furniss/sheffield%2C_brightside_and_hillsborough",
 			"electorate": 70344,
 			"turnout": 59.5,
@@ -50,8 +50,8 @@
 			"majority": 19143
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Harry Harpham",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70874,
 			"turnout": 56.7,
 			"valid": 40053,

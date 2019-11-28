@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 596,
 				"name": "Christopher Chope",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55249f3bf0e9e2c82406eba5.png"
 			},{
 				"id": 3960,
 				"name": "Michael Francis Cox",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34189.png"
 			},{
 				"id": 34379,
 				"name": "Chris Rigby",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34379.png"
 			},{
 				"id": 60223,
 				"name": "Andrew Dunne",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60223.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Christopher Chope"
+				"mp": "Christopher Chope",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Christopher Chope",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10103/christopher_chope/christchurch",
 			"electorate": 70309,
 			"turnout": 72.0,
@@ -40,8 +40,8 @@
 			"majority": 25171
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Christopher Chope",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69303,
 			"turnout": 72.1,
 			"valid": 49707,

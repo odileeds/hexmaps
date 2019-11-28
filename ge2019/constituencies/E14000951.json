@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 151,
 				"name": "David Gauke",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357191367dc5383f552cc8.png"
 			},{
 				"id": 1019,
 				"name": "Gagan Mohindra",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1019.png"
 			},{
 				"id": 5587,
 				"name": "Ali Aklakul",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5506fd0b5399523471f7e1a2.png"
 			},{
 				"id": 15708,
 				"name": "Tom Pashby",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15708.png"
 			},{
 				"id": 20334,
 				"name": "Sally Symington",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20334.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "David Gauke"
+				"mp": "David Gauke",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Gauke",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11633/david_gauke/south_west_hertfordshire",
 			"electorate": 81087,
 			"turnout": 74.8,
@@ -45,8 +45,8 @@
 			"majority": 19550
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Gauke",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79668,
 			"turnout": 72.1,
 			"valid": 57267,

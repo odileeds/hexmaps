@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 11,
 				"name": "Tom Crone",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11.png"
 			},{
 				"id": 35917,
 				"name": "Rob McAllister-Bell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35917.png"
 			},{
 				"id": 71862,
 				"name": "Kim Johnson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			},{
 				"id": 72595,
 				"name": "David Raymond Leach",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72596,
 				"name": "Sean Paul Malkeson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Louise Ellman"
+				"mp": "Louise Ellman",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Louise Ellman",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10186/louise_ellman/liverpool%2C_riverside",
 			"electorate": 76332,
 			"turnout": 62.9,
@@ -45,8 +45,8 @@
 			"majority": 35947
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Louise Ellman",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 70829,
 			"turnout": 62.8,
 			"valid": 44263,

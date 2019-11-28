@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 288,
 				"name": "Jon Cruddas",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322a1c29c5d53959d9e445.png"
 			},{
 				"id": 6254,
 				"name": "Azzees Minott",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb180b9c95afe74c5d336.png"
 			},{
 				"id": 7364,
 				"name": "Terry London",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7364.png"
 			},{
 				"id": 38259,
 				"name": "Ron Emin",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38259-d8418019-649f-4b0e-8b0f-d8512cc15130.png"
 			},{
 				"id": 43186,
 				"name": "Damian John White",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43186.png"
 			},{
 				"id": 71475,
 				"name": "Tom Bewick",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71475.png"
 			},{
 				"id": 71754,
 				"name": "Sam Fisk",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71754-a81873e4-3352-4cfb-888d-b38fae4f5f81.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jon Cruddas"
+				"mp": "Jon Cruddas",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jon Cruddas",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10828/jon_cruddas/dagenham_and_rainham",
 			"electorate": 70616,
 			"turnout": 64.9,
@@ -55,8 +55,8 @@
 			"majority": 4652
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jon Cruddas",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69128,
 			"turnout": 62.4,
 			"valid": 43050,

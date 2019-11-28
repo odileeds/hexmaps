@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1759,
 				"name": "Ian Liddell-Grainger",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552258c0328bff5d39338a5f.png"
 			},{
 				"id": 32577,
 				"name": "Bill Revans",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32577.png"
 			},{
 				"id": 61360,
 				"name": "Mickie Ritchie",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61360-64a881ca-7a44-4231-a0b0-42f8f2a8669c.png"
 			},{
 				"id": 71984,
 				"name": "Oliver Thornton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71984.png"
 			},{
 				"id": 72296,
 				"name": "Farès K Moussa",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72296-e9bdcd87-48f2-4be1-8358-2d5d5e928256.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Ian Liddell-Grainger"
+				"mp": "Ian Liddell-Grainger",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Ian Liddell-Grainger",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11048/ian_liddell-grainger/bridgwater_and_west_somerset",
 			"electorate": 89294,
 			"turnout": 65.3,
@@ -45,8 +45,8 @@
 			"majority": 15448
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Ian Liddell-Grainger",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80491,
 			"turnout": 67.9,
 			"valid": 54447,

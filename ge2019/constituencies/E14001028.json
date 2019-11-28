@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3361,
 				"name": "John Healey",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350cafb247335574a42e6a.png"
 			},{
 				"id": 6589,
 				"name": "Janice Middleton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6589.png"
 			},{
 				"id": 17212,
 				"name": "Lucy Brown",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17212.png"
 			},{
 				"id": 28071,
 				"name": "Emily Jill Barley",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28071-d9dfd40b-c5c6-4e83-9010-7ec19da99f18.png"
 			},{
 				"id": 72096,
 				"name": "David Bettney",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72096.png"
 			},{
 				"id": 72462,
 				"name": "Stephen Paul Cavell",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "John Healey"
+				"mp": "John Healey",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "John Healey",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10268/john_healey/wentworth_and_dearne",
 			"electorate": 74890,
 			"turnout": 58.7,
@@ -50,8 +50,8 @@
 			"majority": 14803
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "John Healey",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74283,
 			"turnout": 58.4,
 			"valid": 43189,

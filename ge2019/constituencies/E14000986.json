@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3706,
 				"name": "Christopher Pincher",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535764b367dc5383f552ce8.png"
 			},{
 				"id": 10377,
 				"name": "Chris Bain",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10377-7b340bc2-3395-47e6-bd45-fe0c0cf3b5b9.png"
 			},{
 				"id": 40952,
 				"name": "Rob Wheway",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 46386,
 				"name": "Andrew Graham Tilley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 72162,
 				"name": "Robert Bilcliff",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 72165,
 				"name": "John Barry Wright",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Christopher Pincher"
+				"mp": "Christopher Pincher",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Christopher Pincher",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24747/christopher_pincher/tamworth",
 			"electorate": 71308,
 			"turnout": 66.1,
@@ -50,8 +50,8 @@
 			"majority": 12347
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Christopher Pincher",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71913,
 			"turnout": 65.7,
 			"valid": 47174,

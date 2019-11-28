@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 2259,
 				"name": "Lyn Brown",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c97dc42c427035c8db3ea.png"
 			},{
 				"id": 38604,
 				"name": "Sara Kumar",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38604.png"
 			},{
 				"id": 40073,
 				"name": "Eimear O'Casey",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40073.png"
 			},{
 				"id": 45608,
 				"name": "Paul Martin Jobson",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			},{
 				"id": 47743,
 				"name": "Danny Keeling",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47743.png"
 			},{
 				"id": 69792,
 				"name": "Humera Kamran",
-				"party": "Communities United Party",
+				"party": { "code": "", "title": "Communities United Party" },
 				"img": ""
 			},{
 				"id": 71730,
 				"name": "Emma Jane Stockdale",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Lyn Brown"
+				"mp": "Lyn Brown",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lyn Brown",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11921/lyn_brown/west_ham",
 			"electorate": 92418,
 			"turnout": 65.7,
@@ -55,8 +55,8 @@
 			"majority": 36754
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Lyn Brown",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 90640,
 			"turnout": 58.5,
 			"valid": 52793,

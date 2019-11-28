@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4898,
 				"name": "Anthony John Smith",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53813.png"
 			},{
 				"id": 5288,
 				"name": "Liz McInnes",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5515b461caf202e56580fb32.png"
 			},{
 				"id": 6085,
 				"name": "Chris Clarkson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fb3d92ac1daeda13b59ed7.png"
 			},{
 				"id": 71483,
 				"name": "Colin William Lambert",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71483.png"
 			},{
 				"id": 71484,
 				"name": "Nigel Ian Ainsworth-Barnes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71484.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Liz McInnes"
+				"mp": "Liz McInnes",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Liz McInnes",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25230/liz_mcinnes/heywood_and_middleton",
 			"electorate": 79901,
 			"turnout": 62.4,
@@ -45,8 +45,8 @@
 			"majority": 7617
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Liz McInnes",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79989,
 			"turnout": 60.8,
 			"valid": 48538,

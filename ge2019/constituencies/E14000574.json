@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 8861,
 				"name": "Kathy King",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8861-81187c57-cad3-46fe-b776-10bcb6c5011e.png"
 			},{
 				"id": 16435,
 				"name": "Liz Twist",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16435.png"
 			},{
 				"id": 34907,
 				"name": "Lisabela Zxywhiddm Marschild",
-				"party": "Space Navies Party",
+				"party": { "code": "", "title": "Space Navies Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34907_HooWKk8.png"
 			},{
 				"id": 42379,
 				"name": "Victoria Louise Anderson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 45492,
 				"name": "Diane Cadman",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45492-c1b17e06-19ab-4349-a7ef-b66d714c4377.png"
 			},{
 				"id": 69743,
 				"name": "Adrian Pepper",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69743.png"
 			},{
 				"id": 72570,
 				"name": "Michael Robinson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72570-30d955a3-2bf6-47ec-be3a-9d08d896751e.png"
 			},{
 				"id": 72571,
 				"name": "Lee Shaun Garrett",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Liz Twist"
+				"mp": "Liz Twist",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Liz Twist",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25623/liz_twist/blaydon",
 			"electorate": 68459,
 			"turnout": 70.2,
@@ -60,8 +60,8 @@
 			"majority": 13477
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "David Anderson",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67901,
 			"turnout": 66.3,
 			"valid": 44936,

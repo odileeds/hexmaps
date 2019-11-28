@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1918,
 				"name": "Greg Clark",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517fa14249b917507bee527.png"
 			},{
 				"id": 10694,
 				"name": "Christopher Roger Camp",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 10714,
 				"name": "Ben Chapelard",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10714.png"
 			},{
 				"id": 48043,
 				"name": "Antonio Weiss",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48043.png"
 			},{
 				"id": 72335,
 				"name": "Nigel David Peacock",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72335-0bcc4195-fd30-4a8c-bd54-03797f08dc8f.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Greg Clark"
+				"mp": "Greg Clark",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Greg Clark",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11884/greg_clark/tunbridge_wells",
 			"electorate": 74782,
 			"turnout": 72.5,
@@ -45,8 +45,8 @@
 			"majority": 16465
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Greg Clark",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73429,
 			"turnout": 70.3,
 			"valid": 51428,

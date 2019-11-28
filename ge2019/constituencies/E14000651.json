@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 40316,
 				"name": "Mattie Heaven",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40316.png"
 			},{
 				"id": 40366,
 				"name": "Stephen John Richmond",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40366.png"
 			},{
 				"id": 64725,
 				"name": "Becky Finlayson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64725.png"
 			},{
 				"id": 70308,
 				"name": "Zarah Sultana",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70308.png"
 			},{
 				"id": 72561,
 				"name": "James Phillip Crocker",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72561-3a4905c6-7ed5-4caf-94d5-d2622b7a9285.png"
 			},{
 				"id": 72562,
 				"name": "Ed Manning",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72562-33b78734-44a4-40d7-beeb-aa3dfd234be9.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jim Cunningham"
+				"mp": "Jim Cunningham",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jim Cunningham",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10147/jim_cunningham/coventry_south",
 			"electorate": 70736,
 			"turnout": 66.5,
@@ -50,8 +50,8 @@
 			"majority": 7947
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jim Cunningham",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70397,
 			"turnout": 62.3,
 			"valid": 43699,

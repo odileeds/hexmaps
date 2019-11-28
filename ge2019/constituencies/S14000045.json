@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6051,
 				"name": "Owen Thompson",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5d843676900a02e1643c.png"
 			},{
 				"id": 34241,
 				"name": "Danielle Rowley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34241.png"
 			},{
 				"id": 71537,
 				"name": "Steve Arrundale",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71537.png"
 			},{
 				"id": 72229,
 				"name": "Rebecca Jane Fraser",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Danielle Rowley"
+				"mp": "Danielle Rowley",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Danielle Rowley",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25684/danielle_rowley/midlothian",
 			"electorate": 68328,
 			"turnout": 66.3,
@@ -40,8 +40,8 @@
 			"majority": 885
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Owen Thompson",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67875,
 			"turnout": 71.3,
 			"valid": 48331,

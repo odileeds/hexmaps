@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 34132,
 				"name": "Robert Alexander Courts",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34132.png"
 			},{
 				"id": 38210,
 				"name": "Rosalind Bolger",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38210.png"
 			},{
 				"id": 71739,
 				"name": "Charlotte Sureyya Sayre Olcay Hoagland",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71739.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Robert Courts"
+				"mp": "Robert Courts",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Robert Courts",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25593/robert_courts/witney",
 			"electorate": 82727,
 			"turnout": 73.6,
@@ -35,8 +35,8 @@
 			"majority": 21241
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Cameron",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79767,
 			"turnout": 73.6,
 			"valid": 58482,

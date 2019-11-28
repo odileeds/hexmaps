@@ -122,7 +122,7 @@ while (my $row = $csv->getline ($fh)) {
 }
 close($fh);	
 
-%parties = ('Labour/Co-operative'=>'Lab','Labour'=>'Lab','Conservative'=>'Con','Scottish National Party'=>'SNP','DUP'=>'DUP','Independent'=>'Ind','Liberal Democrat'=>'LD','Plaid Cymru'=>'PC','Speaker'=>'Spk','Green'=>'Green','Sinn Féin'=>'SF','Speaker seeking re-election'=>'Spk','Ex-Speaker'=>'');
+%parties = ('Labour/Co-operative'=>'Lab','Labour and Co-operative'=>'Lab','Labour Party'=>'Lab','Labour and Co-operative Party'=>'Lab','Labour'=>'Lab','Conservative and Unionist Party'=>'Con','Conservative'=>'Con','Scottish National Party'=>'SNP','Scottish National Party (SNP)'=>'SNP','UK Independence Party'=>'UKIP','UK Independence Party (UKIP)'=>'UKIP','Social Democratic and Labour Party'=>'SDLP','Ulster Unionist Party'=>'UUP','Democratic Unionist Party'=>'DUP','DUP'=>'DUP','Independent'=>'Ind','Liberal Democrats'=>'LD','Liberal Democrat'=>'LD','Plaid Cymru'=>'PC','Speaker'=>'Spk','Scottish Green Party'=>'Green','Green Party'=>'Green','Green'=>'Green','Sinn Féin'=>'SF','Sinn Fein'=>'SF','Speaker seeking re-election'=>'Spk','Ex-Speaker'=>'','Plaid Cymru - The Party of Wales'=>'PC','The Brexit Party'=>'Brexit','Official Monster Raving Loony Party'=>'Monster','SDLP (Social Democratic & Labour Party)'=>'SDLP','Alliance - Alliance Party of Northern Ireland'=>'Alliance','Democratic Unionist Party - D.U.P.'=>'DUP','Social Democratic Party'=>'SDP','Christian Peoples Alliance'=>'Christian','Yorkshire Party'=>'YP','The Liberal Party'=>'Liberal','Christian Party "Proclaiming Christ\'s Lordship"'=>'Christian');
 
 # Now read in the full results to add data
 $file = "temp/mps-modified.csv";
@@ -148,6 +148,7 @@ while (my $row = $csv->getline ($fh)) {
 			if($header[$i] eq "Party"){
 				if($parties{$fields[3]}){
 					$con{$pcd}{'2017-dissolution-party'} = $parties{$fields[3]};
+					$con{$pcd}{'2017-dissolution-party-title'} = $fields[3];
 				}else{
 					print "Need to convert $fields[3]\n";
 				}
@@ -187,19 +188,22 @@ foreach $pcd (sort(keys(%con))){
 		$con{$pcd}{'candidates'}[$c]{'name'} =~ s/\"/\\\"/g;
 		print FILE "\t\t\t\t\"id\": $con{$pcd}{'candidates'}[$c]{'id'},\n";
 		print FILE "\t\t\t\t\"name\": \"$con{$pcd}{'candidates'}[$c]{'name'}\",\n";
-		print FILE "\t\t\t\t\"party\": \"$con{$pcd}{'candidates'}[$c]{'party'}\",\n";
+		if(!$parties{$con{$pcd}{'candidates'}[$c]{'party'}}){
+			print "Need: $con{$pcd}{'candidates'}[$c]{'party'}\n";
+		}
+		print FILE "\t\t\t\t\"party\": { \"code\": \"$parties{$con{$pcd}{'candidates'}[$c]{'party'}}\", \"title\": \"$con{$pcd}{'candidates'}[$c]{'party'}\" },\n";
 		print FILE "\t\t\t\t\"img\": \"$con{$pcd}{'candidates'}[$c]{'img'}\"\n";
 		if($con{$pcd}{'candidates'}[$c]{'img'} eq ""){ print MISSING "$con{$pcd}{'cname1'}\t$con{$pcd}{'candidates'}[$c]{'name'}\t$con{$pcd}{'candidates'}[$c]{'party'}\thttps://candidates.democracyclub.org.uk/person/$con{$pcd}{'candidates'}[$c]{'id'}\n"; }
 	}
 	print FILE "\t\t\t}],\n";
 	print FILE "\t\t\t\"incumbent\": {\n";
-	print FILE "\t\t\t\t\"party\": \"$con{$pcd}{'2017-dissolution-party'}\",\n";
-	print FILE "\t\t\t\t\"mp\": \"$con{$pcd}{'2017-dissolution-name'}\"\n";
+	print FILE "\t\t\t\t\"mp\": \"$con{$pcd}{'2017-dissolution-name'}\",\n";
+	print FILE "\t\t\t\t\"party\": \{ \"code\": \"$con{$pcd}{'2017-dissolution-party'}\", \"title\": \"$con{$pcd}{'2017-dissolution-party-title'}\" }\n";
 	print FILE "\t\t\t}\n";
 	print FILE "\t\t},\n";
 	print FILE "\t\t\"2017\": {\n";
-	print FILE "\t\t\t\"first\": \"$con{$pcd}{'first17'}\",\n";
 	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'dispname'}\",\n";
+	print FILE "\t\t\t\"party\": { \"code\": \"$con{$pcd}{'first17'}\" },\n";
 	print FILE "\t\t\t\"mysoc\": \"$con{$pcd}{'mysocuri'}\",\n";
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'elect17'},\n";
 	print FILE "\t\t\t\"turnout\": $con{$pcd}{'turnout17'},\n";
@@ -208,8 +212,8 @@ foreach $pcd (sort(keys(%con))){
 	print FILE "\t\t\t\"majority\": $con{$pcd}{'majority'}\n";
 	print FILE "\t\t},\n";
 	print FILE "\t\t\"2015\": {\n";
-	print FILE "\t\t\t\"first\": \"$con{$pcd}{'2015-party_name'}\",\n";
 	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2015-firstname'} $con{$pcd}{'2015-surname'}\",\n";
+	print FILE "\t\t\t\"party\": { \"code\": \"".($parties{$con{$pcd}{'2015-party_name'}}||"")."\", \"title\": \"$con{$pcd}{'2015-party_name'}\" },\n";
 	print FILE "\t\t\t\"electorate\": $con{$pcd}{'2015-electorate'},\n";
 	$elect = $con{$pcd}{'2015-electorate'};
 	if($elect > 0){

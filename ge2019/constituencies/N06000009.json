@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 1858,
 				"name": "Jeffrey M. Donaldson",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9c8242c427035c8db3ed.png"
 			},{
 				"id": 6401,
 				"name": "Alan Love",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a4ec628f35b8374dd3168.png"
 			},{
 				"id": 8114,
 				"name": "Robbie Butler",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8114.png"
 			},{
 				"id": 19688,
 				"name": "Sorcha Eastwood",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19688.png"
 			},{
 				"id": 19722,
 				"name": "Gary Hynds",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19722.png"
 			},{
 				"id": 49796,
 				"name": "Gary McCleave",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": ""
 			},{
 				"id": 69335,
 				"name": "Ally Haydock",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69335.png"
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Jeffrey M. Donaldson"
+				"mp": "Jeffrey M. Donaldson",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Jeffrey M. Donaldson",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10172/jeffrey_m._donaldson/lagan_valley",
 			"electorate": 72380,
 			"turnout": 62.1,
@@ -55,8 +55,8 @@
 			"majority": 19229
 		},
 		"2015": {
-			"first": "Democratic Unionist Party",
 			"mp": "Jeffrey Donaldson",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 71152,
 			"turnout": 56.2,
 			"valid": 39795,

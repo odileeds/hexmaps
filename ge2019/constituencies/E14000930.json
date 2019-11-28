@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1600,
 				"name": "Delphine Gray-Fisk",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1600-f6ef657c-af5c-4a3a-801a-3fb203d76c50.png"
 			},{
 				"id": 4341,
 				"name": "Tanmanjit Singh Dhesi",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55360cd54eb6352b1643ebc1.png"
 			},{
 				"id": 6725,
 				"name": "Julian Edmonds",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553df91e044f23cd71a213c3.png"
 			},{
 				"id": 51685,
 				"name": "Aaron Chahal",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51685.png"
 			},{
 				"id": 71626,
 				"name": "Kanwal Toor Gill",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71626.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Tanmanjeet Singh Dhesi"
+				"mp": "Tanmanjeet Singh Dhesi",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Tanmanjeet Singh Dhesi",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25695/tanmanjeet_singh_dhesi/slough",
 			"electorate": 83272,
 			"turnout": 65.2,
@@ -45,8 +45,8 @@
 			"majority": 16998
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Fiona Mactaggart",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 86366,
 			"turnout": 56.2,
 			"valid": 48275,

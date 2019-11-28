@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3577,
 				"name": "Jonathan Edwards",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3577-884bb722-2c00-4558-b7c2-b18d18dd7298.png"
 			},{
 				"id": 23034,
 				"name": "Maria Carroll",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23034.png"
 			},{
 				"id": 34910,
 				"name": "Havard Hughes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34910.png"
 			},{
 				"id": 71937,
 				"name": "Pete Prosser",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71937.png"
 			}],
 			"incumbent": {
-				"party": "PC",
-				"mp": "Jonathan Edwards"
+				"mp": "Jonathan Edwards",
+				"party": { "code": "PC", "title": "Plaid Cymru" }
 			}
 		},
 		"2017": {
-			"first": "PC",
 			"mp": "Jonathan Edwards",
+			"party": { "code": "PC" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24743/jonathan_edwards/carmarthen_east_and_dinefwr",
 			"electorate": 55976,
 			"turnout": 73.3,
@@ -40,8 +40,8 @@
 			"majority": 3908
 		},
 		"2015": {
-			"first": "Plaid Cymru",
 			"mp": "Jonathan Edwards",
+			"party": { "code": "PC", "title": "Plaid Cymru" },
 			"electorate": 55750,
 			"turnout": 70.8,
 			"valid": 39399,

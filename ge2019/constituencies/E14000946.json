@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 863,
 				"name": "Elizabeth Hughes",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/863_of6D5TZ.png"
 			},{
 				"id": 4229,
 				"name": "James Cartlidge",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4229.png"
 			},{
 				"id": 4648,
 				"name": "Robert Lindsay",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4648.png"
 			},{
 				"id": 31203,
 				"name": "David Beavan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59127.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "James Cartlidge"
+				"mp": "James Cartlidge",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "James Cartlidge",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25414/james_cartlidge/south_suffolk",
 			"electorate": 75485,
 			"turnout": 71.8,
@@ -40,8 +40,8 @@
 			"majority": 17749
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Cartlidge",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73836,
 			"turnout": 70.5,
 			"valid": 51907,

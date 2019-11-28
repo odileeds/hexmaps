@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 64404,
 				"name": "Sheun Oke",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64404.png"
 			},{
 				"id": 71586,
 				"name": "Andrew Cregan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71586.png"
 			},{
 				"id": 71587,
 				"name": "Apsana Begum",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71587.png"
 			},{
 				"id": 71588,
 				"name": "Catherine Cui",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71588.png"
 			},{
 				"id": 71769,
 				"name": "Neil Jameson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71769.png"
 			},{
 				"id": 72294,
 				"name": "Andy Erlam",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jim Fitzpatrick"
+				"mp": "Jim Fitzpatrick",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jim Fitzpatrick",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10199/jim_fitzpatrick/poplar_and_limehouse",
 			"electorate": 87331,
 			"turnout": 67.3,
@@ -50,8 +50,8 @@
 			"majority": 27712
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jim Fitzpatrick",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82081,
 			"turnout": 62.4,
 			"valid": 51044,

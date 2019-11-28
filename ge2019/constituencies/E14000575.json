@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5693,
 				"name": "Dawn Furness",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f0e6b247335574a42e1b.png"
 			},{
 				"id": 26992,
 				"name": "Ian Levy",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26992.png"
 			},{
 				"id": 31562,
 				"name": "Susan Elizabeth Dungworth",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31562.png"
 			},{
 				"id": 72219,
 				"name": "Mark Peart",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72225,
 				"name": "Thom Chapman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72225-c0273ce2-b977-455a-8664-ba6626b6fb1b.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ronnie Campbell"
+				"mp": "Ronnie Campbell",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ronnie Campbell",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10089/ronnie_campbell/blyth_valley",
 			"electorate": 63415,
 			"turnout": 67.0,
@@ -45,8 +45,8 @@
 			"majority": 7915
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ronnie Campbell",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61247,
 			"turnout": 62.9,
 			"valid": 38461,

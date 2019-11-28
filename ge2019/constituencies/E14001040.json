@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2253,
 				"name": "Stephen Hammond",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f3bab247335574a42e27.png"
 			},{
 				"id": 46264,
 				"name": "Paul Christopher Kohler",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46264.png"
 			},{
 				"id": 71736,
 				"name": "Jackie Schneider",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71736.png"
 			},{
 				"id": 72239,
 				"name": "Graham Wilson Hadley",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Stephen Hammond"
+				"mp": "Stephen Hammond",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Stephen Hammond",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11927/stephen_hammond/wimbledon",
 			"electorate": 66780,
 			"turnout": 77.2,
@@ -40,8 +40,8 @@
 			"majority": 5622
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stephen Hammond",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65853,
 			"turnout": 73.7,
 			"valid": 48422,

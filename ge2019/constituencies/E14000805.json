@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 375,
 				"name": "Yvonne Fovargue",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55183a01249b917507bee56c.png"
 			},{
 				"id": 3148,
 				"name": "Nick King",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3148-72e1305b-e5f9-480b-a949-6bea00167160.png"
 			},{
 				"id": 5637,
 				"name": "John Skipworth",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5637.png"
 			},{
 				"id": 72464,
 				"name": "Sheila Joan Shaw",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 72465,
 				"name": "Ross Allan Wright",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72465-98e77bf8-f280-4924-9e7a-637d3497c33c.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Yvonne Fovargue"
+				"mp": "Yvonne Fovargue",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Yvonne Fovargue",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24805/yvonne_fovargue/makerfield",
 			"electorate": 74259,
 			"turnout": 63.2,
@@ -45,8 +45,8 @@
 			"majority": 13542
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Yvonne Fovargue",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74320,
 			"turnout": 60.4,
 			"valid": 44788,

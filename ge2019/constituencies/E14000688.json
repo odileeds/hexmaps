@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4329,
 				"name": "Justin Madders",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551abf7a13eb34c82843cb25.png"
 			},{
 				"id": 6898,
 				"name": "Chris Copeman",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550d9fc8d26890164ce3251a.png"
 			},{
 				"id": 9351,
 				"name": "Ed Gough",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9351.png"
 			},{
 				"id": 72216,
 				"name": "Alison Dawne Rodwell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72216-1f708079-749d-449a-a1f9-aa7c7ee8839b.png"
 			},{
 				"id": 72637,
 				"name": "Christopher Andrew Stevens",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72637-7be12386-bb0f-405b-b4b8-906ea20ea5b9.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Justin Madders"
+				"mp": "Justin Madders",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Justin Madders",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25378/justin_madders/ellesmere_port_and_neston",
 			"electorate": 68666,
 			"turnout": 74.2,
@@ -45,8 +45,8 @@
 			"majority": 11390
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Justin Madders",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69223,
 			"turnout": 67.7,
 			"valid": 46727,

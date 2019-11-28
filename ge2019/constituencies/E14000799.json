@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2490,
 				"name": "Philip Dunne",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322ded29c5d53959d9e44b.png"
 			},{
 				"id": 2491,
 				"name": "Heather Kidd",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2491.png"
 			},{
 				"id": 32546,
 				"name": "Hilary Wendt",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32546.png"
 			},{
 				"id": 34353,
 				"name": "Kuldip Sahota",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34353.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Philip Dunne"
+				"mp": "Philip Dunne",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Philip Dunne",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11696/philip_dunne/ludlow",
 			"electorate": 68034,
 			"turnout": 73.4,
@@ -40,8 +40,8 @@
 			"majority": 19286
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Philip Dunne",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66374,
 			"turnout": 72.6,
 			"valid": 48063,

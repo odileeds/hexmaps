@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2480,
 				"name": "Steve Radford",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551abfb013eb34c82843cb26.png"
 			},{
 				"id": 4627,
 				"name": "William Ward",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/554490cdbb4833ec548efedf.png"
 			},{
 				"id": 34602,
 				"name": "Paul Parr",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34602.png"
 			},{
 				"id": 42810,
 				"name": "Ian Byrne",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42810.png"
 			},{
 				"id": 55316,
 				"name": "Tom Bradley",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55316-5194003d-8237-4d07-80de-a15525e8ac2a.png"
 			},{
 				"id": 72516,
 				"name": "Ray Pearson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Stephen Twigg"
+				"mp": "Stephen Twigg",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Stephen Twigg",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10611/stephen_twigg/liverpool%2C_west_derby",
 			"electorate": 65164,
 			"turnout": 69.3,
@@ -50,8 +50,8 @@
 			"majority": 32908
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Stephen Twigg",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 63651,
 			"turnout": 64.7,
 			"valid": 41031,

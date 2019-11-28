@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1230,
 				"name": "Steve McCabe",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534da1f8a61d1a7175e0c4b.png"
 			},{
 				"id": 1249,
 				"name": "Dave Radcliffe",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1249.png"
 			},{
 				"id": 66282,
 				"name": "Hannah Campbell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66282.png"
 			},{
 				"id": 71306,
 				"name": "Joe Peacock",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71306-d54f25ee-00f9-48de-a52e-742d991ba19b.png"
 			},{
 				"id": 72548,
 				"name": "Joseph Tawonezvi",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Steve McCabe"
+				"mp": "Steve McCabe",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Steve McCabe",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10377/steve_mccabe/birmingham%2C_selly_oak",
 			"electorate": 74370,
 			"turnout": 65.9,
@@ -45,8 +45,8 @@
 			"majority": 15207
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Stephen McCabe",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75092,
 			"turnout": 60.6,
 			"valid": 45294,

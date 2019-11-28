@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4207,
 				"name": "Michael Tomlinson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e74bb150e238702c050c.png"
 			},{
 				"id": 4514,
 				"name": "Vikki Slade",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4514-94463813-f643-42ba-8bc9-41869111e625.png"
 			},{
 				"id": 58950,
 				"name": "Natalie Carswell",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58950-77271546-d22d-48be-a4f7-b983a2ba4ea7.png"
 			},{
 				"id": 60393,
 				"name": "Joanne Oldale",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60393-ccd49415-cc35-4037-8af7-7976ccc0cf01.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Michael Tomlinson"
+				"mp": "Michael Tomlinson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Michael Tomlinson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25422/michael_tomlinson/mid_dorset_and_north_poole",
 			"electorate": 65050,
 			"turnout": 74.2,
@@ -40,8 +40,8 @@
 			"majority": 15339
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Michael Tomlinson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64299,
 			"turnout": 72.5,
 			"valid": 46499,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4225,
 				"name": "Julian Knight",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e768b150e238702c0523.png"
 			},{
 				"id": 5799,
 				"name": "Ade Adeyemo",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fb317cac1daeda13b59ece.png"
 			},{
 				"id": 47441,
 				"name": "Nick Stephens",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": ""
 			},{
 				"id": 50337,
 				"name": "Rosemary Ann Sexton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50337.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Julian Knight"
+				"mp": "Julian Knight",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Julian Knight",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25388/julian_knight/solihull",
 			"electorate": 77789,
 			"turnout": 73.0,
@@ -40,8 +40,8 @@
 			"majority": 20571
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Julian Knight",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77956,
 			"turnout": 70.4,
 			"valid": 54779,

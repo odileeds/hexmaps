@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3156,
 				"name": "Jane Hunt",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48966.png"
 			},{
 				"id": 20177,
 				"name": "Stuart Brady",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20177.png"
 			},{
 				"id": 23553,
 				"name": "Ian Robert Sharpe",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23553.png"
 			},{
 				"id": 71875,
 				"name": "Wesley Walton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71875.png"
 			},{
 				"id": 72241,
 				"name": "Queenie Tea",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nicky Morgan"
+				"mp": "Nicky Morgan",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nicky Morgan",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24732/nicky_morgan/loughborough",
 			"electorate": 79607,
 			"turnout": 68.0,
@@ -45,8 +45,8 @@
 			"majority": 4269
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nicky Morgan",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75217,
 			"turnout": 69.4,
 			"valid": 52020,

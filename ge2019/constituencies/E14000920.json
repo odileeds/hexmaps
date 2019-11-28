@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1074,
 				"name": "Clive Betts",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551afdf013eb34c82843cb3f.png"
 			},{
 				"id": 71618,
 				"name": "Rajin Chowdhury",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71618.png"
 			},{
 				"id": 72179,
 				"name": "Marc Leslie Bayliss",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72181,
 				"name": "Kirk Lewis Kus",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72182,
 				"name": "Alex Martin",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Clive Betts"
+				"mp": "Clive Betts",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Clive Betts",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10045/clive_betts/sheffield_south_east",
 			"electorate": 68945,
 			"turnout": 63.2,
@@ -45,8 +45,8 @@
 			"majority": 11798
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Clive Betts",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70422,
 			"turnout": 59.3,
 			"valid": 41685,

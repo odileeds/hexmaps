@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5186,
 				"name": "Isabel Thurston",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54b839e07089b96b50247a2e.png"
 			},{
 				"id": 32071,
 				"name": "Alison Elizabeth Bennett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32071.png"
 			},{
 				"id": 54523,
 				"name": "Robert Wheal",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54523-a2932b06-0082-4221-b645-468da943b41f.png"
 			},{
 				"id": 72040,
 				"name": "Andrew Griffith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72040-d42ecf80-75be-4ba8-8c3a-33c8514ef2f5.png"
 			},{
 				"id": 72372,
 				"name": "Bella Sankey",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72372-244b9663-4da9-426c-8e84-af0f0ac5d6c5.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nick Herbert"
+				"mp": "Nick Herbert",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nick Herbert",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11377/nick_herbert/arundel_and_south_downs",
 			"electorate": 79478,
 			"turnout": 75.8,
@@ -45,8 +45,8 @@
 			"majority": 23883
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nick Herbert",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77242,
 			"turnout": 73.4,
 			"valid": 56477,

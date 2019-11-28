@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 301,
 				"name": "Lucy Hurds",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/301.png"
 			},{
 				"id": 3417,
 				"name": "Jesse Norman",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55321be329c5d53959d9e43f.png"
 			},{
 				"id": 5716,
 				"name": "Diana Toynbee",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5716.png"
 			},{
 				"id": 65593,
 				"name": "Anna-Maria Coda",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jesse Norman"
+				"mp": "Jesse Norman",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jesse Norman",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24827/jesse_norman/hereford_and_south_herefordshire",
 			"electorate": 71088,
 			"turnout": 71.0,
@@ -40,8 +40,8 @@
 			"majority": 15013
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jesse Norman",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71485,
 			"turnout": 66.4,
 			"valid": 47257,

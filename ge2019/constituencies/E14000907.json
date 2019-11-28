@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 5243,
 				"name": "Nicholas David Wood",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526910759bbc5c063445ba5.png"
 			},{
 				"id": 11725,
 				"name": "Robert Ashley King",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11725.png"
 			},{
 				"id": 34376,
 				"name": "Benjamin Smith",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51523.png"
 			},{
 				"id": 34572,
 				"name": "Ben Spencer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34572.png"
 			},{
 				"id": 41975,
 				"name": "Rob O'Carroll",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41975.png"
 			},{
 				"id": 51135,
 				"name": "Stewart Mark Mackay",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51135-eb57484b-0fbf-4833-9bc9-695f39c60942.png"
 			},{
 				"id": 71607,
 				"name": "Lorna Rowland",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71607.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Philip Hammond"
+				"mp": "Philip Hammond",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Philip Hammond",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10257/philip_hammond/runnymede_and_weybridge",
 			"electorate": 74888,
 			"turnout": 68.9,
@@ -55,8 +55,8 @@
 			"majority": 18050
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Philip Hammond",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73771,
 			"turnout": 68.1,
 			"valid": 50052,

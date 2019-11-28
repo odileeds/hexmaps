@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1881,
 				"name": "Alex Feakes",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8e12788906ef2517bd70.png"
 			},{
 				"id": 34205,
 				"name": "Ellie Reeves",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34205.png"
 			},{
 				"id": 34807,
 				"name": "Katherine Hortense",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			},{
 				"id": 39856,
 				"name": "James Braun",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39856.png"
 			},{
 				"id": 43681,
 				"name": "Aisha Cuthbert",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43681.png"
 			},{
 				"id": 71593,
 				"name": "Teixeira Hambro",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71593.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ellie Reeves"
+				"mp": "Ellie Reeves",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ellie Reeves",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25681/ellie_reeves/lewisham_west_and_penge",
 			"electorate": 72899,
 			"turnout": 73.0,
@@ -50,8 +50,8 @@
 			"majority": 23162
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jim Dowd",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72290,
 			"turnout": 66.8,
 			"valid": 48125,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1632,
 				"name": "Mike Hibbs",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9d2742c427035c8db3f0.png"
 			},{
 				"id": 7997,
 				"name": "Kemi Badenoch",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7997.png"
 			},{
 				"id": 30260,
 				"name": "Tom van de Bilt",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30260-e08910d4-9e04-42db-9bc5-f4953e3e2e90.png"
 			},{
 				"id": 71609,
 				"name": "Coby Wing",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71609-7cc3a92a-dd65-4f38-b3eb-741ed3c55c39.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Kemi Badenoch"
+				"mp": "Kemi Badenoch",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Kemi Badenoch",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25693/kemi_badenoch/saffron_walden",
 			"electorate": 83072,
 			"turnout": 73.3,
@@ -40,8 +40,8 @@
 			"majority": 24966
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alan Haselhurst",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80615,
 			"turnout": 71.7,
 			"valid": 57563,

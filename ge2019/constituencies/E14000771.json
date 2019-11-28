@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2684,
 				"name": "Karl Turner",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca219e22f98bc5d30fa75.png"
 			},{
 				"id": 34617,
 				"name": "Julia Brown",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34617.png"
 			},{
 				"id": 68442,
 				"name": "Bob Morgan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68442-ecc1715f-6456-408e-bc9b-bfac64464d36.png"
 			},{
 				"id": 71505,
 				"name": "Marten Hall",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71505-4492f288-bd9a-4c78-86c0-df9f516270bc.png"
 			},{
 				"id": 72371,
 				"name": "Rachel Louise Storer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72371-a5d73e18-c30e-4a91-afc6-235d25e4739e.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Karl Turner"
+				"mp": "Karl Turner",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Karl Turner",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24767/karl_turner/kingston_upon_hull_east",
 			"electorate": 65959,
 			"turnout": 55.5,
@@ -45,8 +45,8 @@
 			"majority": 10396
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Karl Turner",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65710,
 			"turnout": 53.6,
 			"valid": 35144,

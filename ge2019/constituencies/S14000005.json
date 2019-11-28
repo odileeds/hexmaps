@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2293,
 				"name": "Gary Mulvaney",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2293.png"
 			},{
 				"id": 3231,
 				"name": "Alan Reid",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525eebf413cb4432adffa4f.png"
 			},{
 				"id": 6044,
 				"name": "Brendan O'Hara",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fc328f09c0bb66180a629a.png"
 			},{
 				"id": 72161,
 				"name": "Rhea Louise Barnes",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72161-67b36975-544f-4cc6-8a45-facba34eeb50.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Brendan O'Hara"
+				"mp": "Brendan O'Hara",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Brendan O'Hara",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25370/brendan_o%27hara/argyll_and_bute",
 			"electorate": 67230,
 			"turnout": 71.5,
@@ -40,8 +40,8 @@
 			"majority": 1328
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Brendan O'Hara",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 68875,
 			"turnout": 75.4,
 			"valid": 51883,

@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 6685,
 				"name": "Dan Greef",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6685_Fn92QJf.png"
 			},{
 				"id": 37499,
 				"name": "Ian Sollom",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37499.png"
 			},{
 				"id": 71630,
 				"name": "Anthony Browne",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71630.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Heidi Allen"
+				"mp": "Heidi Allen",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Heidi Allen",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25348/heidi_allen/south_cambridgeshire",
 			"electorate": 85257,
 			"turnout": 76.2,
@@ -35,8 +35,8 @@
 			"majority": 15952
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Heidi Allen",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 84132,
 			"turnout": 73.5,
 			"valid": 61540,

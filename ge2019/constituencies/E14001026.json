@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1699,
 				"name": "Tessa Munt",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e974b150e238702c066e.png"
 			},{
 				"id": 4245,
 				"name": "James Heappey",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550820fb7a8b511079bc5bcb.png"
 			},{
 				"id": 56366,
 				"name": "Kama McKenzie",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56366-a32991bd-bf55-4d02-b4c9-75aecf57c3d8.png"
 			},{
 				"id": 72414,
 				"name": "Dave Dobbs",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72415,
 				"name": "Susie Quatermass",
-				"party": "Motherworld Party",
+				"party": { "code": "", "title": "Motherworld Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "James Heappey"
+				"mp": "James Heappey",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "James Heappey",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25438/james_heappey/wells",
 			"electorate": 82451,
 			"turnout": 73.8,
@@ -45,8 +45,8 @@
 			"majority": 7582
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Heappey",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79405,
 			"turnout": 71.9,
 			"valid": 56904,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3908,
 				"name": "Nick Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f5bbb247335574a42e2f.png"
 			},{
 				"id": 71311,
 				"name": "Richard Taylor",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71311.png"
 			},{
 				"id": 71802,
 				"name": "Peredur Owen Griffiths",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71802.png"
 			},{
 				"id": 72050,
 				"name": "Stephen Priestnall",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72050-6ac393ca-a3b1-4e0b-861e-11cc249ce47e.png"
 			},{
 				"id": 72259,
 				"name": "Chelsea Marie Annett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72259-df622c46-78c2-4872-87fc-c127eead17e9.png"
 			},{
 				"id": 72260,
 				"name": "Laura Anne Jones",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Nick Smith"
+				"mp": "Nick Smith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Nick Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24728/nick_smith/blaenau_gwent",
 			"electorate": 51227,
 			"turnout": 63.2,
@@ -50,8 +50,8 @@
 			"majority": 11907
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Nick Smith",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 51335,
 			"turnout": 61.9,
 			"valid": 31683,

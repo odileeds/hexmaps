@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2447,
 				"name": "Layla Moran",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e93bb150e238702c0649.png"
 			},{
 				"id": 71282,
 				"name": "Allison Wild",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71282.png"
 			},{
 				"id": 71579,
 				"name": "James Fredrickson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71579.png"
 			},{
 				"id": 72401,
 				"name": "Rosie Sourbut",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72401-9e0b3e4f-3749-4eff-bd11-b86082ed7263.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Layla Moran"
+				"mp": "Layla Moran",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Layla Moran",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25689/layla_moran/oxford_west_and_abingdon",
 			"electorate": 75574,
 			"turnout": 79.4,
@@ -40,8 +40,8 @@
 			"majority": 816
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nicola Blackwood",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76174,
 			"turnout": 75.4,
 			"valid": 57247,

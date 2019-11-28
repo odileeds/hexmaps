@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6302,
 				"name": "James Harrison",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55167d4c929f1bbe286be00f.png"
 			},{
 				"id": 8368,
 				"name": "Thomas Kerr",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8368_noFLCAr.png"
 			},{
 				"id": 34221,
 				"name": "Kate Watson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34221.png"
 			},{
 				"id": 34515,
 				"name": "David Linden",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34515.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "David Linden"
+				"mp": "David Linden",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "David Linden",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25677/david_linden/glasgow_east",
 			"electorate": 66242,
 			"turnout": 54.6,
@@ -40,8 +40,8 @@
 			"majority": 75
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Natalie McGarry",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 70378,
 			"turnout": 60.3,
 			"valid": 42417,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6048,
 				"name": "Anne McLaughlin",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba1dca51642637514d635.png"
 			},{
 				"id": 13063,
 				"name": "Paul Sweeney",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13063.png"
 			},{
 				"id": 71452,
 				"name": "Nicholas Moohan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71452-a2285e7f-6c0c-499f-a0ef-cf4eac5601c5.png"
 			},{
 				"id": 72520,
 				"name": "Lauren Bennie",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72520-4252686e-c64a-457b-a8a7-269345f49e68.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Paul Sweeney"
+				"mp": "Paul Sweeney",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Paul Sweeney",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25639/paul_sweeney/glasgow_north_east",
 			"electorate": 59931,
 			"turnout": 53.0,
@@ -40,8 +40,8 @@
 			"majority": 242
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Anne McLaughlin",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 66678,
 			"turnout": 56.9,
 			"valid": 37857,

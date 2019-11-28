@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3367,
 				"name": "Khalid Mahmood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bbb94a51642637514d646.png"
 			},{
 				"id": 10067,
 				"name": "Kefentse Dennis",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10067.png"
 			},{
 				"id": 40611,
 				"name": "Gerard Jerome",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 71305,
 				"name": "Annette Willcox",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71305.png"
 			},{
 				"id": 72530,
 				"name": "Thomas Braich",
-				"party": "Yeshua",
+				"party": { "code": "", "title": "Yeshua" },
 				"img": ""
 			},{
 				"id": 72531,
 				"name": "Raaj Shamji",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72531-d3d55b0e-a544-4e5a-b204-2bcb3ddbae1d.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Khalid Mahmood"
+				"mp": "Khalid Mahmood",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Khalid Mahmood",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11087/khalid_mahmood/birmingham%2C_perry_barr",
 			"electorate": 70106,
 			"turnout": 63.0,
@@ -50,8 +50,8 @@
 			"majority": 18383
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Khalid Mahmood",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69943,
 			"turnout": 59.4,
 			"valid": 41260,

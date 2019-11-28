@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3659,
 				"name": "Kate Green",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f62abeef7ec0da070128e7.png"
 			},{
 				"id": 13747,
 				"name": "Jane Leicester",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13747.png"
 			},{
 				"id": 34656,
 				"name": "Anna Fryer",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71872.png"
 			},{
 				"id": 71926,
 				"name": "Gary Powell",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72579,
 				"name": "Mussadak Mirza",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72579-62f727d7-4b53-4695-8b59-b8c350b31b20.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Kate Green"
+				"mp": "Kate Green",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kate Green",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24896/kate_green/stretford_and_urmston",
 			"electorate": 71833,
 			"turnout": 69.9,
@@ -45,8 +45,8 @@
 			"majority": 19705
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Kate Green",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69026,
 			"turnout": 67.5,
 			"valid": 46386,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3840,
 				"name": "Kwasi Kwarteng",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323d2c29c5d53959d9e456.png"
 			},{
 				"id": 5734,
 				"name": "Paul Jacobs",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf5884aa4fdc23cc908f5.png"
 			},{
 				"id": 50927,
 				"name": "Pavitar Kaur Mann",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50927.png"
 			},{
 				"id": 71658,
 				"name": "David Campanale",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71658.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Kwasi Kwarteng"
+				"mp": "Kwasi Kwarteng",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Kwasi Kwarteng",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24770/kwasi_kwarteng/spelthorne",
 			"electorate": 72641,
 			"turnout": 69.0,
@@ -40,8 +40,8 @@
 			"majority": 13425
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Kwasi Kwarteng",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71592,
 			"turnout": 68.8,
 			"valid": 49079,

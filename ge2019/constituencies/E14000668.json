@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1873,
 				"name": "Rosie Winterton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1873.png"
 			},{
 				"id": 23168,
 				"name": "Leon Sean French",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23168.png"
 			},{
 				"id": 38918,
 				"name": "Roberto Weeden-Sanz",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38918.png"
 			},{
 				"id": 71401,
 				"name": "Frank Sheridan",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 71402,
 				"name": "Surjit Singh Duhre",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71402-7c77a10a-3ee9-433c-ab71-c6a4ccc0b17a.png"
 			},{
 				"id": 71989,
 				"name": "Paul Horton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Rosie Winterton"
+				"mp": "Rosie Winterton",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Rosie Winterton",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10648/rosie_winterton/doncaster_central",
 			"electorate": 71718,
 			"turnout": 60.0,
@@ -50,8 +50,8 @@
 			"majority": 10131
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Rosie Winterton",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71136,
 			"turnout": 57.1,
 			"valid": 40420,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4316,
 				"name": "Sarah Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4316.png"
 			},{
 				"id": 4615,
 				"name": "Esther Sutton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54bee15e5a9c3744778f9b76.png"
 			},{
 				"id": 47063,
 				"name": "Mario Creatura",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47063.png"
 			},{
 				"id": 71389,
 				"name": "Simon Sprague",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71389.png"
 			},{
 				"id": 71961,
 				"name": "Peter Sonnex",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71961-48c9d112-0488-4c0d-9b20-4f0fa8a24090.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Sarah Jones"
+				"mp": "Sarah Jones",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Sarah Jones",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25673/sarah_jones/croydon_central",
 			"electorate": 80045,
 			"turnout": 71.3,
@@ -45,8 +45,8 @@
 			"majority": 5652
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Gavin Barwell",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78171,
 			"turnout": 67.9,
 			"valid": 52941,

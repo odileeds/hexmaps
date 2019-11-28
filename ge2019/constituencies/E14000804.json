@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2107,
 				"name": "Helen Grant",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357178367dc5383f552cc7.png"
 			},{
 				"id": 2111,
 				"name": "Stuart Jeffery",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2111.png"
 			},{
 				"id": 3692,
 				"name": "James Willis",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29746.png"
 			},{
 				"id": 12148,
 				"name": "Dan Wilkinson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			},{
 				"id": 28382,
 				"name": "Yolande Ann Kenward",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28382.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Helen Grant"
+				"mp": "Helen Grant",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Helen Grant",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24796/helen_grant/maidstone_and_the_weald",
 			"electorate": 75334,
 			"turnout": 68.7,
@@ -45,8 +45,8 @@
 			"majority": 17723
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Helen Grant",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73181,
 			"turnout": 68.5,
 			"valid": 50010,

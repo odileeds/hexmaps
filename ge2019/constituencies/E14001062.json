@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4113,
 				"name": "Julian Sturdy",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551df877238fcf244d9c2460.png"
 			},{
 				"id": 49488,
 				"name": "Keith Aspden",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49488.png"
 			},{
 				"id": 49953,
 				"name": "Anna Perrett",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49953.png"
 			},{
 				"id": 54416,
 				"name": "Scott Robert Marmion",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54416-23b21ac7-8ce1-42ac-85d9-dd303c5fc8e1.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Julian Sturdy"
+				"mp": "Julian Sturdy",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Julian Sturdy",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24853/julian_sturdy/york_outer",
 			"electorate": 75835,
 			"turnout": 75.7,
@@ -40,8 +40,8 @@
 			"majority": 8289
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Julian Sturdy",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78561,
 			"turnout": 68.8,
 			"valid": 53903,

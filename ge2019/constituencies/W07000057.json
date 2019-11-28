@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2286,
 				"name": "Hywel Williams",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2286.png"
 			},{
 				"id": 71843,
 				"name": "Gary Gribben",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 71929,
 				"name": "Steffie Roberts",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71929.png"
 			},{
 				"id": 72114,
 				"name": "Gonul Daniels",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72114-343d578d-ae4a-4fd0-9d44-8314cd13f282.png"
 			}],
 			"incumbent": {
-				"party": "PC",
-				"mp": "Hywel Williams"
+				"mp": "Hywel Williams",
+				"party": { "code": "PC", "title": "Plaid Cymru" }
 			}
 		},
 		"2017": {
-			"first": "PC",
 			"mp": "Hywel Williams",
+			"party": { "code": "PC" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11323/hywel_williams/arfon",
 			"electorate": 41367,
 			"turnout": 68.2,
@@ -40,8 +40,8 @@
 			"majority": 92
 		},
 		"2015": {
-			"first": "Plaid Cymru",
 			"mp": "Hywel Williams",
+			"party": { "code": "PC", "title": "Plaid Cymru" },
 			"electorate": 40492,
 			"turnout": 66.5,
 			"valid": 26837,

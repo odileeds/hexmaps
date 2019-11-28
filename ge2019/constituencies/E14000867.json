@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1925,
 				"name": "Lilian Greenwood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55167ed5929f1bbe286be015.png"
 			},{
 				"id": 26224,
 				"name": "Barry Ian Holliday",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26224_1N23h4A.png"
 			},{
 				"id": 59054,
 				"name": "John Lawson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59054.png"
 			},{
 				"id": 72538,
 				"name": "Marc Harry Mykola Nykolyszyn",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72538-6185ec11-6ef9-447a-8ff2-deee649330c9.png"
 			},{
 				"id": 72539,
 				"name": "Cath Sutherland",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72539-50aedddf-5669-44f1-a516-08f62a799ab1.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Lilian Greenwood"
+				"mp": "Lilian Greenwood",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lilian Greenwood",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24774/lilian_greenwood/nottingham_south",
 			"electorate": 71182,
 			"turnout": 67.6,
@@ -45,8 +45,8 @@
 			"majority": 15162
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Lilian Greenwood",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68987,
 			"turnout": 63.3,
 			"valid": 43465,

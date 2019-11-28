@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4408,
 				"name": "Anna Turley",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4408.png"
 			},{
 				"id": 5212,
 				"name": "Jacob Young",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5212_dWaz847.png"
 			},{
 				"id": 35412,
 				"name": "Jacqui Cummins",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35412.png"
 			},{
 				"id": 54967,
 				"name": "Rowan McLaughlin",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54967-8f1df70f-4241-40a6-b33e-19b01d81e42a.png"
 			},{
 				"id": 55497,
 				"name": "Karen King",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55497.png"
 			},{
 				"id": 71596,
 				"name": "Frankie Wales",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71596.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Anna Turley"
+				"mp": "Anna Turley",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Anna Turley",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25313/anna_turley/redcar",
 			"electorate": 66836,
 			"turnout": 63.7,
@@ -50,8 +50,8 @@
 			"majority": 9485
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Anna Turley",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 64826,
 			"turnout": 63.4,
 			"valid": 40919,

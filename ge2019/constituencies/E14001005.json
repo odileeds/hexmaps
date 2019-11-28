@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3162,
 				"name": "Munira Wilson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3162.png"
 			},{
 				"id": 5033,
 				"name": "Isobel Grant",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5033.png"
 			},{
 				"id": 45040,
 				"name": "Ranjeev Walia",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45040.png"
 			},{
 				"id": 72512,
 				"name": "Stuart John Wells",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Vincent Cable"
+				"mp": "Vincent Cable",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Vince Cable",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10084/vincent_cable/twickenham",
 			"electorate": 83362,
 			"turnout": 79.5,
@@ -40,8 +40,8 @@
 			"majority": 9762
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Tania Mathias",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80250,
 			"turnout": 77.4,
 			"valid": 62004,

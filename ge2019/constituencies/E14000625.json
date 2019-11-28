@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5798,
 				"name": "Edward Argar",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517d6a0249b917507bee4f3.png"
 			},{
 				"id": 23548,
 				"name": "Laurie Needham",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23548-5aa879ca-35f6-4a0a-8e15-c115f8043899.png"
 			},{
 				"id": 54316,
 				"name": "Kate Tipton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54316.png"
 			},{
 				"id": 70292,
 				"name": "Gary Godden",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70292-236e01b0-f3ae-4bef-87f5-b12af4eb4b7a.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Edward Argar"
+				"mp": "Edward Argar",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Edward Argar",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25396/edward_argar/charnwood",
 			"electorate": 78071,
 			"turnout": 70.7,
@@ -40,8 +40,8 @@
 			"majority": 16341
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Edward Argar",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77269,
 			"turnout": 67.9,
 			"valid": 52261,

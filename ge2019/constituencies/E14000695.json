@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 3437,
 				"name": "Maggie Throup",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3437.png"
 			},{
 				"id": 4333,
 				"name": "Catherine Atkinson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4333.png"
 			},{
 				"id": 31506,
 				"name": "Roy Dunn",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 31549,
 				"name": "Brent Poland",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 63398,
 				"name": "James Martin Archer",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63398-7c13ace4-daef-4fdc-8b34-838c14b104f1.png"
 			},{
 				"id": 72518,
 				"name": "Des Ball",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72519,
 				"name": "Richard Shaw",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Maggie Throup"
+				"mp": "Maggie Throup",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Maggie Throup",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25371/maggie_throup/erewash",
 			"electorate": 72995,
 			"turnout": 68.2,
@@ -55,8 +55,8 @@
 			"majority": 4534
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Maggie Throup",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71943,
 			"turnout": 67.4,
 			"valid": 48322,

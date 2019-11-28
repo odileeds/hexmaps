@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1201,
 				"name": "Alan Hilliar",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8c1b150e238702c05f6.png"
 			},{
 				"id": 5645,
 				"name": "Leo Docherty",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a1eaf0e9e2c82406ebb0.png"
 			},{
 				"id": 5884,
 				"name": "Howard James Kaye",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7581.png"
 			},{
 				"id": 46197,
 				"name": "Donna Wallace",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46197-f0273bef-cf5a-4f8d-8d83-797e57efcea2.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Leo Docherty"
+				"mp": "Leo Docherty",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Leo Docherty",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25628/leo_docherty/aldershot",
 			"electorate": 76205,
 			"turnout": 64.2,
@@ -40,8 +40,8 @@
 			"majority": 11473
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Gerald Howarth",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72430,
 			"turnout": 63.9,
 			"valid": 46191,

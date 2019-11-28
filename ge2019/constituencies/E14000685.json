@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4209,
 				"name": "Paul Holmes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4209.png"
 			},{
 				"id": 34611,
 				"name": "Ron Meldrum",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34611_Ka0DXFH.png"
 			},{
 				"id": 42662,
 				"name": "Lynda Jane Murphy",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42662.png"
 			},{
 				"id": 71957,
 				"name": "Sam Jordon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71957.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mims Davies"
+				"mp": "Mims Davies",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mims Davies",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25330/mims_davies/eastleigh",
 			"electorate": 81212,
 			"turnout": 70.5,
@@ -40,8 +40,8 @@
 			"majority": 14179
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mims Davies",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79609,
 			"turnout": 69.9,
 			"valid": 55505,

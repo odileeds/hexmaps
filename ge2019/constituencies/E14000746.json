@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2209,
 				"name": "Guy Opperman",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553509eeb247335574a42e67.png"
 			},{
 				"id": 13153,
 				"name": "Nick Morphet",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13153-5a02515c-f526-4d7a-9b6e-2556bf34743d.png"
 			},{
 				"id": 13257,
 				"name": "Stephen Howse",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13257.png"
 			},{
 				"id": 31524,
 				"name": "Penny Grennan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31524.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Guy Opperman"
+				"mp": "Guy Opperman",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Guy Opperman",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24962/guy_opperman/hexham",
 			"electorate": 61053,
 			"turnout": 75.7,
@@ -40,8 +40,8 @@
 			"majority": 9236
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Guy Opperman",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 59708,
 			"turnout": 72.7,
 			"valid": 43345,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4219,
 				"name": "Craig Tracey",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4219.png"
 			},{
 				"id": 49344,
 				"name": "Claire Breeze",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72059.png"
 			},{
 				"id": 71564,
 				"name": "Richard Whelan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71564.png"
 			},{
 				"id": 72051,
 				"name": "James Platt",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Craig Tracey"
+				"mp": "Craig Tracey",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Craig Tracey",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25290/craig_tracey/north_warwickshire",
 			"electorate": 72277,
 			"turnout": 65.3,
@@ -40,8 +40,8 @@
 			"majority": 8510
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Craig Tracey",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70152,
 			"turnout": 67.7,
 			"valid": 47377,

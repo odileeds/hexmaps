@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2042,
 				"name": "George Ridgeon",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2042.png"
 			},{
 				"id": 4176,
 				"name": "Alex Chalk",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4176.png"
 			},{
 				"id": 35082,
 				"name": "Max Wilkinson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35082.png"
 			},{
 				"id": 71764,
 				"name": "George Penny",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71764.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alex Chalk"
+				"mp": "Alex Chalk",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alex Chalk",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25340/alex_chalk/cheltenham",
 			"electorate": 78878,
 			"turnout": 72.3,
@@ -40,8 +40,8 @@
 			"majority": 2569
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alex Chalk",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77287,
 			"turnout": 69.7,
 			"valid": 53735,

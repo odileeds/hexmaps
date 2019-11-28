@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4593,
 				"name": "Adrian Trett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4593.png"
 			},{
 				"id": 4645,
 				"name": "Barry Broom",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ffcbc4dbf5aa0774519fb.png"
 			},{
 				"id": 23025,
 				"name": "Sandy Martin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23025.png"
 			},{
 				"id": 34603,
 				"name": "Tom Hunt",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34603.png"
 			},{
 				"id": 71496,
 				"name": "Nicola Thomas",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Sandy Martin"
+				"mp": "Sandy Martin",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Sandy Martin",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25635/sandy_martin/ipswich",
 			"electorate": 75668,
 			"turnout": 67.6,
@@ -45,8 +45,8 @@
 			"majority": 831
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Benedict Gummer",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74499,
 			"turnout": 65.5,
 			"valid": 48694,

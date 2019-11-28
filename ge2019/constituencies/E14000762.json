@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4912,
 				"name": "Vix Lowthion",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa630319151d456c24fa8.png"
 			},{
 				"id": 5193,
 				"name": "Daryll Pitcher",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34667.png"
 			},{
 				"id": 24687,
 				"name": "Karl Love",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24687.png"
 			},{
 				"id": 24695,
 				"name": "Bob Seely",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24695_mnPu6Uo.png"
 			},{
 				"id": 71981,
 				"name": "Richard Quigley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71981.png"
 			},{
 				"id": 71982,
 				"name": "Carl Feeney",
-				"party": "Independent Network",
+				"party": { "code": "", "title": "Independent Network" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71982.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Bob Seely"
+				"mp": "Bob Seely",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Bob Seely",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25645/bob_seely/isle_of_wight",
 			"electorate": 110683,
 			"turnout": 67.3,
@@ -50,8 +50,8 @@
 			"majority": 21069
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Turner",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 108804,
 			"turnout": 64.7,
 			"valid": 70300,

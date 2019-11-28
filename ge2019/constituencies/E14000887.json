@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 36326,
 				"name": "Will Sweet",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36326.png"
 			},{
 				"id": 41061,
 				"name": "Fergal McEntee",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41061.png"
 			},{
 				"id": 43423,
 				"name": "Fleur Anderson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43423.png"
 			},{
 				"id": 45854,
 				"name": "Sue Wixley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45854.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Justine Greening"
+				"mp": "Justine Greening",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Justine Greening",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11771/justine_greening/putney",
 			"electorate": 65031,
 			"turnout": 72.1,
@@ -40,8 +40,8 @@
 			"majority": 1554
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Justine Greening",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63923,
 			"turnout": 67.2,
 			"valid": 42813,

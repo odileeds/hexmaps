@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3462,
 				"name": "Royston Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3462.png"
 			},{
 				"id": 5890,
 				"name": "Kim Rose",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 34286,
 				"name": "Simon Letts",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34286.png"
 			},{
 				"id": 71655,
 				"name": "Liz Jarvis",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71655.png"
 			},{
 				"id": 72425,
 				"name": "Osman Sen-Chadun",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72425-f8579ebc-a717-4ba6-923a-575711e684e5.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Royston Smith"
+				"mp": "Royston Smith",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Royston Smith",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25345/royston_smith/southampton%2C_itchen",
 			"electorate": 71722,
 			"turnout": 65.2,
@@ -45,8 +45,8 @@
 			"majority": 31
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Royston Smith",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72281,
 			"turnout": 62.0,
 			"valid": 44710,

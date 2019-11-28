@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2519,
 				"name": "Emily Thornberry",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c0b1da8c0192f732ca8ec.png"
 			},{
 				"id": 34524,
 				"name": "Jason Charalambous",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34524.png"
 			},{
 				"id": 38713,
 				"name": "Talia Hussain",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38713.png"
 			},{
 				"id": 43451,
 				"name": "Kate Elizabeth Pothalingam",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43451-260b35c9-d67b-4cf6-8188-683bdcb706c3.png"
 			},{
 				"id": 71498,
 				"name": "Paddy Hannam",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71498.png"
 			},{
 				"id": 72535,
 				"name": "Lord Sandys of Bunhill",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Emily Thornberry"
+				"mp": "Emily Thornberry",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Emily Thornberry",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11656/emily_thornberry/islington_south_and_finsbury",
 			"electorate": 69536,
 			"turnout": 69.1,
@@ -50,8 +50,8 @@
 			"majority": 20263
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Emily Thornberry",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68127,
 			"turnout": 65.2,
 			"valid": 44270,

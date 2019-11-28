@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4264,
 				"name": "Neil Coyle",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4264.png"
 			},{
 				"id": 36131,
 				"name": "Humaira Ali",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36131.png"
 			},{
 				"id": 48437,
 				"name": "Andrew George Scott Baker",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48437-b6e4decb-cc89-42bc-a798-ab5fffe8402c.png"
 			},{
 				"id": 72461,
 				"name": "Alex Paul Matheou Matthews",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72461-7f402cf0-2e64-4077-afd0-74a8ee1d9589.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Neil Coyle"
+				"mp": "Neil Coyle",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Neil Coyle",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25326/neil_coyle/bermondsey_and_old_southwark",
 			"electorate": 87282,
 			"turnout": 67.0,
@@ -40,8 +40,8 @@
 			"majority": 12972
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Neil Coyle",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 83298,
 			"turnout": 62.0,
 			"valid": 51424,

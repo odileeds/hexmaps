@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 16,
 				"name": "Stephen Dorrell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16.png"
 			},{
 				"id": 34503,
 				"name": "Greg Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34503.png"
 			},{
 				"id": 71338,
 				"name": "Andrew Bell",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71338.png"
 			},{
 				"id": 71933,
 				"name": "David Morgan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71933-8597a253-65e2-4f02-9e77-bd8edfeee542.png"
 			},{
 				"id": 72283,
 				"name": "Ned Stephen Thompson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72284,
 				"name": "Antonio Daniel Vitiello",
-				"party": "English Democrats",
+				"party": { "code": "", "title": "English Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "",
-				"mp": "John Bercow"
+				"mp": "John Bercow",
+				"party": { "code": "", "title": "" }
 			}
 		},
 		"2017": {
-			"first": "Spk",
 			"mp": "John Bercow",
+			"party": { "code": "Spk" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10040/john_bercow/buckingham",
 			"electorate": 79615,
 			"turnout": 66.2,
@@ -50,8 +50,8 @@
 			"majority": 25725
 		},
 		"2015": {
-			"first": "Speaker",
 			"mp": "John Bercow",
+			"party": { "code": "Spk", "title": "Speaker" },
 			"electorate": 77425,
 			"turnout": 71.0,
 			"valid": 53692,

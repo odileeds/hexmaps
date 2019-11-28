@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4027,
 				"name": "Ben Bradshaw",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5503125ae70496a1139f93f8.png"
 			},{
 				"id": 6744,
 				"name": "Duncan Odgers",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552693a059bbc5c063445bcb.png"
 			},{
 				"id": 11475,
 				"name": "Joe Levy",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11475.png"
 			},{
 				"id": 48655,
 				"name": "Daniel Jon Page",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72288,
 				"name": "John Nicholas Gray",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72289,
 				"name": "Leslie David Willis",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ben Bradshaw"
+				"mp": "Ben Bradshaw",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ben Bradshaw",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10061/ben_bradshaw/exeter",
 			"electorate": 77330,
 			"turnout": 71.7,
@@ -50,8 +50,8 @@
 			"majority": 16117
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ben Bradshaw",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76968,
 			"turnout": 70.4,
 			"valid": 54018,

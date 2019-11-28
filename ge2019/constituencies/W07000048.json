@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5787,
 				"name": "Carolyn Harris",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5787.png"
 			},{
 				"id": 16766,
 				"name": "Denise Howard",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 34699,
 				"name": "Chris Evans",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34699.png"
 			},{
 				"id": 71348,
 				"name": "Tony Willicombe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71348.png"
 			},{
 				"id": 71798,
 				"name": "Chloe Hutchinson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71798.png"
 			},{
 				"id": 71814,
 				"name": "Geraint Havard",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71814.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Carolyn Harris"
+				"mp": "Carolyn Harris",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Carolyn Harris",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25308/carolyn_harris/swansea_east",
 			"electorate": 58521,
 			"turnout": 60.1,
@@ -50,8 +50,8 @@
 			"majority": 13168
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Carolyn Harris",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58011,
 			"turnout": 58.1,
 			"valid": 33618,

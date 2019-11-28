@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 282,
 				"name": "Gordon Henderson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55049c1dba680dc746e7d5c6.png"
 			},{
 				"id": 1444,
 				"name": "Mad Mike Young",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca08a42c427035c8db3f8.png"
 			},{
 				"id": 35081,
 				"name": "Lee Robert McCall",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35081.png"
 			},{
 				"id": 49402,
 				"name": "Ben Jonathan Martin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49402.png"
 			},{
 				"id": 50128,
 				"name": "Monique Bonney",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50128-a104e2d5-fedc-4cae-b670-892b15d7918f.png"
 			},{
 				"id": 50578,
 				"name": "Samantha Collins",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50578.png"
 			},{
 				"id": 71934,
 				"name": "Clive Johnson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71934.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Gordon Henderson"
+				"mp": "Gordon Henderson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Gordon Henderson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24828/gordon_henderson/sittingbourne_and_sheppey",
 			"electorate": 81717,
 			"turnout": 62.9,
@@ -55,8 +55,8 @@
 			"majority": 15211
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Gordon Henderson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76018,
 			"turnout": 65.2,
 			"valid": 49378,

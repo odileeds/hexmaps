@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 7458,
 				"name": "Florence Eshalomi",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7458.png"
 			},{
 				"id": 37025,
 				"name": "Sarah Lewis",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37025.png"
 			},{
 				"id": 71709,
 				"name": "Sarah Bool",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71709.png"
 			},{
 				"id": 71710,
 				"name": "Salah Faissal",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71710.png"
 			},{
 				"id": 71996,
 				"name": "Jacqueline Bond",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71996-a341ae42-2694-448e-8819-c5fbf926bf92.png"
 			},{
 				"id": 72279,
 				"name": "Andrew McGuinness",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Kate Hoey"
+				"mp": "Kate Hoey",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kate Hoey",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10282/kate_hoey/vauxhall",
 			"electorate": 82055,
 			"turnout": 67.1,
@@ -50,8 +50,8 @@
 			"majority": 20250
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Kate Hoey",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82231,
 			"turnout": 58.6,
 			"valid": 47941,

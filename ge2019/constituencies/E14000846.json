@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1612,
 				"name": "Jacob Rees-Mogg",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/554748bc70823d2655a7c7a5.png"
 			},{
 				"id": 18431,
 				"name": "Mark Christopher Huband",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18431-663f18fc-faa9-401e-9022-2b28d121c33d.png"
 			},{
 				"id": 32255,
 				"name": "Fay Whitfield",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32255.png"
 			},{
 				"id": 35041,
 				"name": "Shaun Hughes",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 71560,
 				"name": "Nick Coates",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71560.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jacob Rees-Mogg"
+				"mp": "Jacob Rees-Mogg",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jacob Rees-Mogg",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24926/jacob_rees-mogg/north_east_somerset",
 			"electorate": 71355,
 			"turnout": 75.7,
@@ -45,8 +45,8 @@
 			"majority": 10235
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jacob Rees-Mogg",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69380,
 			"turnout": 73.9,
 			"valid": 51110,

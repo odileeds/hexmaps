@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1022,
 				"name": "Andrew Murrison",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357088367dc5383f552cc0.png"
 			},{
 				"id": 42960,
 				"name": "Ellen Nicholson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42960.png"
 			},{
 				"id": 71654,
 				"name": "Emily Pomroy-Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71654-2fc61393-bfc7-4ea4-b3d7-1c294ed071fb.png"
 			},{
 				"id": 72293,
 				"name": "Julie Elizabeth Phillips",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Murrison"
+				"mp": "Andrew Murrison",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Murrison",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11132/andrew_murrison/south_west_wiltshire",
 			"electorate": 76898,
 			"turnout": 71.2,
@@ -40,8 +40,8 @@
 			"majority": 18326
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Murrison",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73018,
 			"turnout": 70.9,
 			"valid": 51643,

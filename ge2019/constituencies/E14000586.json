@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5098,
 				"name": "Derek Florey",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53264.png"
 			},{
 				"id": 34464,
 				"name": "Paul Bidwell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34464.png"
 			},{
 				"id": 34943,
 				"name": "Olivio Barreto",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34943.png"
 			},{
 				"id": 46303,
 				"name": "Kaweh Beheshtizadeh",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71756.png"
 			},{
 				"id": 72017,
 				"name": "James Sunderland",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72017.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Phillip Lee"
+				"mp": "Phillip Lee",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Phillip Lee",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24765/phillip_lee/bracknell",
 			"electorate": 79199,
 			"turnout": 70.6,
@@ -45,8 +45,8 @@
 			"majority": 16016
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Phillip Lee",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81271,
 			"turnout": 65.6,
 			"valid": 53086,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2789,
 				"name": "Tim Ball",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2789-5eeb126b-f490-4587-a280-bcfdbe48e534.png"
 			},{
 				"id": 4073,
 				"name": "Mark Spencer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517fe51249b917507bee536.png"
 			},{
 				"id": 63357,
 				"name": "Esther Ruth Cropper",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 70462,
 				"name": "Simon Rood",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70462.png"
 			},{
 				"id": 71620,
 				"name": "Jerry Hague",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71620.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mark Spencer"
+				"mp": "Mark Spencer",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mark Spencer",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24909/mark_spencer/sherwood",
 			"electorate": 76196,
 			"turnout": 70.0,
@@ -45,8 +45,8 @@
 			"majority": 5198
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mark Spencer",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73349,
 			"turnout": 69.3,
 			"valid": 50698,

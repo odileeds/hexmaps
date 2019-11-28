@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 729,
 				"name": "James Morris",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b3b3413eb34c82843cb62.png"
 			},{
 				"id": 35149,
 				"name": "Ian Gordon Cooper",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35149.png"
 			},{
 				"id": 35152,
 				"name": "Tim Weller",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 39179,
 				"name": "Ryan Priest",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39179.png"
 			},{
 				"id": 71465,
 				"name": "James Windridge",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71465.png"
 			},{
 				"id": 72606,
 				"name": "Ian Fleming",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72627,
 				"name": "Jon Cross",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "James Morris"
+				"mp": "James Morris",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "James Morris",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24855/james_morris/halesowen_and_rowley_regis",
 			"electorate": 68856,
 			"turnout": 64.5,
@@ -55,8 +55,8 @@
 			"majority": 5253
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Morris",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66048,
 			"turnout": 66.5,
 			"valid": 43818,

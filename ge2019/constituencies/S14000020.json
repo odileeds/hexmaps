@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 20469,
 				"name": "Robert O'Riordan",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 34234,
 				"name": "Martin Whitfield",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34234.png"
 			},{
 				"id": 50431,
 				"name": "Craig Hoy",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50431.png"
 			},{
 				"id": 50938,
 				"name": "David Sisson",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 71831,
 				"name": "Kenny MacAskill",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71831.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Martin Whitfield"
+				"mp": "Martin Whitfield",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Martin Whitfield",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25651/martin_whitfield/east_lothian",
 			"electorate": 79093,
 			"turnout": 70.6,
@@ -45,8 +45,8 @@
 			"majority": 3083
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "George Kerevan",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 79481,
 			"turnout": 74.3,
 			"valid": 59014,

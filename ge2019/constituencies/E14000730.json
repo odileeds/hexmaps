@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3152,
 				"name": "Andrew Jones",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350055b247335574a42e49.png"
 			},{
 				"id": 34406,
 				"name": "Mark Sewards",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34406.png"
 			},{
 				"id": 71472,
 				"name": "Judith Rogerson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71472.png"
 			},{
 				"id": 71860,
 				"name": "Kieron George",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71860.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Jones"
+				"mp": "Andrew Jones",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Jones",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24758/andrew_jones/harrogate_and_knaresborough",
 			"electorate": 77280,
 			"turnout": 73.4,
@@ -40,8 +40,8 @@
 			"majority": 18168
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Jones",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76408,
 			"turnout": 70.0,
 			"valid": 53376,

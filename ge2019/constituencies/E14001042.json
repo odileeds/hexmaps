@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 618,
 				"name": "Julian Tisi",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/618.png"
 			},{
 				"id": 4114,
 				"name": "Adam Afriyie",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa79a319151d456c24fac.png"
 			},{
 				"id": 7146,
 				"name": "Wisdom Methodious Da Costa",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7146.png"
 			},{
 				"id": 34354,
 				"name": "Peter Shearman",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34354.png"
 			},{
 				"id": 34991,
 				"name": "Fintan Thomas McKeown",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34991.png"
 			},{
 				"id": 72375,
 				"name": "David John Buckley",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Adam Afriyie"
+				"mp": "Adam Afriyie",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Adam Afriyie",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11929/adam_afriyie/windsor",
 			"electorate": 73595,
 			"turnout": 73.3,
@@ -50,8 +50,8 @@
 			"majority": 22384
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Adam Afriyie",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71538,
 			"turnout": 70.4,
 			"valid": 50160,

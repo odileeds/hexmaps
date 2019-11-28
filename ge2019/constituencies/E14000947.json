@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 1643,
 				"name": "Robert Buckland",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535011eb247335574a42e51.png"
 			},{
 				"id": 14729,
 				"name": "Stan Pajak",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14729.png"
 			},{
 				"id": 25753,
 				"name": "Sarah Church",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25753.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Robert Buckland"
+				"mp": "Robert Buckland",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Robert Buckland",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24843/robert_buckland/south_swindon",
 			"electorate": 72372,
 			"turnout": 70.8,
@@ -35,8 +35,8 @@
 			"majority": 2464
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Robert Buckland",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73926,
 			"turnout": 66.8,
 			"valid": 49263,

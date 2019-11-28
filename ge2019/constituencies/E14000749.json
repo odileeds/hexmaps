@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1224,
 				"name": "Sid Cordle",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34877.png"
 			},{
 				"id": 4203,
 				"name": "Bim Afolami",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e745b150e238702c0507.png"
 			},{
 				"id": 20009,
 				"name": "Sam S Collins",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20009.png"
 			},{
 				"id": 35023,
 				"name": "Peter Marshall",
-				"party": "Advance Together",
+				"party": { "code": "", "title": "Advance Together" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35023.png"
 			},{
 				"id": 62072,
 				"name": "Kay Frances Tart",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62072.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Bim Afolami"
+				"mp": "Bim Afolami",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Bim Afolami",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25661/bim_afolami/hitchin_and_harpenden",
 			"electorate": 75916,
 			"turnout": 77.4,
@@ -45,8 +45,8 @@
 			"majority": 12031
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Peter Lilley",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80333,
 			"turnout": 69.1,
 			"valid": 55375,

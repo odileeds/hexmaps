@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 4237,
 				"name": "Luke Hall",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e77ab150e238702c0532.png"
 			},{
 				"id": 34123,
 				"name": "Claire Young",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34123.png"
 			},{
 				"id": 71692,
 				"name": "Rob Logan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71692-b0a80b1e-f832-4524-a04c-32124ae41768.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Luke Hall"
+				"mp": "Luke Hall",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Luke Hall",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25373/luke_hall/thornbury_and_yate",
 			"electorate": 67892,
 			"turnout": 74.7,
@@ -35,8 +35,8 @@
 			"majority": 12071
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Luke Hall",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66066,
 			"turnout": 73.8,
 			"valid": 48570,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 451,
 				"name": "Liam Fox",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535060fb247335574a42e5d.png"
 			},{
 				"id": 53308,
 				"name": "Hannah Margaret Young",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53308.png"
 			},{
 				"id": 53535,
 				"name": "Ashley Cartman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53535.png"
 			},{
 				"id": 72013,
 				"name": "Phil Neve",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72013-1c79e1eb-c715-4fbe-9cc6-d035d0bfbfbd.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Liam Fox"
+				"mp": "Liam Fox",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Liam Fox",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10213/liam_fox/north_somerset",
 			"electorate": 80529,
 			"turnout": 77.0,
@@ -40,8 +40,8 @@
 			"majority": 17103
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Liam Fox",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80161,
 			"turnout": 73.8,
 			"valid": 58942,

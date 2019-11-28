@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4305,
 				"name": "Chris Vince",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4305.png"
 			},{
 				"id": 6468,
 				"name": "Julie Marson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6468-34721f5e-4a75-4ba5-9807-4e851f5b7f34.png"
 			},{
 				"id": 56395,
 				"name": "Alistair David Lindsay",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 56459,
 				"name": "Lucy Downes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56459.png"
 			},{
 				"id": 71481,
 				"name": "Chris Lucas",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71481.png"
 			},{
 				"id": 72603,
 				"name": "Brian William Percival",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mark Prisk"
+				"mp": "Mark Prisk",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mark Prisk",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11172/mark_prisk/hertford_and_stortford",
 			"electorate": 82339,
 			"turnout": 72.9,
@@ -50,8 +50,8 @@
 			"majority": 19035
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mark Prisk",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80610,
 			"turnout": 70.1,
 			"valid": 56277,

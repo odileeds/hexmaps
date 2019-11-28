@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 438,
 				"name": "Craig Whittaker",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a35af0e9e2c82406ebb9.png"
 			},{
 				"id": 4289,
 				"name": "Joshua Fenton-Glynn",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4289.png"
 			},{
 				"id": 67448,
 				"name": "Javed Bashir",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67448.png"
 			},{
 				"id": 71344,
 				"name": "Richard Phillips",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71344.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Craig Whittaker"
+				"mp": "Craig Whittaker",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Craig Whittaker",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24944/craig_whittaker/calder_valley",
 			"electorate": 79045,
 			"turnout": 73.4,
@@ -40,8 +40,8 @@
 			"majority": 609
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Craig Whittaker",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77754,
 			"turnout": 69.1,
 			"valid": 53541,

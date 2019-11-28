@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2917,
 				"name": "Angela Eagle",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534e2f8b247335574a42e10.png"
 			},{
 				"id": 12734,
 				"name": "Lily Clough",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12734.png"
 			},{
 				"id": 44667,
 				"name": "Vicky Downie",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44667.png"
 			},{
 				"id": 71523,
 				"name": "Martin York",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71523.png"
 			},{
 				"id": 72089,
 				"name": "James Baker",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72089.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Angela Eagle"
+				"mp": "Angela Eagle",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Angela Eagle",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10182/angela_eagle/wallasey",
 			"electorate": 67454,
 			"turnout": 71.7,
@@ -45,8 +45,8 @@
 			"majority": 23320
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Angela Eagle",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65495,
 			"turnout": 66.5,
 			"valid": 43366,

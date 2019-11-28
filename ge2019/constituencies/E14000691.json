@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 8002,
 				"name": "Joanne Louise Laban",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8002.png"
 			},{
 				"id": 40987,
 				"name": "Guy Russo",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40987.png"
 			},{
 				"id": 43070,
 				"name": "Isobel Whittaker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43070-fa517a95-8418-40ff-8be5-f72786078440.png"
 			},{
 				"id": 71432,
 				"name": "Feryal Clark",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71432.png"
 			},{
 				"id": 72578,
 				"name": "Ike Ijeh",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72578-3f18b13a-ca25-405c-9fc7-801d58f83767.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Joan Ryan"
+				"mp": "Joan Ryan",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Joan Ryan",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10523/joan_ryan/enfield_north",
 			"electorate": 68076,
 			"turnout": 71.3,
@@ -45,8 +45,8 @@
 			"majority": 10247
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Joan Ryan",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68118,
 			"turnout": 67.9,
 			"valid": 46137,

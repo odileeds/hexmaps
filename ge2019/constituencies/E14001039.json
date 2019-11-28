@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2241,
 				"name": "Lisa Nandy",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2241.png"
 			},{
 				"id": 15034,
 				"name": "Stuart David Thomas",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15034-f8ff6973-b803-4d46-b184-07e7d349f68f.png"
 			},{
 				"id": 25463,
 				"name": "Ashley Williams",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25463.png"
 			},{
 				"id": 71735,
 				"name": "William Malloy",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71735-9e7fbc03-0c4b-47b1-8173-c2319bd8bfe3.png"
 			},{
 				"id": 72240,
 				"name": "Peter Ernest Jacobs",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Lisa Nandy"
+				"mp": "Lisa Nandy",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lisa Nandy",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24831/lisa_nandy/wigan",
 			"electorate": 75359,
 			"turnout": 63.1,
@@ -45,8 +45,8 @@
 			"majority": 16027
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Lisa Nandy",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75990,
 			"turnout": 59.8,
 			"valid": 45293,

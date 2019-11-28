@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1900,
 				"name": "Laurence Robertson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ad03c2a71a35a6e8a5d2d.png"
 			},{
 				"id": 16556,
 				"name": "Alex Hegenbarth",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16556-20c56920-67ba-48b7-acd4-cb971015a852.png"
 			},{
 				"id": 32644,
 				"name": "Cate Cody",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32644.png"
 			},{
 				"id": 67148,
 				"name": "Lara Soraya Chaplin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67148.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Laurence Robertson"
+				"mp": "Laurence Robertson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Laurence Robertson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10505/laurence_robertson/tewkesbury",
 			"electorate": 81440,
 			"turnout": 72.5,
@@ -40,8 +40,8 @@
 			"majority": 22574
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Laurence Robertson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78910,
 			"turnout": 70.4,
 			"valid": 55344,

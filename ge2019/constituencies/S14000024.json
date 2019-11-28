@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1116,
 				"name": "Ian Murray",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5518a4c3249b917507bee594.png"
 			},{
 				"id": 8039,
 				"name": "Nick Cook",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8039.png"
 			},{
 				"id": 20564,
 				"name": "Kate Nevens",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71761.png"
 			},{
 				"id": 34775,
 				"name": "Alan Christopher Beal",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34775.png"
 			},{
 				"id": 71427,
 				"name": "Catriona MacDonald",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71427.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ian Murray"
+				"mp": "Ian Murray",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ian Murray",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24872/ian_murray/edinburgh_south",
 			"electorate": 64553,
 			"turnout": 74.1,
@@ -45,8 +45,8 @@
 			"majority": 15514
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ian Murray",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65801,
 			"turnout": 75.0,
 			"valid": 49286,

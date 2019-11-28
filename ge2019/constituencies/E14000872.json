@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 7822,
 				"name": "Gareth Bacon",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7822.png"
 			},{
 				"id": 34808,
 				"name": "Karen Wheller",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34808.png"
 			},{
 				"id": 41255,
 				"name": "Simon Jeal",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72193-cac60a56-ba7c-4014-acf8-f4d6d76d04fa.png"
 			},{
 				"id": 48436,
 				"name": "Allan Joseph James Tweddle",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48436.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jo Johnson"
+				"mp": "Jo Johnson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Joseph Johnson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24895/jo_johnson/orpington",
 			"electorate": 67902,
 			"turnout": 74.3,
@@ -40,8 +40,8 @@
 			"majority": 19461
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Joseph Johnson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68129,
 			"turnout": 72.1,
 			"valid": 49032,

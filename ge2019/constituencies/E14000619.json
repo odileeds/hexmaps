@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5426,
 				"name": "Anna Firth",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70348.png"
 			},{
 				"id": 25014,
 				"name": "Claire Malcomson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55682.png"
 			},{
 				"id": 34312,
 				"name": "Rosie Duffield",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34312.png"
 			},{
 				"id": 72334,
 				"name": "Michael James Gould",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72334-75e7fbad-1cf4-4193-bd0f-e69cd1660d15.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Rosie Duffield"
+				"mp": "Rosie Duffield",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Rosie Duffield",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25656/rosie_duffield/canterbury",
 			"electorate": 78182,
 			"turnout": 72.7,
@@ -40,8 +40,8 @@
 			"majority": 187
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Julian Brazier",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81341,
 			"turnout": 66.0,
 			"valid": 53465,

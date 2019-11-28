@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2692,
 				"name": "David William Lomax",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551837e5249b917507bee568.png"
 			},{
 				"id": 19989,
 				"name": "Ruth George",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19989.png"
 			},{
 				"id": 34289,
 				"name": "Robert Largan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34289.png"
 			},{
 				"id": 67289,
 				"name": "Robert Hodgetts-Haley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67289.png"
 			},{
 				"id": 67604,
 				"name": "Alan Graves Jnr",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67604.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ruth George"
+				"mp": "Ruth George",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ruth George",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25633/ruth_george/high_peak",
 			"electorate": 73248,
 			"turnout": 73.5,
@@ -45,8 +45,8 @@
 			"majority": 2322
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Bingham",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73336,
 			"turnout": 69.5,
 			"valid": 50789,

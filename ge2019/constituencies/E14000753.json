@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 917,
 				"name": "Michael Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/917.png"
 			},{
 				"id": 1891,
 				"name": "Jim Duggan",
-				"party": "The Peace Party - Non-violence, Justice, Environment",
+				"party": { "code": "", "title": "The Peace Party - Non-violence, Justice, Environment" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5544ea68aba9e93a53d530ff.png"
 			},{
 				"id": 6753,
 				"name": "Jeremy Quin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f716e5ee37a15064546c.png"
 			},{
 				"id": 23592,
 				"name": "Catherine Mary Ross",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23592.png"
 			},{
 				"id": 56788,
 				"name": "Louise Potter",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56788.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jeremy Quin"
+				"mp": "Jeremy Quin",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jeremy Quin",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25417/jeremy_quin/horsham",
 			"electorate": 82772,
 			"turnout": 74.9,
@@ -45,8 +45,8 @@
 			"majority": 23484
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jeremy Quin",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79085,
 			"turnout": 72.3,
 			"valid": 56925,

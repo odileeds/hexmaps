@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3549,
 				"name": "Chris Leslie",
-				"party": "The Independent Group for Change",
+				"party": { "code": "", "title": "The Independent Group for Change" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535ce33367dc5383f552ceb.png"
 			},{
 				"id": 7053,
 				"name": "Robert Swift",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a719f0e9e2c82406ebd1.png"
 			},{
 				"id": 19956,
 				"name": "Nadia Whittome",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19956.png"
 			},{
 				"id": 72276,
 				"name": "Damian Stephen Danial Smith",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72277,
 				"name": "Victoria Anne Stapleton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72277-aa92d5c0-066c-437e-9a1a-49f17ac57e8d.png"
 			},{
 				"id": 72278,
 				"name": "Michelle Kim Vacciana",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72278-dcc5469f-4743-4dfc-88ec-3b34e56d6644.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Chris Leslie"
+				"mp": "Chris Leslie",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chris Leslie",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10354/chris_leslie/nottingham_east",
 			"electorate": 61760,
 			"turnout": 63.7,
@@ -50,8 +50,8 @@
 			"majority": 19590
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Christopher Leslie",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 60464,
 			"turnout": 58.6,
 			"valid": 35209,

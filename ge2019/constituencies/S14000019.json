@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6047,
 				"name": "Lisa Cameron",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde3b91ccf185f0d8cc4b2.png"
 			},{
 				"id": 20662,
 				"name": "Erica Bradley-Young",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20662-f9b23937-4b8d-497c-b95c-3eb3c6cef798.png"
 			},{
 				"id": 22115,
 				"name": "Gail MacGregor",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22115-2a4aadf6-3603-4e43-95b5-c28750166b78.png"
 			},{
 				"id": 22742,
 				"name": "David MacKay",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22742-270342fc-0ed9-474b-ad54-cdb4dfcf09cf.png"
 			},{
 				"id": 22743,
 				"name": "Monique McAdams",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22743.png"
 			},{
 				"id": 34679,
 				"name": "Ewan McRobert",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34679.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Lisa Cameron"
+				"mp": "Lisa Cameron",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Lisa Cameron",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25276/lisa_cameron/east_kilbride%2C_strathaven_and_lesmahagow",
 			"electorate": 80442,
 			"turnout": 67.3,
@@ -50,8 +50,8 @@
 			"majority": 3866
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Lisa Cameron",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 83205,
 			"turnout": 72.8,
 			"valid": 60539,

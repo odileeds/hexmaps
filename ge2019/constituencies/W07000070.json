@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 7447,
 				"name": "Rebecca Rees-Evans",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 20423,
 				"name": "Pauline Elizabeth Church",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20423-00c1e7f4-8b4d-4718-87e3-af44f4f3b253.png"
 			},{
 				"id": 27143,
 				"name": "Andrew Chainey",
-				"party": "The Cynon Valley Party",
+				"party": { "code": "", "title": "The Cynon Valley Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27143-d1af62db-19a1-43e0-9196-1cda70cbdd89.png"
 			},{
 				"id": 49911,
 				"name": "Ian McLean",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49911.png"
 			},{
 				"id": 70342,
 				"name": "Steve Bray",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70342-af93f46a-8ce3-4297-9dea-098dec0fd095.png"
 			},{
 				"id": 71391,
 				"name": "Beth Winter",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71391.png"
 			},{
 				"id": 71392,
 				"name": "Geraint Benney",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71392.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ann Clwyd"
+				"mp": "Ann Clwyd",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ann Clwyd",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10120/ann_clwyd/cynon_valley",
 			"electorate": 51334,
 			"turnout": 62.0,
@@ -55,8 +55,8 @@
 			"majority": 13238
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ann Clwyd",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 51422,
 			"turnout": 59.4,
 			"valid": 30472,

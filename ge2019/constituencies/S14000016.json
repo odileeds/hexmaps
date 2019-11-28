@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5271,
 				"name": "Daniel Coleman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5b403676900a02e16432.png"
 			},{
 				"id": 6020,
 				"name": "Chris Law",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55159f0a4fb3d15c51926dde.png"
 			},{
 				"id": 54893,
 				"name": "Jim Malone",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71992.png"
 			},{
 				"id": 70518,
 				"name": "Stuart Waiton",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70518-e0f499a4-24c9-4c08-94c2-e6dbc0f6244d.png"
 			},{
 				"id": 72280,
 				"name": "Quinta Ebot Arrey",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			},{
 				"id": 72281,
 				"name": "Tess White",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72281-8e88b544-c9f4-4219-97e2-5dc4649b6bf9.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Chris Law"
+				"mp": "Chris Law",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Chris Law",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25270/chris_law/dundee_west",
 			"electorate": 62644,
 			"turnout": 61.7,
@@ -50,8 +50,8 @@
 			"majority": 5262
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Chris Law",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 65927,
 			"turnout": 67.9,
 			"valid": 44714,

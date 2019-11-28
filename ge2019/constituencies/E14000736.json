@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5017,
 				"name": "Alan Mak",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550a93bf3676900a02e1642c.png"
 			},{
 				"id": 13180,
 				"name": "Paul Gray",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13180.png"
 			},{
 				"id": 42734,
 				"name": "John Colman",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42734-3d7e83b9-5228-4c5a-a05e-193ee6246301.png"
 			},{
 				"id": 64982,
 				"name": "Rosamund Knight",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64982-4538a18a-549c-44fd-b0c3-30cf4e9ce901.png"
 			},{
 				"id": 72426,
 				"name": "Alan Sinclair Black",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72426-2888def7-c080-41e0-8960-bc94168f11ec.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alan Mak"
+				"mp": "Alan Mak",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alan Mak",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25285/alan_mak/havant",
 			"electorate": 72470,
 			"turnout": 63.9,
@@ -45,8 +45,8 @@
 			"majority": 15956
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alan Mak",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70573,
 			"turnout": 63.7,
 			"valid": 44828,

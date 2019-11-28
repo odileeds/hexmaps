@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 331,
 				"name": "Stephen Psallidas",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/331.png"
 			},{
 				"id": 875,
 				"name": "Michael Flynn",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/875-881e0d93-c429-48fb-92d3-d0a97db9cded.png"
 			},{
 				"id": 3057,
 				"name": "Ian Lavery",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3057.png"
 			},{
 				"id": 20004,
 				"name": "Jack Alexander Gebhard",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 34779,
 				"name": "Steve Leyland",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34779.png"
 			},{
 				"id": 72211,
 				"name": "Eden Webley",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72211-a9d4e390-e1ba-421d-9865-ced773b2f4c7.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ian Lavery"
+				"mp": "Ian Lavery",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ian Lavery",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24963/ian_lavery/wansbeck",
 			"electorate": 62151,
 			"turnout": 68.3,
@@ -50,8 +50,8 @@
 			"majority": 10435
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ian Lavery",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60705,
 			"turnout": 63.6,
 			"valid": 38528,

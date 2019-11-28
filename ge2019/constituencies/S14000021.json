@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5554,
 				"name": "Kirsten Oswald",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/560ce8c5165dbf61623caf45.png"
 			},{
 				"id": 8435,
 				"name": "Paul Masterton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8435.png"
 			},{
 				"id": 71418,
 				"name": "Andrew McGlynn",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71418.png"
 			},{
 				"id": 71931,
 				"name": "Carolann Davidson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71931.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Paul Masterton"
+				"mp": "Paul Masterton",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Paul Masterton",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25654/paul_masterton/east_renfrewshire",
 			"electorate": 70067,
 			"turnout": 76.7,
@@ -40,8 +40,8 @@
 			"majority": 4712
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Kirsten  Oswald",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 69982,
 			"turnout": 81.2,
 			"valid": 56730,

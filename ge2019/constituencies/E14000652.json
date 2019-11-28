@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4078,
 				"name": "Henry Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4078.png"
 			},{
 				"id": 42665,
 				"name": "Peter Lamb",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42665.png"
 			},{
 				"id": 64683,
 				"name": "Iain Dickson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64683.png"
 			},{
 				"id": 71386,
 				"name": "Khalil Yousuf",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71386.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Henry Smith"
+				"mp": "Henry Smith",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Henry Smith",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24802/henry_smith/crawley",
 			"electorate": 73425,
 			"turnout": 68.5,
@@ -40,8 +40,8 @@
 			"majority": 2457
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Henry Smith",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73936,
 			"turnout": 65.8,
 			"valid": 48550,

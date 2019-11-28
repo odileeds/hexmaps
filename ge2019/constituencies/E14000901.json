@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1123,
 				"name": "Caroline Nokes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f024b247335574a42e17.png"
 			},{
 				"id": 49019,
 				"name": "Craig Fletcher",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49019.png"
 			},{
 				"id": 51475,
 				"name": "Geoff Bentley",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51475-b648a39e-629d-4821-b72d-eefdfabb35d9.png"
 			},{
 				"id": 72141,
 				"name": "Claire Ransom",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72141-ee198ac6-c767-403b-b619-825e72bc9fe8.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Caroline Nokes"
+				"mp": "Caroline Nokes",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Caroline Nokes",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24809/caroline_nokes/romsey_and_southampton_north",
 			"electorate": 67186,
 			"turnout": 74.6,
@@ -40,8 +40,8 @@
 			"majority": 18046
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Caroline Nokes",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66519,
 			"turnout": 73.0,
 			"valid": 48398,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4796,
 				"name": "Oliver Dowden",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5506ff0c5399523471f7e1a6.png"
 			},{
 				"id": 55864,
 				"name": "Stephen James Barrett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55864.png"
 			},{
 				"id": 71840,
 				"name": "Holly Kal-Weiss",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71840.png"
 			},{
 				"id": 72000,
 				"name": "John Humphries",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Oliver Dowden"
+				"mp": "Oliver Dowden",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Oliver Dowden",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25323/oliver_dowden/hertsmere",
 			"electorate": 73561,
 			"turnout": 71.0,
@@ -40,8 +40,8 @@
 			"majority": 16951
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Oliver Dowden",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73767,
 			"turnout": 68.2,
 			"valid": 50091,

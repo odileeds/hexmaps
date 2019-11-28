@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 34619,
 				"name": "Henrietta Bewley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34619.png"
 			},{
 				"id": 36741,
 				"name": "Jeremy Parker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36741.png"
 			},{
 				"id": 71750,
 				"name": "James Murray",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71750.png"
 			},{
 				"id": 71922,
 				"name": "Anthony Pickles",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71922.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Steve Pound"
+				"mp": "Steve Pound",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Steve Pound",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10484/steve_pound/ealing_north",
 			"electorate": 74764,
 			"turnout": 70.2,
@@ -40,8 +40,8 @@
 			"majority": 19693
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Stephen Pound",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73881,
 			"turnout": 65.9,
 			"valid": 48510,

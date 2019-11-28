@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2806,
 				"name": "David Rutley",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553506cdb247335574a42e63.png"
 			},{
 				"id": 5632,
 				"name": "Neil Christian",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ab76ce2ac8b7333e6a283.png"
 			},{
 				"id": 34380,
 				"name": "James Booth",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34380.png"
 			},{
 				"id": 34463,
 				"name": "Neil Puttick",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34463_jSIi0AC.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Rutley"
+				"mp": "David Rutley",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Rutley",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24820/david_rutley/macclesfield",
 			"electorate": 75228,
 			"turnout": 72.2,
@@ -40,8 +40,8 @@
 			"majority": 8608
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Rutley",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71712,
 			"turnout": 69.5,
 			"valid": 49598,

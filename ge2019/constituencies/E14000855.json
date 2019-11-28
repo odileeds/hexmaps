@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 489,
 				"name": "Shailesh Vara",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553575a1367dc5383f552ce3.png"
 			},{
 				"id": 6347,
 				"name": "Nicola Day",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf8184aa4fdc23cc908ff.png"
 			},{
 				"id": 34361,
 				"name": "Bridget Smith",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34361.png"
 			},{
 				"id": 35837,
 				"name": "Cathy Cordiner-Achenbach",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35837.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Shailesh Vara"
+				"mp": "Shailesh Vara",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Shailesh Vara",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11475/shailesh_vara/north_west_cambridgeshire",
 			"electorate": 93221,
 			"turnout": 68.6,
@@ -40,8 +40,8 @@
 			"majority": 18008
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Shailesh Vara",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 90318,
 			"turnout": 67.8,
 			"valid": 61100,

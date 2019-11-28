@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 3741,
 				"name": "Robert Halfon",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b39e913eb34c82843cb5c.png"
 			},{
 				"id": 46986,
 				"name": "Laura Ann McAlpine",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46986.png"
 			},{
 				"id": 71759,
 				"name": "Charlotte Cane",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71759-434e643f-d6ae-46b6-a232-751114935379.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Robert Halfon"
+				"mp": "Robert Halfon",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Robert Halfon",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24784/robert_halfon/harlow",
 			"electorate": 67699,
 			"turnout": 66.2,
@@ -35,8 +35,8 @@
 			"majority": 7031
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Robert Halfon",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67994,
 			"turnout": 65.3,
 			"valid": 44251,

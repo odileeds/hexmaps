@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4499,
 				"name": "Christine Jardine",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e907b150e238702c0623.png"
 			},{
 				"id": 8370,
 				"name": "Graham Hutchison",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8370-3b30b8fb-4baa-4426-b192-79d0984bf2ee.png"
 			},{
 				"id": 71765,
 				"name": "Elaine Gunn",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71765.png"
 			},{
 				"id": 71830,
 				"name": "Sarah Masson",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71830.png"
 			},{
 				"id": 71924,
 				"name": "Craig Bolton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71924.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Christine Jardine"
+				"mp": "Christine Jardine",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Christine Jardine",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25675/christine_jardine/edinburgh_west",
 			"electorate": 71500,
 			"turnout": 73.8,
@@ -45,8 +45,8 @@
 			"majority": 2988
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Michelle  Thomson",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 71717,
 			"turnout": 76.6,
 			"valid": 54858,

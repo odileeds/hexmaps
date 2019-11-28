@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 191,
 				"name": "Derek Thomas",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e773b150e238702c052c.png"
 			},{
 				"id": 2504,
 				"name": "Andrew George",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2504-3afcd68d-e023-4931-ae9b-84bf16c60ebb.png"
 			},{
 				"id": 29511,
 				"name": "Ian Edward Flindall",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29511-3ce080de-7090-4295-8ba4-647e8da4dd7a.png"
 			},{
 				"id": 29567,
 				"name": "Alana Louise Bates",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29567.png"
 			},{
 				"id": 72493,
 				"name": "John Richard Harris",
-				"party": "The Common People",
+				"party": { "code": "", "title": "The Common People" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72493-57a6e3a6-5cec-4cd6-983e-c5c390a8d48d.png"
 			},{
 				"id": 72494,
 				"name": "Robert Lee Smith",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72494-0461249f-4988-48ea-a869-207f636ab38a.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Derek Thomas"
+				"mp": "Derek Thomas",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Derek Thomas",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25440/derek_thomas/st_ives",
 			"electorate": 67145,
 			"turnout": 76.3,
@@ -50,8 +50,8 @@
 			"majority": 312
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Derek Thomas",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65570,
 			"turnout": 73.8,
 			"valid": 48312,

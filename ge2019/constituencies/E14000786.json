@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 897,
 				"name": "Maria Caulfield",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e744b150e238702c0506.png"
 			},{
 				"id": 26002,
 				"name": "Oli Henman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34573.png"
 			},{
 				"id": 29690,
 				"name": "Johnny Denis",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29690.png"
 			},{
 				"id": 72045,
 				"name": "Kate Chappell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72045.png"
 			},{
 				"id": 72192,
 				"name": "Paul Cragg",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Maria Caulfield"
+				"mp": "Maria Caulfield",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Maria Caulfield",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25397/maria_caulfield/lewes",
 			"electorate": 70941,
 			"turnout": 76.4,
@@ -45,8 +45,8 @@
 			"majority": 5508
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Maria Caulfield",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69481,
 			"turnout": 73.0,
 			"valid": 50540,

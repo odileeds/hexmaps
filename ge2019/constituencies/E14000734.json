@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 517,
 				"name": "Bernard Jenkin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551d73ac570782f7747687df.png"
 			},{
 				"id": 15457,
 				"name": "Peter Douglas Cameron Banks",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15457.png"
 			},{
 				"id": 63260,
 				"name": "Mike Beckett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63260.png"
 			},{
 				"id": 72471,
 				"name": "Richard Bruce Browning-Smith",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72472,
 				"name": "Tony Francis",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72473,
 				"name": "Stephen Dennis Rice",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Bernard Jenkin"
+				"mp": "Bernard Jenkin",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Bernard Jenkin",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10312/bernard_jenkin/harwich_and_north_essex",
 			"electorate": 71294,
 			"turnout": 71.7,
@@ -50,8 +50,8 @@
 			"majority": 14356
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Bernard Jenkin",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69290,
 			"turnout": 70.1,
 			"valid": 48432,

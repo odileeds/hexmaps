@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1073,
 				"name": "Daniel Kawczynski",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c30b3fc4fe0dc23f26c6c.png"
 			},{
 				"id": 24289,
 				"name": "Julia Buckley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24289.png"
 			},{
 				"id": 32325,
 				"name": "Julian Dean",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32325.png"
 			},{
 				"id": 33850,
 				"name": "Nat Green",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33850.png"
 			},{
 				"id": 72083,
 				"name": "Hannah Locke",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72083-a568bdca-46cc-4dba-acf7-e2139033ed2a.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Daniel Kawczynski"
+				"mp": "Daniel Kawczynski",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Daniel Kawczynski",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11817/daniel_kawczynski/shrewsbury_and_atcham",
 			"electorate": 79043,
 			"turnout": 73.6,
@@ -45,8 +45,8 @@
 			"majority": 6627
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Daniel Kawczynski",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76400,
 			"turnout": 71.0,
 			"valid": 54102,

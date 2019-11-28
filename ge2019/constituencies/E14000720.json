@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 2567,
 				"name": "Diane Abbott",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350d3ab247335574a42e6b.png"
 			},{
 				"id": 5057,
 				"name": "Ben Mathis",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1c54668e142f73d3b4c2.png"
 			},{
 				"id": 35644,
 				"name": "Alex Armitage",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35644.png"
 			},{
 				"id": 70412,
 				"name": "Haseeb Ur-Rehman",
-				"party": "Renew",
+				"party": { "code": "", "title": "Renew" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70412.png"
 			},{
 				"id": 72582,
 				"name": "Richard Christian Ings",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72583,
 				"name": "Loré Lixenberg",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72584,
 				"name": "Benjamin Obese-Jecty",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72584-ca0d4031-ee2a-4fd3-b8ce-5e04d9e7f688.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Diane Abbott"
+				"mp": "Diane Abbott",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Diane Abbott",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10001/diane_abbott/hackney_north_and_stoke_newington",
 			"electorate": 85058,
 			"turnout": 66.2,
@@ -55,8 +55,8 @@
 			"majority": 35139
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Diane Abbott",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 88153,
 			"turnout": 56.8,
 			"valid": 49887,

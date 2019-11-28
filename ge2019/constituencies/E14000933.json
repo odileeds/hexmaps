@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2211,
 				"name": "Stephen Metcalfe",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9ea3e22f98bc5d30fa6c.png"
 			},{
 				"id": 2839,
 				"name": "Kerry James Daryl Luke Smith",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 9608,
 				"name": "Jack Anthony Ferguson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9608-8f2b2572-d063-43f2-a82c-b0ed3b795dc9.png"
 			},{
 				"id": 36110,
 				"name": "Michael Bukola",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36110.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Stephen Metcalfe"
+				"mp": "Stephen Metcalfe",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Stephen Metcalfe",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24749/stephen_metcalfe/south_basildon_and_east_thurrock",
 			"electorate": 73537,
 			"turnout": 64.1,
@@ -40,8 +40,8 @@
 			"majority": 11490
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stephen Metcalfe",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71155,
 			"turnout": 64.2,
 			"valid": 45593,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3802,
 				"name": "Andrew Gwynne",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535065cb247335574a42e5f.png"
 			},{
 				"id": 4638,
 				"name": "Gary Lawson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa70fc0ff2778587ee2b8.png"
 			},{
 				"id": 5975,
 				"name": "Martin Power",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54edde4708de75df104c6b62.png"
 			},{
 				"id": 14417,
 				"name": "Dominic FT Hardwick",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14417.png"
 			},{
 				"id": 34995,
 				"name": "Farmin Lord F'Tang F'Tang Dave",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34995.png"
 			},{
 				"id": 38747,
 				"name": "Iain James Bott",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38747.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Andrew Gwynne"
+				"mp": "Andrew Gwynne",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Andrew Gwynne",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11531/andrew_gwynne/denton_and_reddish",
 			"electorate": 65751,
 			"turnout": 60.2,
@@ -50,8 +50,8 @@
 			"majority": 14077
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Andrew Gwynne",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66141,
 			"turnout": 58.7,
 			"valid": 38681,

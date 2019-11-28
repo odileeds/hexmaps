@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3774,
 				"name": "Stella Creasy",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f453b247335574a42e2a.png"
 			},{
 				"id": 34567,
 				"name": "Andrew Johns",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34567.png"
 			},{
 				"id": 71792,
 				"name": "Meera Chadha",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71792.png"
 			},{
 				"id": 71967,
 				"name": "Paul Campbell",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71967.png"
 			},{
 				"id": 72236,
 				"name": "Shade Adoh",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72237,
 				"name": "Deborah Longe",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Stella Creasy"
+				"mp": "Stella Creasy",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Stella Creasy",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24949/stella_creasy/walthamstow",
 			"electorate": 67957,
 			"turnout": 70.8,
@@ -50,8 +50,8 @@
 			"majority": 32017
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Stella Creasy",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 67015,
 			"turnout": 62.6,
 			"valid": 41796,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1104,
 				"name": "Edward Timpson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ab29be2ac8b7333e6a27a.png"
 			},{
 				"id": 1904,
 				"name": "Antoinette Sandbach",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551d0d2f570782f7747687cf.png"
 			},{
 				"id": 33603,
 				"name": "Andrea Christabel Allen",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 53354,
 				"name": "Louise Jewkes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53354.png"
 			},{
 				"id": 72220,
 				"name": "Terry Savage",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72220-a0cb3574-eb71-427c-93dc-6d37c5593f4b.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Antoinette Sandbach"
+				"mp": "Antoinette Sandbach",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Antoinette Sandbach",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25363/antoinette_sandbach/eddisbury",
 			"electorate": 70272,
 			"turnout": 73.0,
@@ -45,8 +45,8 @@
 			"majority": 11942
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Antoinette Sandbach",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68569,
 			"turnout": 69.3,
 			"valid": 47352,

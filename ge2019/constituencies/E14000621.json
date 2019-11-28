@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3585,
 				"name": "Tom Brake",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3585.png"
 			},{
 				"id": 6332,
 				"name": "Ashley Dickenson",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6332.png"
 			},{
 				"id": 7723,
 				"name": "Tracey Hague",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7723.png"
 			},{
 				"id": 35728,
 				"name": "Ahmad Nawaz Wattoo",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35728.png"
 			},{
 				"id": 48737,
 				"name": "Elliot Colburn",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48737.png"
 			},{
 				"id": 71353,
 				"name": "James Woudhuysen",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71353-f180af76-314c-4e36-a45b-892f8f48f0f9.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Tom Brake"
+				"mp": "Tom Brake",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Tom Brake",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10063/tom_brake/carshalton_and_wallington",
 			"electorate": 70849,
 			"turnout": 71.6,
@@ -50,8 +50,8 @@
 			"majority": 1369
 		},
 		"2015": {
-			"first": "Liberal Democrat",
 			"mp": "Tom Brake",
+			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 69981,
 			"turnout": 68.2,
 			"valid": 47613,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3524,
 				"name": "Esther McVey",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551be4ff209513973bc512a0.png"
 			},{
 				"id": 34124,
 				"name": "Nigel Robert Hennerley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34124.png"
 			},{
 				"id": 71688,
 				"name": "Jonathan Smith",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 71954,
 				"name": "James Weinberg",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Esther McVey"
+				"mp": "Esther McVey",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Esther McVey",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24882/esther_mcvey/tatton",
 			"electorate": 67874,
 			"turnout": 72.4,
@@ -40,8 +40,8 @@
 			"majority": 14787
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "George Osborne",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65004,
 			"turnout": 70.0,
 			"valid": 45298,

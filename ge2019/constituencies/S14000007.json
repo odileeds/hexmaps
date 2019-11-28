@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 34215,
 				"name": "David Duguid",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34215_quSrZnG.png"
 			},{
 				"id": 71284,
 				"name": "Paul Robertson",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71284.png"
 			},{
 				"id": 71845,
 				"name": "Alison Smith",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71845.png"
 			},{
 				"id": 72400,
 				"name": "Brian Robert Balcombe",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72400-6a3c882b-7090-4ee0-bda0-82d9a2c77601.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Duguid"
+				"mp": "David Duguid",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Duguid",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25664/david_duguid/banff_and_buchan",
 			"electorate": 67601,
 			"turnout": 61.6,
@@ -40,8 +40,8 @@
 			"majority": 3693
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Eilidh Whiteford",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 68609,
 			"turnout": 66.7,
 			"valid": 45629,

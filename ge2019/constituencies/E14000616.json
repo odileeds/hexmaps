@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3888,
 				"name": "George Eustice",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a2f0f0e9e2c82406ebb8.png"
 			},{
 				"id": 26761,
 				"name": "Karen Margaret La Borde",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26761.png"
 			},{
 				"id": 27476,
 				"name": "Paul Lea Farmer",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27476.png"
 			},{
 				"id": 29581,
 				"name": "Paul Thomas Holmes",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29581-b0a84a5a-f3e2-4df5-aa86-0c9c2bd26115.png"
 			},{
 				"id": 29583,
 				"name": "Florence MacDonald",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29583.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "George Eustice"
+				"mp": "George Eustice",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "George Eustice",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24933/george_eustice/camborne_and_redruth",
 			"electorate": 68419,
 			"turnout": 70.8,
@@ -45,8 +45,8 @@
 			"majority": 1577
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "George Eustice",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66944,
 			"turnout": 68.6,
 			"valid": 45868,

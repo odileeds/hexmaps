@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2937,
 				"name": "Caroline Dinenage",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552a7f155b858ee163ed6368.png"
 			},{
 				"id": 38403,
 				"name": "Martin Eric Pepper",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38403-8fcdf764-1d28-4ee8-a338-981d4ec0a01c.png"
 			},{
 				"id": 72389,
 				"name": "Zoe Aspinall",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72389-710daf01-ca2b-4375-9d41-5eb015a22cb4.png"
 			},{
 				"id": 72390,
 				"name": "Tom Chatwin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72390-b880e839-c3d6-408a-a487-f0c94a0af83d.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Caroline Dinenage"
+				"mp": "Caroline Dinenage",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Caroline Dinenage",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24873/caroline_dinenage/gosport",
 			"electorate": 74152,
 			"turnout": 66.7,
@@ -40,8 +40,8 @@
 			"majority": 17211
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Caroline Dinenage",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73268,
 			"turnout": 65.2,
 			"valid": 47665,

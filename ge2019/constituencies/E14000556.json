@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2131,
 				"name": "Denis Healy",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63618.png"
 			},{
 				"id": 3370,
 				"name": "Graham Stuart",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5515a06f4fb3d15c51926de4.png"
 			},{
 				"id": 34850,
 				"name": "Isabel Pires",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34850_1NqSYQj.png"
 			},{
 				"id": 59723,
 				"name": "Andy Shead",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59723-c3aafb19-7de1-4ca3-9b7f-16dab3c45020.png"
 			},{
 				"id": 68163,
 				"name": "Chloe Hopkins",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68163.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Graham Stuart"
+				"mp": "Graham Stuart",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Graham Stuart",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11406/graham_stuart/beverley_and_holderness",
 			"electorate": 80657,
 			"turnout": 69.0,
@@ -45,8 +45,8 @@
 			"majority": 14042
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Graham Stuart",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80805,
 			"turnout": 65.4,
 			"valid": 52677,

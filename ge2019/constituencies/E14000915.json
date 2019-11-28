@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 174,
 				"name": "Phil Wilson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba06410284be476aae887.png"
 			},{
 				"id": 31326,
 				"name": "Paul Howell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31326.png"
 			},{
 				"id": 45498,
 				"name": "Dawn Elizabeth Welsh",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45498-b899c3c7-5bbd-47e1-84ec-b44078b6e71c.png"
 			},{
 				"id": 59513,
 				"name": "Mike Joyce",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 70401,
 				"name": "David Bull",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70401.png"
 			},{
 				"id": 72014,
 				"name": "John Furness",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Phil Wilson"
+				"mp": "Phil Wilson",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Phil Wilson",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/13933/phil_wilson/sedgefield",
 			"electorate": 63889,
 			"turnout": 65.1,
@@ -50,8 +50,8 @@
 			"majority": 6059
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Phil Wilson",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62844,
 			"turnout": 61.8,
 			"valid": 38716,

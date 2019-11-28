@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1495,
 				"name": "Derek Twigg",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aadb378c2688c57905d0d.png"
 			},{
 				"id": 15881,
 				"name": "David O'Keefe",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15881-d75c79b6-e3ea-4ca7-b595-2812930c832b.png"
 			},{
 				"id": 41449,
 				"name": "Stephen Gribbon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41449-481449d1-d778-4325-8c4c-287dfde7d86e.png"
 			},{
 				"id": 56853,
 				"name": "Charlie Rowley",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56853-8572fbc8-cb0e-4fe7-b80d-9687b3f2aa34.png"
 			},{
 				"id": 72112,
 				"name": "Janet Barbara Balfe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Derek Twigg"
+				"mp": "Derek Twigg",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Derek Twigg",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10610/derek_twigg/halton",
 			"electorate": 73457,
 			"turnout": 67.4,
@@ -45,8 +45,8 @@
 			"majority": 25405
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Derek Twigg",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72818,
 			"turnout": 62.1,
 			"valid": 45023,

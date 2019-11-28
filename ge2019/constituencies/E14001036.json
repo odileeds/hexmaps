@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1311,
 				"name": "Karen Buck",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5502a94a4a4c7d71797616b8.png"
 			},{
 				"id": 2741,
 				"name": "Gabriela Fajardo",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41466.png"
 			},{
 				"id": 41564,
 				"name": "Holly Rose Robinson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41564-934ab83a-7dc1-4822-b58e-14983a5dac4b.png"
 			},{
 				"id": 71732,
 				"name": "Cyrus Parvin",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71732.png"
 			},{
 				"id": 71733,
 				"name": "George Lee",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71733-88ba3eb3-82d3-43b7-acfa-b84960c5c9ab.png"
 			},{
 				"id": 71734,
 				"name": "Jamie Macfarlane",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71734.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Karen Buck"
+				"mp": "Karen Buck",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Karen Buck",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10075/karen_buck/westminster_north",
 			"electorate": 63846,
 			"turnout": 67.8,
@@ -50,8 +50,8 @@
 			"majority": 11512
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Karen Buck",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62346,
 			"turnout": 63.7,
 			"valid": 39514,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1592,
 				"name": "David Mundell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a643f0e9e2c82406ebc8.png"
 			},{
 				"id": 34693,
 				"name": "John Ferry",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34693.png"
 			},{
 				"id": 71409,
 				"name": "Amanda Burgauer",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71409.png"
 			},{
 				"id": 71867,
 				"name": "Nick Chisholm",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71867.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Mundell"
+				"mp": "David Mundell",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Mundell",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11970/david_mundell/dumfriesshire%2C_clydesdale_and_tweeddale",
 			"electorate": 67672,
 			"turnout": 72.4,
@@ -40,8 +40,8 @@
 			"majority": 9441
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Mundell",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68483,
 			"turnout": 76.2,
 			"valid": 52134,

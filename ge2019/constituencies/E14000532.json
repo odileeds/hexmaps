@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1433,
 				"name": "Graham Brady",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b3b0213eb34c82843cb60.png"
 			},{
 				"id": 2866,
 				"name": "Angela Smith",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f582b247335574a42e2d.png"
 			},{
 				"id": 4639,
 				"name": "Geraldine Coggins",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bf92d4aa4fdc23cc90904.png"
 			},{
 				"id": 34397,
 				"name": "Andrew Western",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34397.png"
 			},{
 				"id": 34719,
 				"name": "Neil Taylor",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34719.png"
 			},{
 				"id": 72522,
 				"name": "Iram Kiani",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72522-632c6fc9-dde5-471c-9600-f40fcc7ec365.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Graham Brady"
+				"mp": "Graham Brady",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Graham Brady",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10062/graham_brady/altrincham_and_sale_west",
 			"electorate": 73226,
 			"turnout": 72.1,
@@ -50,8 +50,8 @@
 			"majority": 6426
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Graham Brady",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71511,
 			"turnout": 70.9,
 			"valid": 50517,

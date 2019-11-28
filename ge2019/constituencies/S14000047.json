@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 6052,
 				"name": "Marion Fellows",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde72f1ccf185f0d8cc4b9.png"
 			},{
 				"id": 6501,
 				"name": "Meghan Gallacher",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b36ea13eb34c82843cb4d.png"
 			},{
 				"id": 6854,
 				"name": "Neil Wilson",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 8415,
 				"name": "Angela Feeney",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8415.png"
 			},{
 				"id": 49153,
 				"name": "Christopher Wilson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49153-3f3d066a-2267-4e40-b232-c4dfe9c77ae9.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Marion Fellows"
+				"mp": "Marion Fellows",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Marion Fellows",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25277/marion_fellows/motherwell_and_wishaw",
 			"electorate": 68215,
 			"turnout": 61.5,
@@ -45,8 +45,8 @@
 			"majority": 318
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Marion Fellows",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 70283,
 			"turnout": 68.7,
 			"valid": 48237,

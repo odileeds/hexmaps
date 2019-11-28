@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2419,
 				"name": "Pete Wishart",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f423031be737cc3e2afa57.png"
 			},{
 				"id": 2801,
 				"name": "Peter Anthony Barrett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb920a8c0192f732ca8e2.png"
 			},{
 				"id": 21959,
 				"name": "Angus Forbes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21959-8e16dae4-e25c-48a0-8b50-190484c2b4f5.png"
 			},{
 				"id": 70303,
 				"name": "Angela Bretherton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70303.png"
 			},{
 				"id": 71581,
 				"name": "Stuart Powell",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71581-d79c242d-17d1-427a-9aed-2e6e22cf8b43.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Pete Wishart"
+				"mp": "Pete Wishart",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Pete Wishart",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11333/pete_wishart/perth_and_north_perthshire",
 			"electorate": 71762,
 			"turnout": 71.8,
@@ -45,8 +45,8 @@
 			"majority": 21
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Pete Wishart",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 72459,
 			"turnout": 74.9,
 			"valid": 54200,

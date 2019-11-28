@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 19836,
 				"name": "Jack Edgar Brereton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19836.png"
 			},{
 				"id": 71675,
 				"name": "Mark Paul McDonald",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71675.png"
 			},{
 				"id": 72224,
 				"name": "Rosalyn Jane Gordon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jack Brereton"
+				"mp": "Jack Brereton",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jack Brereton",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25698/jack_brereton/stoke-on-trent_south",
 			"electorate": 66057,
 			"turnout": 63.1,
@@ -35,8 +35,8 @@
 			"majority": 663
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Robert Flello",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68091,
 			"turnout": 57.7,
 			"valid": 39107,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5918,
 				"name": "Margaret Ferrier",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde7ac1ccf185f0d8cc4bd.png"
 			},{
 				"id": 6704,
 				"name": "Janice MacKay",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6704.png"
 			},{
 				"id": 22760,
 				"name": "Gerard Killen",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22760.png"
 			},{
 				"id": 22797,
 				"name": "Mark McGeever",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22797-76ab477f-9e29-4fc6-bfac-4676b6af5e84.png"
 			},{
 				"id": 22803,
 				"name": "Lynne Nailon",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ged Killen"
+				"mp": "Ged Killen",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ged Killen",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25612/ged_killen/rutherglen_and_hamilton_west",
 			"electorate": 80098,
 			"turnout": 63.5,
@@ -45,8 +45,8 @@
 			"majority": 265
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Margaret Ferrier",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 82830,
 			"turnout": 69.6,
 			"valid": 57615,

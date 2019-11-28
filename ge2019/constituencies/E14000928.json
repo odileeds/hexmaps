@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2798,
 				"name": "Julian Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f39ab247335574a42e26.png"
 			},{
 				"id": 16161,
 				"name": "Andrew James Murday",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16161.png"
 			},{
 				"id": 34320,
 				"name": "Jack Render",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34320.png"
 			},{
 				"id": 34668,
 				"name": "Andy Brown",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34668.png"
 			},{
 				"id": 43749,
 				"name": "Brian McDaid",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43749.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Julian Smith"
+				"mp": "Julian Smith",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Julian Smith",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24961/julian_smith/skipton_and_ripon",
 			"electorate": 78104,
 			"turnout": 74.4,
@@ -45,8 +45,8 @@
 			"majority": 19985
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Julian Smith",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76645,
 			"turnout": 71.4,
 			"valid": 54559,

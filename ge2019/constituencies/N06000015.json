@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5994,
 				"name": "Chris Hazzard",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323d8c29c5d53959d9e459.png"
 			},{
 				"id": 11532,
 				"name": "Patrick Brown",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11532.png"
 			},{
 				"id": 68954,
 				"name": "Jill Macauley",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68954.png"
 			},{
 				"id": 69379,
 				"name": "Michael Savage",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69379-39c6418f-4abb-4ca9-8e72-274d2f558c06.png"
 			},{
 				"id": 69431,
 				"name": "Glyn Hanna",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69431-3928e84e-69ba-478b-8b0d-37175a94533e.png"
 			},{
 				"id": 72037,
 				"name": "Paul Brady",
-				"party": "Aontú",
+				"party": { "code": "", "title": "Aontú" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72037.png"
 			}],
 			"incumbent": {
-				"party": "SF",
-				"mp": "Christopher Hazzard"
+				"mp": "Christopher Hazzard",
+				"party": { "code": "SF", "title": "Sinn Féin" }
 			}
 		},
 		"2017": {
-			"first": "SF",
 			"mp": "Christopher Hazzard",
+			"party": { "code": "SF" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25154/christopher_hazzard/south_down",
 			"electorate": 75685,
 			"turnout": 67.2,
@@ -50,8 +50,8 @@
 			"majority": 2446
 		},
 		"2015": {
-			"first": "Social Democratic and Labour Party",
 			"mp": "Margaret Ritchie",
+			"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
 			"electorate": 75220,
 			"turnout": 57.2,
 			"valid": 42697,

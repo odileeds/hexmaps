@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2925,
 				"name": "Richard Fuller",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72015.png"
 			},{
 				"id": 34122,
 				"name": "Daniel Norton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34122-e25f2e0d-6888-4084-899a-e96b5f7eb112.png"
 			},{
 				"id": 34410,
 				"name": "Julian Vaughan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34410.png"
 			},{
 				"id": 34896,
 				"name": "Philippa Fleming",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34896.png"
 			},{
 				"id": 66751,
 				"name": "Adam Zerny",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72016.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Alistair Burt"
+				"mp": "Alistair Burt",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alistair Burt",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10770/alistair_burt/north_east_bedfordshire",
 			"electorate": 87505,
 			"turnout": 73.4,
@@ -45,8 +45,8 @@
 			"majority": 20862
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alistair Burt",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83551,
 			"turnout": 70.5,
 			"valid": 58672,

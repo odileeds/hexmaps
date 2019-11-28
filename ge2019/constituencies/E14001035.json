@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1476,
 				"name": "Harriett Mary Morrison Baldwin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b60003676900a02e16446.png"
 			},{
 				"id": 19738,
 				"name": "Beverley Nielsen",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19738.png"
 			},{
 				"id": 25228,
 				"name": "Samantha Kay Charles",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25228.png"
 			},{
 				"id": 72580,
 				"name": "Martin John Allen",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72580-a0fd3882-b71a-4813-917e-da6580ffc4fd.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Harriett Baldwin"
+				"mp": "Harriett Baldwin",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Harriett Baldwin",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24785/harriett_baldwin/west_worcestershire",
 			"electorate": 74375,
 			"turnout": 75.9,
@@ -40,8 +40,8 @@
 			"majority": 21328
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Harriett Baldwin",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73394,
 			"turnout": 74.0,
 			"valid": 54100,

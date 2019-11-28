@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5712,
 				"name": "Selaine Saxby",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5712.png"
 			},{
 				"id": 6201,
 				"name": "Alex James White",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6201.png"
 			},{
 				"id": 64471,
 				"name": "Robbie Mack",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64471.png"
 			},{
 				"id": 72376,
 				"name": "Steve Cotten",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72377,
 				"name": "Finola ONeill",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72377-8fd91715-cd9e-40e1-83a8-7e7b56112a0b.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Peter Heaton-Jones"
+				"mp": "Peter Heaton-Jones",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Peter Heaton-Jones",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25412/peter_heaton-jones/north_devon",
 			"electorate": 75801,
 			"turnout": 73.5,
@@ -45,8 +45,8 @@
 			"majority": 4332
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Peter Heaton-Jones",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74737,
 			"turnout": 70.2,
 			"valid": 52320,

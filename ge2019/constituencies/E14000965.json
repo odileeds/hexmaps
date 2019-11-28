@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4168,
 				"name": "Theo Clarke",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4168.png"
 			},{
 				"id": 6074,
 				"name": "Emma Louise Carter",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6074.png"
 			},{
 				"id": 17384,
 				"name": "Joyce Edna Still",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17384.png"
 			},{
 				"id": 71663,
 				"name": "Alex Wagner",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71663.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jeremy Lefroy"
+				"mp": "Jeremy Lefroy",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jeremy Lefroy",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24760/jeremy_lefroy/stafford",
 			"electorate": 68445,
 			"turnout": 75.9,
@@ -40,8 +40,8 @@
 			"majority": 7729
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jeremy Lefroy",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68705,
 			"turnout": 71.2,
 			"valid": 48767,

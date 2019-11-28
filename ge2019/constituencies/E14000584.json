@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 384,
 				"name": "Tobias Ellwood",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225992328bff5d39338a65.png"
 			},{
 				"id": 6204,
 				"name": "Alasdair Keddie",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6204.png"
 			},{
 				"id": 60551,
 				"name": "Corrie Drew",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60551.png"
 			},{
 				"id": 71809,
 				"name": "Philip Dunn",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71809.png"
 			},{
 				"id": 72418,
 				"name": "Ben Aston",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72418-49097d0f-2e5d-4249-bac2-ab9d038c4124.png"
 			},{
 				"id": 72419,
 				"name": "Emma Victoria Johnson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Tobias Ellwood"
+				"mp": "Tobias Ellwood",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Tobias Ellwood",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11437/tobias_ellwood/bournemouth_east",
 			"electorate": 74591,
 			"turnout": 65.2,
@@ -50,8 +50,8 @@
 			"majority": 7937
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Tobias Ellwood",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72275,
 			"turnout": 62.3,
 			"valid": 44827,

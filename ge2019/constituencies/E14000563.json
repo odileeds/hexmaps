@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3666,
 				"name": "Waheed Rafiq",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3666-8dcbba38-410e-4635-89b9-033c6e90407f.png"
 			},{
 				"id": 3962,
 				"name": "Liam Byrne",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b88b77b9de399275bb494.png"
 			},{
 				"id": 9931,
 				"name": "Akaal Sidhu",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9931-56332f1a-4d4b-4112-a7ed-f3525d158206.png"
 			},{
 				"id": 72544,
 				"name": "Jill Dagnan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72545,
 				"name": "Hilda Johani",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72545-6360b5a3-b696-4527-ab24-f208488e4e9c.png"
 			},{
 				"id": 72546,
 				"name": "Jane McKears",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72546-b6faa370-6359-4495-b421-3dbc2b4e1290.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Liam Byrne"
+				"mp": "Liam Byrne",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Liam Byrne",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11360/liam_byrne/birmingham%2C_hodge_hill",
 			"electorate": 75698,
 			"turnout": 61.3,
@@ -50,8 +50,8 @@
 			"majority": 31026
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Liam Byrne",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75302,
 			"turnout": 54.9,
 			"valid": 41039,

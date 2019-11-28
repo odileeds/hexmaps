@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 21068,
 				"name": "Ian Yuill",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21068.png"
 			},{
 				"id": 21095,
 				"name": "Stephen Flynn",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21095.png"
 			},{
 				"id": 71864,
 				"name": "Douglas Lumsden",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71864-192214cf-85ea-42cf-b841-e8019d21849f.png"
 			},{
 				"id": 72355,
 				"name": "Shona Simpson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Ross Thomson"
+				"mp": "Ross Thomson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Ross Thomson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25539/ross_thomson/aberdeen_south",
 			"electorate": 64964,
 			"turnout": 68.5,
@@ -40,8 +40,8 @@
 			"majority": 4752
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Callum McCaig",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 68056,
 			"turnout": 71.4,
 			"valid": 48551,

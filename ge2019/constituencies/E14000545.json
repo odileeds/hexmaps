@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2525,
 				"name": "Maria Miller",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552105458793cecd721b9bfd.png"
 			},{
 				"id": 9733,
 				"name": "Alan Harvey Stone",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525efab413cb4432adffa5c.png"
 			},{
 				"id": 65697,
 				"name": "Sashi Mylvaganam",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65697-4348a755-eafd-4a68-99cb-dcc1f4e81fdc.png"
 			},{
 				"id": 70675,
 				"name": "Kerena Marchant",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70675.png"
 			},{
 				"id": 71900,
 				"name": "Jonathan Edward Jenkin",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Maria Miller"
+				"mp": "Maria Miller",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Maria Miller",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11389/maria_miller/basingstoke",
 			"electorate": 81875,
 			"turnout": 68.3,
@@ -45,8 +45,8 @@
 			"majority": 9466
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Maria Miller",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79665,
 			"turnout": 66.9,
 			"valid": 53076,

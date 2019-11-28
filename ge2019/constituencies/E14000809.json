@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1554,
 				"name": "John Leech",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1554.png"
 			},{
 				"id": 4378,
 				"name": "Jeff Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e839b150e238702c05af.png"
 			},{
 				"id": 4636,
 				"name": "Lucy Bannister",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4636-080045df-ae5d-4975-b0b8-348a456c0941.png"
 			},{
 				"id": 41364,
 				"name": "Shengke Zhi",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41364.png"
 			},{
 				"id": 72374,
 				"name": "Stephen Patrick Ward",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jeff Smith"
+				"mp": "Jeff Smith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jeff Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25366/jeff_smith/manchester%2C_withington",
 			"electorate": 74654,
 			"turnout": 71.8,
@@ -45,8 +45,8 @@
 			"majority": 29875
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jeff Smith",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74102,
 			"turnout": 67.8,
 			"valid": 49966,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1415,
 				"name": "Mike Jackson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1415.png"
 			},{
 				"id": 2878,
 				"name": "Greg Knight",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517c742249b917507bee4d8.png"
 			},{
 				"id": 35033,
 				"name": "Timothy Norman",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35033.png"
 			},{
 				"id": 62224,
 				"name": "Catherine Louise Minnis",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62224-fc6a0719-efd0-42e5-bf9e-0a5810ecbc48.png"
 			},{
 				"id": 62302,
 				"name": "Dale Richard Needham",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Greg Knight"
+				"mp": "Greg Knight",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Greg Knight",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11026/greg_knight/east_yorkshire",
 			"electorate": 81065,
 			"turnout": 66.6,
@@ -45,8 +45,8 @@
 			"majority": 15006
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Greg Knight",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81023,
 			"turnout": 62.0,
 			"valid": 49991,

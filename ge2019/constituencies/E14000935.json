@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 487,
 				"name": "Heather Wheeler",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552bccfe62eb6fa83a5483b8.png"
 			},{
 				"id": 6560,
 				"name": "Lorraine Johnson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6560-dc0388c6-6a8c-4221-b59f-183b5485b119.png"
 			},{
 				"id": 9882,
 				"name": "Amanda Baker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9882.png"
 			},{
 				"id": 34297,
 				"name": "Robert Pearson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34297.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Heather Wheeler"
+				"mp": "Heather Wheeler",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Heather Wheeler",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24769/heather_wheeler/south_derbyshire",
 			"electorate": 76380,
 			"turnout": 68.9,
@@ -40,8 +40,8 @@
 			"majority": 11970
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Heather Wheeler",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73923,
 			"turnout": 68.9,
 			"valid": 50762,

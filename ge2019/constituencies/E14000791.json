@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 455,
 				"name": "Michael Fabricant",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350639b247335574a42e5e.png"
 			},{
 				"id": 6568,
 				"name": "Paul Ray",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548acbde2efb2432db96523.png"
 			},{
 				"id": 39153,
 				"name": "Andrea Michelle Muckley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 71948,
 				"name": "Dave Robertson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71948.png"
 			},{
 				"id": 72457,
 				"name": "John Madden",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Michael Fabricant"
+				"mp": "Michael Fabricant",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Michael Fabricant",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10193/michael_fabricant/lichfield",
 			"electorate": 74430,
 			"turnout": 71.9,
@@ -45,8 +45,8 @@
 			"majority": 18581
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Michael Fabricant",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74234,
 			"turnout": 69.5,
 			"valid": 51467,

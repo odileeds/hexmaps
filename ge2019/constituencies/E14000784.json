@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1292,
 				"name": "Liz Kendall",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca06341b868785b1fe682.png"
 			},{
 				"id": 6819,
 				"name": "Ian Bradwell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6819.png"
 			},{
 				"id": 65059,
 				"name": "Amanda Wright",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 71511,
 				"name": "Jack Collier",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71511.png"
 			},{
 				"id": 71915,
 				"name": "Anika Goddard",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Liz Kendall"
+				"mp": "Liz Kendall",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Liz Kendall",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24816/liz_kendall/leicester_west",
 			"electorate": 64843,
 			"turnout": 57.9,
@@ -45,8 +45,8 @@
 			"majority": 11060
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Liz Kendall",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63204,
 			"turnout": 55.0,
 			"valid": 34522,

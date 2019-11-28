@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1700,
 				"name": "Gareth Johnson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a683f0e9e2c82406ebcb.png"
 			},{
 				"id": 5153,
 				"name": "Mark Lindop",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ad80362426fe9b6b1512a.jpg"
 			},{
 				"id": 29225,
 				"name": "Sacha Gosine",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72004.png"
 			},{
 				"id": 67342,
 				"name": "Kyle Grenville Albert Marsh",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67342.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Gareth Johnson"
+				"mp": "Gareth Johnson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Gareth Johnson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24803/gareth_johnson/dartford",
 			"electorate": 78506,
 			"turnout": 69.1,
@@ -40,8 +40,8 @@
 			"majority": 13186
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Gareth Johnson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75209,
 			"turnout": 70.0,
 			"valid": 52418,

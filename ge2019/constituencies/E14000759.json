@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4360,
 				"name": "Wes Streeting",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e821b150e238702c05a1.png"
 			},{
 				"id": 6767,
 				"name": "David Reynolds",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/554875d5901889bf2617552c.png"
 			},{
 				"id": 35650,
 				"name": "Howard Berlin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35650.png"
 			},{
 				"id": 36714,
 				"name": "Mark Johnson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36714.png"
 			},{
 				"id": 71493,
 				"name": "Neil Anderson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71493.png"
 			},{
 				"id": 72454,
 				"name": "Donald Omoarebun Akhigbe",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72454-202ccd93-2a7c-4c12-be0e-68887eb2adf9.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Wes Streeting"
+				"mp": "Wes Streeting",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Wes Streeting",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25320/wes_streeting/ilford_north",
 			"electorate": 72997,
 			"turnout": 72.5,
@@ -50,8 +50,8 @@
 			"majority": 9639
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Wes Streeting",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75294,
 			"turnout": 65.1,
 			"valid": 48932,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2414,
 				"name": "David Kendall",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2414-d52c2e88-a5f1-4895-a267-f9226b3298e4.png"
 			},{
 				"id": 3753,
 				"name": "Robin Tilbrook",
-				"party": "English Democrats",
+				"party": { "code": "", "title": "English Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55238ab3944e4aac612ace60.png"
 			},{
 				"id": 4658,
 				"name": "Paul Jeater",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4658.png"
 			},{
 				"id": 6447,
 				"name": "Michael Alex Burghart",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb0f5a8c0192f732ca8d9.png"
 			},{
 				"id": 71890,
 				"name": "Oliver Durose",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71890.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alex Burghart"
+				"mp": "Alex Burghart",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alex Burghart",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25659/alex_burghart/brentwood_and_ongar",
 			"electorate": 75067,
 			"turnout": 70.5,
@@ -45,8 +45,8 @@
 			"majority": 24002
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Eric Pickles",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71918,
 			"turnout": 72.4,
 			"valid": 51897,

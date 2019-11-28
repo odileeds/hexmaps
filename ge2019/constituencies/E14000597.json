@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4371,
 				"name": "Lloyd Russell-Moyle",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4371_gmk8HZA.png"
 			},{
 				"id": 58848,
 				"name": "Joe Miller",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58848.png"
 			},{
 				"id": 67695,
 				"name": "Alexandra Phillips",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67695.png"
 			},{
 				"id": 71327,
 				"name": "Ben Thomas",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71327-328fa254-4bb6-4a79-b3d7-c1214c2c85d2.png"
 			},{
 				"id": 71927,
 				"name": "Graham Cushway",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71927.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Lloyd Russell-Moyle"
+				"mp": "Lloyd Russell-Moyle",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lloyd Russell-Moyle",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25667/lloyd_russell-moyle/brighton%2C_kemptown",
 			"electorate": 67893,
 			"turnout": 72.5,
@@ -45,8 +45,8 @@
 			"majority": 9868
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Simon Kirby",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67858,
 			"turnout": 67.0,
 			"valid": 45306,

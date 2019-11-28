@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4369,
 				"name": "Richard Burgon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca0dddeda58bc5cca66e9.png"
 			},{
 				"id": 38538,
 				"name": "David Dresser",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 51741,
 				"name": "Jill Mortimer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51741-84e0d54c-6c77-4867-94ae-5a5b5d83b9f0.png"
 			},{
 				"id": 55189,
 				"name": "Shahab Adris",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55189-71621bfe-9059-40c4-b52b-4a9f9a1c052b.png"
 			},{
 				"id": 71509,
 				"name": "Sarah Wass",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71509-6bca1db6-9291-41f3-b222-e0dcc99834a8.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Richard Burgon"
+				"mp": "Richard Burgon",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Richard Burgon",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25391/richard_burgon/leeds_east",
 			"electorate": 65950,
 			"turnout": 62.8,
@@ -45,8 +45,8 @@
 			"majority": 12752
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Richard Burgon",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64754,
 			"turnout": 59.3,
 			"valid": 38196,

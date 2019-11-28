@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2970,
 				"name": "Louise Hughes",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552aab6a5b858ee163ed6375.png"
 			},{
 				"id": 4970,
 				"name": "Liz Saville Roberts",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4970-1f6a5034-bb67-4780-97c5-412a7d676321.png"
 			},{
 				"id": 25356,
 				"name": "Graham Neil Hogg",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25356.png"
 			},{
 				"id": 34666,
 				"name": "Tomos Dafydd Davies",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34666.png"
 			}],
 			"incumbent": {
-				"party": "PC",
-				"mp": "Liz Saville-Roberts"
+				"mp": "Liz Saville-Roberts",
+				"party": { "code": "PC", "title": "Plaid Cymru" }
 			}
 		},
 		"2017": {
-			"first": "PC",
 			"mp": "Liz Saville Roberts",
+			"party": { "code": "PC" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25302/liz_saville-roberts/dwyfor_meirionnydd",
 			"electorate": 44699,
 			"turnout": 67.9,
@@ -40,8 +40,8 @@
 			"majority": 4850
 		},
 		"2015": {
-			"first": "Plaid Cymru",
 			"mp": "Liz Saville-Roberts",
+			"party": { "code": "PC", "title": "Plaid Cymru" },
 			"electorate": 44394,
 			"turnout": 65.3,
 			"valid": 28913,

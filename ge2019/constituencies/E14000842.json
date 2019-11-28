@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 239,
 				"name": "Steve Barclay",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8ab1788906ef2517bd6a.png"
 			},{
 				"id": 6293,
 				"name": "Rupert Moss-Eccardt",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6293.png"
 			},{
 				"id": 34884,
 				"name": "Ruth Johnson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34884.png"
 			},{
 				"id": 71851,
 				"name": "Diane Boyd",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71851.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Stephen Barclay"
+				"mp": "Stephen Barclay",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Stephen Barclay",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24916/stephen_barclay/north_east_cambridgeshire",
 			"electorate": 84414,
 			"turnout": 63.1,
@@ -40,8 +40,8 @@
 			"majority": 21270
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stephen Barclay",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82990,
 			"turnout": 62.7,
 			"valid": 51780,

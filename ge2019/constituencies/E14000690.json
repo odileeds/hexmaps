@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4037,
 				"name": "Clive Efford",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b9d51a8c0192f732ca8c3.png"
 			},{
 				"id": 34562,
 				"name": "Charley Hasted",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34562.png"
 			},{
 				"id": 44425,
 				"name": "Louie French",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44425-6a556a06-2725-48b4-b0c6-62c25655750a.png"
 			},{
 				"id": 45318,
 				"name": "Matthew Stratford",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45318-bea84970-c6f9-48f1-bc9f-a90669fe16c7.png"
 			},{
 				"id": 71431,
 				"name": "Steve Kelleher",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71431.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Clive Efford"
+				"mp": "Clive Efford",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Clive Efford",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10185/clive_efford/eltham",
 			"electorate": 64474,
 			"turnout": 71.6,
@@ -45,8 +45,8 @@
 			"majority": 6296
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Clive Efford",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63998,
 			"turnout": 67.6,
 			"valid": 43157,

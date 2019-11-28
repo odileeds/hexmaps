@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 23,
 				"name": "Gary Butler",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55292f32b6a860ed1648be6c.png"
 			},{
 				"id": 4119,
 				"name": "Helen Whately",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525fb6d413cb4432adffa87.png"
 			},{
 				"id": 49409,
 				"name": "Hannah Perkin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49409-17593ca5-783b-49b4-93ab-0384c2e08d51.png"
 			},{
 				"id": 71442,
 				"name": "Hannah Temple",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71442.png"
 			},{
 				"id": 72074,
 				"name": "Jenny Reeves",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72074.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Helen Whately"
+				"mp": "Helen Whately",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Helen Whately",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25398/helen_whately/faversham_and_mid_kent",
 			"electorate": 72205,
 			"turnout": 68.9,
@@ -45,8 +45,8 @@
 			"majority": 17413
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Helen Whately",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69523,
 			"turnout": 66.0,
 			"valid": 45803,

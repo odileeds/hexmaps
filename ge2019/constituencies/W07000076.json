@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 59,
 				"name": "Lindsay Whittle",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59.png"
 			},{
 				"id": 3906,
 				"name": "Wayne David",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bad3410284be476aae89c.png"
 			},{
 				"id": 5574,
 				"name": "Nathan Gill",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c0ba6b9c95afe74c5d348.png"
 			},{
 				"id": 13544,
 				"name": "Jane Pratt",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13544.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Wayne David"
+				"mp": "Wayne David",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Wayne David",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10842/wayne_david/caerphilly",
 			"electorate": 64381,
 			"turnout": 64.1,
@@ -40,8 +40,8 @@
 			"majority": 12078
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Wayne David",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63603,
 			"turnout": 63.5,
 			"valid": 40283,

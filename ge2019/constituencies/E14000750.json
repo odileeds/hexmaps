@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 5077,
 				"name": "Keir Starmer",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55323ec329c5d53959d9e45f.png"
 			},{
 				"id": 6874,
 				"name": "Mohammad Ali Bhatti",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526945559bbc5c063445bda.png"
 			},{
 				"id": 36698,
 				"name": "Matthew Kirk",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36698.png"
 			},{
 				"id": 41904,
 				"name": "Kirsten De Keyser",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41904.png"
 			},{
 				"id": 47604,
 				"name": "Alexandra Hayward",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72612,
 				"name": "Hector Birchwood",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72612-b7d0ad17-8972-4758-8dcc-2e2e291d84db.png"
 			},{
 				"id": 72613,
 				"name": "Thomas Scripps",
-				"party": "Socialist Equality Party",
+				"party": { "code": "", "title": "Socialist Equality Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Keir Starmer"
+				"mp": "Keir Starmer",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Keir Starmer",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25353/keir_starmer/holborn_and_st_pancras",
 			"electorate": 88088,
 			"turnout": 67.0,
@@ -55,8 +55,8 @@
 			"majority": 30509
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Keir Starmer",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 86764,
 			"turnout": 63.5,
 			"valid": 54917,

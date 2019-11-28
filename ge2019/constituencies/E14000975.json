@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2603,
 				"name": "Bill Cash",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9c4441b868785b1fe677.png"
 			},{
 				"id": 13939,
 				"name": "Mike Stubbs",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13939.png"
 			},{
 				"id": 56678,
 				"name": "Alec Sandiford",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56678-022c8698-3a35-4f03-b465-c2c24317e671.png"
 			},{
 				"id": 71995,
 				"name": "Tom Adamson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Bill Cash"
+				"mp": "Bill Cash",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Bill Cash",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10095/bill_cash/stone",
 			"electorate": 67824,
 			"turnout": 73.8,
@@ -40,8 +40,8 @@
 			"majority": 17495
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Bill Cash",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67339,
 			"turnout": 70.0,
 			"valid": 47031,

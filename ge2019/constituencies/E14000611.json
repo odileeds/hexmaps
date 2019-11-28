@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4163,
 				"name": "James Daly",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4163.png"
 			},{
 				"id": 4286,
 				"name": "James Frith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4286.png"
 			},{
 				"id": 14560,
 				"name": "Charlie Allen",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14560.png"
 			},{
 				"id": 44315,
 				"name": "Gareth David Lee Lloyd-Johnson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44315.png"
 			},{
 				"id": 46828,
 				"name": "Alan Michael McCarthy",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46828-c4001b1a-54fa-492a-b9b8-367c7f94f066.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "James Frith"
+				"mp": "James Frith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "James Frith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25622/james_frith/bury_north",
 			"electorate": 67580,
 			"turnout": 70.9,
@@ -45,8 +45,8 @@
 			"majority": 4375
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Nuttall",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67580,
 			"turnout": 67.2,
 			"valid": 45230,

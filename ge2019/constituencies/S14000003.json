@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 6031,
 				"name": "Neil Gray",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fc326409c0bb66180a6299.png"
 			},{
 				"id": 20615,
 				"name": "Rosemary McGowan",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20615.png"
 			},{
 				"id": 34251,
 				"name": "Helen McFarlane",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34251.png"
 			},{
 				"id": 70696,
 				"name": "Lorraine Nolan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70696.png"
 			},{
 				"id": 71969,
 				"name": "William Crossman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Neil Gray"
+				"mp": "Neil Gray",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Neil Gray",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25293/neil_gray/airdrie_and_shotts",
 			"electorate": 64146,
 			"turnout": 59.2,
@@ -45,8 +45,8 @@
 			"majority": 195
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Neil Gray",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 66792,
 			"turnout": 66.4,
 			"valid": 44286,

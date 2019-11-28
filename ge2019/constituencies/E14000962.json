@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2762,
 				"name": "Pat Moloney",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 6209,
 				"name": "Conor McGinn",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517f92a249b917507bee521.png"
 			},{
 				"id": 42050,
 				"name": "David Ian Van Der Burg",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42050-70c2cb32-ec39-4fab-8dcb-840431baaeae.png"
 			},{
 				"id": 45886,
 				"name": "Joel Ralph Charles",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45886.png"
 			},{
 				"id": 72138,
 				"name": "Malcolm James Webster",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Conor McGinn"
+				"mp": "Conor McGinn",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Conor McGinn",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25423/conor_mcginn/st_helens_north",
 			"electorate": 76088,
 			"turnout": 66.0,
@@ -45,8 +45,8 @@
 			"majority": 18406
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Conor McGinn",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75262,
 			"turnout": 61.7,
 			"valid": 46256,

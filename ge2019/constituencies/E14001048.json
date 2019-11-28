@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1611,
 				"name": "John Redwood",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553baaa0a8c0192f732ca8d0.png"
 			},{
 				"id": 2876,
 				"name": "Phillip Lee",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225960328bff5d39338a64.png"
 			},{
 				"id": 7844,
 				"name": "Annabel Mullin",
-				"party": "Advance Together",
+				"party": { "code": "", "title": "Advance Together" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7844-03e9a035-f3ae-485e-8f07-9abba739a115.png"
 			},{
 				"id": 9390,
 				"name": "Annette Medhurst",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9390.png"
 			},{
 				"id": 18144,
 				"name": "Kizzi Johannessen",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18144.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "John Redwood"
+				"mp": "John Redwood",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "John Redwood",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10499/john_redwood/wokingham",
 			"electorate": 79111,
 			"turnout": 75.5,
@@ -45,8 +45,8 @@
 			"majority": 18798
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "John Redwood",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77881,
 			"turnout": 72.1,
 			"valid": 55999,

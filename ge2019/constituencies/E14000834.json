@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 7031,
 				"name": "Nigel Jones",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6869600f97ed464f28be.png"
 			},{
 				"id": 34452,
 				"name": "Aaron Bell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34452.png"
 			},{
 				"id": 71550,
 				"name": "Jason Cooper",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71550.png"
 			},{
 				"id": 71822,
 				"name": "Carl Greatbatch",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71822.png"
 			},{
 				"id": 72488,
 				"name": "Carl Richard Johnson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72488-8eebdb90-6925-4da0-b3e8-fd8bf0735373.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Paul Farrelly"
+				"mp": "Paul Farrelly",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Paul Farrelly",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10882/paul_farrelly/newcastle-under-lyme",
 			"electorate": 65596,
 			"turnout": 66.8,
@@ -45,8 +45,8 @@
 			"majority": 30
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Paul Farrelly",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67619,
 			"turnout": 63.8,
 			"valid": 42997,

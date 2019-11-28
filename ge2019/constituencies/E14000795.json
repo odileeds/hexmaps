@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6881,
 				"name": "Adam Heatherington",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6881.png"
 			},{
 				"id": 7681,
 				"name": "Richard Kemp",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7681.png"
 			},{
 				"id": 49755,
 				"name": "Kay Inckle",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49755.png"
 			},{
 				"id": 51203,
 				"name": "Mick Coyne",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": ""
 			},{
 				"id": 71518,
 				"name": "Paula Barker",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71518.png"
 			},{
 				"id": 72319,
 				"name": "Catherine Riordan Mulhern",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Luciana Berger"
+				"mp": "Luciana Berger",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Luciana Berger",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24924/luciana_berger/liverpool%2C_wavertree",
 			"electorate": 62411,
 			"turnout": 69.9,
@@ -50,8 +50,8 @@
 			"majority": 29466
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Luciana Berger",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 61549,
 			"turnout": 66.8,
 			"valid": 40974,

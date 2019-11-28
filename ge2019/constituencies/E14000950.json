@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1683,
 				"name": "Gary Streeter",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553baf2ab9c95afe74c5d332.png"
 			},{
 				"id": 17648,
 				"name": "Sima Davarian",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17648-3908d5a9-c885-4f96-ac31-95d721a2acd7.png"
 			},{
 				"id": 58483,
 				"name": "Ian Andrew Poyser",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58483-de88fa23-fb34-453e-91ac-b026ff744a65.png"
 			},{
 				"id": 71885,
 				"name": "Alex Beverley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71885.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Gary Streeter"
+				"mp": "Gary Streeter",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Gary Streeter",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10575/gary_streeter/south_west_devon",
 			"electorate": 71260,
 			"turnout": 74.2,
@@ -40,8 +40,8 @@
 			"majority": 15816
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Gary Streeter",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71035,
 			"turnout": 71.1,
 			"valid": 50372,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1251,
 				"name": "Brian Mathew",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd1ca0668e142f73d3b4c8.png"
 			},{
 				"id": 3271,
 				"name": "James Gray",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55043c451b7be75c206f17da.png"
 			},{
 				"id": 23941,
 				"name": "Jon Fisher",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23941-d85a6875-2596-4893-aba3-f15b6bc68be6.png"
 			},{
 				"id": 71568,
 				"name": "Bonnie Jackson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71568-25ffe0a1-2d98-4317-8d35-b15d71e83d82.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "James Gray"
+				"mp": "James Gray",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "James Gray",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10240/james_gray/north_wiltshire",
 			"electorate": 71408,
 			"turnout": 75.2,
@@ -40,8 +40,8 @@
 			"majority": 22877
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Gray",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67851,
 			"turnout": 74.7,
 			"valid": 50556,

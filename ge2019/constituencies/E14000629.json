@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 590,
 				"name": "Greg Hands",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a029f0e9e2c82406ebaa.png"
 			},{
 				"id": 39487,
 				"name": "Matt Uberoi",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39487.png"
 			},{
 				"id": 70426,
 				"name": "Sam Morland",
-				"party": "Animal Welfare Party",
+				"party": { "code": "", "title": "Animal Welfare Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70426.png"
 			},{
 				"id": 71362,
 				"name": "Nicola Horlick",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71362.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Greg Hands"
+				"mp": "Greg Hands",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Greg Hands",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11610/greg_hands/chelsea_and_fulham",
 			"electorate": 63728,
 			"turnout": 66.1,
@@ -40,8 +40,8 @@
 			"majority": 8188
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Greg Hands",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63478,
 			"turnout": 63.6,
 			"valid": 40226,

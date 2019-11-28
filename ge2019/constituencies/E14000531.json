@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3873,
 				"name": "Ian Garrett",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54e7a5cf02f716934fefdb7b.png"
 			},{
 				"id": 5728,
 				"name": "Wendy Morton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b3af113eb34c82843cb5f.png"
 			},{
 				"id": 5731,
 				"name": "Mark Beech",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5515afc8caf202e56580fb2a.png"
 			},{
 				"id": 44144,
 				"name": "David Huw Morgan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71977.png"
 			},{
 				"id": 45195,
 				"name": "Bill McComish",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45195-82a2fda8-7426-45d2-a7c2-5baf378c6923.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Wendy Morton"
+				"mp": "Wendy Morton",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Wendy Morton",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25342/wendy_morton/aldridge-brownhills",
 			"electorate": 60363,
 			"turnout": 66.7,
@@ -45,8 +45,8 @@
 			"majority": 14307
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Wendy Morton",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 60215,
 			"turnout": 65.8,
 			"valid": 39497,

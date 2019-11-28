@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2214,
 				"name": "Stephen McPartland",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550c0b363be3632f3135c9e3.png"
 			},{
 				"id": 18761,
 				"name": "Victoria Snelling",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18761.png"
 			},{
 				"id": 36171,
 				"name": "Lisa Nash",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36171-7cd0f303-968c-413a-b931-1e7d30cc50b4.png"
 			},{
 				"id": 71666,
 				"name": "Jill Borcherds",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71666.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Stephen McPartland"
+				"mp": "Stephen McPartland",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Stephen McPartland",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24888/stephen_mcpartland/stevenage",
 			"electorate": 70765,
 			"turnout": 69.7,
@@ -40,8 +40,8 @@
 			"majority": 3386
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stephen McPartland",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70597,
 			"turnout": 67.9,
 			"valid": 47799,

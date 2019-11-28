@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5123,
 				"name": "Claire Wright",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5123.png"
 			},{
 				"id": 26484,
 				"name": "Henry Gent",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26484-ad252bfd-2a7a-4ae5-a7b9-e8739c800a5a.png"
 			},{
 				"id": 26490,
 				"name": "Eleanor Rylance",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26490.png"
 			},{
 				"id": 35013,
 				"name": "Peter Faithfull",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35013-f3f315d7-d1c1-4ff9-9dbd-6d1951ea5d1f.png"
 			},{
 				"id": 62734,
 				"name": "Daniel Wilson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			},{
 				"id": 72028,
 				"name": "Simon Jupp",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72028.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Hugo Swire"
+				"mp": "Hugo Swire",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Hugo Swire",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11265/hugo_swire/east_devon",
 			"electorate": 82369,
 			"turnout": 73.3,
@@ -50,8 +50,8 @@
 			"majority": 8036
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Hugo Swire",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76519,
 			"turnout": 71.8,
 			"valid": 54717,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1913,
 				"name": "Graham Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba498b9c95afe74c5d327.png"
 			},{
 				"id": 44358,
 				"name": "Sara Britcliffe",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44358.png"
 			},{
 				"id": 71492,
 				"name": "Gregory Butt",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71492.png"
 			},{
 				"id": 72012,
 				"name": "Katrina Brockbank",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 72623,
 				"name": "Adam John Thomas Waller-Slack",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72623-0e4a9de8-283d-4e6d-8a5d-3c08bf03e799.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Graham Jones"
+				"mp": "Graham Jones",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Graham Jones",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24835/graham_jones/hyndburn",
 			"electorate": 71608,
 			"turnout": 63.1,
@@ -45,8 +45,8 @@
 			"majority": 5815
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Graham Jones",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68341,
 			"turnout": 63.0,
 			"valid": 42887,

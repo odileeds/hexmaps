@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 25790,
 				"name": "Stuart Bestwick",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25790.png"
 			},{
 				"id": 34206,
 				"name": "Alex Norris",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34206_wKAJfdM.png"
 			},{
 				"id": 35337,
 				"name": "Christina Morgan-Danvers",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35337.png"
 			},{
 				"id": 35341,
 				"name": "Andrew Guy Jones",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35341-dddbb188-8559-45ed-b89b-ce1fb86159b0.png"
 			},{
 				"id": 71574,
 				"name": "Julian Paul Carter",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71574-7fd3d152-458b-473e-973f-9d094e5daf92.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Alex Norris"
+				"mp": "Alex Norris",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Alex Norris",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25687/alex_norris/nottingham_north",
 			"electorate": 66886,
 			"turnout": 57.3,
@@ -45,8 +45,8 @@
 			"majority": 11160
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Graham Allen",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65918,
 			"turnout": 53.6,
 			"valid": 35343,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 35664,
 				"name": "Helen Thompson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35664.png"
 			},{
 				"id": 36325,
 				"name": "Rory O'Broin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36325.png"
 			},{
 				"id": 71824,
 				"name": "Bell Ribeiro-Addy",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71824.png"
 			},{
 				"id": 71965,
 				"name": "Scott Ainslie",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71965.png"
 			},{
 				"id": 72218,
 				"name": "Penelope Margaret Kimpton Becker",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Chuka Umunna"
+				"mp": "Chuka Umunna",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chuka Umunna",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24950/chuka_umunna/streatham",
 			"electorate": 78649,
 			"turnout": 70.9,
@@ -45,8 +45,8 @@
 			"majority": 26285
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Chuka Umunna",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79137,
 			"turnout": 63.3,
 			"valid": 49933,

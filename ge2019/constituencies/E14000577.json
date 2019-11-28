@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 2467,
 				"name": "Dennis Skinner",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322a4729c5d53959d9e446.png"
 			},{
 				"id": 6648,
 				"name": "Mark Fletcher",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a69ff0e9e2c82406ebcc.png"
 			},{
 				"id": 6943,
 				"name": "David Kesteven",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5522556b328bff5d39338a4d.png"
 			},{
 				"id": 20130,
 				"name": "David Hancock",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50681.png"
 			},{
 				"id": 63797,
 				"name": "Ross Walker",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72169-2c647fea-3366-4a4d-9273-3732ccdf4557.png"
 			},{
 				"id": 71313,
 				"name": "Kevin Harper",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71313.png"
 			},{
 				"id": 72168,
 				"name": "Natalie Jane Hoy",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Dennis Skinner"
+				"mp": "Dennis Skinner",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Dennis Skinner",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10544/dennis_skinner/bolsover",
 			"electorate": 73429,
 			"turnout": 63.4,
@@ -55,8 +55,8 @@
 			"majority": 5288
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Dennis Skinner",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71979,
 			"turnout": 61.4,
 			"valid": 43998,

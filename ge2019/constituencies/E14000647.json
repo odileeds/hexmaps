@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 19845,
 				"name": "Trudy Harrison",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19845.png"
 			},{
 				"id": 19847,
 				"name": "Jack Lenox",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19847.png"
 			},{
 				"id": 31927,
 				"name": "Tony Lywood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31927.png"
 			},{
 				"id": 69536,
 				"name": "John Studholme",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69536.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Trudy Harrison"
+				"mp": "Trudy Harrison",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Trudy Harrison",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25600/trudy_harrison/copeland",
 			"electorate": 61751,
 			"turnout": 69.5,
@@ -40,8 +40,8 @@
 			"majority": 1695
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jamie Reed",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62087,
 			"turnout": 64.1,
 			"valid": 39631,

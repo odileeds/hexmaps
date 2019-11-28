@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 521,
 				"name": "Steve Burgess",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71767.png"
 			},{
 				"id": 524,
 				"name": "Iain McGill",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5c583676900a02e16436.png"
 			},{
 				"id": 6041,
 				"name": "Deidre Brock",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba196b9c95afe74c5d324.png"
 			},{
 				"id": 19806,
 				"name": "Gordon Munro",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19806.png"
 			},{
 				"id": 70512,
 				"name": "Heather Astbury",
-				"party": "Renew",
+				"party": { "code": "", "title": "Renew" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70512.png"
 			},{
 				"id": 71426,
 				"name": "Bruce Wilson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71426.png"
 			},{
 				"id": 72436,
 				"name": "Robert Speirs",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Deidre Brock"
+				"mp": "Deidre Brock",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Deidre Brock",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25336/deidre_brock/edinburgh_north_and_leith",
 			"electorate": 79473,
 			"turnout": 71.2,
@@ -55,8 +55,8 @@
 			"majority": 1625
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Deidre  Brock",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 80910,
 			"turnout": 71.8,
 			"valid": 58008,

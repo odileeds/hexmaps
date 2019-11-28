@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 2437,
 				"name": "Mike Powell",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e93eb150e238702c064a.png"
 			},{
 				"id": 5769,
 				"name": "Jonathan Bishop",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c98fd41b868785b1fe676.png"
 			},{
 				"id": 33499,
 				"name": "Sam Trask",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33499-19cae530-548a-435f-883c-1e58eed60f7d.png"
 			},{
 				"id": 33757,
 				"name": "Alex Davies-Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33757.png"
 			},{
 				"id": 34427,
 				"name": "Fflur Elin",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34427.png"
 			},{
 				"id": 72615,
 				"name": "Steve Bayliss",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72615-1557914e-2edf-4aa8-ba49-d786b92f2e26.png"
 			},{
 				"id": 72616,
 				"name": "Sue Prior",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72616-7f8af480-62c5-44b0-8e70-3bfce3d63c05.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Owen Smith"
+				"mp": "Owen Smith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Owen Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24797/owen_smith/pontypridd",
 			"electorate": 60564,
 			"turnout": 65.9,
@@ -55,8 +55,8 @@
 			"majority": 11448
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Owen Smith",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58940,
 			"turnout": 64.4,
 			"valid": 37882,

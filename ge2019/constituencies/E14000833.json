@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2098,
 				"name": "Catherine McKinnell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a5b4c10a500d1762bf1bd.png"
 			},{
 				"id": 4947,
 				"name": "Nick Cott",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f76d2cc689026478f43689.png"
 			},{
 				"id": 34245,
 				"name": "Alistair Ford",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34245.png"
 			},{
 				"id": 72303,
 				"name": "Mark Guy Lehain",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72303-e05ea525-3223-44fb-92ef-6b94a4a629b7.png"
 			},{
 				"id": 72304,
 				"name": "Richard Mark Ogden",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72304-9955867a-3b70-4c2d-b7ff-f87c5c03ec7e.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Catherine McKinnell"
+				"mp": "Catherine McKinnell",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Catherine McKinnell",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24818/catherine_mckinnell/newcastle_upon_tyne_north",
 			"electorate": 66073,
 			"turnout": 73.1,
@@ -45,8 +45,8 @@
 			"majority": 10349
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Catherine McKinnell",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67902,
 			"turnout": 66.3,
 			"valid": 44891,

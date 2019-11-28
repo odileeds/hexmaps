@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3797,
 				"name": "Brian Spencer",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3797.png"
 			},{
 				"id": 4437,
 				"name": "Marie Rimmer",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553be49ca51642637514d64a.png"
 			},{
 				"id": 5070,
 				"name": "Richard Short",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd19ff668e142f73d3b4ac.png"
 			},{
 				"id": 6863,
 				"name": "Daniel Oxley",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526915359bbc5c063445ba8.png"
 			},{
 				"id": 36621,
 				"name": "Kai Taylor",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36621.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Marie Rimmer"
+				"mp": "Marie Rimmer",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Marie Rimmer",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25321/marie_rimmer/st_helens_south_and_whiston",
 			"electorate": 79036,
 			"turnout": 66.9,
@@ -45,8 +45,8 @@
 			"majority": 24343
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Marie Rimmer",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77720,
 			"turnout": 62.5,
 			"valid": 48397,

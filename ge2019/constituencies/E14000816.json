@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 938,
 				"name": "Adrian Heald",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a4f207940863c767fde33.png"
 			},{
 				"id": 2827,
 				"name": "George Freeman",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5530d0720eda8c847a390846.png"
 			},{
 				"id": 19724,
 				"name": "Steffan Aquarone",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19724.png"
 			},{
 				"id": 72115,
 				"name": "P J O'Gorman",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "George Freeman"
+				"mp": "George Freeman",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "George Freeman",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24817/george_freeman/mid_norfolk",
 			"electorate": 80027,
 			"turnout": 69.6,
@@ -40,8 +40,8 @@
 			"majority": 16086
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "George Freeman",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77154,
 			"turnout": 68.0,
 			"valid": 52212,

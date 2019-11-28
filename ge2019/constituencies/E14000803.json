@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2810,
 				"name": "Pat McDonald",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2810_MVqT3sT.png"
 			},{
 				"id": 2811,
 				"name": "Theresa May",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553243d729c5d53959d9e46d.png"
 			},{
 				"id": 49584,
 				"name": "Joshua Peter Reynolds",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49584.png"
 			},{
 				"id": 71525,
 				"name": "Emily Claire Elizabeth Tomalin",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71525-d06fe210-2a09-4654-929c-1f934d9b04d4.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Theresa May"
+				"mp": "Theresa May",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Theresa May",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10426/theresa_may/maidenhead",
 			"electorate": 76076,
 			"turnout": 76.6,
@@ -40,8 +40,8 @@
 			"majority": 26457
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Theresa May",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74187,
 			"turnout": 72.8,
 			"valid": 53855,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5046,
 				"name": "Colin Clark",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5d343676900a02e1643b.png"
 			},{
 				"id": 21335,
 				"name": "Richard Gordon Thomson",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21335.png"
 			},{
 				"id": 71457,
 				"name": "James Oates",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71457-937f51fa-b03d-4593-8621-1e9ea4bb86ab.png"
 			},{
 				"id": 72404,
 				"name": "Heather Herbert",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Colin Clark"
+				"mp": "Colin Clark",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Colin Clark",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25678/colin_clark/gordon",
 			"electorate": 78531,
 			"turnout": 68.4,
@@ -40,8 +40,8 @@
 			"majority": 2607
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Alex  Salmond",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 79393,
 			"turnout": 73.3,
 			"valid": 58161,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5189,
 				"name": "Angela Rayner",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8893788906ef2517bd67.png"
 			},{
 				"id": 41884,
 				"name": "Lee Huntbach",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41884.png"
 			},{
 				"id": 44612,
 				"name": "George Rice",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44612-1d650fd2-7dd6-420a-844a-4c5e4d4f6b2a.png"
 			},{
 				"id": 71281,
 				"name": "Derek Brocklehurst",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71281-f6638aea-b788-49a7-9f7a-8b8fce995d82.png"
 			},{
 				"id": 72117,
 				"name": "Dan Costello",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72117-89fa80ff-c737-48b3-8abd-239c99d4e73c.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Angela Rayner"
+				"mp": "Angela Rayner",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Angela Rayner",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25429/angela_rayner/ashton-under-lyne",
 			"electorate": 67674,
 			"turnout": 58.8,
@@ -45,8 +45,8 @@
 			"majority": 11295
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Angela Rayner",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68343,
 			"turnout": 57.2,
 			"valid": 38918,

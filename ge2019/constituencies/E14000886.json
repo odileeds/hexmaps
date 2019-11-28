@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1985,
 				"name": "Stuart Andrew",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ce5bf209513973bc512bb.png"
 			},{
 				"id": 5691,
 				"name": "Bob Buxton",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5691.png"
 			},{
 				"id": 18753,
 				"name": "Ian Dowling",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18753.png"
 			},{
 				"id": 53254,
 				"name": "Quinn Daley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53254-46e151fc-e140-4212-b969-0f8a031717e7.png"
 			},{
 				"id": 71591,
 				"name": "Jane Aitchison",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71591.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Stuart Andrew"
+				"mp": "Stuart Andrew",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Stuart Andrew",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24864/stuart_andrew/pudsey",
 			"electorate": 72622,
 			"turnout": 74.3,
@@ -45,8 +45,8 @@
 			"majority": 331
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Stuart Andrew",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70533,
 			"turnout": 72.4,
 			"valid": 50927,

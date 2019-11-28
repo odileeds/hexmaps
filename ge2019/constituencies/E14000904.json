@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5542,
 				"name": "Sarah Champion",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5542.png"
 			},{
 				"id": 18365,
 				"name": "Adam Jonathon Carter",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 18444,
 				"name": "Paul Hague",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 59113,
 				"name": "Gerri Hickton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72118,
 				"name": "Dennis Bannan",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Sarah Champion"
+				"mp": "Sarah Champion",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Sarah Champion",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25168/sarah_champion/rotherham",
 			"electorate": 63237,
 			"turnout": 60.0,
@@ -45,8 +45,8 @@
 			"majority": 11387
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Sarah Champion",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63698,
 			"turnout": 59.6,
 			"valid": 37823,

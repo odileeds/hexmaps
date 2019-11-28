@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1570,
 				"name": "Lucy Powell",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f33bb247335574a42e24.png"
 			},{
 				"id": 14401,
 				"name": "John Bridges",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14401.png"
 			},{
 				"id": 14483,
 				"name": "Shaden Jaradat",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14483.png"
 			},{
 				"id": 43728,
 				"name": "Melanie Jane Horrocks",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43728-471c2936-51ab-4429-af0d-a6568372d7ab.png"
 			},{
 				"id": 59256,
 				"name": "Sarah Jane Chadwick",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59256-44784fe2-d846-4bad-aa86-a4fd9619eb1d.png"
 			},{
 				"id": 72576,
 				"name": "Dennis Leech",
-				"party": "Socialist Equality Party",
+				"party": { "code": "", "title": "Socialist Equality Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Lucy Powell"
+				"mp": "Lucy Powell",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Lucy Powell",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25165/lucy_powell/manchester_central",
 			"electorate": 90261,
 			"turnout": 55.1,
@@ -50,8 +50,8 @@
 			"majority": 31445
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Lucy Powell",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 86078,
 			"turnout": 52.9,
 			"valid": 45331,

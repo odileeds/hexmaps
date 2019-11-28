@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 34587,
 				"name": "Virginia Crosbie",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34587.png"
 			},{
 				"id": 71745,
 				"name": "Aled ap Dafydd",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71745.png"
 			},{
 				"id": 71746,
 				"name": "Helen Jenner",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71746.png"
 			},{
 				"id": 71747,
 				"name": "Mary Roberts",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71747.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Albert Owen"
+				"mp": "Albert Owen",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Albert Owen",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11148/albert_owen/ynys_mon",
 			"electorate": 52921,
 			"turnout": 70.6,
@@ -40,8 +40,8 @@
 			"majority": 5259
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Albert Owen",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 49939,
 			"turnout": 70.1,
 			"valid": 34926,

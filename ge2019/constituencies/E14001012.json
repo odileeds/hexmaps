@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 816,
 				"name": "Valerie Vaz",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aabbb319151d456c24fb5.png"
 			},{
 				"id": 18973,
 				"name": "John Macefield",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18973-153ec182-5b8f-4525-ad8a-92cfdb95d576.png"
 			},{
 				"id": 65656,
 				"name": "Gurjit Kaur Bains",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65656.png"
 			},{
 				"id": 71714,
 				"name": "Gary Hughes",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71714.png"
 			},{
 				"id": 72194,
 				"name": "Paul Harris",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72195,
 				"name": "Akheil Mehboob",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Valerie Vaz"
+				"mp": "Valerie Vaz",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Valerie Vaz",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24852/valerie_vaz/walsall_south",
 			"electorate": 67417,
 			"turnout": 65.4,
@@ -50,8 +50,8 @@
 			"majority": 8892
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Valerie Vaz",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67743,
 			"turnout": 62.1,
 			"valid": 41838,

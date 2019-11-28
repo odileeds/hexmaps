@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2595,
 				"name": "Grant Shapps",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357463367dc5383f552cdc.png"
 			},{
 				"id": 18116,
 				"name": "Oliver Sayers",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 24383,
 				"name": "Paul Zukowskyj",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24383.png"
 			},{
 				"id": 71725,
 				"name": "Rosie Newbigging",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71725.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Grant Shapps"
+				"mp": "Grant Shapps",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Grant Shapps",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11917/grant_shapps/welwyn_hatfield",
 			"electorate": 72888,
 			"turnout": 70.9,
@@ -40,8 +40,8 @@
 			"majority": 7369
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Grant Shapps",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73247,
 			"turnout": 68.8,
 			"valid": 50205,

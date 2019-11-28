@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1015,
 				"name": "Cheryl Gillan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a00cf0e9e2c82406eba9.png"
 			},{
 				"id": 27281,
 				"name": "Alan Booth",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27281.png"
 			},{
 				"id": 71366,
 				"name": "Dan Gallagher",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71366.png"
 			},{
 				"id": 72310,
 				"name": "Matt Turmaine",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72310-bc9a6110-2ffc-4efa-a53e-fb97e7ac1459.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Cheryl Gillan"
+				"mp": "Cheryl Gillan",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Cheryl Gillan",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10228/dame_cheryl_gillan/chesham_and_amersham",
 			"electorate": 71654,
 			"turnout": 77.1,
@@ -40,8 +40,8 @@
 			"majority": 22140
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Cheryl Gillan",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72547,
 			"turnout": 73.0,
 			"valid": 52730,

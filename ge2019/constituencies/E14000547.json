@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3720,
 				"name": "Wera Hobhouse",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e931b150e238702c0641.png"
 			},{
 				"id": 19114,
 				"name": "Mike Davies",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19114.png"
 			},{
 				"id": 34519,
 				"name": "Annabel Tall",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34519.png"
 			},{
 				"id": 70451,
 				"name": "Jimi Ogunnusi",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70451.png"
 			},{
 				"id": 72585,
 				"name": "Bill Blockhead",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Wera Hobhouse"
+				"mp": "Wera Hobhouse",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Wera Hobhouse",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25648/wera_hobhouse/bath",
 			"electorate": 66778,
 			"turnout": 74.3,
@@ -45,8 +45,8 @@
 			"majority": 5694
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Ben Howlett",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63084,
 			"turnout": 75.1,
 			"valid": 47167,

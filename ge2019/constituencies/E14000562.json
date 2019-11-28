@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3955,
 				"name": "Roger Godsiff",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9bf242c427035c8db3ec.png"
 			},{
 				"id": 9904,
 				"name": "Patrick Cox",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9904_TkEIoVl.png"
 			},{
 				"id": 9962,
 				"name": "Tahir Ali",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9962-af040ffb-52b4-42e0-aded-105e0674b686.png"
 			},{
 				"id": 40866,
 				"name": "Izzy Knowles",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40866_UN8W3Pp.png"
 			},{
 				"id": 72533,
 				"name": "Rosie Cuckston",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72533-5eea75d9-2838-49c0-ba8f-19b523dbca43.png"
 			},{
 				"id": 72534,
 				"name": "Penny-Anne O'Donnell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Roger Godsiff"
+				"mp": "Roger Godsiff",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Roger Godsiff",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10231/roger_godsiff/birmingham%2C_hall_green",
 			"electorate": 78271,
 			"turnout": 69.4,
@@ -50,8 +50,8 @@
 			"majority": 33944
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Roger Godsiff",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76330,
 			"turnout": 62.0,
 			"valid": 47046,

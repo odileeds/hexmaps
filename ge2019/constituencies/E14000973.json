@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3979,
 				"name": "Ruth Lauren Smeeth",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e895b150e238702c05dc.png"
 			},{
 				"id": 7136,
 				"name": "Alan Edmund Borgars",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7136.png"
 			},{
 				"id": 20069,
 				"name": "Jonathan Edward Gullis",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20069.png"
 			},{
 				"id": 71919,
 				"name": "Matt Dilworth",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71919.png"
 			},{
 				"id": 72212,
 				"name": "Peter Emil Andras",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72217,
 				"name": "Richard Watkin",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72217-e4d8609c-28f6-4013-84a1-3f93a37dd573.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ruth Smeeth"
+				"mp": "Ruth Smeeth",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ruth Smeeth",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25435/ruth_smeeth/stoke-on-trent_north",
 			"electorate": 71558,
 			"turnout": 58.4,
@@ -50,8 +50,8 @@
 			"majority": 2359
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ruth Smeeth",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71438,
 			"turnout": 54.3,
 			"valid": 38654,

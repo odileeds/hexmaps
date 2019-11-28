@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2875,
 				"name": "Andrea Leadsom",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553574bb367dc5383f552cdf.png"
 			},{
 				"id": 22870,
 				"name": "Denise Donaldson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22870-895c5b98-3e2e-4e34-85b7-3af879250ae7.png"
 			},{
 				"id": 34121,
 				"name": "Chris Lofts",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34121.png"
 			},{
 				"id": 35130,
 				"name": "Josh Phillips",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35130.png"
 			},{
 				"id": 44678,
 				"name": "Genevieve Kitchen",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44678-a5d56194-e061-41a0-86e3-6c9c51114706.png"
 			},{
 				"id": 72135,
 				"name": "Stuart Robert Mccutcheon",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrea Leadsom"
+				"mp": "Andrea Leadsom",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrea Leadsom",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24829/andrea_leadsom/south_northamptonshire",
 			"electorate": 85759,
 			"turnout": 75.8,
@@ -50,8 +50,8 @@
 			"majority": 22840
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrea Leadsom",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 85781,
 			"turnout": 71.2,
 			"valid": 60862,

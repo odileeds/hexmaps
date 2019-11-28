@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1376,
 				"name": "Nick Brown",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1376.png"
 			},{
 				"id": 4028,
 				"name": "Wendy Taylor",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4028.png"
 			},{
 				"id": 13058,
 				"name": "Robin Gwynn",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13058.png"
 			},{
 				"id": 38029,
 				"name": "Nick Hartley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38029-5d263fc3-0d82-4ea8-b95b-2b692ed85172.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Nick Brown"
+				"mp": "Nick Brown",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Nicholas Brown",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10069/nick_brown/newcastle_upon_tyne_east",
 			"electorate": 61989,
 			"turnout": 67.2,
@@ -40,8 +40,8 @@
 			"majority": 19261
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Nicholas Brown",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64243,
 			"turnout": 61.3,
 			"valid": 39222,

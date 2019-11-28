@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1638,
 				"name": "Neil Parish",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f8595639864752d05ba4.png"
 			},{
 				"id": 27606,
 				"name": "Margaret Dennis",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 51273,
 				"name": "John Timperley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51273.png"
 			},{
 				"id": 66242,
 				"name": "Elizabeth Pole",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66242.png"
 			},{
 				"id": 72026,
 				"name": "Colin Reed",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Neil Parish"
+				"mp": "Neil Parish",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Neil Parish",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24779/neil_parish/tiverton_and_honiton",
 			"electorate": 80731,
 			"turnout": 71.6,
@@ -45,8 +45,8 @@
 			"majority": 19801
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Neil Parish",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76270,
 			"turnout": 71.0,
 			"valid": 53763,

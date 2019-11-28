@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1329,
 				"name": "John Penrose",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6827600f97ed464f28bd.png"
 			},{
 				"id": 1371,
 				"name": "Suneil Basu",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1371.png"
 			},{
 				"id": 4467,
 				"name": "Tim Taylor",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4467.png"
 			},{
 				"id": 53277,
 				"name": "Patrick David Keating",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53277.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "John Penrose"
+				"mp": "John Penrose",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "John Penrose",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11924/john_penrose/weston-super-mare",
 			"electorate": 82136,
 			"turnout": 68.7,
@@ -40,8 +40,8 @@
 			"majority": 11544
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "John Penrose",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80309,
 			"turnout": 65.7,
 			"valid": 52552,

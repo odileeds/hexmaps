@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 28,
 				"name": "Jonty Leff",
-				"party": "Workers Revolutionary Party",
+				"party": { "code": "", "title": "Workers Revolutionary Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28.png"
 			},{
 				"id": 2563,
 				"name": "Meg Hillier",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350a2bb247335574a42e68.png"
 			},{
 				"id": 7045,
 				"name": "Dave Raval",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5519ac16ba7512a07da47932.png"
 			},{
 				"id": 36384,
 				"name": "Mark Beckett",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36384.png"
 			},{
 				"id": 71464,
 				"name": "Tyrone Scott",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71464.png"
 			},{
 				"id": 72588,
 				"name": "Robert Sidney Lloyd",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72588-a0391706-eb47-4080-be8d-be045b819517.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Meg Hillier"
+				"mp": "Meg Hillier",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Meg Hillier",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11605/meg_hillier/hackney_south_and_shoreditch",
 			"electorate": 83099,
 			"turnout": 66.6,
@@ -50,8 +50,8 @@
 			"majority": 37931
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Meg Hillier",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 84971,
 			"turnout": 56.2,
 			"valid": 47580,

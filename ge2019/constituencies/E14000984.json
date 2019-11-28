@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4233,
 				"name": "Paul Scully",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4233.png"
 			},{
 				"id": 34392,
 				"name": "Bonnie Craven",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34392_OgfvZo2.png"
 			},{
 				"id": 34628,
 				"name": "Claire Jackson-Prior",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34628.png"
 			},{
 				"id": 47398,
 				"name": "Hina Bokhari",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47398.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Paul Scully"
+				"mp": "Paul Scully",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Paul Scully",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25331/paul_scully/sutton_and_cheam",
 			"electorate": 70404,
 			"turnout": 73.8,
@@ -40,8 +40,8 @@
 			"majority": 12698
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Paul Scully",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69228,
 			"turnout": 72.3,
 			"valid": 49905,

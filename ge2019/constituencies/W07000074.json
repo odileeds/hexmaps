@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4457,
 				"name": "Chris Elmore",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4457.png"
 			},{
 				"id": 5789,
 				"name": "Anita Davies",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba5d1a8c0192f732ca8ce.png"
 			},{
 				"id": 9334,
 				"name": "Sadie Vidal",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9334.png"
 			},{
 				"id": 12618,
 				"name": "Tom Muller",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 71815,
 				"name": "Luke Fletcher",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71815.png"
 			},{
 				"id": 72560,
 				"name": "Christine Roach",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72560-b0c5bb66-24b2-487c-b1e3-ab6062211ffe.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Chris Elmore"
+				"mp": "Chris Elmore",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chris Elmore",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25490/chris_elmore/ogmore",
 			"electorate": 57125,
 			"turnout": 65.1,
@@ -50,8 +50,8 @@
 			"majority": 13871
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Huw Irranca-Davies",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 55572,
 			"turnout": 63.6,
 			"valid": 35250,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 918,
 				"name": "Nick Gibb",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225b7b328bff5d39338a6e.png"
 			},{
 				"id": 4271,
 				"name": "Alan Butcher",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516d00c929f1bbe286be03f.png"
 			},{
 				"id": 4482,
 				"name": "Francis Oppler",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4482.png"
 			},{
 				"id": 6829,
 				"name": "David Kurten",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552687ed59bbc5c063445b62.png"
 			},{
 				"id": 33261,
 				"name": "Carol Jane Birch",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33261.png"
 			},{
 				"id": 72347,
 				"name": "Andrew Elston",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nick Gibb"
+				"mp": "Nick Gibb",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nick Gibb",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10225/nick_gibb/bognor_regis_and_littlehampton",
 			"electorate": 75827,
 			"turnout": 67.7,
@@ -50,8 +50,8 @@
 			"majority": 17494
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nick Gibb",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72995,
 			"turnout": 64.9,
 			"valid": 47116,

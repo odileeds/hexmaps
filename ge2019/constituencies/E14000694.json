@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3284,
 				"name": "Chris Grayling",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a4d1f0e9e2c82406ebbb.png"
 			},{
 				"id": 23211,
 				"name": "Clive Woodbridge",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23211.png"
 			},{
 				"id": 30538,
 				"name": "Janice Baker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30538.png"
 			},{
 				"id": 34470,
 				"name": "Ed Mayne",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34470.png"
 			},{
 				"id": 34703,
 				"name": "Steve Gee",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34703.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Chris Grayling"
+				"mp": "Chris Grayling",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Chris Grayling",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10920/chris_grayling/epsom_and_ewell",
 			"electorate": 80029,
 			"turnout": 74.1,
@@ -45,8 +45,8 @@
 			"majority": 20475
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chris Grayling",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78633,
 			"turnout": 72.9,
 			"valid": 57143,

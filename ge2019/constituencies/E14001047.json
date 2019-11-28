@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2546,
 				"name": "Jonathan Lord",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2546.png"
 			},{
 				"id": 13476,
 				"name": "Troy De Leon",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13476.png"
 			},{
 				"id": 13560,
 				"name": "Will Forster",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13560.png"
 			},{
 				"id": 42927,
 				"name": "Gerry Mitchell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71998.png"
 			},{
 				"id": 52782,
 				"name": "Ella Walding",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52782.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jonathan Lord"
+				"mp": "Jonathan Lord",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jonathan Lord",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24884/jonathan_lord/woking",
 			"electorate": 76170,
 			"turnout": 72.5,
@@ -45,8 +45,8 @@
 			"majority": 16724
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jonathan Lord",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74269,
 			"turnout": 70.2,
 			"valid": 51964,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 513,
 				"name": "Chris Philp",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552384a0944e4aac612ace58.png"
 			},{
 				"id": 4616,
 				"name": "Peter Underwood",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4616-5a084c3a-6af4-45fb-9e2b-c15d04bd7964.png"
 			},{
 				"id": 4939,
 				"name": "Kathleen Garner",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55268e8659bbc5c063445b87.png"
 			},{
 				"id": 34342,
 				"name": "Anna Clare Jones",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34342.png"
 			},{
 				"id": 71835,
 				"name": "Olga FitzRoy",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71835.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Chris Philp"
+				"mp": "Chris Philp",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Chris Philp",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25377/chris_philp/croydon_south",
 			"electorate": 83518,
 			"turnout": 73.3,
@@ -45,8 +45,8 @@
 			"majority": 11406
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chris Philp",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82010,
 			"turnout": 70.5,
 			"valid": 57712,

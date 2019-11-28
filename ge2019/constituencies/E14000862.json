@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3353,
 				"name": "Jill Hope",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3353.png"
 			},{
 				"id": 22866,
 				"name": "Scott Mabbutt",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22866.png"
 			},{
 				"id": 27155,
 				"name": "Gareth Matthew Eales",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			},{
 				"id": 34338,
 				"name": "Andrew Lewer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34338.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Lewer"
+				"mp": "Andrew Lewer",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Lewer",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25686/andrew_lewer/northampton_south",
 			"electorate": 61766,
 			"turnout": 66.4,
@@ -40,8 +40,8 @@
 			"majority": 1159
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Mackintosh",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 61287,
 			"turnout": 63.7,
 			"valid": 38884,

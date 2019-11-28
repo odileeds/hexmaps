@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2210,
 				"name": "Huw Merriman",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2210.png"
 			},{
 				"id": 5767,
 				"name": "Jonathan Kent",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5767.png"
 			},{
 				"id": 34372,
 				"name": "Christine Bayliss",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34372_n4KSxHV.png"
 			},{
 				"id": 71298,
 				"name": "Martin Saunders",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71298-61666898-219b-465e-8481-69d38175eab9.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Huw Merriman"
+				"mp": "Huw Merriman",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Huw Merriman",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25426/huw_merriman/bexhill_and_battle",
 			"electorate": 81331,
 			"turnout": 73.1,
@@ -40,8 +40,8 @@
 			"majority": 22165
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Huw Merriman",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78796,
 			"turnout": 70.5,
 			"valid": 55218,

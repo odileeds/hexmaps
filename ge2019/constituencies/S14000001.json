@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6042,
 				"name": "Kirsty Blackman",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6042.png"
 			},{
 				"id": 8217,
 				"name": "Isobel Davidson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34672.png"
 			},{
 				"id": 20500,
 				"name": "Guy Ingerson",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20500-919bdb86-d40d-48b3-9696-0c8f885fa489.png"
 			},{
 				"id": 21476,
 				"name": "Sebastian Leslie",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21476-5f052460-4b49-42ce-87b9-3ed2e5451495.png"
 			},{
 				"id": 71838,
 				"name": "Nurul Hoque Ali",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71838.png"
 			},{
 				"id": 71863,
 				"name": "Ryan Houghton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71863-61577d8b-330a-49ce-9ae7-6c9001cf8aca.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Kirsty Blackman"
+				"mp": "Kirsty Blackman",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Kirsty Blackman",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25314/kirsty_blackman/aberdeen_north",
 			"electorate": 62130,
 			"turnout": 59.2,
@@ -50,8 +50,8 @@
 			"majority": 4139
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Kirsty Blackman",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67745,
 			"turnout": 65.0,
 			"valid": 43936,

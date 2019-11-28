@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 499,
 				"name": "Nigel Evans",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55158e5b4fb3d15c51926db9.png"
 			},{
 				"id": 7431,
 				"name": "Tony Johnson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5536df8dc3283ff5627e27b9.png"
 			},{
 				"id": 59941,
 				"name": "Giles Bridge",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59941.png"
 			},{
 				"id": 59995,
 				"name": "Chantelle Louise Seddon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59995.png"
 			},{
 				"id": 72214,
 				"name": "Paul Ryan Yates",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72214-98f29486-3d77-4b7c-a0b9-dfca65862ff1.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nigel Evans"
+				"mp": "Nigel Evans",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nigel Evans",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10190/nigel_evans/ribble_valley",
 			"electorate": 77968,
 			"turnout": 70.8,
@@ -45,8 +45,8 @@
 			"majority": 13199
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nigel Evans",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77379,
 			"turnout": 67.7,
 			"valid": 52243,

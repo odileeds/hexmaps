@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1896,
 				"name": "Andrew Selous",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535723b367dc5383f552cce.png"
 			},{
 				"id": 50322,
 				"name": "Emma Matanle",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50322.png"
 			},{
 				"id": 66477,
 				"name": "Andrew Howard Waters",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66477-8218a0d6-68c8-472f-8757-8bfaca24d0d0.png"
 			},{
 				"id": 72065,
 				"name": "Callum Anderson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72065-d21e27ea-a387-4d77-b069-bf96f614cf88.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Selous"
+				"mp": "Andrew Selous",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Selous",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11216/andrew_selous/south_west_bedfordshire",
 			"electorate": 79658,
 			"turnout": 69.8,
@@ -40,8 +40,8 @@
 			"majority": 14168
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Selous",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79285,
 			"turnout": 65.0,
 			"valid": 51304,

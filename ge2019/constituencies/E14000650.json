@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 700,
 				"name": "Stephen Gray",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/700.png"
 			},{
 				"id": 6303,
 				"name": "Greg Paul Judge",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225074328bff5d39338a3a.png"
 			},{
 				"id": 16771,
 				"name": "Clare Golby",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16771.png"
 			},{
 				"id": 71825,
 				"name": "Taiwo Owatemi",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71825.png"
 			},{
 				"id": 72575,
 				"name": "Joshua David Richardson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72575-d02de25a-f1a8-4c8b-9eef-c5904420e8b7.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Geoffrey Robinson"
+				"mp": "Geoffrey Robinson",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Geoffrey Robinson",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10506/geoffrey_robinson/coventry_north_west",
 			"electorate": 75196,
 			"turnout": 66.3,
@@ -45,8 +45,8 @@
 			"majority": 8580
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Geoffrey Robinson",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73626,
 			"turnout": 61.7,
 			"valid": 45246,

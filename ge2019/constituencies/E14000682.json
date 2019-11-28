@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2545,
 				"name": "Tim Loughton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a576f0e9e2c82406ebc0.png"
 			},{
 				"id": 9375,
 				"name": "Leslie Groves Williams",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34449.png"
 			},{
 				"id": 34303,
 				"name": "Sophie Cook",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34303_JJtee5H.png"
 			},{
 				"id": 38282,
 				"name": "Lavinia O'Connor",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38282.png"
 			},{
 				"id": 65455,
 				"name": "Ashley Charles Joe Scott Ridley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65455.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Tim Loughton"
+				"mp": "Tim Loughton",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Tim Loughton",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10371/tim_loughton/east_worthing_and_shoreham",
 			"electorate": 75525,
 			"turnout": 70.3,
@@ -45,8 +45,8 @@
 			"majority": 5106
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Tim Loughton",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74775,
 			"turnout": 67.0,
 			"valid": 49898,

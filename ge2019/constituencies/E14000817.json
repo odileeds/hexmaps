@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4189,
 				"name": "Mims Davies",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4189.png"
 			},{
 				"id": 7420,
 				"name": "Baron Von Thunderclap",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7420.png"
 			},{
 				"id": 61364,
 				"name": "Gemma Nadia Bolton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61364.png"
 			},{
 				"id": 61419,
 				"name": "Robert Liam Eggleston",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61419.png"
 			},{
 				"id": 71887,
 				"name": "Deanna Nicholson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71887.png"
 			},{
 				"id": 72143,
 				"name": "Brett David Mortensen",
-				"party": "Advance Together",
+				"party": { "code": "", "title": "Advance Together" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Nicholas Soames"
+				"mp": "Nicholas Soames",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nicholas Soames",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10555/nicholas_soames/mid_sussex",
 			"electorate": 84170,
 			"turnout": 73.2,
@@ -50,8 +50,8 @@
 			"majority": 19673
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nicholas Soames",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81034,
 			"turnout": 71.3,
 			"valid": 57492,

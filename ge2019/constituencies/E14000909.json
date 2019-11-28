@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 7071,
 				"name": "Alastair McQuillan",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552921a2b6a860ed1648be4e.png"
 			},{
 				"id": 23457,
 				"name": "Andy Thomas",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23457.png"
 			},{
 				"id": 34194,
 				"name": "Alicia Kearns",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34194.png"
 			},{
 				"id": 64319,
 				"name": "Carol Weaver",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64319.png"
 			},{
 				"id": 72317,
 				"name": "Marietta King",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 72318,
 				"name": "Anthony Watchorn",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alan Duncan"
+				"mp": "Alan Duncan",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alan Duncan",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10179/alan_duncan/rutland_and_melton",
 			"electorate": 78463,
 			"turnout": 73.4,
@@ -50,8 +50,8 @@
 			"majority": 23104
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alan Duncan",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79693,
 			"turnout": 68.8,
 			"valid": 54603,

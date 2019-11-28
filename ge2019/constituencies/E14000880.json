@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3562,
 				"name": "Luke Pollard",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3562.png"
 			},{
 				"id": 6407,
 				"name": "Graham Reed",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5516b259929f1bbe286be024.png"
 			},{
 				"id": 17695,
 				"name": "Rebecca Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17695.png"
 			},{
 				"id": 58665,
 				"name": "James Overton Ellwood",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58665.png"
 			},{
 				"id": 70375,
 				"name": "Ann Widdecombe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70375.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Luke Pollard"
+				"mp": "Luke Pollard",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Luke Pollard",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25690/luke_pollard/plymouth%2C_sutton_and_devonport",
 			"electorate": 76584,
 			"turnout": 66.9,
@@ -45,8 +45,8 @@
 			"majority": 6807
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Oliver Colvile",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73274,
 			"turnout": 65.7,
 			"valid": 47963,

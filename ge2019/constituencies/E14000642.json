@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 268,
 				"name": "Chris Southall",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/268.png"
 			},{
 				"id": 788,
 				"name": "Kevin Bonavia",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/788.png"
 			},{
 				"id": 4179,
 				"name": "Giles Watling",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4179.png"
 			},{
 				"id": 35219,
 				"name": "Callum Robertson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35219.png"
 			},{
 				"id": 72483,
 				"name": "Colin Leslie Bennett",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72484,
 				"name": "Andy Morgan",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72485,
 				"name": "Just-John Sexton",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Giles Watling"
+				"mp": "Giles Watling",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Giles Watling",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25644/giles_watling/clacton",
 			"electorate": 69263,
 			"turnout": 63.7,
@@ -55,8 +55,8 @@
 			"majority": 15828
 		},
 		"2015": {
-			"first": "UK Independence Party",
 			"mp": "Douglas Carswell",
+			"party": { "code": "UKIP", "title": "UK Independence Party" },
 			"electorate": 68936,
 			"turnout": 64.4,
 			"valid": 44207,

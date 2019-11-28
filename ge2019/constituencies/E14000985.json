@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 681,
 				"name": "Andrew Mitchell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f30cb247335574a42e23.png"
 			},{
 				"id": 10038,
 				"name": "Jenny Wilkinson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10038.png"
 			},{
 				"id": 42471,
 				"name": "Ben Auton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42471-8bf3944f-5f7f-45be-acf0-2b20a59a83b2.png"
 			},{
 				"id": 72529,
 				"name": "David Knowles",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72529-50279ae5-4372-4619-9320-4a62a3094e58.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Mitchell"
+				"mp": "Andrew Mitchell",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Mitchell",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11115/andrew_mitchell/sutton_coldfield",
 			"electorate": 75652,
 			"turnout": 69.9,
@@ -40,8 +40,8 @@
 			"majority": 15339
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Mitchell",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74956,
 			"turnout": 68.1,
 			"valid": 50854,

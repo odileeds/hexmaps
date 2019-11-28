@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 551,
 				"name": "Fiona Bruce",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55238baf944e4aac612ace65.png"
 			},{
 				"id": 49650,
 				"name": "Jo Dale",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49650.png"
 			},{
 				"id": 52566,
 				"name": "Jane Smith",
-				"party": "Animal Welfare Party",
+				"party": { "code": "", "title": "Animal Welfare Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70429.png"
 			},{
 				"id": 71380,
 				"name": "Paul Duffy",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71380-8d7ea105-f568-4172-940b-164fdb9f5c47.png"
 			},{
 				"id": 71381,
 				"name": "Rich McCarthy",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71381.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Fiona Bruce"
+				"mp": "Fiona Bruce",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Fiona Bruce",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24857/fiona_bruce/congleton",
 			"electorate": 76694,
 			"turnout": 73.3,
@@ -45,8 +45,8 @@
 			"majority": 12619
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Fiona Bruce",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72503,
 			"turnout": 70.5,
 			"valid": 50976,

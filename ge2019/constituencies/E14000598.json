@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 571,
 				"name": "Caroline Lucas",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54baff90cb19ebca71e2af7b.png"
 			},{
 				"id": 50213,
 				"name": "Adam Imanpour",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50213-008c0aaa-ce3a-4954-9f7b-8ca3782105c5.png"
 			},{
 				"id": 66172,
 				"name": "Nigel Furness",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 67676,
 				"name": "Emma Louise Hogan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67676.png"
 			},{
 				"id": 71420,
 				"name": "Richard Milton",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71420-7093b36f-b552-49ba-8917-7333e1135bab.png"
 			},{
 				"id": 72122,
 				"name": "Bob Dobbs",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72122-a48dc981-bfe3-4a68-9dad-d84111a8d7f8.png"
 			},{
 				"id": 72123,
 				"name": "Citizen Skwith",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72123-78a9616d-3bc8-41d1-b2e2-adefe4a5b105.png"
 			}],
 			"incumbent": {
-				"party": "Green",
-				"mp": "Caroline Lucas"
+				"mp": "Caroline Lucas",
+				"party": { "code": "Green", "title": "Green" }
 			}
 		},
 		"2017": {
-			"first": "Green",
 			"mp": "Caroline Lucas",
+			"party": { "code": "Green" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24910/caroline_lucas/brighton%2C_pavilion",
 			"electorate": 75486,
 			"turnout": 76.4,
@@ -55,8 +55,8 @@
 			"majority": 14699
 		},
 		"2015": {
-			"first": "Green",
 			"mp": "Caroline Lucas",
+			"party": { "code": "Green", "title": "Green" },
 			"electorate": 76557,
 			"turnout": 71.7,
 			"valid": 54676,

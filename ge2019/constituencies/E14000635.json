@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 3938,
 				"name": "Michelle Donelan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e716b150e238702c04e3.png"
 			},{
 				"id": 9388,
 				"name": "Helen Belcher",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9388.png"
 			},{
 				"id": 71884,
 				"name": "Martha Patricia Anachury",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71884.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Michelle Donelan"
+				"mp": "Michelle Donelan",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Michelle Donelan",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25316/michelle_donelan/chippenham",
 			"electorate": 76432,
 			"turnout": 74.8,
@@ -35,8 +35,8 @@
 			"majority": 16630
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Michelle Donelan",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74218,
 			"turnout": 74.8,
 			"valid": 55407,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 784,
 				"name": "Andrew Richard Rosindell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553500a8b247335574a42e4c.png"
 			},{
 				"id": 6588,
 				"name": "Ian Victor Sanderson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548b578c0821aec2c242219.png"
 			},{
 				"id": 34391,
 				"name": "Angelina Gladys Antonia Laura Leatherbarrow",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34391.png"
 			},{
 				"id": 34736,
 				"name": "David Hughes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34736.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Rosindell"
+				"mp": "Andrew Rosindell",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Rosindell",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11199/andrew_rosindell/romford",
 			"electorate": 73493,
 			"turnout": 68.0,
@@ -40,8 +40,8 @@
 			"majority": 13778
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Rosindell",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72594,
 			"turnout": 68.0,
 			"valid": 49178,

@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 426,
 				"name": "Suzanne Fernandes",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/426-e1db1caf-87b6-4af3-a1a6-540cba34a301.png"
 			},{
 				"id": 1373,
 				"name": "Virendra Sharma",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534e304b247335574a42e11.png"
 			},{
 				"id": 7329,
 				"name": "Rosamund Beattie",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7329.png"
 			},{
 				"id": 36011,
 				"name": "Darren Moore",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36011.png"
 			},{
 				"id": 42689,
 				"name": "Tom Bennett",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71944.png"
 			},{
 				"id": 71414,
 				"name": "Tariq Mahmood",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71414.png"
 			},{
 				"id": 72285,
 				"name": "Hassan Zulkifal",
-				"party": "Workers Revolutionary Party",
+				"party": { "code": "", "title": "Workers Revolutionary Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Virendra Sharma"
+				"mp": "Virendra Sharma",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Virendra Sharma",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/13934/virendra_sharma/ealing%2C_southall",
 			"electorate": 65188,
 			"turnout": 69.3,
@@ -55,8 +55,8 @@
 			"majority": 22090
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Virendra Sharma",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65606,
 			"turnout": 66.3,
 			"valid": 43321,

@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 3155,
 				"name": "Jeremy Hunt",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350076b247335574a42e4a.png"
 			},{
 				"id": 24989,
 				"name": "Paul David Follows",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24989-77a9d313-6583-4c4c-b2e8-a850ebb2f14c.png"
 			},{
 				"id": 67061,
 				"name": "Tim Corry",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jeremy Hunt"
+				"mp": "Jeremy Hunt",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jeremy Hunt",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11859/jeremy_hunt/south_west_surrey",
 			"electorate": 78042,
 			"turnout": 77.4,
@@ -35,8 +35,8 @@
 			"majority": 21590
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jeremy Hunt",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77548,
 			"turnout": 74.0,
 			"valid": 57119,

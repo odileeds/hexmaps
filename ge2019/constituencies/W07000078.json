@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1923,
 				"name": "Alun Cairns",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357117367dc5383f552cc4.png"
 			},{
 				"id": 5329,
 				"name": "Anthony Slaughter",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5329.png"
 			},{
 				"id": 6615,
 				"name": "Laurence Williams",
-				"party": "Gwlad Gwlad",
+				"party": { "code": "", "title": "Gwlad Gwlad" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fdef391ccf185f0d8cc4ca.png"
 			},{
 				"id": 71707,
 				"name": "Belinda Loveluck-Edwards",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71707.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alun Cairns"
+				"mp": "Alun Cairns",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alun Cairns",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24740/alun_cairns/vale_of_glamorgan",
 			"electorate": 73959,
 			"turnout": 72.6,
@@ -40,8 +40,8 @@
 			"majority": 2190
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alun Cairns",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72794,
 			"turnout": 70.6,
 			"valid": 51293,

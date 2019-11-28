@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1729,
 				"name": "Chris Heaton-Harris",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517d8d0249b917507bee4fb.png"
 			},{
 				"id": 1938,
 				"name": "Andrew Simpson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1938_rsxLjHU.png"
 			},{
 				"id": 19854,
 				"name": "Paul Joyce",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19854-77315d4b-4c74-45e7-82ea-afc513b47353.png"
 			},{
 				"id": 71394,
 				"name": "Clare Slater",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71394-4db1d038-bba1-4acd-95c9-8e58e5f1587e.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Chris Heaton-Harris"
+				"mp": "Chris Heaton-Harris",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Chris Heaton-Harris",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24841/chris_heaton-harris/daventry",
 			"electorate": 75268,
 			"turnout": 74.0,
@@ -40,8 +40,8 @@
 			"majority": 21734
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chris Heaton-Harris",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72873,
 			"turnout": 72.3,
 			"valid": 52518,

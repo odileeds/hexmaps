@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1067,
 				"name": "Anne Marie Morris",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ab467c0ff2778587ee2bc.png"
 			},{
 				"id": 26744,
 				"name": "Martin Wrigley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26744.png"
 			},{
 				"id": 27225,
 				"name": "James Osben",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27225.png"
 			},{
 				"id": 54140,
 				"name": "Megan Kathryn Debenham",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54140.png"
 			},{
 				"id": 72307,
 				"name": "David Sydney Halpin",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Anne Marie Morris"
+				"mp": "Anne Marie Morris",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Anne Marie Morris",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24912/anne_marie_morris/newton_abbot",
 			"electorate": 71714,
 			"turnout": 72.0,
@@ -45,8 +45,8 @@
 			"majority": 17160
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Anne Marie Morris",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69928,
 			"turnout": 69.3,
 			"valid": 48253,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6058,
 				"name": "Ronnie Cowan",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6058.png"
 			},{
 				"id": 13061,
 				"name": "Martin McCluskey",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13061.png"
 			},{
 				"id": 22296,
 				"name": "Jacci Stoyle",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72346,
 				"name": "Haroun Malik",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72346-e74c110b-932f-42aa-a4bd-5cb681f1b65e.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Ronnie Cowan"
+				"mp": "Ronnie Cowan",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Ronnie Cowan",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25288/ronnie_cowan/inverclyde",
 			"electorate": 58853,
 			"turnout": 66.4,
@@ -40,8 +40,8 @@
 			"majority": 384
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Ronnie Cowan",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 59350,
 			"turnout": 75.2,
 			"valid": 44607,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 23741,
 				"name": "Kelvin Charles Clayton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23741.png"
 			},{
 				"id": 30332,
 				"name": "Claudia Catherine Sorin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30332-8bc062fd-3dbb-4f1a-b4e2-0ce2879c7f2c.png"
 			},{
 				"id": 42151,
 				"name": "Edward Morello",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42151.png"
 			},{
 				"id": 71727,
 				"name": "Chris Loder",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71727.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Oliver Letwin"
+				"mp": "Oliver Letwin",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Oliver Letwin",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10355/oliver_letwin/west_dorset",
 			"electorate": 79048,
 			"turnout": 75.4,
@@ -40,8 +40,8 @@
 			"majority": 19091
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Oliver Letwin",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78000,
 			"turnout": 72.6,
 			"valid": 56458,

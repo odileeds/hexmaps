@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1959,
 				"name": "Nigel Adams",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553469adbbbc92023d8a8627.png"
 			},{
 				"id": 45198,
 				"name": "Arnold Warneken",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45198.png"
 			},{
 				"id": 49501,
 				"name": "Katharine Macy",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49501.png"
 			},{
 				"id": 58510,
 				"name": "Malik Rofidi",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72056.png"
 			},{
 				"id": 71858,
 				"name": "Mike Jordan",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71858.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nigel Adams"
+				"mp": "Nigel Adams",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nigel Adams",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24878/nigel_adams/selby_and_ainsty",
 			"electorate": 75918,
 			"turnout": 73.9,
@@ -45,8 +45,8 @@
 			"majority": 13772
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nigel Adams",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76082,
 			"turnout": 69.6,
 			"valid": 52804,

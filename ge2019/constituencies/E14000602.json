@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4281,
 				"name": "Thangam Debbonaire",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4281.png"
 			},{
 				"id": 9774,
 				"name": "Carla Denyer",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9774.png"
 			},{
 				"id": 64484,
 				"name": "Suria Aujla",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64484-c988fa68-4183-4dff-808b-1d49dd0b328e.png"
 			},{
 				"id": 72327,
 				"name": "Neil Robert Hipkiss",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72327-757bbcb5-4dcb-45e7-98b5-f2d31ed2a875.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Thangam Debbonaire"
+				"mp": "Thangam Debbonaire",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Thangam Debbonaire",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25402/thangam_debbonaire/bristol_west",
 			"electorate": 93003,
 			"turnout": 77.0,
@@ -40,8 +40,8 @@
 			"majority": 37336
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Thangam Debbonaire",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 91236,
 			"turnout": 70.6,
 			"valid": 64218,

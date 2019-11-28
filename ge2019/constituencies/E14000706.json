@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 986,
 				"name": "Gina Dowding",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69897.png"
 			},{
 				"id": 1338,
 				"name": "Mark Menzies",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525fac0413cb4432adffa81.png"
 			},{
 				"id": 5634,
 				"name": "Mark Jewell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca1c1dcfe1d5b5cf81472.png"
 			},{
 				"id": 6795,
 				"name": "Andy Higgins",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b422ce6d2cbcd26e36a24.png"
 			},{
 				"id": 64422,
 				"name": "Martin Mitchell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64422.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mark Menzies"
+				"mp": "Mark Menzies",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mark Menzies",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24804/mark_menzies/fylde",
 			"electorate": 65937,
 			"turnout": 70.5,
@@ -45,8 +45,8 @@
 			"majority": 11805
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mark Menzies",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65679,
 			"turnout": 66.6,
 			"valid": 43557,

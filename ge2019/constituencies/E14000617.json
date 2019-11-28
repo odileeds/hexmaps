@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 45,
 				"name": "Daniel Zeichner",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e7c8b150e238702c056c.png"
 			},{
 				"id": 7335,
 				"name": "Keith Garrett",
-				"party": "Rebooting Democracy",
+				"party": { "code": "", "title": "Rebooting Democracy" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c2f8b62bbab35264e7aca.png"
 			},{
 				"id": 19925,
 				"name": "Jeremy Caddick",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19925.png"
 			},{
 				"id": 35992,
 				"name": "Rod Cantrill",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35992-3c9fcc4c-48f6-4c70-bffd-3308000e32b8.png"
 			},{
 				"id": 71894,
 				"name": "Peter Dawe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71894.png"
 			},{
 				"id": 71966,
 				"name": "Russell Perrin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71966.png"
 			},{
 				"id": 72087,
 				"name": "Miles Hurley",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72087-69c20cb8-8942-4dd2-9e90-d6fdbe31edda.png"
 			},{
 				"id": 72136,
 				"name": "Jane Elizabeth Robins",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72136-bb8d6907-9e89-4e73-906b-e137c6e203b1.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Daniel Zeichner"
+				"mp": "Daniel Zeichner",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Daniel Zeichner",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25386/daniel_zeichner/cambridge",
 			"electorate": 78544,
 			"turnout": 71.2,
@@ -60,8 +60,8 @@
 			"majority": 12661
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Daniel Zeichner",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 83384,
 			"turnout": 62.3,
 			"valid": 51774,

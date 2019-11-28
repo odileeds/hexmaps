@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1604,
 				"name": "Jeremy Wright",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553571be367dc5383f552cc9.png"
 			},{
 				"id": 4506,
 				"name": "Richard Dickson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e917b150e238702c062d.png"
 			},{
 				"id": 6757,
 				"name": "Nicholas Robert Blunderbuss Green",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
 			},{
 				"id": 71499,
 				"name": "Alison Firth",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71499.png"
 			},{
 				"id": 72252,
 				"name": "Antony James Tucker",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72252-6c755876-5c69-4ac3-98a7-4afde95ababd.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Jeremy Wright"
+				"mp": "Jeremy Wright",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Jeremy Wright",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11791/jeremy_wright/kenilworth_and_southam",
 			"electorate": 66319,
 			"turnout": 77.4,
@@ -45,8 +45,8 @@
 			"majority": 18076
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jeremy Wright",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63957,
 			"turnout": 76.5,
 			"valid": 48791,

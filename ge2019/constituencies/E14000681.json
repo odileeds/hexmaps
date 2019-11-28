@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 343,
 				"name": "Helena Windsor",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552252e3328bff5d39338a43.png"
 			},{
 				"id": 1712,
 				"name": "Martin Hogbin",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1712.png"
 			},{
 				"id": 4393,
 				"name": "Frances Rehal",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4393.png"
 			},{
 				"id": 47793,
 				"name": "Alex Ehmann",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47793-6de3adbf-6287-4e10-be5a-20078542bc66.png"
 			},{
 				"id": 58695,
 				"name": "Joseph Booton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58695-928da5bd-f77a-411e-a797-462df5fa9349.png"
 			},{
 				"id": 72297,
 				"name": "Claire Coryl Julia Coutinho",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72297-40234152-6dce-4fa1-afb7-c93efe8cfa38.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Sam Gyimah"
+				"mp": "Sam Gyimah",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Sam Gyimah",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24789/sam_gyimah/east_surrey",
 			"electorate": 82004,
 			"turnout": 72.2,
@@ -50,8 +50,8 @@
 			"majority": 23914
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Sam Gyimah",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79654,
 			"turnout": 70.6,
 			"valid": 56103,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3232,
 				"name": "Jason Zadrozny",
-				"party": "Ashfield Independents",
+				"party": { "code": "", "title": "Ashfield Independents" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3232.png"
 			},{
 				"id": 31494,
 				"name": "Rebecca Wain",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31494.png"
 			},{
 				"id": 55799,
 				"name": "Lee Anderson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55799-0e5cd5d6-7141-4661-aca6-f4cca847a13b.png"
 			},{
 				"id": 60588,
 				"name": "Rosemary Cerridwen Gray Woods",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 70503,
 				"name": "Martin Daubney",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70503.png"
 			},{
 				"id": 71279,
 				"name": "Natalie Fleet",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71279.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Gloria De Piero"
+				"mp": "Gloria De Piero",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Gloria De Piero",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24811/gloria_de_piero/ashfield",
 			"electorate": 78076,
 			"turnout": 64.0,
@@ -50,8 +50,8 @@
 			"majority": 441
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Gloria De Piero",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77091,
 			"turnout": 61.8,
 			"valid": 47409,

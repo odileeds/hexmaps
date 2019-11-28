@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4275,
 				"name": "Ruth Cadbury",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4275.png"
 			},{
 				"id": 4872,
 				"name": "Daniel Goldsmith",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4872.png"
 			},{
 				"id": 35869,
 				"name": "Helen Cross",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35869.png"
 			},{
 				"id": 65791,
 				"name": "Seena Shah",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65791.png"
 			},{
 				"id": 71869,
 				"name": "Lucy O'Sullivan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71869.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Ruth Cadbury"
+				"mp": "Ruth Cadbury",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ruth Cadbury",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25343/ruth_cadbury/brentford_and_isleworth",
 			"electorate": 85164,
 			"turnout": 72.4,
@@ -45,8 +45,8 @@
 			"majority": 12182
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ruth Cadbury",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 84602,
 			"turnout": 68.0,
 			"valid": 57355,

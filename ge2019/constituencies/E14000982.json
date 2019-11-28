@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3985,
 				"name": "Julie Elliott",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c964d42c427035c8db3e1.png"
 			},{
 				"id": 6271,
 				"name": "Rachel Featherstone",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6271.png"
 			},{
 				"id": 11589,
 				"name": "Niall Hodson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11589.png"
 			},{
 				"id": 31863,
 				"name": "Viral Parikh",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31863.png"
 			},{
 				"id": 72486,
 				"name": "Tom D'Silva",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72487,
 				"name": "Dale McKenzie",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72487-428728c1-c0e1-4d09-90d5-9132d80189b8.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Julie Elliott"
+				"mp": "Julie Elliott",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Julie Elliott",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24710/julie_elliott/sunderland_central",
 			"electorate": 72728,
 			"turnout": 62.0,
@@ -50,8 +50,8 @@
 			"majority": 9997
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Julie Elliott",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72950,
 			"turnout": 57.5,
 			"valid": 41762,

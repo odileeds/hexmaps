@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4640,
 				"name": "Chris Loynes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c977fe22f98bc5d30fa57.png"
 			},{
 				"id": 5174,
 				"name": "Simon Fell",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5174.png"
 			},{
 				"id": 5633,
 				"name": "Loraine Birchall",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5518407f249b917507bee579.png"
 			},{
 				"id": 49826,
 				"name": "Ged McGrath",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49826.png"
 			},{
 				"id": 71286,
 				"name": "Chris Altree",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71286.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "John Woodcock"
+				"mp": "John Woodcock",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "John Woodcock",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24837/john_woodcock/barrow_and_furness",
 			"electorate": 69474,
 			"turnout": 68.5,
@@ -45,8 +45,8 @@
 			"majority": 209
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "John Woodcock",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 68338,
 			"turnout": 63.6,
 			"valid": 43275,

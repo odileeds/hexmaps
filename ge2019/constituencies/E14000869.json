@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2534,
 				"name": "James Brokenshire",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f2edb247335574a42e22.png"
 			},{
 				"id": 19493,
 				"name": "Matt Browne",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19493-04ce1ab2-ae20-48cf-941b-f162ba8a4c8d.png"
 			},{
 				"id": 34541,
 				"name": "Simone Reynolds",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34541.png"
 			},{
 				"id": 71827,
 				"name": "Dave Tingle",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71827-d8bdef19-4397-4f86-8653-1fe4a3e9dad9.png"
 			},{
 				"id": 72286,
 				"name": "Carol Margaret Valinejad",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "James Brokenshire"
+				"mp": "James Brokenshire",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "James Brokenshire",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11640/james_brokenshire/old_bexley_and_sidcup",
 			"electorate": 66005,
 			"turnout": 72.8,
@@ -45,8 +45,8 @@
 			"majority": 15466
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Brokenshire",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66035,
 			"turnout": 71.0,
 			"valid": 46748,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5372,
 				"name": "Steve Reed",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c30a0fc4fe0dc23f26c6a.png"
 			},{
 				"id": 35233,
 				"name": "Claire Elizabeth Bonham",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 42187,
 				"name": "Donald Ekekhomen",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72010.png"
 			},{
 				"id": 47048,
 				"name": "Rachel Mary Chance",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47048.png"
 			},{
 				"id": 71290,
 				"name": "Chidi Ngwaba",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72559,
 				"name": "Candace Mitchell",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Steve Reed"
+				"mp": "Steve Reed",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Steve Reed",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25170/steve_reed/croydon_north",
 			"electorate": 87461,
 			"turnout": 68.2,
@@ -50,8 +50,8 @@
 			"majority": 32365
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Steve Reed",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 85941,
 			"turnout": 62.5,
 			"valid": 53522,

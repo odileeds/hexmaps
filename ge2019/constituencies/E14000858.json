@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 211,
 				"name": "Grahame Hudson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 1640,
 				"name": "Andrew Bridgen",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551b38f613eb34c82843cb55.png"
 			},{
 				"id": 23297,
 				"name": "Terri Eynon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23297.png"
 			},{
 				"id": 51908,
 				"name": "Carl Benfield",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51908.png"
 			},{
 				"id": 71760,
 				"name": "Dan Liddicott",
-				"party": "Libertarian Party",
+				"party": { "code": "", "title": "Libertarian Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71760.png"
 			},{
 				"id": 72125,
 				"name": "Edward Robert Nudd",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Bridgen"
+				"mp": "Andrew Bridgen",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Bridgen",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24741/andrew_bridgen/north_west_leicestershire",
 			"electorate": 75362,
 			"turnout": 71.0,
@@ -50,8 +50,8 @@
 			"majority": 13286
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Bridgen",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72193,
 			"turnout": 71.6,
 			"valid": 51548,

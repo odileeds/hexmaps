@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 376,
 				"name": "Katie Curtis",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/376-23f5f7fb-7f8c-44aa-9cd8-b7c2188fb110.png"
 			},{
 				"id": 3256,
 				"name": "Rebecca Harris",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a22bf0e9e2c82406ebb2.png"
 			},{
 				"id": 6531,
 				"name": "John Howson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6531.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Rebecca Harris"
+				"mp": "Rebecca Harris",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Rebecca Harris",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24731/rebecca_harris/castle_point",
 			"electorate": 69470,
 			"turnout": 64.4,
@@ -35,8 +35,8 @@
 			"majority": 18872
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Rebecca Harris",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68170,
 			"turnout": 66.8,
 			"valid": 45450,

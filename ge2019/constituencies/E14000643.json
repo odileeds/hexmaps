@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 495,
 				"name": "Martin Vickers",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55238c93944e4aac612ace68.png"
 			},{
 				"id": 5284,
 				"name": "Roy Horobin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5522546c328bff5d39338a4a.png"
 			},{
 				"id": 18009,
 				"name": "Ros James",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18009.png"
 			},{
 				"id": 71914,
 				"name": "Jodi Shanahan",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71914-063dbba5-3e46-477a-8ec8-864b6988b438.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Martin Vickers"
+				"mp": "Martin Vickers",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Martin Vickers",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24814/martin_vickers/cleethorpes",
 			"electorate": 72711,
 			"turnout": 65.8,
@@ -40,8 +40,8 @@
 			"majority": 10400
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Martin Vickers",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71008,
 			"turnout": 63.7,
 			"valid": 45089,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1872,
 				"name": "William George Irwin",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1872.png"
 			},{
 				"id": 4600,
 				"name": "Mickey Brady",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356f79367dc5383f552cba.png"
 			},{
 				"id": 8158,
 				"name": "Sam Nicholson",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8158.png"
 			},{
 				"id": 19696,
 				"name": "Jackie Coade",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19696.png"
 			},{
 				"id": 49544,
 				"name": "Pete Byrne",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49544.png"
 			},{
 				"id": 68335,
 				"name": "Martin Kelly",
-				"party": "Aontú",
+				"party": { "code": "", "title": "Aontú" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68335.png"
 			}],
 			"incumbent": {
-				"party": "SF",
-				"mp": "Mickey Brady"
+				"mp": "Mickey Brady",
+				"party": { "code": "SF", "title": "Sinn Féin" }
 			}
 		},
 		"2017": {
-			"first": "SF",
 			"mp": "Mickey Brady",
+			"party": { "code": "SF" },
 			"mysoc": "https://www.theyworkforyou.com/mp/13893/mickey_brady/newry_and_armagh",
 			"electorate": 78266,
 			"turnout": 68.5,
@@ -50,8 +50,8 @@
 			"majority": 12489
 		},
 		"2015": {
-			"first": "Sinn Fein",
 			"mp": "Mickey Brady",
+			"party": { "code": "SF", "title": "Sinn Fein" },
 			"electorate": 77633,
 			"turnout": 64.7,
 			"valid": 49877,

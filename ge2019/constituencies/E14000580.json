@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 663,
 				"name": "Julie Hilling",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f7ddb247335574a42e38.png"
 			},{
 				"id": 4164,
 				"name": "Chris Green",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4164.png"
 			},{
 				"id": 34653,
 				"name": "Rebecca Forrest",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34653.png"
 			},{
 				"id": 72069,
 				"name": "Paris Hayes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72069.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Chris Green"
+				"mp": "Chris Green",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Chris Green",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25359/chris_green/bolton_west",
 			"electorate": 72797,
 			"turnout": 70.1,
@@ -40,8 +40,8 @@
 			"majority": 936
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chris Green",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72719,
 			"turnout": 67.1,
 			"valid": 48592,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 47959,
 				"name": "Sean Edward Finch",
-				"party": "Libertarian Party",
+				"party": { "code": "", "title": "Libertarian Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47959.png"
 			},{
 				"id": 61808,
 				"name": "Paulette Furse",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61808.png"
 			},{
 				"id": 61931,
 				"name": "Paul Wharton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 61983,
 				"name": "Gareth James Willis",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72018,
 				"name": "Laura Trott",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72383,
 				"name": "Seamus McCauley",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72383-1fc31894-5a34-450f-b65c-a0ac8974d440.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Michael Fallon"
+				"mp": "Michael Fallon",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Michael Fallon",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10194/michael_fallon/sevenoaks",
 			"electorate": 71565,
 			"turnout": 71.6,
@@ -50,8 +50,8 @@
 			"majority": 21917
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Michael Fallon",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71958,
 			"turnout": 70.0,
 			"valid": 50124,

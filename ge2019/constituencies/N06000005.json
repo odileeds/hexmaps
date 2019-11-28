@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 1061,
 				"name": "Oliver McMullan",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b1b3dffdc1c81f668296.png"
 			},{
 				"id": 1364,
 				"name": "Sammy Wilson",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f702b247335574a42e34.png"
 			},{
 				"id": 5877,
 				"name": "Philip George Randle",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553be8dca8c0192f732ca8e7.png"
 			},{
 				"id": 8151,
 				"name": "Stephen Aiken",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8151.png"
 			},{
 				"id": 9805,
 				"name": "Danny Donnelly",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9805.png"
 			},{
 				"id": 69320,
 				"name": "Angela Mulholland",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69320-cef52e2a-16d8-4555-9048-373acb3ead6f.png"
 			},{
 				"id": 72078,
 				"name": "Aaron Rankin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72078-77a19e2c-8a4b-4896-89b9-70289f793b23.png"
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Sammy Wilson"
+				"mp": "Sammy Wilson",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Sammy Wilson",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11374/sammy_wilson/east_antrim",
 			"electorate": 62908,
 			"turnout": 60.6,
@@ -55,8 +55,8 @@
 			"majority": 15923
 		},
 		"2015": {
-			"first": "Democratic Unionist Party",
 			"mp": "Sammy Wilson",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 62811,
 			"turnout": 53.6,
 			"valid": 33497,

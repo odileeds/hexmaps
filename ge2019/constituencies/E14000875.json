@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2871,
 				"name": "Andrew Stephenson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba882b9c95afe74c5d32f.png"
 			},{
 				"id": 4401,
 				"name": "Azhar Ali",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e85cb150e238702c05c1.png"
 			},{
 				"id": 6022,
 				"name": "Gordon Lishman",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225370328bff5d39338a47.png"
 			},{
 				"id": 18948,
 				"name": "John Richardson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18948-e29a9ea0-d09b-486a-888e-5fbc20a59709.png"
 			},{
 				"id": 60604,
 				"name": "Clare Hales",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60604.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Stephenson"
+				"mp": "Andrew Stephenson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Stephenson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24759/andrew_stephenson/pendle",
 			"electorate": 64962,
 			"turnout": 69.0,
@@ -45,8 +45,8 @@
 			"majority": 1279
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Stephenson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64573,
 			"turnout": 69.1,
 			"valid": 44448,

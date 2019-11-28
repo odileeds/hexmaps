@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1684,
 				"name": "Chloe Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1684-6a473f6a-2b4e-4cae-a0f1-ddb7bee705ba.png"
 			},{
 				"id": 5065,
 				"name": "Adrian Holmes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548778605a4783b28981e90.png"
 			},{
 				"id": 17561,
 				"name": "Karen Ann Davis",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17561.png"
 			},{
 				"id": 24048,
 				"name": "Dave Thomas",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24048.png"
 			},{
 				"id": 24098,
 				"name": "David Moreland",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24098.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Chloe Smith"
+				"mp": "Chloe Smith",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Chloe Smith",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24691/chloe_smith/norwich_north",
 			"electorate": 66924,
 			"turnout": 68.6,
@@ -45,8 +45,8 @@
 			"majority": 507
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chloe Smith",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64515,
 			"turnout": 67.8,
 			"valid": 43592,

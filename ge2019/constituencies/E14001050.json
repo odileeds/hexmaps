@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2796,
 				"name": "Pat McFadden",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2796.png"
 			},{
 				"id": 6570,
 				"name": "Ruth Coleman-Taylor",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b9b6cb9c95afe74c5d31e.png"
 			},{
 				"id": 60652,
 				"name": "Raj Singh Chaggar",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60652-48654b16-bf46-43d2-9a2a-0350d3eea455.png"
 			},{
 				"id": 72070,
 				"name": "Ahmed Ejaz",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72070.png"
 			},{
 				"id": 72152,
 				"name": "Kathryn Gilbert",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72152-eece7de5-1890-48db-ad18-6f77c700b8d7.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Pat McFadden"
+				"mp": "Pat McFadden",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Pat McFadden",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11936/pat_mcfadden/wolverhampton_south_east",
 			"electorate": 60301,
 			"turnout": 60.2,
@@ -45,8 +45,8 @@
 			"majority": 8514
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Pat McFadden",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62556,
 			"turnout": 55.8,
 			"valid": 34764,

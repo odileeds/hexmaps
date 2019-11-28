@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 34321,
 				"name": "Mike Amesbury",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34321.png"
 			},{
 				"id": 55349,
 				"name": "Paul Richard Bowers",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55349.png"
 			},{
 				"id": 66586,
 				"name": "Adam Wordsworth",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66586.png"
 			},{
 				"id": 71424,
 				"name": "Nicholas Goulding",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71424-58b3b650-dc57-431e-b3d8-27dab4f2aeed.png"
 			},{
 				"id": 71722,
 				"name": "Daniela Parker",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71722.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Mike Amesbury"
+				"mp": "Mike Amesbury",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Mike Amesbury",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25702/mike_amesbury/weaver_vale",
 			"electorate": 69016,
 			"turnout": 73.3,
@@ -45,8 +45,8 @@
 			"majority": 3928
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Graham Evans",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68407,
 			"turnout": 68.6,
 			"valid": 46867,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4603,
 				"name": "Paul Maskey",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4603.png"
 			},{
 				"id": 7174,
 				"name": "Frank McCoubrey",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7174.png"
 			},{
 				"id": 7199,
 				"name": "Gerry Carroll",
-				"party": "People Before Profit Alliance",
+				"party": { "code": "", "title": "People Before Profit Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bbbd8a51642637514d647.png"
 			},{
 				"id": 19714,
 				"name": "Monica Digney",
-				"party": "Aontú",
+				"party": { "code": "", "title": "Aontú" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19714.png"
 			},{
 				"id": 50308,
 				"name": "Donnamarie Higgins",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50308-8f45fc42-bdff-4aec-b3d9-f9203792165b.png"
 			},{
 				"id": 69199,
 				"name": "Paul Doherty",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69199.png"
 			}],
 			"incumbent": {
-				"party": "SF",
-				"mp": "Paul Maskey"
+				"mp": "Paul Maskey",
+				"party": { "code": "SF", "title": "Sinn Féin" }
 			}
 		},
 		"2017": {
-			"first": "SF",
 			"mp": "Paul Maskey",
+			"party": { "code": "SF" },
 			"mysoc": "https://www.theyworkforyou.com/mp/13904/paul_maskey/belfast_west",
 			"electorate": 62423,
 			"turnout": 65.1,
@@ -50,8 +50,8 @@
 			"majority": 21652
 		},
 		"2015": {
-			"first": "Sinn Fein",
 			"mp": "Paul Maskey",
+			"party": { "code": "SF", "title": "Sinn Fein" },
 			"electorate": 62697,
 			"turnout": 56.8,
 			"valid": 35329,

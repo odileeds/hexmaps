@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5201,
 				"name": "Allen Cowles",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5201-163534fa-60fe-4fbc-af8c-a8d7a4f9ce6c.png"
 			},{
 				"id": 18475,
 				"name": "Emily West",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18475-79fd0f30-6550-4fad-82cd-00078d9f6762.png"
 			},{
 				"id": 35318,
 				"name": "Sophie Wilson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71791.png"
 			},{
 				"id": 71603,
 				"name": "Colin Taylor",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71603.png"
 			},{
 				"id": 72158,
 				"name": "Nigel Short",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72158-541d3b34-7af0-4ae8-bba4-7862db186c85.png"
 			},{
 				"id": 72159,
 				"name": "Alexander Stafford",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72159-e19fac1d-a459-499a-8e33-ddd0e900aa54.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Kevin Barron"
+				"mp": "Kevin Barron",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kevin Barron",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10027/kevin_barron/rother_valley",
 			"electorate": 75230,
 			"turnout": 65.8,
@@ -50,8 +50,8 @@
 			"majority": 3882
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Kevin Barron",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74275,
 			"turnout": 63.6,
 			"valid": 47019,

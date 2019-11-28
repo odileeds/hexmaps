@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2308,
 				"name": "Robin Lambert",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2308-e13d7dd5-58bc-4b25-9094-840be3c64d80.png"
 			},{
 				"id": 3982,
 				"name": "Zuffar Haq",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3982.png"
 			},{
 				"id": 23461,
 				"name": "Darren Woodiwiss",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23461.png"
 			},{
 				"id": 34491,
 				"name": "Neil O'Brien",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34491.png"
 			},{
 				"id": 39871,
 				"name": "Celia Hibbert",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39871.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Neil O'Brien"
+				"mp": "Neil O'Brien",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Neil O'Brien",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25679/neil_o%27brien/harborough",
 			"electorate": 78810,
 			"turnout": 73.1,
@@ -45,8 +45,8 @@
 			"majority": 12429
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Edward Garnier",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77760,
 			"turnout": 67.7,
 			"valid": 52471,

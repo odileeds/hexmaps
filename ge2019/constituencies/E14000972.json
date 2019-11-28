@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5791,
 				"name": "Tariq Mahmood",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 6089,
 				"name": "Jo Gideon",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6089.png"
 			},{
 				"id": 19838,
 				"name": "Adam William Colclough",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19838.png"
 			},{
 				"id": 19842,
 				"name": "Gareth Craig Snell",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19842_24hSIUx.png"
 			},{
 				"id": 72209,
 				"name": "Steven James Pritchard",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Gareth Snell"
+				"mp": "Gareth Snell",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Gareth Snell",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25601/gareth_snell/stoke-on-trent_central",
 			"electorate": 56915,
 			"turnout": 58.2,
@@ -45,8 +45,8 @@
 			"majority": 3897
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Tristram Hunt",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60634,
 			"turnout": 51.5,
 			"valid": 31084,

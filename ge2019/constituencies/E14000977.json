@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 75,
 				"name": "Nadhim Zahawi",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357595367dc5383f552ce2.png"
 			},{
 				"id": 24656,
 				"name": "Dave Passingham",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 30366,
 				"name": "Dominic Edmund Paul Skinner",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30366.png"
 			},{
 				"id": 53676,
 				"name": "Felix Ling",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53676.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nadhim Zahawi"
+				"mp": "Nadhim Zahawi",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nadhim Zahawi",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24822/nadhim_zahawi/stratford-on-avon",
 			"electorate": 72572,
 			"turnout": 73.8,
@@ -40,8 +40,8 @@
 			"majority": 21958
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nadhim Zahawi",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71304,
 			"turnout": 72.4,
 			"valid": 51459,

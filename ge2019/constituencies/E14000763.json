@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1120,
 				"name": "Jeremy Corbyn",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5520077d4dbf5aa077451a35.png"
 			},{
 				"id": 2323,
 				"name": "The Incredible Flying Brick",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2323_YdsbOzt.png"
 			},{
 				"id": 4750,
 				"name": "Caroline Russell",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4750.png"
 			},{
 				"id": 34537,
 				"name": "James Clark",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72524-8a783fb5-5086-48c6-8656-012a371d4061.png"
 			},{
 				"id": 71480,
 				"name": "Yosef David",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71480.png"
 			},{
 				"id": 71497,
 				"name": "Nick Wakeling",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71497.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jeremy Corbyn"
+				"mp": "Jeremy Corbyn",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jeremy Corbyn",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10133/jeremy_corbyn/islington_north",
 			"electorate": 74831,
 			"turnout": 73.4,
@@ -50,8 +50,8 @@
 			"majority": 33215
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jeremy Corbyn",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73326,
 			"turnout": 67.4,
 			"valid": 49234,

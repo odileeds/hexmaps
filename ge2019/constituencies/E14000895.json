@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5371,
 				"name": "Rishi Sunak",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5371.png"
 			},{
 				"id": 30536,
 				"name": "John Yorke",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30536.png"
 			},{
 				"id": 32497,
 				"name": "Philip Michael Knowles",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32497.png"
 			},{
 				"id": 72607,
 				"name": "Nick Jardine",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72608,
 				"name": "Thom Kirkwood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72608-e03a2556-0c97-4f93-87b4-f6b7c01ea7d4.png"
 			},{
 				"id": 72609,
 				"name": "Laurence Warwick Waterhouse",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72609-f3f94f16-3ee9-4707-b853-cea7ef744b5a.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Rishi Sunak"
+				"mp": "Rishi Sunak",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Rishi Sunak",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25428/rishi_sunak/richmond_%28yorks%29",
 			"electorate": 80905,
 			"turnout": 70.5,
@@ -50,8 +50,8 @@
 			"majority": 23108
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Rishi Sunak",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79062,
 			"turnout": 68.5,
 			"valid": 53999,

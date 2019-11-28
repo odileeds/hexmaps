@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 195,
 				"name": "Desmond Swayne",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f473b247335574a42e2b.png"
 			},{
 				"id": 20051,
 				"name": "Jack Davies",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20051.png"
 			},{
 				"id": 34408,
 				"name": "Jo Graham",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34408.png"
 			},{
 				"id": 72002,
 				"name": "Nick Bubb",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72002.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Desmond Swayne"
+				"mp": "Desmond Swayne",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Desmond Swayne",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10580/desmond_swayne/new_forest_west",
 			"electorate": 68786,
 			"turnout": 72.1,
@@ -40,8 +40,8 @@
 			"majority": 23431
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Desmond Swayne",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68446,
 			"turnout": 69.5,
 			"valid": 47410,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 34186,
 				"name": "Rosena Allin-Khan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34186.png"
 			},{
 				"id": 43606,
 				"name": "Glyn Goodwin",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43606.png"
 			},{
 				"id": 44859,
 				"name": "Olly Glover",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44859.png"
 			},{
 				"id": 71695,
 				"name": "Kerry Briscoe",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71695.png"
 			},{
 				"id": 72251,
 				"name": "Adam Shakir",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72396,
 				"name": "Roz Hubley",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Rosena Allin-Khan"
+				"mp": "Rosena Allin-Khan",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Rosena Allin-Khan",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25579/rosena_allin-khan/tooting",
 			"electorate": 77971,
 			"turnout": 74.6,
@@ -50,8 +50,8 @@
 			"majority": 15458
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Sadiq Khan",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76782,
 			"turnout": 70.0,
 			"valid": 53529,

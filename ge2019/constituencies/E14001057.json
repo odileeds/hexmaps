@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3238,
 				"name": "Ben Wallace",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5521050d8793cecd721b9bfb.png"
 			},{
 				"id": 4766,
 				"name": "John Potter",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba11910284be476aae890.png"
 			},{
 				"id": 33025,
 				"name": "Ruth Norbury",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33025.png"
 			},{
 				"id": 59291,
 				"name": "Joanne Lindsey Ainscough",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59291-77400503-1740-4990-a370-82c6f0047bdb.png"
 			},{
 				"id": 72202,
 				"name": "David Richard Ragozzino",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Ben Wallace"
+				"mp": "Ben Wallace",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Ben Wallace",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11668/ben_wallace/wyre_and_preston_north",
 			"electorate": 72319,
 			"turnout": 72.8,
@@ -45,8 +45,8 @@
 			"majority": 12246
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Ben Wallace",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70637,
 			"turnout": 70.9,
 			"valid": 49893,

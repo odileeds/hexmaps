@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1088,
 				"name": "Joshua Ogunleye",
-				"party": "Workers Revolutionary Party",
+				"party": { "code": "", "title": "Workers Revolutionary Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b359c96b7d3221f3519e.png"
 			},{
 				"id": 3885,
 				"name": "Harriet Harman",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552cf2553d3371cf3592d9d6.png"
 			},{
 				"id": 36021,
 				"name": "Julia Ogiehor",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36021.png"
 			},{
 				"id": 48361,
 				"name": "Claire Sheppard",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48361-f0358fa8-0406-4da7-a383-7b41e83b3644.png"
 			},{
 				"id": 72552,
 				"name": "Cass Jean-Claude Cass-Horne",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72553,
 				"name": "Peter James Quentin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Harriet Harman"
+				"mp": "Harriet Harman",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Harriet Harman",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10260/harriet_harman/camberwell_and_peckham",
 			"electorate": 85613,
 			"turnout": 67.1,
@@ -50,8 +50,8 @@
 			"majority": 37316
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Harriet Harman",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82746,
 			"turnout": 62.6,
 			"valid": 51561,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2182,
 				"name": "Andrew Cooper",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69921.png"
 			},{
 				"id": 2183,
 				"name": "Barry Sheerman",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a0641b989d5e837ae99d6.png"
 			},{
 				"id": 71379,
 				"name": "Stuart Hale",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71379.png"
 			},{
 				"id": 71489,
 				"name": "James Wilkinson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72261,
 				"name": "Ken Davy",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Barry Sheerman"
+				"mp": "Barry Sheerman",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Barry Sheerman",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10534/barry_sheerman/huddersfield",
 			"electorate": 67037,
 			"turnout": 65.4,
@@ -45,8 +45,8 @@
 			"majority": 12005
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Barry Sheerman",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 65269,
 			"turnout": 62.3,
 			"valid": 40478,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2148,
 				"name": "Emma Reynolds",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322b1829c5d53959d9e448.png"
 			},{
 				"id": 6947,
 				"name": "Andrea Cantrill",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/554879923c0ead4826d5918a.png"
 			},{
 				"id": 36174,
 				"name": "Richard Maxwell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36174.png"
 			},{
 				"id": 70505,
 				"name": "Vishal Dilip Khatri",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70505.png"
 			},{
 				"id": 72094,
 				"name": "Jane Stevenson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72094-6d117946-be41-4fe6-b147-5caf631aa742.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Emma Reynolds"
+				"mp": "Emma Reynolds",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Emma Reynolds",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24868/emma_reynolds/wolverhampton_north_east",
 			"electorate": 60770,
 			"turnout": 60.1,
@@ -45,8 +45,8 @@
 			"majority": 4587
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Emma Reynolds",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61065,
 			"turnout": 55.9,
 			"valid": 34003,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5172,
 				"name": "Stuart McDonald",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54fde1aa1ccf185f0d8cc4b0.png"
 			},{
 				"id": 21538,
 				"name": "Susan Murray",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21538.png"
 			},{
 				"id": 21986,
 				"name": "Roz McCall",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72011,
 				"name": "James McPhilemy",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72011.png"
 			}],
 			"incumbent": {
-				"party": "SNP",
-				"mp": "Stuart McDonald"
+				"mp": "Stuart McDonald",
+				"party": { "code": "SNP", "title": "Scottish National Party" }
 			}
 		},
 		"2017": {
-			"first": "SNP",
 			"mp": "Stuart C. McDonald",
+			"party": { "code": "SNP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25301/stuart_mcdonald/cumbernauld%2C_kilsyth_and_kirkintilloch_east",
 			"electorate": 66554,
 			"turnout": 65.9,
@@ -40,8 +40,8 @@
 			"majority": 4264
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Stuart McDonald",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67088,
 			"turnout": 73.8,
 			"valid": 49382,

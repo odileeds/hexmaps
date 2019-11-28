@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3598,
 				"name": "Stephen Anthony Farry",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3598.png"
 			},{
 				"id": 7178,
 				"name": "Alex Easton",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552251f6328bff5d39338a40.png"
 			},{
 				"id": 8154,
 				"name": "Alan Albert Chambers",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8154.png"
 			},{
 				"id": 19723,
 				"name": "Matthew Robinson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Sylvia Hermon"
+				"mp": "Sylvia Hermon",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Ind",
 			"mp": "Sylvia Hermon",
+			"party": { "code": "Ind" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10958/sylvia_hermon/north_down",
 			"electorate": 64334,
 			"turnout": 60.9,
@@ -40,8 +40,8 @@
 			"majority": 1208
 		},
 		"2015": {
-			"first": "Independent",
 			"mp": "Sylvia Hermon",
+			"party": { "code": "Ind", "title": "Independent" },
 			"electorate": 64207,
 			"turnout": 56.1,
 			"valid": 35947,

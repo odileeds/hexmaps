@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1878,
 				"name": "Ashley Gunstock",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551839b2249b917507bee56b.png"
 			},{
 				"id": 3601,
 				"name": "John Cryer",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351f6eb247335574a42e7f.png"
 			},{
 				"id": 34137,
 				"name": "Benjamin Sims",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34137.png"
 			},{
 				"id": 71903,
 				"name": "Noshaba Khiljee",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71903-e4cb969d-4193-4873-bd69-c39acbe766e7.png"
 			},{
 				"id": 72230,
 				"name": "Zulf Jannaty",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72232,
 				"name": "Henry Scott",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72232-6494941e-08d5-46ed-86af-25d747a3123d.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "John Cryer"
+				"mp": "John Cryer",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "John Cryer",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10143/john_cryer/leyton_and_wanstead",
 			"electorate": 65149,
 			"turnout": 70.9,
@@ -50,8 +50,8 @@
 			"majority": 22607
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "John Cryer",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64580,
 			"turnout": 63.3,
 			"valid": 40703,

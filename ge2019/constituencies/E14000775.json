@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 741,
 				"name": "George Howarth",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/741.png"
 			},{
 				"id": 8493,
 				"name": "Raymond Frank Catesby",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8493-5e1dbb85-c8b2-4efb-9a69-c9fd71564550.png"
 			},{
 				"id": 10238,
 				"name": "Paul Woodruff",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10238.png"
 			},{
 				"id": 35921,
 				"name": "Joseph Robert Slupsky",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 50248,
 				"name": "Rushi Millns",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50248.png"
 			},{
 				"id": 71923,
 				"name": "Tim McCullough",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71923-888d5576-630d-4958-9f64-4873f7f34444.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "George Howarth"
+				"mp": "George Howarth",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "George Howarth",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10292/george_howarth/knowsley",
 			"electorate": 81760,
 			"turnout": 67.9,
@@ -50,8 +50,8 @@
 			"majority": 42214
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "George Howarth",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79108,
 			"turnout": 64.4,
 			"valid": 50728,

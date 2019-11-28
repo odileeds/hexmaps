@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 888,
 				"name": "James Sandbach",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54e1f179438d6af41666ea70.png"
 			},{
 				"id": 3250,
 				"name": "Daniel Poulter",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a19cf0e9e2c82406ebaf.png"
 			},{
 				"id": 49171,
 				"name": "Emma Olivia Bonner-Morgan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49171.png"
 			},{
 				"id": 58399,
 				"name": "Dan Pratt",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58399.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Daniel Poulter"
+				"mp": "Daniel Poulter",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Daniel Poulter",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24756/daniel_poulter/central_suffolk_and_north_ipswich",
 			"electorate": 78116,
 			"turnout": 72.4,
@@ -40,8 +40,8 @@
 			"majority": 17185
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Daniel Poulter",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76666,
 			"turnout": 70.7,
 			"valid": 54089,

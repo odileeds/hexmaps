@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2919,
 				"name": "David Drew",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2919.png"
 			},{
 				"id": 20008,
 				"name": "Glen Gogerly",
-				"party": "Libertarian Party",
+				"party": { "code": "", "title": "Libertarian Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20008.png"
 			},{
 				"id": 34111,
 				"name": "Molly Scott Cato",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34111_cGZtMEP.png"
 			},{
 				"id": 34539,
 				"name": "Siobhan Baillie",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34539.png"
 			},{
 				"id": 71678,
 				"name": "Desi Latimer",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71678-77f65026-52a3-400b-8105-2b5d715fc8ab.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "David Drew"
+				"mp": "David Drew",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "David Drew",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10177/david_drew/stroud",
 			"electorate": 82839,
 			"turnout": 77.0,
@@ -45,8 +45,8 @@
 			"majority": 687
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Neil Carmichael",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80544,
 			"turnout": 75.7,
 			"valid": 60819,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 22817,
 				"name": "Jonathan Elmer",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22817.png"
 			},{
 				"id": 25919,
 				"name": "Amanda Jayne Hopgood",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25919.png"
 			},{
 				"id": 45398,
 				"name": "Mary Foy",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45398.png"
 			},{
 				"id": 72450,
 				"name": "William Harvey Morgan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72451,
 				"name": "Lesley Anne Wright",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Roberta Blackman-Woods"
+				"mp": "Roberta Blackman-Woods",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Roberta Blackman-Woods",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11558/roberta_blackman-woods/city_of_durham",
 			"electorate": 71132,
 			"turnout": 67.9,
@@ -45,8 +45,8 @@
 			"majority": 12364
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Roberta Blackman-Woods",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68725,
 			"turnout": 66.6,
 			"valid": 45669,

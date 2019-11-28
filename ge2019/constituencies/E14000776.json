@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2618,
 				"name": "Cat Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e82eb150e238702c05a7.png"
 			},{
 				"id": 32063,
 				"name": "Peter James Jackson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32063.png"
 			},{
 				"id": 50797,
 				"name": "Caroline Jackson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50797.png"
 			},{
 				"id": 71506,
 				"name": "Leanne Murray",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71506.png"
 			},{
 				"id": 71507,
 				"name": "Louise Thistlethwaite",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71507.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Cat Smith"
+				"mp": "Cat Smith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Cat Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25432/cat_smith/lancaster_and_fleetwood",
 			"electorate": 67154,
 			"turnout": 68.5,
@@ -45,8 +45,8 @@
 			"majority": 6661
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Catherine Smith",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61922,
 			"turnout": 67.7,
 			"valid": 41738,

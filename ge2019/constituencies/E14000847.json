@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 605,
 				"name": "Bill Wiggin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c9ef941b868785b1fe67f.png"
 			},{
 				"id": 34585,
 				"name": "Ellie Chowns",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34585-d562654f-1c11-4e2b-850b-5a8044a4b8ea.png"
 			},{
 				"id": 40410,
 				"name": "Joe Wood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72057.png"
 			},{
 				"id": 60650,
 				"name": "Phillip Howells",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60650.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Bill Wiggin"
+				"mp": "Bill Wiggin",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Bill Wiggin",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11318/bill_wiggin/north_herefordshire",
 			"electorate": 67751,
 			"turnout": 74.1,
@@ -40,8 +40,8 @@
 			"majority": 21602
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Bill Wiggin",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67926,
 			"turnout": 71.0,
 			"valid": 48023,

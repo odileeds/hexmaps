@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1016,
 				"name": "Nigel Mills",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550c3d333be3632f3135c9fc.png"
 			},{
 				"id": 4920,
 				"name": "Kate Smith",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550c3d783be3632f3135c9fd.png"
 			},{
 				"id": 30249,
 				"name": "Lian Pizzey",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30249-01077d7c-904f-42d7-8855-0ad149e2ad82.png"
 			},{
 				"id": 72184,
 				"name": "Adam Thompson",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72184-0054e71c-e2a7-41be-a8a3-37d2084db9f2.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nigel Mills"
+				"mp": "Nigel Mills",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nigel Mills",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24965/nigel_mills/amber_valley",
 			"electorate": 68065,
 			"turnout": 67.3,
@@ -40,8 +40,8 @@
 			"majority": 8300
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nigel Mills",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69510,
 			"turnout": 65.9,
 			"valid": 45717,

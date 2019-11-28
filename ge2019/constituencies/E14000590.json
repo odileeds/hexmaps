@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5464,
 				"name": "James Cleverly",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5522590b328bff5d39338a62.png"
 			},{
 				"id": 5497,
 				"name": "Dominic Graham",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55191aef4ff096f44902d233.png"
 			},{
 				"id": 33467,
 				"name": "Jo Beavis",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/33467.png"
 			},{
 				"id": 44722,
 				"name": "Joshua Garfield",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44722.png"
 			},{
 				"id": 57382,
 				"name": "David James Mansell",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57382-e4cb4923-23c3-4dd9-a833-de4912aada71.png"
 			},{
 				"id": 72408,
 				"name": "Alan Geoffrey Dorkins",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72408-33f5ef33-dbee-49b6-a177-f1bf2b68618a.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "James Cleverly"
+				"mp": "James Cleverly",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "James Cleverly",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25376/james_cleverly/braintree",
 			"electorate": 75316,
 			"turnout": 69.5,
@@ -50,8 +50,8 @@
 			"majority": 18422
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Cleverly",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73557,
 			"turnout": 68.6,
 			"valid": 50283,

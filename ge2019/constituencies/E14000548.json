@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6910,
 				"name": "John Lawson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b2f7dffdc1c81f66829a.png"
 			},{
 				"id": 34125,
 				"name": "Tracy Brabin",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34125.png"
 			},{
 				"id": 45003,
 				"name": "Mark James Brooks",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45003-f0c8f58a-d202-475a-852a-ce0487d2217b.png"
 			},{
 				"id": 50677,
 				"name": "Paul Halloran",
-				"party": "Heavy Woollen District Independents",
+				"party": { "code": "", "title": "Heavy Woollen District Independents" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50677-928d8fc4-8730-482f-8c1c-a32684278b11.png"
 			},{
 				"id": 71979,
 				"name": "Clive Minihan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71979-23bd5612-df0f-4e54-94ef-61d59becb821.png"
 			},{
 				"id": 72052,
 				"name": "Ty Akram",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72052-8bbd4e70-6681-4af7-9a10-01f1db400fa6.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Tracy Brabin"
+				"mp": "Tracy Brabin",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Tracy Brabin",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25592/tracy_brabin/batley_and_spen",
 			"electorate": 80161,
 			"turnout": 67.1,
@@ -50,8 +50,8 @@
 			"majority": 8961
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jo Cox",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 78373,
 			"turnout": 64.7,
 			"valid": 50479,

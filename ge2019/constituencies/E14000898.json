@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 57,
 				"name": "Roy Andrew Freshwater",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57-6e1a61d5-c7e2-4be3-8bf8-4dc5f8eda6f8.png"
 			},{
 				"id": 791,
 				"name": "Teresa Margaret Murray",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/791.png"
 			},{
 				"id": 4224,
 				"name": "Kelly Jane Tolhurst",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4224.png"
 			},{
 				"id": 34370,
 				"name": "Sonia Lesley Hyner",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34370.png"
 			},{
 				"id": 68733,
 				"name": "Chris Spalding",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68733-ce492a6d-f1a3-416c-b656-8427e5aee97e.png"
 			},{
 				"id": 69530,
 				"name": "Graham Colley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69530.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Kelly Tolhurst"
+				"mp": "Kelly Tolhurst",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Kelly Tolhurst",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25430/kelly_tolhurst/rochester_and_strood",
 			"electorate": 82702,
 			"turnout": 65.0,
@@ -50,8 +50,8 @@
 			"majority": 9850
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Kelly Tolhurst",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77119,
 			"turnout": 68.3,
 			"valid": 52516,

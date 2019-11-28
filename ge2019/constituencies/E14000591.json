@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1474,
 				"name": "Dawn Butler",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e7b1b150e238702c0559.png"
 			},{
 				"id": 34764,
 				"name": "Deborah Unger",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34764.png"
 			},{
 				"id": 40902,
 				"name": "David Brescia",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40902.png"
 			},{
 				"id": 47475,
 				"name": "William Relton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47475.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Dawn Butler"
+				"mp": "Dawn Butler",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Dawn Butler",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11447/dawn_butler/brent_central",
 			"electorate": 80499,
 			"turnout": 65.0,
@@ -40,8 +40,8 @@
 			"majority": 27997
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Dawn Butler",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77038,
 			"turnout": 61.4,
 			"valid": 47032,

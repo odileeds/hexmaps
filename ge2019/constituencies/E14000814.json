@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1967,
 				"name": "Pauline Latham",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72044.png"
 			},{
 				"id": 5721,
 				"name": "Sue MacFarlane",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5721.png"
 			},{
 				"id": 54762,
 				"name": "Emma Louise Monkman",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54762-14ff0732-cc65-476b-b036-4a30fb94d256.png"
 			},{
 				"id": 71529,
 				"name": "Felix Dodds",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71529.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Pauline Latham"
+				"mp": "Pauline Latham",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Pauline Latham",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24821/pauline_latham/mid_derbyshire",
 			"electorate": 67466,
 			"turnout": 74.7,
@@ -40,8 +40,8 @@
 			"majority": 11616
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Pauline Latham",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67477,
 			"turnout": 70.9,
 			"valid": 47729,

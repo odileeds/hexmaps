@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5470,
 				"name": "Matthew Severn",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5470-d49ae82e-4b88-431d-84e4-38d26c535f2c.png"
 			},{
 				"id": 34143,
 				"name": "Ali Ross",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34143-3354484d-5400-40e7-acbd-57c8db5f3ade.png"
 			},{
 				"id": 34507,
 				"name": "Jonathan Davies",
-				"party": "CumbriaFirst",
+				"party": { "code": "", "title": "CumbriaFirst" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34507_OZc1fbE.png"
 			},{
 				"id": 72109,
 				"name": "Neil Hudson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72109-741b4ae0-9312-4e68-9485-db8db18dcb26.png"
 			},{
 				"id": 72267,
 				"name": "Sarah Anne Williams",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72267-d30adc8f-20e2-4439-a910-0a2e301e0407.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Rory Stewart"
+				"mp": "Rory Stewart",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Rory Stewart",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24964/rory_stewart/penrith_and_the_border",
 			"electorate": 65139,
 			"turnout": 71.3,
@@ -45,8 +45,8 @@
 			"majority": 15910
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Rory Stewart",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65209,
 			"turnout": 67.6,
 			"valid": 43921,

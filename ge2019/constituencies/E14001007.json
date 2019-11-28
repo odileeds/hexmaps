@@ -6,72 +6,72 @@
 			"candidates": [{
 				"id": 4546,
 				"name": "Boris Johnson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54cd19f4668e142f73d3b4a9.png"
 			},{
 				"id": 7292,
 				"name": "Bobby \"Elmo\" Smith",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552cf2433d3371cf3592d9d5.png"
 			},{
 				"id": 34481,
 				"name": "Mark Keir",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34481.png"
 			},{
 				"id": 41972,
 				"name": "Jo Humphreys",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41972-5aea1add-b660-493f-b193-c1ad79e0d019.png"
 			},{
 				"id": 47463,
 				"name": "Ali Reza Milani",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47463.png"
 			},{
 				"id": 72363,
 				"name": "Count Binface",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72363-41c603b5-0bc1-4ecc-b3aa-6b3ba7ea5e12.png"
 			},{
 				"id": 72364,
 				"name": "Lord Buckethead",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
 			},{
 				"id": 72365,
 				"name": "Norma Burke",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72366,
 				"name": "Geoffrey Denis Courtenay",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 72367,
 				"name": "William John Tobin",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72367-e7309384-46e0-495b-b4bd-3172a3d66f35.png"
 			},{
 				"id": 72368,
 				"name": "Alfie John Utting",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72369,
 				"name": "Yace \"Interplanetary Time Lord\" Yogenstein",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Boris Johnson"
+				"mp": "Boris Johnson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Boris Johnson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10999/boris_johnson/uxbridge_and_south_ruislip",
 			"electorate": 69936,
 			"turnout": 66.8,
@@ -80,8 +80,8 @@
 			"majority": 5034
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Boris Johnson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70631,
 			"turnout": 63.6,
 			"valid": 44811,

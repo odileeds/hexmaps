@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5092,
 				"name": "Jackie Pearcey",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5502a96c4a4c7d71797616b9.png"
 			},{
 				"id": 22549,
 				"name": "Afzal Khan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22549.png"
 			},{
 				"id": 33945,
 				"name": "Sebastian Michael Lowe",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 45351,
 				"name": "Eliza Kate Tyrrell",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45351-29fa8a03-b731-40e2-b117-133ec8bd1af8.png"
 			},{
 				"id": 72392,
 				"name": "Lesley Barbara Kaya",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72392-25507176-ee8e-4f6f-b869-de5366890593.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Afzal Khan"
+				"mp": "Afzal Khan",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Afzal Khan",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25662/afzal_khan/manchester%2C_gorton",
 			"electorate": 75362,
 			"turnout": 61.0,
@@ -45,8 +45,8 @@
 			"majority": 31730
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Gerald Kaufman",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72992,
 			"turnout": 57.9,
 			"valid": 42019,

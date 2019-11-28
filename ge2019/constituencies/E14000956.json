@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3111,
 				"name": "Alan Whitehead",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550bdf3736b6dcb123cb431f.png"
 			},{
 				"id": 13989,
 				"name": "Steven Galton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13989.png"
 			},{
 				"id": 14448,
 				"name": "Katherine Jane Barbour",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/14448.png"
 			},{
 				"id": 34112,
 				"name": "Joe Richards",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34112.png"
 			},{
 				"id": 71656,
 				"name": "Philip Crook",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71656.png"
 			},{
 				"id": 72402,
 				"name": "Kev Barry",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Alan Whitehead"
+				"mp": "Alan Whitehead",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Alan Whitehead",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10630/alan_whitehead/southampton%2C_test",
 			"electorate": 70199,
 			"turnout": 66.8,
@@ -50,8 +50,8 @@
 			"majority": 11503
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Alan Whitehead",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70270,
 			"turnout": 62.3,
 			"valid": 43652,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4238,
 				"name": "Tom Tugendhat",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e77bb150e238702c0533.png"
 			},{
 				"id": 28573,
 				"name": "April Clark",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28573.png"
 			},{
 				"id": 34476,
 				"name": "Dylan Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34476.png"
 			},{
 				"id": 71693,
 				"name": "Richard Morris",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71693.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Thomas Tugendhat"
+				"mp": "Thomas Tugendhat",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Tom Tugendhat",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25374/thomas_tugendhat/tonbridge_and_malling",
 			"electorate": 77417,
 			"turnout": 73.5,
@@ -40,8 +40,8 @@
 			"majority": 23508
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Tom Tugendhat",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74877,
 			"turnout": 71.9,
 			"valid": 53670,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 23922,
 				"name": "Emma Dawnay",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba5f1ec0766d3759c0450.png"
 			},{
 				"id": 71398,
 				"name": "Jo Waltham",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71398.png"
 			},{
 				"id": 72030,
 				"name": "Danny Kruger",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72030.png"
 			},{
 				"id": 72189,
 				"name": "Rachael Katharine Schneider",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72189-ef2b9e56-1abd-46f1-9e0e-aa0bdba16511.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Claire Perry"
+				"mp": "Claire Perry",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Claire Perry",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24915/claire_perry/devizes",
 			"electorate": 72184,
 			"turnout": 70.1,
@@ -40,8 +40,8 @@
 			"majority": 21136
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Claire Perry",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69205,
 			"turnout": 71.0,
 			"valid": 49006,

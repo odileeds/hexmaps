@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4326,
 				"name": "Rupa Huq",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4326.png"
 			},{
 				"id": 36744,
 				"name": "Kate Crossland",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36744.png"
 			},{
 				"id": 38436,
 				"name": "Julian Gallant",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38436.png"
 			},{
 				"id": 71411,
 				"name": "Samir Alsoodani",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71411.png"
 			},{
 				"id": 71412,
 				"name": "Sonul Badiani-Hamment",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71412.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Rupa Huq"
+				"mp": "Rupa Huq",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Rupa Huq",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25284/rupa_huq/ealing_central_and_acton",
 			"electorate": 74200,
 			"turnout": 74.6,
@@ -45,8 +45,8 @@
 			"majority": 13807
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Rupa Huq",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71422,
 			"turnout": 71.5,
 			"valid": 50894,

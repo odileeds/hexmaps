@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3120,
 				"name": "Brendan D'Cruz",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3120.png"
 			},{
 				"id": 5097,
 				"name": "Gerald Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bd0d110284be476aae8ae.png"
 			},{
 				"id": 22935,
 				"name": "Sara Jones",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22935.png"
 			},{
 				"id": 25979,
 				"name": "Mark Evans",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25979.png"
 			},{
 				"id": 33128,
 				"name": "David Hughes",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72391,
 				"name": "Colin David Jones",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Gerald Jones"
+				"mp": "Gerald Jones",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Gerald Jones",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25289/gerald_jones/merthyr_tydfil_and_rhymney",
 			"electorate": 55463,
 			"turnout": 60.5,
@@ -50,8 +50,8 @@
 			"majority": 16334
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Gerald Jones",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61716,
 			"turnout": 53.2,
 			"valid": 32715,

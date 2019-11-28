@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 3454,
 				"name": "'Chinners' Chinnery",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3454.png"
 			},{
 				"id": 4507,
 				"name": "Ed Davey",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4507.png"
 			},{
 				"id": 36591,
 				"name": "Aphra Brandreth",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36591.png"
 			},{
 				"id": 41677,
 				"name": "Sharron Sumner",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41677_YoHxRBj.png"
 			},{
 				"id": 41944,
 				"name": "Roger Edmund Glencross",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 45620,
 				"name": "Leanne Werner",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45620.png"
 			},{
 				"id": 71803,
 				"name": "James Giles",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71803.png"
 			},{
 				"id": 71983,
 				"name": "Scott Holman",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71983.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Edward Davey"
+				"mp": "Edward Davey",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Edward Davey",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10155/edward_davey/kingston_and_surbiton",
 			"electorate": 81588,
 			"turnout": 76.2,
@@ -60,8 +60,8 @@
 			"majority": 4124
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Berry",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81238,
 			"turnout": 73.1,
 			"valid": 59253,

@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2487,
 				"name": "Chris Evans",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534e331b247335574a42e12.png"
 			},{
 				"id": 8445,
 				"name": "Gavin Chambers",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19426.png"
 			},{
 				"id": 22879,
 				"name": "Jo Watkins",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22879.png"
 			},{
 				"id": 27928,
 				"name": "Zoe Hammond",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71976.png"
 			},{
 				"id": 70556,
 				"name": "James Wells",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70556.png"
 			},{
 				"id": 71960,
 				"name": "Catherine Linstrum",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71960.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Chris Evans"
+				"mp": "Chris Evans",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Chris Evans",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24721/chris_evans/islwyn",
 			"electorate": 56256,
 			"turnout": 64.2,
@@ -50,8 +50,8 @@
 			"majority": 11412
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Chris Evans",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 55697,
 			"turnout": 63.6,
 			"valid": 35401,

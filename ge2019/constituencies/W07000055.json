@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1369,
 				"name": "Jessica Morden",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa0c6319151d456c24fa6.png"
 			},{
 				"id": 4654,
 				"name": "Peter Varley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4654.png"
 			},{
 				"id": 32097,
 				"name": "Mike Hamilton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 34920,
 				"name": "Cameron Wixcey",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34920.png"
 			},{
 				"id": 72033,
 				"name": "Mark Brown",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72033.png"
 			},{
 				"id": 72619,
 				"name": "Julie Anne Price",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72619-754207e0-a2e8-4bfd-8d77-0346b6387b21.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jessica Morden"
+				"mp": "Jessica Morden",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jessica Morden",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11732/jessica_morden/newport_east",
 			"electorate": 57233,
 			"turnout": 64.3,
@@ -50,8 +50,8 @@
 			"majority": 8003
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jessica Morden",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 56015,
 			"turnout": 62.8,
 			"valid": 35108,

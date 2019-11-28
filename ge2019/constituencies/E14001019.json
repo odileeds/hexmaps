@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 5567,
 				"name": "Bob Dhillon",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34924_otUB7Vb.png"
 			},{
 				"id": 28219,
 				"name": "Matt Western",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28219_YqJXnZZ.png"
 			},{
 				"id": 28237,
 				"name": "Louis William McMaster Adam",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28237.png"
 			},{
 				"id": 28239,
 				"name": "Jonathan Chilvers",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28239.png"
 			},{
 				"id": 34489,
 				"name": "Jack Rankin",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34489.png"
 			},{
 				"id": 72139,
 				"name": "Xander Bennett",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
 			},{
 				"id": 72140,
 				"name": "Tim Griffiths",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72140-784a21a7-83af-4f3c-8fe8-a049b7447f88.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Matt Western"
+				"mp": "Matt Western",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Matt Western",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25701/matt_western/warwick_and_leamington",
 			"electorate": 74237,
 			"turnout": 72.8,
@@ -55,8 +55,8 @@
 			"majority": 1206
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Chris White",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71578,
 			"turnout": 71.0,
 			"valid": 50581,

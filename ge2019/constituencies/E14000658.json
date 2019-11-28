@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2001,
 				"name": "Jenny Chapman",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca256e22f98bc5d30fa77.png"
 			},{
 				"id": 5854,
 				"name": "Anne-Marie Curry",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b1fddffdc1c81f668298.png"
 			},{
 				"id": 34517,
 				"name": "Peter Gibson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34517.png"
 			},{
 				"id": 34986,
 				"name": "Matthew Snedker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34986.png"
 			},{
 				"id": 72446,
 				"name": "Monty Brack",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72447,
 				"name": "Dave Mawson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jenny Chapman"
+				"mp": "Jenny Chapman",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jenny Chapman",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24711/jenny_chapman/darlington",
 			"electorate": 66341,
 			"turnout": 67.6,
@@ -50,8 +50,8 @@
 			"majority": 3280
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jenny Chapman",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65851,
 			"turnout": 62.7,
 			"valid": 41141,

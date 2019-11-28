@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5986,
 				"name": "Simon Hoare",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517cce3249b917507bee4e5.png"
 			},{
 				"id": 25410,
 				"name": "Pat Osborne",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25410.png"
 			},{
 				"id": 30330,
 				"name": "Ken Huggins",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30330.png"
 			},{
 				"id": 71555,
 				"name": "David Chadwick",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71555.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Simon Hoare"
+				"mp": "Simon Hoare",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Simon Hoare",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25427/simon_hoare/north_dorset",
 			"electorate": 76324,
 			"turnout": 73.0,
@@ -40,8 +40,8 @@
 			"majority": 25777
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Simon Hoare",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73759,
 			"turnout": 72.6,
 			"valid": 53385,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 11099,
 				"name": "Helena Julia Mellish",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11099.png"
 			},{
 				"id": 34462,
 				"name": "Navendu Mishra",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34462.png"
 			},{
 				"id": 55390,
 				"name": "Wendy Meikle",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55390-2d37b86f-62ab-47f6-b27d-b4c508cc42dd.png"
 			},{
 				"id": 64217,
 				"name": "Isy Imarni",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72120,
 				"name": "Lee Thomas Montague-Trenchard",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Ann Coffey"
+				"mp": "Ann Coffey",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Ann Coffey",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10122/ann_coffey/stockport",
 			"electorate": 64236,
 			"turnout": 64.7,
@@ -45,8 +45,8 @@
 			"majority": 14477
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Ann Coffey",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63931,
 			"turnout": 62.2,
 			"valid": 39649,

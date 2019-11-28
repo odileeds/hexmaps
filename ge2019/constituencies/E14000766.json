@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4363,
 				"name": "John Grogan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e828b150e238702c05a3.png"
 			},{
 				"id": 7196,
 				"name": "Waqas Ali Khan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55244a29f0e9e2c82406eba0.png"
 			},{
 				"id": 26213,
 				"name": "Robbie Moore",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26213.png"
 			},{
 				"id": 38339,
 				"name": "Thomas Franks",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38339.png"
 			},{
 				"id": 71852,
 				"name": "Mark Barton",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": ""
 			},{
 				"id": 72423,
 				"name": "Matthew Edward Rose",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "John Grogan"
+				"mp": "John Grogan",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "John Grogan",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10248/john_grogan/keighley",
 			"electorate": 71429,
 			"turnout": 72.4,
@@ -50,8 +50,8 @@
 			"majority": 239
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Kris Hopkins",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68865,
 			"turnout": 71.6,
 			"valid": 49123,

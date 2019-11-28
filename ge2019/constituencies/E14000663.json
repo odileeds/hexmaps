@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3123,
 				"name": "Joe Naitta",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3123.png"
 			},{
 				"id": 3393,
 				"name": "Margaret Beckett",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552edf0c42862f047e51ccb3.png"
 			},{
 				"id": 71962,
 				"name": "Ed Barker",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71962.png"
 			},{
 				"id": 72513,
 				"name": "Timothy Prosser",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72513-259b2f36-0d5a-454a-b7cf-249d486aeba7.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Margaret Beckett"
+				"mp": "Margaret Beckett",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Margaret Beckett",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10031/margaret_beckett/derby_south",
 			"electorate": 69918,
 			"turnout": 64.8,
@@ -40,8 +40,8 @@
 			"majority": 11248
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Margaret Beckett",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70240,
 			"turnout": 58.4,
 			"valid": 40820,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3446,
 				"name": "Oliver Heald",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba67db9c95afe74c5d32c.png"
 			},{
 				"id": 19997,
 				"name": "Kelley Green",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19997-492a3614-1e51-4d4f-8468-4fd1992aa43a.png"
 			},{
 				"id": 34878,
 				"name": "Tim Lee",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34878.png"
 			},{
 				"id": 48228,
 				"name": "Amy Finch",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48228.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Oliver Heald"
+				"mp": "Oliver Heald",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Oliver Heald",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10267/oliver_heald/north_east_hertfordshire",
 			"electorate": 75965,
 			"turnout": 73.2,
@@ -40,8 +40,8 @@
 			"majority": 16835
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Oliver Heald",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74000,
 			"turnout": 70.9,
 			"valid": 52287,

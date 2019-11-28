@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 6542,
 				"name": "Bart Ricketts",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489b0ef1cad250106f2e5d.png"
 			},{
 				"id": 34228,
 				"name": "Eleanor Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34228.png"
 			},{
 				"id": 35364,
 				"name": "Stuart Paul Anderson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35364.png"
 			},{
 				"id": 72208,
 				"name": "Leo Antonio Grandison",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Eleanor Smith"
+				"mp": "Eleanor Smith",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Eleanor Smith",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25631/eleanor_smith/wolverhampton_south_west",
 			"electorate": 59971,
 			"turnout": 70.6,
@@ -40,8 +40,8 @@
 			"majority": 2185
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Rob Marris",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60368,
 			"turnout": 66.8,
 			"valid": 40209,

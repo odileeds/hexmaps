@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3449,
 				"name": "Damian Hinds",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a5c7f0e9e2c82406ebc3.png"
 			},{
 				"id": 29976,
 				"name": "Eddie Trotter",
-				"party": "The Justice & Anti-Corruption Party",
+				"party": { "code": "", "title": "The Justice & Anti-Corruption Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29976.png"
 			},{
 				"id": 29988,
 				"name": "Jim Makin",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50739.png"
 			},{
 				"id": 45969,
 				"name": "Gaynor Austin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45969.png"
 			},{
 				"id": 51496,
 				"name": "Zoe Parker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51496.png"
 			},{
 				"id": 71417,
 				"name": "David Buxton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71417.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Damian Hinds"
+				"mp": "Damian Hinds",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Damian Hinds",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24782/damian_hinds/east_hampshire",
 			"electorate": 74151,
 			"turnout": 74.7,
@@ -50,8 +50,8 @@
 			"majority": 25852
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Damian Hinds",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71074,
 			"turnout": 73.0,
 			"valid": 51649,

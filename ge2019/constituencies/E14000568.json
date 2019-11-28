@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 96,
 				"name": "Roger Harmer",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/96.png"
 			},{
 				"id": 4268,
 				"name": "Jess Phillips",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e7a7b150e238702c0553.png"
 			},{
 				"id": 10055,
 				"name": "Christopher Garghan",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10055.png"
 			},{
 				"id": 72557,
 				"name": "Vincent Robert Pountain Garrington",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72557-908a123b-4309-4688-8b5d-80c0a2bba460.png"
 			},{
 				"id": 72558,
 				"name": "Mary Ann McKenna",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Jess Phillips"
+				"mp": "Jess Phillips",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Jess Phillips",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25364/jess_phillips/birmingham%2C_yardley",
 			"electorate": 72581,
 			"turnout": 61.3,
@@ -45,8 +45,8 @@
 			"majority": 16574
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Jess Phillips",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72146,
 			"turnout": 57.3,
 			"valid": 41151,

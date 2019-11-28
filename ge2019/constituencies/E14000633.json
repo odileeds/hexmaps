@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 6138,
 				"name": "Gillian Keegan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71898.png"
 			},{
 				"id": 6208,
 				"name": "Andrew Emerson",
-				"party": "Patria",
+				"party": { "code": "", "title": "Patria" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6208.png"
 			},{
 				"id": 34971,
 				"name": "Heather Barrie",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34971.png"
 			},{
 				"id": 35844,
 				"name": "Kate O'Kelly",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35844.png"
 			},{
 				"id": 72092,
 				"name": "Jay Morton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72092.png"
 			},{
 				"id": 72308,
 				"name": "Adam Gregory Brown",
-				"party": "Libertarian Party",
+				"party": { "code": "", "title": "Libertarian Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Gillian Keegan"
+				"mp": "Gillian Keegan",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Gillian Keegan",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25670/gillian_keegan/chichester",
 			"electorate": 84991,
 			"turnout": 70.5,
@@ -50,8 +50,8 @@
 			"majority": 22621
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Tyrie",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83396,
 			"turnout": 68.8,
 			"valid": 57139,

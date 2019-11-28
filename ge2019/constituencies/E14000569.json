@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 2906,
 				"name": "Helen Goodman",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ac15913eb34c82843cb29.png"
 			},{
 				"id": 4202,
 				"name": "Dehenna Davison",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4202.png"
 			},{
 				"id": 59552,
 				"name": "Ray Georgeson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59552.png"
 			},{
 				"id": 71308,
 				"name": "Nick Brown",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71308.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Helen Goodman"
+				"mp": "Helen Goodman",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Helen Goodman",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11421/helen_goodman/bishop_auckland",
 			"electorate": 67661,
 			"turnout": 64.0,
@@ -40,8 +40,8 @@
 			"majority": 502
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Helen Goodman",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66070,
 			"turnout": 59.7,
 			"valid": 39389,

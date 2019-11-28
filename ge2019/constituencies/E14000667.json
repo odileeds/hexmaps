@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 978,
 				"name": "Caroline Flint",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357539367dc5383f552ce0.png"
 			},{
 				"id": 2542,
 				"name": "Mark Lindsay Alcock",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 71400,
 				"name": "Paul Alan Whitehurst",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 71861,
 				"name": "Chris Holmes",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": ""
 			},{
 				"id": 72038,
 				"name": "Nicholas Fletcher",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72038.png"
 			},{
 				"id": 72503,
 				"name": "Kate Needham",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72503-01c79ea2-e994-4184-a9ec-2b199984173f.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Caroline Flint"
+				"mp": "Caroline Flint",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Caroline Flint",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10202/caroline_flint/don_valley",
 			"electorate": 73990,
 			"turnout": 62.2,
@@ -50,8 +50,8 @@
 			"majority": 5169
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Caroline Flint",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71299,
 			"turnout": 59.8,
 			"valid": 42486,

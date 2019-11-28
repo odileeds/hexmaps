@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 349,
 				"name": "Sajid Javid",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225854328bff5d39338a5b.png"
 			},{
 				"id": 1346,
 				"name": "Kevin White",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54bd390bead6762e54811af6.png"
 			},{
 				"id": 27330,
 				"name": "Rory James Shannon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27330.png"
 			},{
 				"id": 71334,
 				"name": "David Nicholl",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71334-d4df1404-829c-4061-b06c-918713ce5814.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Sajid Javid"
+				"mp": "Sajid Javid",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Sajid Javid",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24854/sajid_javid/bromsgrove",
 			"electorate": 73571,
 			"turnout": 73.5,
@@ -40,8 +40,8 @@
 			"majority": 16573
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Sajid Javid",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73337,
 			"turnout": 71.5,
 			"valid": 52245,

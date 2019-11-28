@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3878,
 				"name": "Mark Hendrick",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3878.png"
 			},{
 				"id": 34595,
 				"name": "Neil Darby",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34595.png"
 			},{
 				"id": 54626,
 				"name": "Michael Welton",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/54626.png"
 			},{
 				"id": 71994,
 				"name": "Rob Sherratt",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71994.png"
 			},{
 				"id": 72456,
 				"name": "Michele Scott",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Mark Hendrick"
+				"mp": "Mark Hendrick",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Mark Hendrick",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10682/mark_hendrick/preston",
 			"electorate": 57791,
 			"turnout": 61.6,
@@ -45,8 +45,8 @@
 			"majority": 15723
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Mark Hendrick",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 59981,
 			"turnout": 56.0,
 			"valid": 33469,

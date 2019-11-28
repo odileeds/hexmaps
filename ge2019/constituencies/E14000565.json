@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3368,
 				"name": "Richard Burden",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550c0ac83be3632f3135c9e0.png"
 			},{
 				"id": 4854,
 				"name": "Keith Rowe",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525f02b413cb4432adffa67.png"
 			},{
 				"id": 9942,
 				"name": "Gary Sambrook",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9942.png"
 			},{
 				"id": 9958,
 				"name": "Kenneth Russell Lowry",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 34892,
 				"name": "Eleanor Masters",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34892.png"
 			},{
 				"id": 35151,
 				"name": "Jamie Christian Scott",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35151.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Richard Burden"
+				"mp": "Richard Burden",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Richard Burden",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10076/richard_burden/birmingham%2C_northfield",
 			"electorate": 72322,
 			"turnout": 61.3,
@@ -50,8 +50,8 @@
 			"majority": 4667
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Richard Burden",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71428,
 			"turnout": 59.6,
 			"valid": 42461,

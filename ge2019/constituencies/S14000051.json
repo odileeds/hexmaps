@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 1331,
 				"name": "Alistair Carmichael",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e939b150e238702c0647.png"
 			},{
 				"id": 3747,
 				"name": "Robert Smith",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3747-9cf69737-9768-4966-9702-887426cada29.png"
 			},{
 				"id": 71805,
 				"name": "Coilla Drake",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71805.png"
 			},{
 				"id": 71964,
 				"name": "Robert Leslie",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71964.png"
 			},{
 				"id": 72024,
 				"name": "Jenny Fairbairn",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72024.png"
 			},{
 				"id": 72108,
 				"name": "David Barnard",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72108-dada7032-2c2b-4e00-ba4c-22abf5a4946c.png"
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Alistair Carmichael"
+				"mp": "Alistair Carmichael",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Alistair Carmichael",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10785/alistair_carmichael/orkney_and_shetland",
 			"electorate": 34164,
 			"turnout": 68.1,
@@ -50,8 +50,8 @@
 			"majority": 4563
 		},
 		"2015": {
-			"first": "Liberal Democrat",
 			"mp": "Alistair Carmichael",
+			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 34552,
 			"turnout": 66.0,
 			"valid": 22728,

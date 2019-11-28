@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2918,
 				"name": "Chuka Umunna",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2918.png"
 			},{
 				"id": 7505,
 				"name": "Zack Polanski",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38753.png"
 			},{
 				"id": 41462,
 				"name": "Nickie Aiken",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41462.png"
 			},{
 				"id": 71369,
 				"name": "Dirk van Heck",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": ""
 			},{
 				"id": 71883,
 				"name": "Gordon Nardell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71883.png"
 			},{
 				"id": 72470,
 				"name": "Jill McLachlan",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mark Field"
+				"mp": "Mark Field",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mark Field",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10884/mark_field/cities_of_london_and_westminster",
 			"electorate": 61533,
 			"turnout": 62.8,
@@ -50,8 +50,8 @@
 			"majority": 3148
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mark Field",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 60992,
 			"turnout": 59.6,
 			"valid": 36185,

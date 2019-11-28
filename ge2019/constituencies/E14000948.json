@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4230,
 				"name": "Craig Mackinlay",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4230.png"
 			},{
 				"id": 29084,
 				"name": "Martyn Pennington",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29084.png"
 			},{
 				"id": 58783,
 				"name": "Becky Wing",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71647-9f4c562e-4877-46c9-ad02-d23ca920ccc3.png"
 			},{
 				"id": 71646,
 				"name": "Rebecca Gordon-Nesbitt",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71646.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Craig Mackinlay"
+				"mp": "Craig Mackinlay",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Craig Mackinlay",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25437/craig_mackinlay/south_thanet",
 			"electorate": 72334,
 			"turnout": 68.8,
@@ -40,8 +40,8 @@
 			"majority": 6387
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Craig MacKinlay",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70970,
 			"turnout": 69.8,
 			"valid": 49401,

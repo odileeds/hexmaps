@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 783,
 				"name": "Simon Hall",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552ff9c47fce6de164f2fdf4.png"
 			},{
 				"id": 1204,
 				"name": "Linda Jack",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1204-3f92565b-efa8-4359-a9e1-9c2ba7c2bc38.png"
 			},{
 				"id": 4350,
 				"name": "Sarah Owen",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4350.png"
 			},{
 				"id": 47089,
 				"name": "Jeet Bains",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47089.png"
 			},{
 				"id": 71521,
 				"name": "Serena Laidley",
-				"party": "Women's Equality Party",
+				"party": { "code": "", "title": "Women's Equality Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71521.png"
 			},{
 				"id": 71892,
 				"name": "Sudhir Sharma",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71892.png"
 			},{
 				"id": 72593,
 				"name": "Muhammad Yasin Rehman",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72593-9aa1dcb6-dece-4cb2-a7a3-adf38206a4d4.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Kelvin Hopkins"
+				"mp": "Kelvin Hopkins",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kelvin Hopkins",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10288/kelvin_hopkins/luton_north",
 			"electorate": 66811,
 			"turnout": 69.8,
@@ -55,8 +55,8 @@
 			"majority": 14364
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Kelvin Hopkins",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67329,
 			"turnout": 63.7,
 			"valid": 42571,

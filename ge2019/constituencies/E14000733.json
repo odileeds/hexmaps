@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4761,
 				"name": "Mike Hill",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a5b55600f97ed464f28b7.png"
 			},{
 				"id": 34633,
 				"name": "Andy Hagon",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34633.png"
 			},{
 				"id": 53227,
 				"name": "Kevin Cranney",
-				"party": "Socialist Labour Party",
+				"party": { "code": "", "title": "Socialist Labour Party" },
 				"img": ""
 			},{
 				"id": 57303,
 				"name": "Stefan Richard Houghton",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57303-53f20e92-cb64-46cd-8122-de7f64fec498.png"
 			},{
 				"id": 70546,
 				"name": "Richard Tice",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70546.png"
 			},{
 				"id": 72489,
 				"name": "Joe Bousfield",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Mike Hill"
+				"mp": "Mike Hill",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Mike Hill",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25619/mike_hill/hartlepool",
 			"electorate": 70718,
 			"turnout": 59.2,
@@ -50,8 +50,8 @@
 			"majority": 7650
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Iain Wright",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69947,
 			"turnout": 56.6,
 			"valid": 39490,

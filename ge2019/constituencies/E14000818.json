@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2443,
 				"name": "Margaret Rowley",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16938.png"
 			},{
 				"id": 2493,
 				"name": "Nigel Huddleston",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5506ff245399523471f7e1a7.png"
 			},{
 				"id": 50618,
 				"name": "Barmy Lord Brockman",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50618.png"
 			},{
 				"id": 71532,
 				"name": "Sue Howarth",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71532.png"
 			},{
 				"id": 71908,
 				"name": "Helen Russell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nigel Huddleston"
+				"mp": "Nigel Huddleston",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nigel Huddleston",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25381/nigel_huddleston/mid_worcestershire",
 			"electorate": 76057,
 			"turnout": 72.4,
@@ -45,8 +45,8 @@
 			"majority": 23326
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nigel Huddleston",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73069,
 			"turnout": 71.7,
 			"valid": 52225,

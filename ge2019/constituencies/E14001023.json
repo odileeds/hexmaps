@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 85,
 				"name": "Nus Ghani",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba049a51642637514d62f.png"
 			},{
 				"id": 1254,
 				"name": "Chris Bowers",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5502d5cbe70496a1139f93ef.png"
 			},{
 				"id": 34596,
 				"name": "Angie Smith",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34596.png"
 			},{
 				"id": 71997,
 				"name": "Georgia Taylor",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71997-71726490-add0-4463-9924-a6182e1c2627.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Nusrat Ghani"
+				"mp": "Nusrat Ghani",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nusrat Ghani",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25354/nusrat_ghani/wealden",
 			"electorate": 81425,
 			"turnout": 74.3,
@@ -40,8 +40,8 @@
 			"majority": 23628
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nusrat Ghani",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80236,
 			"turnout": 71.3,
 			"valid": 57017,

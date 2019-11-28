@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4370,
 				"name": "Alex Sobel",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4370.png"
 			},{
 				"id": 6073,
 				"name": "Martin Hemingway",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6073.png"
 			},{
 				"id": 44632,
 				"name": "Stewart Harper",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44632.png"
 			},{
 				"id": 72399,
 				"name": "Graeme Alan Webber",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72399-07887a18-f7c9-4e96-85f1-314b16a3037e.png"
 			},{
 				"id": 72642,
 				"name": "Kamran Hussain",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72642-039703a3-6d9a-4ea6-b6fb-66275db1b6a0.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Alex Sobel"
+				"mp": "Alex Sobel",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Alex Sobel",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25680/alex_sobel/leeds_north_west",
 			"electorate": 68152,
 			"turnout": 67.9,
@@ -45,8 +45,8 @@
 			"majority": 4224
 		},
 		"2015": {
-			"first": "Liberal Democrat",
 			"mp": "Greg Mulholland",
+			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 61974,
 			"turnout": 70.2,
 			"valid": 43357,

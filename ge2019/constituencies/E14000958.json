@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 4779,
 				"name": "Liz Savage",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550821af7a8b511079bc5bcc.png"
 			},{
 				"id": 4780,
 				"name": "Damien Moore",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a4dbb7940863c767fde31.png"
 			},{
 				"id": 15318,
 				"name": "John Wright",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Damien Moore"
+				"mp": "Damien Moore",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Damien Moore",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25630/damien_moore/southport",
 			"electorate": 69400,
 			"turnout": 69.1,
@@ -35,8 +35,8 @@
 			"majority": 2914
 		},
 		"2015": {
-			"first": "Liberal Democrat",
 			"mp": "John Pugh",
+			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 67326,
 			"turnout": 65.8,
 			"valid": 44101,

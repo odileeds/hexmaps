@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 475,
 				"name": "Celia Foote",
-				"party": "Alliance For Green Socialism",
+				"party": { "code": "", "title": "Alliance For Green Socialism" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/475_duvqALC.png"
 			},{
 				"id": 736,
 				"name": "Fabian Hamilton",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55350db5b247335574a42e6d.png"
 			},{
 				"id": 34740,
 				"name": "Jon Hannah",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34740.png"
 			},{
 				"id": 36868,
 				"name": "Amjad Bashir",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36868.png"
 			},{
 				"id": 56179,
 				"name": "Rachel Hartshorne",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/56179-e240466b-299d-4b80-a1c1-279a7558b472.png"
 			},{
 				"id": 71510,
 				"name": "Inaya Folarin Iman",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71510.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Fabian Hamilton"
+				"mp": "Fabian Hamilton",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Fabian Hamilton",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10256/fabian_hamilton/leeds_north_east",
 			"electorate": 70112,
 			"turnout": 75.6,
@@ -50,8 +50,8 @@
 			"majority": 16991
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Fabian Hamilton",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69097,
 			"turnout": 70.2,
 			"valid": 48291,

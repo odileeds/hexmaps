@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 7517,
 				"name": "Matt Vickers",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7517.png"
 			},{
 				"id": 34461,
 				"name": "Paul Williams",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34461.png"
 			},{
 				"id": 71671,
 				"name": "Brendan Michael William Devlin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71671-bfb6602c-1342-41c6-ac2c-376caf7ed088.png"
 			},{
 				"id": 71672,
 				"name": "John Prescott",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71672.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Paul Williams"
+				"mp": "Paul Williams",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Paul Williams",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25621/paul_williams/stockton_south",
 			"electorate": 75625,
 			"turnout": 71.2,
@@ -40,8 +40,8 @@
 			"majority": 888
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "James Wharton",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75111,
 			"turnout": 69.2,
 			"valid": 51797,

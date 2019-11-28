@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3636,
 				"name": "Alok Sharma",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f5a1b247335574a42e2e.png"
 			},{
 				"id": 4524,
 				"name": "Meri O'Connell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4524.png"
 			},{
 				"id": 34477,
 				"name": "Rachel Eden",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34477.png"
 			},{
 				"id": 35119,
 				"name": "Jamie Whitham",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35119.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Alok Sharma"
+				"mp": "Alok Sharma",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Alok Sharma",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24902/alok_sharma/reading_west",
 			"electorate": 74523,
 			"turnout": 69.5,
@@ -40,8 +40,8 @@
 			"majority": 2876
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Alok Sharma",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72567,
 			"turnout": 66.9,
 			"valid": 48404,

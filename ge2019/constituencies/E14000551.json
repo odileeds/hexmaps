@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4074,
 				"name": "Bob Stewart",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55225674328bff5d39338a53.png"
 			},{
 				"id": 5234,
 				"name": "Ruth Fabricant",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5234.png"
 			},{
 				"id": 5874,
 				"name": "Marina Ahmad",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5874.png"
 			},{
 				"id": 47808,
 				"name": "Chloe-Jane Ross",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47808.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Bob Stewart"
+				"mp": "Bob Stewart",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Bob Stewart",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24907/bob_stewart/beckenham",
 			"electorate": 67925,
 			"turnout": 76.0,
@@ -40,8 +40,8 @@
 			"majority": 15087
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Bob Stewart",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67439,
 			"turnout": 72.5,
 			"valid": 48803,

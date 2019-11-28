@@ -6,52 +6,52 @@
 			"candidates": [{
 				"id": 1958,
 				"name": "Damian Collins",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525faf5413cb4432adffa83.png"
 			},{
 				"id": 5394,
 				"name": "Rohen Kapur",
-				"party": "Young People's Party YPP",
+				"party": { "code": "", "title": "Young People's Party YPP" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54af05172120efcf0c1c23a0.png"
 			},{
 				"id": 5677,
 				"name": "Andy Thomas",
-				"party": "The Socialist Party of Great Britain",
+				"party": { "code": "", "title": "The Socialist Party of Great Britain" },
 				"img": ""
 			},{
 				"id": 7524,
 				"name": "Henry Bolton",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7524.png"
 			},{
 				"id": 29326,
 				"name": "Laura Davison",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29326.png"
 			},{
 				"id": 49462,
 				"name": "Georgina Treloar",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49462.png"
 			},{
 				"id": 71444,
 				"name": "Simon Bishop",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71444.png"
 			},{
 				"id": 72600,
 				"name": "Colin John Menniss",
-				"party": "Social Democratic Party",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Damian Collins"
+				"mp": "Damian Collins",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Damian Collins",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24744/damian_collins/folkestone_and_hythe",
 			"electorate": 86272,
 			"turnout": 68.2,
@@ -60,8 +60,8 @@
 			"majority": 15411
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Damian Collins",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83651,
 			"turnout": 66.1,
 			"valid": 55010,

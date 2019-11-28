@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2424,
 				"name": "David Morris",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5518400d249b917507bee577.png"
 			},{
 				"id": 19522,
 				"name": "Lizzi Collinge",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19522-7e3d8f79-da6c-4a0d-a44d-35560bb51ea2.png"
 			},{
 				"id": 29015,
 				"name": "Darren Keith Clifford",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29015-c473524c-be97-4633-8ef9-af7dc13b971c.png"
 			},{
 				"id": 50807,
 				"name": "Chloe Buckley",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50807-e60b4141-aaa2-4599-8bc3-ba339f8c5fcf.png"
 			},{
 				"id": 67243,
 				"name": "Owen Thomas Lambert",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67243-30ee44c9-f467-4677-a459-6c4e56c78a56.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Morris"
+				"mp": "David Morris",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Morris",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24966/david_morris/morecambe_and_lunesdale",
 			"electorate": 66818,
 			"turnout": 68.3,
@@ -45,8 +45,8 @@
 			"majority": 1399
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Morris",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66985,
 			"turnout": 64.8,
 			"valid": 43242,

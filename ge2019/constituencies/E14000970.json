@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3622,
 				"name": "Alex Cunningham",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3622.png"
 			},{
 				"id": 6536,
 				"name": "Steven Jackson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548f724e5ee37a15064546d.png"
 			},{
 				"id": 37899,
 				"name": "Aidan King",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37899.png"
 			},{
 				"id": 57218,
 				"name": "Mark Gideon Burdon",
-				"party": "The North East Party",
+				"party": { "code": "", "title": "The North East Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57218.png"
 			},{
 				"id": 71670,
 				"name": "Martin Andrew Walker",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71670.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Alex Cunningham"
+				"mp": "Alex Cunningham",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Alex Cunningham",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24742/alex_cunningham/stockton_north",
 			"electorate": 66285,
 			"turnout": 64.5,
@@ -45,8 +45,8 @@
 			"majority": 8715
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Alex Cunningham",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66126,
 			"turnout": 60.2,
 			"valid": 39571,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1808,
 				"name": "Peter Aldous",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550c3cd53be3632f3135c9fa.png"
 			},{
 				"id": 7698,
 				"name": "Helen Korfanty",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7698.png"
 			},{
 				"id": 26308,
 				"name": "Elfrede Brambley-Crawshaw",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26308.png"
 			},{
 				"id": 31152,
 				"name": "Sonia Valerie Barker",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31152.png"
 			},{
 				"id": 72316,
 				"name": "Dave Brennan",
-				"party": "Christian Peoples Alliance",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Peter Aldous"
+				"mp": "Peter Aldous",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Peter Aldous",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24904/peter_aldous/waveney",
 			"electorate": 80763,
 			"turnout": 65.2,
@@ -45,8 +45,8 @@
 			"majority": 9215
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Peter Aldous",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80166,
 			"turnout": 65.3,
 			"valid": 52196,

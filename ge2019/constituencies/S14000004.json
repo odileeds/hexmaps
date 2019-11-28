@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 8231,
 				"name": "Kirstene Hair",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8231.png"
 			},{
 				"id": 15353,
 				"name": "Dave Doogan",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15353.png"
 			},{
 				"id": 19726,
 				"name": "Ben Lawrie",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19726-f9c20d17-0a3e-4c6c-a908-d6a41094ab3f.png"
 			},{
 				"id": 72121,
 				"name": "Monique Tamara Miller",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72121-3572d521-eb5d-4abf-966e-8b61682126ec.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Kirstene Hair"
+				"mp": "Kirstene Hair",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Kirstene Hair",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25616/kirstene_hair/angus",
 			"electorate": 63840,
 			"turnout": 63.0,
@@ -40,8 +40,8 @@
 			"majority": 2645
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Mike Weir",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 65792,
 			"turnout": 67.7,
 			"valid": 44485,

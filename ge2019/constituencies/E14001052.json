@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 496,
 				"name": "Robin Walker",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551be5a8209513973bc512a3.png"
 			},{
 				"id": 2531,
 				"name": "Louis Stephen",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/550b5de53676900a02e1643e.png"
 			},{
 				"id": 5860,
 				"name": "Stephen Kearney",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a2337328b3f41504933ed.png"
 			},{
 				"id": 12771,
 				"name": "Lynn Denham",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12771.png"
 			},{
 				"id": 72632,
 				"name": "Martin Julian Keith Potter",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72632-75110c4d-04dc-4966-b2cf-4c62cc4dd392.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Robin Walker"
+				"mp": "Robin Walker",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Robin Walker",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24862/robin_walker/worcester",
 			"electorate": 73893,
 			"turnout": 69.6,
@@ -45,8 +45,8 @@
 			"majority": 2508
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Robin Walker",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72461,
 			"turnout": 68.8,
 			"valid": 49723,

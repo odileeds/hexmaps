@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 5272,
 				"name": "Kit Malthouse",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34290.png"
 			},{
 				"id": 31129,
 				"name": "Luigi Gregori",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31129-10820cb9-a151-4d38-a990-28a510882bcc.png"
 			},{
 				"id": 58489,
 				"name": "Lance Mitchell",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58489.png"
 			},{
 				"id": 72027,
 				"name": "Liz Bell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72027.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Kit Malthouse"
+				"mp": "Kit Malthouse",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Kit Malthouse",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25346/kit_malthouse/north_west_hampshire",
 			"electorate": 81430,
 			"turnout": 72.2,
@@ -40,8 +40,8 @@
 			"majority": 22679
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Kit Malthouse",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79223,
 			"turnout": 69.9,
 			"valid": 55195,

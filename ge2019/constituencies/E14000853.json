@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 103,
 				"name": "Chris Boyle",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/103-fd90c90c-1480-47f1-b63c-25a84b139a44.png"
 			},{
 				"id": 2144,
 				"name": "Mary Glindon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548d572928393ab513ec8fc.png"
 			},{
 				"id": 33221,
 				"name": "Dean Spencer Carroll",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 71917,
 				"name": "John Buttery",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71917.png"
 			},{
 				"id": 72145,
 				"name": "Andrew Husband",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72145-72ea9495-0dda-40fa-bda1-61d4e41cc763.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Mary Glindon"
+				"mp": "Mary Glindon",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Mary Glindon",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24927/mary_glindon/north_tyneside",
 			"electorate": 78914,
 			"turnout": 65.8,
@@ -45,8 +45,8 @@
 			"majority": 19284
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Mary Glindon",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79300,
 			"turnout": 59.2,
 			"valid": 46818,

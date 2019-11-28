@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4319,
 				"name": "Paula Sherriff",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4319.png"
 			},{
 				"id": 8640,
 				"name": "Mark Eastwood",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8640.png"
 			},{
 				"id": 8644,
 				"name": "Simon Cope",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8644.png"
 			},{
 				"id": 71343,
 				"name": "Philip James",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71343.png"
 			},{
 				"id": 71793,
 				"name": "John Rossington",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72266,
 				"name": "Sir Archibald Earl 'Eaton Stanton",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72266-830af731-a1dc-4f43-972f-ce3ab2cedde2.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Paula Sherriff"
+				"mp": "Paula Sherriff",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Paula Sherriff",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25421/paula_sherriff/dewsbury",
 			"electorate": 81343,
 			"turnout": 69.5,
@@ -50,8 +50,8 @@
 			"majority": 3321
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Paula Sherriff",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79770,
 			"turnout": 67.5,
 			"valid": 53630,

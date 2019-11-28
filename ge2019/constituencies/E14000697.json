@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 3451,
 				"name": "Dominic Raab",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a4b5f0e9e2c82406ebba.png"
 			},{
 				"id": 34964,
 				"name": "Baron Badger",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34964.png"
 			},{
 				"id": 57261,
 				"name": "Peter Leondard Ashurst",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57261-c0175e16-11b8-4df5-8017-6d9f5093d3f3.png"
 			},{
 				"id": 71439,
 				"name": "Monica Harding",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 72312,
 				"name": "Kylie Keens",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72312-21879935-7043-4be2-bc28-538749da7a32.png"
 			},{
 				"id": 72313,
 				"name": "Kyle Gregory Taylor",
-				"party": "Advance Together",
+				"party": { "code": "", "title": "Advance Together" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Dominic Raab"
+				"mp": "Dominic Raab",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Dominic Raab",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24815/dominic_raab/esher_and_walton",
 			"electorate": 80938,
 			"turnout": 73.9,
@@ -50,8 +50,8 @@
 			"majority": 23298
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Dominic Raab",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79894,
 			"turnout": 71.6,
 			"valid": 56976,

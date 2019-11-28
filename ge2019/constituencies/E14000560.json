@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 90,
 				"name": "Phil Simpson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525eff2413cb4432adffa62.png"
 			},{
 				"id": 4481,
 				"name": "Colin Green",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8cfb150e238702c0601.png"
 			},{
 				"id": 10033,
 				"name": "Alex Wan Yip",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10033.png"
 			},{
 				"id": 19009,
 				"name": "Preet Gill",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19009.png"
 			},{
 				"id": 72525,
 				"name": "David Jonathon Wilks",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72525-b41f7ac8-49e1-4217-87f6-99d8bea23d09.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Preet Kaur Gill"
+				"mp": "Preet Kaur Gill",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Preet Kaur Gill",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25666/preet_kaur_gill/birmingham%2C_edgbaston",
 			"electorate": 68091,
 			"turnout": 64.0,
@@ -45,8 +45,8 @@
 			"majority": 6917
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Gisela Stuart",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65591,
 			"turnout": 63.2,
 			"valid": 41293,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4909,
 				"name": "Hilary Jones",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548ace8c0821aec2c242216.png"
 			},{
 				"id": 5455,
 				"name": "Matt Warman",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5455.png"
 			},{
 				"id": 29109,
 				"name": "Ben Cook",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29109-89540c63-1990-4b52-ba8e-db3041ce82d4.png"
 			},{
 				"id": 58222,
 				"name": "Peter Mark Falloon Watson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Matt Warman"
+				"mp": "Matt Warman",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Matt Warman",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25395/matt_warman/boston_and_skegness",
 			"electorate": 68402,
 			"turnout": 62.7,
@@ -40,8 +40,8 @@
 			"majority": 16572
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Matt Warman",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67064,
 			"turnout": 64.9,
 			"valid": 43339,

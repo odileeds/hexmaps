@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 34998,
 				"name": "Matthew Buckler",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34998.png"
 			},{
 				"id": 67749,
 				"name": "Claire Elizabeth Raw",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67749-9e5efe06-bddd-40de-9f38-44319801f508.png"
 			},{
 				"id": 71396,
 				"name": "Robert Court",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71396.png"
 			},{
 				"id": 72440,
 				"name": "Sarah Elizabeth Dines",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Patrick McLoughlin"
+				"mp": "Patrick McLoughlin",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Patrick McLoughlin",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10397/patrick_mcloughlin/derbyshire_dales",
 			"electorate": 64430,
 			"turnout": 76.9,
@@ -40,8 +40,8 @@
 			"majority": 14327
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Patrick McLoughlin",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63476,
 			"turnout": 74.8,
 			"valid": 47361,

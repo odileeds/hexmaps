@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3114,
 				"name": "Henry Vann",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3114.png"
 			},{
 				"id": 19413,
 				"name": "Mohammad Yasin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19413.png"
 			},{
 				"id": 49716,
 				"name": "Adrian Spurrell",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49716.png"
 			},{
 				"id": 71291,
 				"name": "Ryan Henson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71291.png"
 			},{
 				"id": 72275,
 				"name": "Charles Spencer Bunker",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72275-d882cca2-fac1-49df-851e-a5155b0d1c5b.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Mohammad Yasin"
+				"mp": "Mohammad Yasin",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Mohammad Yasin",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25649/mohammad_yasin/bedford",
 			"electorate": 71829,
 			"turnout": 67.5,
@@ -45,8 +45,8 @@
 			"majority": 789
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Richard Fuller",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69311,
 			"turnout": 66.9,
 			"valid": 46086,

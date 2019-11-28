@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4232,
 				"name": "Kim Caddy",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4232.png"
 			},{
 				"id": 34349,
 				"name": "Marsha de Cordova",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34349.png"
 			},{
 				"id": 34488,
 				"name": "Lois Davis",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34488_h9am3Fi.png"
 			},{
 				"id": 44887,
 				"name": "Mark Gitsham",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44887.png"
 			},{
 				"id": 72131,
 				"name": "Jake Thomas",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Marsha de Cordova"
+				"mp": "Marsha de Cordova",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Marsha de Cordova",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25620/marsha_de_cordova/battersea",
 			"electorate": 77574,
 			"turnout": 71.0,
@@ -45,8 +45,8 @@
 			"majority": 2416
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Jane Ellison",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76111,
 			"turnout": 67.2,
 			"valid": 51031,

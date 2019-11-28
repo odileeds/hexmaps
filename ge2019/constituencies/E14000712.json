@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3224,
 				"name": "Richard Graham",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552aa7665b858ee163ed636b.png"
 			},{
 				"id": 70647,
 				"name": "Michael Anthony Byfield",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 71454,
 				"name": "Fran Boait",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": ""
 			},{
 				"id": 71455,
 				"name": "Rebecca Trimnell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71455.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Richard Graham"
+				"mp": "Richard Graham",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Richard Graham",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24921/richard_graham/gloucester",
 			"electorate": 82965,
 			"turnout": 65.2,
@@ -40,8 +40,8 @@
 			"majority": 5520
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Richard Graham",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82968,
 			"turnout": 63.5,
 			"valid": 52575,

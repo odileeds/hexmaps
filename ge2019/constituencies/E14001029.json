@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 4754,
 				"name": "George Galloway",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54b9e5cfcb19ebca71e2af6e.png"
 			},{
 				"id": 5940,
 				"name": "Andy Graham",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5940.png"
 			},{
 				"id": 6386,
 				"name": "Mark Nicholas Redding",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551aa9cee2ac8b7333e6a271.png"
 			},{
 				"id": 34310,
 				"name": "Ibrahim Dogus",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35934.png"
 			},{
 				"id": 35017,
 				"name": "Colin Rankine",
-				"party": "Yeshua",
+				"party": { "code": "", "title": "Yeshua" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72175-187045f6-7a98-4588-b506-4c7b1da291cc.png"
 			},{
 				"id": 59120,
 				"name": "Nicola Faye Richards",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59120.png"
 			},{
 				"id": 72172,
 				"name": "Christian Mosiah Lucas",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72172-93bb9002-be51-41b8-a623-5a8b5f2f4f38.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Tom Watson"
+				"mp": "Tom Watson",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Tom Watson",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11309/tom_watson/west_bromwich_east",
 			"electorate": 63846,
 			"turnout": 61.2,
@@ -55,8 +55,8 @@
 			"majority": 7713
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Tom Watson",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63637,
 			"turnout": 59.1,
 			"valid": 37492,

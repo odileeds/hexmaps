@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1730,
 				"name": "Flick Drummond",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1730.png"
 			},{
 				"id": 17799,
 				"name": "Lewis North",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17799.png"
 			},{
 				"id": 49766,
 				"name": "Matt Bunday",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49766.png"
 			},{
 				"id": 72025,
 				"name": "Malcolm Wallace",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72025-208997e5-dc33-4830-8f47-d35b486f4d0f.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "George Hollingbery"
+				"mp": "George Hollingbery",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "George Hollingbery",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24936/george_hollingbery/meon_valley",
 			"electorate": 74246,
 			"turnout": 73.0,
@@ -40,8 +40,8 @@
 			"majority": 25692
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "George Hollingbery",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72738,
 			"turnout": 71.2,
 			"valid": 51717,

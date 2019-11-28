@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 3183,
 				"name": "Elfreda Tealby-Watson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548c2979b4dcd1028de1cc6.png"
 			},{
 				"id": 3737,
 				"name": "Matthew Hancock",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553571df367dc5383f552cca.png"
 			},{
 				"id": 35090,
 				"name": "Donald Allwright",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35090.png"
 			},{
 				"id": 60216,
 				"name": "Claire Unwin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72128-a27a4039-42dc-435a-83ff-8d775989f473.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Matthew Hancock"
+				"mp": "Matthew Hancock",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Matthew Hancock",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24773/matthew_hancock/west_suffolk",
 			"electorate": 77348,
 			"turnout": 66.9,
@@ -40,8 +40,8 @@
 			"majority": 17063
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Matthew Hancock",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76198,
 			"turnout": 64.9,
 			"valid": 49232,

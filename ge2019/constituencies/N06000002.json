@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 2140,
 				"name": "Nigel Dodds",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322f2229c5d53959d9e44e.png"
 			},{
 				"id": 11374,
 				"name": "Nuala McAllister",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11374.png"
 			},{
 				"id": 34499,
 				"name": "John Finucane",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34499.png"
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Nigel Dodds"
+				"mp": "Nigel Dodds",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Nigel Dodds",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10857/nigel_dodds/belfast_north",
 			"electorate": 68249,
 			"turnout": 67.3,
@@ -35,8 +35,8 @@
 			"majority": 2081
 		},
 		"2015": {
-			"first": "Democratic Unionist Party",
 			"mp": "Nigel Dodds",
+			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 68553,
 			"turnout": 59.6,
 			"valid": 40593,

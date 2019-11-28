@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5539,
 				"name": "Emma Lewell-Buck",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8df1e6d2cbcd26e36a2c.png"
 			},{
 				"id": 16076,
 				"name": "Sarah Jean McKeown",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16076-54dd56f8-31d9-444d-815f-152894e47b81.png"
 			},{
 				"id": 39553,
 				"name": "Bill Shepherd",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			},{
 				"id": 43920,
 				"name": "Oni Oviri",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43920-7bd15916-1030-4b77-9255-7e52feaa477f.png"
 			},{
 				"id": 62685,
 				"name": "Glenn Michael Thompson",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62685.png"
 			},{
 				"id": 72084,
 				"name": "Geoff Thompson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72084-c8e9e83e-1668-4dc3-8a73-a7d31c4cdf1a.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Emma Lewell-Buck"
+				"mp": "Emma Lewell-Buck",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Emma Lewell-Buck",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25181/emma_lewell-buck/south_shields",
 			"electorate": 63433,
 			"turnout": 64.3,
@@ -50,8 +50,8 @@
 			"majority": 14508
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Emma Lewell-Buck",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62730,
 			"turnout": 57.9,
 			"valid": 36265,

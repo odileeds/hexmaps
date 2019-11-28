@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 235,
 				"name": "Richard Bacon",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b8ac381ca637726b503ab.png"
 			},{
 				"id": 17559,
 				"name": "Ben Price",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17559.png"
 			},{
 				"id": 34575,
 				"name": "Chris Brown",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34575.png"
 			},{
 				"id": 71770,
 				"name": "Beth Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Richard Bacon"
+				"mp": "Richard Bacon",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Richard Bacon",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10707/richard_bacon/south_norfolk",
 			"electorate": 83055,
 			"turnout": 73.6,
@@ -40,8 +40,8 @@
 			"majority": 16678
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Richard Bacon",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80721,
 			"turnout": 71.0,
 			"valid": 57123,

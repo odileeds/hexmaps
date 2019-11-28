@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2601,
 				"name": "Chris Bramall",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552695ad59bbc5c063445be7.png"
 			},{
 				"id": 4443,
 				"name": "Pete Lowe",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4443.png"
 			},{
 				"id": 10042,
 				"name": "Suzanne Webb",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10042.png"
 			},{
 				"id": 16338,
 				"name": "Andi Mohr",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16338.png"
 			},{
 				"id": 71676,
 				"name": "Aaron Hudson",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71676.png"
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Margot James"
+				"mp": "Margot James",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Margot James",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24876/margot_james/stourbridge",
 			"electorate": 70215,
 			"turnout": 67.1,
@@ -45,8 +45,8 @@
 			"majority": 7654
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Margot James",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69077,
 			"turnout": 66.8,
 			"valid": 46029,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 193,
 				"name": "Robert Syms",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e81367dc5383f552cb2.png"
 			},{
 				"id": 5869,
 				"name": "David Young",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5869.png"
 			},{
 				"id": 60488,
 				"name": "Sue Aitkenhead",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60488.png"
 			},{
 				"id": 71585,
 				"name": "Victoria Collins",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71585-6bd21fe0-a192-4917-8668-ae84f77813ce.png"
 			},{
 				"id": 72499,
 				"name": "Barry Harding-Rathbone",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72499-4749d1d8-411d-473c-a2c8-f124484ce94f.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Robert Syms"
+				"mp": "Robert Syms",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Robert Syms",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10582/robert_syms/poole",
 			"electorate": 73796,
 			"turnout": 67.6,
@@ -45,8 +45,8 @@
 			"majority": 14209
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Robert Syms",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72557,
 			"turnout": 65.5,
 			"valid": 47393,

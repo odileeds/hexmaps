@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1356,
 				"name": "David Dobbie",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ca0b8deda58bc5cca66e7.png"
 			},{
 				"id": 1757,
 				"name": "Andrew Percy",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/552258a3328bff5d39338a5e.png"
 			},{
 				"id": 18623,
 				"name": "Jo Baker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18623-ca2865ed-4cb2-4659-83d0-1b41ea6f797a.png"
 			},{
 				"id": 23173,
 				"name": "Majid Khan",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23173.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Andrew Percy"
+				"mp": "Andrew Percy",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Andrew Percy",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24832/andrew_percy/brigg_and_goole",
 			"electorate": 66069,
 			"turnout": 68.2,
@@ -40,8 +40,8 @@
 			"majority": 12363
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Andrew Percy",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68488,
 			"turnout": 63.4,
 			"valid": 43270,

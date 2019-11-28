@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4228,
 				"name": "Lucy Frazer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71635.png"
 			},{
 				"id": 35793,
 				"name": "James Bull",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71753.png"
 			},{
 				"id": 37510,
 				"name": "Pippa Heylings",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37510.png"
 			},{
 				"id": 72207,
 				"name": "Edmund John Fordham",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72207-12f84a62-b9dd-4543-8c2c-5828e67415de.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Lucy Frazer"
+				"mp": "Lucy Frazer",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Lucy Frazer",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25399/lucy_frazer/south_east_cambridgeshire",
 			"electorate": 86121,
 			"turnout": 73.2,
@@ -40,8 +40,8 @@
 			"majority": 16158
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Lucy Frazer",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 84570,
 			"turnout": 70.6,
 			"valid": 59506,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4709,
 				"name": "Danny Kinahan",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551a6feee2ac8b7333e6a25e.png"
 			},{
 				"id": 4711,
 				"name": "Declan Kearney",
-				"party": "Sinn Féin",
+				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bae7eec0766d3759c0454.png"
 			},{
 				"id": 5390,
 				"name": "Roisin Lynch",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553bb1e1ec0766d3759c045b.png"
 			},{
 				"id": 13370,
 				"name": "Paul Girvan",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13370.png"
 			},{
 				"id": 71629,
 				"name": "John Blair",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71629.png"
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Paul Girvan"
+				"mp": "Paul Girvan",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Paul Girvan",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25629/paul_girvan/south_antrim",
 			"electorate": 68244,
 			"turnout": 63.3,
@@ -45,8 +45,8 @@
 			"majority": 3208
 		},
 		"2015": {
-			"first": "Ulster Unionist Party",
 			"mp": "Danny Kinahan",
+			"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 			"electorate": 67425,
 			"turnout": 54.5,
 			"valid": 36523,

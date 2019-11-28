@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2455,
 				"name": "Madeleine Moon",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba218a51642637514d636.png"
 			},{
 				"id": 8061,
 				"name": "Jonathan Pratt",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8061.png"
 			},{
 				"id": 9462,
 				"name": "Jamie Hamilton Wallis",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9462.png"
 			},{
 				"id": 25170,
 				"name": "Leanne Lewis",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25170.png"
 			},{
 				"id": 25195,
 				"name": "Alex Harris",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25195.png"
 			},{
 				"id": 72238,
 				"name": "Robert Morgan",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72238-e5e082ee-80b2-4a18-9424-c2fc0ed73914.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Madeleine Moon"
+				"mp": "Madeleine Moon",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Madeleine Moon",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11450/madeleine_moon/bridgend",
 			"electorate": 62185,
 			"turnout": 69.6,
@@ -50,8 +50,8 @@
 			"majority": 4700
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Madeleine Moon",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 59998,
 			"turnout": 65.9,
 			"valid": 39453,

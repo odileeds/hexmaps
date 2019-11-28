@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5859,
 				"name": "Graham Smith",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5547b2e2c96b7d3221f3519d.png"
 			},{
 				"id": 6689,
 				"name": "Nick Thomas-Symonds",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aa56c34eff6a2551d69dd.png"
 			},{
 				"id": 32431,
 				"name": "Morgan Bowler-Brown",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/32431_bstNWhd.png"
 			},{
 				"id": 35593,
 				"name": "Andrew Heygate-Browne",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35593-bb8aed34-55a0-4cd7-b9cc-1c402d3cb9ed.png"
 			},{
 				"id": 71697,
 				"name": "David Thomas",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71697-8618991d-9ee7-429f-934c-e3e80ec89c52.png"
 			},{
 				"id": 71698,
 				"name": "John E Miller",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Nick Thomas-Symonds"
+				"mp": "Nick Thomas-Symonds",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Nick Thomas-Symonds",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25279/nick_thomas-symonds/torfaen",
 			"electorate": 61839,
 			"turnout": 62.1,
@@ -50,8 +50,8 @@
 			"majority": 10240
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Nick Thomas-Symonds",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61896,
 			"turnout": 61.4,
 			"valid": 37937,

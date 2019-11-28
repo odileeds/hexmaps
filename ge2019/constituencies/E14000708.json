@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 2234,
 				"name": "Maria Eagle",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f3f5b247335574a42e28.png"
 			},{
 				"id": 4539,
 				"name": "Kris Brown",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4539.png"
 			},{
 				"id": 51154,
 				"name": "Jean-Paul Roberts",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51154-7f31c994-1819-45a2-a691-fc7850aa6062.png"
 			},{
 				"id": 70350,
 				"name": "Neva Novaky",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70350.png"
 			},{
 				"id": 72116,
 				"name": "Jake Fraser",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72116-ec4edceb-f40c-4c3e-9a31-46503ae6f728.png"
 			},{
 				"id": 72157,
 				"name": "Hazel Lee Williams",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72157-c3b18b9d-d370-4475-9971-7aa38bc528ff.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Maria Eagle"
+				"mp": "Maria Eagle",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Maria Eagle",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10183/maria_eagle/garston_and_halewood",
 			"electorate": 75248,
 			"turnout": 71.1,
@@ -50,8 +50,8 @@
 			"majority": 32149
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Maria Eagle",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73719,
 			"turnout": 66.7,
 			"valid": 48983,

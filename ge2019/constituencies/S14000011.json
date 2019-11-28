@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 7454,
 				"name": "Patrick McAleer",
-				"party": "Scottish Green Party",
+				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7454.png"
 			},{
 				"id": 8414,
 				"name": "Hugh Gaffney",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8414.png"
 			},{
 				"id": 22218,
 				"name": "Steven Bonnar",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22218-4af0b971-cb57-4ef9-aa25-1e5c7bedddf8.png"
 			},{
 				"id": 22250,
 				"name": "Nathan Wilson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22250-1a9bf5ed-b412-499c-b29b-fc2349f03145.png"
 			},{
 				"id": 71970,
 				"name": "David Stevens",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Hugh Gaffney"
+				"mp": "Hugh Gaffney",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Hugh Gaffney",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25660/hugh_gaffney/coatbridge%2C_chryston_and_bellshill",
 			"electorate": 71198,
 			"turnout": 63.3,
@@ -45,8 +45,8 @@
 			"majority": 1586
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Phil Boswell",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 73894,
 			"turnout": 68.7,
 			"valid": 50698,

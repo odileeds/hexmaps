@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 6835,
 				"name": "Sandra Skinner",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525ee66413cb4432adffa47.png"
 			},{
 				"id": 8632,
 				"name": "Jamie Stone",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8632.png"
 			},{
 				"id": 20997,
 				"name": "Karl Rosie",
-				"party": "Scottish National Party (SNP)",
+				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20997.png"
 			},{
 				"id": 21006,
 				"name": "Andrew Sinclair",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72034.png"
 			},{
 				"id": 72287,
 				"name": "Cheryl Ann Mcdonald",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "LD",
-				"mp": "Jamie Stone"
+				"mp": "Jamie Stone",
+				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
 		"2017": {
-			"first": "LD",
 			"mp": "Jamie Stone",
+			"party": { "code": "LD" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25668/jamie_stone/caithness%2C_sutherland_and_easter_ross",
 			"electorate": 46868,
 			"turnout": 65.9,
@@ -45,8 +45,8 @@
 			"majority": 2044
 		},
 		"2015": {
-			"first": "Scottish National Party",
 			"mp": "Paul Monaghan",
+			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 47558,
 			"turnout": 72.0,
 			"valid": 34186,

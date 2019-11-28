@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4014,
 				"name": "Michael Gove",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5535ce62367dc5383f552cec.png"
 			},{
 				"id": 13451,
 				"name": "David Simon Roe",
-				"party": "UK Independence Party (UKIP)",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 34646,
 				"name": "Sharon Galliford",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34646.png"
 			},{
 				"id": 71680,
 				"name": "Alasdair Pinkerton",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71680.png"
 			},{
 				"id": 71952,
 				"name": "Brahma Mohanty",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Michael Gove"
+				"mp": "Michael Gove",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Michael Gove",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11858/michael_gove/surrey_heath",
 			"electorate": 80764,
 			"turnout": 71.6,
@@ -45,8 +45,8 @@
 			"majority": 24943
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Michael Gove",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79515,
 			"turnout": 68.8,
 			"valid": 54431,

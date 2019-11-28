@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1840,
 				"name": "Harrish Bisnauthsing",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b4e85788906ef2517bd61.png"
 			},{
 				"id": 34744,
 				"name": "Gareth Davies",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34744.png"
 			},{
 				"id": 61249,
 				"name": "Anne Elizabeth Gayfer",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61249-1969777b-9ee8-487f-9863-67a3068428a0.png"
 			},{
 				"id": 65741,
 				"name": "Kathryn Marie Salt",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Ind",
-				"mp": "Nicholas Boles"
+				"mp": "Nicholas Boles",
+				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Nick Boles",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24766/nicholas_boles/grantham_and_stamford",
 			"electorate": 81740,
 			"turnout": 69.2,
@@ -40,8 +40,8 @@
 			"majority": 20094
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Nick Boles",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81150,
 			"turnout": 66.5,
 			"valid": 53755,

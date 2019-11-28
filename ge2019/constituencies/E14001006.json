@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2910,
 				"name": "Alan Campbell",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553aabd43a37ac905459295a.png"
 			},{
 				"id": 2912,
 				"name": "John Appleby",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/554760994ecb75d941ac3239.png"
 			},{
 				"id": 10408,
 				"name": "Julia Erskine",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35097.png"
 			},{
 				"id": 40105,
 				"name": "Lewis Carlo Bartoli",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40105-1db4b447-c50e-4202-be76-7b8bb21f4b88.png"
 			},{
 				"id": 72244,
 				"name": "Ed Punchard",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72244-180a3091-d8e7-4f77-a65b-918a8ab1f52e.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Alan Campbell"
+				"mp": "Alan Campbell",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Alan Campbell",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10086/alan_campbell/tynemouth",
 			"electorate": 77434,
 			"turnout": 73.4,
@@ -45,8 +45,8 @@
 			"majority": 11666
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Alan Campbell",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77524,
 			"turnout": 69.2,
 			"valid": 53495,

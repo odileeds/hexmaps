@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4100,
 				"name": "Steven Lambert",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4100.png"
 			},{
 				"id": 24917,
 				"name": "Coral Simpson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24917.png"
 			},{
 				"id": 49217,
 				"name": "Liz Hind",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49217.png"
 			},{
 				"id": 72029,
 				"name": "Rob Butler",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Lidington"
+				"mp": "David Lidington",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Lidington",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10361/david_lidington/aylesbury",
 			"electorate": 82546,
 			"turnout": 71.2,
@@ -40,8 +40,8 @@
 			"majority": 14656
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Lidington",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80315,
 			"turnout": 69.3,
 			"valid": 55419,

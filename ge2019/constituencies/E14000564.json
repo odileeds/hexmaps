@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 216,
 				"name": "Shabana Mahmood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c300d62bbab35264e7ace.png"
 			},{
 				"id": 4821,
 				"name": "Lee Dargue",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4821.png"
 			},{
 				"id": 41335,
 				"name": "Alexander Nettle",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41335.png"
 			},{
 				"id": 72543,
 				"name": "Andrew Garcarz",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			},{
 				"id": 72549,
 				"name": "Mary Noone",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Shabana Mahmood"
+				"mp": "Shabana Mahmood",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Shabana Mahmood",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24788/shabana_mahmood/birmingham%2C_ladywood",
 			"electorate": 70023,
 			"turnout": 59.0,
@@ -45,8 +45,8 @@
 			"majority": 28714
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Shabana Mahmood",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68128,
 			"turnout": 53.1,
 			"valid": 35916,

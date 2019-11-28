@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 197,
 				"name": "Mel Stride",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a204f0e9e2c82406ebb1.png"
 			},{
 				"id": 4683,
 				"name": "Andy Williamson",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4683_aMvlDS6.png"
 			},{
 				"id": 24788,
 				"name": "Lisa Robillard Webb",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24788.png"
 			},{
 				"id": 35012,
 				"name": "Alison Eden",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35012.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mel Stride"
+				"mp": "Mel Stride",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mel Stride",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24914/mel_stride/central_devon",
 			"electorate": 74370,
 			"turnout": 77.8,
@@ -40,8 +40,8 @@
 			"majority": 15680
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mel Stride",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72737,
 			"turnout": 75.1,
 			"valid": 54448,

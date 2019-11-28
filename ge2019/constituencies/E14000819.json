@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5541,
 				"name": "Andy McDonald",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55351cfcb247335574a42e7a.png"
 			},{
 				"id": 26232,
 				"name": "Ruth Ellen Betson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/26232-8202b564-c796-4307-b196-72235315fa0c.png"
 			},{
 				"id": 37779,
 				"name": "Thomas Crawford",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37779.png"
 			},{
 				"id": 50542,
 				"name": "Antony High",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50542.png"
 			},{
 				"id": 56159,
 				"name": "Hugh Alberti",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72129-99ca2691-d96e-4b06-b106-8df785a4263b.png"
 			},{
 				"id": 71536,
 				"name": "Faye Clements",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71536.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Andy McDonald"
+				"mp": "Andy McDonald",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Andy McDonald",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25169/andy_mcdonald/middlesbrough",
 			"electorate": 61059,
 			"turnout": 58.4,
@@ -50,8 +50,8 @@
 			"majority": 13873
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Andy McDonald",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61873,
 			"turnout": 53.1,
 			"valid": 32706,

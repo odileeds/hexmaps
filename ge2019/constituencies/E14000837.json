@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4213,
 				"name": "Scott Mann",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5527bddbbb083f797f604485.png"
 			},{
 				"id": 23401,
 				"name": "Joy Anne Bassett",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23401.png"
 			},{
 				"id": 71552,
 				"name": "Danny Chambers",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71552.png"
 			},{
 				"id": 72255,
 				"name": "Elmars Vilnis Liepins",
-				"party": "The Liberal Party",
+				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Scott Mann"
+				"mp": "Scott Mann",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Scott Mann",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25383/scott_mann/north_cornwall",
 			"electorate": 68844,
 			"turnout": 74.0,
@@ -40,8 +40,8 @@
 			"majority": 7200
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Scott Mann",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67192,
 			"turnout": 71.9,
 			"valid": 48245,

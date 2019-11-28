@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 5749,
 				"name": "Rebecca Long Bailey",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5515981f4fb3d15c51926dcb.png"
 			},{
 				"id": 35462,
 				"name": "Jake Overend",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35462.png"
 			},{
 				"id": 59344,
 				"name": "Bryan Blears",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59344.png"
 			},{
 				"id": 72491,
 				"name": "Attika Choudhary",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 72492,
 				"name": "Matt Mickler",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Rebecca Long-Bailey"
+				"mp": "Rebecca Long-Bailey",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Rebecca Long-Bailey",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25368/rebecca_long-bailey/salford_and_eccles",
 			"electorate": 78080,
 			"turnout": 61.0,
@@ -45,8 +45,8 @@
 			"majority": 19132
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Rebecca Long Bailey",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74291,
 			"turnout": 58.5,
 			"valid": 43261,

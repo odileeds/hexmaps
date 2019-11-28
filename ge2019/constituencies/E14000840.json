@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4025,
 				"name": "Kevan Jones",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553a4d6bb184a22377b6cc8a.png"
 			},{
 				"id": 7690,
 				"name": "Craig Martin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22196.png"
 			},{
 				"id": 29934,
 				"name": "Derek Anthony Morse",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
 				"id": 31199,
 				"name": "Ken Rollings",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31199.png"
 			},{
 				"id": 71557,
 				"name": "Peter Telford",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71557-ed4c5d7c-de6b-46b5-a19a-d54ceea1e59e.png"
 			},{
 				"id": 72350,
 				"name": "Ed Parson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72350-33f12a3e-a0bf-4e62-9104-971489a3cc0e.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Kevan Jones"
+				"mp": "Kevan Jones",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kevan Jones",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/11003/kevan_jones/north_durham",
 			"electorate": 66970,
 			"turnout": 64.6,
@@ -50,8 +50,8 @@
 			"majority": 12939
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Kevan Jones",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65359,
 			"turnout": 61.5,
 			"valid": 40146,

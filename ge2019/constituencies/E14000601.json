@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4280,
 				"name": "Karin Smyth",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4280.png"
 			},{
 				"id": 5408,
 				"name": "Tony Dyer",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34438.png"
 			},{
 				"id": 7887,
 				"name": "Andrew Charles Brown",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7887.png"
 			},{
 				"id": 35437,
 				"name": "Richard Andrew Morgan",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 71662,
 				"name": "Robert de Vito Boutin",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71662.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Karin Smyth"
+				"mp": "Karin Smyth",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Karin Smyth",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25390/karin_smyth/bristol_south",
 			"electorate": 83012,
 			"turnout": 65.5,
@@ -45,8 +45,8 @@
 			"majority": 15987
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Karin Smyth",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 81496,
 			"turnout": 62.6,
 			"valid": 50842,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 2885,
 				"name": "David Davis",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553509d2b247335574a42e66.png"
 			},{
 				"id": 36783,
 				"name": "George Alexander Ayre",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36783.png"
 			},{
 				"id": 63628,
 				"name": "Linda Jane Johnson",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63628-7c6171da-27a0-472d-99ed-2f68331fb199.png"
 			},{
 				"id": 68449,
 				"name": "Angela Catherine Stone",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68449.png"
 			},{
 				"id": 70280,
 				"name": "Richard Honnoraty",
-				"party": "Yorkshire Party",
+				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70280-8fde66ed-5e9d-4ff1-95bd-9fe52a1e1ecf.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "David Davis"
+				"mp": "David Davis",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "David Davis",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10162/david_davis/haltemprice_and_howden",
 			"electorate": 71519,
 			"turnout": 71.9,
@@ -45,8 +45,8 @@
 			"majority": 15405
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "David Davis",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71195,
 			"turnout": 68.7,
 			"valid": 48757,

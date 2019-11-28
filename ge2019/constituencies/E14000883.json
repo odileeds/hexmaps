@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1692,
 				"name": "Penny Mordaunt",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1692.png"
 			},{
 				"id": 34863,
 				"name": "Antonia Harrison",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34863.png"
 			},{
 				"id": 49810,
 				"name": "George Madgwick",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49810-d05702f3-ff9b-492a-b832-70a1d913c30f.png"
 			},{
 				"id": 72339,
 				"name": "Lloyd Day",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72339-956a53d1-57ff-4285-b302-1eba2563541a.png"
 			},{
 				"id": 72340,
 				"name": "Amanda Martin",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72340-52799d25-5a5d-4d51-8eeb-2e95146b5c78.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Penny Mordaunt"
+				"mp": "Penny Mordaunt",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Penny Mordaunt",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24938/penny_mordaunt/portsmouth_north",
 			"electorate": 71374,
 			"turnout": 66.1,
@@ -45,8 +45,8 @@
 			"majority": 9965
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Penny Mordaunt",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73105,
 			"turnout": 62.3,
 			"valid": 45390,

@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 4223,
 				"name": "Johnny Mercer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4223.png"
 			},{
 				"id": 71582,
 				"name": "Charlotte Holloway",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71582.png"
 			},{
 				"id": 71584,
 				"name": "Sarah Martin",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71584-dc9bc92e-e668-4764-9ce4-e01ef3c18947.png"
 			},{
 				"id": 71988,
 				"name": "Ewan Melling Flavell",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71988-4ad31316-c4b5-4260-af99-c58edf3d9780.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Johnny Mercer"
+				"mp": "Johnny Mercer",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Johnny Mercer",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25367/johnny_mercer/plymouth%2C_moor_view",
 			"electorate": 69342,
 			"turnout": 65.5,
@@ -40,8 +40,8 @@
 			"majority": 5019
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Johnny Mercer",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68246,
 			"turnout": 62.6,
 			"valid": 42606,

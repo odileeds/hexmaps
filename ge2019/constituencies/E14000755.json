@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 4358,
 				"name": "Peter Kyle",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4358.png"
 			},{
 				"id": 6389,
 				"name": "Dame Dixon",
-				"party": "Official Monster Raving Loony Party",
+				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551ce838209513973bc512c9.png"
 			},{
 				"id": 34678,
 				"name": "Charley Sabel",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34678_Sc2oVN3.png"
 			},{
 				"id": 66098,
 				"name": "Robert Stuart Nemeth",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66098.png"
 			},{
 				"id": 70365,
 				"name": "Ollie Sykes",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70365.png"
 			},{
 				"id": 71488,
 				"name": "Beatrice Bass",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71488.png"
 			},{
 				"id": 71589,
 				"name": "Angela Hancock",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71589.png"
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Peter Kyle"
+				"mp": "Peter Kyle",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Peter Kyle",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25418/peter_kyle/hove",
 			"electorate": 74236,
 			"turnout": 77.6,
@@ -55,8 +55,8 @@
 			"majority": 18757
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Peter Kyle",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73505,
 			"turnout": 71.4,
 			"valid": 52214,

@@ -6,47 +6,47 @@
 			"candidates": [{
 				"id": 1862,
 				"name": "Debbie Abrahams",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55356e4b367dc5383f552cb0.png"
 			},{
 				"id": 7571,
 				"name": "Wendy Olsen",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7571_02Zxfue.png"
 			},{
 				"id": 35771,
 				"name": "Tom Lord",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
 				"id": 44712,
 				"name": "Sam Al-Hamdani",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44712.png"
 			},{
 				"id": 51196,
 				"name": "Amoy Lindo",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 71316,
 				"name": "Paul Brierley",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71316.png"
 			},{
 				"id": 72299,
 				"name": "Paul Errock",
-				"party": "Proud of Oldham & Saddleworth",
+				"party": { "code": "", "title": "Proud of Oldham & Saddleworth" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Debbie Abrahams"
+				"mp": "Debbie Abrahams",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Debbie Abrahams",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25034/debbie_abrahams/oldham_east_and_saddleworth",
 			"electorate": 72184,
 			"turnout": 65.2,
@@ -55,8 +55,8 @@
 			"majority": 8182
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Debbie Abrahams",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71475,
 			"turnout": 62.5,
 			"valid": 44483,

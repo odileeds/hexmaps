@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 1323,
 				"name": "Matthew Offord",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1323.png"
 			},{
 				"id": 5863,
 				"name": "David Pinto-Duschinsky",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5863.png"
 			},{
 				"id": 38913,
 				"name": "Clareine Enderby",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38913.png"
 			},{
 				"id": 71479,
 				"name": "Portia Vincent-Kirby",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71479-3bd50a60-6036-4fd2-b3d2-72a24ac83ca5.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Matthew Offord"
+				"mp": "Matthew Offord",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Matthew Offord",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24955/matthew_offord/hendon",
 			"electorate": 76522,
 			"turnout": 68.2,
@@ -40,8 +40,8 @@
 			"majority": 1072
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Matthew Offord",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75285,
 			"turnout": 66.1,
 			"valid": 49630,

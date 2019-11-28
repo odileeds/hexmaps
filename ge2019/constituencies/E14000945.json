@@ -6,32 +6,32 @@
 			"candidates": [{
 				"id": 769,
 				"name": "Gavin Williamson",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f768b247335574a42e35.png"
 			},{
 				"id": 5988,
 				"name": "Claire McIlvenna",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54ce73f595590a102032048b.png"
 			},{
 				"id": 23677,
 				"name": "Adam Ashley Freeman",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23677-3ca5bed5-eca3-46b4-aaec-a4a5f55279ea.png"
 			},{
 				"id": 71920,
 				"name": "Chris Fewtrell",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71920.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Gavin Williamson"
+				"mp": "Gavin Williamson",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Gavin Williamson",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24729/gavin_williamson/south_staffordshire",
 			"electorate": 73441,
 			"turnout": 69.6,
@@ -40,8 +40,8 @@
 			"majority": 22733
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Gavin Williamson",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72771,
 			"turnout": 68.4,
 			"valid": 49598,

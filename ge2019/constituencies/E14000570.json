@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 4269,
 				"name": "Kate Hollern",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba22610284be476aae894.png"
 			},{
 				"id": 6933,
 				"name": "Reza Hossain",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6933.png"
 			},{
 				"id": 41765,
 				"name": "Beth Waller-Slack",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41765-b11e5bb7-577c-4b12-a719-3c560ce56841.png"
 			},{
 				"id": 51754,
 				"name": "Claire Rosalyn Gill",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51754.png"
 			},{
 				"id": 71874,
 				"name": "Rick Moore",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71874.png"
 			},{
 				"id": 72314,
 				"name": "Rizwan Ali Shah",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Kate Hollern"
+				"mp": "Kate Hollern",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Kate Hollern",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25298/kate_hollern/blackburn",
 			"electorate": 70664,
 			"turnout": 67.2,
@@ -50,8 +50,8 @@
 			"majority": 20368
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Kate Hollern",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73260,
 			"turnout": 60.5,
 			"valid": 43999,

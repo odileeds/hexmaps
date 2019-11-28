@@ -6,42 +6,42 @@
 			"candidates": [{
 				"id": 5374,
 				"name": "Ken Barker",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54bd7e71ead6762e54811afa.png"
 			},{
 				"id": 5546,
 				"name": "Stephen Doughty",
-				"party": "Labour and Co-operative Party",
+				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b984410284be476aae87e.png"
 			},{
 				"id": 9434,
 				"name": "Tim Price",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9434-e1c62113-9225-4efb-9adc-e7be6d54e3f2.png"
 			},{
 				"id": 23385,
 				"name": "Dan Schmeising",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23385.png"
 			},{
 				"id": 28723,
 				"name": "Nasir Adam",
-				"party": "Plaid Cymru - The Party of Wales",
+				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28723.png"
 			},{
 				"id": 72338,
 				"name": "Philippa Ann Broom",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Stephen Doughty"
+				"mp": "Stephen Doughty",
+				"party": { "code": "Lab", "title": "Labour/Co-operative" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Stephen Doughty",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25166/stephen_doughty/cardiff_south_and_penarth",
 			"electorate": 76499,
 			"turnout": 66.3,
@@ -50,8 +50,8 @@
 			"majority": 14864
 		},
 		"2015": {
-			"first": "Labour and Co-operative",
 			"mp": "Stephen Doughty",
+			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 76006,
 			"turnout": 61.6,
 			"valid": 46667,

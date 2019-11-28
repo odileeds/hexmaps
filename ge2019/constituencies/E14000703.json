@@ -6,27 +6,27 @@
 			"candidates": [{
 				"id": 2709,
 				"name": "Luciana Berger",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2709.png"
 			},{
 				"id": 3770,
 				"name": "Mike Freer",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525fb0b413cb4432adffa84.png"
 			},{
 				"id": 39462,
 				"name": "Ross Semple Houston",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39462.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "Mike Freer"
+				"mp": "Mike Freer",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "Mike Freer",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/24934/mike_freer/finchley_and_golders_green",
 			"electorate": 73329,
 			"turnout": 71.4,
@@ -35,8 +35,8 @@
 			"majority": 1657
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "Mike Freer",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72530,
 			"turnout": 70.2,
 			"valid": 50759,

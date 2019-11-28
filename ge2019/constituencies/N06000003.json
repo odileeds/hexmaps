@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 1679,
 				"name": "Paula Bradshaw",
-				"party": "Alliance - Alliance Party of Northern Ireland",
+				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551bd2a6209513973bc5129d.png"
 			},{
 				"id": 3475,
 				"name": "Claire Hanna",
-				"party": "SDLP (Social Democratic & Labour Party)",
+				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3475.png"
 			},{
 				"id": 11458,
 				"name": "Emma Little-Pengelly",
-				"party": "Democratic Unionist Party - D.U.P.",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11458.png"
 			},{
 				"id": 19709,
 				"name": "Michael Henderson",
-				"party": "Ulster Unionist Party",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19709.png"
 			},{
 				"id": 72320,
 				"name": "Chris McHugh",
-				"party": "Aontú",
+				"party": { "code": "", "title": "Aontú" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "DUP",
-				"mp": "Emma Little Pengelly"
+				"mp": "Emma Little Pengelly",
+				"party": { "code": "DUP", "title": "DUP" }
 			}
 		},
 		"2017": {
-			"first": "DUP",
 			"mp": "Emma Little Pengelly",
+			"party": { "code": "DUP" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25452/emma_little_pengelly/belfast_south",
 			"electorate": 66105,
 			"turnout": 66.1,
@@ -45,8 +45,8 @@
 			"majority": 1996
 		},
 		"2015": {
-			"first": "Social Democratic and Labour Party",
 			"mp": "Alasdair McDonnell",
+			"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
 			"electorate": 64927,
 			"turnout": 60.3,
 			"valid": 38957,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 3445,
 				"name": "John Hayes",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357097367dc5383f552cc1.png"
 			},{
 				"id": 20350,
 				"name": "Davina Kirby",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20350.png"
 			},{
 				"id": 24075,
 				"name": "Martin Blake",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24075-920d253f-d286-44c4-9aa4-892b47f1bcf9.png"
 			},{
 				"id": 35086,
 				"name": "Rick Stringer",
-				"party": "Independent",
+				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 71907,
 				"name": "Mark Popple",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71907.png"
 			}],
 			"incumbent": {
-				"party": "Con",
-				"mp": "John Hayes"
+				"mp": "John Hayes",
+				"party": { "code": "Con", "title": "Conservative" }
 			}
 		},
 		"2017": {
-			"first": "Con",
 			"mp": "John Hayes",
+			"party": { "code": "Con" },
 			"mysoc": "https://www.theyworkforyou.com/mp/10265/john_hayes/south_holland_and_the_deepings",
 			"electorate": 76374,
 			"turnout": 65.9,
@@ -45,8 +45,8 @@
 			"majority": 24897
 		},
 		"2015": {
-			"first": "Conservative",
 			"mp": "John Hayes",
+			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76460,
 			"turnout": 64.6,
 			"valid": 49207,

@@ -6,37 +6,37 @@
 			"candidates": [{
 				"id": 4469,
 				"name": "Margaret Greenwood",
-				"party": "Labour Party",
+				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e8b8b150e238702c05f2.png"
 			},{
 				"id": 8765,
 				"name": "John Coyne",
-				"party": "Green Party",
+				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8765.png"
 			},{
 				"id": 34872,
 				"name": "Laura Evans",
-				"party": "Conservative and Unionist Party",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34872.png"
 			},{
 				"id": 44662,
 				"name": "Andy Corkhill",
-				"party": "Liberal Democrats",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44662.png"
 			},{
 				"id": 72265,
 				"name": "John Howard Kelly",
-				"party": "The Brexit Party",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}],
 			"incumbent": {
-				"party": "Lab",
-				"mp": "Margaret Greenwood"
+				"mp": "Margaret Greenwood",
+				"party": { "code": "Lab", "title": "Labour" }
 			}
 		},
 		"2017": {
-			"first": "Lab",
 			"mp": "Margaret Greenwood",
+			"party": { "code": "Lab" },
 			"mysoc": "https://www.theyworkforyou.com/mp/25349/margaret_greenwood/wirral_west",
 			"electorate": 55995,
 			"turnout": 78.5,
@@ -45,8 +45,8 @@
 			"majority": 5365
 		},
 		"2015": {
-			"first": "Labour",
 			"mp": "Margaret Greenwood",
+			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 55377,
 			"turnout": 75.9,
 			"valid": 41858,

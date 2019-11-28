@@ -239,26 +239,27 @@
 	var constituencies;
 
 	var parties = {
-		'Con':{'color':'#2254F4','title':'Conservative'},
-		'Lab':{'color':'#D60303','title':'Labour'},
-		'LD':{'color':'#faa61a','title':'Lib Dem'},
-		'Green':{'color':'#0DBC37'},
-		'Brexit':{'color':'#09b7d0'},
-		'SNP':{'color':'#fdf38e'},
-		'UKIP':{'color':'#470A65'},
-		'PC':{'color':'#1DD3A7','title':'Plaid Cymru'},
+		'Con':{'color':'#0485A8','title':'Conservative'},
+		'Lab':{'color':'#DC4343','title':'Labour'},
+		'LD':{'color':'#EAA544','title':'Lib Dem'},
+		'Green':{'color':'#5EBD4C'},
+		'Brexit':{'color':'#0FA697'},
+		'SNP':{'color':'#EBDB1C'},
+		'UKIP':{'color':'#73537A'},
+		'PC':{'color':'#4FBA7C','title':'Plaid Cymru'},
+		'Ind':{'color':'#CCA7C6','title':'Independent'},
+		'DUP':{'color':'#BF3759'},
+		'SF':{'color':'#2C604D','title':'Sinn Féin'},
+		'SDLP':{'color':'#53BC5B'},
+		'Alliance':{'color':'#EAA544'},
+
 		'YP':{'color':'#21a8e0','title':'Yorkshire'},
 		'Christian':{'color':'#813887','title':'Christian Peoples'},
 		'Monster':{'color':'#fff000','title':'Monster Raving Loony'},
 		'SDP':{'color':'#d25469'},
 		'Liberal':{'color':'#eb7a43'},
-		'Alliance':{'color':'#f6cb2f'},
 		/*'WE':{'color':'#63b69a','title':'Women\'s Equality Party'},*/
-		'DUP':{'color':'#4f4c9a'},
-		'SDLP':{'color':'#fbb675'},
-		'SF':{'color':'#b6c727','title':'Sinn Féin'},
 		'UUP':{'color':'#EF3AAB'},
-		'Ind':{'color':'#dfdfdf','title':'Independent'},
 		'Spk':{'color':'#909090','title':'Speaker'},
 		'XSpk':{'color':'#909090','title':'Ex-Speaker'}
 	};
@@ -368,7 +369,7 @@
 					r = _obj.data["GE2019-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r] ? parties[r].color : '#f9f9f9');
+					return (parties[r] ? parties[r].color : '#efefef');
 				}
 				got = validParties(_obj,'GE2019-results');
 				for(var party in parties){

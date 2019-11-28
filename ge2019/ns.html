@@ -238,7 +238,7 @@
 	<script>
 	var constituencies;
 
-	var lookup = {'Conservative and Unionist Party':'Con','Conservative':'Con','Scottish National Party (SNP)':'SNP','Scottish National Party':'SNP','Labour':'Lab','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Labour and Co-operative':'Lab','Liberal Democrats':'LD','Liberal Democrat':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party':'DUP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF','Plaid Cymru':'PC','Plaid Cymru - The Party of Wales':'PC','The Monster Raving Loony Party':'Monster','Monster Raving Loony Party':'Monster','Official Monster Raving Loony Party':'Monster','Alliance - Alliance Party of Northern Ireland':'Alliance','Speaker':'Spk'};
+	var lookup = {'Conservative and Unionist Party':'Con','Conservative':'Con','Scottish National Party (SNP)':'SNP','Scottish National Party':'SNP','Labour':'Lab','Labour Party':'Lab','Labour and Co-operative Party':'Lab','Labour and Co-operative':'Lab','Liberal Democrats':'LD','Liberal Democrat':'LD','Green Party':'Green','UK Independence Party (UKIP)':'UKIP','The Brexit Party':'Brexit','Women\'s Equality Party':'WE','Yorkshire Party':'YP','Scottish Green Party':'Green','Christian Peoples Alliance':'Christian','Ulster Unionist Party':'UUP','SDLP (Social Democratic & Labour Party)':'SDLP','Democratic Unionist Party':'DUP','Democratic Unionist Party - D.U.P.':'DUP','Sinn Féin':'SF','Plaid Cymru':'PC','Plaid Cymru - The Party of Wales':'PC','The Monster Raving Loony Party':'Monster','Monster Raving Loony Party':'Monster','Official Monster Raving Loony Party':'Monster','Alliance - Alliance Party of Northern Ireland':'Alliance','Speaker':'Spk','Speaker seeking re-election':'Spk','Ex-speaker':'XSpk'};
 	var parties = {
 		'Con':{'color':'#2254F4','title':'Conservative'},
 		'Lab':{'color':'#D60303','title':'Labour'},
@@ -260,7 +260,8 @@
 		'SF':{'color':'#b6c727','title':'Sinn Féin'},
 		'UUP':{'color':'#EF3AAB'},
 		'Ind':{'color':'#dfdfdf','title':'Independent'},
-		'Spk':{'color':'#909090','title':'Speaker'}
+		'Spk':{'color':'#909090','title':'Speaker'},
+		'XSpk':{'color':'#909090','title':'Ex-Speaker'}
 	};
 	
 	var render = function(title,region,data){
@@ -290,7 +291,7 @@
 				lbl += '</ul>';
 				if(data.elections['2019'].incumbent){
 					party = data.elections['2019'].incumbent.party;
-					lbl += 'Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+data.elections['2019'].incumbent.mp+' - '+(parties[party].title||party);
+					lbl += 'Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+(parties[party] ? parties[party].color : (lookup[party] ? parties[lookup[party]].color:'#dddddd'))+'"></span>'+data.elections['2019'].incumbent.mp+' - '+(parties[party] ? (parties[party].title||party):party);
 				}
 				
 			}
@@ -383,7 +384,7 @@
 					r = _obj.data["2017-dissolution"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r] ? parties[r].color||'#000' : '#000');
+					return (parties[r] ? parties[r].color||'#f9f9f9' : '#f9f9f9');
 				}
 				got = validParties(_obj,'2017-dissolution');
 				for(var party in parties){
@@ -413,7 +414,7 @@
 					r = _obj.data["GE2017-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r].color || '#000');
+					return (parties[r].color || '#f9f9f9');
 				}
 				got = validParties(_obj,'GE2017-results');
 				for(var party in parties){
@@ -444,7 +445,7 @@
 						r = _obj.data["GE2015-results"][region].first;
 						if(r) r = r.replace(/[\n\r]/g,"");
 					}else console.warning('No region',r,region,parties[r]);
-					return (parties[r].color || '#000');
+					return (parties[r].color || '#f9f9f9');
 				}
 				got = validParties(_obj,'GE2015-results');
 				for(var party in parties){

@@ -122,10 +122,10 @@ while (my $row = $csv->getline ($fh)) {
 }
 close($fh);	
 
-%parties = ('Labour/Co-operative'=>'Lab','Labour'=>'Lab','Conservative'=>'Con','Scottish National Party'=>'SNP','DUP'=>'DUP','Independent'=>'Ind','Liberal Democrat'=>'LD','Plaid Cymru'=>'PC','Speaker'=>'Spk','Green'=>'Green','Sinn Féin'=>'SF');
+%parties = ('Labour/Co-operative'=>'Lab','Labour'=>'Lab','Conservative'=>'Con','Scottish National Party'=>'SNP','DUP'=>'DUP','Independent'=>'Ind','Liberal Democrat'=>'LD','Plaid Cymru'=>'PC','Speaker'=>'Spk','Green'=>'Green','Sinn Féin'=>'SF','Speaker seeking re-election'=>'Spk','Ex-Speaker'=>'');
 
 # Now read in the full results to add data
-$file = "temp/mps.csv";
+$file = "temp/mps-modified.csv";
 #"Person ID","First name","Last name",Party,Constituency,URI
 my $csv = Text::CSV->new ({ binary => 1 });
 open my $fh, "<", $file or die "$file: $!";

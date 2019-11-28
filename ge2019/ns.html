@@ -220,7 +220,6 @@
 
 	<div id="main">
 		<div class="controls">
-<!--			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-candidates" name="view" checked="checked" /><label for="GE2019-candidates">2019 candidates</label>-->
 			<input type="radio" class="view-toggle on switchdata b5-bg" id="GE2019-results" name="view" checked="checked" /><label for="GE2019-results">2019</label>
 			<input type="radio" class="view-toggle on switchdata b5-bg" id="2017-dissolution" name="view" /><label for="2017-dissolution">At dissolution</label>
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017</label>
@@ -320,6 +319,16 @@
 
 		return {'label':lbl,'class':'generalelection','color':wincolour||''};
 	}
+	
+	function validParties(_obj,key){
+		var got = {};
+		for(var r in _obj.data[key]){
+			party = _obj.data[key][r].first;
+			if(!got[party]) got[party] = 0;
+			got[party]++;
+		}
+		return got;
+	}
 
 	var views = {
 		'GE2019-results':{
@@ -346,41 +355,10 @@
 					else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color : '#f9f9f9');
 				}
+				got = validParties(_obj,'GE2019-results');
 				for(var party in parties){
-					key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}
-				return key;
-			}
-		},
-		'GE2019-candidates':{
-			'file': '2019-candidates.csv',
-			'process': function(type,data){
-				if(typeof this.data[type]!=="object") this.data[type] = {};
-				for(var i = 0; i < data.length; i++){
-					code = data[i]['ccode'];
-					if(code) this.data[type][code] = {'candidates': parseInt(data[i].number)};
-				}
-			},
-			'popup': {
-				'file': 'constituencies/%region%.json',
-				'live':true,
-				'render': render
-			},
-			'key': function(){
-				var levels = {0:'#2254F4',1:'#178CFF',2:'#00B6FF',3:'#08DEF9',4:'#1DD3A7',5:'#67E767',6:'#F9BC26'};
-				var _obj = this;
-				this.hex.setColours = function(region){
-					var n = 0;
-					var c = '#2254F4';
-					if(_obj.data["GE2019-candidates"][region]) n = _obj.data["GE2019-candidates"][region].candidates;
-					if(n > 0) c = (levels[n] || levels[6]);
-					return c;
-				}
-				var key = '0 candidates';
-				for(var n in levels){
-					key += '<span title="'+n+'" style="background-color:'+levels[n]+';width: 1em; height: 1em;display: inline-block;margin: 0 0.25em;"></span>';
-				}
-				key += '&ge;6 candidates';
 				return key;
 			}
 		},
@@ -407,8 +385,9 @@
 					else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color||'#000' : '#000');
 				}
+				got = validParties(_obj,'2017-dissolution');
 				for(var party in parties){
-					key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}
 				return key;
 			}
@@ -436,8 +415,9 @@
 					else console.warn('No region',r,region,parties[r]);
 					return (parties[r].color || '#000');
 				}
+				got = validParties(_obj,'GE2017-results');
 				for(var party in parties){
-					key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}
 				return key;
 			}
@@ -466,8 +446,9 @@
 					}else console.warning('No region',r,region,parties[r]);
 					return (parties[r].color || '#000');
 				}
+				got = validParties(_obj,'GE2015-results');
 				for(var party in parties){
-					key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}
 				return key;
 			}

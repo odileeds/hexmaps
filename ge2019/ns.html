@@ -402,8 +402,8 @@
 				this.hex.setColours = function(region){
 					r = _obj.data["2017-dissolution"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
-					else console.warning('No region',r,region,parties[r]);
-					return (parties[r].color || '#000');
+					else console.warn('No region',r,region,parties[r]);
+					return (parties[r] ? parties[r].color||'#000' : '#000');
 				}
 				for(var party in parties){
 					key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
@@ -431,7 +431,7 @@
 				this.hex.setColours = function(region){
 					r = _obj.data["GE2017-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
-					else console.warning('No region',r,region,parties[r]);
+					else console.warn('No region',r,region,parties[r]);
 					return (parties[r].color || '#000');
 				}
 				for(var party in parties){

@@ -2,6 +2,7 @@
 
 
 use Text::CSV;
+use utf8;
 
 
 %con;
@@ -126,7 +127,7 @@ close($fh);
 # Now read in the full results to add data
 $file = "temp/mps.csv";
 #"Person ID","First name","Last name",Party,Constituency,URI
-my $csv = Text::CSV->new ({ binary => 1, decode_utf8 => 0 });
+my $csv = Text::CSV->new ({ binary => 1 });
 open my $fh, "<", $file or die "$file: $!";
 $line = 0;
 @header = ();
@@ -141,6 +142,7 @@ while (my $row = $csv->getline ($fh)) {
 			$header[$i] =~ s/ /\-/;
 		}
 	}else{
+
 		for($i = 0; $i < @fields; $i++){
 		
 			if($header[$i] eq "Party"){
@@ -172,7 +174,6 @@ close(FILE);
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
 foreach $pcd (sort(keys(%con))){
-print "$pcd\n";
 	open(FILE,">:encoding(UTF-8)","constituencies/$pcd.json");
 	print FILE "{\n";
 	print FILE "\t\"id\": \"$pcd\",\n";

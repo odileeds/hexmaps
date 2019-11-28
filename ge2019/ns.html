@@ -187,6 +187,7 @@
 	.generalelection table {
 		width: 100%;
 	}
+	.infobubble table tr td:last-child { text-align: right; }
 	.win { width: 100%; padding: 0.5em; margin-bottom: 0.25em; text-align: center; }
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
 	.bottom a, .bottom a:visited { color: inherit; }
@@ -264,7 +265,7 @@
 	};
 	
 	function getPartyDetails(party){
-		var out = {'color':parties.none.color,'title':(party.title||'?')};
+		var out = {'code':party.code,'color':parties.none.color,'title':(party.title||'?')};
 		if(party.code){
 			if(parties[party.code]){
 				out.color = parties[party.code].color;
@@ -284,27 +285,32 @@
 		lbl = '<div class="popup-title">'+(data.title||title)+'</div>';
 		if(data.elections){
 			if(data.elections['2019']){
-				if(data.elections['2019'].party){
-					party = data.elections['2019'].party;
-					p1 = getPartyDetails(party);
-					p2 = getPartyDetails(data.elections['2017'].party);
-					if(data.elections['2019'].first) lbl += '<div class="win" style="background-color:'+p1.colour+';color:%COLOR%">'+p.title+' '+(data.elections['2019'].party.code==data.elections['2019'].incumbent.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
-					if(data.elections['2019'].turnout) lbl += 'Turnout: '+data.elections['2019'].turnout+'%<br />';
-					if(data.elections['2019'].majority) lbl += 'Majority: '+data.elections['2019'].majority.toLocaleString()+'<br />';
+				yy = "2019";
+				if(data.elections[yy].party){
+					p1 = getPartyDetails(data.elections[yy].party);
+					p2 = getPartyDetails(data.elections[yy].incumbent.party);
+					if(data.elections[yy].party) lbl += '<div class="win" style="background-color:'+p1.color+';color:%COLOR%">'+p1.title+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
+					tbl = '';
+					if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td>'+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
+					if(data.elections[yy].majority) tbl += '<tr><td>Majority:</td><td>'+data.elections[yy].majority.toLocaleString()+'</td></tr>';
+					if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td>'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
+					if(tbl) lbl += '<table>'+tbl+'</table>';
+				}else{
+					lbl += '<p>Candidates:</p>';
 				}
-				lbl += '<p>Candidates:</p><ul>';
+				lbl += '<table>';
 				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
 					party = data.elections['2019'].candidates[c].party;
 					p1 = getPartyDetails(party);
 					name = data.elections['2019'].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
-					lbl += '<li><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a>'+'</li>'
+					lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td><td>'+(typeof data.elections['2019'].candidates[c].votes==="number" ? '<span class="votes">'+data.elections['2019'].candidates[c].votes.toLocaleString()+'</span>':'')+'</td></tr>'
 				}
-				lbl += '</ul>';
-				if(data.elections['2019'].incumbent){
+				lbl += '</table>';
+				if(data.elections[yy].incumbent){
 					party = data.elections['2019'].incumbent.party;
 					p1 = getPartyDetails(party);
-					lbl += 'Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019'].incumbent.mp+' - '+p1.title;
+					lbl += '<br />Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019'].incumbent.mp+' - '+p1.title;
 				}
 				
 			}

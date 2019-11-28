@@ -98,7 +98,7 @@ function ResultsMap(id,attr){
 					// Set the colours of the map
 					this.setColours(type);
 				});
-			},60000);
+			},6000);
 		}else{
 			if(this.polling){
 				console.info('Stop loop');
@@ -168,6 +168,7 @@ function ResultsMap(id,attr){
 	}
 
 	this.label = function(region,reopen){
+
 		var view = this.views[this.by];
 		if(!view) return this;
 		var popup = view.popup;

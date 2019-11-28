@@ -175,6 +175,7 @@
 	.generalelection {
 		width: 600px;
 		max-width: calc(100% - 2em);
+		min-height: 10em;
 		text-align: left;
 		line-height: 1.5em;
 	}
@@ -192,6 +193,8 @@
 	.bottom a, .bottom a:visited { color: inherit; }
 
 	body.modal { overflow: hidden; }
+	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
+	.spinner img { width: 5em; margin: auto; }
 
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
@@ -223,7 +226,6 @@
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">2017</label>
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015</label>
 		</div>
-		<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
 		<div id="hexmap" style="text-align:center;margin:auto;">
 			<div id="search"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"></div>
 		</div>

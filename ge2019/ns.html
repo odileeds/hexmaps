@@ -261,11 +261,12 @@
 		/*'WE':{'color':'#63b69a','title':'Women\'s Equality Party'},*/
 		'UUP':{'color':'#EF3AAB'},
 		'Spk':{'color':'#909090','title':'Speaker'},
-		'XSpk':{'color':'#909090','title':'Ex-Speaker'}
+		'XSpk':{'color':'#909090','title':'Ex-Speaker'},
+		'none':{'color':'#dfdfdf'}
 	};
 	
 	function getPartyDetails(party){
-		var out = {'color':'#dddddd','title':(party.title||'?')};
+		var out = {'color':parties.none.color,'title':(party.title||'?')};
 		if(party.code){
 			if(parties[party.code]){
 				out.color = parties[party.code].color;
@@ -369,7 +370,7 @@
 					r = _obj.data["GE2019-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r] ? parties[r].color : '#efefef');
+					return (parties[r] ? parties[r].color : parties.none.color);
 				}
 				got = validParties(_obj,'GE2019-results');
 				for(var party in parties){
@@ -399,7 +400,7 @@
 					r = _obj.data["2017-dissolution"][region].party;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r] ? parties[r].color||'#f9f9f9' : '#f9f9f9');
+					return (parties[r] ? parties[r].color||parties.none.color : parties.none.color);
 				}
 				got = validParties(_obj,'2017-dissolution');
 				for(var party in parties){
@@ -429,7 +430,7 @@
 					r = _obj.data["GE2017-results"][region].party;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r].color || '#f9f9f9');
+					return (parties[r].color || parties.none.color);
 				}
 				got = validParties(_obj,'GE2017-results');
 				for(var party in parties){
@@ -460,7 +461,7 @@
 						r = _obj.data["GE2015-results"][region].party;
 						if(r) r = r.replace(/[\n\r]/g,"");
 					}else console.warn('No region',r,region,parties[r]);
-					return (parties[r].color || '#f9f9f9');
+					return (parties[r].color || parties.none.color);
 				}
 				got = validParties(_obj,'GE2015-results');
 				for(var party in parties){

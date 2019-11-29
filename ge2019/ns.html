@@ -109,6 +109,7 @@
 		padding: 0 0.5em;
 		height: 3em;
 		max-width: calc(100% - 3em);
+		width: 16em;
 	}
 	#search label {
 		font-size: 1em;
@@ -165,30 +166,21 @@
 		background-color: #efefef;
 		color: black;
 	}
+	.infobubble h2 { font-size: 1.5em; line-height: 1.5em; margin-top: 0em!important; }
+	.infobubble h3 { font-size: 1.25em; }
 	.infobubble .infobubble_inner { margin: 1em; }
 	.infobubble.generalelection { text-align: left; }
 	.infobubble a, .infobubble a:visited { color: inherit; }
-	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; }
+	.infobubble .popup-title { border-bottom:1px solid #333; margin:1em 0 0 0; display:block; }
 	.infobubble .popup-title + p { margin-top: 0.25em; }
-	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
+	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 0.5em; line-height: 0.5em; margin: 0px; }
 	.popup-bio { display: flex; }
-	.generalelection {
-		width: 600px;
-		max-width: calc(100% - 2em);
-		min-height: 10em;
-		text-align: left;
-		line-height: 1.5em;
-	}
-	.generalelection img {
-		width: 5.5em;
-		height: auto;
-		margin-right: 0.5em;
-	}
-	.generalelection table {
-		width: 100%;
-	}
-	.infobubble table tr td:last-child { text-align: right; }
-	.win { width: 100%; padding: 0.5em; margin-bottom: 0.25em; text-align: center; }
+	.generalelection { width: 600px; max-width: calc(100% - 2em); min-height: 10em; text-align: left; line-height: 1.5em; }
+	.generalelection table { width: 100%; }
+	.infobubble .party-bar { height: 1.5em;float: left;display: inline-block;margin: 0 0.25em 2px 0; position: relative; top:0.1em; border:0px solid white; border-left: 1px solid white; }
+	.infobubble table { margin-bottom: 0.5em; }
+	.winner { display: flex; padding: 1em; margin-bottom: 0.5em; width: 100%; }
+	.winner .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
 	.bottom a, .bottom a:visited { color: inherit; }
 	body.modal { overflow: hidden; }
@@ -240,7 +232,7 @@
 	var parties = {
 		'Con':{'color':'#0485A8','title':'Conservative'},
 		'Lab':{'color':'#DC4343','title':'Labour'},
-		'LD':{'color':'#EAA544','title':'Lib Dem'},
+		'LD':{'color':'#EAA544','title':'Lib Dem','short':'LibDem'},
 		'Green':{'color':'#5EBD4C'},
 		'Brexit':{'color':'#0FA697'},
 		'SNP':{'color':'#EBDB1C'},
@@ -250,26 +242,20 @@
 		'DUP':{'color':'#BF3759'},
 		'SF':{'color':'#2C604D','title':'Sinn Féin'},
 		'SDLP':{'color':'#53BC5B'},
-		'Alliance':{'color':'#EAA544'},
-
-		'YP':{'color':'#21a8e0','title':'Yorkshire'},
-		'Christian':{'color':'#813887','title':'Christian Peoples'},
-		'Monster':{'color':'#fff000','title':'Monster Raving Loony'},
-		'SDP':{'color':'#d25469'},
-		'Liberal':{'color':'#eb7a43'},
-		/*'WE':{'color':'#63b69a','title':'Women\'s Equality Party'},*/
-		'UUP':{'color':'#EF3AAB'},
+		'Alliance':{'color':'#EAA544','short':'Aln'},
 		'Spk':{'color':'#909090','title':'Speaker'},
 		'XSpk':{'color':'#909090','title':'Ex-Speaker'},
 		'none':{'color':'#dfdfdf'}
 	};
 	
 	function getPartyDetails(party){
-		var out = {'code':party.code,'color':parties.none.color,'title':(party.title||'?')};
+		var out = {'code':party.code,'color':parties.none.color,'title':(party.title||'?'),'short':(party.code||party.title)};
 		if(party.code){
 			if(parties[party.code]){
 				out.color = parties[party.code].color;
 				out.title = (party.title || parties[party.code].title || party.code);
+				if(parties[party.code]['short']) out.short = parties[party.code]['short'];
+				if(!out.short) out.short = out.title;
 			}
 		}
 		return out;
@@ -282,21 +268,38 @@
 		var wincolour = "";
 		if(!data) data = {};
 
-		lbl = '<div class="popup-title">'+(data.title||title)+'</div>';
+		lbl = '<h2 class="popup-title">'+(data.title||title)+'</h2>';
 		if(data.elections){
 			if(data.elections['2019']){
 				yy = "2019";
 				if(data.elections[yy].party){
 					p1 = getPartyDetails(data.elections[yy].party);
 					p2 = getPartyDetails(data.elections[yy].incumbent.party);
-					if(data.elections[yy].party) lbl += '<div class="win" style="background-color:'+p1.color+';color:%COLOR%">'+p1.title+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
-					tbl = '';
-					if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td>'+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
-					if(data.elections[yy].majority) tbl += '<tr><td>Majority:</td><td>'+data.elections[yy].majority.toLocaleString()+'</td></tr>';
-					if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td>'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
-					if(tbl) lbl += '<table>'+tbl+'</table>';
+					//if(data.elections[yy].party) lbl += '<div class="win" style="background-color:'+p1.color+';color:%COLOR%">'+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
 				}else{
 					lbl += '<p>Candidates:</p>';
+				}
+				total = 0;
+				// Work out total votes cast and set any missing ones to zero
+				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
+					if(data.elections['2019'].candidates[c].votes) total += data.elections['2019'].candidates[c].votes;
+					else data.elections['2019'].candidates[c].votes = 0;
+				}
+				// Sort the candidates by their results
+				data.elections['2019'].candidates.sort(function(a, b) {
+					if(a.votes===b.votes) return 0;
+					else return (a.votes < b.votes) ? -1 : 1;
+				}).reverse();
+				
+				if(total > 0){
+					p1 = getPartyDetails(data.elections['2019'].candidates[0].party);
+					lbl += '<div class="winner" style="background-color:'+p1.color+';color:%COLOR%;">';
+					lbl += '<div class="image"><div style="background-image:url(\''+data.elections['2019'].candidates[0].img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections['2019'].candidates[0].name+'"></div></div>';
+					lbl += '<div class="about">';
+					lbl += ''+p1.title+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)
+					lbl += '<br />'+data.elections['2019'].candidates[0].name;
+					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
+					lbl += '</div></div>';
 				}
 				lbl += '<table>';
 				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
@@ -304,13 +307,20 @@
 					p1 = getPartyDetails(party);
 					name = data.elections['2019'].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
-					lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td><td>'+(typeof data.elections['2019'].candidates[c].votes==="number" ? '<span class="votes">'+data.elections['2019'].candidates[c].votes.toLocaleString()+'</span>':'')+'</td></tr>'
+					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections['2019'].candidates[c].votes)/total).toFixed()+'%;"></span>'+p1.short+': '+data.elections['2019'].candidates[c].votes.toLocaleString()+'</td></tr>'
+					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>'
+
 				}
 				lbl += '</table>';
-				if(data.elections[yy].incumbent){
-					party = data.elections['2019'].incumbent.party;
+				tbl = '';
+				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
+				if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
+				if(tbl) lbl += '<table>'+tbl+'</table>';
+				if(data.elections[yy].incumbent && (data.elections['2019'].incumbent.mp!=data.elections['2017'].mp || data.elections['2019'].incumbent.party.code!=data.elections['2017'].party.code)){
+					lbl += '<h3 class="popup-title">'+yy+' (November)</h3><p>';
+					party = data.elections[yy].incumbent.party;
 					p1 = getPartyDetails(party);
-					lbl += '<br />Incumbent: <span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019'].incumbent.mp+' - '+p1.title;
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019'].incumbent.mp+' - '+p1.title;
 				}
 				
 			}
@@ -318,10 +328,10 @@
 			for(var y = 0; y < years.length; y++){
 				yy = years[y];
 				if(data.elections[yy]){
-					lbl += '<div class="popup-title">'+yy+'</div><p>';
+					lbl += '<h3 class="popup-title">'+yy+' General Election</h3><p>';
 					party = data.elections[yy].party;
 					p1 = getPartyDetails(party);
-					lbl += 'Elected: <span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
 					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
 					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')<br />';
 					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';

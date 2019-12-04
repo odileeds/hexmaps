@@ -79,8 +79,7 @@ function ResultsMap(id,attr){
 	}, false);
 
 	this.positionBubble = function(){
-		//if(!this.iframe) this.iframe = {'top':0,'height':window.innerHeight};
-		if(this.iframe && S('.infobubble').length > 0) S('.infobubble').css({'top':(this.iframe.top > 0 ? this.iframe.top : 0)+'px','max-height':(this.iframe.height)+'px'});
+		if(this.iframe && S('.infobubble').length > 0) S('.infobubble').css({'top':'calc('+(this.iframe.top > 0 ? this.iframe.top : 0)+'px + 1em)','max-height':(this.iframe.height)+'px'});
 	}
 
 	this.setType = function(t,update){

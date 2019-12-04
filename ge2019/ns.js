@@ -154,7 +154,7 @@ function ResultsMap(id,attr){
 	}).on('mouseout',{'builder':this},function(e){
 
 		e.data.hexmap.regionBlur(e.data.region);
-	//	S('#tooltip').remove();
+		S('#tooltip').remove();
 
 	}).on('click',{'builder':this},function(e){
 

@@ -254,8 +254,10 @@
 	};
 	
 	function getPartyDetails(party){
-		var out = {'code':party.code,'color':parties.none.color,'title':(party.title||'?'),'short':(party.code||party.title)};
-		if(party.code){
+		var out = {'code':'','color':parties.none.color,'title':'?','short':''};
+		if(party){
+			if(party.code) out.code = party.code;
+			if(party.title) out.title = party.title;
 			if(parties[party.code]){
 				out.color = parties[party.code].color;
 				out.title = (party.title || parties[party.code].title || party.code);
@@ -331,8 +333,16 @@
 				}
 				
 			}
-			years = ['2017-06-08','2015-05-07'];
-			for(var yy in data.elections){
+
+			// Get a reverse-time-ordered list of elections
+			var elections = [];
+			for(var k in data.elections){
+				if(data.elections.hasOwnProperty(k)) elections.push(k);
+			}
+			elections.sort().reverse();
+
+			for(var y = 0; y < elections.length; y++){
+				yy = elections[y];
 
 				if(yy != "2019-12-12" && data.elections[yy]){
 					if(data.elections[yy].type=="by"){

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Hex map of UK constituencies</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/ge2019/">
+	<meta name="twitter:title" property="og:title" content="GE2019: hex map">
+	<meta name="twitter:description" property="og:description" content="The 2019 UK General Elections results on a constituency hex map.">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<style>
+	body { padding: 2em; }
+	h1 { font-size: 1.5em; font-weight: bold; line-height: 2em; }
+	</style>
+	<script>
+	function ready(f){
+		if(/in/.test(document.readyState)) setTimeout('ready('+f+')',9);
+		else f();
+	}
+	ready(function(){
+		updateHexmap();
+		window.addEventListener('scroll', function(event){ updateHexmap(); });
+	});
+	function updateHexmap(){
+		var hexmap = document.querySelector('#hexmap');
+		hexmap.contentWindow.postMessage({'top':window.scrollY-hexmap.offsetTop, 'height': window.innerHeight}, '*');	
+	}
+	</script>
+</head>
+<body class="b6-bg">
+	<h1>Incumbent MP’s</h1>
+	<p>Some text here.</p>
+	<iframe src="ns.html" id="hexmap" width="100%" height="1500px">
+	<p>More text here</p>
+</body>
+</html>

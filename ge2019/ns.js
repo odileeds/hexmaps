@@ -72,6 +72,17 @@ function ResultsMap(id,attr){
 		e.data.me.setType(e.data.me.type,(e.data.me.type!=e.data.me.defaulttype ? true : false));
 	});
 	
+	// Listen for resizing information
+	window.addEventListener('message', function(event){
+		_obj.iframe = event.data;
+		_obj.positionBubble();
+	}, false);
+
+	this.positionBubble = function(){
+		//if(!this.iframe) this.iframe = {'top':0,'height':window.innerHeight};
+		if(this.iframe && S('.infobubble').length > 0) S('.infobubble').css({'top':(this.iframe.top > 0 ? this.iframe.top : 0)+'px','max-height':(this.iframe.height)+'px'});
+	}
+
 	this.setType = function(t,update){
 
 		// Have we changed type?
@@ -217,6 +228,7 @@ function ResultsMap(id,attr){
 					if(attr.dataType=="text") d = CSV2JSON(d);
 					// Render the data
 					attr.render.call(this,attr.title,attr.region,d);
+					this.positionBubble();
 					if(typeof attr.callback==="function") attr.callback.call(this,attr.title,attr.region,d);
 				},
 				'error': function(e,attr){

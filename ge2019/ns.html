@@ -154,14 +154,15 @@
 
 	.infobubble {
 		z-index: 3;
-		top: 1em;
-		left: 50%;
-		transform: translate3d(-50%, 0, 0);
+		top: 0em;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+		max-height: 100%;
+		overflow-y: auto;
+		transform: none;
 		position: fixed;
-		max-height: calc(100% - 2em);
-		overflow-y: auto; 
-		text-align: center;
-		margin-right: -50%;
+		margin-right: 0px;
 		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
 		background-color: #efefef;
 		color: black;
@@ -175,7 +176,7 @@
 	.infobubble .popup-title + p { margin-top: 0.25em; }
 	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 0.5em; line-height: 0.5em; margin: 0px; }
 	.popup-bio { display: flex; }
-	.generalelection { width: 600px; max-width: calc(100% - 2em); min-height: 10em; text-align: left; line-height: 1.5em; }
+	.generalelection { text-align: left; line-height: 1.5em; }
 	.generalelection table { width: 100%; }
 	.infobubble .party-bar { height: 1.5em;float: left;display: inline-block;margin: 0 0.25em 2px 0; position: relative; top:0.1em; border:0px solid white; border-left: 1px solid white; }
 	.infobubble table { margin-bottom: 0.5em; }
@@ -203,6 +204,7 @@
 			transform: none;
 			position: fixed;
 			margin-right: 0px;
+			transition: 0s;
 		}
 		.generalelection { max-width: 100%; }
 
@@ -225,7 +227,7 @@
 		<div id="key"></div>
 
 		<div class="bottom">
-			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5/">CC-BY-SA</a>), <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
+			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>, <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5/">CC-BY-SA</a>), <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
 		</div>
 	</div>
 	
@@ -355,7 +357,7 @@
 			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
 		}
 		
-		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="https://github.com/alasdairrae/wpc">Alasdair Rae</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>.</p>'
+		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>.</p>'
 
 		return {'label':lbl,'class':'generalelection','color':wincolour||''};
 	}
@@ -507,6 +509,7 @@
 		'views': views,
 		'search':{'id':'search'}
 	});
+	
 	</script>
 </body>
 </html>

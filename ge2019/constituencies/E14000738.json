@@ -2,7 +2,8 @@
 	"id": "E14000738",
 	"title": "Hazel Grove",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4197,
 				"name": "William Wragg",
@@ -18,27 +19,24 @@
 				"name": "Tony Wilson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71826.png"
-			}],
-			"incumbent": {
-				"mp": "William Wragg",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "William Wragg",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25360/william_wragg/hazel_grove",
 			"electorate": 63166,
-			"turnout": 69.9,
+			"turnout": { "pc": 70.0, "value": 44246 },
 			"valid": 44132,
 			"spoiled": 114,
 			"majority": 5514
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "William Wragg",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63098,
-			"turnout": 68.7,
+			"turnout": { "pc":68.7, "value": 43346 },
 			"valid": 43219,
 			"spoiled": 127,
 			"majority": 6552

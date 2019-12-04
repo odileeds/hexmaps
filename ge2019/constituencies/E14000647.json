@@ -2,7 +2,8 @@
 	"id": "E14000647",
 	"title": "Copeland",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 19845,
 				"name": "Trudy Harrison",
@@ -23,27 +24,24 @@
 				"name": "John Studholme",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69536.png"
-			}],
-			"incumbent": {
-				"mp": "Trudy Harrison",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Trudy Harrison",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25600/trudy_harrison/copeland",
 			"electorate": 61751,
-			"turnout": 69.5,
+			"turnout": { "pc": 69.7, "value": 43012 },
 			"valid": 42927,
 			"spoiled": 85,
 			"majority": 1695
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jamie Reed",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62087,
-			"turnout": 64.1,
+			"turnout": { "pc":64.1, "value": 39782 },
 			"valid": 39631,
 			"spoiled": 151,
 			"majority": 2564

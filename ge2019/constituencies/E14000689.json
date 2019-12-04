@@ -2,7 +2,8 @@
 	"id": "E14000689",
 	"title": "Elmet and Rothwell",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 165,
 				"name": "Stewart Golton",
@@ -28,27 +29,24 @@
 				"name": "Penny Stables",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71430.png"
-			}],
-			"incumbent": {
-				"mp": "Alec Shelbrooke",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alec Shelbrooke",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24893/alec_shelbrooke/elmet_and_rothwell",
 			"electorate": 80291,
-			"turnout": 74.2,
+			"turnout": { "pc": 74.3, "value": 59676 },
 			"valid": 59542,
 			"spoiled": 134,
 			"majority": 9805
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alec Shelbrooke",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79143,
-			"turnout": 73.2,
+			"turnout": { "pc":73.2, "value": 57950 },
 			"valid": 57797,
 			"spoiled": 153,
 			"majority": 8490

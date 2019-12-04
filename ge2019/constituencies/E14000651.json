@@ -2,7 +2,8 @@
 	"id": "E14000651",
 	"title": "Coventry South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 40316,
 				"name": "Mattie Heaven",
@@ -33,27 +34,24 @@
 				"name": "Ed Manning",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72562-33b78734-44a4-40d7-beeb-aa3dfd234be9.png"
-			}],
-			"incumbent": {
-				"mp": "Jim Cunningham",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jim Cunningham",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10147/jim_cunningham/coventry_south",
 			"electorate": 70736,
-			"turnout": 66.5,
+			"turnout": { "pc": 66.6, "value": 47123 },
 			"valid": 47009,
 			"spoiled": 114,
 			"majority": 7947
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jim Cunningham",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70397,
-			"turnout": 62.3,
+			"turnout": { "pc":62.3, "value": 43877 },
 			"valid": 43699,
 			"spoiled": 178,
 			"majority": 3188

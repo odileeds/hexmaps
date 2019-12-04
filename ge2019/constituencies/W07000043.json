@@ -2,7 +2,8 @@
 	"id": "W07000043",
 	"title": "Alyn and Deeside",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 688,
 				"name": "Mark Tami",
@@ -28,27 +29,24 @@
 				"name": "Simon Wall",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72322-2a20f48b-983d-457a-85a4-8c82b35e4261.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Tami",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Tami",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11267/mark_tami/alyn_and_deeside",
 			"electorate": 63013,
-			"turnout": 71.0,
+			"turnout": { "pc": 71.2, "value": 44844 },
 			"valid": 44760,
 			"spoiled": 84,
 			"majority": 5235
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Tami",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62016,
-			"turnout": 66.7,
+			"turnout": { "pc":66.7, "value": 41369 },
 			"valid": 41314,
 			"spoiled": 55,
 			"majority": 3343

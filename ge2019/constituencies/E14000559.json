@@ -2,7 +2,8 @@
 	"id": "E14000559",
 	"title": "Birkenhead",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 92,
 				"name": "Frank Field",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Frank Field",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10197/frank_field/birkenhead",
 			"electorate": 64484,
-			"turnout": 67.7,
+			"turnout": { "pc": 67.9, "value": 43771 },
 			"valid": 43663,
 			"spoiled": 108,
 			"majority": 25514
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Frank Field",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62410,
-			"turnout": 62.9,
+			"turnout": { "pc":62.9, "value": 39269 },
 			"valid": 39144,
 			"spoiled": 125,
 			"majority": 20652

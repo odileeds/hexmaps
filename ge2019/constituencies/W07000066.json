@@ -2,7 +2,8 @@
 	"id": "W07000066",
 	"title": "Carmarthen West and South Pembrokeshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1549,
 				"name": "Alistair Cameron",
@@ -23,27 +24,24 @@
 				"name": "Glanville Owen Rhys Thomas",
 				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27802-1ade626e-e765-4b4f-9a66-9d647517aeb1.png"
-			}],
-			"incumbent": {
-				"mp": "Simon Hart",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Simon Hart",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24813/simon_hart/carmarthen_west_and_south_pembrokeshire",
 			"electorate": 58565,
-			"turnout": 72.1,
+			"turnout": { "pc": 72.2, "value": 42291 },
 			"valid": 42226,
 			"spoiled": 65,
 			"majority": 3110
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Simon Hart",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 57755,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 40419 },
 			"valid": 40350,
 			"spoiled": 69,
 			"majority": 6054

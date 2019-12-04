@@ -2,12 +2,18 @@
 	"id": "W07000072",
 	"title": "Blaenau Gwent",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3908,
 				"name": "Nick Smith",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f5bbb247335574a42e2f.png"
+			},{
+				"id": 6411,
+				"name": "Laura Anne Jones",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5549123684e9778b52be398c.png"
 			},{
 				"id": 71311,
 				"name": "Richard Taylor",
@@ -28,32 +34,24 @@
 				"name": "Chelsea Marie Annett",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72259-df622c46-78c2-4872-87fc-c127eead17e9.png"
-			},{
-				"id": 72260,
-				"name": "Laura Anne Jones",
-				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Nick Smith",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nick Smith",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24728/nick_smith/blaenau_gwent",
 			"electorate": 51227,
-			"turnout": 63.2,
+			"turnout": { "pc": 63.3, "value": 32419 },
 			"valid": 32384,
 			"spoiled": 35,
 			"majority": 11907
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nick Smith",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 51335,
-			"turnout": 61.9,
+			"turnout": { "pc":61.9, "value": 31757 },
 			"valid": 31683,
 			"spoiled": 74,
 			"majority": 12703

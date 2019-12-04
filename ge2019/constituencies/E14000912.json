@@ -2,7 +2,8 @@
 	"id": "E14000912",
 	"title": "Salisbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 155,
 				"name": "John Glen",
@@ -28,27 +29,24 @@
 				"name": "Victoria Charleston",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71613.png"
-			}],
-			"incumbent": {
-				"mp": "John Glen",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Glen",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24839/john_glen/salisbury",
 			"electorate": 72892,
-			"turnout": 73.1,
+			"turnout": { "pc": 73.3, "value": 53399 },
 			"valid": 53311,
 			"spoiled": 88,
 			"majority": 17333
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Glen",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69582,
-			"turnout": 73.0,
+			"turnout": { "pc":73.0, "value": 50773 },
 			"valid": 50705,
 			"spoiled": 68,
 			"majority": 20421

@@ -2,7 +2,8 @@
 	"id": "E14000760",
 	"title": "Ilford South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2977,
 				"name": "Mike Gapes",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Gapes",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10219/mike_gapes/ilford_south",
 			"electorate": 85358,
-			"turnout": 67.5,
+			"turnout": { "pc": 67.7, "value": 57803 },
 			"valid": 57657,
 			"spoiled": 146,
 			"majority": 31647
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mike Gapes",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 91987,
-			"turnout": 56.6,
+			"turnout": { "pc":56.6, "value": 52076 },
 			"valid": 51912,
 			"spoiled": 164,
 			"majority": 19777

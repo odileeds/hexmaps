@@ -2,7 +2,8 @@
 	"id": "W07000047",
 	"title": "Swansea West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3608,
 				"name": "Geraint Davies",
@@ -28,27 +29,24 @@
 				"name": "James Price",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Geraint Davies",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Geraint Davies",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10159/geraint_davies/swansea_west",
 			"electorate": 56892,
-			"turnout": 65.5,
+			"turnout": { "pc": 65.7, "value": 37365 },
 			"valid": 37282,
 			"spoiled": 83,
 			"majority": 10598
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Geraint Davies",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 58776,
-			"turnout": 60.0,
+			"turnout": { "pc":60.0, "value": 35272 },
 			"valid": 35156,
 			"spoiled": 116,
 			"majority": 7036

@@ -2,7 +2,8 @@
 	"id": "E14000638",
 	"title": "Christchurch",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 596,
 				"name": "Christopher Chope",
@@ -23,27 +24,24 @@
 				"name": "Andrew Dunne",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60223.png"
-			}],
-			"incumbent": {
-				"mp": "Christopher Chope",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Christopher Chope",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10103/christopher_chope/christchurch",
 			"electorate": 70309,
-			"turnout": 72.0,
+			"turnout": { "pc": 72.2, "value": 50795 },
 			"valid": 50634,
 			"spoiled": 161,
 			"majority": 25171
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Christopher Chope",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69303,
-			"turnout": 72.1,
+			"turnout": { "pc":72.1, "value": 49940 },
 			"valid": 49707,
 			"spoiled": 233,
 			"majority": 18224

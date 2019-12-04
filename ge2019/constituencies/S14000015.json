@@ -2,7 +2,8 @@
 	"id": "S14000015",
 	"title": "Dundee East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1046,
 				"name": "Stewart Hosie",
@@ -28,27 +29,24 @@
 				"name": "George Morton",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Stewart Hosie",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stewart Hosie",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11973/stewart_hosie/dundee_east",
 			"electorate": 65854,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.3, "value": 42985 },
 			"valid": 42928,
 			"spoiled": 57,
 			"majority": 6645
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stewart Hosie",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67822,
-			"turnout": 71.2,
+			"turnout": { "pc":71.2, "value": 48258 },
 			"valid": 48185,
 			"spoiled": 73,
 			"majority": 19162

@@ -2,7 +2,8 @@
 	"id": "E14000682",
 	"title": "East Worthing and Shoreham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2545,
 				"name": "Tim Loughton",
@@ -28,27 +29,24 @@
 				"name": "Ashley Charles Joe Scott Ridley",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65455.png"
-			}],
-			"incumbent": {
-				"mp": "Tim Loughton",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tim Loughton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10371/tim_loughton/east_worthing_and_shoreham",
 			"electorate": 75525,
-			"turnout": 70.3,
+			"turnout": { "pc": 70.4, "value": 53187 },
 			"valid": 53117,
 			"spoiled": 70,
 			"majority": 5106
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tim Loughton",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74775,
-			"turnout": 67.0,
+			"turnout": { "pc":67.0, "value": 50097 },
 			"valid": 49898,
 			"spoiled": 199,
 			"majority": 14949

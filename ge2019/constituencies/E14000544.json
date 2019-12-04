@@ -2,7 +2,8 @@
 	"id": "E14000544",
 	"title": "Basildon and Billericay",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2580,
 				"name": "John Baron",
@@ -28,27 +29,24 @@
 				"name": "Simon Breedon",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "John Baron",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Baron",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10715/john_baron/basildon_and_billericay",
 			"electorate": 69149,
-			"turnout": 65.0,
+			"turnout": { "pc": 65.1, "value": 45039 },
 			"valid": 44918,
 			"spoiled": 121,
 			"majority": 13400
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Baron",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66347,
-			"turnout": 65.2,
+			"turnout": { "pc":65.2, "value": 43226 },
 			"valid": 43028,
 			"spoiled": 198,
 			"majority": 12482

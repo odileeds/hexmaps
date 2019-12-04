@@ -2,7 +2,8 @@
 	"id": "E14000696",
 	"title": "Erith and Thamesmead",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1164,
 				"name": "Sam Webber",
@@ -33,27 +34,24 @@
 				"name": "Joe Paul James Robertson",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72431-2296c4a7-bb76-4660-9921-186d14a27c1b.png"
-			}],
-			"incumbent": {
-				"mp": "Teresa Pearce",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Teresa Pearce",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24956/teresa_pearce/erith_and_thamesmead",
 			"electorate": 69724,
-			"turnout": 63.8,
+			"turnout": { "pc": 63.9, "value": 44543 },
 			"valid": 44464,
 			"spoiled": 79,
 			"majority": 10014
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Teresa Pearce",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70397,
-			"turnout": 60.7,
+			"turnout": { "pc":60.7, "value": 42714 },
 			"valid": 42617,
 			"spoiled": 97,
 			"majority": 9525

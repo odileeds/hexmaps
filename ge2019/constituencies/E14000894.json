@@ -2,7 +2,8 @@
 	"id": "E14000894",
 	"title": "Ribble Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 499,
 				"name": "Nigel Evans",
@@ -17,7 +18,7 @@
 				"id": 59941,
 				"name": "Giles Bridge",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59941.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59941-fd2e7015-b83e-4b73-acdd-139d3976ca5c.png"
 			},{
 				"id": 59995,
 				"name": "Chantelle Louise Seddon",
@@ -28,27 +29,24 @@
 				"name": "Paul Ryan Yates",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72214-98f29486-3d77-4b7c-a0b9-dfca65862ff1.png"
-			}],
-			"incumbent": {
-				"mp": "Nigel Evans",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nigel Evans",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10190/nigel_evans/ribble_valley",
 			"electorate": 77968,
-			"turnout": 70.8,
+			"turnout": { "pc": 71.0, "value": 55363 },
 			"valid": 55200,
 			"spoiled": 163,
 			"majority": 13199
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nigel Evans",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77379,
-			"turnout": 67.7,
+			"turnout": { "pc":67.7, "value": 52411 },
 			"valid": 52243,
 			"spoiled": 168,
 			"majority": 13606

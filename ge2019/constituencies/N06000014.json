@@ -2,7 +2,8 @@
 	"id": "N06000014",
 	"title": "South Antrim",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4709,
 				"name": "Danny Kinahan",
@@ -28,27 +29,24 @@
 				"name": "John Blair",
 				"party": { "code": "Alliance", "title": "Alliance - Alliance Party of Northern Ireland" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71629.png"
-			}],
-			"incumbent": {
-				"mp": "Paul Girvan",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Girvan",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25629/paul_girvan/south_antrim",
 			"electorate": 68244,
-			"turnout": 63.3,
+			"turnout": { "pc": 63.4, "value": 43292 },
 			"valid": 43170,
 			"spoiled": 122,
 			"majority": 3208
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Danny Kinahan",
 			"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 			"electorate": 67425,
-			"turnout": 54.5,
+			"turnout": { "pc":54.5, "value": 36734 },
 			"valid": 36523,
 			"spoiled": 211,
 			"majority": 949

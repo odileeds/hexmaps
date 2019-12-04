@@ -2,7 +2,8 @@
 	"id": "E14000563",
 	"title": "Birmingham, Hodge Hill",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3666,
 				"name": "Waheed Rafiq",
@@ -22,7 +23,7 @@
 				"id": 72544,
 				"name": "Jill Dagnan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72544-0931dd7a-06ca-4fa5-9a16-311361d56eeb.png"
 			},{
 				"id": 72545,
 				"name": "Hilda Johani",
@@ -33,27 +34,24 @@
 				"name": "Jane McKears",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72546-b6faa370-6359-4495-b421-3dbc2b4e1290.png"
-			}],
-			"incumbent": {
-				"mp": "Liam Byrne",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Liam Byrne",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11360/liam_byrne/birmingham%2C_hodge_hill",
 			"electorate": 75698,
-			"turnout": 61.3,
+			"turnout": { "pc": 61.5, "value": 46553 },
 			"valid": 46394,
 			"spoiled": 159,
 			"majority": 31026
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Liam Byrne",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75302,
-			"turnout": 54.9,
+			"turnout": { "pc":54.9, "value": 41306 },
 			"valid": 41039,
 			"spoiled": 267,
 			"majority": 23362

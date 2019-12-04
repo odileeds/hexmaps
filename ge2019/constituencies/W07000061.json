@@ -2,7 +2,8 @@
 	"id": "W07000061",
 	"title": "Dwyfor Meirionnydd",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2970,
 				"name": "Louise Hughes",
@@ -23,27 +24,24 @@
 				"name": "Tomos Dafydd Davies",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34666.png"
-			}],
-			"incumbent": {
-				"mp": "Liz Saville-Roberts",
-				"party": { "code": "PC", "title": "Plaid Cymru" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Liz Saville Roberts",
 			"party": { "code": "PC" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25302/liz_saville-roberts/dwyfor_meirionnydd",
 			"electorate": 44699,
-			"turnout": 67.9,
+			"turnout": { "pc": 68.0, "value": 30415 },
 			"valid": 30348,
 			"spoiled": 67,
 			"majority": 4850
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Liz Saville-Roberts",
 			"party": { "code": "PC", "title": "Plaid Cymru" },
 			"electorate": 44394,
-			"turnout": 65.3,
+			"turnout": { "pc":65.3, "value": 28978 },
 			"valid": 28913,
 			"spoiled": 65,
 			"majority": 5261

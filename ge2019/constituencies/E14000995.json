@@ -2,7 +2,8 @@
 	"id": "E14000995",
 	"title": "Thurrock",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4098,
 				"name": "Jackie Doyle-Price",
@@ -22,33 +23,30 @@
 				"id": 72421,
 				"name": "Stewart Malcolm Stone",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72421-d4830f1c-a9cc-4f48-9ec3-543cbc886a9a.png"
 			},{
 				"id": 72422,
 				"name": "James Peter Woollard",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jackie Doyle-Price",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jackie Doyle-Price",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24957/jackie_doyle-price/thurrock",
 			"electorate": 78154,
-			"turnout": 64.4,
+			"turnout": { "pc": 64.5, "value": 50422 },
 			"valid": 50325,
 			"spoiled": 97,
 			"majority": 345
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jackie Doyle-Price",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77559,
-			"turnout": 64.1,
+			"turnout": { "pc":64.1, "value": 49690 },
 			"valid": 49564,
 			"spoiled": 126,
 			"majority": 536

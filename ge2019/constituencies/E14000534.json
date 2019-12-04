@@ -2,7 +2,8 @@
 	"id": "E14000534",
 	"title": "Arundel and South Downs",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5186,
 				"name": "Isabel Thurston",
@@ -28,27 +29,24 @@
 				"name": "Bella Sankey",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72372-244b9663-4da9-426c-8e84-af0f0ac5d6c5.png"
-			}],
-			"incumbent": {
-				"mp": "Nick Herbert",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nick Herbert",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11377/nick_herbert/arundel_and_south_downs",
 			"electorate": 79478,
-			"turnout": 75.8,
+			"turnout": { "pc": 76.0, "value": 60410 },
 			"valid": 60256,
 			"spoiled": 154,
 			"majority": 23883
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nick Herbert",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77242,
-			"turnout": 73.4,
+			"turnout": { "pc":73.4, "value": 56719 },
 			"valid": 56477,
 			"spoiled": 242,
 			"majority": 26177

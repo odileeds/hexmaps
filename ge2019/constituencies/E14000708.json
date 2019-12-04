@@ -2,7 +2,8 @@
 	"id": "E14000708",
 	"title": "Garston and Halewood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2234,
 				"name": "Maria Eagle",
@@ -33,27 +34,24 @@
 				"name": "Hazel Lee Williams",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72157-c3b18b9d-d370-4475-9971-7aa38bc528ff.png"
-			}],
-			"incumbent": {
-				"mp": "Maria Eagle",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Maria Eagle",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10183/maria_eagle/garston_and_halewood",
 			"electorate": 75248,
-			"turnout": 71.1,
+			"turnout": { "pc": 71.3, "value": 53665 },
 			"valid": 53522,
 			"spoiled": 143,
 			"majority": 32149
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Maria Eagle",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73719,
-			"turnout": 66.7,
+			"turnout": { "pc":66.7, "value": 49175 },
 			"valid": 48983,
 			"spoiled": 192,
 			"majority": 27146

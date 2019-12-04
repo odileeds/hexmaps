@@ -2,7 +2,8 @@
 	"id": "E14000587",
 	"title": "Bradford East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4825,
 				"name": "Imran Hussain",
@@ -10,7 +11,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55180179249b917507bee542.png"
 			},{
 				"id": 8179,
-				"name": "Jonathan Daniel Stewart Barras",
+				"name": "Jonathan Barras",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8179.png"
 			},{
@@ -28,27 +29,24 @@
 				"name": "Jeanette Sunderland",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65760.png"
-			}],
-			"incumbent": {
-				"mp": "Imran Hussain",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Imran Hussain",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25375/imran_hussain/bradford_east",
 			"electorate": 70389,
-			"turnout": 64.8,
+			"turnout": { "pc": 64.9, "value": 45700 },
 			"valid": 45622,
 			"spoiled": 78,
 			"majority": 20540
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Imran Hussain",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66121,
-			"turnout": 62.9,
+			"turnout": { "pc":62.9, "value": 41613 },
 			"valid": 41406,
 			"spoiled": 207,
 			"majority": 7084

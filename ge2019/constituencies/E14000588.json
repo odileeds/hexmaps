@@ -2,7 +2,8 @@
 	"id": "E14000588",
 	"title": "Bradford South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5600,
 				"name": "Judith Cummins",
@@ -27,28 +28,25 @@
 				"id": 72388,
 				"name": "Narinder Singh Sekhon",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Judith Cummins",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72388-1a25dbec-7b5a-4826-b3e5-a4ee192eaa94.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Judith Cummins",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25393/judith_cummins/bradford_south",
 			"electorate": 67752,
-			"turnout": 60.6,
+			"turnout": { "pc": 60.7, "value": 41111 },
 			"valid": 41049,
 			"spoiled": 62,
 			"majority": 6700
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Judith Cummins",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63674,
-			"turnout": 59.2,
+			"turnout": { "pc":59.2, "value": 37706 },
 			"valid": 37600,
 			"spoiled": 106,
 			"majority": 6450

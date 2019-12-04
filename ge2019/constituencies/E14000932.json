@@ -2,7 +2,8 @@
 	"id": "E14000932",
 	"title": "Somerton and Frome",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4226,
 				"name": "David Warburton",
@@ -23,27 +24,24 @@
 				"name": "Andrea Dexter",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71627-bbdee464-911c-4d13-b1e2-dfc2a8a6ee8a.png"
-			}],
-			"incumbent": {
-				"mp": "David Warburton",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Warburton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25372/david_warburton/somerton_and_frome",
 			"electorate": 84437,
-			"turnout": 75.7,
+			"turnout": { "pc": 75.8, "value": 63996 },
 			"valid": 63892,
 			"spoiled": 104,
 			"majority": 22906
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Warburton",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83281,
-			"turnout": 72.6,
+			"turnout": { "pc":72.6, "value": 60477 },
 			"valid": 60309,
 			"spoiled": 168,
 			"majority": 20268

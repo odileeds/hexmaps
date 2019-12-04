@@ -2,7 +2,8 @@
 	"id": "E14000677",
 	"title": "Easington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1365,
 				"name": "Grahame Morris",
@@ -28,27 +29,24 @@
 				"name": "Julie Maughan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71415.png"
-			}],
-			"incumbent": {
-				"mp": "Grahame Morris",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Grahame Morris",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24715/grahame_morris/easington",
 			"electorate": 62385,
-			"turnout": 58.3,
+			"turnout": { "pc": 58.4, "value": 36421 },
 			"valid": 36364,
 			"spoiled": 57,
 			"majority": 14892
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Grahame Morris",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61659,
-			"turnout": 56.2,
+			"turnout": { "pc":56.2, "value": 34677 },
 			"valid": 34624,
 			"spoiled": 53,
 			"majority": 14641

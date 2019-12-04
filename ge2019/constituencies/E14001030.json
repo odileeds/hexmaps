@@ -2,7 +2,8 @@
 	"id": "E14001030",
 	"title": "West Bromwich West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7028,
 				"name": "Flo Clucas",
@@ -28,27 +29,24 @@
 				"name": "James Thomas Cunningham",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Adrian Bailey",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Adrian Bailey",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10683/adrian_bailey/west_bromwich_west",
 			"electorate": 65967,
-			"turnout": 54.7,
+			"turnout": { "pc": 54.9, "value": 36184 },
 			"valid": 36094,
 			"spoiled": 90,
 			"majority": 4460
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Adrian Bailey",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 65524,
-			"turnout": 53.7,
+			"turnout": { "pc":53.7, "value": 35156 },
 			"valid": 35026,
 			"spoiled": 130,
 			"majority": 7742

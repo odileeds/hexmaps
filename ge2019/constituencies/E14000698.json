@@ -2,7 +2,8 @@
 	"id": "E14000698",
 	"title": "Exeter",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4027,
 				"name": "Ben Bradshaw",
@@ -33,27 +34,24 @@
 				"name": "Leslie David Willis",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Ben Bradshaw",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ben Bradshaw",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10061/ben_bradshaw/exeter",
 			"electorate": 77330,
-			"turnout": 71.7,
+			"turnout": { "pc": 71.8, "value": 55554 },
 			"valid": 55423,
 			"spoiled": 131,
 			"majority": 16117
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ben Bradshaw",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76968,
-			"turnout": 70.4,
+			"turnout": { "pc":70.4, "value": 54218 },
 			"valid": 54018,
 			"spoiled": 200,
 			"majority": 7183

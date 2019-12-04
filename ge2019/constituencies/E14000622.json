@@ -2,7 +2,8 @@
 	"id": "E14000622",
 	"title": "Castle Point",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 376,
 				"name": "Katie Curtis",
@@ -18,27 +19,24 @@
 				"name": "John Howson",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6531.png"
-			}],
-			"incumbent": {
-				"mp": "Rebecca Harris",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rebecca Harris",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24731/rebecca_harris/castle_point",
 			"electorate": 69470,
-			"turnout": 64.4,
+			"turnout": { "pc": 64.5, "value": 44797 },
 			"valid": 44710,
 			"spoiled": 87,
 			"majority": 18872
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rebecca Harris",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68170,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 45567 },
 			"valid": 45450,
 			"spoiled": 117,
 			"majority": 8934

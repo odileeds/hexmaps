@@ -2,7 +2,8 @@
 	"id": "E14000799",
 	"title": "Ludlow",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2490,
 				"name": "Philip Dunne",
@@ -23,27 +24,24 @@
 				"name": "Kuldip Sahota",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34353.png"
-			}],
-			"incumbent": {
-				"mp": "Philip Dunne",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Philip Dunne",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11696/philip_dunne/ludlow",
 			"electorate": 68034,
-			"turnout": 73.4,
+			"turnout": { "pc": 73.7, "value": 50110 },
 			"valid": 49970,
 			"spoiled": 140,
 			"majority": 19286
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Philip Dunne",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66374,
-			"turnout": 72.6,
+			"turnout": { "pc":72.6, "value": 48183 },
 			"valid": 48063,
 			"spoiled": 120,
 			"majority": 18929

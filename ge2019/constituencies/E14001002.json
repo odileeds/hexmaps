@@ -2,7 +2,8 @@
 	"id": "E14001002",
 	"title": "Tottenham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4065,
 				"name": "Frank Sweeney",
@@ -17,7 +18,7 @@
 				"id": 6911,
 				"name": "Jonathan Silberman",
 				"party": { "code": "", "title": "Communist League Election Campaign" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6911-5c0d0e05-108c-4926-873d-27d9c50a8842.png"
 			},{
 				"id": 36032,
 				"name": "Tammy Palmer",
@@ -42,28 +43,25 @@
 				"id": 72630,
 				"name": "Abdul Hamid Turay",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "David Lammy",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72630-0140fbfd-0260-47c3-9203-9270ecd7ed46.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Lammy",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10678/david_lammy/tottenham",
 			"electorate": 72884,
-			"turnout": 67.7,
+			"turnout": { "pc": 67.9, "value": 49486 },
 			"valid": 49339,
 			"spoiled": 147,
 			"majority": 34584
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Lammy",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70803,
-			"turnout": 60.4,
+			"turnout": { "pc":60.4, "value": 42771 },
 			"valid": 42558,
 			"spoiled": 213,
 			"majority": 23564

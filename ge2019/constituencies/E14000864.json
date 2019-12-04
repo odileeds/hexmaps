@@ -2,7 +2,8 @@
 	"id": "E14000864",
 	"title": "Norwich South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4396,
 				"name": "Clive Lewis",
@@ -28,27 +29,24 @@
 				"name": "Alexander Donald Gilchrist",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72099-1891a2ba-2b8b-427c-b32e-0d54c592aeaf.png"
-			}],
-			"incumbent": {
-				"mp": "Clive Lewis",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Clive Lewis",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25356/clive_lewis/norwich_south",
 			"electorate": 74182,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.4, "value": 51501 },
 			"valid": 51359,
 			"spoiled": 142,
 			"majority": 15596
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Clive Lewis",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74875,
-			"turnout": 65.0,
+			"turnout": { "pc":65.0, "value": 48640 },
 			"valid": 48463,
 			"spoiled": 177,
 			"majority": 7654

@@ -2,7 +2,8 @@
 	"id": "E14000831",
 	"title": "Newcastle upon Tyne Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3658,
 				"name": "Chi Onwurah",
@@ -28,27 +29,24 @@
 				"name": "Mark Frederick Glenn Griffin",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72298-124fcefa-4000-4d84-8a43-6d36467e35e4.png"
-			}],
-			"incumbent": {
-				"mp": "Chi Onwurah",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chi Onwurah",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24807/chi_onwurah/newcastle_upon_tyne_central",
 			"electorate": 55368,
-			"turnout": 67.0,
+			"turnout": { "pc": 67.1, "value": 37173 },
 			"valid": 37094,
 			"spoiled": 79,
 			"majority": 14937
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chi Onwurah",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58147,
-			"turnout": 60.5,
+			"turnout": { "pc":60.5, "value": 35182 },
 			"valid": 35085,
 			"spoiled": 97,
 			"majority": 12673

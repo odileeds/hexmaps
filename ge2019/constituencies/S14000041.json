@@ -2,7 +2,8 @@
 	"id": "S14000041",
 	"title": "Kirkcaldy and Cowdenbeath",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 9052,
 				"name": "Gillian Cole-Hamilton",
@@ -33,27 +34,24 @@
 				"name": "Mitch William",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Lesley Laird",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lesley Laird",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25653/lesley_laird/kirkcaldy_and_cowdenbeath",
 			"electorate": 72721,
-			"turnout": 63.5,
+			"turnout": { "pc": 63.6, "value": 46250 },
 			"valid": 46193,
 			"spoiled": 57,
 			"majority": 259
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Roger Mullin",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 75941,
-			"turnout": 69.7,
+			"turnout": { "pc":69.7, "value": 52956 },
 			"valid": 52892,
 			"spoiled": 64,
 			"majority": 9974

@@ -2,7 +2,8 @@
 	"id": "E14000778",
 	"title": "Leeds East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4369,
 				"name": "Richard Burgon",
@@ -12,7 +13,7 @@
 				"id": 38538,
 				"name": "David Dresser",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38538-bcc7b5f4-a551-4005-a1e8-1f89c942ee03.png"
 			},{
 				"id": 51741,
 				"name": "Jill Mortimer",
@@ -28,27 +29,24 @@
 				"name": "Sarah Wass",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71509-6bca1db6-9291-41f3-b222-e0dcc99834a8.png"
-			}],
-			"incumbent": {
-				"mp": "Richard Burgon",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Richard Burgon",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25391/richard_burgon/leeds_east",
 			"electorate": 65950,
-			"turnout": 62.8,
+			"turnout": { "pc": 63.0, "value": 41530 },
 			"valid": 41441,
 			"spoiled": 89,
 			"majority": 12752
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Richard Burgon",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64754,
-			"turnout": 59.3,
+			"turnout": { "pc":59.3, "value": 38382 },
 			"valid": 38196,
 			"spoiled": 186,
 			"majority": 12533

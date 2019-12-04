@@ -2,7 +2,8 @@
 	"id": "E14000617",
 	"title": "Cambridge",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 45,
 				"name": "Daniel Zeichner",
@@ -43,27 +44,24 @@
 				"name": "Jane Elizabeth Robins",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72136-bb8d6907-9e89-4e73-906b-e137c6e203b1.png"
-			}],
-			"incumbent": {
-				"mp": "Daniel Zeichner",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Daniel Zeichner",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25386/daniel_zeichner/cambridge",
 			"electorate": 78544,
-			"turnout": 71.2,
+			"turnout": { "pc": 71.4, "value": 56069 },
 			"valid": 55934,
 			"spoiled": 135,
 			"majority": 12661
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Daniel Zeichner",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 83384,
-			"turnout": 62.3,
+			"turnout": { "pc":62.3, "value": 51945 },
 			"valid": 51774,
 			"spoiled": 171,
 			"majority": 599

@@ -2,7 +2,8 @@
 	"id": "E14000686",
 	"title": "Eddisbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1104,
 				"name": "Edward Timpson",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Antoinette Sandbach",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25363/antoinette_sandbach/eddisbury",
 			"electorate": 70272,
-			"turnout": 73.0,
+			"turnout": { "pc": 73.2, "value": 51404 },
 			"valid": 51319,
 			"spoiled": 85,
 			"majority": 11942
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Antoinette Sandbach",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68569,
-			"turnout": 69.3,
+			"turnout": { "pc":69.3, "value": 47530 },
 			"valid": 47352,
 			"spoiled": 178,
 			"majority": 12974

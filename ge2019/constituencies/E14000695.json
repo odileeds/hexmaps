@@ -2,7 +2,8 @@
 	"id": "E14000695",
 	"title": "Erewash",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3437,
 				"name": "Maggie Throup",
@@ -22,7 +23,7 @@
 				"id": 31549,
 				"name": "Brent Poland",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31549-5de0e44a-fe47-4791-a9de-a8b80e85c2f9.png"
 			},{
 				"id": 63398,
 				"name": "James Martin Archer",
@@ -38,27 +39,24 @@
 				"name": "Richard Shaw",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Maggie Throup",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Maggie Throup",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25371/maggie_throup/erewash",
 			"electorate": 72995,
-			"turnout": 68.2,
+			"turnout": { "pc": 68.3, "value": 49867 },
 			"valid": 49781,
 			"spoiled": 86,
 			"majority": 4534
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Maggie Throup",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71943,
-			"turnout": 67.4,
+			"turnout": { "pc":67.4, "value": 48468 },
 			"valid": 48322,
 			"spoiled": 146,
 			"majority": 3584

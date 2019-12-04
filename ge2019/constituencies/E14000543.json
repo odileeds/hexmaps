@@ -2,7 +2,8 @@
 	"id": "E14000543",
 	"title": "Barrow and Furness",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4640,
 				"name": "Chris Loynes",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Woodcock",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24837/john_woodcock/barrow_and_furness",
 			"electorate": 69474,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.6, "value": 47650 },
 			"valid": 47590,
 			"spoiled": 60,
 			"majority": 209
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Woodcock",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 68338,
-			"turnout": 63.6,
+			"turnout": { "pc":63.6, "value": 43434 },
 			"valid": 43275,
 			"spoiled": 159,
 			"majority": 795

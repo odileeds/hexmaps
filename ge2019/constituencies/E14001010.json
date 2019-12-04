@@ -2,7 +2,8 @@
 	"id": "E14001010",
 	"title": "Wallasey",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2917,
 				"name": "Angela Eagle",
@@ -28,27 +29,24 @@
 				"name": "James Baker",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72089.png"
-			}],
-			"incumbent": {
-				"mp": "Angela Eagle",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Angela Eagle",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10182/angela_eagle/wallasey",
 			"electorate": 67454,
-			"turnout": 71.7,
+			"turnout": { "pc": 71.8, "value": 48430 },
 			"valid": 48353,
 			"spoiled": 77,
 			"majority": 23320
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Angela Eagle",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65495,
-			"turnout": 66.5,
+			"turnout": { "pc":66.5, "value": 43545 },
 			"valid": 43366,
 			"spoiled": 179,
 			"majority": 16348

@@ -2,7 +2,8 @@
 	"id": "E14000986",
 	"title": "Tamworth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3706,
 				"name": "Christopher Pincher",
@@ -17,10 +18,10 @@
 				"id": 40952,
 				"name": "Rob Wheway",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40952-e115963d-98c2-43cb-b25b-898eea7f3f1a.png"
 			},{
 				"id": 46386,
-				"name": "Andrew Graham Tilley",
+				"name": "Andrew Tilley",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
 			},{
@@ -33,27 +34,24 @@
 				"name": "John Barry Wright",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Christopher Pincher",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Christopher Pincher",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24747/christopher_pincher/tamworth",
 			"electorate": 71308,
-			"turnout": 66.1,
+			"turnout": { "pc": 66.3, "value": 47290 },
 			"valid": 47110,
 			"spoiled": 180,
 			"majority": 12347
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Christopher Pincher",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71913,
-			"turnout": 65.7,
+			"turnout": { "pc":65.7, "value": 47279 },
 			"valid": 47174,
 			"spoiled": 105,
 			"majority": 11302

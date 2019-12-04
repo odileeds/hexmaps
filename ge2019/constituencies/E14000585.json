@@ -2,7 +2,8 @@
 	"id": "E14000585",
 	"title": "Bournemouth West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 382,
 				"name": "David Stokes",
@@ -23,27 +24,24 @@
 				"name": "Simon Bull",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34940_pHDdQuD.png"
-			}],
-			"incumbent": {
-				"mp": "Conor Burns",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Conor Burns",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24780/conor_burns/bournemouth_west",
 			"electorate": 73195,
-			"turnout": 60.8,
+			"turnout": { "pc": 61.0, "value": 44654 },
 			"valid": 44507,
 			"spoiled": 147,
 			"majority": 7711
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Conor Burns",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72082,
-			"turnout": 58.2,
+			"turnout": { "pc":58.2, "value": 41944 },
 			"valid": 41773,
 			"spoiled": 171,
 			"majority": 12410

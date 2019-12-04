@@ -2,7 +2,8 @@
 	"id": "E14000887",
 	"title": "Putney",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 36326,
 				"name": "Will Sweet",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Justine Greening",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11771/justine_greening/putney",
 			"electorate": 65031,
-			"turnout": 72.1,
+			"turnout": { "pc": 72.3, "value": 47006 },
 			"valid": 46894,
 			"spoiled": 112,
 			"majority": 1554
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Justine Greening",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63923,
-			"turnout": 67.2,
+			"turnout": { "pc":67.2, "value": 42928 },
 			"valid": 42813,
 			"spoiled": 115,
 			"majority": 10180

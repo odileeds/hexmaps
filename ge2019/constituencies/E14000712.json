@@ -2,7 +2,8 @@
 	"id": "E14000712",
 	"title": "Gloucester",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3224,
 				"name": "Richard Graham",
@@ -17,33 +18,30 @@
 				"id": 71454,
 				"name": "Fran Boait",
 				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71454-b1c2904e-2607-4102-93d8-14c9798bc9ce.png"
 			},{
 				"id": 71455,
 				"name": "Rebecca Trimnell",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71455.png"
-			}],
-			"incumbent": {
-				"mp": "Richard Graham",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Richard Graham",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24921/richard_graham/gloucester",
 			"electorate": 82965,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.3, "value": 54147 },
 			"valid": 54071,
 			"spoiled": 76,
 			"majority": 5520
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Richard Graham",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82968,
-			"turnout": 63.5,
+			"turnout": { "pc":63.5, "value": 52686 },
 			"valid": 52575,
 			"spoiled": 111,
 			"majority": 7251

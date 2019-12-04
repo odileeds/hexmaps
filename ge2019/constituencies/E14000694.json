@@ -2,7 +2,8 @@
 	"id": "E14000694",
 	"title": "Epsom and Ewell",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3284,
 				"name": "Chris Grayling",
@@ -28,27 +29,24 @@
 				"name": "Steve Gee",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34703.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Grayling",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Grayling",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10920/chris_grayling/epsom_and_ewell",
 			"electorate": 80029,
-			"turnout": 74.1,
+			"turnout": { "pc": 74.3, "value": 59468 },
 			"valid": 59266,
 			"spoiled": 202,
 			"majority": 20475
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Grayling",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78633,
-			"turnout": 72.9,
+			"turnout": { "pc":72.9, "value": 57332 },
 			"valid": 57143,
 			"spoiled": 189,
 			"majority": 24443

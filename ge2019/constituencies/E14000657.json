@@ -2,7 +2,8 @@
 	"id": "E14000657",
 	"title": "Dagenham and Rainham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 288,
 				"name": "Jon Cruddas",
@@ -38,27 +39,24 @@
 				"name": "Sam Fisk",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71754-a81873e4-3352-4cfb-888d-b38fae4f5f81.png"
-			}],
-			"incumbent": {
-				"mp": "Jon Cruddas",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jon Cruddas",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10828/jon_cruddas/dagenham_and_rainham",
 			"electorate": 70616,
-			"turnout": 64.9,
+			"turnout": { "pc": 65.0, "value": 45916 },
 			"valid": 45843,
 			"spoiled": 73,
 			"majority": 4652
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jon Cruddas",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69128,
-			"turnout": 62.4,
+			"turnout": { "pc":62.4, "value": 43133 },
 			"valid": 43050,
 			"spoiled": 83,
 			"majority": 4980

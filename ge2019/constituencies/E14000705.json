@@ -2,7 +2,8 @@
 	"id": "E14000705",
 	"title": "Forest of Dean",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2346,
 				"name": "Mark Harper",
@@ -23,27 +24,24 @@
 				"name": "Julian Burrett",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34948.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Harper",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Harper",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11588/mark_harper/forest_of_dean",
 			"electorate": 70898,
-			"turnout": 73.0,
+			"turnout": { "pc": 73.1, "value": 51848 },
 			"valid": 51767,
 			"spoiled": 81,
 			"majority": 9502
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Harper",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69865,
-			"turnout": 71.1,
+			"turnout": { "pc":71.1, "value": 49704 },
 			"valid": 49520,
 			"spoiled": 184,
 			"majority": 10987

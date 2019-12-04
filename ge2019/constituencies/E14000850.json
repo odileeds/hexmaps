@@ -2,7 +2,8 @@
 	"id": "E14000850",
 	"title": "North Somerset",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 451,
 				"name": "Liam Fox",
@@ -23,27 +24,24 @@
 				"name": "Phil Neve",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72013-1c79e1eb-c715-4fbe-9cc6-d035d0bfbfbd.png"
-			}],
-			"incumbent": {
-				"mp": "Liam Fox",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Liam Fox",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10213/liam_fox/north_somerset",
 			"electorate": 80529,
-			"turnout": 77.0,
+			"turnout": { "pc": 77.1, "value": 62114 },
 			"valid": 61994,
 			"spoiled": 120,
 			"majority": 17103
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Liam Fox",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80161,
-			"turnout": 73.8,
+			"turnout": { "pc":73.8, "value": 59162 },
 			"valid": 58942,
 			"spoiled": 220,
 			"majority": 23099

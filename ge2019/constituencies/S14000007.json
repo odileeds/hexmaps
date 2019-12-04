@@ -2,7 +2,8 @@
 	"id": "S14000007",
 	"title": "Banff and Buchan",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34215,
 				"name": "David Duguid",
@@ -23,27 +24,24 @@
 				"name": "Brian Robert Balcombe",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72400-6a3c882b-7090-4ee0-bda0-82d9a2c77601.png"
-			}],
-			"incumbent": {
-				"mp": "David Duguid",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Duguid",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25664/david_duguid/banff_and_buchan",
 			"electorate": 67601,
-			"turnout": 61.6,
+			"turnout": { "pc": 61.7, "value": 41689 },
 			"valid": 41643,
 			"spoiled": 46,
 			"majority": 3693
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Eilidh Whiteford",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 68609,
-			"turnout": 66.7,
+			"turnout": { "pc":66.7, "value": 45741 },
 			"valid": 45629,
 			"spoiled": 112,
 			"majority": 14339

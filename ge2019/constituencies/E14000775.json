@@ -2,7 +2,8 @@
 	"id": "E14000775",
 	"title": "Knowsley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 741,
 				"name": "George Howarth",
@@ -10,7 +11,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/741.png"
 			},{
 				"id": 8493,
-				"name": "Raymond Frank Catesby",
+				"name": "Ray Catesby",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8493-5e1dbb85-c8b2-4efb-9a69-c9fd71564550.png"
 			},{
@@ -20,9 +21,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10238.png"
 			},{
 				"id": 35921,
-				"name": "Joseph Robert Slupsky",
+				"name": "Joe Slupsky",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35921-0a3f7fe3-798f-413a-b6a3-bf5af2ee83f7.png"
 			},{
 				"id": 50248,
 				"name": "Rushi Millns",
@@ -33,27 +34,24 @@
 				"name": "Tim McCullough",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71923-888d5576-630d-4958-9f64-4873f7f34444.png"
-			}],
-			"incumbent": {
-				"mp": "George Howarth",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "George Howarth",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10292/george_howarth/knowsley",
 			"electorate": 81760,
-			"turnout": 67.9,
+			"turnout": { "pc": 67.9, "value": 55551 },
 			"valid": 55483,
 			"spoiled": 68,
 			"majority": 42214
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "George Howarth",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79108,
-			"turnout": 64.4,
+			"turnout": { "pc":64.4, "value": 50920 },
 			"valid": 50728,
 			"spoiled": 192,
 			"majority": 34655

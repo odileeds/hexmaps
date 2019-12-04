@@ -2,7 +2,8 @@
 	"id": "E14000803",
 	"title": "Maidenhead",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2810,
 				"name": "Pat McDonald",
@@ -23,27 +24,24 @@
 				"name": "Emily Claire Elizabeth Tomalin",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71525-d06fe210-2a09-4654-929c-1f934d9b04d4.png"
-			}],
-			"incumbent": {
-				"mp": "Theresa May",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Theresa May",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10426/theresa_may/maidenhead",
 			"electorate": 76076,
-			"turnout": 76.6,
+			"turnout": { "pc": 76.7, "value": 58347 },
 			"valid": 58239,
 			"spoiled": 108,
 			"majority": 26457
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Theresa May",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74187,
-			"turnout": 72.8,
+			"turnout": { "pc":72.8, "value": 54038 },
 			"valid": 53855,
 			"spoiled": 183,
 			"majority": 29059

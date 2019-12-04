@@ -2,7 +2,8 @@
 	"id": "E14000615",
 	"title": "Camberwell and Peckham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1088,
 				"name": "Joshua Ogunleye",
@@ -27,33 +28,30 @@
 				"id": 72552,
 				"name": "Cass Jean-Claude Cass-Horne",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72552-01f737cb-ee8d-4a5e-bd58-899ab8ab3b6d.png"
 			},{
 				"id": 72553,
 				"name": "Peter James Quentin",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Harriet Harman",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Harriet Harman",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10260/harriet_harman/camberwell_and_peckham",
 			"electorate": 85613,
-			"turnout": 67.1,
+			"turnout": { "pc": 67.3, "value": 57648 },
 			"valid": 57412,
 			"spoiled": 236,
 			"majority": 37316
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Harriet Harman",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82746,
-			"turnout": 62.6,
+			"turnout": { "pc":62.6, "value": 51779 },
 			"valid": 51561,
 			"spoiled": 218,
 			"majority": 25824

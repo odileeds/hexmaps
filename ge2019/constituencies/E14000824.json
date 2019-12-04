@@ -2,7 +2,8 @@
 	"id": "E14000824",
 	"title": "Mole Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3051,
 				"name": "Paul Beresford",
@@ -17,7 +18,7 @@
 				"id": 55839,
 				"name": "Lisa Claire Scott",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55839.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55839-0c84d63b-76ce-42c6-8a5b-5b06a104223a.png"
 			},{
 				"id": 72477,
 				"name": "Brian Andrew Bostock",
@@ -33,27 +34,24 @@
 				"name": "Robin Michael Horsley",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Paul Beresford",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Beresford",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10041/paul_beresford/mole_valley",
 			"electorate": 74545,
-			"turnout": 76.1,
+			"turnout": { "pc": 76.3, "value": 56866 },
 			"valid": 56726,
 			"spoiled": 140,
 			"majority": 24137
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Beresford",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74038,
-			"turnout": 74.7,
+			"turnout": { "pc":74.7, "value": 55332 },
 			"valid": 55140,
 			"spoiled": 192,
 			"majority": 25453

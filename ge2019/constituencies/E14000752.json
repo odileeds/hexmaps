@@ -2,7 +2,8 @@
 	"id": "E14000752",
 	"title": "Hornsey and Wood Green",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1986,
 				"name": "Dawn Barnes",
@@ -38,27 +39,24 @@
 				"name": "Daniel John Corrigan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Catherine West",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Catherine West",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25328/catherine_west/hornsey_and_wood_green",
 			"electorate": 79946,
-			"turnout": 77.9,
+			"turnout": { "pc": 78.1, "value": 62451 },
 			"valid": 62293,
 			"spoiled": 158,
 			"majority": 30738
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Catherine West",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79247,
-			"turnout": 73.1,
+			"turnout": { "pc":73.1, "value": 57962 },
 			"valid": 57785,
 			"spoiled": 177,
 			"majority": 11058

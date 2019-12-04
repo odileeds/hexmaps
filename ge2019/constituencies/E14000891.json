@@ -2,7 +2,8 @@
 	"id": "E14000891",
 	"title": "Redcar",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4408,
 				"name": "Anna Turley",
@@ -33,27 +34,24 @@
 				"name": "Frankie Wales",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71596.png"
-			}],
-			"incumbent": {
-				"mp": "Anna Turley",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Anna Turley",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25313/anna_turley/redcar",
 			"electorate": 66836,
-			"turnout": 63.7,
+			"turnout": { "pc": 63.8, "value": 42626 },
 			"valid": 42560,
 			"spoiled": 66,
 			"majority": 9485
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Anna Turley",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 64826,
-			"turnout": 63.4,
+			"turnout": { "pc":63.4, "value": 41082 },
 			"valid": 40919,
 			"spoiled": 163,
 			"majority": 10388

@@ -2,7 +2,8 @@
 	"id": "E14000861",
 	"title": "Northampton North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1059,
 				"name": "Sally Keeble",
@@ -22,28 +23,25 @@
 				"id": 72521,
 				"name": "Katherine Anne Pate",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72521-409ee4fc-6493-443a-a2fc-8e171926280c.png"
-			}],
-			"incumbent": {
-				"mp": "Michael Ellis",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72521-619ee034-8ac7-415d-a144-4e3c4a392112.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michael Ellis",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24866/michael_ellis/northampton_north",
 			"electorate": 58861,
-			"turnout": 68.6,
+			"turnout": { "pc": 68.7, "value": 40441 },
 			"valid": 40378,
 			"spoiled": 63,
 			"majority": 807
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Ellis",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 59144,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 39523 },
 			"valid": 39411,
 			"spoiled": 112,
 			"majority": 3245

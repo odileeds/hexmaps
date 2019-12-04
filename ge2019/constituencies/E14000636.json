@@ -2,7 +2,8 @@
 	"id": "E14000636",
 	"title": "Chipping Barnet",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3369,
 				"name": "Theresa Villiers",
@@ -28,27 +29,24 @@
 				"name": "John Anthony Sheffield",
 				"party": { "code": "", "title": "Advance Together" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Theresa Villiers",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Theresa Villiers",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11500/theresa_villiers/chipping_barnet",
 			"electorate": 77218,
-			"turnout": 71.8,
+			"turnout": { "pc": 72.0, "value": 55627 },
 			"valid": 55423,
 			"spoiled": 204,
 			"majority": 353
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Theresa Villiers",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77807,
-			"turnout": 68.3,
+			"turnout": { "pc":68.3, "value": 53152 },
 			"valid": 53013,
 			"spoiled": 139,
 			"majority": 7656

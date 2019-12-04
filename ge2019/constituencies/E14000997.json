@@ -2,7 +2,8 @@
 	"id": "E14000997",
 	"title": "Tonbridge and Malling",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4238,
 				"name": "Tom Tugendhat",
@@ -23,27 +24,24 @@
 				"name": "Richard Morris",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71693.png"
-			}],
-			"incumbent": {
-				"mp": "Thomas Tugendhat",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tom Tugendhat",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25374/thomas_tugendhat/tonbridge_and_malling",
 			"electorate": 77417,
-			"turnout": 73.5,
+			"turnout": { "pc": 73.6, "value": 57015 },
 			"valid": 56907,
 			"spoiled": 108,
 			"majority": 23508
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tom Tugendhat",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74877,
-			"turnout": 71.9,
+			"turnout": { "pc":71.9, "value": 53832 },
 			"valid": 53670,
 			"spoiled": 162,
 			"majority": 23734

@@ -2,7 +2,8 @@
 	"id": "E14000860",
 	"title": "North Wiltshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1251,
 				"name": "Brian Mathew",
@@ -23,27 +24,24 @@
 				"name": "Bonnie Jackson",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71568-25ffe0a1-2d98-4317-8d35-b15d71e83d82.png"
-			}],
-			"incumbent": {
-				"mp": "James Gray",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Gray",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10240/james_gray/north_wiltshire",
 			"electorate": 71408,
-			"turnout": 75.2,
+			"turnout": { "pc": 75.3, "value": 53797 },
 			"valid": 53706,
 			"spoiled": 91,
 			"majority": 22877
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Gray",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67851,
-			"turnout": 74.7,
+			"turnout": { "pc":74.7, "value": 50667 },
 			"valid": 50556,
 			"spoiled": 111,
 			"majority": 21046

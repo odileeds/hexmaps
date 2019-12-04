@@ -2,7 +2,8 @@
 	"id": "W07000056",
 	"title": "Newport West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2752,
 				"name": "Jonathan Clark",
@@ -33,27 +34,33 @@
 				"name": "Cameron Owen Edwards",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72628-5f2043bd-0bed-41b8-bf1b-d19d2fd6c67e.png"
-			}],
-			"incumbent": {
-				"mp": "Ruth Jones",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2019-04-04": {
+			"type": "by",
 			"mp": "Ruth Jones",
-			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25746/ruth_jones/newport_west",
-			"electorate": 64399,
-			"turnout": 37.1,
+			"party": { "code": "Lab", "title": "Labour" },
+			"turnout": { "pc": 37.1, "value": 23615 },
 			"valid": 23515,
-			"spoiled": 80,
+			"spoiled": 100,
 			"majority": 1951
 		},
-		"2015": {
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Paul Flynn",
+			"party": { "code": "Lab" },
+			"electorate": 64399,
+			"turnout": { "pc": 67.6, "value": 43518 },
+			"valid": 43438,
+			"spoiled": 80,
+			"majority": 5658
+		},
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Flynn",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62137,
-			"turnout": 65.1,
+			"turnout": { "pc":65.1, "value": 40423 },
 			"valid": 40347,
 			"spoiled": 76,
 			"majority": 3510

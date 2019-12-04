@@ -2,7 +2,8 @@
 	"id": "E14000612",
 	"title": "Bury South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3904,
 				"name": "Ivan Lewis",
@@ -49,21 +50,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ivan Lewis",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10357/ivan_lewis/bury_south",
 			"electorate": 73715,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.3, "value": 51113 },
 			"valid": 50990,
 			"spoiled": 123,
 			"majority": 5965
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ivan Lewis",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73883,
-			"turnout": 64.2,
+			"turnout": { "pc":64.2, "value": 47396 },
 			"valid": 47215,
 			"spoiled": 181,
 			"majority": 4922

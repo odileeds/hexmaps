@@ -2,7 +2,8 @@
 	"id": "E14000750",
 	"title": "Holborn and St Pancras",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5077,
 				"name": "Keir Starmer",
@@ -27,7 +28,7 @@
 				"id": 47604,
 				"name": "Alexandra Hayward",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47604-a57aece0-5ae4-43c7-aa17-b8c5aea78a28.png"
 			},{
 				"id": 72612,
 				"name": "Hector Birchwood",
@@ -37,28 +38,25 @@
 				"id": 72613,
 				"name": "Thomas Scripps",
 				"party": { "code": "", "title": "Socialist Equality Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Keir Starmer",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72613-6f7338ec-cac9-431a-9282-61adf737fb2d.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Keir Starmer",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25353/keir_starmer/holborn_and_st_pancras",
 			"electorate": 88088,
-			"turnout": 67.0,
+			"turnout": { "pc": 67.2, "value": 59175 },
 			"valid": 58997,
 			"spoiled": 178,
 			"majority": 30509
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Keir Starmer",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 86764,
-			"turnout": 63.5,
+			"turnout": { "pc":63.5, "value": 55136 },
 			"valid": 54917,
 			"spoiled": 219,
 			"majority": 17048

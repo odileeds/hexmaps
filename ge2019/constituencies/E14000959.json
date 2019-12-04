@@ -2,7 +2,8 @@
 	"id": "E14000959",
 	"title": "Spelthorne",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3840,
 				"name": "Kwasi Kwarteng",
@@ -17,33 +18,30 @@
 				"id": 50927,
 				"name": "Pavitar Kaur Mann",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50927.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50927-a9f207ef-bead-4e8d-869b-8d1a88714804.png"
 			},{
 				"id": 71658,
 				"name": "David Campanale",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71658.png"
-			}],
-			"incumbent": {
-				"mp": "Kwasi Kwarteng",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kwasi Kwarteng",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24770/kwasi_kwarteng/spelthorne",
 			"electorate": 72641,
-			"turnout": 69.0,
+			"turnout": { "pc": 69.1, "value": 50221 },
 			"valid": 50115,
 			"spoiled": 106,
 			"majority": 13425
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kwasi Kwarteng",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71592,
-			"turnout": 68.8,
+			"turnout": { "pc":68.8, "value": 49270 },
 			"valid": 49079,
 			"spoiled": 191,
 			"majority": 14152

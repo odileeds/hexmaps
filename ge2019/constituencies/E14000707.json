@@ -2,7 +2,8 @@
 	"id": "E14000707",
 	"title": "Gainsborough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3556,
 				"name": "Edward Leigh",
@@ -15,35 +16,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55489e69f1cad250106f2e5f.png"
 			},{
 				"id": 63209,
-				"name": "Perry Peter Smith",
+				"name": "Perry Smith",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63209-89ac5b49-3724-428f-af95-714231f050fc.png"
 			},{
 				"id": 72200,
 				"name": "Mary Elaine Cavill",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Edward Leigh",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Edward Leigh",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10352/edward_leigh/gainsborough",
 			"electorate": 75893,
-			"turnout": 67.8,
+			"turnout": { "pc": 68.0, "value": 51575 },
 			"valid": 51425,
 			"spoiled": 150,
 			"majority": 17023
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Edward Leigh",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74686,
-			"turnout": 66.2,
+			"turnout": { "pc":66.2, "value": 49450 },
 			"valid": 49261,
 			"spoiled": 189,
 			"majority": 15449

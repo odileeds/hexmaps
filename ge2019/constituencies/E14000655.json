@@ -2,7 +2,8 @@
 	"id": "E14000655",
 	"title": "Croydon North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5372,
 				"name": "Steve Reed",
@@ -10,9 +11,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553c30a0fc4fe0dc23f26c6a.png"
 			},{
 				"id": 35233,
-				"name": "Claire Elizabeth Bonham",
+				"name": "Claire Bonham",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35233-906871b5-6e98-4ab0-9d86-bab5f1a8b195.png"
 			},{
 				"id": 42187,
 				"name": "Donald Ekekhomen",
@@ -27,33 +28,30 @@
 				"id": 71290,
 				"name": "Chidi Ngwaba",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71290-6e39b28a-fedc-488f-972b-63938955bbe7.png"
 			},{
 				"id": 72559,
 				"name": "Candace Mitchell",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Steve Reed",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72559-890284aa-1334-4bd6-aad3-97b339f475bf.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Steve Reed",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25170/steve_reed/croydon_north",
 			"electorate": 87461,
-			"turnout": 68.2,
+			"turnout": { "pc": 68.3, "value": 59754 },
 			"valid": 59623,
 			"spoiled": 131,
 			"majority": 32365
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Steve Reed",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 85941,
-			"turnout": 62.5,
+			"turnout": { "pc":62.5, "value": 53710 },
 			"valid": 53522,
 			"spoiled": 188,
 			"majority": 21364

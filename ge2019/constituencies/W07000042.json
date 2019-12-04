@@ -2,7 +2,8 @@
 	"id": "W07000042",
 	"title": "Delyn",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1869,
 				"name": "David Hanson",
@@ -28,27 +29,24 @@
 				"name": "Rob Roberts",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71395.png"
-			}],
-			"incumbent": {
-				"mp": "David Hanson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Hanson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10259/david_hanson/delyn",
 			"electorate": 54090,
-			"turnout": 72.9,
+			"turnout": { "pc": 73.0, "value": 39487 },
 			"valid": 39418,
 			"spoiled": 69,
 			"majority": 4240
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Hanson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 53639,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 37523 },
 			"valid": 37457,
 			"spoiled": 66,
 			"majority": 2930

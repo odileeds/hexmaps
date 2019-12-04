@@ -2,7 +2,8 @@
 	"id": "E14000716",
 	"title": "Great Grimsby",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4846,
 				"name": "Melanie Onn",
@@ -30,30 +31,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70534.png"
 			},{
 				"id": 72435,
-				"name": "Nigel James Winn",
+				"name": "Nigel Winn",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Melanie Onn",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72435-1d32e64d-1730-4350-ade0-79a397f048fe.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Melanie Onn",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25317/melanie_onn/great_grimsby",
 			"electorate": 61743,
-			"turnout": 57.5,
+			"turnout": { "pc": 57.6, "value": 35581 },
 			"valid": 35521,
 			"spoiled": 60,
 			"majority": 2565
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Melanie Onn",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 59200,
-			"turnout": 57.2,
+			"turnout": { "pc":57.2, "value": 33835 },
 			"valid": 33731,
 			"spoiled": 104,
 			"majority": 4540

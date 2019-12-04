@@ -2,7 +2,8 @@
 	"id": "E14000644",
 	"title": "Colchester",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1613,
 				"name": "Will Quince",
@@ -23,27 +24,24 @@
 				"name": "Tina McKay",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71378.png"
-			}],
-			"incumbent": {
-				"mp": "Will Quince",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Will Quince",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25403/will_quince/colchester",
 			"electorate": 79996,
-			"turnout": 66.9,
+			"turnout": { "pc": 67.1, "value": 53657 },
 			"valid": 53545,
 			"spoiled": 112,
 			"majority": 5677
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Will Quince",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74204,
-			"turnout": 65.6,
+			"turnout": { "pc":65.6, "value": 48710 },
 			"valid": 48593,
 			"spoiled": 117,
 			"majority": 5575

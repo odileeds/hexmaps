@@ -2,7 +2,8 @@
 	"id": "W07000045",
 	"title": "Llanelli",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 248,
 				"name": "Nia Griffith",
@@ -23,27 +24,24 @@
 				"name": "Mari Arthur",
 				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34306.png"
-			}],
-			"incumbent": {
-				"mp": "Nia Griffith",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nia Griffith",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11692/nia_griffith/llanelli",
 			"electorate": 59434,
-			"turnout": 67.9,
+			"turnout": { "pc": 68.0, "value": 40398 },
 			"valid": 40342,
 			"spoiled": 56,
 			"majority": 12024
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nia Griffith",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 59314,
-			"turnout": 65.1,
+			"turnout": { "pc":65.1, "value": 38614 },
 			"valid": 38574,
 			"spoiled": 40,
 			"majority": 7095

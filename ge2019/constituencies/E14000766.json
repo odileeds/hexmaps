@@ -2,7 +2,8 @@
 	"id": "E14000766",
 	"title": "Keighley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4363,
 				"name": "John Grogan",
@@ -33,27 +34,24 @@
 				"name": "Matthew Edward Rose",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "John Grogan",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Grogan",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10248/john_grogan/keighley",
 			"electorate": 71429,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 51805 },
 			"valid": 51714,
 			"spoiled": 91,
 			"majority": 239
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kris Hopkins",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68865,
-			"turnout": 71.6,
+			"turnout": { "pc":71.6, "value": 49321 },
 			"valid": 49123,
 			"spoiled": 198,
 			"majority": 3053

@@ -2,7 +2,8 @@
 	"id": "E14000993",
 	"title": "Thirsk and Malton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4236,
 				"name": "Kevin Hollinrake",
@@ -43,27 +44,24 @@
 				"name": "Michael John Taylor",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Kevin Hollinrake",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kevin Hollinrake",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25415/kevin_hollinrake/thirsk_and_malton",
 			"electorate": 78670,
-			"turnout": 71.1,
+			"turnout": { "pc": 71.2, "value": 56023 },
 			"valid": 55929,
 			"spoiled": 94,
 			"majority": 19001
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kevin Hollinrake",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77451,
-			"turnout": 67.8,
+			"turnout": { "pc":67.8, "value": 52535 },
 			"valid": 52365,
 			"spoiled": 170,
 			"majority": 19456

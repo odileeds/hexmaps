@@ -2,7 +2,8 @@
 	"id": "E14000819",
 	"title": "Middlesbrough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5541,
 				"name": "Andy McDonald",
@@ -33,27 +34,24 @@
 				"name": "Faye Clements",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71536.png"
-			}],
-			"incumbent": {
-				"mp": "Andy McDonald",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andy McDonald",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25169/andy_mcdonald/middlesbrough",
 			"electorate": 61059,
-			"turnout": 58.4,
+			"turnout": { "pc": 58.5, "value": 35694 },
 			"valid": 35637,
 			"spoiled": 57,
 			"majority": 13873
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andy McDonald",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61873,
-			"turnout": 53.1,
+			"turnout": { "pc":53.1, "value": 32880 },
 			"valid": 32706,
 			"spoiled": 174,
 			"majority": 12477

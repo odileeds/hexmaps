@@ -2,7 +2,8 @@
 	"id": "E14000879",
 	"title": "Plymouth, Moor View",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4223,
 				"name": "Johnny Mercer",
@@ -23,27 +24,24 @@
 				"name": "Ewan Melling Flavell",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71988-4ad31316-c4b5-4260-af99-c58edf3d9780.png"
-			}],
-			"incumbent": {
-				"mp": "Johnny Mercer",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Johnny Mercer",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25367/johnny_mercer/plymouth%2C_moor_view",
 			"electorate": 69342,
-			"turnout": 65.5,
+			"turnout": { "pc": 65.6, "value": 45487 },
 			"valid": 45417,
 			"spoiled": 70,
 			"majority": 5019
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Johnny Mercer",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68246,
-			"turnout": 62.6,
+			"turnout": { "pc":62.6, "value": 42691 },
 			"valid": 42606,
 			"spoiled": 85,
 			"majority": 1026

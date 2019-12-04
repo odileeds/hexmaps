@@ -2,7 +2,8 @@
 	"id": "E14000562",
 	"title": "Birmingham, Hall Green",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3955,
 				"name": "Roger Godsiff",
@@ -32,28 +33,25 @@
 				"id": 72534,
 				"name": "Penny-Anne O'Donnell",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Roger Godsiff",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72534-b0296e12-85cf-48c9-a8f6-124f2966246a.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Roger Godsiff",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10231/roger_godsiff/birmingham%2C_hall_green",
 			"electorate": 78271,
-			"turnout": 69.4,
+			"turnout": { "pc": 69.6, "value": 54497 },
 			"valid": 54310,
 			"spoiled": 187,
 			"majority": 33944
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Roger Godsiff",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76330,
-			"turnout": 62.0,
+			"turnout": { "pc":62.0, "value": 47323 },
 			"valid": 47046,
 			"spoiled": 277,
 			"majority": 19818

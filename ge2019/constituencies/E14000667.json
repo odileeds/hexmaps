@@ -2,7 +2,8 @@
 	"id": "E14000667",
 	"title": "Don Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 978,
 				"name": "Caroline Flint",
@@ -10,19 +11,19 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357539367dc5383f552ce0.png"
 			},{
 				"id": 2542,
-				"name": "Mark Lindsay Alcock",
+				"name": "Mark Alcock",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2542-e88c1f6e-e944-4a0a-a3b5-a267969afb3e.png"
 			},{
 				"id": 71400,
 				"name": "Paul Alan Whitehurst",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71400-3538c207-b622-4dcd-aa71-4ab0572f5c6f.png"
 			},{
 				"id": 71861,
 				"name": "Chris Holmes",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71861-221fd938-6ad8-459a-b3ec-9a549aeb0d55.png"
 			},{
 				"id": 72038,
 				"name": "Nicholas Fletcher",
@@ -33,27 +34,24 @@
 				"name": "Kate Needham",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72503-01c79ea2-e994-4184-a9ec-2b199984173f.png"
-			}],
-			"incumbent": {
-				"mp": "Caroline Flint",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Caroline Flint",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10202/caroline_flint/don_valley",
 			"electorate": 73990,
-			"turnout": 62.2,
+			"turnout": { "pc": 62.3, "value": 46083 },
 			"valid": 45988,
 			"spoiled": 95,
 			"majority": 5169
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Caroline Flint",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71299,
-			"turnout": 59.8,
+			"turnout": { "pc":59.8, "value": 42657 },
 			"valid": 42486,
 			"spoiled": 171,
 			"majority": 8885

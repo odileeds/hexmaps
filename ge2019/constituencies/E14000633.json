@@ -2,7 +2,8 @@
 	"id": "E14000633",
 	"title": "Chichester",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6138,
 				"name": "Gillian Keegan",
@@ -33,27 +34,24 @@
 				"name": "Adam Gregory Brown",
 				"party": { "code": "", "title": "Libertarian Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Gillian Keegan",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gillian Keegan",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25670/gillian_keegan/chichester",
 			"electorate": 84991,
-			"turnout": 70.5,
+			"turnout": { "pc": 70.7, "value": 60047 },
 			"valid": 59918,
 			"spoiled": 129,
 			"majority": 22621
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Tyrie",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83396,
-			"turnout": 68.8,
+			"turnout": { "pc":68.8, "value": 57337 },
 			"valid": 57139,
 			"spoiled": 198,
 			"majority": 24413

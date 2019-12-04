@@ -2,7 +2,8 @@
 	"id": "W07000041",
 	"title": "Ynys Môn",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34587,
 				"name": "Virginia Crosbie",
@@ -22,28 +23,25 @@
 				"id": 71747,
 				"name": "Mary Roberts",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71747.png"
-			}],
-			"incumbent": {
-				"mp": "Albert Owen",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71747-ff2a0046-b9ce-4ab5-b402-bf69fbfedf06.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Albert Owen",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11148/albert_owen/ynys_mon",
 			"electorate": 52921,
-			"turnout": 70.6,
+			"turnout": { "pc": 70.7, "value": 37407 },
 			"valid": 37367,
 			"spoiled": 40,
 			"majority": 5259
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Albert Owen",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 49939,
-			"turnout": 70.1,
+			"turnout": { "pc":70.1, "value": 34993 },
 			"valid": 34926,
 			"spoiled": 67,
 			"majority": 229

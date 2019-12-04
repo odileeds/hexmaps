@@ -2,7 +2,8 @@
 	"id": "E14000683",
 	"title": "East Yorkshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1415,
 				"name": "Mike Jackson",
@@ -28,27 +29,24 @@
 				"name": "Dale Richard Needham",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Greg Knight",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Greg Knight",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11026/greg_knight/east_yorkshire",
 			"electorate": 81065,
-			"turnout": 66.6,
+			"turnout": { "pc": 66.7, "value": 54053 },
 			"valid": 53956,
 			"spoiled": 97,
 			"majority": 15006
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Greg Knight",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81023,
-			"turnout": 62.0,
+			"turnout": { "pc":62.0, "value": 50218 },
 			"valid": 49991,
 			"spoiled": 227,
 			"majority": 14933

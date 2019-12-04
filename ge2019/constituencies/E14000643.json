@@ -2,7 +2,8 @@
 	"id": "E14000643",
 	"title": "Cleethorpes",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 495,
 				"name": "Martin Vickers",
@@ -23,27 +24,24 @@
 				"name": "Jodi Shanahan",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71914-063dbba5-3e46-477a-8ec8-864b6988b438.png"
-			}],
-			"incumbent": {
-				"mp": "Martin Vickers",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Martin Vickers",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24814/martin_vickers/cleethorpes",
 			"electorate": 72711,
-			"turnout": 65.8,
+			"turnout": { "pc": 65.9, "value": 47923 },
 			"valid": 47844,
 			"spoiled": 79,
 			"majority": 10400
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Martin Vickers",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71008,
-			"turnout": 63.7,
+			"turnout": { "pc":63.7, "value": 45221 },
 			"valid": 45089,
 			"spoiled": 132,
 			"majority": 7893

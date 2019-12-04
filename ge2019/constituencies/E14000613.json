@@ -2,7 +2,8 @@
 	"id": "E14000613",
 	"title": "Bury St Edmunds",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4647,
 				"name": "Helen Geake",
@@ -23,27 +24,24 @@
 				"name": "Cliff Waterman",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60116-0eb01294-1f59-40b6-a0d0-cdc5ee734f93.png"
-			}],
-			"incumbent": {
-				"mp": "Jo Churchill",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jo Churchill",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25408/jo_churchill/bury_st_edmunds",
 			"electorate": 86071,
-			"turnout": 72.2,
+			"turnout": { "pc": 72.4, "value": 62312 },
 			"valid": 62160,
 			"spoiled": 152,
 			"majority": 18441
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jo Churchill",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 85982,
-			"turnout": 69.3,
+			"turnout": { "pc":69.3, "value": 59578 },
 			"valid": 59341,
 			"spoiled": 237,
 			"majority": 21301

@@ -2,7 +2,8 @@
 	"id": "E14000786",
 	"title": "Lewes",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 897,
 				"name": "Maria Caulfield",
@@ -28,27 +29,24 @@
 				"name": "Paul Cragg",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Maria Caulfield",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Maria Caulfield",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25397/maria_caulfield/lewes",
 			"electorate": 70941,
-			"turnout": 76.4,
+			"turnout": { "pc": 76.6, "value": 54328 },
 			"valid": 54192,
 			"spoiled": 136,
 			"majority": 5508
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Maria Caulfield",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69481,
-			"turnout": 73.0,
+			"turnout": { "pc":73.0, "value": 50731 },
 			"valid": 50540,
 			"spoiled": 191,
 			"majority": 1083

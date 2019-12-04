@@ -2,7 +2,8 @@
 	"id": "E14000537",
 	"title": "Ashton-under-Lyne",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5189,
 				"name": "Angela Rayner",
@@ -28,27 +29,24 @@
 				"name": "Dan Costello",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72117-89fa80ff-c737-48b3-8abd-239c99d4e73c.png"
-			}],
-			"incumbent": {
-				"mp": "Angela Rayner",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Angela Rayner",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25429/angela_rayner/ashton-under-lyne",
 			"electorate": 67674,
-			"turnout": 58.8,
+			"turnout": { "pc": 58.9, "value": 39854 },
 			"valid": 39773,
 			"spoiled": 81,
 			"majority": 11295
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Angela Rayner",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68343,
-			"turnout": 57.2,
+			"turnout": { "pc":57.2, "value": 39116 },
 			"valid": 38918,
 			"spoiled": 198,
 			"majority": 10756

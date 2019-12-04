@@ -2,7 +2,8 @@
 	"id": "E14000530",
 	"title": "Aldershot",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1201,
 				"name": "Alan Hilliar",
@@ -23,27 +24,24 @@
 				"name": "Donna Wallace",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46197-f0273bef-cf5a-4f8d-8d83-797e57efcea2.png"
-			}],
-			"incumbent": {
-				"mp": "Leo Docherty",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Leo Docherty",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25628/leo_docherty/aldershot",
 			"electorate": 76205,
-			"turnout": 64.2,
+			"turnout": { "pc": 64.4, "value": 49052 },
 			"valid": 48950,
 			"spoiled": 102,
 			"majority": 11473
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gerald Howarth",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72430,
-			"turnout": 63.9,
+			"turnout": { "pc":63.9, "value": 46305 },
 			"valid": 46191,
 			"spoiled": 114,
 			"majority": 14901

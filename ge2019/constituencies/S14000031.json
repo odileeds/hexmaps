@@ -2,7 +2,8 @@
 	"id": "S14000031",
 	"title": "Glasgow North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1952,
 				"name": "Patrick Grady",
@@ -33,27 +34,24 @@
 				"name": "Dionne Moore Cocozza",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72556-3e07dbb0-9d32-40b1-90e1-25d5c66cef78.png"
-			}],
-			"incumbent": {
-				"mp": "Patrick Grady",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Patrick Grady",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25299/patrick_grady/glasgow_north",
 			"electorate": 53862,
-			"turnout": 62.1,
+			"turnout": { "pc": 62.3, "value": 33534 },
 			"valid": 33473,
 			"spoiled": 61,
 			"majority": 1060
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Patrick Grady",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 60169,
-			"turnout": 61.5,
+			"turnout": { "pc":61.5, "value": 36987 },
 			"valid": 36922,
 			"spoiled": 65,
 			"majority": 9295

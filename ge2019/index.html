@@ -270,45 +270,45 @@
 
 		lbl = '<h2 class="popup-title">'+(data.title||title)+'</h2>';
 		if(data.elections){
-			if(data.elections['2019']){
-				yy = "2019";
+			if(data.elections['2019-12-12']){
+				yy = "2019-12-12";
 				if(data.elections[yy].party){
 					p1 = getPartyDetails(data.elections[yy].party);
 					p2 = getPartyDetails(data.elections[yy].incumbent.party);
 					//if(data.elections[yy].party) lbl += '<div class="win" style="background-color:'+p1.color+';color:%COLOR%">'+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
 				}else{
-					lbl += '<p>Candidates:</p>';
+					lbl += '<p>2019 Candidates:</p>';
 				}
 				total = 0;
 				// Work out total votes cast and set any missing ones to zero
-				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
-					if(data.elections['2019'].candidates[c].votes) total += data.elections['2019'].candidates[c].votes;
-					else data.elections['2019'].candidates[c].votes = 0;
+				for(var c = 0; c < data.elections[yy].candidates.length; c++){
+					if(data.elections[yy].candidates[c].votes) total += data.elections[yy].candidates[c].votes;
+					else data.elections[yy].candidates[c].votes = 0;
 				}
 				// Sort the candidates by their results
-				data.elections['2019'].candidates.sort(function(a, b) {
+				data.elections[yy].candidates.sort(function(a, b) {
 					if(a.votes===b.votes) return 0;
 					else return (a.votes < b.votes) ? -1 : 1;
 				}).reverse();
 				
 				if(total > 0){
-					p1 = getPartyDetails(data.elections['2019'].candidates[0].party);
+					p1 = getPartyDetails(data.elections[yy].candidates[0].party);
 					lbl += '<div class="winner" style="background-color:'+p1.color+';color:%COLOR%;">';
-					lbl += '<div class="image"><div style="background-image:url(\''+data.elections['2019'].candidates[0].img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections['2019'].candidates[0].name+'"></div></div>';
+					lbl += '<div class="image"><div style="background-image:url(\''+data.elections[yy].candidates[0].img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections[yy].candidates[0].name+'"></div></div>';
 					lbl += '<div class="about">';
 					lbl += ''+p1.title+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)
-					lbl += '<br />'+data.elections['2019'].candidates[0].name;
+					lbl += '<br />'+data.elections[yy].candidates[0].name;
 					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
 					lbl += '</div></div>';
 				}
 				lbl += '<table>';
-				for(var c = 0; c < data.elections['2019'].candidates.length; c++){
-					party = data.elections['2019'].candidates[c].party;
+				for(var c = 0; c < data.elections[yy].candidates.length; c++){
+					party = data.elections[yy].candidates[c].party;
 					p1 = getPartyDetails(party);
-					name = data.elections['2019'].candidates[c].name;
-					url = "https://candidates.democracyclub.org.uk/person/"+data.elections['2019'].candidates[c].id;
-					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections['2019'].candidates[c].votes)/total).toFixed()+'%;"></span>'+p1.short+': '+data.elections['2019'].candidates[c].votes.toLocaleString()+'</td></tr>'
-					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>'
+					name = data.elections[yy].candidates[c].name;
+					url = "https://candidates.democracyclub.org.uk/person/"+data.elections[yy].candidates[c].id;
+					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections[yy].candidates[c].votes)/total).toFixed()+'%;"></span>'+p1.short+': '+data.elections[yy].candidates[c].votes.toLocaleString()+'</td></tr>';
+					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>';
 
 				}
 				lbl += '</table>';
@@ -316,24 +316,29 @@
 				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
 				if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
 				if(tbl) lbl += '<table>'+tbl+'</table>';
-				if(data.elections[yy].incumbent && (data.elections['2019'].incumbent.mp!=data.elections['2017'].mp || data.elections['2019'].incumbent.party.code!=data.elections['2017'].party.code)){
-					lbl += '<h3 class="popup-title">'+yy+' (November)</h3><p>';
+
+				if(data.elections[yy].incumbent && (data.elections['2019-12-12'].incumbent.mp!=data.elections['2017-06-08'].mp || data.elections['2019-12-12'].incumbent.party.code!=data.elections['2017-06-08'].party.code)){
+					lbl += '<h3 class="popup-title">Incumbent</h3><p>';
 					party = data.elections[yy].incumbent.party;
 					p1 = getPartyDetails(party);
-					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019'].incumbent.mp+' - '+p1.title;
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019-12-12'].incumbent.mp+' - '+p1.title;
 				}
 				
 			}
-			years = ['2017','2015'];
-			for(var y = 0; y < years.length; y++){
-				yy = years[y];
-				if(data.elections[yy]){
-					lbl += '<h3 class="popup-title">'+yy+' General Election</h3><p>';
+			years = ['2017-06-08','2015-05-07'];
+			for(var yy in data.elections){
+
+				if(yy != "2019-12-12" && data.elections[yy]){
+					if(data.elections[yy].type=="by"){
+						lbl += '<h3 class="popup-title">'+yy.substr(0,4)+' '+uppercaseFirst(data.elections[yy].type)+'-election</h3><p>';
+					}else{
+						lbl += '<h3 class="popup-title">'+yy.substr(0,4)+' '+uppercaseFirst(data.elections[yy].type)+' Election</h3><p>';
+					}
 					party = data.elections[yy].party;
 					p1 = getPartyDetails(party);
 					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
 					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
-					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')<br />';
+					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')<br />';
 					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';
 					lbl += '</p>';
 				}
@@ -351,6 +356,9 @@
 		return {'label':lbl,'class':'generalelection','color':wincolour||''};
 	}
 	
+	function uppercaseFirst(string){
+		return string.charAt(0).toUpperCase() + string.slice(1);
+	}
 	function validParties(_obj,key){
 		var got = {};
 		for(var r in _obj.data[key]){

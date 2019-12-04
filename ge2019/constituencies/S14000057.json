@@ -2,7 +2,8 @@
 	"id": "S14000057",
 	"title": "Stirling",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5524,
 				"name": "Stephen Kerr",
@@ -17,7 +18,7 @@
 				"id": 22500,
 				"name": "Fayzan Rehman",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22500-1c8c5f2c-4db5-4bbd-a6f0-f8552088b799.png"
 			},{
 				"id": 70176,
 				"name": "Alyn Smith",
@@ -28,27 +29,24 @@
 				"name": "Mary Kate Ross",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72433-2ee2c498-fa84-47ed-95b7-244770865e5c.png"
-			}],
-			"incumbent": {
-				"mp": "Stephen Kerr",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Kerr",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25696/stephen_kerr/stirling",
 			"electorate": 66415,
-			"turnout": 74.3,
+			"turnout": { "pc": 74.4, "value": 49428 },
 			"valid": 49356,
 			"spoiled": 72,
 			"majority": 148
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Steven Paterson",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67236,
-			"turnout": 77.7,
+			"turnout": { "pc":77.7, "value": 52218 },
 			"valid": 52135,
 			"spoiled": 83,
 			"majority": 10480

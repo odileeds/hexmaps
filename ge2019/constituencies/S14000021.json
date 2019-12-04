@@ -2,7 +2,8 @@
 	"id": "S14000021",
 	"title": "East Renfrewshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5554,
 				"name": "Kirsten Oswald",
@@ -23,27 +24,24 @@
 				"name": "Carolann Davidson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71931.png"
-			}],
-			"incumbent": {
-				"mp": "Paul Masterton",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Masterton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25654/paul_masterton/east_renfrewshire",
 			"electorate": 70067,
-			"turnout": 76.7,
+			"turnout": { "pc": 76.8, "value": 53805 },
 			"valid": 53738,
 			"spoiled": 67,
 			"majority": 4712
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kirsten  Oswald",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 69982,
-			"turnout": 81.2,
+			"turnout": { "pc":81.2, "value": 56825 },
 			"valid": 56730,
 			"spoiled": 95,
 			"majority": 3718

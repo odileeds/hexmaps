@@ -2,7 +2,8 @@
 	"id": "N06000007",
 	"title": "Fermanagh and South Tyrone",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2427,
 				"name": "Michelle Gildernew",
@@ -28,27 +29,24 @@
 				"name": "Caroline Wheeler",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Michelle Gildernew",
-				"party": { "code": "SF", "title": "Sinn Féin" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michelle Gildernew",
 			"party": { "code": "SF" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10913/michelle_gildernew/fermanagh_and_south_tyrone",
 			"electorate": 70601,
-			"turnout": 75.8,
+			"turnout": { "pc": 76.1, "value": 53707 },
 			"valid": 53481,
 			"spoiled": 226,
 			"majority": 875
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tom Elliott",
 			"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 			"electorate": 70108,
-			"turnout": 73.0,
+			"turnout": { "pc":73.0, "value": 51150 },
 			"valid": 50864,
 			"spoiled": 286,
 			"majority": 530

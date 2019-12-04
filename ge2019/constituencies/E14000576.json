@@ -2,7 +2,8 @@
 	"id": "E14000576",
 	"title": "Bognor Regis and Littlehampton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 918,
 				"name": "Nick Gibb",
@@ -32,28 +33,25 @@
 				"id": 72347,
 				"name": "Andrew Elston",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Nick Gibb",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72347-c57351a4-c68b-454a-a44d-7418fb9ecbb7.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nick Gibb",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10225/nick_gibb/bognor_regis_and_littlehampton",
 			"electorate": 75827,
-			"turnout": 67.7,
+			"turnout": { "pc": 67.9, "value": 51450 },
 			"valid": 51352,
 			"spoiled": 98,
 			"majority": 17494
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nick Gibb",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72995,
-			"turnout": 64.9,
+			"turnout": { "pc":64.9, "value": 47340 },
 			"valid": 47116,
 			"spoiled": 224,
 			"majority": 13944

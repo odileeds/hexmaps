@@ -2,7 +2,8 @@
 	"id": "W07000077",
 	"title": "Islwyn",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2487,
 				"name": "Chris Evans",
@@ -33,27 +34,24 @@
 				"name": "Catherine Linstrum",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71960.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Evans",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Evans",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24721/chris_evans/islwyn",
 			"electorate": 56256,
-			"turnout": 64.2,
+			"turnout": { "pc": 64.3, "value": 36171 },
 			"valid": 36093,
 			"spoiled": 78,
 			"majority": 11412
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Evans",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 55697,
-			"turnout": 63.6,
+			"turnout": { "pc":63.6, "value": 35447 },
 			"valid": 35401,
 			"spoiled": 46,
 			"majority": 10404

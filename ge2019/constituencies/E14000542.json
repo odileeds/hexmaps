@@ -2,7 +2,8 @@
 	"id": "E14000542",
 	"title": "Barnsley East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3552,
 				"name": "Jim Ferguson",
@@ -22,33 +23,30 @@
 				"id": 12184,
 				"name": "Sophie Thornton",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12184-a96d3fe1-2a39-41e0-a122-9b093db52aa3.png"
 			},{
 				"id": 36831,
 				"name": "Adam Gregg",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36831.png"
-			}],
-			"incumbent": {
-				"mp": "Stephanie Peacock",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephanie Peacock",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25617/stephanie_peacock/barnsley_east",
 			"electorate": 69214,
-			"turnout": 58.9,
+			"turnout": { "pc": 59.0, "value": 40867 },
 			"valid": 40776,
 			"spoiled": 91,
 			"majority": 13283
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Dugher",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69135,
-			"turnout": 56.0,
+			"turnout": { "pc":56.0, "value": 38697 },
 			"valid": 38517,
 			"spoiled": 180,
 			"majority": 12034

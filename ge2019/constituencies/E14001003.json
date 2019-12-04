@@ -2,7 +2,8 @@
 	"id": "E14001003",
 	"title": "Truro and Falmouth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 29444,
 				"name": "Paul William Nicholson",
@@ -28,27 +29,24 @@
 				"name": "Cherilyn Mackrory",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71932.png"
-			}],
-			"incumbent": {
-				"mp": "Sarah Newton",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sarah Newton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24948/sarah_newton/truro_and_falmouth",
 			"electorate": 74683,
-			"turnout": 75.8,
+			"turnout": { "pc": 75.9, "value": 56717 },
 			"valid": 56647,
 			"spoiled": 70,
 			"majority": 3792
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sarah Newton",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73601,
-			"turnout": 70.1,
+			"turnout": { "pc":70.1, "value": 51622 },
 			"valid": 51544,
 			"spoiled": 78,
 			"majority": 14000

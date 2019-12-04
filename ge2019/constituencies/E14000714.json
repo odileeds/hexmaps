@@ -2,12 +2,13 @@
 	"id": "E14000714",
 	"title": "Grantham and Stamford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1840,
 				"name": "Harrish Bisnauthsing",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/553b4e85788906ef2517bd61.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1840-8b3f4d8f-2038-4f84-b0dd-483e9c53be8e.png"
 			},{
 				"id": 34744,
 				"name": "Gareth Davies",
@@ -22,28 +23,29 @@
 				"id": 65741,
 				"name": "Kathryn Marie Salt",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65741-727121a6-4dc5-41e7-8cea-0a25032f1818.png"
 			}],
 			"incumbent": {
 				"mp": "Nicholas Boles",
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nick Boles",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24766/nicholas_boles/grantham_and_stamford",
 			"electorate": 81740,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.4, "value": 56699 },
 			"valid": 56593,
 			"spoiled": 106,
 			"majority": 20094
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nick Boles",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81150,
-			"turnout": 66.5,
+			"turnout": { "pc":66.5, "value": 53979 },
 			"valid": 53755,
 			"spoiled": 224,
 			"majority": 18989

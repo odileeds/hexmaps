@@ -2,7 +2,8 @@
 	"id": "E14000836",
 	"title": "Normanton, Pontefract and Castleford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2607,
 				"name": "Yvette Cooper",
@@ -28,27 +29,24 @@
 				"name": "Laura Walker",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59396.png"
-			}],
-			"incumbent": {
-				"mp": "Yvette Cooper",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Yvette Cooper",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10131/yvette_cooper/normanton%2C_pontefract_and_castleford",
 			"electorate": 81641,
-			"turnout": 60.3,
+			"turnout": { "pc": 60.4, "value": 49274 },
 			"valid": 49191,
 			"spoiled": 83,
 			"majority": 14499
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Yvette Cooper",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82592,
-			"turnout": 55.8,
+			"turnout": { "pc":55.8, "value": 46080 },
 			"valid": 45897,
 			"spoiled": 183,
 			"majority": 15428

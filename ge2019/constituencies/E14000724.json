@@ -2,7 +2,8 @@
 	"id": "E14000724",
 	"title": "Haltemprice and Howden",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2885,
 				"name": "David Davis",
@@ -20,7 +21,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63628-7c6171da-27a0-472d-99ed-2f68331fb199.png"
 			},{
 				"id": 68449,
-				"name": "Angela Catherine Stone",
+				"name": "Angela Stone",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68449.png"
 			},{
@@ -28,27 +29,24 @@
 				"name": "Richard Honnoraty",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70280-8fde66ed-5e9d-4ff1-95bd-9fe52a1e1ecf.png"
-			}],
-			"incumbent": {
-				"mp": "David Davis",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Davis",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10162/david_davis/haltemprice_and_howden",
 			"electorate": 71519,
-			"turnout": 71.9,
+			"turnout": { "pc": 72.1, "value": 51599 },
 			"valid": 51440,
 			"spoiled": 159,
 			"majority": 15405
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Davis",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71195,
-			"turnout": 68.7,
+			"turnout": { "pc":68.7, "value": 48937 },
 			"valid": 48757,
 			"spoiled": 180,
 			"majority": 16195

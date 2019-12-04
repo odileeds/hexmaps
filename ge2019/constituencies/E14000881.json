@@ -2,7 +2,8 @@
 	"id": "E14000881",
 	"title": "Poole",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 193,
 				"name": "Robert Syms",
@@ -28,27 +29,24 @@
 				"name": "Barry Harding-Rathbone",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72499-4749d1d8-411d-473c-a2c8-f124484ce94f.png"
-			}],
-			"incumbent": {
-				"mp": "Robert Syms",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Robert Syms",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10582/robert_syms/poole",
 			"electorate": 73796,
-			"turnout": 67.6,
+			"turnout": { "pc": 67.7, "value": 49976 },
 			"valid": 49850,
 			"spoiled": 126,
 			"majority": 14209
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Robert Syms",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72557,
-			"turnout": 65.5,
+			"turnout": { "pc":65.5, "value": 47531 },
 			"valid": 47393,
 			"spoiled": 138,
 			"majority": 15789

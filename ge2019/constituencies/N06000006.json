@@ -2,7 +2,8 @@
 	"id": "N06000006",
 	"title": "East Londonderry",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2139,
 				"name": "Gregory Campbell",
@@ -33,27 +34,24 @@
 				"name": "Seán McNicholl",
 				"party": { "code": "", "title": "Aontú" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72036-a1683927-7005-48ce-8f3c-a1bd03462a9f.png"
-			}],
-			"incumbent": {
-				"mp": "Gregory Campbell",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gregory Campbell",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10780/gregory_campbell/east_londonderry",
 			"electorate": 67038,
-			"turnout": 61.2,
+			"turnout": { "pc": 61.4, "value": 41154 },
 			"valid": 41030,
 			"spoiled": 124,
 			"majority": 8842
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gregory Campbell",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 66926,
-			"turnout": 52.2,
+			"turnout": { "pc":52.2, "value": 34965 },
 			"valid": 34714,
 			"spoiled": 251,
 			"majority": 7804

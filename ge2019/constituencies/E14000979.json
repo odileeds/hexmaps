@@ -2,7 +2,8 @@
 	"id": "E14000979",
 	"title": "Stretford and Urmston",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3659,
 				"name": "Kate Green",
@@ -28,27 +29,24 @@
 				"name": "Mussadak Mirza",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72579-62f727d7-4b53-4695-8b59-b8c350b31b20.png"
-			}],
-			"incumbent": {
-				"mp": "Kate Green",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kate Green",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24896/kate_green/stretford_and_urmston",
 			"electorate": 71833,
-			"turnout": 69.9,
+			"turnout": { "pc": 70.0, "value": 50286 },
 			"valid": 50191,
 			"spoiled": 95,
 			"majority": 19705
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kate Green",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69026,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 46569 },
 			"valid": 46386,
 			"spoiled": 183,
 			"majority": 11685

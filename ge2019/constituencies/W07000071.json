@@ -2,7 +2,8 @@
 	"id": "W07000071",
 	"title": "Merthyr Tydfil and Rhymney",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3120,
 				"name": "Brendan D'Cruz",
@@ -33,27 +34,24 @@
 				"name": "Colin David Jones",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Gerald Jones",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gerald Jones",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25289/gerald_jones/merthyr_tydfil_and_rhymney",
 			"electorate": 55463,
-			"turnout": 60.5,
+			"turnout": { "pc": 60.6, "value": 33616 },
 			"valid": 33545,
 			"spoiled": 71,
 			"majority": 16334
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gerald Jones",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61716,
-			"turnout": 53.2,
+			"turnout": { "pc":53.2, "value": 32810 },
 			"valid": 32715,
 			"spoiled": 95,
 			"majority": 11513

@@ -2,12 +2,18 @@
 	"id": "E14000920",
 	"title": "Sheffield South East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1074,
 				"name": "Clive Betts",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/551afdf013eb34c82843cb3f.png"
+			},{
+				"id": 11976,
+				"name": "Kirk Lewis Kus",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11976-a9398b52-60f5-4e23-ae63-2d0a337d4adc.png"
 			},{
 				"id": 71618,
 				"name": "Rajin Chowdhury",
@@ -19,36 +25,28 @@
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
 			},{
-				"id": 72181,
-				"name": "Kirk Lewis Kus",
-				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			},{
 				"id": 72182,
 				"name": "Alex Martin",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Clive Betts",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Clive Betts",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10045/clive_betts/sheffield_south_east",
 			"electorate": 68945,
-			"turnout": 63.2,
+			"turnout": { "pc": 63.4, "value": 43686 },
 			"valid": 43596,
 			"spoiled": 90,
 			"majority": 11798
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Clive Betts",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70422,
-			"turnout": 59.3,
+			"turnout": { "pc":59.3, "value": 41793 },
 			"valid": 41685,
 			"spoiled": 108,
 			"majority": 12311

@@ -2,7 +2,8 @@
 	"id": "E14000782",
 	"title": "Leicester East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 23268,
 				"name": "Sanjay Prem Gogia",
@@ -33,27 +34,24 @@
 				"name": "Tara Dawn Baldwin",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72495-f57b9a74-5d56-464a-8620-98bae8c598ed.png"
-			}],
-			"incumbent": {
-				"mp": "Keith Vaz",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Keith Vaz",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10614/keith_vaz/leicester_east",
 			"electorate": 77788,
-			"turnout": 67.4,
+			"turnout": { "pc": 67.7, "value": 52682 },
 			"valid": 52424,
 			"spoiled": 258,
 			"majority": 22428
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Keith Vaz",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75430,
-			"turnout": 64.4,
+			"turnout": { "pc":64.4, "value": 48601 },
 			"valid": 48068,
 			"spoiled": 533,
 			"majority": 18352

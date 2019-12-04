@@ -2,8 +2,14 @@
 	"id": "E14000909",
 	"title": "Rutland and Melton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
+				"id": 5037,
+				"name": "Marietta King",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/5526940559bbc5c063445bd2.png"
+			},{
 				"id": 7071,
 				"name": "Alastair McQuillan",
 				"party": { "code": "Green", "title": "Green Party" },
@@ -24,36 +30,28 @@
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64319.png"
 			},{
-				"id": 72317,
-				"name": "Marietta King",
-				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
-				"img": ""
-			},{
 				"id": 72318,
 				"name": "Anthony Watchorn",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Alan Duncan",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alan Duncan",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10179/alan_duncan/rutland_and_melton",
 			"electorate": 78463,
-			"turnout": 73.4,
+			"turnout": { "pc": 73.6, "value": 57710 },
 			"valid": 57569,
 			"spoiled": 141,
 			"majority": 23104
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Duncan",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79693,
-			"turnout": 68.8,
+			"turnout": { "pc":68.8, "value": 54817 },
 			"valid": 54603,
 			"spoiled": 214,
 			"majority": 21705

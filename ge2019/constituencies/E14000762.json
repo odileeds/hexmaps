@@ -2,7 +2,8 @@
 	"id": "E14000762",
 	"title": "Isle of Wight",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4912,
 				"name": "Vix Lowthion",
@@ -33,27 +34,24 @@
 				"name": "Carl Feeney",
 				"party": { "code": "", "title": "Independent Network" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71982.png"
-			}],
-			"incumbent": {
-				"mp": "Bob Seely",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bob Seely",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25645/bob_seely/isle_of_wight",
 			"electorate": 110683,
-			"turnout": 67.3,
+			"turnout": { "pc": 67.4, "value": 74574 },
 			"valid": 74479,
 			"spoiled": 95,
 			"majority": 21069
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Turner",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 108804,
-			"turnout": 64.7,
+			"turnout": { "pc":64.7, "value": 70407 },
 			"valid": 70300,
 			"spoiled": 107,
 			"majority": 13703

@@ -2,7 +2,8 @@
 	"id": "E14000721",
 	"title": "Hackney South and Shoreditch",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 28,
 				"name": "Jonty Leff",
@@ -33,27 +34,24 @@
 				"name": "Robert Sidney Lloyd",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72588-a0391706-eb47-4080-be8d-be045b819517.png"
-			}],
-			"incumbent": {
-				"mp": "Meg Hillier",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Meg Hillier",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11605/meg_hillier/hackney_south_and_shoreditch",
 			"electorate": 83099,
-			"turnout": 66.6,
+			"turnout": { "pc": 66.9, "value": 55569 },
 			"valid": 55354,
 			"spoiled": 215,
 			"majority": 37931
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Meg Hillier",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 84971,
-			"turnout": 56.2,
+			"turnout": { "pc":56.2, "value": 47771 },
 			"valid": 47580,
 			"spoiled": 191,
 			"majority": 24213

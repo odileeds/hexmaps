@@ -2,7 +2,8 @@
 	"id": "E14000703",
 	"title": "Finchley and Golders Green",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2709,
 				"name": "Luciana Berger",
@@ -18,27 +19,24 @@
 				"name": "Ross Semple Houston",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39462.png"
-			}],
-			"incumbent": {
-				"mp": "Mike Freer",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Freer",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24934/mike_freer/finchley_and_golders_green",
 			"electorate": 73329,
-			"turnout": 71.4,
+			"turnout": { "pc": 71.7, "value": 52544 },
 			"valid": 52385,
 			"spoiled": 159,
 			"majority": 1657
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mike Freer",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72530,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 50892 },
 			"valid": 50759,
 			"spoiled": 133,
 			"majority": 5662

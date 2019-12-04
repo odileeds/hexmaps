@@ -2,7 +2,8 @@
 	"id": "E14000734",
 	"title": "Harwich and North Essex",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 517,
 				"name": "Bernard Jenkin",
@@ -32,28 +33,25 @@
 				"id": 72473,
 				"name": "Stephen Dennis Rice",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Bernard Jenkin",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72473-dee04d3a-939b-40cc-bc5d-1c54be4bb7bf.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bernard Jenkin",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10312/bernard_jenkin/harwich_and_north_essex",
 			"electorate": 71294,
-			"turnout": 71.7,
+			"turnout": { "pc": 71.8, "value": 51224 },
 			"valid": 51141,
 			"spoiled": 83,
 			"majority": 14356
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Bernard Jenkin",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69290,
-			"turnout": 70.1,
+			"turnout": { "pc":70.1, "value": 48598 },
 			"valid": 48432,
 			"spoiled": 166,
 			"majority": 15174

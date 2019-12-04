@@ -2,7 +2,8 @@
 	"id": "E14000939",
 	"title": "South Holland and The Deepings",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3445,
 				"name": "John Hayes",
@@ -28,27 +29,24 @@
 				"name": "Mark Popple",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71907.png"
-			}],
-			"incumbent": {
-				"mp": "John Hayes",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Hayes",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10265/john_hayes/south_holland_and_the_deepings",
 			"electorate": 76374,
-			"turnout": 65.9,
+			"turnout": { "pc": 66.0, "value": 50399 },
 			"valid": 50315,
 			"spoiled": 84,
 			"majority": 24897
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Hayes",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76460,
-			"turnout": 64.6,
+			"turnout": { "pc":64.6, "value": 49367 },
 			"valid": 49207,
 			"spoiled": 160,
 			"majority": 18567

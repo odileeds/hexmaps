@@ -11,6 +11,10 @@ use utf8;
 %conlookup;
 %parties;
 
+
+
+##############################
+# DEMOCRACY CLUB CANDIDATES
 $url = "https://candidates.democracyclub.org.uk/media/candidates-parl.2019-12-12.csv";
 $file = "temp/candidates-parl.2019-12-12.csv";
 
@@ -52,6 +56,11 @@ foreach $c (@cid){
 close(FILE);
 
 
+
+
+
+################################
+# 2019 
 $file = "temp/wpc_2019_flat_file_v9.csv";
 #objectid,ccode1,cname1,cnamelen,cname2,personid,firstname,lastname,partynow,partydisp,partycol,seconddisp,secondcol,mysocuri,fullname,dispname,mpimg,mnisId,photo_url,ccode2,rcode,cname3,county,ukpart,ukcountry,constype,last_vote,dec_time,just_time,dec_order,result17,first17,second17,seconddisp,elect17,valid17,invalid17,turnout17,majority,con,lab,ld,ukip,green,snp,pc,dup,sf,sdlp,uup,alliance,other,othwin,VOTES1,VOTES2,VOTES3,1VS2,2VS3,1VS3,REQSWING,FIRSTPCT,SECONDPCT,THIRDPCT,ons_id2,cname4,pop17,0_15_2017,16_64_2017,65_plus_17,mi_fr_pow,km_fr_pow,sq_km,sq_mi
 my $csv = Text::CSV->new ({ binary => 1 });
@@ -74,6 +83,8 @@ while (my $row = $csv->getline ($fh)) {
 close($fh);	
 
 
+########################################
+# 2015 Results
 
 # First read in the summary results
 $file = "temp/hocl-ge2015-results-summary.csv";
@@ -122,7 +133,111 @@ while (my $row = $csv->getline ($fh)) {
 }
 close($fh);	
 
+
+
+
+
+
+
+###################################
+# 2017 Results
+
+# First read in the summary results
+$file = "temp/HoC-GE2017-constituency-results.csv";
+#ons_id,ons_region_id,constituency_name,county_name,region_name,country_name,constituency_type,declaration_time,result,first_party,second_party,electorate,valid_votes,invalid_votes,majority,con,lab,ld,ukip,green,snp,pc,dup,sf,sdlp,uup,alliance,other
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		for($i = 0; $i < @fields; $i++){
+			$con{$pcd}{'2017-'.$header[$i]} = $fields[$i];
+		}
+	}
+	$line++;
+}
+close($fh);
+
+
+# Now read in the full results to add data
+$file = "temp/HoC-GE2017-results-by-candidate.csv";
+#ons_id,ons_region_id,constituency_name,county_name,region_name,country_name,constituency_type,party_name,party_abbreviation,firstname,surname,gender,sitting_mp,former_mp,votes,share,change
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		for($i = 0; $i < @fields; $i++){
+			# Take the first candidate for this constituency
+			if(!$con{$pcd}{'2017-'.$header[$i]}){
+				$con{$pcd}{'2017-'.$header[$i]} = $fields[$i];
+			}
+			if(!$con{$pcd}{'2017-valid'}){ $con{$pcd}{'2017-valid'} = 0; }
+			if($header[$i] eq "votes"){
+				$con{$pcd}{'2017-valid'} += ($fields[$i]+0);
+			}
+		}
+	}
+	$line++;
+}
+close($fh);	
+
+
+
+
+
+############################
+# Read in by-elections file
+
+# Now read in the full results to add data
+$file = "temp/by-elections.csv";
+#ons_id,constituency_name,date,turnout,majority,party_name,party_abbreviation,name,sitting_mp,votes,share,change
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		for($i = 0; $i < @fields; $i++){
+			# Take the first candidate for this constituency
+			if(!$con{$pcd}{'byelection-'.$header[$i]}){
+				$con{$pcd}{'byelection-'.$header[$i]} = $fields[$i];
+			}
+			if(!$con{$pcd}{'byelection-valid'}){ $con{$pcd}{'byelection-valid'} = 0; }
+			if($header[$i] eq "votes"){
+				$con{$pcd}{'byelection-valid'} += ($fields[$i]+0);
+			}
+		}
+	}
+	$line++;
+}
+close($fh);	
+
+
+
+
+
 %parties = ('Labour/Co-operative'=>'Lab','Labour and Co-operative'=>'Lab','Labour Party'=>'Lab','Labour and Co-operative Party'=>'Lab','Labour'=>'Lab','Conservative and Unionist Party'=>'Con','Conservative'=>'Con','Scottish National Party'=>'SNP','Scottish National Party (SNP)'=>'SNP','UK Independence Party'=>'UKIP','UK Independence Party (UKIP)'=>'UKIP','Social Democratic and Labour Party'=>'SDLP','Ulster Unionist Party'=>'UUP','Democratic Unionist Party'=>'DUP','DUP'=>'DUP','Independent'=>'Ind','Liberal Democrats'=>'LD','Liberal Democrat'=>'LD','Plaid Cymru'=>'PC','Speaker'=>'Spk','Scottish Green Party'=>'Green','Green Party'=>'Green','Green'=>'Green','Sinn Féin'=>'SF','Sinn Fein'=>'SF','Speaker seeking re-election'=>'Spk','Ex-Speaker'=>'','Plaid Cymru - The Party of Wales'=>'PC','The Brexit Party'=>'Brexit','Official Monster Raving Loony Party'=>'Monster','SDLP (Social Democratic & Labour Party)'=>'SDLP','Alliance - Alliance Party of Northern Ireland'=>'Alliance','Democratic Unionist Party - D.U.P.'=>'DUP','Social Democratic Party'=>'SDP','Christian Peoples Alliance'=>'Christian','Yorkshire Party'=>'YP','The Liberal Party'=>'Liberal','Christian Party "Proclaiming Christ\'s Lordship"'=>'Christian');
+
+####################################
+# End of 2017 Parliament
 
 # Now read in the full results to add data
 $file = "temp/mps-modified.csv";
@@ -161,6 +276,9 @@ while (my $row = $csv->getline ($fh)) {
 close($fh);	
 
 
+
+#########################
+# Save end of 2017 Parliament
 open(FILE,">","2017-dissolution.csv");
 print FILE "ccode,dissolution17\n";
 @cid = sort(keys(%con));
@@ -172,61 +290,88 @@ foreach $c (@cid){
 close(FILE);
 
 
+
+
+
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
 foreach $pcd (sort(keys(%con))){
-	open(FILE,">:encoding(UTF-8)","constituencies/$pcd.json");
-	print FILE "{\n";
-	print FILE "\t\"id\": \"$pcd\",\n";
-	print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
-	print FILE "\t\"elections\": {\n";
-	print FILE "\t\t\"2019\": {\n";
-	print FILE "\t\t\t\"candidates\": [{\n";
-	@candidates = @{$con{$pcd}{'candidates'}};
-	for($c = 0; $c < @candidates ;$c++){
-		if($c > 0){ print FILE "\t\t\t},{\n"; }
-		$con{$pcd}{'candidates'}[$c]{'name'} =~ s/\"/\\\"/g;
-		print FILE "\t\t\t\t\"id\": $con{$pcd}{'candidates'}[$c]{'id'},\n";
-		print FILE "\t\t\t\t\"name\": \"$con{$pcd}{'candidates'}[$c]{'name'}\",\n";
-		if(!$parties{$con{$pcd}{'candidates'}[$c]{'party'}}){
-			print "Need: $con{$pcd}{'candidates'}[$c]{'party'}\n";
+	if(length($pcd) > 0){
+		open(FILE,">:encoding(UTF-8)","constituencies/$pcd.json");
+		print FILE "{\n";
+		print FILE "\t\"id\": \"$pcd\",\n";
+		print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
+		print FILE "\t\"elections\": {\n";
+		print FILE "\t\t\"2019-12-12\": {\n";
+		print FILE "\t\t\t\"type\": \"general\",\n";
+		print FILE "\t\t\t\"candidates\": [{\n";
+		@candidates = @{$con{$pcd}{'candidates'}};
+		for($c = 0; $c < @candidates ;$c++){
+			if($c > 0){ print FILE "\t\t\t},{\n"; }
+			$con{$pcd}{'candidates'}[$c]{'name'} =~ s/\"/\\\"/g;
+			print FILE "\t\t\t\t\"id\": $con{$pcd}{'candidates'}[$c]{'id'},\n";
+			print FILE "\t\t\t\t\"name\": \"$con{$pcd}{'candidates'}[$c]{'name'}\",\n";
+			if(!$parties{$con{$pcd}{'candidates'}[$c]{'party'}}){
+				print "Need: $con{$pcd}{'candidates'}[$c]{'party'}\n";
+			}
+			print FILE "\t\t\t\t\"party\": { \"code\": \"$parties{$con{$pcd}{'candidates'}[$c]{'party'}}\", \"title\": \"".safeName($con{$pcd}{'candidates'}[$c]{'party'})."\" },\n";
+			print FILE "\t\t\t\t\"img\": \"$con{$pcd}{'candidates'}[$c]{'img'}\"\n";
+			if($con{$pcd}{'candidates'}[$c]{'img'} eq ""){ print MISSING "$con{$pcd}{'cname1'}\t$con{$pcd}{'candidates'}[$c]{'name'}\t$con{$pcd}{'candidates'}[$c]{'party'}\thttps://candidates.democracyclub.org.uk/person/$con{$pcd}{'candidates'}[$c]{'id'}\n"; }
 		}
-		print FILE "\t\t\t\t\"party\": { \"code\": \"$parties{$con{$pcd}{'candidates'}[$c]{'party'}}\", \"title\": \"".safeName($con{$pcd}{'candidates'}[$c]{'party'})."\" },\n";
-		print FILE "\t\t\t\t\"img\": \"$con{$pcd}{'candidates'}[$c]{'img'}\"\n";
-		if($con{$pcd}{'candidates'}[$c]{'img'} eq ""){ print MISSING "$con{$pcd}{'cname1'}\t$con{$pcd}{'candidates'}[$c]{'name'}\t$con{$pcd}{'candidates'}[$c]{'party'}\thttps://candidates.democracyclub.org.uk/person/$con{$pcd}{'candidates'}[$c]{'id'}\n"; }
+		print FILE "\t\t\t}]";
+		if($con{$pcd}{'2017-dissolution-party'} ne $con{$pcd}{'first17'} && !$con{$pcd}{'byelection-name'}){
+			print FILE ",\n";
+			print FILE "\t\t\t\"incumbent\": {\n";
+			print FILE "\t\t\t\t\"mp\": \"$con{$pcd}{'2017-dissolution-name'}\",\n";
+			print FILE "\t\t\t\t\"party\": \{ \"code\": \"$con{$pcd}{'2017-dissolution-party'}\", \"title\": \"$con{$pcd}{'2017-dissolution-party-title'}\" }\n";
+			print FILE "\t\t\t}";
+		}
+		print FILE "\n";
+		print FILE "\t\t},\n";
+		if($con{$pcd}{'byelection-name'}){
+			print FILE "\t\t\"$con{$pcd}{'byelection-date'}\": {\n";
+			print FILE "\t\t\t\"type\": \"by\",\n";
+			print FILE "\t\t\t\"mp\": \"$con{$pcd}{'byelection-name'}\",\n";
+			print FILE "\t\t\t\"party\": { \"code\": \"$con{$pcd}{'byelection-party_abbreviation'}\", \"title\": \"$con{$pcd}{'byelection-party_name'}\" },\n";
+			print FILE "\t\t\t\"turnout\": { \"pc\": $con{$pcd}{'byelection-turnout_pc'}, \"value\": ".($con{$pcd}{'byelection-valid'}+$con{$pcd}{'byelection-invalid'})." },\n";
+			print FILE "\t\t\t\"valid\": $con{$pcd}{'byelection-valid'},\n";
+			print FILE "\t\t\t\"spoiled\": $con{$pcd}{'byelection-invalid'},\n";
+			print FILE "\t\t\t\"majority\": $con{$pcd}{'byelection-majority'}\n";
+			print FILE "\t\t},\n";
+		}
+		print FILE "\t\t\"2017-06-08\": {\n";
+		print FILE "\t\t\t\"type\": \"general\",\n";
+		print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2017-firstname'} $con{$pcd}{'2017-surname'}\",\n";
+		print FILE "\t\t\t\"party\": { \"code\": \"$con{$pcd}{'first17'}\" },\n";
+		#print FILE "\t\t\t\"mysoc\": \"$con{$pcd}{'mysocuri'}\",\n";
+		print FILE "\t\t\t\"electorate\": $con{$pcd}{'elect17'},\n";
+		print FILE "\t\t\t\"turnout\": { ";
+		if($con{$pcd}{'2017-electorate'} > 0){
+			print FILE "\"pc\": ".sprintf("%0.1f",100*($con{$pcd}{'2017-valid_votes'}+$con{$pcd}{'2017-invalid_votes'})/$con{$pcd}{'2017-electorate'}).", ";
+		}
+		print FILE "\"value\": ".($con{$pcd}{'2017-valid_votes'}+$con{$pcd}{'2017-invalid_votes'})." },\n";
+		print FILE "\t\t\t\"valid\": $con{$pcd}{'2017-valid_votes'},\n";
+		print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2017-invalid_votes'},\n";
+		print FILE "\t\t\t\"majority\": $con{$pcd}{'2017-majority'}\n";
+		print FILE "\t\t},\n";
+		print FILE "\t\t\"2015-05-07\": {\n";
+		print FILE "\t\t\t\"type\": \"general\",\n";
+		print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2015-firstname'} $con{$pcd}{'2015-surname'}\",\n";
+		print FILE "\t\t\t\"party\": { \"code\": \"".($parties{$con{$pcd}{'2015-party_name'}}||"")."\", \"title\": \"$con{$pcd}{'2015-party_name'}\" },\n";
+		print FILE "\t\t\t\"electorate\": $con{$pcd}{'2015-electorate'},\n";
+		$elect = $con{$pcd}{'2015-electorate'};
+		if($elect > 0){
+			$elect = 100*($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})/$con{$pcd}{'2015-electorate'};
+		}
+		print FILE "\t\t\t\"turnout\": { \"pc\":".sprintf("%0.1f",$elect).", \"value\": ".($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})." },\n";
+		print FILE "\t\t\t\"valid\": $con{$pcd}{'2015-valid_votes'},\n";
+		print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2015-invalid_votes'},\n";
+		print FILE "\t\t\t\"majority\": $con{$pcd}{'2015-majority'}\n";
+		print FILE "\t\t}\n";
+		print FILE "\t}\n";
+		print FILE "}";
+		close(FILE);
 	}
-	print FILE "\t\t\t}],\n";
-	print FILE "\t\t\t\"incumbent\": {\n";
-	print FILE "\t\t\t\t\"mp\": \"$con{$pcd}{'2017-dissolution-name'}\",\n";
-	print FILE "\t\t\t\t\"party\": \{ \"code\": \"$con{$pcd}{'2017-dissolution-party'}\", \"title\": \"$con{$pcd}{'2017-dissolution-party-title'}\" }\n";
-	print FILE "\t\t\t}\n";
-	print FILE "\t\t},\n";
-	print FILE "\t\t\"2017\": {\n";
-	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'dispname'}\",\n";
-	print FILE "\t\t\t\"party\": { \"code\": \"$con{$pcd}{'first17'}\" },\n";
-	print FILE "\t\t\t\"mysoc\": \"$con{$pcd}{'mysocuri'}\",\n";
-	print FILE "\t\t\t\"electorate\": $con{$pcd}{'elect17'},\n";
-	print FILE "\t\t\t\"turnout\": $con{$pcd}{'turnout17'},\n";
-	print FILE "\t\t\t\"valid\": $con{$pcd}{'valid17'},\n";
-	print FILE "\t\t\t\"spoiled\": $con{$pcd}{'invalid17'},\n";
-	print FILE "\t\t\t\"majority\": $con{$pcd}{'majority'}\n";
-	print FILE "\t\t},\n";
-	print FILE "\t\t\"2015\": {\n";
-	print FILE "\t\t\t\"mp\": \"$con{$pcd}{'2015-firstname'} $con{$pcd}{'2015-surname'}\",\n";
-	print FILE "\t\t\t\"party\": { \"code\": \"".($parties{$con{$pcd}{'2015-party_name'}}||"")."\", \"title\": \"$con{$pcd}{'2015-party_name'}\" },\n";
-	print FILE "\t\t\t\"electorate\": $con{$pcd}{'2015-electorate'},\n";
-	$elect = $con{$pcd}{'2015-electorate'};
-	if($elect > 0){
-		$elect = 100*($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})/$con{$pcd}{'2015-electorate'};
-	}
-	print FILE "\t\t\t\"turnout\": ".sprintf("%0.1f",$elect).",\n";
-	print FILE "\t\t\t\"valid\": $con{$pcd}{'2015-valid_votes'},\n";
-	print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2015-invalid_votes'},\n";
-	print FILE "\t\t\t\"majority\": $con{$pcd}{'2015-majority'}\n";
-	print FILE "\t\t}\n";
-	print FILE "\t}\n";
-	print FILE "}";
-	close(FILE);
 }
 close(MISSING);
 

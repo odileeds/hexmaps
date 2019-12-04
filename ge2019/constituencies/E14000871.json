@@ -2,7 +2,8 @@
 	"id": "E14000871",
 	"title": "Oldham West and Royton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4520,
 				"name": "Garth Harkness",
@@ -37,28 +38,25 @@
 				"id": 72498,
 				"name": "Debbie Cole",
 				"party": { "code": "", "title": "Proud of Oldham & Saddleworth" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jim McMahon",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72498-e7d8c734-02d0-4a6b-8ae9-4623d8ac4f34.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jim McMahon",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25475/jim_mcmahon/oldham_west_and_royton",
 			"electorate": 72401,
-			"turnout": 63.2,
+			"turnout": { "pc": 63.4, "value": 45887 },
 			"valid": 45788,
 			"spoiled": 99,
 			"majority": 17198
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Meacher",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71652,
-			"turnout": 60.5,
+			"turnout": { "pc":60.5, "value": 43339 },
 			"valid": 43137,
 			"spoiled": 202,
 			"majority": 14738

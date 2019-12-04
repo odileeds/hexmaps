@@ -2,7 +2,8 @@
 	"id": "E14000591",
 	"title": "Brent Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1474,
 				"name": "Dawn Butler",
@@ -22,28 +23,25 @@
 				"id": 47475,
 				"name": "William Relton",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47475.png"
-			}],
-			"incumbent": {
-				"mp": "Dawn Butler",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47475-42f5a468-086e-4205-8b0d-7338f3787a6c.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Dawn Butler",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11447/dawn_butler/brent_central",
 			"electorate": 80499,
-			"turnout": 65.0,
+			"turnout": { "pc": 65.2, "value": 52495 },
 			"valid": 52296,
 			"spoiled": 199,
 			"majority": 27997
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Dawn Butler",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77038,
-			"turnout": 61.4,
+			"turnout": { "pc":61.4, "value": 47292 },
 			"valid": 47032,
 			"spoiled": 260,
 			"majority": 19649

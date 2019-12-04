@@ -2,7 +2,8 @@
 	"id": "E14000610",
 	"title": "Burton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 31482,
 				"name": "Adam Wain",
@@ -15,35 +16,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71951-47e5f01a-0e39-48b8-9587-399ec63f0e06.png"
 			},{
 				"id": 72068,
-				"name": "Kate Elizabeth Griffiths",
+				"name": "Kate Griffiths",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72068-5a20989d-6bec-4e88-b9ea-f9cbf32dd217.png"
 			},{
 				"id": 72620,
 				"name": "Louise Walker",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72620-4629fe3d-09fd-4865-bff5-37abcd92d2de.png"
-			}],
-			"incumbent": {
-				"mp": "Andrew Griffiths",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Griffiths",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24826/andrew_griffiths/burton",
 			"electorate": 73954,
-			"turnout": 67.5,
+			"turnout": { "pc": 67.7, "value": 50054 },
 			"valid": 49911,
 			"spoiled": 143,
 			"majority": 10047
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Griffiths",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75248,
-			"turnout": 65.3,
+			"turnout": { "pc":65.3, "value": 49150 },
 			"valid": 48974,
 			"spoiled": 176,
 			"majority": 10892

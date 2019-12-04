@@ -2,7 +2,8 @@
 	"id": "E14000725",
 	"title": "Halton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1495,
 				"name": "Derek Twigg",
@@ -28,27 +29,24 @@
 				"name": "Janet Barbara Balfe",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Derek Twigg",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Derek Twigg",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10610/derek_twigg/halton",
 			"electorate": 73457,
-			"turnout": 67.4,
+			"turnout": { "pc": 67.5, "value": 49603 },
 			"valid": 49518,
 			"spoiled": 85,
 			"majority": 25405
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Derek Twigg",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72818,
-			"turnout": 62.1,
+			"turnout": { "pc":62.1, "value": 45191 },
 			"valid": 45023,
 			"spoiled": 168,
 			"majority": 20285

@@ -2,7 +2,8 @@
 	"id": "E14000533",
 	"title": "Amber Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1016,
 				"name": "Nigel Mills",
@@ -23,27 +24,24 @@
 				"name": "Adam Thompson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72184-0054e71c-e2a7-41be-a8a3-37d2084db9f2.png"
-			}],
-			"incumbent": {
-				"mp": "Nigel Mills",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nigel Mills",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24965/nigel_mills/amber_valley",
 			"electorate": 68065,
-			"turnout": 67.3,
+			"turnout": { "pc": 67.5, "value": 45910 },
 			"valid": 45811,
 			"spoiled": 99,
 			"majority": 8300
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nigel Mills",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69510,
-			"turnout": 65.9,
+			"turnout": { "pc":65.9, "value": 45820 },
 			"valid": 45717,
 			"spoiled": 103,
 			"majority": 4205

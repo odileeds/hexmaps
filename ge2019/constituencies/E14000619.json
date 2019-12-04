@@ -2,7 +2,8 @@
 	"id": "E14000619",
 	"title": "Canterbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5426,
 				"name": "Anna Firth",
@@ -23,27 +24,24 @@
 				"name": "Michael James Gould",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72334-75e7fbad-1cf4-4193-bd0f-e69cd1660d15.png"
-			}],
-			"incumbent": {
-				"mp": "Rosie Duffield",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rosie Duffield",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25656/rosie_duffield/canterbury",
 			"electorate": 78182,
-			"turnout": 72.7,
+			"turnout": { "pc": 72.9, "value": 56978 },
 			"valid": 56800,
 			"spoiled": 178,
 			"majority": 187
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Julian Brazier",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81341,
-			"turnout": 66.0,
+			"turnout": { "pc":66.0, "value": 53647 },
 			"valid": 53465,
 			"spoiled": 182,
 			"majority": 9798

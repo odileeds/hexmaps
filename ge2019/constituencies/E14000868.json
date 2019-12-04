@@ -2,7 +2,8 @@
 	"id": "E14000868",
 	"title": "Nuneaton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1648,
 				"name": "Marcus Jones",
@@ -23,27 +24,24 @@
 				"name": "Zoe Mayou",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71575.png"
-			}],
-			"incumbent": {
-				"mp": "Marcus Jones",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Marcus Jones",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24745/marcus_jones/nuneaton",
 			"electorate": 69201,
-			"turnout": 66.6,
+			"turnout": { "pc": 66.7, "value": 46138 },
 			"valid": 46067,
 			"spoiled": 71,
 			"majority": 4739
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Marcus Jones",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68037,
-			"turnout": 67.4,
+			"turnout": { "pc":67.4, "value": 45824 },
 			"valid": 45749,
 			"spoiled": 75,
 			"majority": 4882

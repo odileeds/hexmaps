@@ -2,7 +2,8 @@
 	"id": "E14000848",
 	"title": "North Norfolk",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 20830,
 				"name": "Emma Clare Corlett",
@@ -23,27 +24,24 @@
 				"name": "Harry Sebastian Gwynne",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71893.png"
-			}],
-			"incumbent": {
-				"mp": "Norman Lamb",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Norman Lamb",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11032/norman_lamb/north_norfolk",
 			"electorate": 69271,
-			"turnout": 75.3,
+			"turnout": { "pc": 75.5, "value": 52279 },
 			"valid": 52188,
 			"spoiled": 91,
 			"majority": 3512
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Norman Lamb",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 68867,
-			"turnout": 72.0,
+			"turnout": { "pc":72.0, "value": 49550 },
 			"valid": 49414,
 			"spoiled": 136,
 			"majority": 4043

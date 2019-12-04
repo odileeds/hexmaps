@@ -2,7 +2,8 @@
 	"id": "E14000604",
 	"title": "Bromley and Chislehurst",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1023,
 				"name": "Bob Neill",
@@ -33,27 +34,24 @@
 				"name": "Zion Amodu",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Bob Neill",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Robert Neill",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/13736/bob_neill/bromley_and_chislehurst",
 			"electorate": 65117,
-			"turnout": 71.7,
+			"turnout": { "pc": 71.8, "value": 46781 },
 			"valid": 46662,
 			"spoiled": 119,
 			"majority": 9590
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Robert Neill",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65477,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 44197 },
 			"valid": 44066,
 			"spoiled": 131,
 			"majority": 13564

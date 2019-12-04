@@ -2,7 +2,8 @@
 	"id": "E14000547",
 	"title": "Bath",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3720,
 				"name": "Wera Hobhouse",
@@ -27,28 +28,25 @@
 				"id": 72585,
 				"name": "Bill Blockhead",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Wera Hobhouse",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72585-4821ddc1-9292-4308-b82e-2776699640ac.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Wera Hobhouse",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25648/wera_hobhouse/bath",
 			"electorate": 66778,
-			"turnout": 74.3,
+			"turnout": { "pc": 74.4, "value": 49695 },
 			"valid": 49583,
 			"spoiled": 112,
 			"majority": 5694
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ben Howlett",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63084,
-			"turnout": 75.1,
+			"turnout": { "pc":75.1, "value": 47359 },
 			"valid": 47167,
 			"spoiled": 192,
 			"majority": 3833

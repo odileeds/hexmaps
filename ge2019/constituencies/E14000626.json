@@ -2,8 +2,14 @@
 	"id": "E14000626",
 	"title": "Chatham and Aylesford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
+				"id": 2759,
+				"name": "David Naghi",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7535.png"
+			},{
 				"id": 3857,
 				"name": "Tracey Crouch",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
@@ -14,41 +20,33 @@
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6490.png"
 			},{
-				"id": 7535,
-				"name": "David Naghi",
-				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7535.png"
-			},{
 				"id": 34465,
 				"name": "Vince Maple",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34465-fe09987d-c6f0-411e-80a4-64a45ea70fd5.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34465-c1c9ce47-4cd1-4b9a-b806-68808e687442.png"
 			},{
 				"id": 72205,
 				"name": "Geoff Wilkinson",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72205-8684c706-ce97-4bfc-abcb-505edec7f617.png"
-			}],
-			"incumbent": {
-				"mp": "Tracey Crouch",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tracey Crouch",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24871/tracey_crouch/chatham_and_aylesford",
 			"electorate": 70419,
-			"turnout": 63.7,
+			"turnout": { "pc": 63.9, "value": 44963 },
 			"valid": 44890,
 			"spoiled": 73,
 			"majority": 10458
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tracey Crouch",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66355,
-			"turnout": 65.2,
+			"turnout": { "pc":65.2, "value": 43239 },
 			"valid": 43073,
 			"spoiled": 166,
 			"majority": 11455

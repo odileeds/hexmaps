@@ -2,7 +2,8 @@
 	"id": "E14000748",
 	"title": "High Peak",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2692,
 				"name": "David William Lomax",
@@ -28,27 +29,24 @@
 				"name": "Alan Graves Jnr",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67604.png"
-			}],
-			"incumbent": {
-				"mp": "Ruth George",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Ruth George",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Ruth  George",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25633/ruth_george/high_peak",
 			"electorate": 73248,
-			"turnout": 73.5,
+			"turnout": { "pc": 73.7, "value": 54013 },
 			"valid": 53853,
 			"spoiled": 160,
 			"majority": 2322
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Bingham",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73336,
-			"turnout": 69.5,
+			"turnout": { "pc":69.5, "value": 50942 },
 			"valid": 50789,
 			"spoiled": 153,
 			"majority": 4894

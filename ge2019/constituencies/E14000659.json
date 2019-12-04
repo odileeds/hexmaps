@@ -2,7 +2,8 @@
 	"id": "E14000659",
 	"title": "Dartford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1700,
 				"name": "Gareth Johnson",
@@ -23,27 +24,24 @@
 				"name": "Kyle Grenville Albert Marsh",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67342.png"
-			}],
-			"incumbent": {
-				"mp": "Gareth Johnson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gareth Johnson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24803/gareth_johnson/dartford",
 			"electorate": 78506,
-			"turnout": 69.1,
+			"turnout": { "pc": 69.2, "value": 54341 },
 			"valid": 54224,
 			"spoiled": 117,
 			"majority": 13186
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gareth Johnson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75209,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 52617 },
 			"valid": 52418,
 			"spoiled": 199,
 			"majority": 12345

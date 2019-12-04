@@ -2,7 +2,8 @@
 	"id": "E14001034",
 	"title": "West Suffolk",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3183,
 				"name": "Elfreda Tealby-Watson",
@@ -23,27 +24,24 @@
 				"name": "Claire Unwin",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72128-a27a4039-42dc-435a-83ff-8d775989f473.png"
-			}],
-			"incumbent": {
-				"mp": "Matthew Hancock",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Matthew Hancock",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Matt Hancock",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24773/matthew_hancock/west_suffolk",
 			"electorate": 77348,
-			"turnout": 66.9,
+			"turnout": { "pc": 67.0, "value": 51850 },
 			"valid": 51746,
 			"spoiled": 104,
 			"majority": 17063
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Matthew Hancock",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76198,
-			"turnout": 64.9,
+			"turnout": { "pc":64.9, "value": 49429 },
 			"valid": 49232,
 			"spoiled": 197,
 			"majority": 14984

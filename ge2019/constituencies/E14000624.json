@@ -2,7 +2,8 @@
 	"id": "E14000624",
 	"title": "Central Suffolk and North Ipswich",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 888,
 				"name": "James Sandbach",
@@ -23,27 +24,24 @@
 				"name": "Dan Pratt",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/58399.png"
-			}],
-			"incumbent": {
-				"mp": "Daniel Poulter",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Daniel Poulter",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Dan Poulter",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24756/daniel_poulter/central_suffolk_and_north_ipswich",
 			"electorate": 78116,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 56637 },
 			"valid": 56524,
 			"spoiled": 113,
 			"majority": 17185
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Daniel Poulter",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76666,
-			"turnout": 70.7,
+			"turnout": { "pc":70.7, "value": 54234 },
 			"valid": 54089,
 			"spoiled": 145,
 			"majority": 20144

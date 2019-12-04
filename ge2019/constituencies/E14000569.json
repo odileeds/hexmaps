@@ -2,7 +2,8 @@
 	"id": "E14000569",
 	"title": "Bishop Auckland",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2906,
 				"name": "Helen Goodman",
@@ -23,27 +24,24 @@
 				"name": "Nick Brown",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71308.png"
-			}],
-			"incumbent": {
-				"mp": "Helen Goodman",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Helen Goodman",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11421/helen_goodman/bishop_auckland",
 			"electorate": 67661,
-			"turnout": 64.0,
+			"turnout": { "pc": 64.1, "value": 43359 },
 			"valid": 43281,
 			"spoiled": 78,
 			"majority": 502
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Helen Goodman",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66070,
-			"turnout": 59.7,
+			"turnout": { "pc":59.7, "value": 39457 },
 			"valid": 39389,
 			"spoiled": 68,
 			"majority": 3508

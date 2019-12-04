@@ -2,7 +2,8 @@
 	"id": "E14000574",
 	"title": "Blaydon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 8861,
 				"name": "Kathy King",
@@ -17,12 +18,12 @@
 				"id": 34907,
 				"name": "Lisabela Zxywhiddm Marschild",
 				"party": { "code": "", "title": "Space Navies Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34907_HooWKk8.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34907_RvGvPz7.png"
 			},{
 				"id": 42379,
-				"name": "Victoria Louise Anderson",
+				"name": "Vicky Anderson",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/42379-3d6984ef-4bdf-4ad9-8177-eeeda2875aae.png"
 			},{
 				"id": 45492,
 				"name": "Diane Cadman",
@@ -34,36 +35,33 @@
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69743.png"
 			},{
+				"id": 72569,
+				"name": "Lee Garrett",
+				"party": { "code": "Ind", "title": "Independent" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72569-79ed20d8-6626-4adc-abe5-b4491f4af540.png"
+			},{
 				"id": 72570,
 				"name": "Michael Robinson",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72570-30d955a3-2bf6-47ec-be3a-9d08d896751e.png"
-			},{
-				"id": 72571,
-				"name": "Lee Shaun Garrett",
-				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Liz Twist",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Liz Twist",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25623/liz_twist/blaydon",
 			"electorate": 68459,
-			"turnout": 70.2,
+			"turnout": { "pc": 70.3, "value": 48148 },
 			"valid": 48084,
 			"spoiled": 64,
 			"majority": 13477
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Anderson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67901,
-			"turnout": 66.3,
+			"turnout": { "pc":66.3, "value": 45032 },
 			"valid": 44936,
 			"spoiled": 96,
 			"majority": 14227

@@ -2,7 +2,8 @@
 	"id": "E14000978",
 	"title": "Streatham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 35664,
 				"name": "Helen Thompson",
@@ -14,15 +15,15 @@
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36325.png"
 			},{
+				"id": 37323,
+				"name": "Scott Ainslie",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71965.png"
+			},{
 				"id": 71824,
 				"name": "Bell Ribeiro-Addy",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71824.png"
-			},{
-				"id": 71965,
-				"name": "Scott Ainslie",
-				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71965.png"
 			},{
 				"id": 72218,
 				"name": "Penelope Margaret Kimpton Becker",
@@ -34,21 +35,22 @@
 				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chuka Umunna",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24950/chuka_umunna/streatham",
 			"electorate": 78649,
-			"turnout": 70.9,
+			"turnout": { "pc": 71.1, "value": 55956 },
 			"valid": 55795,
 			"spoiled": 161,
 			"majority": 26285
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chuka Umunna",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79137,
-			"turnout": 63.3,
+			"turnout": { "pc":63.3, "value": 50088 },
 			"valid": 49933,
 			"spoiled": 155,
 			"majority": 13934

@@ -2,7 +2,8 @@
 	"id": "E14000736",
 	"title": "Havant",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5017,
 				"name": "Alan Mak",
@@ -28,27 +29,24 @@
 				"name": "Alan Sinclair Black",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72426-2888def7-c080-41e0-8960-bc94168f11ec.png"
-			}],
-			"incumbent": {
-				"mp": "Alan Mak",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alan Mak",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25285/alan_mak/havant",
 			"electorate": 72470,
-			"turnout": 63.9,
+			"turnout": { "pc": 64.0, "value": 46390 },
 			"valid": 46314,
 			"spoiled": 76,
 			"majority": 15956
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Mak",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70573,
-			"turnout": 63.7,
+			"turnout": { "pc":63.7, "value": 44976 },
 			"valid": 44828,
 			"spoiled": 148,
 			"majority": 13920

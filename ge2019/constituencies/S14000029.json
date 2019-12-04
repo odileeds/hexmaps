@@ -2,7 +2,8 @@
 	"id": "S14000029",
 	"title": "Glasgow Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5784,
 				"name": "Alison Thewliss",
@@ -28,27 +29,24 @@
 				"name": "Flora Minerva Scarabello",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Alison Thewliss",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alison Thewliss",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25327/alison_thewliss/glasgow_central",
 			"electorate": 64346,
-			"turnout": 55.9,
+			"turnout": { "pc": 56.1, "value": 36098 },
 			"valid": 35984,
 			"spoiled": 114,
 			"majority": 2267
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alison Thewliss",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 70945,
-			"turnout": 55.5,
+			"turnout": { "pc":55.5, "value": 39381 },
 			"valid": 39318,
 			"spoiled": 63,
 			"majority": 7662

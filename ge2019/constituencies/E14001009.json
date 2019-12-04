@@ -2,7 +2,8 @@
 	"id": "E14001009",
 	"title": "Wakefield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2655,
 				"name": "Mary Creagh",
@@ -33,27 +34,24 @@
 				"name": "Imran Nasir Ahmad Khan",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71986-62b4d81e-b7ea-4629-a66f-73221c843a35.png"
-			}],
-			"incumbent": {
-				"mp": "Mary Creagh",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mary Creagh",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11898/mary_creagh/wakefield",
 			"electorate": 70340,
-			"turnout": 65.8,
+			"turnout": { "pc": 66.0, "value": 46396 },
 			"valid": 46284,
 			"spoiled": 112,
 			"majority": 2176
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mary Creagh",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70521,
-			"turnout": 61.1,
+			"turnout": { "pc":61.1, "value": 43079 },
 			"valid": 42973,
 			"spoiled": 106,
 			"majority": 2613

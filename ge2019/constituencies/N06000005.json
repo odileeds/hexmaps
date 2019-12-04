@@ -2,7 +2,8 @@
 	"id": "N06000005",
 	"title": "East Antrim",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1061,
 				"name": "Oliver McMullan",
@@ -38,27 +39,24 @@
 				"name": "Aaron Rankin",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72078-77a19e2c-8a4b-4896-89b9-70289f793b23.png"
-			}],
-			"incumbent": {
-				"mp": "Sammy Wilson",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sammy Wilson",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11374/sammy_wilson/east_antrim",
 			"electorate": 62908,
-			"turnout": 60.6,
+			"turnout": { "pc": 60.8, "value": 38269 },
 			"valid": 38143,
 			"spoiled": 126,
 			"majority": 15923
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sammy Wilson",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 62811,
-			"turnout": 53.6,
+			"turnout": { "pc":53.6, "value": 33688 },
 			"valid": 33497,
 			"spoiled": 191,
 			"majority": 5795

@@ -2,7 +2,8 @@
 	"id": "E14000854",
 	"title": "North Warwickshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4219,
 				"name": "Craig Tracey",
@@ -22,28 +23,25 @@
 				"id": 72051,
 				"name": "James Platt",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Craig Tracey",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72051-a076839e-eca4-4312-b20c-f5f299dcb5a0.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Craig Tracey",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25290/craig_tracey/north_warwickshire",
 			"electorate": 72277,
-			"turnout": 65.3,
+			"turnout": { "pc": 65.5, "value": 47315 },
 			"valid": 47178,
 			"spoiled": 137,
 			"majority": 8510
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Craig Tracey",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70152,
-			"turnout": 67.7,
+			"turnout": { "pc":67.7, "value": 47514 },
 			"valid": 47377,
 			"spoiled": 137,
 			"majority": 2973

@@ -2,7 +2,8 @@
 	"id": "E14000731",
 	"title": "Harrow East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 227,
 				"name": "Bob Blackman",
@@ -18,27 +19,24 @@
 				"name": "Pamela Fitzpatrick",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48028.png"
-			}],
-			"incumbent": {
-				"mp": "Bob Blackman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bob Blackman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24945/bob_blackman/harrow_east",
 			"electorate": 71755,
-			"turnout": 70.9,
+			"turnout": { "pc": 71.1, "value": 50987 },
 			"valid": 50845,
 			"spoiled": 142,
 			"majority": 1757
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Bob Blackman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70981,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 49143 },
 			"valid": 49000,
 			"spoiled": 143,
 			"majority": 4757

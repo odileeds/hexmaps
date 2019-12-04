@@ -2,7 +2,8 @@
 	"id": "S14000027",
 	"title": "Na h-Eileanan an Iar",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3013,
 				"name": "Angus MacNeil",
@@ -23,27 +24,24 @@
 				"name": "Jennifer Ross",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72403-772f0e28-16f7-4b5d-8f48-a96b62a45815.png"
-			}],
-			"incumbent": {
-				"mp": "Angus MacNeil",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Angus MacNeil",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/12004/angus_macneil/na_h-eileanan_an_iar",
 			"electorate": 21301,
-			"turnout": 69.6,
+			"turnout": { "pc": 69.7, "value": 14853 },
 			"valid": 14818,
 			"spoiled": 35,
 			"majority": 1007
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Angus MacNeil",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 21769,
-			"turnout": 73.4,
+			"turnout": { "pc":73.4, "value": 15982 },
 			"valid": 15938,
 			"spoiled": 44,
 			"majority": 4102

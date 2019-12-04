@@ -2,7 +2,8 @@
 	"id": "E14000652",
 	"title": "Crawley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4078,
 				"name": "Henry Smith",
@@ -23,27 +24,24 @@
 				"name": "Khalil Yousuf",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71386.png"
-			}],
-			"incumbent": {
-				"mp": "Henry Smith",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Henry Smith",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24802/henry_smith/crawley",
 			"electorate": 73425,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.7, "value": 50454 },
 			"valid": 50273,
 			"spoiled": 181,
 			"majority": 2457
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Henry Smith",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73936,
-			"turnout": 65.8,
+			"turnout": { "pc":65.8, "value": 48680 },
 			"valid": 48550,
 			"spoiled": 130,
 			"majority": 6526

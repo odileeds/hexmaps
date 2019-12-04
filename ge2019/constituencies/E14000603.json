@@ -2,7 +2,8 @@
 	"id": "E14000603",
 	"title": "Broadland",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6350,
 				"name": "Andrew Boswell",
@@ -28,27 +29,24 @@
 				"name": "Simon Nicholas Rous",
 				"party": { "code": "", "title": "The Universal Good Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72258-9ced2f12-0c6e-4df1-944d-0e79df1ff343.png"
-			}],
-			"incumbent": {
-				"mp": "Keith Simpson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Keith Simpson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10542/keith_simpson/broadland",
 			"electorate": 77334,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 56075 },
 			"valid": 55971,
 			"spoiled": 104,
 			"majority": 15816
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Keith Simpson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73552,
-			"turnout": 72.4,
+			"turnout": { "pc":72.4, "value": 53271 },
 			"valid": 53089,
 			"spoiled": 182,
 			"majority": 16838

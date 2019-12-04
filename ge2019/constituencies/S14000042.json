@@ -2,7 +2,8 @@
 	"id": "S14000042",
 	"title": "Lanark and Hamilton East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6059,
 				"name": "Angela Crawley",
@@ -22,28 +23,25 @@
 				"id": 71971,
 				"name": "Jane Pickard",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Angela Crawley",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71971-7bd2b83a-ca68-4078-b21b-9b7608ff4d44.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Angela Crawley",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25295/angela_crawley/lanark_and_hamilton_east",
 			"electorate": 77313,
-			"turnout": 65.3,
+			"turnout": { "pc": 65.4, "value": 50527 },
 			"valid": 50470,
 			"spoiled": 57,
 			"majority": 266
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Angela Crawley",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 79962,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 55328 },
 			"valid": 55258,
 			"spoiled": 70,
 			"majority": 10100

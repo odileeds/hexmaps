@@ -2,7 +2,8 @@
 	"id": "E14000886",
 	"title": "Pudsey",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1985,
 				"name": "Stuart Andrew",
@@ -28,27 +29,24 @@
 				"name": "Jane Aitchison",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71591.png"
-			}],
-			"incumbent": {
-				"mp": "Stuart Andrew",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stuart Andrew",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24864/stuart_andrew/pudsey",
 			"electorate": 72622,
-			"turnout": 74.3,
+			"turnout": { "pc": 74.5, "value": 54077 },
 			"valid": 53959,
 			"spoiled": 118,
 			"majority": 331
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stuart Andrew",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70533,
-			"turnout": 72.4,
+			"turnout": { "pc":72.4, "value": 51061 },
 			"valid": 50927,
 			"spoiled": 134,
 			"majority": 4501

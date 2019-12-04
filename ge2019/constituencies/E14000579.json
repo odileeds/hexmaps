@@ -2,7 +2,8 @@
 	"id": "E14000579",
 	"title": "Bolton South East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 662,
 				"name": "Yasmin Qureshi",
@@ -17,38 +18,35 @@
 				"id": 11663,
 				"name": "Kevin John Walsh",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11663-8e768eec-8eab-4d73-b401-21b4db9ac598.png"
 			},{
 				"id": 11687,
 				"name": "Mark Cunningham",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11687-2c3c45b0-3c4c-4ab4-a5f3-730164ed8c55.png"
 			},{
 				"id": 25518,
 				"name": "Johno Lee",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25518-7053b59c-0354-4078-8d83-4c133bc5acea.png"
-			}],
-			"incumbent": {
-				"mp": "Yasmin Qureshi",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Yasmin Qureshi",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24775/yasmin_qureshi/bolton_south_east",
 			"electorate": 68886,
-			"turnout": 61.4,
+			"turnout": { "pc": 61.6, "value": 42420 },
 			"valid": 42323,
 			"spoiled": 97,
 			"majority": 13126
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Yasmin Qureshi",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69687,
-			"turnout": 58.7,
+			"turnout": { "pc":58.7, "value": 40877 },
 			"valid": 40743,
 			"spoiled": 134,
 			"majority": 10928

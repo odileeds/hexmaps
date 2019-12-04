@@ -2,7 +2,8 @@
 	"id": "E14000702",
 	"title": "Filton and Bradley Stoke",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 104,
 				"name": "Jack Lopresti",
@@ -28,27 +29,24 @@
 				"name": "Jenny Vernon",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57539.png"
-			}],
-			"incumbent": {
-				"mp": "Jack Lopresti",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jack Lopresti",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24716/jack_lopresti/filton_and_bradley_stoke",
 			"electorate": 72483,
-			"turnout": 70.0,
+			"turnout": { "pc": 70.2, "value": 50866 },
 			"valid": 50702,
 			"spoiled": 164,
 			"majority": 4190
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jack Lopresti",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71310,
-			"turnout": 69.1,
+			"turnout": { "pc":69.1, "value": 49253 },
 			"valid": 49101,
 			"spoiled": 152,
 			"majority": 9838

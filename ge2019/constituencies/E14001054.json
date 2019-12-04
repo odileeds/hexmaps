@@ -2,7 +2,8 @@
 	"id": "E14001054",
 	"title": "Worsley and Eccles South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2947,
 				"name": "Barbara Keeley",
@@ -28,27 +29,24 @@
 				"name": "Joe Johnson-Tod",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64189.png"
-			}],
-			"incumbent": {
-				"mp": "Barbara Keeley",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Barbara Keeley",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11943/barbara_keeley/worsley_and_eccles_south",
 			"electorate": 73689,
-			"turnout": 61.9,
+			"turnout": { "pc": 62.1, "value": 45757 },
 			"valid": 45642,
 			"spoiled": 115,
 			"majority": 8379
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Barbara Keeley",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72177,
-			"turnout": 58.4,
+			"turnout": { "pc":58.4, "value": 42184 },
 			"valid": 42048,
 			"spoiled": 136,
 			"majority": 5946

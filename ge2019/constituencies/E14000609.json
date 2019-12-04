@@ -2,7 +2,8 @@
 	"id": "E14000609",
 	"title": "Burnley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 627,
 				"name": "Julie Cooper",
@@ -37,28 +38,25 @@
 				"id": 72272,
 				"name": "Charlie Briggs",
 				"party": { "code": "", "title": "Burnley and Padiham independent Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Julie Cooper",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72272-43d5487a-c03c-434e-893c-d3e5835d1232.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Julie Cooper",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25283/julie_cooper/burnley",
 			"electorate": 64709,
-			"turnout": 62.3,
+			"turnout": { "pc": 62.4, "value": 40353 },
 			"valid": 40290,
 			"spoiled": 63,
 			"majority": 6353
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Julie Cooper",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64477,
-			"turnout": 61.9,
+			"turnout": { "pc":61.9, "value": 39896 },
 			"valid": 39746,
 			"spoiled": 150,
 			"majority": 3244

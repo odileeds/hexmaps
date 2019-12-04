@@ -2,7 +2,8 @@
 	"id": "W07000058",
 	"title": "Aberconwy",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2283,
 				"name": "Robin John Millar",
@@ -12,7 +13,7 @@
 				"id": 23474,
 				"name": "Emily Owen",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23474.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23474-c59a0134-b76e-425a-9002-0dd7867ea457.png"
 			},{
 				"id": 24757,
 				"name": "Jason Edwards",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Guto Bebb",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24736/guto_bebb/aberconwy",
 			"electorate": 45251,
-			"turnout": 71.0,
+			"turnout": { "pc": 71.2, "value": 32228 },
 			"valid": 32150,
 			"spoiled": 78,
 			"majority": 635
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Guto Bebb",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 45525,
-			"turnout": 66.4,
+			"turnout": { "pc":66.4, "value": 30207 },
 			"valid": 30148,
 			"spoiled": 59,
 			"majority": 3999

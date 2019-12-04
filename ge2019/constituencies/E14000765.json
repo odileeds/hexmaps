@@ -2,7 +2,8 @@
 	"id": "E14000765",
 	"title": "Jarrow",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 20040,
 				"name": "Nick Oliver",
@@ -17,7 +18,7 @@
 				"id": 39815,
 				"name": "David Wilkinson",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39815-e72ff081-5522-4e95-8464-3468e2f59821.png"
 			},{
 				"id": 39997,
 				"name": "Kate Osborne",
@@ -43,27 +44,24 @@
 				"name": "Shaun William Sadler",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Stephen Hepburn",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Hepburn",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10274/stephen_hepburn/jarrow",
 			"electorate": 64778,
-			"turnout": 66.4,
+			"turnout": { "pc": 66.5, "value": 43100 },
 			"valid": 43023,
 			"spoiled": 77,
 			"majority": 17263
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Hepburn",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64002,
-			"turnout": 60.4,
+			"turnout": { "pc":60.4, "value": 38671 },
 			"valid": 38564,
 			"spoiled": 107,
 			"majority": 13881

@@ -2,7 +2,8 @@
 	"id": "E14000817",
 	"title": "Mid Sussex",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4189,
 				"name": "Mims Davies",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nicholas Soames",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10555/nicholas_soames/mid_sussex",
 			"electorate": 84170,
-			"turnout": 73.2,
+			"turnout": { "pc": 73.4, "value": 61745 },
 			"valid": 61632,
 			"spoiled": 113,
 			"majority": 19673
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nicholas Soames",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81034,
-			"turnout": 71.3,
+			"turnout": { "pc":71.3, "value": 57744 },
 			"valid": 57492,
 			"spoiled": 252,
 			"majority": 24286

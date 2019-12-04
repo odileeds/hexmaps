@@ -2,7 +2,8 @@
 	"id": "E14000813",
 	"title": "Mid Bedfordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 731,
 				"name": "Nadine Dorries",
@@ -33,27 +34,24 @@
 				"name": "Rachel McGann",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71910-eb923d10-2965-4392-b83c-3ab560123581.png"
-			}],
-			"incumbent": {
-				"mp": "Nadine Dorries",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nadine Dorries",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11397/nadine_dorries/mid_bedfordshire",
 			"electorate": 84161,
-			"turnout": 75.0,
+			"turnout": { "pc": 75.2, "value": 63323 },
 			"valid": 63138,
 			"spoiled": 185,
 			"majority": 20983
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nadine Dorries",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78501,
-			"turnout": 74.3,
+			"turnout": { "pc":74.3, "value": 58288 },
 			"valid": 58060,
 			"spoiled": 228,
 			"majority": 23327

@@ -2,7 +2,8 @@
 	"id": "E14000772",
 	"title": "Kingston upon Hull North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1861,
 				"name": "Diana Johnson",
@@ -28,27 +29,24 @@
 				"name": "Derek Brian Abram",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72517-63cd4d8d-0f72-4af2-99f8-003dedc4bf65.png"
-			}],
-			"incumbent": {
-				"mp": "Diana R. Johnson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Diana R. Johnson",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Diana Johnson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11647/diana_r._johnson/kingston_upon_hull_north",
 			"electorate": 64665,
-			"turnout": 57.4,
+			"turnout": { "pc": 57.5, "value": 37198 },
 			"valid": 37122,
 			"spoiled": 76,
 			"majority": 14322
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Diana Johnson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64148,
-			"turnout": 55.3,
+			"turnout": { "pc":55.3, "value": 35472 },
 			"valid": 35336,
 			"spoiled": 136,
 			"majority": 12899

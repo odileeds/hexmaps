@@ -2,7 +2,8 @@
 	"id": "E14001011",
 	"title": "Walsall North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34351,
 				"name": "Eddie Hughes",
@@ -23,27 +24,24 @@
 				"name": "Gill Ogilvie",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71712.png"
-			}],
-			"incumbent": {
-				"mp": "Eddie Hughes",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Eddie Hughes",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25699/eddie_hughes/walsall_north",
 			"electorate": 67308,
-			"turnout": 56.6,
+			"turnout": { "pc": 56.7, "value": 38196 },
 			"valid": 38118,
 			"spoiled": 78,
 			"majority": 2601
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Winnick",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67080,
-			"turnout": 55.2,
+			"turnout": { "pc":55.2, "value": 37020 },
 			"valid": 36883,
 			"spoiled": 137,
 			"majority": 1937

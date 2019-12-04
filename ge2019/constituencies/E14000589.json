@@ -2,7 +2,8 @@
 	"id": "E14000589",
 	"title": "Bradford West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6528,
 				"name": "Naz Shah",
@@ -20,9 +21,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/13665.png"
 			},{
 				"id": 57263,
-				"name": "Mark Christie",
+				"name": "Mark Alan Christie",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57263-3193c85c-059a-485d-84bf-dce83e742ad5.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57263-4484ddcf-9738-45be-b0eb-6c7f2600bce6.png"
 			},{
 				"id": 72393,
 				"name": "Mohammed Afzal",
@@ -33,27 +34,24 @@
 				"name": "Azfar Shah Bukhari",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72394-f99e6b16-3a52-4846-bb8a-b37b8c55fad8.png"
-			}],
-			"incumbent": {
-				"mp": "Naseem Shah",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Naz Shah",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25385/naseem_shah/bradford_west",
 			"electorate": 67568,
-			"turnout": 67.4,
+			"turnout": { "pc": 67.7, "value": 45749 },
 			"valid": 45528,
 			"spoiled": 221,
 			"majority": 21902
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Naz Shah",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63372,
-			"turnout": 64.0,
+			"turnout": { "pc":64.0, "value": 40527 },
 			"valid": 40290,
 			"spoiled": 237,
 			"majority": 11420

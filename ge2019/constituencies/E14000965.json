@@ -2,7 +2,8 @@
 	"id": "E14000965",
 	"title": "Stafford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4168,
 				"name": "Theo Clarke",
@@ -23,27 +24,24 @@
 				"name": "Alex Wagner",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71663.png"
-			}],
-			"incumbent": {
-				"mp": "Jeremy Lefroy",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jeremy Lefroy",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24760/jeremy_lefroy/stafford",
 			"electorate": 68445,
-			"turnout": 75.9,
+			"turnout": { "pc": 76.0, "value": 52046 },
 			"valid": 51924,
 			"spoiled": 122,
 			"majority": 7729
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jeremy Lefroy",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68705,
-			"turnout": 71.2,
+			"turnout": { "pc":71.2, "value": 48940 },
 			"valid": 48767,
 			"spoiled": 173,
 			"majority": 9177

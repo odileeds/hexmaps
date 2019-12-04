@@ -2,12 +2,13 @@
 	"id": "E14001058",
 	"title": "Wyre Forest",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1173,
 				"name": "Robin Lunn",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/1173-9c13d4bc-c8f8-4a6f-993b-c2f19c41cf1c.png"
 			},{
 				"id": 1207,
 				"name": "Mark Garnier",
@@ -23,27 +24,24 @@
 				"name": "Shazu Miah",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15076.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Garnier",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Garnier",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24824/mark_garnier/wyre_forest",
 			"electorate": 77758,
-			"turnout": 65.8,
+			"turnout": { "pc": 65.9, "value": 51219 },
 			"valid": 51129,
 			"spoiled": 90,
 			"majority": 13334
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Garnier",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77407,
-			"turnout": 64.0,
+			"turnout": { "pc":64.0, "value": 49548 },
 			"valid": 49440,
 			"spoiled": 108,
 			"majority": 12871

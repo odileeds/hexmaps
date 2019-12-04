@@ -2,7 +2,8 @@
 	"id": "N06000009",
 	"title": "Lagan Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1858,
 				"name": "Jeffrey M. Donaldson",
@@ -32,33 +33,30 @@
 				"id": 49796,
 				"name": "Gary McCleave",
 				"party": { "code": "SF", "title": "Sinn Féin" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49796-91e66b8d-55a2-4197-b780-f89cda12e668.png"
 			},{
 				"id": 69335,
 				"name": "Ally Haydock",
 				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69335.png"
-			}],
-			"incumbent": {
-				"mp": "Jeffrey M. Donaldson",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jeffrey M. Donaldson",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10172/jeffrey_m._donaldson/lagan_valley",
 			"electorate": 72380,
-			"turnout": 62.1,
+			"turnout": { "pc": 62.2, "value": 45044 },
 			"valid": 44926,
 			"spoiled": 118,
 			"majority": 19229
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jeffrey Donaldson",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 71152,
-			"turnout": 56.2,
+			"turnout": { "pc":56.2, "value": 39986 },
 			"valid": 39795,
 			"spoiled": 191,
 			"majority": 13000

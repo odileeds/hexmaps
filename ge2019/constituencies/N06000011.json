@@ -2,7 +2,8 @@
 	"id": "N06000011",
 	"title": "Newry and Armagh",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1872,
 				"name": "William George Irwin",
@@ -33,27 +34,24 @@
 				"name": "Martin Kelly",
 				"party": { "code": "", "title": "Aontú" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68335.png"
-			}],
-			"incumbent": {
-				"mp": "Mickey Brady",
-				"party": { "code": "SF", "title": "Sinn Féin" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mickey Brady",
 			"party": { "code": "SF" },
-			"mysoc": "https://www.theyworkforyou.com/mp/13893/mickey_brady/newry_and_armagh",
 			"electorate": 78266,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.9, "value": 53900 },
 			"valid": 53579,
 			"spoiled": 321,
 			"majority": 12489
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mickey Brady",
 			"party": { "code": "SF", "title": "Sinn Fein" },
 			"electorate": 77633,
-			"turnout": 64.7,
+			"turnout": { "pc":64.7, "value": 50263 },
 			"valid": 49877,
 			"spoiled": 386,
 			"majority": 4176

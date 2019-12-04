@@ -2,7 +2,8 @@
 	"id": "E14001050",
 	"title": "Wolverhampton South East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2796,
 				"name": "Pat McFadden",
@@ -28,27 +29,24 @@
 				"name": "Kathryn Gilbert",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72152-eece7de5-1890-48db-ad18-6f77c700b8d7.png"
-			}],
-			"incumbent": {
-				"mp": "Pat McFadden",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Pat McFadden",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11936/pat_mcfadden/wolverhampton_south_east",
 			"electorate": 60301,
-			"turnout": 60.2,
+			"turnout": { "pc": 60.3, "value": 36390 },
 			"valid": 36304,
 			"spoiled": 86,
 			"majority": 8514
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Pat McFadden",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62556,
-			"turnout": 55.8,
+			"turnout": { "pc":55.8, "value": 34902 },
 			"valid": 34764,
 			"spoiled": 138,
 			"majority": 10778

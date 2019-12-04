@@ -2,7 +2,8 @@
 	"id": "E14001038",
 	"title": "Weston-Super-Mare",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1329,
 				"name": "John Penrose",
@@ -23,27 +24,24 @@
 				"name": "Patrick David Keating",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53277.png"
-			}],
-			"incumbent": {
-				"mp": "John Penrose",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Penrose",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11924/john_penrose/weston-super-mare",
 			"electorate": 82136,
-			"turnout": 68.7,
+			"turnout": { "pc": 68.8, "value": 56512 },
 			"valid": 56415,
 			"spoiled": 97,
 			"majority": 11544
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Penrose",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80309,
-			"turnout": 65.7,
+			"turnout": { "pc":65.7, "value": 52783 },
 			"valid": 52552,
 			"spoiled": 231,
 			"majority": 15609

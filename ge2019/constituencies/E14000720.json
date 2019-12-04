@@ -2,7 +2,8 @@
 	"id": "E14000720",
 	"title": "Hackney North and Stoke Newington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2567,
 				"name": "Diane Abbott",
@@ -27,38 +28,35 @@
 				"id": 72582,
 				"name": "Richard Christian Ings",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72582-9961a484-579e-4039-9621-230a827bdf9a.png"
 			},{
 				"id": 72583,
 				"name": "Loré Lixenberg",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72583-4b22e23d-317b-45ff-9586-f3f339b8625a.png"
 			},{
 				"id": 72584,
 				"name": "Benjamin Obese-Jecty",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72584-ca0d4031-ee2a-4fd3-b8ce-5e04d9e7f688.png"
-			}],
-			"incumbent": {
-				"mp": "Diane Abbott",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Diane Abbott",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10001/diane_abbott/hackney_north_and_stoke_newington",
 			"electorate": 85058,
-			"turnout": 66.2,
+			"turnout": { "pc": 66.4, "value": 56485 },
 			"valid": 56298,
 			"spoiled": 187,
 			"majority": 35139
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Diane Abbott",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 88153,
-			"turnout": 56.8,
+			"turnout": { "pc":56.8, "value": 50089 },
 			"valid": 49887,
 			"spoiled": 202,
 			"majority": 24008

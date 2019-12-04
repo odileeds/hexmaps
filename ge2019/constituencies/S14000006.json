@@ -2,7 +2,8 @@
 	"id": "S14000006",
 	"title": "Ayr, Carrick and Cumnock",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 22533,
 				"name": "Allan Dorans",
@@ -15,35 +16,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22534-30f96cfe-08be-4733-81f9-4774713bb6a8.png"
 			},{
 				"id": 72412,
-				"name": "Helena Ivy Bongard",
+				"name": "Helena Bongard",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72412-2e2bfc0b-748f-4f5e-98bc-ae0e03cffa46.png"
 			},{
 				"id": 72413,
 				"name": "Duncan Christopher Townson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72413-c86b1f87-2c6b-4e68-a635-54e37cc739aa.png"
-			}],
-			"incumbent": {
-				"mp": "Bill Grant",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bill Grant",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25643/bill_grant/ayr%2C_carrick_and_cumnock",
 			"electorate": 71241,
-			"turnout": 64.9,
+			"turnout": { "pc": 65.0, "value": 46296 },
 			"valid": 46222,
 			"spoiled": 74,
 			"majority": 2774
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Corri Wilson",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 72995,
-			"turnout": 71.6,
+			"turnout": { "pc":71.6, "value": 52268 },
 			"valid": 52209,
 			"spoiled": 59,
 			"majority": 11265

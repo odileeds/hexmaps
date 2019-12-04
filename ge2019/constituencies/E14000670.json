@@ -2,12 +2,13 @@
 	"id": "E14000670",
 	"title": "Dover",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7182,
 				"name": "Simon Dodd",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/5548b58dc0821aec2c24221a.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7182-2a9fc9cc-a78f-4b6c-9ba2-237f546c4579.png"
 			},{
 				"id": 27457,
 				"name": "Beccy Sawbridge",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Charlie Elphicke",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24777/charlie_elphicke/dover",
 			"electorate": 74564,
-			"turnout": 69.7,
+			"turnout": { "pc": 69.8, "value": 52042 },
 			"valid": 51966,
 			"spoiled": 76,
 			"majority": 6437
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Charlie Elphicke",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72930,
-			"turnout": 69.1,
+			"turnout": { "pc":69.1, "value": 50423 },
 			"valid": 50224,
 			"spoiled": 199,
 			"majority": 6294

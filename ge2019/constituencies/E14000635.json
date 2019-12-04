@@ -2,7 +2,8 @@
 	"id": "E14000635",
 	"title": "Chippenham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3938,
 				"name": "Michelle Donelan",
@@ -18,27 +19,24 @@
 				"name": "Martha Patricia Anachury",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71884.png"
-			}],
-			"incumbent": {
-				"mp": "Michelle Donelan",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michelle Donelan",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25316/michelle_donelan/chippenham",
 			"electorate": 76432,
-			"turnout": 74.8,
+			"turnout": { "pc": 75.0, "value": 57350 },
 			"valid": 57140,
 			"spoiled": 210,
 			"majority": 16630
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michelle Donelan",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74218,
-			"turnout": 74.8,
+			"turnout": { "pc":74.8, "value": 55507 },
 			"valid": 55407,
 			"spoiled": 100,
 			"majority": 10076

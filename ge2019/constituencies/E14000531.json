@@ -2,7 +2,8 @@
 	"id": "E14000531",
 	"title": "Aldridge-Brownhills",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3873,
 				"name": "Ian Garrett",
@@ -28,27 +29,24 @@
 				"name": "Bill McComish",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45195-82a2fda8-7426-45d2-a7c2-5baf378c6923.png"
-			}],
-			"incumbent": {
-				"mp": "Wendy Morton",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Wendy Morton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25342/wendy_morton/aldridge-brownhills",
 			"electorate": 60363,
-			"turnout": 66.7,
+			"turnout": { "pc": 66.8, "value": 40322 },
 			"valid": 40235,
 			"spoiled": 87,
 			"majority": 14307
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Wendy Morton",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 60215,
-			"turnout": 65.8,
+			"turnout": { "pc":65.8, "value": 39602 },
 			"valid": 39497,
 			"spoiled": 105,
 			"majority": 11723

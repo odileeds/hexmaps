@@ -2,7 +2,8 @@
 	"id": "E14000608",
 	"title": "Buckingham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 16,
 				"name": "Stephen Dorrell",
@@ -27,33 +28,34 @@
 				"id": 72283,
 				"name": "Ned Stephen Thompson",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72283-702c1988-d600-44e1-9cd4-722fae940de4.png"
 			},{
 				"id": 72284,
 				"name": "Antonio Daniel Vitiello",
 				"party": { "code": "", "title": "English Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72284-cd5c34c5-fa29-4295-9a3a-fe043711de35.png"
 			}],
 			"incumbent": {
 				"mp": "John Bercow",
 				"party": { "code": "", "title": "" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Bercow",
 			"party": { "code": "Spk" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10040/john_bercow/buckingham",
 			"electorate": 79615,
-			"turnout": 66.2,
+			"turnout": { "pc": 68.6, "value": 54646 },
 			"valid": 52679,
 			"spoiled": 1967,
 			"majority": 25725
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Bercow",
 			"party": { "code": "Spk", "title": "Speaker" },
 			"electorate": 77425,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 54981 },
 			"valid": 53692,
 			"spoiled": 1289,
 			"majority": 22942

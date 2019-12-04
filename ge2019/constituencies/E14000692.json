@@ -2,7 +2,8 @@
 	"id": "E14000692",
 	"title": "Enfield, Southgate",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4041,
 				"name": "David Burrowes",
@@ -28,27 +29,24 @@
 				"name": "Parag Shah",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72589-e683a67d-eef4-472e-a8c6-6a2c49c84d46.png"
-			}],
-			"incumbent": {
-				"mp": "Bambos Charalambous",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bambos Charalambous",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25676/bambos_charalambous/enfield%2C_southgate",
 			"electorate": 65210,
-			"turnout": 74.1,
+			"turnout": { "pc": 74.4, "value": 48486 },
 			"valid": 48328,
 			"spoiled": 158,
 			"majority": 4355
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Burrowes",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64937,
-			"turnout": 70.7,
+			"turnout": { "pc":70.7, "value": 45942 },
 			"valid": 45812,
 			"spoiled": 130,
 			"majority": 4753

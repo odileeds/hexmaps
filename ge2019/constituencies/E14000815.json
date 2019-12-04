@@ -2,7 +2,8 @@
 	"id": "E14000815",
 	"title": "Mid Dorset and North Poole",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4207,
 				"name": "Michael Tomlinson",
@@ -23,27 +24,24 @@
 				"name": "Joanne Oldale",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60393-ccd49415-cc35-4037-8af7-7976ccc0cf01.png"
-			}],
-			"incumbent": {
-				"mp": "Michael Tomlinson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michael Tomlinson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25422/michael_tomlinson/mid_dorset_and_north_poole",
 			"electorate": 65050,
-			"turnout": 74.2,
+			"turnout": { "pc": 74.4, "value": 48399 },
 			"valid": 48254,
 			"spoiled": 145,
 			"majority": 15339
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Tomlinson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64299,
-			"turnout": 72.5,
+			"turnout": { "pc":72.5, "value": 46636 },
 			"valid": 46499,
 			"spoiled": 137,
 			"majority": 10530

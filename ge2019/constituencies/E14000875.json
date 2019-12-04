@@ -2,7 +2,8 @@
 	"id": "E14000875",
 	"title": "Pendle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2871,
 				"name": "Andrew Stephenson",
@@ -22,33 +23,30 @@
 				"id": 18948,
 				"name": "John Richardson",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18948-e29a9ea0-d09b-486a-888e-5fbc20a59709.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18948-5abf278c-4295-4aaf-8359-4a92327d0be3.png"
 			},{
 				"id": 60604,
 				"name": "Clare Hales",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60604.png"
-			}],
-			"incumbent": {
-				"mp": "Andrew Stephenson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Stephenson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24759/andrew_stephenson/pendle",
 			"electorate": 64962,
-			"turnout": 69.0,
+			"turnout": { "pc": 69.2, "value": 44936 },
 			"valid": 44854,
 			"spoiled": 82,
 			"majority": 1279
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Stephenson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64573,
-			"turnout": 69.1,
+			"turnout": { "pc":69.1, "value": 44646 },
 			"valid": 44448,
 			"spoiled": 198,
 			"majority": 5453

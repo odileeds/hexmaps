@@ -2,7 +2,8 @@
 	"id": "E14000943",
 	"title": "South Ribble",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4762,
 				"name": "Katherine Fletcher",
@@ -23,27 +24,24 @@
 				"name": "Kim Snape",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15315.png"
-			}],
-			"incumbent": {
-				"mp": "Seema Kennedy",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Seema Kennedy",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25389/seema_kennedy/south_ribble",
 			"electorate": 75752,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 54926 },
 			"valid": 54834,
 			"spoiled": 92,
 			"majority": 7421
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Seema Kennedy",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76489,
-			"turnout": 68.7,
+			"turnout": { "pc":68.7, "value": 52532 },
 			"valid": 52370,
 			"spoiled": 162,
 			"majority": 5945

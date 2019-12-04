@@ -2,7 +2,8 @@
 	"id": "E14000722",
 	"title": "Halesowen and Rowley Regis",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 729,
 				"name": "James Morris",
@@ -38,27 +39,24 @@
 				"name": "Jon Cross",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "James Morris",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Morris",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24855/james_morris/halesowen_and_rowley_regis",
 			"electorate": 68856,
-			"turnout": 64.5,
+			"turnout": { "pc": 64.6, "value": 44469 },
 			"valid": 44379,
 			"spoiled": 90,
 			"majority": 5253
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Morris",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66048,
-			"turnout": 66.5,
+			"turnout": { "pc":66.5, "value": 43937 },
 			"valid": 43818,
 			"spoiled": 119,
 			"majority": 3082

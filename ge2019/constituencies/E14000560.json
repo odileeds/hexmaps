@@ -2,7 +2,8 @@
 	"id": "E14000560",
 	"title": "Birmingham, Edgbaston",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 90,
 				"name": "Phil Simpson",
@@ -20,35 +21,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10033.png"
 			},{
 				"id": 19009,
-				"name": "Preet Gill",
+				"name": "Preet Kaur Gill",
 				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19009.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19009-a56a591f-5244-4684-a048-020c0bbdf5be.png"
 			},{
 				"id": 72525,
 				"name": "David Jonathon Wilks",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72525-b41f7ac8-49e1-4217-87f6-99d8bea23d09.png"
-			}],
-			"incumbent": {
-				"mp": "Preet Kaur Gill",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Preet Kaur Gill",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Preet Gill",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25666/preet_kaur_gill/birmingham%2C_edgbaston",
 			"electorate": 68091,
-			"turnout": 64.0,
+			"turnout": { "pc": 64.2, "value": 43720 },
 			"valid": 43612,
 			"spoiled": 108,
 			"majority": 6917
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gisela Stuart",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65591,
-			"turnout": 63.2,
+			"turnout": { "pc":63.2, "value": 41449 },
 			"valid": 41293,
 			"spoiled": 156,
 			"majority": 2706

@@ -2,7 +2,8 @@
 	"id": "E14000672",
 	"title": "Dudley South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3124,
 				"name": "Jonathan Bramall",
@@ -22,28 +23,25 @@
 				"id": 71407,
 				"name": "Cate Mohr",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Mike Wood",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71407-db265775-a034-4b7a-bdb7-f08a0c0966ba.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Wood",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25362/mike_wood/dudley_south",
 			"electorate": 61323,
-			"turnout": 62.4,
+			"turnout": { "pc": 62.4, "value": 38295 },
 			"valid": 38244,
 			"spoiled": 51,
 			"majority": 7730
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mike Wood",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 60363,
-			"turnout": 63.4,
+			"turnout": { "pc":63.4, "value": 38295 },
 			"valid": 38210,
 			"spoiled": 85,
 			"majority": 4270

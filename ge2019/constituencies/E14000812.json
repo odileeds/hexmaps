@@ -2,7 +2,8 @@
 	"id": "E14000812",
 	"title": "Meriden",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 40407,
 				"name": "Steve Caudwell",
@@ -15,35 +16,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46244.png"
 			},{
 				"id": 47850,
-				"name": "Teresa Frances Beddis",
+				"name": "Teresa Beddis",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47850-4a696501-b3f5-4092-a962-eafc33736623.png"
 			},{
 				"id": 71880,
 				"name": "Saqib Bhatti",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71880.png"
-			}],
-			"incumbent": {
-				"mp": "Caroline Spelman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Caroline Spelman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10559/caroline_spelman/meriden",
 			"electorate": 81443,
-			"turnout": 67.1,
+			"turnout": { "pc": 67.2, "value": 54740 },
 			"valid": 54643,
 			"spoiled": 97,
 			"majority": 19198
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Caroline Spelman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81928,
-			"turnout": 64.4,
+			"turnout": { "pc":64.4, "value": 52764 },
 			"valid": 52603,
 			"spoiled": 161,
 			"majority": 18795

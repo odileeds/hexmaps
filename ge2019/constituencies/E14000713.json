@@ -2,7 +2,8 @@
 	"id": "E14000713",
 	"title": "Gosport",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2937,
 				"name": "Caroline Dinenage",
@@ -23,27 +24,24 @@
 				"name": "Tom Chatwin",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72390-b880e839-c3d6-408a-a487-f0c94a0af83d.png"
-			}],
-			"incumbent": {
-				"mp": "Caroline Dinenage",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Caroline Dinenage",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24873/caroline_dinenage/gosport",
 			"electorate": 74152,
-			"turnout": 66.7,
+			"turnout": { "pc": 66.8, "value": 49509 },
 			"valid": 49481,
 			"spoiled": 28,
 			"majority": 17211
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Caroline Dinenage",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73268,
-			"turnout": 65.2,
+			"turnout": { "pc":65.2, "value": 47751 },
 			"valid": 47665,
 			"spoiled": 86,
 			"majority": 17098

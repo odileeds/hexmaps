@@ -2,7 +2,8 @@
 	"id": "N06000008",
 	"title": "Foyle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7209,
 				"name": "Gary Middleton",
@@ -38,27 +39,24 @@
 				"name": "Darren Guy",
 				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72311-69f7860c-8833-4537-9613-7ce907087fab.png"
-			}],
-			"incumbent": {
-				"mp": "Elisha McCallion",
-				"party": { "code": "SF", "title": "Sinn Féin" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Elisha McCallion",
 			"party": { "code": "SF" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25604/elisha_mccallion/foyle",
 			"electorate": 70324,
-			"turnout": 65.4,
+			"turnout": { "pc": 65.6, "value": 46142 },
 			"valid": 45965,
 			"spoiled": 177,
 			"majority": 169
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Durkan",
 			"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
 			"electorate": 70036,
-			"turnout": 53.6,
+			"turnout": { "pc":53.6, "value": 37528 },
 			"valid": 37002,
 			"spoiled": 526,
 			"majority": 6046

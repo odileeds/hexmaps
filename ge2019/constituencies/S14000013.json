@@ -2,7 +2,8 @@
 	"id": "S14000013",
 	"title": "Dumfries and Galloway",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5920,
 				"name": "Richard Arkless",
@@ -23,27 +24,24 @@
 				"name": "Ted Thompson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71871.png"
-			}],
-			"incumbent": {
-				"mp": "Alister Jack",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alister Jack",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25674/alister_jack/dumfries_and_galloway",
 			"electorate": 74206,
-			"turnout": 69.5,
+			"turnout": { "pc": 69.6, "value": 51644 },
 			"valid": 51599,
 			"spoiled": 45,
 			"majority": 5643
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Richard  Arkless",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 75249,
-			"turnout": 75.3,
+			"turnout": { "pc":75.3, "value": 56668 },
 			"valid": 56602,
 			"spoiled": 66,
 			"majority": 6514

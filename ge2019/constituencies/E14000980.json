@@ -2,7 +2,8 @@
 	"id": "E14000980",
 	"title": "Stroud",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2919,
 				"name": "David Drew",
@@ -28,27 +29,24 @@
 				"name": "Desi Latimer",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71678-77f65026-52a3-400b-8105-2b5d715fc8ab.png"
-			}],
-			"incumbent": {
-				"mp": "David Drew",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Drew",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10177/david_drew/stroud",
 			"electorate": 82839,
-			"turnout": 77.0,
+			"turnout": { "pc": 77.2, "value": 63913 },
 			"valid": 63816,
 			"spoiled": 97,
 			"majority": 687
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Neil Carmichael",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80544,
-			"turnout": 75.7,
+			"turnout": { "pc":75.7, "value": 60940 },
 			"valid": 60819,
 			"spoiled": 121,
 			"majority": 4866

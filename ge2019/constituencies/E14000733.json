@@ -2,7 +2,8 @@
 	"id": "E14000733",
 	"title": "Hartlepool",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4761,
 				"name": "Mike Hill",
@@ -17,7 +18,7 @@
 				"id": 53227,
 				"name": "Kevin Cranney",
 				"party": { "code": "", "title": "Socialist Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53227-1f93ee87-ddaa-4000-a571-b53ec8da8fac.png"
 			},{
 				"id": 57303,
 				"name": "Stefan Richard Houghton",
@@ -33,27 +34,24 @@
 				"name": "Joe Bousfield",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Mike Hill",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Hill",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25619/mike_hill/hartlepool",
 			"electorate": 70718,
-			"turnout": 59.2,
+			"turnout": { "pc": 59.3, "value": 41921 },
 			"valid": 41835,
 			"spoiled": 86,
 			"majority": 7650
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Iain Wright",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69947,
-			"turnout": 56.6,
+			"turnout": { "pc":56.6, "value": 39602 },
 			"valid": 39490,
 			"spoiled": 112,
 			"majority": 3024

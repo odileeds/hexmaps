@@ -2,7 +2,8 @@
 	"id": "E14000952",
 	"title": "South West Norfolk",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 188,
 				"name": "Elizabeth Truss",
@@ -28,27 +29,24 @@
 				"name": "Earl Elvis Of Outwell",
 				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Elizabeth Truss",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Elizabeth Truss",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24941/elizabeth_truss/south_west_norfolk",
 			"electorate": 77874,
-			"turnout": 67.3,
+			"turnout": { "pc": 67.5, "value": 52570 },
 			"valid": 52416,
 			"spoiled": 154,
 			"majority": 18312
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Elizabeth Truss",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76970,
-			"turnout": 65.4,
+			"turnout": { "pc":65.4, "value": 50302 },
 			"valid": 50110,
 			"spoiled": 192,
 			"majority": 13861

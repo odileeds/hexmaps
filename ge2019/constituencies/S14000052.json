@@ -2,7 +2,8 @@
 	"id": "S14000052",
 	"title": "Paisley and Renfrewshire North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6054,
 				"name": "Gavin Newlands",
@@ -23,27 +24,24 @@
 				"name": "Julie Pirone",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Gavin Newlands",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gavin Newlands",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25291/gavin_newlands/paisley_and_renfrewshire_north",
 			"electorate": 67436,
-			"turnout": 69.1,
+			"turnout": { "pc": 69.2, "value": 46666 },
 			"valid": 46615,
 			"spoiled": 51,
 			"majority": 2613
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gavin Newlands",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 66206,
-			"turnout": 76.3,
+			"turnout": { "pc":76.3, "value": 50522 },
 			"valid": 50462,
 			"spoiled": 60,
 			"majority": 9076

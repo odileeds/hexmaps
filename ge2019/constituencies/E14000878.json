@@ -2,7 +2,8 @@
 	"id": "E14000878",
 	"title": "Peterborough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1259,
 				"name": "Paul Bristow",
@@ -43,27 +44,33 @@
 				"name": "The Very Raving Mr P",
 				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Lisa Forbes",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2019-06-06": {
+			"type": "by",
 			"mp": "Lisa Forbes",
-			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25772/lisa_forbes/peterborough",
-			"electorate": 71522,
-			"turnout": 48.4,
+			"party": { "code": "Lab", "title": "Labour" },
+			"turnout": { "pc": 48.43, "value": 33997 },
 			"valid": 33920,
-			"spoiled": 145,
+			"spoiled": 77,
 			"majority": 683
 		},
-		"2015": {
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Fiona Onasanya",
+			"party": { "code": "Lab" },
+			"electorate": 71522,
+			"turnout": { "pc": 66.9, "value": 47883 },
+			"valid": 47738,
+			"spoiled": 145,
+			"majority": 607
+		},
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stewart Jackson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72530,
-			"turnout": 65.1,
+			"turnout": { "pc":65.1, "value": 47252 },
 			"valid": 47075,
 			"spoiled": 177,
 			"majority": 1925

@@ -2,7 +2,8 @@
 	"id": "E14000846",
 	"title": "North East Somerset",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1612,
 				"name": "Jacob Rees-Mogg",
@@ -22,33 +23,30 @@
 				"id": 35041,
 				"name": "Shaun Hughes",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35041-e5c17a31-c82c-498b-b75c-3e1d458aa5ef.png"
 			},{
 				"id": 71560,
 				"name": "Nick Coates",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71560.png"
-			}],
-			"incumbent": {
-				"mp": "Jacob Rees-Mogg",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jacob Rees-Mogg",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24926/jacob_rees-mogg/north_east_somerset",
 			"electorate": 71355,
-			"turnout": 75.7,
+			"turnout": { "pc": 75.9, "value": 54147 },
 			"valid": 54043,
 			"spoiled": 104,
 			"majority": 10235
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jacob Rees-Mogg",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69380,
-			"turnout": 73.9,
+			"turnout": { "pc":73.9, "value": 51263 },
 			"valid": 51110,
 			"spoiled": 153,
 			"majority": 12749

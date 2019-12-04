@@ -2,7 +2,8 @@
 	"id": "S14000010",
 	"title": "Central Ayrshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5919,
 				"name": "Philippa Whitford",
@@ -23,27 +24,24 @@
 				"name": "Derek Stillie",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71963-1f50ee32-c180-4115-ab36-837b636e7b58.png"
-			}],
-			"incumbent": {
-				"mp": "Philippa Whitford",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Philippa Whitford",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25318/philippa_whitford/central_ayrshire",
 			"electorate": 68999,
-			"turnout": 65.3,
+			"turnout": { "pc": 65.5, "value": 45162 },
 			"valid": 45087,
 			"spoiled": 75,
 			"majority": 1267
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Philippa Whitford",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 70021,
-			"turnout": 72.6,
+			"turnout": { "pc":72.6, "value": 50842 },
 			"valid": 50774,
 			"spoiled": 68,
 			"majority": 13589

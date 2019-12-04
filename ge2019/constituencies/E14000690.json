@@ -2,7 +2,8 @@
 	"id": "E14000690",
 	"title": "Eltham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4037,
 				"name": "Clive Efford",
@@ -28,27 +29,24 @@
 				"name": "Steve Kelleher",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71431.png"
-			}],
-			"incumbent": {
-				"mp": "Clive Efford",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Clive Efford",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10185/clive_efford/eltham",
 			"electorate": 64474,
-			"turnout": 71.6,
+			"turnout": { "pc": 71.8, "value": 46305 },
 			"valid": 46155,
 			"spoiled": 150,
 			"majority": 6296
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Clive Efford",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63998,
-			"turnout": 67.6,
+			"turnout": { "pc":67.6, "value": 43254 },
 			"valid": 43157,
 			"spoiled": 97,
 			"majority": 2693

@@ -2,7 +2,8 @@
 	"id": "E14000557",
 	"title": "Bexhill and Battle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2210,
 				"name": "Huw Merriman",
@@ -23,27 +24,24 @@
 				"name": "Martin Saunders",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71298-61666898-219b-465e-8481-69d38175eab9.png"
-			}],
-			"incumbent": {
-				"mp": "Huw Merriman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Huw Merriman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25426/huw_merriman/bexhill_and_battle",
 			"electorate": 81331,
-			"turnout": 73.1,
+			"turnout": { "pc": 73.2, "value": 59574 },
 			"valid": 59472,
 			"spoiled": 102,
 			"majority": 22165
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Huw Merriman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78796,
-			"turnout": 70.5,
+			"turnout": { "pc":70.5, "value": 55518 },
 			"valid": 55218,
 			"spoiled": 300,
 			"majority": 20075

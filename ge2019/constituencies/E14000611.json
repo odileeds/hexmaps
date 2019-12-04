@@ -2,7 +2,8 @@
 	"id": "E14000611",
 	"title": "Bury North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4163,
 				"name": "James Daly",
@@ -28,27 +29,24 @@
 				"name": "Alan Michael McCarthy",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/46828-c4001b1a-54fa-492a-b9b8-367c7f94f066.png"
-			}],
-			"incumbent": {
-				"mp": "James Frith",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Frith",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25622/james_frith/bury_north",
 			"electorate": 67580,
-			"turnout": 70.9,
+			"turnout": { "pc": 71.1, "value": 48059 },
 			"valid": 47903,
 			"spoiled": 156,
 			"majority": 4375
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Nuttall",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67580,
-			"turnout": 67.2,
+			"turnout": { "pc":67.2, "value": 45416 },
 			"valid": 45230,
 			"spoiled": 186,
 			"majority": 378

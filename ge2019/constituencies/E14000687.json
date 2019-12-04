@@ -2,7 +2,8 @@
 	"id": "E14000687",
 	"title": "Edmonton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 847,
 				"name": "David Schmitz",
@@ -33,27 +34,24 @@
 				"name": "Sachin Sehgal",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72590-122afbef-98e9-4316-b1d5-0f3326fcc0f4.png"
-			}],
-			"incumbent": {
-				"mp": "Kate Osamor",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kate Osamor",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25365/kate_osamor/edmonton",
 			"electorate": 65777,
-			"turnout": 66.4,
+			"turnout": { "pc": 66.6, "value": 43791 },
 			"valid": 43678,
 			"spoiled": 113,
 			"majority": 21115
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kate Osamor",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 66016,
-			"turnout": 62.9,
+			"turnout": { "pc":62.9, "value": 41499 },
 			"valid": 41338,
 			"spoiled": 161,
 			"majority": 15419

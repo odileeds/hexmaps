@@ -2,12 +2,13 @@
 	"id": "E14000768",
 	"title": "Kensington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3936,
 				"name": "Sam Gyimah",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/5524a5a4f0e9e2c82406ebc2.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3936-db644730-0c57-40ae-9f5b-cb090d73fc04.png"
 			},{
 				"id": 7195,
 				"name": "Scott Dore",
@@ -30,40 +31,37 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41003-8e49c5ec-bf28-4d8c-8f13-790c4237f778.png"
 			},{
 				"id": 71501,
-				"name": "Jay Aston Colquhoun",
+				"name": "Jay Aston",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71501-440423dd-c542-4a8c-a2de-1d10a0a12ec7.png"
 			},{
 				"id": 72361,
-				"name": "Harriet Nkechi Adimora Gore",
+				"name": "Harriet Gore",
 				"party": { "code": "", "title": "Touch Love Worldwide (UK)" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72361-35ae01ef-483d-44f7-ab63-d1db7f16f128.png"
 			},{
 				"id": 72362,
 				"name": "Roger David Phillips",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Emma Dent Coad",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Emma Dent Coad",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25706/emma_dent_coad/kensington",
 			"electorate": 60588,
-			"turnout": 63.8,
+			"turnout": { "pc": 64.0, "value": 38795 },
 			"valid": 38677,
 			"spoiled": 118,
 			"majority": 20
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Victoria Borwick",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 61133,
-			"turnout": 57.2,
+			"turnout": { "pc":57.2, "value": 34967 },
 			"valid": 34828,
 			"spoiled": 139,
 			"majority": 7361

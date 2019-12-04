@@ -2,7 +2,8 @@
 	"id": "E14000957",
 	"title": "Southend West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2570,
 				"name": "David Amess",
@@ -20,30 +21,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71797-c3c18057-3281-49a9-8317-02b88cdbf926.png"
 			},{
 				"id": 72349,
-				"name": "77 Joseph",
+				"name": "Joseph 77",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "David Amess",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72349-fbb3a66c-e9c5-47c2-89f6-ef75481821fa.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Amess",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10009/sir_david_amess/southend_west",
 			"electorate": 67677,
-			"turnout": 69.7,
+			"turnout": { "pc": 69.9, "value": 47292 },
 			"valid": 47191,
 			"spoiled": 101,
 			"majority": 10000
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Amess",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66876,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 44654 },
 			"valid": 44509,
 			"spoiled": 145,
 			"majority": 14021

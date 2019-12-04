@@ -2,7 +2,8 @@
 	"id": "E14000699",
 	"title": "Fareham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6440,
 				"name": "Matthew Winnington",
@@ -23,27 +24,24 @@
 				"name": "Nick Lyle",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Suella Braverman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Suella Braverman",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Suella Fernandes",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25272/suella_braverman/fareham",
 			"electorate": 78837,
-			"turnout": 72.3,
+			"turnout": { "pc": 72.5, "value": 57138 },
 			"valid": 57014,
 			"spoiled": 124,
 			"majority": 21555
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Suella Fernandes",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77114,
-			"turnout": 71.1,
+			"turnout": { "pc":71.1, "value": 54818 },
 			"valid": 54700,
 			"spoiled": 118,
 			"majority": 22262

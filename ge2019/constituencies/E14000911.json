@@ -2,12 +2,18 @@
 	"id": "E14000911",
 	"title": "Salford and Eccles",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5749,
 				"name": "Rebecca Long Bailey",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5515981f4fb3d15c51926dcb.png"
+			},{
+				"id": 18663,
+				"name": "Attika Choudhary",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18663-c83e16f7-36d6-43c5-b777-bdbb0d17333a.png"
 			},{
 				"id": 35462,
 				"name": "Jake Overend",
@@ -19,36 +25,28 @@
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59344.png"
 			},{
-				"id": 72491,
-				"name": "Attika Choudhary",
-				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			},{
 				"id": 72492,
 				"name": "Matt Mickler",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Rebecca Long-Bailey",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Rebecca Long-Bailey",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Rebecca Long Bailey",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25368/rebecca_long-bailey/salford_and_eccles",
 			"electorate": 78080,
-			"turnout": 61.0,
+			"turnout": { "pc": 61.1, "value": 47730 },
 			"valid": 47619,
 			"spoiled": 111,
 			"majority": 19132
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rebecca Long Bailey",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74291,
-			"turnout": 58.5,
+			"turnout": { "pc":58.5, "value": 43462 },
 			"valid": 43261,
 			"spoiled": 201,
 			"majority": 12541

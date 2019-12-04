@@ -2,7 +2,8 @@
 	"id": "E14000927",
 	"title": "Sittingbourne and Sheppey",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 282,
 				"name": "Gordon Henderson",
@@ -38,27 +39,24 @@
 				"name": "Clive Johnson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71934.png"
-			}],
-			"incumbent": {
-				"mp": "Gordon Henderson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gordon Henderson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24828/gordon_henderson/sittingbourne_and_sheppey",
 			"electorate": 81717,
-			"turnout": 62.9,
+			"turnout": { "pc": 63.0, "value": 51466 },
 			"valid": 51389,
 			"spoiled": 77,
 			"majority": 15211
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gordon Henderson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76018,
-			"turnout": 65.2,
+			"turnout": { "pc":65.2, "value": 49545 },
 			"valid": 49378,
 			"spoiled": 167,
 			"majority": 12168

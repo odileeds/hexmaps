@@ -2,7 +2,8 @@
 	"id": "E14000852",
 	"title": "North Thanet",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 995,
 				"name": "Roger Gale",
@@ -23,27 +24,24 @@
 				"name": "Coral Jones",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72058.png"
-			}],
-			"incumbent": {
-				"mp": "Roger Gale",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Roger Gale",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10217/roger_gale/north_thanet",
 			"electorate": 72651,
-			"turnout": 66.5,
+			"turnout": { "pc": 66.6, "value": 48407 },
 			"valid": 48325,
 			"spoiled": 82,
 			"majority": 10738
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Roger Gale",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71478,
-			"turnout": 66.1,
+			"turnout": { "pc":66.1, "value": 47214 },
 			"valid": 47053,
 			"spoiled": 161,
 			"majority": 10948

@@ -2,7 +2,8 @@
 	"id": "S14000053",
 	"title": "Paisley and Renfrewshire South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6055,
 				"name": "Mhairi Black",
@@ -23,27 +24,24 @@
 				"name": "Jack Clark",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21923.png"
-			}],
-			"incumbent": {
-				"mp": "Mhairi Black",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mhairi Black",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25269/mhairi_black/paisley_and_renfrewshire_south",
 			"electorate": 61344,
-			"turnout": 68.0,
+			"turnout": { "pc": 68.1, "value": 41771 },
 			"valid": 41712,
 			"spoiled": 59,
 			"majority": 2541
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mhairi Black",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 61281,
-			"turnout": 75.5,
+			"turnout": { "pc":75.5, "value": 46295 },
 			"valid": 46226,
 			"spoiled": 69,
 			"majority": 5684

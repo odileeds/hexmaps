@@ -2,7 +2,8 @@
 	"id": "W07000059",
 	"title": "Clwyd West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3151,
 				"name": "David Jones",
@@ -23,27 +24,24 @@
 				"name": "Huw Elfed Williams",
 				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71376.png"
-			}],
-			"incumbent": {
-				"mp": "David Jones",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Jones",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11506/david_jones/clwyd_west",
 			"electorate": 58263,
-			"turnout": 69.8,
+			"turnout": { "pc": 69.9, "value": 40733 },
 			"valid": 40654,
 			"spoiled": 79,
 			"majority": 3437
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Jones",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 58644,
-			"turnout": 65.0,
+			"turnout": { "pc":65.0, "value": 38104 },
 			"valid": 38028,
 			"spoiled": 76,
 			"majority": 6730

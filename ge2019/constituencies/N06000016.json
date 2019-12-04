@@ -2,7 +2,8 @@
 	"id": "N06000016",
 	"title": "Strangford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3066,
 				"name": "Jim Shannon",
@@ -37,33 +38,30 @@
 				"id": 69269,
 				"name": "Maurice Macartney",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69269-b8ec041d-b27f-44dd-b14a-a32ce7326f66.png"
 			},{
 				"id": 72077,
 				"name": "Grant Abraham",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jim Shannon",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72077-b6c3ee2e-5e4c-4a5e-9b35-a850e055d271.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jim Shannon",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/13864/jim_shannon/strangford",
 			"electorate": 64327,
-			"turnout": 60.2,
+			"turnout": { "pc": 60.4, "value": 38826 },
 			"valid": 38749,
 			"spoiled": 77,
 			"majority": 18343
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jim Shannon",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 64289,
-			"turnout": 53.0,
+			"turnout": { "pc":53.0, "value": 34104 },
 			"valid": 33924,
 			"spoiled": 180,
 			"majority": 10185

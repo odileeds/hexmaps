@@ -2,7 +2,8 @@
 	"id": "E14001039",
 	"title": "Wigan",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2241,
 				"name": "Lisa Nandy",
@@ -28,27 +29,24 @@
 				"name": "Peter Ernest Jacobs",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Lisa Nandy",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lisa Nandy",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24831/lisa_nandy/wigan",
 			"electorate": 75359,
-			"turnout": 63.1,
+			"turnout": { "pc": 63.2, "value": 47638 },
 			"valid": 47542,
 			"spoiled": 96,
 			"majority": 16027
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lisa Nandy",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75990,
-			"turnout": 59.8,
+			"turnout": { "pc":59.8, "value": 45419 },
 			"valid": 45293,
 			"spoiled": 126,
 			"majority": 14236

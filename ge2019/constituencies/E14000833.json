@@ -2,7 +2,8 @@
 	"id": "E14000833",
 	"title": "Newcastle upon Tyne North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2098,
 				"name": "Catherine McKinnell",
@@ -25,30 +26,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72303-e05ea525-3223-44fb-92ef-6b94a4a629b7.png"
 			},{
 				"id": 72304,
-				"name": "Richard Mark Ogden",
+				"name": "Richard Ogden",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72304-9955867a-3b70-4c2d-b7ff-f87c5c03ec7e.png"
-			}],
-			"incumbent": {
-				"mp": "Catherine McKinnell",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Catherine McKinnell",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24818/catherine_mckinnell/newcastle_upon_tyne_north",
 			"electorate": 66073,
-			"turnout": 73.1,
+			"turnout": { "pc": 73.2, "value": 48371 },
 			"valid": 48288,
 			"spoiled": 83,
 			"majority": 10349
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Catherine McKinnell",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67902,
-			"turnout": 66.3,
+			"turnout": { "pc":66.3, "value": 45046 },
 			"valid": 44891,
 			"spoiled": 155,
 			"majority": 10153

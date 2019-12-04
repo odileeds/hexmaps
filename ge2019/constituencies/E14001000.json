@@ -2,7 +2,8 @@
 	"id": "E14001000",
 	"title": "Torridge and West Devon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 552,
 				"name": "Geoffrey Cox",
@@ -28,27 +29,24 @@
 				"name": "Bob Wootton",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67507-1a998e4b-8565-427a-be18-c9cb001ef4c0.png"
-			}],
-			"incumbent": {
-				"mp": "Geoffrey Cox",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Geoffrey Cox",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11541/geoffrey_cox/torridge_and_west_devon",
 			"electorate": 80524,
-			"turnout": 73.9,
+			"turnout": { "pc": 74.0, "value": 59624 },
 			"valid": 59480,
 			"spoiled": 144,
 			"majority": 20686
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Geoffrey Cox",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78621,
-			"turnout": 72.2,
+			"turnout": { "pc":72.2, "value": 56786 },
 			"valid": 56584,
 			"spoiled": 202,
 			"majority": 18403

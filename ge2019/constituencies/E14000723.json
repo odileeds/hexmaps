@@ -2,7 +2,8 @@
 	"id": "E14000723",
 	"title": "Halifax",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2540,
 				"name": "Kashif Ali",
@@ -28,27 +29,24 @@
 				"name": "Bella Jessop",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72441-b8ce3339-8753-4bf4-b78d-94a87a0a3b07.png"
-			}],
-			"incumbent": {
-				"mp": "Holly Lynch",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Holly Lynch",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25434/holly_lynch/halifax",
 			"electorate": 71224,
-			"turnout": 67.8,
+			"turnout": { "pc": 67.9, "value": 48375 },
 			"valid": 48276,
 			"spoiled": 99,
 			"majority": 5376
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Holly Lynch",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70462,
-			"turnout": 62.4,
+			"turnout": { "pc":62.4, "value": 43994 },
 			"valid": 43753,
 			"spoiled": 241,
 			"majority": 428

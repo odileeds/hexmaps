@@ -2,10 +2,11 @@
 	"id": "E14000664",
 	"title": "Derbyshire Dales",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34998,
-				"name": "Matthew Buckler",
+				"name": "Matt Buckler",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34998.png"
 			},{
@@ -22,28 +23,25 @@
 				"id": 72440,
 				"name": "Sarah Elizabeth Dines",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Patrick McLoughlin",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72440-a50d3315-a7b8-49e8-a327-15e9faa16e69.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Patrick McLoughlin",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10397/patrick_mcloughlin/derbyshire_dales",
 			"electorate": 64430,
-			"turnout": 76.9,
+			"turnout": { "pc": 77.2, "value": 49722 },
 			"valid": 49571,
 			"spoiled": 151,
 			"majority": 14327
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Patrick McLoughlin",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63476,
-			"turnout": 74.8,
+			"turnout": { "pc":74.8, "value": 47491 },
 			"valid": 47361,
 			"spoiled": 130,
 			"majority": 14044

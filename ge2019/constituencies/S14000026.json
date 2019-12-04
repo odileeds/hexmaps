@@ -2,7 +2,8 @@
 	"id": "S14000026",
 	"title": "Edinburgh West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4499,
 				"name": "Christine Jardine",
@@ -28,27 +29,24 @@
 				"name": "Craig Bolton",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71924.png"
-			}],
-			"incumbent": {
-				"mp": "Christine Jardine",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Christine Jardine",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25675/christine_jardine/edinburgh_west",
 			"electorate": 71500,
-			"turnout": 73.8,
+			"turnout": { "pc": 73.9, "value": 52866 },
 			"valid": 52795,
 			"spoiled": 71,
 			"majority": 2988
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michelle  Thomson",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 71717,
-			"turnout": 76.6,
+			"turnout": { "pc":76.6, "value": 54907 },
 			"valid": 54858,
 			"spoiled": 49,
 			"majority": 3210

@@ -2,7 +2,8 @@
 	"id": "E14000818",
 	"title": "Mid Worcestershire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2443,
 				"name": "Margaret Rowley",
@@ -27,28 +28,25 @@
 				"id": 71908,
 				"name": "Helen Russell",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Nigel Huddleston",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71908-e4500b0a-3fc0-40ec-89aa-7de3e968bbba.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nigel Huddleston",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25381/nigel_huddleston/mid_worcestershire",
 			"electorate": 76057,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.6, "value": 55191 },
 			"valid": 55089,
 			"spoiled": 102,
 			"majority": 23326
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nigel Huddleston",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73069,
-			"turnout": 71.7,
+			"turnout": { "pc":71.7, "value": 52424 },
 			"valid": 52225,
 			"spoiled": 199,
 			"majority": 20532

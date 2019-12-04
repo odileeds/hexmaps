@@ -2,7 +2,8 @@
 	"id": "E14000902",
 	"title": "Rossendale and Darwen",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4079,
 				"name": "Jake Berry",
@@ -23,27 +24,24 @@
 				"name": "Sarah Elizabeth Hall",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jake Berry",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jake Berry",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24860/jake_berry/rossendale_and_darwen",
 			"electorate": 72486,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.4, "value": 50290 },
 			"valid": 50156,
 			"spoiled": 134,
 			"majority": 3216
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jake Berry",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73779,
-			"turnout": 66.6,
+			"turnout": { "pc":66.6, "value": 49164 },
 			"valid": 49024,
 			"spoiled": 140,
 			"majority": 5654

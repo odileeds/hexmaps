@@ -2,7 +2,8 @@
 	"id": "E14000977",
 	"title": "Stratford-on-Avon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 75,
 				"name": "Nadhim Zahawi",
@@ -12,7 +13,7 @@
 				"id": 24656,
 				"name": "Dave Passingham",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24656-a085564f-3fcd-4ab4-b263-c37edf363193.png"
 			},{
 				"id": 30366,
 				"name": "Dominic Edmund Paul Skinner",
@@ -23,27 +24,24 @@
 				"name": "Felix Ling",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53676.png"
-			}],
-			"incumbent": {
-				"mp": "Nadhim Zahawi",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nadhim Zahawi",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24822/nadhim_zahawi/stratford-on-avon",
 			"electorate": 72572,
-			"turnout": 73.8,
+			"turnout": { "pc": 74.0, "value": 53684 },
 			"valid": 53532,
 			"spoiled": 152,
 			"majority": 21958
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nadhim Zahawi",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71304,
-			"turnout": 72.4,
+			"turnout": { "pc":72.4, "value": 51616 },
 			"valid": 51459,
 			"spoiled": 157,
 			"majority": 22876

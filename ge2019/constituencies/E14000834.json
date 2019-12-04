@@ -2,7 +2,8 @@
 	"id": "E14000834",
 	"title": "Newcastle-under-Lyme",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7031,
 				"name": "Nigel Jones",
@@ -28,27 +29,24 @@
 				"name": "Carl Richard Johnson",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72488-8eebdb90-6925-4da0-b3e8-fd8bf0735373.png"
-			}],
-			"incumbent": {
-				"mp": "Paul Farrelly",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Farrelly",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10882/paul_farrelly/newcastle-under-lyme",
 			"electorate": 65596,
-			"turnout": 66.8,
+			"turnout": { "pc": 67.1, "value": 44014 },
 			"valid": 43842,
 			"spoiled": 172,
 			"majority": 30
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Farrelly",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67619,
-			"turnout": 63.8,
+			"turnout": { "pc":63.8, "value": 43122 },
 			"valid": 42997,
 			"spoiled": 125,
 			"majority": 650

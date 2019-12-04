@@ -2,7 +2,8 @@
 	"id": "W07000079",
 	"title": "Cardiff West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2628,
 				"name": "Kevin Brennan",
@@ -33,27 +34,24 @@
 				"name": "Nick Mullins",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Kevin Brennan",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kevin Brennan",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10753/kevin_brennan/cardiff_west",
 			"electorate": 66775,
-			"turnout": 69.8,
+			"turnout": { "pc": 70.0, "value": 46718 },
 			"valid": 46629,
 			"spoiled": 89,
 			"majority": 12551
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kevin Brennan",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66762,
-			"turnout": 65.8,
+			"turnout": { "pc":65.8, "value": 43905 },
 			"valid": 43792,
 			"spoiled": 113,
 			"majority": 6789

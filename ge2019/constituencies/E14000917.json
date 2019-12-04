@@ -2,7 +2,8 @@
 	"id": "E14000917",
 	"title": "Selby and Ainsty",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1959,
 				"name": "Nigel Adams",
@@ -28,27 +29,24 @@
 				"name": "Mike Jordan",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71858.png"
-			}],
-			"incumbent": {
-				"mp": "Nigel Adams",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nigel Adams",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24878/nigel_adams/selby_and_ainsty",
 			"electorate": 75918,
-			"turnout": 73.9,
+			"turnout": { "pc": 74.1, "value": 56221 },
 			"valid": 56076,
 			"spoiled": 145,
 			"majority": 13772
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nigel Adams",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76082,
-			"turnout": 69.6,
+			"turnout": { "pc":69.6, "value": 52976 },
 			"valid": 52804,
 			"spoiled": 172,
 			"majority": 13557

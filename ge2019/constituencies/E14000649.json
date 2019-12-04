@@ -2,7 +2,8 @@
 	"id": "E14000649",
 	"title": "Coventry North East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4315,
 				"name": "Colleen Fletcher",
@@ -22,33 +23,30 @@
 				"id": 40297,
 				"name": "Nukey Proctor",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40297.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40297-307704d1-1b75-4b77-a2f3-5dd2a92f29db.png"
 			},{
 				"id": 71385,
 				"name": "Iddrisu Sufyan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71385.png"
-			}],
-			"incumbent": {
-				"mp": "Colleen Fletcher",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Colleen Fletcher",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25319/colleen_fletcher/coventry_north_east",
 			"electorate": 75759,
-			"turnout": 61.4,
+			"turnout": { "pc": 61.6, "value": 46636 },
 			"valid": 46508,
 			"spoiled": 128,
 			"majority": 15580
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Colleen Fletcher",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75462,
-			"turnout": 56.2,
+			"turnout": { "pc":56.2, "value": 42416 },
 			"valid": 42231,
 			"spoiled": 185,
 			"majority": 12274

@@ -2,7 +2,8 @@
 	"id": "E14000789",
 	"title": "Lewisham, Deptford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4372,
 				"name": "Vicky Foxcroft",
@@ -22,7 +23,7 @@
 				"id": 72228,
 				"name": "Tan Bui",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72228-377ed853-266f-4728-9a69-2b10b1a0c70e.png"
 			},{
 				"id": 72231,
 				"name": "Moses John Etienne",
@@ -38,27 +39,24 @@
 				"name": "John Robert Lloyd",
 				"party": { "code": "", "title": "Alliance For Green Socialism" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Vicky Foxcroft",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Vicky Foxcroft",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25380/vicky_foxcroft/lewisham%2C_deptford",
 			"electorate": 78468,
-			"turnout": 70.2,
+			"turnout": { "pc": 70.5, "value": 55320 },
 			"valid": 55112,
 			"spoiled": 208,
 			"majority": 34899
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Vicky Foxcroft",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73428,
-			"turnout": 64.9,
+			"turnout": { "pc":64.9, "value": 47648 },
 			"valid": 47426,
 			"spoiled": 222,
 			"majority": 21516

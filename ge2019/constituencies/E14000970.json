@@ -2,7 +2,8 @@
 	"id": "E14000970",
 	"title": "Stockton North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3622,
 				"name": "Alex Cunningham",
@@ -28,27 +29,24 @@
 				"name": "Martin Andrew Walker",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71670.png"
-			}],
-			"incumbent": {
-				"mp": "Alex Cunningham",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alex Cunningham",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24742/alex_cunningham/stockton_north",
 			"electorate": 66285,
-			"turnout": 64.5,
+			"turnout": { "pc": 64.6, "value": 42805 },
 			"valid": 42731,
 			"spoiled": 74,
 			"majority": 8715
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alex Cunningham",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66126,
-			"turnout": 60.2,
+			"turnout": { "pc":60.2, "value": 39783 },
 			"valid": 39571,
 			"spoiled": 212,
 			"majority": 8367

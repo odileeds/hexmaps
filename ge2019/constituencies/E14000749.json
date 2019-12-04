@@ -2,7 +2,8 @@
 	"id": "E14000749",
 	"title": "Hitchin and Harpenden",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1224,
 				"name": "Sid Cordle",
@@ -28,27 +29,24 @@
 				"name": "Kay Frances Tart",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/62072.png"
-			}],
-			"incumbent": {
-				"mp": "Bim Afolami",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bim Afolami",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25661/bim_afolami/hitchin_and_harpenden",
 			"electorate": 75916,
-			"turnout": 77.4,
+			"turnout": { "pc": 77.6, "value": 58921 },
 			"valid": 58783,
 			"spoiled": 138,
 			"majority": 12031
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Peter Lilley",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80333,
-			"turnout": 69.1,
+			"turnout": { "pc":69.1, "value": 55548 },
 			"valid": 55375,
 			"spoiled": 173,
 			"majority": 20055

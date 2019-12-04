@@ -2,7 +2,8 @@
 	"id": "N06000002",
 	"title": "Belfast North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2140,
 				"name": "Nigel Dodds",
@@ -18,27 +19,24 @@
 				"name": "John Finucane",
 				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34499.png"
-			}],
-			"incumbent": {
-				"mp": "Nigel Dodds",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nigel Dodds",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10857/nigel_dodds/belfast_north",
 			"electorate": 68249,
-			"turnout": 67.3,
+			"turnout": { "pc": 67.5, "value": 46094 },
 			"valid": 45936,
 			"spoiled": 158,
 			"majority": 2081
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nigel Dodds",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 68553,
-			"turnout": 59.6,
+			"turnout": { "pc":59.6, "value": 40887 },
 			"valid": 40593,
 			"spoiled": 294,
 			"majority": 5326

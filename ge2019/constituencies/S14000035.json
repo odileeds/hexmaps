@@ -2,7 +2,8 @@
 	"id": "S14000035",
 	"title": "Glasgow South West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1812,
 				"name": "Chris Stephens",
@@ -28,27 +29,24 @@
 				"name": "Peter Brown",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Chris Stephens",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Stephens",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25306/chris_stephens/glasgow_south_west",
 			"electorate": 62991,
-			"turnout": 56.2,
+			"turnout": { "pc": 56.3, "value": 35444 },
 			"valid": 35378,
 			"spoiled": 66,
 			"majority": 60
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Christopher Stephens",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 66209,
-			"turnout": 61.9,
+			"turnout": { "pc":61.9, "value": 40965 },
 			"valid": 40921,
 			"spoiled": 44,
 			"majority": 9950

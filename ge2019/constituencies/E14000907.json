@@ -2,7 +2,8 @@
 	"id": "E14000907",
 	"title": "Runnymede and Weybridge",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5243,
 				"name": "Nicholas David Wood",
@@ -44,21 +45,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Philip Hammond",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10257/philip_hammond/runnymede_and_weybridge",
 			"electorate": 74888,
-			"turnout": 68.9,
+			"turnout": { "pc": 69.1, "value": 51749 },
 			"valid": 51609,
 			"spoiled": 140,
 			"majority": 18050
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Philip Hammond",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73771,
-			"turnout": 68.1,
+			"turnout": { "pc":68.1, "value": 50234 },
 			"valid": 50052,
 			"spoiled": 182,
 			"majority": 22134

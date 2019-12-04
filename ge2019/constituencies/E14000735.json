@@ -2,7 +2,8 @@
 	"id": "E14000735",
 	"title": "Hastings and Rye",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 518,
 				"name": "Nick Perry",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Amber Rudd",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24795/amber_rudd/hastings_and_rye",
 			"electorate": 78319,
-			"turnout": 69.9,
+			"turnout": { "pc": 70.1, "value": 54863 },
 			"valid": 54766,
 			"spoiled": 97,
 			"majority": 346
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Amber Rudd",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75095,
-			"turnout": 68.0,
+			"turnout": { "pc":68.0, "value": 51051 },
 			"valid": 50927,
 			"spoiled": 124,
 			"majority": 4796

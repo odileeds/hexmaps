@@ -2,7 +2,8 @@
 	"id": "E14000922",
 	"title": "Sheffield, Hallam",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5593,
 				"name": "Ian Walker",
@@ -37,28 +38,29 @@
 				"id": 72160,
 				"name": "Michael Joseph Virgo",
 				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72160-442b3e00-203f-4ae9-9741-6182db914ff6.png"
 			}],
 			"incumbent": {
 				"mp": "Jared O'Mara",
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jared O'Mara",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25636/jared_o%27mara/sheffield%2C_hallam",
 			"electorate": 73455,
-			"turnout": 77.6,
+			"turnout": { "pc": 77.7, "value": 57109 },
 			"valid": 57020,
 			"spoiled": 89,
 			"majority": 2125
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nick Clegg",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 72351,
-			"turnout": 76.9,
+			"turnout": { "pc":76.9, "value": 55602 },
 			"valid": 55481,
 			"spoiled": 121,
 			"majority": 2353

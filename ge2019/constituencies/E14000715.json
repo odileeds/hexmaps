@@ -2,7 +2,8 @@
 	"id": "E14000715",
 	"title": "Gravesham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1688,
 				"name": "Adam Holloway",
@@ -23,27 +24,24 @@
 				"name": "Ukonu Elisha Obasi",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65658.png"
-			}],
-			"incumbent": {
-				"mp": "Adam Holloway",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Adam Holloway",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11599/adam_holloway/gravesham",
 			"electorate": 72954,
-			"turnout": 67.2,
+			"turnout": { "pc": 67.3, "value": 49106 },
 			"valid": 48997,
 			"spoiled": 109,
 			"majority": 9347
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Adam Holloway",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72043,
-			"turnout": 69.8,
+			"turnout": { "pc":69.8, "value": 50320 },
 			"valid": 50139,
 			"spoiled": 181,
 			"majority": 8370

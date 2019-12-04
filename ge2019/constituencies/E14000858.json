@@ -2,12 +2,13 @@
 	"id": "E14000858",
 	"title": "North West Leicestershire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 211,
 				"name": "Grahame Hudson",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/211-047e90ae-16bb-4327-9b88-2ff30a05cc58.png"
 			},{
 				"id": 1640,
 				"name": "Andrew Bridgen",
@@ -33,27 +34,24 @@
 				"name": "Edward Robert Nudd",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Andrew Bridgen",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Bridgen",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24741/andrew_bridgen/north_west_leicestershire",
 			"electorate": 75362,
-			"turnout": 71.0,
+			"turnout": { "pc": 71.2, "value": 53694 },
 			"valid": 53541,
 			"spoiled": 153,
 			"majority": 13286
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Bridgen",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72193,
-			"turnout": 71.6,
+			"turnout": { "pc":71.6, "value": 51718 },
 			"valid": 51548,
 			"spoiled": 170,
 			"majority": 11373

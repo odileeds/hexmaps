@@ -2,7 +2,8 @@
 	"id": "E14000582",
 	"title": "Boston and Skegness",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4909,
 				"name": "Hilary Jones",
@@ -23,27 +24,24 @@
 				"name": "Peter Mark Falloon Watson",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Matt Warman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Matt Warman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25395/matt_warman/boston_and_skegness",
 			"electorate": 68402,
-			"turnout": 62.7,
+			"turnout": { "pc": 62.8, "value": 42971 },
 			"valid": 42879,
 			"spoiled": 92,
 			"majority": 16572
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Matt Warman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67064,
-			"turnout": 64.9,
+			"turnout": { "pc":64.9, "value": 43518 },
 			"valid": 43339,
 			"spoiled": 179,
 			"majority": 4336

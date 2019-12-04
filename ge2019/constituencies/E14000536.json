@@ -2,7 +2,8 @@
 	"id": "E14000536",
 	"title": "Ashford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3486,
 				"name": "Damian Green",
@@ -27,28 +28,25 @@
 				"id": 72537,
 				"name": "Susannah Louise De Sanvil",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Damian Green",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72537-abaae5f2-61ed-41cc-9d9e-2ccd4e05fd94.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Damian Green",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10241/damian_green/ashford",
 			"electorate": 87387,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.7, "value": 60014 },
 			"valid": 59879,
 			"spoiled": 135,
 			"majority": 17478
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Damian Green",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 85177,
-			"turnout": 67.6,
+			"turnout": { "pc":67.6, "value": 57547 },
 			"valid": 57372,
 			"spoiled": 175,
 			"majority": 19296

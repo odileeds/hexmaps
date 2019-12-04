@@ -2,7 +2,8 @@
 	"id": "E14000583",
 	"title": "Bosworth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 388,
 				"name": "Michael Mullaney",
@@ -23,27 +24,24 @@
 				"name": "Mick Gregg",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35142.png"
-			}],
-			"incumbent": {
-				"mp": "David Tredinnick",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Tredinnick",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10602/david_tredinnick/bosworth",
 			"electorate": 81661,
-			"turnout": 68.8,
+			"turnout": { "pc": 68.9, "value": 56301 },
 			"valid": 56168,
 			"spoiled": 133,
 			"majority": 18351
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Tredinnick",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79738,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 53788 },
 			"valid": 53582,
 			"spoiled": 206,
 			"majority": 10988

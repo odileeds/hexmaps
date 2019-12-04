@@ -2,7 +2,8 @@
 	"id": "E14000859",
 	"title": "North West Norfolk",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1629,
 				"name": "Michael de Whalley",
@@ -23,27 +24,24 @@
 				"name": "James Wild",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34313.png"
-			}],
-			"incumbent": {
-				"mp": "Henry Bellingham",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Henry Bellingham",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10726/henry_bellingham/north_west_norfolk",
 			"electorate": 72062,
-			"turnout": 67.7,
+			"turnout": { "pc": 67.8, "value": 48891 },
 			"valid": 48811,
 			"spoiled": 80,
 			"majority": 13788
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Henry Bellingham",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74402,
-			"turnout": 64.0,
+			"turnout": { "pc":64.0, "value": 47597 },
 			"valid": 47371,
 			"spoiled": 226,
 			"majority": 13948

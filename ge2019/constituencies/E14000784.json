@@ -2,7 +2,8 @@
 	"id": "E14000784",
 	"title": "Leicester West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1292,
 				"name": "Liz Kendall",
@@ -17,7 +18,7 @@
 				"id": 65059,
 				"name": "Amanda Wright",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65059-8770a768-5041-4f9f-9f8e-36e456f4f8ee.png"
 			},{
 				"id": 71511,
 				"name": "Jack Collier",
@@ -28,27 +29,24 @@
 				"name": "Anika Goddard",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Liz Kendall",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Liz Kendall",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24816/liz_kendall/leicester_west",
 			"electorate": 64843,
-			"turnout": 57.9,
+			"turnout": { "pc": 58.0, "value": 37634 },
 			"valid": 37512,
 			"spoiled": 122,
 			"majority": 11060
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Liz Kendall",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63204,
-			"turnout": 55.0,
+			"turnout": { "pc":55.0, "value": 34758 },
 			"valid": 34522,
 			"spoiled": 236,
 			"majority": 7203

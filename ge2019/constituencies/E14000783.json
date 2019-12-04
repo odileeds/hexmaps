@@ -2,7 +2,8 @@
 	"id": "E14000783",
 	"title": "Leicester South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5545,
 				"name": "Jon Ashworth",
@@ -28,27 +29,24 @@
 				"name": "James Dalgliesh Potter",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72291-ecddcc31-a913-4eef-9067-d7a1fa1aa93b.png"
-			}],
-			"incumbent": {
-				"mp": "Jon Ashworth",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jonathan Ashworth",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25120/jon_ashworth/leicester_south",
 			"electorate": 75534,
-			"turnout": 66.9,
+			"turnout": { "pc": 67.1, "value": 50699 },
 			"valid": 50517,
 			"spoiled": 182,
 			"majority": 26261
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jon Ashworth",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 73518,
-			"turnout": 63.0,
+			"turnout": { "pc":63.0, "value": 46340 },
 			"valid": 45942,
 			"spoiled": 398,
 			"majority": 17845

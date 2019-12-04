@@ -2,7 +2,8 @@
 	"id": "E14000976",
 	"title": "Stourbridge",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2601,
 				"name": "Chris Bramall",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Margot James",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24876/margot_james/stourbridge",
 			"electorate": 70215,
-			"turnout": 67.1,
+			"turnout": { "pc": 67.2, "value": 47207 },
 			"valid": 47135,
 			"spoiled": 72,
 			"majority": 7654
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Margot James",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69077,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 46132 },
 			"valid": 46029,
 			"spoiled": 103,
 			"majority": 6694

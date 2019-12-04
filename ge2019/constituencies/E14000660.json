@@ -2,7 +2,8 @@
 	"id": "E14000660",
 	"title": "Daventry",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1729,
 				"name": "Chris Heaton-Harris",
@@ -23,27 +24,24 @@
 				"name": "Clare Slater",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71394-4db1d038-bba1-4acd-95c9-8e58e5f1587e.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Heaton-Harris",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Heaton-Harris",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24841/chris_heaton-harris/daventry",
 			"electorate": 75268,
-			"turnout": 74.0,
+			"turnout": { "pc": 74.1, "value": 55765 },
 			"valid": 55663,
 			"spoiled": 102,
 			"majority": 21734
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Heaton-Harris",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72873,
-			"turnout": 72.3,
+			"turnout": { "pc":72.3, "value": 52655 },
 			"valid": 52518,
 			"spoiled": 137,
 			"majority": 21059

@@ -2,7 +2,8 @@
 	"id": "E14000605",
 	"title": "Bromsgrove",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 349,
 				"name": "Sajid Javid",
@@ -23,27 +24,24 @@
 				"name": "David Nicholl",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71334-d4df1404-829c-4061-b06c-918713ce5814.png"
-			}],
-			"incumbent": {
-				"mp": "Sajid Javid",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sajid Javid",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24854/sajid_javid/bromsgrove",
 			"electorate": 73571,
-			"turnout": 73.5,
+			"turnout": { "pc": 73.7, "value": 54246 },
 			"valid": 54040,
 			"spoiled": 206,
 			"majority": 16573
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sajid Javid",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73337,
-			"turnout": 71.5,
+			"turnout": { "pc":71.5, "value": 52418 },
 			"valid": 52245,
 			"spoiled": 173,
 			"majority": 16529

@@ -2,7 +2,8 @@
 	"id": "S14000023",
 	"title": "Edinburgh North and Leith",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 521,
 				"name": "Steve Burgess",
@@ -38,27 +39,24 @@
 				"name": "Robert Speirs",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Deidre Brock",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Deidre Brock",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25336/deidre_brock/edinburgh_north_and_leith",
 			"electorate": 79473,
-			"turnout": 71.2,
+			"turnout": { "pc": 71.2, "value": 56624 },
 			"valid": 56552,
 			"spoiled": 72,
 			"majority": 1625
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Deidre  Brock",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 80910,
-			"turnout": 71.8,
+			"turnout": { "pc":71.8, "value": 58084 },
 			"valid": 58008,
 			"spoiled": 76,
 			"majority": 5597

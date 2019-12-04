@@ -2,7 +2,8 @@
 	"id": "E14000923",
 	"title": "Sheffield, Heeley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 432,
 				"name": "Simon William Clement-Jones",
@@ -28,27 +29,24 @@
 				"name": "Paul Turpin",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36182.png"
-			}],
-			"incumbent": {
-				"mp": "Louise Haigh",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Louise Haigh",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25357/louise_haigh/sheffield%2C_heeley",
 			"electorate": 68040,
-			"turnout": 65.0,
+			"turnout": { "pc": 65.1, "value": 44305 },
 			"valid": 44226,
 			"spoiled": 79,
 			"majority": 13828
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Louise Haigh",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67950,
-			"turnout": 62.1,
+			"turnout": { "pc":62.1, "value": 42179 },
 			"valid": 42048,
 			"spoiled": 131,
 			"majority": 12954

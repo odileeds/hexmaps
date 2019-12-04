@@ -2,7 +2,8 @@
 	"id": "E14000551",
 	"title": "Beckenham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4074,
 				"name": "Bob Stewart",
@@ -22,28 +23,25 @@
 				"id": 47808,
 				"name": "Chloe-Jane Ross",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47808.png"
-			}],
-			"incumbent": {
-				"mp": "Bob Stewart",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47808-0c5f4348-cc63-458b-8f2b-e4583af133d4.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bob Stewart",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24907/bob_stewart/beckenham",
 			"electorate": 67925,
-			"turnout": 76.0,
+			"turnout": { "pc": 76.3, "value": 51812 },
 			"valid": 51630,
 			"spoiled": 182,
 			"majority": 15087
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Bob Stewart",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67439,
-			"turnout": 72.5,
+			"turnout": { "pc":72.5, "value": 48922 },
 			"valid": 48803,
 			"spoiled": 119,
 			"majority": 18471

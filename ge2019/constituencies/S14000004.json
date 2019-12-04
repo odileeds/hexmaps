@@ -2,7 +2,8 @@
 	"id": "S14000004",
 	"title": "Angus",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 8231,
 				"name": "Kirstene Hair",
@@ -23,27 +24,24 @@
 				"name": "Monique Tamara Miller",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72121-3572d521-eb5d-4abf-966e-8b61682126ec.png"
-			}],
-			"incumbent": {
-				"mp": "Kirstene Hair",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kirstene Hair",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25616/kirstene_hair/angus",
 			"electorate": 63840,
-			"turnout": 63.0,
+			"turnout": { "pc": 63.1, "value": 40257 },
 			"valid": 40192,
 			"spoiled": 65,
 			"majority": 2645
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mike Weir",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 65792,
-			"turnout": 67.7,
+			"turnout": { "pc":67.7, "value": 44520 },
 			"valid": 44485,
 			"spoiled": 35,
 			"majority": 11230

@@ -2,7 +2,8 @@
 	"id": "E14000865",
 	"title": "Nottingham East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3549,
 				"name": "Chris Leslie",
@@ -22,7 +23,7 @@
 				"id": 72276,
 				"name": "Damian Stephen Danial Smith",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72276-6bf65a73-55a8-4212-9d40-06946725ed6e.png"
 			},{
 				"id": 72277,
 				"name": "Victoria Anne Stapleton",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Leslie",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10354/chris_leslie/nottingham_east",
 			"electorate": 61760,
-			"turnout": 63.7,
+			"turnout": { "pc": 63.9, "value": 39441 },
 			"valid": 39327,
 			"spoiled": 114,
 			"majority": 19590
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Christopher Leslie",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 60464,
-			"turnout": 58.6,
+			"turnout": { "pc":58.6, "value": 35462 },
 			"valid": 35209,
 			"spoiled": 253,
 			"majority": 11894

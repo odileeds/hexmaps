@@ -2,12 +2,18 @@
 	"id": "E14000919",
 	"title": "Sheffield Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 178,
 				"name": "Paul Blomfield",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/54f76985c689026478f4367b.png"
+			},{
+				"id": 12298,
+				"name": "Colin Ross",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72170-37fa717a-4ed9-49bf-9ebe-6b1baa8aa1ee.png"
 			},{
 				"id": 12399,
 				"name": "Jack Carrington",
@@ -32,38 +38,30 @@
 				"id": 72167,
 				"name": "Chris Marsden",
 				"party": { "code": "", "title": "Socialist Equality Party" },
-				"img": ""
-			},{
-				"id": 72170,
-				"name": "Colin Arthur Ross",
-				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72167-3ef848b1-c9f7-4f24-99ed-ea3b5a5f1181.png"
 			},{
 				"id": 72173,
 				"name": "Paul John Ward",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Paul Blomfield",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Blomfield",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24943/paul_blomfield/sheffield_central",
 			"electorate": 77560,
-			"turnout": 61.7,
+			"turnout": { "pc": 61.9, "value": 48014 },
 			"valid": 47877,
 			"spoiled": 137,
 			"majority": 27748
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Blomfield",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72321,
-			"turnout": 61.4,
+			"turnout": { "pc":61.4, "value": 44372 },
 			"valid": 44173,
 			"spoiled": 199,
 			"majority": 17309

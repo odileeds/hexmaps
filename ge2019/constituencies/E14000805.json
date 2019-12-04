@@ -2,7 +2,8 @@
 	"id": "E14000805",
 	"title": "Makerfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 375,
 				"name": "Yvonne Fovargue",
@@ -28,27 +29,24 @@
 				"name": "Ross Allan Wright",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72465-98e77bf8-f280-4924-9e7a-637d3497c33c.png"
-			}],
-			"incumbent": {
-				"mp": "Yvonne Fovargue",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Yvonne Fovargue",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24805/yvonne_fovargue/makerfield",
 			"electorate": 74259,
-			"turnout": 63.2,
+			"turnout": { "pc": 63.3, "value": 47037 },
 			"valid": 46933,
 			"spoiled": 104,
 			"majority": 13542
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Yvonne Fovargue",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74320,
-			"turnout": 60.4,
+			"turnout": { "pc":60.4, "value": 44919 },
 			"valid": 44788,
 			"spoiled": 131,
 			"majority": 13155

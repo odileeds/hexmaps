@@ -2,7 +2,8 @@
 	"id": "E14001037",
 	"title": "Westmorland and Lonsdale",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1316,
 				"name": "Tim Farron",
@@ -22,28 +23,25 @@
 				"id": 72444,
 				"name": "Steven Paul Bolton",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Tim Farron",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72444-3f1788d4-053f-47fa-811f-3321b8a0c811.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tim Farron",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11923/tim_farron/westmorland_and_lonsdale",
 			"electorate": 66391,
-			"turnout": 77.9,
+			"turnout": { "pc": 78.0, "value": 51768 },
 			"valid": 51687,
 			"spoiled": 81,
 			"majority": 777
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tim Farron",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 65857,
-			"turnout": 74.5,
+			"turnout": { "pc":74.5, "value": 49052 },
 			"valid": 48929,
 			"spoiled": 123,
 			"majority": 8949

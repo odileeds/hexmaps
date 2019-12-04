@@ -2,7 +2,8 @@
 	"id": "E14000623",
 	"title": "Central Devon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 197,
 				"name": "Mel Stride",
@@ -23,27 +24,24 @@
 				"name": "Alison Eden",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35012.png"
-			}],
-			"incumbent": {
-				"mp": "Mel Stride",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mel Stride",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24914/mel_stride/central_devon",
 			"electorate": 74370,
-			"turnout": 77.8,
+			"turnout": { "pc": 77.9, "value": 57928 },
 			"valid": 57844,
 			"spoiled": 84,
 			"majority": 15680
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mel Stride",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72737,
-			"turnout": 75.1,
+			"turnout": { "pc":75.1, "value": 54640 },
 			"valid": 54448,
 			"spoiled": 192,
 			"majority": 21265

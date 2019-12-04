@@ -2,7 +2,8 @@
 	"id": "W07000075",
 	"title": "Pontypridd",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2437,
 				"name": "Mike Powell",
@@ -38,27 +39,24 @@
 				"name": "Sue Prior",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72616-7f8af480-62c5-44b0-8e70-3bfce3d63c05.png"
-			}],
-			"incumbent": {
-				"mp": "Owen Smith",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Owen Smith",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24797/owen_smith/pontypridd",
 			"electorate": 60564,
-			"turnout": 65.9,
+			"turnout": { "pc": 66.0, "value": 40000 },
 			"valid": 39894,
 			"spoiled": 106,
 			"majority": 11448
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Owen Smith",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58940,
-			"turnout": 64.4,
+			"turnout": { "pc":64.4, "value": 37983 },
 			"valid": 37882,
 			"spoiled": 101,
 			"majority": 8985

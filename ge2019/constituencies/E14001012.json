@@ -2,7 +2,8 @@
 	"id": "E14001012",
 	"title": "Walsall South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 816,
 				"name": "Valerie Vaz",
@@ -14,6 +15,11 @@
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18973-153ec182-5b8f-4525-ad8a-92cfdb95d576.png"
 			},{
+				"id": 36425,
+				"name": "Paul Harris",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72194-d5cd65f1-d91b-4b4f-9d1d-a6ac6fbb7633.png"
+			},{
 				"id": 65656,
 				"name": "Gurjit Kaur Bains",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
@@ -24,36 +30,28 @@
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71714.png"
 			},{
-				"id": 72194,
-				"name": "Paul Harris",
-				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			},{
 				"id": 72195,
 				"name": "Akheil Mehboob",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Valerie Vaz",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Valerie Vaz",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24852/valerie_vaz/walsall_south",
 			"electorate": 67417,
-			"turnout": 65.4,
+			"turnout": { "pc": 65.5, "value": 44189 },
 			"valid": 44072,
 			"spoiled": 117,
 			"majority": 8892
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Valerie Vaz",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67743,
-			"turnout": 62.1,
+			"turnout": { "pc":62.1, "value": 42036 },
 			"valid": 41838,
 			"spoiled": 198,
 			"majority": 6007

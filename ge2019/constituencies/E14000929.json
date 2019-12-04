@@ -2,7 +2,8 @@
 	"id": "E14000929",
 	"title": "Sleaford and North Hykeham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 163,
 				"name": "Marianne Overton",
@@ -17,7 +18,7 @@
 				"id": 30134,
 				"name": "Linda Edwards-Shea",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30134.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30134-80110384-15a0-43ae-8843-2b68bba17e57.png"
 			},{
 				"id": 34348,
 				"name": "Caroline Johnson",
@@ -33,27 +34,24 @@
 				"name": "Caroline Coram",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71625.png"
-			}],
-			"incumbent": {
-				"mp": "Caroline Johnson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Caroline Johnson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25597/dr_caroline_johnson/sleaford_and_north_hykeham",
 			"electorate": 90929,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 65904 },
 			"valid": 65797,
 			"spoiled": 107,
 			"majority": 25237
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Phillips",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 87972,
-			"turnout": 70.7,
+			"turnout": { "pc":70.7, "value": 62169 },
 			"valid": 61944,
 			"spoiled": 225,
 			"majority": 24115

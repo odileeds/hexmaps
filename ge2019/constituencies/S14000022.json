@@ -2,7 +2,8 @@
 	"id": "S14000022",
 	"title": "Edinburgh East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 818,
 				"name": "Sheila Gilmore",
@@ -28,27 +29,24 @@
 				"name": "Jill Reilly",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71425.png"
-			}],
-			"incumbent": {
-				"mp": "Tommy Sheppard",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tommy Sheppard",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25341/tommy_sheppard/edinburgh_east",
 			"electorate": 65896,
-			"turnout": 66.0,
+			"turnout": { "pc": 66.2, "value": 43623 },
 			"valid": 43523,
 			"spoiled": 100,
 			"majority": 3425
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tommy Sheppard",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67141,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 47158 },
 			"valid": 47089,
 			"spoiled": 69,
 			"majority": 9106

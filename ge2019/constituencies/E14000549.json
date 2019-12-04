@@ -2,7 +2,8 @@
 	"id": "E14000549",
 	"title": "Battersea",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4232,
 				"name": "Kim Caddy",
@@ -27,28 +28,25 @@
 				"id": 72131,
 				"name": "Jake Thomas",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Marsha de Cordova",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72131-bf394dac-7ccf-474c-8fbb-72186b4d75a7.png"
+			}]
 		},
-		"2017": {
-			"mp": "Marsha de Cordova",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Marsha De Cordova",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25620/marsha_de_cordova/battersea",
 			"electorate": 77574,
-			"turnout": 71.0,
+			"turnout": { "pc": 71.1, "value": 55170 },
 			"valid": 55058,
 			"spoiled": 112,
 			"majority": 2416
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jane Ellison",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76111,
-			"turnout": 67.2,
+			"turnout": { "pc":67.2, "value": 51172 },
 			"valid": 51031,
 			"spoiled": 141,
 			"majority": 7938

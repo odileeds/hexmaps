@@ -2,7 +2,8 @@
 	"id": "E14001016",
 	"title": "Warley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3777,
 				"name": "John Francis Spellar",
@@ -28,27 +29,24 @@
 				"name": "Michael Andrew Cooper",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "John Spellar",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Spellar",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10558/john_spellar/warley",
 			"electorate": 63739,
-			"turnout": 63.1,
+			"turnout": { "pc": 63.3, "value": 40322 },
 			"valid": 40206,
 			"spoiled": 116,
 			"majority": 16483
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Spellar",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63738,
-			"turnout": 59.7,
+			"turnout": { "pc":59.7, "value": 38038 },
 			"valid": 37829,
 			"spoiled": 209,
 			"majority": 14702

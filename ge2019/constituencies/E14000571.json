@@ -2,7 +2,8 @@
 	"id": "E14000571",
 	"title": "Blackley and Broughton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1179,
 				"name": "Graham Stringer",
@@ -22,33 +23,30 @@
 				"id": 72151,
 				"name": "James Edward Buckley",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72151-0848f6f9-67a7-45fc-88f4-7cfa10d51e1f.png"
 			},{
 				"id": 72153,
 				"name": "Alexander Victor Elias",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Graham Stringer",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Graham Stringer",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10576/graham_stringer/blackley_and_broughton",
 			"electorate": 71648,
-			"turnout": 56.0,
+			"turnout": { "pc": 56.1, "value": 40214 },
 			"valid": 40113,
 			"spoiled": 101,
 			"majority": 19601
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Graham Stringer",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71913,
-			"turnout": 51.9,
+			"turnout": { "pc":51.9, "value": 37306 },
 			"valid": 37112,
 			"spoiled": 194,
 			"majority": 16874

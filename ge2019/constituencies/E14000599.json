@@ -2,7 +2,8 @@
 	"id": "E14000599",
 	"title": "Bristol East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 893,
 				"name": "Kerry McCarthy",
@@ -28,27 +29,24 @@
 				"name": "Conan Connolly",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71329.png"
-			}],
-			"incumbent": {
-				"mp": "Kerry McCarthy",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kerry McCarthy",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11455/kerry_mccarthy/bristol_east",
 			"electorate": 72415,
-			"turnout": 70.1,
+			"turnout": { "pc": 70.3, "value": 50932 },
 			"valid": 50799,
 			"spoiled": 133,
 			"majority": 13394
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kerry McCarthy",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71193,
-			"turnout": 65.1,
+			"turnout": { "pc":65.1, "value": 46375 },
 			"valid": 46213,
 			"spoiled": 162,
 			"majority": 3980

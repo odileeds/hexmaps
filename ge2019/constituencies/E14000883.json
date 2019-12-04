@@ -2,7 +2,8 @@
 	"id": "E14000883",
 	"title": "Portsmouth North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1692,
 				"name": "Penny Mordaunt",
@@ -28,27 +29,24 @@
 				"name": "Amanda Martin",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72340-52799d25-5a5d-4d51-8eeb-2e95146b5c78.png"
-			}],
-			"incumbent": {
-				"mp": "Penny Mordaunt",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Penny Mordaunt",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24938/penny_mordaunt/portsmouth_north",
 			"electorate": 71374,
-			"turnout": 66.1,
+			"turnout": { "pc": 66.3, "value": 47287 },
 			"valid": 47210,
 			"spoiled": 77,
 			"majority": 9965
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Penny Mordaunt",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73105,
-			"turnout": 62.3,
+			"turnout": { "pc":62.3, "value": 45547 },
 			"valid": 45390,
 			"spoiled": 157,
 			"majority": 10537

@@ -2,7 +2,8 @@
 	"id": "E14001026",
 	"title": "Wells",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1699,
 				"name": "Tessa Munt",
@@ -27,28 +28,25 @@
 				"id": 72415,
 				"name": "Susie Quatermass",
 				"party": { "code": "", "title": "Motherworld Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "James Heappey",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72415-17b4bb7a-afaa-4efa-870b-ae35461b6cee.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Heappey",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25438/james_heappey/wells",
 			"electorate": 82451,
-			"turnout": 73.8,
+			"turnout": { "pc": 74.0, "value": 60974 },
 			"valid": 60843,
 			"spoiled": 131,
 			"majority": 7582
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Heappey",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79405,
-			"turnout": 71.9,
+			"turnout": { "pc":71.9, "value": 57086 },
 			"valid": 56904,
 			"spoiled": 182,
 			"majority": 7585

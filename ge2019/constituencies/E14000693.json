@@ -2,7 +2,8 @@
 	"id": "E14000693",
 	"title": "Epping Forest",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3755,
 				"name": "Eleanor Laing",
@@ -33,27 +34,24 @@
 				"name": "Jon Newham",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Eleanor Laing",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Eleanor Laing",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10348/eleanor_laing/epping_forest",
 			"electorate": 74737,
-			"turnout": 67.9,
+			"turnout": { "pc": 68.1, "value": 50909 },
 			"valid": 50779,
 			"spoiled": 130,
 			"majority": 18243
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Eleanor Laing",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73447,
-			"turnout": 67.4,
+			"turnout": { "pc":67.4, "value": 49490 },
 			"valid": 49348,
 			"spoiled": 142,
 			"majority": 17978

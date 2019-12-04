@@ -2,7 +2,8 @@
 	"id": "E14000982",
 	"title": "Sunderland Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3985,
 				"name": "Julie Elliott",
@@ -33,27 +34,24 @@
 				"name": "Dale McKenzie",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72487-428728c1-c0e1-4d09-90d5-9132d80189b8.png"
-			}],
-			"incumbent": {
-				"mp": "Julie Elliott",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Julie Elliott",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24710/julie_elliott/sunderland_central",
 			"electorate": 72728,
-			"turnout": 62.0,
+			"turnout": { "pc": 62.1, "value": 45187 },
 			"valid": 45111,
 			"spoiled": 76,
 			"majority": 9997
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Julie Elliott",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72950,
-			"turnout": 57.5,
+			"turnout": { "pc":57.5, "value": 41928 },
 			"valid": 41762,
 			"spoiled": 166,
 			"majority": 11179

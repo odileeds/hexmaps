@@ -2,7 +2,8 @@
 	"id": "E14000665",
 	"title": "Devizes",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 23922,
 				"name": "Emma Dawnay",
@@ -23,27 +24,24 @@
 				"name": "Rachael Katharine Schneider",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72189-ef2b9e56-1abd-46f1-9e0e-aa0bdba16511.png"
-			}],
-			"incumbent": {
-				"mp": "Claire Perry",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Claire Perry",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24915/claire_perry/devizes",
 			"electorate": 72184,
-			"turnout": 70.1,
+			"turnout": { "pc": 70.2, "value": 50700 },
 			"valid": 50593,
 			"spoiled": 107,
 			"majority": 21136
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Claire Perry",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69205,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 49138 },
 			"valid": 49006,
 			"spoiled": 132,
 			"majority": 20751

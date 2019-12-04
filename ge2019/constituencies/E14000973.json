@@ -2,8 +2,14 @@
 	"id": "E14000973",
 	"title": "Stoke-on-Trent North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
+				"id": 3488,
+				"name": "Peter Emil Andras",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3488-b270f44f-81f5-433b-bc51-34d8c058240f.png"
+			},{
 				"id": 3979,
 				"name": "Ruth Lauren Smeeth",
 				"party": { "code": "Lab", "title": "Labour Party" },
@@ -24,36 +30,28 @@
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71919.png"
 			},{
-				"id": 72212,
-				"name": "Peter Emil Andras",
-				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			},{
 				"id": 72217,
 				"name": "Richard Watkin",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72217-e4d8609c-28f6-4013-84a1-3f93a37dd573.png"
-			}],
-			"incumbent": {
-				"mp": "Ruth Smeeth",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ruth Smeeth",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25435/ruth_smeeth/stoke-on-trent_north",
 			"electorate": 71558,
-			"turnout": 58.4,
+			"turnout": { "pc": 58.6, "value": 41909 },
 			"valid": 41786,
 			"spoiled": 123,
 			"majority": 2359
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ruth Smeeth",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71438,
-			"turnout": 54.3,
+			"turnout": { "pc":54.3, "value": 38822 },
 			"valid": 38654,
 			"spoiled": 168,
 			"majority": 4836

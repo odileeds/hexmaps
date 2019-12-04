@@ -2,7 +2,8 @@
 	"id": "E14001007",
 	"title": "Uxbridge and South Ruislip",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4546,
 				"name": "Boris Johnson",
@@ -25,7 +26,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41972-5aea1add-b660-493f-b193-c1ad79e0d019.png"
 			},{
 				"id": 47463,
-				"name": "Ali Reza Milani",
+				"name": "Ali Milani",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/47463.png"
 			},{
@@ -42,7 +43,7 @@
 				"id": 72365,
 				"name": "Norma Burke",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72365-50cf795a-fe8b-4604-8bcd-d962456e9853.png"
 			},{
 				"id": 72366,
 				"name": "Geoffrey Denis Courtenay",
@@ -63,27 +64,24 @@
 				"name": "Yace \"Interplanetary Time Lord\" Yogenstein",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Boris Johnson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Boris Johnson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10999/boris_johnson/uxbridge_and_south_ruislip",
 			"electorate": 69936,
-			"turnout": 66.8,
+			"turnout": { "pc": 66.9, "value": 46778 },
 			"valid": 46694,
 			"spoiled": 84,
 			"majority": 5034
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Boris Johnson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70631,
-			"turnout": 63.6,
+			"turnout": { "pc":63.6, "value": 44914 },
 			"valid": 44811,
 			"spoiled": 103,
 			"majority": 10695

@@ -2,7 +2,8 @@
 	"id": "E14001008",
 	"title": "Vauxhall",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7458,
 				"name": "Florence Eshalomi",
@@ -32,28 +33,25 @@
 				"id": 72279,
 				"name": "Andrew McGuinness",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Kate Hoey",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72279-65b21845-7c45-4555-a671-d4b43f8e738c.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kate Hoey",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10282/kate_hoey/vauxhall",
 			"electorate": 82055,
-			"turnout": 67.1,
+			"turnout": { "pc": 67.3, "value": 55206 },
 			"valid": 55042,
 			"spoiled": 164,
 			"majority": 20250
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kate Hoey",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82231,
-			"turnout": 58.6,
+			"turnout": { "pc":58.6, "value": 48175 },
 			"valid": 47941,
 			"spoiled": 234,
 			"majority": 12708

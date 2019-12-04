@@ -2,7 +2,8 @@
 	"id": "S14000050",
 	"title": "Ochil and South Perthshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5516,
 				"name": "Luke Graham",
@@ -28,27 +29,24 @@
 				"name": "Lorna Robertson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72060.png"
-			}],
-			"incumbent": {
-				"mp": "Luke Graham",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Luke Graham",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Luke  Graham",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25625/luke_graham/ochil_and_south_perthshire",
 			"electorate": 76767,
-			"turnout": 70.6,
+			"turnout": { "pc": 70.7, "value": 54245 },
 			"valid": 54168,
 			"spoiled": 77,
 			"majority": 3359
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tasmina Ahmed-Sheikh",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 77370,
-			"turnout": 74.9,
+			"turnout": { "pc":74.9, "value": 57946 },
 			"valid": 57871,
 			"spoiled": 75,
 			"majority": 10168

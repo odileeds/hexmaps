@@ -2,7 +2,8 @@
 	"id": "E14000590",
 	"title": "Braintree",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5464,
 				"name": "James Cleverly",
@@ -33,27 +34,24 @@
 				"name": "Alan Geoffrey Dorkins",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72408-33f5ef33-dbee-49b6-a177-f1bf2b68618a.png"
-			}],
-			"incumbent": {
-				"mp": "James Cleverly",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Cleverly",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25376/james_cleverly/braintree",
 			"electorate": 75316,
-			"turnout": 69.5,
+			"turnout": { "pc": 69.6, "value": 52400 },
 			"valid": 52326,
 			"spoiled": 74,
 			"majority": 18422
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Cleverly",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73557,
-			"turnout": 68.6,
+			"turnout": { "pc":68.6, "value": 50484 },
 			"valid": 50283,
 			"spoiled": 201,
 			"majority": 17610

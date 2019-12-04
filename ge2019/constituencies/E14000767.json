@@ -2,7 +2,8 @@
 	"id": "E14000767",
 	"title": "Kenilworth and Southam",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1604,
 				"name": "Jeremy Wright",
@@ -28,27 +29,24 @@
 				"name": "Antony James Tucker",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72252-6c755876-5c69-4ac3-98a7-4afde95ababd.png"
-			}],
-			"incumbent": {
-				"mp": "Jeremy Wright",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jeremy Wright",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11791/jeremy_wright/kenilworth_and_southam",
 			"electorate": 66319,
-			"turnout": 77.4,
+			"turnout": { "pc": 77.5, "value": 51420 },
 			"valid": 51321,
 			"spoiled": 99,
 			"majority": 18076
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jeremy Wright",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63957,
-			"turnout": 76.5,
+			"turnout": { "pc":76.5, "value": 48920 },
 			"valid": 48791,
 			"spoiled": 129,
 			"majority": 21002

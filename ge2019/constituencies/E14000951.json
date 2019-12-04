@@ -2,7 +2,8 @@
 	"id": "E14000951",
 	"title": "South West Hertfordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 151,
 				"name": "David Gauke",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Gauke",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11633/david_gauke/south_west_hertfordshire",
 			"electorate": 81087,
-			"turnout": 74.8,
+			"turnout": { "pc": 75.0, "value": 60791 },
 			"valid": 60653,
 			"spoiled": 138,
 			"majority": 19550
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Gauke",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79668,
-			"turnout": 72.1,
+			"turnout": { "pc":72.1, "value": 57441 },
 			"valid": 57267,
 			"spoiled": 174,
 			"majority": 23263

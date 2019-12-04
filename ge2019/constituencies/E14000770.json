@@ -2,7 +2,8 @@
 	"id": "E14000770",
 	"title": "Kingston and Surbiton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3454,
 				"name": "'Chinners' Chinnery",
@@ -43,27 +44,24 @@
 				"name": "Scott Holman",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71983.png"
-			}],
-			"incumbent": {
-				"mp": "Edward Davey",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Edward Davey",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10155/edward_davey/kingston_and_surbiton",
 			"electorate": 81588,
-			"turnout": 76.2,
+			"turnout": { "pc": 76.3, "value": 62265 },
 			"valid": 62178,
 			"spoiled": 87,
 			"majority": 4124
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Berry",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81238,
-			"turnout": 73.1,
+			"turnout": { "pc":73.1, "value": 59390 },
 			"valid": 59253,
 			"spoiled": 137,
 			"majority": 2834

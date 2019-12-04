@@ -2,7 +2,8 @@
 	"id": "S14000005",
 	"title": "Argyll and Bute",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2293,
 				"name": "Gary Mulvaney",
@@ -23,27 +24,24 @@
 				"name": "Rhea Louise Barnes",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72161-67b36975-544f-4cc6-8a45-facba34eeb50.png"
-			}],
-			"incumbent": {
-				"mp": "Brendan O'Hara",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Brendan O'Hara",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25370/brendan_o%27hara/argyll_and_bute",
 			"electorate": 67230,
-			"turnout": 71.5,
+			"turnout": { "pc": 71.6, "value": 48138 },
 			"valid": 48069,
 			"spoiled": 69,
 			"majority": 1328
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Brendan O'Hara",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 68875,
-			"turnout": 75.4,
+			"turnout": { "pc":75.4, "value": 51942 },
 			"valid": 51883,
 			"spoiled": 59,
 			"majority": 8473

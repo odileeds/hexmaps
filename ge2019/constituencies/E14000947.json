@@ -2,7 +2,8 @@
 	"id": "E14000947",
 	"title": "South Swindon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1643,
 				"name": "Robert Buckland",
@@ -18,27 +19,24 @@
 				"name": "Sarah Church",
 				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25753.png"
-			}],
-			"incumbent": {
-				"mp": "Robert Buckland",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Robert Buckland",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24843/robert_buckland/south_swindon",
 			"electorate": 72372,
-			"turnout": 70.8,
+			"turnout": { "pc": 71.0, "value": 51358 },
 			"valid": 51271,
 			"spoiled": 87,
 			"majority": 2464
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Robert Buckland",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73926,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 49410 },
 			"valid": 49263,
 			"spoiled": 147,
 			"majority": 5785

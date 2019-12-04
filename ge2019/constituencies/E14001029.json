@@ -2,7 +2,8 @@
 	"id": "E14001029",
 	"title": "West Bromwich East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4754,
 				"name": "George Galloway",
@@ -38,27 +39,24 @@
 				"name": "Christian Mosiah Lucas",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72172-93bb9002-be51-41b8-a623-5a8b5f2f4f38.png"
-			}],
-			"incumbent": {
-				"mp": "Tom Watson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tom Watson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11309/tom_watson/west_bromwich_east",
 			"electorate": 63846,
-			"turnout": 61.2,
+			"turnout": { "pc": 61.5, "value": 39236 },
 			"valid": 39098,
 			"spoiled": 138,
 			"majority": 7713
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tom Watson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63637,
-			"turnout": 59.1,
+			"turnout": { "pc":59.1, "value": 37633 },
 			"valid": 37492,
 			"spoiled": 141,
 			"majority": 9470

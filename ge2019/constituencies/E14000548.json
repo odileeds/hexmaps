@@ -2,7 +2,8 @@
 	"id": "E14000548",
 	"title": "Batley and Spen",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6910,
 				"name": "John Lawson",
@@ -27,33 +28,30 @@
 				"id": 71979,
 				"name": "Clive Minihan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71979-23bd5612-df0f-4e54-94ef-61d59becb821.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71979-31dc285f-0178-4c3d-a232-9b124bf8b04c.png"
 			},{
 				"id": 72052,
 				"name": "Ty Akram",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72052-8bbd4e70-6681-4af7-9a10-01f1db400fa6.png"
-			}],
-			"incumbent": {
-				"mp": "Tracy Brabin",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tracy Brabin",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25592/tracy_brabin/batley_and_spen",
 			"electorate": 80161,
-			"turnout": 67.1,
+			"turnout": { "pc": 67.2, "value": 53908 },
 			"valid": 53780,
 			"spoiled": 128,
 			"majority": 8961
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jo Cox",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 78373,
-			"turnout": 64.7,
+			"turnout": { "pc":64.7, "value": 50679 },
 			"valid": 50479,
 			"spoiled": 200,
 			"majority": 6057

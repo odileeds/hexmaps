@@ -2,12 +2,13 @@
 	"id": "E14000648",
 	"title": "Corby",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4180,
 				"name": "Tom Pursglove",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/55056fc6071d4f1362bc8036.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4180-dc3041bb-c18d-4946-abf2-cbaa43d58d2b.png"
 			},{
 				"id": 33889,
 				"name": "Chris Stanbra",
@@ -18,27 +19,24 @@
 				"name": "Beth Miller",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34301.png"
-			}],
-			"incumbent": {
-				"mp": "Tom Pursglove",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tom Pursglove",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25387/tom_pursglove/corby",
 			"electorate": 83020,
-			"turnout": 72.3,
+			"turnout": { "pc": 72.4, "value": 60091 },
 			"valid": 59997,
 			"spoiled": 94,
 			"majority": 2690
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tom Pursglove",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79775,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 56306 },
 			"valid": 56174,
 			"spoiled": 132,
 			"majority": 2412

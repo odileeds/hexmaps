@@ -2,7 +2,8 @@
 	"id": "E14000792",
 	"title": "Lincoln",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1886,
 				"name": "Karl McCartney",
@@ -22,7 +23,7 @@
 				"id": 17516,
 				"name": "Sally Horscroft",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17516-d2b6f61a-4e24-4546-b076-f17b365f0566.png"
 			},{
 				"id": 25617,
 				"name": "Caroline Kenyon",
@@ -38,27 +39,24 @@
 				"name": "Rob Bradley",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Karen Lee",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Karen Lee",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Karen  Lee",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25682/karen_lee/lincoln",
 			"electorate": 73111,
-			"turnout": 66.6,
+			"turnout": { "pc": 66.7, "value": 48797 },
 			"valid": 48718,
 			"spoiled": 79,
 			"majority": 1538
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Karl McCartney",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74121,
-			"turnout": 63.5,
+			"turnout": { "pc":63.5, "value": 47076 },
 			"valid": 46852,
 			"spoiled": 224,
 			"majority": 1443

@@ -2,12 +2,13 @@
 	"id": "E14000662",
 	"title": "Derby North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 373,
 				"name": "Chris Williamson",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/55322b3529c5d53959d9e449.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/373-ecfc5721-21bb-4071-abab-09fa249e092c.png"
 			},{
 				"id": 4183,
 				"name": "Amanda Solloway",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Williamson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24830/chris_williamson/derby_north",
 			"electorate": 69919,
-			"turnout": 69.6,
+			"turnout": { "pc": 69.8, "value": 48781 },
 			"valid": 48672,
 			"spoiled": 109,
 			"majority": 2015
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Amanda Solloway",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69794,
-			"turnout": 64.3,
+			"turnout": { "pc":64.3, "value": 44882 },
 			"valid": 44745,
 			"spoiled": 137,
 			"majority": 41

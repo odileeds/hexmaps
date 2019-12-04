@@ -2,7 +2,8 @@
 	"id": "E14000706",
 	"title": "Fylde",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 986,
 				"name": "Gina Dowding",
@@ -28,27 +29,24 @@
 				"name": "Martin Mitchell",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64422.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Menzies",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Menzies",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24804/mark_menzies/fylde",
 			"electorate": 65937,
-			"turnout": 70.5,
+			"turnout": { "pc": 70.7, "value": 46594 },
 			"valid": 46467,
 			"spoiled": 127,
 			"majority": 11805
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Menzies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65679,
-			"turnout": 66.6,
+			"turnout": { "pc":66.6, "value": 43747 },
 			"valid": 43557,
 			"spoiled": 190,
 			"majority": 13224

@@ -2,7 +2,8 @@
 	"id": "E14000851",
 	"title": "North Swindon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 190,
 				"name": "Justin Tomlinson",
@@ -23,27 +24,24 @@
 				"name": "Katie Critchlow",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72282-1f180ae2-e814-4fd0-8f75-14da4918426e.png"
-			}],
-			"incumbent": {
-				"mp": "Justin Tomlinson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Justin Tomlinson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24870/justin_tomlinson/north_swindon",
 			"electorate": 80168,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.6, "value": 55015 },
 			"valid": 54911,
 			"spoiled": 104,
 			"majority": 8335
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Justin Tomlinson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80983,
-			"turnout": 64.7,
+			"turnout": { "pc":64.7, "value": 52390 },
 			"valid": 52242,
 			"spoiled": 148,
 			"majority": 11786

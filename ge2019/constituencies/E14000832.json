@@ -2,7 +2,8 @@
 	"id": "E14000832",
 	"title": "Newcastle upon Tyne East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1376,
 				"name": "Nick Brown",
@@ -23,27 +24,24 @@
 				"name": "Nick Hartley",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38029-5d263fc3-0d82-4ea8-b95b-2b692ed85172.png"
-			}],
-			"incumbent": {
-				"mp": "Nick Brown",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nicholas Brown",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10069/nick_brown/newcastle_upon_tyne_east",
 			"electorate": 61989,
-			"turnout": 67.2,
+			"turnout": { "pc": 67.3, "value": 41721 },
 			"valid": 41637,
 			"spoiled": 84,
 			"majority": 19261
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nicholas Brown",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64243,
-			"turnout": 61.3,
+			"turnout": { "pc":61.3, "value": 39349 },
 			"valid": 39222,
 			"spoiled": 127,
 			"majority": 12494

@@ -2,7 +2,8 @@
 	"id": "E14000593",
 	"title": "Brentford and Isleworth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4275,
 				"name": "Ruth Cadbury",
@@ -28,27 +29,24 @@
 				"name": "Lucy O'Sullivan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71869.png"
-			}],
-			"incumbent": {
-				"mp": "Ruth Cadbury",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ruth Cadbury",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25343/ruth_cadbury/brentford_and_isleworth",
 			"electorate": 85164,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 61785 },
 			"valid": 61629,
 			"spoiled": 156,
 			"majority": 12182
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ruth Cadbury",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 84602,
-			"turnout": 68.0,
+			"turnout": { "pc":68.0, "value": 57502 },
 			"valid": 57355,
 			"spoiled": 147,
 			"majority": 465

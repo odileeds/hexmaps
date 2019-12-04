@@ -2,7 +2,8 @@
 	"id": "E14000743",
 	"title": "Hereford and South Herefordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 301,
 				"name": "Lucy Hurds",
@@ -20,30 +21,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5716.png"
 			},{
 				"id": 65593,
-				"name": "Anna-Maria Coda",
+				"name": "Anna Coda",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jesse Norman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65593-2b42b139-5114-4d00-93de-b9c7946749cd.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jesse Norman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24827/jesse_norman/hereford_and_south_herefordshire",
 			"electorate": 71088,
-			"turnout": 71.0,
+			"turnout": { "pc": 71.1, "value": 50555 },
 			"valid": 50484,
 			"spoiled": 71,
 			"majority": 15013
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jesse Norman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71485,
-			"turnout": 66.4,
+			"turnout": { "pc":66.4, "value": 47459 },
 			"valid": 47257,
 			"spoiled": 202,
 			"majority": 16890

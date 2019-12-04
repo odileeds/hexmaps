@@ -2,7 +2,8 @@
 	"id": "E14000966",
 	"title": "Staffordshire Moorlands",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1303,
 				"name": "Karen Bradley",
@@ -23,27 +24,24 @@
 				"name": "Doug Rouxel",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24927.png"
-			}],
-			"incumbent": {
-				"mp": "Karen Bradley",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Karen Bradley",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24725/karen_bradley/staffordshire_moorlands",
 			"electorate": 63260,
-			"turnout": 70.6,
+			"turnout": { "pc": 70.7, "value": 44739 },
 			"valid": 44655,
 			"spoiled": 84,
 			"majority": 10830
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Karen Bradley",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 63104,
-			"turnout": 67.7,
+			"turnout": { "pc":67.7, "value": 42713 },
 			"valid": 42587,
 			"spoiled": 126,
 			"majority": 10174

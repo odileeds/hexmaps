@@ -2,7 +2,8 @@
 	"id": "S14000054",
 	"title": "Perth and North Perthshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2419,
 				"name": "Pete Wishart",
@@ -28,27 +29,24 @@
 				"name": "Stuart Powell",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71581-d79c242d-17d1-427a-9aed-2e6e22cf8b43.png"
-			}],
-			"incumbent": {
-				"mp": "Pete Wishart",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Pete Wishart",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11333/pete_wishart/perth_and_north_perthshire",
 			"electorate": 71762,
-			"turnout": 71.8,
+			"turnout": { "pc": 71.9, "value": 51624 },
 			"valid": 51525,
 			"spoiled": 99,
 			"majority": 21
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Pete Wishart",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 72459,
-			"turnout": 74.9,
+			"turnout": { "pc":74.9, "value": 54264 },
 			"valid": 54200,
 			"spoiled": 64,
 			"majority": 9641

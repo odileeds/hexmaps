@@ -2,7 +2,8 @@
 	"id": "E14000764",
 	"title": "Islington South and Finsbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2519,
 				"name": "Emily Thornberry",
@@ -33,27 +34,24 @@
 				"name": "Lord Sandys of Bunhill",
 				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Emily Thornberry",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Emily Thornberry",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11656/emily_thornberry/islington_south_and_finsbury",
 			"electorate": 69536,
-			"turnout": 69.1,
+			"turnout": { "pc": 69.3, "value": 48196 },
 			"valid": 48049,
 			"spoiled": 147,
 			"majority": 20263
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Emily Thornberry",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68127,
-			"turnout": 65.2,
+			"turnout": { "pc":65.2, "value": 44421 },
 			"valid": 44270,
 			"spoiled": 151,
 			"majority": 12708

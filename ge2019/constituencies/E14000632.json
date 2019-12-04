@@ -2,7 +2,8 @@
 	"id": "E14000632",
 	"title": "Chesterfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 582,
 				"name": "Toby Perkins",
@@ -33,27 +34,24 @@
 				"name": "Leigh Higgins",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72119-f01d3919-2955-456b-9c96-41eb31dfbaa2.png"
-			}],
-			"incumbent": {
-				"mp": "Toby Perkins",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Toby Perkins",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24845/toby_perkins/chesterfield",
 			"electorate": 72069,
-			"turnout": 66.5,
+			"turnout": { "pc": 66.6, "value": 48001 },
 			"valid": 47927,
 			"spoiled": 74,
 			"majority": 9605
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Toby Perkins",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71625,
-			"turnout": 63.9,
+			"turnout": { "pc":63.9, "value": 45746 },
 			"valid": 45567,
 			"spoiled": 179,
 			"majority": 13598

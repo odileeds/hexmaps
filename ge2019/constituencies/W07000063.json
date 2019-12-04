@@ -2,7 +2,8 @@
 	"id": "W07000063",
 	"title": "Montgomeryshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4173,
 				"name": "Craig Williams",
@@ -22,28 +23,25 @@
 				"id": 72163,
 				"name": "Gwyn Wigley Evans",
 				"party": { "code": "", "title": "Gwlad Gwlad" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Glyn Davies",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72163-7b0ecc1c-1974-402e-9398-c7de52490f47.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Glyn Davies",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24739/glyn_davies/montgomeryshire",
 			"electorate": 50755,
-			"turnout": 68.7,
+			"turnout": { "pc": 68.9, "value": 34966 },
 			"valid": 34891,
 			"spoiled": 75,
 			"majority": 9285
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Glyn Davies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 48690,
-			"turnout": 69.4,
+			"turnout": { "pc":69.4, "value": 33811 },
 			"valid": 33757,
 			"spoiled": 54,
 			"majority": 5325

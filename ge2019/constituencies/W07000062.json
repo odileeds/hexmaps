@@ -2,7 +2,8 @@
 	"id": "W07000062",
 	"title": "Clwyd South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2700,
 				"name": "Susan Elan Jones",
@@ -28,27 +29,24 @@
 				"name": "Jamie David Adams",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72417-9fcfee7a-d293-4563-a91b-ae373c374509.png"
-			}],
-			"incumbent": {
-				"mp": "Susan Elan Jones",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Susan Elan Jones",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24720/susan_elan_jones/clwyd_south",
 			"electorate": 53729,
-			"turnout": 69.7,
+			"turnout": { "pc": 69.9, "value": 37530 },
 			"valid": 37474,
 			"spoiled": 56,
 			"majority": 4356
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Susan Elan Jones",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 54996,
-			"turnout": 63.9,
+			"turnout": { "pc":63.9, "value": 35119 },
 			"valid": 35064,
 			"spoiled": 55,
 			"majority": 2402

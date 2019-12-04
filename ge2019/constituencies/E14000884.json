@@ -2,7 +2,8 @@
 	"id": "E14000884",
 	"title": "Portsmouth South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4522,
 				"name": "Gerald Vernon-Jackson",
@@ -28,27 +29,24 @@
 				"name": "John Kennedy",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70478.png"
-			}],
-			"incumbent": {
-				"mp": "Stephen Morgan",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Morgan",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25658/stephen_morgan/portsmouth_south",
 			"electorate": 69785,
-			"turnout": 63.9,
+			"turnout": { "pc": 64.0, "value": 44660 },
 			"valid": 44566,
 			"spoiled": 94,
 			"majority": 1554
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Flick Drummond",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71639,
-			"turnout": 58.8,
+			"turnout": { "pc":58.8, "value": 42088 },
 			"valid": 41903,
 			"spoiled": 185,
 			"majority": 5241

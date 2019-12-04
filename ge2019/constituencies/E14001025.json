@@ -2,7 +2,8 @@
 	"id": "E14001025",
 	"title": "Wellingborough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1690,
 				"name": "Peter Bone",
@@ -23,27 +24,24 @@
 				"name": "Andrea Watts",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34456_FjF43nQ.png"
-			}],
-			"incumbent": {
-				"mp": "Peter Bone",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Peter Bone",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11915/peter_bone/wellingborough",
 			"electorate": 79254,
-			"turnout": 67.2,
+			"turnout": { "pc": 67.3, "value": 53340 },
 			"valid": 53240,
 			"spoiled": 100,
 			"majority": 12460
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Peter Bone",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74317,
-			"turnout": 68.2,
+			"turnout": { "pc":68.2, "value": 50669 },
 			"valid": 50430,
 			"spoiled": 239,
 			"majority": 16397

@@ -2,7 +2,8 @@
 	"id": "W07000050",
 	"title": "Cardiff Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3372,
 				"name": "Meirion Jenkins",
@@ -38,27 +39,24 @@
 				"name": "Akil Kata",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72264-90753053-a193-47d8-aa9d-8ac9a573f163.png"
-			}],
-			"incumbent": {
-				"mp": "Jo Stevens",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jo Stevens",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25304/jo_stevens/cardiff_central",
 			"electorate": 59288,
-			"turnout": 68.1,
+			"turnout": { "pc": 68.2, "value": 40447 },
 			"valid": 40367,
 			"spoiled": 80,
 			"majority": 17196
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jo Stevens",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 57456,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 38763 },
 			"valid": 38646,
 			"spoiled": 117,
 			"majority": 4981

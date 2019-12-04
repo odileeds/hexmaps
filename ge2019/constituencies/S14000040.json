@@ -2,7 +2,8 @@
 	"id": "S14000040",
 	"title": "Kilmarnock and Loudoun",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5921,
 				"name": "Alan Brown",
@@ -15,7 +16,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/22339-15ca7a76-f535-431c-a751-32b5944a11e7.png"
 			},{
 				"id": 34766,
-				"name": "Caroline Hollins-Martin",
+				"name": "Caroline Hollins",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34766.png"
 			},{
@@ -28,27 +29,24 @@
 				"name": "Edward John Thornley",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Alan Brown",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alan Brown",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25268/alan_brown/kilmarnock_and_loudoun",
 			"electorate": 73327,
-			"turnout": 63.4,
+			"turnout": { "pc": 63.5, "value": 46590 },
 			"valid": 46509,
 			"spoiled": 81,
 			"majority": 6269
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Brown",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 75250,
-			"turnout": 71.8,
+			"turnout": { "pc":71.8, "value": 53995 },
 			"valid": 53903,
 			"spoiled": 92,
 			"majority": 13638

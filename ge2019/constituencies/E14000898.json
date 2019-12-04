@@ -2,7 +2,8 @@
 	"id": "E14000898",
 	"title": "Rochester and Strood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 57,
 				"name": "Roy Andrew Freshwater",
@@ -20,9 +21,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4224.png"
 			},{
 				"id": 34370,
-				"name": "Sonia Lesley Hyner",
+				"name": "Sonia Hyner",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34370.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34370-dfa44e6b-d05f-4fe0-b09a-282289fcfdd9.png"
 			},{
 				"id": 68733,
 				"name": "Chris Spalding",
@@ -33,27 +34,24 @@
 				"name": "Graham Colley",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69530.png"
-			}],
-			"incumbent": {
-				"mp": "Kelly Tolhurst",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kelly Tolhurst",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25430/kelly_tolhurst/rochester_and_strood",
 			"electorate": 82702,
-			"turnout": 65.0,
+			"turnout": { "pc": 65.1, "value": 53839 },
 			"valid": 53769,
 			"spoiled": 70,
 			"majority": 9850
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kelly Tolhurst",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77119,
-			"turnout": 68.3,
+			"turnout": { "pc":68.3, "value": 52680 },
 			"valid": 52516,
 			"spoiled": 164,
 			"majority": 7133

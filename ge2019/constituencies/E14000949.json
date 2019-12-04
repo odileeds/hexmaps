@@ -2,7 +2,8 @@
 	"id": "E14000949",
 	"title": "South West Bedfordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1896,
 				"name": "Andrew Selous",
@@ -15,7 +16,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50322.png"
 			},{
 				"id": 66477,
-				"name": "Andrew Howard Waters",
+				"name": "Andrew Waters",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66477-8218a0d6-68c8-472f-8757-8bfaca24d0d0.png"
 			},{
@@ -23,27 +24,24 @@
 				"name": "Callum Anderson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72065-d21e27ea-a387-4d77-b069-bf96f614cf88.png"
-			}],
-			"incumbent": {
-				"mp": "Andrew Selous",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Selous",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11216/andrew_selous/south_west_bedfordshire",
 			"electorate": 79658,
-			"turnout": 69.8,
+			"turnout": { "pc": 70.0, "value": 55798 },
 			"valid": 55635,
 			"spoiled": 163,
 			"majority": 14168
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Selous",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79285,
-			"turnout": 65.0,
+			"turnout": { "pc":65.0, "value": 51548 },
 			"valid": 51304,
 			"spoiled": 244,
 			"majority": 17813

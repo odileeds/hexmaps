@@ -2,12 +2,13 @@
 	"id": "E14000804",
 	"title": "Maidstone and The Weald",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2107,
 				"name": "Helen Grant",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/55357178367dc5383f552cc7.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2107-803714f4-9d28-4c83-bfc0-db6e5a764f97.png"
 			},{
 				"id": 2111,
 				"name": "Stuart Jeffery",
@@ -22,33 +23,30 @@
 				"id": 12148,
 				"name": "Dan Wilkinson",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12148-38007cee-c32b-4b2c-940f-c6a73e793071.png"
 			},{
 				"id": 28382,
 				"name": "Yolande Ann Kenward",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/28382.png"
-			}],
-			"incumbent": {
-				"mp": "Helen Grant",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Helen Grant",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24796/helen_grant/maidstone_and_the_weald",
 			"electorate": 75334,
-			"turnout": 68.7,
+			"turnout": { "pc": 68.8, "value": 51803 },
 			"valid": 51717,
 			"spoiled": 86,
 			"majority": 17723
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Helen Grant",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73181,
-			"turnout": 68.5,
+			"turnout": { "pc":68.5, "value": 50121 },
 			"valid": 50010,
 			"spoiled": 111,
 			"majority": 10709

@@ -2,7 +2,8 @@
 	"id": "E14000958",
 	"title": "Southport",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4779,
 				"name": "Liz Savage",
@@ -17,28 +18,25 @@
 				"id": 15318,
 				"name": "John Wright",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Damien Moore",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15318-1450f35d-53a3-4c20-8ef7-98f16acee534.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Damien Moore",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25630/damien_moore/southport",
 			"electorate": 69400,
-			"turnout": 69.1,
+			"turnout": { "pc": 69.2, "value": 48019 },
 			"valid": 47956,
 			"spoiled": 63,
 			"majority": 2914
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Pugh",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 67326,
-			"turnout": 65.8,
+			"turnout": { "pc":65.8, "value": 44272 },
 			"valid": 44101,
 			"spoiled": 171,
 			"majority": 1322

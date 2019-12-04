@@ -2,7 +2,8 @@
 	"id": "W07000048",
 	"title": "Swansea East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5787,
 				"name": "Carolyn Harris",
@@ -33,27 +34,24 @@
 				"name": "Geraint Havard",
 				"party": { "code": "PC", "title": "Plaid Cymru - The Party of Wales" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71814.png"
-			}],
-			"incumbent": {
-				"mp": "Carolyn Harris",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Carolyn Harris",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25308/carolyn_harris/swansea_east",
 			"electorate": 58521,
-			"turnout": 60.1,
+			"turnout": { "pc": 60.2, "value": 35215 },
 			"valid": 35159,
 			"spoiled": 56,
 			"majority": 13168
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Carolyn Harris",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58011,
-			"turnout": 58.1,
+			"turnout": { "pc":58.1, "value": 33725 },
 			"valid": 33618,
 			"spoiled": 107,
 			"majority": 12028

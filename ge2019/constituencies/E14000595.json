@@ -2,7 +2,8 @@
 	"id": "E14000595",
 	"title": "Bridgwater and West Somerset",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1759,
 				"name": "Ian Liddell-Grainger",
@@ -28,27 +29,24 @@
 				"name": "Farès K Moussa",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72296-e9bdcd87-48f2-4be1-8358-2d5d5e928256.png"
-			}],
-			"incumbent": {
-				"mp": "Ian Liddell-Grainger",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ian Liddell-Grainger",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11048/ian_liddell-grainger/bridgwater_and_west_somerset",
 			"electorate": 89294,
-			"turnout": 65.3,
+			"turnout": { "pc": 65.4, "value": 58398 },
 			"valid": 58267,
 			"spoiled": 131,
 			"majority": 15448
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ian Liddell-Grainger",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80491,
-			"turnout": 67.9,
+			"turnout": { "pc":67.9, "value": 54650 },
 			"valid": 54447,
 			"spoiled": 203,
 			"majority": 14583

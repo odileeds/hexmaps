@@ -2,7 +2,8 @@
 	"id": "E14000925",
 	"title": "Shipley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 835,
 				"name": "Philip Davies",
@@ -28,27 +29,24 @@
 				"name": "Darren Longhorn",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71856-5004da2c-afde-44dc-8fb3-fc20fca932ff.png"
-			}],
-			"incumbent": {
-				"mp": "Philip Davies",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Philip Davies",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11816/philip_davies/shipley",
 			"electorate": 73133,
-			"turnout": 73.0,
+			"turnout": { "pc": 73.2, "value": 53533 },
 			"valid": 53395,
 			"spoiled": 138,
 			"majority": 4681
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Philip Davies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70464,
-			"turnout": 71.9,
+			"turnout": { "pc":71.9, "value": 50662 },
 			"valid": 50542,
 			"spoiled": 120,
 			"majority": 9624

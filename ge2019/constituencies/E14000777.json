@@ -2,7 +2,8 @@
 	"id": "E14000777",
 	"title": "Leeds Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 738,
 				"name": "Hilary Benn",
@@ -33,27 +34,24 @@
 				"name": "Jack Holland",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71909.png"
-			}],
-			"incumbent": {
-				"mp": "Hilary Benn",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Hilary Benn",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10669/hilary_benn/leeds_central",
 			"electorate": 89537,
-			"turnout": 53.2,
+			"turnout": { "pc": 53.4, "value": 47789 },
 			"valid": 47673,
 			"spoiled": 116,
 			"majority": 23698
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Hilary Benn",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 81799,
-			"turnout": 55.3,
+			"turnout": { "pc":55.3, "value": 45261 },
 			"valid": 45048,
 			"spoiled": 213,
 			"majority": 16967

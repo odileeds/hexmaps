@@ -2,7 +2,8 @@
 	"id": "N06000015",
 	"title": "South Down",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5994,
 				"name": "Chris Hazzard",
@@ -33,27 +34,24 @@
 				"name": "Paul Brady",
 				"party": { "code": "", "title": "Aontú" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72037.png"
-			}],
-			"incumbent": {
-				"mp": "Christopher Hazzard",
-				"party": { "code": "SF", "title": "Sinn Féin" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Christopher Hazzard",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Chris Hazzard",
 			"party": { "code": "SF" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25154/christopher_hazzard/south_down",
 			"electorate": 75685,
-			"turnout": 67.2,
+			"turnout": { "pc": 67.5, "value": 51082 },
 			"valid": 50893,
 			"spoiled": 189,
 			"majority": 2446
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Margaret Ritchie",
 			"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
 			"electorate": 75220,
-			"turnout": 57.2,
+			"turnout": { "pc":57.2, "value": 43000 },
 			"valid": 42697,
 			"spoiled": 303,
 			"majority": 5891

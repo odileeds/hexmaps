@@ -2,7 +2,8 @@
 	"id": "E14000535",
 	"title": "Ashfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3232,
 				"name": "Jason Zadrozny",
@@ -20,9 +21,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/55799-0e5cd5d6-7141-4661-aca6-f4cca847a13b.png"
 			},{
 				"id": 60588,
-				"name": "Rosemary Cerridwen Gray Woods",
+				"name": "Rose Woods",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60588-4c427f88-dc99-414e-8947-f4a10de173ef.png"
 			},{
 				"id": 70503,
 				"name": "Martin Daubney",
@@ -33,27 +34,24 @@
 				"name": "Natalie Fleet",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71279.png"
-			}],
-			"incumbent": {
-				"mp": "Gloria De Piero",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gloria De Piero",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24811/gloria_de_piero/ashfield",
 			"electorate": 78076,
-			"turnout": 64.0,
+			"turnout": { "pc": 64.1, "value": 50055 },
 			"valid": 49993,
 			"spoiled": 62,
 			"majority": 441
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gloria De Piero",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77091,
-			"turnout": 61.8,
+			"turnout": { "pc":61.8, "value": 47618 },
 			"valid": 47409,
 			"spoiled": 209,
 			"majority": 8820

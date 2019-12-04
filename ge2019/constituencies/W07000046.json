@@ -2,7 +2,8 @@
 	"id": "W07000046",
 	"title": "Gower",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 16833,
 				"name": "Tonia Antoniazzi",
@@ -28,27 +29,24 @@
 				"name": "Rob Ross",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Tonia Antoniazzi",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tonia Antoniazzi",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25634/tonia_antoniazzi/gower",
 			"electorate": 62163,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.4, "value": 45629 },
 			"valid": 45576,
 			"spoiled": 53,
 			"majority": 3269
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Byron Davies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 61820,
-			"turnout": 69.3,
+			"turnout": { "pc":69.3, "value": 42815 },
 			"valid": 42758,
 			"spoiled": 57,
 			"majority": 27

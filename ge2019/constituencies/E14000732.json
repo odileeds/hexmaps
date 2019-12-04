@@ -2,7 +2,8 @@
 	"id": "E14000732",
 	"title": "Harrow West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1126,
 				"name": "Gareth Thomas",
@@ -28,27 +29,24 @@
 				"name": "Richard Austin Jones",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72274-d10442f8-d877-4915-a2c2-8d016fef7860.png"
-			}],
-			"incumbent": {
-				"mp": "Gareth Thomas",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gareth Thomas",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10594/gareth_thomas/harrow_west",
 			"electorate": 69797,
-			"turnout": 72.1,
+			"turnout": { "pc": 72.3, "value": 50483 },
 			"valid": 50355,
 			"spoiled": 128,
 			"majority": 13314
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gareth Thomas",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 69644,
-			"turnout": 67.1,
+			"turnout": { "pc":67.1, "value": 46739 },
 			"valid": 46603,
 			"spoiled": 136,
 			"majority": 2208

@@ -2,7 +2,8 @@
 	"id": "E14000983",
 	"title": "Surrey Heath",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4014,
 				"name": "Michael Gove",
@@ -27,28 +28,25 @@
 				"id": 71952,
 				"name": "Brahma Mohanty",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Michael Gove",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71952-a34776a2-1757-46e5-951d-44b5ba013931.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michael Gove",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11858/michael_gove/surrey_heath",
 			"electorate": 80764,
-			"turnout": 71.6,
+			"turnout": { "pc": 71.9, "value": 58048 },
 			"valid": 57822,
 			"spoiled": 226,
 			"majority": 24943
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Gove",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79515,
-			"turnout": 68.8,
+			"turnout": { "pc":68.8, "value": 54683 },
 			"valid": 54431,
 			"spoiled": 252,
 			"majority": 24804

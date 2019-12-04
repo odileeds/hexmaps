@@ -2,7 +2,8 @@
 	"id": "E14001048",
 	"title": "Wokingham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1611,
 				"name": "John Redwood",
@@ -28,27 +29,24 @@
 				"name": "Kizzi Johannessen",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18144.png"
-			}],
-			"incumbent": {
-				"mp": "John Redwood",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Redwood",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10499/john_redwood/wokingham",
 			"electorate": 79111,
-			"turnout": 75.5,
+			"turnout": { "pc": 75.7, "value": 59889 },
 			"valid": 59690,
 			"spoiled": 199,
 			"majority": 18798
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Redwood",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77881,
-			"turnout": 72.1,
+			"turnout": { "pc":72.1, "value": 56165 },
 			"valid": 55999,
 			"spoiled": 166,
 			"majority": 24197

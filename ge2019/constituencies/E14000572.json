@@ -2,7 +2,8 @@
 	"id": "E14000572",
 	"title": "Blackpool North and Cleveleys",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1176,
 				"name": "Paul Maynard",
@@ -27,28 +28,25 @@
 				"id": 72144,
 				"name": "Neil Holden",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Paul Maynard",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72144-1ef514e2-2658-458d-822e-ba3f379a9162.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Maynard",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24764/paul_maynard/blackpool_north_and_cleveleys",
 			"electorate": 63967,
-			"turnout": 64.1,
+			"turnout": { "pc": 64.2, "value": 41066 },
 			"valid": 41007,
 			"spoiled": 59,
 			"majority": 2023
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Maynard",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 62468,
-			"turnout": 63.4,
+			"turnout": { "pc":63.4, "value": 39600 },
 			"valid": 39393,
 			"spoiled": 207,
 			"majority": 3340

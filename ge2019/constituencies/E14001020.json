@@ -2,7 +2,8 @@
 	"id": "E14001020",
 	"title": "Washington and Sunderland West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3067,
 				"name": "Sharon Hodgson",
@@ -22,7 +23,7 @@
 				"id": 37822,
 				"name": "Carlton Lee West",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37822-553126a4-7994-4450-b8a6-d0a053072148.png"
 			},{
 				"id": 51803,
 				"name": "Keith Jenkins",
@@ -32,28 +33,25 @@
 				"id": 71719,
 				"name": "Howard Brown",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Sharon Hodgson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71719-42791221-fbeb-4f07-9ee3-2da13401bd3f.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sharon Hodgson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11592/sharon_hodgson/washington_and_sunderland_west",
 			"electorate": 67280,
-			"turnout": 60.3,
+			"turnout": { "pc": 60.4, "value": 40648 },
 			"valid": 40574,
 			"spoiled": 74,
 			"majority": 12940
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sharon Hodgson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68190,
-			"turnout": 54.9,
+			"turnout": { "pc":54.9, "value": 37447 },
 			"valid": 37257,
 			"spoiled": 190,
 			"majority": 13157

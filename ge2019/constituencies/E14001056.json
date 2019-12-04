@@ -2,7 +2,8 @@
 	"id": "E14001056",
 	"title": "Wycombe",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1481,
 				"name": "Steve Baker",
@@ -37,28 +38,25 @@
 				"id": 72424,
 				"name": "Edmund John Gemmell",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Steven Baker",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72424-3e66e8c0-6816-4316-a8d0-ef19202d4483.png"
+			}]
 		},
-		"2017": {
-			"mp": "Steven Baker",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Steve Baker",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24786/steven_baker/wycombe",
 			"electorate": 77087,
-			"turnout": 69.4,
+			"turnout": { "pc": 69.6, "value": 53637 },
 			"valid": 53493,
 			"spoiled": 144,
 			"majority": 6578
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Steve Baker",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76371,
-			"turnout": 67.8,
+			"turnout": { "pc":67.8, "value": 51758 },
 			"valid": 51439,
 			"spoiled": 319,
 			"majority": 14856

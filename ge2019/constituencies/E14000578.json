@@ -2,7 +2,8 @@
 	"id": "E14000578",
 	"title": "Bolton North East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 919,
 				"name": "David Crausby",
@@ -28,27 +29,24 @@
 				"name": "Trevor Jones",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71315.png"
-			}],
-			"incumbent": {
-				"mp": "David Crausby",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Crausby",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10141/david_crausby/bolton_north_east",
 			"electorate": 67233,
-			"turnout": 67.2,
+			"turnout": { "pc": 67.3, "value": 45273 },
 			"valid": 45183,
 			"spoiled": 90,
 			"majority": 3797
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Crausby",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67895,
-			"turnout": 63.8,
+			"turnout": { "pc":63.8, "value": 43311 },
 			"valid": 43161,
 			"spoiled": 150,
 			"majority": 4377

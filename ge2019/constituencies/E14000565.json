@@ -2,7 +2,8 @@
 	"id": "E14000565",
 	"title": "Birmingham, Northfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3368,
 				"name": "Richard Burden",
@@ -33,27 +34,24 @@
 				"name": "Jamie Christian Scott",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35151.png"
-			}],
-			"incumbent": {
-				"mp": "Richard Burden",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Richard Burden",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10076/richard_burden/birmingham%2C_northfield",
 			"electorate": 72322,
-			"turnout": 61.3,
+			"turnout": { "pc": 61.5, "value": 44499 },
 			"valid": 44348,
 			"spoiled": 151,
 			"majority": 4667
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Richard Burden",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71428,
-			"turnout": 59.6,
+			"turnout": { "pc":59.6, "value": 42559 },
 			"valid": 42461,
 			"spoiled": 98,
 			"majority": 2509

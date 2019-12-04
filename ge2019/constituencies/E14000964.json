@@ -2,7 +2,8 @@
 	"id": "E14000964",
 	"title": "St Ives",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 191,
 				"name": "Derek Thomas",
@@ -33,27 +34,24 @@
 				"name": "Robert Lee Smith",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72494-0461249f-4988-48ea-a869-207f636ab38a.png"
-			}],
-			"incumbent": {
-				"mp": "Derek Thomas",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Derek Thomas",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25440/derek_thomas/st_ives",
 			"electorate": 67145,
-			"turnout": 76.3,
+			"turnout": { "pc": 76.5, "value": 51335 },
 			"valid": 51226,
 			"spoiled": 109,
 			"majority": 312
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Derek Thomas",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65570,
-			"turnout": 73.8,
+			"turnout": { "pc":73.8, "value": 48390 },
 			"valid": 48312,
 			"spoiled": 78,
 			"majority": 2469

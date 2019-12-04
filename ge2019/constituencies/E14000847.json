@@ -2,7 +2,8 @@
 	"id": "E14000847",
 	"title": "North Herefordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 605,
 				"name": "Bill Wiggin",
@@ -23,27 +24,24 @@
 				"name": "Phillip Howells",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/60650.png"
-			}],
-			"incumbent": {
-				"mp": "Bill Wiggin",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bill Wiggin",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11318/bill_wiggin/north_herefordshire",
 			"electorate": 67751,
-			"turnout": 74.1,
+			"turnout": { "pc": 74.2, "value": 50293 },
 			"valid": 50177,
 			"spoiled": 116,
 			"majority": 21602
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Bill Wiggin",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67926,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 48213 },
 			"valid": 48023,
 			"spoiled": 190,
 			"majority": 19996

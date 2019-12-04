@@ -2,7 +2,8 @@
 	"id": "S14000009",
 	"title": "Caithness, Sutherland and Easter Ross",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6835,
 				"name": "Sandra Skinner",
@@ -28,27 +29,24 @@
 				"name": "Cheryl Ann Mcdonald",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jamie Stone",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jamie Stone",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25668/jamie_stone/caithness%2C_sutherland_and_easter_ross",
 			"electorate": 46868,
-			"turnout": 65.9,
+			"turnout": { "pc": 66.0, "value": 30936 },
 			"valid": 30901,
 			"spoiled": 35,
 			"majority": 2044
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Monaghan",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 47558,
-			"turnout": 72.0,
+			"turnout": { "pc":72.0, "value": 34231 },
 			"valid": 34186,
 			"spoiled": 45,
 			"majority": 3844

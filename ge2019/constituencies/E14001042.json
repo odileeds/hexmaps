@@ -2,7 +2,8 @@
 	"id": "E14001042",
 	"title": "Windsor",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 618,
 				"name": "Julian Tisi",
@@ -32,28 +33,25 @@
 				"id": 72375,
 				"name": "David John Buckley",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Adam Afriyie",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72375-ec102db3-cf74-472e-bd90-62e526a9fd0a.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Adam Afriyie",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11929/adam_afriyie/windsor",
 			"electorate": 73595,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.5, "value": 54085 },
 			"valid": 53921,
 			"spoiled": 164,
 			"majority": 22384
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Adam Afriyie",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71538,
-			"turnout": 70.4,
+			"turnout": { "pc":70.4, "value": 50349 },
 			"valid": 50160,
 			"spoiled": 189,
 			"majority": 25083

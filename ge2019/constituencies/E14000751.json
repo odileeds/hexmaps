@@ -2,7 +2,8 @@
 	"id": "E14000751",
 	"title": "Hornchurch and Upminster",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3068,
 				"name": "David Furness",
@@ -28,27 +29,24 @@
 				"name": "Thomas Patrick Clarke",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/43035.png"
-			}],
-			"incumbent": {
-				"mp": "Julia Lopez",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Julia Lopez",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Julia Dockerill",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25652/julia_lopez/hornchurch_and_upminster",
 			"electorate": 80802,
-			"turnout": 69.4,
+			"turnout": { "pc": 69.5, "value": 56155 },
 			"valid": 56045,
 			"spoiled": 110,
 			"majority": 17723
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Angela Watkinson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79331,
-			"turnout": 69.7,
+			"turnout": { "pc":69.7, "value": 55325 },
 			"valid": 55236,
 			"spoiled": 89,
 			"majority": 13074

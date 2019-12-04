@@ -2,7 +2,8 @@
 	"id": "E14000839",
 	"title": "North Dorset",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5986,
 				"name": "Simon Hoare",
@@ -23,27 +24,24 @@
 				"name": "David Chadwick",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71555.png"
-			}],
-			"incumbent": {
-				"mp": "Simon Hoare",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Simon Hoare",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25427/simon_hoare/north_dorset",
 			"electorate": 76324,
-			"turnout": 73.0,
+			"turnout": { "pc": 73.2, "value": 55891 },
 			"valid": 55724,
 			"spoiled": 167,
 			"majority": 25777
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Simon Hoare",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73759,
-			"turnout": 72.6,
+			"turnout": { "pc":72.6, "value": 53545 },
 			"valid": 53385,
 			"spoiled": 160,
 			"majority": 21118

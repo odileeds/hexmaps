@@ -2,7 +2,8 @@
 	"id": "W07000067",
 	"title": "Carmarthen East and Dinefwr",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3577,
 				"name": "Jonathan Edwards",
@@ -23,27 +24,24 @@
 				"name": "Pete Prosser",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71937.png"
-			}],
-			"incumbent": {
-				"mp": "Jonathan Edwards",
-				"party": { "code": "PC", "title": "Plaid Cymru" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jonathan Edwards",
 			"party": { "code": "PC" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24743/jonathan_edwards/carmarthen_east_and_dinefwr",
 			"electorate": 55976,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.4, "value": 41074 },
 			"valid": 41029,
 			"spoiled": 45,
 			"majority": 3908
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jonathan Edwards",
 			"party": { "code": "PC", "title": "Plaid Cymru" },
 			"electorate": 55750,
-			"turnout": 70.8,
+			"turnout": { "pc":70.8, "value": 39460 },
 			"valid": 39399,
 			"spoiled": 61,
 			"majority": 5599

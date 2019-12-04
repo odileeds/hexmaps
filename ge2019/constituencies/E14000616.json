@@ -2,7 +2,8 @@
 	"id": "E14000616",
 	"title": "Camborne and Redruth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3888,
 				"name": "George Eustice",
@@ -28,27 +29,24 @@
 				"name": "Florence MacDonald",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/29583.png"
-			}],
-			"incumbent": {
-				"mp": "George Eustice",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "George Eustice",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24933/george_eustice/camborne_and_redruth",
 			"electorate": 68419,
-			"turnout": 70.8,
+			"turnout": { "pc": 71.0, "value": 48549 },
 			"valid": 48456,
 			"spoiled": 93,
 			"majority": 1577
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "George Eustice",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66944,
-			"turnout": 68.6,
+			"turnout": { "pc":68.6, "value": 45952 },
 			"valid": 45868,
 			"spoiled": 84,
 			"majority": 7004

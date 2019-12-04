@@ -2,7 +2,8 @@
 	"id": "E14000924",
 	"title": "Sherwood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2789,
 				"name": "Tim Ball",
@@ -15,9 +16,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5517fe51249b917507bee536.png"
 			},{
 				"id": 63357,
-				"name": "Esther Ruth Cropper",
+				"name": "Esther Cropper",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63357-7ef3c115-3618-4f03-8c6a-3f53e355e72e.png"
 			},{
 				"id": 70462,
 				"name": "Simon Rood",
@@ -28,27 +29,24 @@
 				"name": "Jerry Hague",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71620.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Spencer",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Spencer",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24909/mark_spencer/sherwood",
 			"electorate": 76196,
-			"turnout": 70.0,
+			"turnout": { "pc": 70.2, "value": 53462 },
 			"valid": 53364,
 			"spoiled": 98,
 			"majority": 5198
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Spencer",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73349,
-			"turnout": 69.3,
+			"turnout": { "pc":69.3, "value": 50825 },
 			"valid": 50698,
 			"spoiled": 127,
 			"majority": 4647

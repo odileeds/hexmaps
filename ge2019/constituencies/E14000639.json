@@ -2,7 +2,8 @@
 	"id": "E14000639",
 	"title": "Cities of London and Westminster",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2918,
 				"name": "Chuka Umunna",
@@ -33,27 +34,24 @@
 				"name": "Jill McLachlan",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Mark Field",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Field",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10884/mark_field/cities_of_london_and_westminster",
 			"electorate": 61533,
-			"turnout": 62.8,
+			"turnout": { "pc": 63.0, "value": 38787 },
 			"valid": 38654,
 			"spoiled": 133,
 			"majority": 3148
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Field",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 60992,
-			"turnout": 59.6,
+			"turnout": { "pc":59.6, "value": 36352 },
 			"valid": 36185,
 			"spoiled": 167,
 			"majority": 9671

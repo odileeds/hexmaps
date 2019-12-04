@@ -2,7 +2,8 @@
 	"id": "E14000855",
 	"title": "North West Cambridgeshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 489,
 				"name": "Shailesh Vara",
@@ -23,27 +24,24 @@
 				"name": "Cathy Cordiner-Achenbach",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35837.png"
-			}],
-			"incumbent": {
-				"mp": "Shailesh Vara",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Shailesh Vara",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11475/shailesh_vara/north_west_cambridgeshire",
 			"electorate": 93221,
-			"turnout": 68.6,
+			"turnout": { "pc": 68.8, "value": 64123 },
 			"valid": 63991,
 			"spoiled": 132,
 			"majority": 18008
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Shailesh Vara",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 90318,
-			"turnout": 67.8,
+			"turnout": { "pc":67.8, "value": 61280 },
 			"valid": 61100,
 			"spoiled": 180,
 			"majority": 19795

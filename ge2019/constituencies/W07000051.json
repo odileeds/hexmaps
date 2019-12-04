@@ -2,7 +2,8 @@
 	"id": "W07000051",
 	"title": "Cardiff North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 8175,
 				"name": "Anna McMorrin",
@@ -38,27 +39,24 @@
 				"name": "Richard Jones",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72086-e18c73be-d57a-4e9c-b296-42f083cbe31a.png"
-			}],
-			"incumbent": {
-				"mp": "Anna McMorrin",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Anna McMorrin",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25647/anna_mcmorrin/cardiff_north",
 			"electorate": 67221,
-			"turnout": 77.4,
+			"turnout": { "pc": 77.5, "value": 52120 },
 			"valid": 52022,
 			"spoiled": 98,
 			"majority": 4174
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Craig Williams",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67196,
-			"turnout": 76.2,
+			"turnout": { "pc":76.2, "value": 51231 },
 			"valid": 51151,
 			"spoiled": 80,
 			"majority": 2137

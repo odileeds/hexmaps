@@ -2,7 +2,8 @@
 	"id": "E14000654",
 	"title": "Croydon Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4316,
 				"name": "Sarah Jones",
@@ -28,27 +29,24 @@
 				"name": "Peter Sonnex",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71961-48c9d112-0488-4c0d-9b20-4f0fa8a24090.png"
-			}],
-			"incumbent": {
-				"mp": "Sarah Jones",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sarah Jones",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25673/sarah_jones/croydon_central",
 			"electorate": 80045,
-			"turnout": 71.3,
+			"turnout": { "pc": 71.5, "value": 57200 },
 			"valid": 57091,
 			"spoiled": 109,
 			"majority": 5652
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gavin Barwell",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78171,
-			"turnout": 67.9,
+			"turnout": { "pc":67.9, "value": 53043 },
 			"valid": 52941,
 			"spoiled": 102,
 			"majority": 165

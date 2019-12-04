@@ -2,7 +2,8 @@
 	"id": "S14000039",
 	"title": "Inverness, Nairn, Badenoch and Strathspey",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4915,
 				"name": "Drew Hendry",
@@ -33,27 +34,24 @@
 				"name": "Fiona Gay Fawcett",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72452-9c345023-d336-4ce1-95c1-7adaec880c2c.png"
-			}],
-			"incumbent": {
-				"mp": "Drew Hendry",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Drew Hendry",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25382/drew_hendry/inverness%2C_nairn%2C_badenoch_and_strathspey",
 			"electorate": 76844,
-			"turnout": 68.7,
+			"turnout": { "pc": 68.8, "value": 52868 },
 			"valid": 52801,
 			"spoiled": 67,
 			"majority": 4924
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Drew Hendry",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 77628,
-			"turnout": 74.3,
+			"turnout": { "pc":74.3, "value": 57667 },
 			"valid": 57613,
 			"spoiled": 54,
 			"majority": 10809

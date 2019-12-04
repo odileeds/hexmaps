@@ -2,7 +2,8 @@
 	"id": "E14000797",
 	"title": "Loughborough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3156,
 				"name": "Jane Hunt",
@@ -27,28 +28,25 @@
 				"id": 72241,
 				"name": "Queenie Tea",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Nicky Morgan",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72241-140d976a-89dd-4354-bc6e-a2d8ca198f0a.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nicky Morgan",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24732/nicky_morgan/loughborough",
 			"electorate": 79607,
-			"turnout": 68.0,
+			"turnout": { "pc": 68.2, "value": 54258 },
 			"valid": 54148,
 			"spoiled": 110,
 			"majority": 4269
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nicky Morgan",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75217,
-			"turnout": 69.4,
+			"turnout": { "pc":69.4, "value": 52230 },
 			"valid": 52020,
 			"spoiled": 210,
 			"majority": 9183

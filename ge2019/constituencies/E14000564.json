@@ -2,7 +2,8 @@
 	"id": "E14000564",
 	"title": "Birmingham, Ladywood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 216,
 				"name": "Shabana Mahmood",
@@ -14,41 +15,38 @@
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4821.png"
 			},{
+				"id": 6127,
+				"name": "Andrew Garcarz",
+				"party": { "code": "Brexit", "title": "The Brexit Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6127-c97ea0e2-7abb-4d2b-be32-1092365f8ed1.png"
+			},{
 				"id": 41335,
 				"name": "Alexander Nettle",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/41335.png"
 			},{
-				"id": 72543,
-				"name": "Andrew Garcarz",
-				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			},{
 				"id": 72549,
 				"name": "Mary Noone",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Shabana Mahmood",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Shabana Mahmood",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24788/shabana_mahmood/birmingham%2C_ladywood",
 			"electorate": 70023,
-			"turnout": 59.0,
+			"turnout": { "pc": 59.2, "value": 41462 },
 			"valid": 41307,
 			"spoiled": 155,
 			"majority": 28714
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Shabana Mahmood",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68128,
-			"turnout": 53.1,
+			"turnout": { "pc":53.1, "value": 36169 },
 			"valid": 35916,
 			"spoiled": 253,
 			"majority": 21868

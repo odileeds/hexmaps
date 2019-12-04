@@ -2,7 +2,8 @@
 	"id": "E14000955",
 	"title": "Southampton, Itchen",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3462,
 				"name": "Royston Smith",
@@ -12,7 +13,7 @@
 				"id": 5890,
 				"name": "Kim Rose",
 				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5890-0121159a-cf4e-4b99-b22c-5e7dc8c57abf.png"
 			},{
 				"id": 34286,
 				"name": "Simon Letts",
@@ -28,27 +29,24 @@
 				"name": "Osman Sen-Chadun",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72425-f8579ebc-a717-4ba6-923a-575711e684e5.png"
-			}],
-			"incumbent": {
-				"mp": "Royston Smith",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Royston Smith",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25345/royston_smith/southampton%2C_itchen",
 			"electorate": 71722,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.4, "value": 46875 },
 			"valid": 46783,
 			"spoiled": 92,
 			"majority": 31
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Royston Smith",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72281,
-			"turnout": 62.0,
+			"turnout": { "pc":62.0, "value": 44825 },
 			"valid": 44710,
 			"spoiled": 115,
 			"majority": 2316

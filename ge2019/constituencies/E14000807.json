@@ -2,7 +2,8 @@
 	"id": "E14000807",
 	"title": "Manchester Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1570,
 				"name": "Lucy Powell",
@@ -32,28 +33,25 @@
 				"id": 72576,
 				"name": "Dennis Leech",
 				"party": { "code": "", "title": "Socialist Equality Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Lucy Powell",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72576-164c2f6f-a575-460d-96bc-394491ddb672.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lucy Powell",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25165/lucy_powell/manchester_central",
 			"electorate": 90261,
-			"turnout": 55.1,
+			"turnout": { "pc": 55.3, "value": 49870 },
 			"valid": 49720,
 			"spoiled": 150,
 			"majority": 31445
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lucy Powell",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 86078,
-			"turnout": 52.9,
+			"turnout": { "pc":52.9, "value": 45560 },
 			"valid": 45331,
 			"spoiled": 229,
 			"majority": 21639

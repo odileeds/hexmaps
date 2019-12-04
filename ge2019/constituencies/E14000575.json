@@ -2,7 +2,8 @@
 	"id": "E14000575",
 	"title": "Blyth Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5693,
 				"name": "Dawn Furness",
@@ -22,33 +23,30 @@
 				"id": 72219,
 				"name": "Mark Peart",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72219-428ef330-25e2-48cc-87c1-600758403045.png"
 			},{
 				"id": 72225,
 				"name": "Thom Chapman",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72225-c0273ce2-b977-455a-8664-ba6626b6fb1b.png"
-			}],
-			"incumbent": {
-				"mp": "Ronnie Campbell",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ronnie Campbell",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10089/ronnie_campbell/blyth_valley",
 			"electorate": 63415,
-			"turnout": 67.0,
+			"turnout": { "pc": 67.1, "value": 42560 },
 			"valid": 42490,
 			"spoiled": 70,
 			"majority": 7915
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ronnie Campbell",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 61247,
-			"turnout": 62.9,
+			"turnout": { "pc":62.9, "value": 38502 },
 			"valid": 38461,
 			"spoiled": 41,
 			"majority": 9229

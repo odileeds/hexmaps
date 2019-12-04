@@ -2,8 +2,14 @@
 	"id": "E14001053",
 	"title": "Workington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
+				"id": 2301,
+				"name": "Neil Hughes",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2301-38bb30d7-639f-41db-bdab-dc03a42a2c7f.png"
+			},{
 				"id": 4641,
 				"name": "Jill Perry",
 				"party": { "code": "Green", "title": "Green Party" },
@@ -33,32 +39,24 @@
 				"name": "David Walker",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71382.png"
-			},{
-				"id": 72300,
-				"name": "Neil Hughes",
-				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Sue Hayman",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sue Hayman",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25358/sue_hayman/workington",
 			"electorate": 60265,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.2, "value": 41731 },
 			"valid": 41676,
 			"spoiled": 55,
 			"majority": 3925
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sue Hayman",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 58615,
-			"turnout": 66.0,
+			"turnout": { "pc":66.0, "value": 38695 },
 			"valid": 38463,
 			"spoiled": 232,
 			"majority": 4686

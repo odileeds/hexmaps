@@ -2,7 +2,8 @@
 	"id": "W07000064",
 	"title": "Ceredigion",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 15,
 				"name": "Mark Williams",
@@ -33,27 +34,24 @@
 				"name": "Amanda Jane Jenner",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72295-718f2670-bd95-4624-805c-9a04478651c5.png"
-			}],
-			"incumbent": {
-				"mp": "Ben Lake",
-				"party": { "code": "PC", "title": "Plaid Cymru" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ben Lake",
 			"party": { "code": "PC" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25669/ben_lake/ceredigion",
 			"electorate": 54262,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.4, "value": 39819 },
 			"valid": 39767,
 			"spoiled": 52,
 			"majority": 104
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Williams",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 54242,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 37512 },
 			"valid": 37416,
 			"spoiled": 96,
 			"majority": 3067

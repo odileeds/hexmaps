@@ -2,7 +2,8 @@
 	"id": "E14000895",
 	"title": "Richmond (Yorks)",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5371,
 				"name": "Rishi Sunak",
@@ -22,7 +23,7 @@
 				"id": 72607,
 				"name": "Nick Jardine",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72607-9ef5294f-34e2-4166-9992-426e9a613a3c.png"
 			},{
 				"id": 72608,
 				"name": "Thom Kirkwood",
@@ -33,27 +34,24 @@
 				"name": "Laurence Warwick Waterhouse",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72609-f3f94f16-3ee9-4707-b853-cea7ef744b5a.png"
-			}],
-			"incumbent": {
-				"mp": "Rishi Sunak",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rishi Sunak",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25428/rishi_sunak/richmond_%28yorks%29",
 			"electorate": 80905,
-			"turnout": 70.5,
+			"turnout": { "pc": 70.6, "value": 57148 },
 			"valid": 57013,
 			"spoiled": 135,
 			"majority": 23108
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rishi Sunak",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79062,
-			"turnout": 68.5,
+			"turnout": { "pc":68.5, "value": 54163 },
 			"valid": 53999,
 			"spoiled": 164,
 			"majority": 19550

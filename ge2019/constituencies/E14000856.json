@@ -2,7 +2,8 @@
 	"id": "E14000856",
 	"title": "North West Durham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2338,
 				"name": "Watts Stelling",
@@ -38,27 +39,24 @@
 				"name": "John Wolstenholme",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72633-4063ce8c-47be-47af-8ed4-279b2aa668dd.png"
-			}],
-			"incumbent": {
-				"mp": "Laura Pidcock",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Laura Pidcock",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Laura  Pidcock",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25640/laura_pidcock/north_west_durham",
 			"electorate": 71918,
-			"turnout": 66.6,
+			"turnout": { "pc": 66.7, "value": 47973 },
 			"valid": 47902,
 			"spoiled": 71,
 			"majority": 8792
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Pat Glass",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69816,
-			"turnout": 61.5,
+			"turnout": { "pc":61.5, "value": 42912 },
 			"valid": 42818,
 			"spoiled": 94,
 			"majority": 10056

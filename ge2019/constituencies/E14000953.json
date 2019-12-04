@@ -2,7 +2,8 @@
 	"id": "E14000953",
 	"title": "South West Surrey",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3155,
 				"name": "Jeremy Hunt",
@@ -17,28 +18,25 @@
 				"id": 67061,
 				"name": "Tim Corry",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jeremy Hunt",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67061-dc5fdc2c-db76-415e-a48b-eefec50f9557.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jeremy Hunt",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11859/jeremy_hunt/south_west_surrey",
 			"electorate": 78042,
-			"turnout": 77.4,
+			"turnout": { "pc": 77.6, "value": 60583 },
 			"valid": 60432,
 			"spoiled": 151,
 			"majority": 21590
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jeremy Hunt",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77548,
-			"turnout": 74.0,
+			"turnout": { "pc":74.0, "value": 57366 },
 			"valid": 57119,
 			"spoiled": 247,
 			"majority": 28556

@@ -2,7 +2,8 @@
 	"id": "E14000822",
 	"title": "Milton Keynes South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2180,
 				"name": "Iain Stewart",
@@ -33,27 +34,24 @@
 				"name": "Amarachi Marilyn Ogba",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Iain Stewart",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Iain Stewart",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24947/iain_stewart/milton_keynes_south",
 			"electorate": 92417,
-			"turnout": 69.8,
+			"turnout": { "pc": 70.0, "value": 64668 },
 			"valid": 64546,
 			"spoiled": 122,
 			"majority": 1665
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Iain Stewart",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 89656,
-			"turnout": 66.0,
+			"turnout": { "pc":66.0, "value": 59164 },
 			"valid": 58949,
 			"spoiled": 215,
 			"majority": 8672

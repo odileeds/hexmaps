@@ -2,7 +2,8 @@
 	"id": "E14001019",
 	"title": "Warwick and Leamington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5567,
 				"name": "Bob Dhillon",
@@ -32,33 +33,30 @@
 				"id": 72139,
 				"name": "Xander Bennett",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72139-4dd05e16-1619-46f3-8619-fc8709f37bd8.png"
 			},{
 				"id": 72140,
 				"name": "Tim Griffiths",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72140-784a21a7-83af-4f3c-8fe8-a049b7447f88.png"
-			}],
-			"incumbent": {
-				"mp": "Matt Western",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Matt Western",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25701/matt_western/warwick_and_leamington",
 			"electorate": 74237,
-			"turnout": 72.8,
+			"turnout": { "pc": 73.0, "value": 54180 },
 			"valid": 54055,
 			"spoiled": 125,
 			"majority": 1206
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris White",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71578,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 50794 },
 			"valid": 50581,
 			"spoiled": 213,
 			"majority": 6606

@@ -2,7 +2,8 @@
 	"id": "E14000668",
 	"title": "Doncaster Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1873,
 				"name": "Rosie Winterton",
@@ -22,7 +23,7 @@
 				"id": 71401,
 				"name": "Frank Sheridan",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71401-284e6eb3-3ab4-427b-89e1-48c33cd573eb.png"
 			},{
 				"id": 71402,
 				"name": "Surjit Singh Duhre",
@@ -32,28 +33,25 @@
 				"id": 71989,
 				"name": "Paul Horton",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Rosie Winterton",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71989-701fa8a0-fc19-4c15-9446-4513af1868cc.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rosie Winterton",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10648/rosie_winterton/doncaster_central",
 			"electorate": 71718,
-			"turnout": 60.0,
+			"turnout": { "pc": 60.2, "value": 43146 },
 			"valid": 43024,
 			"spoiled": 122,
 			"majority": 10131
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rosie Winterton",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71136,
-			"turnout": 57.1,
+			"turnout": { "pc":57.1, "value": 40628 },
 			"valid": 40420,
 			"spoiled": 208,
 			"majority": 10093

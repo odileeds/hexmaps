@@ -2,7 +2,8 @@
 	"id": "E14001021",
 	"title": "Watford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5039,
 				"name": "Dean Russell",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Richard Harrington",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24954/richard_harrington/watford",
 			"electorate": 86507,
-			"turnout": 67.8,
+			"turnout": { "pc": 67.9, "value": 58723 },
 			"valid": 58610,
 			"spoiled": 113,
 			"majority": 2092
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Richard Harrington",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83535,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 56360 },
 			"valid": 56149,
 			"spoiled": 211,
 			"majority": 9794

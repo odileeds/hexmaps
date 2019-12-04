@@ -2,7 +2,8 @@
 	"id": "E14000863",
 	"title": "Norwich North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1684,
 				"name": "Chloe Smith",
@@ -28,27 +29,24 @@
 				"name": "David Moreland",
 				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24098.png"
-			}],
-			"incumbent": {
-				"mp": "Chloe Smith",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chloe Smith",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24691/chloe_smith/norwich_north",
 			"electorate": 66924,
-			"turnout": 68.6,
+			"turnout": { "pc": 68.7, "value": 45977 },
 			"valid": 45895,
 			"spoiled": 82,
 			"majority": 507
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chloe Smith",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64515,
-			"turnout": 67.8,
+			"turnout": { "pc":67.8, "value": 43765 },
 			"valid": 43592,
 			"spoiled": 173,
 			"majority": 4463

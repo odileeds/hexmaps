@@ -2,7 +2,8 @@
 	"id": "E14001047",
 	"title": "Woking",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2546,
 				"name": "Jonathan Lord",
@@ -28,27 +29,24 @@
 				"name": "Ella Walding",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52782.png"
-			}],
-			"incumbent": {
-				"mp": "Jonathan Lord",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jonathan Lord",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24884/jonathan_lord/woking",
 			"electorate": 76170,
-			"turnout": 72.5,
+			"turnout": { "pc": 72.7, "value": 55373 },
 			"valid": 55246,
 			"spoiled": 127,
 			"majority": 16724
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jonathan Lord",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74269,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 52113 },
 			"valid": 51964,
 			"spoiled": 149,
 			"majority": 20810

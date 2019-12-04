@@ -2,7 +2,8 @@
 	"id": "E14000974",
 	"title": "Stoke-on-Trent South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 19836,
 				"name": "Jack Edgar Brereton",
@@ -18,27 +19,24 @@
 				"name": "Rosalyn Jane Gordon",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jack Brereton",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jack Brereton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25698/jack_brereton/stoke-on-trent_south",
 			"electorate": 66057,
-			"turnout": 63.1,
+			"turnout": { "pc": 63.3, "value": 41791 },
 			"valid": 41690,
 			"spoiled": 101,
 			"majority": 663
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Robert Flello",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68091,
-			"turnout": 57.7,
+			"turnout": { "pc":57.7, "value": 39266 },
 			"valid": 39107,
 			"spoiled": 159,
 			"majority": 2539

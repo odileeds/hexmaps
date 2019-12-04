@@ -2,7 +2,8 @@
 	"id": "E14000625",
 	"title": "Charnwood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5798,
 				"name": "Edward Argar",
@@ -23,27 +24,24 @@
 				"name": "Gary Godden",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70292-236e01b0-f3ae-4bef-87f5-b12af4eb4b7a.png"
-			}],
-			"incumbent": {
-				"mp": "Edward Argar",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Edward Argar",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25396/edward_argar/charnwood",
 			"electorate": 78071,
-			"turnout": 70.7,
+			"turnout": { "pc": 70.8, "value": 55291 },
 			"valid": 55176,
 			"spoiled": 115,
 			"majority": 16341
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Edward Argar",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77269,
-			"turnout": 67.9,
+			"turnout": { "pc":67.9, "value": 52438 },
 			"valid": 52261,
 			"spoiled": 177,
 			"majority": 16931

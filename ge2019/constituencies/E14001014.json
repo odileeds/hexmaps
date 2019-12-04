@@ -2,7 +2,8 @@
 	"id": "E14001014",
 	"title": "Wansbeck",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 331,
 				"name": "Stephen Psallidas",
@@ -17,12 +18,12 @@
 				"id": 3057,
 				"name": "Ian Lavery",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3057.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3057-961e1086-f440-4d7a-b982-d040741e335f.png"
 			},{
 				"id": 20004,
 				"name": "Jack Alexander Gebhard",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/20004-6192511b-77fe-4101-9d87-e2cff2d51015.png"
 			},{
 				"id": 34779,
 				"name": "Steve Leyland",
@@ -33,27 +34,24 @@
 				"name": "Eden Webley",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72211-a9d4e390-e1ba-421d-9865-ced773b2f4c7.png"
-			}],
-			"incumbent": {
-				"mp": "Ian Lavery",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ian Lavery",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24963/ian_lavery/wansbeck",
 			"electorate": 62151,
-			"turnout": 68.3,
+			"turnout": { "pc": 68.4, "value": 42511 },
 			"valid": 42454,
 			"spoiled": 57,
 			"majority": 10435
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ian Lavery",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60705,
-			"turnout": 63.6,
+			"turnout": { "pc":63.6, "value": 38596 },
 			"valid": 38528,
 			"spoiled": 68,
 			"majority": 10881

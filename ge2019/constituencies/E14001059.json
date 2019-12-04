@@ -2,7 +2,8 @@
 	"id": "E14001059",
 	"title": "Wythenshawe and Sale East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5544,
 				"name": "Mike Kane",
@@ -33,27 +34,24 @@
 				"name": "Caroline Bellamy",
 				"party": { "code": "", "title": "Communist League Election Campaign" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72215-0e87d1e4-a112-42fa-a04e-6db04efbc46c.png"
-			}],
-			"incumbent": {
-				"mp": "Mike Kane",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Kane",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25220/mike_kane/wythenshawe_and_sale_east",
 			"electorate": 76361,
-			"turnout": 60.0,
+			"turnout": { "pc": 60.1, "value": 45917 },
 			"valid": 45846,
 			"spoiled": 71,
 			"majority": 14944
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mike Kane",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75994,
-			"turnout": 57.2,
+			"turnout": { "pc":57.2, "value": 43431 },
 			"valid": 43263,
 			"spoiled": 168,
 			"majority": 10569

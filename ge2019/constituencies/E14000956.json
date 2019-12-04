@@ -2,7 +2,8 @@
 	"id": "E14000956",
 	"title": "Southampton, Test",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3111,
 				"name": "Alan Whitehead",
@@ -33,27 +34,24 @@
 				"name": "Kev Barry",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Alan Whitehead",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alan Whitehead",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10630/alan_whitehead/southampton%2C_test",
 			"electorate": 70199,
-			"turnout": 66.8,
+			"turnout": { "pc": 67.0, "value": 47022 },
 			"valid": 46903,
 			"spoiled": 119,
 			"majority": 11503
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Whitehead",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70270,
-			"turnout": 62.3,
+			"turnout": { "pc":62.3, "value": 43799 },
 			"valid": 43652,
 			"spoiled": 147,
 			"majority": 3810

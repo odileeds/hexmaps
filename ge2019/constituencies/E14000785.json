@@ -2,7 +2,8 @@
 	"id": "E14000785",
 	"title": "Leigh",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 13928,
 				"name": "Jo Platt",
@@ -15,9 +16,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/15397.png"
 			},{
 				"id": 45973,
-				"name": "Richard Mark Clayton",
+				"name": "Mark Clayton",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45973-6f8207a1-1284-4202-a47f-069ad1177076.png"
 			},{
 				"id": 51054,
 				"name": "Leon Adam Peters",
@@ -33,27 +34,24 @@
 				"name": "James Paul Melly",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72409-4ef7d143-9b97-4efe-91fc-ff5cef45b79e.png"
-			}],
-			"incumbent": {
-				"mp": "Jo Platt",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Jo Platt",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Joanne Platt",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25611/jo_platt/leigh",
 			"electorate": 76202,
-			"turnout": 61.5,
+			"turnout": { "pc": 61.7, "value": 46979 },
 			"valid": 46874,
 			"spoiled": 105,
 			"majority": 9554
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andy Burnham",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75905,
-			"turnout": 59.7,
+			"turnout": { "pc":59.7, "value": 45312 },
 			"valid": 45123,
 			"spoiled": 189,
 			"majority": 14096

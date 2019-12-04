@@ -2,7 +2,8 @@
 	"id": "E14000905",
 	"title": "Rugby",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 202,
 				"name": "Mark Pawsey",
@@ -23,27 +24,24 @@
 				"name": "Rana Das Gupta",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71605-c228352a-17b1-4eb8-94c2-fc958c163ca8.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Pawsey",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Pawsey",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24880/mark_pawsey/rugby",
 			"electorate": 72175,
-			"turnout": 71.1,
+			"turnout": { "pc": 71.3, "value": 51479 },
 			"valid": 51336,
 			"spoiled": 143,
 			"majority": 8212
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Pawsey",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71655,
-			"turnout": 68.5,
+			"turnout": { "pc":68.5, "value": 49099 },
 			"valid": 49006,
 			"spoiled": 93,
 			"majority": 10345

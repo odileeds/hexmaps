@@ -2,7 +2,8 @@
 	"id": "E14000717",
 	"title": "Great Yarmouth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 39,
 				"name": "Margaret McMahon-Morris",
@@ -32,33 +33,30 @@
 				"id": 63554,
 				"name": "Dave Harding",
 				"party": { "code": "", "title": "Veterans and People’s Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63554-c081db2c-c5db-4ece-9177-1dcf456e1bf9.png"
 			},{
 				"id": 72242,
 				"name": "Anne Marie Killett",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72242-6606e28a-a397-4caa-8250-7fa518c55fe5.png"
-			}],
-			"incumbent": {
-				"mp": "Brandon Lewis",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Brandon Lewis",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24879/brandon_lewis/great_yarmouth",
 			"electorate": 71408,
-			"turnout": 61.8,
+			"turnout": { "pc": 62.1, "value": 44349 },
 			"valid": 44146,
 			"spoiled": 203,
 			"majority": 7973
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Brandon Lewis",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69793,
-			"turnout": 63.9,
+			"turnout": { "pc":63.9, "value": 44629 },
 			"valid": 44469,
 			"spoiled": 160,
 			"majority": 6154

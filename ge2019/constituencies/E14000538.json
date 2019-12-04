@@ -2,7 +2,8 @@
 	"id": "E14000538",
 	"title": "Aylesbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4100,
 				"name": "Steven Lambert",
@@ -22,28 +23,25 @@
 				"id": 72029,
 				"name": "Rob Butler",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "David Lidington",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72029-9c934abd-0609-40f8-8b92-0cd461ab0ada.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Lidington",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10361/david_lidington/aylesbury",
 			"electorate": 82546,
-			"turnout": 71.2,
+			"turnout": { "pc": 71.4, "value": 58905 },
 			"valid": 58783,
 			"spoiled": 122,
 			"majority": 14656
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Lidington",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80315,
-			"turnout": 69.3,
+			"turnout": { "pc":69.3, "value": 55654 },
 			"valid": 55419,
 			"spoiled": 235,
 			"majority": 17158

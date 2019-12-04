@@ -2,7 +2,8 @@
 	"id": "E14000761",
 	"title": "Ipswich",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4593,
 				"name": "Adrian Trett",
@@ -28,27 +29,24 @@
 				"name": "Nicola Thomas",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Sandy Martin",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sandy Martin",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25635/sandy_martin/ipswich",
 			"electorate": 75668,
-			"turnout": 67.6,
+			"turnout": { "pc": 67.7, "value": 51237 },
 			"valid": 51137,
 			"spoiled": 100,
 			"majority": 831
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Benedict Gummer",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74499,
-			"turnout": 65.5,
+			"turnout": { "pc":65.5, "value": 48833 },
 			"valid": 48694,
 			"spoiled": 139,
 			"majority": 3733

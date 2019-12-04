@@ -2,7 +2,8 @@
 	"id": "E14001055",
 	"title": "Worthing West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1420,
 				"name": "David Aherne",
@@ -28,27 +29,24 @@
 				"name": "Jo Paul",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/63651.png"
-			}],
-			"incumbent": {
-				"mp": "Peter Bottomley",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Peter Bottomley",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10057/peter_bottomley/worthing_west",
 			"electorate": 77757,
-			"turnout": 70.1,
+			"turnout": { "pc": 70.2, "value": 54614 },
 			"valid": 54503,
 			"spoiled": 111,
 			"majority": 12090
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Peter Bottomley",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75617,
-			"turnout": 67.4,
+			"turnout": { "pc":67.4, "value": 50956 },
 			"valid": 50763,
 			"spoiled": 193,
 			"majority": 16855

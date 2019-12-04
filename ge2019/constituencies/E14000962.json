@@ -2,12 +2,13 @@
 	"id": "E14000962",
 	"title": "St Helens North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2762,
 				"name": "Pat Moloney",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2762-14ef5c7b-fc89-437c-b5bb-3cfb50f0f723.png"
 			},{
 				"id": 6209,
 				"name": "Conor McGinn",
@@ -27,28 +28,25 @@
 				"id": 72138,
 				"name": "Malcolm James Webster",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Conor McGinn",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72138-6bce0866-e6a7-426b-a816-2c130922d4f4.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Conor McGinn",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25423/conor_mcginn/st_helens_north",
 			"electorate": 76088,
-			"turnout": 66.0,
+			"turnout": { "pc": 66.1, "value": 50312 },
 			"valid": 50222,
 			"spoiled": 90,
 			"majority": 18406
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Conor McGinn",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75262,
-			"turnout": 61.7,
+			"turnout": { "pc":61.7, "value": 46448 },
 			"valid": 46256,
 			"spoiled": 192,
 			"majority": 17291

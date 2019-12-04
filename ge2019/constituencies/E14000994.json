@@ -2,7 +2,8 @@
 	"id": "E14000994",
 	"title": "Thornbury and Yate",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4237,
 				"name": "Luke Hall",
@@ -18,27 +19,24 @@
 				"name": "Rob Logan",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71692-b0a80b1e-f832-4524-a04c-32124ae41768.png"
-			}],
-			"incumbent": {
-				"mp": "Luke Hall",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Luke Hall",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25373/luke_hall/thornbury_and_yate",
 			"electorate": 67892,
-			"turnout": 74.7,
+			"turnout": { "pc": 74.8, "value": 50791 },
 			"valid": 50690,
 			"spoiled": 101,
 			"majority": 12071
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Luke Hall",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66066,
-			"turnout": 73.8,
+			"turnout": { "pc":73.8, "value": 48733 },
 			"valid": 48570,
 			"spoiled": 163,
 			"majority": 1495

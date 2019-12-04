@@ -2,7 +2,8 @@
 	"id": "E14000641",
 	"title": "City of Durham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 22817,
 				"name": "Jonathan Elmer",
@@ -20,35 +21,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45398.png"
 			},{
 				"id": 72450,
-				"name": "William Harvey Morgan",
+				"name": "Harvey Morgan",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72450-20ddffa1-bcbf-4f5f-bca5-e4070f267c6f.png"
 			},{
 				"id": 72451,
 				"name": "Lesley Anne Wright",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Roberta Blackman-Woods",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72451-b010f97a-0807-4403-9e58-b1d2ce77a042.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Roberta Blackman-Woods",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11558/roberta_blackman-woods/city_of_durham",
 			"electorate": 71132,
-			"turnout": 67.9,
+			"turnout": { "pc": 68.1, "value": 48410 },
 			"valid": 48324,
 			"spoiled": 86,
 			"majority": 12364
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Roberta Blackman-Woods",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68725,
-			"turnout": 66.6,
+			"turnout": { "pc":66.6, "value": 45785 },
 			"valid": 45669,
 			"spoiled": 116,
 			"majority": 11439

@@ -2,7 +2,8 @@
 	"id": "S14000049",
 	"title": "North East Fife",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5925,
 				"name": "Stephen Gethins",
@@ -23,27 +24,24 @@
 				"name": "Wendy Haynes",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71947-c3b55b7c-16ac-4614-acb7-5d3058256201.png"
-			}],
-			"incumbent": {
-				"mp": "Stephen Gethins",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Gethins",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25324/stephen_gethins/north_east_fife",
 			"electorate": 58685,
-			"turnout": 71.3,
+			"turnout": { "pc": 71.3, "value": 41848 },
 			"valid": 41822,
 			"spoiled": 26,
 			"majority": 2
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Gethins",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 62003,
-			"turnout": 73.1,
+			"turnout": { "pc":73.1, "value": 45310 },
 			"valid": 45263,
 			"spoiled": 47,
 			"majority": 4344

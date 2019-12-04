@@ -2,7 +2,8 @@
 	"id": "E14000671",
 	"title": "Dudley North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 16082,
 				"name": "Ian Flynn",
@@ -22,28 +23,29 @@
 				"id": 71974,
 				"name": "Melanie Dudley",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71974.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71974-a705ebb8-420f-45f0-9950-f32a0d749249.png"
 			}],
 			"incumbent": {
 				"mp": "Ian Austin",
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ian Austin",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11553/ian_austin/dudley_north",
 			"electorate": 62043,
-			"turnout": 62.7,
+			"turnout": { "pc": 62.8, "value": 38982 },
 			"valid": 38910,
 			"spoiled": 72,
 			"majority": 22
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ian Austin",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60717,
-			"turnout": 62.7,
+			"turnout": { "pc":62.7, "value": 38089 },
 			"valid": 37992,
 			"spoiled": 97,
 			"majority": 4181

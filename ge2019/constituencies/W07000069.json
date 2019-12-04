@@ -2,7 +2,8 @@
 	"id": "W07000069",
 	"title": "Neath",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1644,
 				"name": "Jonathan Burns",
@@ -22,17 +23,17 @@
 				"id": 71916,
 				"name": "Megan Lloyd",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71916-81848954-4cf5-4cf2-8e44-93b070012ee5.png"
 			},{
 				"id": 72351,
 				"name": "Simon Jonathan Wilson Briscoe",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72351-a45a8a77-1ab0-4953-9f8c-ad3684f1f73a.png"
 			},{
 				"id": 72352,
 				"name": "Adrian Kingston-Jones",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72352-efaa50c7-881b-4f9d-9d42-3a7ed8996549.png"
 			},{
 				"id": 72353,
 				"name": "Philip Rogers",
@@ -43,27 +44,24 @@
 				"name": "Carl Gerard Williams",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Christina Rees",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Christina Rees",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25332/christina_rees/neath",
 			"electorate": 55862,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.7, "value": 38368 },
 			"valid": 38285,
 			"spoiled": 83,
 			"majority": 12631
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Christina Rees",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 56097,
-			"turnout": 66.4,
+			"turnout": { "pc":66.4, "value": 37249 },
 			"valid": 37135,
 			"spoiled": 114,
 			"majority": 9548

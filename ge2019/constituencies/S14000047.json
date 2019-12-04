@@ -2,7 +2,8 @@
 	"id": "S14000047",
 	"title": "Motherwell and Wishaw",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6052,
 				"name": "Marion Fellows",
@@ -28,27 +29,24 @@
 				"name": "Christopher Wilson",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49153-3f3d066a-2267-4e40-b232-c4dfe9c77ae9.png"
-			}],
-			"incumbent": {
-				"mp": "Marion Fellows",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Marion Fellows",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25277/marion_fellows/motherwell_and_wishaw",
 			"electorate": 68215,
-			"turnout": 61.5,
+			"turnout": { "pc": 61.5, "value": 41984 },
 			"valid": 41926,
 			"spoiled": 58,
 			"majority": 318
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Marion Fellows",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 70283,
-			"turnout": 68.7,
+			"turnout": { "pc":68.7, "value": 48279 },
 			"valid": 48237,
 			"spoiled": 42,
 			"majority": 11898

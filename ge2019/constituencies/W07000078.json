@@ -2,7 +2,8 @@
 	"id": "W07000078",
 	"title": "Vale of Glamorgan",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1923,
 				"name": "Alun Cairns",
@@ -23,27 +24,24 @@
 				"name": "Belinda Loveluck-Edwards",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71707.png"
-			}],
-			"incumbent": {
-				"mp": "Alun Cairns",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alun Cairns",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24740/alun_cairns/vale_of_glamorgan",
 			"electorate": 73959,
-			"turnout": 72.6,
+			"turnout": { "pc": 72.7, "value": 53781 },
 			"valid": 53718,
 			"spoiled": 63,
 			"majority": 2190
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alun Cairns",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72794,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 51379 },
 			"valid": 51293,
 			"spoiled": 86,
 			"majority": 6880

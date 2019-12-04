@@ -2,7 +2,8 @@
 	"id": "E14000642",
 	"title": "Clacton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 268,
 				"name": "Chris Southall",
@@ -38,27 +39,24 @@
 				"name": "Just-John Sexton",
 				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Giles Watling",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Giles Watling",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25644/giles_watling/clacton",
 			"electorate": 69263,
-			"turnout": 63.7,
+			"turnout": { "pc": 63.8, "value": 44218 },
 			"valid": 44145,
 			"spoiled": 73,
 			"majority": 15828
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Douglas Carswell",
 			"party": { "code": "UKIP", "title": "UK Independence Party" },
 			"electorate": 68936,
-			"turnout": 64.4,
+			"turnout": { "pc":64.4, "value": 44375 },
 			"valid": 44207,
 			"spoiled": 168,
 			"majority": 3437

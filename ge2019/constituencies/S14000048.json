@@ -2,7 +2,8 @@
 	"id": "S14000048",
 	"title": "North Ayrshire and Arran",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2706,
 				"name": "Patricia Gibson",
@@ -28,27 +29,24 @@
 				"name": "David John Nairn",
 				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72592-a051029a-57a0-4cce-866f-703ccd5840c4.png"
-			}],
-			"incumbent": {
-				"mp": "Patricia Gibson",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Patricia Gibson",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25300/patricia_gibson/north_ayrshire_and_arran",
 			"electorate": 73176,
-			"turnout": 64.8,
+			"turnout": { "pc": 64.9, "value": 47515 },
 			"valid": 47433,
 			"spoiled": 82,
 			"majority": 3633
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Patricia Gibson",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 75791,
-			"turnout": 71.2,
+			"turnout": { "pc":71.2, "value": 53955 },
 			"valid": 53869,
 			"spoiled": 86,
 			"majority": 13573

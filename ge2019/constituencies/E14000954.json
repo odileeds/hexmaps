@@ -2,7 +2,8 @@
 	"id": "E14000954",
 	"title": "South West Wiltshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1022,
 				"name": "Andrew Murrison",
@@ -22,28 +23,25 @@
 				"id": 72293,
 				"name": "Julie Elizabeth Phillips",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Andrew Murrison",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72293-7e969dc4-1af8-4ca3-8f23-973ae67e4833.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Murrison",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11132/andrew_murrison/south_west_wiltshire",
 			"electorate": 76898,
-			"turnout": 71.2,
+			"turnout": { "pc": 71.4, "value": 54897 },
 			"valid": 54751,
 			"spoiled": 146,
 			"majority": 18326
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Murrison",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73018,
-			"turnout": 70.9,
+			"turnout": { "pc":70.9, "value": 51751 },
 			"valid": 51643,
 			"spoiled": 108,
 			"majority": 18168

@@ -2,7 +2,8 @@
 	"id": "S14000051",
 	"title": "Orkney and Shetland",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1331,
 				"name": "Alistair Carmichael",
@@ -32,28 +33,25 @@
 				"id": 72108,
 				"name": "David Barnard",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72108-dada7032-2c2b-4e00-ba4c-22abf5a4946c.png"
-			}],
-			"incumbent": {
-				"mp": "Alistair Carmichael",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72108-5d0cd216-232c-41dc-8ec0-a212b9d9ed92.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alistair Carmichael",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10785/alistair_carmichael/orkney_and_shetland",
 			"electorate": 34164,
-			"turnout": 68.1,
+			"turnout": { "pc": 68.3, "value": 23320 },
 			"valid": 23277,
 			"spoiled": 43,
 			"majority": 4563
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alistair Carmichael",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 34552,
-			"turnout": 66.0,
+			"turnout": { "pc":66.0, "value": 22803 },
 			"valid": 22728,
 			"spoiled": 75,
 			"majority": 817

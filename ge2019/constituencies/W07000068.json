@@ -2,7 +2,8 @@
 	"id": "W07000068",
 	"title": "Brecon and Radnorshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4515,
 				"name": "Jane Dodds",
@@ -28,27 +29,33 @@
 				"name": "Tom Davies",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70652.png"
-			}],
-			"incumbent": {
-				"mp": "Jane Dodds",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2019-08-01": {
+			"type": "by",
 			"mp": "Jane Dodds",
-			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25774/jane_dodds/brecon_and_radnorshire",
-			"electorate": 56010,
-			"turnout": 59.7,
+			"party": { "code": "LD", "title": "Liberal Democrat" },
+			"turnout": { "pc": 59.6, "value": 31887 },
 			"valid": 31814,
-			"spoiled": 63,
+			"spoiled": 73,
 			"majority": 1425
 		},
-		"2015": {
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Chris Davies",
+			"party": { "code": "Con" },
+			"electorate": 56010,
+			"turnout": { "pc": 73.9, "value": 41397 },
+			"valid": 41334,
+			"spoiled": 63,
+			"majority": 8038
+		},
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Davies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 54441,
-			"turnout": 73.7,
+			"turnout": { "pc":73.7, "value": 40145 },
 			"valid": 40074,
 			"spoiled": 71,
 			"majority": 5102

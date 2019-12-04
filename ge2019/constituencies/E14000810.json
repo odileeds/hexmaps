@@ -2,7 +2,8 @@
 	"id": "E14000810",
 	"title": "Mansfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6351,
 				"name": "Sid Pepper",
@@ -28,27 +29,24 @@
 				"name": "Stephen Leonard Harvey",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64078-aa82075b-c29c-4227-9ee0-57f41ab88110.png"
-			}],
-			"incumbent": {
-				"mp": "Ben Bradley",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ben Bradley",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25683/ben_bradley/mansfield",
 			"electorate": 77811,
-			"turnout": 64.5,
+			"turnout": { "pc": 64.6, "value": 50256 },
 			"valid": 50157,
 			"spoiled": 99,
 			"majority": 1057
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Meale",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77534,
-			"turnout": 61.0,
+			"turnout": { "pc":61.0, "value": 47329 },
 			"valid": 47193,
 			"spoiled": 136,
 			"majority": 5315

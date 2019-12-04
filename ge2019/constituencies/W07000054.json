@@ -2,7 +2,8 @@
 	"id": "W07000054",
 	"title": "Monmouth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3827,
 				"name": "David Davies",
@@ -33,27 +34,24 @@
 				"name": "Martyn Ford",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "David Davies",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Davies",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11719/david_davies/monmouth",
 			"electorate": 64909,
-			"turnout": 76.6,
+			"turnout": { "pc": 76.7, "value": 49798 },
 			"valid": 49734,
 			"spoiled": 64,
 			"majority": 8206
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Davies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 62248,
-			"turnout": 76.4,
+			"turnout": { "pc":76.4, "value": 47566 },
 			"valid": 47462,
 			"spoiled": 104,
 			"majority": 10982

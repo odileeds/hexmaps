@@ -2,7 +2,8 @@
 	"id": "E14000553",
 	"title": "Bermondsey and Old Southwark",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4264,
 				"name": "Neil Coyle",
@@ -12,7 +13,7 @@
 				"id": 36131,
 				"name": "Humaira Ali",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36131.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36131-5fbed9c8-24db-4472-a1a5-0da7f54427f3.png"
 			},{
 				"id": 48437,
 				"name": "Andrew George Scott Baker",
@@ -23,27 +24,24 @@
 				"name": "Alex Paul Matheou Matthews",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72461-7f402cf0-2e64-4077-afd0-74a8ee1d9589.png"
-			}],
-			"incumbent": {
-				"mp": "Neil Coyle",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Neil Coyle",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25326/neil_coyle/bermondsey_and_old_southwark",
 			"electorate": 87282,
-			"turnout": 67.0,
+			"turnout": { "pc": 67.2, "value": 58669 },
 			"valid": 58521,
 			"spoiled": 148,
 			"majority": 12972
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Neil Coyle",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 83298,
-			"turnout": 62.0,
+			"turnout": { "pc":62.0, "value": 51630 },
 			"valid": 51424,
 			"spoiled": 206,
 			"majority": 4489

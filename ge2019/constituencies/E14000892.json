@@ -2,7 +2,8 @@
 	"id": "E14000892",
 	"title": "Redditch",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4161,
 				"name": "Rachel Maclean",
@@ -23,27 +24,24 @@
 				"name": "Bruce Horton",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71941-f3457f94-58b3-461e-af5a-19b50dd83f09.png"
-			}],
-			"incumbent": {
-				"mp": "Rachel Maclean",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rachel Maclean",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25692/rachel_maclean/redditch",
 			"electorate": 64413,
-			"turnout": 70.2,
+			"turnout": { "pc": 70.3, "value": 45298 },
 			"valid": 45203,
 			"spoiled": 95,
 			"majority": 7363
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Karen Lumley",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65531,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 44222 },
 			"valid": 44098,
 			"spoiled": 124,
 			"majority": 7054

@@ -2,7 +2,8 @@
 	"id": "E14000685",
 	"title": "Eastleigh",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4209,
 				"name": "Paul Holmes",
@@ -23,27 +24,24 @@
 				"name": "Sam Jordon",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71957.png"
-			}],
-			"incumbent": {
-				"mp": "Mims Davies",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mims Davies",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25330/mims_davies/eastleigh",
 			"electorate": 81212,
-			"turnout": 70.5,
+			"turnout": { "pc": 70.7, "value": 57416 },
 			"valid": 57280,
 			"spoiled": 136,
 			"majority": 14179
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mims Davies",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79609,
-			"turnout": 69.9,
+			"turnout": { "pc":69.9, "value": 55663 },
 			"valid": 55505,
 			"spoiled": 158,
 			"majority": 9147

@@ -2,7 +2,8 @@
 	"id": "E14000710",
 	"title": "Gedling",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1272,
 				"name": "Vernon Coaker",
@@ -28,27 +29,24 @@
 				"name": "Tom Randall",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71450.png"
-			}],
-			"incumbent": {
-				"mp": "Vernon Coaker",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Vernon Coaker",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10121/vernon_coaker/gedling",
 			"electorate": 71223,
-			"turnout": 72.6,
+			"turnout": { "pc": 72.7, "value": 51765 },
 			"valid": 51682,
 			"spoiled": 83,
 			"majority": 4694
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Vernon Coaker",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70000,
-			"turnout": 68.8,
+			"turnout": { "pc":68.8, "value": 48143 },
 			"valid": 47998,
 			"spoiled": 145,
 			"majority": 2986

@@ -2,7 +2,8 @@
 	"id": "S14000036",
 	"title": "Glenrothes",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6049,
 				"name": "Peter Grant",
@@ -28,27 +29,24 @@
 				"name": "Victor Robert Farrell",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72254-a2d4479f-c4ed-4587-b4d2-a5a31e51d864.png"
-			}],
-			"incumbent": {
-				"mp": "Peter Grant",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Peter Grant",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25273/peter_grant/glenrothes",
 			"electorate": 66378,
-			"turnout": 60.9,
+			"turnout": { "pc": 60.9, "value": 40440 },
 			"valid": 40399,
 			"spoiled": 41,
 			"majority": 3267
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Peter Grant",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 69781,
-			"turnout": 68.3,
+			"turnout": { "pc":68.3, "value": 47651 },
 			"valid": 47598,
 			"spoiled": 53,
 			"majority": 13897

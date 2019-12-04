@@ -2,7 +2,8 @@
 	"id": "E14000938",
 	"title": "South East Cornwall",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1021,
 				"name": "Sheryll Murray",
@@ -28,27 +29,24 @@
 				"name": "Jay Latham",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Sheryll Murray",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sheryll Murray",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24875/sheryll_murray/south_east_cornwall",
 			"electorate": 71880,
-			"turnout": 74.0,
+			"turnout": { "pc": 74.2, "value": 53357 },
 			"valid": 53224,
 			"spoiled": 133,
 			"majority": 17443
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sheryll Murray",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71071,
-			"turnout": 71.2,
+			"turnout": { "pc":71.2, "value": 50576 },
 			"valid": 50498,
 			"spoiled": 78,
 			"majority": 16995

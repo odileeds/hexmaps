@@ -2,7 +2,8 @@
 	"id": "E14000573",
 	"title": "Blackpool South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1184,
 				"name": "Gordon Marsden",
@@ -20,40 +21,37 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19718.png"
 			},{
 				"id": 53030,
-				"name": "Gary Ian Coleman",
+				"name": "Gary Coleman",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53030-73524fbb-004d-4e44-b37c-642992afd934.png"
 			},{
 				"id": 61820,
 				"name": "Rebecca Daniels",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61820-05fdc6ef-2672-439b-92b1-f152fc6a4f74.png"
 			},{
 				"id": 71309,
 				"name": "David Brown",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71309-16a1765a-291f-4ae0-b93b-4012b9d79d3a.png"
-			}],
-			"incumbent": {
-				"mp": "Gordon Marsden",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gordon Marsden",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10415/gordon_marsden/blackpool_south",
 			"electorate": 58470,
-			"turnout": 59.8,
+			"turnout": { "pc": 59.9, "value": 34997 },
 			"valid": 34953,
 			"spoiled": 44,
 			"majority": 2523
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gordon Marsden",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 57411,
-			"turnout": 56.8,
+			"turnout": { "pc":56.8, "value": 32628 },
 			"valid": 32436,
 			"spoiled": 192,
 			"majority": 2585

@@ -2,7 +2,8 @@
 	"id": "E14000763",
 	"title": "Islington North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1120,
 				"name": "Jeremy Corbyn",
@@ -10,7 +11,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5520077d4dbf5aa077451a35.png"
 			},{
 				"id": 2323,
-				"name": "The Incredible Flying Brick",
+				"name": "Nick The Incredible Flying Brick",
 				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2323_YdsbOzt.png"
 			},{
@@ -33,27 +34,24 @@
 				"name": "Nick Wakeling",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71497.png"
-			}],
-			"incumbent": {
-				"mp": "Jeremy Corbyn",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jeremy Corbyn",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10133/jeremy_corbyn/islington_north",
 			"electorate": 74831,
-			"turnout": 73.4,
+			"turnout": { "pc": 73.6, "value": 55050 },
 			"valid": 54928,
 			"spoiled": 122,
 			"majority": 33215
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jeremy Corbyn",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73326,
-			"turnout": 67.4,
+			"turnout": { "pc":67.4, "value": 49432 },
 			"valid": 49234,
 			"spoiled": 198,
 			"majority": 21194

@@ -2,7 +2,8 @@
 	"id": "E14000594",
 	"title": "Brentwood and Ongar",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2414,
 				"name": "David Kendall",
@@ -28,27 +29,24 @@
 				"name": "Oliver Durose",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71890.png"
-			}],
-			"incumbent": {
-				"mp": "Alex Burghart",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alex Burghart",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25659/alex_burghart/brentwood_and_ongar",
 			"electorate": 75067,
-			"turnout": 70.5,
+			"turnout": { "pc": 70.6, "value": 53017 },
 			"valid": 52910,
 			"spoiled": 107,
 			"majority": 24002
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Eric Pickles",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71918,
-			"turnout": 72.4,
+			"turnout": { "pc":72.4, "value": 52048 },
 			"valid": 51897,
 			"spoiled": 151,
 			"majority": 21810

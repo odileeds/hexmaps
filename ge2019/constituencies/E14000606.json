@@ -2,7 +2,8 @@
 	"id": "E14000606",
 	"title": "Broxbourne",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3600,
 				"name": "Charles Walker",
@@ -10,7 +11,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5522580f328bff5d39338a5a.png"
 			},{
 				"id": 27134,
-				"name": "Nicholas Cox",
+				"name": "Nicholas John Cox",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/27134-2d98827a-ead8-49a4-8037-53769cf66b89.png"
 			},{
@@ -23,27 +24,24 @@
 				"name": "Julia Bird",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71336.png"
-			}],
-			"incumbent": {
-				"mp": "Charles Walker",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Charles Walker",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11461/charles_walker/broxbourne",
 			"electorate": 73502,
-			"turnout": 64.6,
+			"turnout": { "pc": 64.7, "value": 47587 },
 			"valid": 47485,
 			"spoiled": 102,
 			"majority": 15792
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Charles Walker",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72944,
-			"turnout": 63.3,
+			"turnout": { "pc":63.3, "value": 46149 },
 			"valid": 46024,
 			"spoiled": 125,
 			"majority": 16723

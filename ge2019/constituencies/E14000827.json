@@ -2,7 +2,8 @@
 	"id": "E14000827",
 	"title": "New Forest East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2872,
 				"name": "Julian Lewis",
@@ -22,33 +23,30 @@
 				"id": 71549,
 				"name": "Bob Johnston",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71549-73295dbb-71d8-42dd-be9d-104bf8fe8d54.png"
 			},{
 				"id": 72257,
 				"name": "Julie Hope",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Julian Lewis",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Julian Lewis",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10358/julian_lewis/new_forest_east",
 			"electorate": 72602,
-			"turnout": 70.8,
+			"turnout": { "pc": 70.9, "value": 51493 },
 			"valid": 51366,
 			"spoiled": 127,
 			"majority": 21995
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Julian Lewis",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72697,
-			"turnout": 68.3,
+			"turnout": { "pc":68.3, "value": 49631 },
 			"valid": 49447,
 			"spoiled": 184,
 			"majority": 19162

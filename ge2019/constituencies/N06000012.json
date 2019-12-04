@@ -2,10 +2,11 @@
 	"id": "N06000012",
 	"title": "North Antrim",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2135,
-				"name": "Ian Paisley Jnr",
+				"name": "Ian Paisley Jr",
 				"party": { "code": "DUP", "title": "Democratic Unionist Party - D.U.P." },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553572bb367dc5383f552cd2.png"
 			},{
@@ -33,27 +34,24 @@
 				"name": "Cara McShane",
 				"party": { "code": "SF", "title": "Sinn Féin" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34536.png"
-			}],
-			"incumbent": {
-				"mp": "Ian Paisley Jnr",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ian Paisley",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/13852/ian_paisley_jnr/north_antrim",
 			"electorate": 75657,
-			"turnout": 64.1,
+			"turnout": { "pc": 64.2, "value": 48572 },
 			"valid": 48460,
 			"spoiled": 112,
 			"majority": 20643
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ian Paisley",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 75876,
-			"turnout": 55.5,
+			"turnout": { "pc":55.5, "value": 42116 },
 			"valid": 41907,
 			"spoiled": 209,
 			"majority": 11546

@@ -2,7 +2,8 @@
 	"id": "E14001028",
 	"title": "Wentworth and Dearne",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3361,
 				"name": "John Healey",
@@ -32,28 +33,25 @@
 				"id": 72462,
 				"name": "Stephen Paul Cavell",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "John Healey",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72462-39853e68-ff92-439d-84d8-25e6298da3a8.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Healey",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10268/john_healey/wentworth_and_dearne",
 			"electorate": 74890,
-			"turnout": 58.7,
+			"turnout": { "pc": 59.1, "value": 44227 },
 			"valid": 43947,
 			"spoiled": 280,
 			"majority": 14803
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Healey",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74283,
-			"turnout": 58.4,
+			"turnout": { "pc":58.4, "value": 43347 },
 			"valid": 43189,
 			"spoiled": 158,
 			"majority": 13838

@@ -2,7 +2,8 @@
 	"id": "S14000059",
 	"title": "West Dunbartonshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6056,
 				"name": "Martin Docherty",
@@ -33,27 +34,24 @@
 				"name": "Peter Connolly",
 				"party": { "code": "Green", "title": "Scottish Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72502-8f01602b-31bf-4b6a-8fc0-fe780e88d92e.png"
-			}],
-			"incumbent": {
-				"mp": "Martin Docherty",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Martin Docherty-Hughes",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25275/martin_docherty/west_dunbartonshire",
 			"electorate": 67602,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.3, "value": 44169 },
 			"valid": 44083,
 			"spoiled": 86,
 			"majority": 2288
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Martin Docherty",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 69208,
-			"turnout": 74.0,
+			"turnout": { "pc":74.0, "value": 51202 },
 			"valid": 51141,
 			"spoiled": 61,
 			"majority": 14171

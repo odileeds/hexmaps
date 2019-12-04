@@ -2,7 +2,8 @@
 	"id": "E14000788",
 	"title": "Lewisham West and Penge",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1881,
 				"name": "Alex Feakes",
@@ -33,27 +34,24 @@
 				"name": "Teixeira Hambro",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71593.png"
-			}],
-			"incumbent": {
-				"mp": "Ellie Reeves",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ellie Reeves",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25681/ellie_reeves/lewisham_west_and_penge",
 			"electorate": 72899,
-			"turnout": 73.0,
+			"turnout": { "pc": 73.2, "value": 53352 },
 			"valid": 53196,
 			"spoiled": 156,
 			"majority": 23162
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jim Dowd",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72290,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 48284 },
 			"valid": 48125,
 			"spoiled": 159,
 			"majority": 12714

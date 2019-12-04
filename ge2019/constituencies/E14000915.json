@@ -2,7 +2,8 @@
 	"id": "E14000915",
 	"title": "Sedgefield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 174,
 				"name": "Phil Wilson",
@@ -33,27 +34,24 @@
 				"name": "John Furness",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Phil Wilson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Phil Wilson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/13933/phil_wilson/sedgefield",
 			"electorate": 63889,
-			"turnout": 65.1,
+			"turnout": { "pc": 65.2, "value": 41653 },
 			"valid": 41591,
 			"spoiled": 62,
 			"majority": 6059
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Phil Wilson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62844,
-			"turnout": 61.8,
+			"turnout": { "pc":61.8, "value": 38812 },
 			"valid": 38716,
 			"spoiled": 96,
 			"majority": 6843

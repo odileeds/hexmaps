@@ -2,7 +2,8 @@
 	"id": "E14000800",
 	"title": "Luton North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 783,
 				"name": "Simon Hall",
@@ -27,7 +28,7 @@
 				"id": 71521,
 				"name": "Serena Laidley",
 				"party": { "code": "", "title": "Women's Equality Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71521.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71521-a819c949-a790-4ad1-a183-24aaaec5b2e5.png"
 			},{
 				"id": 71892,
 				"name": "Sudhir Sharma",
@@ -44,21 +45,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kelvin Hopkins",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10288/kelvin_hopkins/luton_north",
 			"electorate": 66811,
-			"turnout": 69.8,
+			"turnout": { "pc": 70.0, "value": 46742 },
 			"valid": 46622,
 			"spoiled": 120,
 			"majority": 14364
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kelvin Hopkins",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67329,
-			"turnout": 63.7,
+			"turnout": { "pc":63.7, "value": 42862 },
 			"valid": 42571,
 			"spoiled": 291,
 			"majority": 9504

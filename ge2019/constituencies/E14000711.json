@@ -2,7 +2,8 @@
 	"id": "E14000711",
 	"title": "Gillingham and Rainham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1337,
 				"name": "Alan Bullion",
@@ -38,27 +39,24 @@
 				"name": "Peter Cook",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72527-16a26ef3-8f66-4832-8eb8-60500ce669db.png"
-			}],
-			"incumbent": {
-				"mp": "Rehman Chishti",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rehman Chishti",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24920/rehman_chishti/gillingham_and_rainham",
 			"electorate": 72903,
-			"turnout": 67.0,
+			"turnout": { "pc": 67.2, "value": 48958 },
 			"valid": 48868,
 			"spoiled": 90,
 			"majority": 9430
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rehman Chishti",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70984,
-			"turnout": 66.6,
+			"turnout": { "pc":66.6, "value": 47272 },
 			"valid": 47078,
 			"spoiled": 194,
 			"majority": 10530

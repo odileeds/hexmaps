@@ -2,7 +2,8 @@
 	"id": "E14000618",
 	"title": "Cannock Chase",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4172,
 				"name": "Amanda Milling",
@@ -18,27 +19,24 @@
 				"name": "Anne Denise Hobbs",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Amanda Milling",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Amanda Milling",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25350/amanda_milling/cannock_chase",
 			"electorate": 74540,
-			"turnout": 64.2,
+			"turnout": { "pc": 64.3, "value": 47950 },
 			"valid": 47872,
 			"spoiled": 78,
 			"majority": 8391
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Amanda Milling",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74532,
-			"turnout": 63.4,
+			"turnout": { "pc":63.4, "value": 47268 },
 			"valid": 47099,
 			"spoiled": 169,
 			"majority": 4923

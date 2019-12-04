@@ -2,7 +2,8 @@
 	"id": "N06000013",
 	"title": "North Down",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3598,
 				"name": "Stephen Anthony Farry",
@@ -23,27 +24,24 @@
 				"name": "Matthew Robinson",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Sylvia Hermon",
-				"party": { "code": "Ind", "title": "Independent" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sylvia Hermon",
 			"party": { "code": "Ind" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10958/sylvia_hermon/north_down",
 			"electorate": 64334,
-			"turnout": 60.9,
+			"turnout": { "pc": 61.0, "value": 39268 },
 			"valid": 39185,
 			"spoiled": 83,
 			"majority": 1208
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sylvia Hermon",
 			"party": { "code": "Ind", "title": "Independent" },
 			"electorate": 64207,
-			"turnout": 56.1,
+			"turnout": { "pc":56.1, "value": 36044 },
 			"valid": 35947,
 			"spoiled": 97,
 			"majority": 9202

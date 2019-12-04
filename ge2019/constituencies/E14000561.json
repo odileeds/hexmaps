@@ -2,7 +2,8 @@
 	"id": "E14000561",
 	"title": "Birmingham, Erdington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 752,
 				"name": "Ann Holtom",
@@ -20,35 +21,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5525effc413cb4432adffa63.png"
 			},{
 				"id": 9957,
-				"name": "Robert Andrew Grant",
+				"name": "Rob Grant",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9957-3d904607-2f54-462d-81bb-192659c718b1.png"
 			},{
 				"id": 71302,
 				"name": "Wendy Garcarz",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71302.png"
-			}],
-			"incumbent": {
-				"mp": "Jack Dromey",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71302-b8405c0a-88a7-4edf-b421-937d649e94b4.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jack Dromey",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24825/jack_dromey/birmingham%2C_erdington",
 			"electorate": 65067,
-			"turnout": 57.2,
+			"turnout": { "pc": 57.4, "value": 37329 },
 			"valid": 37217,
 			"spoiled": 112,
 			"majority": 7285
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jack Dromey",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65128,
-			"turnout": 53.4,
+			"turnout": { "pc":53.4, "value": 34793 },
 			"valid": 34684,
 			"spoiled": 109,
 			"majority": 5129

@@ -2,7 +2,8 @@
 	"id": "E14000826",
 	"title": "Morley and Outwood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 360,
 				"name": "Craig Dobson",
@@ -17,7 +18,7 @@
 				"id": 17202,
 				"name": "Dan Woodlock",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17202-865f5524-f76c-4a09-ba11-52879c89e367.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/17202-4baf31b1-7b93-4a7c-88a5-2bc831f2ebef.png"
 			},{
 				"id": 18822,
 				"name": "Chris Bell",
@@ -28,27 +29,24 @@
 				"name": "Deanne Ferguson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71546.png"
-			}],
-			"incumbent": {
-				"mp": "Andrea Jenkyns",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrea Jenkyns",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25431/andrea_jenkyns/morley_and_outwood",
 			"electorate": 76495,
-			"turnout": 68.4,
+			"turnout": { "pc": 68.7, "value": 52555 },
 			"valid": 52357,
 			"spoiled": 198,
 			"majority": 2104
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrea Jenkyns",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75820,
-			"turnout": 63.8,
+			"turnout": { "pc":63.8, "value": 48389 },
 			"valid": 48250,
 			"spoiled": 139,
 			"majority": 422

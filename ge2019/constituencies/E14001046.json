@@ -2,7 +2,8 @@
 	"id": "E14001046",
 	"title": "Witney",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34132,
 				"name": "Robert Alexander Courts",
@@ -15,30 +16,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38210.png"
 			},{
 				"id": 71739,
-				"name": "Charlotte Sureyya Sayre Olcay Hoagland",
+				"name": "Charlotte Hoagland",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71739.png"
-			}],
-			"incumbent": {
-				"mp": "Robert Courts",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Robert Courts",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25593/robert_courts/witney",
 			"electorate": 82727,
-			"turnout": 73.6,
+			"turnout": { "pc": 73.8, "value": 61051 },
 			"valid": 60927,
 			"spoiled": 124,
 			"majority": 21241
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Cameron",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79767,
-			"turnout": 73.6,
+			"turnout": { "pc":73.6, "value": 58670 },
 			"valid": 58482,
 			"spoiled": 188,
 			"majority": 25155

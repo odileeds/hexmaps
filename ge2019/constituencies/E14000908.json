@@ -2,7 +2,8 @@
 	"id": "E14000908",
 	"title": "Rushcliffe",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1973,
 				"name": "Matthew Faithfull",
@@ -15,7 +16,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2662.png"
 			},{
 				"id": 24947,
-				"name": "Jason Richard Billin",
+				"name": "Jason Billin",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/24947-059d0ab3-cc07-44b9-b426-755a5d1f2804.png"
 			},{
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kenneth Clarke",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10115/kenneth_clarke/rushcliffe",
 			"electorate": 74738,
-			"turnout": 78.0,
+			"turnout": { "pc": 78.2, "value": 58468 },
 			"valid": 58311,
 			"spoiled": 157,
 			"majority": 8010
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kenneth Clarke",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73278,
-			"turnout": 75.7,
+			"turnout": { "pc":75.7, "value": 55453 },
 			"valid": 55164,
 			"spoiled": 289,
 			"majority": 13829

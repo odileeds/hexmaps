@@ -2,7 +2,8 @@
 	"id": "E14000541",
 	"title": "Barnsley Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1351,
 				"name": "Donald Wood",
@@ -30,35 +31,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50982-3eefd107-e264-4350-8a5b-d863a4d1acf3.png"
 			},{
 				"id": 50984,
-				"name": "Ryan Thomas Williams",
+				"name": "Ryan Williams",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50984.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50984-35a3ba93-a22d-4a81-aac7-b99e42abf9ba.png"
 			},{
 				"id": 52079,
 				"name": "Will Sapwell",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52079.png"
-			}],
-			"incumbent": {
-				"mp": "Dan Jarvis",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Dan Jarvis",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25067/dan_jarvis/barnsley_central",
 			"electorate": 64204,
-			"turnout": 60.9,
+			"turnout": { "pc": 61.0, "value": 39153 },
 			"valid": 39087,
 			"spoiled": 66,
 			"majority": 15546
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Dan Jarvis",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64534,
-			"turnout": 56.8,
+			"turnout": { "pc":56.8, "value": 36670 },
 			"valid": 36560,
 			"spoiled": 110,
 			"majority": 12435

@@ -2,7 +2,8 @@
 	"id": "E14000744",
 	"title": "Hertford and Stortford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4305,
 				"name": "Chris Vince",
@@ -33,27 +34,24 @@
 				"name": "Brian William Percival",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Mark Prisk",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Prisk",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11172/mark_prisk/hertford_and_stortford",
 			"electorate": 82339,
-			"turnout": 72.9,
+			"turnout": { "pc": 73.1, "value": 60222 },
 			"valid": 59992,
 			"spoiled": 230,
 			"majority": 19035
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Prisk",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80610,
-			"turnout": 70.1,
+			"turnout": { "pc":70.1, "value": 56543 },
 			"valid": 56277,
 			"spoiled": 266,
 			"majority": 21509

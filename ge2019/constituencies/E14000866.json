@@ -2,7 +2,8 @@
 	"id": "E14000866",
 	"title": "Nottingham North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 25790,
 				"name": "Stuart Bestwick",
@@ -25,30 +26,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35341-dddbb188-8559-45ed-b89b-ce1fb86159b0.png"
 			},{
 				"id": 71574,
-				"name": "Julian Paul Carter",
+				"name": "Julian Carter",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71574-7fd3d152-458b-473e-973f-9d094e5daf92.png"
-			}],
-			"incumbent": {
-				"mp": "Alex Norris",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alex Norris",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25687/alex_norris/nottingham_north",
 			"electorate": 66886,
-			"turnout": 57.3,
+			"turnout": { "pc": 57.4, "value": 38390 },
 			"valid": 38319,
 			"spoiled": 71,
 			"majority": 11160
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Graham Allen",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65918,
-			"turnout": 53.6,
+			"turnout": { "pc":53.6, "value": 35365 },
 			"valid": 35343,
 			"spoiled": 22,
 			"majority": 11860

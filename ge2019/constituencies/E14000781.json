@@ -2,7 +2,8 @@
 	"id": "E14000781",
 	"title": "Leeds West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 482,
 				"name": "Mike Davies",
@@ -43,27 +44,24 @@
 				"name": "Phillip Mars",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72551-8a3f6601-efbd-4a51-9173-8300337969bc.png"
-			}],
-			"incumbent": {
-				"mp": "Rachel Reeves",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rachel Reeves",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24851/rachel_reeves/leeds_west",
 			"electorate": 67955,
-			"turnout": 62.1,
+			"turnout": { "pc": 62.2, "value": 42301 },
 			"valid": 42229,
 			"spoiled": 72,
 			"majority": 15965
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rachel Reeves",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64950,
-			"turnout": 59.4,
+			"turnout": { "pc":59.4, "value": 38576 },
 			"valid": 38423,
 			"spoiled": 153,
 			"majority": 10727

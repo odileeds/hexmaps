@@ -2,7 +2,8 @@
 	"id": "E14000975",
 	"title": "Stone",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2603,
 				"name": "Bill Cash",
@@ -23,27 +24,24 @@
 				"name": "Tom Adamson",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Bill Cash",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bill Cash",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10095/bill_cash/stone",
 			"electorate": 67824,
-			"turnout": 73.8,
+			"turnout": { "pc": 73.9, "value": 50131 },
 			"valid": 50032,
 			"spoiled": 99,
 			"majority": 17495
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Bill Cash",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67339,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 47169 },
 			"valid": 47031,
 			"spoiled": 138,
 			"majority": 16250

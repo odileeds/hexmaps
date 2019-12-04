@@ -2,7 +2,8 @@
 	"id": "N06000004",
 	"title": "Belfast West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4603,
 				"name": "Paul Maskey",
@@ -32,28 +33,25 @@
 				"id": 69199,
 				"name": "Paul Doherty",
 				"party": { "code": "SDLP", "title": "SDLP (Social Democratic & Labour Party)" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69199.png"
-			}],
-			"incumbent": {
-				"mp": "Paul Maskey",
-				"party": { "code": "SF", "title": "Sinn Féin" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69199-53ffdae0-a98e-4d24-8bfc-f55147d2c5a9.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Maskey",
 			"party": { "code": "SF" },
-			"mysoc": "https://www.theyworkforyou.com/mp/13904/paul_maskey/belfast_west",
 			"electorate": 62423,
-			"turnout": 65.1,
+			"turnout": { "pc": 65.4, "value": 40823 },
 			"valid": 40633,
 			"spoiled": 190,
 			"majority": 21652
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paul Maskey",
 			"party": { "code": "SF", "title": "Sinn Fein" },
 			"electorate": 62697,
-			"turnout": 56.8,
+			"turnout": { "pc":56.8, "value": 35610 },
 			"valid": 35329,
 			"spoiled": 281,
 			"majority": 12365

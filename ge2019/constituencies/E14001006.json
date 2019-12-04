@@ -2,7 +2,8 @@
 	"id": "E14001006",
 	"title": "Tynemouth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2910,
 				"name": "Alan Campbell",
@@ -28,27 +29,24 @@
 				"name": "Ed Punchard",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72244-180a3091-d8e7-4f77-a65b-918a8ab1f52e.png"
-			}],
-			"incumbent": {
-				"mp": "Alan Campbell",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alan Campbell",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10086/alan_campbell/tynemouth",
 			"electorate": 77434,
-			"turnout": 73.4,
+			"turnout": { "pc": 73.6, "value": 56964 },
 			"valid": 56858,
 			"spoiled": 106,
 			"majority": 11666
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Campbell",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 77524,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 53621 },
 			"valid": 53495,
 			"spoiled": 126,
 			"majority": 8240

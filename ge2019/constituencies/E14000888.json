@@ -2,7 +2,8 @@
 	"id": "E14000888",
 	"title": "Rayleigh and Wickford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 449,
 				"name": "Mark Francois",
@@ -12,7 +13,7 @@
 				"id": 9831,
 				"name": "David Flack",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9831-b5be0d3b-5a8c-4018-a59f-d24ca6e60ffb.png"
 			},{
 				"id": 20335,
 				"name": "Ron Tindall",
@@ -23,27 +24,24 @@
 				"name": "Paul Richard Thorogood",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/57720-c08a7e8c-72df-4a8c-ab67-6db9bcb8cf84.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Francois",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Francois",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10901/mark_francois/rayleigh_and_wickford",
 			"electorate": 78556,
-			"turnout": 70.4,
+			"turnout": { "pc": 70.5, "value": 55419 },
 			"valid": 55323,
 			"spoiled": 96,
 			"majority": 23450
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Francois",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77174,
-			"turnout": 69.1,
+			"turnout": { "pc":69.1, "value": 53356 },
 			"valid": 53220,
 			"spoiled": 136,
 			"majority": 17230

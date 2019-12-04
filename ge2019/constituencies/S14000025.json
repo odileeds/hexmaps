@@ -2,7 +2,8 @@
 	"id": "S14000025",
 	"title": "Edinburgh South West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5912,
 				"name": "Joanna Cherry",
@@ -38,27 +39,24 @@
 				"name": "Sophie Cooke",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72567-153c90d6-1e47-4b5d-9992-fd1b83262375.png"
-			}],
-			"incumbent": {
-				"mp": "Joanna Cherry",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Joanna Cherry",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25404/joanna_cherry/edinburgh_south_west",
 			"electorate": 71178,
-			"turnout": 69.4,
+			"turnout": { "pc": 69.5, "value": 49464 },
 			"valid": 49390,
 			"spoiled": 74,
 			"majority": 1097
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Joanna  Cherry",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 72149,
-			"turnout": 71.6,
+			"turnout": { "pc":71.6, "value": 51676 },
 			"valid": 51602,
 			"spoiled": 74,
 			"majority": 8135

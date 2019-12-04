@@ -2,7 +2,8 @@
 	"id": "E14000967",
 	"title": "Stalybridge and Hyde",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1043,
 				"name": "Jonathan Reynolds",
@@ -32,28 +33,25 @@
 				"id": 72386,
 				"name": "Julian Barrie Newton",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jonathan Reynolds",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72386-6cdd01fd-a026-4532-9416-f3af91b474ff.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jonathan Reynolds",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24929/jonathan_reynolds/stalybridge_and_hyde",
 			"electorate": 71409,
-			"turnout": 59.5,
+			"turnout": { "pc": 59.6, "value": 42584 },
 			"valid": 42457,
 			"spoiled": 127,
 			"majority": 8084
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jonathan Reynolds",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 71357,
-			"turnout": 57.8,
+			"turnout": { "pc":57.8, "value": 41235 },
 			"valid": 41034,
 			"spoiled": 201,
 			"majority": 6686

@@ -2,7 +2,8 @@
 	"id": "E14000989",
 	"title": "Telford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4235,
 				"name": "Lucy Allan",
@@ -18,27 +19,24 @@
 				"name": "Shana Roberts",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52822.png"
-			}],
-			"incumbent": {
-				"mp": "Lucy Allan",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lucy Allan",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25337/lucy_allan/telford",
 			"electorate": 68106,
-			"turnout": 65.6,
+			"turnout": { "pc": 65.8, "value": 44832 },
 			"valid": 44686,
 			"spoiled": 146,
 			"majority": 720
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lucy Allan",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66166,
-			"turnout": 61.8,
+			"turnout": { "pc":61.8, "value": 40859 },
 			"valid": 40645,
 			"spoiled": 214,
 			"majority": 730

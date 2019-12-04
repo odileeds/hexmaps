@@ -2,7 +2,8 @@
 	"id": "W07000044",
 	"title": "Wrexham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4253,
 				"name": "Mary Wimbury",
@@ -33,27 +34,24 @@
 				"name": "Ian Jonathan Berkeley-Hurst",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72190-34bd631a-b9fd-4a50-8941-f67064ddd7b2.png"
-			}],
-			"incumbent": {
-				"mp": "Ian Lucas",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ian Lucas",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11057/ian_lucas/wrexham",
 			"electorate": 49881,
-			"turnout": 70.4,
+			"turnout": { "pc": 70.5, "value": 35160 },
 			"valid": 35092,
 			"spoiled": 68,
 			"majority": 1832
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ian Lucas",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 50992,
-			"turnout": 64.3,
+			"turnout": { "pc":64.3, "value": 32774 },
 			"valid": 32719,
 			"spoiled": 55,
 			"majority": 1831

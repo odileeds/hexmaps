@@ -2,7 +2,8 @@
 	"id": "E14000700",
 	"title": "Faversham and Mid Kent",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 23,
 				"name": "Gary Butler",
@@ -28,27 +29,24 @@
 				"name": "Jenny Reeves",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72074.png"
-			}],
-			"incumbent": {
-				"mp": "Helen Whately",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Helen Whately",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25398/helen_whately/faversham_and_mid_kent",
 			"electorate": 72205,
-			"turnout": 68.9,
+			"turnout": { "pc": 69.0, "value": 49826 },
 			"valid": 49749,
 			"spoiled": 77,
 			"majority": 17413
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Helen Whately",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69523,
-			"turnout": 66.0,
+			"turnout": { "pc":66.0, "value": 45907 },
 			"valid": 45803,
 			"spoiled": 104,
 			"majority": 16652

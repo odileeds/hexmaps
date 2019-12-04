@@ -2,12 +2,13 @@
 	"id": "E14000621",
 	"title": "Carshalton and Wallington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3585,
 				"name": "Tom Brake",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3585.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/3585-0bad55f6-2b7d-4864-ba54-4b77062b9ae8.png"
 			},{
 				"id": 6332,
 				"name": "Ashley Dickenson",
@@ -33,27 +34,24 @@
 				"name": "James Woudhuysen",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71353-f180af76-314c-4e36-a45b-892f8f48f0f9.png"
-			}],
-			"incumbent": {
-				"mp": "Tom Brake",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tom Brake",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10063/tom_brake/carshalton_and_wallington",
 			"electorate": 70849,
-			"turnout": 71.6,
+			"turnout": { "pc": 71.8, "value": 50850 },
 			"valid": 50753,
 			"spoiled": 97,
 			"majority": 1369
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tom Brake",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 69981,
-			"turnout": 68.2,
+			"turnout": { "pc":68.2, "value": 47744 },
 			"valid": 47613,
 			"spoiled": 131,
 			"majority": 1510

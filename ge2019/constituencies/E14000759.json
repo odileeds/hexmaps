@@ -2,7 +2,8 @@
 	"id": "E14000759",
 	"title": "Ilford North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4360,
 				"name": "Wes Streeting",
@@ -33,27 +34,24 @@
 				"name": "Donald Omoarebun Akhigbe",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72454-202ccd93-2a7c-4c12-be0e-68887eb2adf9.png"
-			}],
-			"incumbent": {
-				"mp": "Wes Streeting",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Wes Streeting",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25320/wes_streeting/ilford_north",
 			"electorate": 72997,
-			"turnout": 72.5,
+			"turnout": { "pc": 72.7, "value": 53052 },
 			"valid": 52941,
 			"spoiled": 111,
 			"majority": 9639
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Wes Streeting",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 75294,
-			"turnout": 65.1,
+			"turnout": { "pc":65.1, "value": 49037 },
 			"valid": 48932,
 			"spoiled": 105,
 			"majority": 589

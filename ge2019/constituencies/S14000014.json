@@ -2,7 +2,8 @@
 	"id": "S14000014",
 	"title": "Dumfriesshire, Clydesdale and Tweeddale",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1592,
 				"name": "David Mundell",
@@ -23,27 +24,24 @@
 				"name": "Nick Chisholm",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71867.png"
-			}],
-			"incumbent": {
-				"mp": "David Mundell",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Mundell",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11970/david_mundell/dumfriesshire%2C_clydesdale_and_tweeddale",
 			"electorate": 67672,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.4, "value": 49024 },
 			"valid": 48964,
 			"spoiled": 60,
 			"majority": 9441
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Mundell",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68483,
-			"turnout": 76.2,
+			"turnout": { "pc":76.2, "value": 52168 },
 			"valid": 52134,
 			"spoiled": 34,
 			"majority": 798

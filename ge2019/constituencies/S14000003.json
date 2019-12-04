@@ -2,7 +2,8 @@
 	"id": "S14000003",
 	"title": "Airdrie and Shotts",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6031,
 				"name": "Neil Gray",
@@ -27,28 +28,25 @@
 				"id": 71969,
 				"name": "William Crossman",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Neil Gray",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71969-dcb6f464-0ad8-4e11-a384-f357fa8e689a.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Neil Gray",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25293/neil_gray/airdrie_and_shotts",
 			"electorate": 64146,
-			"turnout": 59.2,
+			"turnout": { "pc": 59.3, "value": 38049 },
 			"valid": 38002,
 			"spoiled": 47,
 			"majority": 195
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Neil Gray",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 66792,
-			"turnout": 66.4,
+			"turnout": { "pc":66.4, "value": 44331 },
 			"valid": 44286,
 			"spoiled": 45,
 			"majority": 8779

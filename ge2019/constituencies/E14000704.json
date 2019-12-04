@@ -2,7 +2,8 @@
 	"id": "E14000704",
 	"title": "Folkestone and Hythe",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1958,
 				"name": "Damian Collins",
@@ -42,28 +43,25 @@
 				"id": 72600,
 				"name": "Colin John Menniss",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Damian Collins",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72600-1e934841-47df-4b50-9cd4-9e9234f9a0b5.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Damian Collins",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24744/damian_collins/folkestone_and_hythe",
 			"electorate": 86272,
-			"turnout": 68.2,
+			"turnout": { "pc": 68.4, "value": 58972 },
 			"valid": 58875,
 			"spoiled": 97,
 			"majority": 15411
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Damian Collins",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83651,
-			"turnout": 66.1,
+			"turnout": { "pc":66.1, "value": 55275 },
 			"valid": 55010,
 			"spoiled": 265,
 			"majority": 13797

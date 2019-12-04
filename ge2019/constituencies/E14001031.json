@@ -2,7 +2,8 @@
 	"id": "E14001031",
 	"title": "West Dorset",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 23741,
 				"name": "Kelvin Charles Clayton",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Oliver Letwin",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10355/oliver_letwin/west_dorset",
 			"electorate": 79048,
-			"turnout": 75.4,
+			"turnout": { "pc": 75.6, "value": 59750 },
 			"valid": 59598,
 			"spoiled": 152,
 			"majority": 19091
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Oliver Letwin",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78000,
-			"turnout": 72.6,
+			"turnout": { "pc":72.6, "value": 56643 },
 			"valid": 56458,
 			"spoiled": 185,
 			"majority": 16130

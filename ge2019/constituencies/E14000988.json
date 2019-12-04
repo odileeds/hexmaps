@@ -2,7 +2,8 @@
 	"id": "E14000988",
 	"title": "Taunton Deane",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4234,
 				"name": "Rebecca Pow",
@@ -23,27 +24,24 @@
 				"name": "Gideon Amos",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35085.png"
-			}],
-			"incumbent": {
-				"mp": "Rebecca Pow",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rebecca Pow",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25407/rebecca_pow/taunton_deane",
 			"electorate": 85457,
-			"turnout": 73.8,
+			"turnout": { "pc": 73.9, "value": 63152 },
 			"valid": 63053,
 			"spoiled": 99,
 			"majority": 15887
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rebecca Pow",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83221,
-			"turnout": 69.7,
+			"turnout": { "pc":69.7, "value": 58045 },
 			"valid": 57887,
 			"spoiled": 158,
 			"majority": 15491

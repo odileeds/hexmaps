@@ -2,7 +2,8 @@
 	"id": "E14000719",
 	"title": "Guildford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1018,
 				"name": "Anne Milton",
@@ -27,28 +28,29 @@
 				"id": 67024,
 				"name": "Angela Joy Richardson",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67024.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67024-f7ee758b-e176-4493-91b3-db0ff98afbe4.png"
 			}],
 			"incumbent": {
 				"mp": "Anne Milton",
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Anne Milton",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11603/anne_milton/guildford",
 			"electorate": 75291,
-			"turnout": 73.7,
+			"turnout": { "pc": 73.9, "value": 55656 },
 			"valid": 55509,
 			"spoiled": 147,
 			"majority": 17040
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Anne Milton",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75733,
-			"turnout": 71.5,
+			"turnout": { "pc":71.5, "value": 54174 },
 			"valid": 53986,
 			"spoiled": 188,
 			"majority": 22448

@@ -2,7 +2,8 @@
 	"id": "E14000681",
 	"title": "East Surrey",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 343,
 				"name": "Helena Windsor",
@@ -39,21 +40,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sam Gyimah",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24789/sam_gyimah/east_surrey",
 			"electorate": 82004,
-			"turnout": 72.2,
+			"turnout": { "pc": 72.3, "value": 59324 },
 			"valid": 59203,
 			"spoiled": 121,
 			"majority": 23914
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sam Gyimah",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79654,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 56264 },
 			"valid": 56103,
 			"spoiled": 161,
 			"majority": 22658

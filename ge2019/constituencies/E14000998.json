@@ -2,7 +2,8 @@
 	"id": "E14000998",
 	"title": "Tooting",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34186,
 				"name": "Rosena Allin-Khan",
@@ -27,33 +28,30 @@
 				"id": 72251,
 				"name": "Adam Shakir",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72251-536ee0f1-bb95-473f-bfc3-457c0a47647e.png"
 			},{
 				"id": 72396,
 				"name": "Roz Hubley",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Rosena Allin-Khan",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rosena Allin-Khan",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25579/rosena_allin-khan/tooting",
 			"electorate": 77971,
-			"turnout": 74.6,
+			"turnout": { "pc": 74.8, "value": 58304 },
 			"valid": 58171,
 			"spoiled": 133,
 			"majority": 15458
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sadiq Khan",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76782,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 53741 },
 			"valid": 53529,
 			"spoiled": 212,
 			"majority": 2842

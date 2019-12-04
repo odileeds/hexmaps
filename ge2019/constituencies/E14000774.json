@@ -2,7 +2,8 @@
 	"id": "E14000774",
 	"title": "Kingswood",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3745,
 				"name": "Chris Skidmore",
@@ -28,27 +29,24 @@
 				"name": "Angelika Cowell",
 				"party": { "code": "", "title": "Animal Welfare Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72177-cb534d89-5c08-4091-a925-fcef97c110ae.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Skidmore",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Skidmore",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24713/chris_skidmore/kingswood",
 			"electorate": 69368,
-			"turnout": 70.3,
+			"turnout": { "pc": 70.4, "value": 48857 },
 			"valid": 48741,
 			"spoiled": 116,
 			"majority": 7500
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Skidmore",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68193,
-			"turnout": 70.8,
+			"turnout": { "pc":70.8, "value": 48271 },
 			"valid": 48125,
 			"spoiled": 146,
 			"majority": 9006

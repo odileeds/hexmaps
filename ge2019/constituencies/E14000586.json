@@ -2,7 +2,8 @@
 	"id": "E14000586",
 	"title": "Bracknell",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5098,
 				"name": "Derek Florey",
@@ -34,21 +35,22 @@
 				"party": { "code": "LD", "title": "Liberal Democrat" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Phillip Lee",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24765/phillip_lee/bracknell",
 			"electorate": 79199,
-			"turnout": 70.6,
+			"turnout": { "pc": 70.8, "value": 56038 },
 			"valid": 55892,
 			"spoiled": 146,
 			"majority": 16016
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Phillip Lee",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 81271,
-			"turnout": 65.6,
+			"turnout": { "pc":65.6, "value": 53301 },
 			"valid": 53086,
 			"spoiled": 215,
 			"majority": 20650

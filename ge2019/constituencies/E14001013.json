@@ -2,7 +2,8 @@
 	"id": "E14001013",
 	"title": "Walthamstow",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3774,
 				"name": "Stella Creasy",
@@ -14,6 +15,11 @@
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34567.png"
 			},{
+				"id": 34857,
+				"name": "Shade Adoh",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34857-82e06c71-ffee-4616-823c-bd3fcf04734d.png"
+			},{
 				"id": 71792,
 				"name": "Meera Chadha",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
@@ -24,36 +30,28 @@
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71967.png"
 			},{
-				"id": 72236,
-				"name": "Shade Adoh",
-				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
-			},{
 				"id": 72237,
 				"name": "Deborah Longe",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Stella Creasy",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stella Creasy",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24949/stella_creasy/walthamstow",
 			"electorate": 67957,
-			"turnout": 70.8,
+			"turnout": { "pc": 71.1, "value": 48302 },
 			"valid": 48143,
 			"spoiled": 159,
 			"majority": 32017
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stella Creasy",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 67015,
-			"turnout": 62.6,
+			"turnout": { "pc":62.6, "value": 41977 },
 			"valid": 41796,
 			"spoiled": 181,
 			"majority": 23195

@@ -2,7 +2,8 @@
 	"id": "E14001040",
 	"title": "Wimbledon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2253,
 				"name": "Stephen Hammond",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Hammond",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11927/stephen_hammond/wimbledon",
 			"electorate": 66780,
-			"turnout": 77.2,
+			"turnout": { "pc": 77.3, "value": 51653 },
 			"valid": 51526,
 			"spoiled": 127,
 			"majority": 5622
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Hammond",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65853,
-			"turnout": 73.7,
+			"turnout": { "pc":73.7, "value": 48566 },
 			"valid": 48422,
 			"spoiled": 144,
 			"majority": 12619

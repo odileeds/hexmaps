@@ -2,7 +2,8 @@
 	"id": "E14000969",
 	"title": "Stockport",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 11099,
 				"name": "Helena Julia Mellish",
@@ -22,7 +23,7 @@
 				"id": 64217,
 				"name": "Isy Imarni",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/64217-e5a8de46-b4a1-4753-a2da-2ad7a921bf4e.png"
 			},{
 				"id": 72120,
 				"name": "Lee Thomas Montague-Trenchard",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ann Coffey",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10122/ann_coffey/stockport",
 			"electorate": 64236,
-			"turnout": 64.7,
+			"turnout": { "pc": 64.8, "value": 41641 },
 			"valid": 41544,
 			"spoiled": 97,
 			"majority": 14477
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ann Coffey",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63931,
-			"turnout": 62.2,
+			"turnout": { "pc":62.2, "value": 39784 },
 			"valid": 39649,
 			"spoiled": 135,
 			"majority": 10061

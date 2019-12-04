@@ -2,7 +2,8 @@
 	"id": "E14000874",
 	"title": "Oxford West and Abingdon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2447,
 				"name": "Layla Moran",
@@ -23,27 +24,24 @@
 				"name": "Rosie Sourbut",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72401-9e0b3e4f-3749-4eff-bd11-b86082ed7263.png"
-			}],
-			"incumbent": {
-				"mp": "Layla Moran",
-				"party": { "code": "LD", "title": "Liberal Democrat" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Layla Moran",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25689/layla_moran/oxford_west_and_abingdon",
 			"electorate": 75574,
-			"turnout": 79.4,
+			"turnout": { "pc": 79.6, "value": 60134 },
 			"valid": 60020,
 			"spoiled": 114,
 			"majority": 816
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nicola Blackwood",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76174,
-			"turnout": 75.4,
+			"turnout": { "pc":75.4, "value": 57400 },
 			"valid": 57247,
 			"spoiled": 153,
 			"majority": 9582

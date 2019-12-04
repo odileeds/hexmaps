@@ -2,7 +2,8 @@
 	"id": "E14000811",
 	"title": "Meon Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1730,
 				"name": "Flick Drummond",
@@ -23,27 +24,24 @@
 				"name": "Malcolm Wallace",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72025-208997e5-dc33-4830-8f47-d35b486f4d0f.png"
-			}],
-			"incumbent": {
-				"mp": "George Hollingbery",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "George Hollingbery",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24936/george_hollingbery/meon_valley",
 			"electorate": 74246,
-			"turnout": 73.0,
+			"turnout": { "pc": 73.1, "value": 54307 },
 			"valid": 54192,
 			"spoiled": 115,
 			"majority": 25692
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "George Hollingbery",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72738,
-			"turnout": 71.2,
+			"turnout": { "pc":71.2, "value": 51820 },
 			"valid": 51717,
 			"spoiled": 103,
 			"majority": 23913

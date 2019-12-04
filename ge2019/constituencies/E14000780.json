@@ -2,7 +2,8 @@
 	"id": "E14000780",
 	"title": "Leeds North West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4370,
 				"name": "Alex Sobel",
@@ -28,27 +29,24 @@
 				"name": "Kamran Hussain",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72642-039703a3-6d9a-4ea6-b6fb-66275db1b6a0.png"
-			}],
-			"incumbent": {
-				"mp": "Alex Sobel",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alex Sobel",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25680/alex_sobel/leeds_north_west",
 			"electorate": 68152,
-			"turnout": 67.9,
+			"turnout": { "pc": 68.1, "value": 46384 },
 			"valid": 46287,
 			"spoiled": 97,
 			"majority": 4224
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Greg Mulholland",
 			"party": { "code": "LD", "title": "Liberal Democrat" },
 			"electorate": 61974,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 43516 },
 			"valid": 43357,
 			"spoiled": 159,
 			"majority": 2907

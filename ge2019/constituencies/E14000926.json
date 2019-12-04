@@ -2,7 +2,8 @@
 	"id": "E14000926",
 	"title": "Shrewsbury and Atcham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1073,
 				"name": "Daniel Kawczynski",
@@ -28,27 +29,24 @@
 				"name": "Hannah Locke",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72083-a568bdca-46cc-4dba-acf7-e2139033ed2a.png"
-			}],
-			"incumbent": {
-				"mp": "Daniel Kawczynski",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Daniel Kawczynski",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11817/daniel_kawczynski/shrewsbury_and_atcham",
 			"electorate": 79043,
-			"turnout": 73.6,
+			"turnout": { "pc": 73.8, "value": 58312 },
 			"valid": 58203,
 			"spoiled": 109,
 			"majority": 6627
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Daniel Kawczynski",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76400,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 54215 },
 			"valid": 54102,
 			"spoiled": 113,
 			"majority": 9565

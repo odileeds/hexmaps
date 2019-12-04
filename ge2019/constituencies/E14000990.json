@@ -2,7 +2,8 @@
 	"id": "E14000990",
 	"title": "Tewkesbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1900,
 				"name": "Laurence Robertson",
@@ -23,27 +24,24 @@
 				"name": "Lara Soraya Chaplin",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/67148.png"
-			}],
-			"incumbent": {
-				"mp": "Laurence Robertson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Laurence Robertson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10505/laurence_robertson/tewkesbury",
 			"electorate": 81440,
-			"turnout": 72.5,
+			"turnout": { "pc": 72.7, "value": 59199 },
 			"valid": 59084,
 			"spoiled": 115,
 			"majority": 22574
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Laurence Robertson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78910,
-			"turnout": 70.4,
+			"turnout": { "pc":70.4, "value": 55536 },
 			"valid": 55344,
 			"spoiled": 192,
 			"majority": 21972

@@ -2,7 +2,8 @@
 	"id": "E14000793",
 	"title": "Liverpool, Riverside",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 11,
 				"name": "Tom Crone",
@@ -17,7 +18,7 @@
 				"id": 71862,
 				"name": "Kim Johnson",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71862-ba86bf3d-4424-49cf-a746-95839777270e.png"
 			},{
 				"id": 72595,
 				"name": "David Raymond Leach",
@@ -28,27 +29,24 @@
 				"name": "Sean Paul Malkeson",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Louise Ellman",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Louise Ellman",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10186/louise_ellman/liverpool%2C_riverside",
 			"electorate": 76332,
-			"turnout": 62.9,
+			"turnout": { "pc": 63.1, "value": 48178 },
 			"valid": 48020,
 			"spoiled": 158,
 			"majority": 35947
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Louise Ellman",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 70829,
-			"turnout": 62.8,
+			"turnout": { "pc":62.8, "value": 44512 },
 			"valid": 44263,
 			"spoiled": 249,
 			"majority": 24463

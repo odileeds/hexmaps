@@ -2,7 +2,8 @@
 	"id": "E14000816",
 	"title": "Mid Norfolk",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 938,
 				"name": "Adrian Heald",
@@ -23,27 +24,24 @@
 				"name": "P J O'Gorman",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "George Freeman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "George Freeman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24817/george_freeman/mid_norfolk",
 			"electorate": 80027,
-			"turnout": 69.6,
+			"turnout": { "pc": 69.7, "value": 55764 },
 			"valid": 55668,
 			"spoiled": 96,
 			"majority": 16086
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "George Freeman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77154,
-			"turnout": 68.0,
+			"turnout": { "pc":68.0, "value": 52451 },
 			"valid": 52212,
 			"spoiled": 239,
 			"majority": 17276

@@ -2,7 +2,8 @@
 	"id": "E14000539",
 	"title": "Banbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4907,
 				"name": "Victoria Prentis",
@@ -23,27 +24,24 @@
 				"name": "Tim Bearder",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49227-86f75af6-9b95-4ede-bf5d-77119a0f44b2.png"
-			}],
-			"incumbent": {
-				"mp": "Victoria Prentis",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Victoria Prentis",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25420/victoria_prentis/banbury",
 			"electorate": 83824,
-			"turnout": 73.4,
+			"turnout": { "pc": 73.6, "value": 61677 },
 			"valid": 61562,
 			"spoiled": 115,
 			"majority": 12399
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Victoria Prentis",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 86420,
-			"turnout": 67.3,
+			"turnout": { "pc":67.3, "value": 58191 },
 			"valid": 58008,
 			"spoiled": 183,
 			"majority": 18395

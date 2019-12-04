@@ -2,7 +2,8 @@
 	"id": "W07000074",
 	"title": "Ogmore",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4457,
 				"name": "Chris Elmore",
@@ -33,27 +34,24 @@
 				"name": "Christine Roach",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72560-b0c5bb66-24b2-487c-b1e3-ab6062211ffe.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Elmore",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Elmore",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25490/chris_elmore/ogmore",
 			"electorate": 57125,
-			"turnout": 65.1,
+			"turnout": { "pc": 65.3, "value": 37276 },
 			"valid": 37204,
 			"spoiled": 72,
 			"majority": 13871
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Huw Irranca-Davies",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 55572,
-			"turnout": 63.6,
+			"turnout": { "pc":63.6, "value": 35322 },
 			"valid": 35250,
 			"spoiled": 72,
 			"majority": 13043

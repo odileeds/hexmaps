@@ -2,7 +2,8 @@
 	"id": "E14000870",
 	"title": "Oldham East and Saddleworth",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1862,
 				"name": "Debbie Abrahams",
@@ -37,28 +38,25 @@
 				"id": 72299,
 				"name": "Paul Errock",
 				"party": { "code": "", "title": "Proud of Oldham & Saddleworth" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Debbie Abrahams",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72299-5b379320-e6c5-4ec8-b83d-781fa7ed60bf.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Debbie Abrahams",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25034/debbie_abrahams/oldham_east_and_saddleworth",
 			"electorate": 72184,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.3, "value": 47141 },
 			"valid": 47037,
 			"spoiled": 104,
 			"majority": 8182
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Debbie Abrahams",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71475,
-			"turnout": 62.5,
+			"turnout": { "pc":62.5, "value": 44661 },
 			"valid": 44483,
 			"spoiled": 178,
 			"majority": 6002

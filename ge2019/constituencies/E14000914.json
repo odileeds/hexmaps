@@ -2,7 +2,8 @@
 	"id": "E14000914",
 	"title": "Scunthorpe",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3663,
 				"name": "Nicholas Dakin",
@@ -28,27 +29,24 @@
 				"name": "Jerry Gorman",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71615.png"
-			}],
-			"incumbent": {
-				"mp": "Nicholas Dakin",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nic Dakin",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24798/nicholas_dakin/scunthorpe",
 			"electorate": 61578,
-			"turnout": 65.3,
+			"turnout": { "pc": 65.4, "value": 40274 },
 			"valid": 40202,
 			"spoiled": 72,
 			"majority": 3431
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nic Dakin",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64025,
-			"turnout": 57.9,
+			"turnout": { "pc":57.9, "value": 37074 },
 			"valid": 36941,
 			"spoiled": 133,
 			"majority": 3134

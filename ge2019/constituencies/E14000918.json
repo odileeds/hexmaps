@@ -2,7 +2,8 @@
 	"id": "E14000918",
 	"title": "Sevenoaks",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 47959,
 				"name": "Sean Edward Finch",
@@ -22,38 +23,35 @@
 				"id": 61983,
 				"name": "Gareth James Willis",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61983-bf152a9c-7faa-4655-8053-e92a2910f563.png"
 			},{
 				"id": 72018,
 				"name": "Laura Trott",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72018-b1776581-7715-4b33-a4a4-53067adae810.png"
 			},{
 				"id": 72383,
 				"name": "Seamus McCauley",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72383-1fc31894-5a34-450f-b65c-a0ac8974d440.png"
-			}],
-			"incumbent": {
-				"mp": "Michael Fallon",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michael Fallon",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10194/michael_fallon/sevenoaks",
 			"electorate": 71565,
-			"turnout": 71.6,
+			"turnout": { "pc": 71.8, "value": 51364 },
 			"valid": 51218,
 			"spoiled": 146,
 			"majority": 21917
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Fallon",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71958,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 50355 },
 			"valid": 50124,
 			"spoiled": 231,
 			"majority": 19561

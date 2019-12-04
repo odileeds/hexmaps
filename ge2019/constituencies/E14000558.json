@@ -2,7 +2,8 @@
 	"id": "E14000558",
 	"title": "Bexleyheath and Crayford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 135,
 				"name": "David Evennett",
@@ -28,27 +29,24 @@
 				"name": "David McBride",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71755.png"
-			}],
-			"incumbent": {
-				"mp": "David Evennett",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Evennett",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11408/david_evennett/bexleyheath_and_crayford",
 			"electorate": 65315,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.3, "value": 45281 },
 			"valid": 45189,
 			"spoiled": 92,
 			"majority": 9073
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Evennett",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 64828,
-			"turnout": 67.6,
+			"turnout": { "pc":67.6, "value": 43795 },
 			"valid": 43685,
 			"spoiled": 110,
 			"majority": 9192

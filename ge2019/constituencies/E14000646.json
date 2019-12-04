@@ -2,7 +2,8 @@
 	"id": "E14000646",
 	"title": "Congleton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 551,
 				"name": "Fiona Bruce",
@@ -28,27 +29,24 @@
 				"name": "Rich McCarthy",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71381.png"
-			}],
-			"incumbent": {
-				"mp": "Fiona Bruce",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Fiona Bruce",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24857/fiona_bruce/congleton",
 			"electorate": 76694,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.4, "value": 56329 },
 			"valid": 56231,
 			"spoiled": 98,
 			"majority": 12619
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Fiona Bruce",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72503,
-			"turnout": 70.5,
+			"turnout": { "pc":70.5, "value": 51142 },
 			"valid": 50976,
 			"spoiled": 166,
 			"majority": 16773

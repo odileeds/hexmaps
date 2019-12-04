@@ -2,7 +2,8 @@
 	"id": "E14000930",
 	"title": "Slough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1600,
 				"name": "Delphine Gray-Fisk",
@@ -28,27 +29,24 @@
 				"name": "Kanwal Toor Gill",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71626.png"
-			}],
-			"incumbent": {
-				"mp": "Tanmanjeet Singh Dhesi",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Tanmanjeet Singh Dhesi",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Tan Dhesi",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25695/tanmanjeet_singh_dhesi/slough",
 			"electorate": 83272,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.4, "value": 54463 },
 			"valid": 54295,
 			"spoiled": 168,
 			"majority": 16998
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Fiona Mactaggart",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 86366,
-			"turnout": 56.2,
+			"turnout": { "pc":56.2, "value": 48535 },
 			"valid": 48275,
 			"spoiled": 260,
 			"majority": 7336

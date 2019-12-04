@@ -2,7 +2,8 @@
 	"id": "E14000620",
 	"title": "Carlisle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2625,
 				"name": "John Stevenson",
@@ -23,27 +24,24 @@
 				"name": "Julia Aglionby",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71351-5b2501a7-2fc7-4171-aea3-4fa12ad4ef1d.png"
-			}],
-			"incumbent": {
-				"mp": "John Stevenson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Stevenson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24799/john_stevenson/carlisle",
 			"electorate": 62294,
-			"turnout": 69.1,
+			"turnout": { "pc": 69.3, "value": 43144 },
 			"valid": 43056,
 			"spoiled": 88,
 			"majority": 2599
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Stevenson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65827,
-			"turnout": 64.8,
+			"turnout": { "pc":64.8, "value": 42680 },
 			"valid": 42587,
 			"spoiled": 93,
 			"majority": 2774

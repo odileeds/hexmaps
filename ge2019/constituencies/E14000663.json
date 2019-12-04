@@ -2,7 +2,8 @@
 	"id": "E14000663",
 	"title": "Derby South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3123,
 				"name": "Joe Naitta",
@@ -23,27 +24,24 @@
 				"name": "Timothy Prosser",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72513-259b2f36-0d5a-454a-b7cf-249d486aeba7.png"
-			}],
-			"incumbent": {
-				"mp": "Margaret Beckett",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Margaret Beckett",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10031/margaret_beckett/derby_south",
 			"electorate": 69918,
-			"turnout": 64.8,
+			"turnout": { "pc": 64.9, "value": 45411 },
 			"valid": 45306,
 			"spoiled": 105,
 			"majority": 11248
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Margaret Beckett",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70240,
-			"turnout": 58.4,
+			"turnout": { "pc":58.4, "value": 40986 },
 			"valid": 40820,
 			"spoiled": 166,
 			"majority": 8828

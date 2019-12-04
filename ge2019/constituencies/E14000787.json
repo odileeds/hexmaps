@@ -2,7 +2,8 @@
 	"id": "E14000787",
 	"title": "Lewisham East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7412,
 				"name": "Maureen Martin",
@@ -48,27 +49,33 @@
 				"name": "Wesley Derek Bruce Pollard",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Janet Daby",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Janet Daby",
-			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25727/janet_daby/lewisham_east",
-			"electorate": 68124,
-			"turnout": 33.3,
-			"valid": 22056,
-			"spoiled": 111,
+		"2018-06-14": {
+			"type": "by",
+			"mp": "Janet Jessica Daby",
+			"party": { "code": "Lab", "title": "Labour" },
+			"turnout": { "pc": 33.35, "value": 22046 },
+			"valid": 21979,
+			"spoiled": 67,
 			"majority": 5629
 		},
-		"2015": {
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Heidi Alexander",
+			"party": { "code": "Lab" },
+			"electorate": 68124,
+			"turnout": { "pc": 69.4, "value": 47312 },
+			"valid": 47201,
+			"spoiled": 111,
+			"majority": 21213
+		},
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Heidi Alexander",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 66913,
-			"turnout": 64.3,
+			"turnout": { "pc":64.3, "value": 43056 },
 			"valid": 42923,
 			"spoiled": 133,
 			"majority": 14333

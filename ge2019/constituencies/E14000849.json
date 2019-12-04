@@ -2,7 +2,8 @@
 	"id": "E14000849",
 	"title": "North Shropshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1325,
 				"name": "Owen Paterson",
@@ -28,27 +29,24 @@
 				"name": "John George Walter Adams",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72526-ca031ae2-7321-45ba-bd7c-b88c77eec70c.png"
-			}],
-			"incumbent": {
-				"mp": "Owen Paterson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Owen Paterson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10473/owen_paterson/north_shropshire",
 			"electorate": 80535,
-			"turnout": 69.0,
+			"turnout": { "pc": 69.2, "value": 55745 },
 			"valid": 55599,
 			"spoiled": 146,
 			"majority": 16355
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Owen Paterson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78858,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 52689 },
 			"valid": 52573,
 			"spoiled": 116,
 			"majority": 16494

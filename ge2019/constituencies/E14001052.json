@@ -2,7 +2,8 @@
 	"id": "E14001052",
 	"title": "Worcester",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 496,
 				"name": "Robin Walker",
@@ -25,30 +26,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/12771.png"
 			},{
 				"id": 72632,
-				"name": "Martin Julian Keith Potter",
+				"name": "Martin Potter",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72632-75110c4d-04dc-4966-b2cf-4c62cc4dd392.png"
-			}],
-			"incumbent": {
-				"mp": "Robin Walker",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Robin Walker",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24862/robin_walker/worcester",
 			"electorate": 73893,
-			"turnout": 69.6,
+			"turnout": { "pc": 69.7, "value": 51515 },
 			"valid": 51423,
 			"spoiled": 92,
 			"majority": 2508
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Robin Walker",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72461,
-			"turnout": 68.8,
+			"turnout": { "pc":68.8, "value": 49860 },
 			"valid": 49723,
 			"spoiled": 137,
 			"majority": 5646

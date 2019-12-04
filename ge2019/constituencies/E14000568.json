@@ -2,7 +2,8 @@
 	"id": "E14000568",
 	"title": "Birmingham, Yardley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 96,
 				"name": "Roger Harmer",
@@ -27,28 +28,25 @@
 				"id": 72558,
 				"name": "Mary Ann McKenna",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Jess Phillips",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72558-d262d56a-7bcd-4f9b-88fb-8fcb11b6dfbe.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jess Phillips",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25364/jess_phillips/birmingham%2C_yardley",
 			"electorate": 72581,
-			"turnout": 61.3,
+			"turnout": { "pc": 61.5, "value": 44605 },
 			"valid": 44502,
 			"spoiled": 103,
 			"majority": 16574
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jess Phillips",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72146,
-			"turnout": 57.3,
+			"turnout": { "pc":57.3, "value": 41313 },
 			"valid": 41151,
 			"spoiled": 162,
 			"majority": 6595

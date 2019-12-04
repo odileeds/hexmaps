@@ -2,7 +2,8 @@
 	"id": "E14000985",
 	"title": "Sutton Coldfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 681,
 				"name": "Andrew Mitchell",
@@ -23,27 +24,24 @@
 				"name": "David Knowles",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72529-50279ae5-4372-4619-9320-4a62a3094e58.png"
-			}],
-			"incumbent": {
-				"mp": "Andrew Mitchell",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Mitchell",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11115/andrew_mitchell/sutton_coldfield",
 			"electorate": 75652,
-			"turnout": 69.9,
+			"turnout": { "pc": 70.1, "value": 52999 },
 			"valid": 52858,
 			"spoiled": 141,
 			"majority": 15339
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Mitchell",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74956,
-			"turnout": 68.1,
+			"turnout": { "pc":68.1, "value": 51027 },
 			"valid": 50854,
 			"spoiled": 173,
 			"majority": 16417

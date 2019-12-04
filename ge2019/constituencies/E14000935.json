@@ -2,7 +2,8 @@
 	"id": "E14000935",
 	"title": "South Derbyshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 487,
 				"name": "Heather Wheeler",
@@ -23,27 +24,24 @@
 				"name": "Robert Pearson",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34297.png"
-			}],
-			"incumbent": {
-				"mp": "Heather Wheeler",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Heather Wheeler",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24769/heather_wheeler/south_derbyshire",
 			"electorate": 76380,
-			"turnout": 68.9,
+			"turnout": { "pc": 69.1, "value": 52751 },
 			"valid": 52631,
 			"spoiled": 120,
 			"majority": 11970
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Heather Wheeler",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73923,
-			"turnout": 68.9,
+			"turnout": { "pc":68.9, "value": 50952 },
 			"valid": 50762,
 			"spoiled": 190,
 			"majority": 11471

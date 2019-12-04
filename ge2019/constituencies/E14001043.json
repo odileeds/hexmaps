@@ -2,7 +2,8 @@
 	"id": "E14001043",
 	"title": "Wirral South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3649,
 				"name": "Alison McGovern",
@@ -28,27 +29,24 @@
 				"name": "Martin Paul Waring",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72191-22bb621e-61ee-423d-b9ea-176f30dd9014.png"
-			}],
-			"incumbent": {
-				"mp": "Alison McGovern",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alison McGovern",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24897/alison_mcgovern/wirral_south",
 			"electorate": 57670,
-			"turnout": 78.4,
+			"turnout": { "pc": 78.5, "value": 45279 },
 			"valid": 45195,
 			"spoiled": 84,
 			"majority": 8323
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alison McGovern",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 56956,
-			"turnout": 73.7,
+			"turnout": { "pc":73.7, "value": 41980 },
 			"valid": 41837,
 			"spoiled": 143,
 			"majority": 4599

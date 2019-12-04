@@ -2,7 +2,8 @@
 	"id": "E14000630",
 	"title": "Cheltenham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2042,
 				"name": "George Ridgeon",
@@ -23,27 +24,24 @@
 				"name": "George Penny",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71764.png"
-			}],
-			"incumbent": {
-				"mp": "Alex Chalk",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alex Chalk",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25340/alex_chalk/cheltenham",
 			"electorate": 78878,
-			"turnout": 72.3,
+			"turnout": { "pc": 72.4, "value": 57119 },
 			"valid": 57012,
 			"spoiled": 107,
 			"majority": 2569
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alex Chalk",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77287,
-			"turnout": 69.7,
+			"turnout": { "pc":69.7, "value": 53839 },
 			"valid": 53735,
 			"spoiled": 104,
 			"majority": 6516

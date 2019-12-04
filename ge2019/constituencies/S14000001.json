@@ -2,7 +2,8 @@
 	"id": "S14000001",
 	"title": "Aberdeen North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6042,
 				"name": "Kirsty Blackman",
@@ -33,27 +34,24 @@
 				"name": "Ryan Houghton",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71863-61577d8b-330a-49ce-9ae7-6c9001cf8aca.png"
-			}],
-			"incumbent": {
-				"mp": "Kirsty Blackman",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kirsty Blackman",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25314/kirsty_blackman/aberdeen_north",
 			"electorate": 62130,
-			"turnout": 59.2,
+			"turnout": { "pc": 59.2, "value": 36812 },
 			"valid": 36757,
 			"spoiled": 55,
 			"majority": 4139
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kirsty Blackman",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67745,
-			"turnout": 65.0,
+			"turnout": { "pc":65.0, "value": 44014 },
 			"valid": 43936,
 			"spoiled": 78,
 			"majority": 13396

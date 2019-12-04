@@ -2,7 +2,8 @@
 	"id": "W07000073",
 	"title": "Bridgend",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2455,
 				"name": "Madeleine Moon",
@@ -33,27 +34,24 @@
 				"name": "Robert Morgan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72238-e5e082ee-80b2-4a18-9424-c2fc0ed73914.png"
-			}],
-			"incumbent": {
-				"mp": "Madeleine Moon",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Madeleine Moon",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11450/madeleine_moon/bridgend",
 			"electorate": 62185,
-			"turnout": 69.6,
+			"turnout": { "pc": 69.6, "value": 43310 },
 			"valid": 43255,
 			"spoiled": 55,
 			"majority": 4700
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Madeleine Moon",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 59998,
-			"turnout": 65.9,
+			"turnout": { "pc":65.9, "value": 39516 },
 			"valid": 39453,
 			"spoiled": 63,
 			"majority": 1927

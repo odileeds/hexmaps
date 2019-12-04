@@ -2,7 +2,8 @@
 	"id": "E14000913",
 	"title": "Scarborough and Whitby",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 182,
 				"name": "Robert Goodwill",
@@ -12,7 +13,7 @@
 				"id": 25365,
 				"name": "Hugo Fearnley",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25365.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/25365-6cfbb27b-7138-4a73-ad0f-68198094f7a6.png"
 			},{
 				"id": 30268,
 				"name": "Robert Lockwood",
@@ -23,27 +24,24 @@
 				"name": "Lee Derrick",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35213-3287b079-db81-490b-a149-16a77346ec63.png"
-			}],
-			"incumbent": {
-				"mp": "Robert Goodwill",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Robert Goodwill",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11804/robert_goodwill/scarborough_and_whitby",
 			"electorate": 73599,
-			"turnout": 68.5,
+			"turnout": { "pc": 68.6, "value": 50523 },
 			"valid": 50449,
 			"spoiled": 74,
 			"majority": 3435
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Robert Goodwill",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73511,
-			"turnout": 65.2,
+			"turnout": { "pc":65.2, "value": 47925 },
 			"valid": 47739,
 			"spoiled": 186,
 			"majority": 6200

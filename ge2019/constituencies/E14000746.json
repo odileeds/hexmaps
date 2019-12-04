@@ -2,7 +2,8 @@
 	"id": "E14000746",
 	"title": "Hexham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2209,
 				"name": "Guy Opperman",
@@ -23,27 +24,24 @@
 				"name": "Penny Grennan",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/31524.png"
-			}],
-			"incumbent": {
-				"mp": "Guy Opperman",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Guy Opperman",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24962/guy_opperman/hexham",
 			"electorate": 61053,
-			"turnout": 75.7,
+			"turnout": { "pc": 75.8, "value": 46303 },
 			"valid": 46224,
 			"spoiled": 79,
 			"majority": 9236
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Guy Opperman",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 59708,
-			"turnout": 72.7,
+			"turnout": { "pc":72.7, "value": 43427 },
 			"valid": 43345,
 			"spoiled": 82,
 			"majority": 12031

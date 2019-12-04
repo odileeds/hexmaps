@@ -2,7 +2,8 @@
 	"id": "E14000910",
 	"title": "Saffron Walden",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1632,
 				"name": "Mike Hibbs",
@@ -17,33 +18,30 @@
 				"id": 30260,
 				"name": "Tom van de Bilt",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30260-e08910d4-9e04-42db-9bc5-f4953e3e2e90.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/30260-c95b5d14-cfae-4af5-8e65-c0dab34b0cd0.png"
 			},{
 				"id": 71609,
 				"name": "Coby Wing",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71609-7cc3a92a-dd65-4f38-b3eb-741ed3c55c39.png"
-			}],
-			"incumbent": {
-				"mp": "Kemi Badenoch",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kemi Badenoch",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25693/kemi_badenoch/saffron_walden",
 			"electorate": 83072,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.6, "value": 61108 },
 			"valid": 60911,
 			"spoiled": 197,
 			"majority": 24966
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alan Haselhurst",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80615,
-			"turnout": 71.7,
+			"turnout": { "pc":71.7, "value": 57782 },
 			"valid": 57563,
 			"spoiled": 219,
 			"majority": 24991

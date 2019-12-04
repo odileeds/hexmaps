@@ -2,7 +2,8 @@
 	"id": "E14000584",
 	"title": "Bournemouth East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 384,
 				"name": "Tobias Ellwood",
@@ -32,28 +33,25 @@
 				"id": 72419,
 				"name": "Emma Victoria Johnson",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Tobias Ellwood",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72419-dc274730-f0e2-42fa-9f44-6d64084a3182.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Tobias Ellwood",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11437/tobias_ellwood/bournemouth_east",
 			"electorate": 74591,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.3, "value": 48733 },
 			"valid": 48618,
 			"spoiled": 115,
 			"majority": 7937
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tobias Ellwood",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72275,
-			"turnout": 62.3,
+			"turnout": { "pc":62.3, "value": 45018 },
 			"valid": 44827,
 			"spoiled": 191,
 			"majority": 14612

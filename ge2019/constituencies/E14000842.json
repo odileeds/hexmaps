@@ -2,7 +2,8 @@
 	"id": "E14000842",
 	"title": "North East Cambridgeshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 239,
 				"name": "Steve Barclay",
@@ -23,27 +24,24 @@
 				"name": "Diane Boyd",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71851.png"
-			}],
-			"incumbent": {
-				"mp": "Stephen Barclay",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Barclay",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24916/stephen_barclay/north_east_cambridgeshire",
 			"electorate": 84414,
-			"turnout": 63.1,
+			"turnout": { "pc": 63.2, "value": 53365 },
 			"valid": 53284,
 			"spoiled": 81,
 			"majority": 21270
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Barclay",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82990,
-			"turnout": 62.7,
+			"turnout": { "pc":62.7, "value": 52006 },
 			"valid": 51780,
 			"spoiled": 226,
 			"majority": 16874

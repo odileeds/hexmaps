@@ -2,7 +2,8 @@
 	"id": "E14000757",
 	"title": "Huntingdon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1910,
 				"name": "Jonathan Djanogly",
@@ -22,7 +23,7 @@
 				"id": 9033,
 				"name": "Samuel Paul Sweek",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/9033-4dd76761-3575-41cb-af07-21afd2daa4c9.png"
 			},{
 				"id": 50626,
 				"name": "Daniel Laycock",
@@ -33,27 +34,24 @@
 				"name": "Tom Varghese",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72213-09c0747a-f458-47a8-955c-e9c4c95094f9.png"
-			}],
-			"incumbent": {
-				"mp": "Jonathan Djanogly",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Jonathan Djanogly",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10854/jonathan_djanogly/huntingdon",
 			"electorate": 84273,
-			"turnout": 70.9,
+			"turnout": { "pc": 71.0, "value": 59856 },
 			"valid": 59720,
 			"spoiled": 136,
 			"majority": 14475
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jonathan Djanogly",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82593,
-			"turnout": 67.9,
+			"turnout": { "pc":67.9, "value": 56104 },
 			"valid": 55927,
 			"spoiled": 177,
 			"majority": 19403

@@ -2,7 +2,8 @@
 	"id": "E14000688",
 	"title": "Ellesmere Port and Neston",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4329,
 				"name": "Justin Madders",
@@ -12,7 +13,7 @@
 				"id": 6898,
 				"name": "Chris Copeman",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/550d9fc8d26890164ce3251a.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6898-604db163-2fd4-4782-8739-d0c8b8121cea.png"
 			},{
 				"id": 9351,
 				"name": "Ed Gough",
@@ -25,30 +26,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72216-1f708079-749d-449a-a1f9-aa7c7ee8839b.png"
 			},{
 				"id": 72637,
-				"name": "Christopher Andrew Stevens",
+				"name": "Chris Stevens",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72637-7be12386-bb0f-405b-b4b8-906ea20ea5b9.png"
-			}],
-			"incumbent": {
-				"mp": "Justin Madders",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Justin Madders",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25378/justin_madders/ellesmere_port_and_neston",
 			"electorate": 68666,
-			"turnout": 74.2,
+			"turnout": { "pc": 74.3, "value": 51008 },
 			"valid": 50939,
 			"spoiled": 69,
 			"majority": 11390
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Justin Madders",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69223,
-			"turnout": 67.7,
+			"turnout": { "pc":67.7, "value": 46887 },
 			"valid": 46727,
 			"spoiled": 160,
 			"majority": 6275

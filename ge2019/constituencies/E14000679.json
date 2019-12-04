@@ -2,7 +2,8 @@
 	"id": "E14000679",
 	"title": "East Ham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 983,
 				"name": "Stephen Timms",
@@ -33,27 +34,24 @@
 				"name": "Michael Fox",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71757.png"
-			}],
-			"incumbent": {
-				"mp": "Stephen Timms",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Timms",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10596/stephen_timms/east_ham",
 			"electorate": 83928,
-			"turnout": 67.5,
+			"turnout": { "pc": 67.7, "value": 56812 },
 			"valid": 56633,
 			"spoiled": 179,
 			"majority": 39883
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Timms",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 87382,
-			"turnout": 60.1,
+			"turnout": { "pc":60.1, "value": 52501 },
 			"valid": 52290,
 			"spoiled": 211,
 			"majority": 34252

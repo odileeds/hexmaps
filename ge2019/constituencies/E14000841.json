@@ -2,7 +2,8 @@
 	"id": "E14000841",
 	"title": "North East Bedfordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2925,
 				"name": "Richard Fuller",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alistair Burt",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10770/alistair_burt/north_east_bedfordshire",
 			"electorate": 87505,
-			"turnout": 73.4,
+			"turnout": { "pc": 73.5, "value": 64354 },
 			"valid": 64220,
 			"spoiled": 134,
 			"majority": 20862
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alistair Burt",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 83551,
-			"turnout": 70.5,
+			"turnout": { "pc":70.5, "value": 58867 },
 			"valid": 58672,
 			"spoiled": 195,
 			"majority": 25644

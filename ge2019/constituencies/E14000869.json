@@ -2,7 +2,8 @@
 	"id": "E14000869",
 	"title": "Old Bexley and Sidcup",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2534,
 				"name": "James Brokenshire",
@@ -28,27 +29,24 @@
 				"name": "Carol Margaret Valinejad",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "James Brokenshire",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Brokenshire",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11640/james_brokenshire/old_bexley_and_sidcup",
 			"electorate": 66005,
-			"turnout": 72.8,
+			"turnout": { "pc": 72.9, "value": 48141 },
 			"valid": 48042,
 			"spoiled": 99,
 			"majority": 15466
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Brokenshire",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66035,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 46853 },
 			"valid": 46748,
 			"spoiled": 105,
 			"majority": 15803

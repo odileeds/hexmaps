@@ -2,7 +2,8 @@
 	"id": "E14000893",
 	"title": "Reigate",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 439,
 				"name": "Jonathan Essex",
@@ -28,27 +29,24 @@
 				"name": "Julia Florence Searle",
 				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Crispin Blunt",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Crispin Blunt",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10051/crispin_blunt/reigate",
 			"electorate": 74628,
-			"turnout": 72.1,
+			"turnout": { "pc": 72.3, "value": 53993 },
 			"valid": 53823,
 			"spoiled": 170,
 			"majority": 17614
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Crispin Blunt",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73429,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 51514 },
 			"valid": 51349,
 			"spoiled": 165,
 			"majority": 22334

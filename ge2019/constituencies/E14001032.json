@@ -2,7 +2,8 @@
 	"id": "E14001032",
 	"title": "West Ham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2259,
 				"name": "Lyn Brown",
@@ -12,7 +13,7 @@
 				"id": 38604,
 				"name": "Sara Kumar",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38604.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/38604-dc862646-ab22-4699-a701-b5c686f71d04.png"
 			},{
 				"id": 40073,
 				"name": "Eimear O'Casey",
@@ -32,33 +33,30 @@
 				"id": 69792,
 				"name": "Humera Kamran",
 				"party": { "code": "", "title": "Communities United Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69792-2e8bdf60-add1-4644-bbe2-bb7280e698fb.png"
 			},{
 				"id": 71730,
 				"name": "Emma Jane Stockdale",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Lyn Brown",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71730-9f952f6d-2f44-428a-8079-7f8a7f201dfc.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lyn Brown",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11921/lyn_brown/west_ham",
 			"electorate": 92418,
-			"turnout": 65.7,
+			"turnout": { "pc": 65.9, "value": 60869 },
 			"valid": 60708,
 			"spoiled": 161,
 			"majority": 36754
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lyn Brown",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 90640,
-			"turnout": 58.5,
+			"turnout": { "pc":58.5, "value": 53010 },
 			"valid": 52793,
 			"spoiled": 217,
 			"majority": 27986

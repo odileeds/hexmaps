@@ -2,7 +2,8 @@
 	"id": "E14000581",
 	"title": "Bootle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5191,
 				"name": "Peter Dowd",
@@ -17,7 +18,7 @@
 				"id": 19844,
 				"name": "Rebecca Hanson",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19844.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/19844-0285781f-f827-44f1-a2d4-0df1e94ad6da.png"
 			},{
 				"id": 72126,
 				"name": "Tarsilo Onuluk",
@@ -28,27 +29,24 @@
 				"name": "Kim Sherrie Knight",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Peter Dowd",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Peter Dowd",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25309/peter_dowd/bootle",
 			"electorate": 72872,
-			"turnout": 69.0,
+			"turnout": { "pc": 69.2, "value": 50451 },
 			"valid": 50288,
 			"spoiled": 163,
 			"majority": 36200
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Peter Dowd",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70145,
-			"turnout": 64.6,
+			"turnout": { "pc":64.6, "value": 45300 },
 			"valid": 45152,
 			"spoiled": 148,
 			"majority": 28704

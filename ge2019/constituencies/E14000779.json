@@ -2,7 +2,8 @@
 	"id": "E14000779",
 	"title": "Leeds North East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 475,
 				"name": "Celia Foote",
@@ -33,27 +34,24 @@
 				"name": "Inaya Folarin Iman",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71510.png"
-			}],
-			"incumbent": {
-				"mp": "Fabian Hamilton",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Fabian Hamilton",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10256/fabian_hamilton/leeds_north_east",
 			"electorate": 70112,
-			"turnout": 75.6,
+			"turnout": { "pc": 75.7, "value": 53102 },
 			"valid": 52999,
 			"spoiled": 103,
 			"majority": 16991
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Fabian Hamilton",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69097,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 48530 },
 			"valid": 48291,
 			"spoiled": 239,
 			"majority": 7250

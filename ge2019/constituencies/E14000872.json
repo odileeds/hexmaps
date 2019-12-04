@@ -2,7 +2,8 @@
 	"id": "E14000872",
 	"title": "Orpington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7822,
 				"name": "Gareth Bacon",
@@ -23,27 +24,24 @@
 				"name": "Allan Joseph James Tweddle",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48436.png"
-			}],
-			"incumbent": {
-				"mp": "Jo Johnson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Joseph Johnson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24895/jo_johnson/orpington",
 			"electorate": 67902,
-			"turnout": 74.3,
+			"turnout": { "pc": 74.5, "value": 50565 },
 			"valid": 50461,
 			"spoiled": 104,
 			"majority": 19461
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Joseph Johnson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68129,
-			"turnout": 72.1,
+			"turnout": { "pc":72.1, "value": 49126 },
 			"valid": 49032,
 			"spoiled": 94,
 			"majority": 19979

@@ -2,7 +2,8 @@
 	"id": "E14000637",
 	"title": "Chorley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 595,
 				"name": "Lindsay Hoyle",
@@ -12,7 +13,7 @@
 				"id": 5631,
 				"name": "Mark Brexit-Smith",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5631-8da938a4-3567-4348-86ba-b96137838df4.png"
 			},{
 				"id": 63726,
 				"name": "James Fletcher Melling",
@@ -24,21 +25,22 @@
 				"party": { "code": "Spk", "title": "Speaker" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lindsay Hoyle",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10295/lindsay_hoyle/chorley",
 			"electorate": 76404,
-			"turnout": 72.8,
+			"turnout": { "pc": 73.0, "value": 55768 },
 			"valid": 55634,
 			"spoiled": 134,
 			"majority": 7512
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lindsay Hoyle",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74679,
-			"turnout": 69.4,
+			"turnout": { "pc":69.4, "value": 51854 },
 			"valid": 51712,
 			"spoiled": 142,
 			"majority": 4530

@@ -2,7 +2,8 @@
 	"id": "E14000691",
 	"title": "Enfield North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 8002,
 				"name": "Joanne Louise Laban",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Joan Ryan",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10523/joan_ryan/enfield_north",
 			"electorate": 68076,
-			"turnout": 71.3,
+			"turnout": { "pc": 71.5, "value": 48690 },
 			"valid": 48565,
 			"spoiled": 125,
 			"majority": 10247
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Joan Ryan",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68118,
-			"turnout": 67.9,
+			"turnout": { "pc":67.9, "value": 46254 },
 			"valid": 46137,
 			"spoiled": 117,
 			"majority": 1086

@@ -2,7 +2,8 @@
 	"id": "E14000901",
 	"title": "Romsey and Southampton North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1123,
 				"name": "Caroline Nokes",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Caroline Nokes",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24809/caroline_nokes/romsey_and_southampton_north",
 			"electorate": 67186,
-			"turnout": 74.6,
+			"turnout": { "pc": 74.8, "value": 50245 },
 			"valid": 50128,
 			"spoiled": 117,
 			"majority": 18046
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Caroline Nokes",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 66519,
-			"turnout": 73.0,
+			"turnout": { "pc":73.0, "value": 48539 },
 			"valid": 48398,
 			"spoiled": 141,
 			"majority": 17712

@@ -2,7 +2,8 @@
 	"id": "E14000992",
 	"title": "The Wrekin",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1616,
 				"name": "Mark Pritchard",
@@ -23,27 +24,24 @@
 				"name": "Tim Dawes",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72149-030e16c3-3ebd-423b-a0ad-327c926ea09c.png"
-			}],
-			"incumbent": {
-				"mp": "Mark Pritchard",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mark Pritchard",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11946/mark_pritchard/the_wrekin",
 			"electorate": 68604,
-			"turnout": 72.2,
+			"turnout": { "pc": 72.4, "value": 49638 },
 			"valid": 49523,
 			"spoiled": 115,
 			"majority": 9564
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mark Pritchard",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65942,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 45643 },
 			"valid": 45437,
 			"spoiled": 206,
 			"majority": 10743

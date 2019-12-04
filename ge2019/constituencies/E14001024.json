@@ -2,7 +2,8 @@
 	"id": "E14001024",
 	"title": "Weaver Vale",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34321,
 				"name": "Mike Amesbury",
@@ -28,27 +29,24 @@
 				"name": "Daniela Parker",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71722.png"
-			}],
-			"incumbent": {
-				"mp": "Mike Amesbury",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Amesbury",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25702/mike_amesbury/weaver_vale",
 			"electorate": 69016,
-			"turnout": 73.3,
+			"turnout": { "pc": 73.5, "value": 50721 },
 			"valid": 50613,
 			"spoiled": 108,
 			"majority": 3928
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Graham Evans",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68407,
-			"turnout": 68.6,
+			"turnout": { "pc":68.6, "value": 46944 },
 			"valid": 46867,
 			"spoiled": 77,
 			"majority": 806

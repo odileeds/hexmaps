@@ -2,7 +2,8 @@
 	"id": "E14000771",
 	"title": "Kingston upon Hull East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2684,
 				"name": "Karl Turner",
@@ -28,27 +29,24 @@
 				"name": "Rachel Louise Storer",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72371-a5d73e18-c30e-4a91-afc6-235d25e4739e.png"
-			}],
-			"incumbent": {
-				"mp": "Karl Turner",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Karl Turner",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24767/karl_turner/kingston_upon_hull_east",
 			"electorate": 65959,
-			"turnout": 55.5,
+			"turnout": { "pc": 55.6, "value": 36698 },
 			"valid": 36638,
 			"spoiled": 60,
 			"majority": 10396
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Karl Turner",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65710,
-			"turnout": 53.6,
+			"turnout": { "pc":53.6, "value": 35246 },
 			"valid": 35144,
 			"spoiled": 102,
 			"majority": 10319

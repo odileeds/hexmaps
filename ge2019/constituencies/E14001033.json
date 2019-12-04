@@ -2,7 +2,8 @@
 	"id": "E14001033",
 	"title": "West Lancashire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4066,
 				"name": "Rosie Cooper",
@@ -28,27 +29,24 @@
 				"name": "Marc Stanton",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Rosie Cooper",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rosie Cooper",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11667/rosie_cooper/west_lancashire",
 			"electorate": 73257,
-			"turnout": 74.2,
+			"turnout": { "pc": 74.4, "value": 54503 },
 			"valid": 54389,
 			"spoiled": 114,
 			"majority": 11689
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rosie Cooper",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70906,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 49793 },
 			"valid": 49676,
 			"spoiled": 117,
 			"majority": 8360

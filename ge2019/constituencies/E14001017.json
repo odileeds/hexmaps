@@ -2,7 +2,8 @@
 	"id": "E14001017",
 	"title": "Warrington North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2386,
 				"name": "Dave Crowther",
@@ -28,27 +29,24 @@
 				"name": "Elizabeth Babade",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71912.png"
-			}],
-			"incumbent": {
-				"mp": "Helen Jones",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Helen Jones",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10319/helen_jones/warrington_north",
 			"electorate": 71918,
-			"turnout": 67.5,
+			"turnout": { "pc": 67.6, "value": 48616 },
 			"valid": 48517,
 			"spoiled": 99,
 			"majority": 9582
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Helen Jones",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 72104,
-			"turnout": 63.3,
+			"turnout": { "pc":63.3, "value": 45620 },
 			"valid": 45419,
 			"spoiled": 201,
 			"majority": 8923

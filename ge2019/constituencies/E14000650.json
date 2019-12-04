@@ -2,7 +2,8 @@
 	"id": "E14000650",
 	"title": "Coventry North West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 700,
 				"name": "Stephen Gray",
@@ -28,27 +29,24 @@
 				"name": "Joshua David Richardson",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72575-d02de25a-f1a8-4c8b-9eef-c5904420e8b7.png"
-			}],
-			"incumbent": {
-				"mp": "Geoffrey Robinson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Geoffrey Robinson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10506/geoffrey_robinson/coventry_north_west",
 			"electorate": 75196,
-			"turnout": 66.3,
+			"turnout": { "pc": 66.4, "value": 49937 },
 			"valid": 49849,
 			"spoiled": 88,
 			"majority": 8580
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Geoffrey Robinson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73626,
-			"turnout": 61.7,
+			"turnout": { "pc":61.7, "value": 45418 },
 			"valid": 45246,
 			"spoiled": 172,
 			"majority": 4509

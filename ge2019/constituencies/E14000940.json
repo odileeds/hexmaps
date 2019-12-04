@@ -2,7 +2,8 @@
 	"id": "E14000940",
 	"title": "South Leicestershire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5023,
 				"name": "Alberto Costa",
@@ -23,27 +24,24 @@
 				"name": "Tristan Naseem Koriya",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72360-d2d64455-ded7-4ce1-bb5d-447bf87c195d.png"
-			}],
-			"incumbent": {
-				"mp": "Alberto Costa",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alberto Costa",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25413/alberto_costa/south_leicestershire",
 			"electorate": 78985,
-			"turnout": 71.8,
+			"turnout": { "pc": 71.9, "value": 56801 },
 			"valid": 56689,
 			"spoiled": 112,
 			"majority": 18631
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alberto Costa",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76851,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 54226 },
 			"valid": 53926,
 			"spoiled": 300,
 			"majority": 16824

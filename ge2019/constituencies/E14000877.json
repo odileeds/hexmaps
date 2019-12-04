@@ -2,7 +2,8 @@
 	"id": "E14000877",
 	"title": "Penrith and The Border",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5470,
 				"name": "Matthew Severn",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Rory Stewart",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24964/rory_stewart/penrith_and_the_border",
 			"electorate": 65139,
-			"turnout": 71.3,
+			"turnout": { "pc": 71.5, "value": 46548 },
 			"valid": 46470,
 			"spoiled": 78,
 			"majority": 15910
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rory Stewart",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65209,
-			"turnout": 67.6,
+			"turnout": { "pc":67.6, "value": 44064 },
 			"valid": 43921,
 			"spoiled": 143,
 			"majority": 19894

@@ -2,7 +2,8 @@
 	"id": "S14000024",
 	"title": "Edinburgh South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1116,
 				"name": "Ian Murray",
@@ -28,27 +29,24 @@
 				"name": "Catriona MacDonald",
 				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71427.png"
-			}],
-			"incumbent": {
-				"mp": "Ian Murray",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Ian Murray",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24872/ian_murray/edinburgh_south",
 			"electorate": 64553,
-			"turnout": 74.1,
+			"turnout": { "pc": 74.2, "value": 47913 },
 			"valid": 47840,
 			"spoiled": 73,
 			"majority": 15514
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Ian Murray",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 65801,
-			"turnout": 75.0,
+			"turnout": { "pc":75.0, "value": 49340 },
 			"valid": 49286,
 			"spoiled": 54,
 			"majority": 2637

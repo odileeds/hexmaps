@@ -2,7 +2,8 @@
 	"id": "E14000814",
 	"title": "Mid Derbyshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1967,
 				"name": "Pauline Latham",
@@ -23,27 +24,24 @@
 				"name": "Felix Dodds",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71529.png"
-			}],
-			"incumbent": {
-				"mp": "Pauline Latham",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Pauline Latham",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24821/pauline_latham/mid_derbyshire",
 			"electorate": 67466,
-			"turnout": 74.7,
+			"turnout": { "pc": 74.9, "value": 50507 },
 			"valid": 50371,
 			"spoiled": 136,
 			"majority": 11616
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Pauline Latham",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67477,
-			"turnout": 70.9,
+			"turnout": { "pc":70.9, "value": 47845 },
 			"valid": 47729,
 			"spoiled": 116,
 			"majority": 12774

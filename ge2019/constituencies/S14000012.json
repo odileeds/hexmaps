@@ -2,7 +2,8 @@
 	"id": "S14000012",
 	"title": "Cumbernauld, Kilsyth and Kirkintilloch East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5172,
 				"name": "Stuart McDonald",
@@ -17,33 +18,30 @@
 				"id": 21986,
 				"name": "Roz McCall",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/21986-11a70961-0ec7-4e4d-ab2a-55f8be2c1879.png"
 			},{
 				"id": 72011,
 				"name": "James McPhilemy",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72011.png"
-			}],
-			"incumbent": {
-				"mp": "Stuart McDonald",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Stuart C. McDonald",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Stuart McDonald",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25301/stuart_mcdonald/cumbernauld%2C_kilsyth_and_kirkintilloch_east",
 			"electorate": 66554,
-			"turnout": 65.9,
+			"turnout": { "pc": 65.9, "value": 43883 },
 			"valid": 43833,
 			"spoiled": 50,
 			"majority": 4264
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stuart McDonald",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67088,
-			"turnout": 73.8,
+			"turnout": { "pc":73.8, "value": 49508 },
 			"valid": 49382,
 			"spoiled": 126,
 			"majority": 14752

@@ -2,7 +2,8 @@
 	"id": "E14000737",
 	"title": "Hayes and Harlington",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1860,
 				"name": "John McDonnell",
@@ -32,28 +33,25 @@
 				"id": 72329,
 				"name": "Chika Amadi",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72329-1b5f983a-ab9b-4fbe-8e8c-3e4baac9f8cf.png"
-			}],
-			"incumbent": {
-				"mp": "John Martin McDonnell",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72329-4c4af5b5-bdf2-47cc-81fa-1e9db12fbdaa.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John McDonnell",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10383/john_martin_mcdonnell/hayes_and_harlington",
 			"electorate": 73268,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.4, "value": 47920 },
 			"valid": 47802,
 			"spoiled": 118,
 			"majority": 18115
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John McDonnell",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74874,
-			"turnout": 60.4,
+			"turnout": { "pc":60.4, "value": 45198 },
 			"valid": 45056,
 			"spoiled": 142,
 			"majority": 15700

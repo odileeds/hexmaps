@@ -2,7 +2,8 @@
 	"id": "E14000867",
 	"title": "Nottingham South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1925,
 				"name": "Lilian Greenwood",
@@ -28,27 +29,24 @@
 				"name": "Cath Sutherland",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72539-50aedddf-5669-44f1-a516-08f62a799ab1.png"
-			}],
-			"incumbent": {
-				"mp": "Lilian Greenwood",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lilian Greenwood",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24774/lilian_greenwood/nottingham_south",
 			"electorate": 71182,
-			"turnout": 67.6,
+			"turnout": { "pc": 67.8, "value": 48266 },
 			"valid": 48129,
 			"spoiled": 137,
 			"majority": 15162
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lilian Greenwood",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 68987,
-			"turnout": 63.3,
+			"turnout": { "pc":63.3, "value": 43699 },
 			"valid": 43465,
 			"spoiled": 234,
 			"majority": 6936

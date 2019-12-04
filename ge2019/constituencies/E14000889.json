@@ -2,7 +2,8 @@
 	"id": "E14000889",
 	"title": "Reading East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4406,
 				"name": "Matt Rodda",
@@ -33,27 +34,24 @@
 				"name": "David McElroy",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71921-68b25662-e7f7-4f14-be32-a0e829249c3b.png"
-			}],
-			"incumbent": {
-				"mp": "Matt Rodda",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Matt Rodda",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25691/matt_rodda/reading_east",
 			"electorate": 75537,
-			"turnout": 73.1,
+			"turnout": { "pc": 73.3, "value": 55370 },
 			"valid": 55238,
 			"spoiled": 132,
 			"majority": 3749
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Rob Wilson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73232,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 50685 },
 			"valid": 50494,
 			"spoiled": 191,
 			"majority": 6520

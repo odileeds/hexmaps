@@ -2,7 +2,8 @@
 	"id": "E14000640",
 	"title": "City of Chester",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3349,
 				"name": "Bob Thompson",
@@ -28,27 +29,24 @@
 				"name": "Samantha George",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71373.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Matheson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Christian Matheson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25411/chris_matheson/city_of_chester",
 			"electorate": 72859,
-			"turnout": 77.4,
+			"turnout": { "pc": 77.6, "value": 56565 },
 			"valid": 56421,
 			"spoiled": 144,
 			"majority": 9176
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Matheson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 74485,
-			"turnout": 69.0,
+			"turnout": { "pc":69.0, "value": 51389 },
 			"valid": 51161,
 			"spoiled": 228,
 			"majority": 93

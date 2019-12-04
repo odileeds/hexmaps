@@ -2,7 +2,8 @@
 	"id": "E14000948",
 	"title": "South Thanet",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4230,
 				"name": "Craig Mackinlay",
@@ -23,27 +24,24 @@
 				"name": "Rebecca Gordon-Nesbitt",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71646.png"
-			}],
-			"incumbent": {
-				"mp": "Craig Mackinlay",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Craig Mackinlay",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25437/craig_mackinlay/south_thanet",
 			"electorate": 72334,
-			"turnout": 68.8,
+			"turnout": { "pc": 68.9, "value": 49845 },
 			"valid": 49753,
 			"spoiled": 92,
 			"majority": 6387
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Craig MacKinlay",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70970,
-			"turnout": 69.8,
+			"turnout": { "pc":69.8, "value": 49564 },
 			"valid": 49401,
 			"spoiled": 163,
 			"majority": 2812

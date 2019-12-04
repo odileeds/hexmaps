@@ -2,7 +2,8 @@
 	"id": "W07000052",
 	"title": "Rhondda",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3079,
 				"name": "Chris Bryant",
@@ -33,27 +34,24 @@
 				"name": "John Watkins",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72614-c6d22e29-f0cf-4ae3-8ffe-10cd91e2010c.png"
-			}],
-			"incumbent": {
-				"mp": "Chris Bryant",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Chris Bryant",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10761/chris_bryant/rhondda",
 			"electorate": 50514,
-			"turnout": 65.2,
+			"turnout": { "pc": 65.3, "value": 32996 },
 			"valid": 32936,
 			"spoiled": 60,
 			"majority": 13746
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Chris Bryant",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 51811,
-			"turnout": 61.0,
+			"turnout": { "pc":61.0, "value": 31596 },
 			"valid": 31538,
 			"spoiled": 58,
 			"majority": 7455

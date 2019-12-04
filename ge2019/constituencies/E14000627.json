@@ -2,7 +2,8 @@
 	"id": "E14000627",
 	"title": "Cheadle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4175,
 				"name": "Mary Robinson",
@@ -18,27 +19,24 @@
 				"name": "Tom Morrison",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34655.png"
-			}],
-			"incumbent": {
-				"mp": "Mary Robinson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mary Robinson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25405/mary_robinson/cheadle",
 			"electorate": 73406,
-			"turnout": 74.3,
+			"turnout": { "pc": 74.5, "value": 54689 },
 			"valid": 54572,
 			"spoiled": 117,
 			"majority": 4507
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mary Robinson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73239,
-			"turnout": 72.7,
+			"turnout": { "pc":72.7, "value": 53264 },
 			"valid": 53095,
 			"spoiled": 169,
 			"majority": 6453

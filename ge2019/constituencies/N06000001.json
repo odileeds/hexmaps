@@ -2,7 +2,8 @@
 	"id": "N06000001",
 	"title": "Belfast East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2454,
 				"name": "Naomi Long",
@@ -18,27 +19,24 @@
 				"name": "Carl  McClean",
 				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/8156.png"
-			}],
-			"incumbent": {
-				"mp": "Gavin Robinson",
-				"party": { "code": "DUP", "title": "DUP" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gavin Robinson",
 			"party": { "code": "DUP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25280/gavin_robinson/belfast_east",
 			"electorate": 63495,
-			"turnout": 67.5,
+			"turnout": { "pc": 67.7, "value": 42983 },
 			"valid": 42890,
 			"spoiled": 93,
 			"majority": 8474
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gavin Robinson",
 			"party": { "code": "DUP", "title": "Democratic Unionist Party" },
 			"electorate": 63157,
-			"turnout": 63.1,
+			"turnout": { "pc":63.1, "value": 39860 },
 			"valid": 39682,
 			"spoiled": 178,
 			"majority": 2597

@@ -2,7 +2,8 @@
 	"id": "E14001045",
 	"title": "Witham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1326,
 				"name": "Priti Patel",
@@ -17,33 +18,30 @@
 				"id": 66990,
 				"name": "Sam North",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66990.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66990-4d7d66bb-bfb5-40c9-96f4-d1be92a63de4.png"
 			},{
 				"id": 71738,
 				"name": "Martin Edobor",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71738.png"
-			}],
-			"incumbent": {
-				"mp": "Priti Patel",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Priti Patel",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24778/priti_patel/witham",
 			"electorate": 69137,
-			"turnout": 71.2,
+			"turnout": { "pc": 71.5, "value": 49400 },
 			"valid": 49241,
 			"spoiled": 159,
 			"majority": 18646
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Priti Patel",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67090,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 47335 },
 			"valid": 47168,
 			"spoiled": 167,
 			"majority": 19554

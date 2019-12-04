@@ -2,17 +2,18 @@
 	"id": "E14000981",
 	"title": "Suffolk Coastal",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 84,
-				"name": "Therese Coffey",
+				"name": "Thérèse Coffey",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5534f956b247335574a42e41.png"
 			},{
 				"id": 4620,
 				"name": "Rachel Smith-Lyte",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4620.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4620-debde0fa-85f8-4e15-bf39-cdd7dc39c907.png"
 			},{
 				"id": 34459,
 				"name": "Cameron Matthews",
@@ -28,27 +29,24 @@
 				"name": "Tony Love",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71679-b799d117-1a61-46e1-bb96-c55afea7950a.png"
-			}],
-			"incumbent": {
-				"mp": "Therese Coffey",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Thérèse Coffey",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Therese Coffey",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24771/therese_coffey/suffolk_coastal",
 			"electorate": 79366,
-			"turnout": 73.2,
+			"turnout": { "pc": 73.5, "value": 58310 },
 			"valid": 58074,
 			"spoiled": 236,
 			"majority": 16012
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Therese Coffey",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77816,
-			"turnout": 71.7,
+			"turnout": { "pc":71.7, "value": 55762 },
 			"valid": 55594,
 			"spoiled": 168,
 			"majority": 18842

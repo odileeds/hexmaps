@@ -2,7 +2,8 @@
 	"id": "S14000045",
 	"title": "Midlothian",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6051,
 				"name": "Owen Thompson",
@@ -23,27 +24,24 @@
 				"name": "Rebecca Jane Fraser",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Danielle Rowley",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Danielle Rowley",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25684/danielle_rowley/midlothian",
 			"electorate": 68328,
-			"turnout": 66.3,
+			"turnout": { "pc": 66.4, "value": 45344 },
 			"valid": 45273,
 			"spoiled": 71,
 			"majority": 885
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Owen Thompson",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 67875,
-			"turnout": 71.3,
+			"turnout": { "pc":71.3, "value": 48365 },
 			"valid": 48331,
 			"spoiled": 34,
 			"majority": 9859

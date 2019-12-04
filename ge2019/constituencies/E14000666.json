@@ -2,7 +2,8 @@
 	"id": "E14000666",
 	"title": "Dewsbury",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4319,
 				"name": "Paula Sherriff",
@@ -27,33 +28,30 @@
 				"id": 71793,
 				"name": "John Rossington",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71793-412e5bbf-2185-4ec5-a8dc-f687c82f13b3.png"
 			},{
 				"id": 72266,
 				"name": "Sir Archibald Earl 'Eaton Stanton",
 				"party": { "code": "Monster", "title": "Official Monster Raving Loony Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72266-830af731-a1dc-4f43-972f-ce3ab2cedde2.png"
-			}],
-			"incumbent": {
-				"mp": "Paula Sherriff",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paula Sherriff",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25421/paula_sherriff/dewsbury",
 			"electorate": 81343,
-			"turnout": 69.5,
+			"turnout": { "pc": 69.7, "value": 56700 },
 			"valid": 56545,
 			"spoiled": 155,
 			"majority": 3321
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Paula Sherriff",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79770,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 53868 },
 			"valid": 53630,
 			"spoiled": 238,
 			"majority": 1451

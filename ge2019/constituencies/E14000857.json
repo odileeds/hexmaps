@@ -2,7 +2,8 @@
 	"id": "E14000857",
 	"title": "North West Hampshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5272,
 				"name": "Kit Malthouse",
@@ -23,27 +24,24 @@
 				"name": "Liz Bell",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72027.png"
-			}],
-			"incumbent": {
-				"mp": "Kit Malthouse",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Kit Malthouse",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25346/kit_malthouse/north_west_hampshire",
 			"electorate": 81430,
-			"turnout": 72.2,
+			"turnout": { "pc": 72.3, "value": 58880 },
 			"valid": 58772,
 			"spoiled": 108,
 			"majority": 22679
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Kit Malthouse",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79223,
-			"turnout": 69.9,
+			"turnout": { "pc":69.9, "value": 55395 },
 			"valid": 55195,
 			"spoiled": 200,
 			"majority": 23943

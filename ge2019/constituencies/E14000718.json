@@ -2,7 +2,8 @@
 	"id": "E14000718",
 	"title": "Greenwich and Woolwich",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4343,
 				"name": "Matthew Pennycook",
@@ -38,27 +39,24 @@
 				"name": "Eunice Odesanmi",
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72622-6e046a6b-5d65-4d1f-b2a9-c984bf15e68b.png"
-			}],
-			"incumbent": {
-				"mp": "Matthew Pennycook",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Matthew Pennycook",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25379/matthew_pennycook/greenwich_and_woolwich",
 			"electorate": 77190,
-			"turnout": 68.8,
+			"turnout": { "pc": 69.1, "value": 53306 },
 			"valid": 53106,
 			"spoiled": 200,
 			"majority": 20714
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Matthew Pennycook",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 73315,
-			"turnout": 64.0,
+			"turnout": { "pc":64.0, "value": 46887 },
 			"valid": 46716,
 			"spoiled": 171,
 			"majority": 11946

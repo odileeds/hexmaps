@@ -2,7 +2,8 @@
 	"id": "E14000669",
 	"title": "Doncaster North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3056,
 				"name": "Ed Miliband",
@@ -27,17 +28,17 @@
 				"id": 71403,
 				"name": "Andrew Stewart",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71403.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71403-ec7b3f34-8153-40d8-8a4c-4d4bf53f1d96.png"
 			},{
 				"id": 72245,
 				"name": "Wendy Bailey",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72245-74855347-a757-498f-8dda-bc6bb4f3f01e.png"
 			},{
 				"id": 72246,
 				"name": "Frank Lloyd Calladine",
 				"party": { "code": "", "title": "English Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72246-795f444b-39ad-42d5-94c5-25d268b827a9.png"
 			},{
 				"id": 72247,
 				"name": "Katrina Louise Sale",
@@ -48,27 +49,24 @@
 				"name": "Neil James Wood",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Ed Miliband",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Ed Miliband",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Edward Miliband",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11545/ed_miliband/doncaster_north",
 			"electorate": 72377,
-			"turnout": 58.5,
+			"turnout": { "pc": 58.6, "value": 42388 },
 			"valid": 42312,
 			"spoiled": 76,
 			"majority": 14024
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Edward Miliband",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70989,
-			"turnout": 55.9,
+			"turnout": { "pc":55.9, "value": 39667 },
 			"valid": 39501,
 			"spoiled": 166,
 			"majority": 11780

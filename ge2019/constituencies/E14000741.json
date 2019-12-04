@@ -2,7 +2,8 @@
 	"id": "E14000741",
 	"title": "Hendon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1323,
 				"name": "Matthew Offord",
@@ -23,27 +24,24 @@
 				"name": "Portia Vincent-Kirby",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71479-3bd50a60-6036-4fd2-b3d2-72a24ac83ca5.png"
-			}],
-			"incumbent": {
-				"mp": "Matthew Offord",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Matthew Offord",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24955/matthew_offord/hendon",
 			"electorate": 76522,
-			"turnout": 68.2,
+			"turnout": { "pc": 68.4, "value": 52330 },
 			"valid": 52215,
 			"spoiled": 115,
 			"majority": 1072
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Matthew Offord",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75285,
-			"turnout": 66.1,
+			"turnout": { "pc":66.1, "value": 49765 },
 			"valid": 49630,
 			"spoiled": 135,
 			"majority": 3724

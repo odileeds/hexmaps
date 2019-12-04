@@ -2,7 +2,8 @@
 	"id": "E14000791",
 	"title": "Lichfield",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 455,
 				"name": "Michael Fabricant",
@@ -28,27 +29,24 @@
 				"name": "John Madden",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Michael Fabricant",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Michael Fabricant",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10193/michael_fabricant/lichfield",
 			"electorate": 74430,
-			"turnout": 71.9,
+			"turnout": { "pc": 72.1, "value": 53671 },
 			"valid": 53524,
 			"spoiled": 147,
 			"majority": 18581
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Michael Fabricant",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74234,
-			"turnout": 69.5,
+			"turnout": { "pc":69.5, "value": 51614 },
 			"valid": 51467,
 			"spoiled": 147,
 			"majority": 18189

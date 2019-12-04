@@ -2,7 +2,8 @@
 	"id": "E14000838",
 	"title": "North Devon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5712,
 				"name": "Selaine Saxby",
@@ -22,33 +23,30 @@
 				"id": 72376,
 				"name": "Steve Cotten",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72376-3c5a9c6c-92fa-4e52-9e56-d05564cd1d53.png"
 			},{
 				"id": 72377,
 				"name": "Finola ONeill",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72377-8fd91715-cd9e-40e1-83a8-7e7b56112a0b.png"
-			}],
-			"incumbent": {
-				"mp": "Peter Heaton-Jones",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Peter Heaton-Jones",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25412/peter_heaton-jones/north_devon",
 			"electorate": 75801,
-			"turnout": 73.5,
+			"turnout": { "pc": 73.6, "value": 55771 },
 			"valid": 55705,
 			"spoiled": 66,
 			"majority": 4332
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Peter Heaton-Jones",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74737,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 52453 },
 			"valid": 52320,
 			"spoiled": 133,
 			"majority": 6936

@@ -2,7 +2,8 @@
 	"id": "E14000798",
 	"title": "Louth and Horncastle",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4893,
 				"name": "Victoria Atkins",
@@ -23,27 +24,24 @@
 				"name": "Ellie Green",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Victoria Atkins",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Victoria Atkins",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25424/victoria_atkins/louth_and_horncastle",
 			"electorate": 79007,
-			"turnout": 66.8,
+			"turnout": { "pc": 66.9, "value": 52855 },
 			"valid": 52771,
 			"spoiled": 84,
 			"majority": 19641
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Victoria Atkins",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74870,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 50572 },
 			"valid": 50336,
 			"spoiled": 236,
 			"majority": 14977

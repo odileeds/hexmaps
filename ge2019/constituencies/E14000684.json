@@ -2,7 +2,8 @@
 	"id": "E14000684",
 	"title": "Eastbourne",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1056,
 				"name": "Stephen Lloyd",
@@ -34,21 +35,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Lloyd",
 			"party": { "code": "LD" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24754/stephen_lloyd/eastbourne",
 			"electorate": 78754,
-			"turnout": 72.9,
+			"turnout": { "pc": 73.0, "value": 57511 },
 			"valid": 57420,
 			"spoiled": 91,
 			"majority": 1609
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Caroline Ansell",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 78262,
-			"turnout": 67.8,
+			"turnout": { "pc":67.8, "value": 53061 },
 			"valid": 52907,
 			"spoiled": 154,
 			"majority": 733

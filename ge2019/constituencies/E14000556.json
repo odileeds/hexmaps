@@ -2,7 +2,8 @@
 	"id": "E14000556",
 	"title": "Beverley and Holderness",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2131,
 				"name": "Denis Healy",
@@ -28,27 +29,24 @@
 				"name": "Chloe Hopkins",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68163.png"
-			}],
-			"incumbent": {
-				"mp": "Graham Stuart",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Graham Stuart",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11406/graham_stuart/beverley_and_holderness",
 			"electorate": 80657,
-			"turnout": 69.0,
+			"turnout": { "pc": 69.2, "value": 55822 },
 			"valid": 55638,
 			"spoiled": 184,
 			"majority": 14042
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Graham Stuart",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80805,
-			"turnout": 65.4,
+			"turnout": { "pc":65.4, "value": 52836 },
 			"valid": 52677,
 			"spoiled": 159,
 			"majority": 12203

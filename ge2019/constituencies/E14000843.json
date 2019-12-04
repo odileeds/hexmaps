@@ -2,7 +2,8 @@
 	"id": "E14000843",
 	"title": "North East Derbyshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2207,
 				"name": "Lee Rowley",
@@ -23,27 +24,24 @@
 				"name": "Frank Adlington-Stringer",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/65433.png"
-			}],
-			"incumbent": {
-				"mp": "Lee Rowley",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lee Rowley",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25685/lee_rowley/north_east_derbyshire",
 			"electorate": 72097,
-			"turnout": 69.9,
+			"turnout": { "pc": 70.0, "value": 50458 },
 			"valid": 50380,
 			"spoiled": 78,
 			"majority": 2860
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Natascha Engel",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71445,
-			"turnout": 67.3,
+			"turnout": { "pc":67.3, "value": 48095 },
 			"valid": 47948,
 			"spoiled": 147,
 			"majority": 1883

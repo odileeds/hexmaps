@@ -2,12 +2,13 @@
 	"id": "E14000972",
 	"title": "Stoke-on-Trent Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5791,
 				"name": "Tariq Mahmood",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5791-bfee814f-64ec-402e-8a1e-3548aab32d4a.png"
 			},{
 				"id": 6089,
 				"name": "Jo Gideon",
@@ -27,28 +28,25 @@
 				"id": 72209,
 				"name": "Steven James Pritchard",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Gareth Snell",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72209-635ee729-ff5b-4b0f-a199-d84da6143814.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gareth Snell",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25601/gareth_snell/stoke-on-trent_central",
 			"electorate": 56915,
-			"turnout": 58.2,
+			"turnout": { "pc": 58.3, "value": 33209 },
 			"valid": 33145,
 			"spoiled": 64,
 			"majority": 3897
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Tristram Hunt",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 60634,
-			"turnout": 51.5,
+			"turnout": { "pc":51.5, "value": 31234 },
 			"valid": 31084,
 			"spoiled": 150,
 			"majority": 5179

@@ -2,7 +2,8 @@
 	"id": "E14000592",
 	"title": "Brent North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2456,
 				"name": "Barry Gardiner",
@@ -32,33 +33,30 @@
 				"id": 48143,
 				"name": "Simon David Rebbitt",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48143-ee5bb501-1975-4ef4-a5ad-0bd46cf39e9d.png"
 			},{
 				"id": 71935,
 				"name": "Suzie O'Brien",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71935.png"
-			}],
-			"incumbent": {
-				"mp": "Barry Gardiner",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Barry Gardiner",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10220/barry_gardiner/brent_north",
 			"electorate": 82567,
-			"turnout": 68.4,
+			"turnout": { "pc": 68.6, "value": 56647 },
 			"valid": 56444,
 			"spoiled": 203,
 			"majority": 17061
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Barry Gardiner",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 82196,
-			"turnout": 63.9,
+			"turnout": { "pc":63.9, "value": 52526 },
 			"valid": 52235,
 			"spoiled": 291,
 			"majority": 10834

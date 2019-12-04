@@ -2,7 +2,8 @@
 	"id": "E14001018",
 	"title": "Warrington South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5113,
 				"name": "Kevin Hickson",
@@ -28,27 +29,24 @@
 				"name": "Andy Carter",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71718.png"
-			}],
-			"incumbent": {
-				"mp": "Faisal Rashid",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Faisal Rashid",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Faisal  Rashid",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25700/faisal_rashid/warrington_south",
 			"electorate": 85617,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 62115 },
 			"valid": 61995,
 			"spoiled": 120,
 			"majority": 2549
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "David Mowat",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 84767,
-			"turnout": 70.3,
+			"turnout": { "pc":70.3, "value": 59552 },
 			"valid": 59353,
 			"spoiled": 199,
 			"majority": 2750

@@ -2,7 +2,8 @@
 	"id": "E14001035",
 	"title": "West Worcestershire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1476,
 				"name": "Harriett Mary Morrison Baldwin",
@@ -23,27 +24,24 @@
 				"name": "Martin John Allen",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72580-a0fd3882-b71a-4813-917e-da6580ffc4fd.png"
-			}],
-			"incumbent": {
-				"mp": "Harriett Baldwin",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Harriett Baldwin",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24785/harriett_baldwin/west_worcestershire",
 			"electorate": 74375,
-			"turnout": 75.9,
+			"turnout": { "pc": 76.1, "value": 56583 },
 			"valid": 56471,
 			"spoiled": 112,
 			"majority": 21328
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Harriett Baldwin",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73394,
-			"turnout": 74.0,
+			"turnout": { "pc":74.0, "value": 54298 },
 			"valid": 54100,
 			"spoiled": 198,
 			"majority": 22578

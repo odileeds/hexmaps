@@ -2,7 +2,8 @@
 	"id": "E14000697",
 	"title": "Esher and Walton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3451,
 				"name": "Dominic Raab",
@@ -22,7 +23,7 @@
 				"id": 71439,
 				"name": "Monica Harding",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71439-bd41d2af-7849-4633-9fa3-dd7a2fa126ca.png"
 			},{
 				"id": 72312,
 				"name": "Kylie Keens",
@@ -33,27 +34,24 @@
 				"name": "Kyle Gregory Taylor",
 				"party": { "code": "", "title": "Advance Together" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Dominic Raab",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Dominic Raab",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24815/dominic_raab/esher_and_walton",
 			"electorate": 80938,
-			"turnout": 73.9,
+			"turnout": { "pc": 74.0, "value": 59894 },
 			"valid": 59842,
 			"spoiled": 52,
 			"majority": 23298
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Dominic Raab",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 79894,
-			"turnout": 71.6,
+			"turnout": { "pc":71.6, "value": 57165 },
 			"valid": 56976,
 			"spoiled": 189,
 			"majority": 28616

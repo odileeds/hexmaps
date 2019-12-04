@@ -2,7 +2,8 @@
 	"id": "E14000701",
 	"title": "Feltham and Heston",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4890,
 				"name": "Tony Firkins",
@@ -28,27 +29,24 @@
 				"name": "Martyn Nelson",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72541-f9f71681-0a3c-4c82-b08e-24723fab156f.png"
-			}],
-			"incumbent": {
-				"mp": "Seema Malhotra",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Seema Malhotra",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25150/seema_malhotra/feltham_and_heston",
 			"electorate": 81714,
-			"turnout": 64.9,
+			"turnout": { "pc": 65.0, "value": 53138 },
 			"valid": 53027,
 			"spoiled": 111,
 			"majority": 15603
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Seema Malhotra",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 82340,
-			"turnout": 60.2,
+			"turnout": { "pc":60.2, "value": 49547 },
 			"valid": 49405,
 			"spoiled": 142,
 			"majority": 11463

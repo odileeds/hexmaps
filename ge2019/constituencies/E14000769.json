@@ -2,7 +2,8 @@
 	"id": "E14000769",
 	"title": "Kettering",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1327,
 				"name": "Chris Nelson",
@@ -28,27 +29,24 @@
 				"name": "Clare Pavitt",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71502.png"
-			}],
-			"incumbent": {
-				"mp": "Philip Hollobone",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Philip Hollobone",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11661/philip_hollobone/kettering",
 			"electorate": 71440,
-			"turnout": 69.2,
+			"turnout": { "pc": 69.3, "value": 49524 },
 			"valid": 49404,
 			"spoiled": 120,
 			"majority": 10562
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Philip Hollobone",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 70155,
-			"turnout": 67.5,
+			"turnout": { "pc":67.5, "value": 47358 },
 			"valid": 47218,
 			"spoiled": 140,
 			"majority": 12590

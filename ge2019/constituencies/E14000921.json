@@ -2,7 +2,8 @@
 	"id": "E14000921",
 	"title": "Sheffield, Brightside and Hillsborough",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6930,
 				"name": "Christine Gilligan Kubo",
@@ -33,27 +34,24 @@
 				"name": "Hannah Juliette Westropp",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72148-a2d76588-f469-4ea0-a2bd-0f93d0f45ad6.png"
-			}],
-			"incumbent": {
-				"mp": "Gill Furniss",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gill Furniss",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25489/gill_furniss/sheffield%2C_brightside_and_hillsborough",
 			"electorate": 70344,
-			"turnout": 59.5,
+			"turnout": { "pc": 59.6, "value": 41940 },
 			"valid": 41870,
 			"spoiled": 70,
 			"majority": 19143
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Harry Harpham",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 70874,
-			"turnout": 56.7,
+			"turnout": { "pc":56.7, "value": 40202 },
 			"valid": 40053,
 			"spoiled": 149,
 			"majority": 13807

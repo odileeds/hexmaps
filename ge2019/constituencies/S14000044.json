@@ -2,7 +2,8 @@
 	"id": "S14000044",
 	"title": "Livingston",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4033,
 				"name": "Charles Dundas",
@@ -28,27 +29,24 @@
 				"name": "Caitlin Kane",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71918.png"
-			}],
-			"incumbent": {
-				"mp": "Hannah Bardell",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Hannah Bardell",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25409/hannah_bardell/livingston",
 			"electorate": 81208,
-			"turnout": 64.7,
+			"turnout": { "pc": 64.8, "value": 52589 },
 			"valid": 52505,
 			"spoiled": 84,
 			"majority": 3878
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Hannah Bardell",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 82373,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 57631 },
 			"valid": 57547,
 			"spoiled": 84,
 			"majority": 16843

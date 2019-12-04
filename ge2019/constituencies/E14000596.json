@@ -2,7 +2,8 @@
 	"id": "E14000596",
 	"title": "Brigg and Goole",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1356,
 				"name": "David Dobbie",
@@ -23,27 +24,24 @@
 				"name": "Majid Khan",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/23173.png"
-			}],
-			"incumbent": {
-				"mp": "Andrew Percy",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Andrew Percy",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24832/andrew_percy/brigg_and_goole",
 			"electorate": 66069,
-			"turnout": 68.2,
+			"turnout": { "pc": 68.3, "value": 45117 },
 			"valid": 45057,
 			"spoiled": 60,
 			"majority": 12363
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Andrew Percy",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 68488,
-			"turnout": 63.4,
+			"turnout": { "pc":63.4, "value": 43438 },
 			"valid": 43270,
 			"spoiled": 168,
 			"majority": 11176

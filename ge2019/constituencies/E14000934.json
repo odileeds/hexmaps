@@ -2,7 +2,8 @@
 	"id": "E14000934",
 	"title": "South Cambridgeshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6685,
 				"name": "Dan Greef",
@@ -24,21 +25,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Heidi Allen",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25348/heidi_allen/south_cambridgeshire",
 			"electorate": 85257,
-			"turnout": 76.2,
+			"turnout": { "pc": 76.3, "value": 65090 },
 			"valid": 64924,
 			"spoiled": 166,
 			"majority": 15952
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Heidi Allen",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 84132,
-			"turnout": 73.5,
+			"turnout": { "pc":73.5, "value": 61799 },
 			"valid": 61540,
 			"spoiled": 259,
 			"majority": 20594

@@ -2,7 +2,8 @@
 	"id": "E14000906",
 	"title": "Ruislip, Northwood and Pinner",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 34505,
 				"name": "Sarah Green",
@@ -38,27 +39,24 @@
 				"name": "Julian John Fitzwilliam Wilson",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72476-a1fcbfb6-0bd8-47ef-b1ac-bec95f20c60c.png"
-			}],
-			"incumbent": {
-				"mp": "Nick Hurd",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nick Hurd",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11792/nick_hurd/ruislip%2C_northwood_and_pinner",
 			"electorate": 73427,
-			"turnout": 72.7,
+			"turnout": { "pc": 72.9, "value": 53528 },
 			"valid": 53382,
 			"spoiled": 146,
 			"majority": 13980
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nick Hurd",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 73216,
-			"turnout": 70.2,
+			"turnout": { "pc":70.2, "value": 51381 },
 			"valid": 51222,
 			"spoiled": 159,
 			"majority": 20224

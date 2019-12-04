@@ -2,7 +2,8 @@
 	"id": "E14000597",
 	"title": "Brighton, Kemptown",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4371,
 				"name": "Lloyd Russell-Moyle",
@@ -28,27 +29,24 @@
 				"name": "Graham Cushway",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71927.png"
-			}],
-			"incumbent": {
-				"mp": "Lloyd Russell-Moyle",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lloyd Russell-Moyle",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25667/lloyd_russell-moyle/brighton%2C_kemptown",
 			"electorate": 67893,
-			"turnout": 72.5,
+			"turnout": { "pc": 72.7, "value": 49361 },
 			"valid": 49207,
 			"spoiled": 154,
 			"majority": 9868
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Simon Kirby",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 67858,
-			"turnout": 67.0,
+			"turnout": { "pc":67.0, "value": 45483 },
 			"valid": 45306,
 			"spoiled": 177,
 			"majority": 690

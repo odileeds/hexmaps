@@ -2,7 +2,8 @@
 	"id": "E14000944",
 	"title": "South Shields",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5539,
 				"name": "Emma Lewell-Buck",
@@ -15,9 +16,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/16076-54dd56f8-31d9-444d-815f-152894e47b81.png"
 			},{
 				"id": 39553,
-				"name": "Bill Shepherd",
+				"name": "William Shepherd",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/39553-6aa00e96-eb41-4f50-9e9d-240cb303b035.png"
 			},{
 				"id": 43920,
 				"name": "Oni Oviri",
@@ -33,27 +34,24 @@
 				"name": "Geoff Thompson",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72084-c8e9e83e-1668-4dc3-8a73-a7d31c4cdf1a.png"
-			}],
-			"incumbent": {
-				"mp": "Emma Lewell-Buck",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Emma Lewell-Buck",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25181/emma_lewell-buck/south_shields",
 			"electorate": 63433,
-			"turnout": 64.3,
+			"turnout": { "pc": 64.4, "value": 40849 },
 			"valid": 40772,
 			"spoiled": 77,
 			"majority": 14508
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Emma Lewell-Buck",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62730,
-			"turnout": 57.9,
+			"turnout": { "pc":57.9, "value": 36346 },
 			"valid": 36265,
 			"spoiled": 81,
 			"majority": 10614

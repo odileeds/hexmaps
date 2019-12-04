@@ -2,7 +2,8 @@
 	"id": "E14000645",
 	"title": "Colne Valley",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 294,
 				"name": "Melanie Roberts",
@@ -43,27 +44,24 @@
 				"name": "Sue Harrison",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Thelma Walker",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Thelma Walker",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25671/thelma_walker/colne_valley",
 			"electorate": 84387,
-			"turnout": 71.6,
+			"turnout": { "pc": 71.8, "value": 60578 },
 			"valid": 60420,
 			"spoiled": 158,
 			"majority": 915
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Jason McCartney",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 82516,
-			"turnout": 69.0,
+			"turnout": { "pc":69.0, "value": 56953 },
 			"valid": 56800,
 			"spoiled": 153,
 			"majority": 5378

@@ -2,7 +2,8 @@
 	"id": "E14000552",
 	"title": "Bedford",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3114,
 				"name": "Henry Vann",
@@ -28,27 +29,24 @@
 				"name": "Charles Spencer Bunker",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72275-d882cca2-fac1-49df-851e-a5155b0d1c5b.png"
-			}],
-			"incumbent": {
-				"mp": "Mohammad Yasin",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
-			"mp": "Mohammad Yasin",
+		"2017-06-08": {
+			"type": "general",
+			"mp": "Mohammad  Yasin",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25649/mohammad_yasin/bedford",
 			"electorate": 71829,
-			"turnout": 67.5,
+			"turnout": { "pc": 67.7, "value": 48656 },
 			"valid": 48480,
 			"spoiled": 176,
 			"majority": 789
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Richard Fuller",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69311,
-			"turnout": 66.9,
+			"turnout": { "pc":66.9, "value": 46344 },
 			"valid": 46086,
 			"spoiled": 258,
 			"majority": 1097

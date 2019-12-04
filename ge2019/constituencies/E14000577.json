@@ -2,7 +2,8 @@
 	"id": "E14000577",
 	"title": "Bolsover",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2467,
 				"name": "Dennis Skinner",
@@ -35,30 +36,27 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71313.png"
 			},{
 				"id": 72168,
-				"name": "Natalie Jane Hoy",
+				"name": "Natalie Hoy",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Dennis Skinner",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72168-26c25959-bd4f-45f1-a3ec-c63fecf99593.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Dennis Skinner",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10544/dennis_skinner/bolsover",
 			"electorate": 73429,
-			"turnout": 63.4,
+			"turnout": { "pc": 63.5, "value": 46626 },
 			"valid": 46519,
 			"spoiled": 107,
 			"majority": 5288
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Dennis Skinner",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 71979,
-			"turnout": 61.4,
+			"turnout": { "pc":61.4, "value": 44191 },
 			"valid": 43998,
 			"spoiled": 193,
 			"majority": 11778

@@ -2,7 +2,8 @@
 	"id": "E14000795",
 	"title": "Liverpool, Wavertree",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6881,
 				"name": "Adam Heatherington",
@@ -17,12 +18,12 @@
 				"id": 49755,
 				"name": "Kay Inckle",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49755.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/49755-28c2e3bf-5d5b-41f0-9bac-b9f08a1f8a8b.png"
 			},{
 				"id": 51203,
 				"name": "Mick Coyne",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51203-c12698bc-ab65-4c76-8261-be5a2f436a3c.png"
 			},{
 				"id": 71518,
 				"name": "Paula Barker",
@@ -30,30 +31,31 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71518.png"
 			},{
 				"id": 72319,
-				"name": "Catherine Riordan Mulhern",
+				"name": "Catherine Mulhern",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72319-fec5de08-b456-4673-813f-77cd0ecc3865.png"
 			}],
 			"incumbent": {
 				"mp": "Luciana Berger",
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Luciana Berger",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24924/luciana_berger/liverpool%2C_wavertree",
 			"electorate": 62411,
-			"turnout": 69.9,
+			"turnout": { "pc": 70.1, "value": 43759 },
 			"valid": 43640,
 			"spoiled": 119,
 			"majority": 29466
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Luciana Berger",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 61549,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 41136 },
 			"valid": 40974,
 			"spoiled": 162,
 			"majority": 24303

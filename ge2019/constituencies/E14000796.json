@@ -2,7 +2,8 @@
 	"id": "E14000796",
 	"title": "Liverpool, West Derby",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 2480,
 				"name": "Steve Radford",
@@ -33,27 +34,24 @@
 				"name": "Ray Pearson",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Stephen Twigg",
-				"party": { "code": "Lab", "title": "Labour/Co-operative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Twigg",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10611/stephen_twigg/liverpool%2C_west_derby",
 			"electorate": 65164,
-			"turnout": 69.3,
+			"turnout": { "pc": 69.5, "value": 45275 },
 			"valid": 45163,
 			"spoiled": 112,
 			"majority": 32908
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Twigg",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 63651,
-			"turnout": 64.7,
+			"turnout": { "pc":64.7, "value": 41163 },
 			"valid": 41031,
 			"spoiled": 132,
 			"majority": 27367

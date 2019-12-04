@@ -2,7 +2,8 @@
 	"id": "E14000937",
 	"title": "South East Cambridgeshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4228,
 				"name": "Lucy Frazer",
@@ -19,31 +20,28 @@
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/37510.png"
 			},{
-				"id": 72207,
+				"id": 70551,
 				"name": "Edmund John Fordham",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72207-12f84a62-b9dd-4543-8c2c-5828e67415de.png"
-			}],
-			"incumbent": {
-				"mp": "Lucy Frazer",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lucy Frazer",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25399/lucy_frazer/south_east_cambridgeshire",
 			"electorate": 86121,
-			"turnout": 73.2,
+			"turnout": { "pc": 73.4, "value": 63228 },
 			"valid": 63002,
 			"spoiled": 226,
 			"majority": 16158
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lucy Frazer",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 84570,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 59709 },
 			"valid": 59506,
 			"spoiled": 203,
 			"majority": 16837

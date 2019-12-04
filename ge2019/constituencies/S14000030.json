@@ -2,7 +2,8 @@
 	"id": "S14000030",
 	"title": "Glasgow East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6302,
 				"name": "James Harrison",
@@ -23,27 +24,24 @@
 				"name": "David Linden",
 				"party": { "code": "SNP", "title": "Scottish National Party (SNP)" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34515.png"
-			}],
-			"incumbent": {
-				"mp": "David Linden",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "David Linden",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25677/david_linden/glasgow_east",
 			"electorate": 66242,
-			"turnout": 54.6,
+			"turnout": { "pc": 54.7, "value": 36222 },
 			"valid": 36166,
 			"spoiled": 56,
 			"majority": 75
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Natalie McGarry",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 70378,
-			"turnout": 60.3,
+			"turnout": { "pc":60.3, "value": 42446 },
 			"valid": 42417,
 			"spoiled": 29,
 			"majority": 10387

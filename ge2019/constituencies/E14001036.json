@@ -2,7 +2,8 @@
 	"id": "E14001036",
 	"title": "Westminster North",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1311,
 				"name": "Karen Buck",
@@ -33,27 +34,24 @@
 				"name": "Jamie Macfarlane",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71734.png"
-			}],
-			"incumbent": {
-				"mp": "Karen Buck",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Karen Buck",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10075/karen_buck/westminster_north",
 			"electorate": 63846,
-			"turnout": 67.8,
+			"turnout": { "pc": 68.1, "value": 43487 },
 			"valid": 43295,
 			"spoiled": 192,
 			"majority": 11512
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Karen Buck",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 62346,
-			"turnout": 63.7,
+			"turnout": { "pc":63.7, "value": 39700 },
 			"valid": 39514,
 			"spoiled": 186,
 			"majority": 1977

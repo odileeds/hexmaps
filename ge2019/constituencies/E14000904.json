@@ -2,7 +2,8 @@
 	"id": "E14000904",
 	"title": "Rotherham",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 5542,
 				"name": "Sarah Champion",
@@ -12,43 +13,40 @@
 				"id": 18365,
 				"name": "Adam Jonathon Carter",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18365-6533f331-a654-40bb-8671-2552747d31f8.png"
 			},{
 				"id": 18444,
 				"name": "Paul Hague",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/18444-784e90eb-40c8-4a1d-892b-cc35ab0caa3a.png"
 			},{
 				"id": 59113,
 				"name": "Gerri Hickton",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/59113-bf5f89fe-1686-4b64-864d-5836e7d4f616.png"
 			},{
 				"id": 72118,
 				"name": "Dennis Bannan",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Sarah Champion",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Sarah Champion",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25168/sarah_champion/rotherham",
 			"electorate": 63237,
-			"turnout": 60.0,
+			"turnout": { "pc": 60.1, "value": 38006 },
 			"valid": 37923,
 			"spoiled": 83,
 			"majority": 11387
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Sarah Champion",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 63698,
-			"turnout": 59.6,
+			"turnout": { "pc":59.6, "value": 37976 },
 			"valid": 37823,
 			"spoiled": 153,
 			"majority": 8446

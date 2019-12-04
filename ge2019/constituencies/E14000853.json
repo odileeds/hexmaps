@@ -2,7 +2,8 @@
 	"id": "E14000853",
 	"title": "North Tyneside",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 103,
 				"name": "Chris Boyle",
@@ -28,27 +29,24 @@
 				"name": "Andrew Husband",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72145-72ea9495-0dda-40fa-bda1-61d4e41cc763.png"
-			}],
-			"incumbent": {
-				"mp": "Mary Glindon",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mary Glindon",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24927/mary_glindon/north_tyneside",
 			"electorate": 78914,
-			"turnout": 65.8,
+			"turnout": { "pc": 65.9, "value": 51984 },
 			"valid": 51892,
 			"spoiled": 92,
 			"majority": 19284
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mary Glindon",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 79300,
-			"turnout": 59.2,
+			"turnout": { "pc":59.2, "value": 46955 },
 			"valid": 46818,
 			"spoiled": 137,
 			"majority": 17194

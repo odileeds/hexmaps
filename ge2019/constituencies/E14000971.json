@@ -2,7 +2,8 @@
 	"id": "E14000971",
 	"title": "Stockton South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 7517,
 				"name": "Matt Vickers",
@@ -23,27 +24,24 @@
 				"name": "John Prescott",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71672.png"
-			}],
-			"incumbent": {
-				"mp": "Paul Williams",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Paul Williams",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25621/paul_williams/stockton_south",
 			"electorate": 75625,
-			"turnout": 71.2,
+			"turnout": { "pc": 71.3, "value": 53906 },
 			"valid": 53824,
 			"spoiled": 82,
 			"majority": 888
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Wharton",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 75111,
-			"turnout": 69.2,
+			"turnout": { "pc":69.2, "value": 51944 },
 			"valid": 51797,
 			"spoiled": 147,
 			"majority": 5046

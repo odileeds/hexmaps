@@ -2,7 +2,8 @@
 	"id": "E14000566",
 	"title": "Birmingham, Perry Barr",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3367,
 				"name": "Khalid Mahmood",
@@ -17,43 +18,40 @@
 				"id": 40611,
 				"name": "Gerard Jerome",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40611-052a98a2-28f5-457b-ab53-32eba318b396.png"
 			},{
 				"id": 71305,
 				"name": "Annette Willcox",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71305.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71305-3eef7f73-77ba-44f1-b6a3-c6c3dfb03bc7.png"
 			},{
 				"id": 72530,
 				"name": "Thomas Braich",
 				"party": { "code": "", "title": "Yeshua" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72530-fe5cf977-bbbe-4a8d-bf22-7496a58f5d5f.png"
 			},{
 				"id": 72531,
 				"name": "Raaj Shamji",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72531-d3d55b0e-a544-4e5a-b204-2bcb3ddbae1d.png"
-			}],
-			"incumbent": {
-				"mp": "Khalid Mahmood",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Khalid Mahmood",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11087/khalid_mahmood/birmingham%2C_perry_barr",
 			"electorate": 70106,
-			"turnout": 63.0,
+			"turnout": { "pc": 63.3, "value": 44361 },
 			"valid": 44197,
 			"spoiled": 164,
 			"majority": 18383
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Khalid Mahmood",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 69943,
-			"turnout": 59.4,
+			"turnout": { "pc":59.4, "value": 41532 },
 			"valid": 41260,
 			"spoiled": 272,
 			"majority": 14828

@@ -2,7 +2,8 @@
 	"id": "E14000790",
 	"title": "Leyton and Wanstead",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1878,
 				"name": "Ashley Gunstock",
@@ -33,27 +34,24 @@
 				"name": "Henry Scott",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72232-6494941e-08d5-46ed-86af-25d747a3123d.png"
-			}],
-			"incumbent": {
-				"mp": "John Cryer",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Cryer",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10143/john_cryer/leyton_and_wanstead",
 			"electorate": 65149,
-			"turnout": 70.9,
+			"turnout": { "pc": 71.1, "value": 46312 },
 			"valid": 46173,
 			"spoiled": 139,
 			"majority": 22607
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Cryer",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 64580,
-			"turnout": 63.3,
+			"turnout": { "pc":63.3, "value": 40874 },
 			"valid": 40703,
 			"spoiled": 171,
 			"majority": 14917

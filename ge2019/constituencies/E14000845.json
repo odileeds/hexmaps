@@ -2,7 +2,8 @@
 	"id": "E14000845",
 	"title": "North East Hertfordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3446,
 				"name": "Oliver Heald",
@@ -23,27 +24,24 @@
 				"name": "Amy Finch",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48228.png"
-			}],
-			"incumbent": {
-				"mp": "Oliver Heald",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Oliver Heald",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/10267/oliver_heald/north_east_hertfordshire",
 			"electorate": 75965,
-			"turnout": 73.2,
+			"turnout": { "pc": 73.4, "value": 55748 },
 			"valid": 55580,
 			"spoiled": 168,
 			"majority": 16835
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Oliver Heald",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74000,
-			"turnout": 70.9,
+			"turnout": { "pc":70.9, "value": 52483 },
 			"valid": 52287,
 			"spoiled": 196,
 			"majority": 19080

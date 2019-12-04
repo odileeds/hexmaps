@@ -2,7 +2,8 @@
 	"id": "E14000896",
 	"title": "Richmond Park",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 502,
 				"name": "Zac Goldsmith",
@@ -20,35 +21,32 @@
 				"img": ""
 			},{
 				"id": 48188,
-				"name": "Sandra Gay Keen",
+				"name": "Sandra Keen",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48188-395ed87a-5e1a-40f2-8e5c-b561ba00a097.png"
 			},{
 				"id": 72326,
 				"name": "Caroline Teresa Shah",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72326-f520e3b1-313c-4f4c-a860-79a94b1ff6f4.png"
-			}],
-			"incumbent": {
-				"mp": "Zac Goldsmith",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Zac Goldsmith",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24911/zac_goldsmith/richmond_park",
 			"electorate": 80025,
-			"turnout": 79.1,
+			"turnout": { "pc": 79.3, "value": 63461 },
 			"valid": 63330,
 			"spoiled": 131,
 			"majority": 45
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Zac Goldsmith",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 77303,
-			"turnout": 76.6,
+			"turnout": { "pc":76.6, "value": 59247 },
 			"valid": 59101,
 			"spoiled": 146,
 			"majority": 23015

@@ -2,7 +2,8 @@
 	"id": "E14000546",
 	"title": "Bassetlaw",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 49193,
 				"name": "Helen Tamblyn-Saville",
@@ -23,27 +24,24 @@
 				"name": "Debbie Soloman",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71847.png"
-			}],
-			"incumbent": {
-				"mp": "John Mann",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "John Mann",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11093/john_mann/bassetlaw",
 			"electorate": 78540,
-			"turnout": 66.5,
+			"turnout": { "pc": 66.7, "value": 52377 },
 			"valid": 52250,
 			"spoiled": 127,
 			"majority": 4852
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "John Mann",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 76796,
-			"turnout": 64.4,
+			"turnout": { "pc":64.4, "value": 49459 },
 			"valid": 49289,
 			"spoiled": 170,
 			"majority": 8843

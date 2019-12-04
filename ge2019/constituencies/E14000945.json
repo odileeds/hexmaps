@@ -2,7 +2,8 @@
 	"id": "E14000945",
 	"title": "South Staffordshire",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 769,
 				"name": "Gavin Williamson",
@@ -23,27 +24,24 @@
 				"name": "Chris Fewtrell",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71920.png"
-			}],
-			"incumbent": {
-				"mp": "Gavin Williamson",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gavin Williamson",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24729/gavin_williamson/south_staffordshire",
 			"electorate": 73441,
-			"turnout": 69.6,
+			"turnout": { "pc": 69.8, "value": 51296 },
 			"valid": 51109,
 			"spoiled": 187,
 			"majority": 22733
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gavin Williamson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72771,
-			"turnout": 68.4,
+			"turnout": { "pc":68.4, "value": 49751 },
 			"valid": 49598,
 			"spoiled": 153,
 			"majority": 20371

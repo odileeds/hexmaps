@@ -2,7 +2,8 @@
 	"id": "E14000890",
 	"title": "Reading West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3636,
 				"name": "Alok Sharma",
@@ -23,27 +24,24 @@
 				"name": "Jamie Whitham",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/35119.png"
-			}],
-			"incumbent": {
-				"mp": "Alok Sharma",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Alok Sharma",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24902/alok_sharma/reading_west",
 			"electorate": 74523,
-			"turnout": 69.5,
+			"turnout": { "pc": 69.7, "value": 51913 },
 			"valid": 51766,
 			"spoiled": 147,
 			"majority": 2876
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Alok Sharma",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 72567,
-			"turnout": 66.9,
+			"turnout": { "pc":66.9, "value": 48523 },
 			"valid": 48404,
 			"spoiled": 119,
 			"majority": 6650

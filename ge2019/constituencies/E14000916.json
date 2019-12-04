@@ -2,7 +2,8 @@
 	"id": "E14000916",
 	"title": "Sefton Central",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1961,
 				"name": "Bill Esterson",
@@ -38,27 +39,24 @@
 				"name": "Paul David Lomas",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Bill Esterson",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Bill Esterson",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24905/bill_esterson/sefton_central",
 			"electorate": 69019,
-			"turnout": 75.5,
+			"turnout": { "pc": 75.6, "value": 52207 },
 			"valid": 52079,
 			"spoiled": 128,
 			"majority": 15618
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Bill Esterson",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 67744,
-			"turnout": 72.7,
+			"turnout": { "pc":72.7, "value": 49221 },
 			"valid": 49021,
 			"spoiled": 200,
 			"majority": 11846

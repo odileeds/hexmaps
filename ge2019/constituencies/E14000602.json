@@ -2,7 +2,8 @@
 	"id": "E14000602",
 	"title": "Bristol West",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4281,
 				"name": "Thangam Debbonaire",
@@ -23,27 +24,24 @@
 				"name": "Neil Robert Hipkiss",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72327-757bbcb5-4dcb-45e7-98b5-f2d31ed2a875.png"
-			}],
-			"incumbent": {
-				"mp": "Thangam Debbonaire",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Thangam Debbonaire",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25402/thangam_debbonaire/bristol_west",
 			"electorate": 93003,
-			"turnout": 77.0,
+			"turnout": { "pc": 77.2, "value": 71782 },
 			"valid": 71608,
 			"spoiled": 174,
 			"majority": 37336
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Thangam Debbonaire",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 91236,
-			"turnout": 70.6,
+			"turnout": { "pc":70.6, "value": 64416 },
 			"valid": 64218,
 			"spoiled": 198,
 			"majority": 5673

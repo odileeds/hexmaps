@@ -2,7 +2,8 @@
 	"id": "S14000019",
 	"title": "East Kilbride, Strathaven and Lesmahagow",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 6047,
 				"name": "Lisa Cameron",
@@ -33,27 +34,24 @@
 				"name": "Ewan McRobert",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34679.png"
-			}],
-			"incumbent": {
-				"mp": "Lisa Cameron",
-				"party": { "code": "SNP", "title": "Scottish National Party" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Lisa Cameron",
 			"party": { "code": "SNP" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25276/lisa_cameron/east_kilbride%2C_strathaven_and_lesmahagow",
 			"electorate": 80442,
-			"turnout": 67.3,
+			"turnout": { "pc": 67.4, "value": 54183 },
 			"valid": 54102,
 			"spoiled": 81,
 			"majority": 3866
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Lisa Cameron",
 			"party": { "code": "SNP", "title": "Scottish National Party" },
 			"electorate": 83205,
-			"turnout": 72.8,
+			"turnout": { "pc":72.8, "value": 60603 },
 			"valid": 60539,
 			"spoiled": 64,
 			"majority": 16527

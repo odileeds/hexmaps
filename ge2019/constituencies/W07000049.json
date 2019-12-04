@@ -2,7 +2,8 @@
 	"id": "W07000049",
 	"title": "Aberavon",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 20,
 				"name": "Captain Beany",
@@ -15,7 +16,7 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/5481e791b150e238702c0545.png"
 			},{
 				"id": 5592,
-				"name": "Glenda Marie Davies",
+				"name": "Glenda Davies",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55256525413cb4432adffa42.png"
 			},{
@@ -38,27 +39,24 @@
 				"name": "Charlotte Lang",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72095.png"
-			}],
-			"incumbent": {
-				"mp": "Stephen Kinnock",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Stephen Kinnock",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25297/stephen_kinnock/aberavon",
 			"electorate": 49892,
-			"turnout": 66.7,
+			"turnout": { "pc": 66.8, "value": 33325 },
 			"valid": 33268,
 			"spoiled": 57,
 			"majority": 16761
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Stephen Kinnock",
 			"party": { "code": "Lab", "title": "Labour" },
 			"electorate": 49821,
-			"turnout": 63.4,
+			"turnout": { "pc":63.4, "value": 31580 },
 			"valid": 31523,
 			"spoiled": 57,
 			"majority": 10445

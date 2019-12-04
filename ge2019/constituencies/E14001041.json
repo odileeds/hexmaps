@@ -2,7 +2,8 @@
 	"id": "E14001041",
 	"title": "Winchester",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1009,
 				"name": "Steve Brine",
@@ -29,21 +30,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Steve Brine",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24901/steve_brine/winchester",
 			"electorate": 72497,
-			"turnout": 78.8,
+			"turnout": { "pc": 79.0, "value": 57256 },
 			"valid": 57156,
 			"spoiled": 100,
 			"majority": 9999
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Steve Brine",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74119,
-			"turnout": 74.9,
+			"turnout": { "pc":74.9, "value": 55481 },
 			"valid": 55316,
 			"spoiled": 165,
 			"majority": 16914

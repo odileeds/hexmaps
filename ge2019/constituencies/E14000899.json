@@ -2,12 +2,18 @@
 	"id": "E14000899",
 	"title": "Rochford and Southend East",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 787,
 				"name": "James Duddridge",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553500e3b247335574a42e4e.png"
+			},{
+				"id": 7034,
+				"name": "Keith Miller",
+				"party": { "code": "LD", "title": "Liberal Democrats" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71942-aa081791-3360-449c-945b-19afbdf34d23.png"
 			},{
 				"id": 7633,
 				"name": "Jason Pilley",
@@ -19,36 +25,28 @@
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34346.png"
 			},{
-				"id": 71942,
-				"name": "Keith Miller",
-				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
-			},{
 				"id": 72397,
 				"name": "Navin Kumar",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "James Duddridge",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "James Duddridge",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11785/james_duddridge/rochford_and_southend_east",
 			"electorate": 73501,
-			"turnout": 64.3,
+			"turnout": { "pc": 64.4, "value": 47323 },
 			"valid": 47248,
 			"spoiled": 75,
 			"majority": 5548
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "James Duddridge",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 71935,
-			"turnout": 60.8,
+			"turnout": { "pc":60.8, "value": 43772 },
 			"valid": 43608,
 			"spoiled": 164,
 			"majority": 9476

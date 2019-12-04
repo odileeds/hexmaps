@@ -2,7 +2,8 @@
 	"id": "E14000801",
 	"title": "Luton South",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1602,
 				"name": "Ben Foley",
@@ -17,7 +18,7 @@
 				"id": 61101,
 				"name": "John Rodney French",
 				"party": { "code": "", "title": "The Best For Luton Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/61101-d736d864-bfc6-4365-a5db-23e517cfc98a.png"
 			},{
 				"id": 61155,
 				"name": "Mohammed Ashraf",
@@ -44,21 +45,22 @@
 				"party": { "code": "Ind", "title": "Independent" }
 			}
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Gavin Shuker",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24847/gavin_shuker/luton_south",
 			"electorate": 67188,
-			"turnout": 68.7,
+			"turnout": { "pc": 68.8, "value": 46233 },
 			"valid": 46133,
 			"spoiled": 100,
 			"majority": 13925
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Gavin Shuker",
 			"party": { "code": "Lab", "title": "Labour and Co-operative" },
 			"electorate": 67741,
-			"turnout": 63.0,
+			"turnout": { "pc":63.0, "value": 42647 },
 			"valid": 42216,
 			"spoiled": 431,
 			"majority": 5711

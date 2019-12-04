@@ -2,7 +2,8 @@
 	"id": "E14001023",
 	"title": "Wealden",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 85,
 				"name": "Nus Ghani",
@@ -23,27 +24,24 @@
 				"name": "Georgia Taylor",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71997-71726490-add0-4463-9924-a6182e1c2627.png"
-			}],
-			"incumbent": {
-				"mp": "Nusrat Ghani",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Nusrat Ghani",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25354/nusrat_ghani/wealden",
 			"electorate": 81425,
-			"turnout": 74.3,
+			"turnout": { "pc": 74.4, "value": 60577 },
 			"valid": 60464,
 			"spoiled": 113,
 			"majority": 23628
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Nusrat Ghani",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 80236,
-			"turnout": 71.3,
+			"turnout": { "pc":71.3, "value": 57198 },
 			"valid": 57017,
 			"spoiled": 181,
 			"majority": 22967

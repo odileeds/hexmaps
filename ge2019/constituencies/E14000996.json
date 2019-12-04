@@ -2,7 +2,8 @@
 	"id": "E14000996",
 	"title": "Tiverton and Honiton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1638,
 				"name": "Neil Parish",
@@ -20,35 +21,32 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/51273.png"
 			},{
 				"id": 66242,
-				"name": "Elizabeth Pole",
+				"name": "Liz Pole",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/66242.png"
 			},{
 				"id": 72026,
 				"name": "Colin Reed",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Neil Parish",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72026-44880704-ade0-4e09-893c-cfaed5d6c8a9.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Neil Parish",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24779/neil_parish/tiverton_and_honiton",
 			"electorate": 80731,
-			"turnout": 71.6,
+			"turnout": { "pc": 71.8, "value": 57987 },
 			"valid": 57815,
 			"spoiled": 172,
 			"majority": 19801
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Neil Parish",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 76270,
-			"turnout": 71.0,
+			"turnout": { "pc":71.0, "value": 54141 },
 			"valid": 53763,
 			"spoiled": 378,
 			"majority": 20173

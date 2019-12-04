@@ -2,7 +2,8 @@
 	"id": "E14000987",
 	"title": "Tatton",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 3524,
 				"name": "Esther McVey",
@@ -17,33 +18,30 @@
 				"id": 71688,
 				"name": "Jonathan Smith",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71688-e905de57-e9af-4454-8f8d-23a79e1aa78c.png"
 			},{
 				"id": 71954,
 				"name": "James Weinberg",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Esther McVey",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71954-34bfa374-7a03-48bb-95eb-cd40a21cdf88.png"
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Esther McVey",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24882/esther_mcvey/tatton",
 			"electorate": 67874,
-			"turnout": 72.4,
+			"turnout": { "pc": 72.5, "value": 49220 },
 			"valid": 49116,
 			"spoiled": 104,
 			"majority": 14787
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "George Osborne",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 65004,
-			"turnout": 70.0,
+			"turnout": { "pc":70.0, "value": 45483 },
 			"valid": 45298,
 			"spoiled": 185,
 			"majority": 18241

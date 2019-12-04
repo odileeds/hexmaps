@@ -2,7 +2,8 @@
 	"id": "E14000835",
 	"title": "Newton Abbot",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1067,
 				"name": "Anne Marie Morris",
@@ -28,27 +29,24 @@
 				"name": "David Sydney Halpin",
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
-			}],
-			"incumbent": {
-				"mp": "Anne Marie Morris",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Anne Marie Morris",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/24912/anne_marie_morris/newton_abbot",
 			"electorate": 71714,
-			"turnout": 72.0,
+			"turnout": { "pc": 72.2, "value": 51768 },
 			"valid": 51637,
 			"spoiled": 131,
 			"majority": 17160
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Anne Marie Morris",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 69928,
-			"turnout": 69.3,
+			"turnout": { "pc":69.3, "value": 48453 },
 			"valid": 48253,
 			"spoiled": 200,
 			"majority": 11234

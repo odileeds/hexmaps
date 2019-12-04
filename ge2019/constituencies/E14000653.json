@@ -2,7 +2,8 @@
 	"id": "E14000653",
 	"title": "Crewe and Nantwich",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 4159,
 				"name": "Kieran John Mullan",
@@ -12,7 +13,7 @@
 				"id": 34382,
 				"name": "Laura Smith",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34382.png"
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34382-97b0d3a4-134a-4f2a-a091-f8ca5b02123b.png"
 			},{
 				"id": 53351,
 				"name": "Te Ata Browne",
@@ -27,33 +28,30 @@
 				"id": 71388,
 				"name": "Matthew Wood",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71388-ff5fbb65-1440-4a23-881c-fdf6872e0fb8.png"
 			},{
 				"id": 71899,
 				"name": "Andrew John Kinsman",
 				"party": { "code": "", "title": "Libertarian Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71899.png"
-			}],
-			"incumbent": {
-				"mp": "Laura Smith",
-				"party": { "code": "Lab", "title": "Labour" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Laura Smith",
 			"party": { "code": "Lab" },
-			"mysoc": "https://www.theyworkforyou.com/mp/25672/laura_smith/crewe_and_nantwich",
 			"electorate": 78895,
-			"turnout": 69.7,
+			"turnout": { "pc": 69.9, "value": 55128 },
 			"valid": 55027,
 			"spoiled": 101,
 			"majority": 48
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Edward Timpson",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74169,
-			"turnout": 67.6,
+			"turnout": { "pc":67.6, "value": 50109 },
 			"valid": 49896,
 			"spoiled": 213,
 			"majority": 3620

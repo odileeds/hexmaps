@@ -2,7 +2,8 @@
 	"id": "E14000739",
 	"title": "Hemel Hempstead",
 	"elections": {
-		"2019": {
+		"2019-12-12": {
+			"type": "general",
 			"candidates": [{
 				"id": 1330,
 				"name": "Mike Penning",
@@ -23,27 +24,24 @@
 				"name": "Nabila Ahmed",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71833.png"
-			}],
-			"incumbent": {
-				"mp": "Mike Penning",
-				"party": { "code": "Con", "title": "Conservative" }
-			}
+			}]
 		},
-		"2017": {
+		"2017-06-08": {
+			"type": "general",
 			"mp": "Mike Penning",
 			"party": { "code": "Con" },
-			"mysoc": "https://www.theyworkforyou.com/mp/11626/mike_penning/hemel_hempstead",
 			"electorate": 74415,
-			"turnout": 70.3,
+			"turnout": { "pc": 70.5, "value": 52433 },
 			"valid": 52282,
 			"spoiled": 151,
 			"majority": 9445
 		},
-		"2015": {
+		"2015-05-07": {
+			"type": "general",
 			"mp": "Mike Penning",
 			"party": { "code": "Con", "title": "Conservative" },
 			"electorate": 74616,
-			"turnout": 66.8,
+			"turnout": { "pc":66.8, "value": 49827 },
 			"valid": 49633,
 			"spoiled": 194,
 			"majority": 14420

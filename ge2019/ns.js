@@ -143,13 +143,18 @@ function ResultsMap(id,attr){
 	}
 
 	// Add events to map
-	this.hex.on('mouseover',function(e){
+	this.hex.on('mouseover',{'builder':this},function(e){
 
 		e.data.hexmap.regionFocus(e.data.region);
-
+		if(S('#tooltip').length==0) S('#'+e.data.builder.id+'-inner').append('<div id="tooltip"></div>');
+		var tooltip = S('#tooltip');
+		tooltip.html(e.data.builder.hex.hexes[e.data.region].attributes.title+'</div>');
+		var bb = e.data.builder.hex.hexes[e.data.region].el[0].getBoundingClientRect();
+		tooltip.css({'position':'absolute','left':''+Math.round(bb.left+bb.width-S('#'+e.data.builder.id)[0].offsetLeft)+'px','top':''+Math.round(bb.y+window.scrollY-S('#'+e.data.builder.id)[0].offsetTop)+'px'});
 	}).on('mouseout',{'builder':this},function(e){
 
 		e.data.hexmap.regionBlur(e.data.region);
+	//	S('#tooltip').remove();
 
 	}).on('click',{'builder':this},function(e){
 
@@ -193,6 +198,7 @@ function ResultsMap(id,attr){
 		function callback(title,region,data){
 			var lbl = this.hex.mapping.hexes[region].label;
 			var l = {};
+			console.log('callback')
 			if(popup && typeof popup.render==="function"){
 				l = popup.render.call(this,title,region,data);
 			}else{
@@ -225,8 +231,6 @@ function ResultsMap(id,attr){
 				'success': function(d,attr){
 					// Convert to JSON if CSV
 					if(attr.dataType=="text") d = CSV2JSON(d);
-					// Render the data
-					attr.render.call(this,attr.title,attr.region,d);
 					this.positionBubble();
 					if(typeof attr.callback==="function") attr.callback.call(this,attr.title,attr.region,d);
 				},

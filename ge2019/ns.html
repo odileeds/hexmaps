@@ -190,6 +190,8 @@
 	body.modal { overflow: hidden; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner svg { width: 5em; margin: auto; }
+	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; margin-left: 1em; margin-top: 0.5em; }
+	#tooltip:before { content: ""; border: 1em solid transparent; border-right: 1em solid black; left: 0; top: 1em; transform: translate3d(-2em,-1em,0); position: absolute; display: block; width: 0px; height: 0px; }
 
 	.controls { display: none; }
 

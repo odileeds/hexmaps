@@ -371,7 +371,7 @@
 
 	var views = {
 		'GE2019-results':{
-			'file': '2019-results.csv',
+			'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/2019-results.csv',
 			'live': true,
 			'process': function(type,data){
 				if(!this.data[type]) this.data[type] = {};
@@ -389,6 +389,7 @@
 				var _obj = this;
 				var key = "";
 				this.hex.setColours = function(region){
+					if(!_obj.data["GE2019-results"][region]) return parties.none.color;
 					r = _obj.data["GE2019-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					//else console.warn('No region',r,region,parties[r]);

@@ -357,6 +357,7 @@
 				lbl += '</table>';
 				tbl = '';
 				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout.pc+'% ('+(data.elections[yy].valid+(data.elections[yy].invalid||0)).toLocaleString()+')</td></tr>';
+				if(data.elections[yy].valid) tbl += '<tr><td>Valid votes:</td><td style="text-align:right">'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
 				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 

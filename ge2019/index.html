@@ -186,11 +186,15 @@
 	.infobubble .party-bar { height: 1.5em;float: left;display: inline-block;margin: 0 0.25em 2px 0; position: relative; top:0.1em; border:0px solid white; border-left: 1px solid white; }
 	.infobubble table { margin-bottom: 0.5em; }
 	.winner { display: flex; padding: 1em; margin-bottom: 0.5em; width: 100%; }
-	.winner .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
+	.infobubble .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
 	.bottom a, .bottom a:visited { color: inherit; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner svg { width: 5em; margin: auto; }
+	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; }
+	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
+	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; }
+	.infobubble .results tr { cursor: pointer; }
 
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
@@ -245,6 +249,7 @@
 		'PC':{'color':'#4FBA7C','title':'Plaid Cymru','short':'PC'},
 		'Ind':{'color':'#CCA7C6','title':'Independent','short':'IND'},
 		'DUP':{'color':'#BF3759','short':'DUP'},
+		'UUP':{'color':'#3b75a8','short':'UUP'},
 		'SF':{'color':'#2C604D','title':'Sinn Féin'},
 		'SDLP':{'color':'#53BC5B','short':'SDLP'},
 		'Alliance':{'color':'#EAA544','short':'ALLIANCE'},
@@ -393,9 +398,13 @@
 
 		function postRender(title,region,data){
 			S('#tooltip').remove();
+			var prev = -1;
 			S('.infobubble .results tr').on('click',{me:this,'region':region,'election':data.elections['2019-12-12']},function(e){
-				if(S('#tooltip').length==0){
-					var id = S(e.currentTarget).attr('candidate');
+				var id = S(e.currentTarget).attr('candidate');
+				if(id==prev){
+					S('#tooltip').remove();
+				}else{
+					S('#tooltip').remove();
 					var election = e.data.election;
 					var candidate = "";
 					var total = 0;
@@ -410,11 +419,8 @@
 					var td = S(e.currentTarget).find('td');
 					td.css({'position':'relative'}).append('<div id="tooltip">'+html+'</div>');
 					S('#tooltip').css({'position':'absolute','left':'50%','top':'100%'});
-				}else{
-					S('#tooltip').remove();
 				}
-			}).on('mouseleave',function(){
-				S('#tooltip').remove();
+				prev = id;
 			});
 		}
 

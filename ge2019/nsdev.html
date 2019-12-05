@@ -392,9 +392,13 @@
 
 		function postRender(title,region,data){
 			S('#tooltip').remove();
+			var prev = -1;
 			S('.infobubble .results tr').on('click',{me:this,'region':region,'election':data.elections['2019-12-12']},function(e){
-				if(S('#tooltip').length==0){
-					var id = S(e.currentTarget).attr('candidate');
+				var id = S(e.currentTarget).attr('candidate');
+				if(id==prev){
+					S('#tooltip').remove();
+				}else{
+					S('#tooltip').remove();
 					var election = e.data.election;
 					var candidate = "";
 					var total = 0;
@@ -409,11 +413,8 @@
 					var td = S(e.currentTarget).find('td');
 					td.css({'position':'relative'}).append('<div id="tooltip">'+html+'</div>');
 					S('#tooltip').css({'position':'absolute','left':'50%','top':'100%'});
-				}else{
-					S('#tooltip').remove();
 				}
-			}).on('mouseleave',function(){
-				S('#tooltip').remove();
+				prev = id;
 			});
 		}
 

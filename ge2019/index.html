@@ -356,7 +356,13 @@
 				}
 				lbl += '</table>';
 				tbl = '';
-				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout.pc+'% ('+(data.elections[yy].valid+(data.elections[yy].invalid||0)).toLocaleString()+')</td></tr>';
+				if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;
+				if(data.elections[yy].turnout){
+					tbl += '<tr><td>Turnout:</td><td style="text-align:right">';
+					if(data.elections[yy].turnout.pc) tbl += data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')';
+					else tbl += data.elections[yy].turnout.value.toLocaleString();
+					tbl += '</td></tr>';
+				}
 				if(data.elections[yy].valid) tbl += '<tr><td>Valid votes:</td><td style="text-align:right">'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
 				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
 				if(tbl) lbl += '<table>'+tbl+'</table>';
@@ -389,12 +395,6 @@
 			}
 		}
 
-		// Add bio
-		if(this.data['constituency-card']){
-			r = this.data['constituency-card'][region];
-			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
-		}
-		
 		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a> / <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>.</p>'
 
 		function postRender(title,region,data){

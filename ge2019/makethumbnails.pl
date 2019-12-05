@@ -5,6 +5,7 @@ use Text::CSV;
 use utf8;
 
 $file = "temp/candidates-parl.2019-12-12.csv";
+$size = "160";
 
 my $csv = Text::CSV->new ({ binary => 1 });
 open my $fh, "<", $file or die "$file: $!";
@@ -33,11 +34,16 @@ while (my $row = $csv->getline ($fh)) {
 			#`rm $ofile`;
 			if(-e $ofile){
 				print "Already processed\n";
-			}else{
-				`convert $file -thumbnail x160 -resize '160x<' -resize 50% -gravity center -crop 80x80+0+0 +repage -format jpg -quality 80 $ofile`;
+				`rm $ofile`;
+			}#else{
+				$s2 = $size*2;
+				$cmd = "convert -define jpeg:size=".$s2."x".$s2." $file -thumbnail ".$size."x".$size."^ -gravity center -extent ".$size."x".$size." -format jpg -quality 80 $ofile";
+#				$cmd = "convert $file -thumbnail x".$size." -resize '".$size."x<' -resize 50% -gravity center -crop ".$s2."x".$s2."+0+0 +repage -format jpg -quality 80 ".$ofile;
+				print $cmd."\n";
+				`$cmd`;
 #					print "ERROR: Unable to convert $file (".(!(-e $ofile)).") to $ofile\n";
 #				}
-			}
+			#}
 		}
 	}
 	$line++;

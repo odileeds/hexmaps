@@ -235,21 +235,22 @@
 	var constituencies;
 
 	var parties = {
-		'Con':{'color':'#0485A8','title':'Conservative','short':'Con'},
-		'Lab':{'color':'#DC4343','title':'Labour','short':'Lab'},
-		'LD':{'color':'#EAA544','title':'Lib Dem','short':'Lib'},
-		'Green':{'color':'#5EBD4C','short':'Green'},
-		'Brexit':{'color':'#0FA697','short':'Brx'},
+		'Con':{'color':'#0485A8','title':'Conservative','short':'CON'},
+		'Lab':{'color':'#DC4343','title':'Labour','short':'LAB'},
+		'LD':{'color':'#EAA544','title':'Lib Dem','short':'LIB'},
+		'Green':{'color':'#5EBD4C','short':'GREEN'},
+		'Brexit':{'color':'#0FA697','short':'BREXIT'},
 		'SNP':{'color':'#EBDB1C'},
 		'UKIP':{'color':'#73537A'},
 		'PC':{'color':'#4FBA7C','title':'Plaid Cymru','short':'PC'},
-		'Ind':{'color':'#CCA7C6','title':'Independent','short':'Ind'},
+		'Ind':{'color':'#CCA7C6','title':'Independent','short':'IND'},
 		'DUP':{'color':'#BF3759'},
 		'SF':{'color':'#2C604D','title':'Sinn Féin'},
 		'SDLP':{'color':'#53BC5B'},
-		'Alliance':{'color':'#EAA544','short':'Aln'},
+		'Alliance':{'color':'#EAA544','short':'ALLIANCE'},
 		'Spk':{'color':'#909090','title':'Speaker'},
 		'XSpk':{'color':'#909090','title':'Ex-Speaker'},
+		'Monster':{'color':'#dfdfdf','short':'MONSTER'},
 		'none':{'color':'#dfdfdf'}
 	};
 	
@@ -322,13 +323,18 @@
 				}).reverse();
 				
 				if(total > 0){
-					p1 = getPartyDetails(data.elections[yy].candidates[0].party);
+					var ccode = -1;
+					var img = "";
+					for(var c = 0; c < data.elections[yy].candidates.length; c++){
+						if(data.elections[yy].candidates[c].name == data.elections[yy].mp) img = data.elections[yy].candidates[c].img;
+					}
+					p1 = getPartyDetails(data.elections[yy].party);
 					p2 = getPartyDetails(lastge.party);
 					lbl += '<div class="winner" style="background-color:'+p1.color+';color:%COLOR%;">';
-					lbl += '<div class="image"><div style="background-image:url(\''+data.elections[yy].candidates[0].img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections[yy].candidates[0].name+'"></div></div>';
+					lbl += '<div class="image"><div style="background-image:url(\''+img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections[yy].mp+'"></div></div>';
 					lbl += '<div class="about">';
 					lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short)
-					lbl += '<br />'+data.elections[yy].candidates[0].name;
+					lbl += '<br />'+data.elections[yy].mp;
 					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
 					lbl += '</div></div>';
 				}

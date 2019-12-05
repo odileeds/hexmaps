@@ -282,13 +282,27 @@
 
 		lbl = '<h2 class="popup-title">'+(data.title||title)+'</h2>';
 		if(data.elections){
+
+			// Get a reverse-time-ordered list of elections
+			var elections = [];
+			for(var k in data.elections){
+				if(data.elections.hasOwnProperty(k)) elections.push(k);
+			}
+			elections.sort().reverse();
+			
+			incumbent = "";
+			changedIncumbent = false;
+			if(data.elections['2019-12-12'] && data.elections['2019-12-12'].incumbent){
+				incumbent = data.elections['2019-12-12'].incumbent;
+				changedIncumbent = true;
+			}else if(data.elections[elections[1]] && data.elections[elections[1]].party){
+				incumbent = data.elections[elections[1]];
+			}
+
+			// Current election
 			if(data.elections['2019-12-12']){
 				yy = "2019-12-12";
-				if(data.elections[yy].party){
-					p1 = getPartyDetails(data.elections[yy].party);
-					p2 = getPartyDetails(data.elections[yy].incumbent.party);
-					//if(data.elections[yy].party) lbl += '<div class="win" style="background-color:'+p1.color+';color:%COLOR%">'+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)+'</div>';
-				}else{
+				if(!data.elections[yy].party){
 					lbl += '<p>2019 Candidates:</p>';
 				}
 				total = 0;
@@ -305,10 +319,11 @@
 				
 				if(total > 0){
 					p1 = getPartyDetails(data.elections[yy].candidates[0].party);
+					p2 = getPartyDetails(incumbent.party);
 					lbl += '<div class="winner" style="background-color:'+p1.color+';color:%COLOR%;">';
 					lbl += '<div class="image"><div style="background-image:url(\''+data.elections[yy].candidates[0].img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections[yy].candidates[0].name+'"></div></div>';
 					lbl += '<div class="about">';
-					lbl += ''+p1.title+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.title)
+					lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short)
 					lbl += '<br />'+data.elections[yy].candidates[0].name;
 					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
 					lbl += '</div></div>';
@@ -319,31 +334,24 @@
 					p1 = getPartyDetails(party);
 					name = data.elections[yy].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections[yy].candidates[c].id;
-					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections[yy].candidates[c].votes)/total).toFixed()+'%;"></span>'+p1.short+': '+data.elections[yy].candidates[c].votes.toLocaleString()+'</td></tr>';
+					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections[yy].candidates[c].votes)/total).toFixed(2)+'%;"></span>'+p1.short+': '+data.elections[yy].candidates[c].votes.toLocaleString()+'</td></tr>';
 					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>';
 
 				}
 				lbl += '</table>';
 				tbl = '';
-				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
+				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout.pc+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
 				if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 
-				if(data.elections[yy].incumbent && (data.elections['2019-12-12'].incumbent.mp!=data.elections['2017-06-08'].mp || data.elections['2019-12-12'].incumbent.party.code!=data.elections['2017-06-08'].party.code)){
+				if(changedIncumbent){
 					lbl += '<h3 class="popup-title">Incumbent</h3><p>';
-					party = data.elections[yy].incumbent.party;
+					party = incumbent.party;
 					p1 = getPartyDetails(party);
-					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+data.elections['2019-12-12'].incumbent.mp+' - '+p1.title;
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+incumbent.mp+' - '+p1.title;
 				}
 				
 			}
-
-			// Get a reverse-time-ordered list of elections
-			var elections = [];
-			for(var k in data.elections){
-				if(data.elections.hasOwnProperty(k)) elections.push(k);
-			}
-			elections.sort().reverse();
 
 			for(var y = 0; y < elections.length; y++){
 				yy = elections[y];
@@ -371,7 +379,7 @@
 			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
 		}
 		
-		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>.</p>'
+		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a> / <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>.</p>'
 
 		return {'label':lbl,'class':'generalelection','color':wincolour||''};
 	}

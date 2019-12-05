@@ -74,8 +74,6 @@
 	a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
 	.c10-bg { background-color: #c1002a; }
 	.b5-bg { background-color: #efefef; }
-	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; }
-	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
 	
 	#hexmap {
 		margin: auto;
@@ -186,11 +184,17 @@
 	.infobubble .party-bar { height: 1.5em;float: left;display: inline-block;margin: 0 0.25em 2px 0; position: relative; top:0.1em; border:0px solid white; border-left: 1px solid white; }
 	.infobubble table { margin-bottom: 0.5em; }
 	.winner { display: flex; padding: 1em; margin-bottom: 0.5em; width: 100%; }
-	.winner .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
+	.infobubble .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
 	.bottom a, .bottom a:visited { color: inherit; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner svg { width: 5em; margin: auto; }
+	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; }
+	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
+	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; }
+	.infobubble .results tr { cursor: pointer; }
+
+	.controls { display: none; }
 
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
@@ -205,9 +209,11 @@
 			transform: none;
 			position: fixed;
 			margin-right: 0px;
+			transition: 0s;
 		}
 		.generalelection { max-width: 100%; }
 		body.modal { overflow: hidden; }
+
 	}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
@@ -427,10 +433,9 @@
 		return got;
 	}
 
-
 	var views = {
 		'GE2019-results':{
-			'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/test/2019-results.csv',
+			'file': '2019-results.csv',
 			'live': true,
 			'process': function(type,data){
 				if(!this.data[type]) this.data[type] = {};
@@ -444,8 +449,7 @@
 				}
 			},
 			'popup': {
-				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/test/%region%.json',
-				//'file': 'constituencies/%region%.json',
+				'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': render
 			},
@@ -453,7 +457,6 @@
 				var _obj = this;
 				var key = "";
 				this.hex.setColours = function(region){
-					if(!_obj.data["GE2019-results"][region]) return parties.none.color;
 					r = _obj.data["GE2019-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					//else console.warn('No region',r,region,parties[r]);
@@ -517,7 +520,7 @@
 					r = _obj.data["GE2017-results"][region].party;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					else console.warn('No region',r,region,parties[r]);
-					return (parties[r] ? parties[r].color||parties.none.color : parties.none.color);
+					return (parties[r].color || parties.none.color);
 				}
 				got = validParties(_obj,'GE2017-results');
 				for(var party in parties){
@@ -548,6 +551,7 @@
 						r = _obj.data["GE2015-results"][region].party;
 						if(r) r = r.replace(/[\n\r]/g,"");
 					}else console.warn('No region',r,region,parties[r]);
+					if(!parties[r]) console.warn('No party colour for '+r)
 					return (parties[r] ? parties[r].color||parties.none.color : parties.none.color);
 				}
 				got = validParties(_obj,'GE2015-results');
@@ -567,6 +571,7 @@
 		'views': views,
 		'search':{'id':'search'}
 	});
+	
 	</script>
 </body>
 </html>

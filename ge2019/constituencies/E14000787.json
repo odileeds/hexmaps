@@ -4,61 +4,49 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
-			"mp": "Ade Fatukasi",
-			"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-			"majority": 13,
 			"candidates": [{
 				"id": 7412,
 				"name": "Maureen Martin",
-				"votes": 190,
 				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/55390bcf539d9492693b0977.png"
 			},{
 				"id": 40161,
 				"name": "Ade Fatukasi",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
-				"votes": 2456,
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/40161.png"
 			},{
 				"id": 44584,
 				"name": "Sam Thurgood",
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"votes": 12000,
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/44584-b937aa0b-9d88-496c-9df3-ce13450a9379.png"
 			},{
 				"id": 45229,
 				"name": "Janet Daby",
 				"party": { "code": "Lab", "title": "Labour Party" },
-				"votes": 11987,
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/45229.png"
 			},{
 				"id": 48952,
 				"name": "Rosamund Adoo-Kissi-Debrah",
 				"party": { "code": "Green", "title": "Green Party" },
-				"votes": 567,
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/48952.png"
 			},{
 				"id": 72342,
 				"name": "Mark Barber",
 				"party": { "code": "Ind", "title": "Independent" },
-				"votes": 134,
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72342-2630c15b-41c0-477f-8d1f-e79f3bd387ce.png"
 			},{
 				"id": 72343,
 				"name": "Richard Galloway",
-				"votes": 27,
 				"party": { "code": "", "title": "Young People's Party YPP" },
 				"img": ""
 			},{
 				"id": 72344,
 				"name": "Elder Roger N M Mighton",
-				"votes": 87,
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": ""
 			},{
 				"id": 72345,
 				"name": "Wesley Derek Bruce Pollard",
-				"votes": 1198,
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": ""
 			}]

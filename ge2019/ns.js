@@ -200,7 +200,6 @@ function ResultsMap(id,attr){
 		function callback(title,region,data){
 			var lbl = this.hex.mapping.hexes[region].label;
 			var l = {};
-			console.log('callback')
 			if(popup && typeof popup.render==="function"){
 				l = popup.render.call(this,title,region,data);
 			}else{
@@ -216,6 +215,7 @@ function ResultsMap(id,attr){
 			S('.infobubble .close').remove();
 			S('.infobubble').prepend('<button class="close button" title="Close constituency information">&times;</button>');
 			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.closeActive(); });
+			if(typeof l.callback==="function") l.callback.call(this,title,region,data);
 			return this;
 		}
 		// May need to load data first
@@ -287,6 +287,9 @@ function ResultsMap(id,attr){
 				},
 				'error': function(e,attr){
 					console.error('Unable to load '+attr.url);
+					// Process the data
+					attr.process.call(this,attr.type,[]);
+					if(typeof attr.callback==="function") attr.callback.call(this,attr.type);
 				}
 			});
 			

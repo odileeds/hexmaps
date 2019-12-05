@@ -286,8 +286,10 @@
 			elections.sort().reverse();
 			
 			incumbent = "";
+			changedIncumbent = false;
 			if(data.elections['2019-12-12'] && data.elections['2019-12-12'].incumbent){
 				incumbent = data.elections['2019-12-12'].incumbent;
+				changedIncumbent = true;
 			}else if(data.elections[elections[1]] && data.elections[elections[1]].party){
 				incumbent = data.elections[elections[1]];
 			}
@@ -328,7 +330,7 @@
 					p1 = getPartyDetails(party);
 					name = data.elections[yy].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections[yy].candidates[c].id;
-					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections[yy].candidates[c].votes)/total).toFixed()+'%;"></span>'+p1.short+': '+data.elections[yy].candidates[c].votes.toLocaleString()+'</td></tr>';
+					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections[yy].candidates[c].votes)/total).toFixed(2)+'%;"></span>'+p1.short+': '+data.elections[yy].candidates[c].votes.toLocaleString()+'</td></tr>';
 					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>';
 
 				}
@@ -338,7 +340,7 @@
 				if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 
-				if(incumbent && (incumbent.mp!=data.elections['2017-06-08'].mp || incumbent.party.code!=data.elections['2017-06-08'].party.code)){
+				if(changedIncumbent){
 					lbl += '<h3 class="popup-title">Incumbent</h3><p>';
 					party = incumbent.party;
 					p1 = getPartyDetails(party);
@@ -404,8 +406,8 @@
 				}
 			},
 			'popup': {
-				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/%region%.json',
-				//'file': 'constituencies/%region%.json',
+				//'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/%region%.json',
+				'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': render
 			},

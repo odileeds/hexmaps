@@ -74,8 +74,8 @@
 	a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
 	.c10-bg { background-color: #c1002a; }
 	.b5-bg { background-color: #efefef; }
-	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; margin-left: 1em; margin-top: 0.5em; }
-	#tooltip:before { content: ""; border: 1em solid transparent; border-right: 1em solid black; left: 0; top: 1em; transform: translate3d(-2em,-1em,0); position: absolute; display: block; width: 0px; height: 0px; }
+	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; }
+	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
 	
 	#hexmap {
 		margin: auto;

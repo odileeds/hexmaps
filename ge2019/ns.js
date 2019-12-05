@@ -146,11 +146,13 @@ function ResultsMap(id,attr){
 	this.hex.on('mouseover',{'builder':this},function(e){
 
 		e.data.hexmap.regionFocus(e.data.region);
+
 		if(S('#tooltip').length==0) S('#'+e.data.builder.id+'-inner').append('<div id="tooltip"></div>');
 		var tooltip = S('#tooltip');
 		tooltip.html(e.data.builder.hex.hexes[e.data.region].attributes.title+'</div>');
 		var bb = e.data.builder.hex.hexes[e.data.region].el[0].getBoundingClientRect();
-		tooltip.css({'position':'absolute','left':''+Math.round(bb.left+bb.width-S('#'+e.data.builder.id)[0].offsetLeft)+'px','top':''+Math.round(bb.y+window.scrollY-S('#'+e.data.builder.id)[0].offsetTop)+'px'});
+		tooltip.css({'position':'absolute','left':''+Math.round(bb.left+(bb.width/2)-S('#'+e.data.builder.id)[0].offsetLeft)+'px','top':''+Math.round(bb.y+bb.height+window.scrollY-S('#'+e.data.builder.id)[0].offsetTop)+'px'});
+
 	}).on('mouseout',{'builder':this},function(e){
 
 		e.data.hexmap.regionBlur(e.data.region);

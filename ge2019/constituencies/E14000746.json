@@ -33,7 +33,7 @@
 			"electorate": 61053,
 			"turnout": { "pc": 75.8, "value": 46303 },
 			"valid": 46224,
-			"spoiled": 79,
+			"invalid": 79,
 			"majority": 9236
 		},
 		"2015-05-07": {
@@ -43,7 +43,7 @@
 			"electorate": 59708,
 			"turnout": { "pc":72.7, "value": 43427 },
 			"valid": 43345,
-			"spoiled": 82,
+			"invalid": 82,
 			"majority": 12031
 		}
 	}

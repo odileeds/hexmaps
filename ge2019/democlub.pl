@@ -335,7 +335,7 @@ foreach $pcd (sort(keys(%con))){
 			print FILE "\t\t\t\"party\": { \"code\": \"$con{$pcd}{'byelection-party_abbreviation'}\", \"title\": \"$con{$pcd}{'byelection-party_name'}\" },\n";
 			print FILE "\t\t\t\"turnout\": { \"pc\": $con{$pcd}{'byelection-turnout_pc'}, \"value\": ".($con{$pcd}{'byelection-valid'}+$con{$pcd}{'byelection-invalid'})." },\n";
 			print FILE "\t\t\t\"valid\": $con{$pcd}{'byelection-valid'},\n";
-			print FILE "\t\t\t\"spoiled\": $con{$pcd}{'byelection-invalid'},\n";
+			print FILE "\t\t\t\"invalid\": $con{$pcd}{'byelection-invalid'},\n";
 			print FILE "\t\t\t\"majority\": $con{$pcd}{'byelection-majority'}\n";
 			print FILE "\t\t},\n";
 		}
@@ -351,7 +351,7 @@ foreach $pcd (sort(keys(%con))){
 		}
 		print FILE "\"value\": ".($con{$pcd}{'2017-valid_votes'}+$con{$pcd}{'2017-invalid_votes'})." },\n";
 		print FILE "\t\t\t\"valid\": $con{$pcd}{'2017-valid_votes'},\n";
-		print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2017-invalid_votes'},\n";
+		print FILE "\t\t\t\"invalid\": $con{$pcd}{'2017-invalid_votes'},\n";
 		print FILE "\t\t\t\"majority\": $con{$pcd}{'2017-majority'}\n";
 		print FILE "\t\t},\n";
 		print FILE "\t\t\"2015-05-07\": {\n";
@@ -365,7 +365,7 @@ foreach $pcd (sort(keys(%con))){
 		}
 		print FILE "\t\t\t\"turnout\": { \"pc\":".sprintf("%0.1f",$elect).", \"value\": ".($con{$pcd}{'2015-valid_votes'}+$con{$pcd}{'2015-invalid_votes'})." },\n";
 		print FILE "\t\t\t\"valid\": $con{$pcd}{'2015-valid_votes'},\n";
-		print FILE "\t\t\t\"spoiled\": $con{$pcd}{'2015-invalid_votes'},\n";
+		print FILE "\t\t\t\"invalid\": $con{$pcd}{'2015-invalid_votes'},\n";
 		print FILE "\t\t\t\"majority\": $con{$pcd}{'2015-majority'}\n";
 		print FILE "\t\t}\n";
 		print FILE "\t}\n";

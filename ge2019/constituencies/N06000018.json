@@ -47,7 +47,7 @@
 			"party": { "code": "SF", "title": "Sinn Féin" },
 			"turnout": { "pc": 55.13, "value": 35334 },
 			"valid": 35029,
-			"spoiled": 305,
+			"invalid": 305,
 			"majority": 7956
 		},
 		"2017-06-08": {
@@ -57,7 +57,7 @@
 			"electorate": 64009,
 			"turnout": { "pc": 68.2, "value": 43675 },
 			"valid": 43486,
-			"spoiled": 189,
+			"invalid": 189,
 			"majority": 10342
 		},
 		"2015-05-07": {
@@ -67,7 +67,7 @@
 			"electorate": 63856,
 			"turnout": { "pc":61.1, "value": 39007 },
 			"valid": 38654,
-			"spoiled": 353,
+			"invalid": 353,
 			"majority": 10060
 		}
 	}

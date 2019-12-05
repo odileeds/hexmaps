@@ -335,8 +335,8 @@
 				}
 				lbl += '</table>';
 				tbl = '';
-				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout.pc+'% ('+(data.elections[yy].valid+(data.elections[yy].spoiled||0)).toLocaleString()+')</td></tr>';
-				if(data.elections[yy].spoiled) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].spoiled.toLocaleString()+'</td></tr>';
+				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout.pc+'% ('+(data.elections[yy].valid+(data.elections[yy].invalid||0)).toLocaleString()+')</td></tr>';
+				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 
 				if(changedIncumbent){
@@ -362,7 +362,7 @@
 					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
 					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
 					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')<br />';
-					if(data.elections[yy].spoiled) lbl += 'Invalid votes: '+data.elections[yy].spoiled.toLocaleString()+'<br />';
+					if(data.elections[yy].invalid) lbl += 'Invalid votes: '+data.elections[yy].invalid.toLocaleString()+'<br />';
 					lbl += '</p>';
 				}
 			}

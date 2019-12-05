@@ -42,7 +42,7 @@
 			"party": { "code": "Lab", "title": "Labour" },
 			"turnout": { "pc": 37.1, "value": 23615 },
 			"valid": 23515,
-			"spoiled": 100,
+			"invalid": 100,
 			"majority": 1951
 		},
 		"2017-06-08": {
@@ -52,7 +52,7 @@
 			"electorate": 64399,
 			"turnout": { "pc": 67.6, "value": 43518 },
 			"valid": 43438,
-			"spoiled": 80,
+			"invalid": 80,
 			"majority": 5658
 		},
 		"2015-05-07": {
@@ -62,7 +62,7 @@
 			"electorate": 62137,
 			"turnout": { "pc":65.1, "value": 40423 },
 			"valid": 40347,
-			"spoiled": 76,
+			"invalid": 76,
 			"majority": 3510
 		}
 	}

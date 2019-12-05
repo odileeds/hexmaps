@@ -238,7 +238,7 @@
 		'Con':{'color':'#0485A8','title':'Conservative','short':'Con'},
 		'Lab':{'color':'#DC4343','title':'Labour','short':'Lab'},
 		'LD':{'color':'#EAA544','title':'Lib Dem','short':'Lib'},
-		'Green':{'color':'#5EBD4C','short':'Grn'},
+		'Green':{'color':'#5EBD4C','short':'Green'},
 		'Brexit':{'color':'#0FA697','short':'Brx'},
 		'SNP':{'color':'#EBDB1C'},
 		'UKIP':{'color':'#73537A'},
@@ -293,6 +293,7 @@
 				incumbent = data.elections['2019-12-12'].incumbent;
 			//}else if(data.elections[elections[1]] && data.elections[elections[1]].party){
 			//	incumbent = data.elections[elections[1]];
+				lastge = data.elections['2019-12-12'].incumbent;
 			}
 			for(var i = 1; i < elections.length; i++){
 				if(data.elections[elections[i]].type=="general"){

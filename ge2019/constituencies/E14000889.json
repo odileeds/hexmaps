@@ -2,11 +2,10 @@
 	"id": "E14000889",
 	"title": "Reading East",
 	"demographics": {
-		"leave": 38.24,
 		"withdegree": 29.65,
-		"age18-29": 23.83,
 		"2015UKIP": 7.22,
-		"2016Leave": 38.24
+		"age18-29": 23.83,
+		"leave": 38.24
 	},
 	"elections": {
 		"2019-12-12": {

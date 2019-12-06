@@ -2,11 +2,10 @@
 	"id": "E14000936",
 	"title": "South Dorset",
 	"demographics": {
-		"leave": 59.49,
 		"withdegree": 11.28,
-		"age18-29": 12.96,
 		"2015UKIP": 15.03,
-		"2016Leave": 59.49
+		"age18-29": 12.96,
+		"leave": 59.49
 	},
 	"elections": {
 		"2019-12-12": {

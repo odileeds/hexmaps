@@ -2,11 +2,10 @@
 	"id": "E14000755",
 	"title": "Hove",
 	"demographics": {
-		"leave": 33.92,
 		"withdegree": 28.67,
-		"age18-29": 16.18,
 		"2015UKIP": 6.25,
-		"2016Leave": 33.92
+		"age18-29": 16.18,
+		"leave": 33.92
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000869",
 	"title": "Old Bexley and Sidcup",
 	"demographics": {
-		"leave": 63.16,
 		"withdegree": 12.66,
-		"age18-29": 14.7,
 		"2015UKIP": 18.24,
-		"2016Leave": 63.16
+		"age18-29": 14.7,
+		"leave": 63.16
 	},
 	"elections": {
 		"2019-12-12": {

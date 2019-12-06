@@ -2,11 +2,10 @@
 	"id": "E14000656",
 	"title": "Croydon South",
 	"demographics": {
-		"leave": 45.81,
 		"withdegree": 23.22,
-		"age18-29": 14.61,
 		"2015UKIP": 10.51,
-		"2016Leave": 45.81
+		"age18-29": 14.61,
+		"leave": 45.81
 	},
 	"elections": {
 		"2019-12-12": {

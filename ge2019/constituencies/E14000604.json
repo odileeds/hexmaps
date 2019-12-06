@@ -2,11 +2,10 @@
 	"id": "E14000604",
 	"title": "Bromley and Chislehurst",
 	"demographics": {
-		"leave": 49.83,
 		"withdegree": 22.42,
-		"age18-29": 13.43,
 		"2015UKIP": 14.26,
-		"2016Leave": 49.83
+		"age18-29": 13.43,
+		"leave": 49.83
 	},
 	"elections": {
 		"2019-12-12": {

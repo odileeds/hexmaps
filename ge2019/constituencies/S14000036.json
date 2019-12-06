@@ -2,9 +2,8 @@
 	"id": "S14000036",
 	"title": "Glenrothes",
 	"demographics": {
-		"leave": 46.46,
 		"age18-29": 13.92,
-		"2016Leave": 46.46
+		"leave": 46.46
 	},
 	"elections": {
 		"2019-12-12": {

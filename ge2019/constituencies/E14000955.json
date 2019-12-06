@@ -2,11 +2,10 @@
 	"id": "E14000955",
 	"title": "Southampton, Itchen",
 	"demographics": {
-		"leave": 59.96,
 		"withdegree": 12.88,
-		"age18-29": 23.09,
 		"2015UKIP": 13.44,
-		"2016Leave": 59.96
+		"age18-29": 23.09,
+		"leave": 59.96
 	},
 	"elections": {
 		"2019-12-12": {

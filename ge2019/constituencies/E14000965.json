@@ -2,11 +2,10 @@
 	"id": "E14000965",
 	"title": "Stafford",
 	"demographics": {
-		"leave": 57.22,
 		"withdegree": 15.53,
-		"age18-29": 15.35,
 		"2015UKIP": 12.9,
-		"2016Leave": 57.22
+		"age18-29": 15.35,
+		"leave": 57.22
 	},
 	"elections": {
 		"2019-12-12": {

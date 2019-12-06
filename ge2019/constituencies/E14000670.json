@@ -2,11 +2,10 @@
 	"id": "E14000670",
 	"title": "Dover",
 	"demographics": {
-		"leave": 63.13,
 		"withdegree": 10.34,
-		"age18-29": 13.19,
 		"2015UKIP": 20.26,
-		"2016Leave": 63.13
+		"age18-29": 13.19,
+		"leave": 63.13
 	},
 	"elections": {
 		"2019-12-12": {

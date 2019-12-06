@@ -2,11 +2,10 @@
 	"id": "E14000961",
 	"title": "St Austell and Newquay",
 	"demographics": {
-		"leave": 63.51,
 		"withdegree": 9.53,
-		"age18-29": 12.87,
 		"2015UKIP": 16.88,
-		"2016Leave": 63.51
+		"age18-29": 12.87,
+		"leave": 63.51
 	},
 	"elections": {
 		"2019-12-12": {

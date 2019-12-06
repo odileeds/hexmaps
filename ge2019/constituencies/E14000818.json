@@ -2,11 +2,10 @@
 	"id": "E14000818",
 	"title": "Mid Worcestershire",
 	"demographics": {
-		"leave": 58.94,
 		"withdegree": 14.8,
-		"age18-29": 11.79,
 		"2015UKIP": 17.68,
-		"2016Leave": 58.94
+		"age18-29": 11.79,
+		"leave": 58.94
 	},
 	"elections": {
 		"2019-12-12": {

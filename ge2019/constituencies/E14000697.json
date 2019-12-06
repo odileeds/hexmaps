@@ -2,11 +2,10 @@
 	"id": "E14000697",
 	"title": "Esher and Walton",
 	"demographics": {
-		"leave": 41.63,
 		"withdegree": 31.37,
-		"age18-29": 10.47,
 		"2015UKIP": 9.74,
-		"2016Leave": 41.63
+		"age18-29": 10.47,
+		"leave": 41.63
 	},
 	"elections": {
 		"2019-12-12": {

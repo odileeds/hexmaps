@@ -2,11 +2,10 @@
 	"id": "E14000609",
 	"title": "Burnley",
 	"demographics": {
-		"leave": 66.61,
 		"withdegree": 8.59,
-		"age18-29": 15.57,
 		"2015UKIP": 17.27,
-		"2016Leave": 66.61
+		"age18-29": 15.57,
+		"leave": 66.61
 	},
 	"elections": {
 		"2019-12-12": {

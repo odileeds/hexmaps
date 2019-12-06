@@ -2,10 +2,9 @@
 	"id": "S14000050",
 	"title": "Ochil and South Perthshire",
 	"demographics": {
-		"leave": 39.25,
-		"age18-29": 11.97,
 		"2015UKIP": 2.3,
-		"2016Leave": 39.25
+		"age18-29": 11.97,
+		"leave": 39.25
 	},
 	"elections": {
 		"2019-12-12": {

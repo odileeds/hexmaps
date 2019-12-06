@@ -2,11 +2,10 @@
 	"id": "E14000559",
 	"title": "Birkenhead",
 	"demographics": {
-		"leave": 51.71,
 		"withdegree": 10.87,
-		"age18-29": 15.69,
 		"2015UKIP": 9.8,
-		"2016Leave": 51.71
+		"age18-29": 15.69,
+		"leave": 51.71
 	},
 	"elections": {
 		"2019-12-12": {

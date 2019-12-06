@@ -2,11 +2,10 @@
 	"id": "E14000672",
 	"title": "Dudley South",
 	"demographics": {
-		"leave": 70.42,
 		"withdegree": 7.92,
-		"age18-29": 14.73,
 		"2015UKIP": 18.94,
-		"2016Leave": 70.42
+		"age18-29": 14.73,
+		"leave": 70.42
 	},
 	"elections": {
 		"2019-12-12": {

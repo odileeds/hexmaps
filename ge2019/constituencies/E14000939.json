@@ -2,11 +2,10 @@
 	"id": "E14000939",
 	"title": "South Holland and The Deepings",
 	"demographics": {
-		"leave": 71.18,
 		"withdegree": 7.42,
-		"age18-29": 12.31,
 		"2015UKIP": 21.82,
-		"2016Leave": 71.18
+		"age18-29": 12.31,
+		"leave": 71.18
 	},
 	"elections": {
 		"2019-12-12": {

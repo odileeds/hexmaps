@@ -2,11 +2,10 @@
 	"id": "E14001013",
 	"title": "Walthamstow",
 	"demographics": {
-		"leave": 33.49,
 		"withdegree": 24,
-		"age18-29": 20.25,
 		"2015UKIP": 6,
-		"2016Leave": 33.49
+		"age18-29": 20.25,
+		"leave": 33.49
 	},
 	"elections": {
 		"2019-12-12": {

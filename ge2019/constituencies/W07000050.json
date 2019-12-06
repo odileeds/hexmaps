@@ -2,11 +2,10 @@
 	"id": "W07000050",
 	"title": "Cardiff Central",
 	"demographics": {
-		"leave": 30.35,
 		"withdegree": 26.48,
-		"age18-29": 40.06,
 		"2015UKIP": 6.47,
-		"2016Leave": 30.35
+		"age18-29": 40.06,
+		"leave": 30.35
 	},
 	"elections": {
 		"2019-12-12": {

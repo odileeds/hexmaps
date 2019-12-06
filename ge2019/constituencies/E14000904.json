@@ -2,11 +2,10 @@
 	"id": "E14000904",
 	"title": "Rotherham",
 	"demographics": {
-		"leave": 68.35,
 		"withdegree": 6.95,
-		"age18-29": 15.98,
 		"2015UKIP": 30.18,
-		"2016Leave": 68.35
+		"age18-29": 15.98,
+		"leave": 68.35
 	},
 	"elections": {
 		"2019-12-12": {

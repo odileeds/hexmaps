@@ -2,11 +2,10 @@
 	"id": "E14000847",
 	"title": "North Herefordshire",
 	"demographics": {
-		"leave": 58.25,
 		"withdegree": 16.53,
-		"age18-29": 10.58,
 		"2015UKIP": 13.99,
-		"2016Leave": 58.25
+		"age18-29": 10.58,
+		"leave": 58.25
 	},
 	"elections": {
 		"2019-12-12": {

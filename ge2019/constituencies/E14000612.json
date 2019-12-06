@@ -2,11 +2,10 @@
 	"id": "E14000612",
 	"title": "Bury South",
 	"demographics": {
-		"leave": 54.53,
 		"withdegree": 15.64,
-		"age18-29": 14.52,
 		"2015UKIP": 13.34,
-		"2016Leave": 54.53
+		"age18-29": 14.52,
+		"leave": 54.53
 	},
 	"elections": {
 		"2019-12-12": {

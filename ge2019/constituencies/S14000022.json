@@ -2,10 +2,9 @@
 	"id": "S14000022",
 	"title": "Edinburgh East",
 	"demographics": {
-		"leave": 27.64,
-		"age18-29": 29.32,
 		"2015UKIP": 1.91,
-		"2016Leave": 27.64
+		"age18-29": 29.32,
+		"leave": 27.64
 	},
 	"elections": {
 		"2019-12-12": {

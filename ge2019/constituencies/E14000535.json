@@ -2,11 +2,10 @@
 	"id": "E14000535",
 	"title": "Ashfield",
 	"demographics": {
-		"leave": 70.58,
 		"withdegree": 6.09,
-		"age18-29": 13.94,
 		"2015UKIP": 21.41,
-		"2016Leave": 70.58
+		"age18-29": 13.94,
+		"leave": 70.58
 	},
 	"elections": {
 		"2019-12-12": {

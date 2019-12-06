@@ -2,11 +2,10 @@
 	"id": "E14000985",
 	"title": "Sutton Coldfield",
 	"demographics": {
-		"leave": 51.67,
 		"withdegree": 21.34,
-		"age18-29": 11.91,
 		"2015UKIP": 14.73,
-		"2016Leave": 51.67
+		"age18-29": 11.91,
+		"leave": 51.67
 	},
 	"elections": {
 		"2019-12-12": {

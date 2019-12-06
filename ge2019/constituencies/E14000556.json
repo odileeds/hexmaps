@@ -2,11 +2,10 @@
 	"id": "E14000556",
 	"title": "Beverley and Holderness",
 	"demographics": {
-		"leave": 58.79,
 		"withdegree": 14.35,
-		"age18-29": 11.16,
 		"2015UKIP": 16.69,
-		"2016Leave": 58.79
+		"age18-29": 11.16,
+		"leave": 58.79
 	},
 	"elections": {
 		"2019-12-12": {

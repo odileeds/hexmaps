@@ -2,10 +2,9 @@
 	"id": "S14000051",
 	"title": "Orkney and Shetland",
 	"demographics": {
-		"leave": 40.28,
-		"age18-29": 12.79,
 		"2015UKIP": 4.76,
-		"2016Leave": 40.28
+		"age18-29": 12.79,
+		"leave": 40.28
 	},
 	"elections": {
 		"2019-12-12": {

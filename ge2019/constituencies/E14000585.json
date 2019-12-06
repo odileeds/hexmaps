@@ -2,11 +2,10 @@
 	"id": "E14000585",
 	"title": "Bournemouth West",
 	"demographics": {
-		"leave": 57.9,
 		"withdegree": 13.9,
-		"age18-29": 23.29,
 		"2015UKIP": 18.54,
-		"2016Leave": 57.9
+		"age18-29": 23.29,
+		"leave": 57.9
 	},
 	"elections": {
 		"2019-12-12": {

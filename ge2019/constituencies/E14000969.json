@@ -2,11 +2,10 @@
 	"id": "E14000969",
 	"title": "Stockport",
 	"demographics": {
-		"leave": 46.79,
 		"withdegree": 18.34,
-		"age18-29": 15.55,
 		"2015UKIP": 13.13,
-		"2016Leave": 46.79
+		"age18-29": 15.55,
+		"leave": 46.79
 	},
 	"elections": {
 		"2019-12-12": {

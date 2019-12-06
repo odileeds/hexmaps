@@ -2,10 +2,9 @@
 	"id": "S14000004",
 	"title": "Angus",
 	"demographics": {
-		"leave": 48.13,
-		"age18-29": 13.37,
 		"2015UKIP": 3.05,
-		"2016Leave": 48.13
+		"age18-29": 13.37,
+		"leave": 48.13
 	},
 	"elections": {
 		"2019-12-12": {

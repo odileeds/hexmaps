@@ -2,10 +2,9 @@
 	"id": "S14000044",
 	"title": "Livingston",
 	"demographics": {
-		"leave": 43.81,
-		"age18-29": 14.77,
 		"2015UKIP": 3.05,
-		"2016Leave": 43.81
+		"age18-29": 14.77,
+		"leave": 43.81
 	},
 	"elections": {
 		"2019-12-12": {

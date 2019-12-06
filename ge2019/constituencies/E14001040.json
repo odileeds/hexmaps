@@ -2,11 +2,10 @@
 	"id": "E14001040",
 	"title": "Wimbledon",
 	"demographics": {
-		"leave": 29.37,
 		"withdegree": 45.49,
-		"age18-29": 17.34,
 		"2015UKIP": 5.11,
-		"2016Leave": 29.37
+		"age18-29": 17.34,
+		"leave": 29.37
 	},
 	"elections": {
 		"2019-12-12": {

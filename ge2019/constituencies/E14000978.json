@@ -2,11 +2,10 @@
 	"id": "E14000978",
 	"title": "Streatham",
 	"demographics": {
-		"leave": 20.54,
 		"withdegree": 39.43,
-		"age18-29": 23.69,
 		"2015UKIP": 3.21,
-		"2016Leave": 20.54
+		"age18-29": 23.69,
+		"leave": 20.54
 	},
 	"elections": {
 		"2019-12-12": {

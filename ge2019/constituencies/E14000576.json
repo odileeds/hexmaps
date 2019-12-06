@@ -2,11 +2,10 @@
 	"id": "E14000576",
 	"title": "Bognor Regis and Littlehampton",
 	"demographics": {
-		"leave": 64.22,
 		"withdegree": 8.91,
-		"age18-29": 13.86,
 		"2015UKIP": 21.74,
-		"2016Leave": 64.22
+		"age18-29": 13.86,
+		"leave": 64.22
 	},
 	"elections": {
 		"2019-12-12": {

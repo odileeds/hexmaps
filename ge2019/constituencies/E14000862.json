@@ -2,11 +2,10 @@
 	"id": "E14000862",
 	"title": "Northampton South",
 	"demographics": {
-		"leave": 59.61,
 		"withdegree": 13.57,
-		"age18-29": 19.4,
 		"2015UKIP": 18.3,
-		"2016Leave": 59.61
+		"age18-29": 19.4,
+		"leave": 59.61
 	},
 	"elections": {
 		"2019-12-12": {

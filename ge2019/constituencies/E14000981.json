@@ -2,11 +2,10 @@
 	"id": "E14000981",
 	"title": "Suffolk Coastal",
 	"demographics": {
-		"leave": 55.82,
 		"withdegree": 14.53,
-		"age18-29": 10.57,
 		"2015UKIP": 15.57,
-		"2016Leave": 55.82
+		"age18-29": 10.57,
+		"leave": 55.82
 	},
 	"elections": {
 		"2019-12-12": {

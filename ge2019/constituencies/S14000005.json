@@ -2,10 +2,9 @@
 	"id": "S14000005",
 	"title": "Argyll and Bute",
 	"demographics": {
-		"leave": 39.43,
-		"age18-29": 11.79,
 		"2015UKIP": 2.53,
-		"2016Leave": 39.43
+		"age18-29": 11.79,
+		"leave": 39.43
 	},
 	"elections": {
 		"2019-12-12": {

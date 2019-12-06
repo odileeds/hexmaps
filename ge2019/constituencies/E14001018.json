@@ -2,11 +2,10 @@
 	"id": "E14001018",
 	"title": "Warrington South",
 	"demographics": {
-		"leave": 50.62,
 		"withdegree": 19.1,
-		"age18-29": 13.39,
 		"2015UKIP": 8.27,
-		"2016Leave": 50.62
+		"age18-29": 13.39,
+		"leave": 50.62
 	},
 	"elections": {
 		"2019-12-12": {

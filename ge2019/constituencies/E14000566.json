@@ -2,11 +2,10 @@
 	"id": "E14000566",
 	"title": "Birmingham, Perry Barr",
 	"demographics": {
-		"leave": 51.22,
 		"withdegree": 12.26,
-		"age18-29": 19.53,
 		"2015UKIP": 12.2,
-		"2016Leave": 51.22
+		"age18-29": 19.53,
+		"leave": 51.22
 	},
 	"elections": {
 		"2019-12-12": {

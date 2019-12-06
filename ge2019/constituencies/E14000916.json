@@ -2,11 +2,10 @@
 	"id": "E14000916",
 	"title": "Sefton Central",
 	"demographics": {
-		"leave": 45.13,
 		"withdegree": 16.39,
-		"age18-29": 11.63,
 		"2015UKIP": 9.95,
-		"2016Leave": 45.13
+		"age18-29": 11.63,
+		"leave": 45.13
 	},
 	"elections": {
 		"2019-12-12": {

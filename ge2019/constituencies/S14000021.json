@@ -2,10 +2,9 @@
 	"id": "S14000021",
 	"title": "East Renfrewshire",
 	"demographics": {
-		"leave": 25.68,
-		"age18-29": 12.04,
 		"2015UKIP": 1.57,
-		"2016Leave": 25.68
+		"age18-29": 12.04,
+		"leave": 25.68
 	},
 	"elections": {
 		"2019-12-12": {

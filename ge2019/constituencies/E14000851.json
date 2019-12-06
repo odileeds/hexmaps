@@ -2,11 +2,10 @@
 	"id": "E14000851",
 	"title": "North Swindon",
 	"demographics": {
-		"leave": 57.44,
 		"withdegree": 10.79,
-		"age18-29": 14.89,
 		"2015UKIP": 15.33,
-		"2016Leave": 57.44
+		"age18-29": 14.89,
+		"leave": 57.44
 	},
 	"elections": {
 		"2019-12-12": {

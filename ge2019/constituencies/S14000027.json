@@ -2,9 +2,8 @@
 	"id": "S14000027",
 	"title": "Na h-Eileanan an Iar",
 	"demographics": {
-		"leave": 43.9,
 		"age18-29": 10.91,
-		"2016Leave": 43.9
+		"leave": 43.9
 	},
 	"elections": {
 		"2019-12-12": {

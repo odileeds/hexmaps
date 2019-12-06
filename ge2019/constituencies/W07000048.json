@@ -2,11 +2,10 @@
 	"id": "W07000048",
 	"title": "Swansea East",
 	"demographics": {
-		"leave": 62.1,
 		"withdegree": 9.77,
-		"age18-29": 16.26,
 		"2015UKIP": 17.19,
-		"2016Leave": 62.1
+		"age18-29": 16.26,
+		"leave": 62.1
 	},
 	"elections": {
 		"2019-12-12": {

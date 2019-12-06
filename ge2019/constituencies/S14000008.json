@@ -2,10 +2,9 @@
 	"id": "S14000008",
 	"title": "Berwickshire, Roxburgh and Selkirk",
 	"demographics": {
-		"leave": 43.2,
-		"age18-29": 11.54,
 		"2015UKIP": 2.39,
-		"2016Leave": 43.2
+		"age18-29": 11.54,
+		"leave": 43.2
 	},
 	"elections": {
 		"2019-12-12": {

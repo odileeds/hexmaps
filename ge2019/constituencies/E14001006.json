@@ -2,11 +2,10 @@
 	"id": "E14001006",
 	"title": "Tynemouth",
 	"demographics": {
-		"leave": 47.84,
 		"withdegree": 18.47,
-		"age18-29": 12.35,
 		"2015UKIP": 12.23,
-		"2016Leave": 47.84
+		"age18-29": 12.35,
+		"leave": 47.84
 	},
 	"elections": {
 		"2019-12-12": {

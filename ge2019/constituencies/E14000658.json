@@ -2,11 +2,10 @@
 	"id": "E14000658",
 	"title": "Darlington",
 	"demographics": {
-		"leave": 58.07,
 		"withdegree": 11.33,
-		"age18-29": 14.88,
 		"2015UKIP": 13.11,
-		"2016Leave": 58.07
+		"age18-29": 14.88,
+		"leave": 58.07
 	},
 	"elections": {
 		"2019-12-12": {

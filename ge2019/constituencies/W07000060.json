@@ -2,11 +2,10 @@
 	"id": "W07000060",
 	"title": "Vale of Clwyd",
 	"demographics": {
-		"leave": 55.94,
 		"withdegree": 10.19,
-		"age18-29": 13.22,
 		"2015UKIP": 12.98,
-		"2016Leave": 55.94
+		"age18-29": 13.22,
+		"leave": 55.94
 	},
 	"elections": {
 		"2019-12-12": {

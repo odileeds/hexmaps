@@ -2,11 +2,10 @@
 	"id": "E14000709",
 	"title": "Gateshead",
 	"demographics": {
-		"leave": 56.05,
 		"withdegree": 13.74,
-		"age18-29": 18.24,
 		"2015UKIP": 17.83,
-		"2016Leave": 56.05
+		"age18-29": 18.24,
+		"leave": 56.05
 	},
 	"elections": {
 		"2019-12-12": {

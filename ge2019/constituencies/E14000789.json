@@ -2,11 +2,10 @@
 	"id": "E14000789",
 	"title": "Lewisham, Deptford",
 	"demographics": {
-		"leave": 24.67,
 		"withdegree": 34.31,
-		"age18-29": 24.01,
 		"2015UKIP": 4.24,
-		"2016Leave": 24.67
+		"age18-29": 24.01,
+		"leave": 24.67
 	},
 	"elections": {
 		"2019-12-12": {

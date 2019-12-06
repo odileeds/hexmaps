@@ -2,11 +2,10 @@
 	"id": "E14000925",
 	"title": "Shipley",
 	"demographics": {
-		"leave": 52.21,
 		"withdegree": 19.66,
-		"age18-29": 12.86,
 		"2015UKIP": 8.86,
-		"2016Leave": 52.21
+		"age18-29": 12.86,
+		"leave": 52.21
 	},
 	"elections": {
 		"2019-12-12": {

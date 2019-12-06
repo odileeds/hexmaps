@@ -2,11 +2,10 @@
 	"id": "E14000788",
 	"title": "Lewisham West and Penge",
 	"demographics": {
-		"leave": 34.47,
 		"withdegree": 28.57,
-		"age18-29": 16.04,
 		"2015UKIP": 7.82,
-		"2016Leave": 34.47
+		"age18-29": 16.04,
+		"leave": 34.47
 	},
 	"elections": {
 		"2019-12-12": {

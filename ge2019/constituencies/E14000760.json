@@ -2,11 +2,10 @@
 	"id": "E14000760",
 	"title": "Ilford South",
 	"demographics": {
-		"leave": 43.87,
 		"withdegree": 24.58,
-		"age18-29": 20.36,
 		"2015UKIP": 5.21,
-		"2016Leave": 43.87
+		"age18-29": 20.36,
+		"leave": 43.87
 	},
 	"elections": {
 		"2019-12-12": {

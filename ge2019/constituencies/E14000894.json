@@ -2,11 +2,10 @@
 	"id": "E14000894",
 	"title": "Ribble Valley",
 	"demographics": {
-		"leave": 58.68,
 		"withdegree": 16.59,
-		"age18-29": 12.38,
 		"2015UKIP": 15.79,
-		"2016Leave": 58.68
+		"age18-29": 12.38,
+		"leave": 58.68
 	},
 	"elections": {
 		"2019-12-12": {

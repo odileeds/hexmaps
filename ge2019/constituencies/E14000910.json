@@ -2,11 +2,10 @@
 	"id": "E14000910",
 	"title": "Saffron Walden",
 	"demographics": {
-		"leave": 50.92,
 		"withdegree": 19.06,
-		"age18-29": 11.4,
 		"2015UKIP": 13.78,
-		"2016Leave": 50.92
+		"age18-29": 11.4,
+		"leave": 50.92
 	},
 	"elections": {
 		"2019-12-12": {

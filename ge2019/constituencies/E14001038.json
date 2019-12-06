@@ -2,11 +2,10 @@
 	"id": "E14001038",
 	"title": "Weston-Super-Mare",
 	"demographics": {
-		"leave": 56.66,
 		"withdegree": 10.91,
-		"age18-29": 13.21,
 		"2015UKIP": 17.82,
-		"2016Leave": 56.66
+		"age18-29": 13.21,
+		"leave": 56.66
 	},
 	"elections": {
 		"2019-12-12": {

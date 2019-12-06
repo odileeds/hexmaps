@@ -2,11 +2,10 @@
 	"id": "E14000774",
 	"title": "Kingswood",
 	"demographics": {
-		"leave": 56.84,
 		"withdegree": 11.2,
-		"age18-29": 14.04,
 		"2015UKIP": 14.82,
-		"2016Leave": 56.84
+		"age18-29": 14.04,
+		"leave": 56.84
 	},
 	"elections": {
 		"2019-12-12": {

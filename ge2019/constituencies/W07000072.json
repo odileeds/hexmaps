@@ -2,11 +2,10 @@
 	"id": "W07000072",
 	"title": "Blaenau Gwent",
 	"demographics": {
-		"leave": 62.03,
 		"withdegree": 6.37,
-		"age18-29": 15.4,
 		"2015UKIP": 17.92,
-		"2016Leave": 62.03
+		"age18-29": 15.4,
+		"leave": 62.03
 	},
 	"elections": {
 		"2019-12-12": {

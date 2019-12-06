@@ -2,11 +2,10 @@
 	"id": "E14000819",
 	"title": "Middlesbrough",
 	"demographics": {
-		"leave": 66.08,
 		"withdegree": 9.7,
-		"age18-29": 20.93,
 		"2015UKIP": 18.67,
-		"2016Leave": 66.08
+		"age18-29": 20.93,
+		"leave": 66.08
 	},
 	"elections": {
 		"2019-12-12": {

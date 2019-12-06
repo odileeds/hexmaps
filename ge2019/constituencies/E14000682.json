@@ -2,11 +2,10 @@
 	"id": "E14000682",
 	"title": "East Worthing and Shoreham",
 	"demographics": {
-		"leave": 53.67,
 		"withdegree": 12.25,
-		"age18-29": 12.33,
 		"2015UKIP": 16.57,
-		"2016Leave": 53.67
+		"age18-29": 12.33,
+		"leave": 53.67
 	},
 	"elections": {
 		"2019-12-12": {

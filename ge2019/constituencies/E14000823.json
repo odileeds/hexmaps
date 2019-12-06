@@ -2,11 +2,10 @@
 	"id": "E14000823",
 	"title": "Mitcham and Morden",
 	"demographics": {
-		"leave": 44.69,
 		"withdegree": 19.41,
-		"age18-29": 18.85,
 		"2015UKIP": 9.5,
-		"2016Leave": 44.69
+		"age18-29": 18.85,
+		"leave": 44.69
 	},
 	"elections": {
 		"2019-12-12": {

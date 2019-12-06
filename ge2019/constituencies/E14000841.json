@@ -2,11 +2,10 @@
 	"id": "E14000841",
 	"title": "North East Bedfordshire",
 	"demographics": {
-		"leave": 53.29,
 		"withdegree": 17.33,
-		"age18-29": 11.72,
 		"2015UKIP": 14.62,
-		"2016Leave": 53.29
+		"age18-29": 11.72,
+		"leave": 53.29
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14001024",
 	"title": "Weaver Vale",
 	"demographics": {
-		"leave": 50.2,
 		"withdegree": 16.27,
-		"age18-29": 12.63,
 		"2015UKIP": 9.7,
-		"2016Leave": 50.2
+		"age18-29": 12.63,
+		"leave": 50.2
 	},
 	"elections": {
 		"2019-12-12": {

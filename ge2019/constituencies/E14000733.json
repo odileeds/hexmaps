@@ -2,11 +2,10 @@
 	"id": "E14000733",
 	"title": "Hartlepool",
 	"demographics": {
-		"leave": 69.57,
 		"withdegree": 8.32,
-		"age18-29": 15.24,
 		"2015UKIP": 27.99,
-		"2016Leave": 69.57
+		"age18-29": 15.24,
+		"leave": 69.57
 	},
 	"elections": {
 		"2019-12-12": {

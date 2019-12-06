@@ -2,11 +2,10 @@
 	"id": "E14000577",
 	"title": "Bolsover",
 	"demographics": {
-		"leave": 70.27,
 		"withdegree": 7.23,
-		"age18-29": 13.78,
 		"2015UKIP": 20.97,
-		"2016Leave": 70.27
+		"age18-29": 13.78,
+		"leave": 70.27
 	},
 	"elections": {
 		"2019-12-12": {

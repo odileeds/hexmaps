@@ -2,11 +2,10 @@
 	"id": "E14000876",
 	"title": "Penistone and Stocksbridge",
 	"demographics": {
-		"leave": 61.35,
 		"withdegree": 13.04,
-		"age18-29": 11.36,
 		"2015UKIP": 22.92,
-		"2016Leave": 61.35
+		"age18-29": 11.36,
+		"leave": 61.35
 	},
 	"elections": {
 		"2019-12-12": {

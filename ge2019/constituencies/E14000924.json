@@ -2,11 +2,10 @@
 	"id": "E14000924",
 	"title": "Sherwood",
 	"demographics": {
-		"leave": 63.76,
 		"withdegree": 10.18,
-		"age18-29": 12.93,
 		"2015UKIP": 14.59,
-		"2016Leave": 63.76
+		"age18-29": 12.93,
+		"leave": 63.76
 	},
 	"elections": {
 		"2019-12-12": {

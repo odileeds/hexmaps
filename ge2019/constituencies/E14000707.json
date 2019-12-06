@@ -2,11 +2,10 @@
 	"id": "E14000707",
 	"title": "Gainsborough",
 	"demographics": {
-		"leave": 62.03,
 		"withdegree": 12.47,
-		"age18-29": 11.29,
 		"2015UKIP": 15.69,
-		"2016Leave": 62.03
+		"age18-29": 11.29,
+		"leave": 62.03
 	},
 	"elections": {
 		"2019-12-12": {

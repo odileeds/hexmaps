@@ -2,11 +2,10 @@
 	"id": "E14000938",
 	"title": "South East Cornwall",
 	"demographics": {
-		"leave": 54.95,
 		"withdegree": 13.42,
-		"age18-29": 10.8,
 		"2015UKIP": 15.24,
-		"2016Leave": 54.95
+		"age18-29": 10.8,
+		"leave": 54.95
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000901",
 	"title": "Romsey and Southampton North",
 	"demographics": {
-		"leave": 45.81,
 		"withdegree": 22.05,
-		"age18-29": 18.39,
 		"2015UKIP": 11.39,
-		"2016Leave": 45.81
+		"age18-29": 18.39,
+		"leave": 45.81
 	},
 	"elections": {
 		"2019-12-12": {

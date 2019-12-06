@@ -2,11 +2,10 @@
 	"id": "E14000553",
 	"title": "Bermondsey and Old Southwark",
 	"demographics": {
-		"leave": 27,
 		"withdegree": 38.63,
-		"age18-29": 30.32,
 		"2015UKIP": 6.33,
-		"2016Leave": 27
+		"age18-29": 30.32,
+		"leave": 27
 	},
 	"elections": {
 		"2019-12-12": {

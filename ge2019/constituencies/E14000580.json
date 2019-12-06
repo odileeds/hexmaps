@@ -2,11 +2,10 @@
 	"id": "E14000580",
 	"title": "Bolton West",
 	"demographics": {
-		"leave": 55.54,
 		"withdegree": 15.85,
-		"age18-29": 13.74,
 		"2015UKIP": 15.29,
-		"2016Leave": 55.54
+		"age18-29": 13.74,
+		"leave": 55.54
 	},
 	"elections": {
 		"2019-12-12": {

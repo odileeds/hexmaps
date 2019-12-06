@@ -2,11 +2,10 @@
 	"id": "W07000068",
 	"title": "Brecon and Radnorshire",
 	"demographics": {
-		"leave": 51.72,
 		"withdegree": 15,
-		"age18-29": 11.03,
 		"2015UKIP": 8.33,
-		"2016Leave": 51.72
+		"age18-29": 11.03,
+		"leave": 51.72
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000858",
 	"title": "North West Leicestershire",
 	"demographics": {
-		"leave": 60.7,
 		"withdegree": 13.15,
-		"age18-29": 12.45,
 		"2015UKIP": 16.89,
-		"2016Leave": 60.7
+		"age18-29": 12.45,
+		"leave": 60.7
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000807",
 	"title": "Manchester Central",
 	"demographics": {
-		"leave": 36.66,
 		"withdegree": 24.75,
-		"age18-29": 37.76,
 		"2015UKIP": 11.1,
-		"2016Leave": 36.66
+		"age18-29": 37.76,
+		"leave": 36.66
 	},
 	"elections": {
 		"2019-12-12": {

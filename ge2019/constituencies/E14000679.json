@@ -2,11 +2,10 @@
 	"id": "E14000679",
 	"title": "East Ham",
 	"demographics": {
-		"leave": 46.92,
 		"withdegree": 22.95,
-		"age18-29": 25.7,
 		"2015UKIP": 5.01,
-		"2016Leave": 46.92
+		"age18-29": 25.7,
+		"leave": 46.92
 	},
 	"elections": {
 		"2019-12-12": {

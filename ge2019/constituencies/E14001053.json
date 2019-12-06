@@ -2,11 +2,10 @@
 	"id": "E14001053",
 	"title": "Workington",
 	"demographics": {
-		"leave": 60.32,
 		"withdegree": 10.46,
-		"age18-29": 12.4,
 		"2015UKIP": 19.6,
-		"2016Leave": 60.32
+		"age18-29": 12.4,
+		"leave": 60.32
 	},
 	"elections": {
 		"2019-12-12": {

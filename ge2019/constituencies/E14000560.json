@@ -2,11 +2,10 @@
 	"id": "E14000560",
 	"title": "Birmingham, Edgbaston",
 	"demographics": {
-		"leave": 47.35,
 		"withdegree": 24.15,
-		"age18-29": 23.53,
 		"2015UKIP": 10.06,
-		"2016Leave": 47.35
+		"age18-29": 23.53,
+		"leave": 47.35
 	},
 	"elections": {
 		"2019-12-12": {

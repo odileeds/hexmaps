@@ -2,11 +2,10 @@
 	"id": "E14000543",
 	"title": "Barrow and Furness",
 	"demographics": {
-		"leave": 56.79,
 		"withdegree": 10.67,
-		"age18-29": 13.17,
 		"2015UKIP": 11.72,
-		"2016Leave": 56.79
+		"age18-29": 13.17,
+		"leave": 56.79
 	},
 	"elections": {
 		"2019-12-12": {

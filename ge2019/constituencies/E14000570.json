@@ -2,11 +2,10 @@
 	"id": "E14000570",
 	"title": "Blackburn",
 	"demographics": {
-		"leave": 53.73,
 		"withdegree": 10.11,
-		"age18-29": 17.25,
 		"2015UKIP": 14.27,
-		"2016Leave": 53.73
+		"age18-29": 17.25,
+		"leave": 53.73
 	},
 	"elections": {
 		"2019-12-12": {

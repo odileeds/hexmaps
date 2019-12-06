@@ -2,11 +2,10 @@
 	"id": "E14000922",
 	"title": "Sheffield, Hallam",
 	"demographics": {
-		"leave": 35.9,
 		"withdegree": 31.74,
-		"age18-29": 18.41,
 		"2015UKIP": 6.44,
-		"2016Leave": 35.9
+		"age18-29": 18.41,
+		"leave": 35.9
 	},
 	"elections": {
 		"2019-12-12": {

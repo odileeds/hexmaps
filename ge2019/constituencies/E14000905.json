@@ -2,11 +2,10 @@
 	"id": "E14000905",
 	"title": "Rugby",
 	"demographics": {
-		"leave": 58.37,
 		"withdegree": 15.11,
-		"age18-29": 13.87,
 		"2015UKIP": 13.99,
-		"2016Leave": 58.37
+		"age18-29": 13.87,
+		"leave": 58.37
 	},
 	"elections": {
 		"2019-12-12": {

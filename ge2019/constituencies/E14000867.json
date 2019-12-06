@@ -2,11 +2,10 @@
 	"id": "E14000867",
 	"title": "Nottingham South",
 	"demographics": {
-		"leave": 46.47,
 		"withdegree": 19.5,
-		"age18-29": 36.99,
 		"2015UKIP": 11.27,
-		"2016Leave": 46.47
+		"age18-29": 36.99,
+		"leave": 46.47
 	},
 	"elections": {
 		"2019-12-12": {

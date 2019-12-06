@@ -2,11 +2,10 @@
 	"id": "E14000996",
 	"title": "Tiverton and Honiton",
 	"demographics": {
-		"leave": 57.63,
 		"withdegree": 12.97,
-		"age18-29": 10.83,
 		"2015UKIP": 16.47,
-		"2016Leave": 57.63
+		"age18-29": 10.83,
+		"leave": 57.63
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000615",
 	"title": "Camberwell and Peckham",
 	"demographics": {
-		"leave": 30.2,
 		"withdegree": 30.25,
-		"age18-29": 20.94,
 		"2015UKIP": 4.68,
-		"2016Leave": 30.2
+		"age18-29": 20.94,
+		"leave": 30.2
 	},
 	"elections": {
 		"2019-12-12": {

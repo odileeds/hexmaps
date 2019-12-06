@@ -2,11 +2,10 @@
 	"id": "E14000706",
 	"title": "Fylde",
 	"demographics": {
-		"leave": 56.56,
 		"withdegree": 16.47,
-		"age18-29": 11.42,
 		"2015UKIP": 12.79,
-		"2016Leave": 56.56
+		"age18-29": 11.42,
+		"leave": 56.56
 	},
 	"elections": {
 		"2019-12-12": {

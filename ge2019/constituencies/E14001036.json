@@ -2,11 +2,10 @@
 	"id": "E14001036",
 	"title": "Westminster North",
 	"demographics": {
-		"leave": 32.98,
 		"withdegree": 41.48,
-		"age18-29": 20.52,
 		"2015UKIP": 3.77,
-		"2016Leave": 32.98
+		"age18-29": 20.52,
+		"leave": 32.98
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000770",
 	"title": "Kingston and Surbiton",
 	"demographics": {
-		"leave": 41.59,
 		"withdegree": 29.29,
-		"age18-29": 19.81,
 		"2015UKIP": 7.29,
-		"2016Leave": 41.59
+		"age18-29": 19.81,
+		"leave": 41.59
 	},
 	"elections": {
 		"2019-12-12": {

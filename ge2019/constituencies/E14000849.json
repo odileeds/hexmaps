@@ -2,11 +2,10 @@
 	"id": "E14000849",
 	"title": "North Shropshire",
 	"demographics": {
-		"leave": 59.46,
 		"withdegree": 12.86,
-		"age18-29": 13.41,
 		"2015UKIP": 17.62,
-		"2016Leave": 59.46
+		"age18-29": 13.41,
+		"leave": 59.46
 	},
 	"elections": {
 		"2019-12-12": {

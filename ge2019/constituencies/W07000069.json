@@ -2,11 +2,10 @@
 	"id": "W07000069",
 	"title": "Neath",
 	"demographics": {
-		"leave": 54.21,
 		"withdegree": 10.54,
-		"age18-29": 13.88,
 		"2015UKIP": 16.41,
-		"2016Leave": 54.21
+		"age18-29": 13.88,
+		"leave": 54.21
 	},
 	"elections": {
 		"2019-12-12": {

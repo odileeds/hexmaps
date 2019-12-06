@@ -2,11 +2,10 @@
 	"id": "E14000608",
 	"title": "Buckingham",
 	"demographics": {
-		"leave": 48.65,
 		"withdegree": 22.67,
-		"age18-29": 10.49,
 		"2015UKIP": 21.74,
-		"2016Leave": 48.65
+		"age18-29": 10.49,
+		"leave": 48.65
 	},
 	"elections": {
 		"2019-12-12": {

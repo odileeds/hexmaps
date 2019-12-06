@@ -2,11 +2,10 @@
 	"id": "E14000883",
 	"title": "Portsmouth North",
 	"demographics": {
-		"leave": 63.69,
 		"withdegree": 10.24,
-		"age18-29": 15.64,
 		"2015UKIP": 19.08,
-		"2016Leave": 63.69
+		"age18-29": 15.64,
+		"leave": 63.69
 	},
 	"elections": {
 		"2019-12-12": {

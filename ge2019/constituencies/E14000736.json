@@ -2,11 +2,10 @@
 	"id": "E14000736",
 	"title": "Havant",
 	"demographics": {
-		"leave": 62.45,
 		"withdegree": 10.78,
-		"age18-29": 13.39,
 		"2015UKIP": 20.61,
-		"2016Leave": 62.45
+		"age18-29": 13.39,
+		"leave": 62.45
 	},
 	"elections": {
 		"2019-12-12": {

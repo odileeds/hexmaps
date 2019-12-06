@@ -2,9 +2,8 @@
 	"id": "S14000010",
 	"title": "Central Ayrshire",
 	"demographics": {
-		"leave": 42.72,
 		"age18-29": 13.19,
-		"2016Leave": 42.72
+		"leave": 42.72
 	},
 	"elections": {
 		"2019-12-12": {

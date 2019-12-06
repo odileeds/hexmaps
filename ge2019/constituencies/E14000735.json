@@ -2,11 +2,10 @@
 	"id": "E14000735",
 	"title": "Hastings and Rye",
 	"demographics": {
-		"leave": 56.23,
 		"withdegree": 11.2,
-		"age18-29": 14.2,
 		"2015UKIP": 13.32,
-		"2016Leave": 56.23
+		"age18-29": 14.2,
+		"leave": 56.23
 	},
 	"elections": {
 		"2019-12-12": {

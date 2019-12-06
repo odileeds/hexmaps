@@ -2,11 +2,10 @@
 	"id": "W07000065",
 	"title": "Preseli Pembrokeshire",
 	"demographics": {
-		"leave": 55.77,
 		"withdegree": 13.13,
-		"age18-29": 12.75,
 		"2015UKIP": 10.5,
-		"2016Leave": 55.77
+		"age18-29": 12.75,
+		"leave": 55.77
 	},
 	"elections": {
 		"2019-12-12": {

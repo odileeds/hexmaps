@@ -2,11 +2,10 @@
 	"id": "E14000716",
 	"title": "Great Grimsby",
 	"demographics": {
-		"leave": 71.45,
 		"withdegree": 6.41,
-		"age18-29": 17.27,
 		"2015UKIP": 24.95,
-		"2016Leave": 71.45
+		"age18-29": 17.27,
+		"leave": 71.45
 	},
 	"elections": {
 		"2019-12-12": {

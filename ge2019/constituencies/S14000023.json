@@ -2,10 +2,9 @@
 	"id": "S14000023",
 	"title": "Edinburgh North and Leith",
 	"demographics": {
-		"leave": 21.8,
-		"age18-29": 24.03,
 		"2015UKIP": 1.46,
-		"2016Leave": 21.8
+		"age18-29": 24.03,
+		"leave": 21.8
 	},
 	"elections": {
 		"2019-12-12": {

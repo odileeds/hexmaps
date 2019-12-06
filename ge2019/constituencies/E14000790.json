@@ -2,11 +2,10 @@
 	"id": "E14000790",
 	"title": "Leyton and Wanstead",
 	"demographics": {
-		"leave": 35.01,
 		"withdegree": 27.86,
-		"age18-29": 22.84,
 		"2015UKIP": 5.75,
-		"2016Leave": 35.01
+		"age18-29": 22.84,
+		"leave": 35.01
 	},
 	"elections": {
 		"2019-12-12": {

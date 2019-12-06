@@ -2,11 +2,10 @@
 	"id": "E14000586",
 	"title": "Bracknell",
 	"demographics": {
-		"leave": 53.25,
 		"withdegree": 18.5,
-		"age18-29": 14.59,
 		"2015UKIP": 15.71,
-		"2016Leave": 53.25
+		"age18-29": 14.59,
+		"leave": 53.25
 	},
 	"elections": {
 		"2019-12-12": {

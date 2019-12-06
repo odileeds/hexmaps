@@ -2,9 +2,8 @@
 	"id": "S14000007",
 	"title": "Banff and Buchan",
 	"demographics": {
-		"leave": 54.02,
 		"age18-29": 13.75,
-		"2016Leave": 54.02
+		"leave": 54.02
 	},
 	"elections": {
 		"2019-12-12": {

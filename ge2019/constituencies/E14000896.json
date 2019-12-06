@@ -2,11 +2,10 @@
 	"id": "E14000896",
 	"title": "Richmond Park",
 	"demographics": {
-		"leave": 27.7,
 		"withdegree": 46.23,
-		"age18-29": 14.16,
 		"2015UKIP": 4.17,
-		"2016Leave": 27.7
+		"age18-29": 14.16,
+		"leave": 27.7
 	},
 	"elections": {
 		"2019-12-12": {

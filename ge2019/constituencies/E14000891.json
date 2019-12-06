@@ -2,11 +2,10 @@
 	"id": "E14000891",
 	"title": "Redcar",
 	"demographics": {
-		"leave": 67.57,
 		"withdegree": 7.66,
-		"age18-29": 14.91,
 		"2015UKIP": 18.37,
-		"2016Leave": 67.57
+		"age18-29": 14.91,
+		"leave": 67.57
 	},
 	"elections": {
 		"2019-12-12": {

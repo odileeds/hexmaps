@@ -2,10 +2,9 @@
 	"id": "S14000041",
 	"title": "Kirkcaldy and Cowdenbeath",
 	"demographics": {
-		"leave": 41.66,
-		"age18-29": 13.69,
 		"2015UKIP": 2.34,
-		"2016Leave": 41.66
+		"age18-29": 13.69,
+		"leave": 41.66
 	},
 	"elections": {
 		"2019-12-12": {

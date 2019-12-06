@@ -2,10 +2,9 @@
 	"id": "S14000047",
 	"title": "Motherwell and Wishaw",
 	"demographics": {
-		"leave": 36.97,
-		"age18-29": 15.84,
 		"2015UKIP": 2.67,
-		"2016Leave": 36.97
+		"age18-29": 15.84,
+		"leave": 36.97
 	},
 	"elections": {
 		"2019-12-12": {

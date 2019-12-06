@@ -2,11 +2,10 @@
 	"id": "E14000798",
 	"title": "Louth and Horncastle",
 	"demographics": {
-		"leave": 69.43,
 		"withdegree": 8.65,
-		"age18-29": 10.84,
 		"2015UKIP": 21.41,
-		"2016Leave": 69.43
+		"age18-29": 10.84,
+		"leave": 69.43
 	},
 	"elections": {
 		"2019-12-12": {

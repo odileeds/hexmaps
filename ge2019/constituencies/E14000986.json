@@ -2,11 +2,10 @@
 	"id": "E14000986",
 	"title": "Tamworth",
 	"demographics": {
-		"leave": 66,
 		"withdegree": 9.6,
-		"age18-29": 14.95,
 		"2015UKIP": 18.5,
-		"2016Leave": 66
+		"age18-29": 14.95,
+		"leave": 66
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14001000",
 	"title": "Torridge and West Devon",
 	"demographics": {
-		"leave": 57.07,
 		"withdegree": 13.11,
-		"age18-29": 10.65,
 		"2015UKIP": 18.33,
-		"2016Leave": 57.07
+		"age18-29": 10.65,
+		"leave": 57.07
 	},
 	"elections": {
 		"2019-12-12": {

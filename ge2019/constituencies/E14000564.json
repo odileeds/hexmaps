@@ -2,11 +2,10 @@
 	"id": "E14000564",
 	"title": "Birmingham, Ladywood",
 	"demographics": {
-		"leave": 35.62,
 		"withdegree": 19.72,
-		"age18-29": 30.74,
 		"2015UKIP": 5.03,
-		"2016Leave": 35.62
+		"age18-29": 30.74,
+		"leave": 35.62
 	},
 	"elections": {
 		"2019-12-12": {

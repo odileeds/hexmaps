@@ -2,11 +2,10 @@
 	"id": "E14000833",
 	"title": "Newcastle upon Tyne North",
 	"demographics": {
-		"leave": 57.15,
 		"withdegree": 17.32,
-		"age18-29": 14.69,
 		"2015UKIP": 16.59,
-		"2016Leave": 57.15
+		"age18-29": 14.69,
+		"leave": 57.15
 	},
 	"elections": {
 		"2019-12-12": {

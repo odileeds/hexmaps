@@ -2,9 +2,8 @@
 	"id": "S14000001",
 	"title": "Aberdeen North",
 	"demographics": {
-		"leave": 43.1,
 		"age18-29": 28.93,
-		"2016Leave": 43.1
+		"leave": 43.1
 	},
 	"elections": {
 		"2019-12-12": {

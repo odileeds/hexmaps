@@ -2,11 +2,10 @@
 	"id": "E14000582",
 	"title": "Boston and Skegness",
 	"demographics": {
-		"leave": 74.96,
 		"withdegree": 5.78,
-		"age18-29": 13.79,
 		"2015UKIP": 33.79,
-		"2016Leave": 74.96
+		"age18-29": 13.79,
+		"leave": 74.96
 	},
 	"elections": {
 		"2019-12-12": {

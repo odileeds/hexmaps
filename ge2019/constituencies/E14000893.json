@@ -2,11 +2,10 @@
 	"id": "E14000893",
 	"title": "Reigate",
 	"demographics": {
-		"leave": 47.79,
 		"withdegree": 23.57,
-		"age18-29": 12.78,
 		"2015UKIP": 13.28,
-		"2016Leave": 47.79
+		"age18-29": 12.78,
+		"leave": 47.79
 	},
 	"elections": {
 		"2019-12-12": {

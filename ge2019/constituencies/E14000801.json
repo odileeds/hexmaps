@@ -2,11 +2,10 @@
 	"id": "E14000801",
 	"title": "Luton South",
 	"demographics": {
-		"leave": 55.44,
 		"withdegree": 15.42,
-		"age18-29": 23.09,
 		"2015UKIP": 12.15,
-		"2016Leave": 55.44
+		"age18-29": 23.09,
+		"leave": 55.44
 	},
 	"elections": {
 		"2019-12-12": {

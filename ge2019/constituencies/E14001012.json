@@ -2,11 +2,10 @@
 	"id": "E14001012",
 	"title": "Walsall South",
 	"demographics": {
-		"leave": 61.64,
 		"withdegree": 10.67,
-		"age18-29": 17.56,
 		"2015UKIP": 15.63,
-		"2016Leave": 61.64
+		"age18-29": 17.56,
+		"leave": 61.64
 	},
 	"elections": {
 		"2019-12-12": {

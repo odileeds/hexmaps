@@ -2,11 +2,10 @@
 	"id": "E14000930",
 	"title": "Slough",
 	"demographics": {
-		"leave": 54.1,
 		"withdegree": 17.91,
-		"age18-29": 18.58,
 		"2015UKIP": 13,
-		"2016Leave": 54.1
+		"age18-29": 18.58,
+		"leave": 54.1
 	},
 	"elections": {
 		"2019-12-12": {

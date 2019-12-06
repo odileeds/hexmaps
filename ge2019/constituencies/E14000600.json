@@ -2,11 +2,10 @@
 	"id": "E14000600",
 	"title": "Bristol North West",
 	"demographics": {
-		"leave": 38.85,
 		"withdegree": 22.43,
-		"age18-29": 17.56,
 		"2015UKIP": 9.44,
-		"2016Leave": 38.85
+		"age18-29": 17.56,
+		"leave": 38.85
 	},
 	"elections": {
 		"2019-12-12": {

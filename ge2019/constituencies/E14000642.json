@@ -2,11 +2,10 @@
 	"id": "E14000642",
 	"title": "Clacton",
 	"demographics": {
-		"leave": 71.08,
 		"withdegree": 5.1,
-		"age18-29": 10.87,
 		"2015UKIP": 44.43,
-		"2016Leave": 71.08
+		"age18-29": 10.87,
+		"leave": 71.08
 	},
 	"elections": {
 		"2019-12-12": {

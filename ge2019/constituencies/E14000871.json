@@ -2,11 +2,10 @@
 	"id": "E14000871",
 	"title": "Oldham West and Royton",
 	"demographics": {
-		"leave": 61.31,
 		"withdegree": 8.61,
-		"age18-29": 16.43,
 		"2015UKIP": 20.61,
-		"2016Leave": 61.31
+		"age18-29": 16.43,
+		"leave": 61.31
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14001015",
 	"title": "Wantage",
 	"demographics": {
-		"leave": 46.43,
 		"withdegree": 23.35,
-		"age18-29": 12.92,
 		"2015UKIP": 12.5,
-		"2016Leave": 46.43
+		"age18-29": 12.92,
+		"leave": 46.43
 	},
 	"elections": {
 		"2019-12-12": {

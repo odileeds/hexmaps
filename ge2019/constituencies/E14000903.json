@@ -2,11 +2,10 @@
 	"id": "E14000903",
 	"title": "Rother Valley",
 	"demographics": {
-		"leave": 66.72,
 		"withdegree": 9.9,
-		"age18-29": 13.08,
 		"2015UKIP": 28.08,
-		"2016Leave": 66.72
+		"age18-29": 13.08,
+		"leave": 66.72
 	},
 	"elections": {
 		"2019-12-12": {

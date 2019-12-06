@@ -2,11 +2,10 @@
 	"id": "E14000555",
 	"title": "Bethnal Green and Bow",
 	"demographics": {
-		"leave": 30.93,
 		"withdegree": 35.43,
-		"age18-29": 33.08,
 		"2015UKIP": 6.08,
-		"2016Leave": 30.93
+		"age18-29": 33.08,
+		"leave": 30.93
 	},
 	"elections": {
 		"2019-12-12": {

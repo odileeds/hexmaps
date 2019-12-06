@@ -2,11 +2,10 @@
 	"id": "E14000775",
 	"title": "Knowsley",
 	"demographics": {
-		"leave": 52.44,
 		"withdegree": 6.99,
-		"age18-29": 16.08,
 		"2015UKIP": 9.8,
-		"2016Leave": 52.44
+		"age18-29": 16.08,
+		"leave": 52.44
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000956",
 	"title": "Southampton, Test",
 	"demographics": {
-		"leave": 50.65,
 		"withdegree": 19.33,
-		"age18-29": 26.44,
 		"2015UKIP": 12.75,
-		"2016Leave": 50.65
+		"age18-29": 26.44,
+		"leave": 50.65
 	},
 	"elections": {
 		"2019-12-12": {

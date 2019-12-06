@@ -2,11 +2,10 @@
 	"id": "E14000878",
 	"title": "Peterborough",
 	"demographics": {
-		"leave": 61.31,
 		"withdegree": 9.47,
-		"age18-29": 17.56,
 		"2015UKIP": 15.9,
-		"2016Leave": 61.31
+		"age18-29": 17.56,
+		"leave": 61.31
 	},
 	"elections": {
 		"2019-12-12": {

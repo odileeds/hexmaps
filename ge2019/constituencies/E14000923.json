@@ -2,11 +2,10 @@
 	"id": "E14000923",
 	"title": "Sheffield, Heeley",
 	"demographics": {
-		"leave": 57.61,
 		"withdegree": 13.96,
-		"age18-29": 15.51,
 		"2015UKIP": 17.4,
-		"2016Leave": 57.61
+		"age18-29": 15.51,
+		"leave": 57.61
 	},
 	"elections": {
 		"2019-12-12": {

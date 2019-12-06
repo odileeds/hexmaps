@@ -2,11 +2,10 @@
 	"id": "W07000080",
 	"title": "Cardiff South and Penarth",
 	"demographics": {
-		"leave": 44.94,
 		"withdegree": 21.17,
-		"age18-29": 19.32,
 		"2015UKIP": 13.76,
-		"2016Leave": 44.94
+		"age18-29": 19.32,
+		"leave": 44.94
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000661",
 	"title": "Denton and Reddish",
 	"demographics": {
-		"leave": 60.98,
 		"withdegree": 8.86,
-		"age18-29": 15.45,
 		"2015UKIP": 18.68,
-		"2016Leave": 60.98
+		"age18-29": 15.45,
+		"leave": 60.98
 	},
 	"elections": {
 		"2019-12-12": {

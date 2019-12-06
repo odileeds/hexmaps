@@ -2,11 +2,10 @@
 	"id": "E14000562",
 	"title": "Birmingham, Hall Green",
 	"demographics": {
-		"leave": 33.57,
 		"withdegree": 20.42,
-		"age18-29": 19.25,
 		"2015UKIP": 4.53,
-		"2016Leave": 33.57
+		"age18-29": 19.25,
+		"leave": 33.57
 	},
 	"elections": {
 		"2019-12-12": {

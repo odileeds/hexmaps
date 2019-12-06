@@ -2,11 +2,10 @@
 	"id": "E14000970",
 	"title": "Stockton North",
 	"demographics": {
-		"leave": 66.5,
 		"withdegree": 9.28,
-		"age18-29": 16.38,
 		"2015UKIP": 19.16,
-		"2016Leave": 66.5
+		"age18-29": 16.38,
+		"leave": 66.5
 	},
 	"elections": {
 		"2019-12-12": {

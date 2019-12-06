@@ -2,11 +2,10 @@
 	"id": "E14000659",
 	"title": "Dartford",
 	"demographics": {
-		"leave": 64.04,
 		"withdegree": 11.94,
-		"age18-29": 15.53,
 		"2015UKIP": 19.91,
-		"2016Leave": 64.04
+		"age18-29": 15.53,
+		"leave": 64.04
 	},
 	"elections": {
 		"2019-12-12": {

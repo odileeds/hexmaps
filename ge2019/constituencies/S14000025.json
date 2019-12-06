@@ -2,10 +2,9 @@
 	"id": "S14000025",
 	"title": "Edinburgh South West",
 	"demographics": {
-		"leave": 27.86,
-		"age18-29": 23.78,
 		"2015UKIP": 2.08,
-		"2016Leave": 27.86
+		"age18-29": 23.78,
+		"leave": 27.86
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000594",
 	"title": "Brentwood and Ongar",
 	"demographics": {
-		"leave": 60.89,
 		"withdegree": 16.77,
-		"age18-29": 11.99,
 		"2015UKIP": 16.81,
-		"2016Leave": 60.89
+		"age18-29": 11.99,
+		"leave": 60.89
 	},
 	"elections": {
 		"2019-12-12": {

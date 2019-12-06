@@ -2,11 +2,10 @@
 	"id": "E14000649",
 	"title": "Coventry North East",
 	"demographics": {
-		"leave": 59.23,
 		"withdegree": 11.91,
-		"age18-29": 18.61,
 		"2015UKIP": 14.87,
-		"2016Leave": 59.23
+		"age18-29": 18.61,
+		"leave": 59.23
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000830",
 	"title": "Newbury",
 	"demographics": {
-		"leave": 47.51,
 		"withdegree": 20.64,
-		"age18-29": 12.71,
 		"2015UKIP": 10.81,
-		"2016Leave": 47.51
+		"age18-29": 12.71,
+		"leave": 47.51
 	},
 	"elections": {
 		"2019-12-12": {

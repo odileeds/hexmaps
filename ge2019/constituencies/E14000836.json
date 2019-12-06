@@ -2,11 +2,10 @@
 	"id": "E14000836",
 	"title": "Normanton, Pontefract and Castleford",
 	"demographics": {
-		"leave": 69.26,
 		"withdegree": 6.85,
-		"age18-29": 15.39,
 		"2015UKIP": 21.32,
-		"2016Leave": 69.26
+		"age18-29": 15.39,
+		"leave": 69.26
 	},
 	"elections": {
 		"2019-12-12": {

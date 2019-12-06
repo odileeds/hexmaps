@@ -2,11 +2,10 @@
 	"id": "E14000689",
 	"title": "Elmet and Rothwell",
 	"demographics": {
-		"leave": 56.36,
 		"withdegree": 16.35,
-		"age18-29": 11.32,
 		"2015UKIP": 11.13,
-		"2016Leave": 56.36
+		"age18-29": 11.32,
+		"leave": 56.36
 	},
 	"elections": {
 		"2019-12-12": {

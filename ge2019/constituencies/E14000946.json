@@ -2,11 +2,10 @@
 	"id": "E14000946",
 	"title": "South Suffolk",
 	"demographics": {
-		"leave": 54.15,
 		"withdegree": 13.75,
-		"age18-29": 10.66,
 		"2015UKIP": 15.21,
-		"2016Leave": 54.15
+		"age18-29": 10.66,
+		"leave": 54.15
 	},
 	"elections": {
 		"2019-12-12": {

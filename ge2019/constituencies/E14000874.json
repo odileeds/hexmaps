@@ -2,11 +2,10 @@
 	"id": "E14000874",
 	"title": "Oxford West and Abingdon",
 	"demographics": {
-		"leave": 38.18,
 		"withdegree": 34.26,
-		"age18-29": 17.4,
 		"2015UKIP": 6.92,
-		"2016Leave": 38.18
+		"age18-29": 17.4,
+		"leave": 38.18
 	},
 	"elections": {
 		"2019-12-12": {

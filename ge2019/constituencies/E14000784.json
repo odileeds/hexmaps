@@ -2,11 +2,10 @@
 	"id": "E14000784",
 	"title": "Leicester West",
 	"demographics": {
-		"leave": 51.67,
 		"withdegree": 13.68,
-		"age18-29": 22.79,
 		"2015UKIP": 17.24,
-		"2016Leave": 51.67
+		"age18-29": 22.79,
+		"leave": 51.67
 	},
 	"elections": {
 		"2019-12-12": {

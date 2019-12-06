@@ -2,11 +2,10 @@
 	"id": "E14000572",
 	"title": "Blackpool North and Cleveleys",
 	"demographics": {
-		"leave": 66.85,
 		"withdegree": 7.85,
-		"age18-29": 12.91,
 		"2015UKIP": 14.78,
-		"2016Leave": 66.85
+		"age18-29": 12.91,
+		"leave": 66.85
 	},
 	"elections": {
 		"2019-12-12": {

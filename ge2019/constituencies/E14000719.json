@@ -2,11 +2,10 @@
 	"id": "E14000719",
 	"title": "Guildford",
 	"demographics": {
-		"leave": 41.18,
 		"withdegree": 29.67,
-		"age18-29": 19.98,
 		"2015UKIP": 8.84,
-		"2016Leave": 41.18
+		"age18-29": 19.98,
+		"leave": 41.18
 	},
 	"elections": {
 		"2019-12-12": {

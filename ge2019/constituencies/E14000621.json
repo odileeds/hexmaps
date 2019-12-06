@@ -2,11 +2,10 @@
 	"id": "E14000621",
 	"title": "Carshalton and Wallington",
 	"demographics": {
-		"leave": 56.3,
 		"withdegree": 16.68,
-		"age18-29": 14.93,
 		"2015UKIP": 14.8,
-		"2016Leave": 56.3
+		"age18-29": 14.93,
+		"leave": 56.3
 	},
 	"elections": {
 		"2019-12-12": {

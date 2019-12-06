@@ -2,11 +2,10 @@
 	"id": "E14000713",
 	"title": "Gosport",
 	"demographics": {
-		"leave": 61.97,
 		"withdegree": 10.19,
-		"age18-29": 14.1,
 		"2015UKIP": 19.44,
-		"2016Leave": 61.97
+		"age18-29": 14.1,
+		"leave": 61.97
 	},
 	"elections": {
 		"2019-12-12": {

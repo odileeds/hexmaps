@@ -2,11 +2,10 @@
 	"id": "E14000976",
 	"title": "Stourbridge",
 	"demographics": {
-		"leave": 63.66,
 		"withdegree": 11.66,
-		"age18-29": 13.55,
 		"2015UKIP": 16.89,
-		"2016Leave": 63.66
+		"age18-29": 13.55,
+		"leave": 63.66
 	},
 	"elections": {
 		"2019-12-12": {

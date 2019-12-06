@@ -2,11 +2,10 @@
 	"id": "E14000809",
 	"title": "Manchester, Withington",
 	"demographics": {
-		"leave": 26.31,
 		"withdegree": 38.67,
-		"age18-29": 31,
 		"2015UKIP": 4.35,
-		"2016Leave": 26.31
+		"age18-29": 31,
+		"leave": 26.31
 	},
 	"elections": {
 		"2019-12-12": {

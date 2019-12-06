@@ -2,11 +2,10 @@
 	"id": "W07000070",
 	"title": "Cynon Valley",
 	"demographics": {
-		"leave": 56.96,
 		"withdegree": 8.73,
-		"age18-29": 15.4,
 		"2015UKIP": 16.33,
-		"2016Leave": 56.96
+		"age18-29": 15.4,
+		"leave": 56.96
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000787",
 	"title": "Lewisham East",
 	"demographics": {
-		"leave": 35.45,
 		"withdegree": 25.64,
-		"age18-29": 16.5,
 		"2015UKIP": 9.05,
-		"2016Leave": 35.45
+		"age18-29": 16.5,
+		"leave": 35.45
 	},
 	"elections": {
 		"2019-12-12": {

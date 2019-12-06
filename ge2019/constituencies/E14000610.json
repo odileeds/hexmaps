@@ -2,11 +2,10 @@
 	"id": "E14000610",
 	"title": "Burton",
 	"demographics": {
-		"leave": 64.62,
 		"withdegree": 11.7,
-		"age18-29": 15.26,
 		"2015UKIP": 17.68,
-		"2016Leave": 64.62
+		"age18-29": 15.26,
+		"leave": 64.62
 	},
 	"elections": {
 		"2019-12-12": {

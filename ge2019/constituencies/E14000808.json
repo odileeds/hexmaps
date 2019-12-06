@@ -2,11 +2,10 @@
 	"id": "E14000808",
 	"title": "Manchester, Gorton",
 	"demographics": {
-		"leave": 37.9,
 		"withdegree": 20.85,
-		"age18-29": 30.2,
 		"2015UKIP": 8.17,
-		"2016Leave": 37.9
+		"age18-29": 30.2,
+		"leave": 37.9
 	},
 	"elections": {
 		"2019-12-12": {

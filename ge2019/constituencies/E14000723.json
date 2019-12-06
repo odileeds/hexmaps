@@ -2,11 +2,10 @@
 	"id": "E14000723",
 	"title": "Halifax",
 	"demographics": {
-		"leave": 58.82,
 		"withdegree": 11.05,
-		"age18-29": 15.61,
 		"2015UKIP": 12.85,
-		"2016Leave": 58.82
+		"age18-29": 15.61,
+		"leave": 58.82
 	},
 	"elections": {
 		"2019-12-12": {

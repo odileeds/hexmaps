@@ -2,11 +2,10 @@
 	"id": "E14000761",
 	"title": "Ipswich",
 	"demographics": {
-		"leave": 56.57,
 		"withdegree": 12.89,
-		"age18-29": 18.56,
 		"2015UKIP": 11.71,
-		"2016Leave": 56.57
+		"age18-29": 18.56,
+		"leave": 56.57
 	},
 	"elections": {
 		"2019-12-12": {

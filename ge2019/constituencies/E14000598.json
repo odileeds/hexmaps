@@ -2,11 +2,10 @@
 	"id": "E14000598",
 	"title": "Brighton, Pavilion",
 	"demographics": {
-		"leave": 25.68,
 		"withdegree": 32.39,
-		"age18-29": 27.65,
 		"2015UKIP": 4.98,
-		"2016Leave": 25.68
+		"age18-29": 27.65,
+		"leave": 25.68
 	},
 	"elections": {
 		"2019-12-12": {

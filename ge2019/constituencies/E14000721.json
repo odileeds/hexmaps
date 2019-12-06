@@ -2,11 +2,10 @@
 	"id": "E14000721",
 	"title": "Hackney South and Shoreditch",
 	"demographics": {
-		"leave": 22.18,
 		"withdegree": 35.53,
-		"age18-29": 25.99,
 		"2015UKIP": 3.82,
-		"2016Leave": 22.18
+		"age18-29": 25.99,
+		"leave": 22.18
 	},
 	"elections": {
 		"2019-12-12": {

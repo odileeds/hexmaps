@@ -2,11 +2,10 @@
 	"id": "E14000742",
 	"title": "Henley",
 	"demographics": {
-		"leave": 43.07,
 		"withdegree": 26.4,
-		"age18-29": 10.9,
 		"2015UKIP": 10.88,
-		"2016Leave": 43.07
+		"age18-29": 10.9,
+		"leave": 43.07
 	},
 	"elections": {
 		"2019-12-12": {

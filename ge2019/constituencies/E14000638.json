@@ -2,11 +2,10 @@
 	"id": "E14000638",
 	"title": "Christchurch",
 	"demographics": {
-		"leave": 59.87,
 		"withdegree": 11.26,
-		"age18-29": 9.51,
 		"2015UKIP": 21.45,
-		"2016Leave": 59.87
+		"age18-29": 9.51,
+		"leave": 59.87
 	},
 	"elections": {
 		"2019-12-12": {

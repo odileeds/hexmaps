@@ -2,11 +2,10 @@
 	"id": "E14000648",
 	"title": "Corby",
 	"demographics": {
-		"leave": 60.11,
 		"withdegree": 10.99,
-		"age18-29": 13.98,
 		"2015UKIP": 13.72,
-		"2016Leave": 60.11
+		"age18-29": 13.98,
+		"leave": 60.11
 	},
 	"elections": {
 		"2019-12-12": {

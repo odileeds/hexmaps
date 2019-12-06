@@ -2,11 +2,10 @@
 	"id": "E14000537",
 	"title": "Ashton-under-Lyne",
 	"demographics": {
-		"leave": 61.81,
 		"withdegree": 7.9,
-		"age18-29": 15.71,
 		"2015UKIP": 21.76,
-		"2016Leave": 61.81
+		"age18-29": 15.71,
+		"leave": 61.81
 	},
 	"elections": {
 		"2019-12-12": {

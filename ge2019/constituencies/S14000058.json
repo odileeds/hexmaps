@@ -2,10 +2,9 @@
 	"id": "S14000058",
 	"title": "West Aberdeenshire and Kincardine",
 	"demographics": {
-		"leave": 38.61,
-		"age18-29": 11.62,
 		"2015UKIP": 1.82,
-		"2016Leave": 38.61
+		"age18-29": 11.62,
+		"leave": 38.61
 	},
 	"elections": {
 		"2019-12-12": {

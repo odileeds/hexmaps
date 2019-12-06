@@ -2,11 +2,10 @@
 	"id": "E14000627",
 	"title": "Cheadle",
 	"demographics": {
-		"leave": 42.65,
 		"withdegree": 23.5,
-		"age18-29": 11.19,
 		"2015UKIP": 8.33,
-		"2016Leave": 42.65
+		"age18-29": 11.19,
+		"leave": 42.65
 	},
 	"elections": {
 		"2019-12-12": {

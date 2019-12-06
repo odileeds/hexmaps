@@ -2,11 +2,10 @@
 	"id": "E14000779",
 	"title": "Leeds North East",
 	"demographics": {
-		"leave": 37.33,
 		"withdegree": 30.83,
-		"age18-29": 16.03,
 		"2015UKIP": 7.67,
-		"2016Leave": 37.33
+		"age18-29": 16.03,
+		"leave": 37.33
 	},
 	"elections": {
 		"2019-12-12": {

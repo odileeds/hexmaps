@@ -2,11 +2,10 @@
 	"id": "E14000739",
 	"title": "Hemel Hempstead",
 	"demographics": {
-		"leave": 55.17,
 		"withdegree": 16.07,
-		"age18-29": 14.97,
 		"2015UKIP": 14.61,
-		"2016Leave": 55.17
+		"age18-29": 14.97,
+		"leave": 55.17
 	},
 	"elections": {
 		"2019-12-12": {

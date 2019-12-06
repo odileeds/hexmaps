@@ -2,11 +2,10 @@
 	"id": "E14000655",
 	"title": "Croydon North",
 	"demographics": {
-		"leave": 41.17,
 		"withdegree": 20.9,
-		"age18-29": 17.68,
 		"2015UKIP": 5.42,
-		"2016Leave": 41.17
+		"age18-29": 17.68,
+		"leave": 41.17
 	},
 	"elections": {
 		"2019-12-12": {

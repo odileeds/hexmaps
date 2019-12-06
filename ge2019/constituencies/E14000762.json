@@ -2,11 +2,10 @@
 	"id": "E14000762",
 	"title": "Isle of Wight",
 	"demographics": {
-		"leave": 61.95,
 		"withdegree": 10.77,
-		"age18-29": 11.89,
 		"2015UKIP": 21.18,
-		"2016Leave": 61.95
+		"age18-29": 11.89,
+		"leave": 61.95
 	},
 	"elections": {
 		"2019-12-12": {

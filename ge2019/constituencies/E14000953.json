@@ -2,11 +2,10 @@
 	"id": "E14000953",
 	"title": "South West Surrey",
 	"demographics": {
-		"leave": 40.61,
 		"withdegree": 28.04,
-		"age18-29": 10.94,
 		"2015UKIP": 9.88,
-		"2016Leave": 40.61
+		"age18-29": 10.94,
+		"leave": 40.61
 	},
 	"elections": {
 		"2019-12-12": {

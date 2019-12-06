@@ -2,11 +2,10 @@
 	"id": "E14000990",
 	"title": "Tewkesbury",
 	"demographics": {
-		"leave": 53.78,
 		"withdegree": 16.48,
-		"age18-29": 12.28,
 		"2015UKIP": 12.88,
-		"2016Leave": 53.78
+		"age18-29": 12.28,
+		"leave": 53.78
 	},
 	"elections": {
 		"2019-12-12": {

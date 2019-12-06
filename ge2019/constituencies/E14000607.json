@@ -2,11 +2,10 @@
 	"id": "E14000607",
 	"title": "Broxtowe",
 	"demographics": {
-		"leave": 52.41,
 		"withdegree": 19.89,
-		"age18-29": 14.64,
 		"2015UKIP": 10.62,
-		"2016Leave": 52.41
+		"age18-29": 14.64,
+		"leave": 52.41
 	},
 	"elections": {
 		"2019-12-12": {

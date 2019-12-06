@@ -2,11 +2,10 @@
 	"id": "E14000912",
 	"title": "Salisbury",
 	"demographics": {
-		"leave": 50.34,
 		"withdegree": 18.38,
-		"age18-29": 12.55,
 		"2015UKIP": 12.13,
-		"2016Leave": 50.34
+		"age18-29": 12.55,
+		"leave": 50.34
 	},
 	"elections": {
 		"2019-12-12": {

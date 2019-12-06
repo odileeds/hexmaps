@@ -2,11 +2,10 @@
 	"id": "E14000918",
 	"title": "Sevenoaks",
 	"demographics": {
-		"leave": 53.86,
 		"withdegree": 21,
-		"age18-29": 11.26,
 		"2015UKIP": 17.9,
-		"2016Leave": 53.86
+		"age18-29": 11.26,
+		"leave": 53.86
 	},
 	"elections": {
 		"2019-12-12": {

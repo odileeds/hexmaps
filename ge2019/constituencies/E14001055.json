@@ -2,11 +2,10 @@
 	"id": "E14001055",
 	"title": "Worthing West",
 	"demographics": {
-		"leave": 56.12,
 		"withdegree": 12.25,
-		"age18-29": 11.84,
 		"2015UKIP": 18.26,
-		"2016Leave": 56.12
+		"age18-29": 11.84,
+		"leave": 56.12
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000631",
 	"title": "Chesham and Amersham",
 	"demographics": {
-		"leave": 44.98,
 		"withdegree": 27.85,
-		"age18-29": 9.88,
 		"2015UKIP": 13.69,
-		"2016Leave": 44.98
+		"age18-29": 9.88,
+		"leave": 44.98
 	},
 	"elections": {
 		"2019-12-12": {

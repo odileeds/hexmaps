@@ -2,11 +2,10 @@
 	"id": "E14000754",
 	"title": "Houghton and Sunderland South",
 	"demographics": {
-		"leave": 62.43,
 		"withdegree": 8.04,
-		"age18-29": 14.09,
 		"2015UKIP": 21.51,
-		"2016Leave": 62.43
+		"age18-29": 14.09,
+		"leave": 62.43
 	},
 	"elections": {
 		"2019-12-12": {

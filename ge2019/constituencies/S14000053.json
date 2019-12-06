@@ -2,9 +2,8 @@
 	"id": "S14000053",
 	"title": "Paisley and Renfrewshire South",
 	"demographics": {
-		"leave": 34.19,
 		"age18-29": 15.89,
-		"2016Leave": 34.19
+		"leave": 34.19
 	},
 	"elections": {
 		"2019-12-12": {

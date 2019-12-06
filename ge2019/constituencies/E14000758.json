@@ -2,11 +2,10 @@
 	"id": "E14000758",
 	"title": "Hyndburn",
 	"demographics": {
-		"leave": 65.75,
 		"withdegree": 9.41,
-		"age18-29": 15.2,
 		"2015UKIP": 21.34,
-		"2016Leave": 65.75
+		"age18-29": 15.2,
+		"leave": 65.75
 	},
 	"elections": {
 		"2019-12-12": {

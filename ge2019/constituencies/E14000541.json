@@ -2,11 +2,10 @@
 	"id": "E14000541",
 	"title": "Barnsley Central",
 	"demographics": {
-		"leave": 68.38,
 		"withdegree": 8.13,
-		"age18-29": 15.18,
 		"2015UKIP": 21.72,
-		"2016Leave": 68.38
+		"age18-29": 15.18,
+		"leave": 68.38
 	},
 	"elections": {
 		"2019-12-12": {

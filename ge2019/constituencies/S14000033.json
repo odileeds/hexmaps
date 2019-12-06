@@ -2,9 +2,8 @@
 	"id": "S14000033",
 	"title": "Glasgow North West",
 	"demographics": {
-		"leave": 31.49,
 		"age18-29": 18.68,
-		"2016Leave": 31.49
+		"leave": 31.49
 	},
 	"elections": {
 		"2019-12-12": {

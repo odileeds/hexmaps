@@ -2,11 +2,10 @@
 	"id": "E14001026",
 	"title": "Wells",
 	"demographics": {
-		"leave": 53.49,
 		"withdegree": 14.51,
-		"age18-29": 11.58,
 		"2015UKIP": 9.92,
-		"2016Leave": 53.49
+		"age18-29": 11.58,
+		"leave": 53.49
 	},
 	"elections": {
 		"2019-12-12": {

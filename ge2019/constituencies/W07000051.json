@@ -2,11 +2,10 @@
 	"id": "W07000051",
 	"title": "Cardiff North",
 	"demographics": {
-		"leave": 39.08,
 		"withdegree": 25.94,
-		"age18-29": 17.6,
 		"2015UKIP": 7.73,
-		"2016Leave": 39.08
+		"age18-29": 17.6,
+		"leave": 39.08
 	},
 	"elections": {
 		"2019-12-12": {

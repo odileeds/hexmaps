@@ -2,11 +2,10 @@
 	"id": "E14000681",
 	"title": "East Surrey",
 	"demographics": {
-		"leave": 54.19,
 		"withdegree": 18.5,
-		"age18-29": 12.17,
 		"2015UKIP": 17.03,
-		"2016Leave": 54.19
+		"age18-29": 12.17,
+		"leave": 54.19
 	},
 	"elections": {
 		"2019-12-12": {

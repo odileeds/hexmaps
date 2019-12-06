@@ -2,10 +2,9 @@
 	"id": "S14000039",
 	"title": "Inverness, Nairn, Badenoch and Strathspey",
 	"demographics": {
-		"leave": 41.38,
-		"age18-29": 13.89,
 		"2015UKIP": 2.15,
-		"2016Leave": 41.38
+		"age18-29": 13.89,
+		"leave": 41.38
 	},
 	"elections": {
 		"2019-12-12": {

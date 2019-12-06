@@ -2,11 +2,10 @@
 	"id": "E14000710",
 	"title": "Gedling",
 	"demographics": {
-		"leave": 56.2,
 		"withdegree": 13.99,
-		"age18-29": 13.58,
 		"2015UKIP": 14.44,
-		"2016Leave": 56.2
+		"age18-29": 13.58,
+		"leave": 56.2
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,10 +2,9 @@
 	"id": "S14000002",
 	"title": "Aberdeen South",
 	"demographics": {
-		"leave": 32.33,
-		"age18-29": 21.04,
 		"2015UKIP": 1.85,
-		"2016Leave": 32.33
+		"age18-29": 21.04,
+		"leave": 32.33
 	},
 	"elections": {
 		"2019-12-12": {

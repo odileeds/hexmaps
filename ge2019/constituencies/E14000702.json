@@ -2,11 +2,10 @@
 	"id": "E14000702",
 	"title": "Filton and Bradley Stoke",
 	"demographics": {
-		"leave": 47.98,
 		"withdegree": 17.63,
-		"age18-29": 17.38,
 		"2015UKIP": 14.79,
-		"2016Leave": 47.98
+		"age18-29": 17.38,
+		"leave": 47.98
 	},
 	"elections": {
 		"2019-12-12": {

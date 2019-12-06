@@ -2,11 +2,10 @@
 	"id": "E14000549",
 	"title": "Battersea",
 	"demographics": {
-		"leave": 23.04,
 		"withdegree": 51.1,
-		"age18-29": 26.96,
 		"2015UKIP": 3.11,
-		"2016Leave": 23.04
+		"age18-29": 26.96,
+		"leave": 23.04
 	},
 	"elections": {
 		"2019-12-12": {

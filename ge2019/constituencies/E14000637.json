@@ -2,11 +2,10 @@
 	"id": "E14000637",
 	"title": "Chorley",
 	"demographics": {
-		"leave": 56.57,
 		"withdegree": 15.47,
-		"age18-29": 13.55,
 		"2015UKIP": 13.53,
-		"2016Leave": 56.57
+		"age18-29": 13.55,
+		"leave": 56.57
 	},
 	"elections": {
 		"2019-12-12": {

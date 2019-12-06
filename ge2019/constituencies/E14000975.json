@@ -2,11 +2,10 @@
 	"id": "E14000975",
 	"title": "Stone",
 	"demographics": {
-		"leave": 58.04,
 		"withdegree": 16.7,
-		"age18-29": 10.91,
 		"2015UKIP": 16.2,
-		"2016Leave": 58.04
+		"age18-29": 10.91,
+		"leave": 58.04
 	},
 	"elections": {
 		"2019-12-12": {

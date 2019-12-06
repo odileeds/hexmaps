@@ -2,11 +2,10 @@
 	"id": "E14000875",
 	"title": "Pendle",
 	"demographics": {
-		"leave": 63.15,
 		"withdegree": 10.42,
-		"age18-29": 15.85,
 		"2015UKIP": 12.18,
-		"2016Leave": 63.15
+		"age18-29": 15.85,
+		"leave": 63.15
 	},
 	"elections": {
 		"2019-12-12": {

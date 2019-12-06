@@ -2,11 +2,10 @@
 	"id": "E14000616",
 	"title": "Camborne and Redruth",
 	"demographics": {
-		"leave": 57.91,
 		"withdegree": 10.75,
-		"age18-29": 13.64,
 		"2015UKIP": 14.77,
-		"2016Leave": 57.91
+		"age18-29": 13.64,
+		"leave": 57.91
 	},
 	"elections": {
 		"2019-12-12": {

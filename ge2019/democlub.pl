@@ -325,6 +325,7 @@ close(FILE);
 
 
 
+%demo = ('britainelects-%: 2016 Leave'=>'leave','britainelects-%: with Degree'=>'withdegree','britainelects-%: age 18 - 29'=>'age18-29','britainelects-%: 2015 UKIP'=>'2015UKIP','2016Leave'=>'britainelects-%: 2016 Leave');
 
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
@@ -335,12 +336,16 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\t\"id\": \"$pcd\",\n";
 		print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
 		print FILE "\t\"demographics\": {\n";
-		if($con{$pcd}{'britainelects-%: 2016 Leave'}){ print FILE "\t\t\"leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}.",\n"; }
-		if($con{$pcd}{'britainelects-%: with Degree'}){ print FILE "\t\t\"withdegree\": ".$con{$pcd}{'britainelects-%: with Degree'}.",\n"; }
-		if($con{$pcd}{'britainelects-%: age 18 - 29'}){ print FILE "\t\t\"age18-29\": ".$con{$pcd}{'britainelects-%: age 18 - 29'}.",\n"; }
-		if($con{$pcd}{'britainelects-%: 2015 UKIP'}){ print FILE "\t\t\"2015UKIP\": ".$con{$pcd}{'britainelects-%: 2015 UKIP'}.",\n"; }
-		print FILE "\t\t\"2016Leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}."\n";
-		print FILE "\t},\n";
+		$n = 0;
+		foreach $d (keys(%demo)){
+			print "$d - $demo{$d} - $con{$pcd}{$d}\n";
+			if($con{$pcd}{$d}){
+				if($n > 0){ print FILE ",\n"; }
+				print FILE "\t\t\"".$demo{$d}."\": ".$con{$pcd}{$d}."";
+				$n++;
+			}
+		}
+		print FILE "\n\t},\n";
 		print FILE "\t\"elections\": {\n";
 		print FILE "\t\t\"2019-12-12\": {\n";
 		print FILE "\t\t\t\"type\": \"general\",\n";

@@ -2,11 +2,10 @@
 	"id": "E14000623",
 	"title": "Central Devon",
 	"demographics": {
-		"leave": 51.18,
 		"withdegree": 18.12,
-		"age18-29": 10.24,
 		"2015UKIP": 13.17,
-		"2016Leave": 51.18
+		"age18-29": 10.24,
+		"leave": 51.18
 	},
 	"elections": {
 		"2019-12-12": {

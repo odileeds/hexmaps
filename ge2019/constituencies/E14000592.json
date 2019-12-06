@@ -2,11 +2,10 @@
 	"id": "E14000592",
 	"title": "Brent North",
 	"demographics": {
-		"leave": 43.09,
 		"withdegree": 24.72,
-		"age18-29": 21.13,
 		"2015UKIP": 3.87,
-		"2016Leave": 43.09
+		"age18-29": 21.13,
+		"leave": 43.09
 	},
 	"elections": {
 		"2019-12-12": {

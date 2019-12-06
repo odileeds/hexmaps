@@ -2,11 +2,10 @@
 	"id": "E14000632",
 	"title": "Chesterfield",
 	"demographics": {
-		"leave": 59.32,
 		"withdegree": 10.71,
-		"age18-29": 13.78,
 		"2015UKIP": 16.51,
-		"2016Leave": 59.32
+		"age18-29": 13.78,
+		"leave": 59.32
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14001022",
 	"title": "Waveney",
 	"demographics": {
-		"leave": 63.21,
 		"withdegree": 7.39,
-		"age18-29": 12.7,
 		"2015UKIP": 14.52,
-		"2016Leave": 63.21
+		"age18-29": 12.7,
+		"leave": 63.21
 	},
 	"elections": {
 		"2019-12-12": {

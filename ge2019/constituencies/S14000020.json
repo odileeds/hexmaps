@@ -2,10 +2,9 @@
 	"id": "S14000020",
 	"title": "East Lothian",
 	"demographics": {
-		"leave": 35.4,
-		"age18-29": 12.75,
 		"2015UKIP": 2,
-		"2016Leave": 35.4
+		"age18-29": 12.75,
+		"leave": 35.4
 	},
 	"elections": {
 		"2019-12-12": {

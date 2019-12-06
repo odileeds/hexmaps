@@ -2,11 +2,10 @@
 	"id": "E14000573",
 	"title": "Blackpool South",
 	"demographics": {
-		"leave": 67.8,
 		"withdegree": 6.38,
-		"age18-29": 15.18,
 		"2015UKIP": 17.3,
-		"2016Leave": 67.8
+		"age18-29": 15.18,
+		"leave": 67.8
 	},
 	"elections": {
 		"2019-12-12": {

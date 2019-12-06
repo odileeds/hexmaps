@@ -2,11 +2,10 @@
 	"id": "W07000054",
 	"title": "Monmouth",
 	"demographics": {
-		"leave": 47.85,
 		"withdegree": 19.88,
-		"age18-29": 10.81,
 		"2015UKIP": 10.41,
-		"2016Leave": 47.85
+		"age18-29": 10.81,
+		"leave": 47.85
 	},
 	"elections": {
 		"2019-12-12": {

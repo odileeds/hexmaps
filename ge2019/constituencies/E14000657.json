@@ -2,11 +2,10 @@
 	"id": "E14000657",
 	"title": "Dagenham and Rainham",
 	"demographics": {
-		"leave": 69.93,
 		"withdegree": 9.94,
-		"age18-29": 16.03,
 		"2015UKIP": 29.85,
-		"2016Leave": 69.93
+		"age18-29": 16.03,
+		"leave": 69.93
 	},
 	"elections": {
 		"2019-12-12": {

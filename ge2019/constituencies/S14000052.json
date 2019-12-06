@@ -2,9 +2,8 @@
 	"id": "S14000052",
 	"title": "Paisley and Renfrewshire North",
 	"demographics": {
-		"leave": 36.09,
 		"age18-29": 14.17,
-		"2016Leave": 36.09
+		"leave": 36.09
 	},
 	"elections": {
 		"2019-12-12": {

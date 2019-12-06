@@ -2,11 +2,10 @@
 	"id": "E14000800",
 	"title": "Luton North",
 	"demographics": {
-		"leave": 58.21,
 		"withdegree": 13.01,
-		"age18-29": 16.17,
 		"2015UKIP": 12.49,
-		"2016Leave": 58.21
+		"age18-29": 16.17,
+		"leave": 58.21
 	},
 	"elections": {
 		"2019-12-12": {

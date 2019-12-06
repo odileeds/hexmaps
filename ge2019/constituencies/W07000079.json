@@ -2,11 +2,10 @@
 	"id": "W07000079",
 	"title": "Cardiff West",
 	"demographics": {
-		"leave": 44.84,
 		"withdegree": 23.38,
-		"age18-29": 16.65,
 		"2015UKIP": 11.24,
-		"2016Leave": 44.84
+		"age18-29": 16.65,
+		"leave": 44.84
 	},
 	"elections": {
 		"2019-12-12": {

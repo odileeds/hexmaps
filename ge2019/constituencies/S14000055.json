@@ -2,10 +2,9 @@
 	"id": "S14000055",
 	"title": "Ross, Skye and Lochaber",
 	"demographics": {
-		"leave": 43.35,
-		"age18-29": 10.78,
 		"2015UKIP": 1.95,
-		"2016Leave": 43.35
+		"age18-29": 10.78,
+		"leave": 43.35
 	},
 	"elections": {
 		"2019-12-12": {

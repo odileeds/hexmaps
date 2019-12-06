@@ -2,11 +2,10 @@
 	"id": "W07000053",
 	"title": "Torfaen",
 	"demographics": {
-		"leave": 60.88,
 		"withdegree": 9.16,
-		"age18-29": 15.03,
 		"2015UKIP": 18.99,
-		"2016Leave": 60.88
+		"age18-29": 15.03,
+		"leave": 60.88
 	},
 	"elections": {
 		"2019-12-12": {

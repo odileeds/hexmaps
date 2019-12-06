@@ -2,11 +2,10 @@
 	"id": "E14000813",
 	"title": "Mid Bedfordshire",
 	"demographics": {
-		"leave": 52.26,
 		"withdegree": 18.28,
-		"age18-29": 12.35,
 		"2015UKIP": 15.44,
-		"2016Leave": 52.26
+		"age18-29": 12.35,
+		"leave": 52.26
 	},
 	"elections": {
 		"2019-12-12": {

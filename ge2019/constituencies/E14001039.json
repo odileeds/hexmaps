@@ -2,11 +2,10 @@
 	"id": "E14001039",
 	"title": "Wigan",
 	"demographics": {
-		"leave": 62.71,
 		"withdegree": 10.19,
-		"age18-29": 15.28,
 		"2015UKIP": 19.47,
-		"2016Leave": 62.71
+		"age18-29": 15.28,
+		"leave": 62.71
 	},
 	"elections": {
 		"2019-12-12": {

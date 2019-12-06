@@ -2,11 +2,10 @@
 	"id": "E14000551",
 	"title": "Beckenham",
 	"demographics": {
-		"leave": 48.38,
 		"withdegree": 23.16,
-		"age18-29": 12.5,
 		"2015UKIP": 12.52,
-		"2016Leave": 48.38
+		"age18-29": 12.5,
+		"leave": 48.38
 	},
 	"elections": {
 		"2019-12-12": {

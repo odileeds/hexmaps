@@ -2,11 +2,10 @@
 	"id": "E14000718",
 	"title": "Greenwich and Woolwich",
 	"demographics": {
-		"leave": 35.67,
 		"withdegree": 32.49,
-		"age18-29": 21.77,
 		"2015UKIP": 8.32,
-		"2016Leave": 35.67
+		"age18-29": 21.77,
+		"leave": 35.67
 	},
 	"elections": {
 		"2019-12-12": {

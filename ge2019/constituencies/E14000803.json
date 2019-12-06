@@ -2,11 +2,10 @@
 	"id": "E14000803",
 	"title": "Maidenhead",
 	"demographics": {
-		"leave": 45.41,
 		"withdegree": 27.46,
-		"age18-29": 11.91,
 		"2015UKIP": 8.43,
-		"2016Leave": 45.41
+		"age18-29": 11.91,
+		"leave": 45.41
 	},
 	"elections": {
 		"2019-12-12": {

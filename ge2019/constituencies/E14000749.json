@@ -2,11 +2,10 @@
 	"id": "E14000749",
 	"title": "Hitchin and Harpenden",
 	"demographics": {
-		"leave": 39.79,
 		"withdegree": 30.53,
-		"age18-29": 11.34,
 		"2015UKIP": 8.88,
-		"2016Leave": 39.79
+		"age18-29": 11.34,
+		"leave": 39.79
 	},
 	"elections": {
 		"2019-12-12": {

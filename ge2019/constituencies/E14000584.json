@@ -2,11 +2,10 @@
 	"id": "E14000584",
 	"title": "Bournemouth East",
 	"demographics": {
-		"leave": 53.51,
 		"withdegree": 16.66,
-		"age18-29": 17.81,
 		"2015UKIP": 16.51,
-		"2016Leave": 53.51
+		"age18-29": 17.81,
+		"leave": 53.51
 	},
 	"elections": {
 		"2019-12-12": {

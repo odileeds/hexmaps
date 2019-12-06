@@ -2,11 +2,10 @@
 	"id": "E14001016",
 	"title": "Warley",
 	"demographics": {
-		"leave": 61.83,
 		"withdegree": 11.69,
-		"age18-29": 17.61,
 		"2015UKIP": 16.49,
-		"2016Leave": 61.83
+		"age18-29": 17.61,
+		"leave": 61.83
 	},
 	"elections": {
 		"2019-12-12": {

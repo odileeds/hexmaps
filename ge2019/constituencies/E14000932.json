@@ -2,11 +2,10 @@
 	"id": "E14000932",
 	"title": "Somerton and Frome",
 	"demographics": {
-		"leave": 50.96,
 		"withdegree": 16.34,
-		"age18-29": 10.75,
 		"2015UKIP": 10.68,
-		"2016Leave": 50.96
+		"age18-29": 10.75,
+		"leave": 50.96
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000752",
 	"title": "Hornsey and Wood Green",
 	"demographics": {
-		"leave": 24.98,
 		"withdegree": 44.64,
-		"age18-29": 19.44,
 		"2015UKIP": 2.2,
-		"2016Leave": 24.98
+		"age18-29": 19.44,
+		"leave": 24.98
 	},
 	"elections": {
 		"2019-12-12": {

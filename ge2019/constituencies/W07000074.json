@@ -2,11 +2,10 @@
 	"id": "W07000074",
 	"title": "Ogmore",
 	"demographics": {
-		"leave": 59.75,
 		"withdegree": 9.29,
-		"age18-29": 14.5,
 		"2015UKIP": 15.38,
-		"2016Leave": 59.75
+		"age18-29": 14.5,
+		"leave": 59.75
 	},
 	"elections": {
 		"2019-12-12": {

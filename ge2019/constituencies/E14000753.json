@@ -2,11 +2,10 @@
 	"id": "E14000753",
 	"title": "Horsham",
 	"demographics": {
-		"leave": 48.67,
 		"withdegree": 19.08,
-		"age18-29": 11.54,
 		"2015UKIP": 14,
-		"2016Leave": 48.67
+		"age18-29": 11.54,
+		"leave": 48.67
 	},
 	"elections": {
 		"2019-12-12": {

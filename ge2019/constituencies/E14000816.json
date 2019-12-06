@@ -2,11 +2,10 @@
 	"id": "E14000816",
 	"title": "Mid Norfolk",
 	"demographics": {
-		"leave": 60.58,
 		"withdegree": 10.42,
-		"age18-29": 12.13,
 		"2015UKIP": 19.02,
-		"2016Leave": 60.58
+		"age18-29": 12.13,
+		"leave": 60.58
 	},
 	"elections": {
 		"2019-12-12": {

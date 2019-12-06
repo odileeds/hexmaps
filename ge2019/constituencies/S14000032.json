@@ -2,9 +2,8 @@
 	"id": "S14000032",
 	"title": "Glasgow North East",
 	"demographics": {
-		"leave": 40.66,
 		"age18-29": 19.61,
-		"2016Leave": 40.66
+		"leave": 40.66
 	},
 	"elections": {
 		"2019-12-12": {

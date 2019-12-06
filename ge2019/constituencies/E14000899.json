@@ -2,11 +2,10 @@
 	"id": "E14000899",
 	"title": "Rochford and Southend East",
 	"demographics": {
-		"leave": 60.46,
 		"withdegree": 9.89,
-		"age18-29": 15.4,
 		"2015UKIP": 20.52,
-		"2016Leave": 60.46
+		"age18-29": 15.4,
+		"leave": 60.46
 	},
 	"elections": {
 		"2019-12-12": {

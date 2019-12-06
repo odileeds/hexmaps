@@ -2,11 +2,10 @@
 	"id": "W07000057",
 	"title": "Arfon",
 	"demographics": {
-		"leave": 34.91,
 		"withdegree": 18.35,
-		"age18-29": 22.3,
 		"2015UKIP": 8.48,
-		"2016Leave": 34.91
+		"age18-29": 22.3,
+		"leave": 34.91
 	},
 	"elections": {
 		"2019-12-12": {

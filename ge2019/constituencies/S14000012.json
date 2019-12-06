@@ -2,9 +2,8 @@
 	"id": "S14000012",
 	"title": "Cumbernauld, Kilsyth and Kirkintilloch East",
 	"demographics": {
-		"leave": 37.91,
 		"age18-29": 14.66,
-		"2016Leave": 37.91
+		"leave": 37.91
 	},
 	"elections": {
 		"2019-12-12": {

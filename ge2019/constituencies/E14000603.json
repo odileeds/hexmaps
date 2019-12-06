@@ -2,11 +2,10 @@
 	"id": "E14000603",
 	"title": "Broadland",
 	"demographics": {
-		"leave": 54.06,
 		"withdegree": 11.6,
-		"age18-29": 10.5,
 		"2015UKIP": 16.73,
-		"2016Leave": 54.06
+		"age18-29": 10.5,
+		"leave": 54.06
 	},
 	"elections": {
 		"2019-12-12": {

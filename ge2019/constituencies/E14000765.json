@@ -2,11 +2,10 @@
 	"id": "E14000765",
 	"title": "Jarrow",
 	"demographics": {
-		"leave": 61.62,
 		"withdegree": 10.07,
-		"age18-29": 14.35,
 		"2015UKIP": 19.66,
-		"2016Leave": 61.62
+		"age18-29": 14.35,
+		"leave": 61.62
 	},
 	"elections": {
 		"2019-12-12": {

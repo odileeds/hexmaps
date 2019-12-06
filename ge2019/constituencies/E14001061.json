@@ -2,11 +2,10 @@
 	"id": "E14001061",
 	"title": "York Central",
 	"demographics": {
-		"leave": 38.53,
 		"withdegree": 24.96,
-		"age18-29": 27.11,
 		"2015UKIP": 10.06,
-		"2016Leave": 38.53
+		"age18-29": 27.11,
+		"leave": 38.53
 	},
 	"elections": {
 		"2019-12-12": {

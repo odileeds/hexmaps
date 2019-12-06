@@ -2,11 +2,10 @@
 	"id": "E14000671",
 	"title": "Dudley North",
 	"demographics": {
-		"leave": 71.43,
 		"withdegree": 8.36,
-		"age18-29": 14.95,
 		"2015UKIP": 23.99,
-		"2016Leave": 71.43
+		"age18-29": 14.95,
+		"leave": 71.43
 	},
 	"elections": {
 		"2019-12-12": {

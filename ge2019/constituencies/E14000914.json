@@ -2,11 +2,10 @@
 	"id": "E14000914",
 	"title": "Scunthorpe",
 	"demographics": {
-		"leave": 69.09,
 		"withdegree": 7.86,
-		"age18-29": 15.8,
 		"2015UKIP": 17.13,
-		"2016Leave": 69.09
+		"age18-29": 15.8,
+		"leave": 69.09
 	},
 	"elections": {
 		"2019-12-12": {

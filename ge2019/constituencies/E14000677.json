@@ -2,11 +2,10 @@
 	"id": "E14000677",
 	"title": "Easington",
 	"demographics": {
-		"leave": 66.57,
 		"withdegree": 7.03,
-		"age18-29": 15.51,
 		"2015UKIP": 18.75,
-		"2016Leave": 66.57
+		"age18-29": 15.51,
+		"leave": 66.57
 	},
 	"elections": {
 		"2019-12-12": {

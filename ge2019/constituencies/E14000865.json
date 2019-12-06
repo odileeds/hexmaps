@@ -2,11 +2,10 @@
 	"id": "E14000865",
 	"title": "Nottingham East",
 	"demographics": {
-		"leave": 42.88,
 		"withdegree": 19.59,
-		"age18-29": 29.17,
 		"2015UKIP": 9.94,
-		"2016Leave": 42.88
+		"age18-29": 29.17,
+		"leave": 42.88
 	},
 	"elections": {
 		"2019-12-12": {

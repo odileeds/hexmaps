@@ -2,11 +2,10 @@
 	"id": "E14000897",
 	"title": "Rochdale",
 	"demographics": {
-		"leave": 57.45,
 		"withdegree": 10.28,
-		"age18-29": 16.51,
 		"2015UKIP": 18.75,
-		"2016Leave": 57.45
+		"age18-29": 16.51,
+		"leave": 57.45
 	},
 	"elections": {
 		"2019-12-12": {

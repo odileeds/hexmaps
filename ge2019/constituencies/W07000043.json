@@ -2,11 +2,10 @@
 	"id": "W07000043",
 	"title": "Alyn and Deeside",
 	"demographics": {
-		"leave": 57.75,
 		"withdegree": 10.47,
-		"age18-29": 14.66,
 		"2015UKIP": 17.57,
-		"2016Leave": 57.75
+		"age18-29": 14.66,
+		"leave": 57.75
 	},
 	"elections": {
 		"2019-12-12": {

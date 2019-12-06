@@ -2,11 +2,10 @@
 	"id": "E14000557",
 	"title": "Bexhill and Battle",
 	"demographics": {
-		"leave": 57.68,
 		"withdegree": 12.89,
-		"age18-29": 9.84,
 		"2015UKIP": 18.42,
-		"2016Leave": 57.68
+		"age18-29": 9.84,
+		"leave": 57.68
 	},
 	"elections": {
 		"2019-12-12": {

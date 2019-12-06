@@ -2,11 +2,10 @@
 	"id": "E14000726",
 	"title": "Hammersmith",
 	"demographics": {
-		"leave": 31.04,
 		"withdegree": 40.99,
-		"age18-29": 25.66,
 		"2015UKIP": 4.39,
-		"2016Leave": 31.04
+		"age18-29": 25.66,
+		"leave": 31.04
 	},
 	"elections": {
 		"2019-12-12": {

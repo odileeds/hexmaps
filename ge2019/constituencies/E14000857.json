@@ -2,11 +2,10 @@
 	"id": "E14000857",
 	"title": "North West Hampshire",
 	"demographics": {
-		"leave": 54.53,
 		"withdegree": 15.69,
-		"age18-29": 11.96,
 		"2015UKIP": 14.69,
-		"2016Leave": 54.53
+		"age18-29": 11.96,
+		"leave": 54.53
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000817",
 	"title": "Mid Sussex",
 	"demographics": {
-		"leave": 46.69,
 		"withdegree": 19.52,
-		"age18-29": 12.44,
 		"2015UKIP": 12,
-		"2016Leave": 46.69
+		"age18-29": 12.44,
+		"leave": 46.69
 	},
 	"elections": {
 		"2019-12-12": {

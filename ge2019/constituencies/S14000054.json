@@ -2,10 +2,9 @@
 	"id": "S14000054",
 	"title": "Perth and North Perthshire",
 	"demographics": {
-		"leave": 40.17,
-		"age18-29": 14.13,
 		"2015UKIP": 2.05,
-		"2016Leave": 40.17
+		"age18-29": 14.13,
+		"leave": 40.17
 	},
 	"elections": {
 		"2019-12-12": {

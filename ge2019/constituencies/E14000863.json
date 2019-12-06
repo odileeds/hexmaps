@@ -2,11 +2,10 @@
 	"id": "E14000863",
 	"title": "Norwich North",
 	"demographics": {
-		"leave": 57.32,
 		"withdegree": 10.67,
-		"age18-29": 15.81,
 		"2015UKIP": 13.73,
-		"2016Leave": 57.32
+		"age18-29": 15.81,
+		"leave": 57.32
 	},
 	"elections": {
 		"2019-12-12": {

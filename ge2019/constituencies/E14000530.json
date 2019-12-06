@@ -2,11 +2,10 @@
 	"id": "E14000530",
 	"title": "Aldershot",
 	"demographics": {
-		"leave": 57.9,
 		"withdegree": 13.87,
-		"age18-29": 16.98,
 		"2015UKIP": 17.87,
-		"2016Leave": 57.9
+		"age18-29": 16.98,
+		"leave": 57.9
 	},
 	"elections": {
 		"2019-12-12": {

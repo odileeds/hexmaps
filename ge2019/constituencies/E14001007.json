@@ -2,11 +2,10 @@
 	"id": "E14001007",
 	"title": "Uxbridge and South Ruislip",
 	"demographics": {
-		"leave": 56.36,
 		"withdegree": 19.04,
-		"age18-29": 21.98,
 		"2015UKIP": 14.16,
-		"2016Leave": 56.36
+		"age18-29": 21.98,
+		"leave": 56.36
 	},
 	"elections": {
 		"2019-12-12": {

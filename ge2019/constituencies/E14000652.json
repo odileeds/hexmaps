@@ -2,11 +2,10 @@
 	"id": "E14000652",
 	"title": "Crawley",
 	"demographics": {
-		"leave": 58.41,
 		"withdegree": 12.12,
-		"age18-29": 17.05,
 		"2015UKIP": 14.37,
-		"2016Leave": 58.41
+		"age18-29": 17.05,
+		"leave": 58.41
 	},
 	"elections": {
 		"2019-12-12": {

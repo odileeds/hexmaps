@@ -2,11 +2,10 @@
 	"id": "E14001056",
 	"title": "Wycombe",
 	"demographics": {
-		"leave": 48.04,
 		"withdegree": 21.22,
-		"age18-29": 17.26,
 		"2015UKIP": 10.11,
-		"2016Leave": 48.04
+		"age18-29": 17.26,
+		"leave": 48.04
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000647",
 	"title": "Copeland",
 	"demographics": {
-		"leave": 59.85,
 		"withdegree": 11.95,
-		"age18-29": 12.85,
 		"2015UKIP": 15.51,
-		"2016Leave": 59.85
+		"age18-29": 12.85,
+		"leave": 59.85
 	},
 	"elections": {
 		"2019-12-12": {

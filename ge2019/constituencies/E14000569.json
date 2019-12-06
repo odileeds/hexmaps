@@ -2,11 +2,10 @@
 	"id": "E14000569",
 	"title": "Bishop Auckland",
 	"demographics": {
-		"leave": 60.62,
 		"withdegree": 9.71,
-		"age18-29": 13.55,
 		"2015UKIP": 17.81,
-		"2016Leave": 60.62
+		"age18-29": 13.55,
+		"leave": 60.62
 	},
 	"elections": {
 		"2019-12-12": {

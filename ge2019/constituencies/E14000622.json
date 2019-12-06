@@ -2,11 +2,10 @@
 	"id": "E14000622",
 	"title": "Castle Point",
 	"demographics": {
-		"leave": 72.7,
 		"withdegree": 6.02,
-		"age18-29": 12.51,
 		"2015UKIP": 31.19,
-		"2016Leave": 72.7
+		"age18-29": 12.51,
+		"leave": 72.7
 	},
 	"elections": {
 		"2019-12-12": {

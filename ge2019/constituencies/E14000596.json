@@ -2,11 +2,10 @@
 	"id": "E14000596",
 	"title": "Brigg and Goole",
 	"demographics": {
-		"leave": 66.21,
 		"withdegree": 9.67,
-		"age18-29": 12.53,
 		"2015UKIP": 15.47,
-		"2016Leave": 66.21
+		"age18-29": 12.53,
+		"leave": 66.21
 	},
 	"elections": {
 		"2019-12-12": {

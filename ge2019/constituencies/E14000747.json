@@ -2,11 +2,10 @@
 	"id": "E14000747",
 	"title": "Heywood and Middleton",
 	"demographics": {
-		"leave": 62.43,
 		"withdegree": 10.6,
-		"age18-29": 15.2,
 		"2015UKIP": 32.2,
-		"2016Leave": 62.43
+		"age18-29": 15.2,
+		"leave": 62.43
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "W07000063",
 	"title": "Montgomeryshire",
 	"demographics": {
-		"leave": 55.99,
 		"withdegree": 12.71,
-		"age18-29": 11.74,
 		"2015UKIP": 11.17,
-		"2016Leave": 55.99
+		"age18-29": 11.74,
+		"leave": 55.99
 	},
 	"elections": {
 		"2019-12-12": {

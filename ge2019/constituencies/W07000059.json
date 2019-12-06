@@ -2,11 +2,10 @@
 	"id": "W07000059",
 	"title": "Clwyd West",
 	"demographics": {
-		"leave": 52.53,
 		"withdegree": 13.42,
-		"age18-29": 11.56,
 		"2015UKIP": 13.12,
-		"2016Leave": 52.53
+		"age18-29": 11.56,
+		"leave": 52.53
 	},
 	"elections": {
 		"2019-12-12": {

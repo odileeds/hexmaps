@@ -2,10 +2,9 @@
 	"id": "S14000006",
 	"title": "Ayr, Carrick and Cumnock",
 	"demographics": {
-		"leave": 42.99,
-		"age18-29": 13.18,
 		"2015UKIP": 2.45,
-		"2016Leave": 42.99
+		"age18-29": 13.18,
+		"leave": 42.99
 	},
 	"elections": {
 		"2019-12-12": {

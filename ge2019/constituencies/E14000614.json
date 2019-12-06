@@ -2,11 +2,10 @@
 	"id": "E14000614",
 	"title": "Calder Valley",
 	"demographics": {
-		"leave": 53.16,
 		"withdegree": 18.56,
-		"age18-29": 12.14,
 		"2015UKIP": 11.11,
-		"2016Leave": 53.16
+		"age18-29": 12.14,
+		"leave": 53.16
 	},
 	"elections": {
 		"2019-12-12": {

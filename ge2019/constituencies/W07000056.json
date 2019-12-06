@@ -2,11 +2,10 @@
 	"id": "W07000056",
 	"title": "Newport West",
 	"demographics": {
-		"leave": 53.01,
 		"withdegree": 15.64,
-		"age18-29": 15.17,
 		"2015UKIP": 15.2,
-		"2016Leave": 53.01
+		"age18-29": 15.17,
+		"leave": 53.01
 	},
 	"elections": {
 		"2019-12-12": {

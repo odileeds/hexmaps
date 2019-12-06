@@ -2,11 +2,10 @@
 	"id": "E14000588",
 	"title": "Bradford South",
 	"demographics": {
-		"leave": 63.56,
 		"withdegree": 8.99,
-		"age18-29": 16.23,
 		"2015UKIP": 24.09,
-		"2016Leave": 63.56
+		"age18-29": 16.23,
+		"leave": 63.56
 	},
 	"elections": {
 		"2019-12-12": {

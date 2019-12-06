@@ -2,11 +2,10 @@
 	"id": "E14000999",
 	"title": "Torbay",
 	"demographics": {
-		"leave": 62.66,
 		"withdegree": 9.57,
-		"age18-29": 13.04,
 		"2015UKIP": 13.6,
-		"2016Leave": 62.66
+		"age18-29": 13.04,
+		"leave": 62.66
 	},
 	"elections": {
 		"2019-12-12": {

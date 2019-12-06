@@ -2,10 +2,9 @@
 	"id": "S14000018",
 	"title": "East Dunbartonshire",
 	"demographics": {
-		"leave": 26.7,
-		"age18-29": 11.58,
 		"2015UKIP": 1.03,
-		"2016Leave": 26.7
+		"age18-29": 11.58,
+		"leave": 26.7
 	},
 	"elections": {
 		"2019-12-12": {

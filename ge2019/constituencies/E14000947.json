@@ -2,11 +2,10 @@
 	"id": "E14000947",
 	"title": "South Swindon",
 	"demographics": {
-		"leave": 51.57,
 		"withdegree": 14.22,
-		"age18-29": 16.34,
 		"2015UKIP": 12.02,
-		"2016Leave": 51.57
+		"age18-29": 16.34,
+		"leave": 51.57
 	},
 	"elections": {
 		"2019-12-12": {

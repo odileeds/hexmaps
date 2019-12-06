@@ -2,11 +2,10 @@
 	"id": "W07000075",
 	"title": "Pontypridd",
 	"demographics": {
-		"leave": 45.82,
 		"withdegree": 15.33,
-		"age18-29": 16.81,
 		"2015UKIP": 13.42,
-		"2016Leave": 45.82
+		"age18-29": 16.81,
+		"leave": 45.82
 	},
 	"elections": {
 		"2019-12-12": {

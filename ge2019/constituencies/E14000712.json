@@ -2,11 +2,10 @@
 	"id": "E14000712",
 	"title": "Gloucester",
 	"demographics": {
-		"leave": 58.9,
 		"withdegree": 10.98,
-		"age18-29": 16.95,
 		"2015UKIP": 14.26,
-		"2016Leave": 58.9
+		"age18-29": 16.95,
+		"leave": 58.9
 	},
 	"elections": {
 		"2019-12-12": {

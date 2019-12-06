@@ -2,11 +2,10 @@
 	"id": "E14000954",
 	"title": "South West Wiltshire",
 	"demographics": {
-		"leave": 57.69,
 		"withdegree": 13.06,
-		"age18-29": 12.64,
 		"2015UKIP": 17.49,
-		"2016Leave": 57.69
+		"age18-29": 12.64,
+		"leave": 57.69
 	},
 	"elections": {
 		"2019-12-12": {

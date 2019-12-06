@@ -2,11 +2,10 @@
 	"id": "E14000548",
 	"title": "Batley and Spen",
 	"demographics": {
-		"leave": 60.35,
 		"withdegree": 10.56,
-		"age18-29": 15.65,
 		"2015UKIP": 17.99,
-		"2016Leave": 60.35
+		"age18-29": 15.65,
+		"leave": 60.35
 	},
 	"elections": {
 		"2019-12-12": {

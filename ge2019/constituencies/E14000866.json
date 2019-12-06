@@ -2,11 +2,10 @@
 	"id": "E14000866",
 	"title": "Nottingham North",
 	"demographics": {
-		"leave": 63.81,
 		"withdegree": 7.05,
-		"age18-29": 17.02,
 		"2015UKIP": 18.51,
-		"2016Leave": 63.81
+		"age18-29": 17.02,
+		"leave": 63.81
 	},
 	"elections": {
 		"2019-12-12": {

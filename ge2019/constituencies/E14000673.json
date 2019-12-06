@@ -2,11 +2,10 @@
 	"id": "E14000673",
 	"title": "Dulwich and West Norwood",
 	"demographics": {
-		"leave": 22.05,
 		"withdegree": 40.19,
-		"age18-29": 18.16,
 		"2015UKIP": 3.13,
-		"2016Leave": 22.05
+		"age18-29": 18.16,
+		"leave": 22.05
 	},
 	"elections": {
 		"2019-12-12": {

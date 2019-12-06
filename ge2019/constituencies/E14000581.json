@@ -2,11 +2,10 @@
 	"id": "E14000581",
 	"title": "Bootle",
 	"demographics": {
-		"leave": 54.88,
 		"withdegree": 9.01,
-		"age18-29": 16.18,
 		"2015UKIP": 10.89,
-		"2016Leave": 54.88
+		"age18-29": 16.18,
+		"leave": 54.88
 	},
 	"elections": {
 		"2019-12-12": {

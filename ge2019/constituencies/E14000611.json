@@ -2,11 +2,10 @@
 	"id": "E14000611",
 	"title": "Bury North",
 	"demographics": {
-		"leave": 53.66,
 		"withdegree": 15.14,
-		"age18-29": 14.23,
 		"2015UKIP": 12.37,
-		"2016Leave": 53.66
+		"age18-29": 14.23,
+		"leave": 53.66
 	},
 	"elections": {
 		"2019-12-12": {

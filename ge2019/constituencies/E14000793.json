@@ -2,11 +2,10 @@
 	"id": "E14000793",
 	"title": "Liverpool, Riverside",
 	"demographics": {
-		"leave": 26.89,
 		"withdegree": 24.01,
-		"age18-29": 38.86,
 		"2015UKIP": 5.67,
-		"2016Leave": 26.89
+		"age18-29": 38.86,
+		"leave": 26.89
 	},
 	"elections": {
 		"2019-12-12": {

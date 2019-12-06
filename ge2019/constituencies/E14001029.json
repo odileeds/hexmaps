@@ -2,11 +2,10 @@
 	"id": "E14001029",
 	"title": "West Bromwich East",
 	"demographics": {
-		"leave": 67.59,
 		"withdegree": 8.22,
-		"age18-29": 16.27,
 		"2015UKIP": 21.2,
-		"2016Leave": 67.59
+		"age18-29": 16.27,
+		"leave": 67.59
 	},
 	"elections": {
 		"2019-12-12": {

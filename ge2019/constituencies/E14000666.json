@@ -2,11 +2,10 @@
 	"id": "E14000666",
 	"title": "Dewsbury",
 	"demographics": {
-		"leave": 57.27,
 		"withdegree": 13.04,
-		"age18-29": 15.35,
 		"2015UKIP": 12.4,
-		"2016Leave": 57.27
+		"age18-29": 15.35,
+		"leave": 57.27
 	},
 	"elections": {
 		"2019-12-12": {

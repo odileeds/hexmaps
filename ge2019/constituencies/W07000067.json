@@ -2,11 +2,10 @@
 	"id": "W07000067",
 	"title": "Carmarthen East and Dinefwr",
 	"demographics": {
-		"leave": 53.77,
 		"withdegree": 14.21,
-		"age18-29": 11.65,
 		"2015UKIP": 11.07,
-		"2016Leave": 53.77
+		"age18-29": 11.65,
+		"leave": 53.77
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000994",
 	"title": "Thornbury and Yate",
 	"demographics": {
-		"leave": 53.33,
 		"withdegree": 15.19,
-		"age18-29": 11.84,
 		"2015UKIP": 10.55,
-		"2016Leave": 53.33
+		"age18-29": 11.84,
+		"leave": 53.33
 	},
 	"elections": {
 		"2019-12-12": {

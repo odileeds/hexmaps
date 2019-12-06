@@ -2,11 +2,10 @@
 	"id": "E14000571",
 	"title": "Blackley and Broughton",
 	"demographics": {
-		"leave": 51.33,
 		"withdegree": 13.6,
-		"age18-29": 19.92,
 		"2015UKIP": 16.46,
-		"2016Leave": 51.33
+		"age18-29": 19.92,
+		"leave": 51.33
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000913",
 	"title": "Scarborough and Whitby",
 	"demographics": {
-		"leave": 61.37,
 		"withdegree": 11.67,
-		"age18-29": 13.51,
 		"2015UKIP": 17.1,
-		"2016Leave": 61.37
+		"age18-29": 13.51,
+		"leave": 61.37
 	},
 	"elections": {
 		"2019-12-12": {

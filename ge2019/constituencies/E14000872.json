@@ -2,11 +2,10 @@
 	"id": "E14000872",
 	"title": "Orpington",
 	"demographics": {
-		"leave": 57.54,
 		"withdegree": 16.31,
-		"age18-29": 11.7,
 		"2015UKIP": 16.67,
-		"2016Leave": 57.54
+		"age18-29": 11.7,
+		"leave": 57.54
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000533",
 	"title": "Amber Valley",
 	"demographics": {
-		"leave": 65.34,
 		"withdegree": 9.34,
-		"age18-29": 13.42,
 		"2015UKIP": 15.89,
-		"2016Leave": 65.34
+		"age18-29": 13.42,
+		"leave": 65.34
 	},
 	"elections": {
 		"2019-12-12": {

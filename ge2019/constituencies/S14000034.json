@@ -2,9 +2,8 @@
 	"id": "S14000034",
 	"title": "Glasgow South",
 	"demographics": {
-		"leave": 28.19,
 		"age18-29": 17.92,
-		"2016Leave": 28.19
+		"leave": 28.19
 	},
 	"elections": {
 		"2019-12-12": {

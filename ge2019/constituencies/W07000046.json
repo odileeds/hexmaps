@@ -2,11 +2,10 @@
 	"id": "W07000046",
 	"title": "Gower",
 	"demographics": {
-		"leave": 50.18,
 		"withdegree": 18.8,
-		"age18-29": 11.96,
 		"2015UKIP": 11.16,
-		"2016Leave": 50.18
+		"age18-29": 11.96,
+		"leave": 50.18
 	},
 	"elections": {
 		"2019-12-12": {

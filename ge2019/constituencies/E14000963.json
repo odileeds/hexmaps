@@ -2,11 +2,10 @@
 	"id": "E14000963",
 	"title": "St Helens South and Whiston",
 	"demographics": {
-		"leave": 56.12,
 		"withdegree": 9.99,
-		"age18-29": 14.7,
 		"2015UKIP": 13.98,
-		"2016Leave": 56.12
+		"age18-29": 14.7,
+		"leave": 56.12
 	},
 	"elections": {
 		"2019-12-12": {

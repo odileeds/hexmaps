@@ -2,11 +2,10 @@
 	"id": "W07000066",
 	"title": "Carmarthen West and South Pembrokeshire",
 	"demographics": {
-		"leave": 55.37,
 		"withdegree": 13.11,
-		"age18-29": 13.41,
 		"2015UKIP": 11.64,
-		"2016Leave": 55.37
+		"age18-29": 13.41,
+		"leave": 55.37
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14001041",
 	"title": "Winchester",
 	"demographics": {
-		"leave": 39.71,
 		"withdegree": 28.16,
-		"age18-29": 14.97,
 		"2015UKIP": 7.45,
-		"2016Leave": 39.71
+		"age18-29": 14.97,
+		"leave": 39.71
 	},
 	"elections": {
 		"2019-12-12": {

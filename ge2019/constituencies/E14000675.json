@@ -2,11 +2,10 @@
 	"id": "E14000675",
 	"title": "Ealing North",
 	"demographics": {
-		"leave": 46.26,
 		"withdegree": 21.89,
-		"age18-29": 17.56,
 		"2015UKIP": 8.08,
-		"2016Leave": 46.26
+		"age18-29": 17.56,
+		"leave": 46.26
 	},
 	"elections": {
 		"2019-12-12": {

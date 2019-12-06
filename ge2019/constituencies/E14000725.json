@@ -2,11 +2,10 @@
 	"id": "E14000725",
 	"title": "Halton",
 	"demographics": {
-		"leave": 57.82,
 		"withdegree": 8.7,
-		"age18-29": 15.82,
 		"2015UKIP": 14.07,
-		"2016Leave": 57.82
+		"age18-29": 15.82,
+		"leave": 57.82
 	},
 	"elections": {
 		"2019-12-12": {

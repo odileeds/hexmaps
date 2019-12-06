@@ -2,11 +2,10 @@
 	"id": "E14000983",
 	"title": "Surrey Heath",
 	"demographics": {
-		"leave": 52,
 		"withdegree": 20.09,
-		"age18-29": 12.3,
 		"2015UKIP": 14.29,
-		"2016Leave": 52
+		"age18-29": 12.3,
+		"leave": 52
 	},
 	"elections": {
 		"2019-12-12": {

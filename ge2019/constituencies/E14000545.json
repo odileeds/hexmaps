@@ -2,11 +2,10 @@
 	"id": "E14000545",
 	"title": "Basingstoke",
 	"demographics": {
-		"leave": 53.64,
 		"withdegree": 16.52,
-		"age18-29": 15.92,
 		"2015UKIP": 15.62,
-		"2016Leave": 53.64
+		"age18-29": 15.92,
+		"leave": 53.64
 	},
 	"elections": {
 		"2019-12-12": {

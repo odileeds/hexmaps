@@ -2,11 +2,10 @@
 	"id": "E14000783",
 	"title": "Leicester South",
 	"demographics": {
-		"leave": 42.58,
 		"withdegree": 19.53,
-		"age18-29": 28.75,
 		"2015UKIP": 8.34,
-		"2016Leave": 42.58
+		"age18-29": 28.75,
+		"leave": 42.58
 	},
 	"elections": {
 		"2019-12-12": {

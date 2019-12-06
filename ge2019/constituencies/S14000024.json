@@ -2,10 +2,9 @@
 	"id": "S14000024",
 	"title": "Edinburgh South",
 	"demographics": {
-		"leave": 22.15,
-		"age18-29": 22.31,
 		"2015UKIP": 1.22,
-		"2016Leave": 22.15
+		"age18-29": 22.31,
+		"leave": 22.15
 	},
 	"elections": {
 		"2019-12-12": {

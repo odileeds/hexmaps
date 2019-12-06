@@ -2,11 +2,10 @@
 	"id": "E14000619",
 	"title": "Canterbury",
 	"demographics": {
-		"leave": 45.34,
 		"withdegree": 20.44,
-		"age18-29": 25.35,
 		"2015UKIP": 13.63,
-		"2016Leave": 45.34
+		"age18-29": 25.35,
+		"leave": 45.34
 	},
 	"elections": {
 		"2019-12-12": {

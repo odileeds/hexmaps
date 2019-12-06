@@ -2,11 +2,10 @@
 	"id": "E14000777",
 	"title": "Leeds Central",
 	"demographics": {
-		"leave": 47.43,
 		"withdegree": 17.36,
-		"age18-29": 35.03,
 		"2015UKIP": 15.72,
-		"2016Leave": 47.43
+		"age18-29": 35.03,
+		"leave": 47.43
 	},
 	"elections": {
 		"2019-12-12": {

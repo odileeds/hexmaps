@@ -2,11 +2,10 @@
 	"id": "W07000078",
 	"title": "Vale of Glamorgan",
 	"demographics": {
-		"leave": 52.35,
 		"withdegree": 15.55,
-		"age18-29": 13.68,
 		"2015UKIP": 10.7,
-		"2016Leave": 52.35
+		"age18-29": 13.68,
+		"leave": 52.35
 	},
 	"elections": {
 		"2019-12-12": {

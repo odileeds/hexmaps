@@ -2,11 +2,10 @@
 	"id": "E14000722",
 	"title": "Halesowen and Rowley Regis",
 	"demographics": {
-		"leave": 66.34,
 		"withdegree": 9.54,
-		"age18-29": 14.56,
 		"2015UKIP": 16.61,
-		"2016Leave": 66.34
+		"age18-29": 14.56,
+		"leave": 66.34
 	},
 	"elections": {
 		"2019-12-12": {

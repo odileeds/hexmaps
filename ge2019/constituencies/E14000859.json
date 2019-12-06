@@ -2,11 +2,10 @@
 	"id": "E14000859",
 	"title": "North West Norfolk",
 	"demographics": {
-		"leave": 66.14,
 		"withdegree": 8.92,
-		"age18-29": 13.12,
 		"2015UKIP": 17.76,
-		"2016Leave": 66.14
+		"age18-29": 13.12,
+		"leave": 66.14
 	},
 	"elections": {
 		"2019-12-12": {

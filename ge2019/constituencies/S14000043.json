@@ -2,10 +2,9 @@
 	"id": "S14000043",
 	"title": "Linlithgow and East Falkirk",
 	"demographics": {
-		"leave": 41.61,
-		"age18-29": 14.31,
 		"2015UKIP": 2.73,
-		"2016Leave": 41.61
+		"age18-29": 14.31,
+		"leave": 41.61
 	},
 	"elections": {
 		"2019-12-12": {

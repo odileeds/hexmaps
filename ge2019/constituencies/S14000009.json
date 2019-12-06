@@ -2,10 +2,9 @@
 	"id": "S14000009",
 	"title": "Caithness, Sutherland and Easter Ross",
 	"demographics": {
-		"leave": 49.44,
-		"age18-29": 12.06,
 		"2015UKIP": 2.87,
-		"2016Leave": 49.44
+		"age18-29": 12.06,
+		"leave": 49.44
 	},
 	"elections": {
 		"2019-12-12": {

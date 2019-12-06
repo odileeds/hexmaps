@@ -2,11 +2,10 @@
 	"id": "E14000882",
 	"title": "Poplar and Limehouse",
 	"demographics": {
-		"leave": 34.19,
 		"withdegree": 37.42,
-		"age18-29": 28.37,
 		"2015UKIP": 6.13,
-		"2016Leave": 34.19
+		"age18-29": 28.37,
+		"leave": 34.19
 	},
 	"elections": {
 		"2019-12-12": {

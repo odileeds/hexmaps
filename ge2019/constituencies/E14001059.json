@@ -2,11 +2,10 @@
 	"id": "E14001059",
 	"title": "Wythenshawe and Sale East",
 	"demographics": {
-		"leave": 49.87,
 		"withdegree": 16.6,
-		"age18-29": 16.7,
 		"2015UKIP": 14.69,
-		"2016Leave": 49.87
+		"age18-29": 16.7,
+		"leave": 49.87
 	},
 	"elections": {
 		"2019-12-12": {

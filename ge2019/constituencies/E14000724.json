@@ -2,11 +2,10 @@
 	"id": "E14000724",
 	"title": "Haltemprice and Howden",
 	"demographics": {
-		"leave": 55.5,
 		"withdegree": 16.85,
-		"age18-29": 11.84,
 		"2015UKIP": 13.91,
-		"2016Leave": 55.5
+		"age18-29": 11.84,
+		"leave": 55.5
 	},
 	"elections": {
 		"2019-12-12": {

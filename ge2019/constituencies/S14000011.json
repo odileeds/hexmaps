@@ -2,10 +2,9 @@
 	"id": "S14000011",
 	"title": "Coatbridge, Chryston and Bellshill",
 	"demographics": {
-		"leave": 38.72,
-		"age18-29": 15.05,
 		"2015UKIP": 2.07,
-		"2016Leave": 38.72
+		"age18-29": 15.05,
+		"leave": 38.72
 	},
 	"elections": {
 		"2019-12-12": {

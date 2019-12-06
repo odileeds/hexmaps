@@ -2,11 +2,10 @@
 	"id": "E14000668",
 	"title": "Doncaster Central",
 	"demographics": {
-		"leave": 66.32,
 		"withdegree": 8.95,
-		"age18-29": 16.74,
 		"2015UKIP": 24.11,
-		"2016Leave": 66.32
+		"age18-29": 16.74,
+		"leave": 66.32
 	},
 	"elections": {
 		"2019-12-12": {

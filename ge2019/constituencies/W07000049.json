@@ -2,11 +2,10 @@
 	"id": "W07000049",
 	"title": "Aberavon",
 	"demographics": {
-		"leave": 59.97,
 		"withdegree": 8.29,
-		"age18-29": 14.82,
 		"2015UKIP": 15.77,
-		"2016Leave": 59.97
+		"age18-29": 14.82,
+		"leave": 59.97
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000651",
 	"title": "Coventry South",
 	"demographics": {
-		"leave": 48.9,
 		"withdegree": 18.78,
-		"age18-29": 27.04,
 		"2015UKIP": 13.06,
-		"2016Leave": 48.9
+		"age18-29": 27.04,
+		"leave": 48.9
 	},
 	"elections": {
 		"2019-12-12": {

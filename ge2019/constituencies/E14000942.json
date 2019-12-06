@@ -2,11 +2,10 @@
 	"id": "E14000942",
 	"title": "South Northamptonshire",
 	"demographics": {
-		"leave": 52.67,
 		"withdegree": 18.97,
-		"age18-29": 11.37,
 		"2015UKIP": 13.48,
-		"2016Leave": 52.67
+		"age18-29": 11.37,
+		"leave": 52.67
 	},
 	"elections": {
 		"2019-12-12": {

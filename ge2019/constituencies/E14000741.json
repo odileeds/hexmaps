@@ -2,11 +2,10 @@
 	"id": "E14000741",
 	"title": "Hendon",
 	"demographics": {
-		"leave": 41.94,
 		"withdegree": 26.53,
-		"age18-29": 19.49,
 		"2015UKIP": 5.23,
-		"2016Leave": 41.94
+		"age18-29": 19.49,
+		"leave": 41.94
 	},
 	"elections": {
 		"2019-12-12": {

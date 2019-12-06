@@ -2,11 +2,10 @@
 	"id": "E14000962",
 	"title": "St Helens North",
 	"demographics": {
-		"leave": 58.29,
 		"withdegree": 10.3,
-		"age18-29": 14.36,
 		"2015UKIP": 15.1,
-		"2016Leave": 58.29
+		"age18-29": 14.36,
+		"leave": 58.29
 	},
 	"elections": {
 		"2019-12-12": {

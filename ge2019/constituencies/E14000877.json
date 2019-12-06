@@ -2,11 +2,10 @@
 	"id": "E14000877",
 	"title": "Penrith and The Border",
 	"demographics": {
-		"leave": 55.37,
 		"withdegree": 14.98,
-		"age18-29": 10.96,
 		"2015UKIP": 12.19,
-		"2016Leave": 55.37
+		"age18-29": 10.96,
+		"leave": 55.37
 	},
 	"elections": {
 		"2019-12-12": {

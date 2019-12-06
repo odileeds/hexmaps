@@ -2,11 +2,10 @@
 	"id": "E14001010",
 	"title": "Wallasey",
 	"demographics": {
-		"leave": 49.92,
 		"withdegree": 10.46,
-		"age18-29": 15.01,
 		"2015UKIP": 11.68,
-		"2016Leave": 49.92
+		"age18-29": 15.01,
+		"leave": 49.92
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000831",
 	"title": "Newcastle upon Tyne Central",
 	"demographics": {
-		"leave": 48.37,
 		"withdegree": 20.01,
-		"age18-29": 24.17,
 		"2015UKIP": 14.86,
-		"2016Leave": 48.37
+		"age18-29": 24.17,
+		"leave": 48.37
 	},
 	"elections": {
 		"2019-12-12": {

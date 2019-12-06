@@ -2,11 +2,10 @@
 	"id": "E14000886",
 	"title": "Pudsey",
 	"demographics": {
-		"leave": 48.35,
 		"withdegree": 21.99,
-		"age18-29": 14.23,
 		"2015UKIP": 9.21,
-		"2016Leave": 48.35
+		"age18-29": 14.23,
+		"leave": 48.35
 	},
 	"elections": {
 		"2019-12-12": {

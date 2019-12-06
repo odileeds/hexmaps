@@ -2,11 +2,10 @@
 	"id": "E14000796",
 	"title": "Liverpool, West Derby",
 	"demographics": {
-		"leave": 50.28,
 		"withdegree": 9.31,
-		"age18-29": 16.37,
 		"2015UKIP": 8.47,
-		"2016Leave": 50.28
+		"age18-29": 16.37,
+		"leave": 50.28
 	},
 	"elections": {
 		"2019-12-12": {

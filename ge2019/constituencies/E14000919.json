@@ -2,11 +2,10 @@
 	"id": "E14000919",
 	"title": "Sheffield Central",
 	"demographics": {
-		"leave": 30.41,
 		"withdegree": 27.48,
-		"age18-29": 43.57,
 		"2015UKIP": 7.46,
-		"2016Leave": 30.41
+		"age18-29": 43.57,
+		"leave": 30.41
 	},
 	"elections": {
 		"2019-12-12": {

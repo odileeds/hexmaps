@@ -2,11 +2,10 @@
 	"id": "E14000814",
 	"title": "Mid Derbyshire",
 	"demographics": {
-		"leave": 52.53,
 		"withdegree": 17.88,
-		"age18-29": 11.53,
 		"2015UKIP": 13.61,
-		"2016Leave": 52.53
+		"age18-29": 11.53,
+		"leave": 52.53
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000764",
 	"title": "Islington South and Finsbury",
 	"demographics": {
-		"leave": 28.28,
 		"withdegree": 42.76,
-		"age18-29": 29.31,
 		"2015UKIP": 7.62,
-		"2016Leave": 28.28
+		"age18-29": 29.31,
+		"leave": 28.28
 	},
 	"elections": {
 		"2019-12-12": {

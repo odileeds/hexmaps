@@ -2,11 +2,10 @@
 	"id": "E14000717",
 	"title": "Great Yarmouth",
 	"demographics": {
-		"leave": 71.5,
 		"withdegree": 5.5,
-		"age18-29": 14.34,
 		"2015UKIP": 23.09,
-		"2016Leave": 71.5
+		"age18-29": 14.34,
+		"leave": 71.5
 	},
 	"elections": {
 		"2019-12-12": {

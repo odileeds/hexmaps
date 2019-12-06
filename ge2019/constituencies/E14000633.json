@@ -2,11 +2,10 @@
 	"id": "E14000633",
 	"title": "Chichester",
 	"demographics": {
-		"leave": 50.64,
 		"withdegree": 19.01,
-		"age18-29": 12.82,
 		"2015UKIP": 14.95,
-		"2016Leave": 50.64
+		"age18-29": 12.82,
+		"leave": 50.64
 	},
 	"elections": {
 		"2019-12-12": {

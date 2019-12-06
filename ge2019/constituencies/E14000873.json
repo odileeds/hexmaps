@@ -2,11 +2,10 @@
 	"id": "E14000873",
 	"title": "Oxford East",
 	"demographics": {
-		"leave": 32.31,
 		"withdegree": 31.85,
-		"age18-29": 32.99,
 		"2015UKIP": 6.81,
-		"2016Leave": 32.31
+		"age18-29": 32.99,
+		"leave": 32.31
 	},
 	"elections": {
 		"2019-12-12": {

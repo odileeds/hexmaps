@@ -2,11 +2,10 @@
 	"id": "E14000640",
 	"title": "City of Chester",
 	"demographics": {
-		"leave": 42.71,
 		"withdegree": 23.02,
-		"age18-29": 18.49,
 		"2015UKIP": 8.11,
-		"2016Leave": 42.71
+		"age18-29": 18.49,
+		"leave": 42.71
 	},
 	"elections": {
 		"2019-12-12": {

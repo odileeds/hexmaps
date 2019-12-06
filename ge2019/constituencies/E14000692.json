@@ -2,11 +2,10 @@
 	"id": "E14000692",
 	"title": "Enfield, Southgate",
 	"demographics": {
-		"leave": 37.88,
 		"withdegree": 28.76,
-		"age18-29": 17.85,
 		"2015UKIP": 4.6,
-		"2016Leave": 37.88
+		"age18-29": 17.85,
+		"leave": 37.88
 	},
 	"elections": {
 		"2019-12-12": {

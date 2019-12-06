@@ -2,11 +2,10 @@
 	"id": "E14000678",
 	"title": "East Devon",
 	"demographics": {
-		"leave": 50.46,
 		"withdegree": 16.73,
-		"age18-29": 11.02,
 		"2015UKIP": 12.56,
-		"2016Leave": 50.46
+		"age18-29": 11.02,
+		"leave": 50.46
 	},
 	"elections": {
 		"2019-12-12": {

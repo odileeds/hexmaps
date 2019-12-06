@@ -2,11 +2,10 @@
 	"id": "E14000839",
 	"title": "North Dorset",
 	"demographics": {
-		"leave": 56.41,
 		"withdegree": 14.39,
-		"age18-29": 11.28,
 		"2015UKIP": 17.06,
-		"2016Leave": 56.41
+		"age18-29": 11.28,
+		"leave": 56.41
 	},
 	"elections": {
 		"2019-12-12": {

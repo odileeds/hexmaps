@@ -2,11 +2,10 @@
 	"id": "E14001011",
 	"title": "Walsall North",
 	"demographics": {
-		"leave": 74.19,
 		"withdegree": 5.97,
-		"age18-29": 16.21,
 		"2015UKIP": 22.02,
-		"2016Leave": 74.19
+		"age18-29": 16.21,
+		"leave": 74.19
 	},
 	"elections": {
 		"2019-12-12": {

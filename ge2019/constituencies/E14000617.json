@@ -2,11 +2,10 @@
 	"id": "E14000617",
 	"title": "Cambridge",
 	"demographics": {
-		"leave": 26.23,
 		"withdegree": 41.01,
-		"age18-29": 31.42,
 		"2015UKIP": 5.15,
-		"2016Leave": 26.23
+		"age18-29": 31.42,
+		"leave": 26.23
 	},
 	"elections": {
 		"2019-12-12": {

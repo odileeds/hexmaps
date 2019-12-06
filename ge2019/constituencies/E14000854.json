@@ -2,11 +2,10 @@
 	"id": "E14000854",
 	"title": "North Warwickshire",
 	"demographics": {
-		"leave": 67.77,
 		"withdegree": 9.44,
-		"age18-29": 13.38,
 		"2015UKIP": 17.43,
-		"2016Leave": 67.77
+		"age18-29": 13.38,
+		"leave": 67.77
 	},
 	"elections": {
 		"2019-12-12": {

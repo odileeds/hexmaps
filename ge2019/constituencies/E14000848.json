@@ -2,11 +2,10 @@
 	"id": "E14000848",
 	"title": "North Norfolk",
 	"demographics": {
-		"leave": 58.25,
 		"withdegree": 10.31,
-		"age18-29": 10.3,
 		"2015UKIP": 16.85,
-		"2016Leave": 58.25
+		"age18-29": 10.3,
+		"leave": 58.25
 	},
 	"elections": {
 		"2019-12-12": {

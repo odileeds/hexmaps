@@ -2,11 +2,10 @@
 	"id": "E14000959",
 	"title": "Spelthorne",
 	"demographics": {
-		"leave": 60.3,
 		"withdegree": 15.88,
-		"age18-29": 13.71,
 		"2015UKIP": 20.85,
-		"2016Leave": 60.3
+		"age18-29": 13.71,
+		"leave": 60.3
 	},
 	"elections": {
 		"2019-12-12": {

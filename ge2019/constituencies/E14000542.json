@@ -2,11 +2,10 @@
 	"id": "E14000542",
 	"title": "Barnsley East",
 	"demographics": {
-		"leave": 70.78,
 		"withdegree": 6.52,
-		"age18-29": 14.81,
 		"2015UKIP": 23.48,
-		"2016Leave": 70.78
+		"age18-29": 14.81,
+		"leave": 70.78
 	},
 	"elections": {
 		"2019-12-12": {

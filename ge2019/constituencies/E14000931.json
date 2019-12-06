@@ -2,11 +2,10 @@
 	"id": "E14000931",
 	"title": "Solihull",
 	"demographics": {
-		"leave": 53.35,
 		"withdegree": 18.74,
-		"age18-29": 12.41,
 		"2015UKIP": 11.61,
-		"2016Leave": 53.35
+		"age18-29": 12.41,
+		"leave": 53.35
 	},
 	"elections": {
 		"2019-12-12": {

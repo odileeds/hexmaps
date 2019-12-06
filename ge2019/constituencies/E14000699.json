@@ -2,11 +2,10 @@
 	"id": "E14000699",
 	"title": "Fareham",
 	"demographics": {
-		"leave": 55.41,
 		"withdegree": 15.09,
-		"age18-29": 12.6,
 		"2015UKIP": 15.41,
-		"2016Leave": 55.41
+		"age18-29": 12.6,
+		"leave": 55.41
 	},
 	"elections": {
 		"2019-12-12": {

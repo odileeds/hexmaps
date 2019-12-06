@@ -2,10 +2,9 @@
 	"id": "S14000003",
 	"title": "Airdrie and Shotts",
 	"demographics": {
-		"leave": 40.05,
-		"age18-29": 15.48,
 		"2015UKIP": 2.46,
-		"2016Leave": 40.05
+		"age18-29": 15.48,
+		"leave": 40.05
 	},
 	"elections": {
 		"2019-12-12": {

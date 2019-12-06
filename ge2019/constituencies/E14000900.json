@@ -2,11 +2,10 @@
 	"id": "E14000900",
 	"title": "Romford",
 	"demographics": {
-		"leave": 69.29,
 		"withdegree": 11.24,
-		"age18-29": 16.12,
 		"2015UKIP": 22.79,
-		"2016Leave": 69.29
+		"age18-29": 16.12,
+		"leave": 69.29
 	},
 	"elections": {
 		"2019-12-12": {

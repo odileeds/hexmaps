@@ -2,11 +2,10 @@
 	"id": "E14000911",
 	"title": "Salford and Eccles",
 	"demographics": {
-		"leave": 53.59,
 		"withdegree": 17.37,
-		"age18-29": 24.81,
 		"2015UKIP": 18.04,
-		"2016Leave": 53.59
+		"age18-29": 24.81,
+		"leave": 53.59
 	},
 	"elections": {
 		"2019-12-12": {

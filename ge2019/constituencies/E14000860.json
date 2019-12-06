@@ -2,11 +2,10 @@
 	"id": "E14000860",
 	"title": "North Wiltshire",
 	"demographics": {
-		"leave": 50.37,
 		"withdegree": 18.77,
-		"age18-29": 11.34,
 		"2015UKIP": 11.5,
-		"2016Leave": 50.37
+		"age18-29": 11.34,
+		"leave": 50.37
 	},
 	"elections": {
 		"2019-12-12": {

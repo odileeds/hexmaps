@@ -2,11 +2,10 @@
 	"id": "E14000578",
 	"title": "Bolton North East",
 	"demographics": {
-		"leave": 57.77,
 		"withdegree": 12.48,
-		"age18-29": 16.16,
 		"2015UKIP": 18.81,
-		"2016Leave": 57.77
+		"age18-29": 16.16,
+		"leave": 57.77
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000797",
 	"title": "Loughborough",
 	"demographics": {
-		"leave": 49.67,
 		"withdegree": 18.93,
-		"age18-29": 24.42,
 		"2015UKIP": 10.97,
-		"2016Leave": 49.67
+		"age18-29": 24.42,
+		"leave": 49.67
 	},
 	"elections": {
 		"2019-12-12": {

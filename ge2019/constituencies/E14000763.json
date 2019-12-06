@@ -2,11 +2,10 @@
 	"id": "E14000763",
 	"title": "Islington North",
 	"demographics": {
-		"leave": 21.61,
 		"withdegree": 43.25,
-		"age18-29": 24.66,
 		"2015UKIP": 4,
-		"2016Leave": 21.61
+		"age18-29": 24.66,
+		"leave": 21.61
 	},
 	"elections": {
 		"2019-12-12": {

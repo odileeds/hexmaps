@@ -2,11 +2,10 @@
 	"id": "E14000853",
 	"title": "North Tyneside",
 	"demographics": {
-		"leave": 59.37,
 		"withdegree": 11.65,
-		"age18-29": 15.23,
 		"2015UKIP": 16.27,
-		"2016Leave": 59.37
+		"age18-29": 15.23,
+		"leave": 59.37
 	},
 	"elections": {
 		"2019-12-12": {

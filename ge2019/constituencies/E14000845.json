@@ -2,11 +2,10 @@
 	"id": "E14000845",
 	"title": "North East Hertfordshire",
 	"demographics": {
-		"leave": 51.38,
 		"withdegree": 19.61,
-		"age18-29": 11.7,
 		"2015UKIP": 12.87,
-		"2016Leave": 51.38
+		"age18-29": 11.7,
+		"leave": 51.38
 	},
 	"elections": {
 		"2019-12-12": {

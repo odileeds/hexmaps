@@ -2,11 +2,10 @@
 	"id": "E14000639",
 	"title": "Cities of London and Westminster",
 	"demographics": {
-		"leave": 28.63,
 		"withdegree": 48.3,
-		"age18-29": 25.15,
 		"2015UKIP": 5.23,
-		"2016Leave": 28.63
+		"age18-29": 25.15,
+		"leave": 28.63
 	},
 	"elections": {
 		"2019-12-12": {

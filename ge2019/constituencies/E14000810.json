@@ -2,11 +2,10 @@
 	"id": "E14000810",
 	"title": "Mansfield",
 	"demographics": {
-		"leave": 70.86,
 		"withdegree": 6.76,
-		"age18-29": 15.18,
 		"2015UKIP": 25.11,
-		"2016Leave": 70.86
+		"age18-29": 15.18,
+		"leave": 70.86
 	},
 	"elections": {
 		"2019-12-12": {

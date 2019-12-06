@@ -2,11 +2,10 @@
 	"id": "E14001034",
 	"title": "West Suffolk",
 	"demographics": {
-		"leave": 63.26,
 		"withdegree": 10.85,
-		"age18-29": 16.39,
 		"2015UKIP": 21.73,
-		"2016Leave": 63.26
+		"age18-29": 16.39,
+		"leave": 63.26
 	},
 	"elections": {
 		"2019-12-12": {

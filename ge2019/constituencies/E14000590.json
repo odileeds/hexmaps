@@ -2,11 +2,10 @@
 	"id": "E14000590",
 	"title": "Braintree",
 	"demographics": {
-		"leave": 61.43,
 		"withdegree": 10.87,
-		"age18-29": 13.08,
 		"2015UKIP": 18.82,
-		"2016Leave": 61.43
+		"age18-29": 13.08,
+		"leave": 61.43
 	},
 	"elections": {
 		"2019-12-12": {

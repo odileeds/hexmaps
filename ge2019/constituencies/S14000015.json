@@ -2,9 +2,8 @@
 	"id": "S14000015",
 	"title": "Dundee East",
 	"demographics": {
-		"leave": 38.25,
 		"age18-29": 14.99,
-		"2016Leave": 38.25
+		"leave": 38.25
 	},
 	"elections": {
 		"2019-12-12": {

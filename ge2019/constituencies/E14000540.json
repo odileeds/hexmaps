@@ -2,11 +2,10 @@
 	"id": "E14000540",
 	"title": "Barking",
 	"demographics": {
-		"leave": 60.33,
 		"withdegree": 14.44,
-		"age18-29": 18.12,
 		"2015UKIP": 22.2,
-		"2016Leave": 60.33
+		"age18-29": 18.12,
+		"leave": 60.33
 	},
 	"elections": {
 		"2019-12-12": {

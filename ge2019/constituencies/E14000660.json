@@ -2,11 +2,10 @@
 	"id": "E14000660",
 	"title": "Daventry",
 	"demographics": {
-		"leave": 58.76,
 		"withdegree": 16.23,
-		"age18-29": 11.41,
 		"2015UKIP": 15.8,
-		"2016Leave": 58.76
+		"age18-29": 11.41,
+		"leave": 58.76
 	},
 	"elections": {
 		"2019-12-12": {

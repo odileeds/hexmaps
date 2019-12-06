@@ -2,11 +2,10 @@
 	"id": "E14000888",
 	"title": "Rayleigh and Wickford",
 	"demographics": {
-		"leave": 67.89,
 		"withdegree": 9.07,
-		"age18-29": 11.77,
 		"2015UKIP": 22.28,
-		"2016Leave": 67.89
+		"age18-29": 11.77,
+		"leave": 67.89
 	},
 	"elections": {
 		"2019-12-12": {

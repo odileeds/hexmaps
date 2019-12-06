@@ -2,11 +2,10 @@
 	"id": "E14001021",
 	"title": "Watford",
 	"demographics": {
-		"leave": 51.18,
 		"withdegree": 21.09,
-		"age18-29": 16.41,
 		"2015UKIP": 9.76,
-		"2016Leave": 51.18
+		"age18-29": 16.41,
+		"leave": 51.18
 	},
 	"elections": {
 		"2019-12-12": {

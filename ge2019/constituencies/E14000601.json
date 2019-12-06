@@ -2,11 +2,10 @@
 	"id": "E14000601",
 	"title": "Bristol South",
 	"demographics": {
-		"leave": 47.95,
 		"withdegree": 17.27,
-		"age18-29": 18.41,
 		"2015UKIP": 16.48,
-		"2016Leave": 47.95
+		"age18-29": 18.41,
+		"leave": 47.95
 	},
 	"elections": {
 		"2019-12-12": {

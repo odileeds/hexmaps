@@ -2,11 +2,10 @@
 	"id": "E14001003",
 	"title": "Truro and Falmouth",
 	"demographics": {
-		"leave": 46.22,
 		"withdegree": 18.05,
-		"age18-29": 15.33,
 		"2015UKIP": 11.58,
-		"2016Leave": 46.22
+		"age18-29": 15.33,
+		"leave": 46.22
 	},
 	"elections": {
 		"2019-12-12": {

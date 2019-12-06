@@ -2,11 +2,10 @@
 	"id": "E14000636",
 	"title": "Chipping Barnet",
 	"demographics": {
-		"leave": 40.93,
 		"withdegree": 29.21,
-		"age18-29": 14.74,
 		"2015UKIP": 7.83,
-		"2016Leave": 40.93
+		"age18-29": 14.74,
+		"leave": 40.93
 	},
 	"elections": {
 		"2019-12-12": {

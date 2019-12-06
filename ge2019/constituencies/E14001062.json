@@ -2,11 +2,10 @@
 	"id": "E14001062",
 	"title": "York Outer",
 	"demographics": {
-		"leave": 44.92,
 		"withdegree": 19.37,
-		"age18-29": 14.39,
 		"2015UKIP": 9.74,
-		"2016Leave": 44.92
+		"age18-29": 14.39,
+		"leave": 44.92
 	},
 	"elections": {
 		"2019-12-12": {

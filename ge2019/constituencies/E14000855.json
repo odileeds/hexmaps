@@ -2,11 +2,10 @@
 	"id": "E14000855",
 	"title": "North West Cambridgeshire",
 	"demographics": {
-		"leave": 56.95,
 		"withdegree": 13.88,
-		"age18-29": 14.82,
 		"2015UKIP": 20.09,
-		"2016Leave": 56.95
+		"age18-29": 14.82,
+		"leave": 56.95
 	},
 	"elections": {
 		"2019-12-12": {

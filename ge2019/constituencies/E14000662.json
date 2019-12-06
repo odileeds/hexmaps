@@ -2,11 +2,10 @@
 	"id": "E14000662",
 	"title": "Derby North",
 	"demographics": {
-		"leave": 53.74,
 		"withdegree": 16.93,
-		"age18-29": 20.99,
 		"2015UKIP": 14.6,
-		"2016Leave": 53.74
+		"age18-29": 20.99,
+		"leave": 53.74
 	},
 	"elections": {
 		"2019-12-12": {

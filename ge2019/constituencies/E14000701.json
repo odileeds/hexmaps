@@ -2,11 +2,10 @@
 	"id": "E14000701",
 	"title": "Feltham and Heston",
 	"demographics": {
-		"leave": 55.93,
 		"withdegree": 18.59,
-		"age18-29": 20.17,
 		"2015UKIP": 12.57,
-		"2016Leave": 55.93
+		"age18-29": 20.17,
+		"leave": 55.93
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000950",
 	"title": "South West Devon",
 	"demographics": {
-		"leave": 55.23,
 		"withdegree": 14.48,
-		"age18-29": 11.52,
 		"2015UKIP": 14.5,
-		"2016Leave": 55.23
+		"age18-29": 11.52,
+		"leave": 55.23
 	},
 	"elections": {
 		"2019-12-12": {

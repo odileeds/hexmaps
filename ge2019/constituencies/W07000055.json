@@ -2,11 +2,10 @@
 	"id": "W07000055",
 	"title": "Newport East",
 	"demographics": {
-		"leave": 60.25,
 		"withdegree": 11.3,
-		"age18-29": 16.47,
 		"2015UKIP": 18.42,
-		"2016Leave": 60.25
+		"age18-29": 16.47,
+		"leave": 60.25
 	},
 	"elections": {
 		"2019-12-12": {

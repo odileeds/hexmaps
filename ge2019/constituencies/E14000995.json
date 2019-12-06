@@ -2,11 +2,10 @@
 	"id": "E14000995",
 	"title": "Thurrock",
 	"demographics": {
-		"leave": 70.26,
 		"withdegree": 10.1,
-		"age18-29": 16.28,
 		"2015UKIP": 31.71,
-		"2016Leave": 70.26
+		"age18-29": 16.28,
+		"leave": 70.26
 	},
 	"elections": {
 		"2019-12-12": {

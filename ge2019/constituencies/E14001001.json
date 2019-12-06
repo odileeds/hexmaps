@@ -2,11 +2,10 @@
 	"id": "E14001001",
 	"title": "Totnes",
 	"demographics": {
-		"leave": 54.09,
 		"withdegree": 15.88,
-		"age18-29": 10.41,
 		"2015UKIP": 14.13,
-		"2016Leave": 54.09
+		"age18-29": 10.41,
+		"leave": 54.09
 	},
 	"elections": {
 		"2019-12-12": {

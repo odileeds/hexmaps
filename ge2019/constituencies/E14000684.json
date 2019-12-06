@@ -2,11 +2,10 @@
 	"id": "E14000684",
 	"title": "Eastbourne",
 	"demographics": {
-		"leave": 57.62,
 		"withdegree": 12.66,
-		"age18-29": 14.34,
 		"2015UKIP": 11.6,
-		"2016Leave": 57.62
+		"age18-29": 14.34,
+		"leave": 57.62
 	},
 	"elections": {
 		"2019-12-12": {

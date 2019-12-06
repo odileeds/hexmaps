@@ -2,11 +2,10 @@
 	"id": "E14000887",
 	"title": "Putney",
 	"demographics": {
-		"leave": 26.85,
 		"withdegree": 44.21,
-		"age18-29": 23.68,
 		"2015UKIP": 4.65,
-		"2016Leave": 26.85
+		"age18-29": 23.68,
+		"leave": 26.85
 	},
 	"elections": {
 		"2019-12-12": {

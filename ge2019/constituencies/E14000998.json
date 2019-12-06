@@ -2,11 +2,10 @@
 	"id": "E14000998",
 	"title": "Tooting",
 	"demographics": {
-		"leave": 25.32,
 		"withdegree": 44.09,
-		"age18-29": 23.92,
 		"2015UKIP": 2.87,
-		"2016Leave": 25.32
+		"age18-29": 23.92,
+		"leave": 25.32
 	},
 	"elections": {
 		"2019-12-12": {

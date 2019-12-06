@@ -2,11 +2,10 @@
 	"id": "E14000840",
 	"title": "North Durham",
 	"demographics": {
-		"leave": 60.13,
 		"withdegree": 10.19,
-		"age18-29": 13.95,
 		"2015UKIP": 15.95,
-		"2016Leave": 60.13
+		"age18-29": 13.95,
+		"leave": 60.13
 	},
 	"elections": {
 		"2019-12-12": {

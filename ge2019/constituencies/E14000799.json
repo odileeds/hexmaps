@@ -2,11 +2,10 @@
 	"id": "E14000799",
 	"title": "Ludlow",
 	"demographics": {
-		"leave": 58.58,
 		"withdegree": 15.86,
-		"age18-29": 10.66,
 		"2015UKIP": 14.91,
-		"2016Leave": 58.58
+		"age18-29": 10.66,
+		"leave": 58.58
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000885",
 	"title": "Preston",
 	"demographics": {
-		"leave": 56.85,
 		"withdegree": 12.98,
-		"age18-29": 26.23,
 		"2015UKIP": 15.35,
-		"2016Leave": 56.85
+		"age18-29": 26.23,
+		"leave": 56.85
 	},
 	"elections": {
 		"2019-12-12": {

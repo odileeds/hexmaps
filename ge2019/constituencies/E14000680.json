@@ -2,11 +2,10 @@
 	"id": "E14000680",
 	"title": "East Hampshire",
 	"demographics": {
-		"leave": 48.73,
 		"withdegree": 20.33,
-		"age18-29": 11.45,
 		"2015UKIP": 11.98,
-		"2016Leave": 48.73
+		"age18-29": 11.45,
+		"leave": 48.73
 	},
 	"elections": {
 		"2019-12-12": {

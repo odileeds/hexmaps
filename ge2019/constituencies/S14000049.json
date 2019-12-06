@@ -2,9 +2,8 @@
 	"id": "S14000049",
 	"title": "North East Fife",
 	"demographics": {
-		"leave": 38.14,
 		"age18-29": 19.15,
-		"2016Leave": 38.14
+		"leave": 38.14
 	},
 	"elections": {
 		"2019-12-12": {

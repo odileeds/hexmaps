@@ -2,11 +2,10 @@
 	"id": "E14001008",
 	"title": "Vauxhall",
 	"demographics": {
-		"leave": 22.43,
 		"withdegree": 42.81,
-		"age18-29": 29.36,
 		"2015UKIP": 2.89,
-		"2016Leave": 22.43
+		"age18-29": 29.36,
+		"leave": 22.43
 	},
 	"elections": {
 		"2019-12-12": {

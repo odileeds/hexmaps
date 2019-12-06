@@ -2,11 +2,10 @@
 	"id": "E14000941",
 	"title": "South Norfolk",
 	"demographics": {
-		"leave": 51.11,
 		"withdegree": 14.99,
-		"age18-29": 11.09,
 		"2015UKIP": 13.74,
-		"2016Leave": 51.11
+		"age18-29": 11.09,
+		"leave": 51.11
 	},
 	"elections": {
 		"2019-12-12": {

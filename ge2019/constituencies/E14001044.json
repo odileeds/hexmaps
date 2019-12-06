@@ -2,11 +2,10 @@
 	"id": "E14001044",
 	"title": "Wirral West",
 	"demographics": {
-		"leave": 44.69,
 		"withdegree": 18.66,
-		"age18-29": 11,
 		"2015UKIP": 6.62,
-		"2016Leave": 44.69
+		"age18-29": 11,
+		"leave": 44.69
 	},
 	"elections": {
 		"2019-12-12": {

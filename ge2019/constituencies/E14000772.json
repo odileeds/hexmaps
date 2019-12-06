@@ -2,11 +2,10 @@
 	"id": "E14000772",
 	"title": "Kingston upon Hull North",
 	"demographics": {
-		"leave": 59.97,
 		"withdegree": 12.35,
-		"age18-29": 24.79,
 		"2015UKIP": 16.31,
-		"2016Leave": 59.97
+		"age18-29": 24.79,
+		"leave": 59.97
 	},
 	"elections": {
 		"2019-12-12": {

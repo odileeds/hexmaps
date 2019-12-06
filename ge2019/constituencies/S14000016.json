@@ -2,9 +2,8 @@
 	"id": "S14000016",
 	"title": "Dundee West",
 	"demographics": {
-		"leave": 41.15,
 		"age18-29": 25.84,
-		"2016Leave": 41.15
+		"leave": 41.15
 	},
 	"elections": {
 		"2019-12-12": {

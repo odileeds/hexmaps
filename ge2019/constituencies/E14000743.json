@@ -2,11 +2,10 @@
 	"id": "E14000743",
 	"title": "Hereford and South Herefordshire",
 	"demographics": {
-		"leave": 60.15,
 		"withdegree": 13.31,
-		"age18-29": 14.28,
 		"2015UKIP": 16.83,
-		"2016Leave": 60.15
+		"age18-29": 14.28,
+		"leave": 60.15
 	},
 	"elections": {
 		"2019-12-12": {

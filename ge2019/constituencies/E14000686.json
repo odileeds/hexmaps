@@ -2,11 +2,10 @@
 	"id": "E14000686",
 	"title": "Eddisbury",
 	"demographics": {
-		"leave": 52.23,
 		"withdegree": 17.87,
-		"age18-29": 11.36,
 		"2015UKIP": 12.2,
-		"2016Leave": 52.23
+		"age18-29": 11.36,
+		"leave": 52.23
 	},
 	"elections": {
 		"2019-12-12": {

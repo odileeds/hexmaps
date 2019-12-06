@@ -2,11 +2,10 @@
 	"id": "E14001052",
 	"title": "Worcester",
 	"demographics": {
-		"leave": 53.68,
 		"withdegree": 16.98,
-		"age18-29": 17.86,
 		"2015UKIP": 12.83,
-		"2016Leave": 53.68
+		"age18-29": 17.86,
+		"leave": 53.68
 	},
 	"elections": {
 		"2019-12-12": {

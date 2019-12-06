@@ -2,11 +2,10 @@
 	"id": "E14000737",
 	"title": "Hayes and Harlington",
 	"demographics": {
-		"leave": 59.41,
 		"withdegree": 15.76,
-		"age18-29": 19.06,
 		"2015UKIP": 11.96,
-		"2016Leave": 59.41
+		"age18-29": 19.06,
+		"leave": 59.41
 	},
 	"elections": {
 		"2019-12-12": {

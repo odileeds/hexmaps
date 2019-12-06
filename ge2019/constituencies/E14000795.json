@@ -2,11 +2,10 @@
 	"id": "E14000795",
 	"title": "Liverpool, Wavertree",
 	"demographics": {
-		"leave": 35.85,
 		"withdegree": 18.56,
-		"age18-29": 22.47,
 		"2015UKIP": 8.24,
-		"2016Leave": 35.85
+		"age18-29": 22.47,
+		"leave": 35.85
 	},
 	"elections": {
 		"2019-12-12": {

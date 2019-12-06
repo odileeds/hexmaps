@@ -2,9 +2,8 @@
 	"id": "S14000059",
 	"title": "West Dunbartonshire",
 	"demographics": {
-		"leave": 38.01,
 		"age18-29": 15.44,
-		"2016Leave": 38.01
+		"leave": 38.01
 	},
 	"elections": {
 		"2019-12-12": {

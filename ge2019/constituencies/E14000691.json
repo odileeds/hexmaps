@@ -2,11 +2,10 @@
 	"id": "E14000691",
 	"title": "Enfield North",
 	"demographics": {
-		"leave": 49.22,
 		"withdegree": 17.49,
-		"age18-29": 16.25,
 		"2015UKIP": 8.96,
-		"2016Leave": 49.22
+		"age18-29": 16.25,
+		"leave": 49.22
 	},
 	"elections": {
 		"2019-12-12": {

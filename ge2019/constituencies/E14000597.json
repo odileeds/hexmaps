@@ -2,11 +2,10 @@
 	"id": "E14000597",
 	"title": "Brighton, Kemptown",
 	"demographics": {
-		"leave": 43.43,
 		"withdegree": 18.33,
-		"age18-29": 20.64,
 		"2015UKIP": 9.81,
-		"2016Leave": 43.43
+		"age18-29": 20.64,
+		"leave": 43.43
 	},
 	"elections": {
 		"2019-12-12": {

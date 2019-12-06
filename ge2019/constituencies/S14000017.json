@@ -2,9 +2,8 @@
 	"id": "S14000017",
 	"title": "Dunfermline and West Fife",
 	"demographics": {
-		"leave": 40.03,
 		"age18-29": 13.55,
-		"2016Leave": 40.03
+		"leave": 40.03
 	},
 	"elections": {
 		"2019-12-12": {

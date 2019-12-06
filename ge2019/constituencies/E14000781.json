@@ -2,11 +2,10 @@
 	"id": "E14000781",
 	"title": "Leeds West",
 	"demographics": {
-		"leave": 54.98,
 		"withdegree": 15.91,
-		"age18-29": 22.83,
 		"2015UKIP": 18.49,
-		"2016Leave": 54.98
+		"age18-29": 22.83,
+		"leave": 54.98
 	},
 	"elections": {
 		"2019-12-12": {

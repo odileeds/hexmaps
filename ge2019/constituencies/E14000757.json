@@ -2,11 +2,10 @@
 	"id": "E14000757",
 	"title": "Huntingdon",
 	"demographics": {
-		"leave": 53.27,
 		"withdegree": 16.53,
-		"age18-29": 14.37,
 		"2015UKIP": 16.94,
-		"2016Leave": 53.27
+		"age18-29": 14.37,
+		"leave": 53.27
 	},
 	"elections": {
 		"2019-12-12": {

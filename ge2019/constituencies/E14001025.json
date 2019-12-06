@@ -2,11 +2,10 @@
 	"id": "E14001025",
 	"title": "Wellingborough",
 	"demographics": {
-		"leave": 62.94,
 		"withdegree": 10.17,
-		"age18-29": 13.71,
 		"2015UKIP": 19.57,
-		"2016Leave": 62.94
+		"age18-29": 13.71,
+		"leave": 62.94
 	},
 	"elections": {
 		"2019-12-12": {

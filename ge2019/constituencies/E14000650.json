@@ -2,11 +2,10 @@
 	"id": "E14000650",
 	"title": "Coventry North West",
 	"demographics": {
-		"leave": 58.67,
 		"withdegree": 14.39,
-		"age18-29": 18.71,
 		"2015UKIP": 15.69,
-		"2016Leave": 58.67
+		"age18-29": 18.71,
+		"leave": 58.67
 	},
 	"elections": {
 		"2019-12-12": {

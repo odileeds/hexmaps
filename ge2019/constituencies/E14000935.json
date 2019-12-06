@@ -2,11 +2,10 @@
 	"id": "E14000935",
 	"title": "South Derbyshire",
 	"demographics": {
-		"leave": 60.35,
 		"withdegree": 14.38,
-		"age18-29": 13.04,
 		"2015UKIP": 17.73,
-		"2016Leave": 60.35
+		"age18-29": 13.04,
+		"leave": 60.35
 	},
 	"elections": {
 		"2019-12-12": {

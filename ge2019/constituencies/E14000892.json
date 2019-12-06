@@ -2,11 +2,10 @@
 	"id": "E14000892",
 	"title": "Redditch",
 	"demographics": {
-		"leave": 61.42,
 		"withdegree": 11.13,
-		"age18-29": 15.07,
 		"2015UKIP": 16.18,
-		"2016Leave": 61.42
+		"age18-29": 15.07,
+		"leave": 61.42
 	},
 	"elections": {
 		"2019-12-12": {

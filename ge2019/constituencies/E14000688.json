@@ -2,11 +2,10 @@
 	"id": "E14000688",
 	"title": "Ellesmere Port and Neston",
 	"demographics": {
-		"leave": 57.77,
 		"withdegree": 12.5,
-		"age18-29": 13.6,
 		"2015UKIP": 11.97,
-		"2016Leave": 57.77
+		"age18-29": 13.6,
+		"leave": 57.77
 	},
 	"elections": {
 		"2019-12-12": {

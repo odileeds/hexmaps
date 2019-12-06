@@ -2,11 +2,10 @@
 	"id": "E14000979",
 	"title": "Stretford and Urmston",
 	"demographics": {
-		"leave": 48.47,
 		"withdegree": 16.06,
-		"age18-29": 14.82,
 		"2015UKIP": 10.93,
-		"2016Leave": 48.47
+		"age18-29": 14.82,
+		"leave": 48.47
 	},
 	"elections": {
 		"2019-12-12": {

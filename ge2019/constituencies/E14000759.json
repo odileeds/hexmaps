@@ -2,11 +2,10 @@
 	"id": "E14000759",
 	"title": "Ilford North",
 	"demographics": {
-		"leave": 52.57,
 		"withdegree": 21.25,
-		"age18-29": 15.73,
 		"2015UKIP": 8.9,
-		"2016Leave": 52.57
+		"age18-29": 15.73,
+		"leave": 52.57
 	},
 	"elections": {
 		"2019-12-12": {

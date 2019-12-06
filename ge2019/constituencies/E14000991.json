@@ -2,11 +2,10 @@
 	"id": "E14000991",
 	"title": "The Cotswolds",
 	"demographics": {
-		"leave": 47.8,
 		"withdegree": 21.18,
-		"age18-29": 10.72,
 		"2015UKIP": 10.92,
-		"2016Leave": 47.8
+		"age18-29": 10.72,
+		"leave": 47.8
 	},
 	"elections": {
 		"2019-12-12": {

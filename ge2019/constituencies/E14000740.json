@@ -2,11 +2,10 @@
 	"id": "E14000740",
 	"title": "Hemsworth",
 	"demographics": {
-		"leave": 68.13,
 		"withdegree": 9.05,
-		"age18-29": 14.16,
 		"2015UKIP": 20.2,
-		"2016Leave": 68.13
+		"age18-29": 14.16,
+		"leave": 68.13
 	},
 	"elections": {
 		"2019-12-12": {

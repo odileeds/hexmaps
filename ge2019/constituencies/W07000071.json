@@ -2,11 +2,10 @@
 	"id": "W07000071",
 	"title": "Merthyr Tydfil and Rhymney",
 	"demographics": {
-		"leave": 58.4,
 		"withdegree": 7.99,
-		"age18-29": 16.19,
 		"2015UKIP": 18.66,
-		"2016Leave": 58.4
+		"age18-29": 16.19,
+		"leave": 58.4
 	},
 	"elections": {
 		"2019-12-12": {

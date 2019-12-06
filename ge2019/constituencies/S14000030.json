@@ -2,10 +2,9 @@
 	"id": "S14000030",
 	"title": "Glasgow East",
 	"demographics": {
-		"leave": 43.84,
-		"age18-29": 16.43,
 		"2015UKIP": 2.61,
-		"2016Leave": 43.84
+		"age18-29": 16.43,
+		"leave": 43.84
 	},
 	"elections": {
 		"2019-12-12": {

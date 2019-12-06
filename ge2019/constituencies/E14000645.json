@@ -2,11 +2,10 @@
 	"id": "E14000645",
 	"title": "Colne Valley",
 	"demographics": {
-		"leave": 49.82,
 		"withdegree": 18.62,
-		"age18-29": 13.36,
 		"2015UKIP": 10.1,
-		"2016Leave": 49.82
+		"age18-29": 13.36,
+		"leave": 49.82
 	},
 	"elections": {
 		"2019-12-12": {

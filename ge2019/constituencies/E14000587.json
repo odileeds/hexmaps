@@ -2,11 +2,10 @@
 	"id": "E14000587",
 	"title": "Bradford East",
 	"demographics": {
-		"leave": 55.16,
 		"withdegree": 9.92,
-		"age18-29": 18.15,
 		"2015UKIP": 9.91,
-		"2016Leave": 55.16
+		"age18-29": 18.15,
+		"leave": 55.16
 	},
 	"elections": {
 		"2019-12-12": {

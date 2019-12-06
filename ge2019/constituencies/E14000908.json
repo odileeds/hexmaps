@@ -2,11 +2,10 @@
 	"id": "E14000908",
 	"title": "Rushcliffe",
 	"demographics": {
-		"leave": 41.31,
 		"withdegree": 27.94,
-		"age18-29": 13.05,
 		"2015UKIP": 10.77,
-		"2016Leave": 41.31
+		"age18-29": 13.05,
+		"leave": 41.31
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000776",
 	"title": "Lancaster and Fleetwood",
 	"demographics": {
-		"leave": 50.91,
 		"withdegree": 17.67,
-		"age18-29": 24.7,
 		"2015UKIP": 9.73,
-		"2016Leave": 50.91
+		"age18-29": 24.7,
+		"leave": 50.91
 	},
 	"elections": {
 		"2019-12-12": {

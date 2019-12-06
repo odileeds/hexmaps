@@ -2,11 +2,10 @@
 	"id": "E14000768",
 	"title": "Kensington",
 	"demographics": {
-		"leave": 31.35,
 		"withdegree": 46.27,
-		"age18-29": 20.1,
 		"2015UKIP": 4.47,
-		"2016Leave": 31.35
+		"age18-29": 20.1,
+		"leave": 31.35
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,11 +2,10 @@
 	"id": "E14000815",
 	"title": "Mid Dorset and North Poole",
 	"demographics": {
-		"leave": 57.93,
 		"withdegree": 13.7,
-		"age18-29": 11.31,
 		"2015UKIP": 12.18,
-		"2016Leave": 57.93
+		"age18-29": 11.31,
+		"leave": 57.93
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,10 +2,9 @@
 	"id": "S14000037",
 	"title": "Gordon",
 	"demographics": {
-		"leave": 44.56,
-		"age18-29": 12.9,
 		"2015UKIP": 2,
-		"2016Leave": 44.56
+		"age18-29": 12.9,
+		"leave": 44.56
 	},
 	"elections": {
 		"2019-12-12": {

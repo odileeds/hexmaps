@@ -2,11 +2,10 @@
 	"id": "E14000669",
 	"title": "Doncaster North",
 	"demographics": {
-		"leave": 72.06,
 		"withdegree": 6.38,
-		"age18-29": 15.06,
 		"2015UKIP": 22.6,
-		"2016Leave": 72.06
+		"age18-29": 15.06,
+		"leave": 72.06
 	},
 	"elections": {
 		"2019-12-12": {

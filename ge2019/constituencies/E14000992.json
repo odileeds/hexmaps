@@ -2,11 +2,10 @@
 	"id": "E14000992",
 	"title": "The Wrekin",
 	"demographics": {
-		"leave": 58.25,
 		"withdegree": 12.81,
-		"age18-29": 15.41,
 		"2015UKIP": 16.77,
-		"2016Leave": 58.25
+		"age18-29": 15.41,
+		"leave": 58.25
 	},
 	"elections": {
 		"2019-12-12": {

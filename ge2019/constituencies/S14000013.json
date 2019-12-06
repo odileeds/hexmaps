@@ -2,10 +2,9 @@
 	"id": "S14000013",
 	"title": "Dumfries and Galloway",
 	"demographics": {
-		"leave": 45.39,
-		"age18-29": 12.33,
 		"2015UKIP": 2.3,
-		"2016Leave": 45.39
+		"age18-29": 12.33,
+		"leave": 45.39
 	},
 	"elections": {
 		"2019-12-12": {

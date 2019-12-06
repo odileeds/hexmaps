@@ -2,11 +2,10 @@
 	"id": "E14000856",
 	"title": "North West Durham",
 	"demographics": {
-		"leave": 54.98,
 		"withdegree": 11.99,
-		"age18-29": 13.2,
 		"2015UKIP": 16.97,
-		"2016Leave": 54.98
+		"age18-29": 13.2,
+		"leave": 54.98
 	},
 	"elections": {
 		"2019-12-12": {

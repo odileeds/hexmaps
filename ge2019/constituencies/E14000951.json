@@ -2,11 +2,10 @@
 	"id": "E14000951",
 	"title": "South West Hertfordshire",
 	"demographics": {
-		"leave": 46.37,
 		"withdegree": 26.31,
-		"age18-29": 11.58,
 		"2015UKIP": 11.53,
-		"2016Leave": 46.37
+		"age18-29": 11.58,
+		"leave": 46.37
 	},
 	"elections": {
 		"2019-12-12": {

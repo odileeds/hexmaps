@@ -2,11 +2,10 @@
 	"id": "E14000766",
 	"title": "Keighley",
 	"demographics": {
-		"leave": 53.33,
 		"withdegree": 15.89,
-		"age18-29": 13.39,
 		"2015UKIP": 11.53,
-		"2016Leave": 53.33
+		"age18-29": 13.39,
+		"leave": 53.33
 	},
 	"elections": {
 		"2019-12-12": {

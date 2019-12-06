@@ -2,11 +2,10 @@
 	"id": "E14000745",
 	"title": "Hertsmere",
 	"demographics": {
-		"leave": 50.84,
 		"withdegree": 20.56,
-		"age18-29": 14.06,
 		"2015UKIP": 12.74,
-		"2016Leave": 50.84
+		"age18-29": 14.06,
+		"leave": 50.84
 	},
 	"elections": {
 		"2019-12-12": {

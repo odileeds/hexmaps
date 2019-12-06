@@ -2,11 +2,10 @@
 	"id": "E14000708",
 	"title": "Garston and Halewood",
 	"demographics": {
-		"leave": 47.88,
 		"withdegree": 13.67,
-		"age18-29": 15.5,
 		"2015UKIP": 9.15,
-		"2016Leave": 47.88
+		"age18-29": 15.5,
+		"leave": 47.88
 	},
 	"elections": {
 		"2019-12-12": {

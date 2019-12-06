@@ -2,11 +2,10 @@
 	"id": "E14000620",
 	"title": "Carlisle",
 	"demographics": {
-		"leave": 60.49,
 		"withdegree": 10.66,
-		"age18-29": 16.13,
 		"2015UKIP": 12.39,
-		"2016Leave": 60.49
+		"age18-29": 16.13,
+		"leave": 60.49
 	},
 	"elections": {
 		"2019-12-12": {

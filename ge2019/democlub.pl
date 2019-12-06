@@ -189,11 +189,44 @@ while (my $row = $csv->getline ($fh)) {
 				$con{$pcd}{'2017-valid'} += ($fields[$i]+0);
 			}
 		}
+		if(!$con{$pcd}{'2017-candidates'}){ $con{$pcd}{'2017-candidates'} = (); }
+		push(@{$con{$pcd}{'2017-candidates'}},{'name'=>$fields[9]." ".$fields[10],'partycode'=>$fields[8],'partytitle'=>$fields[7],'votes'=>$fields[14]});
 	}
 	$line++;
 }
 close($fh);	
 
+
+
+
+
+#####################################
+# Read in New Statesman demographics
+
+$file = "temp/britainelects.csv";
+#ONSConstID,Constituency Name,Country,Region,2016Leave,2015UKIP,age18-29,WhiteBritish,WithDegree
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		for($i = 0; $i < @fields; $i++){
+			print "Saving britainelects-$header[$i]\n";
+			if(!$con{$pcd}{'britainelects-'.$header[$i]}){
+				$con{$pcd}{'britainelects-'.$header[$i]} = $fields[$i];
+			}
+		}
+	}
+	$line++;
+}
+close($fh);	
 
 
 
@@ -301,6 +334,13 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "{\n";
 		print FILE "\t\"id\": \"$pcd\",\n";
 		print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
+		print FILE "\t\"demographics\": {\n";
+		print FILE "\t\t\"leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}.",\n";
+		print FILE "\t\t\"withdegree\": ".$con{$pcd}{'britainelects-%: with Degree'}.",\n";
+		print FILE "\t\t\"age18-29\": ".$con{$pcd}{'britainelects-%: age 18 - 29'}.",\n";
+		print FILE "\t\t\"2015UKIP\": ".$con{$pcd}{'britainelects-%: 2015 UKIP'}.",\n";
+		print FILE "\t\t\"2016Leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}."\n";
+		print FILE "\t},\n";
 		print FILE "\t\"elections\": {\n";
 		print FILE "\t\t\"2019-12-12\": {\n";
 		print FILE "\t\t\t\"type\": \"general\",\n";
@@ -352,7 +392,20 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\"value\": ".($con{$pcd}{'2017-valid_votes'}+$con{$pcd}{'2017-invalid_votes'})." },\n";
 		print FILE "\t\t\t\"valid\": $con{$pcd}{'2017-valid_votes'},\n";
 		print FILE "\t\t\t\"invalid\": $con{$pcd}{'2017-invalid_votes'},\n";
-		print FILE "\t\t\t\"majority\": $con{$pcd}{'2017-majority'}\n";
+		print FILE "\t\t\t\"majority\": $con{$pcd}{'2017-majority'},\n";
+		print FILE "\t\t\t\"candidates\": [{\n";
+		@candidates = @{$con{$pcd}{'2017-candidates'}};
+		for($c = 0; $c < @candidates ;$c++){
+			if($c > 0){ print FILE "\t\t\t},{\n"; }
+			$con{$pcd}{'2017-candidates'}[$c]{'name'} =~ s/\"/\\\"/g;
+			print FILE "\t\t\t\t\"name\": \"$con{$pcd}{'2017-candidates'}[$c]{'name'}\",\n";
+			if(!$con{$pcd}{'2017-candidates'}[$c]{'partycode'}){
+				print "Need: $pcd party $c $con{$pcd}{'2017-candidates'}[$c]{'partycode'}\n";
+			}
+			print FILE "\t\t\t\t\"party\": { \"code\": \"$con{$pcd}{'2017-candidates'}[$c]{'partycode'}\", \"title\": \"".safeName($con{$pcd}{'2017-candidates'}[$c]{'partytitle'})."\" },\n";
+			print FILE "\t\t\t\t\"votes\": $con{$pcd}{'2017-candidates'}[$c]{'votes'}\n";
+		}
+		print FILE "\t\t\t}]\n";
 		print FILE "\t\t},\n";
 		print FILE "\t\t\"2015-05-07\": {\n";
 		print FILE "\t\t\t\"type\": \"general\",\n";

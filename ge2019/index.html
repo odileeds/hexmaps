@@ -242,7 +242,7 @@
 		<div id="key"></div>
 
 		<div class="bottom">
-			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>, <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5/">CC-BY-SA</a>), <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
+			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: <a href="https://britainelects.newstatesman.com/">New Statesman</a>, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>, <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5/">CC-BY-SA</a>), <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
 		</div>
 	</div>
 	
@@ -351,16 +351,7 @@
 					lbl += '<div class="about">';
 					lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short)
 					lbl += '<br />'+data.elections[yy].mp;
-					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
-					if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;
-					if(data.elections[yy].turnout){
-						lbl += '<br />Turnout: ';
-						if(data.elections[yy].turnout.pc) lbl += data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')';
-						else lbl += data.elections[yy].turnout.value.toLocaleString();
-					}
-					if(data.elections[yy].electorate) lbl += '<br />Electorate: '+data.elections[yy].electorate.toLocaleString()+'';
-					if(data.elections[yy].valid) lbl += '<br />Valid votes: '+data.elections[yy].valid.toLocaleString()+'';
-					if(data.elections[yy].invalid) lbl += '<br />Invalid votes: '+data.elections[yy].invalid.toLocaleString()+'';
+					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString()+(data.elections[yy].majority.pc ? '('+data.elections[yy].majority.pc.toFixed(1)+'%)':'');
 
 					lbl += '</div></div>';
 				}
@@ -376,6 +367,26 @@
 
 				}
 				lbl += '</table>';
+				
+				lbl += '<h3 class="popup-title">Constituency Drilldown</h3><p>';
+				var tbl = '';
+				if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;
+				if(data.elections[yy].turnout){
+					tbl += '<tr><td>Turnout:</td><td>';
+					if(data.elections[yy].turnout.pc) tbl += data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')';
+					else tbl += data.elections[yy].turnout.value.toLocaleString();
+					tbl += '</td></tr>';
+				}
+				if(data.elections[yy].valid) tbl += '<tr><td>Valid votes:</td><td>'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
+				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td>'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
+				if(data.elections[yy].electorate) tbl += '<tr><td>Electorate:</td><td>'+data.elections[yy].electorate.toLocaleString()+'</td></tr>';
+				if(data.elections[yy].demographics){
+					if(data.elections[yy].demographics['age18-29']) tbl += '<tr><td><strong>Age 18-29:</strong></td><td>'+data.elections[yy].demographics['age18-29']+'%</td></tr>';
+					if(data.elections[yy].demographics['withdegree']) tbl += '<tr><td><strong>With a degree:</strong></td><td>'+data.elections[yy].demographics['withdegree']+'%</td></tr>';
+					if(data.elections[yy].demographics['2016Leave']) tbl += '<tr><td><strong>2016 Leave vote (estimate):</strong></td><td>'+data.elections[yy].demographics['2016Leave']+'%</td></tr>';
+					if(data.elections[yy].demographics['2015UKIP']) tbl += '<tr><td><strong>2015 UKIP vote:</strong></td><td>'+data.elections[yy].demographics['2015UKIP']+'%</td></tr>';
+				}
+				if(tbl) lbl += '<table>'+tbl+'</table>';
 
 				if(incumbent){
 					lbl += '<h3 class="popup-title">Incumbent</h3><p>';
@@ -405,7 +416,7 @@
 			}
 		}
 
-		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a> / <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>.</p>'
+		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: <a href="https://britainelects.newstatesman.com/">New Statesman</a> / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a> / <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>.</p>'
 
 		function postRender(title,region,data){
 			S('#tooltip').remove();

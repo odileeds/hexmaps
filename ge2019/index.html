@@ -350,6 +350,16 @@
 					lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short)
 					lbl += '<br />'+data.elections[yy].mp;
 					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
+					if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;
+					if(data.elections[yy].turnout){
+						lbl += '<br />Turnout: ';
+						if(data.elections[yy].turnout.pc) lbl += data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')';
+						else lbl += data.elections[yy].turnout.value.toLocaleString();
+					}
+					if(data.elections[yy].electorate) lbl += '<br />Electorate: '+data.elections[yy].electorate.toLocaleString()+'';
+					if(data.elections[yy].valid) lbl += '<br />Valid votes: '+data.elections[yy].valid.toLocaleString()+'';
+					if(data.elections[yy].invalid) lbl += '<br />Invalid votes: '+data.elections[yy].invalid.toLocaleString()+'';
+
 					lbl += '</div></div>';
 				}
 				lbl += '<table class="results">';
@@ -364,17 +374,6 @@
 
 				}
 				lbl += '</table>';
-				tbl = '';
-				if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;
-				if(data.elections[yy].turnout){
-					tbl += '<tr><td>Turnout:</td><td style="text-align:right">';
-					if(data.elections[yy].turnout.pc) tbl += data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')';
-					else tbl += data.elections[yy].turnout.value.toLocaleString();
-					tbl += '</td></tr>';
-				}
-				if(data.elections[yy].valid) tbl += '<tr><td>Valid votes:</td><td style="text-align:right">'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
-				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
-				if(tbl) lbl += '<table>'+tbl+'</table>';
 
 				if(incumbent){
 					lbl += '<h3 class="popup-title">Incumbent</h3><p>';

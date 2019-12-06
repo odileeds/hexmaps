@@ -155,7 +155,7 @@
 	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; }
 
 	.infobubble {
-		z-index: 3;
+		z-index: 1000;
 		top: 1em;
 		left: 50%;
 		transform: translate3d(-50%, 0, 0);
@@ -189,7 +189,7 @@
 	.winner .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
 	.bottom a, .bottom a:visited { color: inherit; }
-	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
+	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1010; }
 	.spinner svg { width: 5em; margin: auto; }
 	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; }
 	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
@@ -199,7 +199,7 @@
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
 		.infobubble {
-			z-index: 3;
+			z-index: 1000;
 			top: 0em;
 			left: 0px;
 			width: 100%;

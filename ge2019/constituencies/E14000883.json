@@ -1,6 +1,13 @@
 {
 	"id": "E14000883",
 	"title": "Portsmouth North",
+	"demographics": {
+		"leave": 63.69,
+		"withdegree": 10.24,
+		"age18-29": 15.64,
+		"2015UKIP": 19.08,
+		"2016Leave": 63.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 66.3, "value": 47287 },
 			"valid": 47210,
 			"invalid": 77,
-			"majority": 9965
+			"majority": 9965,
+			"candidates": [{
+				"name": "Penny Mordaunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25860
+			},{
+				"name": "Rumal Khan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15895
+			},{
+				"name": "Darren  Sanders",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2608
+			},{
+				"name": "Mike Fitzgerald",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1926
+			},{
+				"name": "Ken Hawkins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 791
+			},{
+				"name": "Joe Jenkins",
+				"party": { "code": "Libertaria", "title": "Libertarian Party" },
+				"votes": 130
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

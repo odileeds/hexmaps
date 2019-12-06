@@ -1,6 +1,13 @@
 {
 	"id": "E14001016",
 	"title": "Warley",
+	"demographics": {
+		"leave": 61.83,
+		"withdegree": 11.69,
+		"age18-29": 17.61,
+		"2015UKIP": 16.49,
+		"2016Leave": 61.83
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 63.3, "value": 40322 },
 			"valid": 40206,
 			"invalid": 116,
-			"majority": 16483
+			"majority": 16483,
+			"candidates": [{
+				"name": "John Spellar",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27004
+			},{
+				"name": "Anthony Mangnall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10521
+			},{
+				"name": "Darryl Magher",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1349
+			},{
+				"name": "Bryan Manley-Green",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 777
+			},{
+				"name": "Mark Redding",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 555
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

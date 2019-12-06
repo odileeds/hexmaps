@@ -1,6 +1,13 @@
 {
 	"id": "S14000038",
 	"title": "Inverclyde",
+	"demographics": {
+		"leave": 36.2,
+		"withdegree": ,
+		"age18-29": 14.5,
+		"2015UKIP": 1.6,
+		"2016Leave": 36.2
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 66.5, "value": 39150 },
 			"valid": 39093,
 			"invalid": 57,
-			"majority": 384
+			"majority": 384,
+			"candidates": [{
+				"name": "Ronnie Cowan",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15050
+			},{
+				"name": "Martin McCluskey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14666
+			},{
+				"name": "David Wilson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8399
+			},{
+				"name": "David Stevens",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 978
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

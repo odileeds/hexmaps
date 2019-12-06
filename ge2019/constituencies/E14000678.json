@@ -1,6 +1,13 @@
 {
 	"id": "E14000678",
 	"title": "East Devon",
+	"demographics": {
+		"leave": 50.46,
+		"withdegree": 16.73,
+		"age18-29": 11.02,
+		"2015UKIP": 12.56,
+		"2016Leave": 50.46
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 73.4, "value": 60443 },
 			"valid": 60382,
 			"invalid": 61,
-			"majority": 8036
+			"majority": 8036,
+			"candidates": [{
+				"name": "Hugo Swire",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29306
+			},{
+				"name": "Claire Wright",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 21270
+			},{
+				"name": "Jan Ross",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6857
+			},{
+				"name": "Alison Eden",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1468
+			},{
+				"name": "Brigitte Graham",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1203
+			},{
+				"name": "Peter Faithfull",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 150
+			},{
+				"name": "Michael Val Davies",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 128
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

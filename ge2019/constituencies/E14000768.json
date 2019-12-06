@@ -1,6 +1,13 @@
 {
 	"id": "E14000768",
 	"title": "Kensington",
+	"demographics": {
+		"leave": 31.35,
+		"withdegree": 46.27,
+		"age18-29": 20.1,
+		"2015UKIP": 4.47,
+		"2016Leave": 31.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 64.0, "value": 38795 },
 			"valid": 38677,
 			"invalid": 118,
-			"majority": 20
+			"majority": 20,
+			"candidates": [{
+				"name": "Emma Dent Coad",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16333
+			},{
+				"name": "Victoria Borwick",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16313
+			},{
+				"name": "Annabel Mullin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4724
+			},{
+				"name": "Jennifer  Nadel",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 767
+			},{
+				"name": "James Torrance",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 393
+			},{
+				"name": "Peter Marshall",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 98
+			},{
+				"name": "John Lloyd",
+				"party": { "code": "Green Soc", "title": "Alliance for Green Socialism" },
+				"votes": 49
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

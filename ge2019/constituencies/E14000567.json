@@ -1,6 +1,13 @@
 {
 	"id": "E14000567",
 	"title": "Birmingham, Selly Oak",
+	"demographics": {
+		"leave": 46.91,
+		"withdegree": 19.46,
+		"age18-29": 25.6,
+		"2015UKIP": 12.71,
+		"2016Leave": 46.91
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 66.1, "value": 49123 },
 			"valid": 48985,
 			"invalid": 138,
-			"majority": 15207
+			"majority": 15207,
+			"candidates": [{
+				"name": "Steve McCabe",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30836
+			},{
+				"name": "Sophie Shrubsole",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15629
+			},{
+				"name": "David Radcliffe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1644
+			},{
+				"name": "Julien Pritchard ",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 876
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

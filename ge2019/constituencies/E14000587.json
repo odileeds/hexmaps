@@ -1,6 +1,13 @@
 {
 	"id": "E14000587",
 	"title": "Bradford East",
+	"demographics": {
+		"leave": 55.16,
+		"withdegree": 9.92,
+		"age18-29": 18.15,
+		"2015UKIP": 9.91,
+		"2016Leave": 55.16
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 64.9, "value": 45700 },
 			"valid": 45622,
 			"invalid": 78,
-			"majority": 20540
+			"majority": 20540,
+			"candidates": [{
+				"name": "Imran Hussain",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29831
+			},{
+				"name": "Mark Trafford",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9291
+			},{
+				"name": "David Ward",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 3576
+			},{
+				"name": "Jonathan Barras",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1372
+			},{
+				"name": "Mark Jewell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 843
+			},{
+				"name": "Paul Parkins",
+				"party": { "code": "Better for Bradford", "title": "Better for Bradford" },
+				"votes": 420
+			},{
+				"name": "Andy Stanford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 289
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000864",
 	"title": "Norwich South",
+	"demographics": {
+		"leave": 40.36,
+		"withdegree": 22.56,
+		"age18-29": 26.21,
+		"2015UKIP": 9.37,
+		"2016Leave": 40.36
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 69.4, "value": 51501 },
 			"valid": 51359,
 			"invalid": 142,
-			"majority": 15596
+			"majority": 15596,
+			"candidates": [{
+				"name": "Clive Lewis",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31311
+			},{
+				"name": "Lana Hempsall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15715
+			},{
+				"name": "James Wright",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2841
+			},{
+				"name": "Richard Bearman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1492
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

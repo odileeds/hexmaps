@@ -1,6 +1,13 @@
 {
 	"id": "E14000774",
 	"title": "Kingswood",
+	"demographics": {
+		"leave": 56.84,
+		"withdegree": 11.2,
+		"age18-29": 14.04,
+		"2015UKIP": 14.82,
+		"2016Leave": 56.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 70.4, "value": 48857 },
 			"valid": 48741,
 			"invalid": 116,
-			"majority": 7500
+			"majority": 7500,
+			"candidates": [{
+				"name": "Chris Skidmore",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26754
+			},{
+				"name": "Mhairi Threlfall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19254
+			},{
+				"name": "Karen Wilkinson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1749
+			},{
+				"name": "Matt Furey-King",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 984
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

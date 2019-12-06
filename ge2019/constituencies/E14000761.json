@@ -1,6 +1,13 @@
 {
 	"id": "E14000761",
 	"title": "Ipswich",
+	"demographics": {
+		"leave": 56.57,
+		"withdegree": 12.89,
+		"age18-29": 18.56,
+		"2015UKIP": 11.71,
+		"2016Leave": 56.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 67.7, "value": 51237 },
 			"valid": 51137,
 			"invalid": 100,
-			"majority": 831
+			"majority": 831,
+			"candidates": [{
+				"name": "Sandy Martin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24224
+			},{
+				"name": "Ben Gummer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23393
+			},{
+				"name": "Tony Gould",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1372
+			},{
+				"name": "Adrian Hyyrylainen-Trett",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1187
+			},{
+				"name": "Charlotte Armstrong",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 840
+			},{
+				"name": "David Tabane",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 121
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000050",
 	"title": "Cardiff Central",
+	"demographics": {
+		"leave": 30.35,
+		"withdegree": 26.48,
+		"age18-29": 40.06,
+		"2015UKIP": 6.47,
+		"2016Leave": 30.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 68.2, "value": 40447 },
 			"valid": 40367,
 			"invalid": 80,
-			"majority": 17196
+			"majority": 17196,
+			"candidates": [{
+				"name": "Jo Stevens",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25193
+			},{
+				"name": "Gregory Stafford",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7997
+			},{
+				"name": "Eluned Parrott",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5415
+			},{
+				"name": "Mark Hooper",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 999
+			},{
+				"name": "Benjamin Smith",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 420
+			},{
+				"name": "Mohammed Sarul-Islam",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 343
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

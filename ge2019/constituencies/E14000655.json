@@ -1,6 +1,13 @@
 {
 	"id": "E14000655",
 	"title": "Croydon North",
+	"demographics": {
+		"leave": 41.17,
+		"withdegree": 20.9,
+		"age18-29": 17.68,
+		"2015UKIP": 5.42,
+		"2016Leave": 41.17
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 68.3, "value": 59754 },
 			"valid": 59623,
 			"invalid": 131,
-			"majority": 32365
+			"majority": 32365,
+			"candidates": [{
+				"name": "Steve Reed",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 44213
+			},{
+				"name": "Samuel Kasumu",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11848
+			},{
+				"name": "Maltby Pindar",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1656
+			},{
+				"name": "Peter Underwood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 983
+			},{
+				"name": "Michael Swadling",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 753
+			},{
+				"name": "Lee Berks",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 170
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

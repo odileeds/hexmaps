@@ -1,6 +1,13 @@
 {
 	"id": "E14000683",
 	"title": "East Yorkshire",
+	"demographics": {
+		"leave": 63.31,
+		"withdegree": 11.33,
+		"age18-29": 10.76,
+		"2015UKIP": 17.91,
+		"2016Leave": 63.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 66.7, "value": 54053 },
 			"valid": 53956,
 			"invalid": 97,
-			"majority": 15006
+			"majority": 15006,
+			"candidates": [{
+				"name": "Greg Knight",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31442
+			},{
+				"name": "Alan Clark",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16436
+			},{
+				"name": "Carl Minns",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2134
+			},{
+				"name": "Andrew Dennis",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1986
+			},{
+				"name": "Timothy Norman",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1015
+			},{
+				"name": "Michael Jackson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 943
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

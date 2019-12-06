@@ -1,6 +1,13 @@
 {
 	"id": "E14000613",
 	"title": "Bury St Edmunds",
+	"demographics": {
+		"leave": 53.74,
+		"withdegree": 14.32,
+		"age18-29": 14.17,
+		"2015UKIP": 14.73,
+		"2016Leave": 53.74
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.4, "value": 62312 },
 			"valid": 62160,
 			"invalid": 152,
-			"majority": 18441
+			"majority": 18441,
+			"candidates": [{
+				"name": "Jo Churchill",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36794
+			},{
+				"name": "Bill Edwards",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18353
+			},{
+				"name": "Helen Korfanty",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3565
+			},{
+				"name": "Helen Geake",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2596
+			},{
+				"name": "Liam Byrne",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 852
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

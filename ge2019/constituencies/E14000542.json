@@ -1,6 +1,13 @@
 {
 	"id": "E14000542",
 	"title": "Barnsley East",
+	"demographics": {
+		"leave": 70.78,
+		"withdegree": 6.52,
+		"age18-29": 14.81,
+		"2015UKIP": 23.48,
+		"2016Leave": 70.78
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 59.0, "value": 40867 },
 			"valid": 40776,
 			"invalid": 91,
-			"majority": 13283
+			"majority": 13283,
+			"candidates": [{
+				"name": "Stephanie Peacock",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24280
+			},{
+				"name": "Andrew Lloyd",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10997
+			},{
+				"name": "James Dalton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3247
+			},{
+				"name": "Tony Devoy",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1215
+			},{
+				"name": "Nicola Turner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 750
+			},{
+				"name": "Kevin Riddiough",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 287
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

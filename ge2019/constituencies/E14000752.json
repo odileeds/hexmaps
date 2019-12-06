@@ -1,6 +1,13 @@
 {
 	"id": "E14000752",
 	"title": "Hornsey and Wood Green",
+	"demographics": {
+		"leave": 24.98,
+		"withdegree": 44.64,
+		"age18-29": 19.44,
+		"2015UKIP": 2.2,
+		"2016Leave": 24.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,40 @@
 			"turnout": { "pc": 78.1, "value": 62451 },
 			"valid": 62293,
 			"invalid": 158,
-			"majority": 30738
+			"majority": 30738,
+			"candidates": [{
+				"name": "Catherine West",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 40738
+			},{
+				"name": "Dawn Barnes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10000
+			},{
+				"name": "Emma Lane",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9246
+			},{
+				"name": "Sam Hall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1181
+			},{
+				"name": "Nimco Ali",
+				"party": { "code": "WEP", "title": "Women's Equality Party" },
+				"votes": 551
+			},{
+				"name": "Ruth Price",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 429
+			},{
+				"name": "Helen Spiby-Vann",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 93
+			},{
+				"name": "Anna Athow",
+				"party": { "code": "WRP", "title": "Workers Revolutionary Party" },
+				"votes": 55
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14001023",
 	"title": "Wealden",
+	"demographics": {
+		"leave": 52.55,
+		"withdegree": 16.68,
+		"age18-29": 11.06,
+		"2015UKIP": 16.73,
+		"2016Leave": 52.55
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 74.4, "value": 60577 },
 			"valid": 60464,
 			"invalid": 113,
-			"majority": 23628
+			"majority": 23628,
+			"candidates": [{
+				"name": "Nusrat Ghani",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37027
+			},{
+				"name": "Angela Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13399
+			},{
+				"name": "Chris Bowers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6281
+			},{
+				"name": "Colin Stocks",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1959
+			},{
+				"name": "Nicola Burton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1798
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

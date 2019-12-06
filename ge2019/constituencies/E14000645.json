@@ -1,6 +1,13 @@
 {
 	"id": "E14000645",
 	"title": "Colne Valley",
+	"demographics": {
+		"leave": 49.82,
+		"withdegree": 18.62,
+		"age18-29": 13.36,
+		"2015UKIP": 10.1,
+		"2016Leave": 49.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,28 @@
 			"turnout": { "pc": 71.8, "value": 60578 },
 			"valid": 60420,
 			"invalid": 158,
-			"majority": 915
+			"majority": 915,
+			"candidates": [{
+				"name": "Thelma Walker",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28818
+			},{
+				"name": "Jason McCartney",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27903
+			},{
+				"name": "Cahal Burke",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2494
+			},{
+				"name": "Sonia King",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 892
+			},{
+				"name": "Patricia Sadio",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 313
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

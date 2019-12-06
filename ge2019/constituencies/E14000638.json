@@ -1,6 +1,13 @@
 {
 	"id": "E14000638",
 	"title": "Christchurch",
+	"demographics": {
+		"leave": 59.87,
+		"withdegree": 11.26,
+		"age18-29": 9.51,
+		"2015UKIP": 21.45,
+		"2016Leave": 59.87
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 72.2, "value": 50795 },
 			"valid": 50634,
 			"invalid": 161,
-			"majority": 25171
+			"majority": 25171,
+			"candidates": [{
+				"name": "Christopher Chope",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35230
+			},{
+				"name": "Patrick Canavan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10059
+			},{
+				"name": "Michael Cox",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4020
+			},{
+				"name": "Chris Rigby",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1325
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000865",
 	"title": "Nottingham East",
+	"demographics": {
+		"leave": 42.88,
+		"withdegree": 19.59,
+		"age18-29": 29.17,
+		"2015UKIP": 9.94,
+		"2016Leave": 42.88
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,32 @@
 			"turnout": { "pc": 63.9, "value": 39441 },
 			"valid": 39327,
 			"invalid": 114,
-			"majority": 19590
+			"majority": 19590,
+			"candidates": [{
+				"name": "Chris Leslie",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 28102
+			},{
+				"name": "Simon Murray",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8512
+			},{
+				"name": "Barry Holliday",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1003
+			},{
+				"name": "Robert Hall-Palmer",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 817
+			},{
+				"name": "Kat Boettge",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 698
+			},{
+				"name": "David Bishop",
+				"party": { "code": "CMEP", "title": "Church of the Militant Elvis Party" },
+				"votes": 195
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

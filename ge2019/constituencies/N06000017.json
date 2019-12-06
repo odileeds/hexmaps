@@ -1,6 +1,13 @@
 {
 	"id": "N06000017",
 	"title": "Upper Bann",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 64.2, "value": 51431 },
 			"valid": 51258,
 			"invalid": 173,
-			"majority": 7992
+			"majority": 7992,
+			"candidates": [{
+				"name": "David Simpson",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 22317
+			},{
+				"name": "John O'Dowd",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 14325
+			},{
+				"name": "Doug Beattie",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 7900
+			},{
+				"name": "Declan McAlinden",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 4397
+			},{
+				"name": "Tara Doyle",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 2319
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

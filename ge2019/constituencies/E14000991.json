@@ -1,6 +1,13 @@
 {
 	"id": "E14000991",
 	"title": "The Cotswolds",
+	"demographics": {
+		"leave": 47.8,
+		"withdegree": 21.18,
+		"age18-29": 10.72,
+		"2015UKIP": 10.92,
+		"2016Leave": 47.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 74.4, "value": 59829 },
 			"valid": 59702,
 			"invalid": 127,
-			"majority": 25499
+			"majority": 25499,
+			"candidates": [{
+				"name": "Geoffrey Clifton-Brown",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36201
+			},{
+				"name": "Mark Huband",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10702
+			},{
+				"name": "Andrew Gant",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9748
+			},{
+				"name": "Sabrina Poole",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1747
+			},{
+				"name": "Chris Harlow",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1197
+			},{
+				"name": "James Steel",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 107
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

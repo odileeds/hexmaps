@@ -1,6 +1,13 @@
 {
 	"id": "E14000848",
 	"title": "North Norfolk",
+	"demographics": {
+		"leave": 58.25,
+		"withdegree": 10.31,
+		"age18-29": 10.3,
+		"2015UKIP": 16.85,
+		"2016Leave": 58.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,20 @@
 			"turnout": { "pc": 75.5, "value": 52279 },
 			"valid": 52188,
 			"invalid": 91,
-			"majority": 3512
+			"majority": 3512,
+			"candidates": [{
+				"name": "Norman Lamb",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 25260
+			},{
+				"name": "James Wild",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21748
+			},{
+				"name": "Stephen Burke",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5180
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000064",
 	"title": "Ceredigion",
+	"demographics": {
+		"leave": 45.37,
+		"withdegree": 17.87,
+		"age18-29": 21.15,
+		"2015UKIP": 10.23,
+		"2016Leave": 45.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 73.4, "value": 39819 },
 			"valid": 39767,
 			"invalid": 52,
-			"majority": 104
+			"majority": 104,
+			"candidates": [{
+				"name": "Ben Lake",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 11623
+			},{
+				"name": "Mark Williams",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11519
+			},{
+				"name": "Dinah Mulholland",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 8017
+			},{
+				"name": "Ruth Davis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7307
+			},{
+				"name": "Tom Harrison",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 602
+			},{
+				"name": "Grenville Ham",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 542
+			},{
+				"name": "Sir Dudley the Crazed",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 157
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

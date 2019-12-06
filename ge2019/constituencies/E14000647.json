@@ -1,6 +1,13 @@
 {
 	"id": "E14000647",
 	"title": "Copeland",
+	"demographics": {
+		"leave": 59.85,
+		"withdegree": 11.95,
+		"age18-29": 12.85,
+		"2015UKIP": 15.51,
+		"2016Leave": 59.85
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.7, "value": 43012 },
 			"valid": 42927,
 			"invalid": 85,
-			"majority": 1695
+			"majority": 1695,
+			"candidates": [{
+				"name": "Trudy Harrison",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21062
+			},{
+				"name": "Gillian Troughton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19367
+			},{
+				"name": "Rebecca Hanson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1404
+			},{
+				"name": "Herbert Crossman",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1094
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

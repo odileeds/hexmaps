@@ -1,6 +1,13 @@
 {
 	"id": "E14000636",
 	"title": "Chipping Barnet",
+	"demographics": {
+		"leave": 40.93,
+		"withdegree": 29.21,
+		"age18-29": 14.74,
+		"2015UKIP": 7.83,
+		"2016Leave": 40.93
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 72.0, "value": 55627 },
 			"valid": 55423,
 			"invalid": 204,
-			"majority": 353
+			"majority": 353,
+			"candidates": [{
+				"name": "Theresa Villiers",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25679
+			},{
+				"name": "Emma Whysall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25326
+			},{
+				"name": "Marisha Ray",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3012
+			},{
+				"name": "Phil Fletcher",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1406
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

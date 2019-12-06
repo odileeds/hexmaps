@@ -1,6 +1,13 @@
 {
 	"id": "E14000994",
 	"title": "Thornbury and Yate",
+	"demographics": {
+		"leave": 53.33,
+		"withdegree": 15.19,
+		"age18-29": 11.84,
+		"2015UKIP": 10.55,
+		"2016Leave": 53.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 74.8, "value": 50791 },
 			"valid": 50690,
 			"invalid": 101,
-			"majority": 12071
+			"majority": 12071,
+			"candidates": [{
+				"name": "Luke Hall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28008
+			},{
+				"name": "Claire Young",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 15937
+			},{
+				"name": "Brian Mead",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6112
+			},{
+				"name": "Iain Hamilton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 633
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

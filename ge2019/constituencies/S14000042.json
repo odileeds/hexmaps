@@ -1,6 +1,13 @@
 {
 	"id": "S14000042",
 	"title": "Lanark and Hamilton East",
+	"demographics": {
+		"leave": 35.47,
+		"withdegree": ,
+		"age18-29": 13.76,
+		"2015UKIP": 2.59,
+		"2016Leave": 35.47
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 65.4, "value": 50527 },
 			"valid": 50470,
 			"invalid": 57,
-			"majority": 266
+			"majority": 266,
+			"candidates": [{
+				"name": "Angela Crawley",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16444
+			},{
+				"name": "Poppy Corbett",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16178
+			},{
+				"name": "Andrew Hilland",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16084
+			},{
+				"name": "Colin Robb",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1214
+			},{
+				"name": "Donald MacKay",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 550
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000740",
 	"title": "Hemsworth",
+	"demographics": {
+		"leave": 68.13,
+		"withdegree": 9.05,
+		"age18-29": 14.16,
+		"2015UKIP": 20.2,
+		"2016Leave": 68.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,28 @@
 			"turnout": { "pc": 64.0, "value": 46027 },
 			"valid": 45944,
 			"invalid": 83,
-			"majority": 10174
+			"majority": 10174,
+			"candidates": [{
+				"name": "Jon Trickett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25740
+			},{
+				"name": "Mike Jordan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15566
+			},{
+				"name": "David Dews",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2591
+			},{
+				"name": "Martin Roberts",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1135
+			},{
+				"name": "Joan Macqueen",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 912
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

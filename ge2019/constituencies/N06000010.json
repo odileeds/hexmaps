@@ -1,6 +1,13 @@
 {
 	"id": "N06000010",
 	"title": "Mid Ulster",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 68.6, "value": 46972 },
 			"valid": 46694,
 			"invalid": 278,
-			"majority": 12890
+			"majority": 12890,
+			"candidates": [{
+				"name": "Francie Molloy",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 25455
+			},{
+				"name": "Keith Buchanan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 12565
+			},{
+				"name": "Malachy Quinn",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 4563
+			},{
+				"name": "Mark Glasgow",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 3017
+			},{
+				"name": "Fay Watson",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 1094
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

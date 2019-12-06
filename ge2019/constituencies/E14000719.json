@@ -1,6 +1,13 @@
 {
 	"id": "E14000719",
 	"title": "Guildford",
+	"demographics": {
+		"leave": 41.18,
+		"withdegree": 29.67,
+		"age18-29": 19.98,
+		"2015UKIP": 8.84,
+		"2016Leave": 41.18
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,32 @@
 			"turnout": { "pc": 73.9, "value": 55656 },
 			"valid": 55509,
 			"invalid": 147,
-			"majority": 17040
+			"majority": 17040,
+			"candidates": [{
+				"name": "Anne Milton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30295
+			},{
+				"name": "Zoe Franklin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13255
+			},{
+				"name": "Howard Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10545
+			},{
+				"name": "Mark Bray-Parry",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1152
+			},{
+				"name": "John Morris",
+				"party": { "code": "TPP", "title": "The Peace Party" },
+				"votes": 205
+			},{
+				"name": "Semi Essessi",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 57
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000942",
 	"title": "South Northamptonshire",
+	"demographics": {
+		"leave": 52.67,
+		"withdegree": 18.97,
+		"age18-29": 11.37,
+		"2015UKIP": 13.48,
+		"2016Leave": 52.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 75.9, "value": 65123 },
 			"valid": 64998,
 			"invalid": 125,
-			"majority": 22840
+			"majority": 22840,
+			"candidates": [{
+				"name": "Andrea Leadsom",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 40599
+			},{
+				"name": "Sophie Johnson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17759
+			},{
+				"name": "Chris Lofts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3623
+			},{
+				"name": "Nigel Wickens",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1363
+			},{
+				"name": "Denise Donaldson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1357
+			},{
+				"name": "Josh Phillips",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 297
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

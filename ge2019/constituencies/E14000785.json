@@ -1,6 +1,13 @@
 {
 	"id": "E14000785",
 	"title": "Leigh",
+	"demographics": {
+		"leave": 63.45,
+		"withdegree": 9.82,
+		"age18-29": 14.73,
+		"2015UKIP": 19.73,
+		"2016Leave": 63.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 61.7, "value": 46979 },
 			"valid": 46874,
 			"invalid": 105,
-			"majority": 9554
+			"majority": 9554,
+			"candidates": [{
+				"name": "Joanne Platt",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 26347
+			},{
+				"name": "James Grundy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16793
+			},{
+				"name": "Mark Bradley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2783
+			},{
+				"name": "Richard Kilpatrick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 951
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

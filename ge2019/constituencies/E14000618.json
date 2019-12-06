@@ -1,6 +1,13 @@
 {
 	"id": "E14000618",
 	"title": "Cannock Chase",
+	"demographics": {
+		"leave": 68.86,
+		"withdegree": 7.6,
+		"age18-29": 14.77,
+		"2015UKIP": 17.46,
+		"2016Leave": 68.86
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,28 @@
 			"turnout": { "pc": 64.3, "value": 47950 },
 			"valid": 47872,
 			"invalid": 78,
-			"majority": 8391
+			"majority": 8391,
+			"candidates": [{
+				"name": "Amanda Milling",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26318
+			},{
+				"name": "Paul Dadge",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17927
+			},{
+				"name": "Paul Allen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2018
+			},{
+				"name": "Paul Woodhead",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 815
+			},{
+				"name": "Nat Green",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 794
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

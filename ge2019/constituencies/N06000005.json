@@ -1,6 +1,13 @@
 {
 	"id": "N06000005",
 	"title": "East Antrim",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 60.8, "value": 38269 },
 			"valid": 38143,
 			"invalid": 126,
-			"majority": 15923
+			"majority": 15923,
+			"candidates": [{
+				"name": "Sammy Wilson",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 21873
+			},{
+				"name": "Stewart Dickson",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 5950
+			},{
+				"name": "John Stewart",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 4524
+			},{
+				"name": "Oliver McMullan",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 3555
+			},{
+				"name": "Margaret McKillop",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 1278
+			},{
+				"name": "Mark Logan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 963
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

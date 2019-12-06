@@ -1,6 +1,13 @@
 {
 	"id": "E14000987",
 	"title": "Tatton",
+	"demographics": {
+		"leave": 45.83,
+		"withdegree": 24.77,
+		"age18-29": 10.83,
+		"2015UKIP": 10.75,
+		"2016Leave": 45.83
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.5, "value": 49220 },
 			"valid": 49116,
 			"invalid": 104,
-			"majority": 14787
+			"majority": 14787,
+			"candidates": [{
+				"name": "Esther McVey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28764
+			},{
+				"name": "Sam Rushworth",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13977
+			},{
+				"name": "Gareth Wilson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4431
+			},{
+				"name": "Nigel Hennerley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1024
+			},{
+				"name": "Quentin Abel",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 920
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

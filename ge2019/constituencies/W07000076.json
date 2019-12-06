@@ -1,6 +1,13 @@
 {
 	"id": "W07000076",
 	"title": "Caerphilly",
+	"demographics": {
+		"leave": 55.16,
+		"withdegree": 11.39,
+		"age18-29": 14.72,
+		"2015UKIP": 19.34,
+		"2016Leave": 55.16
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 64.3, "value": 41380 },
 			"valid": 41297,
 			"invalid": 83,
-			"majority": 12078
+			"majority": 12078,
+			"candidates": [{
+				"name": "Wayne David",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22491
+			},{
+				"name": "Jane Pratt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10413
+			},{
+				"name": "Lindsay Whittle",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 5962
+			},{
+				"name": "Liz Wilks",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1259
+			},{
+				"name": "Kay David",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 725
+			},{
+				"name": "Andrew Creak",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 447
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000042",
 	"title": "Delyn",
+	"demographics": {
+		"leave": 54.77,
+		"withdegree": 12.19,
+		"age18-29": 12.74,
+		"2015UKIP": 16.42,
+		"2016Leave": 54.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 73.0, "value": 39487 },
 			"valid": 39418,
 			"invalid": 69,
-			"majority": 4240
+			"majority": 4240,
+			"candidates": [{
+				"name": "David Hanson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20573
+			},{
+				"name": "Matt Wright",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16333
+			},{
+				"name": "Paul Rowlinson",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1481
+			},{
+				"name": "Tom Rippeth",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1031
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

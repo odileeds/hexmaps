@@ -1,6 +1,13 @@
 {
 	"id": "E14000940",
 	"title": "South Leicestershire",
+	"demographics": {
+		"leave": 58.22,
+		"withdegree": 14.56,
+		"age18-29": 12.79,
+		"2015UKIP": 17.36,
+		"2016Leave": 58.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 71.9, "value": 56801 },
 			"valid": 56689,
 			"invalid": 112,
-			"majority": 18631
+			"majority": 18631,
+			"candidates": [{
+				"name": "Alberto Costa",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34795
+			},{
+				"name": "Shabbir Aslam",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16164
+			},{
+				"name": "Gregory Webb",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2403
+			},{
+				"name": "Roger Helmer",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2235
+			},{
+				"name": "Mary Morgan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1092
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

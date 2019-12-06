@@ -1,6 +1,13 @@
 {
 	"id": "S14000055",
 	"title": "Ross, Skye and Lochaber",
+	"demographics": {
+		"leave": 43.35,
+		"withdegree": ,
+		"age18-29": 10.78,
+		"2015UKIP": 1.95,
+		"2016Leave": 43.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 71.8, "value": 38503 },
 			"valid": 38454,
 			"invalid": 49,
-			"majority": 5919
+			"majority": 5919,
+			"candidates": [{
+				"name": "Ian Blackford",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15480
+			},{
+				"name": "Robert Mackenzie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9561
+			},{
+				"name": "Jean Davis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8042
+			},{
+				"name": "Peter O Donnghaile",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 4695
+			},{
+				"name": "Ronnie Campbell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 499
+			},{
+				"name": "Stick Sturrock",
+				"party": { "code": "Something New", "title": "Something New" },
+				"votes": 177
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000534",
 	"title": "Arundel and South Downs",
+	"demographics": {
+		"leave": 50.69,
+		"withdegree": 18.78,
+		"age18-29": 9.19,
+		"2015UKIP": 14.44,
+		"2016Leave": 50.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 76.0, "value": 60410 },
 			"valid": 60256,
 			"invalid": 154,
-			"majority": 23883
+			"majority": 23883,
+			"candidates": [{
+				"name": "Nick Herbert",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37573
+			},{
+				"name": "Caroline Fife",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13690
+			},{
+				"name": "Shweta  Kapadia",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4783
+			},{
+				"name": "Johanna Prior",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2542
+			},{
+				"name": "John Wallace",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1668
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

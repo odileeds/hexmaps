@@ -1,6 +1,13 @@
 {
 	"id": "E14000709",
 	"title": "Gateshead",
+	"demographics": {
+		"leave": 56.05,
+		"withdegree": 13.74,
+		"age18-29": 18.24,
+		"2015UKIP": 17.83,
+		"2016Leave": 56.05
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 64.7, "value": 42174 },
 			"valid": 42103,
 			"invalid": 71,
-			"majority": 17350
+			"majority": 17350,
+			"candidates": [{
+				"name": "Ian Mearns",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27426
+			},{
+				"name": "Lauren Hankinson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10076
+			},{
+				"name": "Mark Bell",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2281
+			},{
+				"name": "Frank Hindle",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1709
+			},{
+				"name": "Andy Redfern",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 611
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

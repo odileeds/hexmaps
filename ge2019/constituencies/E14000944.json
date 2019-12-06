@@ -1,6 +1,13 @@
 {
 	"id": "E14000944",
 	"title": "South Shields",
+	"demographics": {
+		"leave": 62.05,
+		"withdegree": 8.95,
+		"age18-29": 15.43,
+		"2015UKIP": 21.99,
+		"2016Leave": 62.05
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 64.4, "value": 40849 },
 			"valid": 40772,
 			"invalid": 77,
-			"majority": 14508
+			"majority": 14508,
+			"candidates": [{
+				"name": "Emma Lewell-Buck",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25078
+			},{
+				"name": "Felicity Buchan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10570
+			},{
+				"name": "Richard Elvin",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3006
+			},{
+				"name": "Shirley Ford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1437
+			},{
+				"name": "Gita Gordon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 681
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

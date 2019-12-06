@@ -1,6 +1,13 @@
 {
 	"id": "E14001032",
 	"title": "West Ham",
+	"demographics": {
+		"leave": 47.38,
+		"withdegree": 23.27,
+		"age18-29": 27.13,
+		"2015UKIP": 7.48,
+		"2016Leave": 47.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 65.9, "value": 60869 },
 			"valid": 60708,
 			"invalid": 161,
-			"majority": 36754
+			"majority": 36754,
+			"candidates": [{
+				"name": "Lyn Brown",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 46591
+			},{
+				"name": "Patrick Spencer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9837
+			},{
+				"name": "Paul Reynolds",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1836
+			},{
+				"name": "Rosamund Beattie",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1134
+			},{
+				"name": "Michael Spracklin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 957
+			},{
+				"name": "Kayode Shedowo",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 353
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

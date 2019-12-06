@@ -1,6 +1,13 @@
 {
 	"id": "E14000945",
 	"title": "South Staffordshire",
+	"demographics": {
+		"leave": 65.24,
+		"withdegree": 12.34,
+		"age18-29": 12.82,
+		"2015UKIP": 16.67,
+		"2016Leave": 65.24
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.8, "value": 51296 },
 			"valid": 51109,
 			"invalid": 187,
-			"majority": 22733
+			"majority": 22733,
+			"candidates": [{
+				"name": "Gavin Williamson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35656
+			},{
+				"name": "Adam Freeman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12923
+			},{
+				"name": "Hilary Myers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1348
+			},{
+				"name": "Claire McIlvenna",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1182
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

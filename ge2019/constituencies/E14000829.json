@@ -1,6 +1,13 @@
 {
 	"id": "E14000829",
 	"title": "Newark",
+	"demographics": {
+		"leave": 55.75,
+		"withdegree": 15.56,
+		"age18-29": 12.22,
+		"2015UKIP": 12.03,
+		"2016Leave": 55.75
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.1, "value": 55179 },
 			"valid": 55042,
 			"invalid": 137,
-			"majority": 18149
+			"majority": 18149,
+			"candidates": [{
+				"name": "Robert Jenrick",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34493
+			},{
+				"name": "Chantal  Lee",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16344
+			},{
+				"name": "David  Watts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2786
+			},{
+				"name": "Xandra  Arundel",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1419
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

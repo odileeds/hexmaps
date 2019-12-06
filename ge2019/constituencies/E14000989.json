@@ -1,6 +1,13 @@
 {
 	"id": "E14000989",
 	"title": "Telford",
+	"demographics": {
+		"leave": 67.06,
+		"withdegree": 9.09,
+		"age18-29": 16.12,
+		"2015UKIP": 18.03,
+		"2016Leave": 67.06
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 65.8, "value": 44832 },
 			"valid": 44686,
 			"invalid": 146,
-			"majority": 720
+			"majority": 720,
+			"candidates": [{
+				"name": "Lucy Allan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21777
+			},{
+				"name": "Kuldip Sahota",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21057
+			},{
+				"name": "Susan King",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 954
+			},{
+				"name": "Luke Shirley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 898
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

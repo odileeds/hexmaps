@@ -1,6 +1,13 @@
 {
 	"id": "E14000619",
 	"title": "Canterbury",
+	"demographics": {
+		"leave": 45.34,
+		"withdegree": 20.44,
+		"age18-29": 25.35,
+		"2015UKIP": 13.63,
+		"2016Leave": 45.34
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 72.9, "value": 56978 },
 			"valid": 56800,
 			"invalid": 178,
-			"majority": 187
+			"majority": 187,
+			"candidates": [{
+				"name": "Rosie Duffield",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25572
+			},{
+				"name": "Julian Brazier",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25385
+			},{
+				"name": "James Flanagan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4561
+			},{
+				"name": "Henry Stanton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1282
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000800",
 	"title": "Luton North",
+	"demographics": {
+		"leave": 58.21,
+		"withdegree": 13.01,
+		"age18-29": 16.17,
+		"2015UKIP": 12.49,
+		"2016Leave": 58.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -53,7 +60,24 @@
 			"turnout": { "pc": 70.0, "value": 46742 },
 			"valid": 46622,
 			"invalid": 120,
-			"majority": 14364
+			"majority": 14364,
+			"candidates": [{
+				"name": "Kelvin Hopkins",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29765
+			},{
+				"name": "Caroline Kerswell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15401
+			},{
+				"name": "Rabi Martins",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 808
+			},{
+				"name": "Simon Hall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 648
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

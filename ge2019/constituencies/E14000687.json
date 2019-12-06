@@ -1,6 +1,13 @@
 {
 	"id": "E14000687",
 	"title": "Edmonton",
+	"demographics": {
+		"leave": 45.51,
+		"withdegree": 14.57,
+		"age18-29": 18.1,
+		"2015UKIP": 8.14,
+		"2016Leave": 45.51
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 66.6, "value": 43791 },
 			"valid": 43678,
 			"invalid": 113,
-			"majority": 21115
+			"majority": 21115,
+			"candidates": [{
+				"name": "Kate Osamor",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 31221
+			},{
+				"name": "Gonul Daniels",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10106
+			},{
+				"name": "Nigel Sussman",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 860
+			},{
+				"name": "David Schmitz",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 858
+			},{
+				"name": "Benjamin Gill",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 633
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

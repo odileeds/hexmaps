@@ -1,6 +1,13 @@
 {
 	"id": "S14000026",
 	"title": "Edinburgh West",
+	"demographics": {
+		"leave": 28.77,
+		"withdegree": ,
+		"age18-29": 13.12,
+		"2015UKIP": 1.85,
+		"2016Leave": 28.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 73.9, "value": 52866 },
 			"valid": 52795,
 			"invalid": 71,
-			"majority": 2988
+			"majority": 2988,
+			"candidates": [{
+				"name": "Christine Jardine",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 18108
+			},{
+				"name": "Toni Giugliano",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15120
+			},{
+				"name": "Sandy Batho",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11559
+			},{
+				"name": "Mandy Telford",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7876
+			},{
+				"name": "Mark Whittet",
+				"party": { "code": "Scotland's Independence Referendum Party", "title": "Scotland's Independence Referendum Party" },
+				"votes": 132
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

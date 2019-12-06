@@ -1,6 +1,13 @@
 {
 	"id": "E14000667",
 	"title": "Don Valley",
+	"demographics": {
+		"leave": 68.56,
+		"withdegree": 8.29,
+		"age18-29": 14.64,
+		"2015UKIP": 23.45,
+		"2016Leave": 68.56
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 62.3, "value": 46083 },
 			"valid": 45988,
 			"invalid": 95,
-			"majority": 5169
+			"majority": 5169,
+			"candidates": [{
+				"name": "Caroline Flint",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24351
+			},{
+				"name": "Aaron Bell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19182
+			},{
+				"name": "Stevie Manion",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1599
+			},{
+				"name": "Anthony Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 856
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

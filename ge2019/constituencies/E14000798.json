@@ -1,6 +1,13 @@
 {
 	"id": "E14000798",
 	"title": "Louth and Horncastle",
+	"demographics": {
+		"leave": 69.43,
+		"withdegree": 8.65,
+		"age18-29": 10.84,
+		"2015UKIP": 21.41,
+		"2016Leave": 69.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 66.9, "value": 52855 },
 			"valid": 52771,
 			"invalid": 84,
-			"majority": 19641
+			"majority": 19641,
+			"candidates": [{
+				"name": "Victoria Atkins",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33733
+			},{
+				"name": "Julie Speed",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14092
+			},{
+				"name": "Jonathan  Noble",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2460
+			},{
+				"name": "Lisa  Gabriel",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1990
+			},{
+				"name": "The Iconic Arty-Pole",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 496
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000964",
 	"title": "St Ives",
+	"demographics": {
+		"leave": 55.13,
+		"withdegree": 14.02,
+		"age18-29": 11.55,
+		"2015UKIP": 11.84,
+		"2016Leave": 55.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,20 @@
 			"turnout": { "pc": 76.5, "value": 51335 },
 			"valid": 51226,
 			"invalid": 109,
-			"majority": 312
+			"majority": 312,
+			"candidates": [{
+				"name": "Derek Thomas",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22120
+			},{
+				"name": "Andrew George",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 21808
+			},{
+				"name": "Christopher Drew",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7298
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

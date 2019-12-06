@@ -1,6 +1,13 @@
 {
 	"id": "E14000911",
 	"title": "Salford and Eccles",
+	"demographics": {
+		"leave": 53.59,
+		"withdegree": 17.37,
+		"age18-29": 24.81,
+		"2015UKIP": 18.04,
+		"2016Leave": 53.59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 61.1, "value": 47730 },
 			"valid": 47619,
 			"invalid": 111,
-			"majority": 19132
+			"majority": 19132,
+			"candidates": [{
+				"name": "Rebecca Long Bailey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31168
+			},{
+				"name": "Jason Sugarman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12036
+			},{
+				"name": "Christopher Barnes",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2320
+			},{
+				"name": "John Reid",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1286
+			},{
+				"name": "Wendy Olsen",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 809
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

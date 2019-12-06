@@ -1,6 +1,13 @@
 {
 	"id": "E14000797",
 	"title": "Loughborough",
+	"demographics": {
+		"leave": 49.67,
+		"withdegree": 18.93,
+		"age18-29": 24.42,
+		"2015UKIP": 10.97,
+		"2016Leave": 49.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 68.2, "value": 54258 },
 			"valid": 54148,
 			"invalid": 110,
-			"majority": 4269
+			"majority": 4269,
+			"candidates": [{
+				"name": "Nicky Morgan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27022
+			},{
+				"name": "Jewel  Miah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22753
+			},{
+				"name": "David  Walker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1937
+			},{
+				"name": "Andy  McWilliam",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1465
+			},{
+				"name": "Philip Leicester",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 971
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

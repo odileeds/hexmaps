@@ -1,6 +1,13 @@
 {
 	"id": "E14001051",
 	"title": "Wolverhampton South West",
+	"demographics": {
+		"leave": 54.37,
+		"withdegree": 18.25,
+		"age18-29": 17.42,
+		"2015UKIP": 10.72,
+		"2016Leave": 54.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 70.8, "value": 42461 },
 			"valid": 42346,
 			"invalid": 115,
-			"majority": 2185
+			"majority": 2185,
+			"candidates": [{
+				"name": "Eleanor Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20899
+			},{
+				"name": "Paul Uppal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18714
+			},{
+				"name": "Rob Jones",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1012
+			},{
+				"name": "Sarah Quarmby",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 784
+			},{
+				"name": "Andrea Cantrill",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 579
+			},{
+				"name": "Jagmeet Singh",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 358
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

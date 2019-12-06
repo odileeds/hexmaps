@@ -1,6 +1,13 @@
 {
 	"id": "E14001045",
 	"title": "Witham",
+	"demographics": {
+		"leave": 60.83,
+		"withdegree": 12.38,
+		"age18-29": 12.36,
+		"2015UKIP": 16.05,
+		"2016Leave": 60.83
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.5, "value": 49400 },
 			"valid": 49241,
 			"invalid": 159,
-			"majority": 18646
+			"majority": 18646,
+			"candidates": [{
+				"name": "Priti Patel",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31670
+			},{
+				"name": "Phil Barlow",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13024
+			},{
+				"name": "Jo Hayes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2715
+			},{
+				"name": "James Abbott",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1832
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

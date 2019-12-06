@@ -1,6 +1,13 @@
 {
 	"id": "W07000049",
 	"title": "Aberavon",
+	"demographics": {
+		"leave": 59.97,
+		"withdegree": 8.29,
+		"age18-29": 14.82,
+		"2015UKIP": 15.77,
+		"2016Leave": 59.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 66.8, "value": 33325 },
 			"valid": 33268,
 			"invalid": 57,
-			"majority": 16761
+			"majority": 16761,
+			"candidates": [{
+				"name": "Stephen Kinnock",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22662
+			},{
+				"name": "Sadie Vidal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5901
+			},{
+				"name": "Andrew Bennison",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2761
+			},{
+				"name": "Caroline Jones",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1345
+			},{
+				"name": "Cen Phillips",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 599
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000660",
 	"title": "Daventry",
+	"demographics": {
+		"leave": 58.76,
+		"withdegree": 16.23,
+		"age18-29": 11.41,
+		"2015UKIP": 15.8,
+		"2016Leave": 58.76
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 74.1, "value": 55765 },
 			"valid": 55663,
 			"invalid": 102,
-			"majority": 21734
+			"majority": 21734,
+			"candidates": [{
+				"name": "Chris Heaton-Harris",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35464
+			},{
+				"name": "Aiden Ramsey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13730
+			},{
+				"name": "Andrew Simpson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4015
+			},{
+				"name": "Ian Gibbins",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1497
+			},{
+				"name": "Jamie Wildman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 957
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

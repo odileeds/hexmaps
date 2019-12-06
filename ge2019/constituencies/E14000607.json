@@ -1,6 +1,13 @@
 {
 	"id": "E14000607",
 	"title": "Broxtowe",
+	"demographics": {
+		"leave": 52.41,
+		"withdegree": 19.89,
+		"age18-29": 14.64,
+		"2015UKIP": 10.62,
+		"2016Leave": 52.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -53,7 +60,28 @@
 			"turnout": { "pc": 75.2, "value": 55628 },
 			"valid": 55508,
 			"invalid": 120,
-			"majority": 863
+			"majority": 863,
+			"candidates": [{
+				"name": "Anna Soubry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25983
+			},{
+				"name": "Greg Marshall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25120
+			},{
+				"name": "Tim Hallam",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2247
+			},{
+				"name": "Fran Loi",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1477
+			},{
+				"name": "Pat Morton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 681
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

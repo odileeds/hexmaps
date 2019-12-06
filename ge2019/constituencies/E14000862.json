@@ -1,6 +1,13 @@
 {
 	"id": "E14000862",
 	"title": "Northampton South",
+	"demographics": {
+		"leave": 59.61,
+		"withdegree": 13.57,
+		"age18-29": 19.4,
+		"2015UKIP": 18.3,
+		"2016Leave": 59.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 66.5, "value": 41105 },
 			"valid": 41034,
 			"invalid": 71,
-			"majority": 1159
+			"majority": 1159,
+			"candidates": [{
+				"name": "Andrew Lewer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19231
+			},{
+				"name": "Kevin McKeever",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18072
+			},{
+				"name": "Rose Gibbins",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1630
+			},{
+				"name": "Jill Hope",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1405
+			},{
+				"name": "Scott Mabbutt",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 696
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

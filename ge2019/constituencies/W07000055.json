@@ -1,6 +1,13 @@
 {
 	"id": "W07000055",
 	"title": "Newport East",
+	"demographics": {
+		"leave": 60.25,
+		"withdegree": 11.3,
+		"age18-29": 16.47,
+		"2015UKIP": 18.42,
+		"2016Leave": 60.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 64.5, "value": 36888 },
 			"valid": 36820,
 			"invalid": 68,
-			"majority": 8003
+			"majority": 8003,
+			"candidates": [{
+				"name": "Jessica Morden",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20804
+			},{
+				"name": "Natasha Asghar",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12801
+			},{
+				"name": "Ian Gorman",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1180
+			},{
+				"name": "Pete Brown",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 966
+			},{
+				"name": "Cameron Wixcey",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 881
+			},{
+				"name": "Nadeem Ahmed",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 188
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

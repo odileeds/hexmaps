@@ -1,6 +1,13 @@
 {
 	"id": "W07000071",
 	"title": "Merthyr Tydfil and Rhymney",
+	"demographics": {
+		"leave": 58.4,
+		"withdegree": 7.99,
+		"age18-29": 16.19,
+		"2015UKIP": 18.66,
+		"2016Leave": 58.4
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 60.6, "value": 33616 },
 			"valid": 33545,
 			"invalid": 71,
-			"majority": 16334
+			"majority": 16334,
+			"candidates": [{
+				"name": "Gerald Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22407
+			},{
+				"name": "Pauline Jorgensen",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6073
+			},{
+				"name": "Amy Kitcher",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2740
+			},{
+				"name": "David Rowlands",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1484
+			},{
+				"name": "Bob Griffin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 841
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

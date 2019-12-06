@@ -1,6 +1,13 @@
 {
 	"id": "W07000056",
 	"title": "Newport West",
+	"demographics": {
+		"leave": 53.01,
+		"withdegree": 15.64,
+		"age18-29": 15.17,
+		"2015UKIP": 15.2,
+		"2016Leave": 53.01
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -53,7 +60,32 @@
 			"turnout": { "pc": 67.6, "value": 43518 },
 			"valid": 43438,
 			"invalid": 80,
-			"majority": 5658
+			"majority": 5658,
+			"candidates": [{
+				"name": "Paul Flynn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22723
+			},{
+				"name": "Angela Jones-Evans",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17065
+			},{
+				"name": "Stan Edwards",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1100
+			},{
+				"name": "Morgan Bowler-Brown",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1077
+			},{
+				"name": "Sarah Lockyer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 976
+			},{
+				"name": "Pippa Bartolotti",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 497
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

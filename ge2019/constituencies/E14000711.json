@@ -1,6 +1,13 @@
 {
 	"id": "E14000711",
 	"title": "Gillingham and Rainham",
+	"demographics": {
+		"leave": 63.58,
+		"withdegree": 9.51,
+		"age18-29": 16.72,
+		"2015UKIP": 19.54,
+		"2016Leave": 63.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 67.2, "value": 48958 },
 			"valid": 48868,
 			"invalid": 90,
-			"majority": 9430
+			"majority": 9430,
+			"candidates": [{
+				"name": "Rehman Chishti",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27091
+			},{
+				"name": "Andy Stamp	",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17661
+			},{
+				"name": "Martin Anthony Cook",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2097
+			},{
+				"name": "Paul Chaplin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1372
+			},{
+				"name": "Clive Bryn Malcolm Gregory	",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 520
+			},{
+				"name": "Roger James Peacock	",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 127
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

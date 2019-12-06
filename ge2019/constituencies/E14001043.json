@@ -1,6 +1,13 @@
 {
 	"id": "E14001043",
 	"title": "Wirral South",
+	"demographics": {
+		"leave": 46.55,
+		"withdegree": 16.83,
+		"age18-29": 11.56,
+		"2015UKIP": 8.93,
+		"2016Leave": 46.55
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 78.5, "value": 45279 },
 			"valid": 45195,
 			"invalid": 84,
-			"majority": 8323
+			"majority": 8323,
+			"candidates": [{
+				"name": "Alison McGovern",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25871
+			},{
+				"name": "Adam  Sykes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17548
+			},{
+				"name": "Chris  Carubia",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1322
+			},{
+				"name": "Mandi  Roberts ",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 454
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

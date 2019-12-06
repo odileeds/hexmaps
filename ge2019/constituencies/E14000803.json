@@ -1,6 +1,13 @@
 {
 	"id": "E14000803",
 	"title": "Maidenhead",
+	"demographics": {
+		"leave": 45.41,
+		"withdegree": 27.46,
+		"age18-29": 11.91,
+		"2015UKIP": 8.43,
+		"2016Leave": 45.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,60 @@
 			"turnout": { "pc": 76.7, "value": 58347 },
 			"valid": 58239,
 			"invalid": 108,
-			"majority": 26457
+			"majority": 26457,
+			"candidates": [{
+				"name": "Theresa May",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37718
+			},{
+				"name": "Pat McDonald",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11261
+			},{
+				"name": "Tony  Hill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6540
+			},{
+				"name": "Derek Wall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 907
+			},{
+				"name": "Gerard Batten",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 871
+			},{
+				"name": "Andrew Knight",
+				"party": { "code": "Animal Welfare Party", "title": "Animal Welfare Party" },
+				"votes": 282
+			},{
+				"name": "Lord Buckethead",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 249
+			},{
+				"name": "Grant Smith",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 152
+			},{
+				"name": "Howling 'Laud' Hope",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 119
+			},{
+				"name": "Edmonds Victor",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 69
+			},{
+				"name": "Julian Reid",
+				"party": { "code": "The Just Political Party", "title": "The Just Political Party" },
+				"votes": 52
+			},{
+				"name": "Yemi Hailemariam",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 16
+			},{
+				"name": "Bobby Smith",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 3
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

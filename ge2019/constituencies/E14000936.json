@@ -1,6 +1,13 @@
 {
 	"id": "E14000936",
 	"title": "South Dorset",
+	"demographics": {
+		"leave": 59.49,
+		"withdegree": 11.28,
+		"age18-29": 12.96,
+		"2015UKIP": 15.03,
+		"2016Leave": 59.49
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 68.8, "value": 52009 },
 			"valid": 51906,
 			"invalid": 103,
-			"majority": 11695
+			"majority": 11695,
+			"candidates": [{
+				"name": "Richard Drax",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29135
+			},{
+				"name": "Tashi Warr",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17440
+			},{
+				"name": "Howard Legg",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3053
+			},{
+				"name": "Jon Orrell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2278
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

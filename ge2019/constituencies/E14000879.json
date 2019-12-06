@@ -1,6 +1,13 @@
 {
 	"id": "E14000879",
 	"title": "Plymouth, Moor View",
+	"demographics": {
+		"leave": 66.44,
+		"withdegree": 6.88,
+		"age18-29": 14.95,
+		"2015UKIP": 21.48,
+		"2016Leave": 66.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 65.6, "value": 45487 },
 			"valid": 45417,
 			"invalid": 70,
-			"majority": 5019
+			"majority": 5019,
+			"candidates": [{
+				"name": "Johnny Mercer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23567
+			},{
+				"name": "Sue Dann",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18548
+			},{
+				"name": "Wendy Noble",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1849
+			},{
+				"name": "Graham Reed",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 917
+			},{
+				"name": "Joshua Pope",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 536
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

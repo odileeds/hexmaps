@@ -1,6 +1,13 @@
 {
 	"id": "E14000585",
 	"title": "Bournemouth West",
+	"demographics": {
+		"leave": 57.9,
+		"withdegree": 13.9,
+		"age18-29": 23.29,
+		"2015UKIP": 18.54,
+		"2016Leave": 57.9
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 61.0, "value": 44654 },
 			"valid": 44507,
 			"invalid": 147,
-			"majority": 7711
+			"majority": 7711,
+			"candidates": [{
+				"name": "Conor Burns",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23812
+			},{
+				"name": "David Stokes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16101
+			},{
+				"name": "Phil Dunn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2929
+			},{
+				"name": "Simon Bull",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1247
+			},{
+				"name": "Jason Halsey",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 418
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000969",
 	"title": "Stockport",
+	"demographics": {
+		"leave": 46.79,
+		"withdegree": 18.34,
+		"age18-29": 15.55,
+		"2015UKIP": 13.13,
+		"2016Leave": 46.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 64.8, "value": 41641 },
 			"valid": 41544,
 			"invalid": 97,
-			"majority": 14477
+			"majority": 14477,
+			"candidates": [{
+				"name": "Ann Coffey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26282
+			},{
+				"name": "Daniel Hamilton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11805
+			},{
+				"name": "Daniel Hawthorne",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1778
+			},{
+				"name": "John Kelly",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1088
+			},{
+				"name": "Gary Lawson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 591
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

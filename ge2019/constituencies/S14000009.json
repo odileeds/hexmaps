@@ -1,6 +1,13 @@
 {
 	"id": "S14000009",
 	"title": "Caithness, Sutherland and Easter Ross",
+	"demographics": {
+		"leave": 49.44,
+		"withdegree": ,
+		"age18-29": 12.06,
+		"2015UKIP": 2.87,
+		"2016Leave": 49.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 66.0, "value": 30936 },
 			"valid": 30901,
 			"invalid": 35,
-			"majority": 2044
+			"majority": 2044,
+			"candidates": [{
+				"name": "Jamie Stone",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11061
+			},{
+				"name": "Paul Monaghan",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 9017
+			},{
+				"name": "Struan Mackie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6990
+			},{
+				"name": "Olivia Bell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 3833
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

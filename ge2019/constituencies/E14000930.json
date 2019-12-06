@@ -1,6 +1,13 @@
 {
 	"id": "E14000930",
 	"title": "Slough",
+	"demographics": {
+		"leave": 54.1,
+		"withdegree": 17.91,
+		"age18-29": 18.58,
+		"2015UKIP": 13,
+		"2016Leave": 54.1
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 65.4, "value": 54463 },
 			"valid": 54295,
 			"invalid": 168,
-			"majority": 16998
+			"majority": 16998,
+			"candidates": [{
+				"name": "Tan Dhesi",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34170
+			},{
+				"name": "Mark Vivis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17172
+			},{
+				"name": "Tom McCann",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1308
+			},{
+				"name": "Karen  Perez",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1228
+			},{
+				"name": "Paul Janik",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 417
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

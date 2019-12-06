@@ -1,6 +1,13 @@
 {
 	"id": "E14000834",
 	"title": "Newcastle-under-Lyme",
+	"demographics": {
+		"leave": 61.67,
+		"withdegree": 12.99,
+		"age18-29": 18.47,
+		"2015UKIP": 16.87,
+		"2016Leave": 61.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 67.1, "value": 44014 },
 			"valid": 43842,
 			"invalid": 172,
-			"majority": 30
+			"majority": 30,
+			"candidates": [{
+				"name": "Paul Farrelly",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21124
+			},{
+				"name": "Owen Meredith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21094
+			},{
+				"name": "Nigel Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1624
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

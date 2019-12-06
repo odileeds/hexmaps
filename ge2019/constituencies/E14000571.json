@@ -1,6 +1,13 @@
 {
 	"id": "E14000571",
 	"title": "Blackley and Broughton",
+	"demographics": {
+		"leave": 51.33,
+		"withdegree": 13.6,
+		"age18-29": 19.92,
+		"2015UKIP": 16.46,
+		"2016Leave": 51.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 56.1, "value": 40214 },
 			"valid": 40113,
 			"invalid": 101,
-			"majority": 19601
+			"majority": 19601,
+			"candidates": [{
+				"name": "Graham Stringer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28258
+			},{
+				"name": "David Goss",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8657
+			},{
+				"name": "Martin Power",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1825
+			},{
+				"name": "Charles Gadsden",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 737
+			},{
+				"name": "David Jones",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 462
+			},{
+				"name": "Abi Ajoku",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 174
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

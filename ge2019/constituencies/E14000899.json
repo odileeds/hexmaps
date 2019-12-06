@@ -1,6 +1,13 @@
 {
 	"id": "E14000899",
 	"title": "Rochford and Southend East",
+	"demographics": {
+		"leave": 60.46,
+		"withdegree": 9.89,
+		"age18-29": 15.4,
+		"2015UKIP": 20.52,
+		"2016Leave": 60.46
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 64.4, "value": 47323 },
 			"valid": 47248,
 			"invalid": 75,
-			"majority": 5548
+			"majority": 5548,
+			"candidates": [{
+				"name": "James Duddridge",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23013
+			},{
+				"name": "Ashley Dalton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17465
+			},{
+				"name": "Ron Woodley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2924
+			},{
+				"name": "Neil Hookway",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1777
+			},{
+				"name": "Peter Gwizdala",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1265
+			},{
+				"name": "Simon Cross",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 804
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000841",
 	"title": "North East Bedfordshire",
+	"demographics": {
+		"leave": 53.29,
+		"withdegree": 17.33,
+		"age18-29": 11.72,
+		"2015UKIP": 14.62,
+		"2016Leave": 53.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 73.5, "value": 64354 },
 			"valid": 64220,
 			"invalid": 134,
-			"majority": 20862
+			"majority": 20862,
+			"candidates": [{
+				"name": "Alistair Burt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 39139
+			},{
+				"name": "Julian Vaughan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18277
+			},{
+				"name": "Stephen Rutherford",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3693
+			},{
+				"name": "Duncan Strachan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1896
+			},{
+				"name": "Philippa Fleming",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1215
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

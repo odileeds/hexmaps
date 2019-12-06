@@ -1,6 +1,13 @@
 {
 	"id": "S14000020",
 	"title": "East Lothian",
+	"demographics": {
+		"leave": 35.4,
+		"withdegree": ,
+		"age18-29": 12.75,
+		"2015UKIP": 2,
+		"2016Leave": 35.4
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 70.7, "value": 55935 },
 			"valid": 55878,
 			"invalid": 57,
-			"majority": 3083
+			"majority": 3083,
+			"candidates": [{
+				"name": "Martin Whitfield",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20158
+			},{
+				"name": "George Kerevan",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17075
+			},{
+				"name": "Sheila Low",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16540
+			},{
+				"name": "Elisabeth Wilson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1738
+			},{
+				"name": "Mike Allan",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 367
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

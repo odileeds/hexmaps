@@ -1,6 +1,13 @@
 {
 	"id": "E14000653",
 	"title": "Crewe and Nantwich",
+	"demographics": {
+		"leave": 59,
+		"withdegree": 13.23,
+		"age18-29": 15.71,
+		"2015UKIP": 14.53,
+		"2016Leave": 59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 69.9, "value": 55128 },
 			"valid": 55027,
 			"invalid": 101,
-			"majority": 48
+			"majority": 48,
+			"candidates": [{
+				"name": "Laura Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25928
+			},{
+				"name": "Edward Timpson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25880
+			},{
+				"name": "Michael Stanley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1885
+			},{
+				"name": "David  Crowther",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1334
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

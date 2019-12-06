@@ -1,6 +1,13 @@
 {
 	"id": "E14000822",
 	"title": "Milton Keynes South",
+	"demographics": {
+		"leave": 52.96,
+		"withdegree": 17.11,
+		"age18-29": 14.67,
+		"2015UKIP": 13.24,
+		"2016Leave": 52.96
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 70.0, "value": 64668 },
 			"valid": 64546,
 			"invalid": 122,
-			"majority": 1665
+			"majority": 1665,
+			"candidates": [{
+				"name": "Iain Stewart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30652
+			},{
+				"name": "Hannah O'Neill",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28987
+			},{
+				"name": "Tahir Maher",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1895
+			},{
+				"name": "Vince Peddle",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1833
+			},{
+				"name": "Graham  Findlay",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1179
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

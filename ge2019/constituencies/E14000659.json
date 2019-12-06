@@ -1,6 +1,13 @@
 {
 	"id": "E14000659",
 	"title": "Dartford",
+	"demographics": {
+		"leave": 64.04,
+		"withdegree": 11.94,
+		"age18-29": 15.53,
+		"2015UKIP": 19.91,
+		"2016Leave": 64.04
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 69.2, "value": 54341 },
 			"valid": 54224,
 			"invalid": 117,
-			"majority": 13186
+			"majority": 13186,
+			"candidates": [{
+				"name": "Gareth Johnson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31210
+			},{
+				"name": "Bachchu  Kaini",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18024
+			},{
+				"name": "Ben Fryer",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2544
+			},{
+				"name": "Simon Beard",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1428
+			},{
+				"name": "Andrew Blatchford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 807
+			},{
+				"name": "Ola  Adewunmi",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 211
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

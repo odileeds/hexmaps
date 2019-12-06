@@ -1,6 +1,13 @@
 {
 	"id": "E14000666",
 	"title": "Dewsbury",
+	"demographics": {
+		"leave": 57.27,
+		"withdegree": 13.04,
+		"age18-29": 15.35,
+		"2015UKIP": 12.4,
+		"2016Leave": 57.27
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 69.7, "value": 56700 },
 			"valid": 56545,
 			"invalid": 155,
-			"majority": 3321
+			"majority": 3321,
+			"candidates": [{
+				"name": "Paula Sherriff",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28814
+			},{
+				"name": "Beth Prescott",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25493
+			},{
+				"name": "Ednan Hussain",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1214
+			},{
+				"name": "Simon Cope",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1024
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

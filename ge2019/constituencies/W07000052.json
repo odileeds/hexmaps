@@ -1,6 +1,13 @@
 {
 	"id": "W07000052",
 	"title": "Rhondda",
+	"demographics": {
+		"leave": 61.24,
+		"withdegree": 6.72,
+		"age18-29": 15.49,
+		"2015UKIP": 12.68,
+		"2016Leave": 61.24
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 65.3, "value": 32996 },
 			"valid": 32936,
 			"invalid": 60,
-			"majority": 13746
+			"majority": 13746,
+			"candidates": [{
+				"name": "Chris Bryant",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21096
+			},{
+				"name": "Branwen Cennard",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 7350
+			},{
+				"name": "Virginia Crosbie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 3333
+			},{
+				"name": "Janet Kenrick",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 880
+			},{
+				"name": "Karen Roberts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 277
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000713",
 	"title": "Gosport",
+	"demographics": {
+		"leave": 61.97,
+		"withdegree": 10.19,
+		"age18-29": 14.1,
+		"2015UKIP": 19.44,
+		"2016Leave": 61.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 66.8, "value": 49509 },
 			"valid": 49481,
 			"invalid": 28,
-			"majority": 17211
+			"majority": 17211,
+			"candidates": [{
+				"name": "Caroline Dinenage",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30647
+			},{
+				"name": "Alan  Durrant",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13436
+			},{
+				"name": "Bruce  Tennant",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2328
+			},{
+				"name": "Chloe Marie Palmer",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1790
+			},{
+				"name": "Monica Cassidy",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1024
+			},{
+				"name": "Jeffrey Roberts",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 256
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

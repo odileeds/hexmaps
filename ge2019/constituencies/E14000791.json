@@ -1,6 +1,13 @@
 {
 	"id": "E14000791",
 	"title": "Lichfield",
+	"demographics": {
+		"leave": 57.57,
+		"withdegree": 16.62,
+		"age18-29": 11.6,
+		"2015UKIP": 15.7,
+		"2016Leave": 57.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 72.1, "value": 53671 },
 			"valid": 53524,
 			"invalid": 147,
-			"majority": 18581
+			"majority": 18581,
+			"candidates": [{
+				"name": "Michael Fabricant",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34018
+			},{
+				"name": "Chris Worsey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15437
+			},{
+				"name": "Paul Ray",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2653
+			},{
+				"name": "Robert Pass",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1416
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

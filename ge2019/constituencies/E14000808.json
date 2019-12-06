@@ -1,6 +1,13 @@
 {
 	"id": "E14000808",
 	"title": "Manchester, Gorton",
+	"demographics": {
+		"leave": 37.9,
+		"withdegree": 20.85,
+		"age18-29": 30.2,
+		"2015UKIP": 8.17,
+		"2016Leave": 37.9
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,44 @@
 			"turnout": { "pc": 61.2, "value": 46098 },
 			"valid": 45953,
 			"invalid": 145,
-			"majority": 31730
+			"majority": 31730,
+			"candidates": [{
+				"name": "Afzal Khan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35085
+			},{
+				"name": "Shaden Jaradat",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 3355
+			},{
+				"name": "George Galloway",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2615
+			},{
+				"name": "Jackie Pearcey",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2597
+			},{
+				"name": "Jess Mayo",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1038
+			},{
+				"name": "Phil Eckersley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 952
+			},{
+				"name": "Kemi Abidogun",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 233
+			},{
+				"name": "David Hopkins",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 51
+			},{
+				"name": "Peter Clifford",
+				"party": { "code": "Comm Leagu", "title": "Communist League Election Campaign" },
+				"votes": 27
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

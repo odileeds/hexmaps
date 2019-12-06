@@ -1,6 +1,13 @@
 {
 	"id": "E14000910",
 	"title": "Saffron Walden",
+	"demographics": {
+		"leave": 50.92,
+		"withdegree": 19.06,
+		"age18-29": 11.4,
+		"2015UKIP": 13.78,
+		"2016Leave": 50.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.6, "value": 61108 },
 			"valid": 60911,
 			"invalid": 197,
-			"majority": 24966
+			"majority": 24966,
+			"candidates": [{
+				"name": "Kemi Badenoch",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37629
+			},{
+				"name": "Jane Berney",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12663
+			},{
+				"name": "Mike Hibbs",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8528
+			},{
+				"name": "Lorna Howe",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2091
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

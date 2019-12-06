@@ -1,6 +1,13 @@
 {
 	"id": "S14000019",
 	"title": "East Kilbride, Strathaven and Lesmahagow",
+	"demographics": {
+		"leave": 38,
+		"withdegree": ,
+		"age18-29": 13.73,
+		"2015UKIP": 2.02,
+		"2016Leave": 38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 67.4, "value": 54183 },
 			"valid": 54102,
 			"invalid": 81,
-			"majority": 3866
+			"majority": 3866,
+			"candidates": [{
+				"name": "Lisa Cameron",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 21023
+			},{
+				"name": "Monique McAdams",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17157
+			},{
+				"name": "Mark McGeever",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13704
+			},{
+				"name": "Paul McGarry",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1590
+			},{
+				"name": "Janice MacKay",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 628
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000029",
 	"title": "Glasgow Central",
+	"demographics": {
+		"leave": 28.75,
+		"withdegree": ,
+		"age18-29": 34.5,
+		"2015UKIP": 2,
+		"2016Leave": 28.75
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 56.1, "value": 36098 },
 			"valid": 35984,
 			"invalid": 114,
-			"majority": 2267
+			"majority": 2267,
+			"candidates": [{
+				"name": "Alison Thewliss",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16096
+			},{
+				"name": "Faten Hameed",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13829
+			},{
+				"name": "Charlotte Fairbanks",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5014
+			},{
+				"name": "Isabel Nelson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1045
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

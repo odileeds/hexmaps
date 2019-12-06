@@ -1,6 +1,13 @@
 {
 	"id": "S14000002",
 	"title": "Aberdeen South",
+	"demographics": {
+		"leave": 32.33,
+		"withdegree": ,
+		"age18-29": 21.04,
+		"2015UKIP": 1.85,
+		"2016Leave": 32.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 68.6, "value": 44556 },
 			"valid": 44493,
 			"invalid": 63,
-			"majority": 4752
+			"majority": 4752,
+			"candidates": [{
+				"name": "Ross Thomson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18746
+			},{
+				"name": "Callum McCaig",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 13994
+			},{
+				"name": "Callum O'Dwyer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9143
+			},{
+				"name": "Jenny Wilson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2610
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

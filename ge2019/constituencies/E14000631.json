@@ -1,6 +1,13 @@
 {
 	"id": "E14000631",
 	"title": "Chesham and Amersham",
+	"demographics": {
+		"leave": 44.98,
+		"withdegree": 27.85,
+		"age18-29": 9.88,
+		"2015UKIP": 13.69,
+		"2016Leave": 44.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 77.3, "value": 55388 },
 			"valid": 55252,
 			"invalid": 136,
-			"majority": 22140
+			"majority": 22140,
+			"candidates": [{
+				"name": "Cheryl Gillan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33514
+			},{
+				"name": "Nina  Dluzewska",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11374
+			},{
+				"name": "Peter  Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7179
+			},{
+				"name": "Alan  Booth",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1660
+			},{
+				"name": "David Meacock",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1525
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

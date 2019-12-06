@@ -1,6 +1,13 @@
 {
 	"id": "E14000924",
 	"title": "Sherwood",
+	"demographics": {
+		"leave": 63.76,
+		"withdegree": 10.18,
+		"age18-29": 12.93,
+		"2015UKIP": 14.59,
+		"2016Leave": 63.76
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 70.2, "value": 53462 },
 			"valid": 53364,
 			"invalid": 98,
-			"majority": 5198
+			"majority": 5198,
+			"candidates": [{
+				"name": "Mark Spencer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27492
+			},{
+				"name": "Mike Pringle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22294
+			},{
+				"name": "Stuart Bestwick",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1801
+			},{
+				"name": "Becky Thomas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1113
+			},{
+				"name": "Mo Findley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 664
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

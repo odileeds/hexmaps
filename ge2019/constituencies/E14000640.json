@@ -1,6 +1,13 @@
 {
 	"id": "E14000640",
 	"title": "City of Chester",
+	"demographics": {
+		"leave": 42.71,
+		"withdegree": 23.02,
+		"age18-29": 18.49,
+		"2015UKIP": 8.11,
+		"2016Leave": 42.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 77.6, "value": 56565 },
 			"valid": 56421,
 			"invalid": 144,
-			"majority": 9176
+			"majority": 9176,
+			"candidates": [{
+				"name": "Christian Matheson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32023
+			},{
+				"name": "Will Gallagher",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22847
+			},{
+				"name": "Lizzie Jewkes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1551
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

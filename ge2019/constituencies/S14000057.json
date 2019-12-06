@@ -1,6 +1,13 @@
 {
 	"id": "S14000057",
 	"title": "Stirling",
+	"demographics": {
+		"leave": 32.2,
+		"withdegree": ,
+		"age18-29": 16.97,
+		"2015UKIP": ,
+		"2016Leave": 32.2
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 74.4, "value": 49428 },
 			"valid": 49356,
 			"invalid": 72,
-			"majority": 148
+			"majority": 148,
+			"candidates": [{
+				"name": "Stephen Kerr",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18291
+			},{
+				"name": "Steven Paterson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18143
+			},{
+				"name": "Chris  Kane",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10902
+			},{
+				"name": "Wendy  Chamberlain",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1683
+			},{
+				"name": "Kirstein Rummery",
+				"party": { "code": "WEP", "title": "Women's Equality Party" },
+				"votes": 337
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

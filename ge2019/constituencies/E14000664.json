@@ -1,6 +1,13 @@
 {
 	"id": "E14000664",
 	"title": "Derbyshire Dales",
+	"demographics": {
+		"leave": 51.29,
+		"withdegree": 20.87,
+		"age18-29": 9.83,
+		"2015UKIP": 11.63,
+		"2016Leave": 51.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 77.2, "value": 49722 },
 			"valid": 49571,
 			"invalid": 151,
-			"majority": 14327
+			"majority": 14327,
+			"candidates": [{
+				"name": "Patrick McLoughlin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29744
+			},{
+				"name": "Andy Botham",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15417
+			},{
+				"name": "Andrew Hollyer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3126
+			},{
+				"name": "Matthew Buckler",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1002
+			},{
+				"name": "Robin Greenwood",
+				"party": { "code": "Humanity", "title": "Humanity Party" },
+				"votes": 282
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000559",
 	"title": "Birkenhead",
+	"demographics": {
+		"leave": 51.71,
+		"withdegree": 10.87,
+		"age18-29": 15.69,
+		"2015UKIP": 9.8,
+		"2016Leave": 51.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,24 @@
 			"turnout": { "pc": 67.9, "value": 43771 },
 			"valid": 43663,
 			"invalid": 108,
-			"majority": 25514
+			"majority": 25514,
+			"candidates": [{
+				"name": "Frank Field",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33558
+			},{
+				"name": "Stewart Gardiner",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8044
+			},{
+				"name": "Allan Brame",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1118
+			},{
+				"name": "Jayne Clough",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 943
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

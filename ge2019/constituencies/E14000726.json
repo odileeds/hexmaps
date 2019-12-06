@@ -1,6 +1,13 @@
 {
 	"id": "E14000726",
 	"title": "Hammersmith",
+	"demographics": {
+		"leave": 31.04,
+		"withdegree": 40.99,
+		"age18-29": 25.66,
+		"2015UKIP": 4.39,
+		"2016Leave": 31.04
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 72.0, "value": 52383 },
 			"valid": 52252,
 			"invalid": 131,
-			"majority": 18651
+			"majority": 18651,
+			"candidates": [{
+				"name": "Andy Slaughter",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33375
+			},{
+				"name": "Charlie Dewhirst",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14724
+			},{
+				"name": "Joyce Onstad",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2802
+			},{
+				"name": "Alex Horn",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 800
+			},{
+				"name": "Jack Bovill",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 507
+			},{
+				"name": "Jagdeosingh Hauzaree",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 44
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

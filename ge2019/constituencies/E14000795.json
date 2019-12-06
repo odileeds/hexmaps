@@ -1,6 +1,13 @@
 {
 	"id": "E14000795",
 	"title": "Liverpool, Wavertree",
+	"demographics": {
+		"leave": 35.85,
+		"withdegree": 18.56,
+		"age18-29": 22.47,
+		"2015UKIP": 8.24,
+		"2016Leave": 35.85
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,28 @@
 			"turnout": { "pc": 70.1, "value": 43759 },
 			"valid": 43640,
 			"invalid": 119,
-			"majority": 29466
+			"majority": 29466,
+			"candidates": [{
+				"name": "Luciana Berger",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 34717
+			},{
+				"name": "Denise Haddad",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5251
+			},{
+				"name": "Richard Kemp",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2858
+			},{
+				"name": "Ted Grant",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 598
+			},{
+				"name": "Adam Heatherington",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 216
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

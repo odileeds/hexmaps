@@ -1,6 +1,13 @@
 {
 	"id": "S14000024",
 	"title": "Edinburgh South",
+	"demographics": {
+		"leave": 22.15,
+		"withdegree": ,
+		"age18-29": 22.31,
+		"2015UKIP": 1.22,
+		"2016Leave": 22.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.2, "value": 47913 },
 			"valid": 47840,
 			"invalid": 73,
-			"majority": 15514
+			"majority": 15514,
+			"candidates": [{
+				"name": "Ian Murray",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26269
+			},{
+				"name": "Jim  Eadie",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 10755
+			},{
+				"name": "Stephanie Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9428
+			},{
+				"name": "Alan Beal",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1388
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

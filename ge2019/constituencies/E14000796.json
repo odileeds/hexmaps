@@ -1,6 +1,13 @@
 {
 	"id": "E14000796",
 	"title": "Liverpool, West Derby",
+	"demographics": {
+		"leave": 50.28,
+		"withdegree": 9.31,
+		"age18-29": 16.37,
+		"2015UKIP": 8.47,
+		"2016Leave": 50.28
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 69.5, "value": 45275 },
 			"valid": 45163,
 			"invalid": 112,
-			"majority": 32908
+			"majority": 32908,
+			"candidates": [{
+				"name": "Stephen Twigg",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 37371
+			},{
+				"name": "Paul Richardson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4463
+			},{
+				"name": "Steve Radford",
+				"party": { "code": "Lib", "title": "Liberal" },
+				"votes": 2150
+			},{
+				"name": "Paul Parr",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 545
+			},{
+				"name": "Will Ward",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 329
+			},{
+				"name": "Graham Hughes",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 305
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000895",
 	"title": "Richmond (Yorks)",
+	"demographics": {
+		"leave": 54.7,
+		"withdegree": 16.13,
+		"age18-29": 15.06,
+		"2015UKIP": 15.17,
+		"2016Leave": 54.7
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 70.6, "value": 57148 },
 			"valid": 57013,
 			"invalid": 135,
-			"majority": 23108
+			"majority": 23108,
+			"candidates": [{
+				"name": "Rishi Sunak",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36458
+			},{
+				"name": "Dan Perry",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13350
+			},{
+				"name": "Tobie Abel",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3360
+			},{
+				"name": "Chris Pearson",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 2106
+			},{
+				"name": "Fiona Yorke",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1739
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

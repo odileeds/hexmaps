@@ -1,6 +1,13 @@
 {
 	"id": "E14000731",
 	"title": "Harrow East",
+	"demographics": {
+		"leave": 47.48,
+		"withdegree": 23.56,
+		"age18-29": 17.65,
+		"2015UKIP": 4.76,
+		"2016Leave": 47.48
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 71.1, "value": 50987 },
 			"valid": 50845,
 			"invalid": 142,
-			"majority": 1757
+			"majority": 1757,
+			"candidates": [{
+				"name": "Bob Blackman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25129
+			},{
+				"name": "Navin Shah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23372
+			},{
+				"name": "Adam Bernard",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1573
+			},{
+				"name": "Emma Wallace",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 771
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

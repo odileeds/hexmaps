@@ -1,6 +1,13 @@
 {
 	"id": "E14000595",
 	"title": "Bridgwater and West Somerset",
+	"demographics": {
+		"leave": 62.19,
+		"withdegree": 10.13,
+		"age18-29": 13,
+		"2015UKIP": 19.17,
+		"2016Leave": 62.19
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 65.4, "value": 58398 },
 			"valid": 58267,
 			"invalid": 131,
-			"majority": 15448
+			"majority": 15448,
+			"candidates": [{
+				"name": "Ian Liddell-Grainger",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32111
+			},{
+				"name": "Wes Hinckes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16663
+			},{
+				"name": "Marcus Kravis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6332
+			},{
+				"name": "Simon Smedley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2102
+			},{
+				"name": "Kay Powell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1059
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

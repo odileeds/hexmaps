@@ -1,6 +1,13 @@
 {
 	"id": "E14000909",
 	"title": "Rutland and Melton",
+	"demographics": {
+		"leave": 53.96,
+		"withdegree": 17.38,
+		"age18-29": 11.75,
+		"2015UKIP": 15.89,
+		"2016Leave": 53.96
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 73.6, "value": 57710 },
 			"valid": 57569,
 			"invalid": 141,
-			"majority": 23104
+			"majority": 23104,
+			"candidates": [{
+				"name": "Alan Duncan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36169
+			},{
+				"name": "Heather Peto",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13065
+			},{
+				"name": "Ed Reynolds",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4711
+			},{
+				"name": "John Scutter",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1869
+			},{
+				"name": "Alastair McQuillan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1755
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

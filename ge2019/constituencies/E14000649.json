@@ -1,6 +1,13 @@
 {
 	"id": "E14000649",
 	"title": "Coventry North East",
+	"demographics": {
+		"leave": 59.23,
+		"withdegree": 11.91,
+		"age18-29": 18.61,
+		"2015UKIP": 14.87,
+		"2016Leave": 59.23
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 61.6, "value": 46636 },
 			"valid": 46508,
 			"invalid": 128,
-			"majority": 15580
+			"majority": 15580,
+			"candidates": [{
+				"name": "Colleen Fletcher",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29499
+			},{
+				"name": "Timothy Mayer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13919
+			},{
+				"name": "Avtar Taggar",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1350
+			},{
+				"name": "Russell Field",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1157
+			},{
+				"name": "Matthew Handley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 502
+			},{
+				"name": "Afzal Mahmood",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 81
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

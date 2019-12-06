@@ -1,6 +1,13 @@
 {
 	"id": "E14000592",
 	"title": "Brent North",
+	"demographics": {
+		"leave": 43.09,
+		"withdegree": 24.72,
+		"age18-29": 21.13,
+		"2015UKIP": 3.87,
+		"2016Leave": 43.09
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 68.6, "value": 56647 },
 			"valid": 56444,
 			"invalid": 203,
-			"majority": 17061
+			"majority": 17061,
+			"candidates": [{
+				"name": "Barry Gardiner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35496
+			},{
+				"name": "Ameet Jogia",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18435
+			},{
+				"name": "Paul Lorber",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1614
+			},{
+				"name": "Michaela Lichten",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 660
+			},{
+				"name": "Elcena Jeffers",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 239
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000984",
 	"title": "Sutton and Cheam",
+	"demographics": {
+		"leave": 51.27,
+		"withdegree": 21.55,
+		"age18-29": 14.26,
+		"2015UKIP": 10.7,
+		"2016Leave": 51.27
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 74.0, "value": 52093 },
 			"valid": 51970,
 			"invalid": 123,
-			"majority": 12698
+			"majority": 12698,
+			"candidates": [{
+				"name": "Paul Scully",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26567
+			},{
+				"name": "Amna Ahmad",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13869
+			},{
+				"name": "Bonnie Craven",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10663
+			},{
+				"name": "Claire Jackson-Prior",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 871
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

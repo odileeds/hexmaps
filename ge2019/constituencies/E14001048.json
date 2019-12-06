@@ -1,6 +1,13 @@
 {
 	"id": "E14001048",
 	"title": "Wokingham",
+	"demographics": {
+		"leave": 42.47,
+		"withdegree": 27.79,
+		"age18-29": 12.57,
+		"2015UKIP": 9.85,
+		"2016Leave": 42.47
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 75.7, "value": 59889 },
 			"valid": 59690,
 			"invalid": 199,
-			"majority": 18798
+			"majority": 18798,
+			"candidates": [{
+				"name": "John Redwood",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33806
+			},{
+				"name": "Andy Croy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15008
+			},{
+				"name": "Clive Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9512
+			},{
+				"name": "Russell Seymour",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1364
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

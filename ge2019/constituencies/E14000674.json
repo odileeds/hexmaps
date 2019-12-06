@@ -1,6 +1,13 @@
 {
 	"id": "E14000674",
 	"title": "Ealing Central and Acton",
+	"demographics": {
+		"leave": 29.15,
+		"withdegree": 40.14,
+		"age18-29": 20.56,
+		"2015UKIP": 3.78,
+		"2016Leave": 29.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 74.8, "value": 55533 },
 			"valid": 55342,
 			"invalid": 191,
-			"majority": 13807
+			"majority": 13807,
+			"candidates": [{
+				"name": "Rupa Huq",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33037
+			},{
+				"name": "Joy Morrissey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19230
+			},{
+				"name": "Jon Ball",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3075
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

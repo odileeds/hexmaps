@@ -1,6 +1,13 @@
 {
 	"id": "E14001055",
 	"title": "Worthing West",
+	"demographics": {
+		"leave": 56.12,
+		"withdegree": 12.25,
+		"age18-29": 11.84,
+		"2015UKIP": 18.26,
+		"2016Leave": 56.12
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 70.2, "value": 54614 },
 			"valid": 54503,
 			"invalid": 111,
-			"majority": 12090
+			"majority": 12090,
+			"candidates": [{
+				"name": "Peter Bottomley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30181
+			},{
+				"name": "Beccy Cooper",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18091
+			},{
+				"name": "Hazel Thorpe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2982
+			},{
+				"name": "Mark Withers",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1635
+			},{
+				"name": "Benjamin  Cornish",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1614
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

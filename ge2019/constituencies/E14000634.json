@@ -1,6 +1,13 @@
 {
 	"id": "E14000634",
 	"title": "Chingford and Woodford Green",
+	"demographics": {
+		"leave": 49.21,
+		"withdegree": 19.86,
+		"age18-29": 15.15,
+		"2015UKIP": 12.88,
+		"2016Leave": 49.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 71.5, "value": 47131 },
 			"valid": 46961,
 			"invalid": 170,
-			"majority": 2438
+			"majority": 2438,
+			"candidates": [{
+				"name": "Iain Duncan Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23076
+			},{
+				"name": "Bilal Mahmood",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20638
+			},{
+				"name": "Deborah Unger",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2043
+			},{
+				"name": "Sinead King",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1204
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

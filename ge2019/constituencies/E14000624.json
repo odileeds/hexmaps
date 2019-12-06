@@ -1,6 +1,13 @@
 {
 	"id": "E14000624",
 	"title": "Central Suffolk and North Ipswich",
+	"demographics": {
+		"leave": 54.49,
+		"withdegree": 14.44,
+		"age18-29": 10.83,
+		"2015UKIP": 13.79,
+		"2016Leave": 54.49
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.5, "value": 56637 },
 			"valid": 56524,
 			"invalid": 113,
-			"majority": 17185
+			"majority": 17185,
+			"candidates": [{
+				"name": "Dan Poulter",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33992
+			},{
+				"name": "Elizabeth Hughes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16807
+			},{
+				"name": "Aidan Van de Weyer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2431
+			},{
+				"name": "Regan Scott",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1659
+			},{
+				"name": "Stephen Searle",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1635
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

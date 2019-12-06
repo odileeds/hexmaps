@@ -1,6 +1,13 @@
 {
 	"id": "E14000710",
 	"title": "Gedling",
+	"demographics": {
+		"leave": 56.2,
+		"withdegree": 13.99,
+		"age18-29": 13.58,
+		"2015UKIP": 14.44,
+		"2016Leave": 56.2
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 72.7, "value": 51765 },
 			"valid": 51682,
 			"invalid": 83,
-			"majority": 4694
+			"majority": 4694,
+			"candidates": [{
+				"name": "Vernon Coaker",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26833
+			},{
+				"name": "Carolyn Abbott",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22139
+			},{
+				"name": "Lee  Waters",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1143
+			},{
+				"name": "Robert  Swift",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1052
+			},{
+				"name": "Rebecca  Connick",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 515
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000970",
 	"title": "Stockton North",
+	"demographics": {
+		"leave": 66.5,
+		"withdegree": 9.28,
+		"age18-29": 16.38,
+		"2015UKIP": 19.16,
+		"2016Leave": 66.5
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 64.6, "value": 42805 },
 			"valid": 42731,
 			"invalid": 74,
-			"majority": 8715
+			"majority": 8715,
+			"candidates": [{
+				"name": "Alex Cunningham",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24304
+			},{
+				"name": "Mark Fletcher",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15589
+			},{
+				"name": "Ted Strike",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1834
+			},{
+				"name": "Sarah Brown",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 646
+			},{
+				"name": "Emma Robson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 358
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

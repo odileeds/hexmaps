@@ -1,6 +1,13 @@
 {
 	"id": "E14000581",
 	"title": "Bootle",
+	"demographics": {
+		"leave": 54.88,
+		"withdegree": 9.01,
+		"age18-29": 16.18,
+		"2015UKIP": 10.89,
+		"2016Leave": 54.88
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 69.2, "value": 50451 },
 			"valid": 50288,
 			"invalid": 163,
-			"majority": 36200
+			"majority": 36200,
+			"candidates": [{
+				"name": "Peter Dowd",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42259
+			},{
+				"name": "Charles Fifield",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6059
+			},{
+				"name": "David Newman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 837
+			},{
+				"name": "Alison Gibbon",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 709
+			},{
+				"name": "Kim Bryan",
+				"party": { "code": "SLP", "title": "Socialist Labour Party" },
+				"votes": 424
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

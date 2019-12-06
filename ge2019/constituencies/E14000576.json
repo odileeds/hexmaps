@@ -1,6 +1,13 @@
 {
 	"id": "E14000576",
 	"title": "Bognor Regis and Littlehampton",
+	"demographics": {
+		"leave": 64.22,
+		"withdegree": 8.91,
+		"age18-29": 13.86,
+		"2015UKIP": 21.74,
+		"2016Leave": 64.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 67.9, "value": 51450 },
 			"valid": 51352,
 			"invalid": 98,
-			"majority": 17494
+			"majority": 17494,
+			"candidates": [{
+				"name": "Nick Gibb",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30276
+			},{
+				"name": "Alan  Butcher",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12782
+			},{
+				"name": "Francis Oppler",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3352
+			},{
+				"name": "Paul Sanderson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2088
+			},{
+				"name": "Patrick Lowe",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1861
+			},{
+				"name": "Andrew  Bishop",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 993
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

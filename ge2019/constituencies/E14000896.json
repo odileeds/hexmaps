@@ -1,6 +1,13 @@
 {
 	"id": "E14000896",
 	"title": "Richmond Park",
+	"demographics": {
+		"leave": 27.7,
+		"withdegree": 46.23,
+		"age18-29": 14.16,
+		"2015UKIP": 4.17,
+		"2016Leave": 27.7
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 79.3, "value": 63461 },
 			"valid": 63330,
 			"invalid": 131,
-			"majority": 45
+			"majority": 45,
+			"candidates": [{
+				"name": "Zac Goldsmith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28588
+			},{
+				"name": "Sarah Olney",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 28543
+			},{
+				"name": "Cate Tuitt",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5773
+			},{
+				"name": "Peter Jewell",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 426
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000737",
 	"title": "Hayes and Harlington",
+	"demographics": {
+		"leave": 59.41,
+		"withdegree": 15.76,
+		"age18-29": 19.06,
+		"2015UKIP": 11.96,
+		"2016Leave": 59.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 65.4, "value": 47920 },
 			"valid": 47802,
 			"invalid": 118,
-			"majority": 18115
+			"majority": 18115,
+			"candidates": [{
+				"name": "John McDonnell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31796
+			},{
+				"name": "Greg Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13681
+			},{
+				"name": "Cliff Dixon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1153
+			},{
+				"name": "Bill Newton Dunn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 601
+			},{
+				"name": "John Bowman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 571
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

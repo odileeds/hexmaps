@@ -1,6 +1,13 @@
 {
 	"id": "E14000758",
 	"title": "Hyndburn",
+	"demographics": {
+		"leave": 65.75,
+		"withdegree": 9.41,
+		"age18-29": 15.2,
+		"2015UKIP": 21.34,
+		"2016Leave": 65.75
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 63.3, "value": 45307 },
 			"valid": 45202,
 			"invalid": 105,
-			"majority": 5815
+			"majority": 5815,
+			"candidates": [{
+				"name": "Graham Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24120
+			},{
+				"name": "Kevin Horkin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18305
+			},{
+				"name": "Janet Brown",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1953
+			},{
+				"name": "Les Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 824
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000015",
 	"title": "Dundee East",
+	"demographics": {
+		"leave": 38.25,
+		"withdegree": ,
+		"age18-29": 14.99,
+		"2015UKIP": ,
+		"2016Leave": 38.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 65.3, "value": 42985 },
 			"valid": 42928,
 			"invalid": 57,
-			"majority": 6645
+			"majority": 6645,
+			"candidates": [{
+				"name": "Stewart Hosie",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18391
+			},{
+				"name": "Eleanor Price",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11746
+			},{
+				"name": "Lesley Brennan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11176
+			},{
+				"name": "Christopher McIntyre",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1615
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

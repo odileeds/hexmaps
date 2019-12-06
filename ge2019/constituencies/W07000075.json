@@ -1,6 +1,13 @@
 {
 	"id": "W07000075",
 	"title": "Pontypridd",
+	"demographics": {
+		"leave": 45.82,
+		"withdegree": 15.33,
+		"age18-29": 16.81,
+		"2015UKIP": 13.42,
+		"2016Leave": 45.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 66.0, "value": 40000 },
 			"valid": 39894,
 			"invalid": 106,
-			"majority": 11448
+			"majority": 11448,
+			"candidates": [{
+				"name": "Owen Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22103
+			},{
+				"name": "Juliette Ash",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10655
+			},{
+				"name": "Fflur Elin",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 4102
+			},{
+				"name": "Michael Powell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1963
+			},{
+				"name": "Robin Hunter-Clarke",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1071
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

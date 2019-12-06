@@ -1,6 +1,13 @@
 {
 	"id": "E14000886",
 	"title": "Pudsey",
+	"demographics": {
+		"leave": 48.35,
+		"withdegree": 21.99,
+		"age18-29": 14.23,
+		"2015UKIP": 9.21,
+		"2016Leave": 48.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 74.5, "value": 54077 },
 			"valid": 53959,
 			"invalid": 118,
-			"majority": 331
+			"majority": 331,
+			"candidates": [{
+				"name": "Stuart Andrew",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25550
+			},{
+				"name": "Ian McCargo",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 25219
+			},{
+				"name": "Allen Nixon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1761
+			},{
+				"name": "Bob Buxton",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1138
+			},{
+				"name": "Michael Wharton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 291
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000889",
 	"title": "Reading East",
+	"demographics": {
+		"leave": 38.24,
+		"withdegree": 29.65,
+		"age18-29": 23.83,
+		"2015UKIP": 7.22,
+		"2016Leave": 38.24
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 73.3, "value": 55370 },
 			"valid": 55238,
 			"invalid": 132,
-			"majority": 3749
+			"majority": 3749,
+			"candidates": [{
+				"name": "Matt Rodda",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27093
+			},{
+				"name": "Rob Wilson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23344
+			},{
+				"name": "Jenny Woods",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3378
+			},{
+				"name": "Kizzi Johannessen",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1093
+			},{
+				"name": "Michael Turberville",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 188
+			},{
+				"name": "Andy Kirkwood",
+				"party": { "code": "MAD", "title": "Movement for Active Democracy" },
+				"votes": 142
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

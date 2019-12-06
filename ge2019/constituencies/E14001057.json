@@ -1,6 +1,13 @@
 {
 	"id": "E14001057",
 	"title": "Wyre and Preston North",
+	"demographics": {
+		"leave": 54.04,
+		"withdegree": 17.88,
+		"age18-29": 11.42,
+		"2015UKIP": 13.18,
+		"2016Leave": 54.04
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 73.0, "value": 52772 },
 			"valid": 52646,
 			"invalid": 126,
-			"majority": 12246
+			"majority": 12246,
+			"candidates": [{
+				"name": "Ben Wallace",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30684
+			},{
+				"name": "Michelle  Heaton-Bentley ",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18438
+			},{
+				"name": "John  Potter ",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2551
+			},{
+				"name": "Ruth Norbury ",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 973
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

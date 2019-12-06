@@ -1,6 +1,13 @@
 {
 	"id": "E14000836",
 	"title": "Normanton, Pontefract and Castleford",
+	"demographics": {
+		"leave": 69.26,
+		"withdegree": 6.85,
+		"age18-29": 15.39,
+		"2015UKIP": 21.32,
+		"2016Leave": 69.26
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 60.4, "value": 49274 },
 			"valid": 49191,
 			"invalid": 83,
-			"majority": 14499
+			"majority": 14499,
+			"candidates": [{
+				"name": "Yvette Cooper",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29268
+			},{
+				"name": "Andrew Lee",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14769
+			},{
+				"name": "Lewis Thompson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3030
+			},{
+				"name": "Daniel Gascoigne",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1431
+			},{
+				"name": "Clarke Roberts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 693
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

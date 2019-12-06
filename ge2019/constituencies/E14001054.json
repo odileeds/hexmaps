@@ -1,6 +1,13 @@
 {
 	"id": "E14001054",
 	"title": "Worsley and Eccles South",
+	"demographics": {
+		"leave": 59.79,
+		"withdegree": 11.45,
+		"age18-29": 15.45,
+		"2015UKIP": 18.28,
+		"2016Leave": 59.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 62.1, "value": 45757 },
 			"valid": 45642,
 			"invalid": 115,
-			"majority": 8379
+			"majority": 8379,
+			"candidates": [{
+				"name": "Barbara Keeley",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26046
+			},{
+				"name": "Iain  Lindley ",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17667
+			},{
+				"name": "Kate Clarkson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1087
+			},{
+				"name": "Tom Dylan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 842
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

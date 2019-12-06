@@ -1,6 +1,13 @@
 {
 	"id": "E14001036",
 	"title": "Westminster North",
+	"demographics": {
+		"leave": 32.98,
+		"withdegree": 41.48,
+		"age18-29": 20.52,
+		"2015UKIP": 3.77,
+		"2016Leave": 32.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 68.1, "value": 43487 },
 			"valid": 43295,
 			"invalid": 192,
-			"majority": 11512
+			"majority": 11512,
+			"candidates": [{
+				"name": "Karen Buck",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25934
+			},{
+				"name": "Lindsey Hall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14422
+			},{
+				"name": "Alex Harding",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2253
+			},{
+				"name": "Emmanuelle Tandy",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 595
+			},{
+				"name": "Abby Dharamsey",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 91
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

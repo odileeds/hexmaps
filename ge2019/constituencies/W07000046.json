@@ -1,6 +1,13 @@
 {
 	"id": "W07000046",
 	"title": "Gower",
+	"demographics": {
+		"leave": 50.18,
+		"withdegree": 18.8,
+		"age18-29": 11.96,
+		"2015UKIP": 11.16,
+		"2016Leave": 50.18
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 73.4, "value": 45629 },
 			"valid": 45576,
 			"invalid": 53,
-			"majority": 3269
+			"majority": 3269,
+			"candidates": [{
+				"name": "Tonia Antoniazzi",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22727
+			},{
+				"name": "Byron Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19458
+			},{
+				"name": "Harri Roberts",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1669
+			},{
+				"name": "Howard Evans",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 931
+			},{
+				"name": "Ross Ford",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 642
+			},{
+				"name": "Jason Winstanley",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 149
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

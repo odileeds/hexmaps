@@ -1,6 +1,13 @@
 {
 	"id": "E14000589",
 	"title": "Bradford West",
+	"demographics": {
+		"leave": 46.74,
+		"withdegree": 13.91,
+		"age18-29": 22.49,
+		"2015UKIP": 7.79,
+		"2016Leave": 46.74
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,40 @@
 			"turnout": { "pc": 67.7, "value": 45749 },
 			"valid": 45528,
 			"invalid": 221,
-			"majority": 21902
+			"majority": 21902,
+			"candidates": [{
+				"name": "Naz Shah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29444
+			},{
+				"name": "George Grant",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7542
+			},{
+				"name": "Salma Yaqoob",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 6345
+			},{
+				"name": "Derrick Hodgson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 885
+			},{
+				"name": "Alun Griffiths",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 712
+			},{
+				"name": "Celia Hickson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 481
+			},{
+				"name": "Khadim Hussain",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 65
+			},{
+				"name": "Muhammad Hijazi",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 54
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

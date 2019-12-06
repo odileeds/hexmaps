@@ -1,6 +1,13 @@
 {
 	"id": "E14000763",
 	"title": "Islington North",
+	"demographics": {
+		"leave": 21.61,
+		"withdegree": 43.25,
+		"age18-29": 24.66,
+		"2015UKIP": 4,
+		"2016Leave": 21.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,48 @@
 			"turnout": { "pc": 73.6, "value": 55050 },
 			"valid": 54928,
 			"invalid": 122,
-			"majority": 33215
+			"majority": 33215,
+			"candidates": [{
+				"name": "Jeremy Corbyn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 40086
+			},{
+				"name": "James Clark",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6871
+			},{
+				"name": "Keith Angus",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4946
+			},{
+				"name": "Caroline Russell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2229
+			},{
+				"name": "Keith Fraser",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 413
+			},{
+				"name": "Michael Foster",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 208
+			},{
+				"name": "Knigel Knapp",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 106
+			},{
+				"name": "Susanne Cameron-Blackie",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 41
+			},{
+				"name": "Bill Martin",
+				"party": { "code": "The Socialist Party of Great Britain", "title": "The Socialist Party of Great Britain" },
+				"votes": 21
+			},{
+				"name": "Andres Mendoza",
+				"party": { "code": "Comm Leagu", "title": "Communist League Election Campaign" },
+				"votes": 7
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

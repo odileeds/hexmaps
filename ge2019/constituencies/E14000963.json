@@ -1,6 +1,13 @@
 {
 	"id": "E14000963",
 	"title": "St Helens South and Whiston",
+	"demographics": {
+		"leave": 56.12,
+		"withdegree": 9.99,
+		"age18-29": 14.7,
+		"2015UKIP": 13.98,
+		"2016Leave": 56.12
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.0, "value": 52965 },
 			"valid": 52886,
 			"invalid": 79,
-			"majority": 24343
+			"majority": 24343,
+			"candidates": [{
+				"name": "Marie Rimmer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35879
+			},{
+				"name": "Ed McRandal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11536
+			},{
+				"name": "Brian Spencer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2101
+			},{
+				"name": "Mark Hitchen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1953
+			},{
+				"name": "Jess Northey",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1417
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

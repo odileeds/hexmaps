@@ -1,6 +1,13 @@
 {
 	"id": "W07000066",
 	"title": "Carmarthen West and South Pembrokeshire",
+	"demographics": {
+		"leave": 55.37,
+		"withdegree": 13.11,
+		"age18-29": 13.41,
+		"2015UKIP": 11.64,
+		"2016Leave": 55.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.2, "value": 42291 },
 			"valid": 42226,
 			"invalid": 65,
-			"majority": 3110
+			"majority": 3110,
+			"candidates": [{
+				"name": "Simon Hart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19771
+			},{
+				"name": "Marc Tierney",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16661
+			},{
+				"name": "Abi Thomas",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 3933
+			},{
+				"name": "Alistair Cameron",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 956
+			},{
+				"name": "Phil Edwards",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 905
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

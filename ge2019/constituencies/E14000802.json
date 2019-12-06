@@ -1,6 +1,13 @@
 {
 	"id": "E14000802",
 	"title": "Macclesfield",
+	"demographics": {
+		"leave": 48.16,
+		"withdegree": 21.64,
+		"age18-29": 11.67,
+		"2015UKIP": 12.17,
+		"2016Leave": 48.16
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.4, "value": 54444 },
 			"valid": 54307,
 			"invalid": 137,
-			"majority": 8608
+			"majority": 8608,
+			"candidates": [{
+				"name": "David Rutley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28595
+			},{
+				"name": "Neil Puttick",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19987
+			},{
+				"name": "Richard Flowers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3350
+			},{
+				"name": "James Booth",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1213
+			},{
+				"name": "Mark Johnson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1162
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

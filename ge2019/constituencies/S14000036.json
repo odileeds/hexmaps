@@ -1,6 +1,13 @@
 {
 	"id": "S14000036",
 	"title": "Glenrothes",
+	"demographics": {
+		"leave": 46.46,
+		"withdegree": ,
+		"age18-29": 13.92,
+		"2015UKIP": ,
+		"2016Leave": 46.46
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 60.9, "value": 40440 },
 			"valid": 40399,
 			"invalid": 41,
-			"majority": 3267
+			"majority": 3267,
+			"candidates": [{
+				"name": "Peter Grant",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17291
+			},{
+				"name": "Altany Craik",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14024
+			},{
+				"name": "Andrew Brown",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7876
+			},{
+				"name": "Rebecca Bell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1208
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

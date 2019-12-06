@@ -1,6 +1,13 @@
 {
 	"id": "E14000623",
 	"title": "Central Devon",
+	"demographics": {
+		"leave": 51.18,
+		"withdegree": 18.12,
+		"age18-29": 10.24,
+		"2015UKIP": 13.17,
+		"2016Leave": 51.18
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,36 @@
 			"turnout": { "pc": 77.9, "value": 57928 },
 			"valid": 57844,
 			"invalid": 84,
-			"majority": 15680
+			"majority": 15680,
+			"candidates": [{
+				"name": "Mel Stride",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31278
+			},{
+				"name": "Lisa Robillard Webb",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15598
+			},{
+				"name": "Alex White",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6770
+			},{
+				"name": "Andy Williamson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1531
+			},{
+				"name": "Tim Matthews",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1326
+			},{
+				"name": "John Dean",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 871
+			},{
+				"name": "Lloyd Knight",
+				"party": { "code": "Lib", "title": "Liberal" },
+				"votes": 470
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

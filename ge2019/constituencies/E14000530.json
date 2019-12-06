@@ -1,6 +1,13 @@
 {
 	"id": "E14000530",
 	"title": "Aldershot",
+	"demographics": {
+		"leave": 57.9,
+		"withdegree": 13.87,
+		"age18-29": 16.98,
+		"2015UKIP": 17.87,
+		"2016Leave": 57.9
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 64.4, "value": 49052 },
 			"valid": 48950,
 			"invalid": 102,
-			"majority": 11473
+			"majority": 11473,
+			"candidates": [{
+				"name": "Leo Docherty",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26950
+			},{
+				"name": "Gary Puffett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15477
+			},{
+				"name": "Alan Hilliar",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3637
+			},{
+				"name": "Roy Swales",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1796
+			},{
+				"name": "Donna Wallace",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1090
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

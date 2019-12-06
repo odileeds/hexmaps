@@ -1,6 +1,13 @@
 {
 	"id": "E14000972",
 	"title": "Stoke-on-Trent Central",
+	"demographics": {
+		"leave": 65.02,
+		"withdegree": 10.18,
+		"age18-29": 21.83,
+		"2015UKIP": 22.65,
+		"2016Leave": 65.02
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 58.3, "value": 33209 },
 			"valid": 33145,
 			"invalid": 64,
-			"majority": 3897
+			"majority": 3897,
+			"candidates": [{
+				"name": "Gareth Snell",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 17083
+			},{
+				"name": "Daniel Jellyman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13186
+			},{
+				"name": "Mick Harold",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1608
+			},{
+				"name": "Peter Andras",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 680
+			},{
+				"name": "Adam Colclough",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 378
+			},{
+				"name": "Barbara Fielding",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 210
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

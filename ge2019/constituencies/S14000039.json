@@ -1,6 +1,13 @@
 {
 	"id": "S14000039",
 	"title": "Inverness, Nairn, Badenoch and Strathspey",
+	"demographics": {
+		"leave": 41.38,
+		"withdegree": ,
+		"age18-29": 13.89,
+		"2015UKIP": 2.15,
+		"2016Leave": 41.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 68.8, "value": 52868 },
 			"valid": 52801,
 			"invalid": 67,
-			"majority": 4924
+			"majority": 4924,
+			"candidates": [{
+				"name": "Drew Hendry",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 21042
+			},{
+				"name": "Nicholas Tulloch",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16118
+			},{
+				"name": "Mike Robb",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 8552
+			},{
+				"name": "Ritchie Cunningham",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6477
+			},{
+				"name": "Donald Boyd",
+				"party": { "code": "Christian Party, Proclaiming Christ's Lordship", "title": "Christian Party, Proclaiming Christ's Lordship" },
+				"votes": 612
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

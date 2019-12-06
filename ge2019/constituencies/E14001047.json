@@ -1,6 +1,13 @@
 {
 	"id": "E14001047",
 	"title": "Woking",
+	"demographics": {
+		"leave": 44.06,
+		"withdegree": 26.19,
+		"age18-29": 14.02,
+		"2015UKIP": 11.3,
+		"2016Leave": 44.06
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 72.7, "value": 55373 },
 			"valid": 55246,
 			"invalid": 127,
-			"majority": 16724
+			"majority": 16724,
+			"candidates": [{
+				"name": "Jonathan Lord",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29903
+			},{
+				"name": "Fiona Colley",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13179
+			},{
+				"name": "Will Forster",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9711
+			},{
+				"name": "Troy De Leon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1161
+			},{
+				"name": "James Brierley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1092
+			},{
+				"name": "Hassan Akberali",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 200
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

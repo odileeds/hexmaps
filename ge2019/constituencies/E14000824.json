@@ -1,6 +1,13 @@
 {
 	"id": "E14000824",
 	"title": "Mole Valley",
+	"demographics": {
+		"leave": 47.59,
+		"withdegree": 25.33,
+		"age18-29": 10.26,
+		"2015UKIP": 11.21,
+		"2016Leave": 47.59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 76.3, "value": 56866 },
 			"valid": 56726,
 			"invalid": 140,
-			"majority": 24137
+			"majority": 24137,
+			"candidates": [{
+				"name": "Paul Beresford",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35092
+			},{
+				"name": "Paul  Kennedy",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10955
+			},{
+				"name": "Marc  Green",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7864
+			},{
+				"name": "Jacquetta  Fewster",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1463
+			},{
+				"name": "Judy Moore",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1352
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

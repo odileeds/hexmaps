@@ -1,6 +1,13 @@
 {
 	"id": "N06000008",
 	"title": "Foyle",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 65.6, "value": 46142 },
 			"valid": 45965,
 			"invalid": 177,
-			"majority": 169
+			"majority": 169,
+			"candidates": [{
+				"name": "Elisha McCallion",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 18256
+			},{
+				"name": "Mark Durkan",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 18087
+			},{
+				"name": "Gary Middleton",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 7398
+			},{
+				"name": "Shaun Harkin",
+				"party": { "code": "PBPA", "title": "People Before Profit Alliance" },
+				"votes": 1377
+			},{
+				"name": "John Doherty",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 847
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

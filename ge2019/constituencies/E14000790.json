@@ -1,6 +1,13 @@
 {
 	"id": "E14000790",
 	"title": "Leyton and Wanstead",
+	"demographics": {
+		"leave": 35.01,
+		"withdegree": 27.86,
+		"age18-29": 22.84,
+		"2015UKIP": 5.75,
+		"2016Leave": 35.01
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 71.1, "value": 46312 },
 			"valid": 46173,
 			"invalid": 139,
-			"majority": 22607
+			"majority": 22607,
+			"candidates": [{
+				"name": "John Cryer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32234
+			},{
+				"name": "Laura Farris",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9627
+			},{
+				"name": "Ben Sims",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2961
+			},{
+				"name": "Ashley Gunstock",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1351
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

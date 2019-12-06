@@ -1,6 +1,13 @@
 {
 	"id": "E14000866",
 	"title": "Nottingham North",
+	"demographics": {
+		"leave": 63.81,
+		"withdegree": 7.05,
+		"age18-29": 17.02,
+		"2015UKIP": 18.51,
+		"2016Leave": 63.81
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 57.4, "value": 38390 },
 			"valid": 38319,
 			"invalid": 71,
-			"majority": 11160
+			"majority": 11160,
+			"candidates": [{
+				"name": "Alex Norris",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 23067
+			},{
+				"name": "Jack Tinley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11907
+			},{
+				"name": "Stephen Crosby",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2133
+			},{
+				"name": "Tad Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 674
+			},{
+				"name": "Kirsty Jones",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 538
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

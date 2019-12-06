@@ -1,6 +1,13 @@
 {
 	"id": "E14000810",
 	"title": "Mansfield",
+	"demographics": {
+		"leave": 70.86,
+		"withdegree": 6.76,
+		"age18-29": 15.18,
+		"2015UKIP": 25.11,
+		"2016Leave": 70.86
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 64.6, "value": 50256 },
 			"valid": 50157,
 			"invalid": 99,
-			"majority": 1057
+			"majority": 1057,
+			"candidates": [{
+				"name": "Ben Bradley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23392
+			},{
+				"name": "Alan Meale",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22335
+			},{
+				"name": "Sid Pepper",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2654
+			},{
+				"name": "Philip  Shields",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1079
+			},{
+				"name": "Anita  Prabhakar",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 697
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

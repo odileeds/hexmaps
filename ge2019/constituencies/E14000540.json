@@ -1,6 +1,13 @@
 {
 	"id": "E14000540",
 	"title": "Barking",
+	"demographics": {
+		"leave": 60.33,
+		"withdegree": 14.44,
+		"age18-29": 18.12,
+		"2015UKIP": 22.2,
+		"2016Leave": 60.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 62.0, "value": 47782 },
 			"valid": 47679,
 			"invalid": 103,
-			"majority": 21608
+			"majority": 21608,
+			"candidates": [{
+				"name": "Margaret Hodge",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32319
+			},{
+				"name": "Minesh Talati",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10711
+			},{
+				"name": "Roger Gravett",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3031
+			},{
+				"name": "Shannon Butterfield",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 724
+			},{
+				"name": "Pauline Pearce",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 599
+			},{
+				"name": "Noel Falvey",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 295
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

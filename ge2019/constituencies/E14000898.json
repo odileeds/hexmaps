@@ -1,6 +1,13 @@
 {
 	"id": "E14000898",
 	"title": "Rochester and Strood",
+	"demographics": {
+		"leave": 63.69,
+		"withdegree": 11.05,
+		"age18-29": 16.73,
+		"2015UKIP": 30.48,
+		"2016Leave": 63.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 65.1, "value": 53839 },
 			"valid": 53769,
 			"invalid": 70,
-			"majority": 9850
+			"majority": 9850,
+			"candidates": [{
+				"name": "Kelly Tolhurst",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29232
+			},{
+				"name": "Teresa Murray",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19382
+			},{
+				"name": "David Allen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2893
+			},{
+				"name": "Bart Ricketts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1189
+			},{
+				"name": "Sonia Hyner",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 781
+			},{
+				"name": "Steve Benson",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 163
+			},{
+				"name": "Primerose Chiguri",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 129
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14001058",
 	"title": "Wyre Forest",
+	"demographics": {
+		"leave": 63.15,
+		"withdegree": 10.9,
+		"age18-29": 12.8,
+		"2015UKIP": 16.11,
+		"2016Leave": 63.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 65.9, "value": 51219 },
 			"valid": 51129,
 			"invalid": 90,
-			"majority": 13334
+			"majority": 13334,
+			"candidates": [{
+				"name": "Mark Garnier",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29859
+			},{
+				"name": "Matthew Lamb",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16525
+			},{
+				"name": "Shazu Miah",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1943
+			},{
+				"name": "George Connolly",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1777
+			},{
+				"name": "Brett  Caulfield",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1025
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

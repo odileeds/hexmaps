@@ -1,6 +1,13 @@
 {
 	"id": "E14000609",
 	"title": "Burnley",
+	"demographics": {
+		"leave": 66.61,
+		"withdegree": 8.59,
+		"age18-29": 15.57,
+		"2015UKIP": 17.27,
+		"2016Leave": 66.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 62.4, "value": 40353 },
 			"valid": 40290,
 			"invalid": 63,
-			"majority": 6353
+			"majority": 6353,
+			"candidates": [{
+				"name": "Julie Cooper",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18832
+			},{
+				"name": "Paul  White",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12479
+			},{
+				"name": "Gordon Birtwistle",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6046
+			},{
+				"name": "Tom Commis",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2472
+			},{
+				"name": "Laura Fisk",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 461
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

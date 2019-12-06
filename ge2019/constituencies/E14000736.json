@@ -1,6 +1,13 @@
 {
 	"id": "E14000736",
 	"title": "Havant",
+	"demographics": {
+		"leave": 62.45,
+		"withdegree": 10.78,
+		"age18-29": 13.39,
+		"2015UKIP": 20.61,
+		"2016Leave": 62.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 64.0, "value": 46390 },
 			"valid": 46314,
 			"invalid": 76,
-			"majority": 15956
+			"majority": 15956,
+			"candidates": [{
+				"name": "Alan Mak",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27676
+			},{
+				"name": "Graham Giles",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11720
+			},{
+				"name": "Paul Gray",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2801
+			},{
+				"name": "John Perry",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2011
+			},{
+				"name": "Tim Dawes",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1122
+			},{
+				"name": "Ann Buckley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 984
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

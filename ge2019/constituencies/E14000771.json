@@ -1,6 +1,13 @@
 {
 	"id": "E14000771",
 	"title": "Kingston upon Hull East",
+	"demographics": {
+		"leave": 72.63,
+		"withdegree": 5.54,
+		"age18-29": 16.9,
+		"2015UKIP": 22.37,
+		"2016Leave": 72.63
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 55.6, "value": 36698 },
 			"valid": 36638,
 			"invalid": 60,
-			"majority": 10396
+			"majority": 10396,
+			"candidates": [{
+				"name": "Karl Turner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21355
+			},{
+				"name": "Simon Burton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10959
+			},{
+				"name": "Mark Fox",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2573
+			},{
+				"name": "Andrew Marchington",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1258
+			},{
+				"name": "Julia Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 493
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

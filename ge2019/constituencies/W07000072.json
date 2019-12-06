@@ -1,6 +1,13 @@
 {
 	"id": "W07000072",
 	"title": "Blaenau Gwent",
+	"demographics": {
+		"leave": 62.03,
+		"withdegree": 6.37,
+		"age18-29": 15.4,
+		"2015UKIP": 17.92,
+		"2016Leave": 62.03
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 63.3, "value": 32419 },
 			"valid": 32384,
 			"invalid": 35,
-			"majority": 11907
+			"majority": 11907,
+			"candidates": [{
+				"name": "Nick Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18787
+			},{
+				"name": "Nigel Copner",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 6880
+			},{
+				"name": "Tracey West",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4783
+			},{
+				"name": "Dennis May",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 973
+			},{
+				"name": "Vicki Browning",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 666
+			},{
+				"name": "Cameron Sullivan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 295
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

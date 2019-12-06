@@ -1,6 +1,13 @@
 {
 	"id": "S14000007",
 	"title": "Banff and Buchan",
+	"demographics": {
+		"leave": 54.02,
+		"withdegree": ,
+		"age18-29": 13.75,
+		"2015UKIP": ,
+		"2016Leave": 54.02
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 61.7, "value": 41689 },
 			"valid": 41643,
 			"invalid": 46,
-			"majority": 3693
+			"majority": 3693,
+			"candidates": [{
+				"name": "David Duguid",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19976
+			},{
+				"name": "Eilidh Whiteford",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16283
+			},{
+				"name": "Caitlin Stott",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 3936
+			},{
+				"name": "Galen Milne",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1448
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

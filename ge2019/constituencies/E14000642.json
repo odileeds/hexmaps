@@ -1,6 +1,13 @@
 {
 	"id": "E14000642",
 	"title": "Clacton",
+	"demographics": {
+		"leave": 71.08,
+		"withdegree": 5.1,
+		"age18-29": 10.87,
+		"2015UKIP": 44.43,
+		"2016Leave": 71.08
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,40 @@
 			"turnout": { "pc": 63.8, "value": 44218 },
 			"valid": 44145,
 			"invalid": 73,
-			"majority": 15828
+			"majority": 15828,
+			"candidates": [{
+				"name": "Giles Watling",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27031
+			},{
+				"name": "Tasha Osben",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11203
+			},{
+				"name": "Paul Oakley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3357
+			},{
+				"name": "David Grace",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 887
+			},{
+				"name": "Chris Southall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 719
+			},{
+				"name": "Caroline Shearer",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 449
+			},{
+				"name": "Robin Tilbrook",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 289
+			},{
+				"name": "Nick Martin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 210
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

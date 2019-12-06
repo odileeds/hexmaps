@@ -1,6 +1,13 @@
 {
 	"id": "W07000045",
 	"title": "Llanelli",
+	"demographics": {
+		"leave": 55.48,
+		"withdegree": 10.74,
+		"age18-29": 14.06,
+		"2015UKIP": 16.25,
+		"2016Leave": 55.48
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.0, "value": 40398 },
 			"valid": 40342,
 			"invalid": 56,
-			"majority": 12024
+			"majority": 12024,
+			"candidates": [{
+				"name": "Nia Griffith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21568
+			},{
+				"name": "Stephen Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9544
+			},{
+				"name": "Mari Arthur",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 7351
+			},{
+				"name": "Ken Rees",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1331
+			},{
+				"name": "Rory Daniels",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 548
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000793",
 	"title": "Liverpool, Riverside",
+	"demographics": {
+		"leave": 26.89,
+		"withdegree": 24.01,
+		"age18-29": 38.86,
+		"2015UKIP": 5.67,
+		"2016Leave": 26.89
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 63.1, "value": 48178 },
 			"valid": 48020,
 			"invalid": 158,
-			"majority": 35947
+			"majority": 35947,
+			"candidates": [{
+				"name": "Louise Ellman",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 40599
+			},{
+				"name": "Pamela Hall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4652
+			},{
+				"name": "Stephanie Pitchers",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1582
+			},{
+				"name": "Tom Sebire",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1187
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000034",
 	"title": "Glasgow South",
+	"demographics": {
+		"leave": 28.19,
+		"withdegree": ,
+		"age18-29": 17.92,
+		"2015UKIP": ,
+		"2016Leave": 28.19
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 64.6, "value": 44633 },
 			"valid": 44550,
 			"invalid": 83,
-			"majority": 2027
+			"majority": 2027,
+			"candidates": [{
+				"name": "Stewart McDonald",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18312
+			},{
+				"name": "Eileen Dinning",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16285
+			},{
+				"name": "Taylor Muir",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8506
+			},{
+				"name": "Ewan Hoyle",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1447
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

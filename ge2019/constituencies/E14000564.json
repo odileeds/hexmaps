@@ -1,6 +1,13 @@
 {
 	"id": "E14000564",
 	"title": "Birmingham, Ladywood",
+	"demographics": {
+		"leave": 35.62,
+		"withdegree": 19.72,
+		"age18-29": 30.74,
+		"2015UKIP": 5.03,
+		"2016Leave": 35.62
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 59.2, "value": 41462 },
 			"valid": 41307,
 			"invalid": 155,
-			"majority": 28714
+			"majority": 28714,
+			"candidates": [{
+				"name": "Shabana Mahmood",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34166
+			},{
+				"name": "Andrew Browning",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5452
+			},{
+				"name": "Lee Dargue",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1156
+			},{
+				"name": "Kefentse Dennis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 533
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

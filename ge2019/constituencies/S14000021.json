@@ -1,6 +1,13 @@
 {
 	"id": "S14000021",
 	"title": "East Renfrewshire",
+	"demographics": {
+		"leave": 25.68,
+		"withdegree": ,
+		"age18-29": 12.04,
+		"2015UKIP": 1.57,
+		"2016Leave": 25.68
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 76.8, "value": 53805 },
 			"valid": 53738,
 			"invalid": 67,
-			"majority": 4712
+			"majority": 4712,
+			"candidates": [{
+				"name": "Paul Masterton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21496
+			},{
+				"name": "Kirsten Oswald",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16784
+			},{
+				"name": "Blair McDougall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14346
+			},{
+				"name": "Aileen Morton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1112
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

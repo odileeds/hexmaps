@@ -1,6 +1,13 @@
 {
 	"id": "E14000805",
 	"title": "Makerfield",
+	"demographics": {
+		"leave": 65,
+		"withdegree": 9.03,
+		"age18-29": 14.15,
+		"2015UKIP": 22.45,
+		"2016Leave": 65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 63.3, "value": 47037 },
 			"valid": 46933,
 			"invalid": 104,
-			"majority": 13542
+			"majority": 13542,
+			"candidates": [{
+				"name": "Yvonne Fovargue",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28245
+			},{
+				"name": "Adam Carney",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14703
+			},{
+				"name": "Bob Brierley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2663
+			},{
+				"name": "John Skipworth",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1322
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

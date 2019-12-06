@@ -1,6 +1,13 @@
 {
 	"id": "W07000069",
 	"title": "Neath",
+	"demographics": {
+		"leave": 54.21,
+		"withdegree": 10.54,
+		"age18-29": 13.88,
+		"2015UKIP": 16.41,
+		"2016Leave": 54.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,28 @@
 			"turnout": { "pc": 68.7, "value": 38368 },
 			"valid": 38285,
 			"invalid": 83,
-			"majority": 12631
+			"majority": 12631,
+			"candidates": [{
+				"name": "Christina Rees",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 21713
+			},{
+				"name": "Orla Lowe",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9082
+			},{
+				"name": "Daniel Williams",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 5339
+			},{
+				"name": "Richard Pritchard",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1419
+			},{
+				"name": "Frank Little",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 732
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

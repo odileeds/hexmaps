@@ -1,6 +1,13 @@
 {
 	"id": "S14000044",
 	"title": "Livingston",
+	"demographics": {
+		"leave": 43.81,
+		"withdegree": ,
+		"age18-29": 14.77,
+		"2015UKIP": 3.05,
+		"2016Leave": 43.81
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 64.8, "value": 52589 },
 			"valid": 52505,
 			"invalid": 84,
-			"majority": 3878
+			"majority": 3878,
+			"candidates": [{
+				"name": "Hannah Bardell",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 21036
+			},{
+				"name": "Rhea Wolfson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17158
+			},{
+				"name": "Damian Timson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12799
+			},{
+				"name": "Charles Dundas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1512
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

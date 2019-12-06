@@ -1,6 +1,13 @@
 {
 	"id": "E14000554",
 	"title": "Berwick-upon-Tweed",
+	"demographics": {
+		"leave": 55.55,
+		"withdegree": 13.79,
+		"age18-29": 11.71,
+		"2015UKIP": 11.16,
+		"2016Leave": 55.55
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.9, "value": 42291 },
 			"valid": 42212,
 			"invalid": 79,
-			"majority": 11781
+			"majority": 11781,
+			"candidates": [{
+				"name": "Anne-Marie Trevelyan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22145
+			},{
+				"name": "Scott Dickinson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10364
+			},{
+				"name": "Julie Porksen",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8916
+			},{
+				"name": "Thomas Stewart",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 787
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

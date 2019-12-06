@@ -1,6 +1,13 @@
 {
 	"id": "E14000588",
 	"title": "Bradford South",
+	"demographics": {
+		"leave": 63.56,
+		"withdegree": 8.99,
+		"age18-29": 16.23,
+		"2015UKIP": 24.09,
+		"2016Leave": 63.56
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 60.7, "value": 41111 },
 			"valid": 41049,
 			"invalid": 62,
-			"majority": 6700
+			"majority": 6700,
+			"candidates": [{
+				"name": "Judith Cummins",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22364
+			},{
+				"name": "Tanya Graham",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15664
+			},{
+				"name": "Stephen Place",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1758
+			},{
+				"name": "Stuart Thomas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 516
+			},{
+				"name": "Therese Hirst",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 377
+			},{
+				"name": "Darren Parkinson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 370
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

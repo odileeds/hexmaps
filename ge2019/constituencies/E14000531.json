@@ -1,6 +1,13 @@
 {
 	"id": "E14000531",
 	"title": "Aldridge-Brownhills",
+	"demographics": {
+		"leave": 67.8,
+		"withdegree": 9.97,
+		"age18-29": 12.36,
+		"2015UKIP": 19.62,
+		"2016Leave": 67.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 66.8, "value": 40322 },
 			"valid": 40235,
 			"invalid": 87,
-			"majority": 14307
+			"majority": 14307,
+			"candidates": [{
+				"name": "Wendy Morton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26317
+			},{
+				"name": "John Fisher",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12010
+			},{
+				"name": "Ian Garrett",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1343
+			},{
+				"name": "Mark Beech",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 565
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

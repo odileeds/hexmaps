@@ -1,6 +1,13 @@
 {
 	"id": "E14000762",
 	"title": "Isle of Wight",
+	"demographics": {
+		"leave": 61.95,
+		"withdegree": 10.77,
+		"age18-29": 11.89,
+		"2015UKIP": 21.18,
+		"2016Leave": 61.95
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 67.4, "value": 74574 },
 			"valid": 74479,
 			"invalid": 95,
-			"majority": 21069
+			"majority": 21069,
+			"candidates": [{
+				"name": "Bob Seely",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 38190
+			},{
+				"name": "Julian Critchley",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17121
+			},{
+				"name": "Vix Lowthion",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 12915
+			},{
+				"name": "Nick Belfitt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2740
+			},{
+				"name": "Daryll Pitcher",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1921
+			},{
+				"name": "Julie Jones-Evans",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1592
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

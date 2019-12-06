@@ -1,6 +1,13 @@
 {
 	"id": "E14000650",
 	"title": "Coventry North West",
+	"demographics": {
+		"leave": 58.67,
+		"withdegree": 14.39,
+		"age18-29": 18.71,
+		"2015UKIP": 15.69,
+		"2016Leave": 58.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 66.4, "value": 49937 },
 			"valid": 49849,
 			"invalid": 88,
-			"majority": 8580
+			"majority": 8580,
+			"candidates": [{
+				"name": "Geoffrey Robinson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26894
+			},{
+				"name": "Resham Kotecha",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18314
+			},{
+				"name": "Michael Gee",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1525
+			},{
+				"name": "Andrew Hilton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1286
+			},{
+				"name": "Ciaran Norris",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1164
+			},{
+				"name": "Stephen  Gray",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 666
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000637",
 	"title": "Chorley",
+	"demographics": {
+		"leave": 56.57,
+		"withdegree": 15.47,
+		"age18-29": 13.55,
+		"2015UKIP": 13.53,
+		"2016Leave": 56.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -33,7 +40,24 @@
 			"turnout": { "pc": 73.0, "value": 55768 },
 			"valid": 55634,
 			"invalid": 134,
-			"majority": 7512
+			"majority": 7512,
+			"candidates": [{
+				"name": "Lindsay Hoyle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30745
+			},{
+				"name": "Caroline Moon",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23233
+			},{
+				"name": "Stephen Fenn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1126
+			},{
+				"name": "Peter Lageard",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 530
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000816",
 	"title": "Mid Norfolk",
+	"demographics": {
+		"leave": 60.58,
+		"withdegree": 10.42,
+		"age18-29": 12.13,
+		"2015UKIP": 19.02,
+		"2016Leave": 60.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 69.7, "value": 55764 },
 			"valid": 55668,
 			"invalid": 96,
-			"majority": 16086
+			"majority": 16086,
+			"candidates": [{
+				"name": "George Freeman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32828
+			},{
+				"name": "Sarah Simpson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16742
+			},{
+				"name": "Fionna Tod",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2848
+			},{
+				"name": "Tracy Knowles",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2092
+			},{
+				"name": "Hannah Lester",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1158
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

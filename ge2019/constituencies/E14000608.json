@@ -1,6 +1,13 @@
 {
 	"id": "E14000608",
 	"title": "Buckingham",
+	"demographics": {
+		"leave": 48.65,
+		"withdegree": 22.67,
+		"age18-29": 10.49,
+		"2015UKIP": 21.74,
+		"2016Leave": 48.65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,24 @@
 			"turnout": { "pc": 68.6, "value": 54646 },
 			"valid": 52679,
 			"invalid": 1967,
-			"majority": 25725
+			"majority": 25725,
+			"candidates": [{
+				"name": "John Bercow",
+				"party": { "code": "Spk", "title": "Speaker" },
+				"votes": 34299
+			},{
+				"name": "Michael Sheppard",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 8574
+			},{
+				"name": "Scott Raven ",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 5638
+			},{
+				"name": "Brian Mapletoft",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 4168
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

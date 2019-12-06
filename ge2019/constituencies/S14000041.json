@@ -1,6 +1,13 @@
 {
 	"id": "S14000041",
 	"title": "Kirkcaldy and Cowdenbeath",
+	"demographics": {
+		"leave": 41.66,
+		"withdegree": ,
+		"age18-29": 13.69,
+		"2015UKIP": 2.34,
+		"2016Leave": 41.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 63.6, "value": 46250 },
 			"valid": 46193,
 			"invalid": 57,
-			"majority": 259
+			"majority": 259,
+			"candidates": [{
+				"name": "Lesley Laird",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17016
+			},{
+				"name": "Roger Mullin",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16757
+			},{
+				"name": "Dave Dempsey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10762
+			},{
+				"name": "Malcolm Wood",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1118
+			},{
+				"name": "David Coburn",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 540
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

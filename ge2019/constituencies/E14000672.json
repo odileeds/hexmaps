@@ -1,6 +1,13 @@
 {
 	"id": "E14000672",
 	"title": "Dudley South",
+	"demographics": {
+		"leave": 70.42,
+		"withdegree": 7.92,
+		"age18-29": 14.73,
+		"2015UKIP": 18.94,
+		"2016Leave": 70.42
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 62.4, "value": 38295 },
 			"valid": 38244,
 			"invalid": 51,
-			"majority": 7730
+			"majority": 7730,
+			"candidates": [{
+				"name": "Mike Wood",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21588
+			},{
+				"name": "Natasha Millward",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13858
+			},{
+				"name": "Mitch Bolton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1791
+			},{
+				"name": "Jon Bramall",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 625
+			},{
+				"name": "Jenny Maxwell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 382
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

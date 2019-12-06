@@ -1,6 +1,13 @@
 {
 	"id": "E14001033",
 	"title": "West Lancashire",
+	"demographics": {
+		"leave": 54.94,
+		"withdegree": 13.95,
+		"age18-29": 15.29,
+		"2015UKIP": 12.2,
+		"2016Leave": 54.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 74.4, "value": 54503 },
 			"valid": 54389,
 			"invalid": 114,
-			"majority": 11689
+			"majority": 11689,
+			"candidates": [{
+				"name": "Rosie Cooper",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32030
+			},{
+				"name": "Sam Currie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20341
+			},{
+				"name": "Jo Barton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1069
+			},{
+				"name": "Nate Higgins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 680
+			},{
+				"name": "David Braid",
+				"party": { "code": "War Veteran's Pro-Traditional Family Party", "title": "War Veteran's Pro-Traditional Family Party" },
+				"votes": 269
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

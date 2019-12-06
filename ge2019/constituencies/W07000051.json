@@ -1,6 +1,13 @@
 {
 	"id": "W07000051",
 	"title": "Cardiff North",
+	"demographics": {
+		"leave": 39.08,
+		"withdegree": 25.94,
+		"age18-29": 17.6,
+		"2015UKIP": 7.73,
+		"2016Leave": 39.08
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 77.5, "value": 52120 },
 			"valid": 52022,
 			"invalid": 98,
-			"majority": 4174
+			"majority": 4174,
+			"candidates": [{
+				"name": "Anna McMorrin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26081
+			},{
+				"name": "Craig Williams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21907
+			},{
+				"name": "Steffan Webb",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1738
+			},{
+				"name": "Matthew Hemsley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1714
+			},{
+				"name": "Gary Oldfield",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 582
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

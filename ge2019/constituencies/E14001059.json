@@ -1,6 +1,13 @@
 {
 	"id": "E14001059",
 	"title": "Wythenshawe and Sale East",
+	"demographics": {
+		"leave": 49.87,
+		"withdegree": 16.6,
+		"age18-29": 16.7,
+		"2015UKIP": 14.69,
+		"2016Leave": 49.87
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 60.1, "value": 45917 },
 			"valid": 45846,
 			"invalid": 71,
-			"majority": 14944
+			"majority": 14944,
+			"candidates": [{
+				"name": "Mike Kane",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28525
+			},{
+				"name": "Fiona Green",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13581
+			},{
+				"name": "William Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1504
+			},{
+				"name": "Mike Bayley-Sanderson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1475
+			},{
+				"name": "Dan Jerrome",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 576
+			},{
+				"name": "Luckson Francis Augustine ",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 185
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

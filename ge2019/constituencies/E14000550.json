@@ -1,6 +1,13 @@
 {
 	"id": "E14000550",
 	"title": "Beaconsfield",
+	"demographics": {
+		"leave": 49.3,
+		"withdegree": 24.83,
+		"age18-29": 11.4,
+		"2015UKIP": 13.75,
+		"2016Leave": 49.3
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 72.4, "value": 56137 },
 			"valid": 56028,
 			"invalid": 109,
-			"majority": 24543
+			"majority": 24543,
+			"candidates": [{
+				"name": "Dominic Grieve",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36559
+			},{
+				"name": "James English",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12016
+			},{
+				"name": "Peter Chapman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4448
+			},{
+				"name": "Jon Conway",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1609
+			},{
+				"name": "Russell  Secker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1396
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

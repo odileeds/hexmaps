@@ -1,6 +1,13 @@
 {
 	"id": "E14001042",
 	"title": "Windsor",
+	"demographics": {
+		"leave": 46.09,
+		"withdegree": 26.19,
+		"age18-29": 12.66,
+		"2015UKIP": 9.95,
+		"2016Leave": 46.09
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 73.5, "value": 54085 },
 			"valid": 53921,
 			"invalid": 164,
-			"majority": 22384
+			"majority": 22384,
+			"candidates": [{
+				"name": "Adam Afriyie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34718
+			},{
+				"name": "Peter Shearman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12334
+			},{
+				"name": "Julian Tisi",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5434
+			},{
+				"name": "Fintan McKeown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1435
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

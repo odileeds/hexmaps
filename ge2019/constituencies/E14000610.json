@@ -1,6 +1,13 @@
 {
 	"id": "E14000610",
 	"title": "Burton",
+	"demographics": {
+		"leave": 64.62,
+		"withdegree": 11.7,
+		"age18-29": 15.26,
+		"2015UKIP": 17.68,
+		"2016Leave": 64.62
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 67.7, "value": 50054 },
 			"valid": 49911,
 			"invalid": 143,
-			"majority": 10047
+			"majority": 10047,
+			"candidates": [{
+				"name": "Andrew Griffiths",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28936
+			},{
+				"name": "John McKiernan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18889
+			},{
+				"name": "Dominic Hardwick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1262
+			},{
+				"name": "Simon Hales",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 824
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

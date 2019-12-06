@@ -1,6 +1,13 @@
 {
 	"id": "E14000533",
 	"title": "Amber Valley",
+	"demographics": {
+		"leave": 65.34,
+		"withdegree": 9.34,
+		"age18-29": 13.42,
+		"2015UKIP": 15.89,
+		"2016Leave": 65.34
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 67.5, "value": 45910 },
 			"valid": 45811,
 			"invalid": 99,
-			"majority": 8300
+			"majority": 8300,
+			"candidates": [{
+				"name": "Nigel Mills",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25905
+			},{
+				"name": "James Dawson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17605
+			},{
+				"name": "Kate Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1100
+			},{
+				"name": "Matt McGuinness",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 650
+			},{
+				"name": "Daniel Bamford",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 551
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

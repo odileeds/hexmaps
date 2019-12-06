@@ -1,6 +1,13 @@
 {
 	"id": "E14000917",
 	"title": "Selby and Ainsty",
+	"demographics": {
+		"leave": 57.79,
+		"withdegree": 15.67,
+		"age18-29": 12.24,
+		"2015UKIP": 13.99,
+		"2016Leave": 57.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.1, "value": 56221 },
 			"valid": 56076,
 			"invalid": 145,
-			"majority": 13772
+			"majority": 13772,
+			"candidates": [{
+				"name": "Nigel Adams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32921
+			},{
+				"name": "David Bowgett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19149
+			},{
+				"name": "Callum Delhoy",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2293
+			},{
+				"name": "Tony Pycroft",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1713
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

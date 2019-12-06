@@ -1,6 +1,13 @@
 {
 	"id": "E14000657",
 	"title": "Dagenham and Rainham",
+	"demographics": {
+		"leave": 69.93,
+		"withdegree": 9.94,
+		"age18-29": 16.03,
+		"2015UKIP": 29.85,
+		"2016Leave": 69.93
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,36 @@
 			"turnout": { "pc": 65.0, "value": 45916 },
 			"valid": 45843,
 			"invalid": 73,
-			"majority": 4652
+			"majority": 4652,
+			"candidates": [{
+				"name": "Jon Cruddas",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22958
+			},{
+				"name": "Julie Marson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18306
+			},{
+				"name": "Peter Harris",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3246
+			},{
+				"name": "Denis Breading",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 544
+			},{
+				"name": "Jonathan Fryer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 465
+			},{
+				"name": "Paul Sturdy",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 239
+			},{
+				"name": "Terence London",
+				"party": { "code": "Concordia", "title": "Concordia" },
+				"votes": 85
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

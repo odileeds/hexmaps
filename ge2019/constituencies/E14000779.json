@@ -1,6 +1,13 @@
 {
 	"id": "E14000779",
 	"title": "Leeds North East",
+	"demographics": {
+		"leave": 37.33,
+		"withdegree": 30.83,
+		"age18-29": 16.03,
+		"2015UKIP": 7.67,
+		"2016Leave": 37.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 75.7, "value": 53102 },
 			"valid": 52999,
 			"invalid": 103,
-			"majority": 16991
+			"majority": 16991,
+			"candidates": [{
+				"name": "Fabian Hamilton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33436
+			},{
+				"name": "Ryan Stephenson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16445
+			},{
+				"name": "Jon Hannah",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1952
+			},{
+				"name": "Ann Forsaith",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 680
+			},{
+				"name": "Tess Seddon",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 303
+			},{
+				"name": "Celia Foote",
+				"party": { "code": "Green Soc", "title": "Alliance for Green Socialism" },
+				"votes": 116
+			},{
+				"name": "Tim Mutamiri",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 67
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

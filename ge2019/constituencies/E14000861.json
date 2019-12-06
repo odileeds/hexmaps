@@ -1,6 +1,13 @@
 {
 	"id": "E14000861",
 	"title": "Northampton North",
+	"demographics": {
+		"leave": 60.69,
+		"withdegree": 12.65,
+		"age18-29": 17.94,
+		"2015UKIP": 16.12,
+		"2016Leave": 60.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.7, "value": 40441 },
 			"valid": 40378,
 			"invalid": 63,
-			"majority": 807
+			"majority": 807,
+			"candidates": [{
+				"name": "Michael Ellis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19065
+			},{
+				"name": "Sally Keeble",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18258
+			},{
+				"name": "Jonathan Bullock",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1404
+			},{
+				"name": "George Smid",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1015
+			},{
+				"name": "Steve Miller",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 636
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

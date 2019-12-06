@@ -1,6 +1,13 @@
 {
 	"id": "E14001035",
 	"title": "West Worcestershire",
+	"demographics": {
+		"leave": 52.58,
+		"withdegree": 19.57,
+		"age18-29": 10.03,
+		"2015UKIP": 14.35,
+		"2016Leave": 52.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 76.1, "value": 56583 },
 			"valid": 56471,
 			"invalid": 112,
-			"majority": 21328
+			"majority": 21328,
+			"candidates": [{
+				"name": "Harriett Baldwin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34703
+			},{
+				"name": "Samantha  Charles",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13375
+			},{
+				"name": "Edward McMillan-Scott",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5307
+			},{
+				"name": "Natalie McVey",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1605
+			},{
+				"name": "Mike Savage",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1481
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

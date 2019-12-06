@@ -1,6 +1,13 @@
 {
 	"id": "E14001039",
 	"title": "Wigan",
+	"demographics": {
+		"leave": 62.71,
+		"withdegree": 10.19,
+		"age18-29": 15.28,
+		"2015UKIP": 19.47,
+		"2016Leave": 62.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 63.2, "value": 47638 },
 			"valid": 47542,
 			"invalid": 96,
-			"majority": 16027
+			"majority": 16027,
+			"candidates": [{
+				"name": "Lisa Nandy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29575
+			},{
+				"name": "Alexander  Williams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13548
+			},{
+				"name": "Nathan  Ryding ",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2750
+			},{
+				"name": "Mark  Clayton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 916
+			},{
+				"name": "William  Patterson ",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 753
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

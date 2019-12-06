@@ -1,6 +1,13 @@
 {
 	"id": "E14000583",
 	"title": "Bosworth",
+	"demographics": {
+		"leave": 60.8,
+		"withdegree": 12.88,
+		"age18-29": 12.62,
+		"2015UKIP": 17.43,
+		"2016Leave": 60.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 68.9, "value": 56301 },
 			"valid": 56168,
 			"invalid": 133,
-			"majority": 18351
+			"majority": 18351,
+			"candidates": [{
+				"name": "David Tredinnick",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31864
+			},{
+				"name": "Chris Kealey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13513
+			},{
+				"name": "Michael Mullaney",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9744
+			},{
+				"name": "Mick Gregg",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1047
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

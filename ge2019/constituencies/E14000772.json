@@ -1,6 +1,13 @@
 {
 	"id": "E14000772",
 	"title": "Kingston upon Hull North",
+	"demographics": {
+		"leave": 59.97,
+		"withdegree": 12.35,
+		"age18-29": 24.79,
+		"2015UKIP": 16.31,
+		"2016Leave": 59.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 57.5, "value": 37198 },
 			"valid": 37122,
 			"invalid": 76,
-			"majority": 14322
+			"majority": 14322,
+			"candidates": [{
+				"name": "Diana Johnson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23685
+			},{
+				"name": "Lia Nici-Townend",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9363
+			},{
+				"name": "Mike Ross",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1869
+			},{
+				"name": "John Kitchener",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1601
+			},{
+				"name": "Martin Deane",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 604
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

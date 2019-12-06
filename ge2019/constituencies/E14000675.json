@@ -1,6 +1,13 @@
 {
 	"id": "E14000675",
 	"title": "Ealing North",
+	"demographics": {
+		"leave": 46.26,
+		"withdegree": 21.89,
+		"age18-29": 17.56,
+		"2015UKIP": 8.08,
+		"2016Leave": 46.26
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.4, "value": 52668 },
 			"valid": 52516,
 			"invalid": 152,
-			"majority": 19693
+			"majority": 19693,
+			"candidates": [{
+				"name": "Stephen Pound",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34635
+			},{
+				"name": "Isobel Grant",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14942
+			},{
+				"name": "Humaira Sanders",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1275
+			},{
+				"name": "Peter McIlvenna",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 921
+			},{
+				"name": "Meena Hans",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 743
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000874",
 	"title": "Oxford West and Abingdon",
+	"demographics": {
+		"leave": 38.18,
+		"withdegree": 34.26,
+		"age18-29": 17.4,
+		"2015UKIP": 6.92,
+		"2016Leave": 38.18
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 79.6, "value": 60134 },
 			"valid": 60020,
 			"invalid": 114,
-			"majority": 816
+			"majority": 816,
+			"candidates": [{
+				"name": "Layla Moran",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 26256
+			},{
+				"name": "Nicola Blackwood",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25440
+			},{
+				"name": "Marie Tidball",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7573
+			},{
+				"name": "Alan Harris",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 751
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

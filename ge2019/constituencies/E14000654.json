@@ -1,6 +1,13 @@
 {
 	"id": "E14000654",
 	"title": "Croydon Central",
+	"demographics": {
+		"leave": 50.31,
+		"withdegree": 19.94,
+		"age18-29": 16.99,
+		"2015UKIP": 9.09,
+		"2016Leave": 50.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 71.5, "value": 57200 },
 			"valid": 57091,
 			"invalid": 109,
-			"majority": 5652
+			"majority": 5652,
+			"candidates": [{
+				"name": "Sarah Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29873
+			},{
+				"name": "Gavin Barwell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24221
+			},{
+				"name": "Gill Hickson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1083
+			},{
+				"name": "Peter Staveley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1040
+			},{
+				"name": "Tracey Hague",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 626
+			},{
+				"name": "John Boadu",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 177
+			},{
+				"name": "Don Locke",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 71
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

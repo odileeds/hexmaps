@@ -1,6 +1,13 @@
 {
 	"id": "E14000606",
 	"title": "Broxbourne",
+	"demographics": {
+		"leave": 65.82,
+		"withdegree": 10.98,
+		"age18-29": 14.23,
+		"2015UKIP": 19.72,
+		"2016Leave": 65.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 64.7, "value": 47587 },
 			"valid": 47485,
 			"invalid": 102,
-			"majority": 15792
+			"majority": 15792,
+			"candidates": [{
+				"name": "Charles Walker",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29515
+			},{
+				"name": "Selina Norgrove",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13723
+			},{
+				"name": "Tony Faulkner",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1918
+			},{
+				"name": "Andy Graham",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1481
+			},{
+				"name": "Tabitha Evans",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 848
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000661",
 	"title": "Denton and Reddish",
+	"demographics": {
+		"leave": 60.98,
+		"withdegree": 8.86,
+		"age18-29": 15.45,
+		"2015UKIP": 18.68,
+		"2016Leave": 60.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 60.3, "value": 39671 },
 			"valid": 39599,
 			"invalid": 72,
-			"majority": 14077
+			"majority": 14077,
+			"candidates": [{
+				"name": "Andrew Gwynne",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25161
+			},{
+				"name": "Rozila Kana",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11084
+			},{
+				"name": "Josh Seddon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1798
+			},{
+				"name": "Louise Ankers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 853
+			},{
+				"name": "Gareth Hayes",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 486
+			},{
+				"name": "Farmin Lord Dave",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 217
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

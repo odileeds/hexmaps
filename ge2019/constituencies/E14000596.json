@@ -1,6 +1,13 @@
 {
 	"id": "E14000596",
 	"title": "Brigg and Goole",
+	"demographics": {
+		"leave": 66.21,
+		"withdegree": 9.67,
+		"age18-29": 12.53,
+		"2015UKIP": 15.47,
+		"2016Leave": 66.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.3, "value": 45117 },
 			"valid": 45057,
 			"invalid": 60,
-			"majority": 12363
+			"majority": 12363,
+			"candidates": [{
+				"name": "Andrew Percy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27219
+			},{
+				"name": "Terence Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14856
+			},{
+				"name": "David Jeffreys",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1596
+			},{
+				"name": "Jerry Lonsdale",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 836
+			},{
+				"name": "Isabel Pires",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 550
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

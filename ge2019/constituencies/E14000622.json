@@ -1,6 +1,13 @@
 {
 	"id": "E14000622",
 	"title": "Castle Point",
+	"demographics": {
+		"leave": 72.7,
+		"withdegree": 6.02,
+		"age18-29": 12.51,
+		"2015UKIP": 31.19,
+		"2016Leave": 72.7
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 64.5, "value": 44797 },
 			"valid": 44710,
 			"invalid": 87,
-			"majority": 18872
+			"majority": 18872,
+			"candidates": [{
+				"name": "Rebecca Harris",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30076
+			},{
+				"name": "Joe Cooke",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11204
+			},{
+				"name": "David Kurten",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2381
+			},{
+				"name": "Tom Holder",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1049
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

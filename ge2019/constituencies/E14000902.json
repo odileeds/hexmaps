@@ -1,6 +1,13 @@
 {
 	"id": "E14000902",
 	"title": "Rossendale and Darwen",
+	"demographics": {
+		"leave": 58.59,
+		"withdegree": 13.46,
+		"age18-29": 13.91,
+		"2015UKIP": 14,
+		"2016Leave": 58.59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.4, "value": 50290 },
 			"valid": 50156,
 			"invalid": 134,
-			"majority": 3216
+			"majority": 3216,
+			"candidates": [{
+				"name": "Jake Berry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25499
+			},{
+				"name": "Alyson Barnes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22283
+			},{
+				"name": "Sean Bonner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1550
+			},{
+				"name": "John Payne",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 824
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

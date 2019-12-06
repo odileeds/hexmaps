@@ -1,6 +1,13 @@
 {
 	"id": "E14000614",
 	"title": "Calder Valley",
+	"demographics": {
+		"leave": 53.16,
+		"withdegree": 18.56,
+		"age18-29": 12.14,
+		"2015UKIP": 11.11,
+		"2016Leave": 53.16
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 73.6, "value": 58169 },
 			"valid": 58054,
 			"invalid": 115,
-			"majority": 609
+			"majority": 609,
+			"candidates": [{
+				"name": "Craig Whittaker",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26790
+			},{
+				"name": "Josh Fenton-Glynn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26181
+			},{
+				"name": "Janet Battye",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1952
+			},{
+				"name": "Paul Rogan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1466
+			},{
+				"name": "Robert Holden",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1034
+			},{
+				"name": "Kieran Turner",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 631
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

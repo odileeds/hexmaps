@@ -1,6 +1,13 @@
 {
 	"id": "E14001024",
 	"title": "Weaver Vale",
+	"demographics": {
+		"leave": 50.2,
+		"withdegree": 16.27,
+		"age18-29": 12.63,
+		"2015UKIP": 9.7,
+		"2016Leave": 50.2
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 73.5, "value": 50721 },
 			"valid": 50613,
 			"invalid": 108,
-			"majority": 3928
+			"majority": 3928,
+			"candidates": [{
+				"name": "Mike Amesbury",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26066
+			},{
+				"name": "Graham Evans",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22138
+			},{
+				"name": "Paul  Roberts ",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1623
+			},{
+				"name": "Christopher Copeman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 786
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

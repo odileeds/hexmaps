@@ -1,6 +1,13 @@
 {
 	"id": "E14000906",
 	"title": "Ruislip, Northwood and Pinner",
+	"demographics": {
+		"leave": 49.02,
+		"withdegree": 27.25,
+		"age18-29": 12.64,
+		"2015UKIP": 10.93,
+		"2016Leave": 49.02
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 72.9, "value": 53528 },
 			"valid": 53382,
 			"invalid": 146,
-			"majority": 13980
+			"majority": 13980,
+			"candidates": [{
+				"name": "Nick Hurd",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30555
+			},{
+				"name": "Rebecca Lury",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16575
+			},{
+				"name": "Alex Cunliffe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3813
+			},{
+				"name": "Sarah Green",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1268
+			},{
+				"name": "Richard Braine",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1171
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

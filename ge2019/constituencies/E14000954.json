@@ -1,6 +1,13 @@
 {
 	"id": "E14000954",
 	"title": "South West Wiltshire",
+	"demographics": {
+		"leave": 57.69,
+		"withdegree": 13.06,
+		"age18-29": 12.64,
+		"2015UKIP": 17.49,
+		"2016Leave": 57.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 71.4, "value": 54897 },
 			"valid": 54751,
 			"invalid": 146,
-			"majority": 18326
+			"majority": 18326,
+			"candidates": [{
+				"name": "Andrew Murrison",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32841
+			},{
+				"name": "Laura Pictor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14515
+			},{
+				"name": "Trevor Carbin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5360
+			},{
+				"name": "Christopher Walford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1445
+			},{
+				"name": "Liam Silcocks",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 590
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

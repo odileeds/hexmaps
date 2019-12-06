@@ -1,6 +1,13 @@
 {
 	"id": "E14000751",
 	"title": "Hornchurch and Upminster",
+	"demographics": {
+		"leave": 69.49,
+		"withdegree": 10.48,
+		"age18-29": 13.87,
+		"2015UKIP": 25.3,
+		"2016Leave": 69.49
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 69.5, "value": 56155 },
 			"valid": 56045,
 			"invalid": 110,
-			"majority": 17723
+			"majority": 17723,
+			"candidates": [{
+				"name": "Julia Dockerill",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33750
+			},{
+				"name": "Rocky Gill",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16027
+			},{
+				"name": "Lawrence Webb",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3502
+			},{
+				"name": "Jonathan Mitchell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1371
+			},{
+				"name": "Peter Caton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1077
+			},{
+				"name": "David Furness",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 318
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

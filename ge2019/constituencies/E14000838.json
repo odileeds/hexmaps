@@ -1,6 +1,13 @@
 {
 	"id": "E14000838",
 	"title": "North Devon",
+	"demographics": {
+		"leave": 57.04,
+		"withdegree": 11.47,
+		"age18-29": 12.23,
+		"2015UKIP": 14.75,
+		"2016Leave": 57.04
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 73.6, "value": 55771 },
 			"valid": 55705,
 			"invalid": 66,
-			"majority": 4332
+			"majority": 4332,
+			"candidates": [{
+				"name": "Peter Heaton-Jones",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25517
+			},{
+				"name": "Nick Harvey",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 21185
+			},{
+				"name": "Mark Cann",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7063
+			},{
+				"name": "Stephen Crowther",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1187
+			},{
+				"name": "Ricky Knight",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 753
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000061",
 	"title": "Dwyfor Meirionnydd",
+	"demographics": {
+		"leave": 48.37,
+		"withdegree": 13.16,
+		"age18-29": 11.25,
+		"2015UKIP": 10.81,
+		"2016Leave": 48.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.0, "value": 30415 },
 			"valid": 30348,
 			"invalid": 67,
-			"majority": 4850
+			"majority": 4850,
+			"candidates": [{
+				"name": "Liz Saville Roberts",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 13687
+			},{
+				"name": "Neil Fairlamb",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8837
+			},{
+				"name": "Mathew Norman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6273
+			},{
+				"name": "Stephen Churchman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 937
+			},{
+				"name": "Frank Wykes",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 614
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

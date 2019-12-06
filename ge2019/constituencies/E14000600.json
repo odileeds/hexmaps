@@ -1,6 +1,13 @@
 {
 	"id": "E14000600",
 	"title": "Bristol North West",
+	"demographics": {
+		"leave": 38.85,
+		"withdegree": 22.43,
+		"age18-29": 17.56,
+		"2015UKIP": 9.44,
+		"2016Leave": 38.85
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.9, "value": 54228 },
 			"valid": 54096,
 			"invalid": 132,
-			"majority": 4761
+			"majority": 4761,
+			"candidates": [{
+				"name": "Darren Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27400
+			},{
+				"name": "Charlotte Leslie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22639
+			},{
+				"name": "Celia Downie",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2814
+			},{
+				"name": "Sharmila Bousa",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1243
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

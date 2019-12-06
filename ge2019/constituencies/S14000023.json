@@ -1,6 +1,13 @@
 {
 	"id": "S14000023",
 	"title": "Edinburgh North and Leith",
+	"demographics": {
+		"leave": 21.8,
+		"withdegree": ,
+		"age18-29": 24.03,
+		"2015UKIP": 1.46,
+		"2016Leave": 21.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 71.2, "value": 56624 },
 			"valid": 56552,
 			"invalid": 72,
-			"majority": 1625
+			"majority": 1625,
+			"candidates": [{
+				"name": "Deidre Brock",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 19243
+			},{
+				"name": "Gordon Munro",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 17618
+			},{
+				"name": "Iain McGill",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15385
+			},{
+				"name": "Martin Veart",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2579
+			},{
+				"name": "Lorna Slater",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1727
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

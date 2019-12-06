@@ -1,6 +1,13 @@
 {
 	"id": "E14000858",
 	"title": "North West Leicestershire",
+	"demographics": {
+		"leave": 60.7,
+		"withdegree": 13.15,
+		"age18-29": 12.45,
+		"2015UKIP": 16.89,
+		"2016Leave": 60.7
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 71.2, "value": 53694 },
 			"valid": 53541,
 			"invalid": 153,
-			"majority": 13286
+			"majority": 13286,
+			"candidates": [{
+				"name": "Andrew Bridgen",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31153
+			},{
+				"name": "Sean Sheahan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17867
+			},{
+				"name": "Michael Wyatt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3420
+			},{
+				"name": "Mia Woolley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1101
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

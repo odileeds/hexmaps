@@ -1,6 +1,13 @@
 {
 	"id": "E14000746",
 	"title": "Hexham",
+	"demographics": {
+		"leave": 45.39,
+		"withdegree": 22.06,
+		"age18-29": 10.64,
+		"2015UKIP": 9.93,
+		"2016Leave": 45.39
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 75.8, "value": 46303 },
 			"valid": 46224,
 			"invalid": 79,
-			"majority": 9236
+			"majority": 9236,
+			"candidates": [{
+				"name": "Guy Opperman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24996
+			},{
+				"name": "Stephen Powers",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 15760
+			},{
+				"name": "Fiona Hall",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3285
+			},{
+				"name": "Wesley Foot",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1253
+			},{
+				"name": "Stuart Miles",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 930
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000888",
 	"title": "Rayleigh and Wickford",
+	"demographics": {
+		"leave": 67.89,
+		"withdegree": 9.07,
+		"age18-29": 11.77,
+		"2015UKIP": 22.28,
+		"2016Leave": 67.89
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.5, "value": 55419 },
 			"valid": 55323,
 			"invalid": 96,
-			"majority": 23450
+			"majority": 23450,
+			"candidates": [{
+				"name": "Mark Francois",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36914
+			},{
+				"name": "Mark Daniels",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13464
+			},{
+				"name": "Peter Smith",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2326
+			},{
+				"name": "Ron Tindall",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1557
+			},{
+				"name": "Paul Hill",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1062
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

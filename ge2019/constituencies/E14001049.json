@@ -1,6 +1,13 @@
 {
 	"id": "E14001049",
 	"title": "Wolverhampton North East",
+	"demographics": {
+		"leave": 67.71,
+		"withdegree": 7.77,
+		"age18-29": 17.04,
+		"2015UKIP": 19.19,
+		"2016Leave": 67.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 60.2, "value": 36593 },
 			"valid": 36508,
 			"invalid": 85,
-			"majority": 4587
+			"majority": 4587,
+			"candidates": [{
+				"name": "Emma Reynolds",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19282
+			},{
+				"name": "Sarah Macken",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14695
+			},{
+				"name": "Graham Eardley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1479
+			},{
+				"name": "Ian Jenkins",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 570
+			},{
+				"name": "Clive Wood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 482
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

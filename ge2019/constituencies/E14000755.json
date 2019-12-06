@@ -1,6 +1,13 @@
 {
 	"id": "E14000755",
 	"title": "Hove",
+	"demographics": {
+		"leave": 33.92,
+		"withdegree": 28.67,
+		"age18-29": 16.18,
+		"2015UKIP": 6.25,
+		"2016Leave": 33.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 77.7, "value": 57716 },
 			"valid": 57596,
 			"invalid": 120,
-			"majority": 18757
+			"majority": 18757,
+			"candidates": [{
+				"name": "Peter Kyle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 36942
+			},{
+				"name": "Kristy Adams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18185
+			},{
+				"name": "Carrie Hynds",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1311
+			},{
+				"name": "Phelim Mac Cafferty",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 971
+			},{
+				"name": "Charley Sabel",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 187
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

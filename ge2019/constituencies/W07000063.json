@@ -1,6 +1,13 @@
 {
 	"id": "W07000063",
 	"title": "Montgomeryshire",
+	"demographics": {
+		"leave": 55.99,
+		"withdegree": 12.71,
+		"age18-29": 11.74,
+		"2015UKIP": 11.17,
+		"2016Leave": 55.99
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.9, "value": 34966 },
 			"valid": 34891,
 			"invalid": 75,
-			"majority": 9285
+			"majority": 9285,
+			"candidates": [{
+				"name": "Glyn Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18075
+			},{
+				"name": "Jane Dodds",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8790
+			},{
+				"name": "Iwan Wyn Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5542
+			},{
+				"name": "Aled Morgan Hughes",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1960
+			},{
+				"name": "Richard Chaloner",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 524
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

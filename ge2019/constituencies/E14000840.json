@@ -1,6 +1,13 @@
 {
 	"id": "E14000840",
 	"title": "North Durham",
+	"demographics": {
+		"leave": 60.13,
+		"withdegree": 10.19,
+		"age18-29": 13.95,
+		"2015UKIP": 15.95,
+		"2016Leave": 60.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 64.8, "value": 43372 },
 			"valid": 43284,
 			"invalid": 88,
-			"majority": 12939
+			"majority": 12939,
+			"candidates": [{
+				"name": "Kevan Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25917
+			},{
+				"name": "Laetitia Glossop",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12978
+			},{
+				"name": "Kenneth Rollings",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2408
+			},{
+				"name": "Craig Martin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1981
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000887",
 	"title": "Putney",
+	"demographics": {
+		"leave": 26.85,
+		"withdegree": 44.21,
+		"age18-29": 23.68,
+		"2015UKIP": 4.65,
+		"2016Leave": 26.85
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,32 @@
 			"turnout": { "pc": 72.3, "value": 47006 },
 			"valid": 46894,
 			"invalid": 112,
-			"majority": 1554
+			"majority": 1554,
+			"candidates": [{
+				"name": "Justine Greening",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20679
+			},{
+				"name": "Neeraj Patil",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19125
+			},{
+				"name": "Ryan Mercer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5448
+			},{
+				"name": "Ben Fletcher",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1107
+			},{
+				"name": "Patricia Ward",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 477
+			},{
+				"name": "Lotta Quizeen",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 58
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

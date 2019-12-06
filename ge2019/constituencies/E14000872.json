@@ -1,6 +1,13 @@
 {
 	"id": "E14000872",
 	"title": "Orpington",
+	"demographics": {
+		"leave": 57.54,
+		"withdegree": 16.31,
+		"age18-29": 11.7,
+		"2015UKIP": 16.67,
+		"2016Leave": 57.54
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 74.5, "value": 50565 },
 			"valid": 50461,
 			"invalid": 104,
-			"majority": 19461
+			"majority": 19461,
+			"candidates": [{
+				"name": "Joseph Johnson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31762
+			},{
+				"name": "Nigel de Gruchy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12301
+			},{
+				"name": "Alex Feakes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3315
+			},{
+				"name": "Brian Philp",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2023
+			},{
+				"name": "Tamara Galloway",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1060
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

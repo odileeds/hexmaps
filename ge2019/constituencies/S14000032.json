@@ -1,6 +1,13 @@
 {
 	"id": "S14000032",
 	"title": "Glasgow North East",
+	"demographics": {
+		"leave": 40.66,
+		"withdegree": ,
+		"age18-29": 19.61,
+		"2015UKIP": ,
+		"2016Leave": 40.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 53.1, "value": 31832 },
 			"valid": 31775,
 			"invalid": 57,
-			"majority": 242
+			"majority": 242,
+			"candidates": [{
+				"name": "Paul Sweeney",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 13637
+			},{
+				"name": "Anne McLaughlin",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 13395
+			},{
+				"name": "Jack Wyllie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4106
+			},{
+				"name": "Daniel Donaldson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 637
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

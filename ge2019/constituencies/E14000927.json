@@ -1,6 +1,13 @@
 {
 	"id": "E14000927",
 	"title": "Sittingbourne and Sheppey",
+	"demographics": {
+		"leave": 65.76,
+		"withdegree": 7.56,
+		"age18-29": 14.56,
+		"2015UKIP": 24.82,
+		"2016Leave": 65.76
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,36 @@
 			"turnout": { "pc": 63.0, "value": 51466 },
 			"valid": 51389,
 			"invalid": 77,
-			"majority": 15211
+			"majority": 15211,
+			"candidates": [{
+				"name": "Gordon Henderson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30911
+			},{
+				"name": "Mike Rolfe",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15700
+			},{
+				"name": "Mike  Baldock",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2133
+			},{
+				"name": "Keith Nevols",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1392
+			},{
+				"name": "Mark Lindop",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 558
+			},{
+				"name": "Mad Mike Young",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 403
+			},{
+				"name": "Lee McCall",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 292
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000059",
 	"title": "West Dunbartonshire",
+	"demographics": {
+		"leave": 38.01,
+		"withdegree": ,
+		"age18-29": 15.44,
+		"2015UKIP": ,
+		"2016Leave": 38.01
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 65.3, "value": 44169 },
 			"valid": 44083,
 			"invalid": 86,
-			"majority": 2288
+			"majority": 2288,
+			"candidates": [{
+				"name": "Martin Docherty-Hughes",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18890
+			},{
+				"name": "Jean Anne Mitchell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16602
+			},{
+				"name": "Penny Hutton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7582
+			},{
+				"name": "Rebecca  Plenderleith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1009
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

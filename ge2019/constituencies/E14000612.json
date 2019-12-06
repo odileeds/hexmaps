@@ -1,6 +1,13 @@
 {
 	"id": "E14000612",
 	"title": "Bury South",
+	"demographics": {
+		"leave": 54.53,
+		"withdegree": 15.64,
+		"age18-29": 14.52,
+		"2015UKIP": 13.34,
+		"2016Leave": 54.53
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -58,7 +65,28 @@
 			"turnout": { "pc": 69.3, "value": 51113 },
 			"valid": 50990,
 			"invalid": 123,
-			"majority": 5965
+			"majority": 5965,
+			"candidates": [{
+				"name": "Ivan Lewis",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27165
+			},{
+				"name": "Robert Largan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21200
+			},{
+				"name": "Ian Henderson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1316
+			},{
+				"name": "Andrew Page",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1065
+			},{
+				"name": "Peter Wright",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 244
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

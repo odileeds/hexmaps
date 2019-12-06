@@ -1,6 +1,13 @@
 {
 	"id": "S14000054",
 	"title": "Perth and North Perthshire",
+	"demographics": {
+		"leave": 40.17,
+		"withdegree": ,
+		"age18-29": 14.13,
+		"2015UKIP": 2.05,
+		"2016Leave": 40.17
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 71.9, "value": 51624 },
 			"valid": 51525,
 			"invalid": 99,
-			"majority": 21
+			"majority": 21,
+			"candidates": [{
+				"name": "Pete Wishart",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 21804
+			},{
+				"name": "Ian  Duncan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21783
+			},{
+				"name": "David Roemmele",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5349
+			},{
+				"name": "Peter Barrett",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2589
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

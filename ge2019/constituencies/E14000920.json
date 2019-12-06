@@ -1,6 +1,13 @@
 {
 	"id": "E14000920",
 	"title": "Sheffield South East",
+	"demographics": {
+		"leave": 66.49,
+		"withdegree": 8.42,
+		"age18-29": 14.12,
+		"2015UKIP": 21.9,
+		"2016Leave": 66.49
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 63.4, "value": 43686 },
 			"valid": 43596,
 			"invalid": 90,
-			"majority": 11798
+			"majority": 11798,
+			"candidates": [{
+				"name": "Clive Betts",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25520
+			},{
+				"name": "Lindsey Cawrey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13722
+			},{
+				"name": "Dennise Dawson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2820
+			},{
+				"name": "Colin Ross",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1432
+			},{
+				"name": "Ishleen Oberoi",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 102
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

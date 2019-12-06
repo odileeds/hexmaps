@@ -1,6 +1,13 @@
 {
 	"id": "S14000018",
 	"title": "East Dunbartonshire",
+	"demographics": {
+		"leave": 26.7,
+		"withdegree": ,
+		"age18-29": 11.58,
+		"2015UKIP": 1.03,
+		"2016Leave": 26.7
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,24 @@
 			"turnout": { "pc": 78.2, "value": 51869 },
 			"valid": 51801,
 			"invalid": 68,
-			"majority": 5339
+			"majority": 5339,
+			"candidates": [{
+				"name": "Jo Swinson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 21023
+			},{
+				"name": "John Nicolson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15684
+			},{
+				"name": "Sheila Mechan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7563
+			},{
+				"name": "Callum McNally",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7531
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

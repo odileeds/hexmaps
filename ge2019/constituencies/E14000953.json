@@ -1,6 +1,13 @@
 {
 	"id": "E14000953",
 	"title": "South West Surrey",
+	"demographics": {
+		"leave": 40.61,
+		"withdegree": 28.04,
+		"age18-29": 10.94,
+		"2015UKIP": 9.88,
+		"2016Leave": 40.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,28 @@
 			"turnout": { "pc": 77.6, "value": 60583 },
 			"valid": 60432,
 			"invalid": 151,
-			"majority": 21590
+			"majority": 21590,
+			"candidates": [{
+				"name": "Jeremy Hunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33683
+			},{
+				"name": "Louise Irvine",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 12093
+			},{
+				"name": "David Black",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7606
+			},{
+				"name": "Ollie Purkiss",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5967
+			},{
+				"name": "Mark Webber",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1083
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000641",
 	"title": "City of Durham",
+	"demographics": {
+		"leave": 44.35,
+		"withdegree": 19.59,
+		"age18-29": 23.96,
+		"2015UKIP": 11.46,
+		"2016Leave": 44.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 68.1, "value": 48410 },
 			"valid": 48324,
 			"invalid": 86,
-			"majority": 12364
+			"majority": 12364,
+			"candidates": [{
+				"name": "Roberta Blackman-Woods",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26772
+			},{
+				"name": "Richard Lawrie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14408
+			},{
+				"name": "Amanda Hopgood",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4787
+			},{
+				"name": "Malcolm Bint",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1116
+			},{
+				"name": "Jonathan  Elmer",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 797
+			},{
+				"name": "Jim Clark",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 399
+			},{
+				"name": "Jon Collings",
+				"party": { "code": "Young People's Party", "title": "Young People's Party" },
+				"votes": 45
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

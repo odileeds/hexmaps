@@ -1,6 +1,13 @@
 {
 	"id": "W07000078",
 	"title": "Vale of Glamorgan",
+	"demographics": {
+		"leave": 52.35,
+		"withdegree": 15.55,
+		"age18-29": 13.68,
+		"2015UKIP": 10.7,
+		"2016Leave": 52.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,40 @@
 			"turnout": { "pc": 72.7, "value": 53781 },
 			"valid": 53718,
 			"invalid": 63,
-			"majority": 2190
+			"majority": 2190,
+			"candidates": [{
+				"name": "Alun Cairns",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25501
+			},{
+				"name": "Camilla Beaven",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23311
+			},{
+				"name": "Ian Johnson",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2295
+			},{
+				"name": "Jennifer Geroni",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1020
+			},{
+				"name": "Melanie Hunter-Clarke",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 868
+			},{
+				"name": "Stephen Davis-Barker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 419
+			},{
+				"name": "Sharon Lovell",
+				"party": { "code": "WEP", "title": "Women's Equality Party" },
+				"votes": 177
+			},{
+				"name": "David Elston",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 127
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000799",
 	"title": "Ludlow",
+	"demographics": {
+		"leave": 58.58,
+		"withdegree": 15.86,
+		"age18-29": 10.66,
+		"2015UKIP": 14.91,
+		"2016Leave": 58.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.7, "value": 50110 },
 			"valid": 49970,
 			"invalid": 140,
-			"majority": 19286
+			"majority": 19286,
+			"candidates": [{
+				"name": "Philip Dunne",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31433
+			},{
+				"name": "Julia Buckley",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12147
+			},{
+				"name": "Heather Kidd",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5336
+			},{
+				"name": "Hilary Wendt",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1054
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

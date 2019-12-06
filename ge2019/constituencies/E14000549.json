@@ -1,6 +1,13 @@
 {
 	"id": "E14000549",
 	"title": "Battersea",
+	"demographics": {
+		"leave": 23.04,
+		"withdegree": 51.1,
+		"age18-29": 26.96,
+		"2015UKIP": 3.11,
+		"2016Leave": 23.04
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 71.1, "value": 55170 },
 			"valid": 55058,
 			"invalid": 112,
-			"majority": 2416
+			"majority": 2416,
+			"candidates": [{
+				"name": "Marsha De Cordova",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25292
+			},{
+				"name": "Jane Ellison",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22876
+			},{
+				"name": "Richard Davis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4401
+			},{
+				"name": "Chris Coghlan",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1234
+			},{
+				"name": "Lois Davis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 866
+			},{
+				"name": "Eugene Power",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 357
+			},{
+				"name": "Daniel Lambert",
+				"party": { "code": "The Socialist Party of Great Britain", "title": "The Socialist Party of Great Britain" },
+				"votes": 32
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000775",
 	"title": "Knowsley",
+	"demographics": {
+		"leave": 52.44,
+		"withdegree": 6.99,
+		"age18-29": 16.08,
+		"2015UKIP": 9.8,
+		"2016Leave": 52.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 67.9, "value": 55551 },
 			"valid": 55483,
 			"invalid": 68,
-			"majority": 42214
+			"majority": 42214,
+			"candidates": [{
+				"name": "George Howarth",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 47351
+			},{
+				"name": "James Spencer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5137
+			},{
+				"name": "Neil Miney",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1285
+			},{
+				"name": "Carl Cashman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1189
+			},{
+				"name": "Steve Baines",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 521
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000919",
 	"title": "Sheffield Central",
+	"demographics": {
+		"leave": 30.41,
+		"withdegree": 27.48,
+		"age18-29": 43.57,
+		"2015UKIP": 7.46,
+		"2016Leave": 30.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,40 @@
 			"turnout": { "pc": 61.9, "value": 48014 },
 			"valid": 47877,
 			"invalid": 137,
-			"majority": 27748
+			"majority": 27748,
+			"candidates": [{
+				"name": "Paul Blomfield",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33963
+			},{
+				"name": "Stephanie Roe",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6215
+			},{
+				"name": "Natalie Bennett",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 3848
+			},{
+				"name": "Shaffaq Mohammed",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2465
+			},{
+				"name": "Dominic Cook",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1060
+			},{
+				"name": "Jack Carrington",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 197
+			},{
+				"name": "Robert Moran",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 91
+			},{
+				"name": "Joe Westnidge",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 38
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

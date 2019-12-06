@@ -1,6 +1,13 @@
 {
 	"id": "E14000745",
 	"title": "Hertsmere",
+	"demographics": {
+		"leave": 50.84,
+		"withdegree": 20.56,
+		"age18-29": 14.06,
+		"2015UKIP": 12.74,
+		"2016Leave": 50.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 71.2, "value": 52389 },
 			"valid": 52253,
 			"invalid": 136,
-			"majority": 16951
+			"majority": 16951,
+			"candidates": [{
+				"name": "Oliver Dowden",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31928
+			},{
+				"name": "Fiona Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14977
+			},{
+				"name": "Joe Jordan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2794
+			},{
+				"name": "David Hoy",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1564
+			},{
+				"name": "Sophie Summerhayes",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 990
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

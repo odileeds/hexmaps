@@ -1,6 +1,13 @@
 {
 	"id": "E14000692",
 	"title": "Enfield, Southgate",
+	"demographics": {
+		"leave": 37.88,
+		"withdegree": 28.76,
+		"age18-29": 17.85,
+		"2015UKIP": 4.6,
+		"2016Leave": 37.88
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.4, "value": 48486 },
 			"valid": 48328,
 			"invalid": 158,
-			"majority": 4355
+			"majority": 4355,
+			"candidates": [{
+				"name": "Bambos Charalambous",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24989
+			},{
+				"name": "David Burrowes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20634
+			},{
+				"name": "Pippa Morgan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1925
+			},{
+				"name": "David Flint",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 780
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

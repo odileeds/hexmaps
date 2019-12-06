@@ -1,6 +1,13 @@
 {
 	"id": "E14000859",
 	"title": "North West Norfolk",
+	"demographics": {
+		"leave": 66.14,
+		"withdegree": 8.92,
+		"age18-29": 13.12,
+		"2015UKIP": 17.76,
+		"2016Leave": 66.14
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 67.8, "value": 48891 },
 			"valid": 48811,
 			"invalid": 80,
-			"majority": 13788
+			"majority": 13788,
+			"candidates": [{
+				"name": "Henry Bellingham",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29408
+			},{
+				"name": "Jo Rust",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15620
+			},{
+				"name": "Michael Stone",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1539
+			},{
+				"name": "Rupert Moss-Eccardt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1393
+			},{
+				"name": "Andrew de Whalley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 851
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

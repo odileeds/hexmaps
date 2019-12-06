@@ -1,6 +1,13 @@
 {
 	"id": "E14000686",
 	"title": "Eddisbury",
+	"demographics": {
+		"leave": 52.23,
+		"withdegree": 17.87,
+		"age18-29": 11.36,
+		"2015UKIP": 12.2,
+		"2016Leave": 52.23
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,32 @@
 			"turnout": { "pc": 73.2, "value": 51404 },
 			"valid": 51319,
 			"invalid": 85,
-			"majority": 11942
+			"majority": 11942,
+			"candidates": [{
+				"name": "Antoinette Sandbach",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29192
+			},{
+				"name": "Cathy Reynolds",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17250
+			},{
+				"name": "Ian Priestner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2804
+			},{
+				"name": "John Bickley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1109
+			},{
+				"name": "Mark Green",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 785
+			},{
+				"name": "Morgan Hill",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 179
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

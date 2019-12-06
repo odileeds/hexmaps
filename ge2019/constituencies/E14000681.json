@@ -1,6 +1,13 @@
 {
 	"id": "E14000681",
 	"title": "East Surrey",
+	"demographics": {
+		"leave": 54.19,
+		"withdegree": 18.5,
+		"age18-29": 12.17,
+		"2015UKIP": 17.03,
+		"2016Leave": 54.19
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,32 @@
 			"turnout": { "pc": 72.3, "value": 59324 },
 			"valid": 59203,
 			"invalid": 121,
-			"majority": 23914
+			"majority": 23914,
+			"candidates": [{
+				"name": "Sam Gyimah",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35310
+			},{
+				"name": "Hitesh Tailor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11396
+			},{
+				"name": "David Lee",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6197
+			},{
+				"name": "Andy Parr",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 2973
+			},{
+				"name": "Helena Windsor",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2227
+			},{
+				"name": "Benedict Southworth",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1100
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

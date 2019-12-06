@@ -1,6 +1,13 @@
 {
 	"id": "S14000016",
 	"title": "Dundee West",
+	"demographics": {
+		"leave": 41.15,
+		"withdegree": ,
+		"age18-29": 25.84,
+		"2015UKIP": ,
+		"2016Leave": 41.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 61.9, "value": 38776 },
 			"valid": 38677,
 			"invalid": 99,
-			"majority": 5262
+			"majority": 5262,
+			"candidates": [{
+				"name": "Chris Law",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18045
+			},{
+				"name": "Alan Cowan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12783
+			},{
+				"name": "Darren Cormack",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6257
+			},{
+				"name": "Jenny Blain",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1189
+			},{
+				"name": "Sean Dobson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 403
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

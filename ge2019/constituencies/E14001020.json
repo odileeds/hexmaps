@@ -1,6 +1,13 @@
 {
 	"id": "E14001020",
 	"title": "Washington and Sunderland West",
+	"demographics": {
+		"leave": 61.85,
+		"withdegree": 7.99,
+		"age18-29": 15.09,
+		"2015UKIP": 19.65,
+		"2016Leave": 61.85
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 60.4, "value": 40648 },
 			"valid": 40574,
 			"invalid": 74,
-			"majority": 12940
+			"majority": 12940,
+			"candidates": [{
+				"name": "Sharon Hodgson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24639
+			},{
+				"name": "Jonathan Gullis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11699
+			},{
+				"name": "Bryan Foster",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2761
+			},{
+				"name": "Tom Appleby",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 961
+			},{
+				"name": "Michal Chantkowski",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 514
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

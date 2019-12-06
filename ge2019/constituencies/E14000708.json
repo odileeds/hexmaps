@@ -1,6 +1,13 @@
 {
 	"id": "E14000708",
 	"title": "Garston and Halewood",
+	"demographics": {
+		"leave": 47.88,
+		"withdegree": 13.67,
+		"age18-29": 15.5,
+		"2015UKIP": 9.15,
+		"2016Leave": 47.88
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 71.3, "value": 53665 },
 			"valid": 53522,
 			"invalid": 143,
-			"majority": 32149
+			"majority": 32149,
+			"candidates": [{
+				"name": "Maria Eagle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 41599
+			},{
+				"name": "Adam Marsden",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9450
+			},{
+				"name": "Anna Martin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1723
+			},{
+				"name": "Lawrence Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 750
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

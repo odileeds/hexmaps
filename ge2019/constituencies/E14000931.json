@@ -1,6 +1,13 @@
 {
 	"id": "E14000931",
 	"title": "Solihull",
+	"demographics": {
+		"leave": 53.35,
+		"withdegree": 18.74,
+		"age18-29": 12.41,
+		"2015UKIP": 11.61,
+		"2016Leave": 53.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 73.1, "value": 56868 },
 			"valid": 56748,
 			"invalid": 120,
-			"majority": 20571
+			"majority": 20571,
+			"candidates": [{
+				"name": "Julian Knight",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32985
+			},{
+				"name": "Nigel Knowles",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12414
+			},{
+				"name": "Ade Adeyemo",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8901
+			},{
+				"name": "Andrew Garcarz",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1291
+			},{
+				"name": "Max McLoughlin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1157
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

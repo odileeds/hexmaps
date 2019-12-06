@@ -1,6 +1,13 @@
 {
 	"id": "E14000852",
 	"title": "North Thanet",
+	"demographics": {
+		"leave": 64.97,
+		"withdegree": 9.23,
+		"age18-29": 12.67,
+		"2015UKIP": 25.71,
+		"2016Leave": 64.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 66.6, "value": 48407 },
 			"valid": 48325,
 			"invalid": 82,
-			"majority": 10738
+			"majority": 10738,
+			"candidates": [{
+				"name": "Roger Gale",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27163
+			},{
+				"name": "Frances Rehal",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16425
+			},{
+				"name": "Clive Egan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2198
+			},{
+				"name": "Martyn Pennington",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1586
+			},{
+				"name": "Ed Targett",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 825
+			},{
+				"name": "Iris White",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 128
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

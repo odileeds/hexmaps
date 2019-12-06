@@ -1,6 +1,13 @@
 {
 	"id": "E14000773",
 	"title": "Kingston upon Hull West and Hessle",
+	"demographics": {
+		"leave": 67.84,
+		"withdegree": 8.6,
+		"age18-29": 18,
+		"2015UKIP": 19.85,
+		"2016Leave": 67.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 57.5, "value": 34613 },
 			"valid": 34565,
 			"invalid": 48,
-			"majority": 8025
+			"majority": 8025,
+			"candidates": [{
+				"name": "Emma Hardy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18342
+			},{
+				"name": "Christine Mackay",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10317
+			},{
+				"name": "Claire Thomas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2210
+			},{
+				"name": "Michelle Dewberry",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1898
+			},{
+				"name": "Gary Shores",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1399
+			},{
+				"name": "Mike Lammiman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 332
+			},{
+				"name": "Will Taylor",
+				"party": { "code": "Libertaria", "title": "Libertarian Party" },
+				"votes": 67
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

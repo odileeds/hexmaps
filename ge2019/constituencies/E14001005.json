@@ -1,6 +1,13 @@
 {
 	"id": "E14001005",
 	"title": "Twickenham",
+	"demographics": {
+		"leave": 33.68,
+		"withdegree": 39.65,
+		"age18-29": 14.06,
+		"2015UKIP": 4.95,
+		"2016Leave": 33.68
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,20 @@
 			"turnout": { "pc": 79.7, "value": 66433 },
 			"valid": 66290,
 			"invalid": 143,
-			"majority": 9762
+			"majority": 9762,
+			"candidates": [{
+				"name": "Vince Cable",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 34969
+			},{
+				"name": "Tania Mathias",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25207
+			},{
+				"name": "Katherine Dunne",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6114
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

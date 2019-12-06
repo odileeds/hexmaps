@@ -1,6 +1,13 @@
 {
 	"id": "E14000685",
 	"title": "Eastleigh",
+	"demographics": {
+		"leave": 54.02,
+		"withdegree": 14.33,
+		"age18-29": 14.43,
+		"2015UKIP": 15.82,
+		"2016Leave": 54.02
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.7, "value": 57416 },
 			"valid": 57280,
 			"invalid": 136,
-			"majority": 14179
+			"majority": 14179,
+			"candidates": [{
+				"name": "Mims Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28889
+			},{
+				"name": "Mike Thornton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 14710
+			},{
+				"name": "Jill Payne",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11454
+			},{
+				"name": "Malcolm  Jones",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1477
+			},{
+				"name": "Ron Meldrum",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 750
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

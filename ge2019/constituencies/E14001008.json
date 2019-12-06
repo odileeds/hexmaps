@@ -1,6 +1,13 @@
 {
 	"id": "E14001008",
 	"title": "Vauxhall",
+	"demographics": {
+		"leave": 22.43,
+		"withdegree": 42.81,
+		"age18-29": 29.36,
+		"2015UKIP": 2.89,
+		"2016Leave": 22.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 67.3, "value": 55206 },
 			"valid": 55042,
 			"invalid": 164,
-			"majority": 20250
+			"majority": 20250,
+			"candidates": [{
+				"name": "Kate Hoey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31576
+			},{
+				"name": "George Turner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11326
+			},{
+				"name": "Dolly Theis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10277
+			},{
+				"name": "Gulnar Hasnain",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1152
+			},{
+				"name": "Harini Iyengar",
+				"party": { "code": "WEP", "title": "Women's Equality Party" },
+				"votes": 539
+			},{
+				"name": "Mark Chapman",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 172
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

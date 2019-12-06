@@ -1,6 +1,13 @@
 {
 	"id": "E14000590",
 	"title": "Braintree",
+	"demographics": {
+		"leave": 61.43,
+		"withdegree": 10.87,
+		"age18-29": 13.08,
+		"2015UKIP": 18.82,
+		"2016Leave": 61.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 69.6, "value": 52400 },
 			"valid": 52326,
 			"invalid": 74,
-			"majority": 18422
+			"majority": 18422,
+			"candidates": [{
+				"name": "James Cleverly",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32873
+			},{
+				"name": "Malcolm Fincken",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14451
+			},{
+				"name": "Peter  Turner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2251
+			},{
+				"name": "Richard Bingley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1835
+			},{
+				"name": "Thomas Pashby",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 916
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

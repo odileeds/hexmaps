@@ -1,6 +1,13 @@
 {
 	"id": "S14000047",
 	"title": "Motherwell and Wishaw",
+	"demographics": {
+		"leave": 36.97,
+		"withdegree": ,
+		"age18-29": 15.84,
+		"2015UKIP": 2.67,
+		"2016Leave": 36.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 61.5, "value": 41984 },
 			"valid": 41926,
 			"invalid": 58,
-			"majority": 318
+			"majority": 318,
+			"candidates": [{
+				"name": "Marion Fellows",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16150
+			},{
+				"name": "Angela Feeney",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15832
+			},{
+				"name": "Meghan Gallacher",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8490
+			},{
+				"name": "Yvonne Finlayson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 920
+			},{
+				"name": "Neil Wilson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 534
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

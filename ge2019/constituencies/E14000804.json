@@ -1,6 +1,13 @@
 {
 	"id": "E14000804",
 	"title": "Maidstone and The Weald",
+	"demographics": {
+		"leave": 55.87,
+		"withdegree": 15.4,
+		"age18-29": 14.62,
+		"2015UKIP": 15.86,
+		"2016Leave": 55.87
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 68.8, "value": 51803 },
 			"valid": 51717,
 			"invalid": 86,
-			"majority": 17723
+			"majority": 17723,
+			"candidates": [{
+				"name": "Helen Grant",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29156
+			},{
+				"name": "Allen Simpson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11433
+			},{
+				"name": "Emily Fermor",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8455
+			},{
+				"name": "Pamela Watts",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1613
+			},{
+				"name": "Stuart Jeffery",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 888
+			},{
+				"name": "Yolande  Kenward",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 172
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

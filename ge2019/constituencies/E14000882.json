@@ -1,6 +1,13 @@
 {
 	"id": "E14000882",
 	"title": "Poplar and Limehouse",
+	"demographics": {
+		"leave": 34.19,
+		"withdegree": 37.42,
+		"age18-29": 28.37,
+		"2015UKIP": 6.13,
+		"2016Leave": 34.19
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 67.7, "value": 59091 },
 			"valid": 58814,
 			"invalid": 277,
-			"majority": 27712
+			"majority": 27712,
+			"candidates": [{
+				"name": "Jim Fitzpatrick",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 39558
+			},{
+				"name": "Christopher Wilford",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11846
+			},{
+				"name": "Elaine Bagshaw",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3959
+			},{
+				"name": "Oliur Rahman",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1477
+			},{
+				"name": "Bethan Lant",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 989
+			},{
+				"name": "Nicholas McQueen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 849
+			},{
+				"name": "David Barker",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 136
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

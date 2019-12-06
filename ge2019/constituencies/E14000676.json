@@ -1,6 +1,13 @@
 {
 	"id": "E14000676",
 	"title": "Ealing, Southall",
+	"demographics": {
+		"leave": 41.83,
+		"withdegree": 24.01,
+		"age18-29": 20.07,
+		"2015UKIP": 4.08,
+		"2016Leave": 41.83
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 69.5, "value": 45318 },
 			"valid": 45145,
 			"invalid": 173,
-			"majority": 22090
+			"majority": 22090,
+			"candidates": [{
+				"name": "Virendra Sharma",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31720
+			},{
+				"name": "Fabio Conti",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9630
+			},{
+				"name": "Nigel Bakhai",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1892
+			},{
+				"name": "Peter Ward",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1037
+			},{
+				"name": "John Poynton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 504
+			},{
+				"name": "Arjinder Thiara",
+				"party": { "code": "WRP", "title": "Workers Revolutionary Party" },
+				"votes": 362
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

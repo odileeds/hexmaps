@@ -1,6 +1,13 @@
 {
 	"id": "S14000010",
 	"title": "Central Ayrshire",
+	"demographics": {
+		"leave": 42.72,
+		"withdegree": ,
+		"age18-29": 13.19,
+		"2015UKIP": ,
+		"2016Leave": 42.72
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 65.5, "value": 45162 },
 			"valid": 45087,
 			"invalid": 75,
-			"majority": 1267
+			"majority": 1267,
+			"candidates": [{
+				"name": "Philippa Whitford",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16771
+			},{
+				"name": "Caroline Hollins Martin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15504
+			},{
+				"name": "Nairn McDonald",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11762
+			},{
+				"name": "Tom Inglis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1050
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

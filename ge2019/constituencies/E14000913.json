@@ -1,6 +1,13 @@
 {
 	"id": "E14000913",
 	"title": "Scarborough and Whitby",
+	"demographics": {
+		"leave": 61.37,
+		"withdegree": 11.67,
+		"age18-29": 13.51,
+		"2015UKIP": 17.1,
+		"2016Leave": 61.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,40 @@
 			"turnout": { "pc": 68.6, "value": 50523 },
 			"valid": 50449,
 			"invalid": 74,
-			"majority": 3435
+			"majority": 3435,
+			"candidates": [{
+				"name": "Robert Goodwill",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24401
+			},{
+				"name": "Eric Broadbent",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20966
+			},{
+				"name": "Sam Cross",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1682
+			},{
+				"name": "Robert Lockwood",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1354
+			},{
+				"name": "David Malone",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 915
+			},{
+				"name": "John Freeman",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 680
+			},{
+				"name": "Bill Black",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 369
+			},{
+				"name": "Gordon Johnson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 82
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

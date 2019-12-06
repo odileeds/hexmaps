@@ -1,6 +1,13 @@
 {
 	"id": "W07000068",
 	"title": "Brecon and Radnorshire",
+	"demographics": {
+		"leave": 51.72,
+		"withdegree": 15,
+		"age18-29": 11.03,
+		"2015UKIP": 8.33,
+		"2016Leave": 51.72
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,28 @@
 			"turnout": { "pc": 73.9, "value": 41397 },
 			"valid": 41334,
 			"invalid": 63,
-			"majority": 8038
+			"majority": 8038,
+			"candidates": [{
+				"name": "Chris Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20081
+			},{
+				"name": "James Gibson-Watt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12043
+			},{
+				"name": "Dan Lodge",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7335
+			},{
+				"name": "Kate Heneghan",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1299
+			},{
+				"name": "Peter Gilbert",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 576
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

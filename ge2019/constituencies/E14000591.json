@@ -1,6 +1,13 @@
 {
 	"id": "E14000591",
 	"title": "Brent Central",
+	"demographics": {
+		"leave": 42.92,
+		"withdegree": 22.71,
+		"age18-29": 21.28,
+		"2015UKIP": 3.93,
+		"2016Leave": 42.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 65.2, "value": 52495 },
 			"valid": 52296,
 			"invalid": 199,
-			"majority": 27997
+			"majority": 27997,
+			"candidates": [{
+				"name": "Dawn Butler",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 38208
+			},{
+				"name": "Rahoul Bhansali",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10211
+			},{
+				"name": "Anton Georgiou",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2519
+			},{
+				"name": "Shaka Lish",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 802
+			},{
+				"name": "Janice North",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 556
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

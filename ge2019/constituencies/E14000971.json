@@ -1,6 +1,13 @@
 {
 	"id": "E14000971",
 	"title": "Stockton South",
+	"demographics": {
+		"leave": 57.8,
+		"withdegree": 14.99,
+		"age18-29": 15.54,
+		"2015UKIP": 10.58,
+		"2016Leave": 57.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 71.3, "value": 53906 },
 			"valid": 53824,
 			"invalid": 82,
-			"majority": 888
+			"majority": 888,
+			"candidates": [{
+				"name": "Paul Williams",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26102
+			},{
+				"name": "James Wharton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25214
+			},{
+				"name": "David Outterside",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1186
+			},{
+				"name": "Drew Durning",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 951
+			},{
+				"name": "Jo Fitzgerald",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 371
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000062",
 	"title": "Clwyd South",
+	"demographics": {
+		"leave": 60.26,
+		"withdegree": 11.8,
+		"age18-29": 13.87,
+		"2015UKIP": 15.63,
+		"2016Leave": 60.26
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 69.9, "value": 37530 },
 			"valid": 37474,
 			"invalid": 56,
-			"majority": 4356
+			"majority": 4356,
+			"candidates": [{
+				"name": "Susan Elan Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19002
+			},{
+				"name": "Simon Baynes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14646
+			},{
+				"name": "Christopher Allen",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2293
+			},{
+				"name": "Jeanette Bassford-Barton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 802
+			},{
+				"name": "Bruce Roberts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 731
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

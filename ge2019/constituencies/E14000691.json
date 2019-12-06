@@ -1,6 +1,13 @@
 {
 	"id": "E14000691",
 	"title": "Enfield North",
+	"demographics": {
+		"leave": 49.22,
+		"withdegree": 17.49,
+		"age18-29": 16.25,
+		"2015UKIP": 8.96,
+		"2016Leave": 49.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 71.5, "value": 48690 },
 			"valid": 48565,
 			"invalid": 125,
-			"majority": 10247
+			"majority": 10247,
+			"candidates": [{
+				"name": "Joan Ryan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28177
+			},{
+				"name": "Nick de Bois",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17930
+			},{
+				"name": "Nicholas da Costa",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1036
+			},{
+				"name": "Deborah Cairns",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 848
+			},{
+				"name": "Bill Linton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 574
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

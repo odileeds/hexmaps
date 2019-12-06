@@ -1,6 +1,13 @@
 {
 	"id": "E14000849",
 	"title": "North Shropshire",
+	"demographics": {
+		"leave": 59.46,
+		"withdegree": 12.86,
+		"age18-29": 13.41,
+		"2015UKIP": 17.62,
+		"2016Leave": 59.46
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 69.2, "value": 55745 },
 			"valid": 55599,
 			"invalid": 146,
-			"majority": 16355
+			"majority": 16355,
+			"candidates": [{
+				"name": "Owen Paterson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33642
+			},{
+				"name": "Graeme Currie",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17287
+			},{
+				"name": "Tom Thornhill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2948
+			},{
+				"name": "Duncan Kerr",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1722
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

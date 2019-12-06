@@ -1,6 +1,13 @@
 {
 	"id": "E14000695",
 	"title": "Erewash",
+	"demographics": {
+		"leave": 63.3,
+		"withdegree": 9.95,
+		"age18-29": 14.67,
+		"2015UKIP": 16.13,
+		"2016Leave": 63.3
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 68.3, "value": 49867 },
 			"valid": 49781,
 			"invalid": 86,
-			"majority": 4534
+			"majority": 4534,
+			"candidates": [{
+				"name": "Maggie Throup",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25939
+			},{
+				"name": "Catherine Atkinson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21405
+			},{
+				"name": "Martin Garnett",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1243
+			},{
+				"name": "Ralph Hierons",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 675
+			},{
+				"name": "Roy Dunn",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 519
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

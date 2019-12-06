@@ -1,6 +1,13 @@
 {
 	"id": "E14000555",
 	"title": "Bethnal Green and Bow",
+	"demographics": {
+		"leave": 30.93,
+		"withdegree": 35.43,
+		"age18-29": 33.08,
+		"2015UKIP": 6.08,
+		"2016Leave": 30.93
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 69.8, "value": 60100 },
 			"valid": 59825,
 			"invalid": 275,
-			"majority": 35393
+			"majority": 35393,
+			"candidates": [{
+				"name": "Rushanara Ali",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42969
+			},{
+				"name": "Charlotte Chirico",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7576
+			},{
+				"name": "Ajmal Masroor",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 3888
+			},{
+				"name": "William Dyer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2982
+			},{
+				"name": "Alistair Polson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1516
+			},{
+				"name": "Ian de Wulverton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 894
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

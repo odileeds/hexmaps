@@ -1,6 +1,13 @@
 {
 	"id": "E14001030",
 	"title": "West Bromwich West",
+	"demographics": {
+		"leave": 69.14,
+		"withdegree": 6.76,
+		"age18-29": 17.05,
+		"2015UKIP": 25.23,
+		"2016Leave": 69.14
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 54.9, "value": 36184 },
 			"valid": 36094,
 			"invalid": 90,
-			"majority": 4460
+			"majority": 4460,
+			"candidates": [{
+				"name": "Adrian Bailey",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 18789
+			},{
+				"name": "Andrew Hardie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14329
+			},{
+				"name": "Star Anderton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2320
+			},{
+				"name": "Flo Clucas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 333
+			},{
+				"name": "Robert Buckman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 323
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

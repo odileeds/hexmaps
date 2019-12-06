@@ -1,6 +1,13 @@
 {
 	"id": "E14000739",
 	"title": "Hemel Hempstead",
+	"demographics": {
+		"leave": 55.17,
+		"withdegree": 16.07,
+		"age18-29": 14.97,
+		"2015UKIP": 14.61,
+		"2016Leave": 55.17
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 70.5, "value": 52433 },
 			"valid": 52282,
 			"invalid": 151,
-			"majority": 9445
+			"majority": 9445,
+			"candidates": [{
+				"name": "Mike Penning",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28735
+			},{
+				"name": "Mandi Tattershall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19290
+			},{
+				"name": "Sally Symington",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3233
+			},{
+				"name": "Sherief Hassan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1024
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

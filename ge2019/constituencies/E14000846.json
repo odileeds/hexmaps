@@ -1,6 +1,13 @@
 {
 	"id": "E14000846",
 	"title": "North East Somerset",
+	"demographics": {
+		"leave": 52.12,
+		"withdegree": 16.76,
+		"age18-29": 11.87,
+		"2015UKIP": 12.03,
+		"2016Leave": 52.12
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 75.9, "value": 54147 },
 			"valid": 54043,
 			"invalid": 104,
-			"majority": 10235
+			"majority": 10235,
+			"candidates": [{
+				"name": "Jacob Rees-Mogg",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28992
+			},{
+				"name": "Robin Moss",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18757
+			},{
+				"name": "Manda Rigby",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4461
+			},{
+				"name": "Sally Calverley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1245
+			},{
+				"name": "Shaun Hughes",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 588
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000574",
 	"title": "Blaydon",
+	"demographics": {
+		"leave": 56.32,
+		"withdegree": 12.67,
+		"age18-29": 12.9,
+		"2015UKIP": 17.5,
+		"2016Leave": 56.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 70.3, "value": 48148 },
 			"valid": 48084,
 			"invalid": 64,
-			"majority": 13477
+			"majority": 13477,
+			"candidates": [{
+				"name": "Liz Twist",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26979
+			},{
+				"name": "Thomas Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13502
+			},{
+				"name": "Jonathan Wallace",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4366
+			},{
+				"name": "Ray Tolley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2459
+			},{
+				"name": "Paul  McNally",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 583
+			},{
+				"name": "Michael Marchetti",
+				"party": { "code": "Libertaria", "title": "Libertarian Party" },
+				"votes": 114
+			},{
+				"name": "Lisabela Marschild",
+				"party": { "code": "Space Navies Party", "title": "Space Navies Party" },
+				"votes": 81
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

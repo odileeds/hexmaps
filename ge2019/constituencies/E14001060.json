@@ -1,6 +1,13 @@
 {
 	"id": "E14001060",
 	"title": "Yeovil",
+	"demographics": {
+		"leave": 59.29,
+		"withdegree": 10.89,
+		"age18-29": 13.76,
+		"2015UKIP": 13.43,
+		"2016Leave": 59.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 71.8, "value": 59498 },
 			"valid": 59404,
 			"invalid": 94,
-			"majority": 14723
+			"majority": 14723,
+			"candidates": [{
+				"name": "Marcus Fysh",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32369
+			},{
+				"name": "Jo Roundell Greene",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 17646
+			},{
+				"name": "Ian Martin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7418
+			},{
+				"name": "Robert Wood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1052
+			},{
+				"name": "Katy Pritchard",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 919
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

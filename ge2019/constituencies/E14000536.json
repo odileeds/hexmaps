@@ -1,6 +1,13 @@
 {
 	"id": "E14000536",
 	"title": "Ashford",
+	"demographics": {
+		"leave": 59.68,
+		"withdegree": 13.12,
+		"age18-29": 13.39,
+		"2015UKIP": 18.82,
+		"2016Leave": 59.68
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 68.7, "value": 60014 },
 			"valid": 59879,
 			"invalid": 135,
-			"majority": 17478
+			"majority": 17478,
+			"candidates": [{
+				"name": "Damian Green",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35318
+			},{
+				"name": "Sally Gathern",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17840
+			},{
+				"name": "Adrian Gee-Turner",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3101
+			},{
+				"name": "Gerald O'Brien",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2218
+			},{
+				"name": "Mandy Rossi",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1402
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

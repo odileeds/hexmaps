@@ -1,6 +1,13 @@
 {
 	"id": "E14001041",
 	"title": "Winchester",
+	"demographics": {
+		"leave": 39.71,
+		"withdegree": 28.16,
+		"age18-29": 14.97,
+		"2015UKIP": 7.45,
+		"2016Leave": 39.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,32 @@
 			"turnout": { "pc": 79.0, "value": 57256 },
 			"valid": 57156,
 			"invalid": 100,
-			"majority": 9999
+			"majority": 9999,
+			"candidates": [{
+				"name": "Steve Brine",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29729
+			},{
+				"name": "Jackie Porter",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 19730
+			},{
+				"name": "Mark Chaloner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6007
+			},{
+				"name": "Andrew Wainwright",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 846
+			},{
+				"name": "Martin Lyon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 695
+			},{
+				"name": "Teresa Skelton",
+				"party": { "code": "The Justice & Anti-Corruption Party", "title": "The Justice & Anti-Corruption Party" },
+				"votes": 149
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

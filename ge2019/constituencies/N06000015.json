@@ -1,6 +1,13 @@
 {
 	"id": "N06000015",
 	"title": "South Down",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 67.5, "value": 51082 },
 			"valid": 50893,
 			"invalid": 189,
-			"majority": 2446
+			"majority": 2446,
+			"candidates": [{
+				"name": "Chris Hazzard",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 20328
+			},{
+				"name": "Margaret Ritchie",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 17882
+			},{
+				"name": "Diane Forsythe",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 8867
+			},{
+				"name": "Harold McKee",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 2002
+			},{
+				"name": "Andrew McMurray",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 1814
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

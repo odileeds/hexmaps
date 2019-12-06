@@ -1,6 +1,13 @@
 {
 	"id": "E14000792",
 	"title": "Lincoln",
+	"demographics": {
+		"leave": 57.31,
+		"withdegree": 12.34,
+		"age18-29": 24.07,
+		"2015UKIP": 12.21,
+		"2016Leave": 57.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,36 @@
 			"turnout": { "pc": 66.7, "value": 48797 },
 			"valid": 48718,
 			"invalid": 79,
-			"majority": 1538
+			"majority": 1538,
+			"candidates": [{
+				"name": "Karen  Lee",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23333
+			},{
+				"name": "Karl McCartney",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21795
+			},{
+				"name": "Nick  Smith",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1287
+			},{
+				"name": "Caroline  Kenyon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1284
+			},{
+				"name": "Benjamin  Loryman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 583
+			},{
+				"name": "Phil  Gray",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 312
+			},{
+				"name": "Iain  Scott-Burdon",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 124
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

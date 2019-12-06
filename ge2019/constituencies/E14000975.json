@@ -1,6 +1,13 @@
 {
 	"id": "E14000975",
 	"title": "Stone",
+	"demographics": {
+		"leave": 58.04,
+		"withdegree": 16.7,
+		"age18-29": 10.91,
+		"2015UKIP": 16.2,
+		"2016Leave": 58.04
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 73.9, "value": 50131 },
 			"valid": 50032,
 			"invalid": 99,
-			"majority": 17495
+			"majority": 17495,
+			"candidates": [{
+				"name": "Bill Cash",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31614
+			},{
+				"name": "Sam Hale",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 14119
+			},{
+				"name": "Martin  Lewis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2222
+			},{
+				"name": "Edward Whitfield",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1370
+			},{
+				"name": "Samantha  Pancheri",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 707
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

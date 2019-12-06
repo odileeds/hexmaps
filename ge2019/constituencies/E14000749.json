@@ -1,6 +1,13 @@
 {
 	"id": "E14000749",
 	"title": "Hitchin and Harpenden",
+	"demographics": {
+		"leave": 39.79,
+		"withdegree": 30.53,
+		"age18-29": 11.34,
+		"2015UKIP": 8.88,
+		"2016Leave": 39.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 77.6, "value": 58921 },
 			"valid": 58783,
 			"invalid": 138,
-			"majority": 12031
+			"majority": 12031,
+			"candidates": [{
+				"name": "Bim Afolami",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31189
+			},{
+				"name": "John Hayes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19158
+			},{
+				"name": "Hugh Annand",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6236
+			},{
+				"name": "Richard Cano",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1329
+			},{
+				"name": "Ray Blake",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 629
+			},{
+				"name": "Sid Cordle",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 242
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

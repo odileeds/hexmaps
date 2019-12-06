@@ -1,6 +1,13 @@
 {
 	"id": "S14000045",
 	"title": "Midlothian",
+	"demographics": {
+		"leave": 37.94,
+		"withdegree": ,
+		"age18-29": 13.54,
+		"2015UKIP": 2.43,
+		"2016Leave": 37.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 66.4, "value": 45344 },
 			"valid": 45273,
 			"invalid": 71,
-			"majority": 885
+			"majority": 885,
+			"candidates": [{
+				"name": "Danielle Rowley",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16458
+			},{
+				"name": "Owen Thompson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15573
+			},{
+				"name": "Chris Donnelly",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11521
+			},{
+				"name": "Ross Laird",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1721
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

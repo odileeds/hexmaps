@@ -1,6 +1,13 @@
 {
 	"id": "E14000561",
 	"title": "Birmingham, Erdington",
+	"demographics": {
+		"leave": 62.97,
+		"withdegree": 10,
+		"age18-29": 17.21,
+		"2015UKIP": 17.41,
+		"2016Leave": 62.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 57.4, "value": 37329 },
 			"valid": 37217,
 			"invalid": 112,
-			"majority": 7285
+			"majority": 7285,
+			"candidates": [{
+				"name": "Jack Dromey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21571
+			},{
+				"name": "Robert Alden",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14286
+			},{
+				"name": "Ann Holtom",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 750
+			},{
+				"name": "James Lovatt",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 610
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

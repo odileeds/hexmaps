@@ -1,6 +1,13 @@
 {
 	"id": "E14000935",
 	"title": "South Derbyshire",
+	"demographics": {
+		"leave": 60.35,
+		"withdegree": 14.38,
+		"age18-29": 13.04,
+		"2015UKIP": 17.73,
+		"2016Leave": 60.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.1, "value": 52751 },
 			"valid": 52631,
 			"invalid": 120,
-			"majority": 11970
+			"majority": 11970,
+			"candidates": [{
+				"name": "Heather Wheeler",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30907
+			},{
+				"name": "Robert Pearson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18937
+			},{
+				"name": "Lorraine Johnson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1870
+			},{
+				"name": "Marten Kats",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 917
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

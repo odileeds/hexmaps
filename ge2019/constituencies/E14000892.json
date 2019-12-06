@@ -1,6 +1,13 @@
 {
 	"id": "E14000892",
 	"title": "Redditch",
+	"demographics": {
+		"leave": 61.42,
+		"withdegree": 11.13,
+		"age18-29": 15.07,
+		"2015UKIP": 16.18,
+		"2016Leave": 61.42
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,36 @@
 			"turnout": { "pc": 70.3, "value": 45298 },
 			"valid": 45203,
 			"invalid": 95,
-			"majority": 7363
+			"majority": 7363,
+			"candidates": [{
+				"name": "Rachel Maclean",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23652
+			},{
+				"name": "Rebecca Blake",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16289
+			},{
+				"name": "Neal Stote",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 2239
+			},{
+				"name": "Paul Swansborough",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1371
+			},{
+				"name": "Susan Juned",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1173
+			},{
+				"name": "Kevin White",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 380
+			},{
+				"name": "Sally Woodhall",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 99
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

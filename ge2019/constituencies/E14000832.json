@@ -1,6 +1,13 @@
 {
 	"id": "E14000832",
 	"title": "Newcastle upon Tyne East",
+	"demographics": {
+		"leave": 41.13,
+		"withdegree": 22.51,
+		"age18-29": 37.95,
+		"2015UKIP": 12.52,
+		"2016Leave": 41.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 67.3, "value": 41721 },
 			"valid": 41637,
 			"invalid": 84,
-			"majority": 19261
+			"majority": 19261,
+			"candidates": [{
+				"name": "Nicholas Brown",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28127
+			},{
+				"name": "Simon Kitchen",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8866
+			},{
+				"name": "Wendy Taylor",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2574
+			},{
+				"name": "Tony Sanderson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1315
+			},{
+				"name": "Alistair Ford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 755
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000983",
 	"title": "Surrey Heath",
+	"demographics": {
+		"leave": 52,
+		"withdegree": 20.09,
+		"age18-29": 12.3,
+		"2015UKIP": 14.29,
+		"2016Leave": 52
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 71.9, "value": 58048 },
 			"valid": 57822,
 			"invalid": 226,
-			"majority": 24943
+			"majority": 24943,
+			"candidates": [{
+				"name": "Michael Gove",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37118
+			},{
+				"name": "Laween Atroshi",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12175
+			},{
+				"name": "Ann-Marie Barker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6271
+			},{
+				"name": "Sharon  Galliford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2258
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000957",
 	"title": "Southend West",
+	"demographics": {
+		"leave": 55.07,
+		"withdegree": 12.78,
+		"age18-29": 12.77,
+		"2015UKIP": 17.53,
+		"2016Leave": 55.07
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,36 @@
 			"turnout": { "pc": 69.9, "value": 47292 },
 			"valid": 47191,
 			"invalid": 101,
-			"majority": 10000
+			"majority": 10000,
+			"candidates": [{
+				"name": "David Amess",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26046
+			},{
+				"name": "Julian Ware-Lane",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16046
+			},{
+				"name": "Lucy Salek",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2110
+			},{
+				"name": "John Stansfield",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1666
+			},{
+				"name": "Dominic Ellis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 831
+			},{
+				"name": "Tino Callaghan",
+				"party": { "code": "Southend Independent Association", "title": "Southend Independent Association" },
+				"votes": 305
+			},{
+				"name": "Jason Pilley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 187
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

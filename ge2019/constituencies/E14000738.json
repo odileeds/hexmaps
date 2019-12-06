@@ -1,6 +1,13 @@
 {
 	"id": "E14000738",
 	"title": "Hazel Grove",
+	"demographics": {
+		"leave": 52.21,
+		"withdegree": 15.29,
+		"age18-29": 11.76,
+		"2015UKIP": 12.22,
+		"2016Leave": 52.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 70.0, "value": 44246 },
 			"valid": 44132,
 			"invalid": 114,
-			"majority": 5514
+			"majority": 5514,
+			"candidates": [{
+				"name": "William Wragg",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20047
+			},{
+				"name": "Lisa Smart",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 14533
+			},{
+				"name": "Nav Mishra",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9036
+			},{
+				"name": "Robbie Lee",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 516
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000893",
 	"title": "Reigate",
+	"demographics": {
+		"leave": 47.79,
+		"withdegree": 23.57,
+		"age18-29": 12.78,
+		"2015UKIP": 13.28,
+		"2016Leave": 47.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 72.3, "value": 53993 },
 			"valid": 53823,
 			"invalid": 170,
-			"majority": 17614
+			"majority": 17614,
+			"candidates": [{
+				"name": "Crispin Blunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30896
+			},{
+				"name": "Toby Brampton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13282
+			},{
+				"name": "Anna Tarrant",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5889
+			},{
+				"name": "Jonathan Essex",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2214
+			},{
+				"name": "Joseph Fox",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1542
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000715",
 	"title": "Gravesham",
+	"demographics": {
+		"leave": 65.38,
+		"withdegree": 10.68,
+		"age18-29": 15.33,
+		"2015UKIP": 18.56,
+		"2016Leave": 65.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 67.3, "value": 49106 },
 			"valid": 48997,
 			"invalid": 109,
-			"majority": 9347
+			"majority": 9347,
+			"candidates": [{
+				"name": "Adam Holloway",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27237
+			},{
+				"name": "Mandy Garford",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17890
+			},{
+				"name": "Emmanuel  Feyisetan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1742
+			},{
+				"name": "James  Willis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1210
+			},{
+				"name": "Marna  Gilligan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 723
+			},{
+				"name": "Michael  Rogan",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 195
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

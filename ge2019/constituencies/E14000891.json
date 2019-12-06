@@ -1,6 +1,13 @@
 {
 	"id": "E14000891",
 	"title": "Redcar",
+	"demographics": {
+		"leave": 67.57,
+		"withdegree": 7.66,
+		"age18-29": 14.91,
+		"2015UKIP": 18.37,
+		"2016Leave": 67.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 63.8, "value": 42626 },
 			"valid": 42560,
 			"invalid": 66,
-			"majority": 9485
+			"majority": 9485,
+			"candidates": [{
+				"name": "Anna Turley",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 23623
+			},{
+				"name": "Peter Gibson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14138
+			},{
+				"name": "Josh Mason",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2849
+			},{
+				"name": "Chris Gallacher",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1950
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

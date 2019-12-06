@@ -1,6 +1,13 @@
 {
 	"id": "E14000573",
 	"title": "Blackpool South",
+	"demographics": {
+		"leave": 67.8,
+		"withdegree": 6.38,
+		"age18-29": 15.18,
+		"2015UKIP": 17.3,
+		"2016Leave": 67.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 59.9, "value": 34997 },
 			"valid": 34953,
 			"invalid": 44,
-			"majority": 2523
+			"majority": 2523,
+			"candidates": [{
+				"name": "Gordon Marsden",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17581
+			},{
+				"name": "Peter Anthony",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15058
+			},{
+				"name": "Noel Matthews",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1339
+			},{
+				"name": "Bill Greene",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 634
+			},{
+				"name": "John Warnock",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 341
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

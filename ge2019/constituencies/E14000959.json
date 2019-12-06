@@ -1,6 +1,13 @@
 {
 	"id": "E14000959",
 	"title": "Spelthorne",
+	"demographics": {
+		"leave": 60.3,
+		"withdegree": 15.88,
+		"age18-29": 13.71,
+		"2015UKIP": 20.85,
+		"2016Leave": 60.3
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 69.1, "value": 50221 },
 			"valid": 50115,
 			"invalid": 106,
-			"majority": 13425
+			"majority": 13425,
+			"candidates": [{
+				"name": "Kwasi Kwarteng",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28692
+			},{
+				"name": "Rebecca Geach",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15267
+			},{
+				"name": "Rosamund Shimell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2755
+			},{
+				"name": "Redvers Cunningham",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2296
+			},{
+				"name": "Paul Jacobs",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1105
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

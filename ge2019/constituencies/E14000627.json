@@ -1,6 +1,13 @@
 {
 	"id": "E14000627",
 	"title": "Cheadle",
+	"demographics": {
+		"leave": 42.65,
+		"withdegree": 23.5,
+		"age18-29": 11.19,
+		"2015UKIP": 8.33,
+		"2016Leave": 42.65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,20 @@
 			"turnout": { "pc": 74.5, "value": 54689 },
 			"valid": 54572,
 			"invalid": 117,
-			"majority": 4507
+			"majority": 4507,
+			"candidates": [{
+				"name": "Mary Robinson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24331
+			},{
+				"name": "Mark Hunter",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 19824
+			},{
+				"name": "Martin Miller",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10417
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

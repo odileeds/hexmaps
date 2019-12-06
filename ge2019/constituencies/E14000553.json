@@ -1,6 +1,13 @@
 {
 	"id": "E14000553",
 	"title": "Bermondsey and Old Southwark",
+	"demographics": {
+		"leave": 27,
+		"withdegree": 38.63,
+		"age18-29": 30.32,
+		"2015UKIP": 6.33,
+		"2016Leave": 27
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 67.2, "value": 58669 },
 			"valid": 58521,
 			"invalid": 148,
-			"majority": 12972
+			"majority": 12972,
+			"candidates": [{
+				"name": "Neil Coyle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 31161
+			},{
+				"name": "Simon Hughes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 18189
+			},{
+				"name": "Siobhan Baillie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7581
+			},{
+				"name": "Elizabeth Jones",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 838
+			},{
+				"name": "John Tyson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 639
+			},{
+				"name": "James Clarke",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 113
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

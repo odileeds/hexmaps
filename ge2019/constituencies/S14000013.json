@@ -1,6 +1,13 @@
 {
 	"id": "S14000013",
 	"title": "Dumfries and Galloway",
+	"demographics": {
+		"leave": 45.39,
+		"withdegree": ,
+		"age18-29": 12.33,
+		"2015UKIP": 2.3,
+		"2016Leave": 45.39
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 69.6, "value": 51644 },
 			"valid": 51599,
 			"invalid": 45,
-			"majority": 5643
+			"majority": 5643,
+			"candidates": [{
+				"name": "Alister Jack",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22344
+			},{
+				"name": "Richard Arkless",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16701
+			},{
+				"name": "Daniel Goodare",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10775
+			},{
+				"name": "Joan Mitchell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1241
+			},{
+				"name": "Yen Hongmei Jin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 538
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

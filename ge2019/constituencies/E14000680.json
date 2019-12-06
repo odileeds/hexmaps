@@ -1,6 +1,13 @@
 {
 	"id": "E14000680",
 	"title": "East Hampshire",
+	"demographics": {
+		"leave": 48.73,
+		"withdegree": 20.33,
+		"age18-29": 11.45,
+		"2015UKIP": 11.98,
+		"2016Leave": 48.73
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 74.9, "value": 55567 },
 			"valid": 55408,
 			"invalid": 159,
-			"majority": 25852
+			"majority": 25852,
+			"candidates": [{
+				"name": "Damian Hinds",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35263
+			},{
+				"name": "Rohit  Dasgupta",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9411
+			},{
+				"name": "Richard Robinson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8403
+			},{
+				"name": "Richard Knight",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1760
+			},{
+				"name": "Susan Jerrard",
+				"party": { "code": "JACP", "title": "Justice and Anti-Corruption Party" },
+				"votes": 571
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

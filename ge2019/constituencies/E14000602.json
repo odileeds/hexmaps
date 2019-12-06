@@ -1,6 +1,13 @@
 {
 	"id": "E14000602",
 	"title": "Bristol West",
+	"demographics": {
+		"leave": 20.71,
+		"withdegree": 40.5,
+		"age18-29": 35.46,
+		"2015UKIP": 3.02,
+		"2016Leave": 20.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 77.2, "value": 71782 },
 			"valid": 71608,
 			"invalid": 174,
-			"majority": 37336
+			"majority": 37336,
+			"candidates": [{
+				"name": "Thangam Debbonaire",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 47213
+			},{
+				"name": "Annabel Tall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9877
+			},{
+				"name": "Molly Scott Cato",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 9216
+			},{
+				"name": "Stephen Williams",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5201
+			},{
+				"name": "Jodian Rodgers",
+				"party": { "code": "Money Free Party", "title": "Money Free Party" },
+				"votes": 101
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

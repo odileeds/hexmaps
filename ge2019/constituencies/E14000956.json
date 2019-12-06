@@ -1,6 +1,13 @@
 {
 	"id": "E14000956",
 	"title": "Southampton, Test",
+	"demographics": {
+		"leave": 50.65,
+		"withdegree": 19.33,
+		"age18-29": 26.44,
+		"2015UKIP": 12.75,
+		"2016Leave": 50.65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 67.0, "value": 47022 },
 			"valid": 46903,
 			"invalid": 119,
-			"majority": 11503
+			"majority": 11503,
+			"candidates": [{
+				"name": "Alan Whitehead",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27509
+			},{
+				"name": "Paul Holmes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16006
+			},{
+				"name": "Thomas Gravatt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1892
+			},{
+				"name": "Andrew Pope",
+				"party": { "code": "Southampton Independents", "title": "Southampton Independents" },
+				"votes": 816
+			},{
+				"name": "Keith Morrell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 680
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

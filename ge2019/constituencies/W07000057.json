@@ -1,6 +1,13 @@
 {
 	"id": "W07000057",
 	"title": "Arfon",
+	"demographics": {
+		"leave": 34.91,
+		"withdegree": 18.35,
+		"age18-29": 22.3,
+		"2015UKIP": 8.48,
+		"2016Leave": 34.91
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 68.4, "value": 28275 },
 			"valid": 28208,
 			"invalid": 67,
-			"majority": 92
+			"majority": 92,
+			"candidates": [{
+				"name": "Hywel Williams",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 11519
+			},{
+				"name": "Mary Griffiths Clarke",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11427
+			},{
+				"name": "Phillippa Parry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4614
+			},{
+				"name": "Calum Davies",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 648
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

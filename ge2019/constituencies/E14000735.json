@@ -1,6 +1,13 @@
 {
 	"id": "E14000735",
 	"title": "Hastings and Rye",
+	"demographics": {
+		"leave": 56.23,
+		"withdegree": 11.2,
+		"age18-29": 14.2,
+		"2015UKIP": 13.32,
+		"2016Leave": 56.23
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,28 @@
 			"turnout": { "pc": 70.1, "value": 54863 },
 			"valid": 54766,
 			"invalid": 97,
-			"majority": 346
+			"majority": 346,
+			"candidates": [{
+				"name": "Amber Rudd",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25668
+			},{
+				"name": "Peter Chowney",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25322
+			},{
+				"name": "Nicholas Perry",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1885
+			},{
+				"name": "Michael Sheridan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1479
+			},{
+				"name": "Nicholas Wilson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 412
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

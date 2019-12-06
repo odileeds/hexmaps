@@ -1,6 +1,13 @@
 {
 	"id": "E14000812",
 	"title": "Meriden",
+	"demographics": {
+		"leave": 58.81,
+		"withdegree": 15.5,
+		"age18-29": 13.48,
+		"2015UKIP": 16.93,
+		"2016Leave": 58.81
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 67.2, "value": 54740 },
 			"valid": 54643,
 			"invalid": 97,
-			"majority": 19198
+			"majority": 19198,
+			"candidates": [{
+				"name": "Caroline Spelman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33873
+			},{
+				"name": "Tom McNeil",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14675
+			},{
+				"name": "Rogers Antony",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2663
+			},{
+				"name": "Leslie Kaye",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2016
+			},{
+				"name": "Alison Gavin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1416
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

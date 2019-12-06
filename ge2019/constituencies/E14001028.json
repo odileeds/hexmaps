@@ -1,6 +1,13 @@
 {
 	"id": "E14001028",
 	"title": "Wentworth and Dearne",
+	"demographics": {
+		"leave": 68.98,
+		"withdegree": 6.94,
+		"age18-29": 14.51,
+		"2015UKIP": 24.85,
+		"2016Leave": 68.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,20 @@
 			"turnout": { "pc": 59.1, "value": 44227 },
 			"valid": 43947,
 			"invalid": 280,
-			"majority": 14803
+			"majority": 14803,
+			"candidates": [{
+				"name": "John Healey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28547
+			},{
+				"name": "Steven Jackson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13744
+			},{
+				"name": "Janice Middleton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1656
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

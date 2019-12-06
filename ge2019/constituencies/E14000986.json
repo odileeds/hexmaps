@@ -1,6 +1,13 @@
 {
 	"id": "E14000986",
 	"title": "Tamworth",
+	"demographics": {
+		"leave": 66,
+		"withdegree": 9.6,
+		"age18-29": 14.95,
+		"2015UKIP": 18.5,
+		"2016Leave": 66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,20 @@
 			"turnout": { "pc": 66.3, "value": 47290 },
 			"valid": 47110,
 			"invalid": 180,
-			"majority": 12347
+			"majority": 12347,
+			"candidates": [{
+				"name": "Christopher Pincher",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28748
+			},{
+				"name": "Andrew Hammond",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16401
+			},{
+				"name": "Jenny Pinkett",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1961
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

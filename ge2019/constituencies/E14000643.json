@@ -1,6 +1,13 @@
 {
 	"id": "E14000643",
 	"title": "Cleethorpes",
+	"demographics": {
+		"leave": 68.41,
+		"withdegree": 8.68,
+		"age18-29": 12.96,
+		"2015UKIP": 18.53,
+		"2016Leave": 68.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 65.9, "value": 47923 },
 			"valid": 47844,
 			"invalid": 79,
-			"majority": 10400
+			"majority": 10400,
+			"candidates": [{
+				"name": "Martin Vickers",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27321
+			},{
+				"name": "Peter Keith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16921
+			},{
+				"name": "Tony Blake",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2022
+			},{
+				"name": "Roy Horobin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1110
+			},{
+				"name": "Loyd Emmerson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 470
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000837",
 	"title": "North Cornwall",
+	"demographics": {
+		"leave": 60.32,
+		"withdegree": 11.49,
+		"age18-29": 11.75,
+		"2015UKIP": 12.69,
+		"2016Leave": 60.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 74.1, "value": 51047 },
 			"valid": 50944,
 			"invalid": 103,
-			"majority": 7200
+			"majority": 7200,
+			"candidates": [{
+				"name": "Scott Mann",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25835
+			},{
+				"name": "Daniel Rogerson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 18635
+			},{
+				"name": "Joy Bassett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6151
+			},{
+				"name": "John Allman",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 185
+			},{
+				"name": "Robert Hawkins",
+				"party": { "code": "SLP", "title": "Socialist Labour Party" },
+				"votes": 138
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

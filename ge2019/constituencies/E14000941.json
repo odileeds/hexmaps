@@ -1,6 +1,13 @@
 {
 	"id": "E14000941",
 	"title": "South Norfolk",
+	"demographics": {
+		"leave": 51.11,
+		"withdegree": 14.99,
+		"age18-29": 11.09,
+		"2015UKIP": 13.74,
+		"2016Leave": 51.11
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.8, "value": 61293 },
 			"valid": 61111,
 			"invalid": 182,
-			"majority": 16678
+			"majority": 16678,
+			"candidates": [{
+				"name": "Richard Bacon",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35580
+			},{
+				"name": "Danielle Glavin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18902
+			},{
+				"name": "Christopher Brown",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5074
+			},{
+				"name": "Catherine Rowett",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1555
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

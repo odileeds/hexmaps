@@ -1,6 +1,13 @@
 {
 	"id": "E14000789",
 	"title": "Lewisham, Deptford",
+	"demographics": {
+		"leave": 24.67,
+		"withdegree": 34.31,
+		"age18-29": 24.01,
+		"2015UKIP": 4.24,
+		"2016Leave": 24.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,36 @@
 			"turnout": { "pc": 70.5, "value": 55320 },
 			"valid": 55112,
 			"invalid": 208,
-			"majority": 34899
+			"majority": 34899,
+			"candidates": [{
+				"name": "Vicky Foxcroft",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42461
+			},{
+				"name": "Melanie McLean",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7562
+			},{
+				"name": "Bobby Dean",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2911
+			},{
+				"name": "John Coughlin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1640
+			},{
+				"name": "Malcolm Martin",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 252
+			},{
+				"name": "Laura McAnea",
+				"party": { "code": "Animal Welfare Party", "title": "Animal Welfare Party" },
+				"votes": 225
+			},{
+				"name": "Jane Lawrence",
+				"party": { "code": "The Realists' Party", "title": "The Realists' Party" },
+				"votes": 61
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

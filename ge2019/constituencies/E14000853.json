@@ -1,6 +1,13 @@
 {
 	"id": "E14000853",
 	"title": "North Tyneside",
+	"demographics": {
+		"leave": 59.37,
+		"withdegree": 11.65,
+		"age18-29": 15.23,
+		"2015UKIP": 16.27,
+		"2016Leave": 59.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 65.9, "value": 51984 },
 			"valid": 51892,
 			"invalid": 92,
-			"majority": 19284
+			"majority": 19284,
+			"candidates": [{
+				"name": "Mary Glindon",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33456
+			},{
+				"name": "Henry Newman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14172
+			},{
+				"name": "Gary Legg",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2101
+			},{
+				"name": "Greg Stone",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1494
+			},{
+				"name": "Martin Collins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 669
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

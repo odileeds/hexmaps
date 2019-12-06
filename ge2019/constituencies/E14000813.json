@@ -1,6 +1,13 @@
 {
 	"id": "E14000813",
 	"title": "Mid Bedfordshire",
+	"demographics": {
+		"leave": 52.26,
+		"withdegree": 18.28,
+		"age18-29": 12.35,
+		"2015UKIP": 15.44,
+		"2016Leave": 52.26
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 75.2, "value": 63323 },
 			"valid": 63138,
 			"invalid": 185,
-			"majority": 20983
+			"majority": 20983,
+			"candidates": [{
+				"name": "Nadine Dorries",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 38936
+			},{
+				"name": "Rhiannon Meades",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17953
+			},{
+				"name": "Lisa French",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3788
+			},{
+				"name": "Gareth Ellis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1794
+			},{
+				"name": "Ann Kelly",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 667
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

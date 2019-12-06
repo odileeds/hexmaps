@@ -1,6 +1,13 @@
 {
 	"id": "E14000617",
 	"title": "Cambridge",
+	"demographics": {
+		"leave": 26.23,
+		"withdegree": 41.01,
+		"age18-29": 31.42,
+		"2015UKIP": 5.15,
+		"2016Leave": 26.23
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,28 @@
 			"turnout": { "pc": 71.4, "value": 56069 },
 			"valid": 55934,
 			"invalid": 135,
-			"majority": 12661
+			"majority": 12661,
+			"candidates": [{
+				"name": "Daniel Zeichner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29032
+			},{
+				"name": "Julian Huppert",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 16371
+			},{
+				"name": "John Hayward",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9133
+			},{
+				"name": "Stuart Tuckwood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1265
+			},{
+				"name": "Keith Garrett",
+				"party": { "code": "Rebooting Democracy", "title": "Rebooting Democracy" },
+				"votes": 133
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

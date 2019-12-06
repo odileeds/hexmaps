@@ -1,6 +1,13 @@
 {
 	"id": "E14000754",
 	"title": "Houghton and Sunderland South",
+	"demographics": {
+		"leave": 62.43,
+		"withdegree": 8.04,
+		"age18-29": 14.09,
+		"2015UKIP": 21.51,
+		"2016Leave": 62.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 61.0, "value": 41557 },
 			"valid": 41480,
 			"invalid": 77,
-			"majority": 12341
+			"majority": 12341,
+			"candidates": [{
+				"name": "Bridget Phillipson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24665
+			},{
+				"name": "Paul Howell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12324
+			},{
+				"name": "Michael Joyce",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2379
+			},{
+				"name": "Paul Edgeworth",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 908
+			},{
+				"name": "Richard Bradley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 725
+			},{
+				"name": "Mick Watson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 479
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000070",
 	"title": "Cynon Valley",
+	"demographics": {
+		"leave": 56.96,
+		"withdegree": 8.73,
+		"age18-29": 15.4,
+		"2015UKIP": 16.33,
+		"2016Leave": 56.96
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 62.1, "value": 31873 },
 			"valid": 31802,
 			"invalid": 71,
-			"majority": 13238
+			"majority": 13238,
+			"candidates": [{
+				"name": "Ann Clwyd",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19404
+			},{
+				"name": "Keith Dewhurst",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6166
+			},{
+				"name": "Liz Walters",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 4376
+			},{
+				"name": "Ian McLean",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1271
+			},{
+				"name": "Nicola Knight",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 585
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

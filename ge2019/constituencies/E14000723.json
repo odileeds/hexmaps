@@ -1,6 +1,13 @@
 {
 	"id": "E14000723",
 	"title": "Halifax",
+	"demographics": {
+		"leave": 58.82,
+		"withdegree": 11.05,
+		"age18-29": 15.61,
+		"2015UKIP": 12.85,
+		"2016Leave": 58.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 67.9, "value": 48375 },
 			"valid": 48276,
 			"invalid": 99,
-			"majority": 5376
+			"majority": 5376,
+			"candidates": [{
+				"name": "Holly Lynch",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25507
+			},{
+				"name": "Chris Pearson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20131
+			},{
+				"name": "Mark Weedon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1568
+			},{
+				"name": "James Baker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1070
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

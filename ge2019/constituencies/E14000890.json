@@ -1,6 +1,13 @@
 {
 	"id": "E14000890",
 	"title": "Reading West",
+	"demographics": {
+		"leave": 52.68,
+		"withdegree": 18.3,
+		"age18-29": 15.77,
+		"2015UKIP": 9.97,
+		"2016Leave": 52.68
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.7, "value": 51913 },
 			"valid": 51766,
 			"invalid": 147,
-			"majority": 2876
+			"majority": 2876,
+			"candidates": [{
+				"name": "Alok Sharma",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25311
+			},{
+				"name": "Olivia Bailey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22435
+			},{
+				"name": "Meri O'Connell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3041
+			},{
+				"name": "Jamie Whitham",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 979
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

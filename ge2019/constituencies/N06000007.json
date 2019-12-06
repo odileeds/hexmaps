@@ -1,6 +1,13 @@
 {
 	"id": "N06000007",
 	"title": "Fermanagh and South Tyrone",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 76.1, "value": 53707 },
 			"valid": 53481,
 			"invalid": 226,
-			"majority": 875
+			"majority": 875,
+			"candidates": [{
+				"name": "Michelle Gildernew",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 25230
+			},{
+				"name": "Tom Elliott",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 24355
+			},{
+				"name": "Mary Garrity",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2587
+			},{
+				"name": "Noreen Campbell",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 886
+			},{
+				"name": "Tanya Jones",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 423
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

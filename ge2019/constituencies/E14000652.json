@@ -1,6 +1,13 @@
 {
 	"id": "E14000652",
 	"title": "Crawley",
+	"demographics": {
+		"leave": 58.41,
+		"withdegree": 12.12,
+		"age18-29": 17.05,
+		"2015UKIP": 14.37,
+		"2016Leave": 58.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,20 @@
 			"turnout": { "pc": 68.7, "value": 50454 },
 			"valid": 50273,
 			"invalid": 181,
-			"majority": 2457
+			"majority": 2457,
+			"candidates": [{
+				"name": "Henry Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25426
+			},{
+				"name": "Tim Lunnon",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22969
+			},{
+				"name": "Marko Scepanovic",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1878
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

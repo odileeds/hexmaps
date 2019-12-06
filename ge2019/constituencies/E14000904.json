@@ -1,6 +1,13 @@
 {
 	"id": "E14000904",
 	"title": "Rotherham",
+	"demographics": {
+		"leave": 68.35,
+		"withdegree": 6.95,
+		"age18-29": 15.98,
+		"2015UKIP": 30.18,
+		"2016Leave": 68.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 60.1, "value": 38006 },
 			"valid": 37923,
 			"invalid": 83,
-			"majority": 11387
+			"majority": 11387,
+			"candidates": [{
+				"name": "Sarah Champion",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21404
+			},{
+				"name": "James Bellis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10017
+			},{
+				"name": "Allen Cowles",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3316
+			},{
+				"name": "Adam Carter",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1754
+			},{
+				"name": "Mick Bower",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1432
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

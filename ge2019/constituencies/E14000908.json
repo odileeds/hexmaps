@@ -1,6 +1,13 @@
 {
 	"id": "E14000908",
 	"title": "Rushcliffe",
+	"demographics": {
+		"leave": 41.31,
+		"withdegree": 27.94,
+		"age18-29": 13.05,
+		"2015UKIP": 10.77,
+		"2016Leave": 41.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 78.2, "value": 58468 },
 			"valid": 58311,
 			"invalid": 157,
-			"majority": 8010
+			"majority": 8010,
+			"candidates": [{
+				"name": "Kenneth Clarke",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30223
+			},{
+				"name": "David Mellen",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22213
+			},{
+				"name": "Jayne Phoenix",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2759
+			},{
+				"name": "Richard Mallender",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1626
+			},{
+				"name": "Matthew Faithfull",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1490
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

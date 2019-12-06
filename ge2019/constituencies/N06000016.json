@@ -1,6 +1,13 @@
 {
 	"id": "N06000016",
 	"title": "Strangford",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 60.4, "value": 38826 },
 			"valid": 38749,
 			"invalid": 77,
-			"majority": 18343
+			"majority": 18343,
+			"candidates": [{
+				"name": "Jim Shannon",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 24036
+			},{
+				"name": "Kellie Armstrong",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 5693
+			},{
+				"name": "Mike Nesbitt",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 4419
+			},{
+				"name": "Joe Boyle",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2404
+			},{
+				"name": "Carole Murphy",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 1083
+			},{
+				"name": "Ricky Bamford",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 607
+			},{
+				"name": "Claire Hiscott",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 507
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

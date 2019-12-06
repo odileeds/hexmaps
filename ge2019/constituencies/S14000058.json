@@ -1,6 +1,13 @@
 {
 	"id": "S14000058",
 	"title": "West Aberdeenshire and Kincardine",
+	"demographics": {
+		"leave": 38.61,
+		"withdegree": ,
+		"age18-29": 11.62,
+		"2015UKIP": 1.82,
+		"2016Leave": 38.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.3, "value": 51674 },
 			"valid": 51625,
 			"invalid": 49,
-			"majority": 7950
+			"majority": 7950,
+			"candidates": [{
+				"name": "Andrew Bowie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24704
+			},{
+				"name": "Stuart Donaldson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16754
+			},{
+				"name": "Barry Black",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5706
+			},{
+				"name": "John  Waddell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4461
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

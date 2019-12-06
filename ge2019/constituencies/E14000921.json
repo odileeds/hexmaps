@@ -1,6 +1,13 @@
 {
 	"id": "E14000921",
 	"title": "Sheffield, Brightside and Hillsborough",
+	"demographics": {
+		"leave": 61.44,
+		"withdegree": 9.41,
+		"age18-29": 16.52,
+		"2015UKIP": 22.11,
+		"2016Leave": 61.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 59.6, "value": 41940 },
 			"valid": 41870,
 			"invalid": 70,
-			"majority": 19143
+			"majority": 19143,
+			"candidates": [{
+				"name": "Gill Furniss",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28193
+			},{
+				"name": "Michael Naughton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9050
+			},{
+				"name": "Shane Harper",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2645
+			},{
+				"name": "Simon Clement-Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1061
+			},{
+				"name": "Christine Gilligan Kubo",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 737
+			},{
+				"name": "Mike Driver",
+				"party": { "code": "WRP", "title": "Workers Revolutionary Party" },
+				"votes": 137
+			},{
+				"name": "Muzafar Rahman",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 47
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

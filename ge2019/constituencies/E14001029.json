@@ -1,6 +1,13 @@
 {
 	"id": "E14001029",
 	"title": "West Bromwich East",
+	"demographics": {
+		"leave": 67.59,
+		"withdegree": 8.22,
+		"age18-29": 16.27,
+		"2015UKIP": 21.2,
+		"2016Leave": 67.59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 61.5, "value": 39236 },
 			"valid": 39098,
 			"invalid": 138,
-			"majority": 7713
+			"majority": 7713,
+			"candidates": [{
+				"name": "Tom Watson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22664
+			},{
+				"name": "Emma Crane",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14951
+			},{
+				"name": "Karen Trench",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 625
+			},{
+				"name": "John Macefield",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 533
+			},{
+				"name": "Colin Rankine",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 325
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

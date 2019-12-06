@@ -1,6 +1,13 @@
 {
 	"id": "E14001062",
 	"title": "York Outer",
+	"demographics": {
+		"leave": 44.92,
+		"withdegree": 19.37,
+		"age18-29": 14.39,
+		"2015UKIP": 9.74,
+		"2016Leave": 44.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 75.9, "value": 57573 },
 			"valid": 57427,
 			"invalid": 146,
-			"majority": 8289
+			"majority": 8289,
+			"candidates": [{
+				"name": "Julian Sturdy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29356
+			},{
+				"name": "Luke Charters-Reid",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21067
+			},{
+				"name": "James Blanchard",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5910
+			},{
+				"name": "Bethan Vincent",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1094
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

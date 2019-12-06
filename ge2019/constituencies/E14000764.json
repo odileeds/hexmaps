@@ -1,6 +1,13 @@
 {
 	"id": "E14000764",
 	"title": "Islington South and Finsbury",
+	"demographics": {
+		"leave": 28.28,
+		"withdegree": 42.76,
+		"age18-29": 29.31,
+		"2015UKIP": 7.62,
+		"2016Leave": 28.28
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 69.3, "value": 48196 },
 			"valid": 48049,
 			"invalid": 147,
-			"majority": 20263
+			"majority": 20263,
+			"candidates": [{
+				"name": "Emily Thornberry",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30188
+			},{
+				"name": "Jason Charalambous",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9925
+			},{
+				"name": "Alain Desmier",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5809
+			},{
+				"name": "Benali Hamdache",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1198
+			},{
+				"name": "Pete Muswell",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 929
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

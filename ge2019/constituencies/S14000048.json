@@ -1,6 +1,13 @@
 {
 	"id": "S14000048",
 	"title": "North Ayrshire and Arran",
+	"demographics": {
+		"leave": 42.29,
+		"withdegree": ,
+		"age18-29": 12.97,
+		"2015UKIP": 2.41,
+		"2016Leave": 42.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 64.9, "value": 47515 },
 			"valid": 47433,
 			"invalid": 82,
-			"majority": 3633
+			"majority": 3633,
+			"candidates": [{
+				"name": "Patricia Gibson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18451
+			},{
+				"name": "David Rocks",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14818
+			},{
+				"name": "Christopher Rimicans",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13040
+			},{
+				"name": "Mark  Dickson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1124
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

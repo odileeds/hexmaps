@@ -1,6 +1,13 @@
 {
 	"id": "E14000582",
 	"title": "Boston and Skegness",
+	"demographics": {
+		"leave": 74.96,
+		"withdegree": 5.78,
+		"age18-29": 13.79,
+		"2015UKIP": 33.79,
+		"2016Leave": 74.96
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 62.8, "value": 42971 },
 			"valid": 42879,
 			"invalid": 92,
-			"majority": 16572
+			"majority": 16572,
+			"candidates": [{
+				"name": "Matt Warman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27271
+			},{
+				"name": "Paul Kenny",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10699
+			},{
+				"name": "Paul Nuttall",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3308
+			},{
+				"name": "Philip Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 771
+			},{
+				"name": "Victoria Percival",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 547
+			},{
+				"name": "Mike Gilbert",
+				"party": { "code": "Blue Revolution", "title": "Blue Revolution" },
+				"votes": 283
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

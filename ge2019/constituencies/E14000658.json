@@ -1,6 +1,13 @@
 {
 	"id": "E14000658",
 	"title": "Darlington",
+	"demographics": {
+		"leave": 58.07,
+		"withdegree": 11.33,
+		"age18-29": 14.88,
+		"2015UKIP": 13.11,
+		"2016Leave": 58.07
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 67.7, "value": 44896 },
 			"valid": 44817,
 			"invalid": 79,
-			"majority": 3280
+			"majority": 3280,
+			"candidates": [{
+				"name": "Jenny Chapman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22681
+			},{
+				"name": "Peter Cuthbertson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19401
+			},{
+				"name": "Kevin Brack",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1180
+			},{
+				"name": "Anne-Marie Curry",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1031
+			},{
+				"name": "Matthew  Snedker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 524
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

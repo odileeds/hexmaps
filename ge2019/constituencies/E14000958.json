@@ -1,6 +1,13 @@
 {
 	"id": "E14000958",
 	"title": "Southport",
+	"demographics": {
+		"leave": 45.51,
+		"withdegree": 14.28,
+		"age18-29": 12.58,
+		"2015UKIP": 16.85,
+		"2016Leave": 45.51
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,24 @@
 			"turnout": { "pc": 69.2, "value": 48019 },
 			"valid": 47956,
 			"invalid": 63,
-			"majority": 2914
+			"majority": 2914,
+			"candidates": [{
+				"name": "Damien Moore",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18541
+			},{
+				"name": "Liz Savage",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15627
+			},{
+				"name": "Sue McGuire",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12661
+			},{
+				"name": "Terry Durrance",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1127
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

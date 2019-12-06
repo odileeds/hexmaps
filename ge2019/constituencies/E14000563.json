@@ -1,6 +1,13 @@
 {
 	"id": "E14000563",
 	"title": "Birmingham, Hodge Hill",
+	"demographics": {
+		"leave": 51.48,
+		"withdegree": 7.51,
+		"age18-29": 18.17,
+		"2015UKIP": 11.33,
+		"2016Leave": 51.48
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 61.5, "value": 46553 },
 			"valid": 46394,
 			"invalid": 159,
-			"majority": 31026
+			"majority": 31026,
+			"candidates": [{
+				"name": "Liam Byrne",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 37606
+			},{
+				"name": "Ahmereen Reza",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6580
+			},{
+				"name": "Mohammed  Khan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1016
+			},{
+				"name": "Phil Bennion",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 805
+			},{
+				"name": "Clare Thomas",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 387
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

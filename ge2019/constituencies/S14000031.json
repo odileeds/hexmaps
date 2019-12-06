@@ -1,6 +1,13 @@
 {
 	"id": "S14000031",
 	"title": "Glasgow North",
+	"demographics": {
+		"leave": 21.62,
+		"withdegree": ,
+		"age18-29": 32.97,
+		"2015UKIP": 1.32,
+		"2016Leave": 21.62
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 62.3, "value": 33534 },
 			"valid": 33473,
 			"invalid": 61,
-			"majority": 1060
+			"majority": 1060,
+			"candidates": [{
+				"name": "Patrick Grady",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 12597
+			},{
+				"name": "Pam Duncan-Glancy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11537
+			},{
+				"name": "Stuart Cullen",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 4935
+			},{
+				"name": "Patrick Harvie",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 3251
+			},{
+				"name": "Calum Shepherd",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1153
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

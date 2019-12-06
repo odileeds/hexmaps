@@ -1,6 +1,13 @@
 {
 	"id": "E14000704",
 	"title": "Folkestone and Hythe",
+	"demographics": {
+		"leave": 61.84,
+		"withdegree": 11.16,
+		"age18-29": 13.05,
+		"2015UKIP": 22.77,
+		"2016Leave": 61.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 68.4, "value": 58972 },
 			"valid": 58875,
 			"invalid": 97,
-			"majority": 15411
+			"majority": 15411,
+			"candidates": [{
+				"name": "Damian Collins",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32197
+			},{
+				"name": "Laura Davison",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16786
+			},{
+				"name": "Lynne Beaumont",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4222
+			},{
+				"name": "Stephen Priestly",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2565
+			},{
+				"name": "Martin Whybrow",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2498
+			},{
+				"name": "David Plumstead",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 493
+			},{
+				"name": "Naomi Slade",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 114
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

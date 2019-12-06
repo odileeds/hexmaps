@@ -1,6 +1,13 @@
 {
 	"id": "S14000027",
 	"title": "Na h-Eileanan an Iar",
+	"demographics": {
+		"leave": 43.9,
+		"withdegree": ,
+		"age18-29": 10.91,
+		"2015UKIP": ,
+		"2016Leave": 43.9
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 69.7, "value": 14853 },
 			"valid": 14818,
 			"invalid": 35,
-			"majority": 1007
+			"majority": 1007,
+			"candidates": [{
+				"name": "Angus MacNeil",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 6013
+			},{
+				"name": "Ealasaid MacDonald",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5006
+			},{
+				"name": "Daniel McCroskrie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 2441
+			},{
+				"name": "John Cormack",
+				"party": { "code": "Christian Party, Proclaiming Christ's Lordship", "title": "Christian Party, Proclaiming Christ's Lordship" },
+				"votes": 1108
+			},{
+				"name": "James Paterson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 250
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

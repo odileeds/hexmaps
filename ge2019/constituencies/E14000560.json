@@ -1,6 +1,13 @@
 {
 	"id": "E14000560",
 	"title": "Birmingham, Edgbaston",
+	"demographics": {
+		"leave": 47.35,
+		"withdegree": 24.15,
+		"age18-29": 23.53,
+		"2015UKIP": 10.06,
+		"2016Leave": 47.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 64.2, "value": 43720 },
 			"valid": 43612,
 			"invalid": 108,
-			"majority": 6917
+			"majority": 6917,
+			"candidates": [{
+				"name": "Preet Gill",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 24124
+			},{
+				"name": "Caroline Squire",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17207
+			},{
+				"name": "Colin Green",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1564
+			},{
+				"name": "Alice Kiff",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 562
+			},{
+				"name": "Dick Rogers",
+				"party": { "code": "Common Goo", "title": "Common Good Party" },
+				"votes": 155
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000870",
 	"title": "Oldham East and Saddleworth",
+	"demographics": {
+		"leave": 59.92,
+		"withdegree": 11.8,
+		"age18-29": 15.35,
+		"2015UKIP": 19.24,
+		"2016Leave": 59.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,24 @@
 			"turnout": { "pc": 65.3, "value": 47141 },
 			"valid": 47037,
 			"invalid": 104,
-			"majority": 8182
+			"majority": 8182,
+			"candidates": [{
+				"name": "Debbie Abrahams",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25629
+			},{
+				"name": "Kashif Ali",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17447
+			},{
+				"name": "Ian Bond",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2278
+			},{
+				"name": "Jonathan Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1683
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

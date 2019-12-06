@@ -1,6 +1,13 @@
 {
 	"id": "E14000982",
 	"title": "Sunderland Central",
+	"demographics": {
+		"leave": 59.94,
+		"withdegree": 12.35,
+		"age18-29": 18.75,
+		"2015UKIP": 19.15,
+		"2016Leave": 59.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 62.1, "value": 45187 },
 			"valid": 45111,
 			"invalid": 76,
-			"majority": 9997
+			"majority": 9997,
+			"candidates": [{
+				"name": "Julie Elliott",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25056
+			},{
+				"name": "Robert Oliver",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15059
+			},{
+				"name": "Gary Leighton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2209
+			},{
+				"name": "Niall Hodson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1777
+			},{
+				"name": "Rachel Featherstone",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 705
+			},{
+				"name": "Sean Cockburn",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 305
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000701",
 	"title": "Feltham and Heston",
+	"demographics": {
+		"leave": 55.93,
+		"withdegree": 18.59,
+		"age18-29": 20.17,
+		"2015UKIP": 12.57,
+		"2016Leave": 55.93
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 65.0, "value": 53138 },
 			"valid": 53027,
 			"invalid": 111,
-			"majority": 15603
+			"majority": 15603,
+			"candidates": [{
+				"name": "Seema Malhotra",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 32462
+			},{
+				"name": "Samir Jassal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16859
+			},{
+				"name": "Stuart Agnew",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1510
+			},{
+				"name": "Hina Malik",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1387
+			},{
+				"name": "Tony Firkins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 809
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

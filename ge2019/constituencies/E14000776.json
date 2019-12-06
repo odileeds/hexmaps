@@ -1,6 +1,13 @@
 {
 	"id": "E14000776",
 	"title": "Lancaster and Fleetwood",
+	"demographics": {
+		"leave": 50.91,
+		"withdegree": 17.67,
+		"age18-29": 24.7,
+		"2015UKIP": 9.73,
+		"2016Leave": 50.91
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 68.6, "value": 46083 },
 			"valid": 45989,
 			"invalid": 94,
-			"majority": 6661
+			"majority": 6661,
+			"candidates": [{
+				"name": "Cat Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25342
+			},{
+				"name": "Eric Ollerenshaw",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18681
+			},{
+				"name": "Robin Long",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1170
+			},{
+				"name": "Rebecca Novell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 796
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

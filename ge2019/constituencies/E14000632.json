@@ -1,6 +1,13 @@
 {
 	"id": "E14000632",
 	"title": "Chesterfield",
+	"demographics": {
+		"leave": 59.32,
+		"withdegree": 10.71,
+		"age18-29": 13.78,
+		"2015UKIP": 16.51,
+		"2016Leave": 59.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 66.6, "value": 48001 },
 			"valid": 47927,
 			"invalid": 74,
-			"majority": 9605
+			"majority": 9605,
+			"candidates": [{
+				"name": "Toby Perkins",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26266
+			},{
+				"name": "Spencer Pitfield",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16661
+			},{
+				"name": "Tom Snowdon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2612
+			},{
+				"name": "Stuart Bent",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1611
+			},{
+				"name": "David Wadsworth",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 777
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000951",
 	"title": "South West Hertfordshire",
+	"demographics": {
+		"leave": 46.37,
+		"withdegree": 26.31,
+		"age18-29": 11.58,
+		"2015UKIP": 11.53,
+		"2016Leave": 46.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 75.0, "value": 60791 },
 			"valid": 60653,
 			"invalid": 138,
-			"majority": 19550
+			"majority": 19550,
+			"candidates": [{
+				"name": "David Gauke",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35128
+			},{
+				"name": "Rob Wakely",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15578
+			},{
+				"name": "Christopher Townsend",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7078
+			},{
+				"name": "Paul De Hoest",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1576
+			},{
+				"name": "Mark Anderson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1293
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

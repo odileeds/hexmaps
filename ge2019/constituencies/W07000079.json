@@ -1,6 +1,13 @@
 {
 	"id": "W07000079",
 	"title": "Cardiff West",
+	"demographics": {
+		"leave": 44.84,
+		"withdegree": 23.38,
+		"age18-29": 16.65,
+		"2015UKIP": 11.24,
+		"2016Leave": 44.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 70.0, "value": 46718 },
 			"valid": 46629,
 			"invalid": 89,
-			"majority": 12551
+			"majority": 12551,
+			"candidates": [{
+				"name": "Kevin Brennan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26425
+			},{
+				"name": "Matt Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13874
+			},{
+				"name": "Michael Deem",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 4418
+			},{
+				"name": "Alex Meredith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1214
+			},{
+				"name": "Richard Lewis",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 698
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14001012",
 	"title": "Walsall South",
+	"demographics": {
+		"leave": 61.64,
+		"withdegree": 10.67,
+		"age18-29": 17.56,
+		"2015UKIP": 15.63,
+		"2016Leave": 61.64
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 65.5, "value": 44189 },
 			"valid": 44072,
 			"invalid": 117,
-			"majority": 8892
+			"majority": 8892,
+			"candidates": [{
+				"name": "Valerie Vaz",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25286
+			},{
+				"name": "James Bird",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16394
+			},{
+				"name": "Derek Bennett",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1805
+			},{
+				"name": "Anna  Wellings Purvis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 587
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000005",
 	"title": "Argyll and Bute",
+	"demographics": {
+		"leave": 39.43,
+		"withdegree": ,
+		"age18-29": 11.79,
+		"2015UKIP": 2.53,
+		"2016Leave": 39.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.6, "value": 48138 },
 			"valid": 48069,
 			"invalid": 69,
-			"majority": 1328
+			"majority": 1328,
+			"candidates": [{
+				"name": "Brendan O'Hara",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17304
+			},{
+				"name": "Gary Mulvaney",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15976
+			},{
+				"name": "Alan Reid",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8745
+			},{
+				"name": "Michael Kelly",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6044
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

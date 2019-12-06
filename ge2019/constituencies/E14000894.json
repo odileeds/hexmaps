@@ -1,6 +1,13 @@
 {
 	"id": "E14000894",
 	"title": "Ribble Valley",
+	"demographics": {
+		"leave": 58.68,
+		"withdegree": 16.59,
+		"age18-29": 12.38,
+		"2015UKIP": 15.79,
+		"2016Leave": 58.68
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 71.0, "value": 55363 },
 			"valid": 55200,
 			"invalid": 163,
-			"majority": 13199
+			"majority": 13199,
+			"candidates": [{
+				"name": "Nigel Evans",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31919
+			},{
+				"name": "David Hinder",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18720
+			},{
+				"name": "Allan Knox",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3247
+			},{
+				"name": "Graham Sowter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1314
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

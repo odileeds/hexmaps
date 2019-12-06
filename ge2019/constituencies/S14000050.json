@@ -1,6 +1,13 @@
 {
 	"id": "S14000050",
 	"title": "Ochil and South Perthshire",
+	"demographics": {
+		"leave": 39.25,
+		"withdegree": ,
+		"age18-29": 11.97,
+		"2015UKIP": 2.3,
+		"2016Leave": 39.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 70.7, "value": 54245 },
 			"valid": 54168,
 			"invalid": 77,
-			"majority": 3359
+			"majority": 3359,
+			"candidates": [{
+				"name": "Luke  Graham",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22469
+			},{
+				"name": "Tasmina Ahmed-Sheikh",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 19110
+			},{
+				"name": "Joanne Ross",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10847
+			},{
+				"name": "Iliyan  Stefanov",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1742
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

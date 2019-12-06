@@ -1,6 +1,13 @@
 {
 	"id": "E14000626",
 	"title": "Chatham and Aylesford",
+	"demographics": {
+		"leave": 64.75,
+		"withdegree": 9.1,
+		"age18-29": 16.18,
+		"2015UKIP": 19.92,
+		"2016Leave": 64.75
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 63.9, "value": 44963 },
 			"valid": 44890,
 			"invalid": 73,
-			"majority": 10458
+			"majority": 10458,
+			"candidates": [{
+				"name": "Tracey Crouch",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25587
+			},{
+				"name": "Vince Maple",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15129
+			},{
+				"name": "Nicole Bushill",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2225
+			},{
+				"name": "Thomas  Quinton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1116
+			},{
+				"name": "Bernard Hyde",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 573
+			},{
+				"name": "John  Gibson",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 260
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

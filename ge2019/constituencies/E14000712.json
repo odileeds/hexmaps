@@ -1,6 +1,13 @@
 {
 	"id": "E14000712",
 	"title": "Gloucester",
+	"demographics": {
+		"leave": 58.9,
+		"withdegree": 10.98,
+		"age18-29": 16.95,
+		"2015UKIP": 14.26,
+		"2016Leave": 58.9
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 65.3, "value": 54147 },
 			"valid": 54071,
 			"invalid": 76,
-			"majority": 5520
+			"majority": 5520,
+			"candidates": [{
+				"name": "Richard Graham",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27208
+			},{
+				"name": "Barry Kirby",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21688
+			},{
+				"name": "Jeremy Hilton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2716
+			},{
+				"name": "Daniel Woolf",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1495
+			},{
+				"name": "Gerald Hartley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 754
+			},{
+				"name": "George Ridgeon",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 210
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

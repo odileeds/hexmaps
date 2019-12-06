@@ -1,6 +1,13 @@
 {
 	"id": "E14000817",
 	"title": "Mid Sussex",
+	"demographics": {
+		"leave": 46.69,
+		"withdegree": 19.52,
+		"age18-29": 12.44,
+		"2015UKIP": 12,
+		"2016Leave": 46.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,32 @@
 			"turnout": { "pc": 73.4, "value": 61745 },
 			"valid": 61632,
 			"invalid": 113,
-			"majority": 19673
+			"majority": 19673,
+			"candidates": [{
+				"name": "Nicholas Soames",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35082
+			},{
+				"name": "Greg Mountain",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15409
+			},{
+				"name": "Sarah Osborne",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7855
+			},{
+				"name": "Chris Jerrey",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1571
+			},{
+				"name": "Toby Brothers",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1251
+			},{
+				"name": "Baron Von Thunderclap",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 464
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

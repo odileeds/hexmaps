@@ -1,6 +1,13 @@
 {
 	"id": "E14000697",
 	"title": "Esher and Walton",
+	"demographics": {
+		"leave": 41.63,
+		"withdegree": 31.37,
+		"age18-29": 10.47,
+		"2015UKIP": 9.74,
+		"2016Leave": 41.63
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 74.0, "value": 59894 },
 			"valid": 59842,
 			"invalid": 52,
-			"majority": 23298
+			"majority": 23298,
+			"candidates": [{
+				"name": "Dominic Raab",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35071
+			},{
+				"name": "Lana Hylands",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11773
+			},{
+				"name": "Andrew Davis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10374
+			},{
+				"name": "Olivia Palmer",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1074
+			},{
+				"name": "David Ions",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1034
+			},{
+				"name": "Baron Badger",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 318
+			},{
+				"name": "Della Reynolds",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 198
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

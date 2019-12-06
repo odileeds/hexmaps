@@ -1,6 +1,13 @@
 {
 	"id": "E14000551",
 	"title": "Beckenham",
+	"demographics": {
+		"leave": 48.38,
+		"withdegree": 23.16,
+		"age18-29": 12.5,
+		"2015UKIP": 12.52,
+		"2016Leave": 48.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 76.3, "value": 51812 },
 			"valid": 51630,
 			"invalid": 182,
-			"majority": 15087
+			"majority": 15087,
+			"candidates": [{
+				"name": "Bob Stewart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30632
+			},{
+				"name": "Marina Ahmad",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15545
+			},{
+				"name": "Julie Ireland",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4073
+			},{
+				"name": "Ruth Fabricant",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1380
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

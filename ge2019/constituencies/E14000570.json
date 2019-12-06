@@ -1,6 +1,13 @@
 {
 	"id": "E14000570",
 	"title": "Blackburn",
+	"demographics": {
+		"leave": 53.73,
+		"withdegree": 10.11,
+		"age18-29": 17.25,
+		"2015UKIP": 14.27,
+		"2016Leave": 53.73
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 67.5, "value": 47702 },
 			"valid": 47515,
 			"invalid": 187,
-			"majority": 20368
+			"majority": 20368,
+			"candidates": [{
+				"name": "Kate Hollern",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33148
+			},{
+				"name": "Bob Eastwood",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12780
+			},{
+				"name": "Duncan Miller",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 878
+			},{
+				"name": "Irfan Ahmed",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 709
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

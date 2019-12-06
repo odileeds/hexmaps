@@ -1,6 +1,13 @@
 {
 	"id": "E14000857",
 	"title": "North West Hampshire",
+	"demographics": {
+		"leave": 54.53,
+		"withdegree": 15.69,
+		"age18-29": 11.96,
+		"2015UKIP": 14.69,
+		"2016Leave": 54.53
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.3, "value": 58880 },
 			"valid": 58772,
 			"invalid": 108,
-			"majority": 22679
+			"majority": 22679,
+			"candidates": [{
+				"name": "Kit Malthouse",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36471
+			},{
+				"name": "Andy Fitchet",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13792
+			},{
+				"name": "Alex  Payton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5708
+			},{
+				"name": "Roger Clark",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1467
+			},{
+				"name": "Dan Hill",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1334
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

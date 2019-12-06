@@ -1,6 +1,13 @@
 {
 	"id": "E14000783",
 	"title": "Leicester South",
+	"demographics": {
+		"leave": 42.58,
+		"withdegree": 19.53,
+		"age18-29": 28.75,
+		"2015UKIP": 8.34,
+		"2016Leave": 42.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 67.1, "value": 50699 },
 			"valid": 50517,
 			"invalid": 182,
-			"majority": 26261
+			"majority": 26261,
+			"candidates": [{
+				"name": "Jonathan Ashworth",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 37157
+			},{
+				"name": "Meera  Sonecha",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10896
+			},{
+				"name": "Harrish  Bisnauthsing",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1287
+			},{
+				"name": "Mags  Lewis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1177
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

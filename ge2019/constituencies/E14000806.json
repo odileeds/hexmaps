@@ -1,6 +1,13 @@
 {
 	"id": "E14000806",
 	"title": "Maldon",
+	"demographics": {
+		"leave": 61.31,
+		"withdegree": 12.14,
+		"age18-29": 11.58,
+		"2015UKIP": 14.66,
+		"2016Leave": 61.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 70.4, "value": 50301 },
 			"valid": 50202,
 			"invalid": 99,
-			"majority": 23430
+			"majority": 23430,
+			"candidates": [{
+				"name": "John Whittingdale",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34111
+			},{
+				"name": "Peter Edwards",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10681
+			},{
+				"name": "Zoe O'Connell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2181
+			},{
+				"name": "Jesse Pryke",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1899
+			},{
+				"name": "Steven Betteridge",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1073
+			},{
+				"name": "Richard Perry",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 257
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

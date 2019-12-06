@@ -1,6 +1,13 @@
 {
 	"id": "W07000059",
 	"title": "Clwyd West",
+	"demographics": {
+		"leave": 52.53,
+		"withdegree": 13.42,
+		"age18-29": 11.56,
+		"2015UKIP": 13.12,
+		"2016Leave": 52.53
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.9, "value": 40733 },
 			"valid": 40654,
 			"invalid": 79,
-			"majority": 3437
+			"majority": 3437,
+			"candidates": [{
+				"name": "David Jones",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19541
+			},{
+				"name": "Gareth Thomas",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16104
+			},{
+				"name": "Dilwyn Roberts",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 3918
+			},{
+				"name": "Victor Babu",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1091
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000630",
 	"title": "Cheltenham",
+	"demographics": {
+		"leave": 42.78,
+		"withdegree": 25.69,
+		"age18-29": 19.43,
+		"2015UKIP": 7.09,
+		"2016Leave": 42.78
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 72.4, "value": 57119 },
 			"valid": 57012,
 			"invalid": 107,
-			"majority": 2569
+			"majority": 2569,
+			"candidates": [{
+				"name": "Alex Chalk",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26615
+			},{
+				"name": "Martin Horwood",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 24046
+			},{
+				"name": "Keith White",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5408
+			},{
+				"name": "Adam Van Coevorden",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 943
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

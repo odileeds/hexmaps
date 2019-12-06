@@ -1,6 +1,13 @@
 {
 	"id": "E14000682",
 	"title": "East Worthing and Shoreham",
+	"demographics": {
+		"leave": 53.67,
+		"withdegree": 12.25,
+		"age18-29": 12.33,
+		"2015UKIP": 16.57,
+		"2016Leave": 53.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 70.4, "value": 53187 },
 			"valid": 53117,
 			"invalid": 70,
-			"majority": 5106
+			"majority": 5106,
+			"candidates": [{
+				"name": "Tim Loughton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25988
+			},{
+				"name": "Sophie Cook",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20882
+			},{
+				"name": "Oli Henman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2523
+			},{
+				"name": "Mike Glennon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1444
+			},{
+				"name": "Leslie Groves Williams",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1273
+			},{
+				"name": "Carl Walker",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 575
+			},{
+				"name": "Andy Lutwyche",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 432
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

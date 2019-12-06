@@ -1,6 +1,13 @@
 {
 	"id": "E14000566",
 	"title": "Birmingham, Perry Barr",
+	"demographics": {
+		"leave": 51.22,
+		"withdegree": 12.26,
+		"age18-29": 19.53,
+		"2015UKIP": 12.2,
+		"2016Leave": 51.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 63.3, "value": 44361 },
 			"valid": 44197,
 			"invalid": 164,
-			"majority": 18383
+			"majority": 18383,
+			"candidates": [{
+				"name": "Khalid Mahmood",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30109
+			},{
+				"name": "Charlotte  Hodivala",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11726
+			},{
+				"name": "Harjun Singh",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1080
+			},{
+				"name": "Shangara  Bhatoe",
+				"party": { "code": "SLP", "title": "Socialist Labour Party" },
+				"votes": 592
+			},{
+				"name": "Vijay Rana",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 591
+			},{
+				"name": "Harjinder  Singh",
+				"party": { "code": "Open Borders Party", "title": "Open Borders Party" },
+				"votes": 99
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

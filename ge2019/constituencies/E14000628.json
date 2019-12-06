@@ -1,6 +1,13 @@
 {
 	"id": "E14000628",
 	"title": "Chelmsford",
+	"demographics": {
+		"leave": 50.55,
+		"withdegree": 18.03,
+		"age18-29": 15.8,
+		"2015UKIP": 14.22,
+		"2016Leave": 50.55
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.3, "value": 56963 },
 			"valid": 56860,
 			"invalid": 103,
-			"majority": 13572
+			"majority": 13572,
+			"candidates": [{
+				"name": "Vicky Ford",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30525
+			},{
+				"name": "Chris Vince",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16953
+			},{
+				"name": "Stephen Robinson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6916
+			},{
+				"name": "Nigel Carter",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1645
+			},{
+				"name": "Reza Hossain",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 821
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

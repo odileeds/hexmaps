@@ -1,6 +1,13 @@
 {
 	"id": "S14000030",
 	"title": "Glasgow East",
+	"demographics": {
+		"leave": 43.84,
+		"withdegree": ,
+		"age18-29": 16.43,
+		"2015UKIP": 2.61,
+		"2016Leave": 43.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,36 @@
 			"turnout": { "pc": 54.7, "value": 36222 },
 			"valid": 36166,
 			"invalid": 56,
-			"majority": 75
+			"majority": 75,
+			"candidates": [{
+				"name": "David Linden",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 14024
+			},{
+				"name": "Kate Watson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13949
+			},{
+				"name": "Thomas Kerr",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6816
+			},{
+				"name": "Matthew Clark",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 567
+			},{
+				"name": "John Ferguson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 504
+			},{
+				"name": "Karin Finegan",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 158
+			},{
+				"name": "Steven Marshall",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 148
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

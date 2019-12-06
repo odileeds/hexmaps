@@ -1,6 +1,13 @@
 {
 	"id": "E14000929",
 	"title": "Sleaford and North Hykeham",
+	"demographics": {
+		"leave": 61.53,
+		"withdegree": 12.5,
+		"age18-29": 10.81,
+		"2015UKIP": 15.69,
+		"2016Leave": 61.53
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 72.5, "value": 65904 },
 			"valid": 65797,
 			"invalid": 107,
-			"majority": 25237
+			"majority": 25237,
+			"candidates": [{
+				"name": "Caroline Johnson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 42245
+			},{
+				"name": "Jim Clarke",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17008
+			},{
+				"name": "Ross Pepper",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2722
+			},{
+				"name": "Sally Chadd",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1954
+			},{
+				"name": "Fiona McKenna",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 968
+			},{
+				"name": "Paul Coyne",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 900
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

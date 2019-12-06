@@ -1,6 +1,13 @@
 {
 	"id": "E14000545",
 	"title": "Basingstoke",
+	"demographics": {
+		"leave": 53.64,
+		"withdegree": 16.52,
+		"age18-29": 15.92,
+		"2015UKIP": 15.62,
+		"2016Leave": 53.64
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 68.5, "value": 56098 },
 			"valid": 55960,
 			"invalid": 138,
-			"majority": 9466
+			"majority": 9466,
+			"candidates": [{
+				"name": "Maria Miller",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29510
+			},{
+				"name": "Terry Bridgeman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20044
+			},{
+				"name": "John Shaw",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3406
+			},{
+				"name": "Alan Stone",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1681
+			},{
+				"name": "Richard Winter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1106
+			},{
+				"name": "Scott Neville",
+				"party": { "code": "Libertaria", "title": "Libertarian Party" },
+				"votes": 213
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

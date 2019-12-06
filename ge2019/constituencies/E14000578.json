@@ -1,6 +1,13 @@
 {
 	"id": "E14000578",
 	"title": "Bolton North East",
+	"demographics": {
+		"leave": 57.77,
+		"withdegree": 12.48,
+		"age18-29": 16.16,
+		"2015UKIP": 18.81,
+		"2016Leave": 57.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.3, "value": 45273 },
 			"valid": 45183,
 			"invalid": 90,
-			"majority": 3797
+			"majority": 3797,
+			"candidates": [{
+				"name": "David Crausby",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22870
+			},{
+				"name": "James Daly",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19073
+			},{
+				"name": "Harry Lamb",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1567
+			},{
+				"name": "Warren Fox",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1316
+			},{
+				"name": "Liz Spencer",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 357
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

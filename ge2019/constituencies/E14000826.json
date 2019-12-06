@@ -1,6 +1,13 @@
 {
 	"id": "E14000826",
 	"title": "Morley and Outwood",
+	"demographics": {
+		"leave": 59.79,
+		"withdegree": 13.14,
+		"age18-29": 14.05,
+		"2015UKIP": 16.48,
+		"2016Leave": 59.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 68.7, "value": 52555 },
 			"valid": 52357,
 			"invalid": 198,
-			"majority": 2104
+			"majority": 2104,
+			"candidates": [{
+				"name": "Andrea Jenkyns",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26550
+			},{
+				"name": "Neil Dawson",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 24446
+			},{
+				"name": "Craig Dobson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1361
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "N06000018",
 	"title": "West Tyrone",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -58,7 +65,36 @@
 			"turnout": { "pc": 68.2, "value": 43675 },
 			"valid": 43486,
 			"invalid": 189,
-			"majority": 10342
+			"majority": 10342,
+			"candidates": [{
+				"name": "Barry McElduff",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 22060
+			},{
+				"name": "Thomas Buchanan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 11718
+			},{
+				"name": "Daniel McCrossan",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 5635
+			},{
+				"name": "Alicia Clarke",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 2253
+			},{
+				"name": "Stephen Donnelly",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 1000
+			},{
+				"name": "Ciaran McClean",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 427
+			},{
+				"name": "Barry Brown",
+				"party": { "code": "Citizens Independent Social Thought Alliance", "title": "Citizens Independent Social Thought Alliance" },
+				"votes": 393
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

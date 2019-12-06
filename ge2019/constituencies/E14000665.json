@@ -1,6 +1,13 @@
 {
 	"id": "E14000665",
 	"title": "Devizes",
+	"demographics": {
+		"leave": 51.46,
+		"withdegree": 15.82,
+		"age18-29": 15.8,
+		"2015UKIP": 15.39,
+		"2016Leave": 51.46
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 70.2, "value": 50700 },
 			"valid": 50593,
 			"invalid": 107,
-			"majority": 21136
+			"majority": 21136,
+			"candidates": [{
+				"name": "Claire Perry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31744
+			},{
+				"name": "Imtiyaz Shaikh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10608
+			},{
+				"name": "Christopher Coleman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4706
+			},{
+				"name": "Timothy Page",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1706
+			},{
+				"name": "Emma Dawnay",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1606
+			},{
+				"name": "Jim Gunter",
+				"party": { "code": "Wessex Reg", "title": "Wessex Regionalist Party" },
+				"votes": 223
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000968",
 	"title": "Stevenage",
+	"demographics": {
+		"leave": 57.12,
+		"withdegree": 13.8,
+		"age18-29": 15.72,
+		"2015UKIP": 14.36,
+		"2016Leave": 57.12
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.9, "value": 49468 },
 			"valid": 49327,
 			"invalid": 141,
-			"majority": 3386
+			"majority": 3386,
+			"candidates": [{
+				"name": "Stephen McPartland",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24798
+			},{
+				"name": "Sharon Taylor",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 21412
+			},{
+				"name": "Barbara Gibson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2032
+			},{
+				"name": "Victoria Snelling",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1085
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

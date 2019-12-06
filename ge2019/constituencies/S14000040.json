@@ -1,6 +1,13 @@
 {
 	"id": "S14000040",
 	"title": "Kilmarnock and Loudoun",
+	"demographics": {
+		"leave": 39.61,
+		"withdegree": ,
+		"age18-29": 14.45,
+		"2015UKIP": ,
+		"2016Leave": 39.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 63.5, "value": 46590 },
 			"valid": 46509,
 			"invalid": 81,
-			"majority": 6269
+			"majority": 6269,
+			"candidates": [{
+				"name": "Alan Brown",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 19690
+			},{
+				"name": "Laura Dover",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13421
+			},{
+				"name": "Alison Harper",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12404
+			},{
+				"name": "Irene Lang",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 994
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

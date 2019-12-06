@@ -1,6 +1,13 @@
 {
 	"id": "N06000013",
 	"title": "North Down",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,40 @@
 			"turnout": { "pc": 61.0, "value": 39268 },
 			"valid": 39185,
 			"invalid": 83,
-			"majority": 1208
+			"majority": 1208,
+			"candidates": [{
+				"name": "Sylvia Hermon",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 16148
+			},{
+				"name": "Alex Easton",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 14940
+			},{
+				"name": "Andrew Muir",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 3639
+			},{
+				"name": "Steven Agnew",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2549
+			},{
+				"name": "Frank Shivers",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 941
+			},{
+				"name": "Therese McCartney",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 531
+			},{
+				"name": "Caoimhe McNeill",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 400
+			},{
+				"name": "Gavan Reynolds",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 37
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

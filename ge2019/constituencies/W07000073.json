@@ -1,6 +1,13 @@
 {
 	"id": "W07000073",
 	"title": "Bridgend",
+	"demographics": {
+		"leave": 49.65,
+		"withdegree": 14.29,
+		"age18-29": 14.25,
+		"2015UKIP": 14.98,
+		"2016Leave": 49.65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 69.6, "value": 43310 },
 			"valid": 43255,
 			"invalid": 55,
-			"majority": 4700
+			"majority": 4700,
+			"candidates": [{
+				"name": "Madeleine Moon",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21913
+			},{
+				"name": "Karen Robson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17213
+			},{
+				"name": "Rhys Watkins",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1783
+			},{
+				"name": "Jonathan Pratt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 919
+			},{
+				"name": "Alun Williams",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 781
+			},{
+				"name": "Isabel Robson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 646
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

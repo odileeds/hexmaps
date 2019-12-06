@@ -1,6 +1,13 @@
 {
 	"id": "S14000006",
 	"title": "Ayr, Carrick and Cumnock",
+	"demographics": {
+		"leave": 42.99,
+		"withdegree": ,
+		"age18-29": 13.18,
+		"2015UKIP": 2.45,
+		"2016Leave": 42.99
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 65.0, "value": 46296 },
 			"valid": 46222,
 			"invalid": 74,
-			"majority": 2774
+			"majority": 2774,
+			"candidates": [{
+				"name": "Bill Grant",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18550
+			},{
+				"name": "Corri Wilson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15776
+			},{
+				"name": "Carol Mochan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11024
+			},{
+				"name": "Callum Leslie",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 872
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

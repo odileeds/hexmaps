@@ -1,6 +1,13 @@
 {
 	"id": "S14000022",
 	"title": "Edinburgh East",
+	"demographics": {
+		"leave": 27.64,
+		"withdegree": ,
+		"age18-29": 29.32,
+		"2015UKIP": 1.91,
+		"2016Leave": 27.64
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 66.2, "value": 43623 },
 			"valid": 43523,
 			"invalid": 100,
-			"majority": 3425
+			"majority": 3425,
+			"candidates": [{
+				"name": "Tommy Sheppard",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18509
+			},{
+				"name": "Patsy King",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15084
+			},{
+				"name": "Katie Mackie",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8081
+			},{
+				"name": "Tristan Gray",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1849
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

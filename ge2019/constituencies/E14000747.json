@@ -1,6 +1,13 @@
 {
 	"id": "E14000747",
 	"title": "Heywood and Middleton",
+	"demographics": {
+		"leave": 62.43,
+		"withdegree": 10.6,
+		"age18-29": 15.2,
+		"2015UKIP": 32.2,
+		"2016Leave": 62.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 62.5, "value": 49962 },
 			"valid": 49865,
 			"invalid": 97,
-			"majority": 7617
+			"majority": 7617,
+			"candidates": [{
+				"name": "Liz McInnes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26578
+			},{
+				"name": "Chris Clarkson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18961
+			},{
+				"name": "Lee Seville",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3239
+			},{
+				"name": "Bill Winlow",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1087
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

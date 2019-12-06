@@ -1,6 +1,13 @@
 {
 	"id": "E14000995",
 	"title": "Thurrock",
+	"demographics": {
+		"leave": 70.26,
+		"withdegree": 10.1,
+		"age18-29": 16.28,
+		"2015UKIP": 31.71,
+		"2016Leave": 70.26
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 64.5, "value": 50422 },
 			"valid": 50325,
 			"invalid": 97,
-			"majority": 345
+			"majority": 345,
+			"candidates": [{
+				"name": "Jackie Doyle-Price",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19880
+			},{
+				"name": "John Kent",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19535
+			},{
+				"name": "Tim Aker",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 10112
+			},{
+				"name": "Kevin McNamara",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 798
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

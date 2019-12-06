@@ -1,6 +1,13 @@
 {
 	"id": "N06000012",
 	"title": "North Antrim",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 64.2, "value": 48572 },
 			"valid": 48460,
 			"invalid": 112,
-			"majority": 20643
+			"majority": 20643,
+			"candidates": [{
+				"name": "Ian Paisley",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 28521
+			},{
+				"name": "Cara McShane",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 7878
+			},{
+				"name": "Jackson Minford",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 3482
+			},{
+				"name": "Timothy Gaston",
+				"party": { "code": "TUV", "title": "Traditional Unionist Voice" },
+				"votes": 3282
+			},{
+				"name": "Patricia O'Lynn",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 2723
+			},{
+				"name": "Declan O'Loan",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2574
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000047",
 	"title": "Swansea West",
+	"demographics": {
+		"leave": 42.66,
+		"withdegree": 18.87,
+		"age18-29": 26.88,
+		"2015UKIP": 13.49,
+		"2016Leave": 42.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 65.7, "value": 37365 },
 			"valid": 37282,
 			"invalid": 83,
-			"majority": 10598
+			"majority": 10598,
+			"candidates": [{
+				"name": "Geraint Davies",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 22278
+			},{
+				"name": "Craig Lawton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11680
+			},{
+				"name": "Rhydian Fitter",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1529
+			},{
+				"name": "Michael O'Carroll",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1269
+			},{
+				"name": "Mike Whittall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 434
+			},{
+				"name": "Brian Johnson",
+				"party": { "code": "The Socialist Party of Great Britain", "title": "The Socialist Party of Great Britain" },
+				"votes": 92
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

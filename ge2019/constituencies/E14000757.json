@@ -1,6 +1,13 @@
 {
 	"id": "E14000757",
 	"title": "Huntingdon",
+	"demographics": {
+		"leave": 53.27,
+		"withdegree": 16.53,
+		"age18-29": 14.37,
+		"2015UKIP": 16.94,
+		"2016Leave": 53.27
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 71.0, "value": 59856 },
 			"valid": 59720,
 			"invalid": 136,
-			"majority": 14475
+			"majority": 14475,
+			"candidates": [{
+				"name": "Jonathan Djanogly",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32915
+			},{
+				"name": "Nik Johnson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18440
+			},{
+				"name": "Rod Cantrill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5090
+			},{
+				"name": "Paul Bullen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2180
+			},{
+				"name": "Tom MacLennan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1095
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "W07000041",
 	"title": "Ynys Môn",
+	"demographics": {
+		"leave": 50.94,
+		"withdegree": 13.82,
+		"age18-29": 12.71,
+		"2015UKIP": 14.66,
+		"2016Leave": 50.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.7, "value": 37407 },
 			"valid": 37367,
 			"invalid": 40,
-			"majority": 5259
+			"majority": 5259,
+			"candidates": [{
+				"name": "Albert Owen",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15643
+			},{
+				"name": "Tomos Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10384
+			},{
+				"name": "Ieuan Wyn Jones",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 10237
+			},{
+				"name": "James Turner",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 624
+			},{
+				"name": "Sarah Jackson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 479
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

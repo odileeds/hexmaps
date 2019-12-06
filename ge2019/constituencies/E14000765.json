@@ -1,6 +1,13 @@
 {
 	"id": "E14000765",
 	"title": "Jarrow",
+	"demographics": {
+		"leave": 61.62,
+		"withdegree": 10.07,
+		"age18-29": 14.35,
+		"2015UKIP": 19.66,
+		"2016Leave": 61.62
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,28 @@
 			"turnout": { "pc": 66.5, "value": 43100 },
 			"valid": 43023,
 			"invalid": 77,
-			"majority": 17263
+			"majority": 17263,
+			"candidates": [{
+				"name": "Stephen Hepburn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 28020
+			},{
+				"name": "Robin Gwynn",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10757
+			},{
+				"name": "James Askwith",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2338
+			},{
+				"name": "Peter Maughan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1163
+			},{
+				"name": "David Herbert",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 745
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

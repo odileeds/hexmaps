@@ -1,6 +1,13 @@
 {
 	"id": "E14000575",
 	"title": "Blyth Valley",
+	"demographics": {
+		"leave": 59.88,
+		"withdegree": 8.62,
+		"age18-29": 13.92,
+		"2015UKIP": 22.32,
+		"2016Leave": 59.88
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 67.1, "value": 42560 },
 			"valid": 42490,
 			"invalid": 70,
-			"majority": 7915
+			"majority": 7915,
+			"candidates": [{
+				"name": "Ronnie Campbell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23770
+			},{
+				"name": "Ian Levy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15855
+			},{
+				"name": "Jeff Reid",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1947
+			},{
+				"name": "Dawn Furness",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 918
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

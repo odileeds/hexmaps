@@ -1,6 +1,13 @@
 {
 	"id": "E14001061",
 	"title": "York Central",
+	"demographics": {
+		"leave": 38.53,
+		"withdegree": 24.96,
+		"age18-29": 27.11,
+		"2015UKIP": 10.06,
+		"2016Leave": 38.53
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,20 @@
 			"turnout": { "pc": 68.9, "value": 53301 },
 			"valid": 53088,
 			"invalid": 213,
-			"majority": 18575
+			"majority": 18575,
+			"candidates": [{
+				"name": "Rachael Maskell",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 34594
+			},{
+				"name": "Ed Young",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16019
+			},{
+				"name": "Nick Love",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2475
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

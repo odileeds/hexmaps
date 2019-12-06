@@ -1,6 +1,13 @@
 {
 	"id": "E14000777",
 	"title": "Leeds Central",
+	"demographics": {
+		"leave": 47.43,
+		"withdegree": 17.36,
+		"age18-29": 35.03,
+		"2015UKIP": 15.72,
+		"2016Leave": 47.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 53.4, "value": 47789 },
 			"valid": 47673,
 			"invalid": 116,
-			"majority": 23698
+			"majority": 23698,
+			"candidates": [{
+				"name": "Hilary Benn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33453
+			},{
+				"name": "Gareth Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9755
+			},{
+				"name": "Bill Palfreman",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2056
+			},{
+				"name": "Ed Carlisle",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1189
+			},{
+				"name": "Andy Nash",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1063
+			},{
+				"name": "Alex Coetzee",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 157
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

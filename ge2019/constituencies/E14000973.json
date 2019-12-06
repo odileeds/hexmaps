@@ -1,6 +1,13 @@
 {
 	"id": "E14000973",
 	"title": "Stoke-on-Trent North",
+	"demographics": {
+		"leave": 72.12,
+		"withdegree": 6.82,
+		"age18-29": 15.75,
+		"2015UKIP": 24.69,
+		"2016Leave": 72.12
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 58.6, "value": 41909 },
 			"valid": 41786,
 			"invalid": 123,
-			"majority": 2359
+			"majority": 2359,
+			"candidates": [{
+				"name": "Ruth Smeeth",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21272
+			},{
+				"name": "Ben Adams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18913
+			},{
+				"name": "Richard Whelan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 916
+			},{
+				"name": "Douglas Rouxel",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 685
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

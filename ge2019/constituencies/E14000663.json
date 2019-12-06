@@ -1,6 +1,13 @@
 {
 	"id": "E14000663",
 	"title": "Derby South",
+	"demographics": {
+		"leave": 61.61,
+		"withdegree": 11.68,
+		"age18-29": 18.13,
+		"2015UKIP": 15.53,
+		"2016Leave": 61.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 64.9, "value": 45411 },
 			"valid": 45306,
 			"invalid": 105,
-			"majority": 11248
+			"majority": 11248,
+			"candidates": [{
+				"name": "Margaret Beckett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26430
+			},{
+				"name": "Evonne Williams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15182
+			},{
+				"name": "Alan Graves",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2011
+			},{
+				"name": "Joe Naitta",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1229
+			},{
+				"name": "Ian Sleeman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 454
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

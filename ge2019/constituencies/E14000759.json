@@ -1,6 +1,13 @@
 {
 	"id": "E14000759",
 	"title": "Ilford North",
+	"demographics": {
+		"leave": 52.57,
+		"withdegree": 21.25,
+		"age18-29": 15.73,
+		"2015UKIP": 8.9,
+		"2016Leave": 52.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 72.7, "value": 53052 },
 			"valid": 52941,
 			"invalid": 111,
-			"majority": 9639
+			"majority": 9639,
+			"candidates": [{
+				"name": "Wes Streeting",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30589
+			},{
+				"name": "Lee Scott",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20950
+			},{
+				"name": "Richard Clare",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1034
+			},{
+				"name": "Doris Osen",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 368
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

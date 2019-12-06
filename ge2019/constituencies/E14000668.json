@@ -1,6 +1,13 @@
 {
 	"id": "E14000668",
 	"title": "Doncaster Central",
+	"demographics": {
+		"leave": 66.32,
+		"withdegree": 8.95,
+		"age18-29": 16.74,
+		"2015UKIP": 24.11,
+		"2016Leave": 66.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 60.2, "value": 43146 },
 			"valid": 43024,
 			"invalid": 122,
-			"majority": 10131
+			"majority": 10131,
+			"candidates": [{
+				"name": "Rosie Winterton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24915
+			},{
+				"name": "Tom Hunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14784
+			},{
+				"name": "Chris Whitwood",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1346
+			},{
+				"name": "Eddie Todd",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1006
+			},{
+				"name": "Alison Brelsford",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 973
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

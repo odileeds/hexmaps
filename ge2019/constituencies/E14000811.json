@@ -1,6 +1,13 @@
 {
 	"id": "E14000811",
 	"title": "Meon Valley",
+	"demographics": {
+		"leave": 52.93,
+		"withdegree": 17.34,
+		"age18-29": 11.4,
+		"2015UKIP": 14.82,
+		"2016Leave": 52.93
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 73.1, "value": 54307 },
 			"valid": 54192,
 			"invalid": 115,
-			"majority": 25692
+			"majority": 25692,
+			"candidates": [{
+				"name": "George Hollingbery",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35624
+			},{
+				"name": "Sheena King",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9932
+			},{
+				"name": "Martin  Tod",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5900
+			},{
+				"name": "Paul  Bailey",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1435
+			},{
+				"name": "Andrew Hayward",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1301
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

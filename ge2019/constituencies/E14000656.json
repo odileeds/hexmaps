@@ -1,6 +1,13 @@
 {
 	"id": "E14000656",
 	"title": "Croydon South",
+	"demographics": {
+		"leave": 45.81,
+		"withdegree": 23.22,
+		"age18-29": 14.61,
+		"2015UKIP": 10.51,
+		"2016Leave": 45.81
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 73.5, "value": 61380 },
 			"valid": 61257,
 			"invalid": 123,
-			"majority": 11406
+			"majority": 11406,
+			"candidates": [{
+				"name": "Chris Philp",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33334
+			},{
+				"name": "Jennifer Brathwaite",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21928
+			},{
+				"name": "Anna Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3541
+			},{
+				"name": "Catherine Shelley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1125
+			},{
+				"name": "Kathleen Garner",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1116
+			},{
+				"name": "David Omamogho",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 213
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

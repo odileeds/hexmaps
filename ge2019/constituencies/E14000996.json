@@ -1,6 +1,13 @@
 {
 	"id": "E14000996",
 	"title": "Tiverton and Honiton",
+	"demographics": {
+		"leave": 57.63,
+		"withdegree": 12.97,
+		"age18-29": 10.83,
+		"2015UKIP": 16.47,
+		"2016Leave": 57.63
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 71.8, "value": 57987 },
 			"valid": 57815,
 			"invalid": 172,
-			"majority": 19801
+			"majority": 19801,
+			"candidates": [{
+				"name": "Neil Parish",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35471
+			},{
+				"name": "Caroline Kolek",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15670
+			},{
+				"name": "Matthew Wilson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4639
+			},{
+				"name": "Gill Westcott",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2035
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

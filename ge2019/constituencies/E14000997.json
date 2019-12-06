@@ -1,6 +1,13 @@
 {
 	"id": "E14000997",
 	"title": "Tonbridge and Malling",
+	"demographics": {
+		"leave": 52.59,
+		"withdegree": 18.54,
+		"age18-29": 11.01,
+		"2015UKIP": 15.19,
+		"2016Leave": 52.59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 73.6, "value": 57015 },
 			"valid": 56907,
 			"invalid": 108,
-			"majority": 23508
+			"majority": 23508,
+			"candidates": [{
+				"name": "Tom Tugendhat",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36218
+			},{
+				"name": "Dylan Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12710
+			},{
+				"name": "Keith Miller",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3787
+			},{
+				"name": "April Clark",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2335
+			},{
+				"name": "Colin Bullen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1857
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000688",
 	"title": "Ellesmere Port and Neston",
+	"demographics": {
+		"leave": 57.77,
+		"withdegree": 12.5,
+		"age18-29": 13.6,
+		"2015UKIP": 11.97,
+		"2016Leave": 57.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 74.3, "value": 51008 },
 			"valid": 50939,
 			"invalid": 69,
-			"majority": 11390
+			"majority": 11390,
+			"candidates": [{
+				"name": "Justin Madders",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30137
+			},{
+				"name": "Nigel Jones",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18747
+			},{
+				"name": "Ed Gough",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 892
+			},{
+				"name": "Fred Fricker",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 821
+			},{
+				"name": "Steven Baker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 342
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

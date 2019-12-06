@@ -1,6 +1,13 @@
 {
 	"id": "E14000961",
 	"title": "St Austell and Newquay",
+	"demographics": {
+		"leave": 63.51,
+		"withdegree": 9.53,
+		"age18-29": 12.87,
+		"2015UKIP": 16.88,
+		"2016Leave": 63.51
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,20 @@
 			"turnout": { "pc": 69.3, "value": 54443 },
 			"valid": 54212,
 			"invalid": 231,
-			"majority": 11142
+			"majority": 11142,
+			"candidates": [{
+				"name": "Steve Double",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26856
+			},{
+				"name": "Kevin Neil",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15714
+			},{
+				"name": "Stephen Gilbert",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11642
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

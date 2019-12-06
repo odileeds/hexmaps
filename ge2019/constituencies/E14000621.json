@@ -1,6 +1,13 @@
 {
 	"id": "E14000621",
 	"title": "Carshalton and Wallington",
+	"demographics": {
+		"leave": 56.3,
+		"withdegree": 16.68,
+		"age18-29": 14.93,
+		"2015UKIP": 14.8,
+		"2016Leave": 56.3
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 71.8, "value": 50850 },
 			"valid": 50753,
 			"invalid": 97,
-			"majority": 1369
+			"majority": 1369,
+			"candidates": [{
+				"name": "Tom Brake",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 20819
+			},{
+				"name": "Matthew Maxwell Scott",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19450
+			},{
+				"name": "Emina Ibrahim",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9360
+			},{
+				"name": "Shasha Khan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 501
+			},{
+				"name": "Nick Mattey",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 434
+			},{
+				"name": "Ashley Dickenson",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 189
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

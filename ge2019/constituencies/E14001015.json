@@ -1,6 +1,13 @@
 {
 	"id": "E14001015",
 	"title": "Wantage",
+	"demographics": {
+		"leave": 46.43,
+		"withdegree": 23.35,
+		"age18-29": 12.92,
+		"2015UKIP": 12.5,
+		"2016Leave": 46.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,28 @@
 			"turnout": { "pc": 74.3, "value": 63758 },
 			"valid": 63602,
 			"invalid": 156,
-			"majority": 17380
+			"majority": 17380,
+			"candidates": [{
+				"name": "Edward Vaizey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34459
+			},{
+				"name": "Rachel Eden",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 17079
+			},{
+				"name": "Christopher Carrigan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9234
+			},{
+				"name": "Sue Ap-Roberts",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1546
+			},{
+				"name": "David McLeod",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1284
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

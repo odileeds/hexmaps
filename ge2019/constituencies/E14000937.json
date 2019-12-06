@@ -1,6 +1,13 @@
 {
 	"id": "E14000937",
 	"title": "South East Cambridgeshire",
+	"demographics": {
+		"leave": 44.99,
+		"withdegree": 23.14,
+		"age18-29": 13,
+		"2015UKIP": 11.08,
+		"2016Leave": 44.99
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,20 @@
 			"turnout": { "pc": 73.4, "value": 63228 },
 			"valid": 63002,
 			"invalid": 226,
-			"majority": 16158
+			"majority": 16158,
+			"candidates": [{
+				"name": "Lucy Frazer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33601
+			},{
+				"name": "Huw Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17443
+			},{
+				"name": "Lucy Nethsingha",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11958
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

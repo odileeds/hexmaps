@@ -1,6 +1,13 @@
 {
 	"id": "N06000002",
 	"title": "Belfast North",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,32 @@
 			"turnout": { "pc": 67.5, "value": 46094 },
 			"valid": 45936,
 			"invalid": 158,
-			"majority": 2081
+			"majority": 2081,
+			"candidates": [{
+				"name": "Nigel Dodds",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 21240
+			},{
+				"name": "John Finucane",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 19159
+			},{
+				"name": "Sam Nelson",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 2475
+			},{
+				"name": "Martin McAuley",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2058
+			},{
+				"name": "Malachai O'Hara",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 644
+			},{
+				"name": "Gemma Weir",
+				"party": { "code": "WP", "title": "Workers Party" },
+				"votes": 360
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

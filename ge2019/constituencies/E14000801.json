@@ -1,6 +1,13 @@
 {
 	"id": "E14000801",
 	"title": "Luton South",
+	"demographics": {
+		"leave": 55.44,
+		"withdegree": 15.42,
+		"age18-29": 23.09,
+		"2015UKIP": 12.15,
+		"2016Leave": 55.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -53,7 +60,32 @@
 			"turnout": { "pc": 68.8, "value": 46233 },
 			"valid": 46133,
 			"invalid": 100,
-			"majority": 13925
+			"majority": 13925,
+			"candidates": [{
+				"name": "Gavin Shuker",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 28804
+			},{
+				"name": "Dean Russell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14879
+			},{
+				"name": "Andrew Strange",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1056
+			},{
+				"name": "Ujjawal Bhardwhaj",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 795
+			},{
+				"name": "Marc Scheimann",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 439
+			},{
+				"name": "Abid Ali",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 160
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

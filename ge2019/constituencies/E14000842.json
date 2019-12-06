@@ -1,6 +1,13 @@
 {
 	"id": "E14000842",
 	"title": "North East Cambridgeshire",
+	"demographics": {
+		"leave": 69.45,
+		"withdegree": 6.91,
+		"age18-29": 13.63,
+		"2015UKIP": 22.5,
+		"2016Leave": 69.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 63.2, "value": 53365 },
 			"valid": 53284,
 			"invalid": 81,
-			"majority": 21270
+			"majority": 21270,
+			"candidates": [{
+				"name": "Stephen Barclay",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34340
+			},{
+				"name": "Ken Rustidge",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13070
+			},{
+				"name": "Darren Fower",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2383
+			},{
+				"name": "Robin Talbot",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2174
+			},{
+				"name": "Ruth Johnson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1024
+			},{
+				"name": "Stephen Goldspink",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 293
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

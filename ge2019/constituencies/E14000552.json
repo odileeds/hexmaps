@@ -1,6 +1,13 @@
 {
 	"id": "E14000552",
 	"title": "Bedford",
+	"demographics": {
+		"leave": 51.95,
+		"withdegree": 15.43,
+		"age18-29": 17.62,
+		"2015UKIP": 9.62,
+		"2016Leave": 51.95
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 67.7, "value": 48656 },
 			"valid": 48480,
 			"invalid": 176,
-			"majority": 789
+			"majority": 789,
+			"candidates": [{
+				"name": "Mohammad  Yasin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22712
+			},{
+				"name": "Richard Fuller",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21923
+			},{
+				"name": "Henry Vann",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2837
+			},{
+				"name": "Lucy Bywater",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1008
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

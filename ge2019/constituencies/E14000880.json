@@ -1,6 +1,13 @@
 {
 	"id": "E14000880",
 	"title": "Plymouth, Sutton and Devonport",
+	"demographics": {
+		"leave": 54.41,
+		"withdegree": 16,
+		"age18-29": 28.97,
+		"2015UKIP": 14.03,
+		"2016Leave": 54.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 67.0, "value": 51291 },
 			"valid": 51208,
 			"invalid": 83,
-			"majority": 6807
+			"majority": 6807,
+			"candidates": [{
+				"name": "Luke Pollard",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 27283
+			},{
+				"name": "Oliver Colvile",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20476
+			},{
+				"name": "Richard Ellison",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1364
+			},{
+				"name": "Henrietta Bewley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1244
+			},{
+				"name": "Daniel Sheaff",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 604
+			},{
+				"name": "Danny Bamping",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 237
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

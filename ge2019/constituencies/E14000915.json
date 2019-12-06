@@ -1,6 +1,13 @@
 {
 	"id": "E14000915",
 	"title": "Sedgefield",
+	"demographics": {
+		"leave": 58.95,
+		"withdegree": 10.14,
+		"age18-29": 13,
+		"2015UKIP": 16.6,
+		"2016Leave": 58.95
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 65.2, "value": 41653 },
 			"valid": 41591,
 			"invalid": 62,
-			"majority": 6059
+			"majority": 6059,
+			"candidates": [{
+				"name": "Phil Wilson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22202
+			},{
+				"name": "Dehenna Davison",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16143
+			},{
+				"name": "John Grant",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1763
+			},{
+				"name": "Stephen Psallidas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 797
+			},{
+				"name": "Melissa  Wilson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 686
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000807",
 	"title": "Manchester Central",
+	"demographics": {
+		"leave": 36.66,
+		"withdegree": 24.75,
+		"age18-29": 37.76,
+		"2015UKIP": 11.1,
+		"2016Leave": 36.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 55.3, "value": 49870 },
 			"valid": 49720,
 			"invalid": 150,
-			"majority": 31445
+			"majority": 31445,
+			"candidates": [{
+				"name": "Lucy Powell",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 38490
+			},{
+				"name": "Xingang Wang",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7045
+			},{
+				"name": "John Bridges",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1678
+			},{
+				"name": "Kalvin Chapman",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1469
+			},{
+				"name": "Rachael Shah",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 846
+			},{
+				"name": "Neil Blackburn",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 192
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

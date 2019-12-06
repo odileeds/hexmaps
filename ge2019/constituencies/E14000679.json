@@ -1,6 +1,13 @@
 {
 	"id": "E14000679",
 	"title": "East Ham",
+	"demographics": {
+		"leave": 46.92,
+		"withdegree": 22.95,
+		"age18-29": 25.7,
+		"2015UKIP": 5.01,
+		"2016Leave": 46.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 67.7, "value": 56812 },
 			"valid": 56633,
 			"invalid": 179,
-			"majority": 39883
+			"majority": 39883,
+			"candidates": [{
+				"name": "Stephen Timms",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 47124
+			},{
+				"name": "Kirsty Finlayson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7241
+			},{
+				"name": "Daniel Oxley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 697
+			},{
+				"name": "Glanville Williams",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 656
+			},{
+				"name": "Chidi Oti-Obihara",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 474
+			},{
+				"name": "Choudhry Afzal",
+				"party": { "code": "Friends Party", "title": "Friends Party" },
+				"votes": 311
+			},{
+				"name": "Mirza Rahman",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 130
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

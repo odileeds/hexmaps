@@ -1,6 +1,13 @@
 {
 	"id": "E14000750",
 	"title": "Holborn and St Pancras",
+	"demographics": {
+		"leave": 26.66,
+		"withdegree": 39.91,
+		"age18-29": 27.8,
+		"2015UKIP": 4.99,
+		"2016Leave": 26.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 67.2, "value": 59175 },
 			"valid": 58997,
 			"invalid": 178,
-			"majority": 30509
+			"majority": 30509,
+			"candidates": [{
+				"name": "Keir Starmer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 41343
+			},{
+				"name": "Tim Barnes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10834
+			},{
+				"name": "Stephen Crosher",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4020
+			},{
+				"name": "Sian Berry",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1980
+			},{
+				"name": "Giles Game",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 727
+			},{
+				"name": "Janus Polenceus",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 93
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

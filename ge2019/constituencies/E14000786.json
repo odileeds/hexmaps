@@ -1,6 +1,13 @@
 {
 	"id": "E14000786",
 	"title": "Lewes",
+	"demographics": {
+		"leave": 46.97,
+		"withdegree": 19.04,
+		"age18-29": 10.95,
+		"2015UKIP": 10.74,
+		"2016Leave": 46.97
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 76.6, "value": 54328 },
 			"valid": 54192,
 			"invalid": 136,
-			"majority": 5508
+			"majority": 5508,
+			"candidates": [{
+				"name": "Maria Caulfield",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26820
+			},{
+				"name": "Kelly-Marie Blundell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 21312
+			},{
+				"name": "Daniel Chapman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6060
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

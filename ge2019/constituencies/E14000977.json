@@ -1,6 +1,13 @@
 {
 	"id": "E14000977",
 	"title": "Stratford-on-Avon",
+	"demographics": {
+		"leave": 51.17,
+		"withdegree": 20.03,
+		"age18-29": 10.79,
+		"2015UKIP": 13.21,
+		"2016Leave": 51.17
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 74.0, "value": 53684 },
 			"valid": 53532,
 			"invalid": 152,
-			"majority": 21958
+			"majority": 21958,
+			"candidates": [{
+				"name": "Nadhim Zahawi",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33657
+			},{
+				"name": "Jeff Kenner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11699
+			},{
+				"name": "Elizabeth Adams",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6357
+			},{
+				"name": "Dominic Giles",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1345
+			},{
+				"name": "Jandy Spurway",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 255
+			},{
+				"name": "Tom Darwood",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 219
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

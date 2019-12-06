@@ -1,6 +1,13 @@
 {
 	"id": "E14000923",
 	"title": "Sheffield, Heeley",
+	"demographics": {
+		"leave": 57.61,
+		"withdegree": 13.96,
+		"age18-29": 15.51,
+		"2015UKIP": 17.4,
+		"2016Leave": 57.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 65.1, "value": 44305 },
 			"valid": 44226,
 			"invalid": 79,
-			"majority": 13828
+			"majority": 13828,
+			"candidates": [{
+				"name": "Louise Haigh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26524
+			},{
+				"name": "Gordon Gregory",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12696
+			},{
+				"name": "Joe Otten",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2022
+			},{
+				"name": "Howard Denby",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1977
+			},{
+				"name": "Declan Walsh",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 943
+			},{
+				"name": "Jaspreet Oberoi",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 64
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

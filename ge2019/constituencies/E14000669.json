@@ -1,6 +1,13 @@
 {
 	"id": "E14000669",
 	"title": "Doncaster North",
+	"demographics": {
+		"leave": 72.06,
+		"withdegree": 6.38,
+		"age18-29": 15.06,
+		"2015UKIP": 22.6,
+		"2016Leave": 72.06
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -59,7 +66,36 @@
 			"turnout": { "pc": 58.6, "value": 42388 },
 			"valid": 42312,
 			"invalid": 76,
-			"majority": 14024
+			"majority": 14024,
+			"candidates": [{
+				"name": "Edward Miliband",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25711
+			},{
+				"name": "Shade Adoh",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11687
+			},{
+				"name": "Kim Parkinson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2738
+			},{
+				"name": "Charlie Bridges",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 741
+			},{
+				"name": "Robert Adamson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 706
+			},{
+				"name": "Frank Calladine",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 366
+			},{
+				"name": "David Allen",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 363
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

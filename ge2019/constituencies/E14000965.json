@@ -1,6 +1,13 @@
 {
 	"id": "E14000965",
 	"title": "Stafford",
+	"demographics": {
+		"leave": 57.22,
+		"withdegree": 15.53,
+		"age18-29": 15.35,
+		"2015UKIP": 12.9,
+		"2016Leave": 57.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 76.0, "value": 52046 },
 			"valid": 51924,
 			"invalid": 122,
-			"majority": 7729
+			"majority": 7729,
+			"candidates": [{
+				"name": "Jeremy Lefroy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28424
+			},{
+				"name": "David Williams",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20695
+			},{
+				"name": "Christine Tinker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1540
+			},{
+				"name": "Tony  Pearce",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1265
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

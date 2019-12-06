@@ -1,6 +1,13 @@
 {
 	"id": "E14000593",
 	"title": "Brentford and Isleworth",
+	"demographics": {
+		"leave": 43.31,
+		"withdegree": 34.21,
+		"age18-29": 19.69,
+		"2015UKIP": 5.58,
+		"2016Leave": 43.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 72.5, "value": 61785 },
 			"valid": 61629,
 			"invalid": 156,
-			"majority": 12182
+			"majority": 12182,
+			"candidates": [{
+				"name": "Ruth Cadbury",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35364
+			},{
+				"name": "Mary Macleod",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23182
+			},{
+				"name": "Joe Bourke",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3083
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

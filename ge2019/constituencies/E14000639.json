@@ -1,6 +1,13 @@
 {
 	"id": "E14000639",
 	"title": "Cities of London and Westminster",
+	"demographics": {
+		"leave": 28.63,
+		"withdegree": 48.3,
+		"age18-29": 25.15,
+		"2015UKIP": 5.23,
+		"2016Leave": 28.63
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,40 @@
 			"turnout": { "pc": 63.0, "value": 38787 },
 			"valid": 38654,
 			"invalid": 133,
-			"majority": 3148
+			"majority": 3148,
+			"candidates": [{
+				"name": "Mark Field",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18005
+			},{
+				"name": "Ibrahim  Dogus",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14857
+			},{
+				"name": "Bridget Fox",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4270
+			},{
+				"name": "Lawrence McNally",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 821
+			},{
+				"name": "Anil Bhatti",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 426
+			},{
+				"name": "Tim Lord",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 173
+			},{
+				"name": "Ankit Love",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 59
+			},{
+				"name": "Benjamin Weenen",
+				"party": { "code": "Young People's Party", "title": "Young People's Party" },
+				"votes": 43
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

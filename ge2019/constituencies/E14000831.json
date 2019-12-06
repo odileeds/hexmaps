@@ -1,6 +1,13 @@
 {
 	"id": "E14000831",
 	"title": "Newcastle upon Tyne Central",
+	"demographics": {
+		"leave": 48.37,
+		"withdegree": 20.01,
+		"age18-29": 24.17,
+		"2015UKIP": 14.86,
+		"2016Leave": 48.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.1, "value": 37173 },
 			"valid": 37094,
 			"invalid": 79,
-			"majority": 14937
+			"majority": 14937,
+			"candidates": [{
+				"name": "Chi Onwurah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24071
+			},{
+				"name": "Steve Kyte",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9134
+			},{
+				"name": "Nick Cott",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1812
+			},{
+				"name": "David  Muat",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1482
+			},{
+				"name": "Peter Thomson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 595
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

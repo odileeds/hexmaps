@@ -1,6 +1,13 @@
 {
 	"id": "E14000562",
 	"title": "Birmingham, Hall Green",
+	"demographics": {
+		"leave": 33.57,
+		"withdegree": 20.42,
+		"age18-29": 19.25,
+		"2015UKIP": 4.53,
+		"2016Leave": 33.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 69.6, "value": 54497 },
 			"valid": 54310,
 			"invalid": 187,
-			"majority": 33944
+			"majority": 33944,
+			"candidates": [{
+				"name": "Roger Godsiff",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 42143
+			},{
+				"name": "Reena Ranger",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8199
+			},{
+				"name": "Jerry Evans",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3137
+			},{
+				"name": "Patrick Cox",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 831
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

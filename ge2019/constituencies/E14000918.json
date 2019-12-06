@@ -1,6 +1,13 @@
 {
 	"id": "E14000918",
 	"title": "Sevenoaks",
+	"demographics": {
+		"leave": 53.86,
+		"withdegree": 21,
+		"age18-29": 11.26,
+		"2015UKIP": 17.9,
+		"2016Leave": 53.86
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 71.8, "value": 51364 },
 			"valid": 51218,
 			"invalid": 146,
-			"majority": 21917
+			"majority": 21917,
+			"candidates": [{
+				"name": "Michael Fallon",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32644
+			},{
+				"name": "Christopher Clark",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10727
+			},{
+				"name": "Alan Bullion",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4280
+			},{
+				"name": "Graham Cushway",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1894
+			},{
+				"name": "Philip Dodd",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1673
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

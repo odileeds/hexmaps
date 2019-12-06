@@ -1,6 +1,13 @@
 {
 	"id": "E14000835",
 	"title": "Newton Abbot",
+	"demographics": {
+		"leave": 56.1,
+		"withdegree": 12.73,
+		"age18-29": 11.93,
+		"2015UKIP": 13.94,
+		"2016Leave": 56.1
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 72.2, "value": 51768 },
 			"valid": 51637,
 			"invalid": 131,
-			"majority": 17160
+			"majority": 17160,
+			"candidates": [{
+				"name": "Anne Marie Morris",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28635
+			},{
+				"name": "James Osben",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11475
+			},{
+				"name": "Marie Chadwick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10601
+			},{
+				"name": "Kathryn Driscoll",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 926
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

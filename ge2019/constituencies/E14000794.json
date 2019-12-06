@@ -1,6 +1,13 @@
 {
 	"id": "E14000794",
 	"title": "Liverpool, Walton",
+	"demographics": {
+		"leave": 53.8,
+		"withdegree": 7.16,
+		"age18-29": 18.24,
+		"2015UKIP": 8.97,
+		"2016Leave": 53.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.4, "value": 42300 },
 			"valid": 42197,
 			"invalid": 103,
-			"majority": 32551
+			"majority": 32551,
+			"candidates": [{
+				"name": "Dan Carden",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 36175
+			},{
+				"name": "Laura Evans",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 3624
+			},{
+				"name": "Terry May",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1237
+			},{
+				"name": "Kris Brown",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 638
+			},{
+				"name": "Colm Feeley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 523
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

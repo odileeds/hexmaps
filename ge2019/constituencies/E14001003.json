@@ -1,6 +1,13 @@
 {
 	"id": "E14001003",
 	"title": "Truro and Falmouth",
+	"demographics": {
+		"leave": 46.22,
+		"withdegree": 18.05,
+		"age18-29": 15.33,
+		"2015UKIP": 11.58,
+		"2016Leave": 46.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 75.9, "value": 56717 },
 			"valid": 56647,
 			"invalid": 70,
-			"majority": 3792
+			"majority": 3792,
+			"candidates": [{
+				"name": "Sarah Newton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25123
+			},{
+				"name": "Jayne Kirkham",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21331
+			},{
+				"name": "Rob Nolan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8465
+			},{
+				"name": "Duncan Odgers",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 897
+			},{
+				"name": "Amanda Pennington",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 831
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

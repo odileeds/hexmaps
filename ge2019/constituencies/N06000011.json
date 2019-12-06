@@ -1,6 +1,13 @@
 {
 	"id": "N06000011",
 	"title": "Newry and Armagh",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 68.9, "value": 53900 },
 			"valid": 53579,
 			"invalid": 321,
-			"majority": 12489
+			"majority": 12489,
+			"candidates": [{
+				"name": "Mickey Brady",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 25666
+			},{
+				"name": "William Irwin",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 13177
+			},{
+				"name": "Justin McNulty",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 9055
+			},{
+				"name": "Sam Nicholson",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 4425
+			},{
+				"name": "Jackie Coade",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 1256
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

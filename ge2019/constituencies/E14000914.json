@@ -1,6 +1,13 @@
 {
 	"id": "E14000914",
 	"title": "Scunthorpe",
+	"demographics": {
+		"leave": 69.09,
+		"withdegree": 7.86,
+		"age18-29": 15.8,
+		"2015UKIP": 17.13,
+		"2016Leave": 69.09
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 65.4, "value": 40274 },
 			"valid": 40202,
 			"invalid": 72,
-			"majority": 3431
+			"majority": 3431,
+			"candidates": [{
+				"name": "Nic Dakin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20916
+			},{
+				"name": "Holly Mumby-Croft",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17485
+			},{
+				"name": "Andy Talliss",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1247
+			},{
+				"name": "Ryk Downes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 554
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

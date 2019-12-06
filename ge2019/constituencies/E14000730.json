@@ -1,6 +1,13 @@
 {
 	"id": "E14000730",
 	"title": "Harrogate and Knaresborough",
+	"demographics": {
+		"leave": 47.22,
+		"withdegree": 21.7,
+		"age18-29": 12.47,
+		"2015UKIP": 10.64,
+		"2016Leave": 47.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.6, "value": 56879 },
 			"valid": 56740,
 			"invalid": 139,
-			"majority": 18168
+			"majority": 18168,
+			"candidates": [{
+				"name": "Andrew Jones",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31477
+			},{
+				"name": "Helen Flynn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13309
+			},{
+				"name": "Mark Sewards",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11395
+			},{
+				"name": "Donald Fraser",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 559
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

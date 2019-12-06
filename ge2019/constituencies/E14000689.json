@@ -1,6 +1,13 @@
 {
 	"id": "E14000689",
 	"title": "Elmet and Rothwell",
+	"demographics": {
+		"leave": 56.36,
+		"withdegree": 16.35,
+		"age18-29": 11.32,
+		"2015UKIP": 11.13,
+		"2016Leave": 56.36
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 74.3, "value": 59676 },
 			"valid": 59542,
 			"invalid": 134,
-			"majority": 9805
+			"majority": 9805,
+			"candidates": [{
+				"name": "Alec Shelbrooke",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32352
+			},{
+				"name": "David Nagle",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22547
+			},{
+				"name": "Stewart Golton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2606
+			},{
+				"name": "Matthew Clover",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1042
+			},{
+				"name": "Dylan Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 995
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

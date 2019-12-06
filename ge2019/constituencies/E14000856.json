@@ -1,6 +1,13 @@
 {
 	"id": "E14000856",
 	"title": "North West Durham",
+	"demographics": {
+		"leave": 54.98,
+		"withdegree": 11.99,
+		"age18-29": 13.2,
+		"2015UKIP": 16.97,
+		"2016Leave": 54.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 66.7, "value": 47973 },
 			"valid": 47902,
 			"invalid": 71,
-			"majority": 8792
+			"majority": 8792,
+			"candidates": [{
+				"name": "Laura  Pidcock",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25308
+			},{
+				"name": "Sally-Ann Hart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16516
+			},{
+				"name": "Owen Temple",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3398
+			},{
+				"name": "Alan Breeze",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2150
+			},{
+				"name": "Dominic Horsman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 530
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

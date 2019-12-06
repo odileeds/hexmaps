@@ -1,6 +1,13 @@
 {
 	"id": "E14001021",
 	"title": "Watford",
+	"demographics": {
+		"leave": 51.18,
+		"withdegree": 21.09,
+		"age18-29": 16.41,
+		"2015UKIP": 9.76,
+		"2016Leave": 51.18
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,28 @@
 			"turnout": { "pc": 67.9, "value": 58723 },
 			"valid": 58610,
 			"invalid": 113,
-			"majority": 2092
+			"majority": 2092,
+			"candidates": [{
+				"name": "Richard Harrington",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26731
+			},{
+				"name": "Chris Ostrowski",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24639
+			},{
+				"name": "Ian Stotesbury",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5335
+			},{
+				"name": "Ian Green",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1184
+			},{
+				"name": "Alex Murray",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 721
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

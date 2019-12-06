@@ -1,6 +1,13 @@
 {
 	"id": "S14000003",
 	"title": "Airdrie and Shotts",
+	"demographics": {
+		"leave": 40.05,
+		"withdegree": ,
+		"age18-29": 15.48,
+		"2015UKIP": 2.46,
+		"2016Leave": 40.05
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 59.3, "value": 38049 },
 			"valid": 38002,
 			"invalid": 47,
-			"majority": 195
+			"majority": 195,
+			"candidates": [{
+				"name": "Neil Gray",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 14291
+			},{
+				"name": "Helen McFarlane",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14096
+			},{
+				"name": "Jennifer Donnellan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8813
+			},{
+				"name": "Ewan McRobert",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 802
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

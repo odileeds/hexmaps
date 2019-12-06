@@ -1,6 +1,13 @@
 {
 	"id": "E14000907",
 	"title": "Runnymede and Weybridge",
+	"demographics": {
+		"leave": 49.8,
+		"withdegree": 23.14,
+		"age18-29": 16.1,
+		"2015UKIP": 13.89,
+		"2016Leave": 49.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -53,7 +60,28 @@
 			"turnout": { "pc": 69.1, "value": 51749 },
 			"valid": 51609,
 			"invalid": 140,
-			"majority": 18050
+			"majority": 18050,
+			"candidates": [{
+				"name": "Philip Hammond",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31436
+			},{
+				"name": "Fiona Dent",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13386
+			},{
+				"name": "John Vincent",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3765
+			},{
+				"name": "Nicholas Wood",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1675
+			},{
+				"name": "Lee-Anne Lawrance",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1347
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

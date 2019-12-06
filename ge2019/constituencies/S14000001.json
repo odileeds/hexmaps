@@ -1,6 +1,13 @@
 {
 	"id": "S14000001",
 	"title": "Aberdeen North",
+	"demographics": {
+		"leave": 43.1,
+		"withdegree": ,
+		"age18-29": 28.93,
+		"2015UKIP": ,
+		"2016Leave": 43.1
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 59.2, "value": 36812 },
 			"valid": 36757,
 			"invalid": 55,
-			"majority": 4139
+			"majority": 4139,
+			"candidates": [{
+				"name": "Kirsty Blackman",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15170
+			},{
+				"name": "Orr Vinegold",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11031
+			},{
+				"name": "Grace O'Keeffe",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8341
+			},{
+				"name": "Isobel Davidson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1693
+			},{
+				"name": "Richard Durkin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 522
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

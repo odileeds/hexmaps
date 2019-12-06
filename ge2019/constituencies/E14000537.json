@@ -1,6 +1,13 @@
 {
 	"id": "E14000537",
 	"title": "Ashton-under-Lyne",
+	"demographics": {
+		"leave": 61.81,
+		"withdegree": 7.9,
+		"age18-29": 15.71,
+		"2015UKIP": 21.76,
+		"2016Leave": 61.81
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 58.9, "value": 39854 },
 			"valid": 39773,
 			"invalid": 81,
-			"majority": 11295
+			"majority": 11295,
+			"candidates": [{
+				"name": "Angela Rayner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24005
+			},{
+				"name": "Jack Rankin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12710
+			},{
+				"name": "Maurice Jackson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1878
+			},{
+				"name": "Carly Hicks",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 646
+			},{
+				"name": "Andy Hunter-Rossall",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 534
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

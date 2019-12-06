@@ -1,6 +1,13 @@
 {
 	"id": "E14000784",
 	"title": "Leicester West",
+	"demographics": {
+		"leave": 51.67,
+		"withdegree": 13.68,
+		"age18-29": 22.79,
+		"2015UKIP": 17.24,
+		"2016Leave": 51.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 58.0, "value": 37634 },
 			"valid": 37512,
 			"invalid": 122,
-			"majority": 11060
+			"majority": 11060,
+			"candidates": [{
+				"name": "Liz Kendall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22823
+			},{
+				"name": "Jack  Hickey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11763
+			},{
+				"name": "Stuart  Young",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1406
+			},{
+				"name": "Ian  Bradwell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 792
+			},{
+				"name": "Mel  Gould",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 607
+			},{
+				"name": "David  Bowley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 121
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

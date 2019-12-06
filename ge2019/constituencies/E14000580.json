@@ -1,6 +1,13 @@
 {
 	"id": "E14000580",
 	"title": "Bolton West",
+	"demographics": {
+		"leave": 55.54,
+		"withdegree": 15.85,
+		"age18-29": 13.74,
+		"2015UKIP": 15.29,
+		"2016Leave": 55.54
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 70.2, "value": 51135 },
 			"valid": 51054,
 			"invalid": 81,
-			"majority": 936
+			"majority": 936,
+			"candidates": [{
+				"name": "Chris Green",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24459
+			},{
+				"name": "Julie Hilling",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23523
+			},{
+				"name": "Martin Tighe",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1587
+			},{
+				"name": "Rebecca Forrest",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1485
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14001026",
 	"title": "Wells",
+	"demographics": {
+		"leave": 53.49,
+		"withdegree": 14.51,
+		"age18-29": 11.58,
+		"2015UKIP": 9.92,
+		"2016Leave": 53.49
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.0, "value": 60974 },
 			"valid": 60843,
 			"invalid": 131,
-			"majority": 7582
+			"majority": 7582,
+			"candidates": [{
+				"name": "James Heappey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30488
+			},{
+				"name": "Tessa Munt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 22906
+			},{
+				"name": "Andy Merryfield",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7129
+			},{
+				"name": "Lorna Corke",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 320
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

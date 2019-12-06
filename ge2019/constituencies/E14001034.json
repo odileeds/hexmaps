@@ -1,6 +1,13 @@
 {
 	"id": "E14001034",
 	"title": "West Suffolk",
+	"demographics": {
+		"leave": 63.26,
+		"withdegree": 10.85,
+		"age18-29": 16.39,
+		"2015UKIP": 21.73,
+		"2016Leave": 63.26
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 67.0, "value": 51850 },
 			"valid": 51746,
 			"invalid": 104,
-			"majority": 17063
+			"majority": 17063,
+			"candidates": [{
+				"name": "Matt Hancock",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31649
+			},{
+				"name": "Michael Jefferys",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14586
+			},{
+				"name": "Julian Flood",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2396
+			},{
+				"name": "Elfreda Tealby-Watson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2180
+			},{
+				"name": "Donald Allwright",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 935
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

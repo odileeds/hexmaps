@@ -1,6 +1,13 @@
 {
 	"id": "E14000950",
 	"title": "South West Devon",
+	"demographics": {
+		"leave": 55.23,
+		"withdegree": 14.48,
+		"age18-29": 11.52,
+		"2015UKIP": 14.5,
+		"2016Leave": 55.23
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 74.3, "value": 52954 },
 			"valid": 52857,
 			"invalid": 97,
-			"majority": 15816
+			"majority": 15816,
+			"candidates": [{
+				"name": "Gary Streeter",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31634
+			},{
+				"name": "Philippa Davey",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 15818
+			},{
+				"name": "Caroline Voaden",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2732
+			},{
+				"name": "Ian Ross",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1540
+			},{
+				"name": "Win Scutt",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1133
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

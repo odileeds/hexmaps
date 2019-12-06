@@ -1,6 +1,13 @@
 {
 	"id": "E14000967",
 	"title": "Stalybridge and Hyde",
+	"demographics": {
+		"leave": 59.29,
+		"withdegree": 10.55,
+		"age18-29": 14.78,
+		"2015UKIP": 18.81,
+		"2016Leave": 59.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 59.6, "value": 42584 },
 			"valid": 42457,
 			"invalid": 127,
-			"majority": 8084
+			"majority": 8084,
+			"candidates": [{
+				"name": "Jonathan Reynolds",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 24277
+			},{
+				"name": "Tom Dowse",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16193
+			},{
+				"name": "Paul Ankers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 996
+			},{
+				"name": "Julie Wood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 991
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

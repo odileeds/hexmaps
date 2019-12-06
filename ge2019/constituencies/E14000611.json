@@ -1,6 +1,13 @@
 {
 	"id": "E14000611",
 	"title": "Bury North",
+	"demographics": {
+		"leave": 53.66,
+		"withdegree": 15.14,
+		"age18-29": 14.23,
+		"2015UKIP": 12.37,
+		"2016Leave": 53.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 71.1, "value": 48059 },
 			"valid": 47903,
 			"invalid": 156,
-			"majority": 4375
+			"majority": 4375,
+			"candidates": [{
+				"name": "James Frith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25683
+			},{
+				"name": "David Nuttall",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21308
+			},{
+				"name": "Richard Baum",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 912
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000046",
 	"title": "Moray",
+	"demographics": {
+		"leave": 49.87,
+		"withdegree": ,
+		"age18-29": 13.38,
+		"2015UKIP": 3.93,
+		"2016Leave": 49.87
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.5, "value": 47667 },
 			"valid": 47605,
 			"invalid": 62,
-			"majority": 4159
+			"majority": 4159,
+			"candidates": [{
+				"name": "Douglas Ross",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22637
+			},{
+				"name": "Angus Robertson",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18478
+			},{
+				"name": "Jo Kirby",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5208
+			},{
+				"name": "Alex Linklater",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1078
+			},{
+				"name": "Anne Glen",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 204
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

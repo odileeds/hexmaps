@@ -1,6 +1,13 @@
 {
 	"id": "E14000863",
 	"title": "Norwich North",
+	"demographics": {
+		"leave": 57.32,
+		"withdegree": 10.67,
+		"age18-29": 15.81,
+		"2015UKIP": 13.73,
+		"2016Leave": 57.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 68.7, "value": 45977 },
 			"valid": 45895,
 			"invalid": 82,
-			"majority": 507
+			"majority": 507,
+			"candidates": [{
+				"name": "Chloe Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21900
+			},{
+				"name": "Chris Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21393
+			},{
+				"name": "Hugh Lanham",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1480
+			},{
+				"name": "Adrian Holmes",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 782
+			},{
+				"name": "Liam Matthews",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 340
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

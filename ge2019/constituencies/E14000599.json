@@ -1,6 +1,13 @@
 {
 	"id": "E14000599",
 	"title": "Bristol East",
+	"demographics": {
+		"leave": 46.8,
+		"withdegree": 14.36,
+		"age18-29": 17.98,
+		"2015UKIP": 15.48,
+		"2016Leave": 46.8
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 70.3, "value": 50932 },
 			"valid": 50799,
 			"invalid": 133,
-			"majority": 13394
+			"majority": 13394,
+			"candidates": [{
+				"name": "Kerry McCarthy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30847
+			},{
+				"name": "Theo Clarke",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17453
+			},{
+				"name": "Chris Lucas",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1389
+			},{
+				"name": "Lorraine Francis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1110
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

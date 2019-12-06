@@ -1,6 +1,13 @@
 {
 	"id": "E14001009",
 	"title": "Wakefield",
+	"demographics": {
+		"leave": 62.77,
+		"withdegree": 10.97,
+		"age18-29": 14.97,
+		"2015UKIP": 18.3,
+		"2016Leave": 62.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 66.0, "value": 46396 },
 			"valid": 46284,
 			"invalid": 112,
-			"majority": 2176
+			"majority": 2176,
+			"candidates": [{
+				"name": "Mary Creagh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22987
+			},{
+				"name": "Antony Calvert",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20811
+			},{
+				"name": "Lucy Brown",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1176
+			},{
+				"name": "Denis Cronin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 943
+			},{
+				"name": "Waj Ali",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 367
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

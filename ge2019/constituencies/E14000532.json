@@ -1,6 +1,13 @@
 {
 	"id": "E14000532",
 	"title": "Altrincham and Sale West",
+	"demographics": {
+		"leave": 38.47,
+		"withdegree": 28.6,
+		"age18-29": 11.86,
+		"2015UKIP": 8.01,
+		"2016Leave": 38.47
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 72.3, "value": 52922 },
 			"valid": 52790,
 			"invalid": 132,
-			"majority": 6426
+			"majority": 6426,
+			"candidates": [{
+				"name": "Graham Brady",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26933
+			},{
+				"name": "Andrew Western",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20507
+			},{
+				"name": "Jane Brophy",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4051
+			},{
+				"name": "Geraldine Coggins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1000
+			},{
+				"name": "Neil Taylor",
+				"party": { "code": "Lib", "title": "Liberal" },
+				"votes": 299
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

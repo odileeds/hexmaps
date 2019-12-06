@@ -1,6 +1,13 @@
 {
 	"id": "S14000028",
 	"title": "Falkirk",
+	"demographics": {
+		"leave": 41.99,
+		"withdegree": ,
+		"age18-29": 13.71,
+		"2015UKIP": 3.03,
+		"2016Leave": 41.99
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 65.5, "value": 53867 },
 			"valid": 53809,
 			"invalid": 58,
-			"majority": 4923
+			"majority": 4923,
+			"candidates": [{
+				"name": "John Mc Nally",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 20952
+			},{
+				"name": "Craig Martin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16029
+			},{
+				"name": "Callum Laidlaw",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14088
+			},{
+				"name": "Austin Reid",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1120
+			},{
+				"name": "Debra Pickering",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 908
+			},{
+				"name": "Stuart Martin",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 712
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000947",
 	"title": "South Swindon",
+	"demographics": {
+		"leave": 51.57,
+		"withdegree": 14.22,
+		"age18-29": 16.34,
+		"2015UKIP": 12.02,
+		"2016Leave": 51.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,28 @@
 			"turnout": { "pc": 71.0, "value": 51358 },
 			"valid": 51271,
 			"invalid": 87,
-			"majority": 2464
+			"majority": 2464,
+			"candidates": [{
+				"name": "Robert Buckland",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24809
+			},{
+				"name": "Sarah Church",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 22345
+			},{
+				"name": "Stan Pajak",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2079
+			},{
+				"name": "Martin Costello",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1291
+			},{
+				"name": "Talis Kimberley-Fairbourn",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 747
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

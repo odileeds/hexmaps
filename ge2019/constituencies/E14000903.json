@@ -1,6 +1,13 @@
 {
 	"id": "E14000903",
 	"title": "Rother Valley",
+	"demographics": {
+		"leave": 66.72,
+		"withdegree": 9.9,
+		"age18-29": 13.08,
+		"2015UKIP": 28.08,
+		"2016Leave": 66.72
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 65.9, "value": 49595 },
 			"valid": 49488,
 			"invalid": 107,
-			"majority": 3882
+			"majority": 3882,
+			"candidates": [{
+				"name": "Kevin Barron",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23821
+			},{
+				"name": "Bethan Eddy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19939
+			},{
+				"name": "Lee Hunter",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3704
+			},{
+				"name": "Katie Pruszynski",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1155
+			},{
+				"name": "Paul Martin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 869
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

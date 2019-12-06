@@ -1,6 +1,13 @@
 {
 	"id": "S14000004",
 	"title": "Angus",
+	"demographics": {
+		"leave": 48.13,
+		"withdegree": ,
+		"age18-29": 13.37,
+		"2015UKIP": 3.05,
+		"2016Leave": 48.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 63.1, "value": 40257 },
 			"valid": 40192,
 			"invalid": 65,
-			"majority": 2645
+			"majority": 2645,
+			"candidates": [{
+				"name": "Kirstene Hair",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18148
+			},{
+				"name": "Mike Weir",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 15503
+			},{
+				"name": "William Campbell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 5233
+			},{
+				"name": "Clive Sneddon",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1308
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

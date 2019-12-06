@@ -1,6 +1,13 @@
 {
 	"id": "E14000988",
 	"title": "Taunton Deane",
+	"demographics": {
+		"leave": 52.92,
+		"withdegree": 14.93,
+		"age18-29": 13.43,
+		"2015UKIP": 11.96,
+		"2016Leave": 52.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 73.9, "value": 63152 },
 			"valid": 63053,
 			"invalid": 99,
-			"majority": 15887
+			"majority": 15887,
+			"candidates": [{
+				"name": "Rebecca Pow",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33333
+			},{
+				"name": "Gideon Amos",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 17446
+			},{
+				"name": "Martin Jevon",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9689
+			},{
+				"name": "Alan Dimmick",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1434
+			},{
+				"name": "Clive Martin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1151
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000696",
 	"title": "Erith and Thamesmead",
+	"demographics": {
+		"leave": 54.33,
+		"withdegree": 16.25,
+		"age18-29": 17.15,
+		"2015UKIP": 17.29,
+		"2016Leave": 54.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 63.9, "value": 44543 },
 			"valid": 44464,
 			"invalid": 79,
-			"majority": 10014
+			"majority": 10014,
+			"candidates": [{
+				"name": "Teresa Pearce",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25585
+			},{
+				"name": "Edward Baxter",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15571
+			},{
+				"name": "Ronie Johnson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1728
+			},{
+				"name": "Simon Waddington",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 750
+			},{
+				"name": "Claudine Letsae",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 507
+			},{
+				"name": "Temi Olodu",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 243
+			},{
+				"name": "Doro Oddiri",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 80
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000877",
 	"title": "Penrith and The Border",
+	"demographics": {
+		"leave": 55.37,
+		"withdegree": 14.98,
+		"age18-29": 10.96,
+		"2015UKIP": 12.19,
+		"2016Leave": 55.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,32 @@
 			"turnout": { "pc": 71.5, "value": 46548 },
 			"valid": 46470,
 			"invalid": 78,
-			"majority": 15910
+			"majority": 15910,
+			"candidates": [{
+				"name": "Rory Stewart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28078
+			},{
+				"name": "Lola McEvoy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12168
+			},{
+				"name": "Neil Hughes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3641
+			},{
+				"name": "Kerryanne Wilde",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1142
+			},{
+				"name": "Douglas Lawson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1029
+			},{
+				"name": "Jonathan Davies",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 412
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

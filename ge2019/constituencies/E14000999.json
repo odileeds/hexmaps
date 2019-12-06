@@ -1,6 +1,13 @@
 {
 	"id": "E14000999",
 	"title": "Torbay",
+	"demographics": {
+		"leave": 62.66,
+		"withdegree": 9.57,
+		"age18-29": 13.04,
+		"2015UKIP": 13.6,
+		"2016Leave": 62.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.5, "value": 51249 },
 			"valid": 51174,
 			"invalid": 75,
-			"majority": 14283
+			"majority": 14283,
+			"candidates": [{
+				"name": "Kevin Foster",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27141
+			},{
+				"name": "Deborah Brewer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12858
+			},{
+				"name": "Paul Raybould",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9310
+			},{
+				"name": "Tony McIntyre",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1213
+			},{
+				"name": "Sam Moss",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 652
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

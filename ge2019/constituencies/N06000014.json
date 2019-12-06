@@ -1,6 +1,13 @@
 {
 	"id": "N06000014",
 	"title": "South Antrim",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 63.4, "value": 43292 },
 			"valid": 43170,
 			"invalid": 122,
-			"majority": 3208
+			"majority": 3208,
+			"candidates": [{
+				"name": "Paul Girvan",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 16508
+			},{
+				"name": "Danny Kinahan",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 13300
+			},{
+				"name": "Declan Kearney",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 7797
+			},{
+				"name": "Neil Kelly",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 3203
+			},{
+				"name": "Roisin Lynch",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2362
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000992",
 	"title": "The Wrekin",
+	"demographics": {
+		"leave": 58.25,
+		"withdegree": 12.81,
+		"age18-29": 15.41,
+		"2015UKIP": 16.77,
+		"2016Leave": 58.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 72.4, "value": 49638 },
 			"valid": 49523,
 			"invalid": 115,
-			"majority": 9564
+			"majority": 9564,
+			"candidates": [{
+				"name": "Mark Pritchard",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27451
+			},{
+				"name": "Dylan Harrison",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17887
+			},{
+				"name": "Denis Allen",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1656
+			},{
+				"name": "Rod Keyes",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1345
+			},{
+				"name": "Pat McCarthy",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 804
+			},{
+				"name": "Fay Easton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 380
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

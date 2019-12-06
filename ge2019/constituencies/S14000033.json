@@ -1,6 +1,13 @@
 {
 	"id": "S14000033",
 	"title": "Glasgow North West",
+	"demographics": {
+		"leave": 31.49,
+		"withdegree": ,
+		"age18-29": 18.68,
+		"2015UKIP": ,
+		"2016Leave": 31.49
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 61.0, "value": 38933 },
 			"valid": 38844,
 			"invalid": 89,
-			"majority": 2561
+			"majority": 2561,
+			"candidates": [{
+				"name": "Carol Monaghan",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 16508
+			},{
+				"name": "Michael Shanks",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13947
+			},{
+				"name": "Christopher Land",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7002
+			},{
+				"name": "James Speirs",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1387
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

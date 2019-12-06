@@ -1,6 +1,13 @@
 {
 	"id": "E14000962",
 	"title": "St Helens North",
+	"demographics": {
+		"leave": 58.29,
+		"withdegree": 10.3,
+		"age18-29": 14.36,
+		"2015UKIP": 15.1,
+		"2016Leave": 58.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 66.1, "value": 50312 },
 			"valid": 50222,
 			"invalid": 90,
-			"majority": 18406
+			"majority": 18406,
+			"candidates": [{
+				"name": "Conor McGinn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32012
+			},{
+				"name": "Jackson Ng",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13606
+			},{
+				"name": "Peter Peers",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2097
+			},{
+				"name": "Tom Morrison",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1287
+			},{
+				"name": "Rachel Parkinson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1220
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

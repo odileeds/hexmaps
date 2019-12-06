@@ -1,6 +1,13 @@
 {
 	"id": "E14001053",
 	"title": "Workington",
+	"demographics": {
+		"leave": 60.32,
+		"withdegree": 10.46,
+		"age18-29": 12.4,
+		"2015UKIP": 19.6,
+		"2016Leave": 60.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 69.2, "value": 41731 },
 			"valid": 41676,
 			"invalid": 55,
-			"majority": 3925
+			"majority": 3925,
+			"candidates": [{
+				"name": "Sue Hayman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21317
+			},{
+				"name": "Clark Vasey ",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17392
+			},{
+				"name": "George Kemp",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1556
+			},{
+				"name": "Phill Roberts",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1133
+			},{
+				"name": "Roy Ivinson",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 278
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000878",
 	"title": "Peterborough",
+	"demographics": {
+		"leave": 61.31,
+		"withdegree": 9.47,
+		"age18-29": 17.56,
+		"2015UKIP": 15.9,
+		"2016Leave": 61.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -63,7 +70,24 @@
 			"turnout": { "pc": 66.9, "value": 47883 },
 			"valid": 47738,
 			"invalid": 145,
-			"majority": 607
+			"majority": 607,
+			"candidates": [{
+				"name": "Fiona Onasanya",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22950
+			},{
+				"name": "Stewart Jackson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22343
+			},{
+				"name": "Beki Sellick",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1597
+			},{
+				"name": "Fiona Radic",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 848
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

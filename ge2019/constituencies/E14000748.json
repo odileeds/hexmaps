@@ -1,6 +1,13 @@
 {
 	"id": "E14000748",
 	"title": "High Peak",
+	"demographics": {
+		"leave": 50.55,
+		"withdegree": 17.9,
+		"age18-29": 13.19,
+		"2015UKIP": 11.44,
+		"2016Leave": 50.55
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,20 @@
 			"turnout": { "pc": 73.7, "value": 54013 },
 			"valid": 53853,
 			"invalid": 160,
-			"majority": 2322
+			"majority": 2322,
+			"candidates": [{
+				"name": "Ruth  George",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26753
+			},{
+				"name": "Andrew Bingham",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24431
+			},{
+				"name": "Charles  Lawley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2669
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

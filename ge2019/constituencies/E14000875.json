@@ -1,6 +1,13 @@
 {
 	"id": "E14000875",
 	"title": "Pendle",
+	"demographics": {
+		"leave": 63.15,
+		"withdegree": 10.42,
+		"age18-29": 15.85,
+		"2015UKIP": 12.18,
+		"2016Leave": 63.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 69.2, "value": 44936 },
 			"valid": 44854,
 			"invalid": 82,
-			"majority": 1279
+			"majority": 1279,
+			"candidates": [{
+				"name": "Andrew Stephenson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21986
+			},{
+				"name": "Wayne Blackburn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20707
+			},{
+				"name": "Gordon Lishman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 941
+			},{
+				"name": "Brian Parker",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 718
+			},{
+				"name": "Ian Barnett",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 502
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

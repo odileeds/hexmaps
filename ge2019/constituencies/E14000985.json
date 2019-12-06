@@ -1,6 +1,13 @@
 {
 	"id": "E14000985",
 	"title": "Sutton Coldfield",
+	"demographics": {
+		"leave": 51.67,
+		"withdegree": 21.34,
+		"age18-29": 11.91,
+		"2015UKIP": 14.73,
+		"2016Leave": 51.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.1, "value": 52999 },
 			"valid": 52858,
 			"invalid": 141,
-			"majority": 15339
+			"majority": 15339,
+			"candidates": [{
+				"name": "Andrew Mitchell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32224
+			},{
+				"name": "Rob Pocock",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16885
+			},{
+				"name": "Jennifer  Wilkinson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2302
+			},{
+				"name": "David Ratcliff",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 965
+			},{
+				"name": "Hannah Sophia",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 482
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

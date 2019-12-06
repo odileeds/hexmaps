@@ -1,6 +1,13 @@
 {
 	"id": "E14000694",
 	"title": "Epsom and Ewell",
+	"demographics": {
+		"leave": 47.96,
+		"withdegree": 23.42,
+		"age18-29": 12.28,
+		"2015UKIP": 12.45,
+		"2016Leave": 47.96
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.3, "value": 59468 },
 			"valid": 59266,
 			"invalid": 202,
-			"majority": 20475
+			"majority": 20475,
+			"candidates": [{
+				"name": "Chris Grayling",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35313
+			},{
+				"name": "Ed Mayne",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14838
+			},{
+				"name": "Steve Gee",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7401
+			},{
+				"name": "Janice Baker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1714
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000769",
 	"title": "Kettering",
+	"demographics": {
+		"leave": 60.99,
+		"withdegree": 12.32,
+		"age18-29": 13.71,
+		"2015UKIP": 16.1,
+		"2016Leave": 60.99
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 69.3, "value": 49524 },
 			"valid": 49404,
 			"invalid": 120,
-			"majority": 10562
+			"majority": 10562,
+			"candidates": [{
+				"name": "Philip Hollobone",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28616
+			},{
+				"name": "Mick  Scrimshaw",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18054
+			},{
+				"name": "Suzanna  Austin",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1618
+			},{
+				"name": "Rob  Reeves",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1116
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000558",
 	"title": "Bexleyheath and Crayford",
+	"demographics": {
+		"leave": 65.05,
+		"withdegree": 11.3,
+		"age18-29": 14.56,
+		"2015UKIP": 21.02,
+		"2016Leave": 65.05
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 69.3, "value": 45281 },
 			"valid": 45189,
 			"invalid": 92,
-			"majority": 9073
+			"majority": 9073,
+			"candidates": [{
+				"name": "David Evennett",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25113
+			},{
+				"name": "Stef Borella",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16040
+			},{
+				"name": "Mike Ferro",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1944
+			},{
+				"name": "Simone Reynolds",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1201
+			},{
+				"name": "Ivor Lobo",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 601
+			},{
+				"name": "Peter Finch",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 290
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000543",
 	"title": "Barrow and Furness",
+	"demographics": {
+		"leave": 56.79,
+		"withdegree": 10.67,
+		"age18-29": 13.17,
+		"2015UKIP": 11.72,
+		"2016Leave": 56.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 68.6, "value": 47650 },
 			"valid": 47590,
 			"invalid": 60,
-			"majority": 209
+			"majority": 209,
+			"candidates": [{
+				"name": "John Woodcock",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 22592
+			},{
+				"name": "Simon Fell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22383
+			},{
+				"name": "Loraine Birchall",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1278
+			},{
+				"name": "Alan Piper",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 962
+			},{
+				"name": "Rob O'Hara",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 375
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

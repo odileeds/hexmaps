@@ -1,6 +1,13 @@
 {
 	"id": "E14001002",
 	"title": "Tottenham",
+	"demographics": {
+		"leave": 23.78,
+		"withdegree": 22.79,
+		"age18-29": 21.81,
+		"2015UKIP": 3.55,
+		"2016Leave": 23.78
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,28 @@
 			"turnout": { "pc": 67.9, "value": 49486 },
 			"valid": 49339,
 			"invalid": 147,
-			"majority": 34584
+			"majority": 34584,
+			"candidates": [{
+				"name": "David Lammy",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 40249
+			},{
+				"name": "Myles Stacey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5665
+			},{
+				"name": "Brian Haley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1687
+			},{
+				"name": "Jarelle Francis",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1276
+			},{
+				"name": "Patricia Rumble",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 462
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000646",
 	"title": "Congleton",
+	"demographics": {
+		"leave": 52.65,
+		"withdegree": 18.01,
+		"age18-29": 11.05,
+		"2015UKIP": 13.58,
+		"2016Leave": 52.65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 73.4, "value": 56329 },
 			"valid": 56231,
 			"invalid": 98,
-			"majority": 12619
+			"majority": 12619,
+			"candidates": [{
+				"name": "Fiona Bruce",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31830
+			},{
+				"name": "Sam Corcoran",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19211
+			},{
+				"name": "Peter  Hirst",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2902
+			},{
+				"name": "Mark Davies",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1289
+			},{
+				"name": "Alexander  Heath",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 999
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

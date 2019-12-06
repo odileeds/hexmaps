@@ -1,6 +1,13 @@
 {
 	"id": "E14000742",
 	"title": "Henley",
+	"demographics": {
+		"leave": 43.07,
+		"withdegree": 26.4,
+		"age18-29": 10.9,
+		"2015UKIP": 10.88,
+		"2016Leave": 43.07
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 76.3, "value": 57218 },
 			"valid": 57099,
 			"invalid": 119,
-			"majority": 22294
+			"majority": 22294,
+			"candidates": [{
+				"name": "John Howell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33749
+			},{
+				"name": "Oliver Kavanagh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11455
+			},{
+				"name": "Laura Coyle",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 8485
+			},{
+				"name": "Robin Bennett",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1864
+			},{
+				"name": "Tim Scott",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1154
+			},{
+				"name": "Patrick Gray",
+				"party": { "code": "The Radical Party", "title": "The Radical Party" },
+				"votes": 392
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

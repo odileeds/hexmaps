@@ -1,6 +1,13 @@
 {
 	"id": "E14000677",
 	"title": "Easington",
+	"demographics": {
+		"leave": 66.57,
+		"withdegree": 7.03,
+		"age18-29": 15.51,
+		"2015UKIP": 18.75,
+		"2016Leave": 66.57
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 58.4, "value": 36421 },
 			"valid": 36364,
 			"invalid": 57,
-			"majority": 14892
+			"majority": 14892,
+			"candidates": [{
+				"name": "Grahame Morris",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23152
+			},{
+				"name": "Barney Campbell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8260
+			},{
+				"name": "Susan McDonnell",
+				"party": { "code": "NEP", "title": "The North East Party" },
+				"votes": 2355
+			},{
+				"name": "Allyn Roberts",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1727
+			},{
+				"name": "Tom Hancock",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 460
+			},{
+				"name": "Martie Warin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 410
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

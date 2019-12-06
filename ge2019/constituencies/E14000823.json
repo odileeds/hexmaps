@@ -1,6 +1,13 @@
 {
 	"id": "E14000823",
 	"title": "Mitcham and Morden",
+	"demographics": {
+		"leave": 44.69,
+		"withdegree": 19.41,
+		"age18-29": 18.85,
+		"2015UKIP": 9.5,
+		"2016Leave": 44.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 70.2, "value": 48244 },
 			"valid": 48118,
 			"invalid": 126,
-			"majority": 21375
+			"majority": 21375,
+			"candidates": [{
+				"name": "Siobhain McDonagh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 33039
+			},{
+				"name": "Alicia  Kearns",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11664
+			},{
+				"name": "Claire  Mathys",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1494
+			},{
+				"name": "Richard Hilton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1054
+			},{
+				"name": "Laura Collins",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 644
+			},{
+				"name": "Des Coke",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 223
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

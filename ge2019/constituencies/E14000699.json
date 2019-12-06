@@ -1,6 +1,13 @@
 {
 	"id": "E14000699",
 	"title": "Fareham",
+	"demographics": {
+		"leave": 55.41,
+		"withdegree": 15.09,
+		"age18-29": 12.6,
+		"2015UKIP": 15.41,
+		"2016Leave": 55.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.5, "value": 57138 },
 			"valid": 57014,
 			"invalid": 124,
-			"majority": 21555
+			"majority": 21555,
+			"candidates": [{
+				"name": "Suella Fernandes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35915
+			},{
+				"name": "Matthew Randall",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14360
+			},{
+				"name": "Matthew Winnington",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3896
+			},{
+				"name": "Tony Blewett",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1541
+			},{
+				"name": "Miles Grindey",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1302
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

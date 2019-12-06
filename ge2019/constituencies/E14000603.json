@@ -1,6 +1,13 @@
 {
 	"id": "E14000603",
 	"title": "Broadland",
+	"demographics": {
+		"leave": 54.06,
+		"withdegree": 11.6,
+		"age18-29": 10.5,
+		"2015UKIP": 16.73,
+		"2016Leave": 54.06
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 72.5, "value": 56075 },
 			"valid": 55971,
 			"invalid": 104,
-			"majority": 15816
+			"majority": 15816,
+			"candidates": [{
+				"name": "Keith Simpson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32406
+			},{
+				"name": "Iain Simpson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16590
+			},{
+				"name": "Steve Riley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4449
+			},{
+				"name": "David Moreland",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1594
+			},{
+				"name": "Andrew Boswell",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 932
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

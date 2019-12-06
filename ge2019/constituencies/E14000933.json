@@ -1,6 +1,13 @@
 {
 	"id": "E14000933",
 	"title": "South Basildon and East Thurrock",
+	"demographics": {
+		"leave": 73.08,
+		"withdegree": 7.16,
+		"age18-29": 15.03,
+		"2015UKIP": 26.53,
+		"2016Leave": 73.08
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 64.2, "value": 47195 },
 			"valid": 47120,
 			"invalid": 75,
-			"majority": 11490
+			"majority": 11490,
+			"candidates": [{
+				"name": "Stephen Metcalfe",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26811
+			},{
+				"name": "Byron Taylor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15321
+			},{
+				"name": "Peter Whittle",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3193
+			},{
+				"name": "Reetendra Banerji",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 732
+			},{
+				"name": "Sim Harman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 680
+			},{
+				"name": "Paul Borg",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 383
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

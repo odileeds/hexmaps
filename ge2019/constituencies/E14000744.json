@@ -1,6 +1,13 @@
 {
 	"id": "E14000744",
 	"title": "Hertford and Stortford",
+	"demographics": {
+		"leave": 49.21,
+		"withdegree": 22.39,
+		"age18-29": 12.68,
+		"2015UKIP": 13.39,
+		"2016Leave": 49.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,24 @@
 			"turnout": { "pc": 73.1, "value": 60222 },
 			"valid": 59992,
 			"invalid": 230,
-			"majority": 19035
+			"majority": 19035,
+			"candidates": [{
+				"name": "Mark Prisk",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36184
+			},{
+				"name": "Katherine Chibah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17149
+			},{
+				"name": "Mark Argent",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4845
+			},{
+				"name": "David Woolcombe",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1814
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000051",
 	"title": "Orkney and Shetland",
+	"demographics": {
+		"leave": 40.28,
+		"withdegree": ,
+		"age18-29": 12.79,
+		"2015UKIP": 4.76,
+		"2016Leave": 40.28
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 68.3, "value": 23320 },
 			"valid": 23277,
 			"invalid": 43,
-			"majority": 4563
+			"majority": 4563,
+			"candidates": [{
+				"name": "Alistair Carmichael",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 11312
+			},{
+				"name": "Miriam Brett",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 6749
+			},{
+				"name": "Robina Barton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 2664
+			},{
+				"name": "Jamie Halcro Johnston",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 2024
+			},{
+				"name": "Robert Smith",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 283
+			},{
+				"name": "Stuart Hill",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 245
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

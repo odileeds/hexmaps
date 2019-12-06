@@ -1,6 +1,13 @@
 {
 	"id": "W07000060",
 	"title": "Vale of Clwyd",
+	"demographics": {
+		"leave": 55.94,
+		"withdegree": 10.19,
+		"age18-29": 13.22,
+		"2015UKIP": 12.98,
+		"2016Leave": 55.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 68.2, "value": 38775 },
 			"valid": 38684,
 			"invalid": 91,
-			"majority": 2379
+			"majority": 2379,
+			"candidates": [{
+				"name": "Chris Ruane",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19423
+			},{
+				"name": "James Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17044
+			},{
+				"name": "David Wyatt",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1551
+			},{
+				"name": "Gwyn Williams",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 666
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

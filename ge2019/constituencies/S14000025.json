@@ -1,6 +1,13 @@
 {
 	"id": "S14000025",
 	"title": "Edinburgh South West",
+	"demographics": {
+		"leave": 27.86,
+		"withdegree": ,
+		"age18-29": 23.78,
+		"2015UKIP": 2.08,
+		"2016Leave": 27.86
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,24 @@
 			"turnout": { "pc": 69.5, "value": 49464 },
 			"valid": 49390,
 			"invalid": 74,
-			"majority": 1097
+			"majority": 1097,
+			"candidates": [{
+				"name": "Joanna Cherry",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17575
+			},{
+				"name": "Miles Briggs",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16478
+			},{
+				"name": "Foysol Choudhury",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13213
+			},{
+				"name": "Aisha Mir",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2124
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

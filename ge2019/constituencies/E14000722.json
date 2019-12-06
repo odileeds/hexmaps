@@ -1,6 +1,13 @@
 {
 	"id": "E14000722",
 	"title": "Halesowen and Rowley Regis",
+	"demographics": {
+		"leave": 66.34,
+		"withdegree": 9.54,
+		"age18-29": 14.56,
+		"2015UKIP": 16.61,
+		"2016Leave": 66.34
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 64.6, "value": 44469 },
 			"valid": 44379,
 			"invalid": 90,
-			"majority": 5253
+			"majority": 5253,
+			"candidates": [{
+				"name": "James Morris",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23012
+			},{
+				"name": "Ian Cooper",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17759
+			},{
+				"name": "Stuart Henley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2126
+			},{
+				"name": "Jamie Scott",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 859
+			},{
+				"name": "James Robertson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 440
+			},{
+				"name": "Tim Weller",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 183
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

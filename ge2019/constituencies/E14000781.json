@@ -1,6 +1,13 @@
 {
 	"id": "E14000781",
 	"title": "Leeds West",
+	"demographics": {
+		"leave": 54.98,
+		"withdegree": 15.91,
+		"age18-29": 22.83,
+		"2015UKIP": 18.49,
+		"2016Leave": 54.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 62.2, "value": 42301 },
 			"valid": 42229,
 			"invalid": 72,
-			"majority": 15965
+			"majority": 15965,
+			"candidates": [{
+				"name": "Rachel Reeves",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27013
+			},{
+				"name": "Zoe Metcalfe",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11048
+			},{
+				"name": "Mark Thackray",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1815
+			},{
+				"name": "Andrew Pointon",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1023
+			},{
+				"name": "Alisdair McGregor",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 905
+			},{
+				"name": "Ed Jones",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 378
+			},{
+				"name": "Mike Davies",
+				"party": { "code": "Green Soc", "title": "Alliance for Green Socialism" },
+				"votes": 47
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

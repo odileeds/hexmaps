@@ -1,6 +1,13 @@
 {
 	"id": "W07000058",
 	"title": "Aberconwy",
+	"demographics": {
+		"leave": 53.38,
+		"withdegree": 14.15,
+		"age18-29": 12.02,
+		"2015UKIP": 11.5,
+		"2016Leave": 53.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,24 @@
 			"turnout": { "pc": 71.2, "value": 32228 },
 			"valid": 32150,
 			"invalid": 78,
-			"majority": 635
+			"majority": 635,
+			"candidates": [{
+				"name": "Guto Bebb",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14337
+			},{
+				"name": "Emily Owen",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13702
+			},{
+				"name": "Wyn Jones",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 3170
+			},{
+				"name": "Sarah Lesiter-Burgess",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 941
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000780",
 	"title": "Leeds North West",
+	"demographics": {
+		"leave": 35.4,
+		"withdegree": 24.57,
+		"age18-29": 32.22,
+		"2015UKIP": 6.91,
+		"2016Leave": 35.4
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 68.1, "value": 46384 },
 			"valid": 46287,
 			"invalid": 97,
-			"majority": 4224
+			"majority": 4224,
+			"candidates": [{
+				"name": "Alex Sobel",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 20416
+			},{
+				"name": "Greg Mulholland",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 16192
+			},{
+				"name": "Alan Lamb",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9097
+			},{
+				"name": "Martin Hemingway",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 582
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

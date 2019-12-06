@@ -1,6 +1,13 @@
 {
 	"id": "E14000966",
 	"title": "Staffordshire Moorlands",
+	"demographics": {
+		"leave": 64.58,
+		"withdegree": 12.38,
+		"age18-29": 11.42,
+		"2015UKIP": 14.64,
+		"2016Leave": 64.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.7, "value": 44739 },
 			"valid": 44655,
 			"invalid": 84,
-			"majority": 10830
+			"majority": 10830,
+			"candidates": [{
+				"name": "Karen Bradley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25963
+			},{
+				"name": "David Mazzocchi-Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15133
+			},{
+				"name": "Nicholas Sheldon",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1524
+			},{
+				"name": "Henry Jebb",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1494
+			},{
+				"name": "Mike Shone",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 541
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

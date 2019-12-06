@@ -1,6 +1,13 @@
 {
 	"id": "E14000698",
 	"title": "Exeter",
+	"demographics": {
+		"leave": 44.71,
+		"withdegree": 19.41,
+		"age18-29": 25.93,
+		"2015UKIP": 9.4,
+		"2016Leave": 44.71
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 71.8, "value": 55554 },
 			"valid": 55423,
 			"invalid": 131,
-			"majority": 16117
+			"majority": 16117,
+			"candidates": [{
+				"name": "Ben Bradshaw",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34336
+			},{
+				"name": "James Taghdissian",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18219
+			},{
+				"name": "Vanessa Newcombe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1562
+			},{
+				"name": "Joe Levy",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1027
+			},{
+				"name": "Jonathan West",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 212
+			},{
+				"name": "Jonathan Bishop",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 67
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

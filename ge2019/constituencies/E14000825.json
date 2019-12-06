@@ -1,6 +1,13 @@
 {
 	"id": "E14000825",
 	"title": "Morecambe and Lunesdale",
+	"demographics": {
+		"leave": 58.91,
+		"withdegree": 12.01,
+		"age18-29": 12.6,
+		"2015UKIP": 12.39,
+		"2016Leave": 58.91
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 68.4, "value": 45729 },
 			"valid": 45657,
 			"invalid": 72,
-			"majority": 1399
+			"majority": 1399,
+			"candidates": [{
+				"name": "David Morris",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21773
+			},{
+				"name": "Vikki Singleton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20374
+			},{
+				"name": "Matthew Severn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1699
+			},{
+				"name": "Robert Gillespie",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1333
+			},{
+				"name": "Cait Sinclair",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 478
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

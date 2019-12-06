@@ -1,6 +1,13 @@
 {
 	"id": "E14000855",
 	"title": "North West Cambridgeshire",
+	"demographics": {
+		"leave": 56.95,
+		"withdegree": 13.88,
+		"age18-29": 14.82,
+		"2015UKIP": 20.09,
+		"2016Leave": 56.95
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.8, "value": 64123 },
 			"valid": 63991,
 			"invalid": 132,
-			"majority": 18008
+			"majority": 18008,
+			"candidates": [{
+				"name": "Shailesh Vara",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37529
+			},{
+				"name": "Iain Ramsbottom",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19521
+			},{
+				"name": "Bridget Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3168
+			},{
+				"name": "John Whitby",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2518
+			},{
+				"name": "Greg Guthrie",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1255
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

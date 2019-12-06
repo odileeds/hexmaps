@@ -1,6 +1,13 @@
 {
 	"id": "E14000700",
 	"title": "Faversham and Mid Kent",
+	"demographics": {
+		"leave": 58.22,
+		"withdegree": 14.22,
+		"age18-29": 12.4,
+		"2015UKIP": 18,
+		"2016Leave": 58.22
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 69.0, "value": 49826 },
 			"valid": 49749,
 			"invalid": 77,
-			"majority": 17413
+			"majority": 17413,
+			"candidates": [{
+				"name": "Helen Whately",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30390
+			},{
+				"name": "Michael Desmond",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12977
+			},{
+				"name": "David  Naghi",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3249
+			},{
+				"name": "Mark McGiffin",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1702
+			},{
+				"name": "Alastair Gould",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1431
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

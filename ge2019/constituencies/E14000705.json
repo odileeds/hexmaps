@@ -1,6 +1,13 @@
 {
 	"id": "E14000705",
 	"title": "Forest of Dean",
+	"demographics": {
+		"leave": 58.07,
+		"withdegree": 12.49,
+		"age18-29": 11.87,
+		"2015UKIP": 17.75,
+		"2016Leave": 58.07
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 73.1, "value": 51848 },
 			"valid": 51767,
 			"invalid": 81,
-			"majority": 9502
+			"majority": 9502,
+			"candidates": [{
+				"name": "Mark Harper",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28096
+			},{
+				"name": "Shaun Stammers",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18594
+			},{
+				"name": "Janet Ellard",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2029
+			},{
+				"name": "James Greenwood",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1241
+			},{
+				"name": "Ernie Warrender",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1237
+			},{
+				"name": "Julian Burrett",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 570
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

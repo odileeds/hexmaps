@@ -1,6 +1,13 @@
 {
 	"id": "E14000884",
 	"title": "Portsmouth South",
+	"demographics": {
+		"leave": 51.76,
+		"withdegree": 18.22,
+		"age18-29": 31.17,
+		"2015UKIP": 13.35,
+		"2016Leave": 51.76
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 64.0, "value": 44660 },
 			"valid": 44566,
 			"invalid": 94,
-			"majority": 1554
+			"majority": 1554,
+			"candidates": [{
+				"name": "Stephen Morgan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18290
+			},{
+				"name": "Flick Drummond",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16736
+			},{
+				"name": "Robert Vernon-Jackson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7699
+			},{
+				"name": "Kevan Chippindall-Higgin",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1129
+			},{
+				"name": "Ian McCulloch",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 712
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

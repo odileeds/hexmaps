@@ -1,6 +1,13 @@
 {
 	"id": "E14000547",
 	"title": "Bath",
+	"demographics": {
+		"leave": 31.69,
+		"withdegree": 28.9,
+		"age18-29": 25.74,
+		"2015UKIP": 6.2,
+		"2016Leave": 31.69
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.4, "value": 49695 },
 			"valid": 49583,
 			"invalid": 112,
-			"majority": 5694
+			"majority": 5694,
+			"candidates": [{
+				"name": "Wera Hobhouse",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 23436
+			},{
+				"name": "Ben Howlett",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17742
+			},{
+				"name": "Joe Rayment",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 7279
+			},{
+				"name": "Eleanor Field",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1126
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

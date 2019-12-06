@@ -1,6 +1,13 @@
 {
 	"id": "E14000766",
 	"title": "Keighley",
+	"demographics": {
+		"leave": 53.33,
+		"withdegree": 15.89,
+		"age18-29": 13.39,
+		"2015UKIP": 11.53,
+		"2016Leave": 53.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 72.5, "value": 51805 },
 			"valid": 51714,
 			"invalid": 91,
-			"majority": 239
+			"majority": 239,
+			"candidates": [{
+				"name": "John Grogan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24056
+			},{
+				"name": "Kris Hopkins",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23817
+			},{
+				"name": "Paul Latham",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1291
+			},{
+				"name": "Matt Walker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1226
+			},{
+				"name": "Ros Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 790
+			},{
+				"name": "David Crabtree",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 534
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

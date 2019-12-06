@@ -1,6 +1,13 @@
 {
 	"id": "E14000538",
 	"title": "Aylesbury",
+	"demographics": {
+		"leave": 52.1,
+		"withdegree": 17.8,
+		"age18-29": 14.1,
+		"2015UKIP": 19.71,
+		"2016Leave": 52.1
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 71.4, "value": 58905 },
 			"valid": 58783,
 			"invalid": 122,
-			"majority": 14656
+			"majority": 14656,
+			"candidates": [{
+				"name": "David Lidington",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32313
+			},{
+				"name": "Mark Bateman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17657
+			},{
+				"name": "Steven Lambert",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5660
+			},{
+				"name": "Vijay  Srao",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1296
+			},{
+				"name": "Coral Simpson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1237
+			},{
+				"name": "Kyle  Michael",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 620
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

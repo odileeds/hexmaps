@@ -1,6 +1,13 @@
 {
 	"id": "E14001038",
 	"title": "Weston-Super-Mare",
+	"demographics": {
+		"leave": 56.66,
+		"withdegree": 10.91,
+		"age18-29": 13.21,
+		"2015UKIP": 17.82,
+		"2016Leave": 56.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.8, "value": 56512 },
 			"valid": 56415,
 			"invalid": 97,
-			"majority": 11544
+			"majority": 11544,
+			"candidates": [{
+				"name": "John Penrose",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29982
+			},{
+				"name": "Timothy Taylor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18438
+			},{
+				"name": "Mike Bell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5175
+			},{
+				"name": "Helen Hims",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1932
+			},{
+				"name": "Suneil Basu",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 888
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000648",
 	"title": "Corby",
+	"demographics": {
+		"leave": 60.11,
+		"withdegree": 10.99,
+		"age18-29": 13.98,
+		"2015UKIP": 13.72,
+		"2016Leave": 60.11
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,28 @@
 			"turnout": { "pc": 72.4, "value": 60091 },
 			"valid": 59997,
 			"invalid": 94,
-			"majority": 2690
+			"majority": 2690,
+			"candidates": [{
+				"name": "Tom Pursglove",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29534
+			},{
+				"name": "Beth Miller",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26844
+			},{
+				"name": "Chris Stanbra",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1545
+			},{
+				"name": "Sam Watts",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1495
+			},{
+				"name": "Steven Scrutton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 579
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

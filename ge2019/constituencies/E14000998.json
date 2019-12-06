@@ -1,6 +1,13 @@
 {
 	"id": "E14000998",
 	"title": "Tooting",
+	"demographics": {
+		"leave": 25.32,
+		"withdegree": 44.09,
+		"age18-29": 23.92,
+		"2015UKIP": 2.87,
+		"2016Leave": 25.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 74.8, "value": 58304 },
 			"valid": 58171,
 			"invalid": 133,
-			"majority": 15458
+			"majority": 15458,
+			"candidates": [{
+				"name": "Rosena Allin-Khan",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34694
+			},{
+				"name": "Dan Watkins",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 19236
+			},{
+				"name": "Alexander Glassbrook",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3057
+			},{
+				"name": "Esther Obiri-Darko",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 845
+			},{
+				"name": "Ryan Coshall",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 339
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

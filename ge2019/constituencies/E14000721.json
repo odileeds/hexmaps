@@ -1,6 +1,13 @@
 {
 	"id": "E14000721",
 	"title": "Hackney South and Shoreditch",
+	"demographics": {
+		"leave": 22.18,
+		"withdegree": 35.53,
+		"age18-29": 25.99,
+		"2015UKIP": 3.82,
+		"2016Leave": 22.18
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,48 @@
 			"turnout": { "pc": 66.9, "value": 55569 },
 			"valid": 55354,
 			"invalid": 215,
-			"majority": 37931
+			"majority": 37931,
+			"candidates": [{
+				"name": "Meg Hillier",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 43974
+			},{
+				"name": "Luke Parker",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 6043
+			},{
+				"name": "Dave Raval",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3168
+			},{
+				"name": "Rebecca Johnson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1522
+			},{
+				"name": "Vanessa Hudson",
+				"party": { "code": "Animal Welfare Party", "title": "Animal Welfare Party" },
+				"votes": 226
+			},{
+				"name": "Russell Higgs",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 143
+			},{
+				"name": "Angel Watt",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 113
+			},{
+				"name": "Jonty Leff",
+				"party": { "code": "WRP", "title": "Workers Revolutionary Party" },
+				"votes": 86
+			},{
+				"name": "Hugo Sugg",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 50
+			},{
+				"name": "Dale Kalamazad",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 29
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

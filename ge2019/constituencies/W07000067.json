@@ -1,6 +1,13 @@
 {
 	"id": "W07000067",
 	"title": "Carmarthen East and Dinefwr",
+	"demographics": {
+		"leave": 53.77,
+		"withdegree": 14.21,
+		"age18-29": 11.65,
+		"2015UKIP": 11.07,
+		"2016Leave": 53.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 73.4, "value": 41074 },
 			"valid": 41029,
 			"invalid": 45,
-			"majority": 3908
+			"majority": 3908,
+			"candidates": [{
+				"name": "Jonathan Edwards",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 16127
+			},{
+				"name": "David Darkin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12219
+			},{
+				"name": "Havard Hughes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10778
+			},{
+				"name": "Neil Hamilton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 985
+			},{
+				"name": "Lesley Prosser",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 920
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

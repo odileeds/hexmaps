@@ -1,6 +1,13 @@
 {
 	"id": "E14000535",
 	"title": "Ashfield",
+	"demographics": {
+		"leave": 70.58,
+		"withdegree": 6.09,
+		"age18-29": 13.94,
+		"2015UKIP": 21.41,
+		"2016Leave": 70.58
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 64.1, "value": 50055 },
 			"valid": 49993,
 			"invalid": 62,
-			"majority": 441
+			"majority": 441,
+			"candidates": [{
+				"name": "Gloria De Piero",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21285
+			},{
+				"name": "Tony Harper",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20844
+			},{
+				"name": "Gail Turner",
+				"party": { "code": "Ashfield Independents", "title": "Ashfield Independents" },
+				"votes": 4612
+			},{
+				"name": "Ray Young",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1885
+			},{
+				"name": "Bob Charlesworth",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 969
+			},{
+				"name": "Arran Rangi",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 398
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

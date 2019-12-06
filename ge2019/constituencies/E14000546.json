@@ -1,6 +1,13 @@
 {
 	"id": "E14000546",
 	"title": "Bassetlaw",
+	"demographics": {
+		"leave": 68.32,
+		"withdegree": 9.04,
+		"age18-29": 13.23,
+		"2015UKIP": 15.96,
+		"2016Leave": 68.32
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 66.7, "value": 52377 },
 			"valid": 52250,
 			"invalid": 127,
-			"majority": 4852
+			"majority": 4852,
+			"candidates": [{
+				"name": "John Mann",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 27467
+			},{
+				"name": "Annette Simpson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22615
+			},{
+				"name": "Leon Duveen",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1154
+			},{
+				"name": "Nigel Turner",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1014
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000819",
 	"title": "Middlesbrough",
+	"demographics": {
+		"leave": 66.08,
+		"withdegree": 9.7,
+		"age18-29": 20.93,
+		"2015UKIP": 18.67,
+		"2016Leave": 66.08
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 58.5, "value": 35694 },
 			"valid": 35637,
 			"invalid": 57,
-			"majority": 13873
+			"majority": 13873,
+			"candidates": [{
+				"name": "Andy McDonald",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 23404
+			},{
+				"name": "Jacob Young",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9531
+			},{
+				"name": "David Hodgson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1452
+			},{
+				"name": "Terry Lawton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 632
+			},{
+				"name": "Dawud Islam",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 368
+			},{
+				"name": "Carl Martinez",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 250
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

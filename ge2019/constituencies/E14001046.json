@@ -1,6 +1,13 @@
 {
 	"id": "E14001046",
 	"title": "Witney",
+	"demographics": {
+		"leave": 46.34,
+		"withdegree": 20.87,
+		"age18-29": 12.92,
+		"2015UKIP": 9.15,
+		"2016Leave": 46.34
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,28 @@
 			"turnout": { "pc": 73.8, "value": 61051 },
 			"valid": 60927,
 			"invalid": 124,
-			"majority": 21241
+			"majority": 21241,
+			"candidates": [{
+				"name": "Robert Courts",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33839
+			},{
+				"name": "Laetisia Carter",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12598
+			},{
+				"name": "Liz Leffman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12457
+			},{
+				"name": "Claire Lasko",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1053
+			},{
+				"name": "Alexander Craig",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 980
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000818",
 	"title": "Mid Worcestershire",
+	"demographics": {
+		"leave": 58.94,
+		"withdegree": 14.8,
+		"age18-29": 11.79,
+		"2015UKIP": 17.68,
+		"2016Leave": 58.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 72.6, "value": 55191 },
 			"valid": 55089,
 			"invalid": 102,
-			"majority": 23326
+			"majority": 23326,
+			"candidates": [{
+				"name": "Nigel Huddleston",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35967
+			},{
+				"name": "Fred Grindrod",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12641
+			},{
+				"name": "Margaret  Rowley",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3450
+			},{
+				"name": "David Greenwood",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1660
+			},{
+				"name": "Fay Whitfield",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1371
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

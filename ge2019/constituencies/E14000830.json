@@ -1,6 +1,13 @@
 {
 	"id": "E14000830",
 	"title": "Newbury",
+	"demographics": {
+		"leave": 47.51,
+		"withdegree": 20.64,
+		"age18-29": 12.71,
+		"2015UKIP": 10.81,
+		"2016Leave": 47.51
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 73.6, "value": 60993 },
 			"valid": 60849,
 			"invalid": 144,
-			"majority": 24380
+			"majority": 24380,
+			"candidates": [{
+				"name": "Richard Benyon",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37399
+			},{
+				"name": "Judith Bunting",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13019
+			},{
+				"name": "Alex Skirvin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 8596
+			},{
+				"name": "Paul Field",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1531
+			},{
+				"name": "Dave Yates",
+				"party": { "code": "Apol Dem", "title": "Apolitical Democrat" },
+				"votes": 304
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

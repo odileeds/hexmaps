@@ -1,6 +1,13 @@
 {
 	"id": "E14000876",
 	"title": "Penistone and Stocksbridge",
+	"demographics": {
+		"leave": 61.35,
+		"withdegree": 13.04,
+		"age18-29": 11.36,
+		"2015UKIP": 22.92,
+		"2016Leave": 61.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,24 @@
 			"turnout": { "pc": 70.0, "value": 49910 },
 			"valid": 49787,
 			"invalid": 123,
-			"majority": 1322
+			"majority": 1322,
+			"candidates": [{
+				"name": "Angela Smith",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22807
+			},{
+				"name": "Nicola Wilson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 21485
+			},{
+				"name": "John Booker",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3453
+			},{
+				"name": "Penny Baker",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2042
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000869",
 	"title": "Old Bexley and Sidcup",
+	"demographics": {
+		"leave": 63.16,
+		"withdegree": 12.66,
+		"age18-29": 14.7,
+		"2015UKIP": 18.24,
+		"2016Leave": 63.16
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 72.9, "value": 48141 },
 			"valid": 48042,
 			"invalid": 99,
-			"majority": 15466
+			"majority": 15466,
+			"candidates": [{
+				"name": "James Brokenshire",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29545
+			},{
+				"name": "Danny Hackett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14079
+			},{
+				"name": "Freddy Vachha",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1619
+			},{
+				"name": "Drew Heffernan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1572
+			},{
+				"name": "Derek Moran",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 820
+			},{
+				"name": "Michael Jones",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 324
+			},{
+				"name": "Chinwe Nwadikeduruibe",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 83
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

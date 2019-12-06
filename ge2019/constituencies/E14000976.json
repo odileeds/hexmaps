@@ -1,6 +1,13 @@
 {
 	"id": "E14000976",
 	"title": "Stourbridge",
+	"demographics": {
+		"leave": 63.66,
+		"withdegree": 11.66,
+		"age18-29": 13.55,
+		"2015UKIP": 16.89,
+		"2016Leave": 63.66
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 67.2, "value": 47207 },
 			"valid": 47135,
 			"invalid": 72,
-			"majority": 7654
+			"majority": 7654,
+			"candidates": [{
+				"name": "Margot James",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25706
+			},{
+				"name": "Pete Lowe",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18052
+			},{
+				"name": "Glen Wilson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1801
+			},{
+				"name": "Christopher Bramall",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1083
+			},{
+				"name": "Andi Mohr",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 493
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

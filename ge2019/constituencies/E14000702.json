@@ -1,6 +1,13 @@
 {
 	"id": "E14000702",
 	"title": "Filton and Bradley Stoke",
+	"demographics": {
+		"leave": 47.98,
+		"withdegree": 17.63,
+		"age18-29": 17.38,
+		"2015UKIP": 14.79,
+		"2016Leave": 47.98
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 70.2, "value": 50866 },
 			"valid": 50702,
 			"invalid": 164,
-			"majority": 4190
+			"majority": 4190,
+			"candidates": [{
+				"name": "Jack Lopresti",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25339
+			},{
+				"name": "Naomi Rylatt",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21149
+			},{
+				"name": "Eva Fielding",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3052
+			},{
+				"name": "Diana Warner",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1162
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

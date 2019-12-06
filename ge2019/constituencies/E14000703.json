@@ -1,6 +1,13 @@
 {
 	"id": "E14000703",
 	"title": "Finchley and Golders Green",
+	"demographics": {
+		"leave": 30.92,
+		"withdegree": 38.19,
+		"age18-29": 18.33,
+		"2015UKIP": 3.41,
+		"2016Leave": 30.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,28 @@
 			"turnout": { "pc": 71.7, "value": 52544 },
 			"valid": 52385,
 			"invalid": 159,
-			"majority": 1657
+			"majority": 1657,
+			"candidates": [{
+				"name": "Mike Freer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24599
+			},{
+				"name": "Jeremy Newmark",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22942
+			},{
+				"name": "Jonathan Davies",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3463
+			},{
+				"name": "Adele Ward",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 919
+			},{
+				"name": "Andrew Price",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 462
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

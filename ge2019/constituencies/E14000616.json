@@ -1,6 +1,13 @@
 {
 	"id": "E14000616",
 	"title": "Camborne and Redruth",
+	"demographics": {
+		"leave": 57.91,
+		"withdegree": 10.75,
+		"age18-29": 13.64,
+		"2015UKIP": 14.77,
+		"2016Leave": 57.91
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 71.0, "value": 48549 },
 			"valid": 48456,
 			"invalid": 93,
-			"majority": 1577
+			"majority": 1577,
+			"candidates": [{
+				"name": "George Eustice",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23001
+			},{
+				"name": "Graham Winter",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21424
+			},{
+				"name": "Geoff Williams",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2979
+			},{
+				"name": "Geoff Garbett",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1052
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000897",
 	"title": "Rochdale",
+	"demographics": {
+		"leave": 57.45,
+		"withdegree": 10.28,
+		"age18-29": 16.51,
+		"2015UKIP": 18.75,
+		"2016Leave": 57.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 64.2, "value": 50147 },
 			"valid": 50044,
 			"invalid": 103,
-			"majority": 14819
+			"majority": 14819,
+			"candidates": [{
+				"name": "Tony Lloyd",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29035
+			},{
+				"name": "Jane Howard",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14216
+			},{
+				"name": "Andy Kelly",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4027
+			},{
+				"name": "Christopher Baksa",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1641
+			},{
+				"name": "Simon Danczuk",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 883
+			},{
+				"name": "Andy  Littlewood",
+				"party": { "code": "Greater Manchester Homeless Voice", "title": "Greater Manchester Homeless Voice" },
+				"votes": 242
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

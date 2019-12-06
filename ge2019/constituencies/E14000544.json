@@ -1,6 +1,13 @@
 {
 	"id": "E14000544",
 	"title": "Basildon and Billericay",
+	"demographics": {
+		"leave": 66.92,
+		"withdegree": 10.88,
+		"age18-29": 13.88,
+		"2015UKIP": 19.84,
+		"2016Leave": 66.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 65.1, "value": 45039 },
 			"valid": 44918,
 			"invalid": 121,
-			"majority": 13400
+			"majority": 13400,
+			"candidates": [{
+				"name": "John Baron",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27381
+			},{
+				"name": "Kayte  Block",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13981
+			},{
+				"name": "Tina Hughes",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2008
+			},{
+				"name": "Antonia  Harrison",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1548
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

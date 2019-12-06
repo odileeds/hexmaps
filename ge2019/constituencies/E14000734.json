@@ -1,6 +1,13 @@
 {
 	"id": "E14000734",
 	"title": "Harwich and North Essex",
+	"demographics": {
+		"leave": 61.07,
+		"withdegree": 12.98,
+		"age18-29": 13.35,
+		"2015UKIP": 17.48,
+		"2016Leave": 61.07
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 71.8, "value": 51224 },
 			"valid": 51141,
 			"invalid": 83,
-			"majority": 14356
+			"majority": 14356,
+			"candidates": [{
+				"name": "Bernard Jenkin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29921
+			},{
+				"name": "Rosalind Scott",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15565
+			},{
+				"name": "Dominic Graham",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2787
+			},{
+				"name": "Aaaron Hammond",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1685
+			},{
+				"name": "Blake Roberts",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1042
+			},{
+				"name": "Stephen Todd",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 141
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

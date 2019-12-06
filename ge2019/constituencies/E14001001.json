@@ -1,6 +1,13 @@
 {
 	"id": "E14001001",
 	"title": "Totnes",
+	"demographics": {
+		"leave": 54.09,
+		"withdegree": 15.88,
+		"age18-29": 10.41,
+		"2015UKIP": 14.13,
+		"2016Leave": 54.09
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,28 @@
 			"turnout": { "pc": 73.1, "value": 50352 },
 			"valid": 50270,
 			"invalid": 82,
-			"majority": 13477
+			"majority": 13477,
+			"candidates": [{
+				"name": "Sarah Wollaston",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26972
+			},{
+				"name": "Gerrie Messer",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13495
+			},{
+				"name": "Julian Brazil",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6466
+			},{
+				"name": "Jacqi Hodgson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2097
+			},{
+				"name": "Steven Harvey",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1240
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

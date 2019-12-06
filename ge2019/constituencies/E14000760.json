@@ -1,6 +1,13 @@
 {
 	"id": "E14000760",
 	"title": "Ilford South",
+	"demographics": {
+		"leave": 43.87,
+		"withdegree": 24.58,
+		"age18-29": 20.36,
+		"2015UKIP": 5.21,
+		"2016Leave": 43.87
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -48,7 +55,32 @@
 			"turnout": { "pc": 67.7, "value": 57803 },
 			"valid": 57657,
 			"invalid": 146,
-			"majority": 31647
+			"majority": 31647,
+			"candidates": [{
+				"name": "Mike Gapes",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 43724
+			},{
+				"name": "Chris Chapman",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12077
+			},{
+				"name": "Farid Ahmed",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 772
+			},{
+				"name": "RoseMary Warrington",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 542
+			},{
+				"name": "Tariq Saeed",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 477
+			},{
+				"name": "Kane Khan",
+				"party": { "code": "Friends Party", "title": "Friends Party" },
+				"votes": 65
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

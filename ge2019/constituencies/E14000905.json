@@ -1,6 +1,13 @@
 {
 	"id": "E14000905",
 	"title": "Rugby",
+	"demographics": {
+		"leave": 58.37,
+		"withdegree": 15.11,
+		"age18-29": 13.87,
+		"2015UKIP": 13.99,
+		"2016Leave": 58.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.3, "value": 51479 },
 			"valid": 51336,
 			"invalid": 143,
-			"majority": 8212
+			"majority": 8212,
+			"candidates": [{
+				"name": "Mark Pawsey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27872
+			},{
+				"name": "Claire Edwards",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19660
+			},{
+				"name": "Jerry Roodhouse",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2851
+			},{
+				"name": "Graham Bliss",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 953
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

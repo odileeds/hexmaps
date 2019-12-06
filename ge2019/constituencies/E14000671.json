@@ -1,6 +1,13 @@
 {
 	"id": "E14000671",
 	"title": "Dudley North",
+	"demographics": {
+		"leave": 71.43,
+		"withdegree": 8.36,
+		"age18-29": 14.95,
+		"2015UKIP": 23.99,
+		"2016Leave": 71.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,28 @@
 			"turnout": { "pc": 62.8, "value": 38982 },
 			"valid": 38910,
 			"invalid": 72,
-			"majority": 22
+			"majority": 22,
+			"candidates": [{
+				"name": "Ian Austin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18090
+			},{
+				"name": "Les Jones",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18068
+			},{
+				"name": "Bill Etheridge",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2144
+			},{
+				"name": "Ben France",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 368
+			},{
+				"name": "Andrew Nixon",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 240
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "S14000011",
 	"title": "Coatbridge, Chryston and Bellshill",
+	"demographics": {
+		"leave": 38.72,
+		"withdegree": ,
+		"age18-29": 15.05,
+		"2015UKIP": 2.07,
+		"2016Leave": 38.72
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 63.4, "value": 45119 },
 			"valid": 45040,
 			"invalid": 79,
-			"majority": 1586
+			"majority": 1586,
+			"candidates": [{
+				"name": "Hugh Gaffney",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19193
+			},{
+				"name": "Philip Boswell",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17607
+			},{
+				"name": "Robyn Halbert",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7318
+			},{
+				"name": "David Bennie",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 922
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

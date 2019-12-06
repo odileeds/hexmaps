@@ -1,6 +1,13 @@
 {
 	"id": "E14000541",
 	"title": "Barnsley Central",
+	"demographics": {
+		"leave": 68.38,
+		"withdegree": 8.13,
+		"age18-29": 15.18,
+		"2015UKIP": 21.72,
+		"2016Leave": 68.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,32 @@
 			"turnout": { "pc": 61.0, "value": 39153 },
 			"valid": 39087,
 			"invalid": 66,
-			"majority": 15546
+			"majority": 15546,
+			"candidates": [{
+				"name": "Dan Jarvis",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24982
+			},{
+				"name": "Amanda Ford",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9436
+			},{
+				"name": "Gavin Felton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 3339
+			},{
+				"name": "Richard Trotman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 570
+			},{
+				"name": "David Ridgway",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 549
+			},{
+				"name": "Stephen Morris",
+				"party": { "code": "Eng Dem", "title": "English Democrats" },
+				"votes": 211
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

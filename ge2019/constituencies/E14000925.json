@@ -1,6 +1,13 @@
 {
 	"id": "E14000925",
 	"title": "Shipley",
+	"demographics": {
+		"leave": 52.21,
+		"withdegree": 19.66,
+		"age18-29": 12.86,
+		"2015UKIP": 8.86,
+		"2016Leave": 52.21
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 73.2, "value": 53533 },
 			"valid": 53395,
 			"invalid": 138,
-			"majority": 4681
+			"majority": 4681,
+			"candidates": [{
+				"name": "Philip Davies",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27417
+			},{
+				"name": "Steve Clapcote",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22736
+			},{
+				"name": "Caroline Jones",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2202
+			},{
+				"name": "Sophie Walker",
+				"party": { "code": "WEP", "title": "Women's Equality Party" },
+				"votes": 1040
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

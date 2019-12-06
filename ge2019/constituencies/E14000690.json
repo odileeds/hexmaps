@@ -1,6 +1,13 @@
 {
 	"id": "E14000690",
 	"title": "Eltham",
+	"demographics": {
+		"leave": 51.82,
+		"withdegree": 19.23,
+		"age18-29": 16.65,
+		"2015UKIP": 15.02,
+		"2016Leave": 51.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 71.8, "value": 46305 },
 			"valid": 46155,
 			"invalid": 150,
-			"majority": 6296
+			"majority": 6296,
+			"candidates": [{
+				"name": "Clive Efford",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25128
+			},{
+				"name": "Matt Hartley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18832
+			},{
+				"name": "David Hall-Matthews",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1457
+			},{
+				"name": "John Clarke",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 738
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

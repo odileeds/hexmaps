@@ -1,6 +1,13 @@
 {
 	"id": "E14000845",
 	"title": "North East Hertfordshire",
+	"demographics": {
+		"leave": 51.38,
+		"withdegree": 19.61,
+		"age18-29": 11.7,
+		"2015UKIP": 12.87,
+		"2016Leave": 51.38
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.4, "value": 55748 },
 			"valid": 55580,
 			"invalid": 168,
-			"majority": 16835
+			"majority": 16835,
+			"candidates": [{
+				"name": "Oliver Heald",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32587
+			},{
+				"name": "Doug Swanney",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15752
+			},{
+				"name": "Nicky Shepard",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4276
+			},{
+				"name": "Tim Lee",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2965
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

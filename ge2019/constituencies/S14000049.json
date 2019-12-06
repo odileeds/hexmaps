@@ -1,6 +1,13 @@
 {
 	"id": "S14000049",
 	"title": "North East Fife",
+	"demographics": {
+		"leave": 38.14,
+		"withdegree": ,
+		"age18-29": 19.15,
+		"2015UKIP": ,
+		"2016Leave": 38.14
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 71.3, "value": 41848 },
 			"valid": 41822,
 			"invalid": 26,
-			"majority": 2
+			"majority": 2,
+			"candidates": [{
+				"name": "Stephen Gethins",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 13743
+			},{
+				"name": " Elizabeth Riches",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13741
+			},{
+				"name": "Tony Miklinski",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10088
+			},{
+				"name": "Rosalind Garton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 4026
+			},{
+				"name": "Mike Scott-Hayward",
+				"party": { "code": "Independent Sovereign Democratic Britain", "title": "Independent Sovereign Democratic Britain" },
+				"votes": 224
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

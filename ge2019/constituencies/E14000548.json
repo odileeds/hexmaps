@@ -1,6 +1,13 @@
 {
 	"id": "E14000548",
 	"title": "Batley and Spen",
+	"demographics": {
+		"leave": 60.35,
+		"withdegree": 10.56,
+		"age18-29": 15.65,
+		"2015UKIP": 17.99,
+		"2016Leave": 60.35
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 67.2, "value": 53908 },
 			"valid": 53780,
 			"invalid": 128,
-			"majority": 8961
+			"majority": 8961,
+			"candidates": [{
+				"name": "Tracy Brabin",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 29844
+			},{
+				"name": "Ann Myatt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20883
+			},{
+				"name": "John Lawson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1224
+			},{
+				"name": "Aleks Lukic",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1076
+			},{
+				"name": "Alan Freeman",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 695
+			},{
+				"name": "Mohammed Hanif",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 58
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

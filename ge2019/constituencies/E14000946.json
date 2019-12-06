@@ -1,6 +1,13 @@
 {
 	"id": "E14000946",
 	"title": "South Suffolk",
+	"demographics": {
+		"leave": 54.15,
+		"withdegree": 13.75,
+		"age18-29": 10.66,
+		"2015UKIP": 15.21,
+		"2016Leave": 54.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.0, "value": 54351 },
 			"valid": 54235,
 			"invalid": 116,
-			"majority": 17749
+			"majority": 17749,
+			"candidates": [{
+				"name": "James Cartlidge",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32829
+			},{
+				"name": "Emma Bishton",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15080
+			},{
+				"name": "Andrew Aalders-Dunthorpe",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3154
+			},{
+				"name": "Robert Lindsay",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1723
+			},{
+				"name": "Aidan Powlesland",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1449
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

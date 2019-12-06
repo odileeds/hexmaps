@@ -1,6 +1,13 @@
 {
 	"id": "E14000556",
 	"title": "Beverley and Holderness",
+	"demographics": {
+		"leave": 58.79,
+		"withdegree": 14.35,
+		"age18-29": 11.16,
+		"2015UKIP": 16.69,
+		"2016Leave": 58.79
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 69.2, "value": 55822 },
 			"valid": 55638,
 			"invalid": 184,
-			"majority": 14042
+			"majority": 14042,
+			"candidates": [{
+				"name": "Graham Stuart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32499
+			},{
+				"name": "Johanna Boal",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18457
+			},{
+				"name": "Denis Healy",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2808
+			},{
+				"name": "Lee Walton",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1158
+			},{
+				"name": "Richard Howarth",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 716
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000828",
 	"title": "New Forest West",
+	"demographics": {
+		"leave": 55.88,
+		"withdegree": 14.69,
+		"age18-29": 9.61,
+		"2015UKIP": 16.49,
+		"2016Leave": 55.88
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 72.3, "value": 49725 },
 			"valid": 49627,
 			"invalid": 98,
-			"majority": 23431
+			"majority": 23431,
+			"candidates": [{
+				"name": "Desmond Swayne",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33170
+			},{
+				"name": "Jo Graham",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9739
+			},{
+				"name": "Terry Scriven",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4781
+			},{
+				"name": "Janet Richards",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1454
+			},{
+				"name": "Des Hjerling",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 483
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

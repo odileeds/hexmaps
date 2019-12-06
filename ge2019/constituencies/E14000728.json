@@ -1,6 +1,13 @@
 {
 	"id": "E14000728",
 	"title": "Harborough",
+	"demographics": {
+		"leave": 52.25,
+		"withdegree": 17.03,
+		"age18-29": 14,
+		"2015UKIP": 14.37,
+		"2016Leave": 52.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 73.2, "value": 57716 },
 			"valid": 57598,
 			"invalid": 118,
-			"majority": 12429
+			"majority": 12429,
+			"candidates": [{
+				"name": "Neil  O'Brien",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30135
+			},{
+				"name": "Andy  Thomas",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17706
+			},{
+				"name": "Zuffar  Haq",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7286
+			},{
+				"name": "Teck  Khong",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1361
+			},{
+				"name": "Darren  Woodiwiss",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1110
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

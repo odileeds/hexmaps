@@ -1,6 +1,13 @@
 {
 	"id": "N06000003",
 	"title": "Belfast South",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 66.3, "value": 43835 },
 			"valid": 43705,
 			"invalid": 130,
-			"majority": 1996
+			"majority": 1996,
+			"candidates": [{
+				"name": "Emma Little Pengelly",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 13299
+			},{
+				"name": "Alasdair McDonnell",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 11303
+			},{
+				"name": "Paula Bradshaw",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 7946
+			},{
+				"name": "Mairtin Samuel O Muilleoir",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 7143
+			},{
+				"name": "Clare Bailey",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2241
+			},{
+				"name": "Michael Henderson",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 1527
+			},{
+				"name": "Clare Salier",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 246
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

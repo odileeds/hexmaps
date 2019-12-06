@@ -1,6 +1,13 @@
 {
 	"id": "E14000922",
 	"title": "Sheffield, Hallam",
+	"demographics": {
+		"leave": 35.9,
+		"withdegree": 31.74,
+		"age18-29": 18.41,
+		"2015UKIP": 6.44,
+		"2016Leave": 35.9
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -53,7 +60,32 @@
 			"turnout": { "pc": 77.7, "value": 57109 },
 			"valid": 57020,
 			"invalid": 89,
-			"majority": 2125
+			"majority": 2125,
+			"candidates": [{
+				"name": "Jared O'Mara",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21881
+			},{
+				"name": "Nick Clegg",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 19756
+			},{
+				"name": "Ian Walker",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13561
+			},{
+				"name": "John Thurley",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 929
+			},{
+				"name": "Logan Robin",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 823
+			},{
+				"name": "Steven Winstone",
+				"party": { "code": "SDP", "title": "Social Democratic Party" },
+				"votes": 70
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

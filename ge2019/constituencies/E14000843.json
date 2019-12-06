@@ -1,6 +1,13 @@
 {
 	"id": "E14000843",
 	"title": "North East Derbyshire",
+	"demographics": {
+		"leave": 62.17,
+		"withdegree": 10.95,
+		"age18-29": 12.14,
+		"2015UKIP": 15.92,
+		"2016Leave": 62.17
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 70.0, "value": 50458 },
 			"valid": 50380,
 			"invalid": 78,
-			"majority": 2860
+			"majority": 2860,
+			"candidates": [{
+				"name": "Lee Rowley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24783
+			},{
+				"name": "Natascha Engel",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21923
+			},{
+				"name": "James Bush",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1565
+			},{
+				"name": "David Lomax",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1390
+			},{
+				"name": "David Kesteven",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 719
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

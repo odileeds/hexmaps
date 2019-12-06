@@ -1,6 +1,13 @@
 {
 	"id": "S14000014",
 	"title": "Dumfriesshire, Clydesdale and Tweeddale",
+	"demographics": {
+		"leave": 43.94,
+		"withdegree": ,
+		"age18-29": 10.64,
+		"2015UKIP": 2.82,
+		"2016Leave": 43.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 72.4, "value": 49024 },
 			"valid": 48964,
 			"invalid": 60,
-			"majority": 9441
+			"majority": 9441,
+			"candidates": [{
+				"name": "David Mundell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24177
+			},{
+				"name": "Mairi McAllan",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 14736
+			},{
+				"name": "Douglas Beattie",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 8102
+			},{
+				"name": "John Ferry",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1949
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

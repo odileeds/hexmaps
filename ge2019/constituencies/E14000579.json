@@ -1,6 +1,13 @@
 {
 	"id": "E14000579",
 	"title": "Bolton South East",
+	"demographics": {
+		"leave": 63.42,
+		"withdegree": 9.21,
+		"age18-29": 16.8,
+		"2015UKIP": 23.63,
+		"2016Leave": 63.42
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 61.6, "value": 42420 },
 			"valid": 42323,
 			"invalid": 97,
-			"majority": 13126
+			"majority": 13126,
+			"candidates": [{
+				"name": "Yasmin Qureshi",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25676
+			},{
+				"name": "Sarah Pochin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12550
+			},{
+				"name": "Jeff Armstrong",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2779
+			},{
+				"name": "Frank Harasiwka",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 781
+			},{
+				"name": "Alan Johnson",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 537
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

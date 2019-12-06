@@ -1,6 +1,13 @@
 {
 	"id": "W07000080",
 	"title": "Cardiff South and Penarth",
+	"demographics": {
+		"leave": 44.94,
+		"withdegree": 21.17,
+		"age18-29": 19.32,
+		"2015UKIP": 13.76,
+		"2016Leave": 44.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 66.5, "value": 50843 },
 			"valid": 50736,
 			"invalid": 107,
-			"majority": 14864
+			"majority": 14864,
+			"candidates": [{
+				"name": "Stephen Doughty",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 30182
+			},{
+				"name": "Bill Rees",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 15318
+			},{
+				"name": "Ian Titherington",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 2162
+			},{
+				"name": "Emma Sands",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1430
+			},{
+				"name": "Andrew Bevan",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 942
+			},{
+				"name": "Anthony Slaughter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 532
+			},{
+				"name": "Jeb Hedges",
+				"party": { "code": "Pirate", "title": "Pirate Party" },
+				"votes": 170
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

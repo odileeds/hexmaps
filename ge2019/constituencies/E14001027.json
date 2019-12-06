@@ -1,6 +1,13 @@
 {
 	"id": "E14001027",
 	"title": "Welwyn Hatfield",
+	"demographics": {
+		"leave": 52.54,
+		"withdegree": 20.22,
+		"age18-29": 21.76,
+		"2015UKIP": 13.06,
+		"2016Leave": 52.54
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 71.0, "value": 51778 },
 			"valid": 51669,
 			"invalid": 109,
-			"majority": 7369
+			"majority": 7369,
+			"candidates": [{
+				"name": "Grant Shapps",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26374
+			},{
+				"name": "Anawar Miah",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 19005
+			},{
+				"name": "Nigel Quinton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3836
+			},{
+				"name": "Dean Milliken",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1441
+			},{
+				"name": "Christianne Sayers",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 835
+			},{
+				"name": "Melvyn Jones",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 178
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

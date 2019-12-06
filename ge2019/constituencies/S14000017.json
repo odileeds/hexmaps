@@ -1,6 +1,13 @@
 {
 	"id": "S14000017",
 	"title": "Dunfermline and West Fife",
+	"demographics": {
+		"leave": 40.03,
+		"withdegree": ,
+		"age18-29": 13.55,
+		"2015UKIP": ,
+		"2016Leave": 40.03
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 67.5, "value": 51083 },
 			"valid": 51010,
 			"invalid": 73,
-			"majority": 844
+			"majority": 844,
+			"candidates": [{
+				"name": "Douglas Chapman",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 18121
+			},{
+				"name": "Cara Hilton",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 17277
+			},{
+				"name": "Belinda Hacking",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12593
+			},{
+				"name": "James Calder",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3019
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

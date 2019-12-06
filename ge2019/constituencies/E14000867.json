@@ -1,6 +1,13 @@
 {
 	"id": "E14000867",
 	"title": "Nottingham South",
+	"demographics": {
+		"leave": 46.47,
+		"withdegree": 19.5,
+		"age18-29": 36.99,
+		"2015UKIP": 11.27,
+		"2016Leave": 46.47
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.8, "value": 48266 },
 			"valid": 48129,
 			"invalid": 137,
-			"majority": 15162
+			"majority": 15162,
+			"candidates": [{
+				"name": "Lilian Greenwood",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 30013
+			},{
+				"name": "Jane Hunt",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14851
+			},{
+				"name": "Tony Sutton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1564
+			},{
+				"name": "David Hollas",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1103
+			},{
+				"name": "Adam McGregor",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 598
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

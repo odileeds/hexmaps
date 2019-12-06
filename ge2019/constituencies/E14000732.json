@@ -1,6 +1,13 @@
 {
 	"id": "E14000732",
 	"title": "Harrow West",
+	"demographics": {
+		"leave": 45.06,
+		"withdegree": 28.94,
+		"age18-29": 17.88,
+		"2015UKIP": 4.39,
+		"2016Leave": 45.06
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 72.3, "value": 50483 },
 			"valid": 50355,
 			"invalid": 128,
-			"majority": 13314
+			"majority": 13314,
+			"candidates": [{
+				"name": "Gareth Thomas",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 30640
+			},{
+				"name": "Hannah David",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17326
+			},{
+				"name": "Christopher Noyce",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1267
+			},{
+				"name": "Rowan Langley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 652
+			},{
+				"name": "Rathy Alagaratnam",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 470
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

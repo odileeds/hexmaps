@@ -1,6 +1,13 @@
 {
 	"id": "E14001006",
 	"title": "Tynemouth",
+	"demographics": {
+		"leave": 47.84,
+		"withdegree": 18.47,
+		"age18-29": 12.35,
+		"2015UKIP": 12.23,
+		"2016Leave": 47.84
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 73.6, "value": 56964 },
 			"valid": 56858,
 			"invalid": 106,
-			"majority": 11666
+			"majority": 11666,
+			"candidates": [{
+				"name": "Alan Campbell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32395
+			},{
+				"name": "Nick Varley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20729
+			},{
+				"name": "John Appleby",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1724
+			},{
+				"name": "Stuart Houghton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1257
+			},{
+				"name": "Julia Erskine",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 629
+			},{
+				"name": "Anthony Jull",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 124
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

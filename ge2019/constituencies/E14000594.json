@@ -1,6 +1,13 @@
 {
 	"id": "E14000594",
 	"title": "Brentwood and Ongar",
+	"demographics": {
+		"leave": 60.89,
+		"withdegree": 16.77,
+		"age18-29": 11.99,
+		"2015UKIP": 16.81,
+		"2016Leave": 60.89
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 70.6, "value": 53017 },
 			"valid": 52910,
 			"invalid": 107,
-			"majority": 24002
+			"majority": 24002,
+			"candidates": [{
+				"name": "Alex Burghart",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 34811
+			},{
+				"name": "Gareth Barrett",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10809
+			},{
+				"name": "Karen Chilvers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4426
+			},{
+				"name": "Michael McGough",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1845
+			},{
+				"name": "Paul Jeater",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 915
+			},{
+				"name": "Louca Kousoulou",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 104
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000871",
 	"title": "Oldham West and Royton",
+	"demographics": {
+		"leave": 61.31,
+		"withdegree": 8.61,
+		"age18-29": 16.43,
+		"2015UKIP": 20.61,
+		"2016Leave": 61.31
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 63.4, "value": 45887 },
 			"valid": 45788,
 			"invalid": 99,
-			"majority": 17198
+			"majority": 17198,
+			"candidates": [{
+				"name": "Jim McMahon",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 29846
+			},{
+				"name": "Christopher Glenny",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12648
+			},{
+				"name": "Ruth Keating",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1899
+			},{
+				"name": "Garth Harkness",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 956
+			},{
+				"name": "Adam  King",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 439
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

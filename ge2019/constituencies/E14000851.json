@@ -1,6 +1,13 @@
 {
 	"id": "E14000851",
 	"title": "North Swindon",
+	"demographics": {
+		"leave": 57.44,
+		"withdegree": 10.79,
+		"age18-29": 14.89,
+		"2015UKIP": 15.33,
+		"2016Leave": 57.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.6, "value": 55015 },
 			"valid": 54911,
 			"invalid": 104,
-			"majority": 8335
+			"majority": 8335,
+			"candidates": [{
+				"name": "Justin Tomlinson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29431
+			},{
+				"name": "Mark Dempsey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21096
+			},{
+				"name": "Liz Webster",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1962
+			},{
+				"name": "Steve Halden",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1564
+			},{
+				"name": "Andy Bentley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 858
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

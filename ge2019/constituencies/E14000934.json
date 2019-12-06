@@ -1,6 +1,13 @@
 {
 	"id": "E14000934",
 	"title": "South Cambridgeshire",
+	"demographics": {
+		"leave": 38.44,
+		"withdegree": 30.1,
+		"age18-29": 12.38,
+		"2015UKIP": 9.77,
+		"2016Leave": 38.44
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -33,7 +40,24 @@
 			"turnout": { "pc": 76.3, "value": 65090 },
 			"valid": 64924,
 			"invalid": 166,
-			"majority": 15952
+			"majority": 15952,
+			"candidates": [{
+				"name": "Heidi Allen",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33631
+			},{
+				"name": "Dan Greef",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17679
+			},{
+				"name": "Susan van de Ven",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 12102
+			},{
+				"name": "Simon Saggers",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1512
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

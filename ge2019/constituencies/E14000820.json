@@ -1,6 +1,13 @@
 {
 	"id": "E14000820",
 	"title": "Middlesbrough South and East Cleveland",
+	"demographics": {
+		"leave": 65,
+		"withdegree": 11.32,
+		"age18-29": 13.58,
+		"2015UKIP": 15.18,
+		"2016Leave": 65
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,20 @@
 			"turnout": { "pc": 66.0, "value": 47764 },
 			"valid": 47620,
 			"invalid": 144,
-			"majority": 1020
+			"majority": 1020,
+			"candidates": [{
+				"name": "Simon Clarke",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23643
+			},{
+				"name": "Tracy Harvey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22623
+			},{
+				"name": "Chris Foote-Wood",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1354
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

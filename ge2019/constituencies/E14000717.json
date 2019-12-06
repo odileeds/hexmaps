@@ -1,6 +1,13 @@
 {
 	"id": "E14000717",
 	"title": "Great Yarmouth",
+	"demographics": {
+		"leave": 71.5,
+		"withdegree": 5.5,
+		"age18-29": 14.34,
+		"2015UKIP": 23.09,
+		"2016Leave": 71.5
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 62.1, "value": 44349 },
 			"valid": 44146,
 			"invalid": 203,
-			"majority": 7973
+			"majority": 7973,
+			"candidates": [{
+				"name": "Brandon Lewis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23901
+			},{
+				"name": "Mike Smith-Clare",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15928
+			},{
+				"name": "Catherine Blaiklock",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2767
+			},{
+				"name": "James Joyce",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 987
+			},{
+				"name": "Harry Webb",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 563
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

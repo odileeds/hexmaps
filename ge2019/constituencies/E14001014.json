@@ -1,6 +1,13 @@
 {
 	"id": "E14001014",
 	"title": "Wansbeck",
+	"demographics": {
+		"leave": 56.19,
+		"withdegree": 10.95,
+		"age18-29": 13.41,
+		"2015UKIP": 18.2,
+		"2016Leave": 56.19
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 68.4, "value": 42511 },
 			"valid": 42454,
 			"invalid": 57,
-			"majority": 10435
+			"majority": 10435,
+			"candidates": [{
+				"name": "Ian Lavery",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24338
+			},{
+				"name": "Chris Galley",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 13903
+			},{
+				"name": "Joan Tebbutt",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2015
+			},{
+				"name": "Melanie Hurst",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1483
+			},{
+				"name": "Steven Leyland",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 715
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

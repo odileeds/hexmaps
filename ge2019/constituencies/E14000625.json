@@ -1,6 +1,13 @@
 {
 	"id": "E14000625",
 	"title": "Charnwood",
+	"demographics": {
+		"leave": 58.29,
+		"withdegree": 15.38,
+		"age18-29": 12.56,
+		"2015UKIP": 15.94,
+		"2016Leave": 58.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 70.8, "value": 55291 },
 			"valid": 55176,
 			"invalid": 115,
-			"majority": 16341
+			"majority": 16341,
+			"candidates": [{
+				"name": "Edward Argar",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33318
+			},{
+				"name": "Sean Kelly-Walsh",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16977
+			},{
+				"name": "Simon Sansome",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2052
+			},{
+				"name": "Victoria Connor",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1471
+			},{
+				"name": "Nicholas Cox",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1036
+			},{
+				"name": "Stephen Denham",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 322
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

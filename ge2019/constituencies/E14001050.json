@@ -1,6 +1,13 @@
 {
 	"id": "E14001050",
 	"title": "Wolverhampton South East",
+	"demographics": {
+		"leave": 68.14,
+		"withdegree": 7.93,
+		"age18-29": 16.54,
+		"2015UKIP": 20.31,
+		"2016Leave": 68.14
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 60.3, "value": 36390 },
 			"valid": 36304,
 			"invalid": 86,
-			"majority": 8514
+			"majority": 8514,
+			"candidates": [{
+				"name": "Pat McFadden",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21137
+			},{
+				"name": "Kieran Mullan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12623
+			},{
+				"name": "Barry Hodgson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1675
+			},{
+				"name": "Ben Mathis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 448
+			},{
+				"name": "Amy Bertaut",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 421
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

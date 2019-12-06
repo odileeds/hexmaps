@@ -1,6 +1,13 @@
 {
 	"id": "E14000727",
 	"title": "Hampstead and Kilburn",
+	"demographics": {
+		"leave": 23.48,
+		"withdegree": 47.38,
+		"age18-29": 20.77,
+		"2015UKIP": 2.84,
+		"2016Leave": 23.48
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 70.6, "value": 58572 },
 			"valid": 58407,
 			"invalid": 165,
-			"majority": 15560
+			"majority": 15560,
+			"candidates": [{
+				"name": "Tulip Siddiq",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 34464
+			},{
+				"name": "Claire-Louise Leyland",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18904
+			},{
+				"name": "Kirsty Allan",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4100
+			},{
+				"name": "John Mansook",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 742
+			},{
+				"name": "Hugh Easterbrook",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 136
+			},{
+				"name": "Rainbow Weiss",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 61
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

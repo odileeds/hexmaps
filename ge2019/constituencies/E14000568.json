@@ -1,6 +1,13 @@
 {
 	"id": "E14000568",
 	"title": "Birmingham, Yardley",
+	"demographics": {
+		"leave": 60.09,
+		"withdegree": 9.22,
+		"age18-29": 16.74,
+		"2015UKIP": 16.13,
+		"2016Leave": 60.09
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 61.5, "value": 44605 },
 			"valid": 44502,
 			"invalid": 103,
-			"majority": 16574
+			"majority": 16574,
+			"candidates": [{
+				"name": "Jess Phillips",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25398
+			},{
+				"name": "Mohammed  Afzal",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 8824
+			},{
+				"name": "John Hemming",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7984
+			},{
+				"name": "Paul Clayton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1916
+			},{
+				"name": "Christopher Garghan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 280
+			},{
+				"name": "Abu Nowshed",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 100
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

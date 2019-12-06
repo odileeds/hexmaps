@@ -1,6 +1,13 @@
 {
 	"id": "E14000860",
 	"title": "North Wiltshire",
+	"demographics": {
+		"leave": 50.37,
+		"withdegree": 18.77,
+		"age18-29": 11.34,
+		"2015UKIP": 11.5,
+		"2016Leave": 50.37
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 75.3, "value": 53797 },
 			"valid": 53706,
 			"invalid": 91,
-			"majority": 22877
+			"majority": 22877,
+			"candidates": [{
+				"name": "James Gray",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32398
+			},{
+				"name": "Brian Mathew",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 9521
+			},{
+				"name": "Peter Baldrey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9399
+			},{
+				"name": "Phil Chamberlain",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1141
+			},{
+				"name": "Paddy Singh",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 871
+			},{
+				"name": "Lisa Tweedie",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 376
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

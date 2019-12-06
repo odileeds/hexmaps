@@ -1,6 +1,13 @@
 {
 	"id": "S14000052",
 	"title": "Paisley and Renfrewshire North",
+	"demographics": {
+		"leave": 36.09,
+		"withdegree": ,
+		"age18-29": 14.17,
+		"2015UKIP": ,
+		"2016Leave": 36.09
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 69.2, "value": 46666 },
 			"valid": 46615,
 			"invalid": 51,
-			"majority": 2613
+			"majority": 2613,
+			"candidates": [{
+				"name": "Gavin Newlands",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17455
+			},{
+				"name": "Alison Taylor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14842
+			},{
+				"name": "David Gardiner",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12842
+			},{
+				"name": "John Boyd",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1476
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

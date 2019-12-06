@@ -1,6 +1,13 @@
 {
 	"id": "E14001000",
 	"title": "Torridge and West Devon",
+	"demographics": {
+		"leave": 57.07,
+		"withdegree": 13.11,
+		"age18-29": 10.65,
+		"2015UKIP": 18.33,
+		"2016Leave": 57.07
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 74.0, "value": 59624 },
 			"valid": 59480,
 			"invalid": 144,
-			"majority": 20686
+			"majority": 20686,
+			"candidates": [{
+				"name": "Geoffrey Cox",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33612
+			},{
+				"name": "Vince Barry",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 12926
+			},{
+				"name": "David Chalmers",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10526
+			},{
+				"name": "Chris Jordan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1622
+			},{
+				"name": "Robin Julian",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 794
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

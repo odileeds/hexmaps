@@ -1,6 +1,13 @@
 {
 	"id": "S14000043",
 	"title": "Linlithgow and East Falkirk",
+	"demographics": {
+		"leave": 41.61,
+		"withdegree": ,
+		"age18-29": 14.31,
+		"2015UKIP": 2.73,
+		"2016Leave": 41.61
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,24 @@
 			"turnout": { "pc": 65.2, "value": 56186 },
 			"valid": 56094,
 			"invalid": 92,
-			"majority": 2919
+			"majority": 2919,
+			"candidates": [{
+				"name": "Martyn Day",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 20388
+			},{
+				"name": "Joan Coombes",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17469
+			},{
+				"name": "Charles Kennedy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16311
+			},{
+				"name": "Sally Pattle",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1926
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

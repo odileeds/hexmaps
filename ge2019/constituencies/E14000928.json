@@ -1,6 +1,13 @@
 {
 	"id": "E14000928",
 	"title": "Skipton and Ripon",
+	"demographics": {
+		"leave": 53.03,
+		"withdegree": 18.49,
+		"age18-29": 10.9,
+		"2015UKIP": 14.02,
+		"2016Leave": 53.03
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.7, "value": 58324 },
 			"valid": 58138,
 			"invalid": 186,
-			"majority": 19985
+			"majority": 19985,
+			"candidates": [{
+				"name": "Julian Smith",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36425
+			},{
+				"name": "Alan Woodhead",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16440
+			},{
+				"name": "Andy Brown",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 3734
+			},{
+				"name": "Jack Render",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 1539
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

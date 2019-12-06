@@ -1,6 +1,13 @@
 {
 	"id": "E14000916",
 	"title": "Sefton Central",
+	"demographics": {
+		"leave": 45.13,
+		"withdegree": 16.39,
+		"age18-29": 11.63,
+		"2015UKIP": 9.95,
+		"2016Leave": 45.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,24 @@
 			"turnout": { "pc": 75.6, "value": 52207 },
 			"valid": 52079,
 			"invalid": 128,
-			"majority": 15618
+			"majority": 15618,
+			"candidates": [{
+				"name": "Bill Esterson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32830
+			},{
+				"name": "Jade Marsden",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 17212
+			},{
+				"name": "Daniel Lewis",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1381
+			},{
+				"name": "Mike Carter",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 656
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

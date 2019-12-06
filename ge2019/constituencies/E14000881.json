@@ -1,6 +1,13 @@
 {
 	"id": "E14000881",
 	"title": "Poole",
+	"demographics": {
+		"leave": 56.94,
+		"withdegree": 14.72,
+		"age18-29": 13.78,
+		"2015UKIP": 16.79,
+		"2016Leave": 56.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.7, "value": 49976 },
 			"valid": 49850,
 			"invalid": 126,
-			"majority": 14209
+			"majority": 14209,
+			"candidates": [{
+				"name": "Robert Syms",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28888
+			},{
+				"name": "Katie Taylor",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14679
+			},{
+				"name": "Mike Plummer",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4433
+			},{
+				"name": "Adrian Oliver",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1299
+			},{
+				"name": "Marty Caine",
+				"party": { "code": "Demos Direct Initiative Party", "title": "Demos Direct Initiative Party" },
+				"votes": 551
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

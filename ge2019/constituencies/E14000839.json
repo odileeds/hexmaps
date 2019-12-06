@@ -1,6 +1,13 @@
 {
 	"id": "E14000839",
 	"title": "North Dorset",
+	"demographics": {
+		"leave": 56.41,
+		"withdegree": 14.39,
+		"age18-29": 11.28,
+		"2015UKIP": 17.06,
+		"2016Leave": 56.41
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 73.2, "value": 55891 },
 			"valid": 55724,
 			"invalid": 167,
-			"majority": 25777
+			"majority": 25777,
+			"candidates": [{
+				"name": "Simon Hoare",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36169
+			},{
+				"name": "Pat Osborne",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10392
+			},{
+				"name": "Thomas Panton",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7556
+			},{
+				"name": "John Tutton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1607
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

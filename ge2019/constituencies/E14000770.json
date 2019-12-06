@@ -1,6 +1,13 @@
 {
 	"id": "E14000770",
 	"title": "Kingston and Surbiton",
+	"demographics": {
+		"leave": 41.59,
+		"withdegree": 29.29,
+		"age18-29": 19.81,
+		"2015UKIP": 7.29,
+		"2016Leave": 41.59
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 76.3, "value": 62265 },
 			"valid": 62178,
 			"invalid": 87,
-			"majority": 4124
+			"majority": 4124,
+			"candidates": [{
+				"name": "Edward Davey",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 27810
+			},{
+				"name": "James Berry",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 23686
+			},{
+				"name": "Laurie South",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9203
+			},{
+				"name": "Graham Matthews",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 675
+			},{
+				"name": "Chris Walker",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 536
+			},{
+				"name": "Jason Chinnery",
+				"party": { "code": "MRLP", "title": "Monster Raving Loony Party" },
+				"votes": 168
+			},{
+				"name": "Michael Basman",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 100
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

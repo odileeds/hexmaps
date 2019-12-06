@@ -1,6 +1,13 @@
 {
 	"id": "N06000006",
 	"title": "East Londonderry",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 61.4, "value": 41154 },
 			"valid": 41030,
 			"invalid": 124,
-			"majority": 8842
+			"majority": 8842,
+			"candidates": [{
+				"name": "Gregory Campbell",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 19723
+			},{
+				"name": "Dermot Nicholl",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 10881
+			},{
+				"name": "Stephanie Quigley",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 4423
+			},{
+				"name": "Richard Holmes",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 3135
+			},{
+				"name": "Chris McCaw",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 2538
+			},{
+				"name": "Liz St Clair-Legge",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 330
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

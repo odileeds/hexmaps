@@ -1,6 +1,13 @@
 {
 	"id": "E14000615",
 	"title": "Camberwell and Peckham",
+	"demographics": {
+		"leave": 30.2,
+		"withdegree": 30.25,
+		"age18-29": 20.94,
+		"2015UKIP": 4.68,
+		"2016Leave": 30.2
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 67.3, "value": 57648 },
 			"valid": 57412,
 			"invalid": 236,
-			"majority": 37316
+			"majority": 37316,
+			"candidates": [{
+				"name": "Harriet Harman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 44665
+			},{
+				"name": "Ben Spencer",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 7349
+			},{
+				"name": "Michael Bukola",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3413
+			},{
+				"name": "Eleanor Margolies",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1627
+			},{
+				"name": "Ray Towey",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 227
+			},{
+				"name": "Aminata Sellu",
+				"party": { "code": "WRP", "title": "Workers Revolutionary Party" },
+				"votes": 131
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

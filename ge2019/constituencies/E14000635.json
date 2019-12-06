@@ -1,6 +1,13 @@
 {
 	"id": "E14000635",
 	"title": "Chippenham",
+	"demographics": {
+		"leave": 52.33,
+		"withdegree": 17.29,
+		"age18-29": 12.09,
+		"2015UKIP": 10.62,
+		"2016Leave": 52.33
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,20 @@
 			"turnout": { "pc": 75.0, "value": 57350 },
 			"valid": 57140,
 			"invalid": 210,
-			"majority": 16630
+			"majority": 16630,
+			"candidates": [{
+				"name": "Michelle Donelan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 31267
+			},{
+				"name": "Helen Belcher",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 14637
+			},{
+				"name": "Andrew Newman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 11236
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

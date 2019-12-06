@@ -1,6 +1,13 @@
 {
 	"id": "N06000004",
 	"title": "Belfast West",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 65.4, "value": 40823 },
 			"valid": 40633,
 			"invalid": 190,
-			"majority": 21652
+			"majority": 21652,
+			"candidates": [{
+				"name": "Paul Maskey",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 27107
+			},{
+				"name": "Frank McCoubrey",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 5455
+			},{
+				"name": "Gerry Carroll",
+				"party": { "code": "PBPA", "title": "People Before Profit Alliance" },
+				"votes": 4132
+			},{
+				"name": "Tim Attwood",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 2860
+			},{
+				"name": "Sorcha Eastwood",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 731
+			},{
+				"name": "Conor Campbell",
+				"party": { "code": "WP", "title": "Workers Party" },
+				"votes": 348
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

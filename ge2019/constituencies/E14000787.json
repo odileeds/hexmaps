@@ -1,6 +1,13 @@
 {
 	"id": "E14000787",
 	"title": "Lewisham East",
+	"demographics": {
+		"leave": 35.45,
+		"withdegree": 25.64,
+		"age18-29": 16.5,
+		"2015UKIP": 9.05,
+		"2016Leave": 35.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -57,7 +64,7 @@
 			"party": { "code": "Lab", "title": "Labour" },
 			"turnout": { "pc": 33.35, "value": 22046 },
 			"valid": 21979,
-			"spoiled": 67,
+			"invalid": 67,
 			"majority": 5629
 		},
 		"2017-06-08": {
@@ -67,8 +74,37 @@
 			"electorate": 68124,
 			"turnout": { "pc": 69.4, "value": 47312 },
 			"valid": 47201,
-			"spoiled": 111,
-			"majority": 21213
+			"invalid": 111,
+			"majority": 21213,
+			"candidates": [{
+				"name": "Heidi Alexander",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32072
+			},{
+				"name": "Peter Fortune",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10859
+			},{
+				"name": "Emily Frith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2086
+			},{
+				"name": "Storm Poorun",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 803
+			},{
+				"name": "Keith Forster",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 798
+			},{
+				"name": "Willow Winston",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 355
+			},{
+				"name": "Maureen Martin",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 228
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",
@@ -77,7 +113,7 @@
 			"electorate": 66913,
 			"turnout": { "pc":64.3, "value": 43056 },
 			"valid": 42923,
-			"spoiled": 133,
+			"invalid": 133,
 			"majority": 14333
 		}
 	}

@@ -1,6 +1,13 @@
 {
 	"id": "E14000938",
 	"title": "South East Cornwall",
+	"demographics": {
+		"leave": 54.95,
+		"withdegree": 13.42,
+		"age18-29": 10.8,
+		"2015UKIP": 15.24,
+		"2016Leave": 54.95
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 74.2, "value": 53357 },
 			"valid": 53224,
 			"invalid": 133,
-			"majority": 17443
+			"majority": 17443,
+			"candidates": [{
+				"name": "Sheryll Murray",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29493
+			},{
+				"name": "Gareth Derrick",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 12050
+			},{
+				"name": "Phil Hutty",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10346
+			},{
+				"name": "Martin Corney",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1335
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

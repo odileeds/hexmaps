@@ -1,6 +1,13 @@
 {
 	"id": "N06000001",
 	"title": "Belfast East",
+	"demographics": {
+		"leave": ,
+		"withdegree": ,
+		"age18-29": ,
+		"2015UKIP": ,
+		"2016Leave": 
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -29,7 +36,40 @@
 			"turnout": { "pc": 67.7, "value": 42983 },
 			"valid": 42890,
 			"invalid": 93,
-			"majority": 8474
+			"majority": 8474,
+			"candidates": [{
+				"name": "Gavin Robinson",
+				"party": { "code": "DUP", "title": "Democratic Unionist Party" },
+				"votes": 23917
+			},{
+				"name": "Naomi Long",
+				"party": { "code": "Alliance", "title": "Alliance" },
+				"votes": 15443
+			},{
+				"name": "Hazel Legge",
+				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
+				"votes": 1408
+			},{
+				"name": "Mairead O'Donnell",
+				"party": { "code": "SF", "title": "Sinn Fein" },
+				"votes": 894
+			},{
+				"name": "Georgina Milne",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 561
+			},{
+				"name": "Sheila Bodel",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 446
+			},{
+				"name": "Seamas de Faoite",
+				"party": { "code": "SDLP", "title": "Social Democratic and Labour Party" },
+				"votes": 167
+			},{
+				"name": "Bobby Beck",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 54
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

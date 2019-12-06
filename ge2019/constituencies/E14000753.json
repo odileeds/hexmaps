@@ -1,6 +1,13 @@
 {
 	"id": "E14000753",
 	"title": "Horsham",
+	"demographics": {
+		"leave": 48.67,
+		"withdegree": 19.08,
+		"age18-29": 11.54,
+		"2015UKIP": 14,
+		"2016Leave": 48.67
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,36 @@
 			"turnout": { "pc": 75.0, "value": 62093 },
 			"valid": 61987,
 			"invalid": 106,
-			"majority": 23484
+			"majority": 23484,
+			"candidates": [{
+				"name": "Jeremy Quin",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36906
+			},{
+				"name": "Susannah Brady",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13422
+			},{
+				"name": "Morwen Millson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7644
+			},{
+				"name": "Catherine Ross",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1844
+			},{
+				"name": "Roger Arthur",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1533
+			},{
+				"name": "James Smith",
+				"party": { "code": "Something New", "title": "Something New" },
+				"votes": 375
+			},{
+				"name": "Jim Duggan",
+				"party": { "code": "TPP", "title": "The Peace Party" },
+				"votes": 263
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

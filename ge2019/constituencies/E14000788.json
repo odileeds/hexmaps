@@ -1,6 +1,13 @@
 {
 	"id": "E14000788",
 	"title": "Lewisham West and Penge",
+	"demographics": {
+		"leave": 34.47,
+		"withdegree": 28.57,
+		"age18-29": 16.04,
+		"2015UKIP": 7.82,
+		"2016Leave": 34.47
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,36 @@
 			"turnout": { "pc": 73.2, "value": 53352 },
 			"valid": 53196,
 			"invalid": 156,
-			"majority": 23162
+			"majority": 23162,
+			"candidates": [{
+				"name": "Ellie Reeves",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35411
+			},{
+				"name": "Shaun Bailey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12249
+			},{
+				"name": "John Russell",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3317
+			},{
+				"name": "Karen Wheller",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1144
+			},{
+				"name": "Hoong-Wai Cheah",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 700
+			},{
+				"name": "Katherine Hortense",
+				"party": { "code": "CPA", "title": "Christian Peoples Alliance Party" },
+				"votes": 325
+			},{
+				"name": "Russell White",
+				"party": { "code": "Populist Party", "title": "Populist Party" },
+				"votes": 50
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

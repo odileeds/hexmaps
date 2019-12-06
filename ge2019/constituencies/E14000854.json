@@ -1,6 +1,13 @@
 {
 	"id": "E14000854",
 	"title": "North Warwickshire",
+	"demographics": {
+		"leave": 67.77,
+		"withdegree": 9.44,
+		"age18-29": 13.38,
+		"2015UKIP": 17.43,
+		"2016Leave": 67.77
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 65.5, "value": 47315 },
 			"valid": 47178,
 			"invalid": 137,
-			"majority": 8510
+			"majority": 8510,
+			"candidates": [{
+				"name": "Craig Tracey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 26860
+			},{
+				"name": "Julie Jackson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 18350
+			},{
+				"name": "James Cox",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1028
+			},{
+				"name": "Keith Kondakor",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 940
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000901",
 	"title": "Romsey and Southampton North",
+	"demographics": {
+		"leave": 45.81,
+		"withdegree": 22.05,
+		"age18-29": 18.39,
+		"2015UKIP": 11.39,
+		"2016Leave": 45.81
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,28 @@
 			"turnout": { "pc": 74.8, "value": 50245 },
 			"valid": 50128,
 			"invalid": 117,
-			"majority": 18046
+			"majority": 18046,
+			"candidates": [{
+				"name": "Caroline Nokes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28668
+			},{
+				"name": "Catherine Royce",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 10622
+			},{
+				"name": "Darren Paffey",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9614
+			},{
+				"name": "Ian Callaghan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 953
+			},{
+				"name": "Don Jerrard",
+				"party": { "code": "JACP", "title": "Justice and Anti-Corruption Party" },
+				"votes": 271
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

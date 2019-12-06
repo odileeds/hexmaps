@@ -1,6 +1,13 @@
 {
 	"id": "E14001019",
 	"title": "Warwick and Leamington",
+	"demographics": {
+		"leave": 41.13,
+		"withdegree": 26.47,
+		"age18-29": 19.55,
+		"2015UKIP": 8.27,
+		"2016Leave": 41.13
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,28 @@
 			"turnout": { "pc": 73.0, "value": 54180 },
 			"valid": 54055,
 			"invalid": 125,
-			"majority": 1206
+			"majority": 1206,
+			"candidates": [{
+				"name": "Matt Western",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25227
+			},{
+				"name": "Chris White",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 24021
+			},{
+				"name": "Nick Solman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2810
+			},{
+				"name": "Jonathan Chilvers",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1198
+			},{
+				"name": "Bob Dhillon",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 799
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

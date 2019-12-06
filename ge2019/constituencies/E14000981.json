@@ -1,6 +1,13 @@
 {
 	"id": "E14000981",
 	"title": "Suffolk Coastal",
+	"demographics": {
+		"leave": 55.82,
+		"withdegree": 14.53,
+		"age18-29": 10.57,
+		"2015UKIP": 15.57,
+		"2016Leave": 55.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 73.5, "value": 58310 },
 			"valid": 58074,
 			"invalid": 236,
-			"majority": 16012
+			"majority": 16012,
+			"candidates": [{
+				"name": "Therese Coffey",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33713
+			},{
+				"name": "Cameron Matthews",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17701
+			},{
+				"name": "James Sandbach",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4048
+			},{
+				"name": "Eamonn O'Nolan",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1802
+			},{
+				"name": "Philip Young",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 810
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

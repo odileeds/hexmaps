@@ -1,6 +1,13 @@
 {
 	"id": "E14000844",
 	"title": "North East Hampshire",
+	"demographics": {
+		"leave": 45.92,
+		"withdegree": 24.48,
+		"age18-29": 10.93,
+		"2015UKIP": 8.76,
+		"2016Leave": 45.92
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 77.4, "value": 57748 },
 			"valid": 57627,
 			"invalid": 121,
-			"majority": 27772
+			"majority": 27772,
+			"candidates": [{
+				"name": "Ranil Jayawardena",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 37754
+			},{
+				"name": "Barry Jones",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 9982
+			},{
+				"name": "Graham Cockarill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6987
+			},{
+				"name": "Chas Spradbery",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1476
+			},{
+				"name": "Mike Gascoigne",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1061
+			},{
+				"name": "Robert Blay",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 367
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

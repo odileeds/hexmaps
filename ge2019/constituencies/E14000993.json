@@ -1,6 +1,13 @@
 {
 	"id": "E14000993",
 	"title": "Thirsk and Malton",
+	"demographics": {
+		"leave": 56.43,
+		"withdegree": 15.5,
+		"age18-29": 10.74,
+		"2015UKIP": 14.9,
+		"2016Leave": 56.43
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -54,7 +61,36 @@
 			"turnout": { "pc": 71.2, "value": 56023 },
 			"valid": 55929,
 			"invalid": 94,
-			"majority": 19001
+			"majority": 19001,
+			"candidates": [{
+				"name": "Kevin Hollinrake",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 33572
+			},{
+				"name": "Alan Avery",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14571
+			},{
+				"name": "Dinah Keal",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3859
+			},{
+				"name": "Toby Horton",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1532
+			},{
+				"name": "Martin Brampton",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1100
+			},{
+				"name": "John Clark",
+				"party": { "code": "Lib", "title": "Liberal" },
+				"votes": 753
+			},{
+				"name": "Philip Tate",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 542
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

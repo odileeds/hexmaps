@@ -1,6 +1,13 @@
 {
 	"id": "E14000725",
 	"title": "Halton",
+	"demographics": {
+		"leave": 57.82,
+		"withdegree": 8.7,
+		"age18-29": 15.82,
+		"2015UKIP": 14.07,
+		"2016Leave": 57.82
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 67.5, "value": 49603 },
 			"valid": 49518,
 			"invalid": 85,
-			"majority": 25405
+			"majority": 25405,
+			"candidates": [{
+				"name": "Derek Twigg",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 36115
+			},{
+				"name": "Matthew Lloyd",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 10710
+			},{
+				"name": "Glyn Redican",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1488
+			},{
+				"name": "Ryan Bate",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 896
+			},{
+				"name": "Vic Turton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 309
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

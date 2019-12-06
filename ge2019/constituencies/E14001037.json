@@ -1,6 +1,13 @@
 {
 	"id": "E14001037",
 	"title": "Westmorland and Lonsdale",
+	"demographics": {
+		"leave": 47.45,
+		"withdegree": 19.89,
+		"age18-29": 10.39,
+		"2015UKIP": 6.19,
+		"2016Leave": 47.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 78.0, "value": 51768 },
 			"valid": 51687,
 			"invalid": 81,
-			"majority": 777
+			"majority": 777,
+			"candidates": [{
+				"name": "Tim Farron",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 23686
+			},{
+				"name": "James Airey ",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 22909
+			},{
+				"name": "Eli Aldridge ",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 4783
+			},{
+				"name": "Mr Fishfinger",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 309
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

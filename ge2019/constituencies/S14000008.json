@@ -1,6 +1,13 @@
 {
 	"id": "S14000008",
 	"title": "Berwickshire, Roxburgh and Selkirk",
+	"demographics": {
+		"leave": 43.2,
+		"withdegree": ,
+		"age18-29": 11.54,
+		"2015UKIP": 2.39,
+		"2016Leave": 43.2
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 71.7, "value": 52463 },
 			"valid": 52367,
 			"invalid": 96,
-			"majority": 11060
+			"majority": 11060,
+			"candidates": [{
+				"name": "John Lamont",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28213
+			},{
+				"name": "Calum Kerr",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 17153
+			},{
+				"name": "Ian Davidson",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 4519
+			},{
+				"name": "Caroline Burgess",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2482
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

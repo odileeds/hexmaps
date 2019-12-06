@@ -1,6 +1,13 @@
 {
 	"id": "E14000569",
 	"title": "Bishop Auckland",
+	"demographics": {
+		"leave": 60.62,
+		"withdegree": 9.71,
+		"age18-29": 13.55,
+		"2015UKIP": 17.81,
+		"2016Leave": 60.62
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 64.1, "value": 43359 },
 			"valid": 43281,
 			"invalid": 78,
-			"majority": 502
+			"majority": 502,
+			"candidates": [{
+				"name": "Helen Goodman",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 20808
+			},{
+				"name": "Christopher Adams",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 20306
+			},{
+				"name": "Ciaran Morrissey",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1176
+			},{
+				"name": "Adam Walker",
+				"party": { "code": "BNP", "title": "British National Party" },
+				"votes": 991
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

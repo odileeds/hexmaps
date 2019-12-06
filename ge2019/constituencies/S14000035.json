@@ -1,6 +1,13 @@
 {
 	"id": "S14000035",
 	"title": "Glasgow South West",
+	"demographics": {
+		"leave": 40.86,
+		"withdegree": ,
+		"age18-29": 16.79,
+		"2015UKIP": 2.37,
+		"2016Leave": 40.86
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,28 @@
 			"turnout": { "pc": 56.3, "value": 35444 },
 			"valid": 35378,
 			"invalid": 66,
-			"majority": 60
+			"majority": 60,
+			"candidates": [{
+				"name": "Chris Stephens",
+				"party": { "code": "SNP", "title": "Scottish National Party" },
+				"votes": 14386
+			},{
+				"name": "Matt Kerr",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 14326
+			},{
+				"name": "Thomas Haddow",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 5524
+			},{
+				"name": "Ben Denton-Cardew",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 661
+			},{
+				"name": "Sarah Hemy",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 481
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

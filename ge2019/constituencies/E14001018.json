@@ -1,6 +1,13 @@
 {
 	"id": "E14001018",
 	"title": "Warrington South",
+	"demographics": {
+		"leave": 50.62,
+		"withdegree": 19.1,
+		"age18-29": 13.39,
+		"2015UKIP": 8.27,
+		"2016Leave": 50.62
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 72.5, "value": 62115 },
 			"valid": 61995,
 			"invalid": 120,
-			"majority": 2549
+			"majority": 2549,
+			"candidates": [{
+				"name": "Faisal  Rashid",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 29994
+			},{
+				"name": "David Mowat",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 27445
+			},{
+				"name": "Bob  Barr",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3339
+			},{
+				"name": "John  Boulton",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1217
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

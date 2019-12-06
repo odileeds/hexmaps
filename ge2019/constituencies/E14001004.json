@@ -1,6 +1,13 @@
 {
 	"id": "E14001004",
 	"title": "Tunbridge Wells",
+	"demographics": {
+		"leave": 44.7,
+		"withdegree": 22.85,
+		"age18-29": 13,
+		"2015UKIP": 12.6,
+		"2016Leave": 44.7
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,32 @@
 			"turnout": { "pc": 72.6, "value": 54308 },
 			"valid": 54209,
 			"invalid": 99,
-			"majority": 16465
+			"majority": 16465,
+			"candidates": [{
+				"name": "Greg Clark",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 30856
+			},{
+				"name": "Charles Woodgate",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14391
+			},{
+				"name": "Rachel Sadler",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 5355
+			},{
+				"name": "Chris Hoare",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1464
+			},{
+				"name": "Trevor Bisdee",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1441
+			},{
+				"name": "Celine Thomas",
+				"party": { "code": "WEP", "title": "Women's Equality Party" },
+				"votes": 702
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

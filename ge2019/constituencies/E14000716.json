@@ -1,6 +1,13 @@
 {
 	"id": "E14000716",
 	"title": "Great Grimsby",
+	"demographics": {
+		"leave": 71.45,
+		"withdegree": 6.41,
+		"age18-29": 17.27,
+		"2015UKIP": 24.95,
+		"2016Leave": 71.45
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,28 @@
 			"turnout": { "pc": 57.6, "value": 35581 },
 			"valid": 35521,
 			"invalid": 60,
-			"majority": 2565
+			"majority": 2565,
+			"candidates": [{
+				"name": "Melanie Onn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17545
+			},{
+				"name": "Jo Gideon",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14980
+			},{
+				"name": "Mike Hookem",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1648
+			},{
+				"name": "Steve Beasant",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 954
+			},{
+				"name": "Christina McGilligan-Fell",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 394
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

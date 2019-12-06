@@ -1,6 +1,13 @@
 {
 	"id": "E14000577",
 	"title": "Bolsover",
+	"demographics": {
+		"leave": 70.27,
+		"withdegree": 7.23,
+		"age18-29": 13.78,
+		"2015UKIP": 20.97,
+		"2016Leave": 70.27
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -49,7 +56,24 @@
 			"turnout": { "pc": 63.5, "value": 46626 },
 			"valid": 46519,
 			"invalid": 107,
-			"majority": 5288
+			"majority": 5288,
+			"candidates": [{
+				"name": "Dennis Skinner",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24153
+			},{
+				"name": "Helen Harrison",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18865
+			},{
+				"name": "Philip Rose",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2129
+			},{
+				"name": "Ross Shipman",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1372
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

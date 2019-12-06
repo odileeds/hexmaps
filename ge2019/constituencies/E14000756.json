@@ -1,6 +1,13 @@
 {
 	"id": "E14000756",
 	"title": "Huddersfield",
+	"demographics": {
+		"leave": 51.08,
+		"withdegree": 15.23,
+		"age18-29": 20.13,
+		"2015UKIP": 14.69,
+		"2016Leave": 51.08
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 65.6, "value": 43950 },
 			"valid": 43834,
 			"invalid": 116,
-			"majority": 12005
+			"majority": 12005,
+			"candidates": [{
+				"name": "Barry Sheerman",
+				"party": { "code": "Lab", "title": "Labour and Co-operative" },
+				"votes": 26470
+			},{
+				"name": "Scott Benton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 14465
+			},{
+				"name": "Andrew Cooper",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1395
+			},{
+				"name": "Zulfiqar Ali",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1155
+			},{
+				"name": "Bikatshi Katenga",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 274
+			},{
+				"name": "Marteen Thokkudubiyyapu",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 75
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

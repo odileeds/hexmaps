@@ -1,6 +1,13 @@
 {
 	"id": "E14000932",
 	"title": "Somerton and Frome",
+	"demographics": {
+		"leave": 50.96,
+		"withdegree": 16.34,
+		"age18-29": 10.75,
+		"2015UKIP": 10.68,
+		"2016Leave": 50.96
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 75.8, "value": 63996 },
 			"valid": 63892,
 			"invalid": 104,
-			"majority": 22906
+			"majority": 22906,
+			"candidates": [{
+				"name": "David Warburton",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36231
+			},{
+				"name": "Mark Blackburn",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13325
+			},{
+				"name": "Sean Dromgoole",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10998
+			},{
+				"name": "Theo Simon",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 2347
+			},{
+				"name": "Richard Hadwin",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 991
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

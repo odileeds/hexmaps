@@ -1,6 +1,13 @@
 {
 	"id": "E14000978",
 	"title": "Streatham",
+	"demographics": {
+		"leave": 20.54,
+		"withdegree": 39.43,
+		"age18-29": 23.69,
+		"2015UKIP": 3.21,
+		"2016Leave": 20.54
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 71.1, "value": 55956 },
 			"valid": 55795,
 			"invalid": 161,
-			"majority": 26285
+			"majority": 26285,
+			"candidates": [{
+				"name": "Chuka Umunna",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 38212
+			},{
+				"name": "Kim Caddy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 11927
+			},{
+				"name": "Alex Davies",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3611
+			},{
+				"name": "Nicole Griffiths",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1696
+			},{
+				"name": "Robert Stephenson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 349
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000814",
 	"title": "Mid Derbyshire",
+	"demographics": {
+		"leave": 52.53,
+		"withdegree": 17.88,
+		"age18-29": 11.53,
+		"2015UKIP": 13.61,
+		"2016Leave": 52.53
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 74.9, "value": 50507 },
 			"valid": 50371,
 			"invalid": 136,
-			"majority": 11616
+			"majority": 11616,
+			"candidates": [{
+				"name": "Pauline Latham",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29513
+			},{
+				"name": "Alison  Martin",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 17897
+			},{
+				"name": "Adam  Wain",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1793
+			},{
+				"name": "Sue  MacFarlane",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1168
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

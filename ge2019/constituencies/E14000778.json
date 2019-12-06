@@ -1,6 +1,13 @@
 {
 	"id": "E14000778",
 	"title": "Leeds East",
+	"demographics": {
+		"leave": 60.91,
+		"withdegree": 9.29,
+		"age18-29": 16.14,
+		"2015UKIP": 19,
+		"2016Leave": 60.91
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 63.0, "value": 41530 },
 			"valid": 41441,
 			"invalid": 89,
-			"majority": 12752
+			"majority": 12752,
+			"candidates": [{
+				"name": "Richard Burgon",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 25428
+			},{
+				"name": "Matthew Robinson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12676
+			},{
+				"name": "Paul Spivey",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1742
+			},{
+				"name": "Ed Sanderson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 739
+			},{
+				"name": "Jaimes Moran",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 434
+			},{
+				"name": "John Otley",
+				"party": { "code": "The Yorkshire Party", "title": "The Yorkshire Party" },
+				"votes": 422
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

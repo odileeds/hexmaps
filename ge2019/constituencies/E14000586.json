@@ -1,6 +1,13 @@
 {
 	"id": "E14000586",
 	"title": "Bracknell",
+	"demographics": {
+		"leave": 53.25,
+		"withdegree": 18.5,
+		"age18-29": 14.59,
+		"2015UKIP": 15.71,
+		"2016Leave": 53.25
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -43,7 +50,28 @@
 			"turnout": { "pc": 70.8, "value": 56038 },
 			"valid": 55892,
 			"invalid": 146,
-			"majority": 16016
+			"majority": 16016,
+			"candidates": [{
+				"name": "Phillip Lee",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32882
+			},{
+				"name": "Paul Bidwell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16866
+			},{
+				"name": "Patrick Smith",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 4186
+			},{
+				"name": "Leonard Amos",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1521
+			},{
+				"name": "Olivio Barreto",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 437
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -1,6 +1,13 @@
 {
 	"id": "E14000833",
 	"title": "Newcastle upon Tyne North",
+	"demographics": {
+		"leave": 57.15,
+		"withdegree": 17.32,
+		"age18-29": 14.69,
+		"2015UKIP": 16.59,
+		"2016Leave": 57.15
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 73.2, "value": 48371 },
 			"valid": 48288,
 			"invalid": 83,
-			"majority": 10349
+			"majority": 10349,
+			"candidates": [{
+				"name": "Catherine McKinnell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 26729
+			},{
+				"name": "Duncan Crute",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16380
+			},{
+				"name": "Anita Lower",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2533
+			},{
+				"name": "Timothy Marron",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1780
+			},{
+				"name": "Alison Whalley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 513
+			},{
+				"name": "Brian  Moore",
+				"party": { "code": "North of England Community Alliance", "title": "North of England Community Alliance" },
+				"votes": 353
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

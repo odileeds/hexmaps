@@ -1,6 +1,13 @@
 {
 	"id": "E14000827",
 	"title": "New Forest East",
+	"demographics": {
+		"leave": 59.54,
+		"withdegree": 13.25,
+		"age18-29": 12.1,
+		"2015UKIP": 17.51,
+		"2016Leave": 59.54
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,24 @@
 			"turnout": { "pc": 70.9, "value": 51493 },
 			"valid": 51366,
 			"invalid": 127,
-			"majority": 21995
+			"majority": 21995,
+			"candidates": [{
+				"name": "Julian Lewis",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 32162
+			},{
+				"name": "Julie Renyard",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 10167
+			},{
+				"name": "David Harrison",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 7786
+			},{
+				"name": "Henry Mellor",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1251
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

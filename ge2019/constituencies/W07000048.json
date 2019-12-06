@@ -1,6 +1,13 @@
 {
 	"id": "W07000048",
 	"title": "Swansea East",
+	"demographics": {
+		"leave": 62.1,
+		"withdegree": 9.77,
+		"age18-29": 16.26,
+		"2015UKIP": 17.19,
+		"2016Leave": 62.1
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 60.2, "value": 35215 },
 			"valid": 35159,
 			"invalid": 56,
-			"majority": 13168
+			"majority": 13168,
+			"candidates": [{
+				"name": "Carolyn Harris",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 22307
+			},{
+				"name": "Dan Boucher",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 9139
+			},{
+				"name": "Steffan Phillips",
+				"party": { "code": "PC", "title": "Plaid Cymru" },
+				"votes": 1689
+			},{
+				"name": "Clifford Johnson",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1040
+			},{
+				"name": "Charley Hasted",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 625
+			},{
+				"name": "Chris Evans",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 359
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

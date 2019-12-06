@@ -1,6 +1,13 @@
 {
 	"id": "E14001011",
 	"title": "Walsall North",
+	"demographics": {
+		"leave": 74.19,
+		"withdegree": 5.97,
+		"age18-29": 16.21,
+		"2015UKIP": 22.02,
+		"2016Leave": 74.19
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,24 @@
 			"turnout": { "pc": 56.7, "value": 38196 },
 			"valid": 38118,
 			"invalid": 78,
-			"majority": 2601
+			"majority": 2601,
+			"candidates": [{
+				"name": "Eddie Hughes",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 18919
+			},{
+				"name": "David Winnick",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 16318
+			},{
+				"name": "Liz Hazell",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2295
+			},{
+				"name": "Isabelle Parasram",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 586
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

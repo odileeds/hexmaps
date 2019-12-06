@@ -1,6 +1,13 @@
 {
 	"id": "E14000714",
 	"title": "Grantham and Stamford",
+	"demographics": {
+		"leave": 61.01,
+		"withdegree": 13.09,
+		"age18-29": 12.51,
+		"2015UKIP": 17.51,
+		"2016Leave": 61.01
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -38,7 +45,32 @@
 			"turnout": { "pc": 69.4, "value": 56699 },
 			"valid": 56593,
 			"invalid": 106,
-			"majority": 20094
+			"majority": 20094,
+			"candidates": [{
+				"name": "Nick Boles",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 35090
+			},{
+				"name": "Barrie  Fairbairn",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 14996
+			},{
+				"name": "Anita  Day",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 3120
+			},{
+				"name": "Marietta  King",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1745
+			},{
+				"name": "Tariq Mahmood",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 860
+			},{
+				"name": "Rebecca  Thackray",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 782
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

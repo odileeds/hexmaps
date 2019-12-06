@@ -1,6 +1,13 @@
 {
 	"id": "E14000633",
 	"title": "Chichester",
+	"demographics": {
+		"leave": 50.64,
+		"withdegree": 19.01,
+		"age18-29": 12.82,
+		"2015UKIP": 14.95,
+		"2016Leave": 50.64
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 70.7, "value": 60047 },
 			"valid": 59918,
 			"invalid": 129,
-			"majority": 22621
+			"majority": 22621,
+			"candidates": [{
+				"name": "Gillian Keegan",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 36032
+			},{
+				"name": "Mark Farwell",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 13411
+			},{
+				"name": "Jonathan  Brown",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 6749
+			},{
+				"name": "Heather Barrie",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1992
+			},{
+				"name": "Andrew Moncreiff",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1650
+			},{
+				"name": "Andrew Emerson",
+				"party": { "code": "Patria", "title": "Patria" },
+				"votes": 84
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

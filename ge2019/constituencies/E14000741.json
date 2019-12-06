@@ -1,6 +1,13 @@
 {
 	"id": "E14000741",
 	"title": "Hendon",
+	"demographics": {
+		"leave": 41.94,
+		"withdegree": 26.53,
+		"age18-29": 19.49,
+		"2015UKIP": 5.23,
+		"2016Leave": 41.94
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.4, "value": 52330 },
 			"valid": 52215,
 			"invalid": 115,
-			"majority": 1072
+			"majority": 1072,
+			"candidates": [{
+				"name": "Matthew Offord",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 25078
+			},{
+				"name": "Mike Katz",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 24006
+			},{
+				"name": "Alasdair Hill",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1985
+			},{
+				"name": "Carmen Legarda",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 578
+			},{
+				"name": "Sabriye Warsame",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 568
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

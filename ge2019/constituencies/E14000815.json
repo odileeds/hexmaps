@@ -1,6 +1,13 @@
 {
 	"id": "E14000815",
 	"title": "Mid Dorset and North Poole",
+	"demographics": {
+		"leave": 57.93,
+		"withdegree": 13.7,
+		"age18-29": 11.31,
+		"2015UKIP": 12.18,
+		"2016Leave": 57.93
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,20 @@
 			"turnout": { "pc": 74.4, "value": 48399 },
 			"valid": 48254,
 			"invalid": 145,
-			"majority": 15339
+			"majority": 15339,
+			"candidates": [{
+				"name": "Michael Tomlinson",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28585
+			},{
+				"name": "Vikki Slade",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 13246
+			},{
+				"name": "Steve Brew",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 6423
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

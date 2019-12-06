@@ -1,6 +1,13 @@
 {
 	"id": "E14000782",
 	"title": "Leicester East",
+	"demographics": {
+		"leave": 53.16,
+		"withdegree": 12.8,
+		"age18-29": 17.76,
+		"2015UKIP": 8.92,
+		"2016Leave": 53.16
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -44,7 +51,32 @@
 			"turnout": { "pc": 67.7, "value": 52682 },
 			"valid": 52424,
 			"invalid": 258,
-			"majority": 22428
+			"majority": 22428,
+			"candidates": [{
+				"name": "Keith Vaz",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 35116
+			},{
+				"name": "Edward  He",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 12688
+			},{
+				"name": "Sujata  Barot",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 1753
+			},{
+				"name": "Nitesh  Dave",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1343
+			},{
+				"name": "Melanie  Wakley",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1070
+			},{
+				"name": "Ian  Fox",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 454
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

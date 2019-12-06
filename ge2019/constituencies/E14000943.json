@@ -1,6 +1,13 @@
 {
 	"id": "E14000943",
 	"title": "South Ribble",
+	"demographics": {
+		"leave": 56.85,
+		"withdegree": 15.07,
+		"age18-29": 13.1,
+		"2015UKIP": 14.09,
+		"2016Leave": 56.85
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,32 @@
 			"turnout": { "pc": 72.5, "value": 54926 },
 			"valid": 54834,
 			"invalid": 92,
-			"majority": 7421
+			"majority": 7421,
+			"candidates": [{
+				"name": "Seema Kennedy",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 28980
+			},{
+				"name": "Julie Gibson",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 21559
+			},{
+				"name": "John Wright",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 2073
+			},{
+				"name": "Mark Smith",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1387
+			},{
+				"name": "Andrew Wight",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 494
+			},{
+				"name": "Mark Jarnell",
+				"party": { "code": "National Health Action Party", "title": "National Health Action Party" },
+				"votes": 341
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

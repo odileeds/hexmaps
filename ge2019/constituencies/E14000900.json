@@ -1,6 +1,13 @@
 {
 	"id": "E14000900",
 	"title": "Romford",
+	"demographics": {
+		"leave": 69.29,
+		"withdegree": 11.24,
+		"age18-29": 16.12,
+		"2015UKIP": 22.79,
+		"2016Leave": 69.29
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -34,7 +41,28 @@
 			"turnout": { "pc": 68.1, "value": 50070 },
 			"valid": 49944,
 			"invalid": 126,
-			"majority": 13778
+			"majority": 13778,
+			"candidates": [{
+				"name": "Andrew Rosindell",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 29671
+			},{
+				"name": "Angelina Leatherbarrow",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 15893
+			},{
+				"name": "Andrew Beadle",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 2350
+			},{
+				"name": "Ian Sanderson",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1215
+			},{
+				"name": "David Hughes",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 815
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

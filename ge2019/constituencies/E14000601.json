@@ -1,6 +1,13 @@
 {
 	"id": "E14000601",
 	"title": "Bristol South",
+	"demographics": {
+		"leave": 47.95,
+		"withdegree": 17.27,
+		"age18-29": 18.41,
+		"2015UKIP": 16.48,
+		"2016Leave": 47.95
+	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
@@ -39,7 +46,32 @@
 			"turnout": { "pc": 65.6, "value": 54494 },
 			"valid": 54382,
 			"invalid": 112,
-			"majority": 15987
+			"majority": 15987,
+			"candidates": [{
+				"name": "Karin Smyth",
+				"party": { "code": "Lab", "title": "Labour" },
+				"votes": 32666
+			},{
+				"name": "Mark Weston",
+				"party": { "code": "Con", "title": "Conservative" },
+				"votes": 16679
+			},{
+				"name": "Benjamin Nutland",
+				"party": { "code": "LD", "title": "Liberal Democrat" },
+				"votes": 1821
+			},{
+				"name": "Ian Kealey",
+				"party": { "code": "UKIP", "title": "UK Independence Party" },
+				"votes": 1672
+			},{
+				"name": "Tony Dyer",
+				"party": { "code": "Green", "title": "Green" },
+				"votes": 1428
+			},{
+				"name": "John Langley",
+				"party": { "code": "Ind", "title": "Independent" },
+				"votes": 116
+			}]
 		},
 		"2015-05-07": {
 			"type": "general",

@@ -335,10 +335,10 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\t\"id\": \"$pcd\",\n";
 		print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
 		print FILE "\t\"demographics\": {\n";
-		print FILE "\t\t\"leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}.",\n";
-		print FILE "\t\t\"withdegree\": ".$con{$pcd}{'britainelects-%: with Degree'}.",\n";
-		print FILE "\t\t\"age18-29\": ".$con{$pcd}{'britainelects-%: age 18 - 29'}.",\n";
-		print FILE "\t\t\"2015UKIP\": ".$con{$pcd}{'britainelects-%: 2015 UKIP'}.",\n";
+		if($con{$pcd}{'britainelects-%: 2016 Leave'}){ print FILE "\t\t\"leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}.",\n"; }
+		if($con{$pcd}{'britainelects-%: with Degree'}){ print FILE "\t\t\"withdegree\": ".$con{$pcd}{'britainelects-%: with Degree'}.",\n"; }
+		if($con{$pcd}{'britainelects-%: age 18 - 29'}){ print FILE "\t\t\"age18-29\": ".$con{$pcd}{'britainelects-%: age 18 - 29'}.",\n"; }
+		if($con{$pcd}{'britainelects-%: 2015 UKIP'}){ print FILE "\t\t\"2015UKIP\": ".$con{$pcd}{'britainelects-%: 2015 UKIP'}.",\n"; }
 		print FILE "\t\t\"2016Leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}."\n";
 		print FILE "\t},\n";
 		print FILE "\t\"elections\": {\n";

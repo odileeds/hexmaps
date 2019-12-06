@@ -377,7 +377,7 @@
 					name = data.elections[yy].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections[yy].candidates[c].id;
 					pc = data.elections[yy].candidates[c].votes/total;
-					if(data.elections[yy].party) lbl += '<tr title="'+name+', '+p1.title+': '+(100*pc).toFixed(1)+'% ('+data.elections[yy].candidates[c].votes.toLocaleString()+')" candidate="'+data.elections[yy].candidates[c].id+'"><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(70*pc).toFixed(2)+'%;"></span>'+(p1.short||p1.title)+': <span class="number">'+(100*pc).toFixed(1)+'%</span> <span class="small">(+X%)</span></td></tr>';
+					if(data.elections[yy].party) lbl += '<tr title="'+name+', '+p1.title+': '+(100*pc).toFixed(1)+'% ('+data.elections[yy].candidates[c].votes.toLocaleString()+')" candidate="'+data.elections[yy].candidates[c].id+'"><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(70*pc).toFixed(2)+'%;"></span>'+acronymise(p1.short||p1.title)+': <span class="number">'+(100*pc).toFixed(1)+'%</span> <span class="small">(+X%)</span></td></tr>';
 					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>';
 
 				}
@@ -435,6 +435,7 @@
 
 		function postRender(title,region,data){
 			S('#tooltip').remove();
+			if(!data.elections['2019-12-12']) return;
 			var prev = -1;
 			S('.infobubble .results tr').on('click',{me:this,'region':region,'election':data.elections['2019-12-12']},function(e){
 				var id = S(e.currentTarget).attr('candidate');
@@ -464,6 +465,14 @@
 		return {'label':lbl,'class':'generalelection','color':wincolour||'','callback': postRender };
 	}
 	
+	function acronymise(string){
+		if(string.length > 5 && string.indexOf(' ') > 0){
+			var words = string.split(/ +/);
+			var str = "";
+			for(var w = 0; w < words.length; w++) str += words[w][0].toUpperCase();
+			return str;
+		}else return string;
+	}
 	function uppercaseFirst(string){
 		return string.charAt(0).toUpperCase() + string.slice(1);
 	}

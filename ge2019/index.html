@@ -255,7 +255,7 @@
 		'Alliance':{'color':'#EAA544','short':'ALLIANCE'},
 		'Spk':{'color':'#909090','title':'Speaker'},
 		'XSpk':{'color':'#909090','title':'Ex-Speaker'},
-		'Monster':{'color':'#dfdfdf','short':'MONSTER'},
+		'Monster':{'color':'#cccccc','short':'MONSTER'},
 		'none':{'color':'#dfdfdf','short':'?'}
 	};
 	
@@ -434,7 +434,7 @@
 	function validParties(_obj,key){
 		var got = {};
 		for(var r in _obj.data[key]){
-			party = _obj.data[key][r].party;
+			party = (_obj.data[key][r].party||_obj.data[key][r].first);
 			if(!got[party]) got[party] = 0;
 			got[party]++;
 		}
@@ -473,7 +473,7 @@
 					//else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color||parties.none.color : parties.none.color);
 				}
-				got = validParties(_obj,'GE2019-results');
+				var got = validParties(_obj,'GE2019-results');
 				for(var party in parties){
 					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}

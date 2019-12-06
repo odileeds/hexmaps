@@ -241,22 +241,24 @@
 	var constituencies;
 
 	var parties = {
-		'Con':{'color':'#0485A8','title':'Conservative','short':'Con'},
-		'Lab':{'color':'#DC4343','title':'Labour','short':'Lab'},
-		'LD':{'color':'#EAA544','title':'Lib Dem','short':'Lib'},
-		'Green':{'color':'#5EBD4C','short':'Grn'},
-		'Brexit':{'color':'#0FA697','short':'Brx'},
-		'SNP':{'color':'#EBDB1C'},
-		'UKIP':{'color':'#73537A'},
+		'Con':{'color':'#0485A8','title':'Conservative','short':'CON'},
+		'Lab':{'color':'#DC4343','title':'Labour','short':'LAB'},
+		'LD':{'color':'#EAA544','title':'Lib Dem','short':'LIB'},
+		'Green':{'color':'#5EBD4C','short':'GREEN'},
+		'Brexit':{'color':'#0FA697','short':'BREXIT'},
+		'SNP':{'color':'#EBDB1C','short':'SNP'},
+		'UKIP':{'color':'#73537A','short':'UKIP'},
 		'PC':{'color':'#4FBA7C','title':'Plaid Cymru','short':'PC'},
-		'Ind':{'color':'#CCA7C6','title':'Independent','short':'Ind'},
-		'DUP':{'color':'#BF3759'},
+		'Ind':{'color':'#CCA7C6','title':'Independent','short':'IND'},
+		'DUP':{'color':'#BF3759','short':'DUP'},
+		'UUP':{'color':'#3b75a8','short':'UUP'},
 		'SF':{'color':'#2C604D','title':'Sinn Féin'},
-		'SDLP':{'color':'#53BC5B'},
-		'Alliance':{'color':'#EAA544','short':'Aln'},
+		'SDLP':{'color':'#53BC5B','short':'SDLP'},
+		'Alliance':{'color':'#EAA544','short':'ALLIANCE'},
 		'Spk':{'color':'#909090','title':'Speaker'},
 		'XSpk':{'color':'#909090','title':'Ex-Speaker'},
-		'none':{'color':'#dfdfdf'}
+		'Monster':{'color':'#cccccc','short':'MONSTER'},
+		'none':{'color':'#dfdfdf','short':'?'}
 	};
 	
 	function getPartyDetails(party){
@@ -433,7 +435,7 @@
 	function validParties(_obj,key){
 		var got = {};
 		for(var r in _obj.data[key]){
-			party = _obj.data[key][r].party;
+			party = (_obj.data[key][r].party||_obj.data[key][r].first);
 			if(!got[party]) got[party] = 0;
 			got[party]++;
 		}
@@ -470,7 +472,7 @@
 					//else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color||parties.none.color : parties.none.color);
 				}
-				got = validParties(_obj,'GE2019-results');
+				var got = validParties(_obj,'GE2019-results');
 				for(var party in parties){
 					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}

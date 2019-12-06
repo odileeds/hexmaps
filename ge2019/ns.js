@@ -314,7 +314,7 @@ function ResultsMap(id,attr){
 
 		// Set the function for changing the colours and creating the key
 		if(this.views[type] && typeof this.views[type].key==="function") key = this.views[type].key.call(this);
-		
+
 		// Update the key
 		S('#key').html(key);
 

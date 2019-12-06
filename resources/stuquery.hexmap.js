@@ -267,6 +267,7 @@ function HexMap(attr){
 		this.attr = attr;
 		this.el = '';
 		this.active = false;
+		this.selected = -1;
 
 		this.init = function(){
 
@@ -276,24 +277,59 @@ function HexMap(attr){
 				S('#'+hexmap.id).append('<div class="hex-search"></div>');
 				this.el = S('#'+_obj.id+' .hex-search');
 			}
-			
+
 			if(this.el.find('.search-input').length==0) this.el.append('<input type="text" class="search-input" name="constituencies" id="constituencies" value="">');
 			if(this.el.find('.search-button').length==0) this.el.append('<button class="search-button"></button>');
 
 			this.el.find('.search-button').on('click',{hexmap:_obj,me:this},function(e){
+				e.data.me.selected = -1;
 				e.data.me.toggle();
 			});
 			this.el.find('.search-input').on('keyup',{hexmap:_obj,me:this},function(e){
 				var value = e.currentTarget.value.toLowerCase();
 				var regions = {};
+				var li = "";
+				var n = 0;
 				if(value.length > 1){
 					for(var region in e.data.hexmap.hexes){
 						if(e.data.hexmap.hexes[region].attributes.title.toLowerCase().indexOf(value)>=0){
 							regions[region] = true;
+							if(n < 8){
+								li += '<li><a href="#" data="'+region+'">'+e.data.hexmap.hexes[region].attributes.title+'</a></li>';
+								n++;
+							}
 						}
 					}
 				}
-				e.data.me.highlight(regions);
+				if(e.originalEvent.keyCode==40 || e.originalEvent.keyCode==38){
+					// Down=40
+					// Up=38
+					if(e.originalEvent.keyCode==40) e.data.me.selected++;
+					if(e.originalEvent.keyCode==38) e.data.me.selected--;
+					n = e.data.me.el.find('.search-results a').length;
+					if(e.data.me.selected < 0) e.data.me.selected = 0;
+					if(e.data.me.selected >= n) e.data.me.selected = n-1;
+					e.data.me.el.find('.search-results a').removeClass('selected')
+					S(e.data.me.el.find('.search-results a')[e.data.me.selected]).addClass('selected');
+				
+				}else if(e.originalEvent.keyCode==13){
+					e.data.me.el.find('.search-results a.selected').trigger('click');
+				}else{
+					// Add list of options
+					if(e.data.me.el.find('.search-results').length==0) e.data.me.el.find('.search-input').after('<ul class="search-results">BLAH</ul>');
+					e.data.me.el.find('.search-results').html(li);
+					e.data.me.el.find('.search-results a').on('click',{'me':e.data.me,'builder':e.data.hexmap},function(e){
+						e.preventDefault();
+						e.stopPropagation();
+						// Trigger the click event on the appropriate hex
+						e.data.builder.hexes[e.currentTarget.getAttribute('data')].el.trigger('click');
+						// Remove the search results
+						e.data.me.el.find('.search-results').remove();
+					});
+
+					e.data.me.highlight(regions);
+				}
+				
 			});
 		}
 		this.toggle = function(){
@@ -310,6 +346,8 @@ function HexMap(attr){
 			}else{
 				this.el.removeClass('searching');
 				this.highlight({});
+				// Remove the search results
+				this.el.find('.search-results').remove();
 			}
 		}
 

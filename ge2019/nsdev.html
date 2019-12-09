@@ -188,7 +188,7 @@
 	.infobubble a, .infobubble a:visited { color: inherit; }
 	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; font-weight: bold; font-size: 1.25em; line-height: 1.5em; font-family: Unit; }
 	.infobubble .popup-title + p { margin-top: 0.25em; }
-	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
+	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 1em; margin: 0px; }
 	.infobubble .number, strong { font-weight: 700; }
 	.infobubble .small { font-weight: normal; font-size: 0.7em; }
 	.infobubble td { vertical-align: bottom; }
@@ -376,7 +376,7 @@
 							data.elections[yy].candidates[c].change = parseFloat(data.elections[yy].candidates[c].pc);
 							for(var c2 = 0; c2 < data.elections['2017-06-08'].candidates.length; c2++){
 								// If the party seems to have existed last time work out the change
-								if(data.elections[yy].candidates[c].party.code == data.elections['2017-06-08'].candidates[c2].party.code) data.elections[yy].candidates[c].change = (parseFloat(data.elections[yy].candidates[c].pc) - parseFloat(data.elections['2017-06-08'].candidates[c2].pc));
+								if(fuzzyMatchParty(data.elections[yy].candidates[c].party,data.elections['2017-06-08'].candidates[c2].party)) data.elections[yy].candidates[c].change = (parseFloat(data.elections[yy].candidates[c].pc) - parseFloat(data.elections['2017-06-08'].candidates[c2].pc));
 							}
 						}
 					}
@@ -490,9 +490,36 @@
 		}
 		return total;
 	}
+	function fuzzyMatchParty(a,b){
+		if(!a.code && a.title) a.code = acronymise(a.title);
+		if(!b.code && b.title) b.code = acronymise(b.title);
+		
+		if(a.code && b.code){
+			// Do the codes match?
+			if(a.code == b.code) return true;
+			// Remove leading "The"
+			c1 = a.code.replace(/^The /,"");
+			c2 = b.code.replace(/^The /,"");
+			// If the name has spaces in it we will acronymise it
+			if(c1.indexOf(" ") > 0){
+				console.warn('Need to acronymise '+c1);
+				c1 = acronymise(c1);
+			}
+			if(c2.indexOf(" ") > 0){
+				console.warn('Need to acronymise '+c2);
+				c2 = acronymise(c2);
+			}
+			if(c1==c2) return true;
+		}else{
+			console.warn('Missing codes for ',a,b);
+		}
+		return false;	
+	}
 	function acronymise(string){
 		if(string.length > 5 && string.indexOf(' ') > 0){
-			var words = string.split(/ +/);
+			string = string.replace(/^The /,"");
+			// Split by uppercase characters
+			var words = string.split(/(?=[A-Z])/);
 			var str = "";
 			for(var w = 0; w < words.length; w++) str += words[w][0].toUpperCase();
 			return str;

@@ -183,7 +183,7 @@
 	.infobubble a, .infobubble a:visited { color: inherit; }
 	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; }
 	.infobubble .popup-title + p { margin-top: 0.25em; }
-	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
+	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 1em; margin: 0px; }
 	.popup-bio { display: flex; }
 	.generalelection {
 		width: 600px;
@@ -326,18 +326,16 @@
 				if(!data.elections[yy].party){
 					lbl += '<p>2019 Candidates:</p>';
 				}
-				total = 0;
-				// Work out total votes cast and set any missing ones to zero
-				for(var c = 0; c < data.elections[yy].candidates.length; c++){
-					if(data.elections[yy].candidates[c].votes) total += data.elections[yy].candidates[c].votes;
-					else data.elections[yy].candidates[c].votes = 0;
-				}
+				
 				// Sort the candidates by their results
 				data.elections[yy].candidates.sort(function(a, b) {
 					if(a.votes===b.votes) return 0;
 					else return (a.votes < b.votes) ? -1 : 1;
 				}).reverse();
 				
+				total = getTotalVotes(data.elections[yy]);
+				total2 = getTotalVotes(data.elections['2017-06-08']);
+
 				if(total > 0){
 					var ccode = -1;
 					var img = "";
@@ -355,6 +353,21 @@
 
 					lbl += '</div></div>';
 				}
+
+
+				if(total > 0 && total2 > 0){
+					for(var c = 0; c < data.elections[yy].candidates.length; c++){
+						if(data.elections[yy].candidates[c].party.code!="Ind"){
+							// Default to the current percent (if they didn't exist last election)
+							data.elections[yy].candidates[c].change = parseFloat(data.elections[yy].candidates[c].pc);
+							for(var c2 = 0; c2 < data.elections['2017-06-08'].candidates.length; c2++){
+								// If the party seems to have existed last time work out the change
+								if(fuzzyMatchParty(data.elections[yy].candidates[c].party,data.elections['2017-06-08'].candidates[c2].party)) data.elections[yy].candidates[c].change = (parseFloat(data.elections[yy].candidates[c].pc) - parseFloat(data.elections['2017-06-08'].candidates[c2].pc));
+							}
+						}
+					}
+				}
+
 				lbl += '<table class="results">';
 				for(var c = 0; c < data.elections[yy].candidates.length; c++){
 					party = data.elections[yy].candidates[c].party;
@@ -449,10 +462,50 @@
 
 		return {'label':lbl,'class':'generalelection','color':wincolour||'','callback': postRender };
 	}
-	
+	function getTotalVotes(el){
+		
+		var total = 0;
+		// Work out total votes cast and set any missing ones to zero
+		for(var c = 0; c < el.candidates.length; c++){
+			if(el.candidates[c].votes) total += el.candidates[c].votes;
+			else el.candidates[c].votes = 0;
+		}
+		// Work out percent
+		for(var c = 0; c < el.candidates.length; c++){
+			if(typeof el.candidates[c].pc!=="number") el.candidates[c].pc = (total > 0 ? 100*el.candidates[c].votes/total : 0).toFixed(1);
+		}
+		return total;
+	}
+	function fuzzyMatchParty(a,b){
+		if(!a.code && a.title) a.code = acronymise(a.title);
+		if(!b.code && b.title) b.code = acronymise(b.title);
+		
+		if(a.code && b.code){
+			// Do the codes match?
+			if(a.code == b.code) return true;
+			// Remove leading "The"
+			c1 = a.code.replace(/^The /,"");
+			c2 = b.code.replace(/^The /,"");
+			// If the name has spaces in it we will acronymise it
+			if(c1.indexOf(" ") > 0){
+				console.warn('Need to acronymise '+c1);
+				c1 = acronymise(c1);
+			}
+			if(c2.indexOf(" ") > 0){
+				console.warn('Need to acronymise '+c2);
+				c2 = acronymise(c2);
+			}
+			if(c1==c2) return true;
+		}else{
+			console.warn('Missing codes for ',a,b);
+		}
+		return false;	
+	}
 	function acronymise(string){
 		if(string.length > 5 && string.indexOf(' ') > 0){
-			var words = string.split(/ +/);
+			string = string.replace(/^The /,"");
+			// Split by uppercase characters
+			var words = string.split(/(?=[A-Z])/);
 			var str = "";
 			for(var w = 0; w < words.length; w++) str += words[w][0].toUpperCase();
 			return str;

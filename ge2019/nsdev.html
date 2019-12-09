@@ -341,18 +341,16 @@
 				if(!data.elections[yy].party){
 					lbl += '<p>2019 Candidates:</p>';
 				}
-				total = 0;
-				// Work out total votes cast and set any missing ones to zero
-				for(var c = 0; c < data.elections[yy].candidates.length; c++){
-					if(data.elections[yy].candidates[c].votes) total += data.elections[yy].candidates[c].votes;
-					else data.elections[yy].candidates[c].votes = 0;
-				}
+
 				// Sort the candidates by their results
 				data.elections[yy].candidates.sort(function(a, b) {
 					if(a.votes===b.votes) return 0;
 					else return (a.votes < b.votes) ? -1 : 1;
 				}).reverse();
-				
+
+				total = getTotalVotes(data.elections[yy]);
+				total2 = getTotalVotes(data.elections['2017-06-08']);
+
 				if(total > 0){
 					var ccode = -1;
 					var img = "";
@@ -370,6 +368,20 @@
 
 					lbl += '</div></div>';
 				}
+
+				if(total > 0 && total2 > 0){
+					for(var c = 0; c < data.elections[yy].candidates.length; c++){
+						if(data.elections[yy].candidates[c].party.code!="Ind"){
+							// Default to the current percent (if they didn't exist last election)
+							data.elections[yy].candidates[c].change = parseFloat(data.elections[yy].candidates[c].pc);
+							for(var c2 = 0; c2 < data.elections['2017-06-08'].candidates.length; c2++){
+								// If the party seems to have existed last time work out the change
+								if(data.elections[yy].candidates[c].party.code == data.elections['2017-06-08'].candidates[c2].party.code) data.elections[yy].candidates[c].change = (parseFloat(data.elections[yy].candidates[c].pc) - parseFloat(data.elections['2017-06-08'].candidates[c2].pc));
+							}
+						}
+					}
+				}
+
 				lbl += '<table class="results">';
 				for(var c = 0; c < data.elections[yy].candidates.length; c++){
 					party = data.elections[yy].candidates[c].party;
@@ -377,7 +389,7 @@
 					name = data.elections[yy].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections[yy].candidates[c].id;
 					pc = data.elections[yy].candidates[c].votes/total;
-					if(data.elections[yy].party) lbl += '<tr title="'+name+', '+p1.title+': '+(100*pc).toFixed(1)+'% ('+data.elections[yy].candidates[c].votes.toLocaleString()+')" candidate="'+data.elections[yy].candidates[c].id+'"><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(70*pc).toFixed(2)+'%;"></span>'+acronymise(p1.short||p1.title)+': <span class="number">'+(100*pc).toFixed(1)+'%</span> <span class="small">(+X%)</span></td></tr>';
+					if(data.elections[yy].party) lbl += '<tr title="'+name+', '+p1.title+': '+(100*pc).toFixed(1)+'% ('+data.elections[yy].candidates[c].votes.toLocaleString()+')" candidate="'+data.elections[yy].candidates[c].id+'"><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(70*pc).toFixed(2)+'%;"></span>'+acronymise(p1.short||p1.title)+': <span class="number">'+(100*pc).toFixed(1)+'%</span> '+(typeof data.elections[yy].candidates[c].change==="number" ? '<span class="small">('+(data.elections[yy].candidates[c].change >= 0 ? '+':'')+data.elections[yy].candidates[c].change.toFixed(1)+'%)':'')+'</span></td></tr>';
 					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>';
 
 				}
@@ -395,11 +407,11 @@
 				if(data.elections[yy].valid) tbl += '<tr><td><strong>Valid votes:</strong></td><td>'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
 				if(data.elections[yy].invalid) tbl += '<tr><td><strong>Invalid votes:</strong></td><td>'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
 				if(data.elections[yy].electorate) tbl += '<tr><td><strong>Electorate:</strong></td><td>'+data.elections[yy].electorate.toLocaleString()+'</td></tr>';
-				if(data.elections[yy].demographics){
-					if(data.elections[yy].demographics['age18-29']) tbl += '<tr><td><strong>Age 18-29:</strong></td><td>'+data.elections[yy].demographics['age18-29']+'%</td></tr>';
-					if(data.elections[yy].demographics['withdegree']) tbl += '<tr><td><strong>With a degree:</strong></td><td>'+data.elections[yy].demographics['withdegree']+'%</td></tr>';
-					if(data.elections[yy].demographics['2016Leave']) tbl += '<tr><td><strong>2016 Leave vote (estimate):</strong></td><td>'+data.elections[yy].demographics['2016Leave']+'%</td></tr>';
-					if(data.elections[yy].demographics['2015UKIP']) tbl += '<tr><td><strong>2015 UKIP vote:</strong></td><td>'+data.elections[yy].demographics['2015UKIP']+'%</td></tr>';
+				if(data.demographics){
+					if(data.demographics['age18-29']) tbl += '<tr><td><strong>Age 18-29:</strong></td><td>'+data.demographics['age18-29']+'%</td></tr>';
+					if(data.demographics['withdegree']) tbl += '<tr><td><strong>With a degree:</strong></td><td>'+data.demographics['withdegree']+'%</td></tr>';
+					if(data.demographics['2016Leave']) tbl += '<tr><td><strong>2016 Leave vote (estimate):</strong></td><td>'+data.demographics['2016Leave']+'%</td></tr>';
+					if(data.demographics['2015UKIP']) tbl += '<tr><td><strong>2015 UKIP vote:</strong></td><td>'+data.demographics['2015UKIP']+'%</td></tr>';
 				}
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 
@@ -464,7 +476,20 @@
 
 		return {'label':lbl,'class':'generalelection','color':wincolour||'','callback': postRender };
 	}
-	
+	function getTotalVotes(el){
+		
+		var total = 0;
+		// Work out total votes cast and set any missing ones to zero
+		for(var c = 0; c < el.candidates.length; c++){
+			if(el.candidates[c].votes) total += el.candidates[c].votes;
+			else el.candidates[c].votes = 0;
+		}
+		// Work out percent
+		for(var c = 0; c < el.candidates.length; c++){
+			if(typeof el.candidates[c].pc!=="number") el.candidates[c].pc = (total > 0 ? 100*el.candidates[c].votes/total : 0).toFixed(1);
+		}
+		return total;
+	}
 	function acronymise(string){
 		if(string.length > 5 && string.indexOf(' ') > 0){
 			var words = string.split(/ +/);

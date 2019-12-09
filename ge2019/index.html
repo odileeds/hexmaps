@@ -380,11 +380,11 @@
 				if(data.elections[yy].valid) tbl += '<tr><td>Valid votes:</td><td>'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
 				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td>'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
 				if(data.elections[yy].electorate) tbl += '<tr><td>Electorate:</td><td>'+data.elections[yy].electorate.toLocaleString()+'</td></tr>';
-				if(data.elections[yy].demographics){
-					if(data.elections[yy].demographics['age18-29']) tbl += '<tr><td><strong>Age 18-29:</strong></td><td>'+data.elections[yy].demographics['age18-29']+'%</td></tr>';
-					if(data.elections[yy].demographics['withdegree']) tbl += '<tr><td><strong>With a degree:</strong></td><td>'+data.elections[yy].demographics['withdegree']+'%</td></tr>';
-					if(data.elections[yy].demographics['2016Leave']) tbl += '<tr><td><strong>2016 Leave vote (estimate):</strong></td><td>'+data.elections[yy].demographics['2016Leave']+'%</td></tr>';
-					if(data.elections[yy].demographics['2015UKIP']) tbl += '<tr><td><strong>2015 UKIP vote:</strong></td><td>'+data.elections[yy].demographics['2015UKIP']+'%</td></tr>';
+				if(data.demographics){
+					if(data.demographics['age18-29']) tbl += '<tr><td><strong>Age 18-29:</strong></td><td>'+data.demographics['age18-29']+'%</td></tr>';
+					if(data.demographics['withdegree']) tbl += '<tr><td><strong>With a degree:</strong></td><td>'+data.demographics['withdegree']+'%</td></tr>';
+					if(data.demographics['2016Leave']) tbl += '<tr><td><strong>2016 Leave vote (estimate):</strong></td><td>'+data.demographics['2016Leave']+'%</td></tr>';
+					if(data.demographics['2015UKIP']) tbl += '<tr><td><strong>2015 UKIP vote:</strong></td><td>'+data.demographics['2015UKIP']+'%</td></tr>';
 				}
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 

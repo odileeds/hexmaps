@@ -28,33 +28,17 @@
 	  box-sizing: border-box; }
 
 	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	  display: block; }
-
-	body {
-	  line-height: 1em; }
-
-	ol, ul {
-	  list-style: none; }
-
-	blockquote, q {
-	  quotes: none; }
-
-	blockquote:before, blockquote:after, q:before, q:after {
-	  content: '';
-	  content: none; }
-
-	table {
-	  border-collapse: collapse;
-	  border-spacing: 0; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+	body { line-height: 1em; }
+	ol, ul { list-style: none; }
+	blockquote, q { quotes: none; }
+	blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+	table { border-collapse: collapse; border-spacing: 0; }
 
 	/* apply a natural box layout model to all elements */
-	*, *:before, *:after {
-	  -moz-box-sizing: border-box;
-	  -webkit-box-sizing: border-box;
-	  box-sizing: border-box; }
-
+	*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 	/* End of reset */
+
 	html, body {
 		padding: 0px;
 		margin: 0px;
@@ -79,14 +63,8 @@
 		width: 100%; height: auto; max-width: 100vw;
 	}
 	svg { max-width: 100%; height: auto; }
-	select {
-		font-size: 1em;
-		height: 2em;
-		margin-bottom: 1em;
-	}
-	form {
-		text-align: center;
-	}
+	select { font-size: 1em; height: 2em; margin-bottom: 1em; }
+	form { text-align: center; }
 
 
 	/* New Statesman styles */
@@ -149,17 +127,11 @@
 	.hex-label.selected { }
 	.hex-cell.selected { stroke: black!important; stroke-width: 4px!important; stroke-opacity:1 }
 	.controls { margin-bottom: 1em; }
-	button.on, button.on:hover {
-		background-color: #c1002a!important;
-		color: white!important;
-	}
+	button.on, button.on:hover { background-color: #c1002a!important; color: white!important; }
 	.controls label { padding: 1em; display: inline-block; line-height: 1em; cursor: pointer; }
 	.controls label:hover { background-color: #ddd; }
 	.controls input { opacity: 0.01; position: absolute; float: left; }
-	.controls input:checked + label {
-		background-color: #c1002a!important;
-		color: white!important;
-	}
+	.controls input:checked + label { background-color: #c1002a!important; color: white!important; }
 	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; font-size: 0.8em; line-height: 1.5em; }
 	#key .party { display: inline-block; margin-right: 0.5em; }
 	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; }
@@ -211,7 +183,6 @@
 	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
 	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; z-index: 1001; }
 	.infobubble .results tr { cursor: pointer; }
-
 	.controls { display: none; }
 
 	@media only screen and (max-width: 700px) {
@@ -232,7 +203,6 @@
 		.bottom { font-size: 0.6em; }
 		.generalelection { max-width: 100%; }
 		body.modal { overflow: hidden; }
-
 	}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">

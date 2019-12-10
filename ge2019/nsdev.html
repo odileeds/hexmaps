@@ -308,6 +308,11 @@
 					lbl += '<p>2019 Candidates:</p>';
 				}
 
+				// Set votes to zero
+				for(var c = 0; c < data.elections[yy].candidates.length; c++){
+					if(!data.elections[yy].candidates[c].votes) data.elections[yy].candidates[c].votes = 0;
+				}
+
 				// Sort the candidates by their results
 				data.elections[yy].candidates.sort(function(a, b) {
 					if(a.votes===b.votes) return 0;

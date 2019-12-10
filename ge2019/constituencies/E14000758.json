@@ -2,14 +2,15 @@
 	"id": "E14000758",
 	"title": "Hyndburn",
 	"demographics": {
-		"withdegree": 9.41,
 		"2015UKIP": 21.34,
+		"leave": 65.75,
 		"age18-29": 15.2,
-		"leave": 65.75
+		"withdegree": 9.41
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70910,
 			"candidates": [{
 				"id": 1913,
 				"name": "Graham Jones",

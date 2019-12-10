@@ -2,14 +2,15 @@
 	"id": "E14000858",
 	"title": "North West Leicestershire",
 	"demographics": {
-		"withdegree": 13.15,
 		"2015UKIP": 16.89,
+		"leave": 60.7,
 		"age18-29": 12.45,
-		"leave": 60.7
+		"withdegree": 13.15
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78935,
 			"candidates": [{
 				"id": 211,
 				"name": "Grahame Hudson",

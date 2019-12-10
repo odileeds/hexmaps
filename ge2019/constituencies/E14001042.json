@@ -2,10 +2,10 @@
 	"id": "E14001042",
 	"title": "Windsor",
 	"demographics": {
-		"withdegree": 26.19,
 		"2015UKIP": 9.95,
+		"leave": 46.09,
 		"age18-29": 12.66,
-		"leave": 46.09
+		"withdegree": 26.19
 	},
 	"elections": {
 		"2019-12-12": {

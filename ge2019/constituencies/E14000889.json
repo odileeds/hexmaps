@@ -2,14 +2,15 @@
 	"id": "E14000889",
 	"title": "Reading East",
 	"demographics": {
-		"withdegree": 29.65,
 		"2015UKIP": 7.22,
+		"leave": 38.24,
 		"age18-29": 23.83,
-		"leave": 38.24
+		"withdegree": 29.65
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77465,
 			"candidates": [{
 				"id": 4406,
 				"name": "Matt Rodda",

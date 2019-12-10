@@ -2,14 +2,15 @@
 	"id": "E14000881",
 	"title": "Poole",
 	"demographics": {
-		"withdegree": 14.72,
 		"2015UKIP": 16.79,
+		"leave": 56.94,
 		"age18-29": 13.78,
-		"leave": 56.94
+		"withdegree": 14.72
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73992,
 			"candidates": [{
 				"id": 193,
 				"name": "Robert Syms",

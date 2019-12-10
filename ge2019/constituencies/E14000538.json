@@ -2,10 +2,10 @@
 	"id": "E14000538",
 	"title": "Aylesbury",
 	"demographics": {
-		"withdegree": 17.8,
 		"2015UKIP": 19.71,
+		"leave": 52.1,
 		"age18-29": 14.1,
-		"leave": 52.1
+		"withdegree": 17.8
 	},
 	"elections": {
 		"2019-12-12": {

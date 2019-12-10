@@ -2,14 +2,15 @@
 	"id": "E14000686",
 	"title": "Eddisbury",
 	"demographics": {
-		"withdegree": 17.87,
 		"2015UKIP": 12.2,
+		"leave": 52.23,
 		"age18-29": 11.36,
-		"leave": 52.23
+		"withdegree": 17.87
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73700,
 			"candidates": [{
 				"id": 1104,
 				"name": "Edward Timpson",

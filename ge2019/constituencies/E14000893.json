@@ -2,14 +2,15 @@
 	"id": "E14000893",
 	"title": "Reigate",
 	"demographics": {
-		"withdegree": 23.57,
 		"2015UKIP": 13.28,
+		"leave": 47.79,
 		"age18-29": 12.78,
-		"leave": 47.79
+		"withdegree": 23.57
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74842,
 			"candidates": [{
 				"id": 439,
 				"name": "Jonathan Essex",

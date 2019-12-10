@@ -2,14 +2,15 @@
 	"id": "E14000890",
 	"title": "Reading West",
 	"demographics": {
-		"withdegree": 18.3,
 		"2015UKIP": 9.97,
+		"leave": 52.68,
 		"age18-29": 15.77,
-		"leave": 52.68
+		"withdegree": 18.3
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74623,
 			"candidates": [{
 				"id": 3636,
 				"name": "Alok Sharma",

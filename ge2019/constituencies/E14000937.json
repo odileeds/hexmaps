@@ -2,14 +2,15 @@
 	"id": "E14000937",
 	"title": "South East Cambridgeshire",
 	"demographics": {
-		"withdegree": 23.14,
 		"2015UKIP": 11.08,
+		"leave": 44.99,
 		"age18-29": 13,
-		"leave": 44.99
+		"withdegree": 23.14
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 86769,
 			"candidates": [{
 				"id": 4228,
 				"name": "Lucy Frazer",

@@ -2,12 +2,13 @@
 	"id": "S14000017",
 	"title": "Dunfermline and West Fife",
 	"demographics": {
-		"age18-29": 13.55,
-		"leave": 40.03
+		"leave": 40.03,
+		"age18-29": 13.55
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76652,
 			"candidates": [{
 				"id": 6050,
 				"name": "Douglas Chapman",

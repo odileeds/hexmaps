@@ -2,10 +2,10 @@
 	"id": "E14000624",
 	"title": "Central Suffolk and North Ipswich",
 	"demographics": {
-		"withdegree": 14.44,
 		"2015UKIP": 13.79,
+		"leave": 54.49,
 		"age18-29": 10.83,
-		"leave": 54.49
+		"withdegree": 14.44
 	},
 	"elections": {
 		"2019-12-12": {

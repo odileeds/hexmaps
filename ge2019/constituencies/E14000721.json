@@ -2,14 +2,15 @@
 	"id": "E14000721",
 	"title": "Hackney South and Shoreditch",
 	"demographics": {
-		"withdegree": 35.53,
 		"2015UKIP": 3.82,
+		"leave": 22.18,
 		"age18-29": 25.99,
-		"leave": 22.18
+		"withdegree": 35.53
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 89380,
 			"candidates": [{
 				"id": 28,
 				"name": "Jonty Leff",

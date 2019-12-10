@@ -2,14 +2,15 @@
 	"id": "E14000911",
 	"title": "Salford and Eccles",
 	"demographics": {
-		"withdegree": 17.37,
 		"2015UKIP": 18.04,
+		"leave": 53.59,
 		"age18-29": 24.81,
-		"leave": 53.59
+		"withdegree": 17.37
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82202,
 			"candidates": [{
 				"id": 5749,
 				"name": "Rebecca Long Bailey",

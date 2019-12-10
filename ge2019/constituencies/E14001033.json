@@ -2,10 +2,10 @@
 	"id": "E14001033",
 	"title": "West Lancashire",
 	"demographics": {
-		"withdegree": 13.95,
 		"2015UKIP": 12.2,
+		"leave": 54.94,
 		"age18-29": 15.29,
-		"leave": 54.94
+		"withdegree": 13.95
 	},
 	"elections": {
 		"2019-12-12": {

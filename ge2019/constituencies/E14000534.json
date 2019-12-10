@@ -2,10 +2,10 @@
 	"id": "E14000534",
 	"title": "Arundel and South Downs",
 	"demographics": {
-		"withdegree": 18.78,
 		"2015UKIP": 14.44,
+		"leave": 50.69,
 		"age18-29": 9.19,
-		"leave": 50.69
+		"withdegree": 18.78
 	},
 	"elections": {
 		"2019-12-12": {

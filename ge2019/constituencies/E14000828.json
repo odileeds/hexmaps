@@ -2,14 +2,15 @@
 	"id": "E14000828",
 	"title": "New Forest West",
 	"demographics": {
-		"withdegree": 14.69,
 		"2015UKIP": 16.49,
+		"leave": 55.88,
 		"age18-29": 9.61,
-		"leave": 55.88
+		"withdegree": 14.69
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70892,
 			"candidates": [{
 				"id": 195,
 				"name": "Desmond Swayne",

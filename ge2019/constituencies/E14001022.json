@@ -2,14 +2,15 @@
 	"id": "E14001022",
 	"title": "Waveney",
 	"demographics": {
-		"withdegree": 7.39,
 		"2015UKIP": 14.52,
+		"leave": 63.21,
 		"age18-29": 12.7,
-		"leave": 63.21
+		"withdegree": 7.39
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82791,
 			"candidates": [{
 				"id": 1808,
 				"name": "Peter Aldous",

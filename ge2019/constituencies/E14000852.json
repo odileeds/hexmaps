@@ -2,14 +2,15 @@
 	"id": "E14000852",
 	"title": "North Thanet",
 	"demographics": {
-		"withdegree": 9.23,
 		"2015UKIP": 25.71,
+		"leave": 64.97,
 		"age18-29": 12.67,
-		"leave": 64.97
+		"withdegree": 9.23
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72811,
 			"candidates": [{
 				"id": 995,
 				"name": "Roger Gale",

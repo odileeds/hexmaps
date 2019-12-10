@@ -2,14 +2,15 @@
 	"id": "E14000984",
 	"title": "Sutton and Cheam",
 	"demographics": {
-		"withdegree": 21.55,
 		"2015UKIP": 10.7,
+		"leave": 51.27,
 		"age18-29": 14.26,
-		"leave": 51.27
+		"withdegree": 21.55
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71760,
 			"candidates": [{
 				"id": 4233,
 				"name": "Paul Scully",

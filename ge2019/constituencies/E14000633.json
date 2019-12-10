@@ -2,14 +2,15 @@
 	"id": "E14000633",
 	"title": "Chichester",
 	"demographics": {
-		"withdegree": 19.01,
 		"2015UKIP": 14.95,
+		"leave": 50.64,
 		"age18-29": 12.82,
-		"leave": 50.64
+		"withdegree": 19.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 85499,
 			"candidates": [{
 				"id": 6138,
 				"name": "Gillian Keegan",

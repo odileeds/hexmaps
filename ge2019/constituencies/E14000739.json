@@ -2,14 +2,15 @@
 	"id": "E14000739",
 	"title": "Hemel Hempstead",
 	"demographics": {
-		"withdegree": 16.07,
 		"2015UKIP": 14.61,
+		"leave": 55.17,
 		"age18-29": 14.97,
-		"leave": 55.17
+		"withdegree": 16.07
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73737,
 			"candidates": [{
 				"id": 1330,
 				"name": "Mike Penning",

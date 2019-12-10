@@ -2,10 +2,10 @@
 	"id": "E14000785",
 	"title": "Leigh",
 	"demographics": {
-		"withdegree": 9.82,
 		"2015UKIP": 19.73,
+		"leave": 63.45,
 		"age18-29": 14.73,
-		"leave": 63.45
+		"withdegree": 9.82
 	},
 	"elections": {
 		"2019-12-12": {

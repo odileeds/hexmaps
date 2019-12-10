@@ -2,14 +2,15 @@
 	"id": "E14000817",
 	"title": "Mid Sussex",
 	"demographics": {
-		"withdegree": 19.52,
 		"2015UKIP": 12,
+		"leave": 46.69,
 		"age18-29": 12.44,
-		"leave": 46.69
+		"withdegree": 19.52
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 85140,
 			"candidates": [{
 				"id": 4189,
 				"name": "Mims Davies",

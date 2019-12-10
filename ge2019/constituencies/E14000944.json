@@ -2,14 +2,15 @@
 	"id": "E14000944",
 	"title": "South Shields",
 	"demographics": {
-		"withdegree": 8.95,
 		"2015UKIP": 21.99,
+		"leave": 62.05,
 		"age18-29": 15.43,
-		"leave": 62.05
+		"withdegree": 8.95
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 62793,
 			"candidates": [{
 				"id": 5539,
 				"name": "Emma Lewell-Buck",

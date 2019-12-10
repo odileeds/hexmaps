@@ -2,14 +2,15 @@
 	"id": "E14000783",
 	"title": "Leicester South",
 	"demographics": {
-		"withdegree": 19.53,
 		"2015UKIP": 8.34,
+		"leave": 42.58,
 		"age18-29": 28.75,
-		"leave": 42.58
+		"withdegree": 19.53
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77665,
 			"candidates": [{
 				"id": 5545,
 				"name": "Jon Ashworth",

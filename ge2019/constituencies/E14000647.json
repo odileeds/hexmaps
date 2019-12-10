@@ -2,14 +2,15 @@
 	"id": "E14000647",
 	"title": "Copeland",
 	"demographics": {
-		"withdegree": 11.95,
 		"2015UKIP": 15.51,
+		"leave": 59.85,
 		"age18-29": 12.85,
-		"leave": 59.85
+		"withdegree": 11.95
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61693,
 			"candidates": [{
 				"id": 19845,
 				"name": "Trudy Harrison",

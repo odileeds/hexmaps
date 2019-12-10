@@ -2,14 +2,15 @@
 	"id": "E14000576",
 	"title": "Bognor Regis and Littlehampton",
 	"demographics": {
-		"withdegree": 8.91,
 		"2015UKIP": 21.74,
+		"leave": 64.22,
 		"age18-29": 13.86,
-		"leave": 64.22
+		"withdegree": 8.91
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77488,
 			"candidates": [{
 				"id": 918,
 				"name": "Nick Gibb",

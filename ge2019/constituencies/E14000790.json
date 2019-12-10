@@ -2,14 +2,15 @@
 	"id": "E14000790",
 	"title": "Leyton and Wanstead",
 	"demographics": {
-		"withdegree": 27.86,
 		"2015UKIP": 5.75,
+		"leave": 35.01,
 		"age18-29": 22.84,
-		"leave": 35.01
+		"withdegree": 27.86
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64852,
 			"candidates": [{
 				"id": 1878,
 				"name": "Ashley Gunstock",

@@ -3,12 +3,13 @@
 	"title": "Inverness, Nairn, Badenoch and Strathspey",
 	"demographics": {
 		"2015UKIP": 2.15,
-		"age18-29": 13.89,
-		"leave": 41.38
+		"leave": 41.38,
+		"age18-29": 13.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78057,
 			"candidates": [{
 				"id": 4915,
 				"name": "Drew Hendry",

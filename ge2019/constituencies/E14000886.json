@@ -2,14 +2,15 @@
 	"id": "E14000886",
 	"title": "Pudsey",
 	"demographics": {
-		"withdegree": 21.99,
 		"2015UKIP": 9.21,
+		"leave": 48.35,
 		"age18-29": 14.23,
-		"leave": 48.35
+		"withdegree": 21.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73212,
 			"candidates": [{
 				"id": 1985,
 				"name": "Stuart Andrew",

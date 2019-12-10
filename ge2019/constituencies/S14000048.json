@@ -3,12 +3,13 @@
 	"title": "North Ayrshire and Arran",
 	"demographics": {
 		"2015UKIP": 2.41,
-		"age18-29": 12.97,
-		"leave": 42.29
+		"leave": 42.29,
+		"age18-29": 12.97
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73534,
 			"candidates": [{
 				"id": 2706,
 				"name": "Patricia Gibson",

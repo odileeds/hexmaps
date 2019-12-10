@@ -2,14 +2,15 @@
 	"id": "E14000560",
 	"title": "Birmingham, Edgbaston",
 	"demographics": {
-		"withdegree": 24.15,
 		"2015UKIP": 10.06,
+		"leave": 47.35,
 		"age18-29": 23.53,
-		"leave": 47.35
+		"withdegree": 24.15
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68828,
 			"candidates": [{
 				"id": 90,
 				"name": "Phil Simpson",

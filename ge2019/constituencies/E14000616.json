@@ -2,14 +2,15 @@
 	"id": "E14000616",
 	"title": "Camborne and Redruth",
 	"demographics": {
-		"withdegree": 10.75,
 		"2015UKIP": 14.77,
+		"leave": 57.91,
 		"age18-29": 13.64,
-		"leave": 57.91
+		"withdegree": 10.75
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70250,
 			"candidates": [{
 				"id": 3888,
 				"name": "George Eustice",

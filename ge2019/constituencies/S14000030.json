@@ -3,12 +3,13 @@
 	"title": "Glasgow East",
 	"demographics": {
 		"2015UKIP": 2.61,
-		"age18-29": 16.43,
-		"leave": 43.84
+		"leave": 43.84,
+		"age18-29": 16.43
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67381,
 			"candidates": [{
 				"id": 6302,
 				"name": "James Harrison",

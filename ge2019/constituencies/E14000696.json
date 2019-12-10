@@ -2,14 +2,15 @@
 	"id": "E14000696",
 	"title": "Erith and Thamesmead",
 	"demographics": {
-		"withdegree": 16.25,
 		"2015UKIP": 17.29,
+		"leave": 54.33,
 		"age18-29": 17.15,
-		"leave": 54.33
+		"withdegree": 16.25
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65399,
 			"candidates": [{
 				"id": 1164,
 				"name": "Sam Webber",

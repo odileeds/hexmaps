@@ -2,10 +2,10 @@
 	"id": "E14000695",
 	"title": "Erewash",
 	"demographics": {
-		"withdegree": 9.95,
 		"2015UKIP": 16.13,
+		"leave": 63.3,
 		"age18-29": 14.67,
-		"leave": 63.3
+		"withdegree": 9.95
 	},
 	"elections": {
 		"2019-12-12": {

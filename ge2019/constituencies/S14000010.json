@@ -2,12 +2,13 @@
 	"id": "S14000010",
 	"title": "Central Ayrshire",
 	"demographics": {
-		"age18-29": 13.19,
-		"leave": 42.72
+		"leave": 42.72,
+		"age18-29": 13.19
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69742,
 			"candidates": [{
 				"id": 5919,
 				"name": "Philippa Whitford",

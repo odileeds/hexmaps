@@ -2,14 +2,15 @@
 	"id": "E14000981",
 	"title": "Suffolk Coastal",
 	"demographics": {
-		"withdegree": 14.53,
 		"2015UKIP": 15.57,
+		"leave": 55.82,
 		"age18-29": 10.57,
-		"leave": 55.82
+		"withdegree": 14.53
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81910,
 			"candidates": [{
 				"id": 84,
 				"name": "Thérèse Coffey",

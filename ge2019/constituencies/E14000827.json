@@ -2,14 +2,15 @@
 	"id": "E14000827",
 	"title": "New Forest East",
 	"demographics": {
-		"withdegree": 13.25,
 		"2015UKIP": 17.51,
+		"leave": 59.54,
 		"age18-29": 12.1,
-		"leave": 59.54
+		"withdegree": 13.25
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73579,
 			"candidates": [{
 				"id": 2872,
 				"name": "Julian Lewis",

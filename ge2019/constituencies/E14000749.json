@@ -2,14 +2,15 @@
 	"id": "E14000749",
 	"title": "Hitchin and Harpenden",
 	"demographics": {
-		"withdegree": 30.53,
 		"2015UKIP": 8.88,
+		"leave": 39.79,
 		"age18-29": 11.34,
-		"leave": 39.79
+		"withdegree": 30.53
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76321,
 			"candidates": [{
 				"id": 1224,
 				"name": "Sid Cordle",

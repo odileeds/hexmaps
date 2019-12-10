@@ -2,10 +2,10 @@
 	"id": "E14001047",
 	"title": "Woking",
 	"demographics": {
-		"withdegree": 26.19,
 		"2015UKIP": 11.3,
+		"leave": 44.06,
 		"age18-29": 14.02,
-		"leave": 44.06
+		"withdegree": 26.19
 	},
 	"elections": {
 		"2019-12-12": {

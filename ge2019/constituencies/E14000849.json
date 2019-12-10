@@ -2,14 +2,15 @@
 	"id": "E14000849",
 	"title": "North Shropshire",
 	"demographics": {
-		"withdegree": 12.86,
 		"2015UKIP": 17.62,
+		"leave": 59.46,
 		"age18-29": 13.41,
-		"leave": 59.46
+		"withdegree": 12.86
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 83257,
 			"candidates": [{
 				"id": 1325,
 				"name": "Owen Paterson",

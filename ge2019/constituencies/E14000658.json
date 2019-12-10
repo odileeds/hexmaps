@@ -2,14 +2,15 @@
 	"id": "E14000658",
 	"title": "Darlington",
 	"demographics": {
-		"withdegree": 11.33,
 		"2015UKIP": 13.11,
+		"leave": 58.07,
 		"age18-29": 14.88,
-		"leave": 58.07
+		"withdegree": 11.33
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66395,
 			"candidates": [{
 				"id": 2001,
 				"name": "Jenny Chapman",

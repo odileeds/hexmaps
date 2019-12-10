@@ -2,14 +2,15 @@
 	"id": "E14000998",
 	"title": "Tooting",
 	"demographics": {
-		"withdegree": 44.09,
 		"2015UKIP": 2.87,
+		"leave": 25.32,
 		"age18-29": 23.92,
-		"leave": 25.32
+		"withdegree": 44.09
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76933,
 			"candidates": [{
 				"id": 34186,
 				"name": "Rosena Allin-Khan",

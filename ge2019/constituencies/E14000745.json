@@ -2,14 +2,15 @@
 	"id": "E14000745",
 	"title": "Hertsmere",
 	"demographics": {
-		"withdegree": 20.56,
 		"2015UKIP": 12.74,
+		"leave": 50.84,
 		"age18-29": 14.06,
-		"leave": 50.84
+		"withdegree": 20.56
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73971,
 			"candidates": [{
 				"id": 4796,
 				"name": "Oliver Dowden",

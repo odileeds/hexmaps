@@ -2,14 +2,15 @@
 	"id": "E14000938",
 	"title": "South East Cornwall",
 	"demographics": {
-		"withdegree": 13.42,
 		"2015UKIP": 15.24,
+		"leave": 54.95,
 		"age18-29": 10.8,
-		"leave": 54.95
+		"withdegree": 13.42
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71825,
 			"candidates": [{
 				"id": 1021,
 				"name": "Sheryll Murray",

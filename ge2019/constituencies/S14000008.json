@@ -3,12 +3,13 @@
 	"title": "Berwickshire, Roxburgh and Selkirk",
 	"demographics": {
 		"2015UKIP": 2.39,
-		"age18-29": 11.54,
-		"leave": 43.2
+		"leave": 43.2,
+		"age18-29": 11.54
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74518,
 			"candidates": [{
 				"id": 141,
 				"name": "John Lamont",

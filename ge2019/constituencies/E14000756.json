@@ -2,14 +2,15 @@
 	"id": "E14000756",
 	"title": "Huddersfield",
 	"demographics": {
-		"withdegree": 15.23,
 		"2015UKIP": 14.69,
+		"leave": 51.08,
 		"age18-29": 20.13,
-		"leave": 51.08
+		"withdegree": 15.23
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65525,
 			"candidates": [{
 				"id": 2182,
 				"name": "Andrew Cooper",

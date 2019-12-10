@@ -2,10 +2,10 @@
 	"id": "E14000966",
 	"title": "Staffordshire Moorlands",
 	"demographics": {
-		"withdegree": 12.38,
 		"2015UKIP": 14.64,
+		"leave": 64.58,
 		"age18-29": 11.42,
-		"leave": 64.58
+		"withdegree": 12.38
 	},
 	"elections": {
 		"2019-12-12": {

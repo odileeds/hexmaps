@@ -2,10 +2,10 @@
 	"id": "E14001023",
 	"title": "Wealden",
 	"demographics": {
-		"withdegree": 16.68,
 		"2015UKIP": 16.73,
+		"leave": 52.55,
 		"age18-29": 11.06,
-		"leave": 52.55
+		"withdegree": 16.68
 	},
 	"elections": {
 		"2019-12-12": {

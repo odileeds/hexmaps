@@ -2,14 +2,15 @@
 	"id": "E14001007",
 	"title": "Uxbridge and South Ruislip",
 	"demographics": {
-		"withdegree": 19.04,
 		"2015UKIP": 14.16,
+		"leave": 56.36,
 		"age18-29": 21.98,
-		"leave": 56.36
+		"withdegree": 19.04
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70369,
 			"candidates": [{
 				"id": 4546,
 				"name": "Boris Johnson",

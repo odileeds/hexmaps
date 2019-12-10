@@ -2,14 +2,15 @@
 	"id": "E14000660",
 	"title": "Daventry",
 	"demographics": {
-		"withdegree": 16.23,
 		"2015UKIP": 15.8,
+		"leave": 58.76,
 		"age18-29": 11.41,
-		"leave": 58.76
+		"withdegree": 16.23
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77493,
 			"candidates": [{
 				"id": 1729,
 				"name": "Chris Heaton-Harris",

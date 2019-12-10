@@ -2,14 +2,15 @@
 	"id": "E14000733",
 	"title": "Hartlepool",
 	"demographics": {
-		"withdegree": 8.32,
 		"2015UKIP": 27.99,
+		"leave": 69.57,
 		"age18-29": 15.24,
-		"leave": 69.57
+		"withdegree": 8.32
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70855,
 			"candidates": [{
 				"id": 4761,
 				"name": "Mike Hill",

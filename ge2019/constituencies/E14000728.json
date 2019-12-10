@@ -2,10 +2,10 @@
 	"id": "E14000728",
 	"title": "Harborough",
 	"demographics": {
-		"withdegree": 17.03,
 		"2015UKIP": 14.37,
+		"leave": 52.25,
 		"age18-29": 14,
-		"leave": 52.25
+		"withdegree": 17.03
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,14 +2,15 @@
 	"id": "W07000051",
 	"title": "Cardiff North",
 	"demographics": {
-		"withdegree": 25.94,
 		"2015UKIP": 7.73,
+		"leave": 39.08,
 		"age18-29": 17.6,
-		"leave": 39.08
+		"withdegree": 25.94
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68438,
 			"candidates": [{
 				"id": 8175,
 				"name": "Anna McMorrin",

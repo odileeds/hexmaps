@@ -3,12 +3,13 @@
 	"title": "Edinburgh North and Leith",
 	"demographics": {
 		"2015UKIP": 1.46,
-		"age18-29": 24.03,
-		"leave": 21.8
+		"leave": 21.8,
+		"age18-29": 24.03
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81336,
 			"candidates": [{
 				"id": 521,
 				"name": "Steve Burgess",

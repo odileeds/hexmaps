@@ -7,6 +7,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69984,
 			"candidates": [{
 				"id": 1679,
 				"name": "Paula Bradshaw",

@@ -2,14 +2,15 @@
 	"id": "E14000857",
 	"title": "North West Hampshire",
 	"demographics": {
-		"withdegree": 15.69,
 		"2015UKIP": 14.69,
+		"leave": 54.53,
 		"age18-29": 11.96,
-		"leave": 54.53
+		"withdegree": 15.69
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 83083,
 			"candidates": [{
 				"id": 5272,
 				"name": "Kit Malthouse",

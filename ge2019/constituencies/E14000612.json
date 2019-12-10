@@ -2,14 +2,15 @@
 	"id": "E14000612",
 	"title": "Bury South",
 	"demographics": {
-		"withdegree": 15.64,
 		"2015UKIP": 13.34,
+		"leave": 54.53,
 		"age18-29": 14.52,
-		"leave": 54.53
+		"withdegree": 15.64
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75152,
 			"candidates": [{
 				"id": 3904,
 				"name": "Ivan Lewis",

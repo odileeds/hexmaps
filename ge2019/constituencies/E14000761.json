@@ -2,14 +2,15 @@
 	"id": "E14000761",
 	"title": "Ipswich",
 	"demographics": {
-		"withdegree": 12.89,
 		"2015UKIP": 11.71,
+		"leave": 56.57,
 		"age18-29": 18.56,
-		"leave": 56.57
+		"withdegree": 12.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75525,
 			"candidates": [{
 				"id": 4593,
 				"name": "Adrian Trett",

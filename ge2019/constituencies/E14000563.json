@@ -2,14 +2,15 @@
 	"id": "E14000563",
 	"title": "Birmingham, Hodge Hill",
 	"demographics": {
-		"withdegree": 7.51,
 		"2015UKIP": 11.33,
+		"leave": 51.48,
 		"age18-29": 18.17,
-		"leave": 51.48
+		"withdegree": 7.51
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78295,
 			"candidates": [{
 				"id": 3666,
 				"name": "Waheed Rafiq",

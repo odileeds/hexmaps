@@ -2,14 +2,15 @@
 	"id": "E14000581",
 	"title": "Bootle",
 	"demographics": {
-		"withdegree": 9.01,
 		"2015UKIP": 10.89,
+		"leave": 54.88,
 		"age18-29": 16.18,
-		"leave": 54.88
+		"withdegree": 9.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74832,
 			"candidates": [{
 				"id": 5191,
 				"name": "Peter Dowd",

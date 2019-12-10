@@ -2,14 +2,15 @@
 	"id": "E14001043",
 	"title": "Wirral South",
 	"demographics": {
-		"withdegree": 16.83,
 		"2015UKIP": 8.93,
+		"leave": 46.55,
 		"age18-29": 11.56,
-		"leave": 46.55
+		"withdegree": 16.83
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 57280,
 			"candidates": [{
 				"id": 3649,
 				"name": "Alison McGovern",

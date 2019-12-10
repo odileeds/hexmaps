@@ -2,14 +2,15 @@
 	"id": "E14000807",
 	"title": "Manchester Central",
 	"demographics": {
-		"withdegree": 24.75,
 		"2015UKIP": 11.1,
+		"leave": 36.66,
 		"age18-29": 37.76,
-		"leave": 36.66
+		"withdegree": 24.75
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 94247,
 			"candidates": [{
 				"id": 1570,
 				"name": "Lucy Powell",

@@ -2,14 +2,15 @@
 	"id": "E14000839",
 	"title": "North Dorset",
 	"demographics": {
-		"withdegree": 14.39,
 		"2015UKIP": 17.06,
+		"leave": 56.41,
 		"age18-29": 11.28,
-		"leave": 56.41
+		"withdegree": 14.39
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75956,
 			"candidates": [{
 				"id": 5986,
 				"name": "Simon Hoare",

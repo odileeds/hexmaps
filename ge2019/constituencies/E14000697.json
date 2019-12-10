@@ -2,14 +2,15 @@
 	"id": "E14000697",
 	"title": "Esher and Walton",
 	"demographics": {
-		"withdegree": 31.37,
 		"2015UKIP": 9.74,
+		"leave": 41.63,
 		"age18-29": 10.47,
-		"leave": 41.63
+		"withdegree": 31.37
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81184,
 			"candidates": [{
 				"id": 3451,
 				"name": "Dominic Raab",

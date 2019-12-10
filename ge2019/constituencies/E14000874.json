@@ -2,14 +2,15 @@
 	"id": "E14000874",
 	"title": "Oxford West and Abingdon",
 	"demographics": {
-		"withdegree": 34.26,
 		"2015UKIP": 6.92,
+		"leave": 38.18,
 		"age18-29": 17.4,
-		"leave": 38.18
+		"withdegree": 34.26
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76953,
 			"candidates": [{
 				"id": 2447,
 				"name": "Layla Moran",

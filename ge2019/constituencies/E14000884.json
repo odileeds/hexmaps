@@ -2,14 +2,15 @@
 	"id": "E14000884",
 	"title": "Portsmouth South",
 	"demographics": {
-		"withdegree": 18.22,
 		"2015UKIP": 13.35,
+		"leave": 51.76,
 		"age18-29": 31.17,
-		"leave": 51.76
+		"withdegree": 18.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74186,
 			"candidates": [{
 				"id": 4522,
 				"name": "Gerald Vernon-Jackson",

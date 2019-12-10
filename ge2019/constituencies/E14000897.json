@@ -2,14 +2,15 @@
 	"id": "E14000897",
 	"title": "Rochdale",
 	"demographics": {
-		"withdegree": 10.28,
 		"2015UKIP": 18.75,
+		"leave": 57.45,
 		"age18-29": 16.51,
-		"leave": 57.45
+		"withdegree": 10.28
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80168,
 			"candidates": [{
 				"id": 1852,
 				"name": "Tony Lloyd",

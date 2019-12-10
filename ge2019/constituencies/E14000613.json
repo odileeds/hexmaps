@@ -2,10 +2,10 @@
 	"id": "E14000613",
 	"title": "Bury St Edmunds",
 	"demographics": {
-		"withdegree": 14.32,
 		"2015UKIP": 14.73,
+		"leave": 53.74,
 		"age18-29": 14.17,
-		"leave": 53.74
+		"withdegree": 14.32
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,10 +2,10 @@
 	"id": "E14000595",
 	"title": "Bridgwater and West Somerset",
 	"demographics": {
-		"withdegree": 10.13,
 		"2015UKIP": 19.17,
+		"leave": 62.19,
 		"age18-29": 13,
-		"leave": 62.19
+		"withdegree": 10.13
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,12 +3,13 @@
 	"title": "Moray",
 	"demographics": {
 		"2015UKIP": 3.93,
-		"age18-29": 13.38,
-		"leave": 49.87
+		"leave": 49.87,
+		"age18-29": 13.38
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71035,
 			"candidates": [{
 				"id": 2756,
 				"name": "Douglas Ross",

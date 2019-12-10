@@ -2,12 +2,13 @@
 	"id": "S14000034",
 	"title": "Glasgow South",
 	"demographics": {
-		"age18-29": 17.92,
-		"leave": 28.19
+		"leave": 28.19,
+		"age18-29": 17.92
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70891,
 			"candidates": [{
 				"id": 5173,
 				"name": "Stewart McDonald",

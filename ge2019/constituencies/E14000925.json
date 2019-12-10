@@ -2,14 +2,15 @@
 	"id": "E14000925",
 	"title": "Shipley",
 	"demographics": {
-		"withdegree": 19.66,
 		"2015UKIP": 8.86,
+		"leave": 52.21,
 		"age18-29": 12.86,
-		"leave": 52.21
+		"withdegree": 19.66
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74029,
 			"candidates": [{
 				"id": 835,
 				"name": "Philip Davies",

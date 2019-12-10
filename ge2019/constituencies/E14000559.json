@@ -2,14 +2,15 @@
 	"id": "E14000559",
 	"title": "Birkenhead",
 	"demographics": {
-		"withdegree": 10.87,
 		"2015UKIP": 9.8,
+		"leave": 51.71,
 		"age18-29": 15.69,
-		"leave": 51.71
+		"withdegree": 10.87
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 63762,
 			"candidates": [{
 				"id": 92,
 				"name": "Frank Field",

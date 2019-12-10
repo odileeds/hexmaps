@@ -2,14 +2,15 @@
 	"id": "E14000700",
 	"title": "Faversham and Mid Kent",
 	"demographics": {
-		"withdegree": 14.22,
 		"2015UKIP": 18,
+		"leave": 58.22,
 		"age18-29": 12.4,
-		"leave": 58.22
+		"withdegree": 14.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73404,
 			"candidates": [{
 				"id": 23,
 				"name": "Gary Butler",

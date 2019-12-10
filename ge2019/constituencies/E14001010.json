@@ -2,14 +2,15 @@
 	"id": "E14001010",
 	"title": "Wallasey",
 	"demographics": {
-		"withdegree": 10.46,
 		"2015UKIP": 11.68,
+		"leave": 49.92,
 		"age18-29": 15.01,
-		"leave": 49.92
+		"withdegree": 10.46
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66310,
 			"candidates": [{
 				"id": 2917,
 				"name": "Angela Eagle",

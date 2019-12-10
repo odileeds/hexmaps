@@ -2,14 +2,15 @@
 	"id": "E14001040",
 	"title": "Wimbledon",
 	"demographics": {
-		"withdegree": 45.49,
 		"2015UKIP": 5.11,
+		"leave": 29.37,
 		"age18-29": 17.34,
-		"leave": 29.37
+		"withdegree": 45.49
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68232,
 			"candidates": [{
 				"id": 2253,
 				"name": "Stephen Hammond",

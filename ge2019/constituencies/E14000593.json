@@ -2,10 +2,10 @@
 	"id": "E14000593",
 	"title": "Brentford and Isleworth",
 	"demographics": {
-		"withdegree": 34.21,
 		"2015UKIP": 5.58,
+		"leave": 43.31,
 		"age18-29": 19.69,
-		"leave": 43.31
+		"withdegree": 34.21
 	},
 	"elections": {
 		"2019-12-12": {

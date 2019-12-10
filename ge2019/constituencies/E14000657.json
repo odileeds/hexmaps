@@ -2,14 +2,15 @@
 	"id": "E14000657",
 	"title": "Dagenham and Rainham",
 	"demographics": {
-		"withdegree": 9.94,
 		"2015UKIP": 29.85,
+		"leave": 69.93,
 		"age18-29": 16.03,
-		"leave": 69.93
+		"withdegree": 9.94
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71043,
 			"candidates": [{
 				"id": 288,
 				"name": "Jon Cruddas",

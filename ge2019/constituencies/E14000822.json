@@ -2,14 +2,15 @@
 	"id": "E14000822",
 	"title": "Milton Keynes South",
 	"demographics": {
-		"withdegree": 17.11,
 		"2015UKIP": 13.24,
+		"leave": 52.96,
 		"age18-29": 14.67,
-		"leave": 52.96
+		"withdegree": 17.11
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 96343,
 			"candidates": [{
 				"id": 2180,
 				"name": "Iain Stewart",

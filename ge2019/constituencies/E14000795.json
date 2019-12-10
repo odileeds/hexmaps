@@ -2,14 +2,15 @@
 	"id": "E14000795",
 	"title": "Liverpool, Wavertree",
 	"demographics": {
-		"withdegree": 18.56,
 		"2015UKIP": 8.24,
+		"leave": 35.85,
 		"age18-29": 22.47,
-		"leave": 35.85
+		"withdegree": 18.56
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 63458,
 			"candidates": [{
 				"id": 6881,
 				"name": "Adam Heatherington",

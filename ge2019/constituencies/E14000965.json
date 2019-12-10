@@ -2,14 +2,15 @@
 	"id": "E14000965",
 	"title": "Stafford",
 	"demographics": {
-		"withdegree": 15.53,
 		"2015UKIP": 12.9,
+		"leave": 57.22,
 		"age18-29": 15.35,
-		"leave": 57.22
+		"withdegree": 15.53
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72572,
 			"candidates": [{
 				"id": 4168,
 				"name": "Theo Clarke",

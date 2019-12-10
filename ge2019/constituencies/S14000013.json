@@ -3,12 +3,13 @@
 	"title": "Dumfries and Galloway",
 	"demographics": {
 		"2015UKIP": 2.3,
-		"age18-29": 12.33,
-		"leave": 45.39
+		"leave": 45.39,
+		"age18-29": 12.33
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74580,
 			"candidates": [{
 				"id": 5920,
 				"name": "Richard Arkless",

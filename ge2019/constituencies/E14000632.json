@@ -2,14 +2,15 @@
 	"id": "E14000632",
 	"title": "Chesterfield",
 	"demographics": {
-		"withdegree": 10.71,
 		"2015UKIP": 16.51,
+		"leave": 59.32,
 		"age18-29": 13.78,
-		"leave": 59.32
+		"withdegree": 10.71
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71030,
 			"candidates": [{
 				"id": 582,
 				"name": "Toby Perkins",

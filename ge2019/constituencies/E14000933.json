@@ -2,14 +2,15 @@
 	"id": "E14000933",
 	"title": "South Basildon and East Thurrock",
 	"demographics": {
-		"withdegree": 7.16,
 		"2015UKIP": 26.53,
+		"leave": 73.08,
 		"age18-29": 15.03,
-		"leave": 73.08
+		"withdegree": 7.16
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74441,
 			"candidates": [{
 				"id": 2211,
 				"name": "Stephen Metcalfe",

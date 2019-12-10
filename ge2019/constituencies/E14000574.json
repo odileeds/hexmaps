@@ -2,14 +2,15 @@
 	"id": "E14000574",
 	"title": "Blaydon",
 	"demographics": {
-		"withdegree": 12.67,
 		"2015UKIP": 17.5,
+		"leave": 56.32,
 		"age18-29": 12.9,
-		"leave": 56.32
+		"withdegree": 12.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67853,
 			"candidates": [{
 				"id": 8861,
 				"name": "Kathy King",

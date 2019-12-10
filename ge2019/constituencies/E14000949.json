@@ -2,10 +2,10 @@
 	"id": "E14000949",
 	"title": "South West Bedfordshire",
 	"demographics": {
-		"withdegree": 13.61,
 		"2015UKIP": 15.48,
+		"leave": 58.61,
 		"age18-29": 14.21,
-		"leave": 58.61
+		"withdegree": 13.61
 	},
 	"elections": {
 		"2019-12-12": {

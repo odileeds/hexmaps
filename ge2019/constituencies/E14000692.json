@@ -2,14 +2,15 @@
 	"id": "E14000692",
 	"title": "Enfield, Southgate",
 	"demographics": {
-		"withdegree": 28.76,
 		"2015UKIP": 4.6,
+		"leave": 37.88,
 		"age18-29": 17.85,
-		"leave": 37.88
+		"withdegree": 28.76
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65055,
 			"candidates": [{
 				"id": 4041,
 				"name": "David Burrowes",

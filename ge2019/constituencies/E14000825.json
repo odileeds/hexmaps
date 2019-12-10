@@ -2,14 +2,15 @@
 	"id": "E14000825",
 	"title": "Morecambe and Lunesdale",
 	"demographics": {
-		"withdegree": 12.01,
 		"2015UKIP": 12.39,
+		"leave": 58.91,
 		"age18-29": 12.6,
-		"leave": 58.91
+		"withdegree": 12.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67397,
 			"candidates": [{
 				"id": 2424,
 				"name": "David Morris",

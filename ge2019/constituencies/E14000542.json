@@ -2,14 +2,15 @@
 	"id": "E14000542",
 	"title": "Barnsley East",
 	"demographics": {
-		"withdegree": 6.52,
 		"2015UKIP": 23.48,
+		"leave": 70.78,
 		"age18-29": 14.81,
-		"leave": 70.78
+		"withdegree": 6.52
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69504,
 			"candidates": [{
 				"id": 3552,
 				"name": "Jim Ferguson",

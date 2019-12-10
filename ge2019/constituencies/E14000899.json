@@ -2,14 +2,15 @@
 	"id": "E14000899",
 	"title": "Rochford and Southend East",
 	"demographics": {
-		"withdegree": 9.89,
 		"2015UKIP": 20.52,
+		"leave": 60.46,
 		"age18-29": 15.4,
-		"leave": 60.46
+		"withdegree": 9.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75624,
 			"candidates": [{
 				"id": 787,
 				"name": "James Duddridge",

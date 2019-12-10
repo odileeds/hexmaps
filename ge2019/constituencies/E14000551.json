@@ -2,14 +2,15 @@
 	"id": "E14000551",
 	"title": "Beckenham",
 	"demographics": {
-		"withdegree": 23.16,
 		"2015UKIP": 12.52,
+		"leave": 48.38,
 		"age18-29": 12.5,
-		"leave": 48.38
+		"withdegree": 23.16
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68671,
 			"candidates": [{
 				"id": 4074,
 				"name": "Bob Stewart",

@@ -3,12 +3,13 @@
 	"title": "Lanark and Hamilton East",
 	"demographics": {
 		"2015UKIP": 2.59,
-		"age18-29": 13.76,
-		"leave": 35.47
+		"leave": 35.47,
+		"age18-29": 13.76
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77659,
 			"candidates": [{
 				"id": 6059,
 				"name": "Angela Crawley",

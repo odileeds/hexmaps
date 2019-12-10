@@ -2,14 +2,15 @@
 	"id": "E14000723",
 	"title": "Halifax",
 	"demographics": {
-		"withdegree": 11.05,
 		"2015UKIP": 12.85,
+		"leave": 58.82,
 		"age18-29": 15.61,
-		"leave": 58.82
+		"withdegree": 11.05
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71904,
 			"candidates": [{
 				"id": 2540,
 				"name": "Kashif Ali",

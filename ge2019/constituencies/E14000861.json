@@ -2,10 +2,10 @@
 	"id": "E14000861",
 	"title": "Northampton North",
 	"demographics": {
-		"withdegree": 12.65,
 		"2015UKIP": 16.12,
+		"leave": 60.69,
 		"age18-29": 17.94,
-		"leave": 60.69
+		"withdegree": 12.65
 	},
 	"elections": {
 		"2019-12-12": {

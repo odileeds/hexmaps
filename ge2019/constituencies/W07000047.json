@@ -2,10 +2,10 @@
 	"id": "W07000047",
 	"title": "Swansea West",
 	"demographics": {
-		"withdegree": 18.87,
 		"2015UKIP": 13.49,
+		"leave": 42.66,
 		"age18-29": 26.88,
-		"leave": 42.66
+		"withdegree": 18.87
 	},
 	"elections": {
 		"2019-12-12": {

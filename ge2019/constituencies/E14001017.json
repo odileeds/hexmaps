@@ -2,14 +2,15 @@
 	"id": "E14001017",
 	"title": "Warrington North",
 	"demographics": {
-		"withdegree": 12.19,
 		"2015UKIP": 17.08,
+		"leave": 58.65,
 		"age18-29": 15.67,
-		"leave": 58.65
+		"withdegree": 12.19
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72565,
 			"candidates": [{
 				"id": 2386,
 				"name": "Dave Crowther",

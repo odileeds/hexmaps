@@ -2,14 +2,15 @@
 	"id": "E14000898",
 	"title": "Rochester and Strood",
 	"demographics": {
-		"withdegree": 11.05,
 		"2015UKIP": 30.48,
+		"leave": 63.69,
 		"age18-29": 16.73,
-		"leave": 63.69
+		"withdegree": 11.05
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82156,
 			"candidates": [{
 				"id": 57,
 				"name": "Roy Andrew Freshwater",

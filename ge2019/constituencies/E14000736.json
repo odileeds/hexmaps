@@ -2,14 +2,15 @@
 	"id": "E14000736",
 	"title": "Havant",
 	"demographics": {
-		"withdegree": 10.78,
 		"2015UKIP": 20.61,
+		"leave": 62.45,
 		"age18-29": 13.39,
-		"leave": 62.45
+		"withdegree": 10.78
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72130,
 			"candidates": [{
 				"id": 5017,
 				"name": "Alan Mak",

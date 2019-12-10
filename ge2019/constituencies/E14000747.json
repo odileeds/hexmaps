@@ -2,14 +2,15 @@
 	"id": "E14000747",
 	"title": "Heywood and Middleton",
 	"demographics": {
-		"withdegree": 10.6,
 		"2015UKIP": 32.2,
+		"leave": 62.43,
 		"age18-29": 15.2,
-		"leave": 62.43
+		"withdegree": 10.6
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78916,
 			"candidates": [{
 				"id": 4898,
 				"name": "Anthony John Smith",

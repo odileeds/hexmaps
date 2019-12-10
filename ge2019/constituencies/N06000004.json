@@ -7,6 +7,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65644,
 			"candidates": [{
 				"id": 4603,
 				"name": "Paul Maskey",

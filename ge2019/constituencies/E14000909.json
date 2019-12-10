@@ -2,10 +2,10 @@
 	"id": "E14000909",
 	"title": "Rutland and Melton",
 	"demographics": {
-		"withdegree": 17.38,
 		"2015UKIP": 15.89,
+		"leave": 53.96,
 		"age18-29": 11.75,
-		"leave": 53.96
+		"withdegree": 17.38
 	},
 	"elections": {
 		"2019-12-12": {

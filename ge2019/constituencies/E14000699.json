@@ -2,14 +2,15 @@
 	"id": "E14000699",
 	"title": "Fareham",
 	"demographics": {
-		"withdegree": 15.09,
 		"2015UKIP": 15.41,
+		"leave": 55.41,
 		"age18-29": 12.6,
-		"leave": 55.41
+		"withdegree": 15.09
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78624,
 			"candidates": [{
 				"id": 6440,
 				"name": "Matthew Winnington",

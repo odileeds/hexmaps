@@ -2,14 +2,15 @@
 	"id": "E14000887",
 	"title": "Putney",
 	"demographics": {
-		"withdegree": 44.21,
 		"2015UKIP": 4.65,
+		"leave": 26.85,
 		"age18-29": 23.68,
-		"leave": 26.85
+		"withdegree": 44.21
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65542,
 			"candidates": [{
 				"id": 36326,
 				"name": "Will Sweet",

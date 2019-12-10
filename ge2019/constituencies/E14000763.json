@@ -2,14 +2,15 @@
 	"id": "E14000763",
 	"title": "Islington North",
 	"demographics": {
-		"withdegree": 43.25,
 		"2015UKIP": 4,
+		"leave": 21.61,
 		"age18-29": 24.66,
-		"leave": 21.61
+		"withdegree": 43.25
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75162,
 			"candidates": [{
 				"id": 1120,
 				"name": "Jeremy Corbyn",

@@ -2,14 +2,15 @@
 	"id": "W07000050",
 	"title": "Cardiff Central",
 	"demographics": {
-		"withdegree": 26.48,
 		"2015UKIP": 6.47,
+		"leave": 30.35,
 		"age18-29": 40.06,
-		"leave": 30.35
+		"withdegree": 26.48
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64037,
 			"candidates": [{
 				"id": 3372,
 				"name": "Meirion Jenkins",

@@ -2,14 +2,15 @@
 	"id": "W07000058",
 	"title": "Aberconwy",
 	"demographics": {
-		"withdegree": 14.15,
 		"2015UKIP": 11.5,
+		"leave": 53.38,
 		"age18-29": 12.02,
-		"leave": 53.38
+		"withdegree": 14.15
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 44699,
 			"candidates": [{
 				"id": 2283,
 				"name": "Robin John Millar",

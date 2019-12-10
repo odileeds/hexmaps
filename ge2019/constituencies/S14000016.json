@@ -2,12 +2,13 @@
 	"id": "S14000016",
 	"title": "Dundee West",
 	"demographics": {
-		"age18-29": 25.84,
-		"leave": 41.15
+		"leave": 41.15,
+		"age18-29": 25.84
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64431,
 			"candidates": [{
 				"id": 5271,
 				"name": "Daniel Coleman",

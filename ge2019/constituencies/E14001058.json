@@ -2,14 +2,15 @@
 	"id": "E14001058",
 	"title": "Wyre Forest",
 	"demographics": {
-		"withdegree": 10.9,
 		"2015UKIP": 16.11,
+		"leave": 63.15,
 		"age18-29": 12.8,
-		"leave": 63.15
+		"withdegree": 10.9
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78079,
 			"candidates": [{
 				"id": 1173,
 				"name": "Robin Lunn",

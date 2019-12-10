@@ -2,14 +2,15 @@
 	"id": "E14000720",
 	"title": "Hackney North and Stoke Newington",
 	"demographics": {
-		"withdegree": 36.24,
 		"2015UKIP": 2.17,
+		"leave": 20.95,
 		"age18-29": 23.59,
-		"leave": 20.95
+		"withdegree": 36.24
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 92451,
 			"candidates": [{
 				"id": 2567,
 				"name": "Diane Abbott",

@@ -2,14 +2,15 @@
 	"id": "W07000063",
 	"title": "Montgomeryshire",
 	"demographics": {
-		"withdegree": 12.71,
 		"2015UKIP": 11.17,
+		"leave": 55.99,
 		"age18-29": 11.74,
-		"leave": 55.99
+		"withdegree": 12.71
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 48997,
 			"candidates": [{
 				"id": 4173,
 				"name": "Craig Williams",

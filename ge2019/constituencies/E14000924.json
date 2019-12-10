@@ -2,14 +2,15 @@
 	"id": "E14000924",
 	"title": "Sherwood",
 	"demographics": {
-		"withdegree": 10.18,
 		"2015UKIP": 14.59,
+		"leave": 63.76,
 		"age18-29": 12.93,
-		"leave": 63.76
+		"withdegree": 10.18
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77948,
 			"candidates": [{
 				"id": 2789,
 				"name": "Tim Ball",

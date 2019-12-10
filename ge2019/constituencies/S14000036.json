@@ -2,12 +2,13 @@
 	"id": "S14000036",
 	"title": "Glenrothes",
 	"demographics": {
-		"age18-29": 13.92,
-		"leave": 46.46
+		"leave": 46.46,
+		"age18-29": 13.92
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65762,
 			"candidates": [{
 				"id": 6049,
 				"name": "Peter Grant",

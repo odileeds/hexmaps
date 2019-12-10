@@ -2,14 +2,15 @@
 	"id": "E14000545",
 	"title": "Basingstoke",
 	"demographics": {
-		"withdegree": 16.52,
 		"2015UKIP": 15.62,
+		"leave": 53.64,
 		"age18-29": 15.92,
-		"leave": 53.64
+		"withdegree": 16.52
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82926,
 			"candidates": [{
 				"id": 2525,
 				"name": "Maria Miller",

@@ -2,14 +2,15 @@
 	"id": "E14000621",
 	"title": "Carshalton and Wallington",
 	"demographics": {
-		"withdegree": 16.68,
 		"2015UKIP": 14.8,
+		"leave": 56.3,
 		"age18-29": 14.93,
-		"leave": 56.3
+		"withdegree": 16.68
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72926,
 			"candidates": [{
 				"id": 3585,
 				"name": "Tom Brake",

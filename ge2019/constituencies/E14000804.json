@@ -2,14 +2,15 @@
 	"id": "E14000804",
 	"title": "Maidstone and The Weald",
 	"demographics": {
-		"withdegree": 15.4,
 		"2015UKIP": 15.86,
+		"leave": 55.87,
 		"age18-29": 14.62,
-		"leave": 55.87
+		"withdegree": 15.4
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76110,
 			"candidates": [{
 				"id": 2107,
 				"name": "Helen Grant",

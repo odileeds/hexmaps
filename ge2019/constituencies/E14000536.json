@@ -2,14 +2,15 @@
 	"id": "E14000536",
 	"title": "Ashford",
 	"demographics": {
-		"withdegree": 13.12,
 		"2015UKIP": 18.82,
+		"leave": 59.68,
 		"age18-29": 13.39,
-		"leave": 59.68
+		"withdegree": 13.12
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 89550,
 			"candidates": [{
 				"id": 3486,
 				"name": "Damian Green",

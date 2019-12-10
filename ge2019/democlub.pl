@@ -83,6 +83,33 @@ while (my $row = $csv->getline ($fh)) {
 close($fh);	
 
 
+
+
+################################
+# 2019 electorate
+$file = "temp/2019-electorate.csv";
+#GSS Code,Constituency,LA,2017,2019,Change,%
+my $csv = Text::CSV->new ({ binary => 1 });
+open my $fh, "<", $file or die "$file: $!";
+$line = 0;
+@header = ();
+while (my $row = $csv->getline ($fh)) {
+	my @fields = @$row;
+	$pcd = $fields[0];
+	
+	if($line == 0){
+		@header = @fields;
+	}else{
+		$e = $fields[4];
+		$e =~ s/(^"|"$|\,)//g;
+		$con{$pcd}{'2019-electorate'} = $e;
+	}
+	$line++;
+}
+close($fh);	
+
+
+
 ########################################
 # 2015 Results
 
@@ -337,7 +364,7 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
 		print FILE "\t\"demographics\": {\n";
 		$n = 0;
-		foreach $d (keys(%demo)){
+		foreach $d (sort(keys(%demo))){
 			print "$d - $demo{$d} - $con{$pcd}{$d}\n";
 			if($con{$pcd}{$d}){
 				if($n > 0){ print FILE ",\n"; }
@@ -349,6 +376,7 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\t\"elections\": {\n";
 		print FILE "\t\t\"2019-12-12\": {\n";
 		print FILE "\t\t\t\"type\": \"general\",\n";
+		if($con{$pcd}{'2019-electorate'}){ print FILE "\t\t\t\"electorate\": $con{$pcd}{'2019-electorate'},\n"; }
 		print FILE "\t\t\t\"candidates\": [{\n";
 		@candidates = @{$con{$pcd}{'candidates'}};
 		for($c = 0; $c < @candidates ;$c++){

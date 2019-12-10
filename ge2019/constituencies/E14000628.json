@@ -2,10 +2,10 @@
 	"id": "E14000628",
 	"title": "Chelmsford",
 	"demographics": {
-		"withdegree": 18.03,
 		"2015UKIP": 14.22,
+		"leave": 50.55,
 		"age18-29": 15.8,
-		"leave": 50.55
+		"withdegree": 18.03
 	},
 	"elections": {
 		"2019-12-12": {

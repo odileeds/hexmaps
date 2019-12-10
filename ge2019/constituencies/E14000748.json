@@ -2,10 +2,10 @@
 	"id": "E14000748",
 	"title": "High Peak",
 	"demographics": {
-		"withdegree": 17.9,
 		"2015UKIP": 11.44,
+		"leave": 50.55,
 		"age18-29": 13.19,
-		"leave": 50.55
+		"withdegree": 17.9
 	},
 	"elections": {
 		"2019-12-12": {

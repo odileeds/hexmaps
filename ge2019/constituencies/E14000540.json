@@ -2,14 +2,15 @@
 	"id": "E14000540",
 	"title": "Barking",
 	"demographics": {
-		"withdegree": 14.44,
 		"2015UKIP": 22.2,
+		"leave": 60.33,
 		"age18-29": 18.12,
-		"leave": 60.33
+		"withdegree": 14.44
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77946,
 			"candidates": [{
 				"id": 807,
 				"name": "Margaret Hodge",

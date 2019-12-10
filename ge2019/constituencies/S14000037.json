@@ -3,12 +3,13 @@
 	"title": "Gordon",
 	"demographics": {
 		"2015UKIP": 2,
-		"age18-29": 12.9,
-		"leave": 44.56
+		"leave": 44.56,
+		"age18-29": 12.9
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79629,
 			"candidates": [{
 				"id": 5046,
 				"name": "Colin Clark",

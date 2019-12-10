@@ -2,14 +2,15 @@
 	"id": "E14000677",
 	"title": "Easington",
 	"demographics": {
-		"withdegree": 7.03,
 		"2015UKIP": 18.75,
+		"leave": 66.57,
 		"age18-29": 15.51,
-		"leave": 66.57
+		"withdegree": 7.03
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61182,
 			"candidates": [{
 				"id": 1365,
 				"name": "Grahame Morris",

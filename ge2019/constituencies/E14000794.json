@@ -2,14 +2,15 @@
 	"id": "E14000794",
 	"title": "Liverpool, Walton",
 	"demographics": {
-		"withdegree": 7.16,
 		"2015UKIP": 8.97,
+		"leave": 53.8,
 		"age18-29": 18.24,
-		"leave": 53.8
+		"withdegree": 7.16
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 62628,
 			"candidates": [{
 				"id": 2242,
 				"name": "David Newman",

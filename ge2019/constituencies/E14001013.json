@@ -2,14 +2,15 @@
 	"id": "E14001013",
 	"title": "Walthamstow",
 	"demographics": {
-		"withdegree": 24,
 		"2015UKIP": 6,
+		"leave": 33.49,
 		"age18-29": 20.25,
-		"leave": 33.49
+		"withdegree": 24
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70268,
 			"candidates": [{
 				"id": 3774,
 				"name": "Stella Creasy",

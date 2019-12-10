@@ -2,14 +2,15 @@
 	"id": "E14000775",
 	"title": "Knowsley",
 	"demographics": {
-		"withdegree": 6.99,
 		"2015UKIP": 9.8,
+		"leave": 52.44,
 		"age18-29": 16.08,
-		"leave": 52.44
+		"withdegree": 6.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 84060,
 			"candidates": [{
 				"id": 741,
 				"name": "George Howarth",

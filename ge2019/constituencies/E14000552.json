@@ -2,14 +2,15 @@
 	"id": "E14000552",
 	"title": "Bedford",
 	"demographics": {
-		"withdegree": 15.43,
 		"2015UKIP": 9.62,
+		"leave": 51.95,
 		"age18-29": 17.62,
-		"leave": 51.95
+		"withdegree": 15.43
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71579,
 			"candidates": [{
 				"id": 3114,
 				"name": "Henry Vann",

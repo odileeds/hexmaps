@@ -2,10 +2,10 @@
 	"id": "E14000850",
 	"title": "North Somerset",
 	"demographics": {
-		"withdegree": 19.7,
 		"2015UKIP": 13.01,
+		"leave": 47.97,
 		"age18-29": 10.44,
-		"leave": 47.97
+		"withdegree": 19.7
 	},
 	"elections": {
 		"2019-12-12": {

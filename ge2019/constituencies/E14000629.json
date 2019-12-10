@@ -2,10 +2,10 @@
 	"id": "E14000629",
 	"title": "Chelsea and Fulham",
 	"demographics": {
-		"withdegree": 47.09,
 		"2015UKIP": 5.07,
+		"leave": 29.21,
 		"age18-29": 22.55,
-		"leave": 29.21
+		"withdegree": 47.09
 	},
 	"elections": {
 		"2019-12-12": {

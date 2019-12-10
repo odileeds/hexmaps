@@ -2,10 +2,10 @@
 	"id": "E14000575",
 	"title": "Blyth Valley",
 	"demographics": {
-		"withdegree": 8.62,
 		"2015UKIP": 22.32,
+		"leave": 59.88,
 		"age18-29": 13.92,
-		"leave": 59.88
+		"withdegree": 8.62
 	},
 	"elections": {
 		"2019-12-12": {

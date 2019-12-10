@@ -2,10 +2,10 @@
 	"id": "E14000605",
 	"title": "Bromsgrove",
 	"demographics": {
-		"withdegree": 17.36,
 		"2015UKIP": 15.62,
+		"leave": 55.37,
 		"age18-29": 11.67,
-		"leave": 55.37
+		"withdegree": 17.36
 	},
 	"elections": {
 		"2019-12-12": {

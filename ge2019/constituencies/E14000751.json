@@ -2,10 +2,10 @@
 	"id": "E14000751",
 	"title": "Hornchurch and Upminster",
 	"demographics": {
-		"withdegree": 10.48,
 		"2015UKIP": 25.3,
+		"leave": 69.49,
 		"age18-29": 13.87,
-		"leave": 69.49
+		"withdegree": 10.48
 	},
 	"elections": {
 		"2019-12-12": {

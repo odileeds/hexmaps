@@ -2,14 +2,15 @@
 	"id": "E14000685",
 	"title": "Eastleigh",
 	"demographics": {
-		"withdegree": 14.33,
 		"2015UKIP": 15.82,
+		"leave": 54.02,
 		"age18-29": 14.43,
-		"leave": 54.02
+		"withdegree": 14.33
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 83880,
 			"candidates": [{
 				"id": 4209,
 				"name": "Paul Holmes",

@@ -2,10 +2,10 @@
 	"id": "W07000041",
 	"title": "Ynys Môn",
 	"demographics": {
-		"withdegree": 13.82,
 		"2015UKIP": 14.66,
+		"leave": 50.94,
 		"age18-29": 12.71,
-		"leave": 50.94
+		"withdegree": 13.82
 	},
 	"elections": {
 		"2019-12-12": {

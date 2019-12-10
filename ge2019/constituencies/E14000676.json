@@ -2,14 +2,15 @@
 	"id": "E14000676",
 	"title": "Ealing, Southall",
 	"demographics": {
-		"withdegree": 24.01,
 		"2015UKIP": 4.08,
+		"leave": 41.83,
 		"age18-29": 20.07,
-		"leave": 41.83
+		"withdegree": 24.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64580,
 			"candidates": [{
 				"id": 426,
 				"name": "Suzanne Fernandes",

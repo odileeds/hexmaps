@@ -3,12 +3,13 @@
 	"title": "Coatbridge, Chryston and Bellshill",
 	"demographics": {
 		"2015UKIP": 2.07,
-		"age18-29": 15.05,
-		"leave": 38.72
+		"leave": 38.72,
+		"age18-29": 15.05
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72943,
 			"candidates": [{
 				"id": 7454,
 				"name": "Patrick McAleer",

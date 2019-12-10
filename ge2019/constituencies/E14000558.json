@@ -2,14 +2,15 @@
 	"id": "E14000558",
 	"title": "Bexleyheath and Crayford",
 	"demographics": {
-		"withdegree": 11.3,
 		"2015UKIP": 21.02,
+		"leave": 65.05,
 		"age18-29": 14.56,
-		"leave": 65.05
+		"withdegree": 11.3
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65466,
 			"candidates": [{
 				"id": 135,
 				"name": "David Evennett",

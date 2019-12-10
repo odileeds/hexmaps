@@ -2,14 +2,15 @@
 	"id": "E14000712",
 	"title": "Gloucester",
 	"demographics": {
-		"withdegree": 10.98,
 		"2015UKIP": 14.26,
+		"leave": 58.9,
 		"age18-29": 16.95,
-		"leave": 58.9
+		"withdegree": 10.98
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81332,
 			"candidates": [{
 				"id": 3224,
 				"name": "Richard Graham",

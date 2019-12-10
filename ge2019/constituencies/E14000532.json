@@ -2,14 +2,15 @@
 	"id": "E14000532",
 	"title": "Altrincham and Sale West",
 	"demographics": {
-		"withdegree": 28.6,
 		"2015UKIP": 8.01,
+		"leave": 38.47,
 		"age18-29": 11.86,
-		"leave": 38.47
+		"withdegree": 28.6
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73146,
 			"candidates": [{
 				"id": 1433,
 				"name": "Graham Brady",

@@ -2,14 +2,15 @@
 	"id": "E14000801",
 	"title": "Luton South",
 	"demographics": {
-		"withdegree": 15.42,
 		"2015UKIP": 12.15,
+		"leave": 55.44,
 		"age18-29": 23.09,
-		"leave": 55.44
+		"withdegree": 15.42
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69338,
 			"candidates": [{
 				"id": 1602,
 				"name": "Ben Foley",

@@ -2,14 +2,15 @@
 	"id": "E14001059",
 	"title": "Wythenshawe and Sale East",
 	"demographics": {
-		"withdegree": 16.6,
 		"2015UKIP": 14.69,
+		"leave": 49.87,
 		"age18-29": 16.7,
-		"leave": 49.87
+		"withdegree": 16.6
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76313,
 			"candidates": [{
 				"id": 5544,
 				"name": "Mike Kane",

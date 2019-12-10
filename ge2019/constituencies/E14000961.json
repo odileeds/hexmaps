@@ -2,14 +2,15 @@
 	"id": "E14000961",
 	"title": "St Austell and Newquay",
 	"demographics": {
-		"withdegree": 9.53,
 		"2015UKIP": 16.88,
+		"leave": 63.51,
 		"age18-29": 12.87,
-		"leave": 63.51
+		"withdegree": 9.53
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79930,
 			"candidates": [{
 				"id": 1318,
 				"name": "Dick Cole",

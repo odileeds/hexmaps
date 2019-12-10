@@ -2,14 +2,15 @@
 	"id": "E14001002",
 	"title": "Tottenham",
 	"demographics": {
-		"withdegree": 22.79,
 		"2015UKIP": 3.55,
+		"leave": 23.78,
 		"age18-29": 21.81,
-		"leave": 23.78
+		"withdegree": 22.79
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75740,
 			"candidates": [{
 				"id": 4065,
 				"name": "Frank Sweeney",

@@ -2,10 +2,10 @@
 	"id": "E14000843",
 	"title": "North East Derbyshire",
 	"demographics": {
-		"withdegree": 10.95,
 		"2015UKIP": 15.92,
+		"leave": 62.17,
 		"age18-29": 12.14,
-		"leave": 62.17
+		"withdegree": 10.95
 	},
 	"elections": {
 		"2019-12-12": {

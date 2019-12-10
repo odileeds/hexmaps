@@ -2,14 +2,15 @@
 	"id": "E14000768",
 	"title": "Kensington",
 	"demographics": {
-		"withdegree": 46.27,
 		"2015UKIP": 4.47,
+		"leave": 31.35,
 		"age18-29": 20.1,
-		"leave": 31.35
+		"withdegree": 46.27
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64609,
 			"candidates": [{
 				"id": 3936,
 				"name": "Sam Gyimah",

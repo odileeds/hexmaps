@@ -2,14 +2,15 @@
 	"id": "E14000796",
 	"title": "Liverpool, West Derby",
 	"demographics": {
-		"withdegree": 9.31,
 		"2015UKIP": 8.47,
+		"leave": 50.28,
 		"age18-29": 16.37,
-		"leave": 50.28
+		"withdegree": 9.31
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65640,
 			"candidates": [{
 				"id": 2480,
 				"name": "Steve Radford",

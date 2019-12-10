@@ -2,14 +2,15 @@
 	"id": "E14000808",
 	"title": "Manchester, Gorton",
 	"demographics": {
-		"withdegree": 20.85,
 		"2015UKIP": 8.17,
+		"leave": 37.9,
 		"age18-29": 30.2,
-		"leave": 37.9
+		"withdegree": 20.85
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76419,
 			"candidates": [{
 				"id": 5092,
 				"name": "Jackie Pearcey",

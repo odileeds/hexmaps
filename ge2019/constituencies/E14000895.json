@@ -2,14 +2,15 @@
 	"id": "E14000895",
 	"title": "Richmond (Yorks)",
 	"demographics": {
-		"withdegree": 16.13,
 		"2015UKIP": 15.17,
+		"leave": 54.7,
 		"age18-29": 15.06,
-		"leave": 54.7
+		"withdegree": 16.13
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82601,
 			"candidates": [{
 				"id": 5371,
 				"name": "Rishi Sunak",

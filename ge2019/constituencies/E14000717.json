@@ -2,14 +2,15 @@
 	"id": "E14000717",
 	"title": "Great Yarmouth",
 	"demographics": {
-		"withdegree": 5.5,
 		"2015UKIP": 23.09,
+		"leave": 71.5,
 		"age18-29": 14.34,
-		"leave": 71.5
+		"withdegree": 5.5
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71957,
 			"candidates": [{
 				"id": 39,
 				"name": "Margaret McMahon-Morris",

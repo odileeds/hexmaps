@@ -3,12 +3,13 @@
 	"title": "Perth and North Perthshire",
 	"demographics": {
 		"2015UKIP": 2.05,
-		"age18-29": 14.13,
-		"leave": 40.17
+		"leave": 40.17,
+		"age18-29": 14.13
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72600,
 			"candidates": [{
 				"id": 2419,
 				"name": "Pete Wishart",

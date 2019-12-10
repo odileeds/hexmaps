@@ -2,14 +2,15 @@
 	"id": "E14000963",
 	"title": "St Helens South and Whiston",
 	"demographics": {
-		"withdegree": 9.99,
 		"2015UKIP": 13.98,
+		"leave": 56.12,
 		"age18-29": 14.7,
-		"leave": 56.12
+		"withdegree": 9.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79058,
 			"candidates": [{
 				"id": 3797,
 				"name": "Brian Spencer",

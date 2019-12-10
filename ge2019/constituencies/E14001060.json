@@ -2,10 +2,10 @@
 	"id": "E14001060",
 	"title": "Yeovil",
 	"demographics": {
-		"withdegree": 10.89,
 		"2015UKIP": 13.43,
+		"leave": 59.29,
 		"age18-29": 13.76,
-		"leave": 59.29
+		"withdegree": 10.89
 	},
 	"elections": {
 		"2019-12-12": {

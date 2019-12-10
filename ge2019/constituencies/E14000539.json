@@ -2,14 +2,15 @@
 	"id": "E14000539",
 	"title": "Banbury",
 	"demographics": {
-		"withdegree": 16.7,
 		"2015UKIP": 13.88,
+		"leave": 50.54,
 		"age18-29": 14.53,
-		"leave": 50.54
+		"withdegree": 16.7
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 90113,
 			"candidates": [{
 				"id": 4907,
 				"name": "Victoria Prentis",

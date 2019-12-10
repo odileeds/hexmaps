@@ -2,14 +2,15 @@
 	"id": "E14000910",
 	"title": "Saffron Walden",
 	"demographics": {
-		"withdegree": 19.06,
 		"2015UKIP": 13.78,
+		"leave": 50.92,
 		"age18-29": 11.4,
-		"leave": 50.92
+		"withdegree": 19.06
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 87117,
 			"candidates": [{
 				"id": 1632,
 				"name": "Mike Hibbs",

@@ -2,10 +2,10 @@
 	"id": "E14000635",
 	"title": "Chippenham",
 	"demographics": {
-		"withdegree": 17.29,
 		"2015UKIP": 10.62,
+		"leave": 52.33,
 		"age18-29": 12.09,
-		"leave": 52.33
+		"withdegree": 17.29
 	},
 	"elections": {
 		"2019-12-12": {

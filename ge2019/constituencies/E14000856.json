@@ -2,14 +2,15 @@
 	"id": "E14000856",
 	"title": "North West Durham",
 	"demographics": {
-		"withdegree": 11.99,
 		"2015UKIP": 16.97,
+		"leave": 54.98,
 		"age18-29": 13.2,
-		"leave": 54.98
+		"withdegree": 11.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72166,
 			"candidates": [{
 				"id": 2338,
 				"name": "Watts Stelling",

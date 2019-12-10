@@ -2,10 +2,10 @@
 	"id": "E14000744",
 	"title": "Hertford and Stortford",
 	"demographics": {
-		"withdegree": 22.39,
 		"2015UKIP": 13.39,
+		"leave": 49.21,
 		"age18-29": 12.68,
-		"leave": 49.21
+		"withdegree": 22.39
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,12 +3,13 @@
 	"title": "Dumfriesshire, Clydesdale and Tweeddale",
 	"demographics": {
 		"2015UKIP": 2.82,
-		"age18-29": 10.64,
-		"leave": 43.94
+		"leave": 43.94,
+		"age18-29": 10.64
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68330,
 			"candidates": [{
 				"id": 1592,
 				"name": "David Mundell",

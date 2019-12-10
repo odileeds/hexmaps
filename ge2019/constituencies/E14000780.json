@@ -2,14 +2,15 @@
 	"id": "E14000780",
 	"title": "Leeds North West",
 	"demographics": {
-		"withdegree": 24.57,
 		"2015UKIP": 6.91,
+		"leave": 35.4,
 		"age18-29": 32.22,
-		"leave": 35.4
+		"withdegree": 24.57
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67741,
 			"candidates": [{
 				"id": 4370,
 				"name": "Alex Sobel",

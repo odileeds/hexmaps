@@ -2,14 +2,15 @@
 	"id": "E14000611",
 	"title": "Bury North",
 	"demographics": {
-		"withdegree": 15.14,
 		"2015UKIP": 12.37,
+		"leave": 53.66,
 		"age18-29": 14.23,
-		"leave": 53.66
+		"withdegree": 15.14
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68802,
 			"candidates": [{
 				"id": 4163,
 				"name": "James Daly",

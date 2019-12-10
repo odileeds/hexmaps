@@ -2,14 +2,15 @@
 	"id": "E14000587",
 	"title": "Bradford East",
 	"demographics": {
-		"withdegree": 9.92,
 		"2015UKIP": 9.91,
+		"leave": 55.16,
 		"age18-29": 18.15,
-		"leave": 55.16
+		"withdegree": 9.92
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73206,
 			"candidates": [{
 				"id": 4825,
 				"name": "Imran Hussain",

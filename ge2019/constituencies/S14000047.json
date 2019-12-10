@@ -3,12 +3,13 @@
 	"title": "Motherwell and Wishaw",
 	"demographics": {
 		"2015UKIP": 2.67,
-		"age18-29": 15.84,
-		"leave": 36.97
+		"leave": 36.97,
+		"age18-29": 15.84
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68856,
 			"candidates": [{
 				"id": 6052,
 				"name": "Marion Fellows",

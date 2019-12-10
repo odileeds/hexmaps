@@ -2,14 +2,15 @@
 	"id": "E14000607",
 	"title": "Broxtowe",
 	"demographics": {
-		"withdegree": 19.89,
 		"2015UKIP": 10.62,
+		"leave": 52.41,
 		"age18-29": 14.64,
-		"leave": 52.41
+		"withdegree": 19.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73052,
 			"candidates": [{
 				"id": 4072,
 				"name": "Anna Soubry",

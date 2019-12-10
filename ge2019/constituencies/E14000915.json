@@ -2,14 +2,15 @@
 	"id": "E14000915",
 	"title": "Sedgefield",
 	"demographics": {
-		"withdegree": 10.14,
 		"2015UKIP": 16.6,
+		"leave": 58.95,
 		"age18-29": 13,
-		"leave": 58.95
+		"withdegree": 10.14
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64325,
 			"candidates": [{
 				"id": 174,
 				"name": "Phil Wilson",

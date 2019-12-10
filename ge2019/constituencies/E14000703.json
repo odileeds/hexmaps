@@ -2,10 +2,10 @@
 	"id": "E14000703",
 	"title": "Finchley and Golders Green",
 	"demographics": {
-		"withdegree": 38.19,
 		"2015UKIP": 3.41,
+		"leave": 30.92,
 		"age18-29": 18.33,
-		"leave": 30.92
+		"withdegree": 38.19
 	},
 	"elections": {
 		"2019-12-12": {

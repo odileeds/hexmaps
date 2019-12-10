@@ -2,14 +2,15 @@
 	"id": "E14000655",
 	"title": "Croydon North",
 	"demographics": {
-		"withdegree": 20.9,
 		"2015UKIP": 5.42,
+		"leave": 41.17,
 		"age18-29": 17.68,
-		"leave": 41.17
+		"withdegree": 20.9
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 88466,
 			"candidates": [{
 				"id": 5372,
 				"name": "Steve Reed",

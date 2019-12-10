@@ -2,10 +2,10 @@
 	"id": "E14000618",
 	"title": "Cannock Chase",
 	"demographics": {
-		"withdegree": 7.6,
 		"2015UKIP": 17.46,
+		"leave": 68.86,
 		"age18-29": 14.77,
-		"leave": 68.86
+		"withdegree": 7.6
 	},
 	"elections": {
 		"2019-12-12": {

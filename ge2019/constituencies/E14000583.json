@@ -2,14 +2,15 @@
 	"id": "E14000583",
 	"title": "Bosworth",
 	"demographics": {
-		"withdegree": 12.88,
 		"2015UKIP": 17.43,
+		"leave": 60.8,
 		"age18-29": 12.62,
-		"leave": 60.8
+		"withdegree": 12.88
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81537,
 			"candidates": [{
 				"id": 388,
 				"name": "Michael Mullaney",

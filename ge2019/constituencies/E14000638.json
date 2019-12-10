@@ -2,14 +2,15 @@
 	"id": "E14000638",
 	"title": "Christchurch",
 	"demographics": {
-		"withdegree": 11.26,
 		"2015UKIP": 21.45,
+		"leave": 59.87,
 		"age18-29": 9.51,
-		"leave": 59.87
+		"withdegree": 11.26
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71521,
 			"candidates": [{
 				"id": 596,
 				"name": "Christopher Chope",

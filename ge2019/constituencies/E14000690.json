@@ -2,14 +2,15 @@
 	"id": "E14000690",
 	"title": "Eltham",
 	"demographics": {
-		"withdegree": 19.23,
 		"2015UKIP": 15.02,
+		"leave": 51.82,
 		"age18-29": 16.65,
-		"leave": 51.82
+		"withdegree": 19.23
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64046,
 			"candidates": [{
 				"id": 4037,
 				"name": "Clive Efford",

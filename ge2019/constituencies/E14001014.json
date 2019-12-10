@@ -2,10 +2,10 @@
 	"id": "E14001014",
 	"title": "Wansbeck",
 	"demographics": {
-		"withdegree": 10.95,
 		"2015UKIP": 18.2,
+		"leave": 56.19,
 		"age18-29": 13.41,
-		"leave": 56.19
+		"withdegree": 10.95
 	},
 	"elections": {
 		"2019-12-12": {

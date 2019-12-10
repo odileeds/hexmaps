@@ -2,10 +2,10 @@
 	"id": "E14000694",
 	"title": "Epsom and Ewell",
 	"demographics": {
-		"withdegree": 23.42,
 		"2015UKIP": 12.45,
+		"leave": 47.96,
 		"age18-29": 12.28,
-		"leave": 47.96
+		"withdegree": 23.42
 	},
 	"elections": {
 		"2019-12-12": {

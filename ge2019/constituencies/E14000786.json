@@ -2,14 +2,15 @@
 	"id": "E14000786",
 	"title": "Lewes",
 	"demographics": {
-		"withdegree": 19.04,
 		"2015UKIP": 10.74,
+		"leave": 46.97,
 		"age18-29": 10.95,
-		"leave": 46.97
+		"withdegree": 19.04
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71503,
 			"candidates": [{
 				"id": 897,
 				"name": "Maria Caulfield",

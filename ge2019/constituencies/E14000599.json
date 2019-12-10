@@ -2,14 +2,15 @@
 	"id": "E14000599",
 	"title": "Bristol East",
 	"demographics": {
-		"withdegree": 14.36,
 		"2015UKIP": 15.48,
+		"leave": 46.8,
 		"age18-29": 17.98,
-		"leave": 46.8
+		"withdegree": 14.36
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73867,
 			"candidates": [{
 				"id": 893,
 				"name": "Kerry McCarthy",

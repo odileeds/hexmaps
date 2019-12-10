@@ -3,12 +3,13 @@
 	"title": "Aberdeen South",
 	"demographics": {
 		"2015UKIP": 1.85,
-		"age18-29": 21.04,
-		"leave": 32.33
+		"leave": 32.33,
+		"age18-29": 21.04
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65719,
 			"candidates": [{
 				"id": 21068,
 				"name": "Ian Yuill",

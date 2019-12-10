@@ -2,14 +2,15 @@
 	"id": "E14000931",
 	"title": "Solihull",
 	"demographics": {
-		"withdegree": 18.74,
 		"2015UKIP": 11.61,
+		"leave": 53.35,
 		"age18-29": 12.41,
-		"leave": 53.35
+		"withdegree": 18.74
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78762,
 			"candidates": [{
 				"id": 4225,
 				"name": "Julian Knight",

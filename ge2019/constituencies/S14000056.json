@@ -3,12 +3,13 @@
 	"title": "Rutherglen and Hamilton West",
 	"demographics": {
 		"2015UKIP": 2.26,
-		"age18-29": 14.52,
-		"leave": 37.34
+		"leave": 37.34,
+		"age18-29": 14.52
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80918,
 			"candidates": [{
 				"id": 5918,
 				"name": "Margaret Ferrier",

@@ -2,14 +2,15 @@
 	"id": "E14000789",
 	"title": "Lewisham, Deptford",
 	"demographics": {
-		"withdegree": 34.31,
 		"2015UKIP": 4.24,
+		"leave": 24.67,
 		"age18-29": 24.01,
-		"leave": 24.67
+		"withdegree": 34.31
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80617,
 			"candidates": [{
 				"id": 4372,
 				"name": "Vicky Foxcroft",

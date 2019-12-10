@@ -2,12 +2,13 @@
 	"id": "S14000033",
 	"title": "Glasgow North West",
 	"demographics": {
-		"age18-29": 18.68,
-		"leave": 31.49
+		"leave": 31.49,
+		"age18-29": 18.68
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 63402,
 			"candidates": [{
 				"id": 5878,
 				"name": "Carol Monaghan",

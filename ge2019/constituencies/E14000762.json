@@ -2,14 +2,15 @@
 	"id": "E14000762",
 	"title": "Isle of Wight",
 	"demographics": {
-		"withdegree": 10.77,
 		"2015UKIP": 21.18,
+		"leave": 61.95,
 		"age18-29": 11.89,
-		"leave": 61.95
+		"withdegree": 10.77
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 113021,
 			"candidates": [{
 				"id": 4912,
 				"name": "Vix Lowthion",

@@ -2,14 +2,15 @@
 	"id": "E14001053",
 	"title": "Workington",
 	"demographics": {
-		"withdegree": 10.46,
 		"2015UKIP": 19.6,
+		"leave": 60.32,
 		"age18-29": 12.4,
-		"leave": 60.32
+		"withdegree": 10.46
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61370,
 			"candidates": [{
 				"id": 2301,
 				"name": "Neil Hughes",

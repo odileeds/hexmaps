@@ -2,10 +2,10 @@
 	"id": "E14001057",
 	"title": "Wyre and Preston North",
 	"demographics": {
-		"withdegree": 17.88,
 		"2015UKIP": 13.18,
+		"leave": 54.04,
 		"age18-29": 11.42,
-		"leave": 54.04
+		"withdegree": 17.88
 	},
 	"elections": {
 		"2019-12-12": {

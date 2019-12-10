@@ -2,14 +2,15 @@
 	"id": "E14000787",
 	"title": "Lewisham East",
 	"demographics": {
-		"withdegree": 25.64,
 		"2015UKIP": 9.05,
+		"leave": 35.45,
 		"age18-29": 16.5,
-		"leave": 35.45
+		"withdegree": 25.64
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67857,
 			"candidates": [{
 				"id": 7412,
 				"name": "Maureen Martin",

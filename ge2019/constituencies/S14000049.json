@@ -2,12 +2,13 @@
 	"id": "S14000049",
 	"title": "North East Fife",
 	"demographics": {
-		"age18-29": 19.15,
-		"leave": 38.14
+		"leave": 38.14,
+		"age18-29": 19.15
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 60905,
 			"candidates": [{
 				"id": 5925,
 				"name": "Stephen Gethins",

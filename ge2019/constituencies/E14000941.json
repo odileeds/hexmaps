@@ -2,14 +2,15 @@
 	"id": "E14000941",
 	"title": "South Norfolk",
 	"demographics": {
-		"withdegree": 14.99,
 		"2015UKIP": 13.74,
+		"leave": 51.11,
 		"age18-29": 11.09,
-		"leave": 51.11
+		"withdegree": 14.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 86214,
 			"candidates": [{
 				"id": 235,
 				"name": "Richard Bacon",

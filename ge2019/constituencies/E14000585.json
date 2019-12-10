@@ -2,14 +2,15 @@
 	"id": "E14000585",
 	"title": "Bournemouth West",
 	"demographics": {
-		"withdegree": 13.9,
 		"2015UKIP": 18.54,
+		"leave": 57.9,
 		"age18-29": 23.29,
-		"leave": 57.9
+		"withdegree": 13.9
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74211,
 			"candidates": [{
 				"id": 382,
 				"name": "David Stokes",

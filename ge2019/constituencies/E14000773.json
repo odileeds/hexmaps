@@ -2,10 +2,10 @@
 	"id": "E14000773",
 	"title": "Kingston upon Hull West and Hessle",
 	"demographics": {
-		"withdegree": 8.6,
 		"2015UKIP": 19.85,
+		"leave": 67.84,
 		"age18-29": 18,
-		"leave": 67.84
+		"withdegree": 8.6
 	},
 	"elections": {
 		"2019-12-12": {

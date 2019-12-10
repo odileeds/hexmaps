@@ -2,14 +2,15 @@
 	"id": "E14000778",
 	"title": "Leeds East",
 	"demographics": {
-		"withdegree": 9.29,
 		"2015UKIP": 19,
+		"leave": 60.91,
 		"age18-29": 16.14,
-		"leave": 60.91
+		"withdegree": 9.29
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67286,
 			"candidates": [{
 				"id": 4369,
 				"name": "Richard Burgon",

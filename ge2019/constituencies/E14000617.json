@@ -2,14 +2,15 @@
 	"id": "E14000617",
 	"title": "Cambridge",
 	"demographics": {
-		"withdegree": 41.01,
 		"2015UKIP": 5.15,
+		"leave": 26.23,
 		"age18-29": 31.42,
-		"leave": 26.23
+		"withdegree": 41.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79951,
 			"candidates": [{
 				"id": 45,
 				"name": "Daniel Zeichner",

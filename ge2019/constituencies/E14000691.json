@@ -2,14 +2,15 @@
 	"id": "E14000691",
 	"title": "Enfield North",
 	"demographics": {
-		"withdegree": 17.49,
 		"2015UKIP": 8.96,
+		"leave": 49.22,
 		"age18-29": 16.25,
-		"leave": 49.22
+		"withdegree": 17.49
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68066,
 			"candidates": [{
 				"id": 8002,
 				"name": "Joanne Louise Laban",

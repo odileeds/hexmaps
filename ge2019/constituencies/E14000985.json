@@ -2,14 +2,15 @@
 	"id": "E14000985",
 	"title": "Sutton Coldfield",
 	"demographics": {
-		"withdegree": 21.34,
 		"2015UKIP": 14.73,
+		"leave": 51.67,
 		"age18-29": 11.91,
-		"leave": 51.67
+		"withdegree": 21.34
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75638,
 			"candidates": [{
 				"id": 681,
 				"name": "Andrew Mitchell",

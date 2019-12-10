@@ -2,14 +2,15 @@
 	"id": "E14000999",
 	"title": "Torbay",
 	"demographics": {
-		"withdegree": 9.57,
 		"2015UKIP": 13.6,
+		"leave": 62.66,
 		"age18-29": 13.04,
-		"leave": 62.66
+		"withdegree": 9.57
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75054,
 			"candidates": [{
 				"id": 2830,
 				"name": "Kevin Foster",

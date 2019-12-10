@@ -2,10 +2,10 @@
 	"id": "E14000842",
 	"title": "North East Cambridgeshire",
 	"demographics": {
-		"withdegree": 6.91,
 		"2015UKIP": 22.5,
+		"leave": 69.45,
 		"age18-29": 13.63,
-		"leave": 69.45
+		"withdegree": 6.91
 	},
 	"elections": {
 		"2019-12-12": {

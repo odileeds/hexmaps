@@ -2,14 +2,15 @@
 	"id": "E14000766",
 	"title": "Keighley",
 	"demographics": {
-		"withdegree": 15.89,
 		"2015UKIP": 11.53,
+		"leave": 53.33,
 		"age18-29": 13.39,
-		"leave": 53.33
+		"withdegree": 15.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72778,
 			"candidates": [{
 				"id": 4363,
 				"name": "John Grogan",

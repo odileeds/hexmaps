@@ -2,14 +2,15 @@
 	"id": "E14000571",
 	"title": "Blackley and Broughton",
 	"demographics": {
-		"withdegree": 13.6,
 		"2015UKIP": 16.46,
+		"leave": 51.33,
 		"age18-29": 19.92,
-		"leave": 51.33
+		"withdegree": 13.6
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73372,
 			"candidates": [{
 				"id": 1179,
 				"name": "Graham Stringer",

@@ -2,14 +2,15 @@
 	"id": "E14000906",
 	"title": "Ruislip, Northwood and Pinner",
 	"demographics": {
-		"withdegree": 27.25,
 		"2015UKIP": 10.93,
+		"leave": 49.02,
 		"age18-29": 12.64,
-		"leave": 49.02
+		"withdegree": 27.25
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73389,
 			"candidates": [{
 				"id": 34505,
 				"name": "Sarah Green",

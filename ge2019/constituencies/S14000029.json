@@ -3,12 +3,13 @@
 	"title": "Glasgow Central",
 	"demographics": {
 		"2015UKIP": 2,
-		"age18-29": 34.5,
-		"leave": 28.75
+		"leave": 28.75,
+		"age18-29": 34.5
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69230,
 			"candidates": [{
 				"id": 5784,
 				"name": "Alison Thewliss",

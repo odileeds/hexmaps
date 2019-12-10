@@ -2,10 +2,10 @@
 	"id": "E14000746",
 	"title": "Hexham",
 	"demographics": {
-		"withdegree": 22.06,
 		"2015UKIP": 9.93,
+		"leave": 45.39,
 		"age18-29": 10.64,
-		"leave": 45.39
+		"withdegree": 22.06
 	},
 	"elections": {
 		"2019-12-12": {

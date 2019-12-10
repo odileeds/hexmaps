@@ -2,14 +2,15 @@
 	"id": "E14001044",
 	"title": "Wirral West",
 	"demographics": {
-		"withdegree": 18.66,
 		"2015UKIP": 6.62,
+		"leave": 44.69,
 		"age18-29": 11,
-		"leave": 44.69
+		"withdegree": 18.66
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 55550,
 			"candidates": [{
 				"id": 4469,
 				"name": "Margaret Greenwood",

@@ -2,14 +2,15 @@
 	"id": "E14001016",
 	"title": "Warley",
 	"demographics": {
-		"withdegree": 11.69,
 		"2015UKIP": 16.49,
+		"leave": 61.83,
 		"age18-29": 17.61,
-		"leave": 61.83
+		"withdegree": 11.69
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 62421,
 			"candidates": [{
 				"id": 3777,
 				"name": "John Francis Spellar",

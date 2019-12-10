@@ -3,12 +3,13 @@
 	"title": "West Aberdeenshire and Kincardine",
 	"demographics": {
 		"2015UKIP": 1.82,
-		"age18-29": 11.62,
-		"leave": 38.61
+		"leave": 38.61,
+		"age18-29": 11.62
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72640,
 			"candidates": [{
 				"id": 7650,
 				"name": "Fergus Mutch",

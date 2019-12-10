@@ -2,14 +2,15 @@
 	"id": "E14000863",
 	"title": "Norwich North",
 	"demographics": {
-		"withdegree": 10.67,
 		"2015UKIP": 13.73,
+		"leave": 57.32,
 		"age18-29": 15.81,
-		"leave": 57.32
+		"withdegree": 10.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67172,
 			"candidates": [{
 				"id": 1684,
 				"name": "Chloe Smith",

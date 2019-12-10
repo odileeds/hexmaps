@@ -2,14 +2,15 @@
 	"id": "E14000883",
 	"title": "Portsmouth North",
 	"demographics": {
-		"withdegree": 10.24,
 		"2015UKIP": 19.08,
+		"leave": 63.69,
 		"age18-29": 15.64,
-		"leave": 63.69
+		"withdegree": 10.24
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71299,
 			"candidates": [{
 				"id": 1692,
 				"name": "Penny Mordaunt",

@@ -2,14 +2,15 @@
 	"id": "E14000958",
 	"title": "Southport",
 	"demographics": {
-		"withdegree": 14.28,
 		"2015UKIP": 16.85,
+		"leave": 45.51,
 		"age18-29": 12.58,
-		"leave": 45.51
+		"withdegree": 14.28
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70837,
 			"candidates": [{
 				"id": 4779,
 				"name": "Liz Savage",

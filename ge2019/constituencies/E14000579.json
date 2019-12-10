@@ -2,14 +2,15 @@
 	"id": "E14000579",
 	"title": "Bolton South East",
 	"demographics": {
-		"withdegree": 9.21,
 		"2015UKIP": 23.63,
+		"leave": 63.42,
 		"age18-29": 16.8,
-		"leave": 63.42
+		"withdegree": 9.21
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69163,
 			"candidates": [{
 				"id": 662,
 				"name": "Yasmin Qureshi",

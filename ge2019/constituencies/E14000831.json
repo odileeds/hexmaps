@@ -2,14 +2,15 @@
 	"id": "E14000831",
 	"title": "Newcastle upon Tyne Central",
 	"demographics": {
-		"withdegree": 20.01,
 		"2015UKIP": 14.86,
+		"leave": 48.37,
 		"age18-29": 24.17,
-		"leave": 48.37
+		"withdegree": 20.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 57845,
 			"candidates": [{
 				"id": 3658,
 				"name": "Chi Onwurah",

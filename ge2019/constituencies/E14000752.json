@@ -2,14 +2,15 @@
 	"id": "E14000752",
 	"title": "Hornsey and Wood Green",
 	"demographics": {
-		"withdegree": 44.64,
 		"2015UKIP": 2.2,
+		"leave": 24.98,
 		"age18-29": 19.44,
-		"leave": 24.98
+		"withdegree": 44.64
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81814,
 			"candidates": [{
 				"id": 1986,
 				"name": "Dawn Barnes",

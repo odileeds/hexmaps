@@ -2,14 +2,15 @@
 	"id": "E14000913",
 	"title": "Scarborough and Whitby",
 	"demographics": {
-		"withdegree": 11.67,
 		"2015UKIP": 17.1,
+		"leave": 61.37,
 		"age18-29": 13.51,
-		"leave": 61.37
+		"withdegree": 11.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74394,
 			"candidates": [{
 				"id": 182,
 				"name": "Robert Goodwill",

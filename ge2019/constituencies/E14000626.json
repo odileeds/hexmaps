@@ -2,14 +2,15 @@
 	"id": "E14000626",
 	"title": "Chatham and Aylesford",
 	"demographics": {
-		"withdegree": 9.1,
 		"2015UKIP": 19.92,
+		"leave": 64.75,
 		"age18-29": 16.18,
-		"leave": 64.75
+		"withdegree": 9.1
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73305,
 			"candidates": [{
 				"id": 2759,
 				"name": "David Naghi",

@@ -2,14 +2,15 @@
 	"id": "E14001006",
 	"title": "Tynemouth",
 	"demographics": {
-		"withdegree": 18.47,
 		"2015UKIP": 12.23,
+		"leave": 47.84,
 		"age18-29": 12.35,
-		"leave": 47.84
+		"withdegree": 18.47
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77261,
 			"candidates": [{
 				"id": 2910,
 				"name": "Alan Campbell",

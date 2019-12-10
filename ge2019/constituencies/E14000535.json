@@ -2,14 +2,15 @@
 	"id": "E14000535",
 	"title": "Ashfield",
 	"demographics": {
-		"withdegree": 6.09,
 		"2015UKIP": 21.41,
+		"leave": 70.58,
 		"age18-29": 13.94,
-		"leave": 70.58
+		"withdegree": 6.09
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78204,
 			"candidates": [{
 				"id": 3232,
 				"name": "Jason Zadrozny",

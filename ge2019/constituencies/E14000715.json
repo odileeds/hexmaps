@@ -2,14 +2,15 @@
 	"id": "E14000715",
 	"title": "Gravesham",
 	"demographics": {
-		"withdegree": 10.68,
 		"2015UKIP": 18.56,
+		"leave": 65.38,
 		"age18-29": 15.33,
-		"leave": 65.38
+		"withdegree": 10.68
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73234,
 			"candidates": [{
 				"id": 1688,
 				"name": "Adam Holloway",

@@ -2,14 +2,15 @@
 	"id": "E14001029",
 	"title": "West Bromwich East",
 	"demographics": {
-		"withdegree": 8.22,
 		"2015UKIP": 21.2,
+		"leave": 67.59,
 		"age18-29": 16.27,
-		"leave": 67.59
+		"withdegree": 8.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 62111,
 			"candidates": [{
 				"id": 4754,
 				"name": "George Galloway",

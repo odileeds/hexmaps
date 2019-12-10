@@ -2,14 +2,15 @@
 	"id": "W07000067",
 	"title": "Carmarthen East and Dinefwr",
 	"demographics": {
-		"withdegree": 14.21,
 		"2015UKIP": 11.07,
+		"leave": 53.77,
 		"age18-29": 11.65,
-		"leave": 53.77
+		"withdegree": 14.21
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 57407,
 			"candidates": [{
 				"id": 3577,
 				"name": "Jonathan Edwards",

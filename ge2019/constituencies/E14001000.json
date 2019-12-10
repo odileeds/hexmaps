@@ -2,14 +2,15 @@
 	"id": "E14001000",
 	"title": "Torridge and West Devon",
 	"demographics": {
-		"withdegree": 13.11,
 		"2015UKIP": 18.33,
+		"leave": 57.07,
 		"age18-29": 10.65,
-		"leave": 57.07
+		"withdegree": 13.11
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79831,
 			"candidates": [{
 				"id": 552,
 				"name": "Geoffrey Cox",

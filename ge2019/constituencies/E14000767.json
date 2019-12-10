@@ -2,14 +2,15 @@
 	"id": "E14000767",
 	"title": "Kenilworth and Southam",
 	"demographics": {
-		"withdegree": 24.38,
 		"2015UKIP": 11.2,
+		"leave": 46.6,
 		"age18-29": 11.95,
-		"leave": 46.6
+		"withdegree": 24.38
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68156,
 			"candidates": [{
 				"id": 1604,
 				"name": "Jeremy Wright",

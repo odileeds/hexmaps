@@ -2,12 +2,13 @@
 	"id": "S14000059",
 	"title": "West Dunbartonshire",
 	"demographics": {
-		"age18-29": 15.44,
-		"leave": 38.01
+		"leave": 38.01,
+		"age18-29": 15.44
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66517,
 			"candidates": [{
 				"id": 6056,
 				"name": "Martin Docherty",

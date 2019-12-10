@@ -2,10 +2,10 @@
 	"id": "E14000769",
 	"title": "Kettering",
 	"demographics": {
-		"withdegree": 12.32,
 		"2015UKIP": 16.1,
+		"leave": 60.99,
 		"age18-29": 13.71,
-		"leave": 60.99
+		"withdegree": 12.32
 	},
 	"elections": {
 		"2019-12-12": {

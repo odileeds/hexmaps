@@ -2,14 +2,15 @@
 	"id": "E14001011",
 	"title": "Walsall North",
 	"demographics": {
-		"withdegree": 5.97,
 		"2015UKIP": 22.02,
+		"leave": 74.19,
 		"age18-29": 16.21,
-		"leave": 74.19
+		"withdegree": 5.97
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67177,
 			"candidates": [{
 				"id": 34351,
 				"name": "Eddie Hughes",

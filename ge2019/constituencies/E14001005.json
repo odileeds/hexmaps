@@ -2,14 +2,15 @@
 	"id": "E14001005",
 	"title": "Twickenham",
 	"demographics": {
-		"withdegree": 39.65,
 		"2015UKIP": 4.95,
+		"leave": 33.68,
 		"age18-29": 14.06,
-		"leave": 33.68
+		"withdegree": 39.65
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82866,
 			"candidates": [{
 				"id": 3162,
 				"name": "Munira Wilson",

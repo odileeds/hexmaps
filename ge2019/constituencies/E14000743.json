@@ -2,14 +2,15 @@
 	"id": "E14000743",
 	"title": "Hereford and South Herefordshire",
 	"demographics": {
-		"withdegree": 13.31,
 		"2015UKIP": 16.83,
+		"leave": 60.15,
 		"age18-29": 14.28,
-		"leave": 60.15
+		"withdegree": 13.31
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72085,
 			"candidates": [{
 				"id": 301,
 				"name": "Lucy Hurds",

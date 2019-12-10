@@ -2,10 +2,10 @@
 	"id": "E14000880",
 	"title": "Plymouth, Sutton and Devonport",
 	"demographics": {
-		"withdegree": 16,
 		"2015UKIP": 14.03,
+		"leave": 54.41,
 		"age18-29": 28.97,
-		"leave": 54.41
+		"withdegree": 16
 	},
 	"elections": {
 		"2019-12-12": {

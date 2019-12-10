@@ -2,14 +2,15 @@
 	"id": "E14000818",
 	"title": "Mid Worcestershire",
 	"demographics": {
-		"withdegree": 14.8,
 		"2015UKIP": 17.68,
+		"leave": 58.94,
 		"age18-29": 11.79,
-		"leave": 58.94
+		"withdegree": 14.8
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78221,
 			"candidates": [{
 				"id": 2443,
 				"name": "Margaret Rowley",

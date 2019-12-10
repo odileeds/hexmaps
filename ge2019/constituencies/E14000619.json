@@ -2,14 +2,15 @@
 	"id": "E14000619",
 	"title": "Canterbury",
 	"demographics": {
-		"withdegree": 20.44,
 		"2015UKIP": 13.63,
+		"leave": 45.34,
 		"age18-29": 25.35,
-		"leave": 45.34
+		"withdegree": 20.44
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80203,
 			"candidates": [{
 				"id": 5426,
 				"name": "Anna Firth",

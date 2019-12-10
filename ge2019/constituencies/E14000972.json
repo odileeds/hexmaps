@@ -2,10 +2,10 @@
 	"id": "E14000972",
 	"title": "Stoke-on-Trent Central",
 	"demographics": {
-		"withdegree": 10.18,
 		"2015UKIP": 22.65,
+		"leave": 65.02,
 		"age18-29": 21.83,
-		"leave": 65.02
+		"withdegree": 10.18
 	},
 	"elections": {
 		"2019-12-12": {

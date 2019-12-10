@@ -3,12 +3,13 @@
 	"title": "Caithness, Sutherland and Easter Ross",
 	"demographics": {
 		"2015UKIP": 2.87,
-		"age18-29": 12.06,
-		"leave": 49.44
+		"leave": 49.44,
+		"age18-29": 12.06
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 46930,
 			"candidates": [{
 				"id": 6835,
 				"name": "Sandra Skinner",

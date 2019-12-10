@@ -2,10 +2,10 @@
 	"id": "E14000945",
 	"title": "South Staffordshire",
 	"demographics": {
-		"withdegree": 12.34,
 		"2015UKIP": 16.67,
+		"leave": 65.24,
 		"age18-29": 12.82,
-		"leave": 65.24
+		"withdegree": 12.34
 	},
 	"elections": {
 		"2019-12-12": {

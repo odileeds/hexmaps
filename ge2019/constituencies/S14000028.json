@@ -3,12 +3,13 @@
 	"title": "Falkirk",
 	"demographics": {
 		"2015UKIP": 3.03,
-		"age18-29": 13.71,
-		"leave": 41.99
+		"leave": 41.99,
+		"age18-29": 13.71
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 84472,
 			"candidates": [{
 				"id": 1788,
 				"name": "John McNally",

@@ -2,14 +2,15 @@
 	"id": "E14000885",
 	"title": "Preston",
 	"demographics": {
-		"withdegree": 12.98,
 		"2015UKIP": 15.35,
+		"leave": 56.85,
 		"age18-29": 26.23,
-		"leave": 56.85
+		"withdegree": 12.98
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 59672,
 			"candidates": [{
 				"id": 3878,
 				"name": "Mark Hendrick",

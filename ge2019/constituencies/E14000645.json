@@ -2,14 +2,15 @@
 	"id": "E14000645",
 	"title": "Colne Valley",
 	"demographics": {
-		"withdegree": 18.62,
 		"2015UKIP": 10.1,
+		"leave": 49.82,
 		"age18-29": 13.36,
-		"leave": 49.82
+		"withdegree": 18.62
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 84174,
 			"candidates": [{
 				"id": 294,
 				"name": "Melanie Roberts",

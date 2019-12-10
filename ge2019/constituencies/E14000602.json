@@ -2,14 +2,15 @@
 	"id": "E14000602",
 	"title": "Bristol West",
 	"demographics": {
-		"withdegree": 40.5,
 		"2015UKIP": 3.02,
+		"leave": 20.71,
 		"age18-29": 35.46,
-		"leave": 20.71
+		"withdegree": 40.5
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 99253,
 			"candidates": [{
 				"id": 4281,
 				"name": "Thangam Debbonaire",

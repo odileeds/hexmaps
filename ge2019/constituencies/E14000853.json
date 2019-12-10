@@ -2,14 +2,15 @@
 	"id": "E14000853",
 	"title": "North Tyneside",
 	"demographics": {
-		"withdegree": 11.65,
 		"2015UKIP": 16.27,
+		"leave": 59.37,
 		"age18-29": 15.23,
-		"leave": 59.37
+		"withdegree": 11.65
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78902,
 			"candidates": [{
 				"id": 103,
 				"name": "Chris Boyle",

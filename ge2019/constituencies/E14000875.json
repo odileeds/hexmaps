@@ -2,14 +2,15 @@
 	"id": "E14000875",
 	"title": "Pendle",
 	"demographics": {
-		"withdegree": 10.42,
 		"2015UKIP": 12.18,
+		"leave": 63.15,
 		"age18-29": 15.85,
-		"leave": 63.15
+		"withdegree": 10.42
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65289,
 			"candidates": [{
 				"id": 2871,
 				"name": "Andrew Stephenson",

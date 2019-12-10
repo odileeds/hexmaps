@@ -2,14 +2,15 @@
 	"id": "E14000654",
 	"title": "Croydon Central",
 	"demographics": {
-		"withdegree": 19.94,
 		"2015UKIP": 9.09,
+		"leave": 50.31,
 		"age18-29": 16.99,
-		"leave": 50.31
+		"withdegree": 19.94
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81410,
 			"candidates": [{
 				"id": 4316,
 				"name": "Sarah Jones",

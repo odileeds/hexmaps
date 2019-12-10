@@ -2,14 +2,15 @@
 	"id": "E14000901",
 	"title": "Romsey and Southampton North",
 	"demographics": {
-		"withdegree": 22.05,
 		"2015UKIP": 11.39,
+		"leave": 45.81,
 		"age18-29": 18.39,
-		"leave": 45.81
+		"withdegree": 22.05
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68228,
 			"candidates": [{
 				"id": 1123,
 				"name": "Caroline Nokes",

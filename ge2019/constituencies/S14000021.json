@@ -3,12 +3,13 @@
 	"title": "East Renfrewshire",
 	"demographics": {
 		"2015UKIP": 1.57,
-		"age18-29": 12.04,
-		"leave": 25.68
+		"leave": 25.68,
+		"age18-29": 12.04
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72232,
 			"candidates": [{
 				"id": 5554,
 				"name": "Kirsten Oswald",

@@ -2,14 +2,15 @@
 	"id": "E14000666",
 	"title": "Dewsbury",
 	"demographics": {
-		"withdegree": 13.04,
 		"2015UKIP": 12.4,
+		"leave": 57.27,
 		"age18-29": 15.35,
-		"leave": 57.27
+		"withdegree": 13.04
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81253,
 			"candidates": [{
 				"id": 4319,
 				"name": "Paula Sherriff",

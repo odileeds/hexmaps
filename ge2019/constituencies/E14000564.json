@@ -2,14 +2,15 @@
 	"id": "E14000564",
 	"title": "Birmingham, Ladywood",
 	"demographics": {
-		"withdegree": 19.72,
 		"2015UKIP": 5.03,
+		"leave": 35.62,
 		"age18-29": 30.74,
-		"leave": 35.62
+		"withdegree": 19.72
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74912,
 			"candidates": [{
 				"id": 216,
 				"name": "Shabana Mahmood",

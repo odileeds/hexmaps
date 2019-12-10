@@ -2,14 +2,15 @@
 	"id": "W07000056",
 	"title": "Newport West",
 	"demographics": {
-		"withdegree": 15.64,
 		"2015UKIP": 15.2,
+		"leave": 53.01,
 		"age18-29": 15.17,
-		"leave": 53.01
+		"withdegree": 15.64
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66657,
 			"candidates": [{
 				"id": 2752,
 				"name": "Jonathan Clark",

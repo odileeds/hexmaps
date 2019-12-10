@@ -2,10 +2,10 @@
 	"id": "E14000921",
 	"title": "Sheffield, Brightside and Hillsborough",
 	"demographics": {
-		"withdegree": 9.41,
 		"2015UKIP": 22.11,
+		"leave": 61.44,
 		"age18-29": 16.52,
-		"leave": 61.44
+		"withdegree": 9.41
 	},
 	"elections": {
 		"2019-12-12": {

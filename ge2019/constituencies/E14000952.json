@@ -2,10 +2,10 @@
 	"id": "E14000952",
 	"title": "South West Norfolk",
 	"demographics": {
-		"withdegree": 8.1,
 		"2015UKIP": 23.26,
+		"leave": 66.25,
 		"age18-29": 13.79,
-		"leave": 66.25
+		"withdegree": 8.1
 	},
 	"elections": {
 		"2019-12-12": {

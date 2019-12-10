@@ -3,12 +3,13 @@
 	"title": "East Lothian",
 	"demographics": {
 		"2015UKIP": 2,
-		"age18-29": 12.75,
-		"leave": 35.4
+		"leave": 35.4,
+		"age18-29": 12.75
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81600,
 			"candidates": [{
 				"id": 20469,
 				"name": "Robert O'Riordan",

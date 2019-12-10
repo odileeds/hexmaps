@@ -2,14 +2,15 @@
 	"id": "E14001028",
 	"title": "Wentworth and Dearne",
 	"demographics": {
-		"withdegree": 6.94,
 		"2015UKIP": 24.85,
+		"leave": 68.98,
 		"age18-29": 14.51,
-		"leave": 68.98
+		"withdegree": 6.94
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74536,
 			"candidates": [{
 				"id": 3361,
 				"name": "John Healey",

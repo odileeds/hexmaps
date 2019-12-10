@@ -2,14 +2,15 @@
 	"id": "W07000072",
 	"title": "Blaenau Gwent",
 	"demographics": {
-		"withdegree": 6.37,
 		"2015UKIP": 17.92,
+		"leave": 62.03,
 		"age18-29": 15.4,
-		"leave": 62.03
+		"withdegree": 6.37
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 50736,
 			"candidates": [{
 				"id": 3908,
 				"name": "Nick Smith",

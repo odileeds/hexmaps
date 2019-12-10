@@ -2,14 +2,15 @@
 	"id": "E14000877",
 	"title": "Penrith and The Border",
 	"demographics": {
-		"withdegree": 14.98,
 		"2015UKIP": 12.19,
+		"leave": 55.37,
 		"age18-29": 10.96,
-		"leave": 55.37
+		"withdegree": 14.98
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67555,
 			"candidates": [{
 				"id": 5470,
 				"name": "Matthew Severn",

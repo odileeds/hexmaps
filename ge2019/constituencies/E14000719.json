@@ -2,14 +2,15 @@
 	"id": "E14000719",
 	"title": "Guildford",
 	"demographics": {
-		"withdegree": 29.67,
 		"2015UKIP": 8.84,
+		"leave": 41.18,
 		"age18-29": 19.98,
-		"leave": 41.18
+		"withdegree": 29.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77729,
 			"candidates": [{
 				"id": 1018,
 				"name": "Anne Milton",

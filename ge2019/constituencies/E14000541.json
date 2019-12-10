@@ -2,14 +2,15 @@
 	"id": "E14000541",
 	"title": "Barnsley Central",
 	"demographics": {
-		"withdegree": 8.13,
 		"2015UKIP": 21.72,
+		"leave": 68.38,
 		"age18-29": 15.18,
-		"leave": 68.38
+		"withdegree": 8.13
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65277,
 			"candidates": [{
 				"id": 1351,
 				"name": "Donald Wood",

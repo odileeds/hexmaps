@@ -2,14 +2,15 @@
 	"id": "E14000851",
 	"title": "North Swindon",
 	"demographics": {
-		"withdegree": 10.79,
 		"2015UKIP": 15.33,
+		"leave": 57.44,
 		"age18-29": 14.89,
-		"leave": 57.44
+		"withdegree": 10.79
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82441,
 			"candidates": [{
 				"id": 190,
 				"name": "Justin Tomlinson",

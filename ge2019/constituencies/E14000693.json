@@ -2,10 +2,10 @@
 	"id": "E14000693",
 	"title": "Epping Forest",
 	"demographics": {
-		"withdegree": 16.57,
 		"2015UKIP": 18.34,
+		"leave": 61.07,
 		"age18-29": 13.34,
-		"leave": 61.07
+		"withdegree": 16.57
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,14 +2,15 @@
 	"id": "E14000531",
 	"title": "Aldridge-Brownhills",
 	"demographics": {
-		"withdegree": 9.97,
 		"2015UKIP": 19.62,
+		"leave": 67.8,
 		"age18-29": 12.36,
-		"leave": 67.8
+		"withdegree": 9.97
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 60138,
 			"candidates": [{
 				"id": 3873,
 				"name": "Ian Garrett",

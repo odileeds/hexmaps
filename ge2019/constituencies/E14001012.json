@@ -2,14 +2,15 @@
 	"id": "E14001012",
 	"title": "Walsall South",
 	"demographics": {
-		"withdegree": 10.67,
 		"2015UKIP": 15.63,
+		"leave": 61.64,
 		"age18-29": 17.56,
-		"leave": 61.64
+		"withdegree": 10.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68024,
 			"candidates": [{
 				"id": 816,
 				"name": "Valerie Vaz",

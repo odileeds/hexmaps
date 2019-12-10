@@ -2,10 +2,10 @@
 	"id": "E14000902",
 	"title": "Rossendale and Darwen",
 	"demographics": {
-		"withdegree": 13.46,
 		"2015UKIP": 14,
+		"leave": 58.59,
 		"age18-29": 13.91,
-		"leave": 58.59
+		"withdegree": 13.46
 	},
 	"elections": {
 		"2019-12-12": {

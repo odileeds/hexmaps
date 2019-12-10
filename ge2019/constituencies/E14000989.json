@@ -2,14 +2,15 @@
 	"id": "E14000989",
 	"title": "Telford",
 	"demographics": {
-		"withdegree": 9.09,
 		"2015UKIP": 18.03,
+		"leave": 67.06,
 		"age18-29": 16.12,
-		"leave": 67.06
+		"withdegree": 9.09
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68921,
 			"candidates": [{
 				"id": 4235,
 				"name": "Lucy Allan",

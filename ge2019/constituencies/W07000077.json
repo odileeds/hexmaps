@@ -2,10 +2,10 @@
 	"id": "W07000077",
 	"title": "Islwyn",
 	"demographics": {
-		"withdegree": 8.93,
 		"2015UKIP": 19.58,
+		"leave": 58.87,
 		"age18-29": 14.62,
-		"leave": 58.87
+		"withdegree": 8.93
 	},
 	"elections": {
 		"2019-12-12": {

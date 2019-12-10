@@ -3,12 +3,13 @@
 	"title": "Edinburgh South West",
 	"demographics": {
 		"2015UKIP": 2.08,
-		"age18-29": 23.78,
-		"leave": 27.86
+		"leave": 27.86,
+		"age18-29": 23.78
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73501,
 			"candidates": [{
 				"id": 5912,
 				"name": "Joanna Cherry",

@@ -2,14 +2,15 @@
 	"id": "E14001056",
 	"title": "Wycombe",
 	"demographics": {
-		"withdegree": 21.22,
 		"2015UKIP": 10.11,
+		"leave": 48.04,
 		"age18-29": 17.26,
-		"leave": 48.04
+		"withdegree": 21.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78094,
 			"candidates": [{
 				"id": 1481,
 				"name": "Steve Baker",

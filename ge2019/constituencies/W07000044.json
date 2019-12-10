@@ -2,10 +2,10 @@
 	"id": "W07000044",
 	"title": "Wrexham",
 	"demographics": {
-		"withdegree": 13,
 		"2015UKIP": 15.5,
+		"leave": 57.33,
 		"age18-29": 16.11,
-		"leave": 57.33
+		"withdegree": 13
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,14 +2,15 @@
 	"id": "E14000547",
 	"title": "Bath",
 	"demographics": {
-		"withdegree": 28.9,
 		"2015UKIP": 6.2,
+		"leave": 31.69,
 		"age18-29": 25.74,
-		"leave": 31.69
+		"withdegree": 28.9
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67752,
 			"candidates": [{
 				"id": 3720,
 				"name": "Wera Hobhouse",

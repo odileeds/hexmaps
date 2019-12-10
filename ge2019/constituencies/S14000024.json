@@ -3,12 +3,13 @@
 	"title": "Edinburgh South",
 	"demographics": {
 		"2015UKIP": 1.22,
-		"age18-29": 22.31,
-		"leave": 22.15
+		"leave": 22.15,
+		"age18-29": 22.31
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66188,
 			"candidates": [{
 				"id": 1116,
 				"name": "Ian Murray",

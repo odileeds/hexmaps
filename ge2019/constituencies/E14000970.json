@@ -2,14 +2,15 @@
 	"id": "E14000970",
 	"title": "Stockton North",
 	"demographics": {
-		"withdegree": 9.28,
 		"2015UKIP": 19.16,
+		"leave": 66.5,
 		"age18-29": 16.38,
-		"leave": 66.5
+		"withdegree": 9.28
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66676,
 			"candidates": [{
 				"id": 3622,
 				"name": "Alex Cunningham",

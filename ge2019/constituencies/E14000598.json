@@ -2,14 +2,15 @@
 	"id": "E14000598",
 	"title": "Brighton, Pavilion",
 	"demographics": {
-		"withdegree": 32.39,
 		"2015UKIP": 4.98,
+		"leave": 25.68,
 		"age18-29": 27.65,
-		"leave": 25.68
+		"withdegree": 32.39
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79057,
 			"candidates": [{
 				"id": 571,
 				"name": "Caroline Lucas",

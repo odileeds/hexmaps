@@ -2,14 +2,15 @@
 	"id": "E14000834",
 	"title": "Newcastle-under-Lyme",
 	"demographics": {
-		"withdegree": 12.99,
 		"2015UKIP": 16.87,
+		"leave": 61.67,
 		"age18-29": 18.47,
-		"leave": 61.67
+		"withdegree": 12.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68209,
 			"candidates": [{
 				"id": 7031,
 				"name": "Nigel Jones",

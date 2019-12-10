@@ -2,14 +2,15 @@
 	"id": "E14000959",
 	"title": "Spelthorne",
 	"demographics": {
-		"withdegree": 15.88,
 		"2015UKIP": 20.85,
+		"leave": 60.3,
 		"age18-29": 13.71,
-		"leave": 60.3
+		"withdegree": 15.88
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70929,
 			"candidates": [{
 				"id": 3840,
 				"name": "Kwasi Kwarteng",

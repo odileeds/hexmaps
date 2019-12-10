@@ -2,10 +2,10 @@
 	"id": "E14000731",
 	"title": "Harrow East",
 	"demographics": {
-		"withdegree": 23.56,
 		"2015UKIP": 4.76,
+		"leave": 47.48,
 		"age18-29": 17.65,
-		"leave": 47.48
+		"withdegree": 23.56
 	},
 	"elections": {
 		"2019-12-12": {

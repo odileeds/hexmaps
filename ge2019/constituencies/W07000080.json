@@ -2,14 +2,15 @@
 	"id": "W07000080",
 	"title": "Cardiff South and Penarth",
 	"demographics": {
-		"withdegree": 21.17,
 		"2015UKIP": 13.76,
+		"leave": 44.94,
 		"age18-29": 19.32,
-		"leave": 44.94
+		"withdegree": 21.17
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78837,
 			"candidates": [{
 				"id": 5374,
 				"name": "Ken Barker",

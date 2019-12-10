@@ -3,12 +3,13 @@
 	"title": "Angus",
 	"demographics": {
 		"2015UKIP": 3.05,
-		"age18-29": 13.37,
-		"leave": 48.13
+		"leave": 48.13,
+		"age18-29": 13.37
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 63952,
 			"candidates": [{
 				"id": 8231,
 				"name": "Kirstene Hair",

@@ -2,14 +2,15 @@
 	"id": "E14000990",
 	"title": "Tewkesbury",
 	"demographics": {
-		"withdegree": 16.48,
 		"2015UKIP": 12.88,
+		"leave": 53.78,
 		"age18-29": 12.28,
-		"leave": 53.78
+		"withdegree": 16.48
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 83958,
 			"candidates": [{
 				"id": 1900,
 				"name": "Laurence Robertson",

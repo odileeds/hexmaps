@@ -2,10 +2,10 @@
 	"id": "W07000062",
 	"title": "Clwyd South",
 	"demographics": {
-		"withdegree": 11.8,
 		"2015UKIP": 15.63,
+		"leave": 60.26,
 		"age18-29": 13.87,
-		"leave": 60.26
+		"withdegree": 11.8
 	},
 	"elections": {
 		"2019-12-12": {

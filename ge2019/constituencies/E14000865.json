@@ -2,14 +2,15 @@
 	"id": "E14000865",
 	"title": "Nottingham East",
 	"demographics": {
-		"withdegree": 19.59,
 		"2015UKIP": 9.94,
+		"leave": 42.88,
 		"age18-29": 29.17,
-		"leave": 42.88
+		"withdegree": 19.59
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66262,
 			"candidates": [{
 				"id": 3549,
 				"name": "Chris Leslie",

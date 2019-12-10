@@ -2,10 +2,10 @@
 	"id": "E14000927",
 	"title": "Sittingbourne and Sheppey",
 	"demographics": {
-		"withdegree": 7.56,
 		"2015UKIP": 24.82,
+		"leave": 65.76,
 		"age18-29": 14.56,
-		"leave": 65.76
+		"withdegree": 7.56
 	},
 	"elections": {
 		"2019-12-12": {

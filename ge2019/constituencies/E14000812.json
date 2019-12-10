@@ -2,14 +2,15 @@
 	"id": "E14000812",
 	"title": "Meriden",
 	"demographics": {
-		"withdegree": 15.5,
 		"2015UKIP": 16.93,
+		"leave": 58.81,
 		"age18-29": 13.48,
-		"leave": 58.81
+		"withdegree": 15.5
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 85371,
 			"candidates": [{
 				"id": 40407,
 				"name": "Steve Caudwell",

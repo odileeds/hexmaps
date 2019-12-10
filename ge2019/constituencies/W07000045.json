@@ -2,14 +2,15 @@
 	"id": "W07000045",
 	"title": "Llanelli",
 	"demographics": {
-		"withdegree": 10.74,
 		"2015UKIP": 16.25,
+		"leave": 55.48,
 		"age18-29": 14.06,
-		"leave": 55.48
+		"withdegree": 10.74
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 60513,
 			"candidates": [{
 				"id": 248,
 				"name": "Nia Griffith",

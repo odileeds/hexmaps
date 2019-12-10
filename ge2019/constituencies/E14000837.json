@@ -2,14 +2,15 @@
 	"id": "E14000837",
 	"title": "North Cornwall",
 	"demographics": {
-		"withdegree": 11.49,
 		"2015UKIP": 12.69,
+		"leave": 60.32,
 		"age18-29": 11.75,
-		"leave": 60.32
+		"withdegree": 11.49
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69935,
 			"candidates": [{
 				"id": 4213,
 				"name": "Scott Mann",

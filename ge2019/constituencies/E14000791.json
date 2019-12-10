@@ -2,14 +2,15 @@
 	"id": "E14000791",
 	"title": "Lichfield",
 	"demographics": {
-		"withdegree": 16.62,
 		"2015UKIP": 15.7,
+		"leave": 57.57,
 		"age18-29": 11.6,
-		"leave": 57.57
+		"withdegree": 16.62
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76751,
 			"candidates": [{
 				"id": 455,
 				"name": "Michael Fabricant",

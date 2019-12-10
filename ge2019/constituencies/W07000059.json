@@ -2,14 +2,15 @@
 	"id": "W07000059",
 	"title": "Clwyd West",
 	"demographics": {
-		"withdegree": 13.42,
 		"2015UKIP": 13.12,
+		"leave": 52.53,
 		"age18-29": 11.56,
-		"leave": 52.53
+		"withdegree": 13.42
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 57714,
 			"candidates": [{
 				"id": 3151,
 				"name": "David Jones",

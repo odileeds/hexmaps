@@ -2,14 +2,15 @@
 	"id": "E14000905",
 	"title": "Rugby",
 	"demographics": {
-		"withdegree": 15.11,
 		"2015UKIP": 13.99,
+		"leave": 58.37,
 		"age18-29": 13.87,
-		"leave": 58.37
+		"withdegree": 15.11
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72341,
 			"candidates": [{
 				"id": 202,
 				"name": "Mark Pawsey",

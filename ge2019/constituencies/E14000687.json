@@ -2,14 +2,15 @@
 	"id": "E14000687",
 	"title": "Edmonton",
 	"demographics": {
-		"withdegree": 14.57,
 		"2015UKIP": 8.14,
+		"leave": 45.51,
 		"age18-29": 18.1,
-		"leave": 45.51
+		"withdegree": 14.57
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65568,
 			"candidates": [{
 				"id": 847,
 				"name": "David Schmitz",

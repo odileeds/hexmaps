@@ -2,14 +2,15 @@
 	"id": "E14000644",
 	"title": "Colchester",
 	"demographics": {
-		"withdegree": 16.57,
 		"2015UKIP": 12.08,
+		"leave": 51.06,
 		"age18-29": 20.52,
-		"leave": 51.06
+		"withdegree": 16.57
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82625,
 			"candidates": [{
 				"id": 1613,
 				"name": "Will Quince",

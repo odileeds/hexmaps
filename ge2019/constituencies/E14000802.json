@@ -2,14 +2,15 @@
 	"id": "E14000802",
 	"title": "Macclesfield",
 	"demographics": {
-		"withdegree": 21.64,
 		"2015UKIP": 12.17,
+		"leave": 48.16,
 		"age18-29": 11.67,
-		"leave": 48.16
+		"withdegree": 21.64
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76216,
 			"candidates": [{
 				"id": 2806,
 				"name": "David Rutley",

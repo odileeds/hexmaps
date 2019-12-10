@@ -2,14 +2,15 @@
 	"id": "E14000567",
 	"title": "Birmingham, Selly Oak",
 	"demographics": {
-		"withdegree": 19.46,
 		"2015UKIP": 12.71,
+		"leave": 46.91,
 		"age18-29": 25.6,
-		"leave": 46.91
+		"withdegree": 19.46
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74926,
 			"candidates": [{
 				"id": 1230,
 				"name": "Steve McCabe",

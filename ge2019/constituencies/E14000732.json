@@ -2,10 +2,10 @@
 	"id": "E14000732",
 	"title": "Harrow West",
 	"demographics": {
-		"withdegree": 28.94,
 		"2015UKIP": 4.39,
+		"leave": 45.06,
 		"age18-29": 17.88,
-		"leave": 45.06
+		"withdegree": 28.94
 	},
 	"elections": {
 		"2019-12-12": {

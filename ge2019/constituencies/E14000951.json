@@ -2,14 +2,15 @@
 	"id": "E14000951",
 	"title": "South West Hertfordshire",
 	"demographics": {
-		"withdegree": 26.31,
 		"2015UKIP": 11.53,
+		"leave": 46.37,
 		"age18-29": 11.58,
-		"leave": 46.37
+		"withdegree": 26.31
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80449,
 			"candidates": [{
 				"id": 151,
 				"name": "David Gauke",

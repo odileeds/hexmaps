@@ -2,14 +2,15 @@
 	"id": "E14000641",
 	"title": "City of Durham",
 	"demographics": {
-		"withdegree": 19.59,
 		"2015UKIP": 11.46,
+		"leave": 44.35,
 		"age18-29": 23.96,
-		"leave": 44.35
+		"withdegree": 19.59
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71271,
 			"candidates": [{
 				"id": 22817,
 				"name": "Jonathan Elmer",

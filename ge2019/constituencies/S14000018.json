@@ -3,12 +3,13 @@
 	"title": "East Dunbartonshire",
 	"demographics": {
 		"2015UKIP": 1.03,
-		"age18-29": 11.58,
-		"leave": 26.7
+		"leave": 26.7,
+		"age18-29": 11.58
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66075,
 			"candidates": [{
 				"id": 108,
 				"name": "Jo Swinson",

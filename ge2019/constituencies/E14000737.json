@@ -2,14 +2,15 @@
 	"id": "E14000737",
 	"title": "Hayes and Harlington",
 	"demographics": {
-		"withdegree": 15.76,
 		"2015UKIP": 11.96,
+		"leave": 59.41,
 		"age18-29": 19.06,
-		"leave": 59.41
+		"withdegree": 15.76
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72356,
 			"candidates": [{
 				"id": 1860,
 				"name": "John McDonnell",

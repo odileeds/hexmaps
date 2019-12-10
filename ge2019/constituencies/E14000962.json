@@ -2,14 +2,15 @@
 	"id": "E14000962",
 	"title": "St Helens North",
 	"demographics": {
-		"withdegree": 10.3,
 		"2015UKIP": 15.1,
+		"leave": 58.29,
 		"age18-29": 14.36,
-		"leave": 58.29
+		"withdegree": 10.3
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75593,
 			"candidates": [{
 				"id": 2762,
 				"name": "Pat Moloney",

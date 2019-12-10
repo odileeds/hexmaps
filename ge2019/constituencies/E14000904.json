@@ -2,14 +2,15 @@
 	"id": "E14000904",
 	"title": "Rotherham",
 	"demographics": {
-		"withdegree": 6.95,
 		"2015UKIP": 30.18,
+		"leave": 68.35,
 		"age18-29": 15.98,
-		"leave": 68.35
+		"withdegree": 6.95
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61688,
 			"candidates": [{
 				"id": 5542,
 				"name": "Sarah Champion",

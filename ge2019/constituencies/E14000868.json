@@ -2,10 +2,10 @@
 	"id": "E14000868",
 	"title": "Nuneaton",
 	"demographics": {
-		"withdegree": 9.76,
 		"2015UKIP": 14.39,
+		"leave": 64.75,
 		"age18-29": 14.92,
-		"leave": 64.75
+		"withdegree": 9.76
 	},
 	"elections": {
 		"2019-12-12": {

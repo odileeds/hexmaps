@@ -2,14 +2,15 @@
 	"id": "E14000630",
 	"title": "Cheltenham",
 	"demographics": {
-		"withdegree": 25.69,
 		"2015UKIP": 7.09,
+		"leave": 42.78,
 		"age18-29": 19.43,
-		"leave": 42.78
+		"withdegree": 25.69
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81043,
 			"candidates": [{
 				"id": 2042,
 				"name": "George Ridgeon",

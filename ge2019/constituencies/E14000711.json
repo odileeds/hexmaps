@@ -2,14 +2,15 @@
 	"id": "E14000711",
 	"title": "Gillingham and Rainham",
 	"demographics": {
-		"withdegree": 9.51,
 		"2015UKIP": 19.54,
+		"leave": 63.58,
 		"age18-29": 16.72,
-		"leave": 63.58
+		"withdegree": 9.51
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73631,
 			"candidates": [{
 				"id": 1337,
 				"name": "Alan Bullion",

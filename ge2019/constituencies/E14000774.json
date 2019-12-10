@@ -2,14 +2,15 @@
 	"id": "E14000774",
 	"title": "Kingswood",
 	"demographics": {
-		"withdegree": 11.2,
 		"2015UKIP": 14.82,
+		"leave": 56.84,
 		"age18-29": 14.04,
-		"leave": 56.84
+		"withdegree": 11.2
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68972,
 			"candidates": [{
 				"id": 3745,
 				"name": "Chris Skidmore",

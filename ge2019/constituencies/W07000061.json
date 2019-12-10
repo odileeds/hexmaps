@@ -2,10 +2,10 @@
 	"id": "W07000061",
 	"title": "Dwyfor Meirionnydd",
 	"demographics": {
-		"withdegree": 13.16,
 		"2015UKIP": 10.81,
+		"leave": 48.37,
 		"age18-29": 11.25,
-		"leave": 48.37
+		"withdegree": 13.16
 	},
 	"elections": {
 		"2019-12-12": {

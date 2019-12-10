@@ -2,10 +2,10 @@
 	"id": "E14000554",
 	"title": "Berwick-upon-Tweed",
 	"demographics": {
-		"withdegree": 13.79,
 		"2015UKIP": 11.16,
+		"leave": 55.55,
 		"age18-29": 11.71,
-		"leave": 55.55
+		"withdegree": 13.79
 	},
 	"elections": {
 		"2019-12-12": {

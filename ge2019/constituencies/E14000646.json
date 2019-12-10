@@ -2,14 +2,15 @@
 	"id": "E14000646",
 	"title": "Congleton",
 	"demographics": {
-		"withdegree": 18.01,
 		"2015UKIP": 13.58,
+		"leave": 52.65,
 		"age18-29": 11.05,
-		"leave": 52.65
+		"withdegree": 18.01
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80930,
 			"candidates": [{
 				"id": 551,
 				"name": "Fiona Bruce",

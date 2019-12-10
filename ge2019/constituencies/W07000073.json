@@ -2,10 +2,10 @@
 	"id": "W07000073",
 	"title": "Bridgend",
 	"demographics": {
-		"withdegree": 14.29,
 		"2015UKIP": 14.98,
+		"leave": 49.65,
 		"age18-29": 14.25,
-		"leave": 49.65
+		"withdegree": 14.29
 	},
 	"elections": {
 		"2019-12-12": {

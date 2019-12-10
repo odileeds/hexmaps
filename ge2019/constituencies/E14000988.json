@@ -2,10 +2,10 @@
 	"id": "E14000988",
 	"title": "Taunton Deane",
 	"demographics": {
-		"withdegree": 14.93,
 		"2015UKIP": 11.96,
+		"leave": 52.92,
 		"age18-29": 13.43,
-		"leave": 52.92
+		"withdegree": 14.93
 	},
 	"elections": {
 		"2019-12-12": {

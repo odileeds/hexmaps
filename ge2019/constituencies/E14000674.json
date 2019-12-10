@@ -2,14 +2,15 @@
 	"id": "E14000674",
 	"title": "Ealing Central and Acton",
 	"demographics": {
-		"withdegree": 40.14,
 		"2015UKIP": 3.78,
+		"leave": 29.15,
 		"age18-29": 20.56,
-		"leave": 29.15
+		"withdegree": 40.14
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75510,
 			"candidates": [{
 				"id": 4326,
 				"name": "Rupa Huq",

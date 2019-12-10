@@ -2,14 +2,15 @@
 	"id": "E14000987",
 	"title": "Tatton",
 	"demographics": {
-		"withdegree": 24.77,
 		"2015UKIP": 10.75,
+		"leave": 45.83,
 		"age18-29": 10.83,
-		"leave": 45.83
+		"withdegree": 24.77
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69018,
 			"candidates": [{
 				"id": 3524,
 				"name": "Esther McVey",

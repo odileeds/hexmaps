@@ -3,12 +3,13 @@
 	"title": "Airdrie and Shotts",
 	"demographics": {
 		"2015UKIP": 2.46,
-		"age18-29": 15.48,
-		"leave": 40.05
+		"leave": 40.05,
+		"age18-29": 15.48
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64008,
 			"candidates": [{
 				"id": 6031,
 				"name": "Neil Gray",

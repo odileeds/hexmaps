@@ -2,14 +2,15 @@
 	"id": "E14000652",
 	"title": "Crawley",
 	"demographics": {
-		"withdegree": 12.12,
 		"2015UKIP": 14.37,
+		"leave": 58.41,
 		"age18-29": 17.05,
-		"leave": 58.41
+		"withdegree": 12.12
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74207,
 			"candidates": [{
 				"id": 4078,
 				"name": "Henry Smith",

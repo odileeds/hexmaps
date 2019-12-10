@@ -2,14 +2,15 @@
 	"id": "E14000997",
 	"title": "Tonbridge and Malling",
 	"demographics": {
-		"withdegree": 18.54,
 		"2015UKIP": 15.19,
+		"leave": 52.59,
 		"age18-29": 11.01,
-		"leave": 52.59
+		"withdegree": 18.54
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77380,
 			"candidates": [{
 				"id": 4238,
 				"name": "Tom Tugendhat",

@@ -2,14 +2,15 @@
 	"id": "E14000656",
 	"title": "Croydon South",
 	"demographics": {
-		"withdegree": 23.22,
 		"2015UKIP": 10.51,
+		"leave": 45.81,
 		"age18-29": 14.61,
-		"leave": 45.81
+		"withdegree": 23.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 83977,
 			"candidates": [{
 				"id": 513,
 				"name": "Chris Philp",

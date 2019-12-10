@@ -2,12 +2,13 @@
 	"id": "S14000015",
 	"title": "Dundee East",
 	"demographics": {
-		"age18-29": 14.99,
-		"leave": 38.25
+		"leave": 38.25,
+		"age18-29": 14.99
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66210,
 			"candidates": [{
 				"id": 1046,
 				"name": "Stewart Hosie",

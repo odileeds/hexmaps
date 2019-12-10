@@ -2,10 +2,10 @@
 	"id": "E14000705",
 	"title": "Forest of Dean",
 	"demographics": {
-		"withdegree": 12.49,
 		"2015UKIP": 17.75,
+		"leave": 58.07,
 		"age18-29": 11.87,
-		"leave": 58.07
+		"withdegree": 12.49
 	},
 	"elections": {
 		"2019-12-12": {

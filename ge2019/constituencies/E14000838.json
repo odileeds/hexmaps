@@ -2,14 +2,15 @@
 	"id": "E14000838",
 	"title": "North Devon",
 	"demographics": {
-		"withdegree": 11.47,
 		"2015UKIP": 14.75,
+		"leave": 57.04,
 		"age18-29": 12.23,
-		"leave": 57.04
+		"withdegree": 11.47
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75862,
 			"candidates": [{
 				"id": 5712,
 				"name": "Selaine Saxby",

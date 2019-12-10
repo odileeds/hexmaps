@@ -2,14 +2,15 @@
 	"id": "E14000735",
 	"title": "Hastings and Rye",
 	"demographics": {
-		"withdegree": 11.2,
 		"2015UKIP": 13.32,
+		"leave": 56.23,
 		"age18-29": 14.2,
-		"leave": 56.23
+		"withdegree": 11.2
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80524,
 			"candidates": [{
 				"id": 518,
 				"name": "Nick Perry",

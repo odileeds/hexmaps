@@ -2,14 +2,15 @@
 	"id": "W07000068",
 	"title": "Brecon and Radnorshire",
 	"demographics": {
-		"withdegree": 15,
 		"2015UKIP": 8.33,
+		"leave": 51.72,
 		"age18-29": 11.03,
-		"leave": 51.72
+		"withdegree": 15
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 55490,
 			"candidates": [{
 				"id": 4515,
 				"name": "Jane Dodds",

@@ -2,14 +2,15 @@
 	"id": "E14000871",
 	"title": "Oldham West and Royton",
 	"demographics": {
-		"withdegree": 8.61,
 		"2015UKIP": 20.61,
+		"leave": 61.31,
 		"age18-29": 16.43,
-		"leave": 61.31
+		"withdegree": 8.61
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73063,
 			"candidates": [{
 				"id": 4520,
 				"name": "Garth Harkness",

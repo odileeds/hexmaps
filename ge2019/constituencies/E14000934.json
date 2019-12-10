@@ -2,14 +2,15 @@
 	"id": "E14000934",
 	"title": "South Cambridgeshire",
 	"demographics": {
-		"withdegree": 30.1,
 		"2015UKIP": 9.77,
+		"leave": 38.44,
 		"age18-29": 12.38,
-		"leave": 38.44
+		"withdegree": 30.1
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 87288,
 			"candidates": [{
 				"id": 6685,
 				"name": "Dan Greef",

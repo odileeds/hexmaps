@@ -2,14 +2,15 @@
 	"id": "E14000643",
 	"title": "Cleethorpes",
 	"demographics": {
-		"withdegree": 8.68,
 		"2015UKIP": 18.53,
+		"leave": 68.41,
 		"age18-29": 12.96,
-		"leave": 68.41
+		"withdegree": 8.68
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73689,
 			"candidates": [{
 				"id": 495,
 				"name": "Martin Vickers",

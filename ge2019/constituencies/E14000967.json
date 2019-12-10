@@ -2,14 +2,15 @@
 	"id": "E14000967",
 	"title": "Stalybridge and Hyde",
 	"demographics": {
-		"withdegree": 10.55,
 		"2015UKIP": 18.81,
+		"leave": 59.29,
 		"age18-29": 14.78,
-		"leave": 59.29
+		"withdegree": 10.55
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73064,
 			"candidates": [{
 				"id": 1043,
 				"name": "Jonathan Reynolds",

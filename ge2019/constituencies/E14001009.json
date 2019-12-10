@@ -2,14 +2,15 @@
 	"id": "E14001009",
 	"title": "Wakefield",
 	"demographics": {
-		"withdegree": 10.97,
 		"2015UKIP": 18.3,
+		"leave": 62.77,
 		"age18-29": 14.97,
-		"leave": 62.77
+		"withdegree": 10.97
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70192,
 			"candidates": [{
 				"id": 2655,
 				"name": "Mary Creagh",

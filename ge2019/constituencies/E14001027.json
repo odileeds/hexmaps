@@ -2,14 +2,15 @@
 	"id": "E14001027",
 	"title": "Welwyn Hatfield",
 	"demographics": {
-		"withdegree": 20.22,
 		"2015UKIP": 13.06,
+		"leave": 52.54,
 		"age18-29": 21.76,
-		"leave": 52.54
+		"withdegree": 20.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74892,
 			"candidates": [{
 				"id": 2595,
 				"name": "Grant Shapps",

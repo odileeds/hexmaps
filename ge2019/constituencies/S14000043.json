@@ -3,12 +3,13 @@
 	"title": "Linlithgow and East Falkirk",
 	"demographics": {
 		"2015UKIP": 2.73,
-		"age18-29": 14.31,
-		"leave": 41.61
+		"leave": 41.61,
+		"age18-29": 14.31
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 87044,
 			"candidates": [{
 				"id": 6053,
 				"name": "Martyn Day",

@@ -2,10 +2,10 @@
 	"id": "E14000974",
 	"title": "Stoke-on-Trent South",
 	"demographics": {
-		"withdegree": 7.84,
 		"2015UKIP": 21.22,
+		"leave": 70.85,
 		"age18-29": 15.15,
-		"leave": 70.85
+		"withdegree": 7.84
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,14 +2,15 @@
 	"id": "E14001031",
 	"title": "West Dorset",
 	"demographics": {
-		"withdegree": 16.77,
 		"2015UKIP": 12.5,
+		"leave": 51,
 		"age18-29": 9.88,
-		"leave": 51
+		"withdegree": 16.77
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80963,
 			"candidates": [{
 				"id": 23741,
 				"name": "Kelvin Charles Clayton",

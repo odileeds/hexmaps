@@ -2,14 +2,15 @@
 	"id": "E14000826",
 	"title": "Morley and Outwood",
 	"demographics": {
-		"withdegree": 13.14,
 		"2015UKIP": 16.48,
+		"leave": 59.79,
 		"age18-29": 14.05,
-		"leave": 59.79
+		"withdegree": 13.14
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78803,
 			"candidates": [{
 				"id": 360,
 				"name": "Craig Dobson",

@@ -2,10 +2,10 @@
 	"id": "E14001037",
 	"title": "Westmorland and Lonsdale",
 	"demographics": {
-		"withdegree": 19.89,
 		"2015UKIP": 6.19,
+		"leave": 47.45,
 		"age18-29": 10.39,
-		"leave": 47.45
+		"withdegree": 19.89
 	},
 	"elections": {
 		"2019-12-12": {

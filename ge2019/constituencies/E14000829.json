@@ -2,14 +2,15 @@
 	"id": "E14000829",
 	"title": "Newark",
 	"demographics": {
-		"withdegree": 15.56,
 		"2015UKIP": 12.03,
+		"leave": 55.75,
 		"age18-29": 12.22,
-		"leave": 55.75
+		"withdegree": 15.56
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75855,
 			"candidates": [{
 				"id": 2132,
 				"name": "David Watts",

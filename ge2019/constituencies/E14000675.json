@@ -2,14 +2,15 @@
 	"id": "E14000675",
 	"title": "Ealing North",
 	"demographics": {
-		"withdegree": 21.89,
 		"2015UKIP": 8.08,
+		"leave": 46.26,
 		"age18-29": 17.56,
-		"leave": 46.26
+		"withdegree": 21.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74473,
 			"candidates": [{
 				"id": 34619,
 				"name": "Henrietta Bewley",

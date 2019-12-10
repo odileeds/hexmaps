@@ -2,14 +2,15 @@
 	"id": "E14000993",
 	"title": "Thirsk and Malton",
 	"demographics": {
-		"withdegree": 15.5,
 		"2015UKIP": 14.9,
+		"leave": 56.43,
 		"age18-29": 10.74,
-		"leave": 56.43
+		"withdegree": 15.5
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80979,
 			"candidates": [{
 				"id": 4236,
 				"name": "Kevin Hollinrake",

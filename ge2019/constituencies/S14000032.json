@@ -2,12 +2,13 @@
 	"id": "S14000032",
 	"title": "Glasgow North East",
 	"demographics": {
-		"age18-29": 19.61,
-		"leave": 40.66
+		"leave": 40.66,
+		"age18-29": 19.61
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61075,
 			"candidates": [{
 				"id": 6048,
 				"name": "Anne McLaughlin",

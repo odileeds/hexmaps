@@ -2,10 +2,10 @@
 	"id": "E14000943",
 	"title": "South Ribble",
 	"demographics": {
-		"withdegree": 15.07,
 		"2015UKIP": 14.09,
+		"leave": 56.85,
 		"age18-29": 13.1,
-		"leave": 56.85
+		"withdegree": 15.07
 	},
 	"elections": {
 		"2019-12-12": {

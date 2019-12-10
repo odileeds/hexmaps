@@ -2,14 +2,15 @@
 	"id": "E14000832",
 	"title": "Newcastle upon Tyne East",
 	"demographics": {
-		"withdegree": 22.51,
 		"2015UKIP": 12.52,
+		"leave": 41.13,
 		"age18-29": 37.95,
-		"leave": 41.13
+		"withdegree": 22.51
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 63796,
 			"candidates": [{
 				"id": 1376,
 				"name": "Nick Brown",

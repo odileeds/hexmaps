@@ -2,14 +2,15 @@
 	"id": "E14000816",
 	"title": "Mid Norfolk",
 	"demographics": {
-		"withdegree": 10.42,
 		"2015UKIP": 19.02,
+		"leave": 60.58,
 		"age18-29": 12.13,
-		"leave": 60.58
+		"withdegree": 10.42
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81992,
 			"candidates": [{
 				"id": 938,
 				"name": "Adrian Heald",

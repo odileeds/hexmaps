@@ -2,14 +2,15 @@
 	"id": "E14000640",
 	"title": "City of Chester",
 	"demographics": {
-		"withdegree": 23.02,
 		"2015UKIP": 8.11,
+		"leave": 42.71,
 		"age18-29": 18.49,
-		"leave": 42.71
+		"withdegree": 23.02
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76057,
 			"candidates": [{
 				"id": 3349,
 				"name": "Bob Thompson",

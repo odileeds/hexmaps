@@ -2,14 +2,15 @@
 	"id": "E14000833",
 	"title": "Newcastle upon Tyne North",
 	"demographics": {
-		"withdegree": 17.32,
 		"2015UKIP": 16.59,
+		"leave": 57.15,
 		"age18-29": 14.69,
-		"leave": 57.15
+		"withdegree": 17.32
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68486,
 			"candidates": [{
 				"id": 2098,
 				"name": "Catherine McKinnell",

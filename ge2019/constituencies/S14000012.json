@@ -2,12 +2,13 @@
 	"id": "S14000012",
 	"title": "Cumbernauld, Kilsyth and Kirkintilloch East",
 	"demographics": {
-		"age18-29": 14.66,
-		"leave": 37.91
+		"leave": 37.91,
+		"age18-29": 14.66
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66079,
 			"candidates": [{
 				"id": 5172,
 				"name": "Stuart McDonald",

@@ -2,14 +2,15 @@
 	"id": "E14000707",
 	"title": "Gainsborough",
 	"demographics": {
-		"withdegree": 12.47,
 		"2015UKIP": 15.69,
+		"leave": 62.03,
 		"age18-29": 11.29,
-		"leave": 62.03
+		"withdegree": 12.47
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76343,
 			"candidates": [{
 				"id": 3556,
 				"name": "Edward Leigh",

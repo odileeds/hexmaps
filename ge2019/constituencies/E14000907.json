@@ -2,10 +2,10 @@
 	"id": "E14000907",
 	"title": "Runnymede and Weybridge",
 	"demographics": {
-		"withdegree": 23.14,
 		"2015UKIP": 13.89,
+		"leave": 49.8,
 		"age18-29": 16.1,
-		"leave": 49.8
+		"withdegree": 23.14
 	},
 	"elections": {
 		"2019-12-12": {

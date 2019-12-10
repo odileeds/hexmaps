@@ -2,12 +2,13 @@
 	"id": "S14000007",
 	"title": "Banff and Buchan",
 	"demographics": {
-		"age18-29": 13.75,
-		"leave": 54.02
+		"leave": 54.02,
+		"age18-29": 13.75
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66655,
 			"candidates": [{
 				"id": 34215,
 				"name": "David Duguid",

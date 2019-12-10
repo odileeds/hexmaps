@@ -3,12 +3,13 @@
 	"title": "Ayr, Carrick and Cumnock",
 	"demographics": {
 		"2015UKIP": 2.45,
-		"age18-29": 13.18,
-		"leave": 42.99
+		"leave": 42.99,
+		"age18-29": 13.18
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71970,
 			"candidates": [{
 				"id": 22533,
 				"name": "Allan Dorans",

@@ -2,14 +2,15 @@
 	"id": "E14000642",
 	"title": "Clacton",
 	"demographics": {
-		"withdegree": 5.1,
 		"2015UKIP": 44.43,
+		"leave": 71.08,
 		"age18-29": 10.87,
-		"leave": 71.08
+		"withdegree": 5.1
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70930,
 			"candidates": [{
 				"id": 268,
 				"name": "Chris Southall",

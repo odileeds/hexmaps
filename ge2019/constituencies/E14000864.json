@@ -2,14 +2,15 @@
 	"id": "E14000864",
 	"title": "Norwich South",
 	"demographics": {
-		"withdegree": 22.56,
 		"2015UKIP": 9.37,
+		"leave": 40.36,
 		"age18-29": 26.21,
-		"leave": 40.36
+		"withdegree": 22.56
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77845,
 			"candidates": [{
 				"id": 4396,
 				"name": "Clive Lewis",

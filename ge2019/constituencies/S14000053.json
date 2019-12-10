@@ -2,12 +2,13 @@
 	"id": "S14000053",
 	"title": "Paisley and Renfrewshire South",
 	"demographics": {
-		"age18-29": 15.89,
-		"leave": 34.19
+		"leave": 34.19,
+		"age18-29": 15.89
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64385,
 			"candidates": [{
 				"id": 6055,
 				"name": "Mhairi Black",

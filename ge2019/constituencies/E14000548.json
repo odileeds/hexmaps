@@ -2,14 +2,15 @@
 	"id": "E14000548",
 	"title": "Batley and Spen",
 	"demographics": {
-		"withdegree": 10.56,
 		"2015UKIP": 17.99,
+		"leave": 60.35,
 		"age18-29": 15.65,
-		"leave": 60.35
+		"withdegree": 10.56
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79558,
 			"candidates": [{
 				"id": 6910,
 				"name": "John Lawson",

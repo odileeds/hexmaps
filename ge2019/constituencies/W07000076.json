@@ -2,10 +2,10 @@
 	"id": "W07000076",
 	"title": "Caerphilly",
 	"demographics": {
-		"withdegree": 11.39,
 		"2015UKIP": 19.34,
+		"leave": 55.16,
 		"age18-29": 14.72,
-		"leave": 55.16
+		"withdegree": 11.39
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,10 +2,10 @@
 	"id": "E14000973",
 	"title": "Stoke-on-Trent North",
 	"demographics": {
-		"withdegree": 6.82,
 		"2015UKIP": 24.69,
+		"leave": 72.12,
 		"age18-29": 15.75,
-		"leave": 72.12
+		"withdegree": 6.82
 	},
 	"elections": {
 		"2019-12-12": {

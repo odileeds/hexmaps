@@ -2,14 +2,15 @@
 	"id": "E14001018",
 	"title": "Warrington South",
 	"demographics": {
-		"withdegree": 19.1,
 		"2015UKIP": 8.27,
+		"leave": 50.62,
 		"age18-29": 13.39,
-		"leave": 50.62
+		"withdegree": 19.1
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 86895,
 			"candidates": [{
 				"id": 5113,
 				"name": "Kevin Hickson",

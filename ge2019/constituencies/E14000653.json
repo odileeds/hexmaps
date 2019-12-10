@@ -2,14 +2,15 @@
 	"id": "E14000653",
 	"title": "Crewe and Nantwich",
 	"demographics": {
-		"withdegree": 13.23,
 		"2015UKIP": 14.53,
+		"leave": 59,
 		"age18-29": 15.71,
-		"leave": 59
+		"withdegree": 13.23
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80321,
 			"candidates": [{
 				"id": 4159,
 				"name": "Kieran John Mullan",

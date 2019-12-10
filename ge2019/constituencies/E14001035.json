@@ -2,14 +2,15 @@
 	"id": "E14001035",
 	"title": "West Worcestershire",
 	"demographics": {
-		"withdegree": 19.57,
 		"2015UKIP": 14.35,
+		"leave": 52.58,
 		"age18-29": 10.03,
-		"leave": 52.58
+		"withdegree": 19.57
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76267,
 			"candidates": [{
 				"id": 1476,
 				"name": "Harriett Mary Morrison Baldwin",

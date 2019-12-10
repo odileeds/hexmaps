@@ -2,14 +2,15 @@
 	"id": "E14001061",
 	"title": "York Central",
 	"demographics": {
-		"withdegree": 24.96,
 		"2015UKIP": 10.06,
+		"leave": 38.53,
 		"age18-29": 27.11,
-		"leave": 38.53
+		"withdegree": 24.96
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74801,
 			"candidates": [{
 				"id": 2181,
 				"name": "James Blanchard",

@@ -2,12 +2,13 @@
 	"id": "S14000040",
 	"title": "Kilmarnock and Loudoun",
 	"demographics": {
-		"age18-29": 14.45,
-		"leave": 39.61
+		"leave": 39.61,
+		"age18-29": 14.45
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74517,
 			"candidates": [{
 				"id": 5921,
 				"name": "Alan Brown",

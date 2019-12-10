@@ -2,14 +2,15 @@
 	"id": "E14001008",
 	"title": "Vauxhall",
 	"demographics": {
-		"withdegree": 42.81,
 		"2015UKIP": 2.89,
+		"leave": 22.43,
 		"age18-29": 29.36,
-		"leave": 22.43
+		"withdegree": 42.81
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 88600,
 			"candidates": [{
 				"id": 7458,
 				"name": "Florence Eshalomi",

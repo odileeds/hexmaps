@@ -2,14 +2,15 @@
 	"id": "E14001003",
 	"title": "Truro and Falmouth",
 	"demographics": {
-		"withdegree": 18.05,
 		"2015UKIP": 11.58,
+		"leave": 46.22,
 		"age18-29": 15.33,
-		"leave": 46.22
+		"withdegree": 18.05
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76719,
 			"candidates": [{
 				"id": 29444,
 				"name": "Paul William Nicholson",

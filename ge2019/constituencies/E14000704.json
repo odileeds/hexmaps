@@ -2,10 +2,10 @@
 	"id": "E14000704",
 	"title": "Folkestone and Hythe",
 	"demographics": {
-		"withdegree": 11.16,
 		"2015UKIP": 22.77,
+		"leave": 61.84,
 		"age18-29": 13.05,
-		"leave": 61.84
+		"withdegree": 11.16
 	},
 	"elections": {
 		"2019-12-12": {

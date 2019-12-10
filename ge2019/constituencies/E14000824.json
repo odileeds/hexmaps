@@ -2,10 +2,10 @@
 	"id": "E14000824",
 	"title": "Mole Valley",
 	"demographics": {
-		"withdegree": 25.33,
 		"2015UKIP": 11.21,
+		"leave": 47.59,
 		"age18-29": 10.26,
-		"leave": 47.59
+		"withdegree": 25.33
 	},
 	"elections": {
 		"2019-12-12": {

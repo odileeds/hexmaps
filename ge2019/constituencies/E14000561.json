@@ -2,14 +2,15 @@
 	"id": "E14000561",
 	"title": "Birmingham, Erdington",
 	"demographics": {
-		"withdegree": 10,
 		"2015UKIP": 17.41,
+		"leave": 62.97,
 		"age18-29": 17.21,
-		"leave": 62.97
+		"withdegree": 10
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66148,
 			"candidates": [{
 				"id": 752,
 				"name": "Ann Holtom",

@@ -2,14 +2,15 @@
 	"id": "E14000568",
 	"title": "Birmingham, Yardley",
 	"demographics": {
-		"withdegree": 9.22,
 		"2015UKIP": 16.13,
+		"leave": 60.09,
 		"age18-29": 16.74,
-		"leave": 60.09
+		"withdegree": 9.22
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74704,
 			"candidates": [{
 				"id": 96,
 				"name": "Roger Harmer",

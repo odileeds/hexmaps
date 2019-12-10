@@ -2,14 +2,15 @@
 	"id": "E14000565",
 	"title": "Birmingham, Northfield",
 	"demographics": {
-		"withdegree": 11.27,
 		"2015UKIP": 16.74,
+		"leave": 61.79,
 		"age18-29": 15.69,
-		"leave": 61.79
+		"withdegree": 11.27
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73694,
 			"candidates": [{
 				"id": 3368,
 				"name": "Richard Burden",

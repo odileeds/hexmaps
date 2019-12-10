@@ -2,10 +2,10 @@
 	"id": "E14001046",
 	"title": "Witney",
 	"demographics": {
-		"withdegree": 20.87,
 		"2015UKIP": 9.15,
+		"leave": 46.34,
 		"age18-29": 12.92,
-		"leave": 46.34
+		"withdegree": 20.87
 	},
 	"elections": {
 		"2019-12-12": {

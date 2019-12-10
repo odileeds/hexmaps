@@ -2,14 +2,15 @@
 	"id": "E14000979",
 	"title": "Stretford and Urmston",
 	"demographics": {
-		"withdegree": 16.06,
 		"2015UKIP": 10.93,
+		"leave": 48.47,
 		"age18-29": 14.82,
-		"leave": 48.47
+		"withdegree": 16.06
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72386,
 			"candidates": [{
 				"id": 3659,
 				"name": "Kate Green",

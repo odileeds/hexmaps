@@ -2,10 +2,10 @@
 	"id": "W07000052",
 	"title": "Rhondda",
 	"demographics": {
-		"withdegree": 6.72,
 		"2015UKIP": 12.68,
+		"leave": 61.24,
 		"age18-29": 15.49,
-		"leave": 61.24
+		"withdegree": 6.72
 	},
 	"elections": {
 		"2019-12-12": {

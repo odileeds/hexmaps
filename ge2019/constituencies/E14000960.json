@@ -2,14 +2,15 @@
 	"id": "E14000960",
 	"title": "St Albans",
 	"demographics": {
-		"withdegree": 33.17,
 		"2015UKIP": 7.85,
+		"leave": 38.02,
 		"age18-29": 13.26,
-		"leave": 38.02
+		"withdegree": 33.17
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73721,
 			"candidates": [{
 				"id": 2549,
 				"name": "Anne Main",

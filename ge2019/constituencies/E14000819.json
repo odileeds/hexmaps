@@ -2,14 +2,15 @@
 	"id": "E14000819",
 	"title": "Middlesbrough",
 	"demographics": {
-		"withdegree": 9.7,
 		"2015UKIP": 18.67,
+		"leave": 66.08,
 		"age18-29": 20.93,
-		"leave": 66.08
+		"withdegree": 9.7
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 60759,
 			"candidates": [{
 				"id": 5541,
 				"name": "Andy McDonald",

@@ -2,10 +2,10 @@
 	"id": "E14000844",
 	"title": "North East Hampshire",
 	"demographics": {
-		"withdegree": 24.48,
 		"2015UKIP": 8.76,
+		"leave": 45.92,
 		"age18-29": 10.93,
-		"leave": 45.92
+		"withdegree": 24.48
 	},
 	"elections": {
 		"2019-12-12": {

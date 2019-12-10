@@ -2,14 +2,15 @@
 	"id": "E14000914",
 	"title": "Scunthorpe",
 	"demographics": {
-		"withdegree": 7.86,
 		"2015UKIP": 17.13,
+		"leave": 69.09,
 		"age18-29": 15.8,
-		"leave": 69.09
+		"withdegree": 7.86
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61975,
 			"candidates": [{
 				"id": 3663,
 				"name": "Nicholas Dakin",

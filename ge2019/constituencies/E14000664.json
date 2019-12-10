@@ -2,10 +2,10 @@
 	"id": "E14000664",
 	"title": "Derbyshire Dales",
 	"demographics": {
-		"withdegree": 20.87,
 		"2015UKIP": 11.63,
+		"leave": 51.29,
 		"age18-29": 9.83,
-		"leave": 51.29
+		"withdegree": 20.87
 	},
 	"elections": {
 		"2019-12-12": {

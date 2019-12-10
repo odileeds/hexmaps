@@ -2,14 +2,15 @@
 	"id": "E14000698",
 	"title": "Exeter",
 	"demographics": {
-		"withdegree": 19.41,
 		"2015UKIP": 9.4,
+		"leave": 44.71,
 		"age18-29": 25.93,
-		"leave": 44.71
+		"withdegree": 19.41
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82047,
 			"candidates": [{
 				"id": 4027,
 				"name": "Ben Bradshaw",

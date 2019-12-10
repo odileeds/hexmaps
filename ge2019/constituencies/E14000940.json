@@ -2,10 +2,10 @@
 	"id": "E14000940",
 	"title": "South Leicestershire",
 	"demographics": {
-		"withdegree": 14.56,
 		"2015UKIP": 17.36,
+		"leave": 58.22,
 		"age18-29": 12.79,
-		"leave": 58.22
+		"withdegree": 14.56
 	},
 	"elections": {
 		"2019-12-12": {

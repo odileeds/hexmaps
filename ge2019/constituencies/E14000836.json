@@ -2,14 +2,15 @@
 	"id": "E14000836",
 	"title": "Normanton, Pontefract and Castleford",
 	"demographics": {
-		"withdegree": 6.85,
 		"2015UKIP": 21.32,
+		"leave": 69.26,
 		"age18-29": 15.39,
-		"leave": 69.26
+		"withdegree": 6.85
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 84527,
 			"candidates": [{
 				"id": 2607,
 				"name": "Yvette Cooper",

@@ -2,14 +2,15 @@
 	"id": "E14000964",
 	"title": "St Ives",
 	"demographics": {
-		"withdegree": 14.02,
 		"2015UKIP": 11.84,
+		"leave": 55.13,
 		"age18-29": 11.55,
-		"leave": 55.13
+		"withdegree": 14.02
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 68795,
 			"candidates": [{
 				"id": 191,
 				"name": "Derek Thomas",

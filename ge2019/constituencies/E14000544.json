@@ -2,14 +2,15 @@
 	"id": "E14000544",
 	"title": "Basildon and Billericay",
 	"demographics": {
-		"withdegree": 10.88,
 		"2015UKIP": 19.84,
+		"leave": 66.92,
 		"age18-29": 13.88,
-		"leave": 66.92
+		"withdegree": 10.88
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69906,
 			"candidates": [{
 				"id": 2580,
 				"name": "John Baron",

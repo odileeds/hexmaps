@@ -2,10 +2,10 @@
 	"id": "E14000820",
 	"title": "Middlesbrough South and East Cleveland",
 	"demographics": {
-		"withdegree": 11.32,
 		"2015UKIP": 15.18,
+		"leave": 65,
 		"age18-29": 13.58,
-		"leave": 65
+		"withdegree": 11.32
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,10 +2,10 @@
 	"id": "E14001048",
 	"title": "Wokingham",
 	"demographics": {
-		"withdegree": 27.79,
 		"2015UKIP": 9.85,
+		"leave": 42.47,
 		"age18-29": 12.57,
-		"leave": 42.47
+		"withdegree": 27.79
 	},
 	"elections": {
 		"2019-12-12": {

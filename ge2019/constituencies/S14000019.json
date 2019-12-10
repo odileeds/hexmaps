@@ -3,12 +3,13 @@
 	"title": "East Kilbride, Strathaven and Lesmahagow",
 	"demographics": {
 		"2015UKIP": 2.02,
-		"age18-29": 13.73,
-		"leave": 38
+		"leave": 38,
+		"age18-29": 13.73
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81224,
 			"candidates": [{
 				"id": 6047,
 				"name": "Lisa Cameron",

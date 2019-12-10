@@ -2,14 +2,15 @@
 	"id": "E14000590",
 	"title": "Braintree",
 	"demographics": {
-		"withdegree": 10.87,
 		"2015UKIP": 18.82,
+		"leave": 61.43,
 		"age18-29": 13.08,
-		"leave": 61.43
+		"withdegree": 10.87
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75208,
 			"candidates": [{
 				"id": 5464,
 				"name": "James Cleverly",

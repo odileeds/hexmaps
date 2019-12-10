@@ -2,10 +2,10 @@
 	"id": "E14001051",
 	"title": "Wolverhampton South West",
 	"demographics": {
-		"withdegree": 18.25,
 		"2015UKIP": 10.72,
+		"leave": 54.37,
 		"age18-29": 17.42,
-		"leave": 54.37
+		"withdegree": 18.25
 	},
 	"elections": {
 		"2019-12-12": {

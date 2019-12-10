@@ -2,14 +2,15 @@
 	"id": "E14000986",
 	"title": "Tamworth",
 	"demographics": {
-		"withdegree": 9.6,
 		"2015UKIP": 18.5,
+		"leave": 66,
 		"age18-29": 14.95,
-		"leave": 66
+		"withdegree": 9.6
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 71580,
 			"candidates": [{
 				"id": 3706,
 				"name": "Christopher Pincher",

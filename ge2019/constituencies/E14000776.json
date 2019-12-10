@@ -2,14 +2,15 @@
 	"id": "E14000776",
 	"title": "Lancaster and Fleetwood",
 	"demographics": {
-		"withdegree": 17.67,
 		"2015UKIP": 9.73,
+		"leave": 50.91,
 		"age18-29": 24.7,
-		"leave": 50.91
+		"withdegree": 17.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70059,
 			"candidates": [{
 				"id": 2618,
 				"name": "Cat Smith",

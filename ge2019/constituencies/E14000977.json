@@ -2,10 +2,10 @@
 	"id": "E14000977",
 	"title": "Stratford-on-Avon",
 	"demographics": {
-		"withdegree": 20.03,
 		"2015UKIP": 13.21,
+		"leave": 51.17,
 		"age18-29": 10.79,
-		"leave": 51.17
+		"withdegree": 20.03
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,14 +2,15 @@
 	"id": "E14001001",
 	"title": "Totnes",
 	"demographics": {
-		"withdegree": 15.88,
 		"2015UKIP": 14.13,
+		"leave": 54.09,
 		"age18-29": 10.41,
-		"leave": 54.09
+		"withdegree": 15.88
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69863,
 			"candidates": [{
 				"id": 548,
 				"name": "Sarah Wollaston",

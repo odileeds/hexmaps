@@ -2,14 +2,15 @@
 	"id": "E14000841",
 	"title": "North East Bedfordshire",
 	"demographics": {
-		"withdegree": 17.33,
 		"2015UKIP": 14.62,
+		"leave": 53.29,
 		"age18-29": 11.72,
-		"leave": 53.29
+		"withdegree": 17.33
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 90679,
 			"candidates": [{
 				"id": 2925,
 				"name": "Richard Fuller",

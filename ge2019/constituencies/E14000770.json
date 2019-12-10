@@ -2,14 +2,15 @@
 	"id": "E14000770",
 	"title": "Kingston and Surbiton",
 	"demographics": {
-		"withdegree": 29.29,
 		"2015UKIP": 7.29,
+		"leave": 41.59,
 		"age18-29": 19.81,
-		"leave": 41.59
+		"withdegree": 29.29
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 81975,
 			"candidates": [{
 				"id": 3454,
 				"name": "'Chinners' Chinnery",

@@ -2,14 +2,15 @@
 	"id": "E14000600",
 	"title": "Bristol North West",
 	"demographics": {
-		"withdegree": 22.43,
 		"2015UKIP": 9.44,
+		"leave": 38.85,
 		"age18-29": 17.56,
-		"leave": 38.85
+		"withdegree": 22.43
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76273,
 			"candidates": [{
 				"id": 553,
 				"name": "Darren Jones",

@@ -2,10 +2,10 @@
 	"id": "E14000805",
 	"title": "Makerfield",
 	"demographics": {
-		"withdegree": 9.03,
 		"2015UKIP": 22.45,
+		"leave": 65,
 		"age18-29": 14.15,
-		"leave": 65
+		"withdegree": 9.03
 	},
 	"elections": {
 		"2019-12-12": {

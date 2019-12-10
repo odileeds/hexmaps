@@ -2,10 +2,10 @@
 	"id": "E14000917",
 	"title": "Selby and Ainsty",
 	"demographics": {
-		"withdegree": 15.67,
 		"2015UKIP": 13.99,
+		"leave": 57.79,
 		"age18-29": 12.24,
-		"leave": 57.79
+		"withdegree": 15.67
 	},
 	"elections": {
 		"2019-12-12": {

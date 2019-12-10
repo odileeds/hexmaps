@@ -2,12 +2,13 @@
 	"id": "S14000001",
 	"title": "Aberdeen North",
 	"demographics": {
-		"age18-29": 28.93,
-		"leave": 43.1
+		"leave": 43.1,
+		"age18-29": 28.93
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 62489,
 			"candidates": [{
 				"id": 6042,
 				"name": "Kirsty Blackman",

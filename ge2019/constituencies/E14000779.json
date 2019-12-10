@@ -2,14 +2,15 @@
 	"id": "E14000779",
 	"title": "Leeds North East",
 	"demographics": {
-		"withdegree": 30.83,
 		"2015UKIP": 7.67,
+		"leave": 37.33,
 		"age18-29": 16.03,
-		"leave": 37.33
+		"withdegree": 30.83
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70580,
 			"candidates": [{
 				"id": 475,
 				"name": "Celia Foote",

@@ -2,14 +2,15 @@
 	"id": "E14000896",
 	"title": "Richmond Park",
 	"demographics": {
-		"withdegree": 46.23,
 		"2015UKIP": 4.17,
+		"leave": 27.7,
 		"age18-29": 14.16,
-		"leave": 27.7
+		"withdegree": 46.23
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80161,
 			"candidates": [{
 				"id": 502,
 				"name": "Zac Goldsmith",

@@ -2,14 +2,15 @@
 	"id": "E14000661",
 	"title": "Denton and Reddish",
 	"demographics": {
-		"withdegree": 8.86,
 		"2015UKIP": 18.68,
+		"leave": 60.98,
 		"age18-29": 15.45,
-		"leave": 60.98
+		"withdegree": 8.86
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66234,
 			"candidates": [{
 				"id": 3802,
 				"name": "Andrew Gwynne",

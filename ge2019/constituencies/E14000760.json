@@ -2,14 +2,15 @@
 	"id": "E14000760",
 	"title": "Ilford South",
 	"demographics": {
-		"withdegree": 24.58,
 		"2015UKIP": 5.21,
+		"leave": 43.87,
 		"age18-29": 20.36,
-		"leave": 43.87
+		"withdegree": 24.58
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 84957,
 			"candidates": [{
 				"id": 2977,
 				"name": "Mike Gapes",

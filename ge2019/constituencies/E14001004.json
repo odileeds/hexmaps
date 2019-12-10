@@ -2,14 +2,15 @@
 	"id": "E14001004",
 	"title": "Tunbridge Wells",
 	"demographics": {
-		"withdegree": 22.85,
 		"2015UKIP": 12.6,
+		"leave": 44.7,
 		"age18-29": 13,
-		"leave": 44.7
+		"withdegree": 22.85
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74816,
 			"candidates": [{
 				"id": 1918,
 				"name": "Greg Clark",

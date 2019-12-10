@@ -2,14 +2,15 @@
 	"id": "E14000870",
 	"title": "Oldham East and Saddleworth",
 	"demographics": {
-		"withdegree": 11.8,
 		"2015UKIP": 19.24,
+		"leave": 59.92,
 		"age18-29": 15.35,
-		"leave": 59.92
+		"withdegree": 11.8
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72173,
 			"candidates": [{
 				"id": 1862,
 				"name": "Debbie Abrahams",

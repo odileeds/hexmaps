@@ -2,14 +2,15 @@
 	"id": "E14000709",
 	"title": "Gateshead",
 	"demographics": {
-		"withdegree": 13.74,
 		"2015UKIP": 17.83,
+		"leave": 56.05,
 		"age18-29": 18.24,
-		"leave": 56.05
+		"withdegree": 13.74
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64449,
 			"candidates": [{
 				"id": 2657,
 				"name": "Ian Mearns",

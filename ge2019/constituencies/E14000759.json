@@ -2,14 +2,15 @@
 	"id": "E14000759",
 	"title": "Ilford North",
 	"demographics": {
-		"withdegree": 21.25,
 		"2015UKIP": 8.9,
+		"leave": 52.57,
 		"age18-29": 15.73,
-		"leave": 52.57
+		"withdegree": 21.25
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72963,
 			"candidates": [{
 				"id": 4360,
 				"name": "Wes Streeting",

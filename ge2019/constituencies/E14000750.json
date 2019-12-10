@@ -2,14 +2,15 @@
 	"id": "E14000750",
 	"title": "Holborn and St Pancras",
 	"demographics": {
-		"withdegree": 39.91,
 		"2015UKIP": 4.99,
+		"leave": 26.66,
 		"age18-29": 27.8,
-		"leave": 26.66
+		"withdegree": 39.91
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 87236,
 			"candidates": [{
 				"id": 5077,
 				"name": "Keir Starmer",

@@ -2,10 +2,10 @@
 	"id": "E14000920",
 	"title": "Sheffield South East",
 	"demographics": {
-		"withdegree": 8.42,
 		"2015UKIP": 21.9,
+		"leave": 66.49,
 		"age18-29": 14.12,
-		"leave": 66.49
+		"withdegree": 8.42
 	},
 	"elections": {
 		"2019-12-12": {

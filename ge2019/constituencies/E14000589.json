@@ -2,14 +2,15 @@
 	"id": "E14000589",
 	"title": "Bradford West",
 	"demographics": {
-		"withdegree": 13.91,
 		"2015UKIP": 7.79,
+		"leave": 46.74,
 		"age18-29": 22.49,
-		"leave": 46.74
+		"withdegree": 13.91
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70694,
 			"candidates": [{
 				"id": 6528,
 				"name": "Naz Shah",

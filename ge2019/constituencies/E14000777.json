@@ -2,14 +2,15 @@
 	"id": "E14000777",
 	"title": "Leeds Central",
 	"demographics": {
-		"withdegree": 17.36,
 		"2015UKIP": 15.72,
+		"leave": 47.43,
 		"age18-29": 35.03,
-		"leave": 47.43
+		"withdegree": 17.36
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 90971,
 			"candidates": [{
 				"id": 738,
 				"name": "Hilary Benn",

@@ -2,14 +2,15 @@
 	"id": "E14000939",
 	"title": "South Holland and The Deepings",
 	"demographics": {
-		"withdegree": 7.42,
 		"2015UKIP": 21.82,
+		"leave": 71.18,
 		"age18-29": 12.31,
-		"leave": 71.18
+		"withdegree": 7.42
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75728,
 			"candidates": [{
 				"id": 3445,
 				"name": "John Hayes",

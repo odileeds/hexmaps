@@ -2,14 +2,15 @@
 	"id": "E14000669",
 	"title": "Doncaster North",
 	"demographics": {
-		"withdegree": 6.38,
 		"2015UKIP": 22.6,
+		"leave": 72.06,
 		"age18-29": 15.06,
-		"leave": 72.06
+		"withdegree": 6.38
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72363,
 			"candidates": [{
 				"id": 3056,
 				"name": "Ed Miliband",

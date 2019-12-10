@@ -2,14 +2,15 @@
 	"id": "E14000867",
 	"title": "Nottingham South",
 	"demographics": {
-		"withdegree": 19.5,
 		"2015UKIP": 11.27,
+		"leave": 46.47,
 		"age18-29": 36.99,
-		"leave": 46.47
+		"withdegree": 19.5
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79485,
 			"candidates": [{
 				"id": 1925,
 				"name": "Lilian Greenwood",

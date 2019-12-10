@@ -2,10 +2,10 @@
 	"id": "E14000714",
 	"title": "Grantham and Stamford",
 	"demographics": {
-		"withdegree": 13.09,
 		"2015UKIP": 17.51,
+		"leave": 61.01,
 		"age18-29": 12.51,
-		"leave": 61.01
+		"withdegree": 13.09
 	},
 	"elections": {
 		"2019-12-12": {

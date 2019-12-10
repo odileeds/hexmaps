@@ -2,14 +2,15 @@
 	"id": "E14000555",
 	"title": "Bethnal Green and Bow",
 	"demographics": {
-		"withdegree": 35.43,
 		"2015UKIP": 6.08,
+		"leave": 30.93,
 		"age18-29": 33.08,
-		"leave": 30.93
+		"withdegree": 35.43
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 88169,
 			"candidates": [{
 				"id": 143,
 				"name": "Rushanara Ali",

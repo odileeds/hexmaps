@@ -3,12 +3,13 @@
 	"title": "Glasgow South West",
 	"demographics": {
 		"2015UKIP": 2.37,
-		"age18-29": 16.79,
-		"leave": 40.86
+		"leave": 40.86,
+		"age18-29": 16.79
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64575,
 			"candidates": [{
 				"id": 1812,
 				"name": "Chris Stephens",

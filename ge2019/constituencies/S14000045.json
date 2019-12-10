@@ -3,12 +3,13 @@
 	"title": "Midlothian",
 	"demographics": {
 		"2015UKIP": 2.43,
-		"age18-29": 13.54,
-		"leave": 37.94
+		"leave": 37.94,
+		"age18-29": 13.54
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70544,
 			"candidates": [{
 				"id": 6051,
 				"name": "Owen Thompson",

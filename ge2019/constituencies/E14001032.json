@@ -2,14 +2,15 @@
 	"id": "E14001032",
 	"title": "West Ham",
 	"demographics": {
-		"withdegree": 23.27,
 		"2015UKIP": 7.48,
+		"leave": 47.38,
 		"age18-29": 27.13,
-		"leave": 47.38
+		"withdegree": 23.27
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 98871,
 			"candidates": [{
 				"id": 2259,
 				"name": "Lyn Brown",

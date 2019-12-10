@@ -2,14 +2,15 @@
 	"id": "E14000549",
 	"title": "Battersea",
 	"demographics": {
-		"withdegree": 51.1,
 		"2015UKIP": 3.11,
+		"leave": 23.04,
 		"age18-29": 26.96,
-		"leave": 23.04
+		"withdegree": 51.1
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79309,
 			"candidates": [{
 				"id": 4232,
 				"name": "Kim Caddy",

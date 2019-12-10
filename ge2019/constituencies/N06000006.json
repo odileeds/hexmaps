@@ -7,6 +7,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69246,
 			"candidates": [{
 				"id": 2139,
 				"name": "Gregory Campbell",

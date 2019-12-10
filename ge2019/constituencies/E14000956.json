@@ -2,14 +2,15 @@
 	"id": "E14000956",
 	"title": "Southampton, Test",
 	"demographics": {
-		"withdegree": 19.33,
 		"2015UKIP": 12.75,
+		"leave": 50.65,
 		"age18-29": 26.44,
-		"leave": 50.65
+		"withdegree": 19.33
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79509,
 			"candidates": [{
 				"id": 3111,
 				"name": "Alan Whitehead",

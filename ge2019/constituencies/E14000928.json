@@ -2,14 +2,15 @@
 	"id": "E14000928",
 	"title": "Skipton and Ripon",
 	"demographics": {
-		"withdegree": 18.49,
 		"2015UKIP": 14.02,
+		"leave": 53.03,
 		"age18-29": 10.9,
-		"leave": 53.03
+		"withdegree": 18.49
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78673,
 			"candidates": [{
 				"id": 2798,
 				"name": "Julian Smith",

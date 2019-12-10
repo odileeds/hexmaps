@@ -2,14 +2,15 @@
 	"id": "E14000764",
 	"title": "Islington South and Finsbury",
 	"demographics": {
-		"withdegree": 42.76,
 		"2015UKIP": 7.62,
+		"leave": 28.28,
 		"age18-29": 29.31,
-		"leave": 28.28
+		"withdegree": 42.76
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 70489,
 			"candidates": [{
 				"id": 2519,
 				"name": "Emily Thornberry",

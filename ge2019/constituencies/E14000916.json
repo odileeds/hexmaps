@@ -2,14 +2,15 @@
 	"id": "E14000916",
 	"title": "Sefton Central",
 	"demographics": {
-		"withdegree": 16.39,
 		"2015UKIP": 9.95,
+		"leave": 45.13,
 		"age18-29": 11.63,
-		"leave": 45.13
+		"withdegree": 16.39
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69760,
 			"candidates": [{
 				"id": 1961,
 				"name": "Bill Esterson",

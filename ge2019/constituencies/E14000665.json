@@ -2,10 +2,10 @@
 	"id": "E14000665",
 	"title": "Devizes",
 	"demographics": {
-		"withdegree": 15.82,
 		"2015UKIP": 15.39,
+		"leave": 51.46,
 		"age18-29": 15.8,
-		"leave": 51.46
+		"withdegree": 15.82
 	},
 	"elections": {
 		"2019-12-12": {

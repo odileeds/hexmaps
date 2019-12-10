@@ -2,14 +2,15 @@
 	"id": "E14000597",
 	"title": "Brighton, Kemptown",
 	"demographics": {
-		"withdegree": 18.33,
 		"2015UKIP": 9.81,
+		"leave": 43.43,
 		"age18-29": 20.64,
-		"leave": 43.43
+		"withdegree": 18.33
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69833,
 			"candidates": [{
 				"id": 4371,
 				"name": "Lloyd Russell-Moyle",

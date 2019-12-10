@@ -2,14 +2,15 @@
 	"id": "E14000866",
 	"title": "Nottingham North",
 	"demographics": {
-		"withdegree": 7.05,
 		"2015UKIP": 18.51,
+		"leave": 63.81,
 		"age18-29": 17.02,
-		"leave": 63.81
+		"withdegree": 7.05
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66495,
 			"candidates": [{
 				"id": 25790,
 				"name": "Stuart Bestwick",

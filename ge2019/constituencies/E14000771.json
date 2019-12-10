@@ -2,10 +2,10 @@
 	"id": "E14000771",
 	"title": "Kingston upon Hull East",
 	"demographics": {
-		"withdegree": 5.54,
 		"2015UKIP": 22.37,
+		"leave": 72.63,
 		"age18-29": 16.9,
-		"leave": 72.63
+		"withdegree": 5.54
 	},
 	"elections": {
 		"2019-12-12": {

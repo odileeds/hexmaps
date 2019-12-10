@@ -2,14 +2,15 @@
 	"id": "E14000609",
 	"title": "Burnley",
 	"demographics": {
-		"withdegree": 8.59,
 		"2015UKIP": 17.27,
+		"leave": 66.61,
 		"age18-29": 15.57,
-		"leave": 66.61
+		"withdegree": 8.59
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64343,
 			"candidates": [{
 				"id": 627,
 				"name": "Julie Cooper",

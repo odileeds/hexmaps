@@ -2,10 +2,10 @@
 	"id": "E14000879",
 	"title": "Plymouth, Moor View",
 	"demographics": {
-		"withdegree": 6.88,
 		"2015UKIP": 21.48,
+		"leave": 66.44,
 		"age18-29": 14.95,
-		"leave": 66.44
+		"withdegree": 6.88
 	},
 	"elections": {
 		"2019-12-12": {

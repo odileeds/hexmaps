@@ -2,14 +2,15 @@
 	"id": "E14000718",
 	"title": "Greenwich and Woolwich",
 	"demographics": {
-		"withdegree": 32.49,
 		"2015UKIP": 8.32,
+		"leave": 35.67,
 		"age18-29": 21.77,
-		"leave": 35.67
+		"withdegree": 32.49
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 79997,
 			"candidates": [{
 				"id": 4343,
 				"name": "Matthew Pennycook",

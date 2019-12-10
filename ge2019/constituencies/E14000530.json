@@ -2,14 +2,15 @@
 	"id": "E14000530",
 	"title": "Aldershot",
 	"demographics": {
-		"withdegree": 13.87,
 		"2015UKIP": 17.87,
+		"leave": 57.9,
 		"age18-29": 16.98,
-		"leave": 57.9
+		"withdegree": 13.87
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72617,
 			"candidates": [{
 				"id": 1201,
 				"name": "Alan Hilliar",

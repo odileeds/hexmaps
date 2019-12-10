@@ -2,14 +2,15 @@
 	"id": "E14001062",
 	"title": "York Outer",
 	"demographics": {
-		"withdegree": 19.37,
 		"2015UKIP": 9.74,
+		"leave": 44.92,
 		"age18-29": 14.39,
-		"leave": 44.92
+		"withdegree": 19.37
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74586,
 			"candidates": [{
 				"id": 4113,
 				"name": "Julian Sturdy",

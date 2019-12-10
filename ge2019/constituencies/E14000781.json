@@ -2,14 +2,15 @@
 	"id": "E14000781",
 	"title": "Leeds West",
 	"demographics": {
-		"withdegree": 15.91,
 		"2015UKIP": 18.49,
+		"leave": 54.98,
 		"age18-29": 22.83,
-		"leave": 54.98
+		"withdegree": 15.91
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67727,
 			"candidates": [{
 				"id": 482,
 				"name": "Mike Davies",

@@ -2,10 +2,10 @@
 	"id": "E14000738",
 	"title": "Hazel Grove",
 	"demographics": {
-		"withdegree": 15.29,
 		"2015UKIP": 12.22,
+		"leave": 52.21,
 		"age18-29": 11.76,
-		"leave": 52.21
+		"withdegree": 15.29
 	},
 	"elections": {
 		"2019-12-12": {

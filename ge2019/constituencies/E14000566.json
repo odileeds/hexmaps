@@ -2,14 +2,15 @@
 	"id": "E14000566",
 	"title": "Birmingham, Perry Barr",
 	"demographics": {
-		"withdegree": 12.26,
 		"2015UKIP": 12.2,
+		"leave": 51.22,
 		"age18-29": 19.53,
-		"leave": 51.22
+		"withdegree": 12.26
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72006,
 			"candidates": [{
 				"id": 3367,
 				"name": "Khalid Mahmood",

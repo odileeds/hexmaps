@@ -3,12 +3,13 @@
 	"title": "Orkney and Shetland",
 	"demographics": {
 		"2015UKIP": 4.76,
-		"age18-29": 12.79,
-		"leave": 40.28
+		"leave": 40.28,
+		"age18-29": 12.79
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 34211,
 			"candidates": [{
 				"id": 1331,
 				"name": "Alistair Carmichael",

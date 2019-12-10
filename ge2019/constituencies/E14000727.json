@@ -2,14 +2,15 @@
 	"id": "E14000727",
 	"title": "Hampstead and Kilburn",
 	"demographics": {
-		"withdegree": 47.38,
 		"2015UKIP": 2.84,
+		"leave": 23.48,
 		"age18-29": 20.77,
-		"leave": 23.48
+		"withdegree": 47.38
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 82432,
 			"candidates": [{
 				"id": 4346,
 				"name": "Tulip Siddiq",

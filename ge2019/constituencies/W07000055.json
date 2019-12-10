@@ -2,14 +2,15 @@
 	"id": "W07000055",
 	"title": "Newport East",
 	"demographics": {
-		"withdegree": 11.3,
 		"2015UKIP": 18.42,
+		"leave": 60.25,
 		"age18-29": 16.47,
-		"leave": 60.25
+		"withdegree": 11.3
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 58554,
 			"candidates": [{
 				"id": 1369,
 				"name": "Jessica Morden",

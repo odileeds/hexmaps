@@ -2,14 +2,15 @@
 	"id": "E14000663",
 	"title": "Derby South",
 	"demographics": {
-		"withdegree": 11.68,
 		"2015UKIP": 15.53,
+		"leave": 61.61,
 		"age18-29": 18.13,
-		"leave": 61.61
+		"withdegree": 11.68
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 73079,
 			"candidates": [{
 				"id": 3123,
 				"name": "Joe Naitta",

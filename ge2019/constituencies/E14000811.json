@@ -2,10 +2,10 @@
 	"id": "E14000811",
 	"title": "Meon Valley",
 	"demographics": {
-		"withdegree": 17.34,
 		"2015UKIP": 14.82,
+		"leave": 52.93,
 		"age18-29": 11.4,
-		"leave": 52.93
+		"withdegree": 17.34
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,14 +2,15 @@
 	"id": "E14000596",
 	"title": "Brigg and Goole",
 	"demographics": {
-		"withdegree": 9.67,
 		"2015UKIP": 15.47,
+		"leave": 66.21,
 		"age18-29": 12.53,
-		"leave": 66.21
+		"withdegree": 9.67
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 65939,
 			"candidates": [{
 				"id": 1356,
 				"name": "David Dobbie",

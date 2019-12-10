@@ -2,14 +2,15 @@
 	"id": "E14001030",
 	"title": "West Bromwich West",
 	"demographics": {
-		"withdegree": 6.76,
 		"2015UKIP": 25.23,
+		"leave": 69.14,
 		"age18-29": 17.05,
-		"leave": 69.14
+		"withdegree": 6.76
 	},
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 64576,
 			"candidates": [{
 				"id": 7028,
 				"name": "Flo Clucas",

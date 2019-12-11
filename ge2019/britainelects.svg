@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="288.06967"
+   height="288"
+   viewBox="0 0 76.218437 76.199997"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="britainelects.svg">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="603.53852"
+     inkscape:cy="-1.7142929"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1046"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(206.55528,-72.179764)">
+    <g
+       id="g882">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4149"
+         d="M -184.58227,87.903572 -200.3022,72.179761 h 7.66207 7.66206 l 8.25779,8.265166 8.25779,8.265163 8.2722,-8.265163 8.2722,-8.265166 h 7.45328 7.45327 l -15.71993,15.723811 c -8.64597,8.648093 -15.8124,15.723808 -15.9254,15.723808 -0.113,0 -7.27943,-7.075715 -15.9254,-15.723808 z"
+         style="opacity:1;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.84666663;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4151"
+         d="m -206.55528,134.26432 v -7.46178 l 8.26516,-8.25779 8.26517,-8.25778 -8.26517,-8.2722 -8.26516,-8.272201 v -7.656158 -7.656158 l 15.82396,15.82396 15.82396,15.823967 -15.82396,15.82396 -15.82396,15.82396 z"
+         style="opacity:1;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.84666663;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4153"
+         d="m -184.58227,132.65595 c 8.64597,-8.64809 15.90312,-15.72381 16.12701,-15.72381 0.46309,0 31.24601,30.68555 31.24601,31.14718 0,0.16524 -3.30949,0.30044 -7.35442,0.30044 h -7.35442 l -8.2722,-8.26516 -8.2722,-8.26517 -8.25779,8.26517 -8.25779,8.26516 h -7.66206 -7.66207 z"
+         style="opacity:1;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.84666663;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4155"
+         d="m -146.38149,126.10498 -15.82461,-15.82902 15.92541,-15.921584 15.92541,-15.921581 v 7.662094 7.66209 l -8.26517,8.257791 -8.26516,8.25779 8.27438,8.28143 8.27439,8.28142 -0.11002,7.5493 -0.11001,7.5493 z"
+         style="opacity:1;fill:#262626;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.84666663;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>

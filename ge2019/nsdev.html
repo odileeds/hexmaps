@@ -175,7 +175,7 @@
 	.infobubble table { margin-bottom: 0.5em; }
 	.winner { display: flex; padding: 1em; margin-bottom: 0.5em; width: 100%; }
 	.winner .headline { font-size: 1.2em; }
-	.infobubble .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
+	.infobubble .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; float: left; }
 	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.25em; }
 	.bottom a, .bottom a:visited { color: inherit; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
@@ -272,6 +272,7 @@
 		var r;
 		var p = "";
 		var lbl = "";
+		var img = "";
 		var wincolour = "";
 		if(!data) data = {};
 
@@ -325,16 +326,16 @@
 
 				if(total > 0){
 					var ccode = -1;
-					var img = "";
 					for(var c = 0; c < data.elections[yy].candidates.length; c++){
 						if(data.elections[yy].candidates[c].name == data.elections[yy].mp) img = data.elections[yy].candidates[c].img;
 					}
 					p1 = getPartyDetails(data.elections[yy].party);
 					p2 = getPartyDetails(lastge.party);
 					lbl += '<div class="winner" style="background-color:'+p1.color+';color:%COLOR%;">';
-					lbl += '<div class="image"><div style="background-image:url(\''+img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections[yy].mp+'"></div></div>';
+					lbl += '<div class="image"><img src="britainelects.svg" title="'+data.elections[yy].mp+'" /></div>';
 					lbl += '<div class="about"><strong class="headline">';
-					lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short)
+					if(p1.code == "Spk") lbl += data.elections[yy].mp+' re-elected as Speaker';
+					else lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short);
 					lbl += '</strong><br /><strong>Elected:</strong> '+data.elections[yy].mp+'';
 					if(data.elections[yy].majority) lbl += '<br /><strong>Majority:</strong> '+data.elections[yy].majority.toLocaleString()+(data.elections[yy].majority.pc ? '('+data.elections[yy].majority.pc.toFixed(1)+'%)':'');
 
@@ -445,6 +446,18 @@
 				prev = id;
 			});
 			S('.infobubble .close')[0].focus();
+			
+			// Update the image for the winner
+			var my_image = new Image();
+			my_image.onload = function(){
+				// replace image in popup
+				var img = S('.infobubble .image img');
+				var title = img.attr('title');
+				img.parent().html('')[0].appendChild(my_image);
+				
+			}
+			my_image.src = img;
+
 		}
 
 		return {'label':lbl,'class':'generalelection','color':wincolour||'','callback': postRender };

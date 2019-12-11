@@ -335,6 +335,7 @@
 					lbl += '<div class="image"><img src="britainelects.svg" title="'+data.elections[yy].mp+'" /></div>';
 					lbl += '<div class="about"><strong class="headline">';
 					if(p1.code == "Spk") lbl += data.elections[yy].mp+' re-elected as Speaker';
+					else if(p2.code == "Spk" && p1.code != "Spk") lbl += p1.short+' GAIN';
 					else lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short);
 					lbl += '</strong><br /><strong>Elected:</strong> '+data.elections[yy].mp+'';
 					if(data.elections[yy].majority) lbl += '<br /><strong>Majority:</strong> '+data.elections[yy].majority.toLocaleString()+(data.elections[yy].majority.pc ? '('+data.elections[yy].majority.pc.toFixed(1)+'%)':'');

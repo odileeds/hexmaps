@@ -392,7 +392,7 @@
 					lbl += '<h3 class="popup-title">Incumbent</h3><p>';
 					party = incumbent.party;
 					p1 = getPartyDetails(party);
-					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+incumbent.mp+' - '+p1.title;
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><strong>'+incumbent.mp+' - '+p1.title+'</strong>';
 				}
 			}
 
@@ -502,7 +502,7 @@
 		return false;	
 	}
 	function acronymise(string){
-		if(string.length > 5 && string.indexOf(' ') > 0){
+		if(string.length > 5){
 			string = string.replace(/^The /,"");
 			// Split by uppercase characters
 			var words = string.split(/(?=[A-Z])/);

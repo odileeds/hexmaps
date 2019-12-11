@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 67832,
 			"candidates": [{
 				"id": 1074,
 				"name": "Clive Betts",

@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 74759,
 			"candidates": [{
 				"id": 234,
 				"name": "Andy Slaughter",

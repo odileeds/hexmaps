@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 69333,
 			"candidates": [{
 				"id": 6930,
 				"name": "Christine Gilligan Kubo",

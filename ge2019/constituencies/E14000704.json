@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 88273,
 			"candidates": [{
 				"id": 1958,
 				"name": "Damian Collins",

@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78587,
 			"candidates": [{
 				"id": 1420,
 				"name": "David Aherne",

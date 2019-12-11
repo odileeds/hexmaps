@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 56416,
 			"candidates": [{
 				"id": 1644,
 				"name": "Jonathan Burns",

@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72350,
 			"candidates": [{
 				"id": 784,
 				"name": "Andrew Richard Rosindell",

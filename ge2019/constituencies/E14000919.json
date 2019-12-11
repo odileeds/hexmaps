@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 89849,
 			"candidates": [{
 				"id": 178,
 				"name": "Paul Blomfield",

@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 78455,
 			"candidates": [{
 				"id": 188,
 				"name": "Elizabeth Truss",

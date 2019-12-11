@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76478,
 			"candidates": [{
 				"id": 3449,
 				"name": "Damian Hinds",

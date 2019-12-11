@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77852,
 			"candidates": [{
 				"id": 3562,
 				"name": "Luke Pollard",

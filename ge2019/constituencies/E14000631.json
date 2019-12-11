@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72542,
 			"candidates": [{
 				"id": 1015,
 				"name": "Cheryl Gillan",

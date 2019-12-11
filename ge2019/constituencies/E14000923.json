@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 66940,
 			"candidates": [{
 				"id": 432,
 				"name": "Simon William Clement-Jones",

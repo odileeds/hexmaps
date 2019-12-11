@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 76508,
 			"candidates": [{
 				"id": 1923,
 				"name": "Alun Cairns",

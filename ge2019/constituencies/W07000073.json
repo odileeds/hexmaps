@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 61380,
 			"candidates": [{
 				"id": 2455,
 				"name": "Madeleine Moon",

@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 75196,
 			"candidates": [{
 				"id": 2545,
 				"name": "Tim Loughton",

@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77720,
 			"candidates": [{
 				"id": 3739,
 				"name": "Dominic Grieve",

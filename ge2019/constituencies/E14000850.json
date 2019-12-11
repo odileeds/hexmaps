@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 80194,
 			"candidates": [{
 				"id": 451,
 				"name": "Liam Fox",

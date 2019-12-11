@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 42215,
 			"candidates": [{
 				"id": 2286,
 				"name": "Hywel Williams",

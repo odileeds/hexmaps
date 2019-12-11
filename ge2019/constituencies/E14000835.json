@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 72533,
 			"candidates": [{
 				"id": 1067,
 				"name": "Anne Marie Morris",

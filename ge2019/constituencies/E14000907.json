@@ -10,6 +10,7 @@
 	"elections": {
 		"2019-12-12": {
 			"type": "general",
+			"electorate": 77196,
 			"candidates": [{
 				"id": 5243,
 				"name": "Nicholas David Wood",

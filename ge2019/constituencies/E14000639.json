@@ -17,6 +17,11 @@
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/2918.png"
 			},{
+				"id": 6487,
+				"name": "Jill McLachlan",
+				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/6487-1d998a30-4e3a-46b8-9a62-7ee1b7cb489a.png"
+			},{
 				"id": 7505,
 				"name": "Zack Polanski",
 				"party": { "code": "Green", "title": "Green Party" },
@@ -30,17 +35,12 @@
 				"id": 71369,
 				"name": "Dirk van Heck",
 				"party": { "code": "Liberal", "title": "The Liberal Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71369-1195eff1-8832-4261-a3a8-55f64c13b381.png"
 			},{
 				"id": 71883,
 				"name": "Gordon Nardell",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71883.png"
-			},{
-				"id": 72470,
-				"name": "Jill McLachlan",
-				"party": { "code": "Christian", "title": "Christian Peoples Alliance" },
-				"img": ""
 			}]
 		},
 		"2017-06-08": {

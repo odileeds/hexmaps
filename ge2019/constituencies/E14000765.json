@@ -40,7 +40,7 @@
 				"id": 70499,
 				"name": "Richard Leslie Monaghan",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/70499-f2c2f9bb-0411-4a40-a3d0-a1734cc8c224.png"
 			},{
 				"id": 71959,
 				"name": "Mark Conway",
@@ -48,9 +48,9 @@
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71959.png"
 			},{
 				"id": 72323,
-				"name": "Shaun William Sadler",
+				"name": "Shaun Sadler",
 				"party": { "code": "Ind", "title": "Independent" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72323-9ee58db2-9c91-4ed2-9b56-188eb355b731.png"
 			}]
 		},
 		"2017-06-08": {

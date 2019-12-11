@@ -36,15 +36,15 @@
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50128-a104e2d5-fedc-4cae-b670-892b15d7918f.png"
 			},{
+				"id": 50432,
+				"name": "Clive Johnson",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71934.png"
+			},{
 				"id": 50578,
 				"name": "Samantha Collins",
 				"party": { "code": "Green", "title": "Green Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/50578.png"
-			},{
-				"id": 71934,
-				"name": "Clive Johnson",
-				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71934.png"
 			}]
 		},
 		"2017-06-08": {

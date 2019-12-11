@@ -32,15 +32,15 @@
 				"party": { "code": "Ind", "title": "Independent" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/34923.png"
 			},{
-				"id": 69512,
-				"name": "David Charles Yellen",
-				"party": { "code": "Lab", "title": "Labour Party" },
-				"img": ""
-			},{
-				"id": 71855,
+				"id": 36617,
 				"name": "John Hall",
 				"party": { "code": "YP", "title": "Yorkshire Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/36617-4ad36f65-9ef6-4a51-8c33-44a31f72c700.png"
+			},{
+				"id": 69512,
+				"name": "David Yellen",
+				"party": { "code": "Lab", "title": "Labour Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/69512-b3e174a5-8b6e-4ef5-bf63-4696b4105c54.png"
 			},{
 				"id": 72185,
 				"name": "Steve Mullins",
@@ -50,7 +50,7 @@
 				"id": 72186,
 				"name": "Michael John Taylor",
 				"party": { "code": "SDP", "title": "Social Democratic Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72186-a8cd32de-0c6c-4030-8398-698a676dd183.png"
 			}]
 		},
 		"2017-06-08": {

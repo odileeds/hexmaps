@@ -13,7 +13,7 @@
 			"electorate": 75525,
 			"candidates": [{
 				"id": 4593,
-				"name": "Adrian Trett",
+				"name": "Adrian Hyyrylainen-Trett",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/4593.png"
 			},{
@@ -35,7 +35,7 @@
 				"id": 71496,
 				"name": "Nicola Thomas",
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71496-0857009f-5539-45cd-bdad-236225a8ca21.png"
 			}]
 		},
 		"2017-06-08": {

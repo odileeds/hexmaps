@@ -22,6 +22,11 @@
 				"party": { "code": "Lab", "title": "Labour and Co-operative Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/10377-7b340bc2-3395-47e6-bd45-fe0c0cf3b5b9.png"
 			},{
+				"id": 10386,
+				"name": "Robert Bilcliff",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": ""
+			},{
 				"id": 40952,
 				"name": "Rob Wheway",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
@@ -30,11 +35,6 @@
 				"id": 46386,
 				"name": "Andrew Tilley",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
-			},{
-				"id": 72162,
-				"name": "Robert Bilcliff",
-				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
 				"img": ""
 			},{
 				"id": 72165,

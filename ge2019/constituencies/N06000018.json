@@ -32,17 +32,17 @@
 				"id": 68878,
 				"name": "Susan Glass",
 				"party": { "code": "Green", "title": "Green Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68878-01cf1536-1758-4957-a404-1792a4a3dda7.png"
 			},{
 				"id": 68899,
 				"name": "Andy McKane",
 				"party": { "code": "UUP", "title": "Ulster Unionist Party" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/68899-58657a54-c04c-4c7c-8f2a-13aceec87a33.png"
 			},{
 				"id": 72373,
 				"name": "James Hope",
 				"party": { "code": "", "title": "Aontú" },
-				"img": ""
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72373-d59644da-c771-4647-92a1-c4d4e15cd84e.png"
 			}]
 		},
 		"2018-05-03": {

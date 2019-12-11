@@ -17,6 +17,11 @@
 				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/553ba6b710284be476aae899.png"
 			},{
+				"id": 5146,
+				"name": "Tim Dawes",
+				"party": { "code": "Green", "title": "Green Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/5146-b25c9609-bcd4-4790-90c5-0f39ee2a39eb.png"
+			},{
 				"id": 34365,
 				"name": "Dylan Harrison",
 				"party": { "code": "Lab", "title": "Labour Party" },
@@ -26,11 +31,6 @@
 				"name": "Thomas Janke",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53090.png"
-			},{
-				"id": 72149,
-				"name": "Tim Dawes",
-				"party": { "code": "Green", "title": "Green Party" },
-				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72149-030e16c3-3ebd-423b-a0ad-327c926ea09c.png"
 			}]
 		},
 		"2017-06-08": {

@@ -21,15 +21,15 @@
 				"party": { "code": "Brexit", "title": "The Brexit Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/11976-a9398b52-60f5-4e23-ae63-2d0a337d4adc.png"
 			},{
+				"id": 53120,
+				"name": "Marc Bayliss",
+				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/53120-478895b7-7174-40d6-a524-0491f17b8d15.png"
+			},{
 				"id": 71618,
 				"name": "Rajin Chowdhury",
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/71618.png"
-			},{
-				"id": 72179,
-				"name": "Marc Leslie Bayliss",
-				"party": { "code": "Con", "title": "Conservative and Unionist Party" },
-				"img": ""
 			},{
 				"id": 72182,
 				"name": "Alex Martin",

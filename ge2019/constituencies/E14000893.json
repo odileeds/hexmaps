@@ -27,15 +27,15 @@
 				"party": { "code": "LD", "title": "Liberal Democrats" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/52047.png"
 			},{
+				"id": 7585,
+				"name": "Julia Florence Searle",
+				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
+				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/7585.png"
+			},{
 				"id": 56246,
 				"name": "Susan Kathryn Gregory",
 				"party": { "code": "Lab", "title": "Labour Party" },
 				"img": "https://static-candidates.democracyclub.org.uk/media/images/images/72204-0d7ab49b-fa24-43eb-94cd-8262e1be1e42.png"
-			},{
-				"id": 72210,
-				"name": "Julia Florence Searle",
-				"party": { "code": "UKIP", "title": "UK Independence Party (UKIP)" },
-				"img": ""
 			}]
 		},
 		"2017-06-08": {

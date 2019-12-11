@@ -3,9 +3,27 @@
 	"title": "Uxbridge and South Ruislip",
 	"demographics": {
 		"2015UKIP": 14.16,
-		"leave": 56.36,
 		"age18-29": 21.98,
-		"withdegree": 19.04
+		"EUminus": 11.34,
+		"leave": 56.36,
+		"withdegree": 19.04,
+		"religion": {
+			"christian": 54.43,
+			"jewish": 0.28,
+			"muslim": 7.89
+		},
+		"race": {
+			"arab": 1.19,
+			"bangladeshi": 1.3,
+			"black": 5.57,
+			"chinese": 1.6,
+			"indian": 8.6,
+			"mixed": 3.87,
+			"other": 1.42,
+			"otherasian": 4.37,
+			"pakistani": 2.23,
+			"white": 69.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

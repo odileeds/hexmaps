@@ -3,9 +3,27 @@
 	"title": "Newcastle upon Tyne Central",
 	"demographics": {
 		"2015UKIP": 14.86,
-		"leave": 48.37,
 		"age18-29": 24.17,
-		"withdegree": 20.01
+		"EUminus": 7.69,
+		"leave": 48.37,
+		"withdegree": 20.01,
+		"religion": {
+			"christian": 51.16,
+			"jewish": 0.31,
+			"muslim": 13.51
+		},
+		"race": {
+			"arab": 1.57,
+			"bangladeshi": 4.07,
+			"black": 2.98,
+			"chinese": 2.91,
+			"indian": 2.97,
+			"mixed": 2.01,
+			"other": 0.82,
+			"otherasian": 3.19,
+			"pakistani": 5.27,
+			"white": 74.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

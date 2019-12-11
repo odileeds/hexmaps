@@ -3,9 +3,27 @@
 	"title": "Southport",
 	"demographics": {
 		"2015UKIP": 16.85,
-		"leave": 45.51,
 		"age18-29": 12.58,
-		"withdegree": 14.28
+		"EUminus": 7.1,
+		"leave": 45.51,
+		"withdegree": 14.28,
+		"religion": {
+			"christian": 71.11,
+			"jewish": 0.38,
+			"muslim": 0.66
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.23,
+			"black": 0.38,
+			"chinese": 0.44,
+			"indian": 0.36,
+			"mixed": 1.26,
+			"other": 0.21,
+			"otherasian": 0.33,
+			"pakistani": 0.05,
+			"white": 96.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

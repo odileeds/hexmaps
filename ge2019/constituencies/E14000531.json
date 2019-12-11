@@ -3,9 +3,27 @@
 	"title": "Aldridge-Brownhills",
 	"demographics": {
 		"2015UKIP": 19.62,
-		"leave": 67.8,
 		"age18-29": 12.36,
-		"withdegree": 9.97
+		"EUminus": 2.12,
+		"leave": 67.8,
+		"withdegree": 9.97,
+		"religion": {
+			"christian": 70.17,
+			"jewish": 0.04,
+			"muslim": 0.72
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.16,
+			"black": 0.98,
+			"chinese": 0.3,
+			"indian": 2.51,
+			"mixed": 1.54,
+			"other": 0.26,
+			"otherasian": 0.64,
+			"pakistani": 0.42,
+			"white": 93.13
+		}
 	},
 	"elections": {
 		"2019-12-12": {

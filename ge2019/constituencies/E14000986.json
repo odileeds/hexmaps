@@ -3,9 +3,27 @@
 	"title": "Tamworth",
 	"demographics": {
 		"2015UKIP": 18.5,
-		"leave": 66,
 		"age18-29": 14.95,
-		"withdegree": 9.6
+		"EUminus": 3.78,
+		"leave": 66,
+		"withdegree": 9.6,
+		"religion": {
+			"christian": 64.31,
+			"jewish": 0.02,
+			"muslim": 0.44
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.07,
+			"black": 0.57,
+			"chinese": 0.24,
+			"indian": 0.9,
+			"mixed": 1.07,
+			"other": 0.1,
+			"otherasian": 0.24,
+			"pakistani": 0.13,
+			"white": 96.65
+		}
 	},
 	"elections": {
 		"2019-12-12": {

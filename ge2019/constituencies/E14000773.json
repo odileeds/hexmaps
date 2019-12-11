@@ -3,9 +3,27 @@
 	"title": "Kingston upon Hull West and Hessle",
 	"demographics": {
 		"2015UKIP": 19.85,
-		"leave": 67.84,
 		"age18-29": 18,
-		"withdegree": 8.6
+		"EUminus": 10.15,
+		"leave": 67.84,
+		"withdegree": 8.6,
+		"religion": {
+			"christian": 57.23,
+			"jewish": 0.07,
+			"muslim": 3.18
+		},
+		"race": {
+			"arab": 0.53,
+			"bangladeshi": 0.33,
+			"black": 1.2,
+			"chinese": 0.5,
+			"indian": 0.61,
+			"mixed": 1.58,
+			"other": 0.67,
+			"otherasian": 1.06,
+			"pakistani": 0.38,
+			"white": 93.13
+		}
 	},
 	"elections": {
 		"2019-12-12": {

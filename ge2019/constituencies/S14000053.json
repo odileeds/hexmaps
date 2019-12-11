@@ -2,8 +2,26 @@
 	"id": "S14000053",
 	"title": "Paisley and Renfrewshire South",
 	"demographics": {
+		"age18-29": 15.89,
+		"EUminus": 4.1,
 		"leave": 34.19,
-		"age18-29": 15.89
+		"religion": {
+			"christian": 57.59,
+			"jewish": 0.05,
+			"muslim": 0.69
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.47,
+			"indian": 0.46,
+			"mixed": 0,
+			"other": 0.07,
+			"otherasian": 0.15,
+			"pakistani": 0.41,
+			"white": 97.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

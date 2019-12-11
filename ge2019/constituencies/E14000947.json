@@ -3,9 +3,27 @@
 	"title": "South Swindon",
 	"demographics": {
 		"2015UKIP": 12.02,
-		"leave": 51.57,
 		"age18-29": 16.34,
-		"withdegree": 14.22
+		"EUminus": 9.77,
+		"leave": 51.57,
+		"withdegree": 14.22,
+		"religion": {
+			"christian": 56.57,
+			"jewish": 0.08,
+			"muslim": 2.43
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.74,
+			"black": 1.63,
+			"chinese": 0.55,
+			"indian": 4.98,
+			"mixed": 2.27,
+			"other": 0.35,
+			"otherasian": 2.2,
+			"pakistani": 0.83,
+			"white": 86.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Saffron Walden",
 	"demographics": {
 		"2015UKIP": 13.78,
-		"leave": 50.92,
 		"age18-29": 11.4,
-		"withdegree": 19.06
+		"EUminus": 5.48,
+		"leave": 50.92,
+		"withdegree": 19.06,
+		"religion": {
+			"christian": 64.57,
+			"jewish": 0.25,
+			"muslim": 0.6
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.21,
+			"black": 0.55,
+			"chinese": 0.29,
+			"indian": 0.46,
+			"mixed": 1.24,
+			"other": 0.16,
+			"otherasian": 0.52,
+			"pakistani": 0.09,
+			"white": 96.38
+		}
 	},
 	"elections": {
 		"2019-12-12": {

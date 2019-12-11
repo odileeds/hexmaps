@@ -3,9 +3,27 @@
 	"title": "Finchley and Golders Green",
 	"demographics": {
 		"2015UKIP": 3.41,
-		"leave": 30.92,
 		"age18-29": 18.33,
-		"withdegree": 38.19
+		"EUminus": 26.17,
+		"leave": 30.92,
+		"withdegree": 38.19,
+		"religion": {
+			"christian": 34.79,
+			"jewish": 21.06,
+			"muslim": 9.43
+		},
+		"race": {
+			"arab": 1.73,
+			"bangladeshi": 0.64,
+			"black": 5.85,
+			"chinese": 1.9,
+			"indian": 7.24,
+			"mixed": 4.75,
+			"other": 4.31,
+			"otherasian": 5.87,
+			"pakistani": 1.25,
+			"white": 66.45
+		}
 	},
 	"elections": {
 		"2019-12-12": {

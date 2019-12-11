@@ -3,9 +3,27 @@
 	"title": "Wells",
 	"demographics": {
 		"2015UKIP": 9.92,
-		"leave": 53.49,
 		"age18-29": 11.58,
-		"withdegree": 14.51
+		"EUminus": 5.23,
+		"leave": 53.49,
+		"withdegree": 14.51,
+		"religion": {
+			"christian": 63.79,
+			"jewish": 0.07,
+			"muslim": 0.34
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.12,
+			"black": 0.18,
+			"chinese": 0.22,
+			"indian": 0.2,
+			"mixed": 0.89,
+			"other": 0.06,
+			"otherasian": 0.31,
+			"pakistani": 0.03,
+			"white": 97.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

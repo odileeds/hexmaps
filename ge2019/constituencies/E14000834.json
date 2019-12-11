@@ -3,9 +3,27 @@
 	"title": "Newcastle-under-Lyme",
 	"demographics": {
 		"2015UKIP": 16.87,
-		"leave": 61.67,
 		"age18-29": 18.47,
-		"withdegree": 12.99
+		"EUminus": 3.35,
+		"leave": 61.67,
+		"withdegree": 12.99,
+		"religion": {
+			"christian": 64.32,
+			"jewish": 0.06,
+			"muslim": 1.46
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.16,
+			"black": 0.85,
+			"chinese": 1.03,
+			"indian": 0.95,
+			"mixed": 1.34,
+			"other": 0.23,
+			"otherasian": 1,
+			"pakistani": 0.52,
+			"white": 93.78
+		}
 	},
 	"elections": {
 		"2019-12-12": {

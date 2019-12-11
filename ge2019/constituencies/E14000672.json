@@ -3,9 +3,27 @@
 	"title": "Dudley South",
 	"demographics": {
 		"2015UKIP": 18.94,
-		"leave": 70.42,
 		"age18-29": 14.73,
-		"withdegree": 7.92
+		"EUminus": 1.67,
+		"leave": 70.42,
+		"withdegree": 7.92,
+		"religion": {
+			"christian": 66.17,
+			"jewish": 0.02,
+			"muslim": 2.88
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.07,
+			"black": 1.17,
+			"chinese": 0.25,
+			"indian": 1.2,
+			"mixed": 1.75,
+			"other": 0.18,
+			"otherasian": 0.53,
+			"pakistani": 2.43,
+			"white": 92.32
+		}
 	},
 	"elections": {
 		"2019-12-12": {

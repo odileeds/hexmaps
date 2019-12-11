@@ -3,9 +3,27 @@
 	"title": "Maidstone and The Weald",
 	"demographics": {
 		"2015UKIP": 15.86,
-		"leave": 55.87,
 		"age18-29": 14.62,
-		"withdegree": 15.4
+		"EUminus": 8.53,
+		"leave": 55.87,
+		"withdegree": 15.4,
+		"religion": {
+			"christian": 62.31,
+			"jewish": 0.11,
+			"muslim": 1.22
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.29,
+			"black": 0.97,
+			"chinese": 0.37,
+			"indian": 0.94,
+			"mixed": 1.6,
+			"other": 0.25,
+			"otherasian": 2.05,
+			"pakistani": 0.25,
+			"white": 93.14
+		}
 	},
 	"elections": {
 		"2019-12-12": {

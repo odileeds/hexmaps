@@ -3,9 +3,27 @@
 	"title": "Birmingham, Edgbaston",
 	"demographics": {
 		"2015UKIP": 10.06,
-		"leave": 47.35,
 		"age18-29": 23.53,
-		"withdegree": 24.15
+		"EUminus": 7.66,
+		"leave": 47.35,
+		"withdegree": 24.15,
+		"religion": {
+			"christian": 52.4,
+			"jewish": 0.54,
+			"muslim": 7.01
+		},
+		"race": {
+			"arab": 0.81,
+			"bangladeshi": 0.48,
+			"black": 7.69,
+			"chinese": 2.02,
+			"indian": 7.9,
+			"mixed": 5.19,
+			"other": 1.28,
+			"otherasian": 3.02,
+			"pakistani": 2.95,
+			"white": 68.67
+		}
 	},
 	"elections": {
 		"2019-12-12": {

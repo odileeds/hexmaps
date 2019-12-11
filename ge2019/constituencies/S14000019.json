@@ -3,8 +3,26 @@
 	"title": "East Kilbride, Strathaven and Lesmahagow",
 	"demographics": {
 		"2015UKIP": 2.02,
+		"age18-29": 13.73,
+		"EUminus": 2.14,
 		"leave": 38,
-		"age18-29": 13.73
+		"religion": {
+			"christian": 57.45,
+			"jewish": 0.11,
+			"muslim": 0.65
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.29,
+			"indian": 0.47,
+			"mixed": 0,
+			"other": 0.08,
+			"otherasian": 0.23,
+			"pakistani": 0.52,
+			"white": 97.74
+		}
 	},
 	"elections": {
 		"2019-12-12": {

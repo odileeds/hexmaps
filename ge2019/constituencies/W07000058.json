@@ -3,9 +3,27 @@
 	"title": "Aberconwy",
 	"demographics": {
 		"2015UKIP": 11.5,
-		"leave": 53.38,
 		"age18-29": 12.02,
-		"withdegree": 14.15
+		"EUminus": 4.17,
+		"leave": 53.38,
+		"withdegree": 14.15,
+		"religion": {
+			"christian": 64.46,
+			"jewish": 0.06,
+			"muslim": 0.41
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.09,
+			"black": 0.17,
+			"chinese": 0.28,
+			"indian": 0.2,
+			"mixed": 0.84,
+			"other": 0.12,
+			"otherasian": 0.25,
+			"pakistani": 0.06,
+			"white": 97.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

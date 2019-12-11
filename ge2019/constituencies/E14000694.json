@@ -3,9 +3,27 @@
 	"title": "Epsom and Ewell",
 	"demographics": {
 		"2015UKIP": 12.45,
-		"leave": 47.96,
 		"age18-29": 12.28,
-		"withdegree": 23.42
+		"EUminus": 7.89,
+		"leave": 47.96,
+		"withdegree": 23.42,
+		"religion": {
+			"christian": 62.63,
+			"jewish": 0.31,
+			"muslim": 2.51
+		},
+		"race": {
+			"arab": 0.56,
+			"bangladeshi": 0.37,
+			"black": 1.32,
+			"chinese": 1.03,
+			"indian": 2.15,
+			"mixed": 2.39,
+			"other": 0.58,
+			"otherasian": 2.96,
+			"pakistani": 0.74,
+			"white": 87.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

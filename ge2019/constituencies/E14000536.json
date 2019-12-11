@@ -3,9 +3,27 @@
 	"title": "Ashford",
 	"demographics": {
 		"2015UKIP": 18.82,
-		"leave": 59.68,
 		"age18-29": 13.39,
-		"withdegree": 13.12
+		"EUminus": 6.33,
+		"leave": 59.68,
+		"withdegree": 13.12,
+		"religion": {
+			"christian": 62.73,
+			"jewish": 0.1,
+			"muslim": 0.89
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.16,
+			"black": 1.21,
+			"chinese": 0.38,
+			"indian": 0.84,
+			"mixed": 1.45,
+			"other": 0.27,
+			"otherasian": 1.99,
+			"pakistani": 0.14,
+			"white": 93.48
+		}
 	},
 	"elections": {
 		"2019-12-12": {

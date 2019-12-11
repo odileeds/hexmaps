@@ -3,9 +3,27 @@
 	"title": "Pendle",
 	"demographics": {
 		"2015UKIP": 12.18,
-		"leave": 63.15,
 		"age18-29": 15.85,
-		"withdegree": 10.42
+		"EUminus": 5.08,
+		"leave": 63.15,
+		"withdegree": 10.42,
+		"religion": {
+			"christian": 53.71,
+			"jewish": 0.04,
+			"muslim": 17.42
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.43,
+			"black": 0.14,
+			"chinese": 0.31,
+			"indian": 0.26,
+			"mixed": 1.06,
+			"other": 0.09,
+			"otherasian": 0.66,
+			"pakistani": 17.13,
+			"white": 79.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

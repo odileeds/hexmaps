@@ -1,0 +1,36 @@
+{
+	"id": "ONSConstID",
+	"title": "",
+	"demographics": {
+
+	},
+	"elections": {
+		"2019-12-12": {
+			"type": "general",
+			"candidates": [{
+			}]
+		},
+		"2017-06-08": {
+			"type": "general",
+			"mp": " ",
+			"party": { "code": "" },
+			"electorate": ,
+			"turnout": { "value": 0 },
+			"valid": ,
+			"invalid": ,
+			"majority": ,
+			"candidates": [{
+			}]
+		},
+		"2015-05-07": {
+			"type": "general",
+			"mp": " ",
+			"party": { "code": "", "title": "" },
+			"electorate": ,
+			"turnout": { "pc":0.0, "value": 0 },
+			"valid": ,
+			"invalid": ,
+			"majority": 
+		}
+	}
+}

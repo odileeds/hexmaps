@@ -3,9 +3,27 @@
 	"title": "Leyton and Wanstead",
 	"demographics": {
 		"2015UKIP": 5.75,
-		"leave": 35.01,
 		"age18-29": 22.84,
-		"withdegree": 27.86
+		"EUminus": 28.04,
+		"leave": 35.01,
+		"withdegree": 27.86,
+		"religion": {
+			"christian": 46.29,
+			"jewish": 0.92,
+			"muslim": 22.64
+		},
+		"race": {
+			"arab": 1.48,
+			"bangladeshi": 2.99,
+			"black": 17.13,
+			"chinese": 1.38,
+			"indian": 5.88,
+			"mixed": 5.21,
+			"other": 2.38,
+			"otherasian": 4.12,
+			"pakistani": 10.26,
+			"white": 49.15
+		}
 	},
 	"elections": {
 		"2019-12-12": {

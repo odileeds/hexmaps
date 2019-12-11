@@ -3,9 +3,27 @@
 	"title": "Huddersfield",
 	"demographics": {
 		"2015UKIP": 14.69,
-		"leave": 51.08,
 		"age18-29": 20.13,
-		"withdegree": 15.23
+		"EUminus": 7.06,
+		"leave": 51.08,
+		"withdegree": 15.23,
+		"religion": {
+			"christian": 50.35,
+			"jewish": 0.05,
+			"muslim": 13.71
+		},
+		"race": {
+			"arab": 0.75,
+			"bangladeshi": 0.2,
+			"black": 5.64,
+			"chinese": 0.79,
+			"indian": 2.58,
+			"mixed": 4.59,
+			"other": 0.9,
+			"otherasian": 1.29,
+			"pakistani": 11.33,
+			"white": 71.93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

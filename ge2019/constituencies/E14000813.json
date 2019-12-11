@@ -3,9 +3,27 @@
 	"title": "Mid Bedfordshire",
 	"demographics": {
 		"2015UKIP": 15.44,
-		"leave": 52.26,
 		"age18-29": 12.35,
-		"withdegree": 18.28
+		"EUminus": 5.38,
+		"leave": 52.26,
+		"withdegree": 18.28,
+		"religion": {
+			"christian": 63.95,
+			"jewish": 0.2,
+			"muslim": 0.91
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.08,
+			"black": 1.05,
+			"chinese": 0.71,
+			"indian": 1.5,
+			"mixed": 1.78,
+			"other": 0.2,
+			"otherasian": 0.64,
+			"pakistani": 0.24,
+			"white": 93.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

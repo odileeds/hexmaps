@@ -3,9 +3,27 @@
 	"title": "Harborough",
 	"demographics": {
 		"2015UKIP": 14.37,
-		"leave": 52.25,
 		"age18-29": 14,
-		"withdegree": 17.03
+		"EUminus": 4.08,
+		"leave": 52.25,
+		"withdegree": 17.03,
+		"religion": {
+			"christian": 55.62,
+			"jewish": 0.21,
+			"muslim": 3.49
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.15,
+			"black": 0.88,
+			"chinese": 0.48,
+			"indian": 10.62,
+			"mixed": 1.71,
+			"other": 0.67,
+			"otherasian": 1.25,
+			"pakistani": 1.16,
+			"white": 82.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

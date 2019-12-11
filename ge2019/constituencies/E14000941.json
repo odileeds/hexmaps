@@ -3,9 +3,27 @@
 	"title": "South Norfolk",
 	"demographics": {
 		"2015UKIP": 13.74,
-		"leave": 51.11,
 		"age18-29": 11.09,
-		"withdegree": 14.99
+		"EUminus": 3.79,
+		"leave": 51.11,
+		"withdegree": 14.99,
+		"religion": {
+			"christian": 62.56,
+			"jewish": 0.1,
+			"muslim": 0.32
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.05,
+			"black": 0.31,
+			"chinese": 0.24,
+			"indian": 0.35,
+			"mixed": 0.95,
+			"other": 0.09,
+			"otherasian": 0.3,
+			"pakistani": 0.06,
+			"white": 97.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

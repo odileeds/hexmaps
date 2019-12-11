@@ -3,9 +3,27 @@
 	"title": "Edmonton",
 	"demographics": {
 		"2015UKIP": 8.14,
-		"leave": 45.51,
 		"age18-29": 18.1,
-		"withdegree": 14.57
+		"EUminus": 21.12,
+		"leave": 45.51,
+		"withdegree": 14.57,
+		"religion": {
+			"christian": 51.08,
+			"jewish": 0.33,
+			"muslim": 24.53
+		},
+		"race": {
+			"arab": 0.84,
+			"bangladeshi": 3.13,
+			"black": 27.32,
+			"chinese": 0.58,
+			"indian": 3.21,
+			"mixed": 5.88,
+			"other": 5.75,
+			"otherasian": 5.14,
+			"pakistani": 0.88,
+			"white": 47.26
+		}
 	},
 	"elections": {
 		"2019-12-12": {

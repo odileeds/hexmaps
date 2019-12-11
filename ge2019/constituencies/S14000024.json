@@ -3,8 +3,26 @@
 	"title": "Edinburgh South",
 	"demographics": {
 		"2015UKIP": 1.22,
+		"age18-29": 22.31,
+		"EUminus": 10.63,
 		"leave": 22.15,
-		"age18-29": 22.31
+		"religion": {
+			"christian": 42.84,
+			"jewish": 0.28,
+			"muslim": 2.77
+		},
+		"race": {
+			"arab": 0.67,
+			"bangladeshi": 0.23,
+			"black": ,
+			"chinese": 2.19,
+			"indian": 1.17,
+			"mixed": 0,
+			"other": 0.21,
+			"otherasian": 1.11,
+			"pakistani": 1.44,
+			"white": 91.25
+		}
 	},
 	"elections": {
 		"2019-12-12": {

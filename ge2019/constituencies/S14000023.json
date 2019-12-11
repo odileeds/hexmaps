@@ -3,8 +3,26 @@
 	"title": "Edinburgh North and Leith",
 	"demographics": {
 		"2015UKIP": 1.46,
+		"age18-29": 24.03,
+		"EUminus": 17.27,
 		"leave": 21.8,
-		"age18-29": 24.03
+		"religion": {
+			"christian": 40.51,
+			"jewish": 0.18,
+			"muslim": 2.5
+		},
+		"race": {
+			"arab": 0.43,
+			"bangladeshi": 0.32,
+			"black": ,
+			"chinese": 1.35,
+			"indian": 1.69,
+			"mixed": 0,
+			"other": 0.23,
+			"otherasian": 1,
+			"pakistani": 1.18,
+			"white": 91.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

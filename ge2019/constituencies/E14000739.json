@@ -3,9 +3,27 @@
 	"title": "Hemel Hempstead",
 	"demographics": {
 		"2015UKIP": 14.61,
-		"leave": 55.17,
 		"age18-29": 14.97,
-		"withdegree": 16.07
+		"EUminus": 6.32,
+		"leave": 55.17,
+		"withdegree": 16.07,
+		"religion": {
+			"christian": 56.74,
+			"jewish": 0.43,
+			"muslim": 2.78
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.25,
+			"black": 2.65,
+			"chinese": 0.58,
+			"indian": 2.04,
+			"mixed": 2.28,
+			"other": 0.23,
+			"otherasian": 1.12,
+			"pakistani": 1.91,
+			"white": 88.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

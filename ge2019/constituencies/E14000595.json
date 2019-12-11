@@ -3,9 +3,27 @@
 	"title": "Bridgwater and West Somerset",
 	"demographics": {
 		"2015UKIP": 19.17,
-		"leave": 62.19,
 		"age18-29": 13,
-		"withdegree": 10.13
+		"EUminus": 6.07,
+		"leave": 62.19,
+		"withdegree": 10.13,
+		"religion": {
+			"christian": 64.5,
+			"jewish": 0.03,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.1,
+			"black": 0.09,
+			"chinese": 0.1,
+			"indian": 0.11,
+			"mixed": 0.7,
+			"other": 0.07,
+			"otherasian": 0.24,
+			"pakistani": 0.02,
+			"white": 98.55
+		}
 	},
 	"elections": {
 		"2019-12-12": {

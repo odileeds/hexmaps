@@ -3,9 +3,27 @@
 	"title": "Houghton and Sunderland South",
 	"demographics": {
 		"2015UKIP": 21.51,
-		"leave": 62.43,
 		"age18-29": 14.09,
-		"withdegree": 8.04
+		"EUminus": 1.42,
+		"leave": 62.43,
+		"withdegree": 8.04,
+		"religion": {
+			"christian": 73.68,
+			"jewish": 0.02,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.07,
+			"black": 0.18,
+			"chinese": 0.21,
+			"indian": 0.26,
+			"mixed": 0.42,
+			"other": 0.12,
+			"otherasian": 0.17,
+			"pakistani": 0.11,
+			"white": 98.41
+		}
 	},
 	"elections": {
 		"2019-12-12": {

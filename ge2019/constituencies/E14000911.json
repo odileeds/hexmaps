@@ -3,9 +3,27 @@
 	"title": "Salford and Eccles",
 	"demographics": {
 		"2015UKIP": 18.04,
-		"leave": 53.59,
 		"age18-29": 24.81,
-		"withdegree": 17.37
+		"EUminus": 9.8,
+		"leave": 53.59,
+		"withdegree": 17.37,
+		"religion": {
+			"christian": 64.34,
+			"jewish": 0.28,
+			"muslim": 3.15
+		},
+		"race": {
+			"arab": 0.86,
+			"bangladeshi": 0.34,
+			"black": 3.43,
+			"chinese": 1.53,
+			"indian": 1.3,
+			"mixed": 2.17,
+			"other": 0.35,
+			"otherasian": 1.01,
+			"pakistani": 0.91,
+			"white": 88.1
+		}
 	},
 	"elections": {
 		"2019-12-12": {

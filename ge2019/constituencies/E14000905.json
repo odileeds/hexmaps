@@ -3,9 +3,27 @@
 	"title": "Rugby",
 	"demographics": {
 		"2015UKIP": 13.99,
-		"leave": 58.37,
 		"age18-29": 13.87,
-		"withdegree": 15.11
+		"EUminus": 10.52,
+		"leave": 58.37,
+		"withdegree": 15.11,
+		"religion": {
+			"christian": 63.69,
+			"jewish": 0.05,
+			"muslim": 1.26
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.14,
+			"black": 2.01,
+			"chinese": 0.44,
+			"indian": 3.12,
+			"mixed": 2,
+			"other": 0.21,
+			"otherasian": 1.02,
+			"pakistani": 0.63,
+			"white": 90.31
+		}
 	},
 	"elections": {
 		"2019-12-12": {

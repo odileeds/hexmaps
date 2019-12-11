@@ -3,9 +3,27 @@
 	"title": "Congleton",
 	"demographics": {
 		"2015UKIP": 13.58,
-		"leave": 52.65,
 		"age18-29": 11.05,
-		"withdegree": 18.01
+		"EUminus": 2.67,
+		"leave": 52.65,
+		"withdegree": 18.01,
+		"religion": {
+			"christian": 71.26,
+			"jewish": 0.08,
+			"muslim": 0.3
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.07,
+			"black": 0.14,
+			"chinese": 0.23,
+			"indian": 0.21,
+			"mixed": 0.72,
+			"other": 0.06,
+			"otherasian": 0.26,
+			"pakistani": 0.07,
+			"white": 98.19
+		}
 	},
 	"elections": {
 		"2019-12-12": {

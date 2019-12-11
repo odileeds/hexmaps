@@ -3,9 +3,27 @@
 	"title": "Morley and Outwood",
 	"demographics": {
 		"2015UKIP": 16.48,
-		"leave": 59.79,
 		"age18-29": 14.05,
-		"withdegree": 13.14
+		"EUminus": 3.1,
+		"leave": 59.79,
+		"withdegree": 13.14,
+		"religion": {
+			"christian": 63.22,
+			"jewish": 0.05,
+			"muslim": 0.85
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.02,
+			"black": 0.62,
+			"chinese": 0.43,
+			"indian": 1.15,
+			"mixed": 1.24,
+			"other": 0.19,
+			"otherasian": 0.33,
+			"pakistani": 0.54,
+			"white": 95.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

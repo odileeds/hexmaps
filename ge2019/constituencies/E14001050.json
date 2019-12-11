@@ -3,9 +3,27 @@
 	"title": "Wolverhampton South East",
 	"demographics": {
 		"2015UKIP": 20.31,
-		"leave": 68.14,
 		"age18-29": 16.54,
-		"withdegree": 7.93
+		"EUminus": 4.22,
+		"leave": 68.14,
+		"withdegree": 7.93,
+		"religion": {
+			"christian": 54.02,
+			"jewish": 0.02,
+			"muslim": 1.71
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.07,
+			"black": 6.32,
+			"chinese": 0.41,
+			"indian": 16.4,
+			"mixed": 4.91,
+			"other": 1.96,
+			"otherasian": 2.51,
+			"pakistani": 0.77,
+			"white": 66.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

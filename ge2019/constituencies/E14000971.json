@@ -3,9 +3,27 @@
 	"title": "Stockton South",
 	"demographics": {
 		"2015UKIP": 10.58,
-		"leave": 57.8,
 		"age18-29": 15.54,
-		"withdegree": 14.99
+		"EUminus": 2.45,
+		"leave": 57.8,
+		"withdegree": 14.99,
+		"religion": {
+			"christian": 68.46,
+			"jewish": 0.06,
+			"muslim": 2.94
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.09,
+			"black": 0.53,
+			"chinese": 0.56,
+			"indian": 1.12,
+			"mixed": 1.08,
+			"other": 0.21,
+			"otherasian": 0.61,
+			"pakistani": 2.28,
+			"white": 93.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

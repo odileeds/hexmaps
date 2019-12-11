@@ -3,9 +3,27 @@
 	"title": "Stockton North",
 	"demographics": {
 		"2015UKIP": 19.16,
-		"leave": 66.5,
 		"age18-29": 16.38,
-		"withdegree": 9.28
+		"EUminus": 2.22,
+		"leave": 66.5,
+		"withdegree": 9.28,
+		"religion": {
+			"christian": 67.97,
+			"jewish": 0.04,
+			"muslim": 1.33
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.05,
+			"black": 0.66,
+			"chinese": 0.34,
+			"indian": 0.41,
+			"mixed": 1,
+			"other": 0.11,
+			"otherasian": 0.5,
+			"pakistani": 0.87,
+			"white": 95.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

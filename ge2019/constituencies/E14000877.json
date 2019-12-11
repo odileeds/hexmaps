@@ -3,9 +3,27 @@
 	"title": "Penrith and The Border",
 	"demographics": {
 		"2015UKIP": 12.19,
-		"leave": 55.37,
 		"age18-29": 10.96,
-		"withdegree": 14.98
+		"EUminus": 3.14,
+		"leave": 55.37,
+		"withdegree": 14.98,
+		"religion": {
+			"christian": 71.49,
+			"jewish": 0.05,
+			"muslim": 0.18
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.07,
+			"black": 0.06,
+			"chinese": 0.15,
+			"indian": 0.13,
+			"mixed": 0.4,
+			"other": 0.04,
+			"otherasian": 0.13,
+			"pakistani": 0.01,
+			"white": 98.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Wirral South",
 	"demographics": {
 		"2015UKIP": 8.93,
-		"leave": 46.55,
 		"age18-29": 11.56,
-		"withdegree": 16.83
+		"EUminus": 2.64,
+		"leave": 46.55,
+		"withdegree": 16.83,
+		"religion": {
+			"christian": 73.83,
+			"jewish": 0.06,
+			"muslim": 0.32
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.06,
+			"black": 0.2,
+			"chinese": 0.37,
+			"indian": 0.32,
+			"mixed": 0.77,
+			"other": 0.08,
+			"otherasian": 0.25,
+			"pakistani": 0.07,
+			"white": 97.82
+		}
 	},
 	"elections": {
 		"2019-12-12": {

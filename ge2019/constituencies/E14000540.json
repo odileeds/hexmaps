@@ -3,9 +3,27 @@
 	"title": "Barking",
 	"demographics": {
 		"2015UKIP": 22.2,
-		"leave": 60.33,
 		"age18-29": 18.12,
-		"withdegree": 14.44
+		"EUminus": 15.17,
+		"leave": 60.33,
+		"withdegree": 14.44,
+		"religion": {
+			"christian": 53.45,
+			"jewish": 0.19,
+			"muslim": 16.66
+		},
+		"race": {
+			"arab": 0.63,
+			"bangladeshi": 4.95,
+			"black": 20.22,
+			"chinese": 0.73,
+			"indian": 4.46,
+			"mixed": 4.4,
+			"other": 1.1,
+			"otherasian": 2.98,
+			"pakistani": 5.51,
+			"white": 55.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

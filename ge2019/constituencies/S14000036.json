@@ -2,8 +2,26 @@
 	"id": "S14000036",
 	"title": "Glenrothes",
 	"demographics": {
+		"age18-29": 13.92,
+		"EUminus": 3.26,
 		"leave": 46.46,
-		"age18-29": 13.92
+		"religion": {
+			"christian": 41.79,
+			"jewish": 0.03,
+			"muslim": 0.84
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.23,
+			"indian": 0.18,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.13,
+			"pakistani": 0.72,
+			"white": 98.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

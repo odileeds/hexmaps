@@ -3,8 +3,26 @@
 	"title": "Berwickshire, Roxburgh and Selkirk",
 	"demographics": {
 		"2015UKIP": 2.39,
+		"age18-29": 11.54,
+		"EUminus": 5.32,
 		"leave": 43.2,
-		"age18-29": 11.54
+		"religion": {
+			"christian": 53.88,
+			"jewish": 0.05,
+			"muslim": 0.24
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.18,
+			"indian": 0.16,
+			"mixed": 0,
+			"other": 0.06,
+			"otherasian": 0.17,
+			"pakistani": 0.11,
+			"white": 98.67
+		}
 	},
 	"elections": {
 		"2019-12-12": {

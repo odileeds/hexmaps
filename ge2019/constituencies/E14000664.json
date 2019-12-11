@@ -3,9 +3,27 @@
 	"title": "Derbyshire Dales",
 	"demographics": {
 		"2015UKIP": 11.63,
-		"leave": 51.29,
 		"age18-29": 9.83,
-		"withdegree": 20.87
+		"EUminus": 2.68,
+		"leave": 51.29,
+		"withdegree": 20.87,
+		"religion": {
+			"christian": 68.77,
+			"jewish": 0.09,
+			"muslim": 0.2
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.01,
+			"black": 0.12,
+			"chinese": 0.14,
+			"indian": 0.16,
+			"mixed": 0.68,
+			"other": 0.05,
+			"otherasian": 0.17,
+			"pakistani": 0.12,
+			"white": 98.53
+		}
 	},
 	"elections": {
 		"2019-12-12": {

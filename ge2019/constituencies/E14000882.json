@@ -3,9 +3,27 @@
 	"title": "Poplar and Limehouse",
 	"demographics": {
 		"2015UKIP": 6.13,
-		"leave": 34.19,
 		"age18-29": 28.37,
-		"withdegree": 37.42
+		"EUminus": 19.53,
+		"leave": 34.19,
+		"withdegree": 37.42,
+		"religion": {
+			"christian": 29.12,
+			"jewish": 0.36,
+			"muslim": 33.62
+		},
+		"race": {
+			"arab": 1.05,
+			"bangladeshi": 30.66,
+			"black": 8.01,
+			"chinese": 4.53,
+			"indian": 3.5,
+			"mixed": 3.99,
+			"other": 1.26,
+			"otherasian": 2.57,
+			"pakistani": 0.94,
+			"white": 43.47
+		}
 	},
 	"elections": {
 		"2019-12-12": {

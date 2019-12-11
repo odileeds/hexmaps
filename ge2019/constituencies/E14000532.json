@@ -3,9 +3,27 @@
 	"title": "Altrincham and Sale West",
 	"demographics": {
 		"2015UKIP": 8.01,
-		"leave": 38.47,
 		"age18-29": 11.86,
-		"withdegree": 28.6
+		"EUminus": 5.95,
+		"leave": 38.47,
+		"withdegree": 28.6,
+		"religion": {
+			"christian": 65.27,
+			"jewish": 2.29,
+			"muslim": 3.13
+		},
+		"race": {
+			"arab": 0.47,
+			"bangladeshi": 0.13,
+			"black": 0.98,
+			"chinese": 1.12,
+			"indian": 1.96,
+			"mixed": 2.13,
+			"other": 0.4,
+			"otherasian": 0.61,
+			"pakistani": 1.77,
+			"white": 90.43
+		}
 	},
 	"elections": {
 		"2019-12-12": {

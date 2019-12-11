@@ -3,9 +3,27 @@
 	"title": "Blackburn",
 	"demographics": {
 		"2015UKIP": 14.27,
-		"leave": 53.73,
 		"age18-29": 17.25,
-		"withdegree": 10.11
+		"EUminus": 4.86,
+		"leave": 53.73,
+		"withdegree": 10.11,
+		"religion": {
+			"christian": 45.81,
+			"jewish": 0.04,
+			"muslim": 36.26
+		},
+		"race": {
+			"arab": 0.52,
+			"bangladeshi": 1.36,
+			"black": 0.76,
+			"chinese": 0.48,
+			"indian": 18.24,
+			"mixed": 1.38,
+			"other": 0.53,
+			"otherasian": 1.42,
+			"pakistani": 16.04,
+			"white": 59.26
+		}
 	},
 	"elections": {
 		"2019-12-12": {

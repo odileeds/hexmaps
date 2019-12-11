@@ -3,9 +3,27 @@
 	"title": "Somerton and Frome",
 	"demographics": {
 		"2015UKIP": 10.68,
-		"leave": 50.96,
 		"age18-29": 10.75,
-		"withdegree": 16.34
+		"EUminus": 5,
+		"leave": 50.96,
+		"withdegree": 16.34,
+		"religion": {
+			"christian": 64.74,
+			"jewish": 0.08,
+			"muslim": 0.18
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.04,
+			"black": 0.19,
+			"chinese": 0.2,
+			"indian": 0.13,
+			"mixed": 0.75,
+			"other": 0.07,
+			"otherasian": 0.24,
+			"pakistani": 0.02,
+			"white": 98.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

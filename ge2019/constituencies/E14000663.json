@@ -3,9 +3,27 @@
 	"title": "Derby South",
 	"demographics": {
 		"2015UKIP": 15.53,
-		"leave": 61.61,
 		"age18-29": 18.13,
-		"withdegree": 11.68
+		"EUminus": 10.69,
+		"leave": 61.61,
+		"withdegree": 11.68,
+		"religion": {
+			"christian": 47.02,
+			"jewish": 0.05,
+			"muslim": 14.16
+		},
+		"race": {
+			"arab": 0.35,
+			"bangladeshi": 0.5,
+			"black": 4.48,
+			"chinese": 0.49,
+			"indian": 6.3,
+			"mixed": 3.87,
+			"other": 1.69,
+			"otherasian": 2.12,
+			"pakistani": 11.18,
+			"white": 69.03
+		}
 	},
 	"elections": {
 		"2019-12-12": {

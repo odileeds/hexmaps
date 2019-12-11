@@ -3,9 +3,27 @@
 	"title": "West Suffolk",
 	"demographics": {
 		"2015UKIP": 21.73,
-		"leave": 63.26,
 		"age18-29": 16.39,
-		"withdegree": 10.85
+		"EUminus": 9.05,
+		"leave": 63.26,
+		"withdegree": 10.85,
+		"religion": {
+			"christian": 62.91,
+			"jewish": 0.13,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.14,
+			"black": 1.68,
+			"chinese": 0.2,
+			"indian": 0.47,
+			"mixed": 2.12,
+			"other": 0.53,
+			"otherasian": 0.85,
+			"pakistani": 0.17,
+			"white": 93.82
+		}
 	},
 	"elections": {
 		"2019-12-12": {

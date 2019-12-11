@@ -3,8 +3,26 @@
 	"title": "Glasgow Central",
 	"demographics": {
 		"2015UKIP": 2,
+		"age18-29": 34.5,
+		"EUminus": 11.73,
 		"leave": 28.75,
-		"age18-29": 34.5
+		"religion": {
+			"christian": 42.87,
+			"jewish": 0.2,
+			"muslim": 12.9
+		},
+		"race": {
+			"arab": 1.03,
+			"bangladeshi": 0.12,
+			"black": ,
+			"chinese": 3.68,
+			"indian": 3.47,
+			"mixed": 0,
+			"other": 0.33,
+			"otherasian": 2.01,
+			"pakistani": 9.51,
+			"white": 75.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

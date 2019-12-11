@@ -3,9 +3,27 @@
 	"title": "Weaver Vale",
 	"demographics": {
 		"2015UKIP": 9.7,
-		"leave": 50.2,
 		"age18-29": 12.63,
-		"withdegree": 16.27
+		"EUminus": 3.3,
+		"leave": 50.2,
+		"withdegree": 16.27,
+		"religion": {
+			"christian": 70.67,
+			"jewish": 0.07,
+			"muslim": 0.31
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.08,
+			"black": 0.19,
+			"chinese": 0.25,
+			"indian": 0.32,
+			"mixed": 1,
+			"other": 0.08,
+			"otherasian": 0.31,
+			"pakistani": 0.06,
+			"white": 97.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Coventry South",
 	"demographics": {
 		"2015UKIP": 13.06,
-		"leave": 48.9,
 		"age18-29": 27.04,
-		"withdegree": 18.78
+		"EUminus": 11.23,
+		"leave": 48.9,
+		"withdegree": 18.78,
+		"religion": {
+			"christian": 51.86,
+			"jewish": 0.11,
+			"muslim": 7.37
+		},
+		"race": {
+			"arab": 0.91,
+			"bangladeshi": 1.47,
+			"black": 5.93,
+			"chinese": 2.35,
+			"indian": 8.79,
+			"mixed": 2.44,
+			"other": 0.98,
+			"otherasian": 2.13,
+			"pakistani": 1.61,
+			"white": 73.39
+		}
 	},
 	"elections": {
 		"2019-12-12": {

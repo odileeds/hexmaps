@@ -3,9 +3,27 @@
 	"title": "Great Grimsby",
 	"demographics": {
 		"2015UKIP": 24.95,
-		"leave": 71.45,
 		"age18-29": 17.27,
-		"withdegree": 6.41
+		"EUminus": 4.97,
+		"leave": 71.45,
+		"withdegree": 6.41,
+		"religion": {
+			"christian": 56.93,
+			"jewish": 0.04,
+			"muslim": 0.92
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.13,
+			"black": 0.28,
+			"chinese": 0.47,
+			"indian": 0.3,
+			"mixed": 0.83,
+			"other": 0.14,
+			"otherasian": 0.43,
+			"pakistani": 0.16,
+			"white": 97.09
+		}
 	},
 	"elections": {
 		"2019-12-12": {

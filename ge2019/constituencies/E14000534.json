@@ -3,9 +3,27 @@
 	"title": "Arundel and South Downs",
 	"demographics": {
 		"2015UKIP": 14.44,
-		"leave": 50.69,
 		"age18-29": 9.19,
-		"withdegree": 18.78
+		"EUminus": 4.56,
+		"leave": 50.69,
+		"withdegree": 18.78,
+		"religion": {
+			"christian": 65.48,
+			"jewish": 0.23,
+			"muslim": 0.31
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.1,
+			"black": 0.22,
+			"chinese": 0.2,
+			"indian": 0.24,
+			"mixed": 1,
+			"other": 0.07,
+			"otherasian": 0.36,
+			"pakistani": 0.04,
+			"white": 97.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

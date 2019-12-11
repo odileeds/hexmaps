@@ -3,9 +3,27 @@
 	"title": "Chippenham",
 	"demographics": {
 		"2015UKIP": 10.62,
-		"leave": 52.33,
 		"age18-29": 12.09,
-		"withdegree": 17.29
+		"EUminus": 6.27,
+		"leave": 52.33,
+		"withdegree": 17.29,
+		"religion": {
+			"christian": 60.77,
+			"jewish": 0.1,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.15,
+			"black": 0.55,
+			"chinese": 0.27,
+			"indian": 0.36,
+			"mixed": 1.39,
+			"other": 0.13,
+			"otherasian": 0.38,
+			"pakistani": 0.02,
+			"white": 96.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

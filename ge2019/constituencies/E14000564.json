@@ -3,9 +3,27 @@
 	"title": "Birmingham, Ladywood",
 	"demographics": {
 		"2015UKIP": 5.03,
-		"leave": 35.62,
 		"age18-29": 30.74,
-		"withdegree": 19.72
+		"EUminus": 11.36,
+		"leave": 35.62,
+		"withdegree": 19.72,
+		"religion": {
+			"christian": 32.53,
+			"jewish": 0.14,
+			"muslim": 35.22
+		},
+		"race": {
+			"arab": 1.6,
+			"bangladeshi": 7.3,
+			"black": 22.64,
+			"chinese": 3.47,
+			"indian": 10.1,
+			"mixed": 5.9,
+			"other": 2.04,
+			"otherasian": 4.24,
+			"pakistani": 15.38,
+			"white": 27.33
+		}
 	},
 	"elections": {
 		"2019-12-12": {

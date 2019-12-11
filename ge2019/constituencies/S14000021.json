@@ -3,8 +3,26 @@
 	"title": "East Renfrewshire",
 	"demographics": {
 		"2015UKIP": 1.57,
+		"age18-29": 12.04,
+		"EUminus": 2.24,
 		"leave": 25.68,
-		"age18-29": 12.04
+		"religion": {
+			"christian": 59.77,
+			"jewish": 2.65,
+			"muslim": 3.31
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.02,
+			"black": ,
+			"chinese": 0.53,
+			"indian": 1.17,
+			"mixed": 0,
+			"other": 0.12,
+			"otherasian": 0.27,
+			"pakistani": 3.07,
+			"white": 94.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

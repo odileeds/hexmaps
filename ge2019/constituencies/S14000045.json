@@ -3,8 +3,26 @@
 	"title": "Midlothian",
 	"demographics": {
 		"2015UKIP": 2.43,
+		"age18-29": 13.54,
+		"EUminus": 3.51,
 		"leave": 37.94,
-		"age18-29": 13.54
+		"religion": {
+			"christian": 47.45,
+			"jewish": 0.04,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.05,
+			"black": ,
+			"chinese": 0.16,
+			"indian": 0.22,
+			"mixed": 0,
+			"other": 0.06,
+			"otherasian": 0.23,
+			"pakistani": 0.45,
+			"white": 98.23
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Welwyn Hatfield",
 	"demographics": {
 		"2015UKIP": 13.06,
-		"leave": 52.54,
 		"age18-29": 21.76,
-		"withdegree": 20.22
+		"EUminus": 10.4,
+		"leave": 52.54,
+		"withdegree": 20.22,
+		"religion": {
+			"christian": 56.94,
+			"jewish": 0.75,
+			"muslim": 2.58
+		},
+		"race": {
+			"arab": 0.53,
+			"bangladeshi": 0.43,
+			"black": 4.67,
+			"chinese": 1.8,
+			"indian": 3.25,
+			"mixed": 2.59,
+			"other": 0.48,
+			"otherasian": 1.91,
+			"pakistani": 0.69,
+			"white": 83.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

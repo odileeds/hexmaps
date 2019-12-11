@@ -3,9 +3,27 @@
 	"title": "Streatham",
 	"demographics": {
 		"2015UKIP": 3.21,
-		"leave": 20.54,
 		"age18-29": 23.69,
-		"withdegree": 39.43
+		"EUminus": 26.07,
+		"leave": 20.54,
+		"withdegree": 39.43,
+		"religion": {
+			"christian": 53.43,
+			"jewish": 0.37,
+			"muslim": 7.97
+		},
+		"race": {
+			"arab": 0.52,
+			"bangladeshi": 0.82,
+			"black": 24.33,
+			"chinese": 1.02,
+			"indian": 2.24,
+			"mixed": 7.48,
+			"other": 1.73,
+			"otherasian": 1.83,
+			"pakistani": 1.81,
+			"white": 58.2
+		}
 	},
 	"elections": {
 		"2019-12-12": {

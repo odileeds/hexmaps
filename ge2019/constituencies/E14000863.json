@@ -3,9 +3,27 @@
 	"title": "Norwich North",
 	"demographics": {
 		"2015UKIP": 13.73,
-		"leave": 57.32,
 		"age18-29": 15.81,
-		"withdegree": 10.67
+		"EUminus": 6.72,
+		"leave": 57.32,
+		"withdegree": 10.67,
+		"religion": {
+			"christian": 54.49,
+			"jewish": 0.1,
+			"muslim": 0.98
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.35,
+			"black": 0.88,
+			"chinese": 0.36,
+			"indian": 0.45,
+			"mixed": 1.52,
+			"other": 0.2,
+			"otherasian": 0.63,
+			"pakistani": 0.06,
+			"white": 95.43
+		}
 	},
 	"elections": {
 		"2019-12-12": {

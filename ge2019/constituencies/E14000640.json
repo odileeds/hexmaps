@@ -3,9 +3,27 @@
 	"title": "City of Chester",
 	"demographics": {
 		"2015UKIP": 8.11,
-		"leave": 42.71,
 		"age18-29": 18.49,
-		"withdegree": 23.02
+		"EUminus": 6.99,
+		"leave": 42.71,
+		"withdegree": 23.02,
+		"religion": {
+			"christian": 65.33,
+			"jewish": 0.1,
+			"muslim": 0.95
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.41,
+			"black": 0.52,
+			"chinese": 0.35,
+			"indian": 0.68,
+			"mixed": 1.28,
+			"other": 0.16,
+			"otherasian": 0.44,
+			"pakistani": 0.2,
+			"white": 95.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

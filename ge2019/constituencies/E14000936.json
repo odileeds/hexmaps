@@ -3,9 +3,27 @@
 	"title": "South Dorset",
 	"demographics": {
 		"2015UKIP": 15.03,
-		"leave": 59.49,
 		"age18-29": 12.96,
-		"withdegree": 11.28
+		"EUminus": 5.13,
+		"leave": 59.49,
+		"withdegree": 11.28,
+		"religion": {
+			"christian": 62.22,
+			"jewish": 0.1,
+			"muslim": 0.39
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.13,
+			"black": 0.39,
+			"chinese": 0.22,
+			"indian": 0.14,
+			"mixed": 0.93,
+			"other": 0.08,
+			"otherasian": 0.34,
+			"pakistani": 0.03,
+			"white": 97.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

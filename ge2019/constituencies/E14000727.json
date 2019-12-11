@@ -3,9 +3,27 @@
 	"title": "Hampstead and Kilburn",
 	"demographics": {
 		"2015UKIP": 2.84,
-		"leave": 23.48,
 		"age18-29": 20.77,
-		"withdegree": 47.38
+		"EUminus": 25.97,
+		"leave": 23.48,
+		"withdegree": 47.38,
+		"religion": {
+			"christian": 38.46,
+			"jewish": 6.53,
+			"muslim": 10.69
+		},
+		"race": {
+			"arab": 2.61,
+			"bangladeshi": 1.46,
+			"black": 10.16,
+			"chinese": 1.9,
+			"indian": 3.85,
+			"mixed": 5.9,
+			"other": 2.57,
+			"otherasian": 4.72,
+			"pakistani": 1.29,
+			"white": 65.52
+		}
 	},
 	"elections": {
 		"2019-12-12": {

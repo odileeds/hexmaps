@@ -3,9 +3,27 @@
 	"title": "Middlesbrough South and East Cleveland",
 	"demographics": {
 		"2015UKIP": 15.18,
-		"leave": 65,
 		"age18-29": 13.58,
-		"withdegree": 11.32
+		"EUminus": 1.85,
+		"leave": 65,
+		"withdegree": 11.32,
+		"religion": {
+			"christian": 70.79,
+			"jewish": 0.04,
+			"muslim": 0.72
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.06,
+			"black": 0.29,
+			"chinese": 0.15,
+			"indian": 0.3,
+			"mixed": 0.84,
+			"other": 0.1,
+			"otherasian": 0.24,
+			"pakistani": 0.4,
+			"white": 97.52
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Carshalton and Wallington",
 	"demographics": {
 		"2015UKIP": 14.8,
-		"leave": 56.3,
 		"age18-29": 14.93,
-		"withdegree": 16.68
+		"EUminus": 8.27,
+		"leave": 56.3,
+		"withdegree": 16.68,
+		"religion": {
+			"christian": 58.54,
+			"jewish": 0.17,
+			"muslim": 3.58
+		},
+		"race": {
+			"arab": 0.34,
+			"bangladeshi": 0.6,
+			"black": 6.11,
+			"chinese": 0.94,
+			"indian": 2.84,
+			"mixed": 4,
+			"other": 0.7,
+			"otherasian": 4.63,
+			"pakistani": 1.23,
+			"white": 78.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

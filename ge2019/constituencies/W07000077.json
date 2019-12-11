@@ -3,9 +3,27 @@
 	"title": "Islwyn",
 	"demographics": {
 		"2015UKIP": 19.58,
-		"leave": 58.87,
 		"age18-29": 14.62,
-		"withdegree": 8.93
+		"EUminus": 1.84,
+		"leave": 58.87,
+		"withdegree": 8.93,
+		"religion": {
+			"christian": 50.63,
+			"jewish": 0.03,
+			"muslim": 0.2
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.02,
+			"black": 0.1,
+			"chinese": 0.25,
+			"indian": 0.1,
+			"mixed": 0.64,
+			"other": 0.08,
+			"otherasian": 0.2,
+			"pakistani": 0.05,
+			"white": 98.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Southampton, Test",
 	"demographics": {
 		"2015UKIP": 12.75,
-		"leave": 50.65,
 		"age18-29": 26.44,
-		"withdegree": 19.33
+		"EUminus": 17.76,
+		"leave": 50.65,
+		"withdegree": 19.33,
+		"religion": {
+			"christian": 50.11,
+			"jewish": 0.12,
+			"muslim": 5.17
+		},
+		"race": {
+			"arab": 0.44,
+			"bangladeshi": 0.73,
+			"black": 2.54,
+			"chinese": 1.28,
+			"indian": 3.93,
+			"mixed": 2.51,
+			"other": 0.72,
+			"otherasian": 2.84,
+			"pakistani": 1.96,
+			"white": 83.06
+		}
 	},
 	"elections": {
 		"2019-12-12": {

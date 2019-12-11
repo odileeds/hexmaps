@@ -3,9 +3,27 @@
 	"title": "Brentford and Isleworth",
 	"demographics": {
 		"2015UKIP": 5.58,
-		"leave": 43.31,
 		"age18-29": 19.69,
-		"withdegree": 34.21
+		"EUminus": 22.23,
+		"leave": 43.31,
+		"withdegree": 34.21,
+		"religion": {
+			"christian": 44.99,
+			"jewish": 0.44,
+			"muslim": 12.47
+		},
+		"race": {
+			"arab": 1.71,
+			"bangladeshi": 0.85,
+			"black": 6.15,
+			"chinese": 1.27,
+			"indian": 15.3,
+			"mixed": 4.48,
+			"other": 1.87,
+			"otherasian": 6.54,
+			"pakistani": 4.07,
+			"white": 57.74
+		}
 	},
 	"elections": {
 		"2019-12-12": {

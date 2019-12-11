@@ -3,9 +3,27 @@
 	"title": "Westmorland and Lonsdale",
 	"demographics": {
 		"2015UKIP": 6.19,
-		"leave": 47.45,
 		"age18-29": 10.39,
-		"withdegree": 19.89
+		"EUminus": 4.94,
+		"leave": 47.45,
+		"withdegree": 19.89,
+		"religion": {
+			"christian": 67.94,
+			"jewish": 0.1,
+			"muslim": 0.18
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.06,
+			"black": 0.19,
+			"chinese": 0.3,
+			"indian": 0.17,
+			"mixed": 0.64,
+			"other": 0.06,
+			"otherasian": 0.23,
+			"pakistani": 0.05,
+			"white": 98.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

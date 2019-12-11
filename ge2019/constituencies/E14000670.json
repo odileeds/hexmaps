@@ -3,9 +3,27 @@
 	"title": "Dover",
 	"demographics": {
 		"2015UKIP": 20.26,
-		"leave": 63.13,
 		"age18-29": 13.19,
-		"withdegree": 10.34
+		"EUminus": 6.77,
+		"leave": 63.13,
+		"withdegree": 10.34,
+		"religion": {
+			"christian": 63.78,
+			"jewish": 0.07,
+			"muslim": 0.48
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.14,
+			"black": 0.35,
+			"chinese": 0.24,
+			"indian": 0.35,
+			"mixed": 0.89,
+			"other": 0.18,
+			"otherasian": 1.15,
+			"pakistani": 0.03,
+			"white": 96.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

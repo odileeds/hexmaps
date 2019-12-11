@@ -3,9 +3,27 @@
 	"title": "North Tyneside",
 	"demographics": {
 		"2015UKIP": 16.27,
-		"leave": 59.37,
 		"age18-29": 15.23,
-		"withdegree": 11.65
+		"EUminus": 2.6,
+		"leave": 59.37,
+		"withdegree": 11.65,
+		"religion": {
+			"christian": 64.33,
+			"jewish": 0.04,
+			"muslim": 0.59
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.16,
+			"black": 0.48,
+			"chinese": 0.57,
+			"indian": 0.58,
+			"mixed": 0.86,
+			"other": 0.11,
+			"otherasian": 0.39,
+			"pakistani": 0.16,
+			"white": 96.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

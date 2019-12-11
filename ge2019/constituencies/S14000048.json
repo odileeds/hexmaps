@@ -3,8 +3,26 @@
 	"title": "North Ayrshire and Arran",
 	"demographics": {
 		"2015UKIP": 2.41,
+		"age18-29": 12.97,
+		"EUminus": 2.16,
 		"leave": 42.29,
-		"age18-29": 12.97
+		"religion": {
+			"christian": 59.67,
+			"jewish": 0.04,
+			"muslim": 0.12
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.02,
+			"black": ,
+			"chinese": 0.18,
+			"indian": 0.15,
+			"mixed": 0,
+			"other": 0.02,
+			"otherasian": 0.11,
+			"pakistani": 0.07,
+			"white": 99.05
+		}
 	},
 	"elections": {
 		"2019-12-12": {

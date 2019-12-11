@@ -3,9 +3,27 @@
 	"title": "Reading East",
 	"demographics": {
 		"2015UKIP": 7.22,
-		"leave": 38.24,
 		"age18-29": 23.83,
-		"withdegree": 29.65
+		"EUminus": 12.24,
+		"leave": 38.24,
+		"withdegree": 29.65,
+		"religion": {
+			"christian": 48.81,
+			"jewish": 0.24,
+			"muslim": 7.28
+		},
+		"race": {
+			"arab": 0.59,
+			"bangladeshi": 0.35,
+			"black": 4.76,
+			"chinese": 1.32,
+			"indian": 4.93,
+			"mixed": 3.3,
+			"other": 0.63,
+			"otherasian": 3.57,
+			"pakistani": 4.96,
+			"white": 75.6
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,8 +2,26 @@
 	"id": "S14000033",
 	"title": "Glasgow North West",
 	"demographics": {
+		"age18-29": 18.68,
+		"EUminus": 5.31,
 		"leave": 31.49,
-		"age18-29": 18.68
+		"religion": {
+			"christian": 54.16,
+			"jewish": 0.12,
+			"muslim": 3.13
+		},
+		"race": {
+			"arab": 0.32,
+			"bangladeshi": 0.06,
+			"black": ,
+			"chinese": 1.25,
+			"indian": 1.11,
+			"mixed": 0,
+			"other": 0.24,
+			"otherasian": 0.96,
+			"pakistani": 1.53,
+			"white": 91.67
+		}
 	},
 	"elections": {
 		"2019-12-12": {

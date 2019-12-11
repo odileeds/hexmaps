@@ -3,9 +3,27 @@
 	"title": "Enfield, Southgate",
 	"demographics": {
 		"2015UKIP": 4.6,
-		"leave": 37.88,
 		"age18-29": 17.85,
-		"withdegree": 28.76
+		"EUminus": 29,
+		"leave": 37.88,
+		"withdegree": 28.76,
+		"religion": {
+			"christian": 53.04,
+			"jewish": 3.33,
+			"muslim": 11.07
+		},
+		"race": {
+			"arab": 0.53,
+			"bangladeshi": 0.97,
+			"black": 7.31,
+			"chinese": 1.33,
+			"indian": 6.03,
+			"mixed": 5,
+			"other": 4.03,
+			"otherasian": 3.69,
+			"pakistani": 1.14,
+			"white": 69.96
+		}
 	},
 	"elections": {
 		"2019-12-12": {

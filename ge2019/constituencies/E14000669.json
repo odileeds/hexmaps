@@ -3,9 +3,27 @@
 	"title": "Doncaster North",
 	"demographics": {
 		"2015UKIP": 22.6,
-		"leave": 72.06,
 		"age18-29": 15.06,
-		"withdegree": 6.38
+		"EUminus": 3.1,
+		"leave": 72.06,
+		"withdegree": 6.38,
+		"religion": {
+			"christian": 66.04,
+			"jewish": 0.03,
+			"muslim": 0.37
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.02,
+			"black": 0.41,
+			"chinese": 0.22,
+			"indian": 0.23,
+			"mixed": 0.88,
+			"other": 0.1,
+			"otherasian": 0.27,
+			"pakistani": 0.1,
+			"white": 97.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

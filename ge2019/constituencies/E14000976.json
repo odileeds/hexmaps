@@ -3,9 +3,27 @@
 	"title": "Stourbridge",
 	"demographics": {
 		"2015UKIP": 16.89,
-		"leave": 63.66,
 		"age18-29": 13.55,
-		"withdegree": 11.66
+		"EUminus": 2.1,
+		"leave": 63.66,
+		"withdegree": 11.66,
+		"religion": {
+			"christian": 64.52,
+			"jewish": 0.04,
+			"muslim": 4.52
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 0.08,
+			"black": 0.64,
+			"chinese": 0.31,
+			"indian": 0.82,
+			"mixed": 1.44,
+			"other": 0.16,
+			"otherasian": 0.29,
+			"pakistani": 4.03,
+			"white": 91.92
+		}
 	},
 	"elections": {
 		"2019-12-12": {

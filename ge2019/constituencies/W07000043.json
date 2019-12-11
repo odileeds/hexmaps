@@ -3,9 +3,27 @@
 	"title": "Alyn and Deeside",
 	"demographics": {
 		"2015UKIP": 17.57,
-		"leave": 57.75,
 		"age18-29": 14.66,
-		"withdegree": 10.47
+		"EUminus": 5.69,
+		"leave": 57.75,
+		"withdegree": 10.47,
+		"religion": {
+			"christian": 65.57,
+			"jewish": 0.04,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.23,
+			"black": 0.09,
+			"chinese": 0.26,
+			"indian": 0.24,
+			"mixed": 0.62,
+			"other": 0.05,
+			"otherasian": 0.19,
+			"pakistani": 0.05,
+			"white": 98.21
+		}
 	},
 	"elections": {
 		"2019-12-12": {

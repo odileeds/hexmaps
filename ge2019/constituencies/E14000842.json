@@ -3,9 +3,27 @@
 	"title": "North East Cambridgeshire",
 	"demographics": {
 		"2015UKIP": 22.5,
-		"leave": 69.45,
 		"age18-29": 13.63,
-		"withdegree": 6.91
+		"EUminus": 11.09,
+		"leave": 69.45,
+		"withdegree": 6.91,
+		"religion": {
+			"christian": 65.64,
+			"jewish": 0.11,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.08,
+			"black": 0.51,
+			"chinese": 0.21,
+			"indian": 0.39,
+			"mixed": 0.98,
+			"other": 0.17,
+			"otherasian": 0.38,
+			"pakistani": 0.08,
+			"white": 97.2
+		}
 	},
 	"elections": {
 		"2019-12-12": {

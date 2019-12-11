@@ -3,9 +3,27 @@
 	"title": "Newport West",
 	"demographics": {
 		"2015UKIP": 15.2,
-		"leave": 53.01,
 		"age18-29": 15.17,
-		"withdegree": 15.64
+		"EUminus": 4.89,
+		"leave": 53.01,
+		"withdegree": 15.64,
+		"religion": {
+			"christian": 58.6,
+			"jewish": 0.09,
+			"muslim": 4.2
+		},
+		"race": {
+			"arab": 0.83,
+			"bangladeshi": 1.02,
+			"black": 1.85,
+			"chinese": 0.38,
+			"indian": 0.95,
+			"mixed": 1.88,
+			"other": 0.38,
+			"otherasian": 1,
+			"pakistani": 1.64,
+			"white": 90.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

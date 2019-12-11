@@ -3,9 +3,27 @@
 	"title": "Don Valley",
 	"demographics": {
 		"2015UKIP": 23.45,
-		"leave": 68.56,
 		"age18-29": 14.64,
-		"withdegree": 8.29
+		"EUminus": 3.24,
+		"leave": 68.56,
+		"withdegree": 8.29,
+		"religion": {
+			"christian": 68.85,
+			"jewish": 0.03,
+			"muslim": 0.77
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.03,
+			"black": 0.52,
+			"chinese": 0.25,
+			"indian": 0.4,
+			"mixed": 0.87,
+			"other": 0.12,
+			"otherasian": 0.25,
+			"pakistani": 0.4,
+			"white": 97.1
+		}
 	},
 	"elections": {
 		"2019-12-12": {

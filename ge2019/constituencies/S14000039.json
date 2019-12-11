@@ -3,8 +3,26 @@
 	"title": "Inverness, Nairn, Badenoch and Strathspey",
 	"demographics": {
 		"2015UKIP": 2.15,
+		"age18-29": 13.89,
+		"EUminus": 8.2,
 		"leave": 41.38,
-		"age18-29": 13.89
+		"religion": {
+			"christian": 51.79,
+			"jewish": 0.04,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.15,
+			"black": ,
+			"chinese": 0.24,
+			"indian": 0.28,
+			"mixed": 0,
+			"other": 0.07,
+			"otherasian": 0.35,
+			"pakistani": 0.14,
+			"white": 98.11
+		}
 	},
 	"elections": {
 		"2019-12-12": {

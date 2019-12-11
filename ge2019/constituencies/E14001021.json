@@ -3,9 +3,27 @@
 	"title": "Watford",
 	"demographics": {
 		"2015UKIP": 9.76,
-		"leave": 51.18,
 		"age18-29": 16.41,
-		"withdegree": 21.09
+		"EUminus": 12.34,
+		"leave": 51.18,
+		"withdegree": 21.09,
+		"religion": {
+			"christian": 55.79,
+			"jewish": 1.26,
+			"muslim": 8.22
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 0.33,
+			"black": 5.1,
+			"chinese": 0.86,
+			"indian": 5.33,
+			"mixed": 3.22,
+			"other": 0.57,
+			"otherasian": 3.76,
+			"pakistani": 5.43,
+			"white": 75.12
+		}
 	},
 	"elections": {
 		"2019-12-12": {

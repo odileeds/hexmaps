@@ -3,9 +3,27 @@
 	"title": "Romsey and Southampton North",
 	"demographics": {
 		"2015UKIP": 11.39,
-		"leave": 45.81,
 		"age18-29": 18.39,
-		"withdegree": 22.05
+		"EUminus": 7.75,
+		"leave": 45.81,
+		"withdegree": 22.05,
+		"religion": {
+			"christian": 60.79,
+			"jewish": 0.12,
+			"muslim": 2.32
+		},
+		"race": {
+			"arab": 0.46,
+			"bangladeshi": 0.37,
+			"black": 0.89,
+			"chinese": 1.84,
+			"indian": 2.05,
+			"mixed": 1.47,
+			"other": 0.46,
+			"otherasian": 1.5,
+			"pakistani": 0.6,
+			"white": 90.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

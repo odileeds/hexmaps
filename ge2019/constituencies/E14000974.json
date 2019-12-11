@@ -3,9 +3,27 @@
 	"title": "Stoke-on-Trent South",
 	"demographics": {
 		"2015UKIP": 21.22,
-		"leave": 70.85,
 		"age18-29": 15.15,
-		"withdegree": 7.84
+		"EUminus": 2.78,
+		"leave": 70.85,
+		"withdegree": 7.84,
+		"religion": {
+			"christian": 64.85,
+			"jewish": 0.03,
+			"muslim": 4.17
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.19,
+			"black": 0.93,
+			"chinese": 0.25,
+			"indian": 0.56,
+			"mixed": 1.3,
+			"other": 0.23,
+			"otherasian": 0.62,
+			"pakistani": 3.38,
+			"white": 92.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

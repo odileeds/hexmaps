@@ -3,9 +3,27 @@
 	"title": "Plymouth, Moor View",
 	"demographics": {
 		"2015UKIP": 21.48,
-		"leave": 66.44,
 		"age18-29": 14.95,
-		"withdegree": 6.88
+		"EUminus": 4.11,
+		"leave": 66.44,
+		"withdegree": 6.88,
+		"religion": {
+			"christian": 60.41,
+			"jewish": 0.03,
+			"muslim": 0.49
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.06,
+			"black": 0.38,
+			"chinese": 0.2,
+			"indian": 0.3,
+			"mixed": 0.88,
+			"other": 0.12,
+			"otherasian": 0.43,
+			"pakistani": 0.06,
+			"white": 97.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

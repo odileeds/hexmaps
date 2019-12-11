@@ -3,9 +3,27 @@
 	"title": "Swansea East",
 	"demographics": {
 		"2015UKIP": 17.19,
-		"leave": 62.1,
 		"age18-29": 16.26,
-		"withdegree": 9.77
+		"EUminus": 4.01,
+		"leave": 62.1,
+		"withdegree": 9.77,
+		"religion": {
+			"christian": 52.91,
+			"jewish": 0.04,
+			"muslim": 1.71
+		},
+		"race": {
+			"arab": 0.35,
+			"bangladeshi": 0.69,
+			"black": 0.84,
+			"chinese": 0.5,
+			"indian": 0.62,
+			"mixed": 0.8,
+			"other": 0.18,
+			"otherasian": 0.93,
+			"pakistani": 0.22,
+			"white": 94.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

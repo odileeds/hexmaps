@@ -3,9 +3,27 @@
 	"title": "Meon Valley",
 	"demographics": {
 		"2015UKIP": 14.82,
-		"leave": 52.93,
 		"age18-29": 11.4,
-		"withdegree": 17.34
+		"EUminus": 3.87,
+		"leave": 52.93,
+		"withdegree": 17.34,
+		"religion": {
+			"christian": 64.04,
+			"jewish": 0.1,
+			"muslim": 0.5
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.13,
+			"black": 0.19,
+			"chinese": 0.26,
+			"indian": 0.39,
+			"mixed": 1.02,
+			"other": 0.09,
+			"otherasian": 0.34,
+			"pakistani": 0.08,
+			"white": 97.39
+		}
 	},
 	"elections": {
 		"2019-12-12": {

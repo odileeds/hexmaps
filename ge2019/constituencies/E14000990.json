@@ -3,9 +3,27 @@
 	"title": "Tewkesbury",
 	"demographics": {
 		"2015UKIP": 12.88,
-		"leave": 53.78,
 		"age18-29": 12.28,
-		"withdegree": 16.48
+		"EUminus": 6.23,
+		"leave": 53.78,
+		"withdegree": 16.48,
+		"religion": {
+			"christian": 66.42,
+			"jewish": 0.07,
+			"muslim": 0.48
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.1,
+			"black": 0.36,
+			"chinese": 0.2,
+			"indian": 0.73,
+			"mixed": 1.01,
+			"other": 0.12,
+			"otherasian": 0.31,
+			"pakistani": 0.12,
+			"white": 96.99
+		}
 	},
 	"elections": {
 		"2019-12-12": {

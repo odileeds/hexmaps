@@ -3,9 +3,27 @@
 	"title": "South West Surrey",
 	"demographics": {
 		"2015UKIP": 9.88,
-		"leave": 40.61,
 		"age18-29": 10.94,
-		"withdegree": 28.04
+		"EUminus": 7.53,
+		"leave": 40.61,
+		"withdegree": 28.04,
+		"religion": {
+			"christian": 64.44,
+			"jewish": 0.19,
+			"muslim": 0.67
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.15,
+			"black": 0.45,
+			"chinese": 0.52,
+			"indian": 0.48,
+			"mixed": 1.38,
+			"other": 0.22,
+			"otherasian": 0.57,
+			"pakistani": 0.23,
+			"white": 95.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Broxbourne",
 	"demographics": {
 		"2015UKIP": 19.72,
-		"leave": 65.82,
 		"age18-29": 14.23,
-		"withdegree": 10.98
+		"EUminus": 10.98,
+		"leave": 65.82,
+		"withdegree": 10.98,
+		"religion": {
+			"christian": 65.26,
+			"jewish": 0.42,
+			"muslim": 2.41
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.18,
+			"black": 4.08,
+			"chinese": 0.35,
+			"indian": 0.91,
+			"mixed": 2.25,
+			"other": 0.7,
+			"otherasian": 0.83,
+			"pakistani": 0.15,
+			"white": 90.41
+		}
 	},
 	"elections": {
 		"2019-12-12": {

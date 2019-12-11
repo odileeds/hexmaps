@@ -3,9 +3,27 @@
 	"title": "Skipton and Ripon",
 	"demographics": {
 		"2015UKIP": 14.02,
-		"leave": 53.03,
 		"age18-29": 10.9,
-		"withdegree": 18.49
+		"EUminus": 4.46,
+		"leave": 53.03,
+		"withdegree": 18.49,
+		"religion": {
+			"christian": 69.21,
+			"jewish": 0.08,
+			"muslim": 0.6
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.04,
+			"black": 0.28,
+			"chinese": 0.19,
+			"indian": 0.22,
+			"mixed": 0.79,
+			"other": 0.1,
+			"otherasian": 0.29,
+			"pakistani": 0.5,
+			"white": 97.52
+		}
 	},
 	"elections": {
 		"2019-12-12": {

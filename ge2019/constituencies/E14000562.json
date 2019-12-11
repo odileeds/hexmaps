@@ -3,9 +3,27 @@
 	"title": "Birmingham, Hall Green",
 	"demographics": {
 		"2015UKIP": 4.53,
-		"leave": 33.57,
 		"age18-29": 19.25,
-		"withdegree": 20.42
+		"EUminus": 6.21,
+		"leave": 33.57,
+		"withdegree": 20.42,
+		"religion": {
+			"christian": 26.62,
+			"jewish": 0.29,
+			"muslim": 46.58
+		},
+		"race": {
+			"arab": 3.74,
+			"bangladeshi": 4.14,
+			"black": 6.09,
+			"chinese": 0.74,
+			"indian": 7.95,
+			"mixed": 3.85,
+			"other": 1.29,
+			"otherasian": 4.19,
+			"pakistani": 32.49,
+			"white": 35.53
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Truro and Falmouth",
 	"demographics": {
 		"2015UKIP": 11.58,
-		"leave": 46.22,
 		"age18-29": 15.33,
-		"withdegree": 18.05
+		"EUminus": 3.85,
+		"leave": 46.22,
+		"withdegree": 18.05,
+		"religion": {
+			"christian": 58.54,
+			"jewish": 0.11,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.07,
+			"black": 0.17,
+			"chinese": 0.28,
+			"indian": 0.38,
+			"mixed": 1.03,
+			"other": 0.14,
+			"otherasian": 0.27,
+			"pakistani": 0.05,
+			"white": 97.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

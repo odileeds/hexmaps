@@ -3,9 +3,27 @@
 	"title": "Yeovil",
 	"demographics": {
 		"2015UKIP": 13.43,
-		"leave": 59.29,
 		"age18-29": 13.76,
-		"withdegree": 10.89
+		"EUminus": 6.49,
+		"leave": 59.29,
+		"withdegree": 10.89,
+		"religion": {
+			"christian": 64.98,
+			"jewish": 0.07,
+			"muslim": 0.29
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.06,
+			"black": 0.25,
+			"chinese": 0.25,
+			"indian": 0.26,
+			"mixed": 0.75,
+			"other": 0.09,
+			"otherasian": 0.38,
+			"pakistani": 0.07,
+			"white": 97.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

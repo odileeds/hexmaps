@@ -3,9 +3,27 @@
 	"title": "Beaconsfield",
 	"demographics": {
 		"2015UKIP": 13.75,
-		"leave": 49.3,
 		"age18-29": 11.4,
-		"withdegree": 24.83
+		"EUminus": 7.68,
+		"leave": 49.3,
+		"withdegree": 24.83,
+		"religion": {
+			"christian": 63.01,
+			"jewish": 0.4,
+			"muslim": 1.97
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.22,
+			"black": 1,
+			"chinese": 0.62,
+			"indian": 5.03,
+			"mixed": 2.28,
+			"other": 0.55,
+			"otherasian": 1.37,
+			"pakistani": 1.15,
+			"white": 87.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

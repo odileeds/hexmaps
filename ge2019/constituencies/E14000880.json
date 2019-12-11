@@ -3,9 +3,27 @@
 	"title": "Plymouth, Sutton and Devonport",
 	"demographics": {
 		"2015UKIP": 14.03,
-		"leave": 54.41,
 		"age18-29": 28.97,
-		"withdegree": 16
+		"EUminus": 9.91,
+		"leave": 54.41,
+		"withdegree": 16,
+		"religion": {
+			"christian": 51.83,
+			"jewish": 0.12,
+			"muslim": 1.42
+		},
+		"race": {
+			"arab": 0.28,
+			"bangladeshi": 0.26,
+			"black": 1.07,
+			"chinese": 0.91,
+			"indian": 0.48,
+			"mixed": 1.9,
+			"other": 0.41,
+			"otherasian": 0.67,
+			"pakistani": 0.13,
+			"white": 93.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

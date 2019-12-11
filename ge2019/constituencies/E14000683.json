@@ -3,9 +3,27 @@
 	"title": "East Yorkshire",
 	"demographics": {
 		"2015UKIP": 17.91,
-		"leave": 63.31,
 		"age18-29": 10.76,
-		"withdegree": 11.33
+		"EUminus": 3.4,
+		"leave": 63.31,
+		"withdegree": 11.33,
+		"religion": {
+			"christian": 68.69,
+			"jewish": 0.05,
+			"muslim": 0.25
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.03,
+			"black": 0.18,
+			"chinese": 0.17,
+			"indian": 0.15,
+			"mixed": 0.63,
+			"other": 0.04,
+			"otherasian": 0.17,
+			"pakistani": 0.05,
+			"white": 98.53
+		}
 	},
 	"elections": {
 		"2019-12-12": {

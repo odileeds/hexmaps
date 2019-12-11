@@ -3,9 +3,27 @@
 	"title": "Lichfield",
 	"demographics": {
 		"2015UKIP": 15.7,
-		"leave": 57.57,
 		"age18-29": 11.6,
-		"withdegree": 16.62
+		"EUminus": 3.29,
+		"leave": 57.57,
+		"withdegree": 16.62,
+		"religion": {
+			"christian": 69.51,
+			"jewish": 0.06,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.08,
+			"black": 0.38,
+			"chinese": 0.2,
+			"indian": 0.46,
+			"mixed": 0.98,
+			"other": 0.08,
+			"otherasian": 0.21,
+			"pakistani": 0.13,
+			"white": 97.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "St Albans",
 	"demographics": {
 		"2015UKIP": 7.85,
-		"leave": 38.02,
 		"age18-29": 13.26,
-		"withdegree": 33.17
+		"EUminus": 9.29,
+		"leave": 38.02,
+		"withdegree": 33.17,
+		"religion": {
+			"christian": 57.29,
+			"jewish": 1.47,
+			"muslim": 4.76
+		},
+		"race": {
+			"arab": 0.41,
+			"bangladeshi": 2.54,
+			"black": 2.04,
+			"chinese": 0.9,
+			"indian": 1.87,
+			"mixed": 3.14,
+			"other": 0.43,
+			"otherasian": 1.64,
+			"pakistani": 1.03,
+			"white": 85.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

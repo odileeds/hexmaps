@@ -3,9 +3,27 @@
 	"title": "Stalybridge and Hyde",
 	"demographics": {
 		"2015UKIP": 18.81,
-		"leave": 59.29,
 		"age18-29": 14.78,
-		"withdegree": 10.55
+		"EUminus": 3.32,
+		"leave": 59.29,
+		"withdegree": 10.55,
+		"religion": {
+			"christian": 63.01,
+			"jewish": 0.05,
+			"muslim": 4.05
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 3.41,
+			"black": 0.5,
+			"chinese": 0.29,
+			"indian": 0.71,
+			"mixed": 1.22,
+			"other": 0.08,
+			"otherasian": 0.2,
+			"pakistani": 0.57,
+			"white": 92.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

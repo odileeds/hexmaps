@@ -3,9 +3,27 @@
 	"title": "Pontypridd",
 	"demographics": {
 		"2015UKIP": 13.42,
-		"leave": 45.82,
 		"age18-29": 16.81,
-		"withdegree": 15.33
+		"EUminus": 2.5,
+		"leave": 45.82,
+		"withdegree": 15.33,
+		"religion": {
+			"christian": 51.69,
+			"jewish": 0.05,
+			"muslim": 0.63
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.06,
+			"black": 0.85,
+			"chinese": 0.69,
+			"indian": 0.47,
+			"mixed": 0.81,
+			"other": 0.08,
+			"otherasian": 0.53,
+			"pakistani": 0.17,
+			"white": 96.23
+		}
 	},
 	"elections": {
 		"2019-12-12": {

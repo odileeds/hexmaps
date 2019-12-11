@@ -3,9 +3,27 @@
 	"title": "Wokingham",
 	"demographics": {
 		"2015UKIP": 9.85,
-		"leave": 42.47,
 		"age18-29": 12.57,
-		"withdegree": 27.79
+		"EUminus": 6.4,
+		"leave": 42.47,
+		"withdegree": 27.79,
+		"religion": {
+			"christian": 58.61,
+			"jewish": 0.26,
+			"muslim": 2.4
+		},
+		"race": {
+			"arab": 0.37,
+			"bangladeshi": 0.17,
+			"black": 1.42,
+			"chinese": 0.9,
+			"indian": 3.65,
+			"mixed": 2.09,
+			"other": 0.38,
+			"otherasian": 1.15,
+			"pakistani": 1.28,
+			"white": 88.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

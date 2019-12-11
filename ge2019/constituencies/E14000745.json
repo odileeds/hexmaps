@@ -3,9 +3,27 @@
 	"title": "Hertsmere",
 	"demographics": {
 		"2015UKIP": 12.74,
-		"leave": 50.84,
 		"age18-29": 14.06,
-		"withdegree": 20.56
+		"EUminus": 10.68,
+		"leave": 50.84,
+		"withdegree": 20.56,
+		"religion": {
+			"christian": 51.71,
+			"jewish": 14.29,
+			"muslim": 2.4
+		},
+		"race": {
+			"arab": 0.2,
+			"bangladeshi": 0.23,
+			"black": 3.93,
+			"chinese": 0.92,
+			"indian": 3.72,
+			"mixed": 2.61,
+			"other": 0.83,
+			"otherasian": 2.07,
+			"pakistani": 0.45,
+			"white": 85.04
+		}
 	},
 	"elections": {
 		"2019-12-12": {

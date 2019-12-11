@@ -3,9 +3,27 @@
 	"title": "Halifax",
 	"demographics": {
 		"2015UKIP": 12.85,
-		"leave": 58.82,
 		"age18-29": 15.61,
-		"withdegree": 11.05
+		"EUminus": 6.39,
+		"leave": 58.82,
+		"withdegree": 11.05,
+		"religion": {
+			"christian": 53.45,
+			"jewish": 0.06,
+			"muslim": 13.46
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.47,
+			"black": 0.55,
+			"chinese": 0.25,
+			"indian": 0.81,
+			"mixed": 1.5,
+			"other": 0.25,
+			"otherasian": 0.6,
+			"pakistani": 12.81,
+			"white": 82.68
+		}
 	},
 	"elections": {
 		"2019-12-12": {

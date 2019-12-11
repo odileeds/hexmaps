@@ -3,9 +3,27 @@
 	"title": "Manchester, Withington",
 	"demographics": {
 		"2015UKIP": 4.35,
-		"leave": 26.31,
 		"age18-29": 31,
-		"withdegree": 38.67
+		"EUminus": 9.12,
+		"leave": 26.31,
+		"withdegree": 38.67,
+		"religion": {
+			"christian": 45.37,
+			"jewish": 0.93,
+			"muslim": 11.01
+		},
+		"race": {
+			"arab": 1.92,
+			"bangladeshi": 1.14,
+			"black": 3.38,
+			"chinese": 1.26,
+			"indian": 2.33,
+			"mixed": 4.72,
+			"other": 0.99,
+			"otherasian": 1.53,
+			"pakistani": 6.16,
+			"white": 76.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

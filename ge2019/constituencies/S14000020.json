@@ -3,8 +3,26 @@
 	"title": "East Lothian",
 	"demographics": {
 		"2015UKIP": 2,
+		"age18-29": 12.75,
+		"EUminus": 4.83,
 		"leave": 35.4,
-		"age18-29": 12.75
+		"religion": {
+			"christian": 51.47,
+			"jewish": 0.04,
+			"muslim": 0.51
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.21,
+			"indian": 0.28,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.14,
+			"pakistani": 0.29,
+			"white": 98.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

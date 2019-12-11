@@ -3,9 +3,27 @@
 	"title": "South Ribble",
 	"demographics": {
 		"2015UKIP": 14.09,
-		"leave": 56.85,
 		"age18-29": 13.1,
-		"withdegree": 15.07
+		"EUminus": 3.22,
+		"leave": 56.85,
+		"withdegree": 15.07,
+		"religion": {
+			"christian": 75.73,
+			"jewish": 0.06,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.03,
+			"black": 0.28,
+			"chinese": 0.28,
+			"indian": 0.6,
+			"mixed": 1.03,
+			"other": 0.11,
+			"otherasian": 0.22,
+			"pakistani": 0.21,
+			"white": 97.2
+		}
 	},
 	"elections": {
 		"2019-12-12": {

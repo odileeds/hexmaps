@@ -3,9 +3,27 @@
 	"title": "Corby",
 	"demographics": {
 		"2015UKIP": 13.72,
-		"leave": 60.11,
 		"age18-29": 13.98,
-		"withdegree": 10.99
+		"EUminus": 11.59,
+		"leave": 60.11,
+		"withdegree": 10.99,
+		"religion": {
+			"christian": 61.42,
+			"jewish": 0.08,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.13,
+			"black": 1.11,
+			"chinese": 0.22,
+			"indian": 0.51,
+			"mixed": 1.21,
+			"other": 0.13,
+			"otherasian": 0.28,
+			"pakistani": 0.05,
+			"white": 96.34
+		}
 	},
 	"elections": {
 		"2019-12-12": {

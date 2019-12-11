@@ -3,9 +3,27 @@
 	"title": "West Bromwich West",
 	"demographics": {
 		"2015UKIP": 25.23,
-		"leave": 69.14,
 		"age18-29": 17.05,
-		"withdegree": 6.76
+		"EUminus": 6.12,
+		"leave": 69.14,
+		"withdegree": 6.76,
+		"religion": {
+			"christian": 58.8,
+			"jewish": 0.03,
+			"muslim": 5.58
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 1.93,
+			"black": 4.59,
+			"chinese": 0.22,
+			"indian": 8.27,
+			"mixed": 2.72,
+			"other": 0.83,
+			"otherasian": 1.35,
+			"pakistani": 3.21,
+			"white": 76.76
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Denton and Reddish",
 	"demographics": {
 		"2015UKIP": 18.68,
-		"leave": 60.98,
 		"age18-29": 15.45,
-		"withdegree": 8.86
+		"EUminus": 3.65,
+		"leave": 60.98,
+		"withdegree": 8.86,
+		"religion": {
+			"christian": 66.71,
+			"jewish": 0.06,
+			"muslim": 1.51
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.22,
+			"black": 0.92,
+			"chinese": 0.57,
+			"indian": 0.56,
+			"mixed": 1.81,
+			"other": 0.14,
+			"otherasian": 0.31,
+			"pakistani": 1,
+			"white": 94.39
+		}
 	},
 	"elections": {
 		"2019-12-12": {

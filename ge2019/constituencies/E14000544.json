@@ -3,9 +3,27 @@
 	"title": "Basildon and Billericay",
 	"demographics": {
 		"2015UKIP": 19.84,
-		"leave": 66.92,
 		"age18-29": 13.88,
-		"withdegree": 10.88
+		"EUminus": 4.05,
+		"leave": 66.92,
+		"withdegree": 10.88,
+		"religion": {
+			"christian": 61.02,
+			"jewish": 0.27,
+			"muslim": 0.95
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.23,
+			"black": 2.56,
+			"chinese": 0.29,
+			"indian": 1.25,
+			"mixed": 1.7,
+			"other": 0.2,
+			"otherasian": 0.78,
+			"pakistani": 0.22,
+			"white": 92.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bethnal Green and Bow",
 	"demographics": {
 		"2015UKIP": 6.08,
-		"leave": 30.93,
 		"age18-29": 33.08,
-		"withdegree": 35.43
+		"EUminus": 18.03,
+		"leave": 30.93,
+		"withdegree": 35.43,
+		"religion": {
+			"christian": 24.99,
+			"jewish": 0.65,
+			"muslim": 35.43
+		},
+		"race": {
+			"arab": 0.97,
+			"bangladeshi": 33.43,
+			"black": 6.63,
+			"chinese": 1.81,
+			"indian": 1.82,
+			"mixed": 4.17,
+			"other": 1.27,
+			"otherasian": 1.97,
+			"pakistani": 0.99,
+			"white": 46.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

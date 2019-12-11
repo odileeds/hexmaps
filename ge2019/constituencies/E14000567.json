@@ -3,9 +3,27 @@
 	"title": "Birmingham, Selly Oak",
 	"demographics": {
 		"2015UKIP": 12.71,
-		"leave": 46.91,
 		"age18-29": 25.6,
-		"withdegree": 19.46
+		"EUminus": 6.04,
+		"leave": 46.91,
+		"withdegree": 19.46,
+		"religion": {
+			"christian": 53.55,
+			"jewish": 0.56,
+			"muslim": 7.33
+		},
+		"race": {
+			"arab": 0.52,
+			"bangladeshi": 0.79,
+			"black": 4.5,
+			"chinese": 1.64,
+			"indian": 3.85,
+			"mixed": 4.39,
+			"other": 0.65,
+			"otherasian": 1.96,
+			"pakistani": 4.15,
+			"white": 77.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

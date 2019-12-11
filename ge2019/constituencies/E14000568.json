@@ -3,9 +3,27 @@
 	"title": "Birmingham, Yardley",
 	"demographics": {
 		"2015UKIP": 16.13,
-		"leave": 60.09,
 		"age18-29": 16.74,
-		"withdegree": 9.22
+		"EUminus": 7.49,
+		"leave": 60.09,
+		"withdegree": 9.22,
+		"religion": {
+			"christian": 50.96,
+			"jewish": 0.09,
+			"muslim": 20.6
+		},
+		"race": {
+			"arab": 0.75,
+			"bangladeshi": 3.19,
+			"black": 5.28,
+			"chinese": 0.4,
+			"indian": 3.9,
+			"mixed": 4.1,
+			"other": 0.54,
+			"otherasian": 2.33,
+			"pakistani": 13.87,
+			"white": 65.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Clwyd West",
 	"demographics": {
 		"2015UKIP": 13.12,
-		"leave": 52.53,
 		"age18-29": 11.56,
-		"withdegree": 13.42
+		"EUminus": 2.89,
+		"leave": 52.53,
+		"withdegree": 13.42,
+		"religion": {
+			"christian": 65.24,
+			"jewish": 0.04,
+			"muslim": 0.56
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.12,
+			"black": 0.15,
+			"chinese": 0.44,
+			"indian": 0.32,
+			"mixed": 0.72,
+			"other": 0.11,
+			"otherasian": 0.3,
+			"pakistani": 0.11,
+			"white": 97.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

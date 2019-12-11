@@ -3,9 +3,27 @@
 	"title": "Cities of London and Westminster",
 	"demographics": {
 		"2015UKIP": 5.23,
-		"leave": 28.63,
 		"age18-29": 25.15,
-		"withdegree": 48.3
+		"EUminus": 32.43,
+		"leave": 28.63,
+		"withdegree": 48.3,
+		"religion": {
+			"christian": 47.72,
+			"jewish": 2.75,
+			"muslim": 12.77
+		},
+		"race": {
+			"arab": 5.46,
+			"bangladeshi": 1.9,
+			"black": 4.81,
+			"chinese": 3.38,
+			"indian": 3.32,
+			"mixed": 4.51,
+			"other": 2.84,
+			"otherasian": 4.25,
+			"pakistani": 0.99,
+			"white": 68.54
+		}
 	},
 	"elections": {
 		"2019-12-12": {

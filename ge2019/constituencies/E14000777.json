@@ -3,9 +3,27 @@
 	"title": "Leeds Central",
 	"demographics": {
 		"2015UKIP": 15.72,
-		"leave": 47.43,
 		"age18-29": 35.03,
-		"withdegree": 17.36
+		"EUminus": 10.89,
+		"leave": 47.43,
+		"withdegree": 17.36,
+		"religion": {
+			"christian": 48.33,
+			"jewish": 0.41,
+			"muslim": 9.8
+		},
+		"race": {
+			"arab": 1.35,
+			"bangladeshi": 1.1,
+			"black": 7.44,
+			"chinese": 1.8,
+			"indian": 2.4,
+			"mixed": 3.85,
+			"other": 1.01,
+			"otherasian": 2.43,
+			"pakistani": 3.99,
+			"white": 74.62
+		}
 	},
 	"elections": {
 		"2019-12-12": {

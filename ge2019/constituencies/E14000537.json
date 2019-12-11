@@ -3,9 +3,27 @@
 	"title": "Ashton-under-Lyne",
 	"demographics": {
 		"2015UKIP": 21.76,
-		"leave": 61.81,
 		"age18-29": 15.71,
-		"withdegree": 7.9
+		"EUminus": 4.99,
+		"leave": 61.81,
+		"withdegree": 7.9,
+		"religion": {
+			"christian": 65.04,
+			"jewish": 0.04,
+			"muslim": 5.94
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 1.16,
+			"black": 1.13,
+			"chinese": 0.52,
+			"indian": 2.96,
+			"mixed": 1.7,
+			"other": 0.16,
+			"otherasian": 0.51,
+			"pakistani": 4.41,
+			"white": 87.35
+		}
 	},
 	"elections": {
 		"2019-12-12": {

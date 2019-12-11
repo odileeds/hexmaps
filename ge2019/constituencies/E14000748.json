@@ -3,9 +3,27 @@
 	"title": "High Peak",
 	"demographics": {
 		"2015UKIP": 11.44,
-		"leave": 50.55,
 		"age18-29": 13.19,
-		"withdegree": 17.9
+		"EUminus": 3,
+		"leave": 50.55,
+		"withdegree": 17.9,
+		"religion": {
+			"christian": 64.1,
+			"jewish": 0.04,
+			"muslim": 0.2
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.01,
+			"black": 0.21,
+			"chinese": 0.25,
+			"indian": 0.16,
+			"mixed": 1.03,
+			"other": 0.07,
+			"otherasian": 0.27,
+			"pakistani": 0.09,
+			"white": 97.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

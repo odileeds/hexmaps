@@ -3,9 +3,27 @@
 	"title": "North East Somerset",
 	"demographics": {
 		"2015UKIP": 12.03,
-		"leave": 52.12,
 		"age18-29": 11.87,
-		"withdegree": 16.76
+		"EUminus": 3.33,
+		"leave": 52.12,
+		"withdegree": 16.76,
+		"religion": {
+			"christian": 61.97,
+			"jewish": 0.08,
+			"muslim": 0.25
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.04,
+			"black": 0.29,
+			"chinese": 0.28,
+			"indian": 0.25,
+			"mixed": 0.99,
+			"other": 0.1,
+			"otherasian": 0.35,
+			"pakistani": 0.05,
+			"white": 97.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

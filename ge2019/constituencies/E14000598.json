@@ -3,9 +3,27 @@
 	"title": "Brighton, Pavilion",
 	"demographics": {
 		"2015UKIP": 4.98,
-		"leave": 25.68,
 		"age18-29": 27.65,
-		"withdegree": 32.39
+		"EUminus": 12.44,
+		"leave": 25.68,
+		"withdegree": 32.39,
+		"religion": {
+			"christian": 37.1,
+			"jewish": 0.69,
+			"muslim": 1.84
+		},
+		"race": {
+			"arab": 0.59,
+			"bangladeshi": 0.38,
+			"black": 1.5,
+			"chinese": 1.31,
+			"indian": 1.08,
+			"mixed": 4.06,
+			"other": 0.57,
+			"otherasian": 1.2,
+			"pakistani": 0.22,
+			"white": 89.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

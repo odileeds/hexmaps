@@ -3,9 +3,27 @@
 	"title": "Rochester and Strood",
 	"demographics": {
 		"2015UKIP": 30.48,
-		"leave": 63.69,
 		"age18-29": 16.73,
-		"withdegree": 11.05
+		"EUminus": 5.97,
+		"leave": 63.69,
+		"withdegree": 11.05,
+		"religion": {
+			"christian": 58.55,
+			"jewish": 0.1,
+			"muslim": 1.57
+		},
+		"race": {
+			"arab": 0.2,
+			"bangladeshi": 0.45,
+			"black": 2.14,
+			"chinese": 0.47,
+			"indian": 2.78,
+			"mixed": 1.89,
+			"other": 0.43,
+			"otherasian": 0.99,
+			"pakistani": 0.3,
+			"white": 90.35
+		}
 	},
 	"elections": {
 		"2019-12-12": {

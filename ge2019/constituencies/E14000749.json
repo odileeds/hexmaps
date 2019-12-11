@@ -3,9 +3,27 @@
 	"title": "Hitchin and Harpenden",
 	"demographics": {
 		"2015UKIP": 8.88,
-		"leave": 39.79,
 		"age18-29": 11.34,
-		"withdegree": 30.53
+		"EUminus": 6.29,
+		"leave": 39.79,
+		"withdegree": 30.53,
+		"religion": {
+			"christian": 60.05,
+			"jewish": 0.39,
+			"muslim": 1.45
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.56,
+			"black": 1.82,
+			"chinese": 0.66,
+			"indian": 2.07,
+			"mixed": 2.6,
+			"other": 0.34,
+			"otherasian": 0.98,
+			"pakistani": 0.4,
+			"white": 90.4
+		}
 	},
 	"elections": {
 		"2019-12-12": {

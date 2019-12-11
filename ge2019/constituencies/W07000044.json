@@ -3,9 +3,27 @@
 	"title": "Wrexham",
 	"demographics": {
 		"2015UKIP": 15.5,
-		"leave": 57.33,
 		"age18-29": 16.11,
-		"withdegree": 13
+		"EUminus": 9.99,
+		"leave": 57.33,
+		"withdegree": 13,
+		"religion": {
+			"christian": 64.13,
+			"jewish": 0.06,
+			"muslim": 0.9
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.18,
+			"black": 0.57,
+			"chinese": 0.47,
+			"indian": 1.06,
+			"mixed": 0.9,
+			"other": 0.12,
+			"otherasian": 0.7,
+			"pakistani": 0.21,
+			"white": 95.68
+		}
 	},
 	"elections": {
 		"2019-12-12": {

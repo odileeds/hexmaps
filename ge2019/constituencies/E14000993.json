@@ -3,9 +3,27 @@
 	"title": "Thirsk and Malton",
 	"demographics": {
 		"2015UKIP": 14.9,
-		"leave": 56.43,
 		"age18-29": 10.74,
-		"withdegree": 15.5
+		"EUminus": 4.17,
+		"leave": 56.43,
+		"withdegree": 15.5,
+		"religion": {
+			"christian": 72.02,
+			"jewish": 0.04,
+			"muslim": 0.16
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.01,
+			"black": 0.16,
+			"chinese": 0.15,
+			"indian": 0.1,
+			"mixed": 0.6,
+			"other": 0.07,
+			"otherasian": 0.22,
+			"pakistani": 0.04,
+			"white": 98.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

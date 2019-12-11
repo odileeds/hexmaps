@@ -3,9 +3,27 @@
 	"title": "Hyndburn",
 	"demographics": {
 		"2015UKIP": 21.34,
-		"leave": 65.75,
 		"age18-29": 15.2,
-		"withdegree": 9.41
+		"EUminus": 3.8,
+		"leave": 65.75,
+		"withdegree": 9.41,
+		"religion": {
+			"christian": 65.51,
+			"jewish": 0.02,
+			"muslim": 10.5
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 1.31,
+			"black": 0.14,
+			"chinese": 0.36,
+			"indian": 0.36,
+			"mixed": 0.91,
+			"other": 0.09,
+			"otherasian": 0.6,
+			"pakistani": 8.85,
+			"white": 87.24
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,8 +3,26 @@
 	"title": "Coatbridge, Chryston and Bellshill",
 	"demographics": {
 		"2015UKIP": 2.07,
+		"age18-29": 15.05,
+		"EUminus": 2.44,
 		"leave": 38.72,
-		"age18-29": 15.05
+		"religion": {
+			"christian": 71.88,
+			"jewish": 0.02,
+			"muslim": 0.83
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.27,
+			"indian": 0.33,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.09,
+			"pakistani": 0.75,
+			"white": 98.08
+		}
 	},
 	"elections": {
 		"2019-12-12": {

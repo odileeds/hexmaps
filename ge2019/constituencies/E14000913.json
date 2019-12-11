@@ -3,9 +3,27 @@
 	"title": "Scarborough and Whitby",
 	"demographics": {
 		"2015UKIP": 17.1,
-		"leave": 61.37,
 		"age18-29": 13.51,
-		"withdegree": 11.67
+		"EUminus": 4.82,
+		"leave": 61.37,
+		"withdegree": 11.67,
+		"religion": {
+			"christian": 66.19,
+			"jewish": 0.06,
+			"muslim": 0.55
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.11,
+			"black": 0.24,
+			"chinese": 0.28,
+			"indian": 0.39,
+			"mixed": 0.84,
+			"other": 0.09,
+			"otherasian": 0.41,
+			"pakistani": 0.17,
+			"white": 97.35
+		}
 	},
 	"elections": {
 		"2019-12-12": {

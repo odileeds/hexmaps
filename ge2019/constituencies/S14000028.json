@@ -3,8 +3,26 @@
 	"title": "Falkirk",
 	"demographics": {
 		"2015UKIP": 3.03,
+		"age18-29": 13.71,
+		"EUminus": 2.88,
 		"leave": 41.99,
-		"age18-29": 13.71
+		"religion": {
+			"christian": 53.8,
+			"jewish": 0.02,
+			"muslim": 1.01
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.21,
+			"indian": 0.31,
+			"mixed": 0,
+			"other": 0.1,
+			"otherasian": 0.15,
+			"pakistani": 0.81,
+			"white": 97.92
+		}
 	},
 	"elections": {
 		"2019-12-12": {

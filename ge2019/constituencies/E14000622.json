@@ -3,9 +3,27 @@
 	"title": "Castle Point",
 	"demographics": {
 		"2015UKIP": 31.19,
-		"leave": 72.7,
 		"age18-29": 12.51,
-		"withdegree": 6.02
+		"EUminus": 2.33,
+		"leave": 72.7,
+		"withdegree": 6.02,
+		"religion": {
+			"christian": 64.05,
+			"jewish": 0.21,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.1,
+			"black": 0.75,
+			"chinese": 0.25,
+			"indian": 0.43,
+			"mixed": 1.03,
+			"other": 0.14,
+			"otherasian": 0.3,
+			"pakistani": 0.08,
+			"white": 96.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

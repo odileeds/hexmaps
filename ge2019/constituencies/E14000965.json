@@ -3,9 +3,27 @@
 	"title": "Stafford",
 	"demographics": {
 		"2015UKIP": 12.9,
-		"leave": 57.22,
 		"age18-29": 15.35,
-		"withdegree": 15.53
+		"EUminus": 4.81,
+		"leave": 57.22,
+		"withdegree": 15.53,
+		"religion": {
+			"christian": 65.91,
+			"jewish": 0.04,
+			"muslim": 1.03
+		},
+		"race": {
+			"arab": 0.22,
+			"bangladeshi": 0.1,
+			"black": 1.04,
+			"chinese": 0.46,
+			"indian": 1.33,
+			"mixed": 1.45,
+			"other": 0.23,
+			"otherasian": 0.87,
+			"pakistani": 0.32,
+			"white": 93.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

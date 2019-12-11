@@ -3,8 +3,26 @@
 	"title": "Orkney and Shetland",
 	"demographics": {
 		"2015UKIP": 4.76,
+		"age18-29": 12.79,
+		"EUminus": 4.22,
 		"leave": 40.28,
-		"age18-29": 12.79
+		"religion": {
+			"christian": 47.58,
+			"jewish": 0.03,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.06,
+			"black": ,
+			"chinese": 0.2,
+			"indian": 0.09,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.24,
+			"pakistani": 0.13,
+			"white": 98.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

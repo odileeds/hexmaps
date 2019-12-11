@@ -3,9 +3,27 @@
 	"title": "Rayleigh and Wickford",
 	"demographics": {
 		"2015UKIP": 22.28,
-		"leave": 67.89,
 		"age18-29": 11.77,
-		"withdegree": 9.07
+		"EUminus": 2.32,
+		"leave": 67.89,
+		"withdegree": 9.07,
+		"religion": {
+			"christian": 64.11,
+			"jewish": 0.24,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.1,
+			"black": 0.67,
+			"chinese": 0.31,
+			"indian": 0.45,
+			"mixed": 1.1,
+			"other": 0.14,
+			"otherasian": 0.4,
+			"pakistani": 0.09,
+			"white": 96.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

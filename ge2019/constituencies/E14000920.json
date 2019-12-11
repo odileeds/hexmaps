@@ -3,9 +3,27 @@
 	"title": "Sheffield South East",
 	"demographics": {
 		"2015UKIP": 21.9,
-		"leave": 66.49,
 		"age18-29": 14.12,
-		"withdegree": 8.42
+		"EUminus": 3.42,
+		"leave": 66.49,
+		"withdegree": 8.42,
+		"religion": {
+			"christian": 57.68,
+			"jewish": 0.09,
+			"muslim": 10
+		},
+		"race": {
+			"arab": 0.97,
+			"bangladeshi": 1.96,
+			"black": 2.19,
+			"chinese": 0.36,
+			"indian": 0.39,
+			"mixed": 1.67,
+			"other": 0.37,
+			"otherasian": 0.76,
+			"pakistani": 6.03,
+			"white": 85.29
+		}
 	},
 	"elections": {
 		"2019-12-12": {

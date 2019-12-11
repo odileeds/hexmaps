@@ -3,9 +3,27 @@
 	"title": "Preston",
 	"demographics": {
 		"2015UKIP": 15.35,
-		"leave": 56.85,
 		"age18-29": 26.23,
-		"withdegree": 12.98
+		"EUminus": 9.45,
+		"leave": 56.85,
+		"withdegree": 12.98,
+		"religion": {
+			"christian": 55.43,
+			"jewish": 0.04,
+			"muslim": 13.96
+		},
+		"race": {
+			"arab": 0.55,
+			"bangladeshi": 0.31,
+			"black": 1.47,
+			"chinese": 1.12,
+			"indian": 11.91,
+			"mixed": 2.9,
+			"other": 0.35,
+			"otherasian": 1.05,
+			"pakistani": 4.06,
+			"white": 76.27
+		}
 	},
 	"elections": {
 		"2019-12-12": {

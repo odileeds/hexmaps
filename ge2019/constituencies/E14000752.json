@@ -3,9 +3,27 @@
 	"title": "Hornsey and Wood Green",
 	"demographics": {
 		"2015UKIP": 2.2,
-		"leave": 24.98,
 		"age18-29": 19.44,
-		"withdegree": 44.64
+		"EUminus": 27.88,
+		"leave": 24.98,
+		"withdegree": 44.64,
+		"religion": {
+			"christian": 42.47,
+			"jewish": 3.36,
+			"muslim": 9.14
+		},
+		"race": {
+			"arab": 0.74,
+			"bangladeshi": 1.13,
+			"black": 10.65,
+			"chinese": 1.36,
+			"indian": 2.45,
+			"mixed": 6.28,
+			"other": 2.8,
+			"otherasian": 2.72,
+			"pakistani": 0.57,
+			"white": 71.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

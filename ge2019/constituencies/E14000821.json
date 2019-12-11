@@ -3,9 +3,27 @@
 	"title": "Milton Keynes North",
 	"demographics": {
 		"2015UKIP": 11.88,
-		"leave": 49.8,
 		"age18-29": 16.56,
-		"withdegree": 19.12
+		"EUminus": 11.25,
+		"leave": 49.8,
+		"withdegree": 19.12,
+		"religion": {
+			"christian": 52.91,
+			"jewish": 0.17,
+			"muslim": 5.13
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.46,
+			"black": 7.32,
+			"chinese": 0.98,
+			"indian": 2.79,
+			"mixed": 3.08,
+			"other": 0.4,
+			"otherasian": 2.96,
+			"pakistani": 1.9,
+			"white": 79.96
+		}
 	},
 	"elections": {
 		"2019-12-12": {

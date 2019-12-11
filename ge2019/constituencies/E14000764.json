@@ -3,9 +3,27 @@
 	"title": "Islington South and Finsbury",
 	"demographics": {
 		"2015UKIP": 7.62,
-		"leave": 28.28,
 		"age18-29": 29.31,
-		"withdegree": 42.76
+		"EUminus": 21.9,
+		"leave": 28.28,
+		"withdegree": 42.76,
+		"religion": {
+			"christian": 41.13,
+			"jewish": 0.79,
+			"muslim": 8.98
+		},
+		"race": {
+			"arab": 0.94,
+			"bangladeshi": 2.33,
+			"black": 10.97,
+			"chinese": 2.92,
+			"indian": 1.91,
+			"mixed": 5.96,
+			"other": 2.34,
+			"otherasian": 2.78,
+			"pakistani": 0.53,
+			"white": 69.29
+		}
 	},
 	"elections": {
 		"2019-12-12": {

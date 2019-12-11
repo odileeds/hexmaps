@@ -2,8 +2,26 @@
 	"id": "S14000027",
 	"title": "Na h-Eileanan an Iar",
 	"demographics": {
+		"age18-29": 10.91,
+		"EUminus": 2.38,
 		"leave": 43.9,
-		"age18-29": 10.91
+		"religion": {
+			"christian": 73.88,
+			"jewish": 0.01,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.04,
+			"indian": 0.15,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.18,
+			"pakistani": 0.09,
+			"white": 99.13
+		}
 	},
 	"elections": {
 		"2019-12-12": {

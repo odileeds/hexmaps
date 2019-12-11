@@ -3,9 +3,27 @@
 	"title": "Reading West",
 	"demographics": {
 		"2015UKIP": 9.97,
-		"leave": 52.68,
 		"age18-29": 15.77,
-		"withdegree": 18.3
+		"EUminus": 10.94,
+		"leave": 52.68,
+		"withdegree": 18.3,
+		"religion": {
+			"christian": 56.82,
+			"jewish": 0.18,
+			"muslim": 4.95
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.41,
+			"black": 6.29,
+			"chinese": 0.51,
+			"indian": 2.57,
+			"mixed": 3.78,
+			"other": 0.35,
+			"otherasian": 2.01,
+			"pakistani": 3.04,
+			"white": 80.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

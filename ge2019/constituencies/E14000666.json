@@ -3,9 +3,27 @@
 	"title": "Dewsbury",
 	"demographics": {
 		"2015UKIP": 12.4,
-		"leave": 57.27,
 		"age18-29": 15.35,
-		"withdegree": 13.04
+		"EUminus": 2.91,
+		"leave": 57.27,
+		"withdegree": 13.04,
+		"religion": {
+			"christian": 53.8,
+			"jewish": 0.03,
+			"muslim": 18.47
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.23,
+			"black": 0.43,
+			"chinese": 0.17,
+			"indian": 5.71,
+			"mixed": 1.48,
+			"other": 0.16,
+			"otherasian": 0.67,
+			"pakistani": 12.67,
+			"white": 78.38
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Makerfield",
 	"demographics": {
 		"2015UKIP": 22.45,
-		"leave": 65,
 		"age18-29": 14.15,
-		"withdegree": 9.03
+		"EUminus": 2.01,
+		"leave": 65,
+		"withdegree": 9.03,
+		"religion": {
+			"christian": 80.07,
+			"jewish": 0.02,
+			"muslim": 0.45
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.02,
+			"black": 0.36,
+			"chinese": 0.17,
+			"indian": 0.18,
+			"mixed": 0.69,
+			"other": 0.09,
+			"otherasian": 0.2,
+			"pakistani": 0.11,
+			"white": 98.11
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Dagenham and Rainham",
 	"demographics": {
 		"2015UKIP": 29.85,
-		"leave": 69.93,
 		"age18-29": 16.03,
-		"withdegree": 9.94
+		"EUminus": 9.88,
+		"leave": 69.93,
+		"withdegree": 9.94,
+		"religion": {
+			"christian": 62.67,
+			"jewish": 0.28,
+			"muslim": 5.83
+		},
+		"race": {
+			"arab": 0.26,
+			"bangladeshi": 1.85,
+			"black": 15.07,
+			"chinese": 0.6,
+			"indian": 2.76,
+			"mixed": 3.35,
+			"other": 0.71,
+			"otherasian": 1.77,
+			"pakistani": 1.44,
+			"white": 72.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

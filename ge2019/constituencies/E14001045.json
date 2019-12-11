@@ -3,9 +3,27 @@
 	"title": "Witham",
 	"demographics": {
 		"2015UKIP": 16.05,
-		"leave": 60.83,
 		"age18-29": 12.36,
-		"withdegree": 12.38
+		"EUminus": 4.39,
+		"leave": 60.83,
+		"withdegree": 12.38,
+		"religion": {
+			"christian": 63.9,
+			"jewish": 0.11,
+			"muslim": 0.35
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.1,
+			"black": 0.53,
+			"chinese": 0.21,
+			"indian": 0.38,
+			"mixed": 1.19,
+			"other": 0.11,
+			"otherasian": 0.43,
+			"pakistani": 0.02,
+			"white": 96.99
+		}
 	},
 	"elections": {
 		"2019-12-12": {

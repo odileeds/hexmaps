@@ -3,9 +3,27 @@
 	"title": "Taunton Deane",
 	"demographics": {
 		"2015UKIP": 11.96,
-		"leave": 52.92,
 		"age18-29": 13.43,
-		"withdegree": 14.93
+		"EUminus": 6.4,
+		"leave": 52.92,
+		"withdegree": 14.93,
+		"religion": {
+			"christian": 62.09,
+			"jewish": 0.06,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.1,
+			"black": 0.26,
+			"chinese": 0.41,
+			"indian": 0.29,
+			"mixed": 0.92,
+			"other": 0.09,
+			"otherasian": 0.61,
+			"pakistani": 0.05,
+			"white": 97.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

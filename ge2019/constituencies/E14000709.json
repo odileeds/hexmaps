@@ -3,9 +3,27 @@
 	"title": "Gateshead",
 	"demographics": {
 		"2015UKIP": 17.83,
-		"leave": 56.05,
 		"age18-29": 18.24,
-		"withdegree": 13.74
+		"EUminus": 5.2,
+		"leave": 56.05,
+		"withdegree": 13.74,
+		"religion": {
+			"christian": 62.79,
+			"jewish": 3.06,
+			"muslim": 1.77
+		},
+		"race": {
+			"arab": 0.25,
+			"bangladeshi": 0.2,
+			"black": 0.92,
+			"chinese": 0.86,
+			"indian": 0.65,
+			"mixed": 1.01,
+			"other": 0.71,
+			"otherasian": 0.65,
+			"pakistani": 0.48,
+			"white": 94.26
+		}
 	},
 	"elections": {
 		"2019-12-12": {

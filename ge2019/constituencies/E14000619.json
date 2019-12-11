@@ -3,9 +3,27 @@
 	"title": "Canterbury",
 	"demographics": {
 		"2015UKIP": 13.63,
-		"leave": 45.34,
 		"age18-29": 25.35,
-		"withdegree": 20.44
+		"EUminus": 9.96,
+		"leave": 45.34,
+		"withdegree": 20.44,
+		"religion": {
+			"christian": 58.64,
+			"jewish": 0.19,
+			"muslim": 1.54
+		},
+		"race": {
+			"arab": 0.35,
+			"bangladeshi": 0.21,
+			"black": 1.63,
+			"chinese": 1.2,
+			"indian": 1.15,
+			"mixed": 1.94,
+			"other": 0.4,
+			"otherasian": 1.4,
+			"pakistani": 0.27,
+			"white": 91.45
+		}
 	},
 	"elections": {
 		"2019-12-12": {

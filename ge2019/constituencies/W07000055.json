@@ -3,9 +3,27 @@
 	"title": "Newport East",
 	"demographics": {
 		"2015UKIP": 18.42,
-		"leave": 60.25,
 		"age18-29": 16.47,
-		"withdegree": 11.3
+		"EUminus": 4.57,
+		"leave": 60.25,
+		"withdegree": 11.3,
+		"religion": {
+			"christian": 56.08,
+			"jewish": 0.05,
+			"muslim": 4.23
+		},
+		"race": {
+			"arab": 0.28,
+			"bangladeshi": 1.13,
+			"black": 1.25,
+			"chinese": 0.41,
+			"indian": 0.58,
+			"mixed": 1.62,
+			"other": 0.25,
+			"otherasian": 0.61,
+			"pakistani": 2.23,
+			"white": 91.65
+		}
 	},
 	"elections": {
 		"2019-12-12": {

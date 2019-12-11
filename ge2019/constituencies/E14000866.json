@@ -3,9 +3,27 @@
 	"title": "Nottingham North",
 	"demographics": {
 		"2015UKIP": 18.51,
-		"leave": 63.81,
 		"age18-29": 17.02,
-		"withdegree": 7.05
+		"EUminus": 6.57,
+		"leave": 63.81,
+		"withdegree": 7.05,
+		"religion": {
+			"christian": 47.99,
+			"jewish": 0.09,
+			"muslim": 2.82
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.15,
+			"black": 7.7,
+			"chinese": 0.52,
+			"indian": 1.62,
+			"mixed": 7.26,
+			"other": 0.31,
+			"otherasian": 0.98,
+			"pakistani": 1.58,
+			"white": 79.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bromsgrove",
 	"demographics": {
 		"2015UKIP": 15.62,
-		"leave": 55.37,
 		"age18-29": 11.67,
-		"withdegree": 17.36
+		"EUminus": 2.53,
+		"leave": 55.37,
+		"withdegree": 17.36,
+		"religion": {
+			"christian": 68.89,
+			"jewish": 0.1,
+			"muslim": 0.54
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.04,
+			"black": 0.48,
+			"chinese": 0.33,
+			"indian": 1.15,
+			"mixed": 1.49,
+			"other": 0.13,
+			"otherasian": 0.3,
+			"pakistani": 0.24,
+			"white": 95.8
+		}
 	},
 	"elections": {
 		"2019-12-12": {

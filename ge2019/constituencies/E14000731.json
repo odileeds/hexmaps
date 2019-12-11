@@ -3,9 +3,27 @@
 	"title": "Harrow East",
 	"demographics": {
 		"2015UKIP": 4.76,
-		"leave": 47.48,
 		"age18-29": 17.65,
-		"withdegree": 23.56
+		"EUminus": 17.61,
+		"leave": 47.48,
+		"withdegree": 23.56,
+		"religion": {
+			"christian": 33.7,
+			"jewish": 7.28,
+			"muslim": 12.98
+		},
+		"race": {
+			"arab": 1.74,
+			"bangladeshi": 0.54,
+			"black": 8.36,
+			"chinese": 1.02,
+			"indian": 31.61,
+			"mixed": 3.42,
+			"other": 1.5,
+			"otherasian": 9.62,
+			"pakistani": 2.94,
+			"white": 39.23
+		}
 	},
 	"elections": {
 		"2019-12-12": {

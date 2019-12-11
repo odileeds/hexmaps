@@ -3,9 +3,27 @@
 	"title": "Copeland",
 	"demographics": {
 		"2015UKIP": 15.51,
-		"leave": 59.85,
 		"age18-29": 12.85,
-		"withdegree": 11.95
+		"EUminus": 2.45,
+		"leave": 59.85,
+		"withdegree": 11.95,
+		"religion": {
+			"christian": 77.42,
+			"jewish": 0.02,
+			"muslim": 0.31
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.11,
+			"black": 0.13,
+			"chinese": 0.22,
+			"indian": 0.2,
+			"mixed": 0.5,
+			"other": 0.07,
+			"otherasian": 0.26,
+			"pakistani": 0.1,
+			"white": 98.4
+		}
 	},
 	"elections": {
 		"2019-12-12": {

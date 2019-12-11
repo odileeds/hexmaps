@@ -3,9 +3,27 @@
 	"title": "Waveney",
 	"demographics": {
 		"2015UKIP": 14.52,
-		"leave": 63.21,
 		"age18-29": 12.7,
-		"withdegree": 7.39
+		"EUminus": 3.37,
+		"leave": 63.21,
+		"withdegree": 7.39,
+		"religion": {
+			"christian": 60.06,
+			"jewish": 0.05,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.09,
+			"black": 0.35,
+			"chinese": 0.26,
+			"indian": 0.17,
+			"mixed": 1.07,
+			"other": 0.1,
+			"otherasian": 0.3,
+			"pakistani": 0.05,
+			"white": 97.6
+		}
 	},
 	"elections": {
 		"2019-12-12": {

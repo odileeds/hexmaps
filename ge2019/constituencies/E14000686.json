@@ -3,9 +3,27 @@
 	"title": "Eddisbury",
 	"demographics": {
 		"2015UKIP": 12.2,
-		"leave": 52.23,
 		"age18-29": 11.36,
-		"withdegree": 17.87
+		"EUminus": 2.59,
+		"leave": 52.23,
+		"withdegree": 17.87,
+		"religion": {
+			"christian": 72.62,
+			"jewish": 0.08,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.06,
+			"black": 0.14,
+			"chinese": 0.2,
+			"indian": 0.18,
+			"mixed": 0.67,
+			"other": 0.03,
+			"otherasian": 0.15,
+			"pakistani": 0.06,
+			"white": 98.45
+		}
 	},
 	"elections": {
 		"2019-12-12": {

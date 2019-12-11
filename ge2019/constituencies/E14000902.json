@@ -3,9 +3,27 @@
 	"title": "Rossendale and Darwen",
 	"demographics": {
 		"2015UKIP": 14,
-		"leave": 58.59,
 		"age18-29": 13.91,
-		"withdegree": 13.46
+		"EUminus": 2.93,
+		"leave": 58.59,
+		"withdegree": 13.46,
+		"religion": {
+			"christian": 67.25,
+			"jewish": 0.07,
+			"muslim": 2.25
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.93,
+			"black": 0.23,
+			"chinese": 0.39,
+			"indian": 0.37,
+			"mixed": 0.82,
+			"other": 0.1,
+			"otherasian": 0.29,
+			"pakistani": 1.13,
+			"white": 95.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

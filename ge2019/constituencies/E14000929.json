@@ -3,9 +3,27 @@
 	"title": "Sleaford and North Hykeham",
 	"demographics": {
 		"2015UKIP": 15.69,
-		"leave": 61.53,
 		"age18-29": 10.81,
-		"withdegree": 12.5
+		"EUminus": 5.28,
+		"leave": 61.53,
+		"withdegree": 12.5,
+		"religion": {
+			"christian": 70.84,
+			"jewish": 0.06,
+			"muslim": 0.2
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.06,
+			"black": 0.22,
+			"chinese": 0.2,
+			"indian": 0.21,
+			"mixed": 0.72,
+			"other": 0.08,
+			"otherasian": 0.17,
+			"pakistani": 0.02,
+			"white": 98.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

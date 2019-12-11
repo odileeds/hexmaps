@@ -3,9 +3,27 @@
 	"title": "Wellingborough",
 	"demographics": {
 		"2015UKIP": 19.57,
-		"leave": 62.94,
 		"age18-29": 13.71,
-		"withdegree": 10.17
+		"EUminus": 8.62,
+		"leave": 62.94,
+		"withdegree": 10.17,
+		"religion": {
+			"christian": 57.14,
+			"jewish": 0.07,
+			"muslim": 1.29
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.52,
+			"black": 2.91,
+			"chinese": 0.24,
+			"indian": 3.19,
+			"mixed": 2.46,
+			"other": 0.22,
+			"otherasian": 0.45,
+			"pakistani": 0.3,
+			"white": 89.64
+		}
 	},
 	"elections": {
 		"2019-12-12": {

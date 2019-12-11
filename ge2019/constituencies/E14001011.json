@@ -3,9 +3,27 @@
 	"title": "Walsall North",
 	"demographics": {
 		"2015UKIP": 22.02,
-		"leave": 74.19,
 		"age18-29": 16.21,
-		"withdegree": 5.97
+		"EUminus": 2.75,
+		"leave": 74.19,
+		"withdegree": 5.97,
+		"religion": {
+			"christian": 61.92,
+			"jewish": 0.01,
+			"muslim": 3.24
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.37,
+			"black": 2.18,
+			"chinese": 0.31,
+			"indian": 3.84,
+			"mixed": 2.68,
+			"other": 0.62,
+			"otherasian": 1.05,
+			"pakistani": 2.63,
+			"white": 86.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

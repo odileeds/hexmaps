@@ -3,9 +3,27 @@
 	"title": "Wantage",
 	"demographics": {
 		"2015UKIP": 12.5,
-		"leave": 46.43,
 		"age18-29": 12.92,
-		"withdegree": 23.35
+		"EUminus": 7.16,
+		"leave": 46.43,
+		"withdegree": 23.35,
+		"religion": {
+			"christian": 63.22,
+			"jewish": 0.14,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.12,
+			"black": 0.87,
+			"chinese": 0.34,
+			"indian": 0.57,
+			"mixed": 1.11,
+			"other": 0.17,
+			"otherasian": 0.63,
+			"pakistani": 0.1,
+			"white": 96.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

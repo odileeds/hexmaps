@@ -3,9 +3,27 @@
 	"title": "Bolton West",
 	"demographics": {
 		"2015UKIP": 15.29,
-		"leave": 55.54,
 		"age18-29": 13.74,
-		"withdegree": 15.85
+		"EUminus": 2.7,
+		"leave": 55.54,
+		"withdegree": 15.85,
+		"religion": {
+			"christian": 71.67,
+			"jewish": 0.05,
+			"muslim": 2.6
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.03,
+			"black": 0.68,
+			"chinese": 0.34,
+			"indian": 2.62,
+			"mixed": 1.36,
+			"other": 0.15,
+			"otherasian": 0.41,
+			"pakistani": 1.16,
+			"white": 93.14
+		}
 	},
 	"elections": {
 		"2019-12-12": {

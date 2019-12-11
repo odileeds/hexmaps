@@ -3,9 +3,27 @@
 	"title": "Carmarthen East and Dinefwr",
 	"demographics": {
 		"2015UKIP": 11.07,
-		"leave": 53.77,
 		"age18-29": 11.65,
-		"withdegree": 14.21
+		"EUminus": 2.94,
+		"leave": 53.77,
+		"withdegree": 14.21,
+		"religion": {
+			"christian": 62.49,
+			"jewish": 0.05,
+			"muslim": 0.24
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.05,
+			"black": 0.14,
+			"chinese": 0.13,
+			"indian": 0.19,
+			"mixed": 0.52,
+			"other": 0.06,
+			"otherasian": 0.22,
+			"pakistani": 0.03,
+			"white": 98.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

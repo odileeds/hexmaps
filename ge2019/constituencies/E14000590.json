@@ -3,9 +3,27 @@
 	"title": "Braintree",
 	"demographics": {
 		"2015UKIP": 18.82,
-		"leave": 61.43,
 		"age18-29": 13.08,
-		"withdegree": 10.87
+		"EUminus": 5.46,
+		"leave": 61.43,
+		"withdegree": 10.87,
+		"religion": {
+			"christian": 60.82,
+			"jewish": 0.14,
+			"muslim": 0.51
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.13,
+			"black": 0.58,
+			"chinese": 0.29,
+			"indian": 0.4,
+			"mixed": 1.16,
+			"other": 0.14,
+			"otherasian": 0.45,
+			"pakistani": 0.12,
+			"white": 96.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

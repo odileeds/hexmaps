@@ -3,9 +3,27 @@
 	"title": "Hemsworth",
 	"demographics": {
 		"2015UKIP": 20.2,
-		"leave": 68.13,
 		"age18-29": 14.16,
-		"withdegree": 9.05
+		"EUminus": 4.33,
+		"leave": 68.13,
+		"withdegree": 9.05,
+		"religion": {
+			"christian": 68.67,
+			"jewish": 0.02,
+			"muslim": 1.36
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0,
+			"black": 0.45,
+			"chinese": 0.2,
+			"indian": 0.42,
+			"mixed": 0.76,
+			"other": 0.12,
+			"otherasian": 0.2,
+			"pakistani": 1.04,
+			"white": 96.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

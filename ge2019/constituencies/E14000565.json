@@ -3,9 +3,27 @@
 	"title": "Birmingham, Northfield",
 	"demographics": {
 		"2015UKIP": 16.74,
-		"leave": 61.79,
 		"age18-29": 15.69,
-		"withdegree": 11.27
+		"EUminus": 3.8,
+		"leave": 61.79,
+		"withdegree": 11.27,
+		"religion": {
+			"christian": 60.78,
+			"jewish": 0.13,
+			"muslim": 2.26
+		},
+		"race": {
+			"arab": 0.38,
+			"bangladeshi": 0.19,
+			"black": 4.43,
+			"chinese": 0.72,
+			"indian": 1.17,
+			"mixed": 4.68,
+			"other": 0.46,
+			"otherasian": 1.39,
+			"pakistani": 0.74,
+			"white": 85.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "South Cambridgeshire",
 	"demographics": {
 		"2015UKIP": 9.77,
-		"leave": 38.44,
 		"age18-29": 12.38,
-		"withdegree": 30.1
+		"EUminus": 8.26,
+		"leave": 38.44,
+		"withdegree": 30.1,
+		"religion": {
+			"christian": 58.59,
+			"jewish": 0.3,
+			"muslim": 1.08
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.2,
+			"black": 0.79,
+			"chinese": 0.92,
+			"indian": 1.57,
+			"mixed": 1.75,
+			"other": 0.29,
+			"otherasian": 1.07,
+			"pakistani": 0.31,
+			"white": 92.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

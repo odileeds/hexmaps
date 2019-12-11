@@ -3,9 +3,27 @@
 	"title": "Holborn and St Pancras",
 	"demographics": {
 		"2015UKIP": 4.99,
-		"leave": 26.66,
 		"age18-29": 27.8,
-		"withdegree": 39.91
+		"EUminus": 22.16,
+		"leave": 26.66,
+		"withdegree": 39.91,
+		"religion": {
+			"christian": 33.69,
+			"jewish": 1.91,
+			"muslim": 14.12
+		},
+		"race": {
+			"arab": 1.44,
+			"bangladeshi": 7.93,
+			"black": 9.26,
+			"chinese": 3.4,
+			"indian": 2.3,
+			"mixed": 5.67,
+			"other": 2.15,
+			"otherasian": 3.63,
+			"pakistani": 0.58,
+			"white": 63.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

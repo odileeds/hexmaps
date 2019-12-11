@@ -3,9 +3,27 @@
 	"title": "St Helens North",
 	"demographics": {
 		"2015UKIP": 15.1,
-		"leave": 58.29,
 		"age18-29": 14.36,
-		"withdegree": 10.3
+		"EUminus": 2.1,
+		"leave": 58.29,
+		"withdegree": 10.3,
+		"religion": {
+			"christian": 78.67,
+			"jewish": 0.02,
+			"muslim": 0.29
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.08,
+			"black": 0.14,
+			"chinese": 0.26,
+			"indian": 0.16,
+			"mixed": 0.61,
+			"other": 0.08,
+			"otherasian": 0.23,
+			"pakistani": 0.04,
+			"white": 98.35
+		}
 	},
 	"elections": {
 		"2019-12-12": {

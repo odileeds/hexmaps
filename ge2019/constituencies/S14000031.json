@@ -3,8 +3,26 @@
 	"title": "Glasgow North",
 	"demographics": {
 		"2015UKIP": 1.32,
+		"age18-29": 32.97,
+		"EUminus": 9.62,
 		"leave": 21.62,
-		"age18-29": 32.97
+		"religion": {
+			"christian": 44.4,
+			"jewish": 0.19,
+			"muslim": 4.78
+		},
+		"race": {
+			"arab": 0.64,
+			"bangladeshi": 0.12,
+			"black": ,
+			"chinese": 3.29,
+			"indian": 1.75,
+			"mixed": 0,
+			"other": 0.27,
+			"otherasian": 1.12,
+			"pakistani": 3.01,
+			"white": 86.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

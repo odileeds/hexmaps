@@ -3,9 +3,27 @@
 	"title": "Grantham and Stamford",
 	"demographics": {
 		"2015UKIP": 17.51,
-		"leave": 61.01,
 		"age18-29": 12.51,
-		"withdegree": 13.09
+		"EUminus": 8.56,
+		"leave": 61.01,
+		"withdegree": 13.09,
+		"religion": {
+			"christian": 69.18,
+			"jewish": 0.07,
+			"muslim": 0.33
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.06,
+			"black": 0.42,
+			"chinese": 0.36,
+			"indian": 0.4,
+			"mixed": 0.88,
+			"other": 0.1,
+			"otherasian": 0.43,
+			"pakistani": 0.08,
+			"white": 97.23
+		}
 	},
 	"elections": {
 		"2019-12-12": {

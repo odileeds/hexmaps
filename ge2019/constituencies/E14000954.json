@@ -3,9 +3,27 @@
 	"title": "South West Wiltshire",
 	"demographics": {
 		"2015UKIP": 17.49,
-		"leave": 57.69,
 		"age18-29": 12.64,
-		"withdegree": 13.06
+		"EUminus": 8.66,
+		"leave": 57.69,
+		"withdegree": 13.06,
+		"religion": {
+			"christian": 62.84,
+			"jewish": 0.07,
+			"muslim": 0.58
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.08,
+			"black": 0.6,
+			"chinese": 0.27,
+			"indian": 0.23,
+			"mixed": 1.17,
+			"other": 0.18,
+			"otherasian": 0.44,
+			"pakistani": 0.03,
+			"white": 96.82
+		}
 	},
 	"elections": {
 		"2019-12-12": {

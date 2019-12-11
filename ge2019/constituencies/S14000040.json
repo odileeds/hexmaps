@@ -2,8 +2,26 @@
 	"id": "S14000040",
 	"title": "Kilmarnock and Loudoun",
 	"demographics": {
+		"age18-29": 14.45,
+		"EUminus": 1.87,
 		"leave": 39.61,
-		"age18-29": 14.45
+		"religion": {
+			"christian": 54.84,
+			"jewish": 0.06,
+			"muslim": 0.34
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.27,
+			"indian": 0.18,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.11,
+			"pakistani": 0.24,
+			"white": 98.72
+		}
 	},
 	"elections": {
 		"2019-12-12": {

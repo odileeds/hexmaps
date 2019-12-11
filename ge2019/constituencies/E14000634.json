@@ -3,9 +3,27 @@
 	"title": "Chingford and Woodford Green",
 	"demographics": {
 		"2015UKIP": 12.88,
-		"leave": 49.21,
 		"age18-29": 15.15,
-		"withdegree": 19.86
+		"EUminus": 11.42,
+		"leave": 49.21,
+		"withdegree": 19.86,
+		"religion": {
+			"christian": 57.51,
+			"jewish": 2,
+			"muslim": 9.44
+		},
+		"race": {
+			"arab": 0.55,
+			"bangladeshi": 0.83,
+			"black": 9.06,
+			"chinese": 0.79,
+			"indian": 2.92,
+			"mixed": 4.76,
+			"other": 1.73,
+			"otherasian": 2.41,
+			"pakistani": 3.38,
+			"white": 73.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

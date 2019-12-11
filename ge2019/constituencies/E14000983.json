@@ -3,9 +3,27 @@
 	"title": "Surrey Heath",
 	"demographics": {
 		"2015UKIP": 14.29,
-		"leave": 52,
 		"age18-29": 12.3,
-		"withdegree": 20.09
+		"EUminus": 7.1,
+		"leave": 52,
+		"withdegree": 20.09,
+		"religion": {
+			"christian": 63.48,
+			"jewish": 0.18,
+			"muslim": 1.68
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.3,
+			"black": 1.02,
+			"chinese": 0.6,
+			"indian": 1.73,
+			"mixed": 1.78,
+			"other": 0.41,
+			"otherasian": 2.22,
+			"pakistani": 0.69,
+			"white": 91.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

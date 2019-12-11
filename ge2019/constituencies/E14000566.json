@@ -3,9 +3,27 @@
 	"title": "Birmingham, Perry Barr",
 	"demographics": {
 		"2015UKIP": 12.2,
-		"leave": 51.22,
 		"age18-29": 19.53,
-		"withdegree": 12.26
+		"EUminus": 8.22,
+		"leave": 51.22,
+		"withdegree": 12.26,
+		"religion": {
+			"christian": 41.66,
+			"jewish": 0.07,
+			"muslim": 22.66
+		},
+		"race": {
+			"arab": 0.31,
+			"bangladeshi": 6.25,
+			"black": 15.24,
+			"chinese": 0.84,
+			"indian": 16.03,
+			"mixed": 4.12,
+			"other": 1.81,
+			"otherasian": 3.67,
+			"pakistani": 12.05,
+			"white": 39.68
+		}
 	},
 	"elections": {
 		"2019-12-12": {

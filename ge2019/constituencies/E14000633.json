@@ -3,9 +3,27 @@
 	"title": "Chichester",
 	"demographics": {
 		"2015UKIP": 14.95,
-		"leave": 50.64,
 		"age18-29": 12.82,
-		"withdegree": 19.01
+		"EUminus": 6.28,
+		"leave": 50.64,
+		"withdegree": 19.01,
+		"religion": {
+			"christian": 65.67,
+			"jewish": 0.14,
+			"muslim": 0.39
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.13,
+			"black": 0.47,
+			"chinese": 0.31,
+			"indian": 0.42,
+			"mixed": 0.96,
+			"other": 0.13,
+			"otherasian": 0.59,
+			"pakistani": 0.03,
+			"white": 96.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

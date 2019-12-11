@@ -3,9 +3,27 @@
 	"title": "Nottingham East",
 	"demographics": {
 		"2015UKIP": 9.94,
-		"leave": 42.88,
 		"age18-29": 29.17,
-		"withdegree": 19.59
+		"EUminus": 14.34,
+		"leave": 42.88,
+		"withdegree": 19.59,
+		"religion": {
+			"christian": 40.83,
+			"jewish": 0.3,
+			"muslim": 13.19
+		},
+		"race": {
+			"arab": 0.81,
+			"bangladeshi": 0.53,
+			"black": 8.78,
+			"chinese": 2.05,
+			"indian": 3.08,
+			"mixed": 7.83,
+			"other": 0.97,
+			"otherasian": 2.47,
+			"pakistani": 8.64,
+			"white": 64.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

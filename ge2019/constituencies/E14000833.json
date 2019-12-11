@@ -3,9 +3,27 @@
 	"title": "Newcastle upon Tyne North",
 	"demographics": {
 		"2015UKIP": 16.59,
-		"leave": 57.15,
 		"age18-29": 14.69,
-		"withdegree": 17.32
+		"EUminus": 3.1,
+		"leave": 57.15,
+		"withdegree": 17.32,
+		"religion": {
+			"christian": 65,
+			"jewish": 0.2,
+			"muslim": 2.25
+		},
+		"race": {
+			"arab": 0.85,
+			"bangladeshi": 0.42,
+			"black": 0.68,
+			"chinese": 0.78,
+			"indian": 1.05,
+			"mixed": 0.96,
+			"other": 0.28,
+			"otherasian": 0.74,
+			"pakistani": 0.47,
+			"white": 93.79
+		}
 	},
 	"elections": {
 		"2019-12-12": {

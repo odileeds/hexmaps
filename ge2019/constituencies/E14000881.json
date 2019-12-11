@@ -3,9 +3,27 @@
 	"title": "Poole",
 	"demographics": {
 		"2015UKIP": 16.79,
-		"leave": 56.94,
 		"age18-29": 13.78,
-		"withdegree": 14.72
+		"EUminus": 7.52,
+		"leave": 56.94,
+		"withdegree": 14.72,
+		"religion": {
+			"christian": 60.01,
+			"jewish": 0.34,
+			"muslim": 0.78
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.29,
+			"black": 0.36,
+			"chinese": 0.43,
+			"indian": 0.88,
+			"mixed": 1.32,
+			"other": 0.21,
+			"otherasian": 0.74,
+			"pakistani": 0.06,
+			"white": 95.62
+		}
 	},
 	"elections": {
 		"2019-12-12": {

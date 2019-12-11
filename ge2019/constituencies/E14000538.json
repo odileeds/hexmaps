@@ -3,9 +3,27 @@
 	"title": "Aylesbury",
 	"demographics": {
 		"2015UKIP": 19.71,
-		"leave": 52.1,
 		"age18-29": 14.1,
-		"withdegree": 17.8
+		"EUminus": 7.93,
+		"leave": 52.1,
+		"withdegree": 17.8,
+		"religion": {
+			"christian": 59.12,
+			"jewish": 0.17,
+			"muslim": 5.75
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.12,
+			"black": 2.55,
+			"chinese": 0.4,
+			"indian": 1.44,
+			"mixed": 2.74,
+			"other": 0.31,
+			"otherasian": 1.6,
+			"pakistani": 4.84,
+			"white": 85.79
+		}
 	},
 	"elections": {
 		"2019-12-12": {

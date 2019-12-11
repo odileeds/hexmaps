@@ -3,9 +3,27 @@
 	"title": "Halesowen and Rowley Regis",
 	"demographics": {
 		"2015UKIP": 16.61,
-		"leave": 66.34,
 		"age18-29": 14.56,
-		"withdegree": 9.54
+		"EUminus": 2.1,
+		"leave": 66.34,
+		"withdegree": 9.54,
+		"religion": {
+			"christian": 63.03,
+			"jewish": 0.02,
+			"muslim": 4.42
+		},
+		"race": {
+			"arab": 1.06,
+			"bangladeshi": 0.43,
+			"black": 1.47,
+			"chinese": 0.24,
+			"indian": 2.29,
+			"mixed": 1.99,
+			"other": 0.31,
+			"otherasian": 0.64,
+			"pakistani": 2.5,
+			"white": 89.06
+		}
 	},
 	"elections": {
 		"2019-12-12": {

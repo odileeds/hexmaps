@@ -3,9 +3,27 @@
 	"title": "Montgomeryshire",
 	"demographics": {
 		"2015UKIP": 11.17,
-		"leave": 55.99,
 		"age18-29": 11.74,
-		"withdegree": 12.71
+		"EUminus": 4.13,
+		"leave": 55.99,
+		"withdegree": 12.71,
+		"religion": {
+			"christian": 61.9,
+			"jewish": 0.05,
+			"muslim": 0.19
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.07,
+			"black": 0.11,
+			"chinese": 0.08,
+			"indian": 0.09,
+			"mixed": 0.54,
+			"other": 0.06,
+			"otherasian": 0.19,
+			"pakistani": 0,
+			"white": 98.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

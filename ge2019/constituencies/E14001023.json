@@ -3,9 +3,27 @@
 	"title": "Wealden",
 	"demographics": {
 		"2015UKIP": 16.73,
-		"leave": 52.55,
 		"age18-29": 11.06,
-		"withdegree": 16.68
+		"EUminus": 5.47,
+		"leave": 52.55,
+		"withdegree": 16.68,
+		"religion": {
+			"christian": 63.63,
+			"jewish": 0.14,
+			"muslim": 0.42
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.17,
+			"black": 0.25,
+			"chinese": 0.32,
+			"indian": 0.29,
+			"mixed": 1.02,
+			"other": 0.14,
+			"otherasian": 0.42,
+			"pakistani": 0.04,
+			"white": 97.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

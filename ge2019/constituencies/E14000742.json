@@ -3,9 +3,27 @@
 	"title": "Henley",
 	"demographics": {
 		"2015UKIP": 10.88,
-		"leave": 43.07,
 		"age18-29": 10.9,
-		"withdegree": 26.4
+		"EUminus": 6.84,
+		"leave": 43.07,
+		"withdegree": 26.4,
+		"religion": {
+			"christian": 65.05,
+			"jewish": 0.24,
+			"muslim": 0.49
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.1,
+			"black": 0.48,
+			"chinese": 0.24,
+			"indian": 0.53,
+			"mixed": 1.36,
+			"other": 0.13,
+			"otherasian": 0.55,
+			"pakistani": 0.16,
+			"white": 96.38
+		}
 	},
 	"elections": {
 		"2019-12-12": {

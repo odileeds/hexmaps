@@ -3,9 +3,27 @@
 	"title": "Rhondda",
 	"demographics": {
 		"2015UKIP": 12.68,
-		"leave": 61.24,
 		"age18-29": 15.49,
-		"withdegree": 6.72
+		"EUminus": 1.26,
+		"leave": 61.24,
+		"withdegree": 6.72,
+		"religion": {
+			"christian": 45.31,
+			"jewish": 0.03,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.05,
+			"black": 0.45,
+			"chinese": 0.3,
+			"indian": 0.13,
+			"mixed": 0.52,
+			"other": 0.06,
+			"otherasian": 0.31,
+			"pakistani": 0.06,
+			"white": 98.08
+		}
 	},
 	"elections": {
 		"2019-12-12": {

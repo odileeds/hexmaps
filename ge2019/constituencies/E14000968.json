@@ -3,9 +3,27 @@
 	"title": "Stevenage",
 	"demographics": {
 		"2015UKIP": 14.36,
-		"leave": 57.12,
 		"age18-29": 15.72,
-		"withdegree": 13.8
+		"EUminus": 6.53,
+		"leave": 57.12,
+		"withdegree": 13.8,
+		"religion": {
+			"christian": 55.41,
+			"jewish": 0.2,
+			"muslim": 1.83
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.57,
+			"black": 3.09,
+			"chinese": 0.71,
+			"indian": 1.82,
+			"mixed": 2.56,
+			"other": 0.33,
+			"otherasian": 1.75,
+			"pakistani": 0.54,
+			"white": 88.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

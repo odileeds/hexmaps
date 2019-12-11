@@ -3,9 +3,27 @@
 	"title": "Berwick-upon-Tweed",
 	"demographics": {
 		"2015UKIP": 11.16,
-		"leave": 55.55,
 		"age18-29": 11.71,
-		"withdegree": 13.79
+		"EUminus": 2.98,
+		"leave": 55.55,
+		"withdegree": 13.79,
+		"religion": {
+			"christian": 70.44,
+			"jewish": 0.04,
+			"muslim": 0.27
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.05,
+			"black": 0.19,
+			"chinese": 0.13,
+			"indian": 0.17,
+			"mixed": 0.49,
+			"other": 0.06,
+			"otherasian": 0.14,
+			"pakistani": 0.08,
+			"white": 98.65
+		}
 	},
 	"elections": {
 		"2019-12-12": {

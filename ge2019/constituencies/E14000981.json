@@ -3,9 +3,27 @@
 	"title": "Suffolk Coastal",
 	"demographics": {
 		"2015UKIP": 15.57,
-		"leave": 55.82,
 		"age18-29": 10.57,
-		"withdegree": 14.53
+		"EUminus": 4.54,
+		"leave": 55.82,
+		"withdegree": 14.53,
+		"religion": {
+			"christian": 63.06,
+			"jewish": 0.11,
+			"muslim": 0.35
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.12,
+			"black": 0.4,
+			"chinese": 0.29,
+			"indian": 0.36,
+			"mixed": 1.15,
+			"other": 0.12,
+			"otherasian": 0.37,
+			"pakistani": 0.07,
+			"white": 97.09
+		}
 	},
 	"elections": {
 		"2019-12-12": {

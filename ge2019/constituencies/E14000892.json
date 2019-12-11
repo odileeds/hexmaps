@@ -3,9 +3,27 @@
 	"title": "Redditch",
 	"demographics": {
 		"2015UKIP": 16.18,
-		"leave": 61.42,
 		"age18-29": 15.07,
-		"withdegree": 11.13
+		"EUminus": 7.7,
+		"leave": 61.42,
+		"withdegree": 11.13,
+		"religion": {
+			"christian": 64.04,
+			"jewish": 0.06,
+			"muslim": 3.2
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.21,
+			"black": 0.96,
+			"chinese": 0.24,
+			"indian": 0.82,
+			"mixed": 1.9,
+			"other": 0.13,
+			"otherasian": 0.37,
+			"pakistani": 2.88,
+			"white": 92.41
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Thurrock",
 	"demographics": {
 		"2015UKIP": 31.71,
-		"leave": 70.26,
 		"age18-29": 16.28,
-		"withdegree": 10.1
+		"EUminus": 9.41,
+		"leave": 70.26,
+		"withdegree": 10.1,
+		"religion": {
+			"christian": 62.16,
+			"jewish": 0.16,
+			"muslim": 2.47
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.51,
+			"black": 9.95,
+			"chinese": 0.63,
+			"indian": 1.77,
+			"mixed": 2.22,
+			"other": 0.51,
+			"otherasian": 1.31,
+			"pakistani": 0.42,
+			"white": 82.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

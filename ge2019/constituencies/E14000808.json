@@ -3,9 +3,27 @@
 	"title": "Manchester, Gorton",
 	"demographics": {
 		"2015UKIP": 8.17,
-		"leave": 37.9,
 		"age18-29": 30.2,
-		"withdegree": 20.85
+		"EUminus": 11.18,
+		"leave": 37.9,
+		"withdegree": 20.85,
+		"religion": {
+			"christian": 39.38,
+			"jewish": 0.28,
+			"muslim": 28.79
+		},
+		"race": {
+			"arab": 2.24,
+			"bangladeshi": 3.64,
+			"black": 9.76,
+			"chinese": 1.85,
+			"indian": 2.56,
+			"mixed": 4.93,
+			"other": 1.44,
+			"otherasian": 2.59,
+			"pakistani": 18.55,
+			"white": 52.42
+		}
 	},
 	"elections": {
 		"2019-12-12": {

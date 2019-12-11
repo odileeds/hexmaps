@@ -3,9 +3,27 @@
 	"title": "Harrogate and Knaresborough",
 	"demographics": {
 		"2015UKIP": 10.64,
-		"leave": 47.22,
 		"age18-29": 12.47,
-		"withdegree": 21.7
+		"EUminus": 7.54,
+		"leave": 47.22,
+		"withdegree": 21.7,
+		"religion": {
+			"christian": 66.83,
+			"jewish": 0.22,
+			"muslim": 0.45
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.06,
+			"black": 0.9,
+			"chinese": 0.6,
+			"indian": 0.5,
+			"mixed": 1.25,
+			"other": 0.22,
+			"otherasian": 0.61,
+			"pakistani": 0.09,
+			"white": 95.7
+		}
 	},
 	"elections": {
 		"2019-12-12": {

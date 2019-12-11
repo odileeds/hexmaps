@@ -3,9 +3,27 @@
 	"title": "Ealing, Southall",
 	"demographics": {
 		"2015UKIP": 4.08,
-		"leave": 41.83,
 		"age18-29": 20.07,
-		"withdegree": 24.01
+		"EUminus": 15.64,
+		"leave": 41.83,
+		"withdegree": 24.01,
+		"religion": {
+			"christian": 29.3,
+			"jewish": 0.2,
+			"muslim": 18.83
+		},
+		"race": {
+			"arab": 1.11,
+			"bangladeshi": 0.71,
+			"black": 10.5,
+			"chinese": 0.68,
+			"indian": 29.58,
+			"mixed": 3.4,
+			"other": 3.81,
+			"otherasian": 11.7,
+			"pakistani": 8.07,
+			"white": 30.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

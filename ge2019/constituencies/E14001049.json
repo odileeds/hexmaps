@@ -3,9 +3,27 @@
 	"title": "Wolverhampton North East",
 	"demographics": {
 		"2015UKIP": 19.19,
-		"leave": 67.71,
 		"age18-29": 17.04,
-		"withdegree": 7.77
+		"EUminus": 5.92,
+		"leave": 67.71,
+		"withdegree": 7.77,
+		"religion": {
+			"christian": 61.41,
+			"jewish": 0.02,
+			"muslim": 2.07
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.15,
+			"black": 7.77,
+			"chinese": 0.44,
+			"indian": 6.47,
+			"mixed": 5.5,
+			"other": 1,
+			"otherasian": 1.76,
+			"pakistani": 0.48,
+			"white": 76.31
+		}
 	},
 	"elections": {
 		"2019-12-12": {

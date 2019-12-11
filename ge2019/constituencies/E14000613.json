@@ -3,9 +3,27 @@
 	"title": "Bury St Edmunds",
 	"demographics": {
 		"2015UKIP": 14.73,
-		"leave": 53.74,
 		"age18-29": 14.17,
-		"withdegree": 14.32
+		"EUminus": 5.94,
+		"leave": 53.74,
+		"withdegree": 14.32,
+		"religion": {
+			"christian": 62.83,
+			"jewish": 0.08,
+			"muslim": 0.34
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.08,
+			"black": 0.53,
+			"chinese": 0.26,
+			"indian": 0.42,
+			"mixed": 1.22,
+			"other": 0.15,
+			"otherasian": 0.48,
+			"pakistani": 0.06,
+			"white": 96.77
+		}
 	},
 	"elections": {
 		"2019-12-12": {

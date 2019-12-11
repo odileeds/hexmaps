@@ -3,9 +3,27 @@
 	"title": "Jarrow",
 	"demographics": {
 		"2015UKIP": 19.66,
-		"leave": 61.62,
 		"age18-29": 14.35,
-		"withdegree": 10.07
+		"EUminus": 1.53,
+		"leave": 61.62,
+		"withdegree": 10.07,
+		"religion": {
+			"christian": 73.15,
+			"jewish": 0.06,
+			"muslim": 0.7
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.27,
+			"black": 0.19,
+			"chinese": 0.2,
+			"indian": 0.38,
+			"mixed": 0.62,
+			"other": 0.18,
+			"otherasian": 0.31,
+			"pakistani": 0.14,
+			"white": 97.58
+		}
 	},
 	"elections": {
 		"2019-12-12": {

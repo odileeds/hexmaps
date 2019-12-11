@@ -3,9 +3,27 @@
 	"title": "Weston-Super-Mare",
 	"demographics": {
 		"2015UKIP": 17.82,
-		"leave": 56.66,
 		"age18-29": 13.21,
-		"withdegree": 10.91
+		"EUminus": 6.58,
+		"leave": 56.66,
+		"withdegree": 10.91,
+		"religion": {
+			"christian": 59.59,
+			"jewish": 0.09,
+			"muslim": 0.54
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.2,
+			"black": 0.44,
+			"chinese": 0.38,
+			"indian": 0.48,
+			"mixed": 1.05,
+			"other": 0.17,
+			"otherasian": 0.31,
+			"pakistani": 0.04,
+			"white": 96.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

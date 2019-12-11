@@ -3,9 +3,27 @@
 	"title": "Vale of Clwyd",
 	"demographics": {
 		"2015UKIP": 12.98,
-		"leave": 55.94,
 		"age18-29": 13.22,
-		"withdegree": 10.19
+		"EUminus": 3.03,
+		"leave": 55.94,
+		"withdegree": 10.19,
+		"religion": {
+			"christian": 63.96,
+			"jewish": 0.04,
+			"muslim": 0.56
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.15,
+			"black": 0.2,
+			"chinese": 0.32,
+			"indian": 0.29,
+			"mixed": 0.79,
+			"other": 0.1,
+			"otherasian": 0.74,
+			"pakistani": 0.2,
+			"white": 97.15
+		}
 	},
 	"elections": {
 		"2019-12-12": {

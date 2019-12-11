@@ -3,9 +3,27 @@
 	"title": "Sutton and Cheam",
 	"demographics": {
 		"2015UKIP": 10.7,
-		"leave": 51.27,
 		"age18-29": 14.26,
-		"withdegree": 21.55
+		"EUminus": 11.04,
+		"leave": 51.27,
+		"withdegree": 21.55,
+		"religion": {
+			"christian": 58.3,
+			"jewish": 0.34,
+			"muslim": 4.55
+		},
+		"race": {
+			"arab": 0.69,
+			"bangladeshi": 0.64,
+			"black": 3.47,
+			"chinese": 1.42,
+			"indian": 3.95,
+			"mixed": 3.49,
+			"other": 0.8,
+			"otherasian": 5.43,
+			"pakistani": 1.5,
+			"white": 78.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

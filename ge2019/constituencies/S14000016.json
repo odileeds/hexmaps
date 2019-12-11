@@ -2,8 +2,26 @@
 	"id": "S14000016",
 	"title": "Dundee West",
 	"demographics": {
+		"age18-29": 25.84,
+		"EUminus": 8.02,
 		"leave": 41.15,
-		"age18-29": 25.84
+		"religion": {
+			"christian": 48.83,
+			"jewish": 0.05,
+			"muslim": 2.83
+		},
+		"race": {
+			"arab": 0.57,
+			"bangladeshi": 0.23,
+			"black": ,
+			"chinese": 1.07,
+			"indian": 1.21,
+			"mixed": 0,
+			"other": 0.13,
+			"otherasian": 0.69,
+			"pakistani": 1.3,
+			"white": 93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

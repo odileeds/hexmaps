@@ -3,9 +3,27 @@
 	"title": "Broadland",
 	"demographics": {
 		"2015UKIP": 16.73,
-		"leave": 54.06,
 		"age18-29": 10.5,
-		"withdegree": 11.6
+		"EUminus": 3.17,
+		"leave": 54.06,
+		"withdegree": 11.6,
+		"religion": {
+			"christian": 64.71,
+			"jewish": 0.09,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.04,
+			"black": 0.21,
+			"chinese": 0.17,
+			"indian": 0.21,
+			"mixed": 0.73,
+			"other": 0.07,
+			"otherasian": 0.28,
+			"pakistani": 0.03,
+			"white": 98.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

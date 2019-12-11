@@ -3,9 +3,27 @@
 	"title": "Sedgefield",
 	"demographics": {
 		"2015UKIP": 16.6,
-		"leave": 58.95,
 		"age18-29": 13,
-		"withdegree": 10.14
+		"EUminus": 2.58,
+		"leave": 58.95,
+		"withdegree": 10.14,
+		"religion": {
+			"christian": 72.74,
+			"jewish": 0.04,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.05,
+			"black": 0.11,
+			"chinese": 0.17,
+			"indian": 0.16,
+			"mixed": 0.59,
+			"other": 0.05,
+			"otherasian": 0.17,
+			"pakistani": 0.03,
+			"white": 98.62
+		}
 	},
 	"elections": {
 		"2019-12-12": {

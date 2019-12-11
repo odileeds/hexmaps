@@ -3,9 +3,27 @@
 	"title": "Bradford South",
 	"demographics": {
 		"2015UKIP": 24.09,
-		"leave": 63.56,
 		"age18-29": 16.23,
-		"withdegree": 8.99
+		"EUminus": 5.72,
+		"leave": 63.56,
+		"withdegree": 8.99,
+		"religion": {
+			"christian": 53.08,
+			"jewish": 0.02,
+			"muslim": 12.31
+		},
+		"race": {
+			"arab": 0.57,
+			"bangladeshi": 0.31,
+			"black": 2.05,
+			"chinese": 0.34,
+			"indian": 3.05,
+			"mixed": 3.28,
+			"other": 0.55,
+			"otherasian": 0.87,
+			"pakistani": 10.13,
+			"white": 78.86
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Garston and Halewood",
 	"demographics": {
 		"2015UKIP": 9.15,
-		"leave": 47.88,
 		"age18-29": 15.5,
-		"withdegree": 13.67
+		"EUminus": 3.71,
+		"leave": 47.88,
+		"withdegree": 13.67,
+		"religion": {
+			"christian": 76.51,
+			"jewish": 0.62,
+			"muslim": 0.9
+		},
+		"race": {
+			"arab": 0.25,
+			"bangladeshi": 0.08,
+			"black": 0.9,
+			"chinese": 0.92,
+			"indian": 0.67,
+			"mixed": 1.96,
+			"other": 0.2,
+			"otherasian": 0.31,
+			"pakistani": 0.24,
+			"white": 94.47
+		}
 	},
 	"elections": {
 		"2019-12-12": {

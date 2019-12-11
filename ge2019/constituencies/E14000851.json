@@ -3,9 +3,27 @@
 	"title": "North Swindon",
 	"demographics": {
 		"2015UKIP": 15.33,
-		"leave": 57.44,
 		"age18-29": 14.89,
-		"withdegree": 10.79
+		"EUminus": 6.69,
+		"leave": 57.44,
+		"withdegree": 10.79,
+		"religion": {
+			"christian": 58.4,
+			"jewish": 0.07,
+			"muslim": 0.99
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.17,
+			"black": 1.13,
+			"chinese": 0.37,
+			"indian": 1.71,
+			"mixed": 1.78,
+			"other": 0.25,
+			"otherasian": 0.97,
+			"pakistani": 0.41,
+			"white": 93.15
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Coventry North East",
 	"demographics": {
 		"2015UKIP": 14.87,
-		"leave": 59.23,
 		"age18-29": 18.61,
-		"withdegree": 11.91
+		"EUminus": 11.88,
+		"leave": 59.23,
+		"withdegree": 11.91,
+		"religion": {
+			"christian": 51.68,
+			"jewish": 0.04,
+			"muslim": 10.8
+		},
+		"race": {
+			"arab": 0.65,
+			"bangladeshi": 1.07,
+			"black": 7.36,
+			"chinese": 0.41,
+			"indian": 10.96,
+			"mixed": 3,
+			"other": 1.31,
+			"otherasian": 3.08,
+			"pakistani": 5.11,
+			"white": 67.04
+		}
 	},
 	"elections": {
 		"2019-12-12": {

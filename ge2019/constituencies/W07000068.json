@@ -3,9 +3,27 @@
 	"title": "Brecon and Radnorshire",
 	"demographics": {
 		"2015UKIP": 8.33,
-		"leave": 51.72,
 		"age18-29": 11.03,
-		"withdegree": 15
+		"EUminus": 3.5,
+		"leave": 51.72,
+		"withdegree": 15,
+		"religion": {
+			"christian": 61.62,
+			"jewish": 0.07,
+			"muslim": 0.17
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.04,
+			"black": 0.1,
+			"chinese": 0.18,
+			"indian": 0.13,
+			"mixed": 0.59,
+			"other": 0.08,
+			"otherasian": 0.9,
+			"pakistani": 0.01,
+			"white": 97.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

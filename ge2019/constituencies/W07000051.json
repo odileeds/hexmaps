@@ -3,9 +3,27 @@
 	"title": "Cardiff North",
 	"demographics": {
 		"2015UKIP": 7.73,
-		"leave": 39.08,
 		"age18-29": 17.6,
-		"withdegree": 25.94
+		"EUminus": 4.81,
+		"leave": 39.08,
+		"withdegree": 25.94,
+		"religion": {
+			"christian": 58.81,
+			"jewish": 0.19,
+			"muslim": 3.01
+		},
+		"race": {
+			"arab": 0.82,
+			"bangladeshi": 0.56,
+			"black": 0.84,
+			"chinese": 0.81,
+			"indian": 1.89,
+			"mixed": 1.98,
+			"other": 0.41,
+			"otherasian": 1.06,
+			"pakistani": 0.77,
+			"white": 90.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

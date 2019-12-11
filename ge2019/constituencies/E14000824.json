@@ -3,9 +3,27 @@
 	"title": "Mole Valley",
 	"demographics": {
 		"2015UKIP": 11.21,
-		"leave": 47.59,
 		"age18-29": 10.26,
-		"withdegree": 25.33
+		"EUminus": 6.48,
+		"leave": 47.59,
+		"withdegree": 25.33,
+		"religion": {
+			"christian": 64.88,
+			"jewish": 0.24,
+			"muslim": 0.73
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.21,
+			"black": 0.44,
+			"chinese": 0.36,
+			"indian": 0.67,
+			"mixed": 1.4,
+			"other": 0.24,
+			"otherasian": 0.8,
+			"pakistani": 0.15,
+			"white": 95.55
+		}
 	},
 	"elections": {
 		"2019-12-12": {

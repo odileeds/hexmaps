@@ -3,9 +3,27 @@
 	"title": "Torbay",
 	"demographics": {
 		"2015UKIP": 13.6,
-		"leave": 62.66,
 		"age18-29": 13.04,
-		"withdegree": 9.57
+		"EUminus": 5.61,
+		"leave": 62.66,
+		"withdegree": 9.57,
+		"religion": {
+			"christian": 62.93,
+			"jewish": 0.09,
+			"muslim": 0.47
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.09,
+			"black": 0.22,
+			"chinese": 0.23,
+			"indian": 0.37,
+			"mixed": 1.16,
+			"other": 0.11,
+			"otherasian": 0.48,
+			"pakistani": 0.07,
+			"white": 97.16
+		}
 	},
 	"elections": {
 		"2019-12-12": {

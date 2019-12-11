@@ -3,9 +3,27 @@
 	"title": "Gravesham",
 	"demographics": {
 		"2015UKIP": 18.56,
-		"leave": 65.38,
 		"age18-29": 15.33,
-		"withdegree": 10.68
+		"EUminus": 10.07,
+		"leave": 65.38,
+		"withdegree": 10.68,
+		"religion": {
+			"christian": 60.84,
+			"jewish": 0.05,
+			"muslim": 1.86
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.47,
+			"black": 2.84,
+			"chinese": 0.32,
+			"indian": 7.41,
+			"mixed": 2.03,
+			"other": 1.81,
+			"otherasian": 1.68,
+			"pakistani": 0.54,
+			"white": 82.8
+		}
 	},
 	"elections": {
 		"2019-12-12": {

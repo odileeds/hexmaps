@@ -3,9 +3,27 @@
 	"title": "Scunthorpe",
 	"demographics": {
 		"2015UKIP": 17.13,
-		"leave": 69.09,
 		"age18-29": 15.8,
-		"withdegree": 7.86
+		"EUminus": 10.62,
+		"leave": 69.09,
+		"withdegree": 7.86,
+		"religion": {
+			"christian": 62.76,
+			"jewish": 0.03,
+			"muslim": 3.13
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 1.57,
+			"black": 0.44,
+			"chinese": 0.39,
+			"indian": 1.03,
+			"mixed": 0.88,
+			"other": 0.21,
+			"otherasian": 0.52,
+			"pakistani": 0.85,
+			"white": 93.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

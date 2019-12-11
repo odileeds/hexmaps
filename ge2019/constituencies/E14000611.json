@@ -3,9 +3,27 @@
 	"title": "Bury North",
 	"demographics": {
 		"2015UKIP": 12.37,
-		"leave": 53.66,
 		"age18-29": 14.23,
-		"withdegree": 15.14
+		"EUminus": 4.43,
+		"leave": 53.66,
+		"withdegree": 15.14,
+		"religion": {
+			"christian": 66.44,
+			"jewish": 0.38,
+			"muslim": 8.18
+		},
+		"race": {
+			"arab": 0.23,
+			"bangladeshi": 0.2,
+			"black": 0.8,
+			"chinese": 0.45,
+			"indian": 0.5,
+			"mixed": 1.64,
+			"other": 0.25,
+			"otherasian": 0.9,
+			"pakistani": 6.92,
+			"white": 88.1
+		}
 	},
 	"elections": {
 		"2019-12-12": {

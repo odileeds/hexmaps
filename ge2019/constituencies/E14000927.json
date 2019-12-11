@@ -3,9 +3,27 @@
 	"title": "Sittingbourne and Sheppey",
 	"demographics": {
 		"2015UKIP": 24.82,
-		"leave": 65.76,
 		"age18-29": 14.56,
-		"withdegree": 7.56
+		"EUminus": 5.32,
+		"leave": 65.76,
+		"withdegree": 7.56,
+		"religion": {
+			"christian": 62.84,
+			"jewish": 0.06,
+			"muslim": 0.63
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.18,
+			"black": 1.24,
+			"chinese": 0.18,
+			"indian": 0.45,
+			"mixed": 1.21,
+			"other": 0.13,
+			"otherasian": 0.31,
+			"pakistani": 0.1,
+			"white": 96.2
+		}
 	},
 	"elections": {
 		"2019-12-12": {

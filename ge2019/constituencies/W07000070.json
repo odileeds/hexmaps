@@ -3,9 +3,27 @@
 	"title": "Cynon Valley",
 	"demographics": {
 		"2015UKIP": 16.33,
-		"leave": 56.96,
 		"age18-29": 15.4,
-		"withdegree": 8.73
+		"EUminus": 2.02,
+		"leave": 56.96,
+		"withdegree": 8.73,
+		"religion": {
+			"christian": 54.46,
+			"jewish": 0.02,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.03,
+			"black": 0.4,
+			"chinese": 0.36,
+			"indian": 0.2,
+			"mixed": 0.58,
+			"other": 0.08,
+			"otherasian": 0.34,
+			"pakistani": 0.12,
+			"white": 97.86
+		}
 	},
 	"elections": {
 		"2019-12-12": {

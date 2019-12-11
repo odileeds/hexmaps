@@ -3,9 +3,27 @@
 	"title": "Brent Central",
 	"demographics": {
 		"2015UKIP": 3.93,
-		"leave": 42.92,
 		"age18-29": 21.28,
-		"withdegree": 22.71
+		"EUminus": 29.35,
+		"leave": 42.92,
+		"withdegree": 22.71,
+		"religion": {
+			"christian": 48.12,
+			"jewish": 0.87,
+			"muslim": 21.24
+		},
+		"race": {
+			"arab": 3.8,
+			"bangladeshi": 0.56,
+			"black": 25.53,
+			"chinese": 0.85,
+			"indian": 10.01,
+			"mixed": 5.88,
+			"other": 2.24,
+			"otherasian": 7.59,
+			"pakistani": 4.77,
+			"white": 38.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

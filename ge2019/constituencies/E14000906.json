@@ -3,9 +3,27 @@
 	"title": "Ruislip, Northwood and Pinner",
 	"demographics": {
 		"2015UKIP": 10.93,
-		"leave": 49.02,
 		"age18-29": 12.64,
-		"withdegree": 27.25
+		"EUminus": 10.28,
+		"leave": 49.02,
+		"withdegree": 27.25,
+		"religion": {
+			"christian": 52.22,
+			"jewish": 3.71,
+			"muslim": 5.62
+		},
+		"race": {
+			"arab": 0.64,
+			"bangladeshi": 0.29,
+			"black": 2.84,
+			"chinese": 1.04,
+			"indian": 14.16,
+			"mixed": 3.39,
+			"other": 0.95,
+			"otherasian": 4.59,
+			"pakistani": 1.67,
+			"white": 70.43
+		}
 	},
 	"elections": {
 		"2019-12-12": {

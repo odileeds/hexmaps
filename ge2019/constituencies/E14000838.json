@@ -3,9 +3,27 @@
 	"title": "North Devon",
 	"demographics": {
 		"2015UKIP": 14.75,
-		"leave": 57.04,
 		"age18-29": 12.23,
-		"withdegree": 11.47
+		"EUminus": 3.89,
+		"leave": 57.04,
+		"withdegree": 11.47,
+		"religion": {
+			"christian": 61.31,
+			"jewish": 0.06,
+			"muslim": 0.3
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.08,
+			"black": 0.17,
+			"chinese": 0.16,
+			"indian": 0.23,
+			"mixed": 0.84,
+			"other": 0.09,
+			"otherasian": 0.34,
+			"pakistani": 0.07,
+			"white": 97.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

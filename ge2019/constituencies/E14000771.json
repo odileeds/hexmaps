@@ -3,9 +3,27 @@
 	"title": "Kingston upon Hull East",
 	"demographics": {
 		"2015UKIP": 22.37,
-		"leave": 72.63,
 		"age18-29": 16.9,
-		"withdegree": 5.54
+		"EUminus": 3.93,
+		"leave": 72.63,
+		"withdegree": 5.54,
+		"religion": {
+			"christian": 56.86,
+			"jewish": 0.05,
+			"muslim": 0.73
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.08,
+			"black": 0.48,
+			"chinese": 0.27,
+			"indian": 0.32,
+			"mixed": 0.85,
+			"other": 0.14,
+			"otherasian": 0.23,
+			"pakistani": 0.16,
+			"white": 97.31
+		}
 	},
 	"elections": {
 		"2019-12-12": {

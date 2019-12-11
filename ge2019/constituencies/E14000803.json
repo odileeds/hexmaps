@@ -3,9 +3,27 @@
 	"title": "Maidenhead",
 	"demographics": {
 		"2015UKIP": 8.43,
-		"leave": 45.41,
 		"age18-29": 11.91,
-		"withdegree": 27.46
+		"EUminus": 9.55,
+		"leave": 45.41,
+		"withdegree": 27.46,
+		"religion": {
+			"christian": 61.29,
+			"jewish": 0.34,
+			"muslim": 4.35
+		},
+		"race": {
+			"arab": 0.22,
+			"bangladeshi": 0.22,
+			"black": 0.91,
+			"chinese": 0.6,
+			"indian": 3.7,
+			"mixed": 1.97,
+			"other": 0.46,
+			"otherasian": 1.27,
+			"pakistani": 3.61,
+			"white": 87.02
+		}
 	},
 	"elections": {
 		"2019-12-12": {

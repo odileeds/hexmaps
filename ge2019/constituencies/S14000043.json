@@ -3,8 +3,26 @@
 	"title": "Linlithgow and East Falkirk",
 	"demographics": {
 		"2015UKIP": 2.73,
+		"age18-29": 14.31,
+		"EUminus": 4.87,
 		"leave": 41.61,
-		"age18-29": 14.31
+		"religion": {
+			"christian": 53.26,
+			"jewish": 0.04,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.13,
+			"indian": 0.17,
+			"mixed": 0,
+			"other": 0.05,
+			"otherasian": 0.15,
+			"pakistani": 0.5,
+			"white": 98.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

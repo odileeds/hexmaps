@@ -3,8 +3,26 @@
 	"title": "East Dunbartonshire",
 	"demographics": {
 		"2015UKIP": 1.03,
+		"age18-29": 11.58,
+		"EUminus": 2.09,
 		"leave": 26.7,
-		"age18-29": 11.58
+		"religion": {
+			"christian": 62.36,
+			"jewish": 0.07,
+			"muslim": 1.2
+		},
+		"race": {
+			"arab": 0.2,
+			"bangladeshi": 0.05,
+			"black": ,
+			"chinese": 0.77,
+			"indian": 1.85,
+			"mixed": 0,
+			"other": 0.15,
+			"otherasian": 0.41,
+			"pakistani": 0.86,
+			"white": 95.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

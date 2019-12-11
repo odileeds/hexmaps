@@ -3,9 +3,27 @@
 	"title": "South Northamptonshire",
 	"demographics": {
 		"2015UKIP": 13.48,
-		"leave": 52.67,
 		"age18-29": 11.37,
-		"withdegree": 18.97
+		"EUminus": 4.91,
+		"leave": 52.67,
+		"withdegree": 18.97,
+		"religion": {
+			"christian": 63.43,
+			"jewish": 0.14,
+			"muslim": 0.8
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.14,
+			"black": 1.07,
+			"chinese": 0.37,
+			"indian": 1.44,
+			"mixed": 1.62,
+			"other": 0.18,
+			"otherasian": 0.41,
+			"pakistani": 0.22,
+			"white": 94.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Warrington South",
 	"demographics": {
 		"2015UKIP": 8.27,
-		"leave": 50.62,
 		"age18-29": 13.39,
-		"withdegree": 19.1
+		"EUminus": 4.68,
+		"leave": 50.62,
+		"withdegree": 19.1,
+		"religion": {
+			"christian": 71.28,
+			"jewish": 0.08,
+			"muslim": 1.22
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.07,
+			"black": 0.31,
+			"chinese": 0.43,
+			"indian": 1.16,
+			"mixed": 1.02,
+			"other": 0.12,
+			"otherasian": 0.56,
+			"pakistani": 0.78,
+			"white": 95.42
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Birkenhead",
 	"demographics": {
 		"2015UKIP": 9.8,
-		"leave": 51.71,
 		"age18-29": 15.69,
-		"withdegree": 10.87
+		"EUminus": 3.33,
+		"leave": 51.71,
+		"withdegree": 10.87,
+		"religion": {
+			"christian": 68.27,
+			"jewish": 0.08,
+			"muslim": 1.01
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.67,
+			"black": 0.23,
+			"chinese": 0.79,
+			"indian": 0.66,
+			"mixed": 1.21,
+			"other": 0.11,
+			"otherasian": 0.35,
+			"pakistani": 0.09,
+			"white": 95.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

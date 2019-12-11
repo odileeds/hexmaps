@@ -3,9 +3,27 @@
 	"title": "Buckingham",
 	"demographics": {
 		"2015UKIP": 21.74,
-		"leave": 48.65,
 		"age18-29": 10.49,
-		"withdegree": 22.67
+		"EUminus": 4.68,
+		"leave": 48.65,
+		"withdegree": 22.67,
+		"religion": {
+			"christian": 66.14,
+			"jewish": 0.22,
+			"muslim": 0.83
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.09,
+			"black": 0.84,
+			"chinese": 0.31,
+			"indian": 0.49,
+			"mixed": 1.44,
+			"other": 0.14,
+			"otherasian": 0.49,
+			"pakistani": 0.37,
+			"white": 95.7
+		}
 	},
 	"elections": {
 		"2019-12-12": {

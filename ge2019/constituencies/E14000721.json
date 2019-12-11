@@ -3,9 +3,27 @@
 	"title": "Hackney South and Shoreditch",
 	"demographics": {
 		"2015UKIP": 3.82,
-		"leave": 22.18,
 		"age18-29": 25.99,
-		"withdegree": 35.53
+		"EUminus": 18.57,
+		"leave": 22.18,
+		"withdegree": 35.53,
+		"religion": {
+			"christian": 43.77,
+			"jewish": 0.88,
+			"muslim": 14.37
+		},
+		"race": {
+			"arab": 0.77,
+			"bangladeshi": 2.76,
+			"black": 26.88,
+			"chinese": 1.79,
+			"indian": 1.95,
+			"mixed": 6.85,
+			"other": 3.81,
+			"otherasian": 3.21,
+			"pakistani": 0.65,
+			"white": 51.33
+		}
 	},
 	"elections": {
 		"2019-12-12": {

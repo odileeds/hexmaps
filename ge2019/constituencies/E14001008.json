@@ -3,9 +3,27 @@
 	"title": "Vauxhall",
 	"demographics": {
 		"2015UKIP": 2.89,
-		"leave": 22.43,
 		"age18-29": 29.36,
-		"withdegree": 42.81
+		"EUminus": 24.7,
+		"leave": 22.43,
+		"withdegree": 42.81,
+		"religion": {
+			"christian": 53.02,
+			"jewish": 0.39,
+			"muslim": 6.67
+		},
+		"race": {
+			"arab": 0.68,
+			"bangladeshi": 0.77,
+			"black": 24.7,
+			"chinese": 2.39,
+			"indian": 1.22,
+			"mixed": 7.1,
+			"other": 2.03,
+			"otherasian": 2.23,
+			"pakistani": 0.44,
+			"white": 58.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

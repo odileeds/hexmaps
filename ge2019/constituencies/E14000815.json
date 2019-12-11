@@ -3,9 +3,27 @@
 	"title": "Mid Dorset and North Poole",
 	"demographics": {
 		"2015UKIP": 12.18,
-		"leave": 57.93,
 		"age18-29": 11.31,
-		"withdegree": 13.7
+		"EUminus": 4.07,
+		"leave": 57.93,
+		"withdegree": 13.7,
+		"religion": {
+			"christian": 63.69,
+			"jewish": 0.11,
+			"muslim": 0.27
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.12,
+			"black": 0.14,
+			"chinese": 0.25,
+			"indian": 0.22,
+			"mixed": 0.85,
+			"other": 0.08,
+			"otherasian": 0.27,
+			"pakistani": 0.05,
+			"white": 98.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

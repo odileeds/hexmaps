@@ -3,9 +3,27 @@
 	"title": "Bermondsey and Old Southwark",
 	"demographics": {
 		"2015UKIP": 6.33,
-		"leave": 27,
 		"age18-29": 30.32,
-		"withdegree": 38.63
+		"EUminus": 22.5,
+		"leave": 27,
+		"withdegree": 38.63,
+		"religion": {
+			"christian": 51.26,
+			"jewish": 0.4,
+			"muslim": 8.54
+		},
+		"race": {
+			"arab": 1.07,
+			"bangladeshi": 1.69,
+			"black": 20.15,
+			"chinese": 4.06,
+			"indian": 2.74,
+			"mixed": 5.74,
+			"other": 2.48,
+			"otherasian": 3.07,
+			"pakistani": 0.55,
+			"white": 58.45
+		}
 	},
 	"elections": {
 		"2019-12-12": {

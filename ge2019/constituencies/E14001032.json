@@ -3,9 +3,27 @@
 	"title": "West Ham",
 	"demographics": {
 		"2015UKIP": 7.48,
-		"leave": 47.38,
 		"age18-29": 27.13,
-		"withdegree": 23.27
+		"EUminus": 26.1,
+		"leave": 47.38,
+		"withdegree": 23.27,
+		"religion": {
+			"christian": 46.17,
+			"jewish": 0.12,
+			"muslim": 26.84
+		},
+		"race": {
+			"arab": 1.24,
+			"bangladeshi": 11.17,
+			"black": 23.07,
+			"chinese": 1.55,
+			"indian": 9.36,
+			"mixed": 5.14,
+			"other": 2.32,
+			"otherasian": 5.01,
+			"pakistani": 6.6,
+			"white": 34.54
+		}
 	},
 	"elections": {
 		"2019-12-12": {

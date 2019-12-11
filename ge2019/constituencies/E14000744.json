@@ -3,9 +3,27 @@
 	"title": "Hertford and Stortford",
 	"demographics": {
 		"2015UKIP": 13.39,
-		"leave": 49.21,
 		"age18-29": 12.68,
-		"withdegree": 22.39
+		"EUminus": 7.57,
+		"leave": 49.21,
+		"withdegree": 22.39,
+		"religion": {
+			"christian": 61.72,
+			"jewish": 0.3,
+			"muslim": 0.83
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.22,
+			"black": 0.83,
+			"chinese": 0.42,
+			"indian": 0.85,
+			"mixed": 1.74,
+			"other": 0.17,
+			"otherasian": 0.57,
+			"pakistani": 0.18,
+			"white": 94.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

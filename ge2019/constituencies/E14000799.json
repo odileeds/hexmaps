@@ -3,9 +3,27 @@
 	"title": "Ludlow",
 	"demographics": {
 		"2015UKIP": 14.91,
-		"leave": 58.58,
 		"age18-29": 10.66,
-		"withdegree": 15.86
+		"EUminus": 3.05,
+		"leave": 58.58,
+		"withdegree": 15.86,
+		"religion": {
+			"christian": 69.83,
+			"jewish": 0.05,
+			"muslim": 0.24
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.02,
+			"black": 0.12,
+			"chinese": 0.18,
+			"indian": 0.14,
+			"mixed": 0.56,
+			"other": 0.06,
+			"otherasian": 0.15,
+			"pakistani": 0.07,
+			"white": 98.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

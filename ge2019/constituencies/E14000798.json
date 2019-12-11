@@ -3,9 +3,27 @@
 	"title": "Louth and Horncastle",
 	"demographics": {
 		"2015UKIP": 21.41,
-		"leave": 69.43,
 		"age18-29": 10.84,
-		"withdegree": 8.65
+		"EUminus": 3.02,
+		"leave": 69.43,
+		"withdegree": 8.65,
+		"religion": {
+			"christian": 68.55,
+			"jewish": 0.05,
+			"muslim": 0.23
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.04,
+			"black": 0.15,
+			"chinese": 0.12,
+			"indian": 0.16,
+			"mixed": 0.63,
+			"other": 0.04,
+			"otherasian": 0.14,
+			"pakistani": 0.04,
+			"white": 98.67
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bristol South",
 	"demographics": {
 		"2015UKIP": 16.48,
-		"leave": 47.95,
 		"age18-29": 18.41,
-		"withdegree": 17.27
+		"EUminus": 7.59,
+		"leave": 47.95,
+		"withdegree": 17.27,
+		"religion": {
+			"christian": 48.96,
+			"jewish": 0.1,
+			"muslim": 1.58
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.15,
+			"black": 1.83,
+			"chinese": 0.33,
+			"indian": 0.55,
+			"mixed": 2.77,
+			"other": 0.26,
+			"otherasian": 0.61,
+			"pakistani": 0.79,
+			"white": 92.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

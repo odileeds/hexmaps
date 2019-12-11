@@ -3,9 +3,27 @@
 	"title": "Colchester",
 	"demographics": {
 		"2015UKIP": 12.08,
-		"leave": 51.06,
 		"age18-29": 20.52,
-		"withdegree": 16.57
+		"EUminus": 9.88,
+		"leave": 51.06,
+		"withdegree": 16.57,
+		"religion": {
+			"christian": 54.37,
+			"jewish": 0.15,
+			"muslim": 2.04
+		},
+		"race": {
+			"arab": 0.72,
+			"bangladeshi": 0.3,
+			"black": 1.91,
+			"chinese": 0.98,
+			"indian": 1.04,
+			"mixed": 2.2,
+			"other": 0.52,
+			"otherasian": 1.95,
+			"pakistani": 0.28,
+			"white": 90.09
+		}
 	},
 	"elections": {
 		"2019-12-12": {

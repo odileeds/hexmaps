@@ -3,9 +3,27 @@
 	"title": "Bognor Regis and Littlehampton",
 	"demographics": {
 		"2015UKIP": 21.74,
-		"leave": 64.22,
 		"age18-29": 13.86,
-		"withdegree": 8.91
+		"EUminus": 11.57,
+		"leave": 64.22,
+		"withdegree": 8.91,
+		"religion": {
+			"christian": 64.2,
+			"jewish": 0.13,
+			"muslim": 0.66
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.33,
+			"black": 0.43,
+			"chinese": 0.31,
+			"indian": 0.4,
+			"mixed": 1.09,
+			"other": 0.14,
+			"otherasian": 0.57,
+			"pakistani": 0.09,
+			"white": 96.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

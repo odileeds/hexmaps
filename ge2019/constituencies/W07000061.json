@@ -3,9 +3,27 @@
 	"title": "Dwyfor Meirionnydd",
 	"demographics": {
 		"2015UKIP": 10.81,
-		"leave": 48.37,
 		"age18-29": 11.25,
-		"withdegree": 13.16
+		"EUminus": 2.57,
+		"leave": 48.37,
+		"withdegree": 13.16,
+		"religion": {
+			"christian": 63.31,
+			"jewish": 0.04,
+			"muslim": 0.33
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.06,
+			"black": 0.13,
+			"chinese": 0.11,
+			"indian": 0.13,
+			"mixed": 0.59,
+			"other": 0.04,
+			"otherasian": 0.15,
+			"pakistani": 0.05,
+			"white": 98.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Eltham",
 	"demographics": {
 		"2015UKIP": 15.02,
-		"leave": 51.82,
 		"age18-29": 16.65,
-		"withdegree": 19.23
+		"EUminus": 11.29,
+		"leave": 51.82,
+		"withdegree": 19.23,
+		"religion": {
+			"christian": 56.65,
+			"jewish": 0.19,
+			"muslim": 4.58
+		},
+		"race": {
+			"arab": 0.38,
+			"bangladeshi": 0.47,
+			"black": 9.87,
+			"chinese": 1.54,
+			"indian": 2.44,
+			"mixed": 3.86,
+			"other": 1.41,
+			"otherasian": 2.71,
+			"pakistani": 0.74,
+			"white": 76.58
+		}
 	},
 	"elections": {
 		"2019-12-12": {

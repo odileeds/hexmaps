@@ -3,8 +3,26 @@
 	"title": "Dumfries and Galloway",
 	"demographics": {
 		"2015UKIP": 2.3,
+		"age18-29": 12.33,
+		"EUminus": 3.51,
 		"leave": 45.39,
-		"age18-29": 12.33
+		"religion": {
+			"christian": 55.9,
+			"jewish": 0.03,
+			"muslim": 0.3
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.22,
+			"indian": 0.21,
+			"mixed": 0,
+			"other": 0.05,
+			"otherasian": 0.16,
+			"pakistani": 0.11,
+			"white": 98.73
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Brighton, Kemptown",
 	"demographics": {
 		"2015UKIP": 9.81,
-		"leave": 43.43,
 		"age18-29": 20.64,
-		"withdegree": 18.33
+		"EUminus": 9.46,
+		"leave": 43.43,
+		"withdegree": 18.33,
+		"religion": {
+			"christian": 49.2,
+			"jewish": 0.51,
+			"muslim": 1.86
+		},
+		"race": {
+			"arab": 0.62,
+			"bangladeshi": 0.44,
+			"black": 1.57,
+			"chinese": 0.99,
+			"indian": 1.08,
+			"mixed": 3.04,
+			"other": 0.48,
+			"otherasian": 1.17,
+			"pakistani": 0.19,
+			"white": 90.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

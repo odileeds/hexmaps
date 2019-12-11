@@ -3,8 +3,26 @@
 	"title": "Motherwell and Wishaw",
 	"demographics": {
 		"2015UKIP": 2.67,
+		"age18-29": 15.84,
+		"EUminus": 3.53,
 		"leave": 36.97,
-		"age18-29": 15.84
+		"religion": {
+			"christian": 68.53,
+			"jewish": 0.01,
+			"muslim": 1.28
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.29,
+			"indian": 0.3,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.15,
+			"pakistani": 1.22,
+			"white": 97.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

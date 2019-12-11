@@ -3,9 +3,27 @@
 	"title": "Macclesfield",
 	"demographics": {
 		"2015UKIP": 12.17,
-		"leave": 48.16,
 		"age18-29": 11.67,
-		"withdegree": 21.64
+		"EUminus": 3.69,
+		"leave": 48.16,
+		"withdegree": 21.64,
+		"religion": {
+			"christian": 67.59,
+			"jewish": 0.12,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.07,
+			"black": 0.3,
+			"chinese": 0.32,
+			"indian": 0.8,
+			"mixed": 0.91,
+			"other": 0.12,
+			"otherasian": 0.43,
+			"pakistani": 0.17,
+			"white": 96.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

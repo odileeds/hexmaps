@@ -3,9 +3,27 @@
 	"title": "York Central",
 	"demographics": {
 		"2015UKIP": 10.06,
-		"leave": 38.53,
 		"age18-29": 27.11,
-		"withdegree": 24.96
+		"EUminus": 9.14,
+		"leave": 38.53,
+		"withdegree": 24.96,
+		"religion": {
+			"christian": 54.01,
+			"jewish": 0.12,
+			"muslim": 1.31
+		},
+		"race": {
+			"arab": 0.34,
+			"bangladeshi": 0.26,
+			"black": 0.83,
+			"chinese": 1.39,
+			"indian": 0.99,
+			"mixed": 1.46,
+			"other": 0.34,
+			"otherasian": 1.39,
+			"pakistani": 0.26,
+			"white": 92.73
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Crewe and Nantwich",
 	"demographics": {
 		"2015UKIP": 14.53,
-		"leave": 59,
 		"age18-29": 15.71,
-		"withdegree": 13.23
+		"EUminus": 8.59,
+		"leave": 59,
+		"withdegree": 13.23,
+		"religion": {
+			"christian": 67.83,
+			"jewish": 0.04,
+			"muslim": 0.75
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.27,
+			"black": 0.63,
+			"chinese": 0.32,
+			"indian": 0.43,
+			"mixed": 1.28,
+			"other": 0.16,
+			"otherasian": 0.35,
+			"pakistani": 0.17,
+			"white": 96.33
+		}
 	},
 	"elections": {
 		"2019-12-12": {

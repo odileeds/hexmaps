@@ -3,9 +3,27 @@
 	"title": "Nuneaton",
 	"demographics": {
 		"2015UKIP": 14.39,
-		"leave": 64.75,
 		"age18-29": 14.92,
-		"withdegree": 9.76
+		"EUminus": 4.07,
+		"leave": 64.75,
+		"withdegree": 9.76,
+		"religion": {
+			"christian": 63.69,
+			"jewish": 0.01,
+			"muslim": 2.91
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.03,
+			"black": 0.76,
+			"chinese": 0.19,
+			"indian": 4.19,
+			"mixed": 1.06,
+			"other": 0.23,
+			"otherasian": 1.05,
+			"pakistani": 0.5,
+			"white": 91.92
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "North West Norfolk",
 	"demographics": {
 		"2015UKIP": 17.76,
-		"leave": 66.14,
 		"age18-29": 13.12,
-		"withdegree": 8.92
+		"EUminus": 10.35,
+		"leave": 66.14,
+		"withdegree": 8.92,
+		"religion": {
+			"christian": 66.22,
+			"jewish": 0.07,
+			"muslim": 0.39
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.03,
+			"black": 0.36,
+			"chinese": 0.33,
+			"indian": 0.61,
+			"mixed": 0.94,
+			"other": 0.12,
+			"otherasian": 0.5,
+			"pakistani": 0.11,
+			"white": 96.94
+		}
 	},
 	"elections": {
 		"2019-12-12": {

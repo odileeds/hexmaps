@@ -3,9 +3,27 @@
 	"title": "Kingston and Surbiton",
 	"demographics": {
 		"2015UKIP": 7.29,
-		"leave": 41.59,
 		"age18-29": 19.81,
-		"withdegree": 29.29
+		"EUminus": 14.16,
+		"leave": 41.59,
+		"withdegree": 29.29,
+		"religion": {
+			"christian": 53.57,
+			"jewish": 0.42,
+			"muslim": 5.48
+		},
+		"race": {
+			"arab": 1.22,
+			"bangladeshi": 0.54,
+			"black": 2.62,
+			"chinese": 1.75,
+			"indian": 3.79,
+			"mixed": 3.67,
+			"other": 1.17,
+			"otherasian": 8.37,
+			"pakistani": 1.94,
+			"white": 74.94
+		}
 	},
 	"elections": {
 		"2019-12-12": {

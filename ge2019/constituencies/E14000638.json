@@ -3,9 +3,27 @@
 	"title": "Christchurch",
 	"demographics": {
 		"2015UKIP": 21.45,
-		"leave": 59.87,
 		"age18-29": 9.51,
-		"withdegree": 11.26
+		"EUminus": 3.96,
+		"leave": 59.87,
+		"withdegree": 11.26,
+		"religion": {
+			"christian": 67.67,
+			"jewish": 0.22,
+			"muslim": 0.4
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.17,
+			"black": 0.17,
+			"chinese": 0.34,
+			"indian": 0.21,
+			"mixed": 0.86,
+			"other": 0.11,
+			"otherasian": 0.29,
+			"pakistani": 0.03,
+			"white": 97.79
+		}
 	},
 	"elections": {
 		"2019-12-12": {

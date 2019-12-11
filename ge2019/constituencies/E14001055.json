@@ -3,9 +3,27 @@
 	"title": "Worthing West",
 	"demographics": {
 		"2015UKIP": 18.26,
-		"leave": 56.12,
 		"age18-29": 11.84,
-		"withdegree": 12.25
+		"EUminus": 6.17,
+		"leave": 56.12,
+		"withdegree": 12.25,
+		"religion": {
+			"christian": 61.09,
+			"jewish": 0.24,
+			"muslim": 1.01
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.4,
+			"black": 0.67,
+			"chinese": 0.38,
+			"indian": 0.65,
+			"mixed": 1.47,
+			"other": 0.21,
+			"otherasian": 0.89,
+			"pakistani": 0.12,
+			"white": 95.08
+		}
 	},
 	"elections": {
 		"2019-12-12": {

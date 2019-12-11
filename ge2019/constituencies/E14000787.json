@@ -3,9 +3,27 @@
 	"title": "Lewisham East",
 	"demographics": {
 		"2015UKIP": 9.05,
-		"leave": 35.45,
 		"age18-29": 16.5,
-		"withdegree": 25.64
+		"EUminus": 13.98,
+		"leave": 35.45,
+		"withdegree": 25.64,
+		"religion": {
+			"christian": 56,
+			"jewish": 0.21,
+			"muslim": 6.07
+		},
+		"race": {
+			"arab": 0.41,
+			"bangladeshi": 0.53,
+			"black": 25.82,
+			"chinese": 1.43,
+			"indian": 1.6,
+			"mixed": 7.01,
+			"other": 2.29,
+			"otherasian": 4.65,
+			"pakistani": 0.54,
+			"white": 55.72
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Liverpool, West Derby",
 	"demographics": {
 		"2015UKIP": 8.47,
-		"leave": 50.28,
 		"age18-29": 16.37,
-		"withdegree": 9.31
+		"EUminus": 3.65,
+		"leave": 50.28,
+		"withdegree": 9.31,
+		"religion": {
+			"christian": 79.63,
+			"jewish": 0.07,
+			"muslim": 1
+		},
+		"race": {
+			"arab": 0.4,
+			"bangladeshi": 0.08,
+			"black": 1.39,
+			"chinese": 1,
+			"indian": 0.9,
+			"mixed": 1.33,
+			"other": 0.2,
+			"otherasian": 0.47,
+			"pakistani": 0.12,
+			"white": 94.09
+		}
 	},
 	"elections": {
 		"2019-12-12": {

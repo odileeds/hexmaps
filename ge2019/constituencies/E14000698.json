@@ -3,9 +3,27 @@
 	"title": "Exeter",
 	"demographics": {
 		"2015UKIP": 9.4,
-		"leave": 44.71,
 		"age18-29": 25.93,
-		"withdegree": 19.41
+		"EUminus": 7.97,
+		"leave": 44.71,
+		"withdegree": 19.41,
+		"religion": {
+			"christian": 52.85,
+			"jewish": 0.13,
+			"muslim": 1.65
+		},
+		"race": {
+			"arab": 0.59,
+			"bangladeshi": 0.21,
+			"black": 0.58,
+			"chinese": 1.82,
+			"indian": 0.85,
+			"mixed": 1.7,
+			"other": 0.29,
+			"otherasian": 1.15,
+			"pakistani": 0.14,
+			"white": 92.67
+		}
 	},
 	"elections": {
 		"2019-12-12": {

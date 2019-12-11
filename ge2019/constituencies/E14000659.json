@@ -3,9 +3,27 @@
 	"title": "Dartford",
 	"demographics": {
 		"2015UKIP": 19.91,
-		"leave": 64.04,
 		"age18-29": 15.53,
-		"withdegree": 11.94
+		"EUminus": 6.93,
+		"leave": 64.04,
+		"withdegree": 11.94,
+		"religion": {
+			"christian": 61.18,
+			"jewish": 0.09,
+			"muslim": 1.53
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.42,
+			"black": 3.47,
+			"chinese": 0.54,
+			"indian": 2.69,
+			"mixed": 2.14,
+			"other": 0.56,
+			"otherasian": 1.94,
+			"pakistani": 0.17,
+			"white": 87.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

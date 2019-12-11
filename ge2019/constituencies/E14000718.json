@@ -3,9 +3,27 @@
 	"title": "Greenwich and Woolwich",
 	"demographics": {
 		"2015UKIP": 8.32,
-		"leave": 35.67,
 		"age18-29": 21.77,
-		"withdegree": 32.49
+		"EUminus": 15.58,
+		"leave": 35.67,
+		"withdegree": 32.49,
+		"religion": {
+			"christian": 48.15,
+			"jewish": 0.24,
+			"muslim": 8.09
+		},
+		"race": {
+			"arab": 0.5,
+			"bangladeshi": 0.74,
+			"black": 20.1,
+			"chinese": 2.63,
+			"indian": 3.44,
+			"mixed": 5.45,
+			"other": 1.46,
+			"otherasian": 5.99,
+			"pakistani": 1.09,
+			"white": 58.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

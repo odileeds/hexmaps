@@ -3,9 +3,27 @@
 	"title": "Portsmouth South",
 	"demographics": {
 		"2015UKIP": 13.35,
-		"leave": 51.76,
 		"age18-29": 31.17,
-		"withdegree": 18.22
+		"EUminus": 10.71,
+		"leave": 51.76,
+		"withdegree": 18.22,
+		"religion": {
+			"christian": 48.07,
+			"jewish": 0.15,
+			"muslim": 5.09
+		},
+		"race": {
+			"arab": 0.89,
+			"bangladeshi": 2.47,
+			"black": 2.58,
+			"chinese": 1.85,
+			"indian": 1.87,
+			"mixed": 3.44,
+			"other": 0.74,
+			"otherasian": 1.69,
+			"pakistani": 0.34,
+			"white": 84.12
+		}
 	},
 	"elections": {
 		"2019-12-12": {

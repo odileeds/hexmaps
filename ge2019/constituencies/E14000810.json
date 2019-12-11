@@ -3,9 +3,27 @@
 	"title": "Mansfield",
 	"demographics": {
 		"2015UKIP": 25.11,
-		"leave": 70.86,
 		"age18-29": 15.18,
-		"withdegree": 6.76
+		"EUminus": 7.33,
+		"leave": 70.86,
+		"withdegree": 6.76,
+		"religion": {
+			"christian": 61.65,
+			"jewish": 0.03,
+			"muslim": 0.54
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.18,
+			"black": 0.38,
+			"chinese": 0.2,
+			"indian": 0.5,
+			"mixed": 1.06,
+			"other": 0.1,
+			"otherasian": 0.23,
+			"pakistani": 0.13,
+			"white": 97.18
+		}
 	},
 	"elections": {
 		"2019-12-12": {

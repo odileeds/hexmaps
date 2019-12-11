@@ -3,9 +3,27 @@
 	"title": "Epping Forest",
 	"demographics": {
 		"2015UKIP": 18.34,
-		"leave": 61.07,
 		"age18-29": 13.34,
-		"withdegree": 16.57
+		"EUminus": 6.56,
+		"leave": 61.07,
+		"withdegree": 16.57,
+		"religion": {
+			"christian": 60.06,
+			"jewish": 3.79,
+			"muslim": 2.28
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.25,
+			"black": 2.34,
+			"chinese": 0.58,
+			"indian": 2.98,
+			"mixed": 2.39,
+			"other": 0.62,
+			"otherasian": 1.06,
+			"pakistani": 0.95,
+			"white": 88.72
+		}
 	},
 	"elections": {
 		"2019-12-12": {

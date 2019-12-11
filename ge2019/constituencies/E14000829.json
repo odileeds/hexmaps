@@ -3,9 +3,27 @@
 	"title": "Newark",
 	"demographics": {
 		"2015UKIP": 12.03,
-		"leave": 55.75,
 		"age18-29": 12.22,
-		"withdegree": 15.56
+		"EUminus": 6.32,
+		"leave": 55.75,
+		"withdegree": 15.56,
+		"religion": {
+			"christian": 66.75,
+			"jewish": 0.09,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.08,
+			"black": 0.55,
+			"chinese": 0.24,
+			"indian": 0.36,
+			"mixed": 1.2,
+			"other": 0.13,
+			"otherasian": 0.22,
+			"pakistani": 0.26,
+			"white": 96.93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

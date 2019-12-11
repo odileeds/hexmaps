@@ -3,9 +3,27 @@
 	"title": "Calder Valley",
 	"demographics": {
 		"2015UKIP": 11.11,
-		"leave": 53.16,
 		"age18-29": 12.14,
-		"withdegree": 18.56
+		"EUminus": 3.18,
+		"leave": 53.16,
+		"withdegree": 18.56,
+		"religion": {
+			"christian": 59,
+			"jewish": 0.09,
+			"muslim": 1.19
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.1,
+			"black": 0.32,
+			"chinese": 0.2,
+			"indian": 0.3,
+			"mixed": 1.25,
+			"other": 0.1,
+			"otherasian": 0.19,
+			"pakistani": 0.95,
+			"white": 96.55
+		}
 	},
 	"elections": {
 		"2019-12-12": {

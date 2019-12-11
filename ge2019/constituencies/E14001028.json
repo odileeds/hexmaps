@@ -3,9 +3,27 @@
 	"title": "Wentworth and Dearne",
 	"demographics": {
 		"2015UKIP": 24.85,
-		"leave": 68.98,
 		"age18-29": 14.51,
-		"withdegree": 6.94
+		"EUminus": 2.01,
+		"leave": 68.98,
+		"withdegree": 6.94,
+		"religion": {
+			"christian": 70.23,
+			"jewish": 0.02,
+			"muslim": 0.49
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.02,
+			"black": 0.39,
+			"chinese": 0.16,
+			"indian": 0.16,
+			"mixed": 0.74,
+			"other": 0.12,
+			"otherasian": 0.22,
+			"pakistani": 0.22,
+			"white": 97.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

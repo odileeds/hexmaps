@@ -3,9 +3,27 @@
 	"title": "Chatham and Aylesford",
 	"demographics": {
 		"2015UKIP": 19.92,
-		"leave": 64.75,
 		"age18-29": 16.18,
-		"withdegree": 9.1
+		"EUminus": 8,
+		"leave": 64.75,
+		"withdegree": 9.1,
+		"religion": {
+			"christian": 59.39,
+			"jewish": 0.07,
+			"muslim": 1.6
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.57,
+			"black": 2.44,
+			"chinese": 0.3,
+			"indian": 1.76,
+			"mixed": 1.76,
+			"other": 0.41,
+			"otherasian": 0.67,
+			"pakistani": 0.38,
+			"white": 91.54
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Peterborough",
 	"demographics": {
 		"2015UKIP": 15.9,
-		"leave": 61.31,
 		"age18-29": 17.56,
-		"withdegree": 9.47
+		"EUminus": 24.29,
+		"leave": 61.31,
+		"withdegree": 9.47,
+		"religion": {
+			"christian": 54.18,
+			"jewish": 0.08,
+			"muslim": 13.7
+		},
+		"race": {
+			"arab": 0.31,
+			"bangladeshi": 0.19,
+			"black": 2.3,
+			"chinese": 0.47,
+			"indian": 3.04,
+			"mixed": 2.86,
+			"other": 0.71,
+			"otherasian": 2.71,
+			"pakistani": 9.98,
+			"white": 77.45
+		}
 	},
 	"elections": {
 		"2019-12-12": {

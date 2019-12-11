@@ -3,9 +3,27 @@
 	"title": "Elmet and Rothwell",
 	"demographics": {
 		"2015UKIP": 11.13,
-		"leave": 56.36,
 		"age18-29": 11.32,
-		"withdegree": 16.35
+		"EUminus": 2.63,
+		"leave": 56.36,
+		"withdegree": 16.35,
+		"religion": {
+			"christian": 69.09,
+			"jewish": 0.53,
+			"muslim": 0.62
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.05,
+			"black": 0.37,
+			"chinese": 0.21,
+			"indian": 0.54,
+			"mixed": 1.01,
+			"other": 0.17,
+			"otherasian": 0.22,
+			"pakistani": 0.32,
+			"white": 97.09
+		}
 	},
 	"elections": {
 		"2019-12-12": {

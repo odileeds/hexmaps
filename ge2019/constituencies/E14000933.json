@@ -3,9 +3,27 @@
 	"title": "South Basildon and East Thurrock",
 	"demographics": {
 		"2015UKIP": 26.53,
-		"leave": 73.08,
 		"age18-29": 15.03,
-		"withdegree": 7.16
+		"EUminus": 3.44,
+		"leave": 73.08,
+		"withdegree": 7.16,
+		"religion": {
+			"christian": 61.29,
+			"jewish": 0.17,
+			"muslim": 0.91
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.17,
+			"black": 2.91,
+			"chinese": 0.3,
+			"indian": 0.96,
+			"mixed": 1.57,
+			"other": 0.23,
+			"otherasian": 0.62,
+			"pakistani": 0.25,
+			"white": 92.93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

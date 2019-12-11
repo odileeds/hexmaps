@@ -3,9 +3,27 @@
 	"title": "Wansbeck",
 	"demographics": {
 		"2015UKIP": 18.2,
-		"leave": 56.19,
 		"age18-29": 13.41,
-		"withdegree": 10.95
+		"EUminus": 1.85,
+		"leave": 56.19,
+		"withdegree": 10.95,
+		"religion": {
+			"christian": 68.98,
+			"jewish": 0.03,
+			"muslim": 0.34
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.13,
+			"black": 0.09,
+			"chinese": 0.14,
+			"indian": 0.25,
+			"mixed": 0.48,
+			"other": 0.08,
+			"otherasian": 0.29,
+			"pakistani": 0.13,
+			"white": 98.39
+		}
 	},
 	"elections": {
 		"2019-12-12": {

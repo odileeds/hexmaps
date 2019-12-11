@@ -3,9 +3,27 @@
 	"title": "Colne Valley",
 	"demographics": {
 		"2015UKIP": 10.1,
-		"leave": 49.82,
 		"age18-29": 13.36,
-		"withdegree": 18.62
+		"EUminus": 3.19,
+		"leave": 49.82,
+		"withdegree": 18.62,
+		"religion": {
+			"christian": 55.59,
+			"jewish": 0.05,
+			"muslim": 6.99
+		},
+		"race": {
+			"arab": 0.25,
+			"bangladeshi": 0.19,
+			"black": 1.47,
+			"chinese": 0.28,
+			"indian": 1.24,
+			"mixed": 2.16,
+			"other": 0.28,
+			"otherasian": 0.48,
+			"pakistani": 6.18,
+			"white": 87.48
+		}
 	},
 	"elections": {
 		"2019-12-12": {

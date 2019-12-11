@@ -3,9 +3,27 @@
 	"title": "Wigan",
 	"demographics": {
 		"2015UKIP": 19.47,
-		"leave": 62.71,
 		"age18-29": 15.28,
-		"withdegree": 10.19
+		"EUminus": 3.57,
+		"leave": 62.71,
+		"withdegree": 10.19,
+		"religion": {
+			"christian": 78.74,
+			"jewish": 0.02,
+			"muslim": 0.83
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.04,
+			"black": 0.53,
+			"chinese": 0.26,
+			"indian": 0.41,
+			"mixed": 0.91,
+			"other": 0.16,
+			"otherasian": 0.29,
+			"pakistani": 0.24,
+			"white": 97.05
+		}
 	},
 	"elections": {
 		"2019-12-12": {

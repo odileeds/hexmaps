@@ -3,9 +3,27 @@
 	"title": "Ilford North",
 	"demographics": {
 		"2015UKIP": 8.9,
-		"leave": 52.57,
 		"age18-29": 15.73,
-		"withdegree": 21.25
+		"EUminus": 11.58,
+		"leave": 52.57,
+		"withdegree": 21.25,
+		"religion": {
+			"christian": 41.52,
+			"jewish": 6.46,
+			"muslim": 15.28
+		},
+		"race": {
+			"arab": 0.38,
+			"bangladeshi": 4.92,
+			"black": 7.75,
+			"chinese": 1.42,
+			"indian": 12.75,
+			"mixed": 4.22,
+			"other": 1.95,
+			"otherasian": 7.7,
+			"pakistani": 6.38,
+			"white": 52.52
+		}
 	},
 	"elections": {
 		"2019-12-12": {

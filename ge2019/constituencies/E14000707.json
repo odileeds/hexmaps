@@ -3,9 +3,27 @@
 	"title": "Gainsborough",
 	"demographics": {
 		"2015UKIP": 15.69,
-		"leave": 62.03,
 		"age18-29": 11.29,
-		"withdegree": 12.47
+		"EUminus": 3.73,
+		"leave": 62.03,
+		"withdegree": 12.47,
+		"religion": {
+			"christian": 70.25,
+			"jewish": 0.03,
+			"muslim": 0.23
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0,
+			"black": 0.25,
+			"chinese": 0.14,
+			"indian": 0.41,
+			"mixed": 0.7,
+			"other": 0.03,
+			"otherasian": 0.18,
+			"pakistani": 0.07,
+			"white": 98.16
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Chelmsford",
 	"demographics": {
 		"2015UKIP": 14.22,
-		"leave": 50.55,
 		"age18-29": 15.8,
-		"withdegree": 18.03
+		"EUminus": 5.69,
+		"leave": 50.55,
+		"withdegree": 18.03,
+		"religion": {
+			"christian": 59.85,
+			"jewish": 0.2,
+			"muslim": 1.54
+		},
+		"race": {
+			"arab": 0.18,
+			"bangladeshi": 0.38,
+			"black": 1.6,
+			"chinese": 0.61,
+			"indian": 1.48,
+			"mixed": 1.84,
+			"other": 0.24,
+			"otherasian": 0.77,
+			"pakistani": 0.56,
+			"white": 92.34
+		}
 	},
 	"elections": {
 		"2019-12-12": {

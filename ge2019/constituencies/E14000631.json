@@ -3,9 +3,27 @@
 	"title": "Chesham and Amersham",
 	"demographics": {
 		"2015UKIP": 13.69,
-		"leave": 44.98,
 		"age18-29": 9.88,
-		"withdegree": 27.85
+		"EUminus": 6.91,
+		"leave": 44.98,
+		"withdegree": 27.85,
+		"religion": {
+			"christian": 63.21,
+			"jewish": 0.55,
+			"muslim": 2.49
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.13,
+			"black": 0.57,
+			"chinese": 0.48,
+			"indian": 1.94,
+			"mixed": 2.21,
+			"other": 0.24,
+			"otherasian": 0.99,
+			"pakistani": 1.91,
+			"white": 91.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

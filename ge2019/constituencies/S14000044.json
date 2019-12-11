@@ -3,8 +3,26 @@
 	"title": "Livingston",
 	"demographics": {
 		"2015UKIP": 3.05,
+		"age18-29": 14.77,
+		"EUminus": 6.66,
 		"leave": 43.81,
-		"age18-29": 14.77
+		"religion": {
+			"christian": 50.45,
+			"jewish": 0.04,
+			"muslim": 1.25
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.36,
+			"indian": 0.48,
+			"mixed": 0,
+			"other": 0.08,
+			"otherasian": 0.24,
+			"pakistani": 1.03,
+			"white": 97.03
+		}
 	},
 	"elections": {
 		"2019-12-12": {

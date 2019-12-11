@@ -3,9 +3,27 @@
 	"title": "East Ham",
 	"demographics": {
 		"2015UKIP": 5.01,
-		"leave": 46.92,
 		"age18-29": 25.7,
-		"withdegree": 22.95
+		"EUminus": 17.63,
+		"leave": 46.92,
+		"withdegree": 22.95,
+		"religion": {
+			"christian": 33.44,
+			"jewish": 0.1,
+			"muslim": 37.38
+		},
+		"race": {
+			"arab": 1.05,
+			"bangladeshi": 13.08,
+			"black": 15.86,
+			"chinese": 0.99,
+			"indian": 18.47,
+			"mixed": 3.88,
+			"other": 2.32,
+			"otherasian": 8,
+			"pakistani": 13.26,
+			"white": 23.08
+		}
 	},
 	"elections": {
 		"2019-12-12": {

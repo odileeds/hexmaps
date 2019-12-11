@@ -3,9 +3,27 @@
 	"title": "Oxford West and Abingdon",
 	"demographics": {
 		"2015UKIP": 6.92,
-		"leave": 38.18,
 		"age18-29": 17.4,
-		"withdegree": 34.26
+		"EUminus": 12.28,
+		"leave": 38.18,
+		"withdegree": 34.26,
+		"religion": {
+			"christian": 57.66,
+			"jewish": 0.56,
+			"muslim": 2.15
+		},
+		"race": {
+			"arab": 0.35,
+			"bangladeshi": 0.35,
+			"black": 1.4,
+			"chinese": 1.54,
+			"indian": 1.51,
+			"mixed": 2.26,
+			"other": 0.5,
+			"otherasian": 1.39,
+			"pakistani": 0.71,
+			"white": 90
+		}
 	},
 	"elections": {
 		"2019-12-12": {

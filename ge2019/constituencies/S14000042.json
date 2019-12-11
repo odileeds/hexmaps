@@ -3,8 +3,26 @@
 	"title": "Lanark and Hamilton East",
 	"demographics": {
 		"2015UKIP": 2.59,
+		"age18-29": 13.76,
+		"EUminus": 2.3,
 		"leave": 35.47,
-		"age18-29": 13.76
+		"religion": {
+			"christian": 63.6,
+			"jewish": 0.02,
+			"muslim": 0.6
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.03,
+			"black": ,
+			"chinese": 0.3,
+			"indian": 0.31,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.14,
+			"pakistani": 0.51,
+			"white": 98.21
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Basingstoke",
 	"demographics": {
 		"2015UKIP": 15.62,
-		"leave": 53.64,
 		"age18-29": 15.92,
-		"withdegree": 16.52
+		"EUminus": 8.82,
+		"leave": 53.64,
+		"withdegree": 16.52,
+		"religion": {
+			"christian": 56.44,
+			"jewish": 0.1,
+			"muslim": 1.17
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.26,
+			"black": 1.59,
+			"chinese": 1.03,
+			"indian": 2.11,
+			"mixed": 2.05,
+			"other": 0.25,
+			"otherasian": 1.94,
+			"pakistani": 0.31,
+			"white": 90.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

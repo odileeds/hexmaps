@@ -3,9 +3,27 @@
 	"title": "Luton South",
 	"demographics": {
 		"2015UKIP": 12.15,
-		"leave": 55.44,
 		"age18-29": 23.09,
-		"withdegree": 15.42
+		"EUminus": 19.65,
+		"leave": 55.44,
+		"withdegree": 15.42,
+		"religion": {
+			"christian": 46.6,
+			"jewish": 0.13,
+			"muslim": 25.3
+		},
+		"race": {
+			"arab": 1.02,
+			"bangladeshi": 7.67,
+			"black": 8.42,
+			"chinese": 0.89,
+			"indian": 4.44,
+			"mixed": 3.62,
+			"other": 0.73,
+			"otherasian": 2.55,
+			"pakistani": 13.98,
+			"white": 56.7
+		}
 	},
 	"elections": {
 		"2019-12-12": {

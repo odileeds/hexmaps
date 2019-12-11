@@ -3,9 +3,27 @@
 	"title": "Leeds East",
 	"demographics": {
 		"2015UKIP": 19,
-		"leave": 60.91,
 		"age18-29": 16.14,
-		"withdegree": 9.29
+		"EUminus": 6.56,
+		"leave": 60.91,
+		"withdegree": 9.29,
+		"religion": {
+			"christian": 56.56,
+			"jewish": 0.15,
+			"muslim": 10.61
+		},
+		"race": {
+			"arab": 0.24,
+			"bangladeshi": 1.96,
+			"black": 5.51,
+			"chinese": 0.63,
+			"indian": 1.58,
+			"mixed": 3.12,
+			"other": 0.54,
+			"otherasian": 1.88,
+			"pakistani": 6.56,
+			"white": 77.98
+		}
 	},
 	"elections": {
 		"2019-12-12": {

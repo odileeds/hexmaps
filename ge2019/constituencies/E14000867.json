@@ -3,9 +3,27 @@
 	"title": "Nottingham South",
 	"demographics": {
 		"2015UKIP": 11.27,
-		"leave": 46.47,
 		"age18-29": 36.99,
-		"withdegree": 19.5
+		"EUminus": 9.93,
+		"leave": 46.47,
+		"withdegree": 19.5,
+		"religion": {
+			"christian": 43.99,
+			"jewish": 0.63,
+			"muslim": 10.14
+		},
+		"race": {
+			"arab": 1.28,
+			"bangladeshi": 0.35,
+			"black": 5.47,
+			"chinese": 3.15,
+			"indian": 4.82,
+			"mixed": 4.99,
+			"other": 0.78,
+			"otherasian": 2.68,
+			"pakistani": 6.09,
+			"white": 70.41
+		}
 	},
 	"elections": {
 		"2019-12-12": {

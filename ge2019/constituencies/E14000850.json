@@ -3,9 +3,27 @@
 	"title": "North Somerset",
 	"demographics": {
 		"2015UKIP": 13.01,
-		"leave": 47.97,
 		"age18-29": 10.44,
-		"withdegree": 19.7
+		"EUminus": 3.94,
+		"leave": 47.97,
+		"withdegree": 19.7,
+		"religion": {
+			"christian": 62.48,
+			"jewish": 0.06,
+			"muslim": 0.31
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.09,
+			"black": 0.18,
+			"chinese": 0.22,
+			"indian": 0.33,
+			"mixed": 0.97,
+			"other": 0.09,
+			"otherasian": 0.27,
+			"pakistani": 0.07,
+			"white": 97.73
+		}
 	},
 	"elections": {
 		"2019-12-12": {

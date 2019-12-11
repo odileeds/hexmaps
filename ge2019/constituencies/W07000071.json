@@ -3,9 +3,27 @@
 	"title": "Merthyr Tydfil and Rhymney",
 	"demographics": {
 		"2015UKIP": 18.66,
-		"leave": 58.4,
 		"age18-29": 16.19,
-		"withdegree": 7.99
+		"EUminus": 4.7,
+		"leave": 58.4,
+		"withdegree": 7.99,
+		"religion": {
+			"christian": 54.36,
+			"jewish": 0.01,
+			"muslim": 0.3
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.06,
+			"black": 0.23,
+			"chinese": 0.2,
+			"indian": 0.27,
+			"mixed": 0.69,
+			"other": 0.11,
+			"otherasian": 0.43,
+			"pakistani": 0.08,
+			"white": 97.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

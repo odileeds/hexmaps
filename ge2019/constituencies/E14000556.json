@@ -3,9 +3,27 @@
 	"title": "Beverley and Holderness",
 	"demographics": {
 		"2015UKIP": 16.69,
-		"leave": 58.79,
 		"age18-29": 11.16,
-		"withdegree": 14.35
+		"EUminus": 2.74,
+		"leave": 58.79,
+		"withdegree": 14.35,
+		"religion": {
+			"christian": 67.3,
+			"jewish": 0.07,
+			"muslim": 0.23
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.01,
+			"black": 0.13,
+			"chinese": 0.18,
+			"indian": 0.17,
+			"mixed": 0.58,
+			"other": 0.05,
+			"otherasian": 0.25,
+			"pakistani": 0.09,
+			"white": 98.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

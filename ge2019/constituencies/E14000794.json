@@ -3,9 +3,27 @@
 	"title": "Liverpool, Walton",
 	"demographics": {
 		"2015UKIP": 8.97,
-		"leave": 53.8,
 		"age18-29": 18.24,
-		"withdegree": 7.16
+		"EUminus": 3.33,
+		"leave": 53.8,
+		"withdegree": 7.16,
+		"religion": {
+			"christian": 78.26,
+			"jewish": 0.06,
+			"muslim": 1.01
+		},
+		"race": {
+			"arab": 0.43,
+			"bangladeshi": 0.04,
+			"black": 1.13,
+			"chinese": 0.6,
+			"indian": 0.67,
+			"mixed": 1.19,
+			"other": 0.27,
+			"otherasian": 0.42,
+			"pakistani": 0.12,
+			"white": 95.12
+		}
 	},
 	"elections": {
 		"2019-12-12": {

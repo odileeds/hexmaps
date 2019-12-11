@@ -3,9 +3,27 @@
 	"title": "Washington and Sunderland West",
 	"demographics": {
 		"2015UKIP": 19.65,
-		"leave": 61.85,
 		"age18-29": 15.09,
-		"withdegree": 7.99
+		"EUminus": 1.91,
+		"leave": 61.85,
+		"withdegree": 7.99,
+		"religion": {
+			"christian": 69.22,
+			"jewish": 0.01,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.17,
+			"black": 0.23,
+			"chinese": 0.18,
+			"indian": 0.39,
+			"mixed": 0.62,
+			"other": 0.06,
+			"otherasian": 0.21,
+			"pakistani": 0.11,
+			"white": 97.98
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Old Bexley and Sidcup",
 	"demographics": {
 		"2015UKIP": 18.24,
-		"leave": 63.16,
 		"age18-29": 14.7,
-		"withdegree": 12.66
+		"EUminus": 5.18,
+		"leave": 63.16,
+		"withdegree": 12.66,
+		"religion": {
+			"christian": 63.7,
+			"jewish": 0.13,
+			"muslim": 2.05
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.39,
+			"black": 2.83,
+			"chinese": 1.07,
+			"indian": 2.29,
+			"mixed": 2.01,
+			"other": 0.53,
+			"otherasian": 1.54,
+			"pakistani": 0.25,
+			"white": 88.98
+		}
 	},
 	"elections": {
 		"2019-12-12": {

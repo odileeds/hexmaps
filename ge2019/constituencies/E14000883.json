@@ -3,9 +3,27 @@
 	"title": "Portsmouth North",
 	"demographics": {
 		"2015UKIP": 19.08,
-		"leave": 63.69,
 		"age18-29": 15.64,
-		"withdegree": 10.24
+		"EUminus": 5.33,
+		"leave": 63.69,
+		"withdegree": 10.24,
+		"religion": {
+			"christian": 56.73,
+			"jewish": 0.07,
+			"muslim": 1.73
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 1.01,
+			"black": 1.03,
+			"chinese": 0.63,
+			"indian": 0.92,
+			"mixed": 1.8,
+			"other": 0.29,
+			"otherasian": 0.97,
+			"pakistani": 0.18,
+			"white": 93.04
+		}
 	},
 	"elections": {
 		"2019-12-12": {

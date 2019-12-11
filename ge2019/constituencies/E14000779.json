@@ -3,9 +3,27 @@
 	"title": "Leeds North East",
 	"demographics": {
 		"2015UKIP": 7.67,
-		"leave": 37.33,
 		"age18-29": 16.03,
-		"withdegree": 30.83
+		"EUminus": 7.24,
+		"leave": 37.33,
+		"withdegree": 30.83,
+		"religion": {
+			"christian": 47.36,
+			"jewish": 5.33,
+			"muslim": 9.75
+		},
+		"race": {
+			"arab": 0.57,
+			"bangladeshi": 0.88,
+			"black": 7.13,
+			"chinese": 1.13,
+			"indian": 5.68,
+			"mixed": 4.3,
+			"other": 1.34,
+			"otherasian": 2.1,
+			"pakistani": 6.57,
+			"white": 70.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Kenilworth and Southam",
 	"demographics": {
 		"2015UKIP": 11.2,
-		"leave": 46.6,
 		"age18-29": 11.95,
-		"withdegree": 24.38
+		"EUminus": 4.66,
+		"leave": 46.6,
+		"withdegree": 24.38,
+		"religion": {
+			"christian": 67.21,
+			"jewish": 0.12,
+			"muslim": 0.44
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.03,
+			"black": 0.34,
+			"chinese": 0.61,
+			"indian": 1.32,
+			"mixed": 1.12,
+			"other": 0.18,
+			"otherasian": 0.53,
+			"pakistani": 0.13,
+			"white": 95.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

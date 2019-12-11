@@ -3,9 +3,27 @@
 	"title": "Charnwood",
 	"demographics": {
 		"2015UKIP": 15.94,
-		"leave": 58.29,
 		"age18-29": 12.56,
-		"withdegree": 15.38
+		"EUminus": 3.07,
+		"leave": 58.29,
+		"withdegree": 15.38,
+		"religion": {
+			"christian": 57.96,
+			"jewish": 0.04,
+			"muslim": 0.81
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.05,
+			"black": 0.56,
+			"chinese": 0.37,
+			"indian": 7.95,
+			"mixed": 1.48,
+			"other": 0.26,
+			"otherasian": 0.6,
+			"pakistani": 0.22,
+			"white": 88.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

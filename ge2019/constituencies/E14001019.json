@@ -3,9 +3,27 @@
 	"title": "Warwick and Leamington",
 	"demographics": {
 		"2015UKIP": 8.27,
-		"leave": 41.13,
 		"age18-29": 19.55,
-		"withdegree": 26.47
+		"EUminus": 9.22,
+		"leave": 41.13,
+		"withdegree": 26.47,
+		"religion": {
+			"christian": 55.81,
+			"jewish": 0.22,
+			"muslim": 1.04
+		},
+		"race": {
+			"arab": 0.18,
+			"bangladeshi": 0.05,
+			"black": 0.82,
+			"chinese": 0.73,
+			"indian": 6.07,
+			"mixed": 2.32,
+			"other": 0.9,
+			"otherasian": 1.22,
+			"pakistani": 0.41,
+			"white": 87.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

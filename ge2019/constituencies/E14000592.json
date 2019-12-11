@@ -3,9 +3,27 @@
 	"title": "Brent North",
 	"demographics": {
 		"2015UKIP": 3.87,
-		"leave": 43.09,
 		"age18-29": 21.13,
-		"withdegree": 24.72
+		"EUminus": 21.74,
+		"leave": 43.09,
+		"withdegree": 24.72,
+		"religion": {
+			"christian": 32.75,
+			"jewish": 1.49,
+			"muslim": 17.46
+		},
+		"race": {
+			"arab": 3.35,
+			"bangladeshi": 0.65,
+			"black": 12.31,
+			"chinese": 1.15,
+			"indian": 32.86,
+			"mixed": 3.61,
+			"other": 1.72,
+			"otherasian": 12.44,
+			"pakistani": 5.33,
+			"white": 26.6
+		}
 	},
 	"elections": {
 		"2019-12-12": {

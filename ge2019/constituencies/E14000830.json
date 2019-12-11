@@ -3,9 +3,27 @@
 	"title": "Newbury",
 	"demographics": {
 		"2015UKIP": 10.81,
-		"leave": 47.51,
 		"age18-29": 12.71,
-		"withdegree": 20.64
+		"EUminus": 6.94,
+		"leave": 47.51,
+		"withdegree": 20.64,
+		"religion": {
+			"christian": 63.68,
+			"jewish": 0.14,
+			"muslim": 0.68
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.12,
+			"black": 0.62,
+			"chinese": 0.38,
+			"indian": 0.98,
+			"mixed": 1.34,
+			"other": 0.13,
+			"otherasian": 0.46,
+			"pakistani": 0.25,
+			"white": 95.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "South Thanet",
 	"demographics": {
 		"2015UKIP": 32.44,
-		"leave": 61.63,
 		"age18-29": 13.2,
-		"withdegree": 11.78
+		"EUminus": 9.1,
+		"leave": 61.63,
+		"withdegree": 11.78,
+		"religion": {
+			"christian": 61.14,
+			"jewish": 0.19,
+			"muslim": 0.88
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.14,
+			"black": 0.66,
+			"chinese": 0.36,
+			"indian": 0.52,
+			"mixed": 1.6,
+			"other": 0.21,
+			"otherasian": 0.7,
+			"pakistani": 0.13,
+			"white": 95.6
+		}
 	},
 	"elections": {
 		"2019-12-12": {

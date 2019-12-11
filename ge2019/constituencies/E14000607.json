@@ -3,9 +3,27 @@
 	"title": "Broxtowe",
 	"demographics": {
 		"2015UKIP": 10.62,
-		"leave": 52.41,
 		"age18-29": 14.64,
-		"withdegree": 19.89
+		"EUminus": 5.66,
+		"leave": 52.41,
+		"withdegree": 19.89,
+		"religion": {
+			"christian": 56.33,
+			"jewish": 0.15,
+			"muslim": 1.71
+		},
+		"race": {
+			"arab": 0.44,
+			"bangladeshi": 0.1,
+			"black": 0.97,
+			"chinese": 1.18,
+			"indian": 1.81,
+			"mixed": 1.78,
+			"other": 0.26,
+			"otherasian": 0.76,
+			"pakistani": 0.81,
+			"white": 91.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Romford",
 	"demographics": {
 		"2015UKIP": 22.79,
-		"leave": 69.29,
 		"age18-29": 16.12,
-		"withdegree": 11.24
+		"EUminus": 6.5,
+		"leave": 69.29,
+		"withdegree": 11.24,
+		"religion": {
+			"christian": 64.17,
+			"jewish": 0.66,
+			"muslim": 2.47
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.52,
+			"black": 4.72,
+			"chinese": 0.69,
+			"indian": 2.36,
+			"mixed": 2.27,
+			"other": 0.5,
+			"otherasian": 1.42,
+			"pakistani": 0.81,
+			"white": 86.54
+		}
 	},
 	"elections": {
 		"2019-12-12": {

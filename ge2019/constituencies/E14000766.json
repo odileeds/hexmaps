@@ -3,9 +3,27 @@
 	"title": "Keighley",
 	"demographics": {
 		"2015UKIP": 11.53,
-		"leave": 53.33,
 		"age18-29": 13.39,
-		"withdegree": 15.89
+		"EUminus": 4.64,
+		"leave": 53.33,
+		"withdegree": 15.89,
+		"religion": {
+			"christian": 55.6,
+			"jewish": 0.1,
+			"muslim": 13.09
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 2.08,
+			"black": 0.51,
+			"chinese": 0.23,
+			"indian": 0.52,
+			"mixed": 1.25,
+			"other": 0.36,
+			"otherasian": 0.62,
+			"pakistani": 10.72,
+			"white": 83.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

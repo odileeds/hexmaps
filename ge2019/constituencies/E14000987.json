@@ -3,9 +3,27 @@
 	"title": "Tatton",
 	"demographics": {
 		"2015UKIP": 10.75,
-		"leave": 45.83,
 		"age18-29": 10.83,
-		"withdegree": 24.77
+		"EUminus": 4.38,
+		"leave": 45.83,
+		"withdegree": 24.77,
+		"religion": {
+			"christian": 69.38,
+			"jewish": 0.42,
+			"muslim": 1.15
+		},
+		"race": {
+			"arab": 0.18,
+			"bangladeshi": 0.12,
+			"black": 0.4,
+			"chinese": 0.36,
+			"indian": 0.93,
+			"mixed": 1.26,
+			"other": 0.22,
+			"otherasian": 0.5,
+			"pakistani": 0.54,
+			"white": 95.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

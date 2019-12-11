@@ -3,9 +3,27 @@
 	"title": "Vale of Glamorgan",
 	"demographics": {
 		"2015UKIP": 10.7,
-		"leave": 52.35,
 		"age18-29": 13.68,
-		"withdegree": 15.55
+		"EUminus": 3.44,
+		"leave": 52.35,
+		"withdegree": 15.55,
+		"religion": {
+			"christian": 57.68,
+			"jewish": 0.06,
+			"muslim": 0.56
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.08,
+			"black": 0.39,
+			"chinese": 0.32,
+			"indian": 0.32,
+			"mixed": 1.33,
+			"other": 0.12,
+			"otherasian": 0.34,
+			"pakistani": 0.17,
+			"white": 96.81
+		}
 	},
 	"elections": {
 		"2019-12-12": {

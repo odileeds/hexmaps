@@ -3,9 +3,27 @@
 	"title": "Normanton, Pontefract and Castleford",
 	"demographics": {
 		"2015UKIP": 21.32,
-		"leave": 69.26,
 		"age18-29": 15.39,
-		"withdegree": 6.85
+		"EUminus": 3.94,
+		"leave": 69.26,
+		"withdegree": 6.85,
+		"religion": {
+			"christian": 68.23,
+			"jewish": 0.03,
+			"muslim": 0.45
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.01,
+			"black": 0.5,
+			"chinese": 0.28,
+			"indian": 0.32,
+			"mixed": 0.68,
+			"other": 0.09,
+			"otherasian": 0.25,
+			"pakistani": 0.29,
+			"white": 97.52
+		}
 	},
 	"elections": {
 		"2019-12-12": {

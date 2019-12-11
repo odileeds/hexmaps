@@ -3,9 +3,27 @@
 	"title": "Wirral West",
 	"demographics": {
 		"2015UKIP": 6.62,
-		"leave": 44.69,
 		"age18-29": 11,
-		"withdegree": 18.66
+		"EUminus": 2.58,
+		"leave": 44.69,
+		"withdegree": 18.66,
+		"religion": {
+			"christian": 72.7,
+			"jewish": 0.11,
+			"muslim": 0.35
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.04,
+			"black": 0.15,
+			"chinese": 0.37,
+			"indian": 0.47,
+			"mixed": 0.94,
+			"other": 0.13,
+			"otherasian": 0.38,
+			"pakistani": 0.1,
+			"white": 97.33
+		}
 	},
 	"elections": {
 		"2019-12-12": {

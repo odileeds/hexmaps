@@ -3,9 +3,27 @@
 	"title": "Dudley North",
 	"demographics": {
 		"2015UKIP": 23.99,
-		"leave": 71.43,
 		"age18-29": 14.95,
-		"withdegree": 8.36
+		"EUminus": 2.51,
+		"leave": 71.43,
+		"withdegree": 8.36,
+		"religion": {
+			"christian": 64.87,
+			"jewish": 0.01,
+			"muslim": 5.26
+		},
+		"race": {
+			"arab": 0.18,
+			"bangladeshi": 0.11,
+			"black": 2.9,
+			"chinese": 0.28,
+			"indian": 3.11,
+			"mixed": 2.42,
+			"other": 0.23,
+			"otherasian": 0.65,
+			"pakistani": 4.64,
+			"white": 85.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

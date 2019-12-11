@@ -3,9 +3,27 @@
 	"title": "Ogmore",
 	"demographics": {
 		"2015UKIP": 15.38,
-		"leave": 59.75,
 		"age18-29": 14.5,
-		"withdegree": 9.29
+		"EUminus": 1.88,
+		"leave": 59.75,
+		"withdegree": 9.29,
+		"religion": {
+			"christian": 52.49,
+			"jewish": 0.03,
+			"muslim": 0.19
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.05,
+			"black": 0.19,
+			"chinese": 0.21,
+			"indian": 0.18,
+			"mixed": 0.58,
+			"other": 0.04,
+			"otherasian": 0.24,
+			"pakistani": 0.03,
+			"white": 98.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

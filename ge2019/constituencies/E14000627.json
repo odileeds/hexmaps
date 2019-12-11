@@ -3,9 +3,27 @@
 	"title": "Cheadle",
 	"demographics": {
 		"2015UKIP": 8.33,
-		"leave": 42.65,
 		"age18-29": 11.19,
-		"withdegree": 23.5
+		"EUminus": 3.68,
+		"leave": 42.65,
+		"withdegree": 23.5,
+		"religion": {
+			"christian": 64.04,
+			"jewish": 1.24,
+			"muslim": 5.44
+		},
+		"race": {
+			"arab": 0.44,
+			"bangladeshi": 0.36,
+			"black": 0.6,
+			"chinese": 0.72,
+			"indian": 1.79,
+			"mixed": 1.76,
+			"other": 0.54,
+			"otherasian": 0.9,
+			"pakistani": 3.96,
+			"white": 88.93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Clwyd South",
 	"demographics": {
 		"2015UKIP": 15.63,
-		"leave": 60.26,
 		"age18-29": 13.87,
-		"withdegree": 11.8
+		"EUminus": 3.77,
+		"leave": 60.26,
+		"withdegree": 11.8,
+		"religion": {
+			"christian": 62.53,
+			"jewish": 0.03,
+			"muslim": 0.33
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.11,
+			"black": 0.32,
+			"chinese": 0.14,
+			"indian": 0.16,
+			"mixed": 0.62,
+			"other": 0.11,
+			"otherasian": 0.23,
+			"pakistani": 0.05,
+			"white": 98.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

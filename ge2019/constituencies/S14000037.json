@@ -3,8 +3,26 @@
 	"title": "Gordon",
 	"demographics": {
 		"2015UKIP": 2,
+		"age18-29": 12.9,
+		"EUminus": 4.17,
 		"leave": 44.56,
-		"age18-29": 12.9
+		"religion": {
+			"christian": 46.78,
+			"jewish": 0.02,
+			"muslim": 0.59
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.08,
+			"black": ,
+			"chinese": 0.42,
+			"indian": 0.28,
+			"mixed": 0,
+			"other": 0.08,
+			"otherasian": 0.32,
+			"pakistani": 0.24,
+			"white": 97.52
+		}
 	},
 	"elections": {
 		"2019-12-12": {

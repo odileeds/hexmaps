@@ -3,9 +3,27 @@
 	"title": "Meriden",
 	"demographics": {
 		"2015UKIP": 16.93,
-		"leave": 58.81,
 		"age18-29": 13.48,
-		"withdegree": 15.5
+		"EUminus": 3.3,
+		"leave": 58.81,
+		"withdegree": 15.5,
+		"religion": {
+			"christian": 66.33,
+			"jewish": 0.14,
+			"muslim": 1.06
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.11,
+			"black": 1.97,
+			"chinese": 0.31,
+			"indian": 1.87,
+			"mixed": 2.48,
+			"other": 0.24,
+			"otherasian": 0.46,
+			"pakistani": 0.55,
+			"white": 91.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

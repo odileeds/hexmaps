@@ -3,9 +3,27 @@
 	"title": "North West Cambridgeshire",
 	"demographics": {
 		"2015UKIP": 20.09,
-		"leave": 56.95,
 		"age18-29": 14.82,
-		"withdegree": 13.88
+		"EUminus": 10.35,
+		"leave": 56.95,
+		"withdegree": 13.88,
+		"religion": {
+			"christian": 62.27,
+			"jewish": 0.08,
+			"muslim": 1.29
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.02,
+			"black": 1.45,
+			"chinese": 0.37,
+			"indian": 1.1,
+			"mixed": 1.84,
+			"other": 0.27,
+			"otherasian": 0.65,
+			"pakistani": 0.51,
+			"white": 93.72
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Tooting",
 	"demographics": {
 		"2015UKIP": 2.87,
-		"leave": 25.32,
 		"age18-29": 23.92,
-		"withdegree": 44.09
+		"EUminus": 19.3,
+		"leave": 25.32,
+		"withdegree": 44.09,
+		"religion": {
+			"christian": 49.46,
+			"jewish": 0.47,
+			"muslim": 10.73
+		},
+		"race": {
+			"arab": 0.61,
+			"bangladeshi": 0.73,
+			"black": 11.97,
+			"chinese": 1.13,
+			"indian": 4.56,
+			"mixed": 5.06,
+			"other": 1.18,
+			"otherasian": 4.08,
+			"pakistani": 4.77,
+			"white": 65.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

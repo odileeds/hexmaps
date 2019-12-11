@@ -3,9 +3,27 @@
 	"title": "Mitcham and Morden",
 	"demographics": {
 		"2015UKIP": 9.5,
-		"leave": 44.69,
 		"age18-29": 18.85,
-		"withdegree": 19.41
+		"EUminus": 21.88,
+		"leave": 44.69,
+		"withdegree": 19.41,
+		"religion": {
+			"christian": 55.82,
+			"jewish": 0.14,
+			"muslim": 10.69
+		},
+		"race": {
+			"arab": 0.65,
+			"bangladeshi": 1.44,
+			"black": 17.4,
+			"chinese": 1.13,
+			"indian": 4.39,
+			"mixed": 5.16,
+			"other": 1.34,
+			"otherasian": 9.87,
+			"pakistani": 4.89,
+			"white": 53.74
+		}
 	},
 	"elections": {
 		"2019-12-12": {

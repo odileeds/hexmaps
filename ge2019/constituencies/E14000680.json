@@ -3,9 +3,27 @@
 	"title": "East Hampshire",
 	"demographics": {
 		"2015UKIP": 11.98,
-		"leave": 48.73,
 		"age18-29": 11.45,
-		"withdegree": 20.33
+		"EUminus": 6.53,
+		"leave": 48.73,
+		"withdegree": 20.33,
+		"religion": {
+			"christian": 64.6,
+			"jewish": 0.15,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.14,
+			"black": 0.53,
+			"chinese": 0.28,
+			"indian": 0.46,
+			"mixed": 1.22,
+			"other": 0.14,
+			"otherasian": 0.84,
+			"pakistani": 0.03,
+			"white": 96.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bosworth",
 	"demographics": {
 		"2015UKIP": 17.43,
-		"leave": 60.8,
 		"age18-29": 12.62,
-		"withdegree": 12.88
+		"EUminus": 3.07,
+		"leave": 60.8,
+		"withdegree": 12.88,
+		"religion": {
+			"christian": 64.68,
+			"jewish": 0.04,
+			"muslim": 0.47
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.08,
+			"black": 0.24,
+			"chinese": 0.23,
+			"indian": 1.06,
+			"mixed": 0.95,
+			"other": 0.1,
+			"otherasian": 0.31,
+			"pakistani": 0.14,
+			"white": 96.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

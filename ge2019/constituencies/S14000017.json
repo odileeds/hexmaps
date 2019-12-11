@@ -2,8 +2,26 @@
 	"id": "S14000017",
 	"title": "Dunfermline and West Fife",
 	"demographics": {
+		"age18-29": 13.55,
+		"EUminus": 3.76,
 		"leave": 40.03,
-		"age18-29": 13.55
+		"religion": {
+			"christian": 44.57,
+			"jewish": 0.03,
+			"muslim": 0.7
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.3,
+			"indian": 0.26,
+			"mixed": 0,
+			"other": 0.05,
+			"otherasian": 0.2,
+			"pakistani": 0.53,
+			"white": 97.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

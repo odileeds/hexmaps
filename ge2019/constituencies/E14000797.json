@@ -3,9 +3,27 @@
 	"title": "Loughborough",
 	"demographics": {
 		"2015UKIP": 10.97,
-		"leave": 49.67,
 		"age18-29": 24.42,
-		"withdegree": 18.93
+		"EUminus": 6.24,
+		"leave": 49.67,
+		"withdegree": 18.93,
+		"religion": {
+			"christian": 54.12,
+			"jewish": 0.11,
+			"muslim": 3.42
+		},
+		"race": {
+			"arab": 0.37,
+			"bangladeshi": 2,
+			"black": 1.02,
+			"chinese": 1.79,
+			"indian": 4.43,
+			"mixed": 1.59,
+			"other": 0.33,
+			"otherasian": 1.17,
+			"pakistani": 0.31,
+			"white": 86.98
+		}
 	},
 	"elections": {
 		"2019-12-12": {

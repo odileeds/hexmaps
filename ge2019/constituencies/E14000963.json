@@ -3,9 +3,27 @@
 	"title": "St Helens South and Whiston",
 	"demographics": {
 		"2015UKIP": 13.98,
-		"leave": 56.12,
 		"age18-29": 14.7,
-		"withdegree": 9.99
+		"EUminus": 2.11,
+		"leave": 56.12,
+		"withdegree": 9.99,
+		"religion": {
+			"christian": 79.12,
+			"jewish": 0.04,
+			"muslim": 0.4
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.05,
+			"black": 0.18,
+			"chinese": 0.33,
+			"indian": 0.5,
+			"mixed": 0.85,
+			"other": 0.07,
+			"otherasian": 0.45,
+			"pakistani": 0.12,
+			"white": 97.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

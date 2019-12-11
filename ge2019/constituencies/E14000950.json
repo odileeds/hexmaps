@@ -3,9 +3,27 @@
 	"title": "South West Devon",
 	"demographics": {
 		"2015UKIP": 14.5,
-		"leave": 55.23,
 		"age18-29": 11.52,
-		"withdegree": 14.48
+		"EUminus": 3.44,
+		"leave": 55.23,
+		"withdegree": 14.48,
+		"religion": {
+			"christian": 66.26,
+			"jewish": 0.03,
+			"muslim": 0.16
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.04,
+			"black": 0.22,
+			"chinese": 0.12,
+			"indian": 0.14,
+			"mixed": 0.74,
+			"other": 0.06,
+			"otherasian": 0.16,
+			"pakistani": 0.01,
+			"white": 98.47
+		}
 	},
 	"elections": {
 		"2019-12-12": {

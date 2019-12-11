@@ -3,8 +3,26 @@
 	"title": "Ochil and South Perthshire",
 	"demographics": {
 		"2015UKIP": 2.3,
+		"age18-29": 11.97,
+		"EUminus": 4.63,
 		"leave": 39.25,
-		"age18-29": 11.97
+		"religion": {
+			"christian": 52.59,
+			"jewish": 0.03,
+			"muslim": 0.43
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.23,
+			"indian": 0.19,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.13,
+			"pakistani": 0.35,
+			"white": 98.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Witney",
 	"demographics": {
 		"2015UKIP": 9.15,
-		"leave": 46.34,
 		"age18-29": 12.92,
-		"withdegree": 20.87
+		"EUminus": 6.47,
+		"leave": 46.34,
+		"withdegree": 20.87,
+		"religion": {
+			"christian": 65.41,
+			"jewish": 0.17,
+			"muslim": 0.42
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.15,
+			"black": 0.42,
+			"chinese": 0.3,
+			"indian": 0.34,
+			"mixed": 1.21,
+			"other": 0.13,
+			"otherasian": 0.49,
+			"pakistani": 0.09,
+			"white": 96.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

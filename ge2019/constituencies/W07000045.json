@@ -3,9 +3,27 @@
 	"title": "Llanelli",
 	"demographics": {
 		"2015UKIP": 16.25,
-		"leave": 55.48,
 		"age18-29": 14.06,
-		"withdegree": 10.74
+		"EUminus": 5.44,
+		"leave": 55.48,
+		"withdegree": 10.74,
+		"religion": {
+			"christian": 59.94,
+			"jewish": 0.03,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.08,
+			"black": 0.13,
+			"chinese": 0.2,
+			"indian": 0.33,
+			"mixed": 0.55,
+			"other": 0.1,
+			"otherasian": 0.46,
+			"pakistani": 0.13,
+			"white": 97.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

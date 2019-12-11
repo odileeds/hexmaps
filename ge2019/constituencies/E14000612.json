@@ -3,9 +3,27 @@
 	"title": "Bury South",
 	"demographics": {
 		"2015UKIP": 13.34,
-		"leave": 54.53,
 		"age18-29": 14.52,
-		"withdegree": 15.64
+		"EUminus": 5.86,
+		"leave": 54.53,
+		"withdegree": 15.64,
+		"religion": {
+			"christian": 59.37,
+			"jewish": 10.19,
+			"muslim": 4.24
+		},
+		"race": {
+			"arab": 0.27,
+			"bangladeshi": 0.14,
+			"black": 1.22,
+			"chinese": 0.72,
+			"indian": 0.98,
+			"mixed": 1.96,
+			"other": 0.69,
+			"otherasian": 0.84,
+			"pakistani": 3.03,
+			"white": 90.14
+		}
 	},
 	"elections": {
 		"2019-12-12": {

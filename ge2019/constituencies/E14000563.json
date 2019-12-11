@@ -3,9 +3,27 @@
 	"title": "Birmingham, Hodge Hill",
 	"demographics": {
 		"2015UKIP": 11.33,
-		"leave": 51.48,
 		"age18-29": 18.17,
-		"withdegree": 7.51
+		"EUminus": 5.9,
+		"leave": 51.48,
+		"withdegree": 7.51,
+		"religion": {
+			"christian": 29.37,
+			"jewish": 0.06,
+			"muslim": 52.12
+		},
+		"race": {
+			"arab": 1.11,
+			"bangladeshi": 4.83,
+			"black": 8.39,
+			"chinese": 0.34,
+			"indian": 1.79,
+			"mixed": 4.14,
+			"other": 0.86,
+			"otherasian": 5.03,
+			"pakistani": 37.84,
+			"white": 35.67
+		}
 	},
 	"elections": {
 		"2019-12-12": {

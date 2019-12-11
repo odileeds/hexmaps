@@ -3,9 +3,27 @@
 	"title": "Bridgend",
 	"demographics": {
 		"2015UKIP": 14.98,
-		"leave": 49.65,
 		"age18-29": 14.25,
-		"withdegree": 14.29
+		"EUminus": 4.2,
+		"leave": 49.65,
+		"withdegree": 14.29,
+		"religion": {
+			"christian": 56.49,
+			"jewish": 0.03,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.1,
+			"black": 0.25,
+			"chinese": 0.32,
+			"indian": 0.32,
+			"mixed": 0.83,
+			"other": 0.16,
+			"otherasian": 0.62,
+			"pakistani": 0.13,
+			"white": 97.19
+		}
 	},
 	"elections": {
 		"2019-12-12": {

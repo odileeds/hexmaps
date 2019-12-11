@@ -3,9 +3,27 @@
 	"title": "Reigate",
 	"demographics": {
 		"2015UKIP": 13.28,
-		"leave": 47.79,
 		"age18-29": 12.78,
-		"withdegree": 23.57
+		"EUminus": 7.44,
+		"leave": 47.79,
+		"withdegree": 23.57,
+		"religion": {
+			"christian": 61.87,
+			"jewish": 0.22,
+			"muslim": 1.97
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.38,
+			"black": 1.71,
+			"chinese": 0.69,
+			"indian": 1.72,
+			"mixed": 2.27,
+			"other": 0.37,
+			"otherasian": 1.67,
+			"pakistani": 0.97,
+			"white": 90.02
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Liverpool, Riverside",
 	"demographics": {
 		"2015UKIP": 5.67,
-		"leave": 26.89,
 		"age18-29": 38.86,
-		"withdegree": 24.01
+		"EUminus": 7.75,
+		"leave": 26.89,
+		"withdegree": 24.01,
+		"religion": {
+			"christian": 57.34,
+			"jewish": 0.48,
+			"muslim": 7.21
+		},
+		"race": {
+			"arab": 2.68,
+			"bangladeshi": 0.38,
+			"black": 4.67,
+			"chinese": 3.63,
+			"indian": 1.54,
+			"mixed": 4.16,
+			"other": 1.13,
+			"otherasian": 1.33,
+			"pakistani": 0.84,
+			"white": 79.65
+		}
 	},
 	"elections": {
 		"2019-12-12": {

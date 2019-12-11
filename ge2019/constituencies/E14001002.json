@@ -3,9 +3,27 @@
 	"title": "Tottenham",
 	"demographics": {
 		"2015UKIP": 3.55,
-		"leave": 23.78,
 		"age18-29": 21.81,
-		"withdegree": 22.79
+		"EUminus": 35.52,
+		"leave": 23.78,
+		"withdegree": 22.79,
+		"religion": {
+			"christian": 47.42,
+			"jewish": 2.65,
+			"muslim": 19.07
+		},
+		"race": {
+			"arab": 1.01,
+			"bangladeshi": 2.32,
+			"black": 26.66,
+			"chinese": 1.57,
+			"indian": 2.21,
+			"mixed": 6.7,
+			"other": 4.88,
+			"otherasian": 3.64,
+			"pakistani": 0.93,
+			"white": 50.1
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Leigh",
 	"demographics": {
 		"2015UKIP": 19.73,
-		"leave": 63.45,
 		"age18-29": 14.73,
-		"withdegree": 9.82
+		"EUminus": 3.04,
+		"leave": 63.45,
+		"withdegree": 9.82,
+		"religion": {
+			"christian": 75.17,
+			"jewish": 0.02,
+			"muslim": 0.76
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.05,
+			"black": 0.63,
+			"chinese": 0.41,
+			"indian": 0.36,
+			"mixed": 0.99,
+			"other": 0.12,
+			"otherasian": 0.28,
+			"pakistani": 0.27,
+			"white": 96.77
+		}
 	},
 	"elections": {
 		"2019-12-12": {

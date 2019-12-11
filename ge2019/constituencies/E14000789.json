@@ -3,9 +3,27 @@
 	"title": "Lewisham, Deptford",
 	"demographics": {
 		"2015UKIP": 4.24,
-		"leave": 24.67,
 		"age18-29": 24.01,
-		"withdegree": 34.31
+		"EUminus": 19.23,
+		"leave": 24.67,
+		"withdegree": 34.31,
+		"religion": {
+			"christian": 49.17,
+			"jewish": 0.25,
+			"muslim": 7.27
+		},
+		"race": {
+			"arab": 0.69,
+			"bangladeshi": 0.54,
+			"black": 28.87,
+			"chinese": 3.5,
+			"indian": 1.79,
+			"mixed": 7.54,
+			"other": 2.16,
+			"otherasian": 4.36,
+			"pakistani": 0.65,
+			"white": 49.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

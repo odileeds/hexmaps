@@ -3,9 +3,27 @@
 	"title": "York Outer",
 	"demographics": {
 		"2015UKIP": 9.74,
-		"leave": 44.92,
 		"age18-29": 14.39,
-		"withdegree": 19.37
+		"EUminus": 4.46,
+		"leave": 44.92,
+		"withdegree": 19.37,
+		"religion": {
+			"christian": 65.63,
+			"jewish": 0.08,
+			"muslim": 0.76
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.11,
+			"black": 0.35,
+			"chinese": 1.06,
+			"indian": 0.53,
+			"mixed": 0.95,
+			"other": 0.12,
+			"otherasian": 0.56,
+			"pakistani": 0.15,
+			"white": 96.02
+		}
 	},
 	"elections": {
 		"2019-12-12": {

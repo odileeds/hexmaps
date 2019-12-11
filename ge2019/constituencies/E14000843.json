@@ -3,9 +3,27 @@
 	"title": "North East Derbyshire",
 	"demographics": {
 		"2015UKIP": 15.92,
-		"leave": 62.17,
 		"age18-29": 12.14,
-		"withdegree": 10.95
+		"EUminus": 1.88,
+		"leave": 62.17,
+		"withdegree": 10.95,
+		"religion": {
+			"christian": 67.24,
+			"jewish": 0.05,
+			"muslim": 0.29
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.05,
+			"black": 0.23,
+			"chinese": 0.19,
+			"indian": 0.31,
+			"mixed": 0.82,
+			"other": 0.09,
+			"otherasian": 0.15,
+			"pakistani": 0.07,
+			"white": 98.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

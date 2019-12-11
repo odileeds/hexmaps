@@ -2,8 +2,26 @@
 	"id": "S14000007",
 	"title": "Banff and Buchan",
 	"demographics": {
+		"age18-29": 13.75,
+		"EUminus": 9.1,
 		"leave": 54.02,
-		"age18-29": 13.75
+		"religion": {
+			"christian": 48.81,
+			"jewish": 0.03,
+			"muslim": 0.17
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.04,
+			"black": ,
+			"chinese": 0.15,
+			"indian": 0.11,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.21,
+			"pakistani": 0.07,
+			"white": 98.98
+		}
 	},
 	"elections": {
 		"2019-12-12": {

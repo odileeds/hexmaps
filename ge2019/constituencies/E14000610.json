@@ -3,9 +3,27 @@
 	"title": "Burton",
 	"demographics": {
 		"2015UKIP": 17.68,
-		"leave": 64.62,
 		"age18-29": 15.26,
-		"withdegree": 11.7
+		"EUminus": 8.07,
+		"leave": 64.62,
+		"withdegree": 11.7,
+		"religion": {
+			"christian": 63.13,
+			"jewish": 0.04,
+			"muslim": 6.57
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.15,
+			"black": 0.97,
+			"chinese": 0.28,
+			"indian": 0.87,
+			"mixed": 1.48,
+			"other": 0.27,
+			"otherasian": 0.81,
+			"pakistani": 5.41,
+			"white": 89.65
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Solihull",
 	"demographics": {
 		"2015UKIP": 11.61,
-		"leave": 53.35,
 		"age18-29": 12.41,
-		"withdegree": 18.74
+		"EUminus": 4.01,
+		"leave": 53.35,
+		"withdegree": 18.74,
+		"religion": {
+			"christian": 64.8,
+			"jewish": 0.2,
+			"muslim": 4.15
+		},
+		"race": {
+			"arab": 0.23,
+			"bangladeshi": 0.52,
+			"black": 1.13,
+			"chinese": 0.58,
+			"indian": 5.14,
+			"mixed": 1.76,
+			"other": 0.61,
+			"otherasian": 1.02,
+			"pakistani": 2.85,
+			"white": 86.18
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "East Surrey",
 	"demographics": {
 		"2015UKIP": 17.03,
-		"leave": 54.19,
 		"age18-29": 12.17,
-		"withdegree": 18.5
+		"EUminus": 5.92,
+		"leave": 54.19,
+		"withdegree": 18.5,
+		"religion": {
+			"christian": 63.91,
+			"jewish": 0.15,
+			"muslim": 0.96
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.19,
+			"black": 1.12,
+			"chinese": 0.56,
+			"indian": 0.92,
+			"mixed": 2.1,
+			"other": 0.3,
+			"otherasian": 0.97,
+			"pakistani": 0.26,
+			"white": 93.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

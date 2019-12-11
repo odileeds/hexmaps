@@ -3,9 +3,27 @@
 	"title": "Luton North",
 	"demographics": {
 		"2015UKIP": 12.49,
-		"leave": 58.21,
 		"age18-29": 16.17,
-		"withdegree": 13.01
+		"EUminus": 11.13,
+		"leave": 58.21,
+		"withdegree": 13.01,
+		"religion": {
+			"christian": 49.42,
+			"jewish": 0.19,
+			"muslim": 22.38
+		},
+		"race": {
+			"arab": 0.53,
+			"bangladeshi": 5.22,
+			"black": 10.82,
+			"chinese": 0.53,
+			"indian": 5.82,
+			"mixed": 4.41,
+			"other": 0.54,
+			"otherasian": 3.12,
+			"pakistani": 14.12,
+			"white": 54.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

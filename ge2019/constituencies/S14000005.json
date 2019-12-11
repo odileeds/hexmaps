@@ -3,8 +3,26 @@
 	"title": "Argyll and Bute",
 	"demographics": {
 		"2015UKIP": 2.53,
+		"age18-29": 11.79,
+		"EUminus": 4.4,
 		"leave": 39.43,
-		"age18-29": 11.79
+		"religion": {
+			"christian": 59.02,
+			"jewish": 0.05,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.05,
+			"black": ,
+			"chinese": 0.17,
+			"indian": 0.13,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.18,
+			"pakistani": 0.12,
+			"white": 98.76
+		}
 	},
 	"elections": {
 		"2019-12-12": {

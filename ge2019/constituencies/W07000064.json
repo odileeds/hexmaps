@@ -3,9 +3,27 @@
 	"title": "Ceredigion",
 	"demographics": {
 		"2015UKIP": 10.23,
-		"leave": 45.37,
 		"age18-29": 21.15,
-		"withdegree": 17.87
+		"EUminus": 5.56,
+		"leave": 45.37,
+		"withdegree": 17.87,
+		"religion": {
+			"christian": 57.93,
+			"jewish": 0.08,
+			"muslim": 0.69
+		},
+		"race": {
+			"arab": 0.26,
+			"bangladeshi": 0.12,
+			"black": 0.35,
+			"chinese": 0.42,
+			"indian": 0.48,
+			"mixed": 0.97,
+			"other": 0.24,
+			"otherasian": 0.31,
+			"pakistani": 0.11,
+			"white": 96.73
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Knowsley",
 	"demographics": {
 		"2015UKIP": 9.8,
-		"leave": 52.44,
 		"age18-29": 16.08,
-		"withdegree": 6.99
+		"EUminus": 1.56,
+		"leave": 52.44,
+		"withdegree": 6.99,
+		"religion": {
+			"christian": 81.51,
+			"jewish": 0.03,
+			"muslim": 0.24
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.01,
+			"black": 0.3,
+			"chinese": 0.2,
+			"indian": 0.21,
+			"mixed": 1.21,
+			"other": 0.06,
+			"otherasian": 0.15,
+			"pakistani": 0.04,
+			"white": 97.74
+		}
 	},
 	"elections": {
 		"2019-12-12": {

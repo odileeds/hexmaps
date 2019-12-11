@@ -3,9 +3,27 @@
 	"title": "Torridge and West Devon",
 	"demographics": {
 		"2015UKIP": 18.33,
-		"leave": 57.07,
 		"age18-29": 10.65,
-		"withdegree": 13.11
+		"EUminus": 2.98,
+		"leave": 57.07,
+		"withdegree": 13.11,
+		"religion": {
+			"christian": 63.27,
+			"jewish": 0.07,
+			"muslim": 0.16
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.03,
+			"black": 0.09,
+			"chinese": 0.18,
+			"indian": 0.07,
+			"mixed": 0.68,
+			"other": 0.06,
+			"otherasian": 0.17,
+			"pakistani": 0.01,
+			"white": 98.64
+		}
 	},
 	"elections": {
 		"2019-12-12": {

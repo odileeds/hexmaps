@@ -3,9 +3,27 @@
 	"title": "Shipley",
 	"demographics": {
 		"2015UKIP": 8.86,
-		"leave": 52.21,
 		"age18-29": 12.86,
-		"withdegree": 19.66
+		"EUminus": 4.25,
+		"leave": 52.21,
+		"withdegree": 19.66,
+		"religion": {
+			"christian": 60.53,
+			"jewish": 0.08,
+			"muslim": 3.05
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 0.26,
+			"black": 0.67,
+			"chinese": 0.25,
+			"indian": 1,
+			"mixed": 1.84,
+			"other": 0.38,
+			"otherasian": 0.56,
+			"pakistani": 2.28,
+			"white": 92.47
+		}
 	},
 	"elections": {
 		"2019-12-12": {

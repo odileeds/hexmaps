@@ -3,8 +3,26 @@
 	"title": "Aberdeen South",
 	"demographics": {
 		"2015UKIP": 1.85,
+		"age18-29": 21.04,
+		"EUminus": 12.53,
 		"leave": 32.33,
-		"age18-29": 21.04
+		"religion": {
+			"christian": 42.74,
+			"jewish": 0.07,
+			"muslim": 1.73
+		},
+		"race": {
+			"arab": 0.37,
+			"bangladeshi": 0.23,
+			"black": ,
+			"chinese": 0.81,
+			"indian": 1.39,
+			"mixed": 0,
+			"other": 0.22,
+			"otherasian": 1.02,
+			"pakistani": 0.39,
+			"white": 92.58
+		}
 	},
 	"elections": {
 		"2019-12-12": {

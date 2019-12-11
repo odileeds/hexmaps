@@ -3,9 +3,27 @@
 	"title": "Gedling",
 	"demographics": {
 		"2015UKIP": 14.44,
-		"leave": 56.2,
 		"age18-29": 13.58,
-		"withdegree": 13.99
+		"EUminus": 4.31,
+		"leave": 56.2,
+		"withdegree": 13.99,
+		"religion": {
+			"christian": 55.49,
+			"jewish": 0.08,
+			"muslim": 1.5
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.06,
+			"black": 1.68,
+			"chinese": 0.41,
+			"indian": 1.18,
+			"mixed": 2.53,
+			"other": 0.21,
+			"otherasian": 0.51,
+			"pakistani": 0.96,
+			"white": 92.4
+		}
 	},
 	"elections": {
 		"2019-12-12": {

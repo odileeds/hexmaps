@@ -3,9 +3,27 @@
 	"title": "Filton and Bradley Stoke",
 	"demographics": {
 		"2015UKIP": 14.79,
-		"leave": 47.98,
 		"age18-29": 17.38,
-		"withdegree": 17.63
+		"EUminus": 7.33,
+		"leave": 47.98,
+		"withdegree": 17.63,
+		"religion": {
+			"christian": 56.75,
+			"jewish": 0.07,
+			"muslim": 1.4
+		},
+		"race": {
+			"arab": 0.28,
+			"bangladeshi": 0.09,
+			"black": 1.35,
+			"chinese": 0.93,
+			"indian": 2.16,
+			"mixed": 1.83,
+			"other": 0.29,
+			"otherasian": 0.93,
+			"pakistani": 0.49,
+			"white": 91.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "North East Hampshire",
 	"demographics": {
 		"2015UKIP": 8.76,
-		"leave": 45.92,
 		"age18-29": 10.93,
-		"withdegree": 24.48
+		"EUminus": 6.18,
+		"leave": 45.92,
+		"withdegree": 24.48,
+		"religion": {
+			"christian": 65.35,
+			"jewish": 0.11,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.14,
+			"black": 0.45,
+			"chinese": 0.42,
+			"indian": 0.86,
+			"mixed": 1.52,
+			"other": 0.17,
+			"otherasian": 0.74,
+			"pakistani": 0.15,
+			"white": 95.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

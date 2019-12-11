@@ -2,8 +2,26 @@
 	"id": "S14000001",
 	"title": "Aberdeen North",
 	"demographics": {
+		"age18-29": 28.93,
+		"EUminus": 17.36,
 		"leave": 43.1,
-		"age18-29": 28.93
+		"religion": {
+			"christian": 38.31,
+			"jewish": 0.09,
+			"muslim": 2.31
+		},
+		"race": {
+			"arab": 0.56,
+			"bangladeshi": 0.33,
+			"black": ,
+			"chinese": 1.13,
+			"indian": 1.94,
+			"mixed": 0,
+			"other": 0.22,
+			"otherasian": 1.23,
+			"pakistani": 0.51,
+			"white": 90.19
+		}
 	},
 	"elections": {
 		"2019-12-12": {

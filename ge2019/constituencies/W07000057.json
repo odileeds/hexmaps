@@ -3,9 +3,27 @@
 	"title": "Arfon",
 	"demographics": {
 		"2015UKIP": 8.48,
-		"leave": 34.91,
 		"age18-29": 22.3,
-		"withdegree": 18.35
+		"EUminus": 3.82,
+		"leave": 34.91,
+		"withdegree": 18.35,
+		"religion": {
+			"christian": 55.63,
+			"jewish": 0.05,
+			"muslim": 1.94
+		},
+		"race": {
+			"arab": 0.98,
+			"bangladeshi": 0.23,
+			"black": 0.35,
+			"chinese": 1.38,
+			"indian": 0.63,
+			"mixed": 0.99,
+			"other": 0.25,
+			"otherasian": 0.52,
+			"pakistani": 0.31,
+			"white": 94.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

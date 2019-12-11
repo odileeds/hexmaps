@@ -3,9 +3,27 @@
 	"title": "Northampton North",
 	"demographics": {
 		"2015UKIP": 16.12,
-		"leave": 60.69,
 		"age18-29": 17.94,
-		"withdegree": 12.65
+		"EUminus": 11.77,
+		"leave": 60.69,
+		"withdegree": 12.65,
+		"religion": {
+			"christian": 57.25,
+			"jewish": 0.12,
+			"muslim": 3.66
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 1.37,
+			"black": 5.16,
+			"chinese": 0.79,
+			"indian": 2.12,
+			"mixed": 3.28,
+			"other": 0.36,
+			"otherasian": 0.71,
+			"pakistani": 0.81,
+			"white": 85.17
+		}
 	},
 	"elections": {
 		"2019-12-12": {

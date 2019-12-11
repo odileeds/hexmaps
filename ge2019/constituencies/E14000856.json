@@ -3,9 +3,27 @@
 	"title": "North West Durham",
 	"demographics": {
 		"2015UKIP": 16.97,
-		"leave": 54.98,
 		"age18-29": 13.2,
-		"withdegree": 11.99
+		"EUminus": 2.85,
+		"leave": 54.98,
+		"withdegree": 11.99,
+		"religion": {
+			"christian": 73.93,
+			"jewish": 0.02,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.04,
+			"black": 0.08,
+			"chinese": 0.14,
+			"indian": 0.12,
+			"mixed": 0.48,
+			"other": 0.04,
+			"otherasian": 0.15,
+			"pakistani": 0.04,
+			"white": 98.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

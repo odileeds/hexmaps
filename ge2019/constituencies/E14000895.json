@@ -3,9 +3,27 @@
 	"title": "Richmond (Yorks)",
 	"demographics": {
 		"2015UKIP": 15.17,
-		"leave": 54.7,
 		"age18-29": 15.06,
-		"withdegree": 16.13
+		"EUminus": 5.43,
+		"leave": 54.7,
+		"withdegree": 16.13,
+		"religion": {
+			"christian": 70.99,
+			"jewish": 0.05,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.04,
+			"black": 0.57,
+			"chinese": 0.15,
+			"indian": 0.22,
+			"mixed": 0.82,
+			"other": 0.18,
+			"otherasian": 1.05,
+			"pakistani": 0.07,
+			"white": 96.86
+		}
 	},
 	"elections": {
 		"2019-12-12": {

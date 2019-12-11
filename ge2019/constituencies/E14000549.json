@@ -3,9 +3,27 @@
 	"title": "Battersea",
 	"demographics": {
 		"2015UKIP": 3.11,
-		"leave": 23.04,
 		"age18-29": 26.96,
-		"withdegree": 51.1
+		"EUminus": 21.7,
+		"leave": 23.04,
+		"withdegree": 51.1,
+		"religion": {
+			"christian": 55.06,
+			"jewish": 0.48,
+			"muslim": 5.55
+		},
+		"race": {
+			"arab": 0.82,
+			"bangladeshi": 0.41,
+			"black": 12.24,
+			"chinese": 1.29,
+			"indian": 1.8,
+			"mixed": 5.05,
+			"other": 1.33,
+			"otherasian": 2.41,
+			"pakistani": 1.16,
+			"white": 73.48
+		}
 	},
 	"elections": {
 		"2019-12-12": {

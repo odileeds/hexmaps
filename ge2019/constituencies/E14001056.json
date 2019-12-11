@@ -3,9 +3,27 @@
 	"title": "Wycombe",
 	"demographics": {
 		"2015UKIP": 10.11,
-		"leave": 48.04,
 		"age18-29": 17.26,
-		"withdegree": 21.22
+		"EUminus": 9.16,
+		"leave": 48.04,
+		"withdegree": 21.22,
+		"religion": {
+			"christian": 52.27,
+			"jewish": 0.2,
+			"muslim": 13.41
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.5,
+			"black": 4.98,
+			"chinese": 0.7,
+			"indian": 2.35,
+			"mixed": 3.42,
+			"other": 0.38,
+			"otherasian": 2.35,
+			"pakistani": 11.79,
+			"white": 73.32
+		}
 	},
 	"elections": {
 		"2019-12-12": {

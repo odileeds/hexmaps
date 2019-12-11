@@ -3,9 +3,27 @@
 	"title": "Worcester",
 	"demographics": {
 		"2015UKIP": 12.83,
-		"leave": 53.68,
 		"age18-29": 17.86,
-		"withdegree": 16.98
+		"EUminus": 7.32,
+		"leave": 53.68,
+		"withdegree": 16.98,
+		"religion": {
+			"christian": 63.7,
+			"jewish": 0.03,
+			"muslim": 2.88
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.45,
+			"black": 0.48,
+			"chinese": 0.4,
+			"indian": 0.82,
+			"mixed": 1.41,
+			"other": 0.18,
+			"otherasian": 0.81,
+			"pakistani": 1.95,
+			"white": 93.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

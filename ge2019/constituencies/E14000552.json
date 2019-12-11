@@ -3,9 +3,27 @@
 	"title": "Bedford",
 	"demographics": {
 		"2015UKIP": 9.62,
-		"leave": 51.95,
 		"age18-29": 17.62,
-		"withdegree": 15.43
+		"EUminus": 17.65,
+		"leave": 51.95,
+		"withdegree": 15.43,
+		"religion": {
+			"christian": 56.12,
+			"jewish": 0.1,
+			"muslim": 7.92
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 3.03,
+			"black": 5.21,
+			"chinese": 0.7,
+			"indian": 6.63,
+			"mixed": 4.04,
+			"other": 0.6,
+			"otherasian": 2.04,
+			"pakistani": 3.02,
+			"white": 74.43
+		}
 	},
 	"elections": {
 		"2019-12-12": {

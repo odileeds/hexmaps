@@ -3,8 +3,26 @@
 	"title": "West Aberdeenshire and Kincardine",
 	"demographics": {
 		"2015UKIP": 1.82,
+		"age18-29": 11.62,
+		"EUminus": 4.65,
 		"leave": 38.61,
-		"age18-29": 11.62
+		"religion": {
+			"christian": 48.93,
+			"jewish": 0.03,
+			"muslim": 0.35
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.07,
+			"black": ,
+			"chinese": 0.19,
+			"indian": 0.28,
+			"mixed": 0,
+			"other": 0.08,
+			"otherasian": 0.41,
+			"pakistani": 0.13,
+			"white": 98.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

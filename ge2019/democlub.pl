@@ -230,8 +230,8 @@ close($fh);
 #####################################
 # Read in New Statesman demographics
 
-$file = "temp/britainelects.csv";
-#ONSConstID,Constituency Name,Country,Region,2016Leave,2015UKIP,age18-29,WhiteBritish,WithDegree
+$file = "temp/britainelects2.csv";
+#ONSConstID,ConstituencyName,Country,Region,%: 2016 Leave,%: 2015 UKIP,%: age 18-29,White,Mixed,Indian,Pakistani,Bangladeshi,Chinese,Other Asian,Black,Arab,Other,%: born in the EU (excl. GB),%: Christian,%: Jewish,%: Muslim,%: with a Degree
 my $csv = Text::CSV->new ({ binary => 1 });
 open my $fh, "<", $file or die "$file: $!";
 $line = 0;
@@ -245,7 +245,6 @@ while (my $row = $csv->getline ($fh)) {
 		@header = @fields;
 	}else{
 		for($i = 0; $i < @fields; $i++){
-			print "Saving britainelects-$header[$i]\n";
 			if(!$con{$pcd}{'britainelects-'.$header[$i]}){
 				$con{$pcd}{'britainelects-'.$header[$i]} = $fields[$i];
 			}
@@ -352,8 +351,6 @@ close(FILE);
 
 
 
-%demo = ('britainelects-%: 2016 Leave'=>'leave','britainelects-%: with Degree'=>'withdegree','britainelects-%: age 18 - 29'=>'age18-29','britainelects-%: 2015 UKIP'=>'2015UKIP','2016Leave'=>'britainelects-%: 2016 Leave');
-
 open(MISSING,">","temp/missing.tsv");
 print MISSING "Constituency\tCandidate name\tParty\tDemocracy Club URL\n";
 foreach $pcd (sort(keys(%con))){
@@ -364,13 +361,58 @@ foreach $pcd (sort(keys(%con))){
 		print FILE "\t\"title\": \"$con{$pcd}{'cname1'}\",\n";
 		print FILE "\t\"demographics\": {\n";
 		$n = 0;
-		foreach $d (sort(keys(%demo))){
-			print "$d - $demo{$d} - $con{$pcd}{$d}\n";
-			if($con{$pcd}{$d}){
-				if($n > 0){ print FILE ",\n"; }
-				print FILE "\t\t\"".$demo{$d}."\": ".$con{$pcd}{$d}."";
-				$n++;
-			}
+		if($con{$pcd}{'britainelects-%: 2015 UKIP'}){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"2015UKIP\": ".$con{$pcd}{'britainelects-%: 2015 UKIP'}."";
+			$n++;
+		}
+		if($con{$pcd}{'britainelects-%: age 18-29'}){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"age18-29\": ".$con{$pcd}{'britainelects-%: age 18-29'}."";
+			$n++;
+		}
+		if($con{$pcd}{'britainelects-%: born in the EU (excl. GB)'}){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"EUminus\": ".$con{$pcd}{'britainelects-%: born in the EU (excl. GB)'}."";
+			$n++;
+		}
+		if($con{$pcd}{'britainelects-%: 2016 Leave'}){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"leave\": ".$con{$pcd}{'britainelects-%: 2016 Leave'}."";
+			$n++;
+		}
+		if($con{$pcd}{'britainelects-%: with a Degree'}){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"withdegree\": ".$con{$pcd}{'britainelects-%: with a Degree'}."";
+			$n++;
+		}
+		$rel = $con{$pcd}{'britainelects-%: Christian'}+$con{$pcd}{'britainelects-%: Jewish'}+$con{$pcd}{'britainelects-%: Muslim'};
+		if($rel > 0){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"religion\": {\n";
+			print FILE "\t\t\t\"christian\": ".$con{$pcd}{'britainelects-%: Christian'}.",\n";
+			print FILE "\t\t\t\"jewish\": ".$con{$pcd}{'britainelects-%: Jewish'}.",\n";
+			print FILE "\t\t\t\"muslim\": ".$con{$pcd}{'britainelects-%: Muslim'}."\n";
+			print FILE "\t\t}";
+			$n++;
+		}
+		#White,Mixed,Indian,Pakistani,Bangladeshi,Chinese,Other Asian,Black,Arab,Other
+		$race = $con{$pcd}{'britainelects-White'}+$con{$pcd}{'britainelects-Mixed'}+$con{$pcd}{'britainelects-Indian'}+$con{$pcd}{'britainelects-Pakistani'}+$con{$pcd}{'britainelects-Bangladeshi'}+$con{$pcd}{'britainelects-Chinese'}+$con{$pcd}{'britainelects-Other Asian'}+$con{$pcd}{'britainelects-Black'}+$con{$pcd}{'britainelects-Arab'}+$con{$pcd}{'britainelects-Other'};
+		if($rel > 0){
+			if($n > 0){ print FILE ",\n"; }
+			print FILE "\t\t\"race\": {\n";
+			print FILE "\t\t\t\"arab\": ".$con{$pcd}{'britainelects-Arab'}.",\n";
+			print FILE "\t\t\t\"bangladeshi\": ".$con{$pcd}{'britainelects-Bangladeshi'}.",\n";
+			print FILE "\t\t\t\"black\": ".$con{$pcd}{'britainelects-Black'}.",\n";
+			print FILE "\t\t\t\"chinese\": ".$con{$pcd}{'britainelects-Chinese'}.",\n";
+			print FILE "\t\t\t\"indian\": ".$con{$pcd}{'britainelects-Indian'}.",\n";
+			print FILE "\t\t\t\"mixed\": ".$con{$pcd}{'britainelects-Mixed'}.",\n";
+			print FILE "\t\t\t\"other\": ".$con{$pcd}{'britainelects-Other'}.",\n";
+			print FILE "\t\t\t\"otherasian\": ".$con{$pcd}{'britainelects-Other Asian'}.",\n";
+			print FILE "\t\t\t\"pakistani\": ".$con{$pcd}{'britainelects-Pakistani'}.",\n";
+			print FILE "\t\t\t\"white\": ".$con{$pcd}{'britainelects-White'}."\n";
+			print FILE "\t\t}";
+			$n++;
 		}
 		print FILE "\n\t},\n";
 		print FILE "\t\"elections\": {\n";

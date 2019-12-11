@@ -3,9 +3,27 @@
 	"title": "Carmarthen West and South Pembrokeshire",
 	"demographics": {
 		"2015UKIP": 11.64,
-		"leave": 55.37,
 		"age18-29": 13.41,
-		"withdegree": 13.11
+		"EUminus": 4.36,
+		"leave": 55.37,
+		"withdegree": 13.11,
+		"religion": {
+			"christian": 65.18,
+			"jewish": 0.05,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.05,
+			"black": 0.16,
+			"chinese": 0.16,
+			"indian": 0.35,
+			"mixed": 0.65,
+			"other": 0.17,
+			"otherasian": 0.45,
+			"pakistani": 0.06,
+			"white": 97.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

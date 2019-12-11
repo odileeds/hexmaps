@@ -3,9 +3,27 @@
 	"title": "Ribble Valley",
 	"demographics": {
 		"2015UKIP": 15.79,
-		"leave": 58.68,
 		"age18-29": 12.38,
-		"withdegree": 16.59
+		"EUminus": 3.1,
+		"leave": 58.68,
+		"withdegree": 16.59,
+		"religion": {
+			"christian": 77.67,
+			"jewish": 0.02,
+			"muslim": 0.71
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.04,
+			"black": 0.19,
+			"chinese": 0.18,
+			"indian": 0.5,
+			"mixed": 0.82,
+			"other": 0.07,
+			"otherasian": 0.2,
+			"pakistani": 0.41,
+			"white": 97.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Haltemprice and Howden",
 	"demographics": {
 		"2015UKIP": 13.91,
-		"leave": 55.5,
 		"age18-29": 11.84,
-		"withdegree": 16.85
+		"EUminus": 2.78,
+		"leave": 55.5,
+		"withdegree": 16.85,
+		"religion": {
+			"christian": 67.58,
+			"jewish": 0.21,
+			"muslim": 0.73
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.02,
+			"black": 0.27,
+			"chinese": 0.23,
+			"indian": 0.66,
+			"mixed": 0.84,
+			"other": 0.09,
+			"otherasian": 0.27,
+			"pakistani": 0.25,
+			"white": 97.18
+		}
 	},
 	"elections": {
 		"2019-12-12": {

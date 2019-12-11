@@ -3,9 +3,27 @@
 	"title": "Hayes and Harlington",
 	"demographics": {
 		"2015UKIP": 11.96,
-		"leave": 59.41,
 		"age18-29": 19.06,
-		"withdegree": 15.76
+		"EUminus": 13.63,
+		"leave": 59.41,
+		"withdegree": 15.76,
+		"religion": {
+			"christian": 40.1,
+			"jewish": 0.09,
+			"muslim": 16.63
+		},
+		"race": {
+			"arab": 1.23,
+			"bangladeshi": 1.07,
+			"black": 11.88,
+			"chinese": 0.54,
+			"indian": 19.17,
+			"mixed": 4.1,
+			"other": 2.85,
+			"otherasian": 10.17,
+			"pakistani": 5.57,
+			"white": 43.4
+		}
 	},
 	"elections": {
 		"2019-12-12": {

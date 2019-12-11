@@ -3,9 +3,27 @@
 	"title": "Spelthorne",
 	"demographics": {
 		"2015UKIP": 20.85,
-		"leave": 60.3,
 		"age18-29": 13.71,
-		"withdegree": 15.88
+		"EUminus": 8.34,
+		"leave": 60.3,
+		"withdegree": 15.88,
+		"religion": {
+			"christian": 63.76,
+			"jewish": 0.22,
+			"muslim": 1.89
+		},
+		"race": {
+			"arab": 0.34,
+			"bangladeshi": 0.27,
+			"black": 1.62,
+			"chinese": 0.65,
+			"indian": 4.2,
+			"mixed": 2.49,
+			"other": 0.63,
+			"otherasian": 1.83,
+			"pakistani": 0.69,
+			"white": 87.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

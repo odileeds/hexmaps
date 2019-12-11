@@ -2,8 +2,26 @@
 	"id": "S14000032",
 	"title": "Glasgow North East",
 	"demographics": {
+		"age18-29": 19.61,
+		"EUminus": 4.98,
 		"leave": 40.66,
-		"age18-29": 19.61
+		"religion": {
+			"christian": 60.34,
+			"jewish": 0.06,
+			"muslim": 3.45
+		},
+		"race": {
+			"arab": 0.48,
+			"bangladeshi": 0.17,
+			"black": ,
+			"chinese": 2.31,
+			"indian": 0.93,
+			"mixed": 0,
+			"other": 0.21,
+			"otherasian": 0.92,
+			"pakistani": 1.1,
+			"white": 89.21
+		}
 	},
 	"elections": {
 		"2019-12-12": {

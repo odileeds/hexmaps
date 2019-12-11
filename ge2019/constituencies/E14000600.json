@@ -3,9 +3,27 @@
 	"title": "Bristol North West",
 	"demographics": {
 		"2015UKIP": 9.44,
-		"leave": 38.85,
 		"age18-29": 17.56,
-		"withdegree": 22.43
+		"EUminus": 9.6,
+		"leave": 38.85,
+		"withdegree": 22.43,
+		"religion": {
+			"christian": 54.57,
+			"jewish": 0.18,
+			"muslim": 3.11
+		},
+		"race": {
+			"arab": 0.24,
+			"bangladeshi": 0.49,
+			"black": 4.11,
+			"chinese": 0.66,
+			"indian": 2.05,
+			"mixed": 3.07,
+			"other": 0.45,
+			"otherasian": 1.18,
+			"pakistani": 0.91,
+			"white": 86.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

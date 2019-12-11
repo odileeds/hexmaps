@@ -3,9 +3,27 @@
 	"title": "Isle of Wight",
 	"demographics": {
 		"2015UKIP": 21.18,
-		"leave": 61.95,
 		"age18-29": 11.89,
-		"withdegree": 10.77
+		"EUminus": 4.19,
+		"leave": 61.95,
+		"withdegree": 10.77,
+		"religion": {
+			"christian": 60.51,
+			"jewish": 0.09,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.09,
+			"black": 0.21,
+			"chinese": 0.16,
+			"indian": 0.31,
+			"mixed": 1.24,
+			"other": 0.1,
+			"otherasian": 0.47,
+			"pakistani": 0.06,
+			"white": 97.31
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bassetlaw",
 	"demographics": {
 		"2015UKIP": 15.96,
-		"leave": 68.32,
 		"age18-29": 13.23,
-		"withdegree": 9.04
+		"EUminus": 5.31,
+		"leave": 68.32,
+		"withdegree": 9.04,
+		"religion": {
+			"christian": 70.81,
+			"jewish": 0.04,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.06,
+			"black": 0.44,
+			"chinese": 0.17,
+			"indian": 0.42,
+			"mixed": 0.89,
+			"other": 0.13,
+			"otherasian": 0.25,
+			"pakistani": 0.17,
+			"white": 97.42
+		}
 	},
 	"elections": {
 		"2019-12-12": {

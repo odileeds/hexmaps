@@ -3,9 +3,27 @@
 	"title": "Gower",
 	"demographics": {
 		"2015UKIP": 11.16,
-		"leave": 50.18,
 		"age18-29": 11.96,
-		"withdegree": 18.8
+		"EUminus": 2.48,
+		"leave": 50.18,
+		"withdegree": 18.8,
+		"religion": {
+			"christian": 61.95,
+			"jewish": 0.04,
+			"muslim": 0.46
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.07,
+			"black": 0.17,
+			"chinese": 0.19,
+			"indian": 0.3,
+			"mixed": 0.68,
+			"other": 0.11,
+			"otherasian": 0.24,
+			"pakistani": 0.11,
+			"white": 97.92
+		}
 	},
 	"elections": {
 		"2019-12-12": {

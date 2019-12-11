@@ -3,9 +3,27 @@
 	"title": "City of Durham",
 	"demographics": {
 		"2015UKIP": 11.46,
-		"leave": 44.35,
 		"age18-29": 23.96,
-		"withdegree": 19.59
+		"EUminus": 4.41,
+		"leave": 44.35,
+		"withdegree": 19.59,
+		"religion": {
+			"christian": 66.4,
+			"jewish": 0.11,
+			"muslim": 1.01
+		},
+		"race": {
+			"arab": 0.37,
+			"bangladeshi": 0.07,
+			"black": 0.35,
+			"chinese": 1.01,
+			"indian": 0.65,
+			"mixed": 1.05,
+			"other": 0.15,
+			"otherasian": 0.64,
+			"pakistani": 0.18,
+			"white": 95.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

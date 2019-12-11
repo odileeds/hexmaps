@@ -3,9 +3,27 @@
 	"title": "Rushcliffe",
 	"demographics": {
 		"2015UKIP": 10.77,
-		"leave": 41.31,
 		"age18-29": 13.05,
-		"withdegree": 27.94
+		"EUminus": 4.3,
+		"leave": 41.31,
+		"withdegree": 27.94,
+		"religion": {
+			"christian": 58.27,
+			"jewish": 0.31,
+			"muslim": 1.71
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.04,
+			"black": 0.59,
+			"chinese": 0.54,
+			"indian": 2.43,
+			"mixed": 1.8,
+			"other": 0.28,
+			"otherasian": 0.59,
+			"pakistani": 1.09,
+			"white": 92.48
+		}
 	},
 	"elections": {
 		"2019-12-12": {

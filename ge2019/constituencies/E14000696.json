@@ -3,9 +3,27 @@
 	"title": "Erith and Thamesmead",
 	"demographics": {
 		"2015UKIP": 17.29,
-		"leave": 54.33,
 		"age18-29": 17.15,
-		"withdegree": 16.25
+		"EUminus": 11.18,
+		"leave": 54.33,
+		"withdegree": 16.25,
+		"religion": {
+			"christian": 58.8,
+			"jewish": 0.1,
+			"muslim": 5.55
+		},
+		"race": {
+			"arab": 0.24,
+			"bangladeshi": 0.49,
+			"black": 25.69,
+			"chinese": 1.33,
+			"indian": 3.92,
+			"mixed": 4.07,
+			"other": 1.14,
+			"otherasian": 4.44,
+			"pakistani": 0.87,
+			"white": 57.79
+		}
 	},
 	"elections": {
 		"2019-12-12": {

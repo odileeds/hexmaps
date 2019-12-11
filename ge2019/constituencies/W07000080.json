@@ -3,9 +3,27 @@
 	"title": "Cardiff South and Penarth",
 	"demographics": {
 		"2015UKIP": 13.76,
-		"leave": 44.94,
 		"age18-29": 19.32,
-		"withdegree": 21.17
+		"EUminus": 6.9,
+		"leave": 44.94,
+		"withdegree": 21.17,
+		"religion": {
+			"christian": 50.95,
+			"jewish": 0.09,
+			"muslim": 8.1
+		},
+		"race": {
+			"arab": 1.56,
+			"bangladeshi": 1.24,
+			"black": 3.88,
+			"chinese": 0.81,
+			"indian": 2.03,
+			"mixed": 3.32,
+			"other": 0.63,
+			"otherasian": 1.28,
+			"pakistani": 1.9,
+			"white": 83.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

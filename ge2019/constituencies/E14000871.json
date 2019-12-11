@@ -3,9 +3,27 @@
 	"title": "Oldham West and Royton",
 	"demographics": {
 		"2015UKIP": 20.61,
-		"leave": 61.31,
 		"age18-29": 16.43,
-		"withdegree": 8.61
+		"EUminus": 3.55,
+		"leave": 61.31,
+		"withdegree": 8.61,
+		"religion": {
+			"christian": 54.75,
+			"jewish": 0.06,
+			"muslim": 24.58
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 13.62,
+			"black": 1.37,
+			"chinese": 0.38,
+			"indian": 1.03,
+			"mixed": 1.75,
+			"other": 0.21,
+			"otherasian": 1.11,
+			"pakistani": 10.39,
+			"white": 70.06
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Ealing Central and Acton",
 	"demographics": {
 		"2015UKIP": 3.78,
-		"leave": 29.15,
 		"age18-29": 20.56,
-		"withdegree": 40.14
+		"EUminus": 31.85,
+		"leave": 29.15,
+		"withdegree": 40.14,
+		"religion": {
+			"christian": 48.97,
+			"jewish": 0.56,
+			"muslim": 13.36
+		},
+		"race": {
+			"arab": 4.15,
+			"bangladeshi": 0.36,
+			"black": 9.05,
+			"chinese": 1.84,
+			"indian": 5.39,
+			"mixed": 5.12,
+			"other": 2.61,
+			"otherasian": 6.25,
+			"pakistani": 1.93,
+			"white": 63.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

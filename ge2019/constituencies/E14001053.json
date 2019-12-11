@@ -3,9 +3,27 @@
 	"title": "Workington",
 	"demographics": {
 		"2015UKIP": 19.6,
-		"leave": 60.32,
 		"age18-29": 12.4,
-		"withdegree": 10.46
+		"EUminus": 2.19,
+		"leave": 60.32,
+		"withdegree": 10.46,
+		"religion": {
+			"christian": 76.54,
+			"jewish": 0.02,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0,
+			"bangladeshi": 0.09,
+			"black": 0.06,
+			"chinese": 0.13,
+			"indian": 0.07,
+			"mixed": 0.43,
+			"other": 0.06,
+			"otherasian": 0.14,
+			"pakistani": 0.04,
+			"white": 98.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

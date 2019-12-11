@@ -3,8 +3,26 @@
 	"title": "Rutherglen and Hamilton West",
 	"demographics": {
 		"2015UKIP": 2.26,
+		"age18-29": 14.52,
+		"EUminus": 2.73,
 		"leave": 37.34,
-		"age18-29": 14.52
+		"religion": {
+			"christian": 63.44,
+			"jewish": 0.04,
+			"muslim": 1.2
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.03,
+			"black": ,
+			"chinese": 0.39,
+			"indian": 0.55,
+			"mixed": 0,
+			"other": 0.05,
+			"otherasian": 0.2,
+			"pakistani": 1.04,
+			"white": 97.05
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Huntingdon",
 	"demographics": {
 		"2015UKIP": 16.94,
-		"leave": 53.27,
 		"age18-29": 14.37,
-		"withdegree": 16.53
+		"EUminus": 9.2,
+		"leave": 53.27,
+		"withdegree": 16.53,
+		"religion": {
+			"christian": 59.36,
+			"jewish": 0.13,
+			"muslim": 1.5
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.3,
+			"black": 1.19,
+			"chinese": 0.39,
+			"indian": 0.78,
+			"mixed": 1.67,
+			"other": 0.21,
+			"otherasian": 0.79,
+			"pakistani": 0.82,
+			"white": 93.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bishop Auckland",
 	"demographics": {
 		"2015UKIP": 17.81,
-		"leave": 60.62,
 		"age18-29": 13.55,
-		"withdegree": 9.71
+		"EUminus": 2.3,
+		"leave": 60.62,
+		"withdegree": 9.71,
+		"religion": {
+			"christian": 74.53,
+			"jewish": 0.02,
+			"muslim": 0.2
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.02,
+			"black": 0.1,
+			"chinese": 0.13,
+			"indian": 0.17,
+			"mixed": 0.53,
+			"other": 0.06,
+			"otherasian": 0.12,
+			"pakistani": 0.07,
+			"white": 98.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Wimbledon",
 	"demographics": {
 		"2015UKIP": 5.11,
-		"leave": 29.37,
 		"age18-29": 17.34,
-		"withdegree": 45.49
+		"EUminus": 18.54,
+		"leave": 29.37,
+		"withdegree": 45.49,
+		"religion": {
+			"christian": 56.36,
+			"jewish": 0.67,
+			"muslim": 5.41
+		},
+		"race": {
+			"arab": 0.77,
+			"bangladeshi": 0.76,
+			"black": 2.94,
+			"chinese": 1.5,
+			"indian": 3.7,
+			"mixed": 4.16,
+			"other": 1.04,
+			"otherasian": 5.88,
+			"pakistani": 2.37,
+			"white": 76.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

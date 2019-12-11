@@ -3,9 +3,27 @@
 	"title": "Wyre and Preston North",
 	"demographics": {
 		"2015UKIP": 13.18,
-		"leave": 54.04,
 		"age18-29": 11.42,
-		"withdegree": 17.88
+		"EUminus": 2.68,
+		"leave": 54.04,
+		"withdegree": 17.88,
+		"religion": {
+			"christian": 74.79,
+			"jewish": 0.06,
+			"muslim": 2.92
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.1,
+			"black": 0.37,
+			"chinese": 0.27,
+			"indian": 3.49,
+			"mixed": 0.94,
+			"other": 0.14,
+			"otherasian": 0.41,
+			"pakistani": 0.67,
+			"white": 93.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

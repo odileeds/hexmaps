@@ -3,8 +3,26 @@
 	"title": "Ross, Skye and Lochaber",
 	"demographics": {
 		"2015UKIP": 1.95,
+		"age18-29": 10.78,
+		"EUminus": 5.46,
 		"leave": 43.35,
-		"age18-29": 10.78
+		"religion": {
+			"christian": 56.99,
+			"jewish": 0.04,
+			"muslim": 0.23
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.06,
+			"black": ,
+			"chinese": 0.11,
+			"indian": 0.18,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.17,
+			"pakistani": 0.08,
+			"white": 98.94
+		}
 	},
 	"elections": {
 		"2019-12-12": {

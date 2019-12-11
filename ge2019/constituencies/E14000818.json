@@ -3,9 +3,27 @@
 	"title": "Mid Worcestershire",
 	"demographics": {
 		"2015UKIP": 17.68,
-		"leave": 58.94,
 		"age18-29": 11.79,
-		"withdegree": 14.8
+		"EUminus": 6.8,
+		"leave": 58.94,
+		"withdegree": 14.8,
+		"religion": {
+			"christian": 71.6,
+			"jewish": 0.08,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.1,
+			"black": 0.22,
+			"chinese": 0.17,
+			"indian": 0.45,
+			"mixed": 0.88,
+			"other": 0.12,
+			"otherasian": 0.29,
+			"pakistani": 0.09,
+			"white": 97.64
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,8 +3,26 @@
 	"title": "Edinburgh West",
 	"demographics": {
 		"2015UKIP": 1.85,
+		"age18-29": 13.12,
+		"EUminus": 6.86,
 		"leave": 28.77,
-		"age18-29": 13.12
+		"religion": {
+			"christian": 49.22,
+			"jewish": 0.1,
+			"muslim": 1.66
+		},
+		"race": {
+			"arab": 0.23,
+			"bangladeshi": 0.25,
+			"black": ,
+			"chinese": 0.89,
+			"indian": 0.98,
+			"mixed": 0,
+			"other": 0.13,
+			"otherasian": 0.5,
+			"pakistani": 0.9,
+			"white": 94.93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Manchester Central",
 	"demographics": {
 		"2015UKIP": 11.1,
-		"leave": 36.66,
 		"age18-29": 37.76,
-		"withdegree": 24.75
+		"EUminus": 12.3,
+		"leave": 36.66,
+		"withdegree": 24.75,
+		"religion": {
+			"christian": 48.72,
+			"jewish": 0.27,
+			"muslim": 12.52
+		},
+		"race": {
+			"arab": 2.21,
+			"bangladeshi": 0.67,
+			"black": 14.1,
+			"chinese": 5.79,
+			"indian": 2.34,
+			"mixed": 5.02,
+			"other": 1.43,
+			"otherasian": 2.65,
+			"pakistani": 3.16,
+			"white": 62.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

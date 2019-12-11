@@ -3,9 +3,27 @@
 	"title": "Wolverhampton South West",
 	"demographics": {
 		"2015UKIP": 10.72,
-		"leave": 54.37,
 		"age18-29": 17.42,
-		"withdegree": 18.25
+		"EUminus": 7.91,
+		"leave": 54.37,
+		"withdegree": 18.25,
+		"religion": {
+			"christian": 52.9,
+			"jewish": 0.06,
+			"muslim": 6.82
+		},
+		"race": {
+			"arab": 0.2,
+			"bangladeshi": 0.27,
+			"black": 5.97,
+			"chinese": 0.76,
+			"indian": 14.41,
+			"mixed": 4.48,
+			"other": 2.1,
+			"otherasian": 3.37,
+			"pakistani": 3.95,
+			"white": 64.48
+		}
 	},
 	"elections": {
 		"2019-12-12": {

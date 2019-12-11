@@ -3,9 +3,27 @@
 	"title": "Barrow and Furness",
 	"demographics": {
 		"2015UKIP": 11.72,
-		"leave": 56.79,
 		"age18-29": 13.17,
-		"withdegree": 10.67
+		"EUminus": 2.23,
+		"leave": 56.79,
+		"withdegree": 10.67,
+		"religion": {
+			"christian": 70.2,
+			"jewish": 0.03,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.05,
+			"black": 0.11,
+			"chinese": 0.23,
+			"indian": 0.21,
+			"mixed": 0.51,
+			"other": 0.07,
+			"otherasian": 0.3,
+			"pakistani": 0.06,
+			"white": 98.42
+		}
 	},
 	"elections": {
 		"2019-12-12": {

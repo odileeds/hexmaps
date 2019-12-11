@@ -3,9 +3,27 @@
 	"title": "North Shropshire",
 	"demographics": {
 		"2015UKIP": 17.62,
-		"leave": 59.46,
 		"age18-29": 13.41,
-		"withdegree": 12.86
+		"EUminus": 5.02,
+		"leave": 59.46,
+		"withdegree": 12.86,
+		"religion": {
+			"christian": 70.79,
+			"jewish": 0.04,
+			"muslim": 0.29
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.1,
+			"black": 0.23,
+			"chinese": 0.25,
+			"indian": 0.19,
+			"mixed": 0.65,
+			"other": 0.07,
+			"otherasian": 0.24,
+			"pakistani": 0.06,
+			"white": 98.17
+		}
 	},
 	"elections": {
 		"2019-12-12": {

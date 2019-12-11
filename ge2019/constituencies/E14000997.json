@@ -3,9 +3,27 @@
 	"title": "Tonbridge and Malling",
 	"demographics": {
 		"2015UKIP": 15.19,
-		"leave": 52.59,
 		"age18-29": 11.01,
-		"withdegree": 18.54
+		"EUminus": 4.83,
+		"leave": 52.59,
+		"withdegree": 18.54,
+		"religion": {
+			"christian": 63.81,
+			"jewish": 0.13,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.2,
+			"black": 0.29,
+			"chinese": 0.44,
+			"indian": 0.59,
+			"mixed": 1.48,
+			"other": 0.23,
+			"otherasian": 0.65,
+			"pakistani": 0.13,
+			"white": 95.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

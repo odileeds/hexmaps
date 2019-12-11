@@ -3,9 +3,27 @@
 	"title": "South West Hertfordshire",
 	"demographics": {
 		"2015UKIP": 11.53,
-		"leave": 46.37,
 		"age18-29": 11.58,
-		"withdegree": 26.31
+		"EUminus": 6.93,
+		"leave": 46.37,
+		"withdegree": 26.31,
+		"religion": {
+			"christian": 59.92,
+			"jewish": 1.34,
+			"muslim": 1.72
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.17,
+			"black": 1.26,
+			"chinese": 0.6,
+			"indian": 4.09,
+			"mixed": 2.06,
+			"other": 0.26,
+			"otherasian": 1.26,
+			"pakistani": 0.57,
+			"white": 89.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

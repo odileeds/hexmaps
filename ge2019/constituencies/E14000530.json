@@ -3,9 +3,27 @@
 	"title": "Aldershot",
 	"demographics": {
 		"2015UKIP": 17.87,
-		"leave": 57.9,
 		"age18-29": 16.98,
-		"withdegree": 13.87
+		"EUminus": 8.09,
+		"leave": 57.9,
+		"withdegree": 13.87,
+		"religion": {
+			"christian": 58.14,
+			"jewish": 0.07,
+			"muslim": 1.38
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.21,
+			"black": 1.93,
+			"chinese": 0.52,
+			"indian": 1.36,
+			"mixed": 2.14,
+			"other": 0.47,
+			"otherasian": 7.05,
+			"pakistani": 0.62,
+			"white": 85.53
+		}
 	},
 	"elections": {
 		"2019-12-12": {

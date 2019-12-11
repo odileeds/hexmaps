@@ -3,9 +3,27 @@
 	"title": "Sefton Central",
 	"demographics": {
 		"2015UKIP": 9.95,
-		"leave": 45.13,
 		"age18-29": 11.63,
-		"withdegree": 16.39
+		"EUminus": 2.32,
+		"leave": 45.13,
+		"withdegree": 16.39,
+		"religion": {
+			"christian": 81.11,
+			"jewish": 0.1,
+			"muslim": 0.19
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.04,
+			"black": 0.19,
+			"chinese": 0.29,
+			"indian": 0.27,
+			"mixed": 0.79,
+			"other": 0.06,
+			"otherasian": 0.14,
+			"pakistani": 0.04,
+			"white": 98.14
+		}
 	},
 	"elections": {
 		"2019-12-12": {

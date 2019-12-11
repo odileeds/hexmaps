@@ -3,9 +3,27 @@
 	"title": "Leeds North West",
 	"demographics": {
 		"2015UKIP": 6.91,
-		"leave": 35.4,
 		"age18-29": 32.22,
-		"withdegree": 24.57
+		"EUminus": 4.58,
+		"leave": 35.4,
+		"withdegree": 24.57,
+		"religion": {
+			"christian": 54.27,
+			"jewish": 0.51,
+			"muslim": 3.16
+		},
+		"race": {
+			"arab": 0.75,
+			"bangladeshi": 0.12,
+			"black": 1,
+			"chinese": 0.6,
+			"indian": 1.89,
+			"mixed": 2.37,
+			"other": 0.49,
+			"otherasian": 0.8,
+			"pakistani": 1.49,
+			"white": 90.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

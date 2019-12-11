@@ -2,8 +2,26 @@
 	"id": "S14000015",
 	"title": "Dundee East",
 	"demographics": {
+		"age18-29": 14.99,
+		"EUminus": 4.72,
 		"leave": 38.25,
-		"age18-29": 14.99
+		"religion": {
+			"christian": 51.26,
+			"jewish": 0.02,
+			"muslim": 1.72
+		},
+		"race": {
+			"arab": 0.26,
+			"bangladeshi": 0.12,
+			"black": ,
+			"chinese": 0.47,
+			"indian": 0.45,
+			"mixed": 0,
+			"other": 0.05,
+			"otherasian": 0.28,
+			"pakistani": 1.13,
+			"white": 96.47
+		}
 	},
 	"elections": {
 		"2019-12-12": {

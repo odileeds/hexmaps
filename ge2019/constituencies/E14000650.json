@@ -3,9 +3,27 @@
 	"title": "Coventry North West",
 	"demographics": {
 		"2015UKIP": 15.69,
-		"leave": 58.67,
 		"age18-29": 18.71,
-		"withdegree": 14.39
+		"EUminus": 10.3,
+		"leave": 58.67,
+		"withdegree": 14.39,
+		"religion": {
+			"christian": 57.72,
+			"jewish": 0.05,
+			"muslim": 3.91
+		},
+		"race": {
+			"arab": 0.34,
+			"bangladeshi": 0.22,
+			"black": 3.35,
+			"chinese": 0.79,
+			"indian": 6.31,
+			"mixed": 2.3,
+			"other": 0.83,
+			"otherasian": 1.98,
+			"pakistani": 2.14,
+			"white": 81.73
+		}
 	},
 	"elections": {
 		"2019-12-12": {

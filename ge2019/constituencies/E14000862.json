@@ -3,9 +3,27 @@
 	"title": "Northampton South",
 	"demographics": {
 		"2015UKIP": 18.3,
-		"leave": 59.61,
 		"age18-29": 19.4,
-		"withdegree": 13.57
+		"EUminus": 16.42,
+		"leave": 59.61,
+		"withdegree": 13.57,
+		"religion": {
+			"christian": 55.09,
+			"jewish": 0.12,
+			"muslim": 5.4
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 2.23,
+			"black": 5.87,
+			"chinese": 0.82,
+			"indian": 2.67,
+			"mixed": 3.38,
+			"other": 0.55,
+			"otherasian": 1.07,
+			"pakistani": 0.72,
+			"white": 82.41
+		}
 	},
 	"elections": {
 		"2019-12-12": {

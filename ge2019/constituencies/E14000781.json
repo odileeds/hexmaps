@@ -3,9 +3,27 @@
 	"title": "Leeds West",
 	"demographics": {
 		"2015UKIP": 18.49,
-		"leave": 54.98,
 		"age18-29": 22.83,
-		"withdegree": 15.91
+		"EUminus": 7.21,
+		"leave": 54.98,
+		"withdegree": 15.91,
+		"religion": {
+			"christian": 53,
+			"jewish": 0.15,
+			"muslim": 3.69
+		},
+		"race": {
+			"arab": 0.43,
+			"bangladeshi": 0.11,
+			"black": 2.39,
+			"chinese": 0.48,
+			"indian": 1.49,
+			"mixed": 2.67,
+			"other": 0.39,
+			"otherasian": 0.82,
+			"pakistani": 2.1,
+			"white": 89.11
+		}
 	},
 	"elections": {
 		"2019-12-12": {

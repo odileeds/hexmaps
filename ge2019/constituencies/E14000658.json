@@ -3,9 +3,27 @@
 	"title": "Darlington",
 	"demographics": {
 		"2015UKIP": 13.11,
-		"leave": 58.07,
 		"age18-29": 14.88,
-		"withdegree": 11.33
+		"EUminus": 5.32,
+		"leave": 58.07,
+		"withdegree": 11.33,
+		"religion": {
+			"christian": 66.62,
+			"jewish": 0.05,
+			"muslim": 0.99
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.55,
+			"black": 0.37,
+			"chinese": 0.35,
+			"indian": 0.74,
+			"mixed": 1.12,
+			"other": 0.14,
+			"otherasian": 0.46,
+			"pakistani": 0.15,
+			"white": 95.99
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Lincoln",
 	"demographics": {
 		"2015UKIP": 12.21,
-		"leave": 57.31,
 		"age18-29": 24.07,
-		"withdegree": 12.34
+		"EUminus": 10.96,
+		"leave": 57.31,
+		"withdegree": 12.34,
+		"religion": {
+			"christian": 59.2,
+			"jewish": 0.06,
+			"muslim": 0.88
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.13,
+			"black": 0.77,
+			"chinese": 0.44,
+			"indian": 0.51,
+			"mixed": 1.24,
+			"other": 0.18,
+			"otherasian": 0.55,
+			"pakistani": 0.14,
+			"white": 95.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Milton Keynes South",
 	"demographics": {
 		"2015UKIP": 13.24,
-		"leave": 52.96,
 		"age18-29": 14.67,
-		"withdegree": 17.11
+		"EUminus": 9.38,
+		"leave": 52.96,
+		"withdegree": 17.11,
+		"religion": {
+			"christian": 52.67,
+			"jewish": 0.17,
+			"muslim": 4.46
+		},
+		"race": {
+			"arab": 0.29,
+			"bangladeshi": 1.13,
+			"black": 6.47,
+			"chinese": 1.2,
+			"indian": 3.7,
+			"mixed": 3.53,
+			"other": 0.42,
+			"otherasian": 1.98,
+			"pakistani": 1.21,
+			"white": 80.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

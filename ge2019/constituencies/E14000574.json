@@ -3,9 +3,27 @@
 	"title": "Blaydon",
 	"demographics": {
 		"2015UKIP": 17.5,
-		"leave": 56.32,
 		"age18-29": 12.9,
-		"withdegree": 12.67
+		"EUminus": 1.97,
+		"leave": 56.32,
+		"withdegree": 12.67,
+		"religion": {
+			"christian": 70.56,
+			"jewish": 0.1,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.04,
+			"black": 0.18,
+			"chinese": 0.22,
+			"indian": 0.28,
+			"mixed": 0.58,
+			"other": 0.12,
+			"otherasian": 0.19,
+			"pakistani": 0.15,
+			"white": 98.19
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Croydon Central",
 	"demographics": {
 		"2015UKIP": 9.09,
-		"leave": 50.31,
 		"age18-29": 16.99,
-		"withdegree": 19.94
+		"EUminus": 10.11,
+		"leave": 50.31,
+		"withdegree": 19.94,
+		"religion": {
+			"christian": 56.05,
+			"jewish": 0.22,
+			"muslim": 5.95
+		},
+		"race": {
+			"arab": 0.44,
+			"bangladeshi": 0.58,
+			"black": 17.94,
+			"chinese": 1.13,
+			"indian": 5.67,
+			"mixed": 6.56,
+			"other": 1.09,
+			"otherasian": 3.54,
+			"pakistani": 1.63,
+			"white": 61.43
+		}
 	},
 	"elections": {
 		"2019-12-12": {

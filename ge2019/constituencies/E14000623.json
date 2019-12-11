@@ -3,9 +3,27 @@
 	"title": "Central Devon",
 	"demographics": {
 		"2015UKIP": 13.17,
-		"leave": 51.18,
 		"age18-29": 10.24,
-		"withdegree": 18.12
+		"EUminus": 3.99,
+		"leave": 51.18,
+		"withdegree": 18.12,
+		"religion": {
+			"christian": 62.15,
+			"jewish": 0.09,
+			"muslim": 0.15
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.02,
+			"black": 0.07,
+			"chinese": 0.17,
+			"indian": 0.1,
+			"mixed": 0.75,
+			"other": 0.06,
+			"otherasian": 0.21,
+			"pakistani": 0.01,
+			"white": 98.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

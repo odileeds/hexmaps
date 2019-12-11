@@ -3,9 +3,27 @@
 	"title": "Hackney North and Stoke Newington",
 	"demographics": {
 		"2015UKIP": 2.17,
-		"leave": 20.95,
 		"age18-29": 23.59,
-		"withdegree": 36.24
+		"EUminus": 20.7,
+		"leave": 20.95,
+		"withdegree": 36.24,
+		"religion": {
+			"christian": 33.88,
+			"jewish": 11.27,
+			"muslim": 13.85
+		},
+		"race": {
+			"arab": 0.63,
+			"bangladeshi": 2.28,
+			"black": 19.58,
+			"chinese": 1.03,
+			"indian": 4.13,
+			"mixed": 6.07,
+			"other": 5.34,
+			"otherasian": 2.31,
+			"pakistani": 0.88,
+			"white": 57.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

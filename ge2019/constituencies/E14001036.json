@@ -3,9 +3,27 @@
 	"title": "Westminster North",
 	"demographics": {
 		"2015UKIP": 3.77,
-		"leave": 32.98,
 		"age18-29": 20.52,
-		"withdegree": 41.48
+		"EUminus": 27.62,
+		"leave": 32.98,
+		"withdegree": 41.48,
+		"religion": {
+			"christian": 41.73,
+			"jewish": 3.75,
+			"muslim": 22.63
+		},
+		"race": {
+			"arab": 8.38,
+			"bangladeshi": 3.8,
+			"black": 9.74,
+			"chinese": 2.11,
+			"indian": 3.23,
+			"mixed": 5.75,
+			"other": 4.78,
+			"otherasian": 4.84,
+			"pakistani": 1.08,
+			"white": 56.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

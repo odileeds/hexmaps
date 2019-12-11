@@ -3,9 +3,27 @@
 	"title": "Sevenoaks",
 	"demographics": {
 		"2015UKIP": 17.9,
-		"leave": 53.86,
 		"age18-29": 11.26,
-		"withdegree": 21
+		"EUminus": 5.7,
+		"leave": 53.86,
+		"withdegree": 21,
+		"religion": {
+			"christian": 65.2,
+			"jewish": 0.18,
+			"muslim": 0.59
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.15,
+			"black": 0.86,
+			"chinese": 0.5,
+			"indian": 0.58,
+			"mixed": 1.49,
+			"other": 0.15,
+			"otherasian": 0.59,
+			"pakistani": 0.1,
+			"white": 95.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

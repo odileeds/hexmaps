@@ -3,9 +3,27 @@
 	"title": "North Norfolk",
 	"demographics": {
 		"2015UKIP": 16.85,
-		"leave": 58.25,
 		"age18-29": 10.3,
-		"withdegree": 10.31
+		"EUminus": 3.65,
+		"leave": 58.25,
+		"withdegree": 10.31,
+		"religion": {
+			"christian": 65.81,
+			"jewish": 0.13,
+			"muslim": 0.15
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.07,
+			"black": 0.16,
+			"chinese": 0.13,
+			"indian": 0.11,
+			"mixed": 0.61,
+			"other": 0.05,
+			"otherasian": 0.19,
+			"pakistani": 0.01,
+			"white": 98.65
+		}
 	},
 	"elections": {
 		"2019-12-12": {

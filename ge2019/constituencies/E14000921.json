@@ -3,9 +3,27 @@
 	"title": "Sheffield, Brightside and Hillsborough",
 	"demographics": {
 		"2015UKIP": 22.11,
-		"leave": 61.44,
 		"age18-29": 16.52,
-		"withdegree": 9.41
+		"EUminus": 4.9,
+		"leave": 61.44,
+		"withdegree": 9.41,
+		"religion": {
+			"christian": 49.22,
+			"jewish": 0.06,
+			"muslim": 14.78
+		},
+		"race": {
+			"arab": 3.2,
+			"bangladeshi": 0.27,
+			"black": 6.49,
+			"chinese": 0.37,
+			"indian": 0.84,
+			"mixed": 3.32,
+			"other": 1.17,
+			"otherasian": 1.28,
+			"pakistani": 7.74,
+			"white": 75.31
+		}
 	},
 	"elections": {
 		"2019-12-12": {

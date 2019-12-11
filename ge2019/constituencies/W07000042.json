@@ -3,9 +3,27 @@
 	"title": "Delyn",
 	"demographics": {
 		"2015UKIP": 16.42,
-		"leave": 54.77,
 		"age18-29": 12.74,
-		"withdegree": 12.19
+		"EUminus": 4.01,
+		"leave": 54.77,
+		"withdegree": 12.19,
+		"religion": {
+			"christian": 67.43,
+			"jewish": 0.05,
+			"muslim": 0.27
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.05,
+			"black": 0.08,
+			"chinese": 0.16,
+			"indian": 0.15,
+			"mixed": 0.47,
+			"other": 0.09,
+			"otherasian": 0.16,
+			"pakistani": 0.06,
+			"white": 98.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

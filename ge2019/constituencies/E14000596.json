@@ -3,9 +3,27 @@
 	"title": "Brigg and Goole",
 	"demographics": {
 		"2015UKIP": 15.47,
-		"leave": 66.21,
 		"age18-29": 12.53,
-		"withdegree": 9.67
+		"EUminus": 6.45,
+		"leave": 66.21,
+		"withdegree": 9.67,
+		"religion": {
+			"christian": 70.96,
+			"jewish": 0.03,
+			"muslim": 0.29
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.05,
+			"black": 0.12,
+			"chinese": 0.24,
+			"indian": 0.25,
+			"mixed": 0.64,
+			"other": 0.1,
+			"otherasian": 0.15,
+			"pakistani": 0.12,
+			"white": 98.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

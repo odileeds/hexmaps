@@ -3,8 +3,26 @@
 	"title": "Angus",
 	"demographics": {
 		"2015UKIP": 3.05,
+		"age18-29": 13.37,
+		"EUminus": 5.24,
 		"leave": 48.13,
-		"age18-29": 13.37
+		"religion": {
+			"christian": 51.33,
+			"jewish": 0.02,
+			"muslim": 0.28
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.02,
+			"black": ,
+			"chinese": 0.2,
+			"indian": 0.12,
+			"mixed": 0,
+			"other": 0.02,
+			"otherasian": 0.16,
+			"pakistani": 0.18,
+			"white": 98.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

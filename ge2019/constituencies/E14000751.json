@@ -3,9 +3,27 @@
 	"title": "Hornchurch and Upminster",
 	"demographics": {
 		"2015UKIP": 25.3,
-		"leave": 69.49,
 		"age18-29": 13.87,
-		"withdegree": 10.48
+		"EUminus": 4.9,
+		"leave": 69.49,
+		"withdegree": 10.48,
+		"religion": {
+			"christian": 66.9,
+			"jewish": 0.42,
+			"muslim": 1.61
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.23,
+			"black": 3.89,
+			"chinese": 0.59,
+			"indian": 1.87,
+			"mixed": 1.76,
+			"other": 0.39,
+			"otherasian": 0.89,
+			"pakistani": 0.5,
+			"white": 89.78
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Cleethorpes",
 	"demographics": {
 		"2015UKIP": 18.53,
-		"leave": 68.41,
 		"age18-29": 12.96,
-		"withdegree": 8.68
+		"EUminus": 2.93,
+		"leave": 68.41,
+		"withdegree": 8.68,
+		"religion": {
+			"christian": 65.78,
+			"jewish": 0.04,
+			"muslim": 0.62
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.17,
+			"black": 0.2,
+			"chinese": 0.25,
+			"indian": 0.3,
+			"mixed": 0.61,
+			"other": 0.1,
+			"otherasian": 0.21,
+			"pakistani": 0.08,
+			"white": 97.94
+		}
 	},
 	"elections": {
 		"2019-12-12": {

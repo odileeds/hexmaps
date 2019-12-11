@@ -3,9 +3,27 @@
 	"title": "Bath",
 	"demographics": {
 		"2015UKIP": 6.2,
-		"leave": 31.69,
 		"age18-29": 25.74,
-		"withdegree": 28.9
+		"EUminus": 10.14,
+		"leave": 31.69,
+		"withdegree": 28.9,
+		"religion": {
+			"christian": 51.15,
+			"jewish": 0.2,
+			"muslim": 1.08
+		},
+		"race": {
+			"arab": 0.35,
+			"bangladeshi": 0.21,
+			"black": 1.2,
+			"chinese": 1.87,
+			"indian": 1.01,
+			"mixed": 2.29,
+			"other": 0.31,
+			"otherasian": 0.96,
+			"pakistani": 0.14,
+			"white": 91.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

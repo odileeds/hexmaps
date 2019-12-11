@@ -3,9 +3,27 @@
 	"title": "Bournemouth West",
 	"demographics": {
 		"2015UKIP": 18.54,
-		"leave": 57.9,
 		"age18-29": 23.29,
-		"withdegree": 13.9
+		"EUminus": 10.59,
+		"leave": 57.9,
+		"withdegree": 13.9,
+		"religion": {
+			"christian": 55.49,
+			"jewish": 0.63,
+			"muslim": 1.55
+		},
+		"race": {
+			"arab": 0.38,
+			"bangladeshi": 0.22,
+			"black": 0.81,
+			"chinese": 0.93,
+			"indian": 0.89,
+			"mixed": 2.14,
+			"other": 0.44,
+			"otherasian": 1.4,
+			"pakistani": 0.09,
+			"white": 92.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Doncaster Central",
 	"demographics": {
 		"2015UKIP": 24.11,
-		"leave": 66.32,
 		"age18-29": 16.74,
-		"withdegree": 8.95
+		"EUminus": 11.68,
+		"leave": 66.32,
+		"withdegree": 8.95,
+		"religion": {
+			"christian": 63.03,
+			"jewish": 0.03,
+			"muslim": 3.68
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.06,
+			"black": 1.36,
+			"chinese": 0.63,
+			"indian": 1.19,
+			"mixed": 1.52,
+			"other": 0.59,
+			"otherasian": 1.21,
+			"pakistani": 2.13,
+			"white": 91.17
+		}
 	},
 	"elections": {
 		"2019-12-12": {

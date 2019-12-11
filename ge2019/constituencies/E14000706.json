@@ -3,9 +3,27 @@
 	"title": "Fylde",
 	"demographics": {
 		"2015UKIP": 12.79,
-		"leave": 56.56,
 		"age18-29": 11.42,
-		"withdegree": 16.47
+		"EUminus": 4.43,
+		"leave": 56.56,
+		"withdegree": 16.47,
+		"religion": {
+			"christian": 73.74,
+			"jewish": 0.4,
+			"muslim": 0.51
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.03,
+			"black": 0.23,
+			"chinese": 0.28,
+			"indian": 0.52,
+			"mixed": 1.01,
+			"other": 0.13,
+			"otherasian": 0.26,
+			"pakistani": 0.16,
+			"white": 97.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

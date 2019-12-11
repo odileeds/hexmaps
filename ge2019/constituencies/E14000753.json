@@ -3,9 +3,27 @@
 	"title": "Horsham",
 	"demographics": {
 		"2015UKIP": 14,
-		"leave": 48.67,
 		"age18-29": 11.54,
-		"withdegree": 19.08
+		"EUminus": 6.2,
+		"leave": 48.67,
+		"withdegree": 19.08,
+		"religion": {
+			"christian": 63.26,
+			"jewish": 0.14,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.17,
+			"black": 0.61,
+			"chinese": 0.44,
+			"indian": 0.73,
+			"mixed": 1.52,
+			"other": 0.15,
+			"otherasian": 0.88,
+			"pakistani": 0.16,
+			"white": 95.26
+		}
 	},
 	"elections": {
 		"2019-12-12": {

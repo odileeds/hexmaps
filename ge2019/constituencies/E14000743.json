@@ -3,9 +3,27 @@
 	"title": "Hereford and South Herefordshire",
 	"demographics": {
 		"2015UKIP": 16.83,
-		"leave": 60.15,
 		"age18-29": 14.28,
-		"withdegree": 13.31
+		"EUminus": 9.28,
+		"leave": 60.15,
+		"withdegree": 13.31,
+		"religion": {
+			"christian": 66.8,
+			"jewish": 0.08,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.03,
+			"black": 0.19,
+			"chinese": 0.16,
+			"indian": 0.35,
+			"mixed": 0.79,
+			"other": 0.11,
+			"otherasian": 0.35,
+			"pakistani": 0.05,
+			"white": 97.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

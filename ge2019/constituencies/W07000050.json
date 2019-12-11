@@ -3,9 +3,27 @@
 	"title": "Cardiff Central",
 	"demographics": {
 		"2015UKIP": 6.47,
-		"leave": 30.35,
 		"age18-29": 40.06,
-		"withdegree": 26.48
+		"EUminus": 10.06,
+		"leave": 30.35,
+		"withdegree": 26.48,
+		"religion": {
+			"christian": 45.87,
+			"jewish": 0.51,
+			"muslim": 8.75
+		},
+		"race": {
+			"arab": 1.98,
+			"bangladeshi": 1.53,
+			"black": 2.05,
+			"chinese": 2.22,
+			"indian": 2.91,
+			"mixed": 2.88,
+			"other": 0.83,
+			"otherasian": 2,
+			"pakistani": 2.9,
+			"white": 80.7
+		}
 	},
 	"elections": {
 		"2019-12-12": {

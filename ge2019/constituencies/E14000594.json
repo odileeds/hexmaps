@@ -3,9 +3,27 @@
 	"title": "Brentwood and Ongar",
 	"demographics": {
 		"2015UKIP": 16.81,
-		"leave": 60.89,
 		"age18-29": 11.99,
-		"withdegree": 16.77
+		"EUminus": 4.74,
+		"leave": 60.89,
+		"withdegree": 16.77,
+		"religion": {
+			"christian": 68.45,
+			"jewish": 0.62,
+			"muslim": 0.83
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.21,
+			"black": 1.07,
+			"chinese": 0.44,
+			"indian": 1.16,
+			"mixed": 1.56,
+			"other": 0.25,
+			"otherasian": 0.86,
+			"pakistani": 0.15,
+			"white": 94.17
+		}
 	},
 	"elections": {
 		"2019-12-12": {

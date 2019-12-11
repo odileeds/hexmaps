@@ -3,9 +3,27 @@
 	"title": "South Suffolk",
 	"demographics": {
 		"2015UKIP": 15.21,
-		"leave": 54.15,
 		"age18-29": 10.66,
-		"withdegree": 13.75
+		"EUminus": 4.08,
+		"leave": 54.15,
+		"withdegree": 13.75,
+		"religion": {
+			"christian": 63.4,
+			"jewish": 0.13,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.07,
+			"black": 0.29,
+			"chinese": 0.18,
+			"indian": 0.2,
+			"mixed": 0.91,
+			"other": 0.14,
+			"otherasian": 0.28,
+			"pakistani": 0.01,
+			"white": 97.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

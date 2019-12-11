@@ -3,9 +3,27 @@
 	"title": "West Bromwich East",
 	"demographics": {
 		"2015UKIP": 21.2,
-		"leave": 67.59,
 		"age18-29": 16.27,
-		"withdegree": 8.22
+		"EUminus": 8.43,
+		"leave": 67.59,
+		"withdegree": 8.22,
+		"religion": {
+			"christian": 56.98,
+			"jewish": 0.02,
+			"muslim": 6.43
+		},
+		"race": {
+			"arab": 0.42,
+			"bangladeshi": 2.49,
+			"black": 6.24,
+			"chinese": 0.28,
+			"indian": 13.02,
+			"mixed": 3.27,
+			"other": 1.38,
+			"otherasian": 2.25,
+			"pakistani": 2.53,
+			"white": 68.13
+		}
 	},
 	"elections": {
 		"2019-12-12": {

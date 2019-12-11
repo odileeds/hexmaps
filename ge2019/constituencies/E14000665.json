@@ -3,9 +3,27 @@
 	"title": "Devizes",
 	"demographics": {
 		"2015UKIP": 15.39,
-		"leave": 51.46,
 		"age18-29": 15.8,
-		"withdegree": 15.82
+		"EUminus": 7.35,
+		"leave": 51.46,
+		"withdegree": 15.82,
+		"religion": {
+			"christian": 65.47,
+			"jewish": 0.09,
+			"muslim": 0.37
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.11,
+			"black": 1.28,
+			"chinese": 0.25,
+			"indian": 0.33,
+			"mixed": 1.21,
+			"other": 0.22,
+			"otherasian": 0.58,
+			"pakistani": 0.06,
+			"white": 95.93
+		}
 	},
 	"elections": {
 		"2019-12-12": {

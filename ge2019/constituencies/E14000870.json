@@ -3,9 +3,27 @@
 	"title": "Oldham East and Saddleworth",
 	"demographics": {
 		"2015UKIP": 19.24,
-		"leave": 59.92,
 		"age18-29": 15.35,
-		"withdegree": 11.8
+		"EUminus": 3.33,
+		"leave": 59.92,
+		"withdegree": 11.8,
+		"religion": {
+			"christian": 61.49,
+			"jewish": 0.04,
+			"muslim": 14.24
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 2.26,
+			"black": 1.2,
+			"chinese": 0.24,
+			"indian": 0.45,
+			"mixed": 1.88,
+			"other": 0.16,
+			"otherasian": 0.67,
+			"pakistani": 11.69,
+			"white": 81.38
+		}
 	},
 	"elections": {
 		"2019-12-12": {

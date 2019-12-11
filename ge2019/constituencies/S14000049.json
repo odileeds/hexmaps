@@ -2,8 +2,26 @@
 	"id": "S14000049",
 	"title": "North East Fife",
 	"demographics": {
+		"age18-29": 19.15,
+		"EUminus": 6.92,
 		"leave": 38.14,
-		"age18-29": 19.15
+		"religion": {
+			"christian": 52.27,
+			"jewish": 0.2,
+			"muslim": 0.47
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.02,
+			"black": ,
+			"chinese": 1.16,
+			"indian": 0.4,
+			"mixed": 0,
+			"other": 0.1,
+			"otherasian": 0.52,
+			"pakistani": 0.17,
+			"white": 96.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

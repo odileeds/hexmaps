@@ -3,9 +3,27 @@
 	"title": "South East Cornwall",
 	"demographics": {
 		"2015UKIP": 15.24,
-		"leave": 54.95,
 		"age18-29": 10.8,
-		"withdegree": 13.42
+		"EUminus": 3.49,
+		"leave": 54.95,
+		"withdegree": 13.42,
+		"religion": {
+			"christian": 62.18,
+			"jewish": 0.07,
+			"muslim": 0.13
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.03,
+			"black": 0.13,
+			"chinese": 0.13,
+			"indian": 0.05,
+			"mixed": 0.72,
+			"other": 0.08,
+			"otherasian": 0.23,
+			"pakistani": 0.02,
+			"white": 98.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

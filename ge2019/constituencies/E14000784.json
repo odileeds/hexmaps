@@ -3,9 +3,27 @@
 	"title": "Leicester West",
 	"demographics": {
 		"2015UKIP": 17.24,
-		"leave": 51.67,
 		"age18-29": 22.79,
-		"withdegree": 13.68
+		"EUminus": 14.09,
+		"leave": 51.67,
+		"withdegree": 13.68,
+		"religion": {
+			"christian": 43.32,
+			"jewish": 0.07,
+			"muslim": 6.45
+		},
+		"race": {
+			"arab": 0.68,
+			"bangladeshi": 0.15,
+			"black": 7.16,
+			"chinese": 0.87,
+			"indian": 10.42,
+			"mixed": 4.07,
+			"other": 1.21,
+			"otherasian": 2.39,
+			"pakistani": 0.72,
+			"white": 72.33
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Wallasey",
 	"demographics": {
 		"2015UKIP": 11.68,
-		"leave": 49.92,
 		"age18-29": 15.01,
-		"withdegree": 10.46
+		"EUminus": 2.97,
+		"leave": 49.92,
+		"withdegree": 10.46,
+		"religion": {
+			"christian": 67.98,
+			"jewish": 0.08,
+			"muslim": 0.49
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.21,
+			"black": 0.27,
+			"chinese": 0.48,
+			"indian": 0.22,
+			"mixed": 1.11,
+			"other": 0.08,
+			"otherasian": 0.33,
+			"pakistani": 0.02,
+			"white": 97.21
+		}
 	},
 	"elections": {
 		"2019-12-12": {

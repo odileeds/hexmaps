@@ -3,9 +3,27 @@
 	"title": "Mid Sussex",
 	"demographics": {
 		"2015UKIP": 12,
-		"leave": 46.69,
 		"age18-29": 12.44,
-		"withdegree": 19.52
+		"EUminus": 6.72,
+		"leave": 46.69,
+		"withdegree": 19.52,
+		"religion": {
+			"christian": 62.34,
+			"jewish": 0.17,
+			"muslim": 0.93
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.35,
+			"black": 0.64,
+			"chinese": 0.38,
+			"indian": 1.19,
+			"mixed": 1.44,
+			"other": 0.18,
+			"otherasian": 1.08,
+			"pakistani": 0.11,
+			"white": 94.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Banbury",
 	"demographics": {
 		"2015UKIP": 13.88,
-		"leave": 50.54,
 		"age18-29": 14.53,
-		"withdegree": 16.7
+		"EUminus": 9.31,
+		"leave": 50.54,
+		"withdegree": 16.7,
+		"religion": {
+			"christian": 63.46,
+			"jewish": 0.12,
+			"muslim": 2.34
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.09,
+			"black": 1.35,
+			"chinese": 0.39,
+			"indian": 1.01,
+			"mixed": 1.78,
+			"other": 0.24,
+			"otherasian": 0.76,
+			"pakistani": 1.9,
+			"white": 92.42
+		}
 	},
 	"elections": {
 		"2019-12-12": {

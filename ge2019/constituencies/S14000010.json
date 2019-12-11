@@ -2,8 +2,26 @@
 	"id": "S14000010",
 	"title": "Central Ayrshire",
 	"demographics": {
+		"age18-29": 13.19,
+		"EUminus": 2.06,
 		"leave": 42.72,
-		"age18-29": 13.19
+		"religion": {
+			"christian": 57.84,
+			"jewish": 0.05,
+			"muslim": 0.2
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.27,
+			"indian": 0.33,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.14,
+			"pakistani": 0.12,
+			"white": 98.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

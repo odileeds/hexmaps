@@ -3,9 +3,27 @@
 	"title": "Hastings and Rye",
 	"demographics": {
 		"2015UKIP": 13.32,
-		"leave": 56.23,
 		"age18-29": 14.2,
-		"withdegree": 11.2
+		"EUminus": 6.06,
+		"leave": 56.23,
+		"withdegree": 11.2,
+		"religion": {
+			"christian": 54.03,
+			"jewish": 0.16,
+			"muslim": 1.15
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.26,
+			"black": 1.03,
+			"chinese": 0.38,
+			"indian": 0.47,
+			"mixed": 1.96,
+			"other": 0.32,
+			"otherasian": 0.9,
+			"pakistani": 0.08,
+			"white": 94.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

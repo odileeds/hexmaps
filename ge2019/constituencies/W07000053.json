@@ -3,9 +3,27 @@
 	"title": "Torfaen",
 	"demographics": {
 		"2015UKIP": 18.99,
-		"leave": 60.88,
 		"age18-29": 15.03,
-		"withdegree": 9.16
+		"EUminus": 1.72,
+		"leave": 60.88,
+		"withdegree": 9.16,
+		"religion": {
+			"christian": 54.58,
+			"jewish": 0.02,
+			"muslim": 0.24
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.08,
+			"black": 0.17,
+			"chinese": 0.23,
+			"indian": 0.19,
+			"mixed": 0.65,
+			"other": 0.1,
+			"otherasian": 0.48,
+			"pakistani": 0.07,
+			"white": 98.03
+		}
 	},
 	"elections": {
 		"2019-12-12": {

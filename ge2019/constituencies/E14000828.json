@@ -3,9 +3,27 @@
 	"title": "New Forest West",
 	"demographics": {
 		"2015UKIP": 16.49,
-		"leave": 55.88,
 		"age18-29": 9.61,
-		"withdegree": 14.69
+		"EUminus": 4.83,
+		"leave": 55.88,
+		"withdegree": 14.69,
+		"religion": {
+			"christian": 67.07,
+			"jewish": 0.15,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.07,
+			"black": 0.2,
+			"chinese": 0.19,
+			"indian": 0.24,
+			"mixed": 0.89,
+			"other": 0.17,
+			"otherasian": 0.45,
+			"pakistani": 0.02,
+			"white": 97.77
+		}
 	},
 	"elections": {
 		"2019-12-12": {

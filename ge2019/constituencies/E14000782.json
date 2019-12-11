@@ -3,9 +3,27 @@
 	"title": "Leicester East",
 	"demographics": {
 		"2015UKIP": 8.92,
-		"leave": 53.16,
 		"age18-29": 17.76,
-		"withdegree": 12.8
+		"EUminus": 6.89,
+		"leave": 53.16,
+		"withdegree": 12.8,
+		"religion": {
+			"christian": 24.24,
+			"jewish": 0.03,
+			"muslim": 20
+		},
+		"race": {
+			"arab": 0.89,
+			"bangladeshi": 0.7,
+			"black": 4.56,
+			"chinese": 0.34,
+			"indian": 48.55,
+			"mixed": 3.11,
+			"other": 1.94,
+			"otherasian": 5.51,
+			"pakistani": 2.96,
+			"white": 31.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

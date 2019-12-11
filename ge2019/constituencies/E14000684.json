@@ -3,9 +3,27 @@
 	"title": "Eastbourne",
 	"demographics": {
 		"2015UKIP": 11.6,
-		"leave": 57.62,
 		"age18-29": 14.34,
-		"withdegree": 12.66
+		"EUminus": 10.19,
+		"leave": 57.62,
+		"withdegree": 12.66,
+		"religion": {
+			"christian": 60.12,
+			"jewish": 0.21,
+			"muslim": 1.38
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.27,
+			"black": 0.74,
+			"chinese": 0.6,
+			"indian": 0.66,
+			"mixed": 1.73,
+			"other": 0.29,
+			"otherasian": 1.06,
+			"pakistani": 0.1,
+			"white": 94.32
+		}
 	},
 	"elections": {
 		"2019-12-12": {

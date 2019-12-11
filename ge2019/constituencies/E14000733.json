@@ -3,9 +3,27 @@
 	"title": "Hartlepool",
 	"demographics": {
 		"2015UKIP": 27.99,
-		"leave": 69.57,
 		"age18-29": 15.24,
-		"withdegree": 8.32
+		"EUminus": 2.04,
+		"leave": 69.57,
+		"withdegree": 8.32,
+		"religion": {
+			"christian": 69.92,
+			"jewish": 0.01,
+			"muslim": 0.75
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.23,
+			"black": 0.19,
+			"chinese": 0.25,
+			"indian": 0.29,
+			"mixed": 0.61,
+			"other": 0.05,
+			"otherasian": 0.33,
+			"pakistani": 0.32,
+			"white": 97.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Islington North",
 	"demographics": {
 		"2015UKIP": 4,
-		"leave": 21.61,
 		"age18-29": 24.66,
-		"withdegree": 43.25
+		"EUminus": 21.23,
+		"leave": 21.61,
+		"withdegree": 43.25,
+		"religion": {
+			"christian": 39.29,
+			"jewish": 1.07,
+			"muslim": 9.96
+		},
+		"race": {
+			"arab": 0.89,
+			"bangladeshi": 2.19,
+			"black": 14.53,
+			"chinese": 1.41,
+			"indian": 1.52,
+			"mixed": 6.97,
+			"other": 2.56,
+			"otherasian": 2.49,
+			"pakistani": 0.39,
+			"white": 67.05
+		}
 	},
 	"elections": {
 		"2019-12-12": {

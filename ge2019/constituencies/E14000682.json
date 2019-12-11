@@ -3,9 +3,27 @@
 	"title": "East Worthing and Shoreham",
 	"demographics": {
 		"2015UKIP": 16.57,
-		"leave": 53.67,
 		"age18-29": 12.33,
-		"withdegree": 12.25
+		"EUminus": 5.05,
+		"leave": 53.67,
+		"withdegree": 12.25,
+		"religion": {
+			"christian": 58.05,
+			"jewish": 0.3,
+			"muslim": 1.11
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.46,
+			"black": 0.63,
+			"chinese": 0.43,
+			"indian": 0.46,
+			"mixed": 1.59,
+			"other": 0.19,
+			"otherasian": 0.93,
+			"pakistani": 0.12,
+			"white": 94.98
+		}
 	},
 	"elections": {
 		"2019-12-12": {

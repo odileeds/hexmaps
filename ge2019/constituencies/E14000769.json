@@ -3,9 +3,27 @@
 	"title": "Kettering",
 	"demographics": {
 		"2015UKIP": 16.1,
-		"leave": 60.99,
 		"age18-29": 13.71,
-		"withdegree": 12.32
+		"EUminus": 7.49,
+		"leave": 60.99,
+		"withdegree": 12.32,
+		"religion": {
+			"christian": 59.05,
+			"jewish": 0.07,
+			"muslim": 0.77
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.11,
+			"black": 1.06,
+			"chinese": 0.35,
+			"indian": 1.94,
+			"mixed": 1.41,
+			"other": 0.28,
+			"otherasian": 0.67,
+			"pakistani": 0.16,
+			"white": 93.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

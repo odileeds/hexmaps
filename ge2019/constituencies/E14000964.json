@@ -3,9 +3,27 @@
 	"title": "St Ives",
 	"demographics": {
 		"2015UKIP": 11.84,
-		"leave": 55.13,
 		"age18-29": 11.55,
-		"withdegree": 14.02
+		"EUminus": 3.8,
+		"leave": 55.13,
+		"withdegree": 14.02,
+		"religion": {
+			"christian": 58.93,
+			"jewish": 0.08,
+			"muslim": 0.11
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.01,
+			"black": 0.16,
+			"chinese": 0.21,
+			"indian": 0.1,
+			"mixed": 0.91,
+			"other": 0.17,
+			"otherasian": 0.18,
+			"pakistani": 0.01,
+			"white": 98.24
+		}
 	},
 	"elections": {
 		"2019-12-12": {

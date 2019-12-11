@@ -3,9 +3,27 @@
 	"title": "South Shields",
 	"demographics": {
 		"2015UKIP": 21.99,
-		"leave": 62.05,
 		"age18-29": 15.43,
-		"withdegree": 8.95
+		"EUminus": 1.82,
+		"leave": 62.05,
+		"withdegree": 8.95,
+		"religion": {
+			"christian": 67.6,
+			"jewish": 0.04,
+			"muslim": 2.89
+		},
+		"race": {
+			"arab": 0.56,
+			"bangladeshi": 1.62,
+			"black": 0.39,
+			"chinese": 0.13,
+			"indian": 0.46,
+			"mixed": 1.1,
+			"other": 0.35,
+			"otherasian": 0.4,
+			"pakistani": 0.43,
+			"white": 94.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

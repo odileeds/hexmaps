@@ -3,9 +3,27 @@
 	"title": "Blaenau Gwent",
 	"demographics": {
 		"2015UKIP": 17.92,
-		"leave": 62.03,
 		"age18-29": 15.4,
-		"withdegree": 6.37
+		"EUminus": 2.09,
+		"leave": 62.03,
+		"withdegree": 6.37,
+		"religion": {
+			"christian": 49.85,
+			"jewish": 0.01,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.04,
+			"black": 0.14,
+			"chinese": 0.17,
+			"indian": 0.29,
+			"mixed": 0.56,
+			"other": 0.11,
+			"otherasian": 0.14,
+			"pakistani": 0.06,
+			"white": 98.48
+		}
 	},
 	"elections": {
 		"2019-12-12": {

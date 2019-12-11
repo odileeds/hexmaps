@@ -3,8 +3,26 @@
 	"title": "Edinburgh South West",
 	"demographics": {
 		"2015UKIP": 2.08,
+		"age18-29": 23.78,
+		"EUminus": 12.25,
 		"leave": 27.86,
-		"age18-29": 23.78
+		"religion": {
+			"christian": 43.94,
+			"jewish": 0.11,
+			"muslim": 2.84
+		},
+		"race": {
+			"arab": 0.81,
+			"bangladeshi": 0.28,
+			"black": ,
+			"chinese": 1.87,
+			"indian": 1.51,
+			"mixed": 0,
+			"other": 0.31,
+			"otherasian": 0.84,
+			"pakistani": 0.97,
+			"white": 91.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

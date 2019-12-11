@@ -3,9 +3,27 @@
 	"title": "Pudsey",
 	"demographics": {
 		"2015UKIP": 9.21,
-		"leave": 48.35,
 		"age18-29": 14.23,
-		"withdegree": 21.99
+		"EUminus": 3.14,
+		"leave": 48.35,
+		"withdegree": 21.99,
+		"religion": {
+			"christian": 60.43,
+			"jewish": 0.16,
+			"muslim": 1.85
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.05,
+			"black": 0.5,
+			"chinese": 0.49,
+			"indian": 2.07,
+			"mixed": 1.38,
+			"other": 0.31,
+			"otherasian": 0.49,
+			"pakistani": 1.33,
+			"white": 93.27
+		}
 	},
 	"elections": {
 		"2019-12-12": {

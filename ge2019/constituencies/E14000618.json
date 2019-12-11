@@ -3,9 +3,27 @@
 	"title": "Cannock Chase",
 	"demographics": {
 		"2015UKIP": 17.46,
-		"leave": 68.86,
 		"age18-29": 14.77,
-		"withdegree": 7.6
+		"EUminus": 2.3,
+		"leave": 68.86,
+		"withdegree": 7.6,
+		"religion": {
+			"christian": 69.15,
+			"jewish": 0.01,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.05,
+			"black": 0.29,
+			"chinese": 0.23,
+			"indian": 0.42,
+			"mixed": 0.89,
+			"other": 0.07,
+			"otherasian": 0.2,
+			"pakistani": 0.11,
+			"white": 97.74
+		}
 	},
 	"elections": {
 		"2019-12-12": {

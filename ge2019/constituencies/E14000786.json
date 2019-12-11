@@ -3,9 +3,27 @@
 	"title": "Lewes",
 	"demographics": {
 		"2015UKIP": 10.74,
-		"leave": 46.97,
 		"age18-29": 10.95,
-		"withdegree": 19.04
+		"EUminus": 5.16,
+		"leave": 46.97,
+		"withdegree": 19.04,
+		"religion": {
+			"christian": 57.46,
+			"jewish": 0.29,
+			"muslim": 0.44
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.13,
+			"black": 0.32,
+			"chinese": 0.31,
+			"indian": 0.33,
+			"mixed": 1.22,
+			"other": 0.13,
+			"otherasian": 0.41,
+			"pakistani": 0.07,
+			"white": 97.03
+		}
 	},
 	"elections": {
 		"2019-12-12": {

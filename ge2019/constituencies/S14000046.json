@@ -3,8 +3,26 @@
 	"title": "Moray",
 	"demographics": {
 		"2015UKIP": 3.93,
+		"age18-29": 13.38,
+		"EUminus": 6.03,
 		"leave": 49.87,
-		"age18-29": 13.38
+		"religion": {
+			"christian": 49.92,
+			"jewish": 0.05,
+			"muslim": 0.25
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.02,
+			"black": ,
+			"chinese": 0.18,
+			"indian": 0.11,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.18,
+			"pakistani": 0.16,
+			"white": 98.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

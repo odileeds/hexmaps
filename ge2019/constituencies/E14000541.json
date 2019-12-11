@@ -3,9 +3,27 @@
 	"title": "Barnsley Central",
 	"demographics": {
 		"2015UKIP": 21.72,
-		"leave": 68.38,
 		"age18-29": 15.18,
-		"withdegree": 8.13
+		"EUminus": 4.19,
+		"leave": 68.38,
+		"withdegree": 8.13,
+		"religion": {
+			"christian": 67.65,
+			"jewish": 0.02,
+			"muslim": 0.66
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.03,
+			"black": 0.72,
+			"chinese": 0.27,
+			"indian": 0.26,
+			"mixed": 0.71,
+			"other": 0.16,
+			"otherasian": 0.3,
+			"pakistani": 0.13,
+			"white": 97.31
+		}
 	},
 	"elections": {
 		"2019-12-12": {

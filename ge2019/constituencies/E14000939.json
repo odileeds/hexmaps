@@ -3,9 +3,27 @@
 	"title": "South Holland and The Deepings",
 	"demographics": {
 		"2015UKIP": 21.82,
-		"leave": 71.18,
 		"age18-29": 12.31,
-		"withdegree": 7.42
+		"EUminus": 13.43,
+		"leave": 71.18,
+		"withdegree": 7.42,
+		"religion": {
+			"christian": 71.83,
+			"jewish": 0.08,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.05,
+			"black": 0.28,
+			"chinese": 0.21,
+			"indian": 0.3,
+			"mixed": 0.9,
+			"other": 0.09,
+			"otherasian": 0.23,
+			"pakistani": 0.05,
+			"white": 97.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

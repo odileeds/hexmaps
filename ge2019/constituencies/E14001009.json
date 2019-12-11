@@ -3,9 +3,27 @@
 	"title": "Wakefield",
 	"demographics": {
 		"2015UKIP": 18.3,
-		"leave": 62.77,
 		"age18-29": 14.97,
-		"withdegree": 10.97
+		"EUminus": 7.58,
+		"leave": 62.77,
+		"withdegree": 10.97,
+		"religion": {
+			"christian": 61.89,
+			"jewish": 0.06,
+			"muslim": 4.56
+		},
+		"race": {
+			"arab": 0.23,
+			"bangladeshi": 0.02,
+			"black": 1.43,
+			"chinese": 0.27,
+			"indian": 0.62,
+			"mixed": 1.24,
+			"other": 0.32,
+			"otherasian": 0.65,
+			"pakistani": 3.52,
+			"white": 91.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Barnsley East",
 	"demographics": {
 		"2015UKIP": 23.48,
-		"leave": 70.78,
 		"age18-29": 14.81,
-		"withdegree": 6.52
+		"EUminus": 2.81,
+		"leave": 70.78,
+		"withdegree": 6.52,
+		"religion": {
+			"christian": 68.65,
+			"jewish": 0.02,
+			"muslim": 0.24
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.03,
+			"black": 0.53,
+			"chinese": 0.14,
+			"indian": 0.14,
+			"mixed": 0.7,
+			"other": 0.08,
+			"otherasian": 0.17,
+			"pakistani": 0.05,
+			"white": 98.13
+		}
 	},
 	"elections": {
 		"2019-12-12": {

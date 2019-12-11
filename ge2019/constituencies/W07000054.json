@@ -3,9 +3,27 @@
 	"title": "Monmouth",
 	"demographics": {
 		"2015UKIP": 10.41,
-		"leave": 47.85,
 		"age18-29": 10.81,
-		"withdegree": 19.88
+		"EUminus": 3.48,
+		"leave": 47.85,
+		"withdegree": 19.88,
+		"religion": {
+			"christian": 62.63,
+			"jewish": 0.07,
+			"muslim": 0.31
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.07,
+			"black": 0.2,
+			"chinese": 0.21,
+			"indian": 0.26,
+			"mixed": 0.7,
+			"other": 0.07,
+			"otherasian": 0.47,
+			"pakistani": 0.06,
+			"white": 97.89
+		}
 	},
 	"elections": {
 		"2019-12-12": {

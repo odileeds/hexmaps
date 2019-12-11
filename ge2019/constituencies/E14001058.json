@@ -3,9 +3,27 @@
 	"title": "Wyre Forest",
 	"demographics": {
 		"2015UKIP": 16.11,
-		"leave": 63.15,
 		"age18-29": 12.8,
-		"withdegree": 10.9
+		"EUminus": 3.74,
+		"leave": 63.15,
+		"withdegree": 10.9,
+		"religion": {
+			"christian": 68.65,
+			"jewish": 0.04,
+			"muslim": 0.7
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.52,
+			"black": 0.22,
+			"chinese": 0.17,
+			"indian": 0.31,
+			"mixed": 1.02,
+			"other": 0.09,
+			"otherasian": 0.28,
+			"pakistani": 0.14,
+			"white": 97.24
+		}
 	},
 	"elections": {
 		"2019-12-12": {

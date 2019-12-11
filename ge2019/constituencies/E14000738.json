@@ -3,9 +3,27 @@
 	"title": "Hazel Grove",
 	"demographics": {
 		"2015UKIP": 12.22,
-		"leave": 52.21,
 		"age18-29": 11.76,
-		"withdegree": 15.29
+		"EUminus": 2.8,
+		"leave": 52.21,
+		"withdegree": 15.29,
+		"religion": {
+			"christian": 66.58,
+			"jewish": 0.07,
+			"muslim": 0.76
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.1,
+			"black": 0.36,
+			"chinese": 0.38,
+			"indian": 0.37,
+			"mixed": 1.2,
+			"other": 0.15,
+			"otherasian": 0.27,
+			"pakistani": 0.4,
+			"white": 96.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

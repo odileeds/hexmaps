@@ -3,9 +3,27 @@
 	"title": "Rochford and Southend East",
 	"demographics": {
 		"2015UKIP": 20.52,
-		"leave": 60.46,
 		"age18-29": 15.4,
-		"withdegree": 9.89
+		"EUminus": 7.83,
+		"leave": 60.46,
+		"withdegree": 9.89,
+		"religion": {
+			"christian": 54.94,
+			"jewish": 1.13,
+			"muslim": 1.84
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 0.53,
+			"black": 2.33,
+			"chinese": 0.73,
+			"indian": 0.96,
+			"mixed": 2.21,
+			"other": 0.34,
+			"otherasian": 0.89,
+			"pakistani": 0.5,
+			"white": 91.33
+		}
 	},
 	"elections": {
 		"2019-12-12": {

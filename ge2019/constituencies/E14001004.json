@@ -3,9 +3,27 @@
 	"title": "Tunbridge Wells",
 	"demographics": {
 		"2015UKIP": 12.6,
-		"leave": 44.7,
 		"age18-29": 13,
-		"withdegree": 22.85
+		"EUminus": 7.65,
+		"leave": 44.7,
+		"withdegree": 22.85,
+		"religion": {
+			"christian": 62.55,
+			"jewish": 0.2,
+			"muslim": 1.15
+		},
+		"race": {
+			"arab": 0.11,
+			"bangladeshi": 0.48,
+			"black": 0.57,
+			"chinese": 0.44,
+			"indian": 0.69,
+			"mixed": 1.68,
+			"other": 0.23,
+			"otherasian": 0.85,
+			"pakistani": 0.16,
+			"white": 94.77
+		}
 	},
 	"elections": {
 		"2019-12-12": {

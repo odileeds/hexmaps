@@ -3,9 +3,27 @@
 	"title": "Sutton Coldfield",
 	"demographics": {
 		"2015UKIP": 14.73,
-		"leave": 51.67,
 		"age18-29": 11.91,
-		"withdegree": 21.34
+		"EUminus": 3.91,
+		"leave": 51.67,
+		"withdegree": 21.34,
+		"religion": {
+			"christian": 66.58,
+			"jewish": 0.13,
+			"muslim": 1.92
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.2,
+			"black": 1.99,
+			"chinese": 0.55,
+			"indian": 3.97,
+			"mixed": 2.17,
+			"other": 0.38,
+			"otherasian": 0.77,
+			"pakistani": 1.18,
+			"white": 88.68
+		}
 	},
 	"elections": {
 		"2019-12-12": {

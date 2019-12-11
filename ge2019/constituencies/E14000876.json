@@ -3,9 +3,27 @@
 	"title": "Penistone and Stocksbridge",
 	"demographics": {
 		"2015UKIP": 22.92,
-		"leave": 61.35,
 		"age18-29": 11.36,
-		"withdegree": 13.04
+		"EUminus": 1.92,
+		"leave": 61.35,
+		"withdegree": 13.04,
+		"religion": {
+			"christian": 67.28,
+			"jewish": 0.06,
+			"muslim": 0.44
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.03,
+			"black": 0.46,
+			"chinese": 0.17,
+			"indian": 0.25,
+			"mixed": 0.81,
+			"other": 0.11,
+			"otherasian": 0.19,
+			"pakistani": 0.18,
+			"white": 97.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Kensington",
 	"demographics": {
 		"2015UKIP": 4.47,
-		"leave": 31.35,
 		"age18-29": 20.1,
-		"withdegree": 46.27
+		"EUminus": 34.5,
+		"leave": 31.35,
+		"withdegree": 46.27,
+		"religion": {
+			"christian": 52.13,
+			"jewish": 2.04,
+			"muslim": 10.93
+		},
+		"race": {
+			"arab": 4.49,
+			"bangladeshi": 0.54,
+			"black": 7.54,
+			"chinese": 2.84,
+			"indian": 1.67,
+			"mixed": 6.01,
+			"other": 3.38,
+			"otherasian": 4.96,
+			"pakistani": 0.62,
+			"white": 67.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

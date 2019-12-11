@@ -3,9 +3,27 @@
 	"title": "Cardiff West",
 	"demographics": {
 		"2015UKIP": 11.24,
-		"leave": 44.84,
 		"age18-29": 16.65,
-		"withdegree": 23.38
+		"EUminus": 5.91,
+		"leave": 44.84,
+		"withdegree": 23.38,
+		"religion": {
+			"christian": 52.49,
+			"jewish": 0.14,
+			"muslim": 5.31
+		},
+		"race": {
+			"arab": 0.7,
+			"bangladeshi": 1.88,
+			"black": 1.75,
+			"chinese": 0.84,
+			"indian": 1.89,
+			"mixed": 2.83,
+			"other": 0.48,
+			"otherasian": 0.92,
+			"pakistani": 1.25,
+			"white": 87.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

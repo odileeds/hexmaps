@@ -3,9 +3,27 @@
 	"title": "Leicester South",
 	"demographics": {
 		"2015UKIP": 8.34,
-		"leave": 42.58,
 		"age18-29": 28.75,
-		"withdegree": 19.53
+		"EUminus": 10,
+		"leave": 42.58,
+		"withdegree": 19.53,
+		"religion": {
+			"christian": 30.49,
+			"jewish": 0.15,
+			"muslim": 27.79
+		},
+		"race": {
+			"arab": 1.38,
+			"bangladeshi": 2.28,
+			"black": 6.98,
+			"chinese": 2.51,
+			"indian": 25.16,
+			"mixed": 3.41,
+			"other": 1.61,
+			"otherasian": 4,
+			"pakistani": 3.45,
+			"white": 49.22
+		}
 	},
 	"elections": {
 		"2019-12-12": {

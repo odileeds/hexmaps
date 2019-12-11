@@ -3,9 +3,27 @@
 	"title": "Harrow West",
 	"demographics": {
 		"2015UKIP": 4.39,
-		"leave": 45.06,
 		"age18-29": 17.88,
-		"withdegree": 28.94
+		"EUminus": 17.33,
+		"leave": 45.06,
+		"withdegree": 28.94,
+		"religion": {
+			"christian": 39.21,
+			"jewish": 0.84,
+			"muslim": 13.34
+		},
+		"race": {
+			"arab": 1.6,
+			"bangladeshi": 0.67,
+			"black": 9.35,
+			"chinese": 1.21,
+			"indian": 23,
+			"mixed": 4.6,
+			"other": 1.42,
+			"otherasian": 14.19,
+			"pakistani": 3.82,
+			"white": 40.14
+		}
 	},
 	"elections": {
 		"2019-12-12": {

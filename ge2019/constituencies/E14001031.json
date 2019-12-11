@@ -3,9 +3,27 @@
 	"title": "West Dorset",
 	"demographics": {
 		"2015UKIP": 12.5,
-		"leave": 51,
 		"age18-29": 9.88,
-		"withdegree": 16.77
+		"EUminus": 3.86,
+		"leave": 51,
+		"withdegree": 16.77,
+		"religion": {
+			"christian": 65.25,
+			"jewish": 0.08,
+			"muslim": 0.27
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.09,
+			"black": 0.17,
+			"chinese": 0.25,
+			"indian": 0.25,
+			"mixed": 0.78,
+			"other": 0.07,
+			"otherasian": 0.31,
+			"pakistani": 0.06,
+			"white": 97.99
+		}
 	},
 	"elections": {
 		"2019-12-12": {

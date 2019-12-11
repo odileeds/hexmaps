@@ -3,9 +3,27 @@
 	"title": "Newton Abbot",
 	"demographics": {
 		"2015UKIP": 13.94,
-		"leave": 56.1,
 		"age18-29": 11.93,
-		"withdegree": 12.73
+		"EUminus": 3.6,
+		"leave": 56.1,
+		"withdegree": 12.73,
+		"religion": {
+			"christian": 62.38,
+			"jewish": 0.06,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.08,
+			"black": 0.12,
+			"chinese": 0.32,
+			"indian": 0.16,
+			"mixed": 0.73,
+			"other": 0.09,
+			"otherasian": 0.23,
+			"pakistani": 0.02,
+			"white": 98.24
+		}
 	},
 	"elections": {
 		"2019-12-12": {

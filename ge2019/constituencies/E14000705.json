@@ -3,9 +3,27 @@
 	"title": "Forest of Dean",
 	"demographics": {
 		"2015UKIP": 17.75,
-		"leave": 58.07,
 		"age18-29": 11.87,
-		"withdegree": 12.49
+		"EUminus": 3.18,
+		"leave": 58.07,
+		"withdegree": 12.49,
+		"religion": {
+			"christian": 66.12,
+			"jewish": 0.06,
+			"muslim": 0.11
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0,
+			"black": 0.24,
+			"chinese": 0.16,
+			"indian": 0.19,
+			"mixed": 0.65,
+			"other": 0.07,
+			"otherasian": 0.19,
+			"pakistani": 0.03,
+			"white": 98.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

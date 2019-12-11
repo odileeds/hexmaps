@@ -3,9 +3,27 @@
 	"title": "Putney",
 	"demographics": {
 		"2015UKIP": 4.65,
-		"leave": 26.85,
 		"age18-29": 23.68,
-		"withdegree": 44.21
+		"EUminus": 22.35,
+		"leave": 26.85,
+		"withdegree": 44.21,
+		"religion": {
+			"christian": 54.58,
+			"jewish": 0.65,
+			"muslim": 7.87
+		},
+		"race": {
+			"arab": 0.87,
+			"bangladeshi": 0.3,
+			"black": 7.38,
+			"chinese": 1.21,
+			"indian": 1.98,
+			"mixed": 4.76,
+			"other": 1.51,
+			"otherasian": 3.03,
+			"pakistani": 3.61,
+			"white": 75.35
+		}
 	},
 	"elections": {
 		"2019-12-12": {

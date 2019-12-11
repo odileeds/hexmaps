@@ -3,9 +3,27 @@
 	"title": "Tynemouth",
 	"demographics": {
 		"2015UKIP": 12.23,
-		"leave": 47.84,
 		"age18-29": 12.35,
-		"withdegree": 18.47
+		"EUminus": 2.56,
+		"leave": 47.84,
+		"withdegree": 18.47,
+		"religion": {
+			"christian": 63.33,
+			"jewish": 0.05,
+			"muslim": 0.9
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.53,
+			"black": 0.24,
+			"chinese": 0.29,
+			"indian": 0.51,
+			"mixed": 0.95,
+			"other": 0.13,
+			"otherasian": 0.45,
+			"pakistani": 0.16,
+			"white": 96.63
+		}
 	},
 	"elections": {
 		"2019-12-12": {

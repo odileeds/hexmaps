@@ -3,9 +3,27 @@
 	"title": "North Herefordshire",
 	"demographics": {
 		"2015UKIP": 13.99,
-		"leave": 58.25,
 		"age18-29": 10.58,
-		"withdegree": 16.53
+		"EUminus": 6.35,
+		"leave": 58.25,
+		"withdegree": 16.53,
+		"religion": {
+			"christian": 68.95,
+			"jewish": 0.07,
+			"muslim": 0.12
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.01,
+			"black": 0.16,
+			"chinese": 0.14,
+			"indian": 0.17,
+			"mixed": 0.58,
+			"other": 0.07,
+			"otherasian": 0.26,
+			"pakistani": 0.03,
+			"white": 98.56
+		}
 	},
 	"elections": {
 		"2019-12-12": {

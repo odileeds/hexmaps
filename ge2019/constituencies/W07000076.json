@@ -3,9 +3,27 @@
 	"title": "Caerphilly",
 	"demographics": {
 		"2015UKIP": 19.34,
-		"leave": 55.16,
 		"age18-29": 14.72,
-		"withdegree": 11.39
+		"EUminus": 2.42,
+		"leave": 55.16,
+		"withdegree": 11.39,
+		"religion": {
+			"christian": 51.22,
+			"jewish": 0.05,
+			"muslim": 0.25
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.01,
+			"black": 0.15,
+			"chinese": 0.32,
+			"indian": 0.25,
+			"mixed": 0.72,
+			"other": 0.07,
+			"otherasian": 0.24,
+			"pakistani": 0.08,
+			"white": 98.1
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Esher and Walton",
 	"demographics": {
 		"2015UKIP": 9.74,
-		"leave": 41.63,
 		"age18-29": 10.47,
-		"withdegree": 31.37
+		"EUminus": 10.37,
+		"leave": 41.63,
+		"withdegree": 31.37,
+		"religion": {
+			"christian": 63.99,
+			"jewish": 0.58,
+			"muslim": 1.79
+		},
+		"race": {
+			"arab": 0.41,
+			"bangladeshi": 0.41,
+			"black": 0.78,
+			"chinese": 0.85,
+			"indian": 1.88,
+			"mixed": 2.54,
+			"other": 0.47,
+			"otherasian": 1.77,
+			"pakistani": 0.39,
+			"white": 90.5
+		}
 	},
 	"elections": {
 		"2019-12-12": {

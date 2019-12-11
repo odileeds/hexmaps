@@ -3,9 +3,27 @@
 	"title": "Gillingham and Rainham",
 	"demographics": {
 		"2015UKIP": 19.54,
-		"leave": 63.58,
 		"age18-29": 16.72,
-		"withdegree": 9.51
+		"EUminus": 6.73,
+		"leave": 63.58,
+		"withdegree": 9.51,
+		"religion": {
+			"christian": 57.83,
+			"jewish": 0.06,
+			"muslim": 2.17
+		},
+		"race": {
+			"arab": 0.2,
+			"bangladeshi": 0.33,
+			"black": 2.23,
+			"chinese": 0.37,
+			"indian": 2.76,
+			"mixed": 1.93,
+			"other": 0.6,
+			"otherasian": 1.1,
+			"pakistani": 0.88,
+			"white": 89.61
+		}
 	},
 	"elections": {
 		"2019-12-12": {

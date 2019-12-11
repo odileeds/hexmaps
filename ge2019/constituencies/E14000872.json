@@ -3,9 +3,27 @@
 	"title": "Orpington",
 	"demographics": {
 		"2015UKIP": 16.67,
-		"leave": 57.54,
 		"age18-29": 11.7,
-		"withdegree": 16.31
+		"EUminus": 5.09,
+		"leave": 57.54,
+		"withdegree": 16.31,
+		"religion": {
+			"christian": 63.73,
+			"jewish": 0.22,
+			"muslim": 1.42
+		},
+		"race": {
+			"arab": 0.14,
+			"bangladeshi": 0.29,
+			"black": 3.05,
+			"chinese": 0.81,
+			"indian": 1.65,
+			"mixed": 2.17,
+			"other": 0.43,
+			"otherasian": 1.28,
+			"pakistani": 0.21,
+			"white": 89.96
+		}
 	},
 	"elections": {
 		"2019-12-12": {

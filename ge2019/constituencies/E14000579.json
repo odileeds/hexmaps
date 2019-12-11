@@ -3,9 +3,27 @@
 	"title": "Bolton South East",
 	"demographics": {
 		"2015UKIP": 23.63,
-		"leave": 63.42,
 		"age18-29": 16.8,
-		"withdegree": 9.21
+		"EUminus": 4.98,
+		"leave": 63.42,
+		"withdegree": 9.21,
+		"religion": {
+			"christian": 56.65,
+			"jewish": 0.07,
+			"muslim": 18.59
+		},
+		"race": {
+			"arab": 0.4,
+			"bangladeshi": 0.49,
+			"black": 2.41,
+			"chinese": 0.5,
+			"indian": 11.62,
+			"mixed": 1.94,
+			"other": 0.62,
+			"otherasian": 1.79,
+			"pakistani": 7.21,
+			"white": 72.99
+		}
 	},
 	"elections": {
 		"2019-12-12": {

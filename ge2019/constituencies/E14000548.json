@@ -3,9 +3,27 @@
 	"title": "Batley and Spen",
 	"demographics": {
 		"2015UKIP": 17.99,
-		"leave": 60.35,
 		"age18-29": 15.65,
-		"withdegree": 10.56
+		"EUminus": 2.91,
+		"leave": 60.35,
+		"withdegree": 10.56,
+		"religion": {
+			"christian": 53.61,
+			"jewish": 0.04,
+			"muslim": 18.77
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.08,
+			"black": 0.41,
+			"chinese": 0.19,
+			"indian": 9.93,
+			"mixed": 1.33,
+			"other": 0.15,
+			"otherasian": 0.47,
+			"pakistani": 9.56,
+			"white": 77.79
+		}
 	},
 	"elections": {
 		"2019-12-12": {

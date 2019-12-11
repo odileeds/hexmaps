@@ -3,9 +3,27 @@
 	"title": "Harwich and North Essex",
 	"demographics": {
 		"2015UKIP": 17.48,
-		"leave": 61.07,
 		"age18-29": 13.35,
-		"withdegree": 12.98
+		"EUminus": 4.94,
+		"leave": 61.07,
+		"withdegree": 12.98,
+		"religion": {
+			"christian": 62.51,
+			"jewish": 0.17,
+			"muslim": 0.61
+		},
+		"race": {
+			"arab": 0.21,
+			"bangladeshi": 0.06,
+			"black": 0.63,
+			"chinese": 0.71,
+			"indian": 0.34,
+			"mixed": 1.11,
+			"other": 0.17,
+			"otherasian": 0.52,
+			"pakistani": 0.06,
+			"white": 96.18
+		}
 	},
 	"elections": {
 		"2019-12-12": {

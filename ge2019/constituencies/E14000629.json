@@ -3,9 +3,27 @@
 	"title": "Chelsea and Fulham",
 	"demographics": {
 		"2015UKIP": 5.07,
-		"leave": 29.21,
 		"age18-29": 22.55,
-		"withdegree": 47.09
+		"EUminus": 31.4,
+		"leave": 29.21,
+		"withdegree": 47.09,
+		"religion": {
+			"christian": 59.92,
+			"jewish": 1.34,
+			"muslim": 6.85
+		},
+		"race": {
+			"arab": 2.36,
+			"bangladeshi": 0.44,
+			"black": 5.94,
+			"chinese": 1.47,
+			"indian": 1.48,
+			"mixed": 4.78,
+			"other": 2.19,
+			"otherasian": 3.48,
+			"pakistani": 0.55,
+			"white": 77.32
+		}
 	},
 	"elections": {
 		"2019-12-12": {

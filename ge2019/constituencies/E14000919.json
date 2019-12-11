@@ -3,9 +3,27 @@
 	"title": "Sheffield Central",
 	"demographics": {
 		"2015UKIP": 7.46,
-		"leave": 30.41,
 		"age18-29": 43.57,
-		"withdegree": 27.48
+		"EUminus": 8.34,
+		"leave": 30.41,
+		"withdegree": 27.48,
+		"religion": {
+			"christian": 39.41,
+			"jewish": 0.17,
+			"muslim": 11.31
+		},
+		"race": {
+			"arab": 2.7,
+			"bangladeshi": 0.75,
+			"black": 5.77,
+			"chinese": 4.52,
+			"indian": 2.56,
+			"mixed": 3.08,
+			"other": 1.31,
+			"otherasian": 2.12,
+			"pakistani": 5.18,
+			"white": 72.02
+		}
 	},
 	"elections": {
 		"2019-12-12": {

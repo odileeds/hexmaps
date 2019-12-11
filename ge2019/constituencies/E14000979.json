@@ -3,9 +3,27 @@
 	"title": "Stretford and Urmston",
 	"demographics": {
 		"2015UKIP": 10.93,
-		"leave": 48.47,
 		"age18-29": 14.82,
-		"withdegree": 16.06
+		"EUminus": 6.95,
+		"leave": 48.47,
+		"withdegree": 16.06,
+		"religion": {
+			"christian": 61.38,
+			"jewish": 0.13,
+			"muslim": 9.35
+		},
+		"race": {
+			"arab": 0.65,
+			"bangladeshi": 0.27,
+			"black": 5.34,
+			"chinese": 0.7,
+			"indian": 3.76,
+			"mixed": 3.36,
+			"other": 0.44,
+			"otherasian": 1.12,
+			"pakistani": 5.12,
+			"white": 79.25
+		}
 	},
 	"elections": {
 		"2019-12-12": {

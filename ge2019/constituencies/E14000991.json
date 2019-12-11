@@ -3,9 +3,27 @@
 	"title": "The Cotswolds",
 	"demographics": {
 		"2015UKIP": 10.92,
-		"leave": 47.8,
 		"age18-29": 10.72,
-		"withdegree": 21.18
+		"EUminus": 5.09,
+		"leave": 47.8,
+		"withdegree": 21.18,
+		"religion": {
+			"christian": 68.05,
+			"jewish": 0.15,
+			"muslim": 0.19
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.04,
+			"black": 0.25,
+			"chinese": 0.24,
+			"indian": 0.25,
+			"mixed": 0.83,
+			"other": 0.1,
+			"otherasian": 0.38,
+			"pakistani": 0.02,
+			"white": 97.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

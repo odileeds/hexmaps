@@ -3,9 +3,27 @@
 	"title": "Worsley and Eccles South",
 	"demographics": {
 		"2015UKIP": 18.28,
-		"leave": 59.79,
 		"age18-29": 15.45,
-		"withdegree": 11.45
+		"EUminus": 5.01,
+		"leave": 59.79,
+		"withdegree": 11.45,
+		"religion": {
+			"christian": 69.33,
+			"jewish": 0.22,
+			"muslim": 1.35
+		},
+		"race": {
+			"arab": 0.33,
+			"bangladeshi": 0.2,
+			"black": 1.32,
+			"chinese": 0.63,
+			"indian": 0.83,
+			"mixed": 1.6,
+			"other": 0.18,
+			"otherasian": 0.45,
+			"pakistani": 0.39,
+			"white": 94.07
+		}
 	},
 	"elections": {
 		"2019-12-12": {

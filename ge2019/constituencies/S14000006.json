@@ -3,8 +3,26 @@
 	"title": "Ayr, Carrick and Cumnock",
 	"demographics": {
 		"2015UKIP": 2.45,
+		"age18-29": 13.18,
+		"EUminus": 2.62,
 		"leave": 42.99,
-		"age18-29": 13.18
+		"religion": {
+			"christian": 56.96,
+			"jewish": 0.04,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.24,
+			"indian": 0.19,
+			"mixed": 0,
+			"other": 0.03,
+			"otherasian": 0.13,
+			"pakistani": 0.14,
+			"white": 98.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

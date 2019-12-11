@@ -3,9 +3,27 @@
 	"title": "Cambridge",
 	"demographics": {
 		"2015UKIP": 5.15,
-		"leave": 26.23,
 		"age18-29": 31.42,
-		"withdegree": 41.01
+		"EUminus": 22.51,
+		"leave": 26.23,
+		"withdegree": 41.01,
+		"religion": {
+			"christian": 44.38,
+			"jewish": 0.7,
+			"muslim": 3.99
+		},
+		"race": {
+			"arab": 0.75,
+			"bangladeshi": 1.51,
+			"black": 1.72,
+			"chinese": 3.62,
+			"indian": 2.65,
+			"mixed": 3.21,
+			"other": 0.88,
+			"otherasian": 2.5,
+			"pakistani": 0.59,
+			"white": 82.57
+		}
 	},
 	"elections": {
 		"2019-12-12": {

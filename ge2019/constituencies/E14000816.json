@@ -3,9 +3,27 @@
 	"title": "Mid Norfolk",
 	"demographics": {
 		"2015UKIP": 19.02,
-		"leave": 60.58,
 		"age18-29": 12.13,
-		"withdegree": 10.42
+		"EUminus": 6.05,
+		"leave": 60.58,
+		"withdegree": 10.42,
+		"religion": {
+			"christian": 63.84,
+			"jewish": 0.11,
+			"muslim": 0.29
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.05,
+			"black": 0.37,
+			"chinese": 0.19,
+			"indian": 0.21,
+			"mixed": 0.99,
+			"other": 0.07,
+			"otherasian": 0.24,
+			"pakistani": 0.04,
+			"white": 97.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

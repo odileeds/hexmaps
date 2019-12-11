@@ -3,9 +3,27 @@
 	"title": "Feltham and Heston",
 	"demographics": {
 		"2015UKIP": 12.57,
-		"leave": 55.93,
 		"age18-29": 20.17,
-		"withdegree": 18.59
+		"EUminus": 16.22,
+		"leave": 55.93,
+		"withdegree": 18.59,
+		"religion": {
+			"christian": 38.94,
+			"jewish": 0.06,
+			"muslim": 15.66
+		},
+		"race": {
+			"arab": 1.15,
+			"bangladeshi": 0.87,
+			"black": 7.09,
+			"chinese": 0.62,
+			"indian": 22.72,
+			"mixed": 3.67,
+			"other": 2.38,
+			"otherasian": 9.9,
+			"pakistani": 6.73,
+			"white": 44.86
+		}
 	},
 	"elections": {
 		"2019-12-12": {

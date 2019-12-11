@@ -3,9 +3,27 @@
 	"title": "Ipswich",
 	"demographics": {
 		"2015UKIP": 11.71,
-		"leave": 56.57,
 		"age18-29": 18.56,
-		"withdegree": 12.89
+		"EUminus": 11.4,
+		"leave": 56.57,
+		"withdegree": 12.89,
+		"religion": {
+			"christian": 52.48,
+			"jewish": 0.06,
+			"muslim": 2.91
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 1.42,
+			"black": 2.41,
+			"chinese": 0.55,
+			"indian": 1.54,
+			"mixed": 3.61,
+			"other": 0.76,
+			"otherasian": 1.1,
+			"pakistani": 0.2,
+			"white": 88.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

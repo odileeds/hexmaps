@@ -3,9 +3,27 @@
 	"title": "Thornbury and Yate",
 	"demographics": {
 		"2015UKIP": 10.55,
-		"leave": 53.33,
 		"age18-29": 11.84,
-		"withdegree": 15.19
+		"EUminus": 3.88,
+		"leave": 53.33,
+		"withdegree": 15.19,
+		"religion": {
+			"christian": 62.3,
+			"jewish": 0.06,
+			"muslim": 0.35
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.07,
+			"black": 0.35,
+			"chinese": 0.16,
+			"indian": 0.35,
+			"mixed": 0.92,
+			"other": 0.1,
+			"otherasian": 0.35,
+			"pakistani": 0.09,
+			"white": 97.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

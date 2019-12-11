@@ -3,9 +3,27 @@
 	"title": "Gosport",
 	"demographics": {
 		"2015UKIP": 19.44,
-		"leave": 61.97,
 		"age18-29": 14.1,
-		"withdegree": 10.19
+		"EUminus": 4.83,
+		"leave": 61.97,
+		"withdegree": 10.19,
+		"religion": {
+			"christian": 60.23,
+			"jewish": 0.04,
+			"muslim": 0.52
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.17,
+			"black": 0.63,
+			"chinese": 0.25,
+			"indian": 0.48,
+			"mixed": 1.25,
+			"other": 0.17,
+			"otherasian": 0.3,
+			"pakistani": 0.03,
+			"white": 96.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

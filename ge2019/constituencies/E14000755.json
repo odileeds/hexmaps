@@ -3,9 +3,27 @@
 	"title": "Hove",
 	"demographics": {
 		"2015UKIP": 6.25,
-		"leave": 33.92,
 		"age18-29": 16.18,
-		"withdegree": 28.67
+		"EUminus": 11.95,
+		"leave": 33.92,
+		"withdegree": 28.67,
+		"religion": {
+			"christian": 46.75,
+			"jewish": 1.58,
+			"muslim": 2.69
+		},
+		"race": {
+			"arab": 1.06,
+			"bangladeshi": 0.62,
+			"black": 1.37,
+			"chinese": 0.79,
+			"indian": 1.01,
+			"mixed": 3.74,
+			"other": 0.82,
+			"otherasian": 1.15,
+			"pakistani": 0.25,
+			"white": 89.21
+		}
 	},
 	"elections": {
 		"2019-12-12": {

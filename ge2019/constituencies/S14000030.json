@@ -3,8 +3,26 @@
 	"title": "Glasgow East",
 	"demographics": {
 		"2015UKIP": 2.61,
+		"age18-29": 16.43,
+		"EUminus": 5.01,
 		"leave": 43.84,
-		"age18-29": 16.43
+		"religion": {
+			"christian": 65.58,
+			"jewish": 0.05,
+			"muslim": 1.11
+		},
+		"race": {
+			"arab": 0.17,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.74,
+			"indian": 0.39,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.31,
+			"pakistani": 0.59,
+			"white": 96.39
+		}
 	},
 	"elections": {
 		"2019-12-12": {

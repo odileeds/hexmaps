@@ -3,9 +3,27 @@
 	"title": "Walthamstow",
 	"demographics": {
 		"2015UKIP": 6,
-		"leave": 33.49,
 		"age18-29": 20.25,
-		"withdegree": 24
+		"EUminus": 26.8,
+		"leave": 33.49,
+		"withdegree": 24,
+		"religion": {
+			"christian": 44.54,
+			"jewish": 0.43,
+			"muslim": 25.35
+		},
+		"race": {
+			"arab": 1.74,
+			"bangladeshi": 1.32,
+			"black": 18.88,
+			"chinese": 1.02,
+			"indian": 3.23,
+			"mixed": 5.62,
+			"other": 2.88,
+			"otherasian": 5.83,
+			"pakistani": 12.93,
+			"white": 46.55
+		}
 	},
 	"elections": {
 		"2019-12-12": {

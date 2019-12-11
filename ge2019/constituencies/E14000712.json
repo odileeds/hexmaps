@@ -3,9 +3,27 @@
 	"title": "Gloucester",
 	"demographics": {
 		"2015UKIP": 14.26,
-		"leave": 58.9,
 		"age18-29": 16.95,
-		"withdegree": 10.98
+		"EUminus": 8.53,
+		"leave": 58.9,
+		"withdegree": 10.98,
+		"religion": {
+			"christian": 61.74,
+			"jewish": 0.04,
+			"muslim": 3.37
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.42,
+			"black": 3.05,
+			"chinese": 0.38,
+			"indian": 2.77,
+			"mixed": 3.05,
+			"other": 0.18,
+			"otherasian": 0.91,
+			"pakistani": 0.53,
+			"white": 88.6
+		}
 	},
 	"elections": {
 		"2019-12-12": {

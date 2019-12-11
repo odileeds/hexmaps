@@ -3,9 +3,27 @@
 	"title": "Burnley",
 	"demographics": {
 		"2015UKIP": 17.27,
-		"leave": 66.61,
 		"age18-29": 15.57,
-		"withdegree": 8.59
+		"EUminus": 3.26,
+		"leave": 66.61,
+		"withdegree": 8.59,
+		"religion": {
+			"christian": 63.63,
+			"jewish": 0.02,
+			"muslim": 9.86
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 2.79,
+			"black": 0.25,
+			"chinese": 0.25,
+			"indian": 0.37,
+			"mixed": 1.12,
+			"other": 0.21,
+			"otherasian": 0.79,
+			"pakistani": 6.8,
+			"white": 87.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

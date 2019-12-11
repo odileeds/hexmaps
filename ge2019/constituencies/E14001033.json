@@ -3,9 +3,27 @@
 	"title": "West Lancashire",
 	"demographics": {
 		"2015UKIP": 12.2,
-		"leave": 54.94,
 		"age18-29": 15.29,
-		"withdegree": 13.95
+		"EUminus": 4.39,
+		"leave": 54.94,
+		"withdegree": 13.95,
+		"religion": {
+			"christian": 75.81,
+			"jewish": 0.05,
+			"muslim": 0.26
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.01,
+			"black": 0.17,
+			"chinese": 0.18,
+			"indian": 0.4,
+			"mixed": 0.81,
+			"other": 0.05,
+			"otherasian": 0.2,
+			"pakistani": 0.08,
+			"white": 98.06
+		}
 	},
 	"elections": {
 		"2019-12-12": {

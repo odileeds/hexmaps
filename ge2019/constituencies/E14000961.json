@@ -3,9 +3,27 @@
 	"title": "St Austell and Newquay",
 	"demographics": {
 		"2015UKIP": 16.88,
-		"leave": 63.51,
 		"age18-29": 12.87,
-		"withdegree": 9.53
+		"EUminus": 3.8,
+		"leave": 63.51,
+		"withdegree": 9.53,
+		"religion": {
+			"christian": 59.34,
+			"jewish": 0.05,
+			"muslim": 0.15
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.06,
+			"black": 0.13,
+			"chinese": 0.17,
+			"indian": 0.1,
+			"mixed": 0.83,
+			"other": 0.13,
+			"otherasian": 0.2,
+			"pakistani": 0,
+			"white": 98.32
+		}
 	},
 	"elections": {
 		"2019-12-12": {

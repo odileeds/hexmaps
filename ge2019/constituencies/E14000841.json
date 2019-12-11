@@ -3,9 +3,27 @@
 	"title": "North East Bedfordshire",
 	"demographics": {
 		"2015UKIP": 14.62,
-		"leave": 53.29,
 		"age18-29": 11.72,
-		"withdegree": 17.33
+		"EUminus": 5.27,
+		"leave": 53.29,
+		"withdegree": 17.33,
+		"religion": {
+			"christian": 62.69,
+			"jewish": 0.13,
+			"muslim": 0.64
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.16,
+			"black": 1.12,
+			"chinese": 0.39,
+			"indian": 1.32,
+			"mixed": 1.9,
+			"other": 0.23,
+			"otherasian": 0.6,
+			"pakistani": 0.17,
+			"white": 94.06
+		}
 	},
 	"elections": {
 		"2019-12-12": {

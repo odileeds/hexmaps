@@ -3,9 +3,27 @@
 	"title": "Great Yarmouth",
 	"demographics": {
 		"2015UKIP": 23.09,
-		"leave": 71.5,
 		"age18-29": 14.34,
-		"withdegree": 5.5
+		"EUminus": 7.37,
+		"leave": 71.5,
+		"withdegree": 5.5,
+		"religion": {
+			"christian": 61.05,
+			"jewish": 0.11,
+			"muslim": 0.53
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.02,
+			"black": 0.45,
+			"chinese": 0.19,
+			"indian": 0.46,
+			"mixed": 1.18,
+			"other": 0.19,
+			"otherasian": 0.45,
+			"pakistani": 0.12,
+			"white": 96.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

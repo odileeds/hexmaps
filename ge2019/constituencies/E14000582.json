@@ -3,9 +3,27 @@
 	"title": "Boston and Skegness",
 	"demographics": {
 		"2015UKIP": 33.79,
-		"leave": 74.96,
 		"age18-29": 13.79,
-		"withdegree": 5.78
+		"EUminus": 17.8,
+		"leave": 74.96,
+		"withdegree": 5.78,
+		"religion": {
+			"christian": 70.33,
+			"jewish": 0.07,
+			"muslim": 0.57
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.13,
+			"black": 0.38,
+			"chinese": 0.21,
+			"indian": 0.44,
+			"mixed": 0.96,
+			"other": 0.12,
+			"otherasian": 0.26,
+			"pakistani": 0.17,
+			"white": 97.25
+		}
 	},
 	"elections": {
 		"2019-12-12": {

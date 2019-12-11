@@ -3,9 +3,27 @@
 	"title": "Faversham and Mid Kent",
 	"demographics": {
 		"2015UKIP": 18,
-		"leave": 58.22,
 		"age18-29": 12.4,
-		"withdegree": 14.22
+		"EUminus": 5.12,
+		"leave": 58.22,
+		"withdegree": 14.22,
+		"religion": {
+			"christian": 64.14,
+			"jewish": 0.1,
+			"muslim": 0.66
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.12,
+			"black": 0.55,
+			"chinese": 0.23,
+			"indian": 0.38,
+			"mixed": 1.24,
+			"other": 0.14,
+			"otherasian": 0.62,
+			"pakistani": 0.1,
+			"white": 96.58
+		}
 	},
 	"elections": {
 		"2019-12-12": {

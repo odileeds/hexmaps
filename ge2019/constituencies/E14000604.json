@@ -3,9 +3,27 @@
 	"title": "Bromley and Chislehurst",
 	"demographics": {
 		"2015UKIP": 14.26,
-		"leave": 49.83,
 		"age18-29": 13.43,
-		"withdegree": 22.42
+		"EUminus": 8.61,
+		"leave": 49.83,
+		"withdegree": 22.42,
+		"religion": {
+			"christian": 59.65,
+			"jewish": 0.32,
+			"muslim": 2.68
+		},
+		"race": {
+			"arab": 0.33,
+			"bangladeshi": 0.46,
+			"black": 5.45,
+			"chinese": 1.05,
+			"indian": 2.48,
+			"mixed": 3.41,
+			"other": 0.75,
+			"otherasian": 1.71,
+			"pakistani": 0.35,
+			"white": 84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

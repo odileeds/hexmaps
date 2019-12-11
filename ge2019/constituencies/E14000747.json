@@ -3,9 +3,27 @@
 	"title": "Heywood and Middleton",
 	"demographics": {
 		"2015UKIP": 32.2,
-		"leave": 62.43,
 		"age18-29": 15.2,
-		"withdegree": 10.6
+		"EUminus": 4.47,
+		"leave": 62.43,
+		"withdegree": 10.6,
+		"religion": {
+			"christian": 69.98,
+			"jewish": 0.12,
+			"muslim": 3.85
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.3,
+			"black": 1.17,
+			"chinese": 0.55,
+			"indian": 0.39,
+			"mixed": 1.47,
+			"other": 0.19,
+			"otherasian": 0.47,
+			"pakistani": 3.11,
+			"white": 92.23
+		}
 	},
 	"elections": {
 		"2019-12-12": {

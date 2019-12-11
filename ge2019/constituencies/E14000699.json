@@ -3,9 +3,27 @@
 	"title": "Fareham",
 	"demographics": {
 		"2015UKIP": 15.41,
-		"leave": 55.41,
 		"age18-29": 12.6,
-		"withdegree": 15.09
+		"EUminus": 4.34,
+		"leave": 55.41,
+		"withdegree": 15.09,
+		"religion": {
+			"christian": 63.11,
+			"jewish": 0.06,
+			"muslim": 0.5
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.12,
+			"black": 0.35,
+			"chinese": 0.45,
+			"indian": 0.64,
+			"mixed": 1.25,
+			"other": 0.13,
+			"otherasian": 0.31,
+			"pakistani": 0.08,
+			"white": 96.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

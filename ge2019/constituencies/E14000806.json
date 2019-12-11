@@ -3,9 +3,27 @@
 	"title": "Maldon",
 	"demographics": {
 		"2015UKIP": 14.66,
-		"leave": 61.31,
 		"age18-29": 11.58,
-		"withdegree": 12.14
+		"EUminus": 2.89,
+		"leave": 61.31,
+		"withdegree": 12.14,
+		"religion": {
+			"christian": 64.83,
+			"jewish": 0.2,
+			"muslim": 0.41
+		},
+		"race": {
+			"arab": 0.09,
+			"bangladeshi": 0.14,
+			"black": 0.37,
+			"chinese": 0.2,
+			"indian": 0.31,
+			"mixed": 0.95,
+			"other": 0.11,
+			"otherasian": 0.34,
+			"pakistani": 0.05,
+			"white": 97.47
+		}
 	},
 	"elections": {
 		"2019-12-12": {

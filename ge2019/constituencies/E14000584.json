@@ -3,9 +3,27 @@
 	"title": "Bournemouth East",
 	"demographics": {
 		"2015UKIP": 16.51,
-		"leave": 53.51,
 		"age18-29": 17.81,
-		"withdegree": 16.66
+		"EUminus": 14.13,
+		"leave": 53.51,
+		"withdegree": 16.66,
+		"religion": {
+			"christian": 58.87,
+			"jewish": 0.74,
+			"muslim": 1.84
+		},
+		"race": {
+			"arab": 0.33,
+			"bangladeshi": 0.23,
+			"black": 1.05,
+			"chinese": 1.05,
+			"indian": 1.15,
+			"mixed": 2.34,
+			"other": 0.57,
+			"otherasian": 1.43,
+			"pakistani": 0.13,
+			"white": 91.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

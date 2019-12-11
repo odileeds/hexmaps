@@ -3,9 +3,27 @@
 	"title": "Sheffield, Hallam",
 	"demographics": {
 		"2015UKIP": 6.44,
-		"leave": 35.9,
 		"age18-29": 18.41,
-		"withdegree": 31.74
+		"EUminus": 3.77,
+		"leave": 35.9,
+		"withdegree": 31.74,
+		"religion": {
+			"christian": 56.19,
+			"jewish": 0.3,
+			"muslim": 2
+		},
+		"race": {
+			"arab": 0.44,
+			"bangladeshi": 0.14,
+			"black": 0.97,
+			"chinese": 0.94,
+			"indian": 1.23,
+			"mixed": 1.9,
+			"other": 0.38,
+			"otherasian": 0.76,
+			"pakistani": 0.94,
+			"white": 92.3
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Aberavon",
 	"demographics": {
 		"2015UKIP": 15.77,
-		"leave": 59.97,
 		"age18-29": 14.82,
-		"withdegree": 8.29
+		"EUminus": 1.99,
+		"leave": 59.97,
+		"withdegree": 8.29,
+		"religion": {
+			"christian": 56.82,
+			"jewish": 0.03,
+			"muslim": 0.57
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.32,
+			"black": 0.3,
+			"chinese": 0.24,
+			"indian": 0.23,
+			"mixed": 0.73,
+			"other": 0.07,
+			"otherasian": 0.34,
+			"pakistani": 0.12,
+			"white": 97.58
+		}
 	},
 	"elections": {
 		"2019-12-12": {

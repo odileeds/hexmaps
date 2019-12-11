@@ -3,9 +3,27 @@
 	"title": "Dulwich and West Norwood",
 	"demographics": {
 		"2015UKIP": 3.13,
-		"leave": 22.05,
 		"age18-29": 18.16,
-		"withdegree": 40.19
+		"EUminus": 18.08,
+		"leave": 22.05,
+		"withdegree": 40.19,
+		"religion": {
+			"christian": 51.65,
+			"jewish": 0.43,
+			"muslim": 5.52
+		},
+		"race": {
+			"arab": 0.48,
+			"bangladeshi": 0.54,
+			"black": 24.96,
+			"chinese": 1.06,
+			"indian": 1.68,
+			"mixed": 7.82,
+			"other": 1.59,
+			"otherasian": 1.81,
+			"pakistani": 0.64,
+			"white": 59.42
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Stratford-on-Avon",
 	"demographics": {
 		"2015UKIP": 13.21,
-		"leave": 51.17,
 		"age18-29": 10.79,
-		"withdegree": 20.03
+		"EUminus": 6.3,
+		"leave": 51.17,
+		"withdegree": 20.03,
+		"religion": {
+			"christian": 70.38,
+			"jewish": 0.14,
+			"muslim": 0.28
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.01,
+			"black": 0.23,
+			"chinese": 0.4,
+			"indian": 0.51,
+			"mixed": 1.1,
+			"other": 0.12,
+			"otherasian": 0.37,
+			"pakistani": 0.07,
+			"white": 97.12
+		}
 	},
 	"elections": {
 		"2019-12-12": {

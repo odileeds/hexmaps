@@ -3,8 +3,26 @@
 	"title": "Glasgow South West",
 	"demographics": {
 		"2015UKIP": 2.37,
+		"age18-29": 16.79,
+		"EUminus": 5.34,
 		"leave": 40.86,
-		"age18-29": 16.79
+		"religion": {
+			"christian": 58.84,
+			"jewish": 0.09,
+			"muslim": 4.66
+		},
+		"race": {
+			"arab": 0.26,
+			"bangladeshi": 0.03,
+			"black": ,
+			"chinese": 0.85,
+			"indian": 1.33,
+			"mixed": 0,
+			"other": 0.12,
+			"otherasian": 0.61,
+			"pakistani": 3.76,
+			"white": 90.84
+		}
 	},
 	"elections": {
 		"2019-12-12": {

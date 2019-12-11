@@ -3,9 +3,27 @@
 	"title": "Chesterfield",
 	"demographics": {
 		"2015UKIP": 16.51,
-		"leave": 59.32,
 		"age18-29": 13.78,
-		"withdegree": 10.71
+		"EUminus": 2.98,
+		"leave": 59.32,
+		"withdegree": 10.71,
+		"religion": {
+			"christian": 63.83,
+			"jewish": 0.03,
+			"muslim": 0.69
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.13,
+			"black": 0.78,
+			"chinese": 0.38,
+			"indian": 0.49,
+			"mixed": 1.07,
+			"other": 0.08,
+			"otherasian": 0.26,
+			"pakistani": 0.35,
+			"white": 96.4
+		}
 	},
 	"elections": {
 		"2019-12-12": {

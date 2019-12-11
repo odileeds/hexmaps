@@ -3,9 +3,27 @@
 	"title": "Guildford",
 	"demographics": {
 		"2015UKIP": 8.84,
-		"leave": 41.18,
 		"age18-29": 19.98,
-		"withdegree": 29.67
+		"EUminus": 11.15,
+		"leave": 41.18,
+		"withdegree": 29.67,
+		"religion": {
+			"christian": 59.15,
+			"jewish": 0.25,
+			"muslim": 2.32
+		},
+		"race": {
+			"arab": 0.83,
+			"bangladeshi": 0.28,
+			"black": 1.2,
+			"chinese": 1.67,
+			"indian": 1.38,
+			"mixed": 1.9,
+			"other": 0.64,
+			"otherasian": 1.9,
+			"pakistani": 0.37,
+			"white": 89.82
+		}
 	},
 	"elections": {
 		"2019-12-12": {

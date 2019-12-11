@@ -3,9 +3,27 @@
 	"title": "Windsor",
 	"demographics": {
 		"2015UKIP": 9.95,
-		"leave": 46.09,
 		"age18-29": 12.66,
-		"withdegree": 26.19
+		"EUminus": 10.74,
+		"leave": 46.09,
+		"withdegree": 26.19,
+		"religion": {
+			"christian": 64.02,
+			"jewish": 0.25,
+			"muslim": 2.54
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 0.2,
+			"black": 1.68,
+			"chinese": 0.7,
+			"indian": 4.11,
+			"mixed": 2.52,
+			"other": 0.52,
+			"otherasian": 1.8,
+			"pakistani": 1.32,
+			"white": 86.85
+		}
 	},
 	"elections": {
 		"2019-12-12": {

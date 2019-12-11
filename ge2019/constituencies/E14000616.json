@@ -3,9 +3,27 @@
 	"title": "Camborne and Redruth",
 	"demographics": {
 		"2015UKIP": 14.77,
-		"leave": 57.91,
 		"age18-29": 13.64,
-		"withdegree": 10.75
+		"EUminus": 3.9,
+		"leave": 57.91,
+		"withdegree": 10.75,
+		"religion": {
+			"christian": 58.1,
+			"jewish": 0.06,
+			"muslim": 0.19
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.09,
+			"black": 0.14,
+			"chinese": 0.22,
+			"indian": 0.19,
+			"mixed": 0.78,
+			"other": 0.09,
+			"otherasian": 0.13,
+			"pakistani": 0.03,
+			"white": 98.28
+		}
 	},
 	"elections": {
 		"2019-12-12": {

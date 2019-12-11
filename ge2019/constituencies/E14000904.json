@@ -3,9 +3,27 @@
 	"title": "Rotherham",
 	"demographics": {
 		"2015UKIP": 30.18,
-		"leave": 68.35,
 		"age18-29": 15.98,
-		"withdegree": 6.95
+		"EUminus": 6.14,
+		"leave": 68.35,
+		"withdegree": 6.95,
+		"religion": {
+			"christian": 60,
+			"jewish": 0.04,
+			"muslim": 8.98
+		},
+		"race": {
+			"arab": 0.48,
+			"bangladeshi": 0.08,
+			"black": 1.62,
+			"chinese": 0.34,
+			"indian": 0.55,
+			"mixed": 1.41,
+			"other": 0.61,
+			"otherasian": 1,
+			"pakistani": 7.27,
+			"white": 86.62
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Rother Valley",
 	"demographics": {
 		"2015UKIP": 28.08,
-		"leave": 66.72,
 		"age18-29": 13.08,
-		"withdegree": 9.9
+		"EUminus": 2.05,
+		"leave": 66.72,
+		"withdegree": 9.9,
+		"religion": {
+			"christian": 69.24,
+			"jewish": 0.01,
+			"muslim": 1.2
+		},
+		"race": {
+			"arab": 0.1,
+			"bangladeshi": 0.02,
+			"black": 0.36,
+			"chinese": 0.16,
+			"indian": 0.35,
+			"mixed": 0.8,
+			"other": 0.08,
+			"otherasian": 0.21,
+			"pakistani": 0.94,
+			"white": 96.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

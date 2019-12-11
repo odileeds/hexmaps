@@ -3,8 +3,26 @@
 	"title": "Dumfriesshire, Clydesdale and Tweeddale",
 	"demographics": {
 		"2015UKIP": 2.82,
+		"age18-29": 10.64,
+		"EUminus": 3.49,
 		"leave": 43.94,
-		"age18-29": 10.64
+		"religion": {
+			"christian": 55.57,
+			"jewish": 0.04,
+			"muslim": 0.21
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.03,
+			"black": ,
+			"chinese": 0.14,
+			"indian": 0.16,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.12,
+			"pakistani": 0.12,
+			"white": 98.97
+		}
 	},
 	"elections": {
 		"2019-12-12": {

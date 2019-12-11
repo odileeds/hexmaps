@@ -3,9 +3,27 @@
 	"title": "Rutland and Melton",
 	"demographics": {
 		"2015UKIP": 15.89,
-		"leave": 53.96,
 		"age18-29": 11.75,
-		"withdegree": 17.38
+		"EUminus": 5.02,
+		"leave": 53.96,
+		"withdegree": 17.38,
+		"religion": {
+			"christian": 67.7,
+			"jewish": 0.09,
+			"muslim": 0.28
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.02,
+			"black": 0.43,
+			"chinese": 0.26,
+			"indian": 1.25,
+			"mixed": 0.97,
+			"other": 0.15,
+			"otherasian": 0.28,
+			"pakistani": 0.08,
+			"white": 96.54
+		}
 	},
 	"elections": {
 		"2019-12-12": {

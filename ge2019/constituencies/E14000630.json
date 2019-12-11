@@ -3,9 +3,27 @@
 	"title": "Cheltenham",
 	"demographics": {
 		"2015UKIP": 7.09,
-		"leave": 42.78,
 		"age18-29": 19.43,
-		"withdegree": 25.69
+		"EUminus": 9.45,
+		"leave": 42.78,
+		"withdegree": 25.69,
+		"religion": {
+			"christian": 58.08,
+			"jewish": 0.14,
+			"muslim": 0.94
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 0.28,
+			"black": 0.65,
+			"chinese": 0.7,
+			"indian": 1.29,
+			"mixed": 1.68,
+			"other": 0.16,
+			"otherasian": 0.76,
+			"pakistani": 0.15,
+			"white": 94.16
+		}
 	},
 	"elections": {
 		"2019-12-12": {

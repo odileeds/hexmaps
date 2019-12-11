@@ -3,9 +3,27 @@
 	"title": "North Durham",
 	"demographics": {
 		"2015UKIP": 15.95,
-		"leave": 60.13,
 		"age18-29": 13.95,
-		"withdegree": 10.19
+		"EUminus": 1.84,
+		"leave": 60.13,
+		"withdegree": 10.19,
+		"religion": {
+			"christian": 70.63,
+			"jewish": 0.01,
+			"muslim": 0.28
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.06,
+			"black": 0.07,
+			"chinese": 0.21,
+			"indian": 0.24,
+			"mixed": 0.46,
+			"other": 0.04,
+			"otherasian": 0.15,
+			"pakistani": 0.09,
+			"white": 98.62
+		}
 	},
 	"elections": {
 		"2019-12-12": {

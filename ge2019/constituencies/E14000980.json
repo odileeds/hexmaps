@@ -3,9 +3,27 @@
 	"title": "Stroud",
 	"demographics": {
 		"2015UKIP": 7.97,
-		"leave": 45.99,
 		"age18-29": 11.38,
-		"withdegree": 18.92
+		"EUminus": 4.82,
+		"leave": 45.99,
+		"withdegree": 18.92,
+		"religion": {
+			"christian": 61.74,
+			"jewish": 0.09,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.05,
+			"black": 0.25,
+			"chinese": 0.19,
+			"indian": 0.16,
+			"mixed": 1.12,
+			"other": 0.08,
+			"otherasian": 0.23,
+			"pakistani": 0.03,
+			"white": 97.88
+		}
 	},
 	"elections": {
 		"2019-12-12": {

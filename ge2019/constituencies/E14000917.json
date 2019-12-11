@@ -3,9 +3,27 @@
 	"title": "Selby and Ainsty",
 	"demographics": {
 		"2015UKIP": 13.99,
-		"leave": 57.79,
 		"age18-29": 12.24,
-		"withdegree": 15.67
+		"EUminus": 4.66,
+		"leave": 57.79,
+		"withdegree": 15.67,
+		"religion": {
+			"christian": 71.1,
+			"jewish": 0.11,
+			"muslim": 0.13
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0,
+			"black": 0.25,
+			"chinese": 0.37,
+			"indian": 0.21,
+			"mixed": 0.75,
+			"other": 0.06,
+			"otherasian": 0.17,
+			"pakistani": 0.02,
+			"white": 98.15
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Swansea West",
 	"demographics": {
 		"2015UKIP": 13.49,
-		"leave": 42.66,
 		"age18-29": 26.88,
-		"withdegree": 18.87
+		"EUminus": 5.58,
+		"leave": 42.66,
+		"withdegree": 18.87,
+		"religion": {
+			"christian": 50.37,
+			"jewish": 0.12,
+			"muslim": 4.56
+		},
+		"race": {
+			"arab": 1.57,
+			"bangladeshi": 1.65,
+			"black": 1.45,
+			"chinese": 1.86,
+			"indian": 0.92,
+			"mixed": 1.21,
+			"other": 0.57,
+			"otherasian": 1,
+			"pakistani": 0.41,
+			"white": 89.36
+		}
 	},
 	"elections": {
 		"2019-12-12": {

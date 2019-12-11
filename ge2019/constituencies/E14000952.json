@@ -3,9 +3,27 @@
 	"title": "South West Norfolk",
 	"demographics": {
 		"2015UKIP": 23.26,
-		"leave": 66.25,
 		"age18-29": 13.79,
-		"withdegree": 8.1
+		"EUminus": 10.24,
+		"leave": 66.25,
+		"withdegree": 8.1,
+		"religion": {
+			"christian": 64.68,
+			"jewish": 0.11,
+			"muslim": 0.35
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0.08,
+			"black": 0.48,
+			"chinese": 0.16,
+			"indian": 0.22,
+			"mixed": 1.26,
+			"other": 0.16,
+			"otherasian": 0.33,
+			"pakistani": 0.07,
+			"white": 97.21
+		}
 	},
 	"elections": {
 		"2019-12-12": {

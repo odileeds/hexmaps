@@ -3,9 +3,27 @@
 	"title": "Bradford West",
 	"demographics": {
 		"2015UKIP": 7.79,
-		"leave": 46.74,
 		"age18-29": 22.49,
-		"withdegree": 13.91
+		"EUminus": 10.75,
+		"leave": 46.74,
+		"withdegree": 13.91,
+		"religion": {
+			"christian": 28.24,
+			"jewish": 0.05,
+			"muslim": 51.3
+		},
+		"race": {
+			"arab": 1.52,
+			"bangladeshi": 2.83,
+			"black": 2.86,
+			"chinese": 0.78,
+			"indian": 4.65,
+			"mixed": 2.75,
+			"other": 1.26,
+			"otherasian": 3,
+			"pakistani": 43.27,
+			"white": 37.09
+		}
 	},
 	"elections": {
 		"2019-12-12": {

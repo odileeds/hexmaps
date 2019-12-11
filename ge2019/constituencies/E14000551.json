@@ -3,9 +3,27 @@
 	"title": "Beckenham",
 	"demographics": {
 		"2015UKIP": 12.52,
-		"leave": 48.38,
 		"age18-29": 12.5,
-		"withdegree": 23.16
+		"EUminus": 7.64,
+		"leave": 48.38,
+		"withdegree": 23.16,
+		"religion": {
+			"christian": 62.05,
+			"jewish": 0.43,
+			"muslim": 2.2
+		},
+		"race": {
+			"arab": 0.31,
+			"bangladeshi": 0.27,
+			"black": 3.84,
+			"chinese": 0.86,
+			"indian": 2.06,
+			"mixed": 3.46,
+			"other": 0.67,
+			"otherasian": 1.5,
+			"pakistani": 0.32,
+			"white": 86.69
+		}
 	},
 	"elections": {
 		"2019-12-12": {

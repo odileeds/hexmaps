@@ -3,9 +3,27 @@
 	"title": "Walsall South",
 	"demographics": {
 		"2015UKIP": 15.63,
-		"leave": 61.64,
 		"age18-29": 17.56,
-		"withdegree": 10.67
+		"EUminus": 4.6,
+		"leave": 61.64,
+		"withdegree": 10.67,
+		"religion": {
+			"christian": 47.55,
+			"jewish": 0.02,
+			"muslim": 18.83
+		},
+		"race": {
+			"arab": 0.15,
+			"bangladeshi": 4.8,
+			"black": 3.63,
+			"chinese": 0.48,
+			"indian": 11.14,
+			"mixed": 3.56,
+			"other": 1.25,
+			"otherasian": 2.6,
+			"pakistani": 11.68,
+			"white": 60.72
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Erewash",
 	"demographics": {
 		"2015UKIP": 16.13,
-		"leave": 63.3,
 		"age18-29": 14.67,
-		"withdegree": 9.95
+		"EUminus": 3.38,
+		"leave": 63.3,
+		"withdegree": 9.95,
+		"religion": {
+			"christian": 55.95,
+			"jewish": 0.04,
+			"muslim": 0.25
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.02,
+			"black": 0.54,
+			"chinese": 0.22,
+			"indian": 0.77,
+			"mixed": 1.19,
+			"other": 0.09,
+			"otherasian": 0.22,
+			"pakistani": 0.09,
+			"white": 96.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

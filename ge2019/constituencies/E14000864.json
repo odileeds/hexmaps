@@ -3,9 +3,27 @@
 	"title": "Norwich South",
 	"demographics": {
 		"2015UKIP": 9.37,
-		"leave": 40.36,
 		"age18-29": 26.21,
-		"withdegree": 22.56
+		"EUminus": 8.91,
+		"leave": 40.36,
+		"withdegree": 22.56,
+		"religion": {
+			"christian": 45.22,
+			"jewish": 0.2,
+			"muslim": 2.05
+		},
+		"race": {
+			"arab": 0.6,
+			"bangladeshi": 0.31,
+			"black": 1.59,
+			"chinese": 1.58,
+			"indian": 1.61,
+			"mixed": 2.32,
+			"other": 0.36,
+			"otherasian": 1.41,
+			"pakistani": 0.23,
+			"white": 90.02
+		}
 	},
 	"elections": {
 		"2019-12-12": {

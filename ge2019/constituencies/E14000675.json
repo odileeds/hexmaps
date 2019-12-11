@@ -3,9 +3,27 @@
 	"title": "Ealing North",
 	"demographics": {
 		"2015UKIP": 8.08,
-		"leave": 46.26,
 		"age18-29": 17.56,
-		"withdegree": 21.89
+		"EUminus": 28.88,
+		"leave": 46.26,
+		"withdegree": 21.89,
+		"religion": {
+			"christian": 50.27,
+			"jewish": 0.22,
+			"muslim": 15.52
+		},
+		"race": {
+			"arab": 3.11,
+			"bangladeshi": 0.55,
+			"black": 13.03,
+			"chinese": 1.05,
+			"indian": 10.6,
+			"mixed": 4.64,
+			"other": 2.98,
+			"otherasian": 10.45,
+			"pakistani": 3.72,
+			"white": 49.87
+		}
 	},
 	"elections": {
 		"2019-12-12": {

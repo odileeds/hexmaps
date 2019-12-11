@@ -3,9 +3,27 @@
 	"title": "Daventry",
 	"demographics": {
 		"2015UKIP": 15.8,
-		"leave": 58.76,
 		"age18-29": 11.41,
-		"withdegree": 16.23
+		"EUminus": 4.93,
+		"leave": 58.76,
+		"withdegree": 16.23,
+		"religion": {
+			"christian": 65.01,
+			"jewish": 0.09,
+			"muslim": 0.5
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.07,
+			"black": 0.56,
+			"chinese": 0.18,
+			"indian": 0.66,
+			"mixed": 1.24,
+			"other": 0.1,
+			"otherasian": 0.29,
+			"pakistani": 0.19,
+			"white": 96.71
+		}
 	},
 	"elections": {
 		"2019-12-12": {

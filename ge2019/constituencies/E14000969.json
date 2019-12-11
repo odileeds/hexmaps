@@ -3,9 +3,27 @@
 	"title": "Stockport",
 	"demographics": {
 		"2015UKIP": 13.13,
-		"leave": 46.79,
 		"age18-29": 15.55,
-		"withdegree": 18.34
+		"EUminus": 4.6,
+		"leave": 46.79,
+		"withdegree": 18.34,
+		"religion": {
+			"christian": 58.76,
+			"jewish": 0.14,
+			"muslim": 3.99
+		},
+		"race": {
+			"arab": 0.25,
+			"bangladeshi": 0.31,
+			"black": 0.94,
+			"chinese": 0.69,
+			"indian": 0.9,
+			"mixed": 2.19,
+			"other": 0.27,
+			"otherasian": 0.85,
+			"pakistani": 2.86,
+			"white": 90.74
+		}
 	},
 	"elections": {
 		"2019-12-12": {

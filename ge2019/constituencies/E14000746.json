@@ -3,9 +3,27 @@
 	"title": "Hexham",
 	"demographics": {
 		"2015UKIP": 9.93,
-		"leave": 45.39,
 		"age18-29": 10.64,
-		"withdegree": 22.06
+		"EUminus": 2.36,
+		"leave": 45.39,
+		"withdegree": 22.06,
+		"religion": {
+			"christian": 70.24,
+			"jewish": 0.1,
+			"muslim": 0.37
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.09,
+			"black": 0.09,
+			"chinese": 0.16,
+			"indian": 0.53,
+			"mixed": 0.64,
+			"other": 0.08,
+			"otherasian": 0.21,
+			"pakistani": 0.17,
+			"white": 98.01
+		}
 	},
 	"elections": {
 		"2019-12-12": {

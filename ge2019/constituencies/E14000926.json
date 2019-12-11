@@ -3,9 +3,27 @@
 	"title": "Shrewsbury and Atcham",
 	"demographics": {
 		"2015UKIP": 14.44,
-		"leave": 53.02,
 		"age18-29": 13.57,
-		"withdegree": 16.23
+		"EUminus": 4.66,
+		"leave": 53.02,
+		"withdegree": 16.23,
+		"religion": {
+			"christian": 65.23,
+			"jewish": 0.04,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.07,
+			"black": 0.21,
+			"chinese": 0.57,
+			"indian": 0.37,
+			"mixed": 0.88,
+			"other": 0.1,
+			"otherasian": 0.46,
+			"pakistani": 0.09,
+			"white": 97.19
+		}
 	},
 	"elections": {
 		"2019-12-12": {

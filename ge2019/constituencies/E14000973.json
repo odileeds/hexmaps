@@ -3,9 +3,27 @@
 	"title": "Stoke-on-Trent North",
 	"demographics": {
 		"2015UKIP": 24.69,
-		"leave": 72.12,
 		"age18-29": 15.75,
-		"withdegree": 6.82
+		"EUminus": 3.62,
+		"leave": 72.12,
+		"withdegree": 6.82,
+		"religion": {
+			"christian": 61.73,
+			"jewish": 0.02,
+			"muslim": 5.72
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.58,
+			"black": 1.32,
+			"chinese": 0.34,
+			"indian": 0.33,
+			"mixed": 1.86,
+			"other": 0.51,
+			"otherasian": 1.12,
+			"pakistani": 3.82,
+			"white": 90.02
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Clacton",
 	"demographics": {
 		"2015UKIP": 44.43,
-		"leave": 71.08,
 		"age18-29": 10.87,
-		"withdegree": 5.1
+		"EUminus": 3.79,
+		"leave": 71.08,
+		"withdegree": 5.1,
+		"religion": {
+			"christian": 64.56,
+			"jewish": 0.16,
+			"muslim": 0.32
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.12,
+			"black": 0.32,
+			"chinese": 0.26,
+			"indian": 0.25,
+			"mixed": 1.11,
+			"other": 0.12,
+			"otherasian": 0.31,
+			"pakistani": 0.04,
+			"white": 97.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

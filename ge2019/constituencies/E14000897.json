@@ -3,9 +3,27 @@
 	"title": "Rochdale",
 	"demographics": {
 		"2015UKIP": 18.75,
-		"leave": 57.45,
 		"age18-29": 16.51,
-		"withdegree": 10.28
+		"EUminus": 5.13,
+		"leave": 57.45,
+		"withdegree": 10.28,
+		"religion": {
+			"christian": 51.46,
+			"jewish": 0.09,
+			"muslim": 23.59
+		},
+		"race": {
+			"arab": 0.16,
+			"bangladeshi": 3.74,
+			"black": 1.44,
+			"chinese": 0.35,
+			"indian": 0.65,
+			"mixed": 1.89,
+			"other": 0.32,
+			"otherasian": 2.3,
+			"pakistani": 17.66,
+			"white": 71.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

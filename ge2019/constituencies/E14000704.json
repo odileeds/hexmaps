@@ -3,9 +3,27 @@
 	"title": "Folkestone and Hythe",
 	"demographics": {
 		"2015UKIP": 22.77,
-		"leave": 61.84,
 		"age18-29": 13.05,
-		"withdegree": 11.16
+		"EUminus": 6.68,
+		"leave": 61.84,
+		"withdegree": 11.16,
+		"religion": {
+			"christian": 62.58,
+			"jewish": 0.07,
+			"muslim": 0.71
+		},
+		"race": {
+			"arab": 0.06,
+			"bangladeshi": 0.2,
+			"black": 0.42,
+			"chinese": 0.25,
+			"indian": 0.38,
+			"mixed": 1.16,
+			"other": 0.24,
+			"otherasian": 2.38,
+			"pakistani": 0.08,
+			"white": 94.83
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -2,8 +2,26 @@
 	"id": "S14000059",
 	"title": "West Dunbartonshire",
 	"demographics": {
+		"age18-29": 15.44,
+		"EUminus": 2.38,
 		"leave": 38.01,
-		"age18-29": 15.44
+		"religion": {
+			"christian": 65.21,
+			"jewish": 0.02,
+			"muslim": 0.38
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.18,
+			"indian": 0.31,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.17,
+			"pakistani": 0.28,
+			"white": 98.44
+		}
 	},
 	"elections": {
 		"2019-12-12": {

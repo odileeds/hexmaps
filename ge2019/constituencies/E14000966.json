@@ -3,9 +3,27 @@
 	"title": "Staffordshire Moorlands",
 	"demographics": {
 		"2015UKIP": 14.64,
-		"leave": 64.58,
 		"age18-29": 11.42,
-		"withdegree": 12.38
+		"EUminus": 2.25,
+		"leave": 64.58,
+		"withdegree": 12.38,
+		"religion": {
+			"christian": 71.33,
+			"jewish": 0.02,
+			"muslim": 0.18
+		},
+		"race": {
+			"arab": 0.02,
+			"bangladeshi": 0,
+			"black": 0.12,
+			"chinese": 0.12,
+			"indian": 0.14,
+			"mixed": 0.64,
+			"other": 0.04,
+			"otherasian": 0.18,
+			"pakistani": 0.07,
+			"white": 98.66
+		}
 	},
 	"elections": {
 		"2019-12-12": {

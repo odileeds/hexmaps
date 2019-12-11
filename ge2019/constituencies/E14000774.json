@@ -3,9 +3,27 @@
 	"title": "Kingswood",
 	"demographics": {
 		"2015UKIP": 14.82,
-		"leave": 56.84,
 		"age18-29": 14.04,
-		"withdegree": 11.2
+		"EUminus": 3.45,
+		"leave": 56.84,
+		"withdegree": 11.2,
+		"religion": {
+			"christian": 59.94,
+			"jewish": 0.04,
+			"muslim": 0.68
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.11,
+			"black": 0.78,
+			"chinese": 0.37,
+			"indian": 0.48,
+			"mixed": 1.39,
+			"other": 0.18,
+			"otherasian": 0.39,
+			"pakistani": 0.19,
+			"white": 96.03
+		}
 	},
 	"elections": {
 		"2019-12-12": {

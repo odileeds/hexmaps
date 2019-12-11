@@ -3,9 +3,27 @@
 	"title": "Warley",
 	"demographics": {
 		"2015UKIP": 16.49,
-		"leave": 61.83,
 		"age18-29": 17.61,
-		"withdegree": 11.69
+		"EUminus": 8.06,
+		"leave": 61.83,
+		"withdegree": 11.69,
+		"religion": {
+			"christian": 47.77,
+			"jewish": 0.03,
+			"muslim": 13.96
+		},
+		"race": {
+			"arab": 0.3,
+			"bangladeshi": 2.68,
+			"black": 8.71,
+			"chinese": 0.36,
+			"indian": 12.71,
+			"mixed": 4.35,
+			"other": 1.98,
+			"otherasian": 3.29,
+			"pakistani": 8.25,
+			"white": 57.37
+		}
 	},
 	"elections": {
 		"2019-12-12": {

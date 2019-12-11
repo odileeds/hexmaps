@@ -2,8 +2,26 @@
 	"id": "S14000012",
 	"title": "Cumbernauld, Kilsyth and Kirkintilloch East",
 	"demographics": {
+		"age18-29": 14.66,
+		"EUminus": 2.19,
 		"leave": 37.91,
-		"age18-29": 14.66
+		"religion": {
+			"christian": 61.22,
+			"jewish": 0.03,
+			"muslim": 0.86
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.01,
+			"black": ,
+			"chinese": 0.26,
+			"indian": 0.31,
+			"mixed": 0,
+			"other": 0.04,
+			"otherasian": 0.2,
+			"pakistani": 0.72,
+			"white": 97.94
+		}
 	},
 	"elections": {
 		"2019-12-12": {

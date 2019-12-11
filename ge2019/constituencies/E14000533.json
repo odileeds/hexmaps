@@ -3,9 +3,27 @@
 	"title": "Amber Valley",
 	"demographics": {
 		"2015UKIP": 15.89,
-		"leave": 65.34,
 		"age18-29": 13.42,
-		"withdegree": 9.34
+		"EUminus": 2.76,
+		"leave": 65.34,
+		"withdegree": 9.34,
+		"religion": {
+			"christian": 60.02,
+			"jewish": 0.05,
+			"muslim": 0.16
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.01,
+			"black": 0.2,
+			"chinese": 0.15,
+			"indian": 0.29,
+			"mixed": 0.66,
+			"other": 0.07,
+			"otherasian": 0.15,
+			"pakistani": 0.07,
+			"white": 98.39
+		}
 	},
 	"elections": {
 		"2019-12-12": {

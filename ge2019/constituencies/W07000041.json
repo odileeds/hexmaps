@@ -3,9 +3,27 @@
 	"title": "Ynys Môn",
 	"demographics": {
 		"2015UKIP": 14.66,
-		"leave": 50.94,
 		"age18-29": 12.71,
-		"withdegree": 13.82
+		"EUminus": 2.77,
+		"leave": 50.94,
+		"withdegree": 13.82,
+		"religion": {
+			"christian": 65.09,
+			"jewish": 0.06,
+			"muslim": 0.36
+		},
+		"race": {
+			"arab": 0.19,
+			"bangladeshi": 0.08,
+			"black": 0.12,
+			"chinese": 0.22,
+			"indian": 0.19,
+			"mixed": 0.69,
+			"other": 0.06,
+			"otherasian": 0.17,
+			"pakistani": 0.05,
+			"white": 98.23
+		}
 	},
 	"elections": {
 		"2019-12-12": {

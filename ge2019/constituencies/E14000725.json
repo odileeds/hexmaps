@@ -3,9 +3,27 @@
 	"title": "Halton",
 	"demographics": {
 		"2015UKIP": 14.07,
-		"leave": 57.82,
 		"age18-29": 15.82,
-		"withdegree": 8.7
+		"EUminus": 2.3,
+		"leave": 57.82,
+		"withdegree": 8.7,
+		"religion": {
+			"christian": 76.45,
+			"jewish": 0.03,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.03,
+			"bangladeshi": 0.05,
+			"black": 0.2,
+			"chinese": 0.25,
+			"indian": 0.21,
+			"mixed": 0.99,
+			"other": 0.09,
+			"otherasian": 0.2,
+			"pakistani": 0.03,
+			"white": 97.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Bolton North East",
 	"demographics": {
 		"2015UKIP": 18.81,
-		"leave": 57.77,
 		"age18-29": 16.16,
-		"withdegree": 12.48
+		"EUminus": 4.86,
+		"leave": 57.77,
+		"withdegree": 12.48,
+		"religion": {
+			"christian": 62.11,
+			"jewish": 0.06,
+			"muslim": 11.67
+		},
+		"race": {
+			"arab": 0.25,
+			"bangladeshi": 0.08,
+			"black": 1.78,
+			"chinese": 0.66,
+			"indian": 7.78,
+			"mixed": 1.83,
+			"other": 0.38,
+			"otherasian": 0.9,
+			"pakistani": 3.8,
+			"white": 82.53
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Telford",
 	"demographics": {
 		"2015UKIP": 18.03,
-		"leave": 67.06,
 		"age18-29": 16.12,
-		"withdegree": 9.09
+		"EUminus": 5.53,
+		"leave": 67.06,
+		"withdegree": 9.09,
+		"religion": {
+			"christian": 59.07,
+			"jewish": 0.04,
+			"muslim": 0.74
+		},
+		"race": {
+			"arab": 0.07,
+			"bangladeshi": 0.07,
+			"black": 1.06,
+			"chinese": 0.36,
+			"indian": 2.07,
+			"mixed": 1.86,
+			"other": 0.22,
+			"otherasian": 0.47,
+			"pakistani": 0.32,
+			"white": 93.49
+		}
 	},
 	"elections": {
 		"2019-12-12": {

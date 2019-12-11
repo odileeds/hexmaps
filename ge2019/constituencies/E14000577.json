@@ -3,9 +3,27 @@
 	"title": "Bolsover",
 	"demographics": {
 		"2015UKIP": 20.97,
-		"leave": 70.27,
 		"age18-29": 13.78,
-		"withdegree": 7.23
+		"EUminus": 3.05,
+		"leave": 70.27,
+		"withdegree": 7.23,
+		"religion": {
+			"christian": 65.33,
+			"jewish": 0.04,
+			"muslim": 0.22
+		},
+		"race": {
+			"arab": 0.01,
+			"bangladeshi": 0.01,
+			"black": 0.38,
+			"chinese": 0.21,
+			"indian": 0.32,
+			"mixed": 0.68,
+			"other": 0.03,
+			"otherasian": 0.23,
+			"pakistani": 0.08,
+			"white": 98.04
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Mid Derbyshire",
 	"demographics": {
 		"2015UKIP": 13.61,
-		"leave": 52.53,
 		"age18-29": 11.53,
-		"withdegree": 17.88
+		"EUminus": 2.95,
+		"leave": 52.53,
+		"withdegree": 17.88,
+		"religion": {
+			"christian": 65.12,
+			"jewish": 0.06,
+			"muslim": 0.33
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.01,
+			"black": 0.5,
+			"chinese": 0.44,
+			"indian": 0.58,
+			"mixed": 1.23,
+			"other": 0.14,
+			"otherasian": 0.27,
+			"pakistani": 0.13,
+			"white": 96.59
+		}
 	},
 	"elections": {
 		"2019-12-12": {

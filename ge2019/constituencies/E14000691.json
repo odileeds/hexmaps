@@ -3,9 +3,27 @@
 	"title": "Enfield North",
 	"demographics": {
 		"2015UKIP": 8.96,
-		"leave": 49.22,
 		"age18-29": 16.25,
-		"withdegree": 17.49
+		"EUminus": 14.89,
+		"leave": 49.22,
+		"withdegree": 17.49,
+		"religion": {
+			"christian": 56.8,
+			"jewish": 0.77,
+			"muslim": 13.47
+		},
+		"race": {
+			"arab": 0.46,
+			"bangladeshi": 1.11,
+			"black": 15.49,
+			"chinese": 0.62,
+			"indian": 2.11,
+			"mixed": 5.55,
+			"other": 3.65,
+			"otherasian": 3.02,
+			"pakistani": 0.48,
+			"white": 67.51
+		}
 	},
 	"elections": {
 		"2019-12-12": {

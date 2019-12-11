@@ -3,9 +3,27 @@
 	"title": "Totnes",
 	"demographics": {
 		"2015UKIP": 14.13,
-		"leave": 54.09,
 		"age18-29": 10.41,
-		"withdegree": 15.88
+		"EUminus": 4.01,
+		"leave": 54.09,
+		"withdegree": 15.88,
+		"religion": {
+			"christian": 61.15,
+			"jewish": 0.14,
+			"muslim": 0.23
+		},
+		"race": {
+			"arab": 0.08,
+			"bangladeshi": 0.06,
+			"black": 0.13,
+			"chinese": 0.12,
+			"indian": 0.13,
+			"mixed": 0.82,
+			"other": 0.08,
+			"otherasian": 0.17,
+			"pakistani": 0.02,
+			"white": 98.38
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "South West Bedfordshire",
 	"demographics": {
 		"2015UKIP": 15.48,
-		"leave": 58.61,
 		"age18-29": 14.21,
-		"withdegree": 13.61
+		"EUminus": 6.97,
+		"leave": 58.61,
+		"withdegree": 13.61,
+		"religion": {
+			"christian": 61.22,
+			"jewish": 0.22,
+			"muslim": 0.92
+		},
+		"race": {
+			"arab": 0.12,
+			"bangladeshi": 0.12,
+			"black": 2.25,
+			"chinese": 0.47,
+			"indian": 1.04,
+			"mixed": 2.24,
+			"other": 0.22,
+			"otherasian": 0.85,
+			"pakistani": 0.22,
+			"white": 92.46
+		}
 	},
 	"elections": {
 		"2019-12-12": {

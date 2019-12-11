@@ -3,9 +3,27 @@
 	"title": "Hendon",
 	"demographics": {
 		"2015UKIP": 5.23,
-		"leave": 41.94,
 		"age18-29": 19.49,
-		"withdegree": 26.53
+		"EUminus": 23.24,
+		"leave": 41.94,
+		"withdegree": 26.53,
+		"religion": {
+			"christian": 38.78,
+			"jewish": 17.01,
+			"muslim": 13.91
+		},
+		"race": {
+			"arab": 1.82,
+			"bangladeshi": 0.68,
+			"black": 11.54,
+			"chinese": 3.19,
+			"indian": 9.63,
+			"mixed": 4.84,
+			"other": 3.26,
+			"otherasian": 7.87,
+			"pakistani": 2.28,
+			"white": 54.9
+		}
 	},
 	"elections": {
 		"2019-12-12": {

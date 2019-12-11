@@ -3,9 +3,27 @@
 	"title": "Ashfield",
 	"demographics": {
 		"2015UKIP": 21.41,
-		"leave": 70.58,
 		"age18-29": 13.94,
-		"withdegree": 6.09
+		"EUminus": 3.24,
+		"leave": 70.58,
+		"withdegree": 6.09,
+		"religion": {
+			"christian": 58.21,
+			"jewish": 0.01,
+			"muslim": 0.3
+		},
+		"race": {
+			"arab": 0.04,
+			"bangladeshi": 0.05,
+			"black": 0.28,
+			"chinese": 0.18,
+			"indian": 0.31,
+			"mixed": 0.81,
+			"other": 0.09,
+			"otherasian": 0.23,
+			"pakistani": 0.07,
+			"white": 97.95
+		}
 	},
 	"elections": {
 		"2019-12-12": {

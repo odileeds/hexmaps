@@ -3,9 +3,27 @@
 	"title": "Bristol East",
 	"demographics": {
 		"2015UKIP": 15.48,
-		"leave": 46.8,
 		"age18-29": 17.98,
-		"withdegree": 14.36
+		"EUminus": 8.65,
+		"leave": 46.8,
+		"withdegree": 14.36,
+		"religion": {
+			"christian": 51.22,
+			"jewish": 0.07,
+			"muslim": 5.35
+		},
+		"race": {
+			"arab": 0.24,
+			"bangladeshi": 0.73,
+			"black": 5.73,
+			"chinese": 0.5,
+			"indian": 1.69,
+			"mixed": 3.73,
+			"other": 0.62,
+			"otherasian": 0.82,
+			"pakistani": 2.31,
+			"white": 83.62
+		}
 	},
 	"elections": {
 		"2019-12-12": {

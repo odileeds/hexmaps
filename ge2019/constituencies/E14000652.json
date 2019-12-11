@@ -3,9 +3,27 @@
 	"title": "Crawley",
 	"demographics": {
 		"2015UKIP": 14.37,
-		"leave": 58.41,
 		"age18-29": 17.05,
-		"withdegree": 12.12
+		"EUminus": 12.3,
+		"leave": 58.41,
+		"withdegree": 12.12,
+		"religion": {
+			"christian": 54.21,
+			"jewish": 0.09,
+			"muslim": 7.21
+		},
+		"race": {
+			"arab": 0.4,
+			"bangladeshi": 0.4,
+			"black": 3.26,
+			"chinese": 0.47,
+			"indian": 5.19,
+			"mixed": 2.91,
+			"other": 0.56,
+			"otherasian": 2.65,
+			"pakistani": 4.27,
+			"white": 79.91
+		}
 	},
 	"elections": {
 		"2019-12-12": {

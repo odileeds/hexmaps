@@ -3,9 +3,27 @@
 	"title": "North West Hampshire",
 	"demographics": {
 		"2015UKIP": 14.69,
-		"leave": 54.53,
 		"age18-29": 11.96,
-		"withdegree": 15.69
+		"EUminus": 7.05,
+		"leave": 54.53,
+		"withdegree": 15.69,
+		"religion": {
+			"christian": 65.2,
+			"jewish": 0.09,
+			"muslim": 0.41
+		},
+		"race": {
+			"arab": 0.05,
+			"bangladeshi": 0.13,
+			"black": 0.44,
+			"chinese": 0.26,
+			"indian": 0.39,
+			"mixed": 1.25,
+			"other": 0.16,
+			"otherasian": 0.51,
+			"pakistani": 0.07,
+			"white": 96.75
+		}
 	},
 	"elections": {
 		"2019-12-12": {

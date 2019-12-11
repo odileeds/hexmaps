@@ -3,9 +3,27 @@
 	"title": "Blackpool South",
 	"demographics": {
 		"2015UKIP": 17.3,
-		"leave": 67.8,
 		"age18-29": 15.18,
-		"withdegree": 6.38
+		"EUminus": 5.84,
+		"leave": 67.8,
+		"withdegree": 6.38,
+		"religion": {
+			"christian": 67,
+			"jewish": 0.16,
+			"muslim": 0.81
+		},
+		"race": {
+			"arab": 0.13,
+			"bangladeshi": 0.16,
+			"black": 0.24,
+			"chinese": 0.4,
+			"indian": 0.4,
+			"mixed": 1.31,
+			"other": 0.13,
+			"otherasian": 0.47,
+			"pakistani": 0.17,
+			"white": 96.6
+		}
 	},
 	"elections": {
 		"2019-12-12": {

@@ -3,9 +3,27 @@
 	"title": "Southampton, Itchen",
 	"demographics": {
 		"2015UKIP": 13.44,
-		"leave": 59.96,
 		"age18-29": 23.09,
-		"withdegree": 12.88
+		"EUminus": 10.13,
+		"leave": 59.96,
+		"withdegree": 12.88,
+		"religion": {
+			"christian": 53.75,
+			"jewish": 0.09,
+			"muslim": 2.7
+		},
+		"race": {
+			"arab": 0.53,
+			"bangladeshi": 0.36,
+			"black": 1.73,
+			"chinese": 0.71,
+			"indian": 1.38,
+			"mixed": 2.33,
+			"other": 0.39,
+			"otherasian": 1.26,
+			"pakistani": 0.5,
+			"white": 90.8
+		}
 	},
 	"elections": {
 		"2019-12-12": {

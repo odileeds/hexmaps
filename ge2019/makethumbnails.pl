@@ -5,6 +5,7 @@ use Text::CSV;
 use utf8;
 
 $file = "temp/candidates-parl.2019-12-12.csv";
+$odir = "../../election-2019-static/candidate/";
 $size = "160";
 
 my $csv = Text::CSV->new ({ binary => 1 });
@@ -24,7 +25,7 @@ while (my $row = $csv->getline ($fh)) {
 		if($fields[21]){
 			#$file = $fields[21];
 			#$file =~ s/^.*\/([^\/]*)$/$1/g;
-			$ofile = "thumbnails/$fields[0].jpg";
+			$ofile = $odir."$fields[0].jpg";
 			if(!-e $file){
 				`wget -q -O $file "$fields[21]"`;
 			}

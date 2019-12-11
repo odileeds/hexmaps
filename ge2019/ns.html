@@ -9,11 +9,8 @@
 	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/ge2019/">
 	<meta name="twitter:title" property="og:title" content="GE2019: hex map">
 	<meta name="twitter:description" property="og:description" content="The 2019 UK General Elections results on a constituency hex map.">
-	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
-	<script type="text/javascript" src="../resources/stuquery.js"></script>
-	<script type="text/javascript" src="../resources/stuquery.svg.js"></script>
-	<script type="text/javascript" src="../resources/stuquery.hexmap.js"></script>
-	<script type="text/javascript" src="ns.js"></script>
+	<meta name="twitter:image" property="og:image" content="https://odileeds.github.io/hexmaps/ge2019/ge2017.png">
+	<script type="text/javascript" src="package.min.js"></script>
 	<style>
 	/* http://meyerweb.com/eric/tools/css/reset/ 
 	   v2.0 | 20110126
@@ -31,33 +28,17 @@
 	  box-sizing: border-box; }
 
 	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	  display: block; }
-
-	body {
-	  line-height: 1em; }
-
-	ol, ul {
-	  list-style: none; }
-
-	blockquote, q {
-	  quotes: none; }
-
-	blockquote:before, blockquote:after, q:before, q:after {
-	  content: '';
-	  content: none; }
-
-	table {
-	  border-collapse: collapse;
-	  border-spacing: 0; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+	body { line-height: 1em; }
+	ol, ul { list-style: none; }
+	blockquote, q { quotes: none; }
+	blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+	table { border-collapse: collapse; border-spacing: 0; }
 
 	/* apply a natural box layout model to all elements */
-	*, *:before, *:after {
-	  -moz-box-sizing: border-box;
-	  -webkit-box-sizing: border-box;
-	  box-sizing: border-box; }
-
+	*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 	/* End of reset */
+
 	html, body {
 		padding: 0px;
 		margin: 0px;
@@ -82,36 +63,26 @@
 		width: 100%; height: auto; max-width: 100vw;
 	}
 	svg { max-width: 100%; height: auto; }
-	select {
-		font-size: 1em;
-		height: 2em;
-		margin-bottom: 1em;
-	}
-	form {
-		text-align: center;
-	}
-
+	select { font-size: 1em; height: 2em; margin-bottom: 1em; }
+	form { text-align: center; }
 
 
 	/* New Statesman styles */
-	p, ul, ol, dl, input, .cta, button, .toggle, .more-link, select { font-family: Merriweather, Georgia, "Times New Roman", serif; text-rendering: optimizeLegibility; }
-
-	#hexmap .hex-grid { display: none; }
-	#search { position: absolute; display: block; }
-	#search input {
-		font-size: 1em;
-		background: rgba(255,255,255,0.7) !important;
-		border: solid 0.5em #c1002a;
-		border-left: 0px;
-		border-radius: 0px;
-		display: none;
-		color: black;
-		padding: 0 0.5em;
-		height: 3em;
-		max-width: calc(100% - 3em);
-		width: 16em;
+	body { font-family: Merriweather, Georgia, "Times New Roman", serif; text-rendering: optimizeLegibility; }
+	@font-face {
+		font-family: "Unit";
+		src: url("https://britainelects.newstatesman.com/wp-content/themes/sputnikv3/themes/creative-responsive-theme/fonts/UnitOT-Black.eot?") format("eot"), url("https://britainelects.newstatesman.com/wp-content/themes/sputnikv3/fonts/UnitOT-Black.woff") format("woff"), url("https://britainelects.newstatesman.com/wp-content/themes/sputnikv3/fonts/UnitOT-Black.ttf") format("truetype");
+		font-style: normal;
+		font-weight: bold;
 	}
+	#hexmap .hex-grid { display: none; }
+	#search { position: absolute; display: block; width: 100%; max-width: 400px; }
+	#search .search-inner { position: relative; }
 	#search label {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 100;
 		font-size: 1em;
 		display: inline-block;
 		background: #c1002a;
@@ -125,10 +96,27 @@
 		text-decoration: none;
 		letter-spacing: 0.05em;
 		line-height: 2em;
+		width: 3em;
+	}
+	#search input {
+		font-size: 1em;
+		background: rgba(255,255,255,0.7) !important;
+		border: solid 0.5em #c1002a;
+		border-radius: 0px;
+		display: none;
+		color: black;
+		padding: 0 0.5em;
+		height: 3em;
+		width: 100%;
+		position: relative;
+		left: 0em;
+		top: 0px;
+		padding-left: 3em;
+		z-index: 99;
 	}
 	#search svg { position: relative; top: 0.2em; }
 	#search.searching input { display: inline-block; }
-	#search .search-results li a { padding: 0.5em 0.5em 0.5em 0.5em; text-align: left; background-color: #dfdfdf; display: block; color: inherit; text-decoration: none; }
+	#search .search-results li a { padding: 0.5em 0.5em 0.5em 0.5em; text-align: left; background-color: rgba(223,223,223,0.92); display: block; color: inherit; text-decoration: none; }
 	#search .search-results li a:hover, #search .search-results li a:focus, #search .search-results li a.selected { background-color: #000000; color: white; }
 	.hex-cell { fill-opacity: 1; transition: fill 0.2s ease-in, stroke 0.2s ease-in; }
 	.hex-label { }
@@ -139,17 +127,11 @@
 	.hex-label.selected { }
 	.hex-cell.selected { stroke: black!important; stroke-width: 4px!important; stroke-opacity:1 }
 	.controls { margin-bottom: 1em; }
-	button.on, button.on:hover {
-		background-color: #c1002a!important;
-		color: white!important;
-	}
+	button.on, button.on:hover { background-color: #c1002a!important; color: white!important; }
 	.controls label { padding: 1em; display: inline-block; line-height: 1em; cursor: pointer; }
 	.controls label:hover { background-color: #ddd; }
 	.controls input { opacity: 0.01; position: absolute; float: left; }
-	.controls input:checked + label {
-		background-color: #c1002a!important;
-		color: white!important;
-	}
+	.controls input:checked + label { background-color: #c1002a!important; color: white!important; }
 	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; font-size: 0.8em; line-height: 1.5em; }
 	#key .party { display: inline-block; margin-right: 0.5em; }
 	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; }
@@ -167,13 +149,19 @@
 		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
 		background-color: #efefef;
 		color: black;
+		font-family: Roboto;
 	}
 	.infobubble .infobubble_inner { margin: 1em; }
 	.infobubble.generalelection { text-align: left; }
 	.infobubble a, .infobubble a:visited { color: inherit; }
-	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; }
+	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; font-weight: bold; font-size: 1.25em; line-height: 1.5em; font-family: Unit; }
 	.infobubble .popup-title + p { margin-top: 0.25em; }
-	.infobubble .close.button, .infobubble .close.button:hover { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px; line-height: 0.5em; margin: 0px; }
+	.infobubble .close.button { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px 12px 6px 12px; line-height: 1em; margin: 0px; }
+	.infobubble .close.button:hover, .infobubble .close.button:focus { font-weight: bold; }
+	.infobubble .number, strong { font-weight: 700; }
+	.infobubble .small { font-weight: normal; font-size: 0.7em; }
+	.infobubble td { vertical-align: bottom; }
+	.infobubble .headline { font-family: Unit; }
 	.popup-bio { display: flex; }
 	.generalelection {
 		width: 600px;
@@ -183,17 +171,19 @@
 		line-height: 1.5em;
 	}
 	.generalelection table { width: 100%; }
-	.infobubble .party-bar { height: 1.5em;float: left;display: inline-block;margin: 0 0.25em 2px 0; position: relative; top:0.1em; border:0px solid white; border-left: 1px solid white; }
+	.infobubble .party-bar { height: 1.5em;float: left;display: inline-block;margin: 0 0.25em 0.25em 0; position: relative; top:0.1em; border:0px solid white; border-left: 1px solid white; }
 	.infobubble table { margin-bottom: 0.5em; }
 	.winner { display: flex; padding: 1em; margin-bottom: 0.5em; width: 100%; }
-	.winner .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; }
-	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.5em; }
+	.winner .headline { font-size: 1.2em; }
+	.infobubble .image > * { height: 4.5em; width: 4.5em; background-color: #efefef; margin-right: 1em; float: left; }
+	.bottom { color: #999; font-size: 0.8em; margin-top: 1em; line-height: 1.25em; }
 	.bottom a, .bottom a:visited { color: inherit; }
-	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1010; }
+	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner svg { width: 5em; margin: auto; }
-	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; }
+	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; position: absolute; z-index: 98; }
 	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
-
+	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; z-index: 1001; }
+	.infobubble .results tr { cursor: pointer; }
 	.controls { display: none; }
 
 	@media only screen and (max-width: 700px) {
@@ -211,12 +201,13 @@
 			margin-right: 0px;
 			transition: 0s;
 		}
+		.bottom { font-size: 0.6em; }
 		.generalelection { max-width: 100%; }
 		body.modal { overflow: hidden; }
-
 	}
 	</style>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet"> 
 </head>
 <body class="b6-bg">
 
@@ -228,12 +219,12 @@
 			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">2015</label>
 		</div>
 		<div id="hexmap" style="text-align:center;margin:auto;">
-			<div id="search"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"></div>
+			<div id="search"><div class="search-inner"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"></div></div>
 		</div>
 		<div id="key"></div>
 
 		<div class="bottom">
-			Visualisation: <a href="https://github.com/odileeds/hexmaps/">ODI Leeds</a> / Data: New Statesman, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data">Electoral Commission</a>, <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a>, <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>, <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5/">CC-BY-SA</a>), <a href="https://democracyclub.org.uk/data/">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</a>)
+			Visualisation: <a href="https://github.com/odileeds/hexmaps/" target="_parent">ODI Leeds</a> / Data: <a href="https://britainelects.newstatesman.com/" target="_parent">New Statesman</a>, <a href="https://britainelects.newstatesman.com/" target="_parent">Britain Elects</a>, <a href="http://www.electoralcommission.org.uk/our-work/our-research/electoral-data" target="_parent">Electoral Commission</a>, Parliament (<a href="http://www.data.parliament.uk/dataset/general-election-2015" target="_parent">2015</a> & <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979" target="_parent">2017</a>), <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06" target="_parent">They Work For You</a> (<a href="https://creativecommons.org/licenses/by-sa/2.5/" target="_parent">CC-BY-SA</a>), <a href="https://candidates.democracyclub.org.uk/" target="_parent">Democracy Club</a> (<a href="https://creativecommons.org/licenses/by/4.0/" target="_parent">CC-BY 4.0</a>)
 		</div>
 	</div>
 	
@@ -241,22 +232,24 @@
 	var constituencies;
 
 	var parties = {
-		'Con':{'color':'#0485A8','title':'Conservative'},
-		'Lab':{'color':'#DC4343','title':'Labour'},
-		'LD':{'color':'#EAA544','title':'Lib Dem','short':'LibDem'},
-		'Green':{'color':'#5EBD4C'},
-		'Brexit':{'color':'#0FA697'},
-		'SNP':{'color':'#EBDB1C'},
-		'UKIP':{'color':'#73537A'},
-		'PC':{'color':'#4FBA7C','title':'Plaid Cymru'},
-		'Ind':{'color':'#CCA7C6','title':'Independent'},
-		'DUP':{'color':'#BF3759'},
-		'SF':{'color':'#2C604D','title':'Sinn Féin'},
-		'SDLP':{'color':'#53BC5B'},
-		'Alliance':{'color':'#EAA544','short':'Aln'},
-		'Spk':{'color':'#909090','title':'Speaker'},
-		'XSpk':{'color':'#909090','title':'Ex-Speaker'},
-		'none':{'color':'#dfdfdf'}
+		'Con':{'color':'#0485A8','title':'Conservative','short':'Con'},
+		'Lab':{'color':'#DC4343','title':'Labour','short':'Lab'},
+		'LD':{'color':'#EAA544','title':'Lib Dem','short':'LDem'},
+		'Green':{'color':'#5EBD4C','short':'Grn'},
+		'Brexit':{'color':'#0FA697','short':'Brex'},
+		'SNP':{'color':'#EBDB1C','short':'SNP'},
+		'UKIP':{'color':'#73537A','short':'UKIP'},
+		'PC':{'color':'#4FBA7C','title':'Plaid Cymru','short':'PC'},
+		'Ind':{'color':'#CCA7C6','title':'Independent','short':'Ind'},
+		'DUP':{'color':'#BF3759','short':'DUP'},
+		'UUP':{'color':'#3b75a8','short':'UUP'},
+		'SF':{'color':'#2C604D','title':'Sinn Féin','short':'SF'},
+		'SDLP':{'color':'#53BC5B','short':'SDLP'},
+		'Alliance':{'color':'#EAA544','short':'Alln'},
+		'Spk':{'color':'#909090','title':'Speaker','short':'Spk'},
+		'XSpk':{'color':'#909090','title':'Ex-Speaker','short':'Ex-Spk'},
+		'Monster':{'color':'#cccccc','short':'Mon'},
+		'none':{'color':'#dfdfdf','short':'Oth'}
 	};
 	
 	function getPartyDetails(party){
@@ -275,10 +268,11 @@
 	}
 	
 
-	var render = function(title,region,data){
+	var render = function(title,region,data,attr){
 		var r;
 		var p = "";
 		var lbl = "";
+		var img = "";
 		var wincolour = "";
 		if(!data) data = {};
 
@@ -293,13 +287,21 @@
 			elections.sort().reverse();
 			
 			incumbent = "";
+			lastge = "";
 			changedIncumbent = false;
 			if(data.elections['2019-12-12'] && data.elections['2019-12-12'].incumbent){
 				incumbent = data.elections['2019-12-12'].incumbent;
-				changedIncumbent = true;
-			}else if(data.elections[elections[1]] && data.elections[elections[1]].party){
-				incumbent = data.elections[elections[1]];
+			//}else if(data.elections[elections[1]] && data.elections[elections[1]].party){
+			//	incumbent = data.elections[elections[1]];
+				lastge = data.elections['2019-12-12'].incumbent;
 			}
+			for(var i = 1; i < elections.length; i++){
+				if(data.elections[elections[i]].type=="general"){
+					lastge = data.elections[elections[1]];
+					break;
+				}
+			}
+			if(data.elections['2019-12-12'].party && lastge.party.code != data.elections['2019-12-12'].party.code) changedIncumbent = true;
 
 			// Current election
 			if(data.elections['2019-12-12']){
@@ -307,52 +309,92 @@
 				if(!data.elections[yy].party){
 					lbl += '<p>2019 Candidates:</p>';
 				}
-				total = 0;
-				// Work out total votes cast and set any missing ones to zero
+
+				// Set votes to zero
 				for(var c = 0; c < data.elections[yy].candidates.length; c++){
-					if(data.elections[yy].candidates[c].votes) total += data.elections[yy].candidates[c].votes;
-					else data.elections[yy].candidates[c].votes = 0;
+					if(!data.elections[yy].candidates[c].votes) data.elections[yy].candidates[c].votes = 0;
 				}
+
 				// Sort the candidates by their results
 				data.elections[yy].candidates.sort(function(a, b) {
 					if(a.votes===b.votes) return 0;
 					else return (a.votes < b.votes) ? -1 : 1;
 				}).reverse();
-				
+
+				total = getTotalVotes(data.elections[yy]);
+				total2 = getTotalVotes(data.elections['2017-06-08']);
+
 				if(total > 0){
-					p1 = getPartyDetails(data.elections[yy].candidates[0].party);
-					p2 = getPartyDetails(incumbent.party);
+					var ccode = -1;
+					for(var c = 0; c < data.elections[yy].candidates.length; c++){
+						if(data.elections[yy].candidates[c].name == data.elections[yy].mp) img = data.elections[yy].candidates[c].img;
+					}
+					p1 = getPartyDetails(data.elections[yy].party);
+					p2 = getPartyDetails(lastge.party);
 					lbl += '<div class="winner" style="background-color:'+p1.color+';color:%COLOR%;">';
-					lbl += '<div class="image"><div style="background-image:url(\''+data.elections[yy].candidates[0].img+'\');background-position:center center;background-size:cover;" title="Image of '+data.elections[yy].candidates[0].name+'"></div></div>';
-					lbl += '<div class="about">';
-					lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short)
-					lbl += '<br />'+data.elections[yy].candidates[0].name;
-					if(data.elections[yy].majority) lbl += '<br />Majority: '+data.elections[yy].majority.toLocaleString();
+					lbl += '<div class="image"><img src="britainelects.svg" title="'+data.elections[yy].mp+'" /></div>';
+					lbl += '<div class="about"><strong class="headline">';
+					if(p1.code == "Spk") lbl += data.elections[yy].mp+' re-elected as Speaker';
+					else if(p2.code == "Spk" && p1.code != "Spk") lbl += p1.short+' GAIN';
+					else lbl += ''+p1.short+' '+(p1.code==p2.code ? 'HOLD':'GAIN from '+p2.short);
+					lbl += '</strong><br /><strong>Elected:</strong> '+data.elections[yy].mp+'';
+					if(data.elections[yy].majority) lbl += '<br /><strong>Majority:</strong> '+data.elections[yy].majority.toLocaleString()+(data.elections[yy].majority.pc ? '('+data.elections[yy].majority.pc.toFixed(1)+'%)':'');
+
 					lbl += '</div></div>';
 				}
-				lbl += '<table>';
+
+				if(total > 0 && total2 > 0){
+					for(var c = 0; c < data.elections[yy].candidates.length; c++){
+						if(data.elections[yy].candidates[c].party.code!="Ind" && typeof data.elections[yy].candidates[c].change!=="number"){
+							// Default to the current percent (if they didn't exist last election)
+							data.elections[yy].candidates[c].change = parseFloat(data.elections[yy].candidates[c].pc);
+							for(var c2 = 0; c2 < data.elections['2017-06-08'].candidates.length; c2++){
+								// If the party seems to have existed last time work out the change
+								if(fuzzyMatchParty(data.elections[yy].candidates[c].party,data.elections['2017-06-08'].candidates[c2].party)) data.elections[yy].candidates[c].change = (parseFloat(data.elections[yy].candidates[c].pc) - parseFloat(data.elections['2017-06-08'].candidates[c2].pc));
+							}
+						}
+					}
+				}
+
+				lbl += '<table class="results">';
 				for(var c = 0; c < data.elections[yy].candidates.length; c++){
 					party = data.elections[yy].candidates[c].party;
 					p1 = getPartyDetails(party);
 					name = data.elections[yy].candidates[c].name;
 					url = "https://candidates.democracyclub.org.uk/person/"+data.elections[yy].candidates[c].id;
-					if(data.elections[yy].party) lbl += '<tr><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(80*parseInt(data.elections[yy].candidates[c].votes)/total).toFixed(2)+'%;"></span>'+p1.short+': '+data.elections[yy].candidates[c].votes.toLocaleString()+'</td></tr>';
+					pc = data.elections[yy].candidates[c].votes/total;
+					if(data.elections[yy].party) lbl += '<tr title="'+name+', '+p1.title+': '+(100*pc).toFixed(1)+'% ('+data.elections[yy].candidates[c].votes.toLocaleString()+')" candidate="'+data.elections[yy].candidates[c].id+'"><td><span class="party-bar" style="border-color:%COLOR%;background-color:'+p1.color+';width: '+(70*pc).toFixed(2)+'%;"></span>'+acronymise(p1.short||p1.title)+': <span class="number">'+(100*pc).toFixed(1)+'%</span> '+(typeof data.elections[yy].candidates[c].change==="number" ? '<span class="small">('+(data.elections[yy].candidates[c].change >= 0 ? '+':'')+data.elections[yy].candidates[c].change.toFixed(1)+'%)':'')+'</span></td></tr>';
 					else lbl += '<tr><td><span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><a href="'+url+'" target="_parent">'+name+' - '+p1.title+'</a></td></tr>';
 
 				}
 				lbl += '</table>';
-				tbl = '';
-				if(data.elections[yy].turnout) tbl += '<tr><td>Turnout:</td><td style="text-align:right">'+data.elections[yy].turnout.pc+'% ('+(data.elections[yy].valid+(data.elections[yy].invalid||0)).toLocaleString()+')</td></tr>';
-				if(data.elections[yy].invalid) tbl += '<tr><td>Invalid votes:</td><td style="text-align:right">'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
+				if(attr.timestamp) lbl += '<span class="small">Last updated: '+attr.timestamp+'</span>';
+				lbl += '<h3 class="popup-title">Constituency Drilldown</h3><p>';
+				var tbl = '';
+				if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;
+				if(data.elections[yy].turnout){
+					tbl += '<tr><td><strong>Turnout:</strong></td><td>';
+					if(data.elections[yy].turnout.pc) tbl += data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')';
+					else tbl += data.elections[yy].turnout.value.toLocaleString();
+					tbl += '</td></tr>';
+				}
+				if(data.elections[yy].valid) tbl += '<tr><td><strong>Valid votes:</strong></td><td>'+data.elections[yy].valid.toLocaleString()+'</td></tr>';
+				if(data.elections[yy].invalid) tbl += '<tr><td><strong>Invalid votes:</strong></td><td>'+data.elections[yy].invalid.toLocaleString()+'</td></tr>';
+				if(data.elections[yy].electorate) tbl += '<tr><td><strong>Electorate:</strong></td><td>'+data.elections[yy].electorate.toLocaleString()+'</td></tr>';
+				if(data.demographics){
+					if(data.demographics['age18-29']) tbl += '<tr><td><strong>Age 18-29:</strong></td><td>'+data.demographics['age18-29']+'%</td></tr>';
+					if(data.demographics['withdegree']) tbl += '<tr><td><strong>With a degree:</strong></td><td>'+data.demographics['withdegree']+'%</td></tr>';
+					if(data.demographics['2016Leave']) tbl += '<tr><td><strong>2016 Leave vote (estimate):</strong></td><td>'+data.demographics['2016Leave']+'%</td></tr>';
+					if(data.demographics['2015UKIP']) tbl += '<tr><td><strong>2015 UKIP vote:</strong></td><td>'+data.demographics['2015UKIP']+'%</td></tr>';
+				}
 				if(tbl) lbl += '<table>'+tbl+'</table>';
 
-				if(changedIncumbent){
+				if(incumbent){
 					lbl += '<h3 class="popup-title">Incumbent</h3><p>';
 					party = incumbent.party;
 					p1 = getPartyDetails(party);
-					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+incumbent.mp+' - '+p1.title;
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><strong>'+incumbent.mp+' - '+p1.title+'</strong>';
 				}
-				
 			}
 
 			for(var y = 0; y < elections.length; y++){
@@ -366,33 +408,117 @@
 					}
 					party = data.elections[yy].party;
 					p1 = getPartyDetails(party);
-					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'<br />';
-					if(data.elections[yy].majority) lbl += 'Majority: '+data.elections[yy].majority.toLocaleString()+'<br />';
-					if(data.elections[yy].turnout) lbl += 'Turnout: '+data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')<br />';
-					if(data.elections[yy].invalid) lbl += 'Invalid votes: '+data.elections[yy].invalid.toLocaleString()+'<br />';
+					lbl += '<span class="party-key" style="border-color:%COLOR%;background-color:'+p1.color+'"></span><strong>'+(data.elections[yy].mysoc ? '<a href="'+data.elections[yy].mysoc+'" target="_parent">':'')+data.elections[yy].mp+' - '+p1.title+''+(data.elections[yy].mysoc ? '</a>':'')+'</strong><br />';
+					if(data.elections[yy].majority) lbl += '<strong>Majority:</strong> '+data.elections[yy].majority.toLocaleString()+'<br />';
+					if(data.elections[yy].turnout) lbl += '<strong>Turnout:</strong> '+data.elections[yy].turnout.pc+'% ('+data.elections[yy].turnout.value.toLocaleString()+')<br />';
+					if(data.elections[yy].invalid) lbl += '<strong>Invalid votes:</strong> '+data.elections[yy].invalid.toLocaleString()+'<br />';
 					lbl += '</p>';
 				}
 			}
 		}
 
-		// Add bio
-		if(this.data['constituency-card']){
-			r = this.data['constituency-card'][region];
-			lbl += '<div class="popup-bio"><img src="'+r['photo_url']+'" /></div><div><strong>MP:</strong> <a href="'+r['mysocuri']+'">'+r['dispname']+'</a>, '+r['partynow']+'<br /><strong>Area:</strong> '+r['sq_km']+'km&sup2; ('+r['sq_mi']+' miles&sup2;)<br /><strong>Distance from power:</strong> '+r['km_fr_pow']+' km ('+r['mi_fr_pow']+' miles)'+(r['result17'] ? '<br /><strong>2017 turnout:</strong> '+r['turnout17']+'% ('+r['valid17']+'/'+r['elect17']+')<table><tr></tr></table>' : '')+'</div>';
-		}
-		
-		lbl += '<p style="font-size:0.6em;border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;line-height:1.5em;">Data: New Statesman / <a href="https://democracyclub.org.uk/data/">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06">They Work For You</a> / <a href="http://www.data.parliament.uk/dataset/general-election-2015">Houses of Parliament</a> / <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979">Houses of Parliament</a>.</p>'
+		lbl += '<p class="bottom" style="border-top:1px solid %COLOR%;margin-top:1em;padding-top:1em;">Data: <a href="https://britainelects.newstatesman.com/" target="_parent">New Statesman</a> / <a href="https://britainelects.newstatesman.com/" target="_parent">Britain Elects</a> / <a href="https://candidates.democracyclub.org.uk/" target="_parent">Democracy Club</a> / <a href="https://www.theyworkforyou.com/mps/?date=2019-11-06" target="_parent">They Work For You</a> / Parliament (<a href="http://www.data.parliament.uk/dataset/general-election-2015" target="_parent">2015</a> & <a href="https://researchbriefings.parliament.uk/ResearchBriefing/Summary/CBP-7979" target="_parent">2017</a>).</p>'
 
-		return {'label':lbl,'class':'generalelection','color':wincolour||''};
+		function postRender(title,region,data){
+			S('#tooltip').remove();
+			if(!data.elections['2019-12-12']) return;
+			var prev = -1;
+			S('.infobubble .results tr').on('click',{me:this,'region':region,'election':data.elections['2019-12-12']},function(e){
+				var id = S(e.currentTarget).attr('candidate');
+				if(id==prev){
+					S('#tooltip').remove();
+				}else{
+					S('#tooltip').remove();
+					var election = e.data.election;
+					var candidate = "";
+					var total = 0;
+					for(var c = 0; c < election.candidates.length; c++){
+						if(election.candidates[c].id == id) candidate = election.candidates[c];
+						total += election.candidates[c].votes;
+					}
+					var pc = candidate.votes/total;
+					var html = "";
+					if(candidate.img) html += '<div class="image"><div style="background-image:url(\''+candidate.img+'\');background-position:center center;background-size:cover;" title="Image of '+candidate.name+'"></div></div>';
+					html += '<div><h3>'+candidate.name+'</h3><p>'+candidate.party.title+'</p><p>Votes: '+(100*pc).toFixed(1)+'% ('+candidate.votes.toLocaleString()+')</p></div>';
+					var td = S(e.currentTarget).find('td');
+					td.css({'position':'relative'}).append('<div id="tooltip">'+html+'</div>');
+					S('#tooltip').css({'position':'absolute','left':'50%','top':'100%'});
+				}
+				prev = id;
+			});
+			S('.infobubble .close')[0].focus();
+			
+			// Update the image for the winner
+			var my_image = new Image();
+			my_image.onload = function(){
+				// replace image in popup
+				var img = S('.infobubble .image img');
+				var title = img.attr('title');
+				img.parent().html('')[0].appendChild(my_image);
+				
+			}
+			my_image.src = img;
+
+		}
+
+		return {'label':lbl,'class':'generalelection','color':wincolour||'','callback': postRender };
 	}
-	
+	function getTotalVotes(el){
+		
+		var total = 0;
+		// Work out total votes cast and set any missing ones to zero
+		for(var c = 0; c < el.candidates.length; c++){
+			if(el.candidates[c].votes) total += el.candidates[c].votes;
+			else el.candidates[c].votes = 0;
+		}
+		// Work out percent
+		for(var c = 0; c < el.candidates.length; c++){
+			if(typeof el.candidates[c].pc!=="number") el.candidates[c].pc = (total > 0 ? 100*el.candidates[c].votes/total : 0).toFixed(1);
+		}
+		return total;
+	}
+	function fuzzyMatchParty(a,b){
+		if(!a.code && a.title) a.code = acronymise(a.title);
+		if(!b.code && b.title) b.code = acronymise(b.title);
+		
+		if(a.code && b.code){
+			// Do the codes match?
+			if(a.code == b.code) return true;
+			// Remove leading "The"
+			c1 = a.code.replace(/^The /,"");
+			c2 = b.code.replace(/^The /,"");
+			// If the name has spaces in it we will acronymise it
+			if(c1.indexOf(" ") > 0){
+				console.warn('Need to acronymise '+c1);
+				c1 = acronymise(c1);
+			}
+			if(c2.indexOf(" ") > 0){
+				console.warn('Need to acronymise '+c2);
+				c2 = acronymise(c2);
+			}
+			if(c1==c2) return true;
+		}else{
+			console.warn('Missing codes for ',a,b);
+		}
+		return false;	
+	}
+	function acronymise(string){
+		if(string.length > 5){
+			string = string.replace(/^The /,"");
+			// Split by uppercase characters
+			var words = string.split(/(?=[A-Z])/);
+			var str = "";
+			for(var w = 0; w < words.length; w++) str += words[w][0].toUpperCase();
+			return str;
+		}else return string;
+	}
 	function uppercaseFirst(string){
 		return string.charAt(0).toUpperCase() + string.slice(1);
 	}
 	function validParties(_obj,key){
 		var got = {};
 		for(var r in _obj.data[key]){
-			party = _obj.data[key][r].party;
+			party = (_obj.data[key][r].party||_obj.data[key][r].first);
 			if(!got[party]) got[party] = 0;
 			got[party]++;
 		}
@@ -401,17 +527,21 @@
 
 	var views = {
 		'GE2019-results':{
-			'file': '2019-results.csv',
+			'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/2019-results.csv',
 			'live': true,
 			'process': function(type,data){
 				if(!this.data[type]) this.data[type] = {};
-				for(var i = 0; i < data.length; i++){
-					code = data[i]['ccode'];
-					if(code) this.data[type][code] = {'first': data[i].first19};
+				if(data.length > 0){
+					for(var i = 0; i < data.length; i++){
+						code = data[i]['ccode'];
+						if(code) this.data[type][code] = {'first': data[i].first19};
+					}
+				}else{
+					for(var r in this.hex.hexes) this.data[type][r] = {};
 				}
 			},
 			'popup': {
-				'file': 'constituencies/%region%.json',
+				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/%region%.json',
 				'live':true,
 				'render': render
 			},
@@ -419,12 +549,13 @@
 				var _obj = this;
 				var key = "";
 				this.hex.setColours = function(region){
+					if(!_obj.data["GE2019-results"][region]) return parties.none.color;
 					r = _obj.data["GE2019-results"][region].first;
 					if(r) r = r.replace(/[\n\r]/g,"");
 					//else console.warn('No region',r,region,parties[r]);
 					return (parties[r] ? parties[r].color||parties.none.color : parties.none.color);
 				}
-				got = validParties(_obj,'GE2019-results');
+				var got = validParties(_obj,'GE2019-results');
 				for(var party in parties){
 					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
 				}
@@ -529,7 +660,7 @@
 		'width':915,
 		'height':1120,
 		'padding':0,
-		'file':'../maps/constituencies.hexjson',
+		'file':'constituencies.hexjson',
 		'views': views,
 		'search':{'id':'search'}
 	});

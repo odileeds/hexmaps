@@ -397,21 +397,25 @@ foreach $pcd (sort(keys(%con))){
 			$n++;
 		}
 		#White,Mixed,Indian,Pakistani,Bangladeshi,Chinese,Other Asian,Black,Arab,Other
-		$race = $con{$pcd}{'britainelects-White'}+$con{$pcd}{'britainelects-Mixed'}+$con{$pcd}{'britainelects-Indian'}+$con{$pcd}{'britainelects-Pakistani'}+$con{$pcd}{'britainelects-Bangladeshi'}+$con{$pcd}{'britainelects-Chinese'}+$con{$pcd}{'britainelects-Other Asian'}+$con{$pcd}{'britainelects-Black'}+$con{$pcd}{'britainelects-Arab'}+$con{$pcd}{'britainelects-Other'};
-		if($rel > 0){
+		@races = ("White","Mixed","Indian","Pakistani","Bangladeshi","Chinese","Other Asian","Black","Arab","Other");
+		$rtotal = 0;
+		foreach $race (@races){
+			if($con{$pcd}{"britainelects-".$race}){
+				$rtotal += $con{$pcd}{"britainelects-".$race};
+			}
+			print "$race - $rtotal\n";
+		}
+		print "$rtotal = ".$con{$pcd}{'britainelects-White'}."\n";
+		if($rtotal > 0){
 			if($n > 0){ print FILE ",\n"; }
 			print FILE "\t\t\"race\": {\n";
-			print FILE "\t\t\t\"arab\": ".$con{$pcd}{'britainelects-Arab'}.",\n";
-			print FILE "\t\t\t\"bangladeshi\": ".$con{$pcd}{'britainelects-Bangladeshi'}.",\n";
-			print FILE "\t\t\t\"black\": ".$con{$pcd}{'britainelects-Black'}.",\n";
-			print FILE "\t\t\t\"chinese\": ".$con{$pcd}{'britainelects-Chinese'}.",\n";
-			print FILE "\t\t\t\"indian\": ".$con{$pcd}{'britainelects-Indian'}.",\n";
-			print FILE "\t\t\t\"mixed\": ".$con{$pcd}{'britainelects-Mixed'}.",\n";
-			print FILE "\t\t\t\"other\": ".$con{$pcd}{'britainelects-Other'}.",\n";
-			print FILE "\t\t\t\"otherasian\": ".$con{$pcd}{'britainelects-Other Asian'}.",\n";
-			print FILE "\t\t\t\"pakistani\": ".$con{$pcd}{'britainelects-Pakistani'}.",\n";
-			print FILE "\t\t\t\"white\": ".$con{$pcd}{'britainelects-White'}."\n";
-			print FILE "\t\t}";
+			$nn = 0;
+			foreach $race (sort(@races)){
+				if($nn > 0){ print FILE ",\n"; }
+				print FILE "\t\t\t\"".($race)."\": ".($con{$pcd}{"britainelects-".$race} ne "" ? $con{$pcd}{"britainelects-".$race} : "null")."";
+				$nn++;
+			}
+			print FILE "\n\t\t}";
 			$n++;
 		}
 		print FILE "\n\t},\n";

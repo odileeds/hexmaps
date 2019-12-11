@@ -13,16 +13,16 @@
 			"muslim": 3.13
 		},
 		"race": {
-			"arab": 0.16,
-			"bangladeshi": 1.57,
-			"black": 0.44,
-			"chinese": 0.39,
-			"indian": 1.03,
-			"mixed": 0.88,
-			"other": 0.21,
-			"otherasian": 0.52,
-			"pakistani": 0.85,
-			"white": 93.95
+			"Arab": 0.16,
+			"Bangladeshi": 1.57,
+			"Black": 0.44,
+			"Chinese": 0.39,
+			"Indian": 1.03,
+			"Mixed": 0.88,
+			"Other": 0.21,
+			"Other Asian": 0.52,
+			"Pakistani": 0.85,
+			"White": 93.95
 		}
 	},
 	"elections": {

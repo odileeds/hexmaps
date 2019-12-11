@@ -268,7 +268,7 @@
 	}
 	
 
-	var render = function(title,region,data){
+	var render = function(title,region,data,attr){
 		var r;
 		var p = "";
 		var lbl = "";
@@ -366,7 +366,7 @@
 
 				}
 				lbl += '</table>';
-				
+				if(attr.timestamp) lbl += '<span class="small">Last updated: '+attr.timestamp+'</span>';
 				lbl += '<h3 class="popup-title">Constituency Drilldown</h3><p>';
 				var tbl = '';
 				if(data.elections[yy].turnout && typeof data.elections[yy].turnout.pc!=="number") data.elections[yy].turnout.pc = null;

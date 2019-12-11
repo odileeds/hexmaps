@@ -1514,6 +1514,7 @@ function ResultsMap(id,attr){
 	this.type = "";
 	this.files = {};
 	this.views = attr.views;
+	this.cache = {};
 
 	if(S('#data-selector').length > 0) this.type = S('#data-selector')[0].value;
 	if(S('.view-toggle').length > 0) this.type = document.querySelector('input[name="view"]:checked').id;
@@ -1701,11 +1702,28 @@ function ResultsMap(id,attr){
 			S('#'+this.id+'').after('<div class="infobubble generalelection"><div class="infobubble_inner"><div class="spinner"><svg width="64" height="64" viewBox="-32 -32 64 64" xmlns="http://www.w3.org/2000/svg" style="transform-origin: center center;"><style>#odilogo-starburst rect2 { transform-origin: center center; -webkit-transform-origin: center center; }</style><g id="odilogo-starburst"><rect width="4" height="25" x="-2" transform="rotate(7)" fill="#2254F4"><animate attributeName="height" begin="0s" dur="4s" values="25;19;23;29;26;25;31;21;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(27)" fill="#F9BC26"><animate attributeName="height" begin="0s" dur="2s" values="25;29;23;20;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(47)" fill="#00B6FF"><animate attributeName="height" begin="0s" dur="1s" values="25;20;27;25;" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(67)" fill="#D60303"><animate attributeName="height" begin="0s" dur="5s" values="25;15;27;25;32;16;24;27;18;32;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(87)" fill="#722EA5"><animate attributeName="height" begin="0s" dur="6s" values="25;19;26;30;21;24;29;27;15;23;20;29;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(107)" fill="#1DD3A7"><animate attributeName="height" begin="0s" dur="3s" values="25;27;24;32;23;19;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(127)" fill="#EF3AAB"><animate attributeName="height" begin="0s" dur="2s" values="25;20;22;32;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(147)" fill="#FF6700"><animate attributeName="height" begin="0s" dur="4s" values="25;24;18;23;27;23;29;21;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(167)" fill="#0DBC37"><animate attributeName="height" begin="0s" dur="4s" values="25;15;27;25;24;32;16;24;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(187)" fill="#178CFF"><animate attributeName="height" begin="0s" dur="5s" values="25;18;23;21;31;20;24;21;28;31;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(207)" fill="#722EA5"><animate attributeName="height" begin="0s" dur="3s" values="25;32;16;24;19;27;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(227)" fill="#D73058"><animate attributeName="height" begin="0s" dur="5s" values="25;23;25;28;18;27;24;30;31;28;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(247)" fill="#00B6FF"><animate attributeName="height" begin="0s" dur="4s" values="25;19;23;29;26;25;31;21;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(267)" fill="#67E767"><animate attributeName="height" begin="0s" dur="2s" values="25;29;23;20;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(287)" fill="#E6007C"><animate attributeName="height" begin="0s" dur="1s" values="25;20;27;25;" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(307)" fill="#0DBC37"><animate attributeName="height" begin="0s" dur="5s" values="25;15;27;25;32;16;24;27;18;32;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(327)" fill="#D60303"><animate attributeName="height" begin="0s" dur="6s" values="25;19;26;30;21;24;29;27;15;23;20;29;25" calcMode="linear" repeatCount="indefinite" /></rect><rect width="4" height="25" x="-2" transform="rotate(347)" fill="#08DEF9"><animate attributeName="height" begin="0s" dur="3s" values="25;27;24;32;23;19;25" calcMode="linear" repeatCount="indefinite" /></rect></g><g id="odilogo"><circle cx="-12.8" cy="0" r="6.4" style="fill:black;"></circle><path d="M-7 -6.4 l 6.4 0 c 0 0 6.4 0 6.4 6.4 c 0 6.4 -6.4 6.4 -6.4 6.4 L -7 6.4Z" style="fill:black;"></path><rect width="6.4" height="12.5" x="5.5" y="-6.25" style="fill:black;"></rect></g></svg></div></div></div>');
 		}
 
-		function callback(title,region,data){
+		function callback(title,region,data,attr){
+
+			// Check if we should update the popup or not
+			var date = "";
+			var timestamp = "";
+			attr.header.replace(/last-modified: (.*)/,function(m,p1){ date = p1; });
+			if(date){
+				date = new Date(date);
+				timestamp = date.getUTCHours()+':'+date.getUTCMinutes();
+			}
+			if(this.cache[region] == timestamp && S('.infobubble_inner .spinner').length==0){
+				console.info('Constituency results unchanged since '+timestamp);
+				return this;
+			}else{
+				this.cache[region] = timestamp;
+				attr.timestamp = timestamp;
+			}
+
 			var lbl = this.hex.mapping.hexes[region].label;
 			var l = {};
 			if(popup && typeof popup.render==="function"){
-				l = popup.render.call(this,title,region,data);
+				l = popup.render.call(this,title,region,data,attr);
 			}else{
 				console.warn('No view for '+this.by);
 				l = {'label':title,'class':cls,'color':''};
@@ -1719,7 +1737,7 @@ function ResultsMap(id,attr){
 			S('.infobubble .close').remove();
 			S('.infobubble').prepend('<button class="close button" title="Close constituency information">&times;</button>');
 			S('.infobubble .close').on('click',{me:this},function(e){ e.data.me.closeActive(); });
-			if(typeof l.callback==="function") l.callback.call(this,title,region,data);
+			if(typeof l.callback==="function") l.callback.call(this,title,region,data,attr);
 			return this;
 		}
 		// May need to load data first
@@ -1738,7 +1756,7 @@ function ResultsMap(id,attr){
 					// Convert to JSON if CSV
 					if(attr.dataType=="text") d = CSV2JSON(d);
 					this.positionBubble();
-					if(typeof attr.callback==="function") attr.callback.call(this,attr.title,attr.region,d);
+					if(typeof attr.callback==="function") attr.callback.call(this,attr.title,attr.region,d,attr);
 				},
 				'error': function(e,attr){
 					console.error('Unable to load '+attr.url);

@@ -185,6 +185,7 @@
 	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; z-index: 1001; }
 	.infobubble .results tr { cursor: pointer; }
 	.controls { display: none; }
+	#updated { position: absolute; right: 0px; top: 0px; font-size: 0.8em; }
 
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
@@ -529,7 +530,7 @@
 		'GE2019-results':{
 			'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/2019-results.csv',
 			'live': true,
-			'process': function(type,data){
+			'process': function(type,data,attr){
 				if(!this.data[type]) this.data[type] = {};
 				if(data.length > 0){
 					for(var i = 0; i < data.length; i++){
@@ -539,6 +540,8 @@
 				}else{
 					for(var r in this.hex.hexes) this.data[type][r] = {};
 				}
+				if(S('#updated').length == 0) S('#'+this.id).prepend('<div id="updated">?</div>');
+				S('#updated').html('Updated: '+attr.timestamp);
 			},
 			'popup': {
 				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/%region%.json',

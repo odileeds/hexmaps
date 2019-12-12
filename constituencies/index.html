@@ -72,7 +72,52 @@
 	.hex-label.hover { fill: white!important; }
 	.hex-label.selected { fill: black!important;}
 	.hex-cell.selected { fill: #dfdfdf!important; }
-	
+
+	#search { position: absolute; display: block; width: 100%; max-width: 400px; }
+	#search .search-inner { position: relative; }
+	#search label {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 100;
+		font-size: 1em;
+		display: inline-block;
+		background: black;
+		color: white;
+		padding: 1.13em;
+		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height: 1;
+		text-transform: uppercase;
+		padding: 0.5em 1em;
+		font-weight: bold;
+		text-decoration: none;
+		letter-spacing: 0.05em;
+		line-height: 2em;
+		width: 3em;
+	}
+	#search input {
+		font-size: 1em;
+		background: rgba(255,255,255,0.7) !important;
+		border: solid 0.5em black;
+		border-radius: 0px;
+		display: none;
+		color: black;
+		padding: 0 0.5em;
+		height: 3em;
+		width: 100%;
+		position: relative;
+		left: 0em;
+		top: 0px;
+		padding-left: 3em;
+		z-index: 99;
+	}
+	#search svg { position: relative; top: 0.2em; }
+	#search.searching input { display: inline-block; }
+	#search .search-results { margin: 0px; list-style: none; }
+	#search .search-results li a { padding: 0.5em 0.5em 0.5em 0.5em; text-align: left; background-color: rgba(223,223,223,0.92); display: block; color: inherit; text-decoration: none; }
+	#search .search-results li a:hover, #search .search-results li a:focus, #search .search-results li a.selected { background-color: #000000; color: white; }
+
+	.message { text-align: center; padding: 0.5em; }
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
 	}
@@ -91,6 +136,7 @@
 			</div>
 		</header>
 
+		<div class="message c14-bg">⚠️ <a href="../ge2019/">View our live results map for the 2019 General Election</a> ⚠️</div>
 		<div class="holder">
 			<p><a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">We've created a (pointy-topped) hex map</a> of UK parliamentary constituencies to show each constituency with equal visual weight. Obviously we've had to make some compromises but <a href="https://github.com/odileeds/hexmaps/blob/gh-pages/maps/constituencies.hexjson">the hex layout is open</a> if you want to make changes. Below you can see data from a variety of sources. We've also made a <a href="https://odileeds.org/projects/petitions/">constituency hex map for UK Parliament petitions</a> and a <a href="https://odileeds.org/projects/divisions/">constituency hex map for House of Commons Divisions</a>.</p>
 			<form>
@@ -113,7 +159,9 @@
 			</form>
 			<div id="key"></div>
 			<div class="spinner"><div class="rect1 c10-bg"></div><div class="rect2 c10-bg"></div><div class="rect3 c10-bg"></div><div class="rect4 c10-bg"></div><div class="rect5 c10-bg"></div></div>
-			<div id="hexmap" style="text-align:center;margin:auto;"></div>
+			<div id="hexmap" style="text-align:center;margin:auto;">
+				<div id="search"><div class="search-inner"><label for="constituencies" class="search-button"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"></div></div>
+			</div>
 		</div>
 
 		<div class="holder" style="text-align:center;">

@@ -598,7 +598,7 @@
 				}
 				got = validParties(_obj,'2017-dissolution');
 				for(var party in parties){
-					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party" title="'+(parties[party].title||party)+'"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].short || acronymise(parties[party].title) || party)+'</div>';
 				}
 				return key;
 			}
@@ -628,7 +628,7 @@
 				}
 				got = validParties(_obj,'GE2017-results');
 				for(var party in parties){
-					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party" title="'+(parties[party].title||party)+'"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].short || acronymise(parties[party].title) || party)+'</div>';
 				}
 				return key;
 			}
@@ -660,7 +660,7 @@
 				}
 				got = validParties(_obj,'GE2015-results');
 				for(var party in parties){
-					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party" title="'+(parties[party].title||party)+'"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].short || acronymise(parties[party].title) || party)+'</div>';
 				}
 				return key;
 			}

@@ -141,8 +141,8 @@
 	.controls input:checked + label { background-color: #c1002a!important; color: white!important; }
 
 	#key { text-align: center; max-width: 800px; margin: auto; margin-bottom: 1em; font-size: 0.8em; line-height: 1.5em; }
-	#key .party { display: inline-block; margin-right: 0.5em; }
-	.party-key { width: 1em; height: 1em;display: inline-block;margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; }
+	#key .party { display: inline-block; margin: 0.25em; padding: .4rem .5rem; border-radius: 3px; border: 1px solid #eee; box-sizing: border-box; white-space: nowrap; line-height: 0.6em; }
+	.party-key { width: 0.8rem; height: 0.8rem; display: inline-block; margin: 0 0.25em 0 0; position: relative; top:0.1em; border:1px solid white; border-radius:2px; }
 	.infobubble {
 		z-index: 1000;
 		top: 1em;
@@ -191,7 +191,7 @@
 	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
 	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; z-index: 1001; }
 	.infobubble .results tr { cursor: pointer; }
-	#updated { position: absolute; right: 0px; top: 0px; font-size: 0.8em; }
+	#updated { position: absolute; right: 0px; top: 0px; font-size: 0.8em; text-align: right; }
 
 	@media only screen and (max-width: 700px) {
 		#hexmap text { display: none; }
@@ -548,7 +548,7 @@
 					for(var r in this.hex.hexes) this.data[type][r] = {};
 				}
 				if(S('#updated').length == 0) S('#'+this.id).prepend('<div id="updated">?</div>');
-				S('#updated').html('Updated: '+attr.timestamp);
+				S('#updated').html(data.length+' of 650 results'+'<br />As of '+attr.timestamp);
 			},
 			'popup': {
 				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/%region%.json',
@@ -568,7 +568,7 @@
 				}
 				var got = validParties(_obj,'GE2019-results');
 				for(var party in parties){
-					if(got[party]) key += '<div class="party"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].title || party)+'</div>';
+					if(got[party]) key += '<div class="party" title="'+(parties[party].title||party)+'"><span class="party-key" style="background-color:'+parties[party].color+';"></span>'+(parties[party].short || acronymise(parties[party].title) || party)+'</div>';
 				}
 				return key;
 			}

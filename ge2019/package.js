@@ -1880,7 +1880,7 @@ function ResultsMap(id,attr){
 		str.replace(/last-modified: (.*)/,function(m,p1){ date = p1; });
 		if(date){
 			date = new Date(date);
-			timestamp = date.getUTCHours()+':'+date.getUTCMinutes();
+			timestamp = date.getUTCHours()+':'+(date.getUTCMinutes() < 10 ? "0" : "")+date.getUTCMinutes();
 		}
 		return timestamp;
 	}

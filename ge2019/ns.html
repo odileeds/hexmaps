@@ -542,7 +542,7 @@
 					for(var r in this.hex.hexes) this.data[type][r] = {};
 				}
 				if(S('#updated').length == 0) S('#'+this.id).prepend('<div id="updated">?</div>');
-				S('#updated').html('Updated: '+attr.timestamp);
+				S('#updated').html(data.length+' of 650 results'+'<br />As of '+attr.timestamp);
 			},
 			'popup': {
 				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/%region%.json',

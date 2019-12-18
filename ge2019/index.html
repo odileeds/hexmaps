@@ -535,7 +535,7 @@
 
 	var views = {
 		'GE2019-results':{
-			'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/2019-results.csv',
+			'file': 'https://ge2019.odileeds.org/data/live/2019-results.csv',
 			'live': true,
 			'process': function(type,data,attr){
 				if(!this.data[type]) this.data[type] = {};
@@ -551,7 +551,7 @@
 				S('#updated').html(data.length+' of 650 results'+'<br />As of '+attr.timestamp);
 			},
 			'popup': {
-				'file': 'https://odileeds-uk-election-2019.s3.eu-west-2.amazonaws.com/processed/live/%region%.json',
+				'file': 'https://ge2019.odileeds.org/data/live/%region%.json',
 				//'file': 'constituencies/%region%.json',
 				'live':true,
 				'render': render

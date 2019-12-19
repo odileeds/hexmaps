@@ -10,7 +10,7 @@
 //    size: the size of a hexagon in pixels
 function HexMap(attr){
 
-	this.version = "0.4";
+	this.version = "0.4.1";
 	if(!attr) attr  = {};
 	this._attr = attr;
 	if(S('#'+attr.id).length==0){
@@ -52,10 +52,10 @@ function HexMap(attr){
 	for(var s in attr.style){
 		if(attr.style[s]){
 			if(!this.style[s]) this.style[s] = {};
-			if(attr.style[s]['fill']) this.style[s]['fill'] = attr.style[s]['fill'];
+			if(attr.style[s].fill) this.style[s].fill = attr.style[s].fill;
 			if(attr.style[s]['fill-opacity']) this.style[s]['fill-opacity'] = attr.style[s]['fill-opacity'];
 			if(attr.style[s]['font-size']) this.style[s]['font-size'] = attr.style[s]['font-size'];
-			if(attr.style[s]['stroke']) this.style[s]['stroke'] = attr.style[s]['stroke'];
+			if(attr.style[s].stroke) this.style[s].stroke = attr.style[s].stroke;
 			if(attr.style[s]['stroke-width']) this.style[s]['stroke-width'] = attr.style[s]['stroke-width'];
 			if(attr.style[s]['stroke-opacity']) this.style[s]['stroke-opacity'] = attr.style[s]['stroke-opacity'];
 		}
@@ -86,7 +86,7 @@ function HexMap(attr){
 			if(typeof fn==="function") fn.call(this,{'data':attr});
 		}
 		return this;
-	}
+	};
 
 	var _obj = this;
 	// We'll need to change the sizes when the window changes size
@@ -102,14 +102,16 @@ function HexMap(attr){
 		var cls = "";
 
 		if(h.active){
-			style['fill'] = h.fillcolour;
+			style.fill = h.fillcolour;
 			//cls += ' active';
 		}
 		if(h.hover){
 			cls += ' hover';
 		}
 		if(h.selected){
-			for(var p in this.style.selected) style[p] = this.style.selected[p];
+			for(var p in this.style.selected){
+				if(this.style.selected[p]) style[p] = this.style.selected[p];
+			}
 			cls += ' selected';
 		}
 		if(this.search.active) cls += (h.highlight) ? ' highlighted' : ' not-highlighted';
@@ -119,7 +121,7 @@ function HexMap(attr){
 		this.labels[r].attr({'class':'hex-label'+cls});
 
 		return h;
-	}
+	};
 	
 	this.toFront = function(r){
 		// Simulate a change of z-index by moving elements to the end of the SVG
@@ -135,13 +137,14 @@ function HexMap(attr){
 		this.paper.paper[0].appendChild(this.hexes[r].el[0]);
 		this.paper.paper[0].appendChild(this.labels[r].el[0]);
 		return this;
-	}
+	};
 
 	this.regionToggleSelected = function(r,others){
 		this.selected = (this.selected==r) ? "" : r;
-		h = this.hexes[r];
+		var h = this.hexes[r];
 		h.selected = !h.selected;
 		this.setHexStyle(r);
+		var region;
 
 		// If we've deselected a region, deselect any other regions selected
 		if(!h.selected){
@@ -155,55 +158,58 @@ function HexMap(attr){
 			}
 		}
 		return this;
-	}
+	};
 
 	this.regionFocus = function(r){
-		h = this.hexes[r];
+		var h = this.hexes[r];
 		h.hover = true;
 		this.setHexStyle(r);
 		this.toFront(r);
 		return this;
-	}
+	};
 
 	this.regionBlur = function(r){
-		h = this.hexes[r];
+		var h = this.hexes[r];
 		h.hover = false;
 		this.setHexStyle(r);
 		return this;
-	}
+	};
 
 	this.regionActivate = function(r){
-		h = this.hexes[r];
+		var h = this.hexes[r];
 		h.active = true;
 		this.setHexStyle(r);
-	}
+	};
 
 	this.regionDeactivate = function(r){
-		h = this.hexes[r];
+		var h = this.hexes[r];
 		h.active = false;
 		this.setHexStyle(r);
-	}
+	};
 
 	this.regionToggleActive = function(r){
-		h = this.hexes[r];
+		var h = this.hexes[r];
 		h.active = !h.active;
 		this.setHexStyle(r);
-	}
+	};
 
 	this.selectRegion = function(r){
 		this.selected = r;
-		for(region in this.hexes){
-			h = this.hexes[region];
-			if(r.length > 0 && region.indexOf(r)==0){
-				h.selected = true;
-				this.setHexStyle(region);
-			}else{
-				h.selected = false;
-				this.setHexStyle(region);
+		var h;
+		for(var region in this.hexes){
+			if(this.hexes[region]){
+				h = this.hexes[region];
+				if(r.length > 0 && region.indexOf(r)==0){
+					h.selected = true;
+					this.setHexStyle(region);
+				}else{
+					h.selected = false;
+					this.setHexStyle(region);
+				}
 			}
 		}
 		return this;
-	}
+	};
 
 	// Add events (mouseover, mouseout, click)	
 	this.on = function(type,attr,fn){
@@ -215,33 +221,35 @@ function HexMap(attr){
 		if(!this.callback) this.callback = {};
 		this.callback[type] = { 'fn': fn, 'attr': attr };
 		return this;
-	}
+	};
 
 	// Move the selected hex to the new coordinates
 	this.moveTo = function(q,r){
 		if(this.selected){
-			dq = q - this.mapping.hexes[this.selected].q;
-			dr = r - this.mapping.hexes[this.selected].r;
+			var dq = q - this.mapping.hexes[this.selected].q;
+			var dr = r - this.mapping.hexes[this.selected].r;
 
-			for(region in this.hexes){
-				if(region.indexOf(this.selected)==0){
-					this.hexes[region].selected = true;
-				}
-				if(this.hexes[region].selected){
-					this.mapping.hexes[region].q += dq;
-					this.mapping.hexes[region].r += dr;
-					var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
-					this.hexes[region].attr({'path':h.path}).update();
-					if(this.options.showlabel && this.labels[region]){
-						this.labels[region].attr({'x':h.x,'y':h.y+this.style['default']['font-size']/2,'clip-path':'hex-clip-'+this.mapping.hexes[region].q+'-'+this.mapping.hexes[region].r}).update();
+			for(var region in this.hexes){
+				if(this.hexes[region]){
+					if(region.indexOf(this.selected)==0){
+						this.hexes[region].selected = true;
 					}
-					this.hexes[region].selected = false;
-					this.setHexStyle(region);
+					if(this.hexes[region].selected){
+						this.mapping.hexes[region].q += dq;
+						this.mapping.hexes[region].r += dr;
+						var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
+						this.hexes[region].attr({'path':h.path}).update();
+						if(this.options.showlabel && this.labels[region]){
+							this.labels[region].attr({'x':h.x,'y':h.y+this.style['default']['font-size']/2,'clip-path':'hex-clip-'+this.mapping.hexes[region].q+'-'+this.mapping.hexes[region].r}).update();
+						}
+						this.hexes[region].selected = false;
+						this.setHexStyle(region);
+					}
 				}
 			}
 			this.selected = "";
 		}
-	}
+	};
 
 	this.size = function(w,h){
 		this.el.css({'height':'','width':''});
@@ -250,16 +258,15 @@ function HexMap(attr){
 		this.paper = new SVG(this.id+'-inner',this.maxw,this.maxh);
 		w = this.paper.w;
 		h = this.paper.h;
-		scale = w/this.w;
+		var scale = w/this.w;
 		this.properties.size = this.s*scale;
 		this.w = w;
 		this.h = h;
 		this.transform = {'type':'scale','props':{x:w,y:h,cx:w,cy:h,r:w,'stroke-width':w}};
 		this.el.css({'height':'','width':''});
 
-
 		return this;
-	}
+	};
 	
 	function Search(attr){
 
@@ -309,7 +316,7 @@ function HexMap(attr){
 					n = e.data.me.el.find('.search-results a').length;
 					if(e.data.me.selected < 0) e.data.me.selected = 0;
 					if(e.data.me.selected >= n) e.data.me.selected = n-1;
-					e.data.me.el.find('.search-results a').removeClass('selected')
+					e.data.me.el.find('.search-results a').removeClass('selected');
 					S(e.data.me.el.find('.search-results a')[e.data.me.selected]).addClass('selected');
 				
 				}else if(e.originalEvent.keyCode==13){
@@ -331,7 +338,7 @@ function HexMap(attr){
 				}
 				
 			});
-		}
+		};
 		this.toggle = function(){
 			this.active = !this.active;
 			
@@ -349,13 +356,15 @@ function HexMap(attr){
 				// Remove the search results
 				this.el.find('.search-results').remove();
 			}
-		}
+		};
 
 		this.highlight = function(rs){
 			this.n = 0;
-			for(var region in rs) this.n++;
-			
-			for(var region in _obj.hexes){
+			var region;
+			for(region in rs){
+				if(rs[region]) this.n++;
+			}
+			for(region in _obj.hexes){
 				if(this.n>0){
 					if(rs[region]){
 						_obj.hexes[region].highlight = true;//(rs[region]);
@@ -371,7 +380,7 @@ function HexMap(attr){
 			}
 
 			return this;
-		}
+		};
 
 		this.init();
 
@@ -380,19 +389,19 @@ function HexMap(attr){
 
 	this.resize = function(){
 		return this;
-	}
+	};
 
 	this.initialized = function(){
 		this.create().draw();
 		S('.spinner').remove();
 		return this;
-	}
+	};
 
 	this.create = function(){
 		this.paper.clear();
 		this.constructed = false;
 		return this;
-	}
+	};
 
 /*
 	this.autoscale = function(){
@@ -420,7 +429,7 @@ function HexMap(attr){
 		this.properties.orientation = p[1];
 
 		return this.initialized();
-	}
+	};
 
 	this.setSize = function(size){
 		if(size) this.properties.size = size;
@@ -428,7 +437,7 @@ function HexMap(attr){
 		this.properties.s.c = this.properties.s.cos.toFixed(2);
 		this.properties.s.s = this.properties.s.sin.toFixed(2);
 		return this;
-	}
+	};
 
 	this.drawHex = function(q,r,scale){
 		if(this.properties){
@@ -464,31 +473,34 @@ function HexMap(attr){
 			return { 'path':path, 'x':x, 'y': y };
 		}
 		return this;
-	}
+	};
 
 	this.updateColours = function(){
 		var fn = (typeof this.setColours==="function") ? this.setColours : function(){ return this.style['default'].fill; };
-		for(region in this.mapping.hexes){
-			this.hexes[region].fillcolour = fn.call(this,region);
-			this.setHexStyle(region);
+		for(var region in this.mapping.hexes){
+			if(this.mapping.hexes[region]){
+				this.hexes[region].fillcolour = fn.call(this,region);
+				this.setHexStyle(region);
+			}
 		}
 
 		return this;
-	}
+	};
 	
 	this.draw = function(){
 
-		var r,q;
-		var h,p;
+		var r,q,h,region;
 
 		var range = { 'r': {'min':1e100,'max':-1e100}, 'q': {'min':1e100,'max':-1e100} };
 		for(region in this.mapping.hexes){
-			q = this.mapping.hexes[region].q;
-			r = this.mapping.hexes[region].r;
-			if(q > range.q.max) range.q.max = q;
-			if(q < range.q.min) range.q.min = q;
-			if(r > range.r.max) range.r.max = r;
-			if(r < range.r.min) range.r.min = r;
+			if(this.mapping.hexes[region]){
+				q = this.mapping.hexes[region].q;
+				r = this.mapping.hexes[region].r;
+				if(q > range.q.max) range.q.max = q;
+				if(q < range.q.min) range.q.min = q;
+				if(r > range.r.max) range.r.max = r;
+				if(r < range.r.min) range.r.min = r;
+			}
 		}
 		
 		// Add padding to range
@@ -498,8 +510,8 @@ function HexMap(attr){
 		range.r.max += this.padding;
 	
 		// q,r coordinate of the centre of the range
-		qp = (range.q.max+range.q.min)/2;
-		rp = (range.r.max+range.r.min)/2;
+		var qp = (range.q.max+range.q.min)/2;
+		var rp = (range.r.max+range.r.min)/2;
 		
 		this.properties.x = (this.w/2) - (this.properties.s.cos * 2 *qp);
 		this.properties.y = (this.h/2) + (this.properties.s.sin * 3 *rp);
@@ -511,34 +523,39 @@ function HexMap(attr){
 			'mouseover': function(e){
 				var t = 'mouseover';
 				if(e.data.hexmap.callback[t]){
-					for(var a in e.data.hexmap.callback[t].attr) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					for(var a in e.data.hexmap.callback[t].attr){
+						if(e.data.hexmap.callback[t].attr[a]) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					}
 					if(typeof e.data.hexmap.callback[t].fn==="function") return e.data.hexmap.callback[t].fn.call(this,e);
 				}
 			},
 			'mouseout': function(e){
 				var t = 'mouseout';
 				if(e.data.hexmap.callback[t]){
-					for(var a in e.data.hexmap.callback[t].attr) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					for(var a in e.data.hexmap.callback[t].attr){
+						if(e.data.hexmap.callback[t].attr[a]) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					}
 					if(typeof e.data.hexmap.callback[t].fn==="function") return e.data.hexmap.callback[t].fn.call(this,e);
 				}
 			},
 			'click': function(e){
 				var t = 'click';
 				if(e.data.hexmap.callback[t]){
-					for(var a in e.data.hexmap.callback[t].attr) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					for(var a in e.data.hexmap.callback[t].attr){
+						if(e.data.hexmap.callback[t].attr[a]) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					}
 					if(typeof e.data.hexmap.callback[t].fn==="function") return e.data.hexmap.callback[t].fn.call(this,e);
 				}
 			}
-			
-		}
+		};
 		
 		if(this.options.showgrid){
-			this.grid = new Array();
+			this.grid = [];
 		
 			for(q = range.q.min; q <= range.q.max; q++){
 				for(r = range.r.min; r <= range.r.max; r++){
 					h = this.drawHex(q,r);
-					this.grid.push(this.paper.path(h.path).attr({'class':'hex-grid','data-q':q,'data-r':r,'fill':(this.style['grid']['fill']||''),'fill-opacity':(this.style['grid']['fill-opacity']||0.1),'stroke':(this.style['grid']['stroke']||'#aaa'),'stroke-opacity':(this.style['grid']['stroke-opacity']||0.2)}));
+					this.grid.push(this.paper.path(h.path).attr({'class':'hex-grid','data-q':q,'data-r':r,'fill':(this.style.grid.fill||''),'fill-opacity':(this.style.grid['fill-opacity']||0.1),'stroke':(this.style.grid.stroke||'#aaa'),'stroke-opacity':(this.style.grid['stroke-opacity']||0.2)}));
 					this.grid[this.grid.length-1].on('mouseover',{type:'grid',hexmap:this,data:{'r':r,'q':q}},events.mouseover)
 						.on('mouseout',{type:'grid',hexmap:this,me:_obj,data:{'r':r,'q':q}},events.mouseout)
 						.on('click',{type:'grid',hexmap:this,region:region,me:_obj,data:{'r':r,'q':q}},events.click);
@@ -554,44 +571,45 @@ function HexMap(attr){
 		this.values = {};
 
 		for(region in this.mapping.hexes){
-			
-			this.values[region] = (this.mapping.hexes[region].p - min)/(max-min);
-			if(this.values[region].value < 0) this.values[region] = 0;
-			if(this.values[region].value > 1) this.values[region] = 1;
+			if(this.mapping.hexes[region]){
+				this.values[region] = (this.mapping.hexes[region].p - min)/(max-min);
+				if(this.values[region].value < 0) this.values[region] = 0;
+				if(this.values[region].value > 1) this.values[region] = 1;
 
-			var h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
-			
-			if(!this.constructed){
-				this.hexes[region] = this.paper.path(h.path).attr({'class':'hex-cell','data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r});
-				this.hexes[region].selected = false;
-				this.hexes[region].active = true;
-				this.hexes[region].attr({'id':'hex-'+region});
+				h = this.drawHex(this.mapping.hexes[region].q,this.mapping.hexes[region].r);
+				
+				if(!this.constructed){
+					this.hexes[region] = this.paper.path(h.path).attr({'class':'hex-cell','data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r});
+					this.hexes[region].selected = false;
+					this.hexes[region].active = true;
+					this.hexes[region].attr({'id':'hex-'+region});
 
-				// Attach events
-				this.hexes[region].on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
-					.on('mouseout',{type:'hex',hexmap:this,region:region,me:this.hexes[region]},events.mouseout)
-					.on('click',{type:'hex',hexmap:this,region:region,me:this.hexes[region],data:this.mapping.hexes[region]},events.click);
+					// Attach events
+					this.hexes[region].on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
+						.on('mouseout',{type:'hex',hexmap:this,region:region,me:this.hexes[region]},events.mouseout)
+						.on('click',{type:'hex',hexmap:this,region:region,me:this.hexes[region],data:this.mapping.hexes[region]},events.click);
 
 
-				if(this.options.showlabel){
-					if(!this.labels) this.labels = {};
-					if(this.style['default']['font-size'] > this.options.minFontSize){
-						this.labels[region] = this.paper.text(h.x,h.y+this.style['default']['font-size']/2,this.options.formatLabel(this.mapping.hexes[region].n,{'size':this.properties.size,'font-size':this.style['default']['font-size']})).attr({'clip-path':'hex-clip-'+this.mapping.hexes[region].q+'-'+this.mapping.hexes[region].r,'data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r,'class':'hex-label','text-anchor':'middle','font-size':this.style['default']['font-size']+'px','title':(this.mapping.hexes[region].n || region)});
-						this.labels[region].attr({'id':'hex-'+region+'-label'});
-						//this.paper.clip({'path':h.path,'type':'path'}).attr({'id':'hex-'+region+'-clip'});
+					if(this.options.showlabel){
+						if(!this.labels) this.labels = {};
+						if(this.style['default']['font-size'] > this.options.minFontSize){
+							this.labels[region] = this.paper.text(h.x,h.y+this.style['default']['font-size']/2,this.options.formatLabel(this.mapping.hexes[region].n,{'size':this.properties.size,'font-size':this.style['default']['font-size']})).attr({'clip-path':'hex-clip-'+this.mapping.hexes[region].q+'-'+this.mapping.hexes[region].r,'data-q':this.mapping.hexes[region].q,'data-r':this.mapping.hexes[region].r,'class':'hex-label','text-anchor':'middle','font-size':this.style['default']['font-size']+'px','title':(this.mapping.hexes[region].n || region)});
+							this.labels[region].attr({'id':'hex-'+region+'-label'});
+							//this.paper.clip({'path':h.path,'type':'path'}).attr({'id':'hex-'+region+'-clip'});
+						}
 					}
+
+					// Attach events
+					this.labels[region].on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
+						.on('mouseout',{type:'hex',hexmap:this,region:region,me:this.labels[region]},events.mouseout)
+						.on('click',{type:'hex',hexmap:this,region:region,me:this.labels[region],data:this.mapping.hexes[region]},events.click);
+
 				}
-
-				// Attach events
-				this.labels[region].on('mouseover',{type:'hex',hexmap:this,region:region,data:this.mapping.hexes[region],pop:this.mapping.hexes[region].p},events.mouseover)
-					.on('mouseout',{type:'hex',hexmap:this,region:region,me:this.labels[region]},events.mouseout)
-					.on('click',{type:'hex',hexmap:this,region:region,me:this.labels[region],data:this.mapping.hexes[region]},events.click);
-
+				this.setHexStyle(region);
+				this.hexes[region].attr({'stroke':this.style['default'].stroke,'stroke-opacity':this.style['default']['stroke-opacity'],'stroke-width':this.style['default']['stroke-width'],'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
+				//this.hexes[region].attr({'fill-opacity':this.style.selected['fill-opacity'],'fill':(this.hexes[region].selected ? this.style.selected.fill||this.hexes[region].fillcolour : this.style.default.fill),'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
+				this.hexes[region].update();
 			}
-			this.setHexStyle(region);
-			this.hexes[region].attr({'stroke':this.style['default'].stroke,'stroke-opacity':this.style['default']['stroke-opacity'],'stroke-width':this.style['default']['stroke-width'],'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
-			//this.hexes[region].attr({'fill-opacity':this.style.selected['fill-opacity'],'fill':(this.hexes[region].selected ? this.style.selected.fill||this.hexes[region].fillcolour : this.style.default.fill),'stroke':'#ffffff','stroke-width':1.5,'title':this.mapping.hexes[region].n,'data-regions':region,'style':'cursor: pointer;'});
-			this.hexes[region].update();
 		}
 
 		if(!this.constructed) this.paper.draw();
@@ -599,7 +617,7 @@ function HexMap(attr){
 		this.constructed = true;
 
 		return this;
-	}
+	};
 	
 	S(document).on('keypress',{me:this},function(e){
 		e.stopPropagation();
@@ -609,7 +627,7 @@ function HexMap(attr){
 
 	this.selectBySameColour = function(){
 		if(this.selected){
-			for(region in this.hexes){
+			for(var region in this.hexes){
 				if(this.hexes[region].fillcolour==this.hexes[this.selected].fillcolour){
 					this.hexes[region].selected = true;
 					this.setHexStyle(region);
@@ -618,7 +636,7 @@ function HexMap(attr){
 			}
 		}
 		return this;
-	}
+	};
 		
 	this.size();
 	if(attr.file) this.load(attr.file);

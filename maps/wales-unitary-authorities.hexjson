@@ -22,6 +22,6 @@
 		"19":{"n":"Sir y Fflint","ID":"19","Name":"Sir y Fflint","en":"Flintshire","q":5,"r":4},
 		"20":{"n":"Torfaen","ID":"20","Name":"Torfaen","q":5,"r":0},
 		"21":{"n":"Wrecsam","ID":"21","Name":"Wrecsam","q":5,"r":3},
-		"22":{"n":"Ynys Mon","ID":"22","Name":"Ynys Mon","en":"Anglesey","q":2,"r":5},
+		"22":{"n":"Ynys Mon","ID":"22","Name":"Ynys Mon","en":"Anglesey","q":2,"r":5}
 	}
 }

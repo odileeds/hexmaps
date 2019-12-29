@@ -9,7 +9,7 @@
 		"06":{"n":"Castell nedd Port Talbot","ID":"06","Name":"Castell nedd Port Talbot","en":"Neath Port Talbot","q":3,"r":1},
 		"07":{"n":"Ceredigion","ID":"07","Name":"Ceredigion","q":2,"r":3},
 		"08":{"n":"Conwy","ID":"08","Name":"Conwy","q":3,"r":4},
-		"09":{"n":"Dinas Casnewydd","ID":"09","Name":"Dinas Casnewydd","en":"Newport","q":6,"r":-1}
+		"09":{"n":"Dinas Casnewydd","ID":"09","Name":"Dinas Casnewydd","en":"Newport","q":6,"r":-1},
 		"10":{"n":"Gwynedd","ID":"10","Name":"Gwynedd","q":2,"r":4},
 		"11":{"n":"Merthyr Tudful","ID":"11","Name":"Merthyr Tudful","en":"Merthyr Tydfil","q":5,"r":1},
 		"12":{"n":"Pen y bont ar Ogwr","ID":"12","Name":"Pen y bont ar Ogwr","en":"Bridgend","q":3,"r":0},

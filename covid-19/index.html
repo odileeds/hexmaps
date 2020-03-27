@@ -52,7 +52,7 @@
 	h1 { font-size: 2em; margin-top: 1em; }
 	h2 { font-size: 1.7em; margin-top: 1.7647058823529411em; font-weight: 500; }
 	h3 { font-size: 1.4em; margin-top: 1.428571em; }
-	h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
+	h1:first-child, h2:first-child, h3:first-child { margin-top: 0; line-height: 1em;}
 	strong { font-weight: 700; }
 	em { font-style: italic; }
 	h2 a, h3 a,p a { color: #2254F4; text-decoration: underline; }
@@ -63,6 +63,7 @@
 	a:visited { color: inherit; }
 	header a { text-decoration: none; }
 	footer { width: 100%; padding: 1em; padding-bottom: 3em; }
+	footer h2 + p { margin-top: 1em; }
 
 	#main { padding: 1em; }
 	.holder { position: relative; width: 1080px; max-width: 100%; margin: auto; }
@@ -78,6 +79,7 @@
 	.c12-bg, .on label { background-color: #D60303; color: white; }
 	.c12-bg:hover, .c12-bg:focus { background: #444; color: white; }
 	.padded { padding: 1em; }
+	.doublepadded { padding: 2em; }
 
 	
 	#hexmap {
@@ -229,10 +231,12 @@
 		<div id="key"></div>
 
 	</div>
-	<footer class="bottom padded b1-bg">
+	<footer class="bottom doublepadded b1-bg">
 		<div class="holder">
-			<p>Note that this map shows COVID-19 cases per capita in Local Authorities. Public Health England provide the raw data in a mix of Local Authorities and Upper Tier Local Authorities. Where the data are given for Upper Tier Local Authorities, each Local Authority in that Upper Tier Local Authority are given the same per capita values.</p>
-			<p>Visualisation: <a href="https://github.com/odileeds/hexmaps/" target="_parent">ODI Leeds</a> / Data: <a href="https://www.gov.uk/government/publications/covid-19-track-coronavirus-cases" target="_parent">Public Health England</a>. Data available <a href="https://www.arcgis.com/home/item.html?id=b684319181f94875a6879bbc833ca3a6">as a CSV</a>. The <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/datasets/localauthoritiesinenglandtable2">2020 population estimates are from ONS</a>.</p>
+			<h2>About the map</h2>
+			<p>This map shows reported COVID-19 cases per capita as a <a href="https://github.com/odileeds/hexmaps/blob/gh-pages/maps/uk-local-authority-districts-2019.hexjson">Local Authority hex cartogram</a> - this gives each Local Authority the same visual weight on the map. Some Local Authorities in England are missing because of inconsistencies. We don't have data for Scotland, Wales, or Northern Ireland. If you know where they publish CSV files of these numbers, please <a href="https://twitter.com/odileeds">get in touch</a>.</p>
+			<p>Note: Public Health England provide raw data as a mix of Local Authorities and Upper Tier Local Authorities. Where the data are given for Upper Tier Local Authorities, each Local Authority in that Upper Tier Local Authority is given the same per-capita value. When you click on one of these Local Authorities you will be shown the total for the Upper Tier Local Authority.</p>
+			<p>Visualisation: <a href="https://github.com/odileeds/hexmaps/" target="_parent">ODI Leeds</a> / Data: <a href="https://www.gov.uk/government/publications/covid-19-track-coronavirus-cases" target="_parent">Public Health England</a> provide <a href="https://www.arcgis.com/home/item.html?id=b684319181f94875a6879bbc833ca3a6">COVID-19 cases as a CSV download</a>. The <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/datasets/localauthoritiesinenglandtable2">population estimates (2020) for Local Authorities</a> are from the ONS.</p>
 		</div>
 	</footer>
 	

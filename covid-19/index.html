@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>COVID-19: Hex Map of Upper Tier Local Authorities</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8" />
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:site" content="@ODILeeds">
+	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/covid-19/">
+	<meta name="twitter:title" property="og:title" content="COVID-19:  Hex Map of Upper Tier Local Authorities">
+	<meta name="twitter:description" property="og:description" content="Cases of COVID-19 on an Upper Tier Local Authority map">
+	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/open-data-saves-lives/covid19/odsl-covid19-big.png">
+	<script type="text/javascript" src="package.js"></script>
+	<style>
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+	body { line-height: 1em; }
+	ol, ul { list-style: none; }
+	blockquote, q { quotes: none; }
+	blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+	table { border-collapse: collapse; border-spacing: 0; }
+	/* apply a natural box layout model to all elements */
+	*, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+	/* End of reset */
+
+	html, body {
+		padding: 0px;
+		margin: 0px;
+		min-height: 100%!important;
+		height: 100%!important;
+		background-color: #ffffff;
+		font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+		font-size: 16px;
+		color: #333;
+		line-height: 1.44em;
+	}
+	h1 { font-size: 2em; margin-top: 1em; }
+	h2 { font-size: 1.7em; margin-top: 1.7647058823529411em; font-weight: 500; }
+	h3 { font-size: 1.4em; margin-top: 1.428571em; }
+	h1:first-child, h2:first-child, h3:first-child { margin-top: 0; }
+	strong { font-weight: 700; }
+	em { font-style: italic; }
+	h2 a, h3 a,p a { color: #2254F4; text-decoration: underline; }
+	p, time, li, td, th, footer, div { font-weight: 300; }
+	p { margin-bottom: 1em; }
+	button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; vertical-align: top; line-height: 1.25em; }
+	a:hover, a:focus { text-decoration: underline; }
+	a:visited { color: inherit; }
+	header a { text-decoration: none; }
+	footer { width: 100%; padding: 1em; padding-bottom: 3em; }
+
+	#main { padding: 1em; }
+	.holder { position: relative; width: 1080px; max-width: 100%; margin: auto; }
+	button, .button { margin-top: 0.25em; border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
+	a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
+	.b1-bg { background-color: #000000; color: white!important; }
+	.b2-bg { background-color: #333333; color: white!important; }
+	.bk-bg { background-color: #6D6D6D; color: white!important; }
+	.b3-bg, .github:hover { background-color: #999999; color: black!important; }
+	.b4-bg { background-color: #bbbbbb; color: black!important; }
+	.b5-bg, .off label { background-color: #dfdfdf; color: black!important; }
+	.b6-bg { background-color: #ffffff; color: black!important; }
+	.c12-bg, .on label { background-color: #D60303; color: white; }
+	.c12-bg:hover, .c12-bg:focus { background: #444; color: white; }
+	.padded { padding: 1em; }
+
+	
+	#hexmap {
+		margin: auto;
+		max-width: 100%;
+		position: relative;
+		width: 100%; height: auto; max-width: 100vw;
+	}
+	svg { max-width: 100%; height: auto; }
+		  
+	select { font-size: 1em; height: 2em; margin-bottom: 1em; }
+  
+	#hexmap .hex-grid { display: none; }
+	#search { position: absolute; display: block; width: 100%; max-width: 400px; }
+	#search .search-inner { position: relative; }
+	#search label {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: 100;
+		font-size: 1em;
+		display: inline-block;
+		padding: 1.13em;
+		font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		line-height: 1;
+		text-transform: uppercase;
+		padding: 0.5em 1em;
+		font-weight: bold;
+		text-decoration: none;
+		letter-spacing: 0.05em;
+		line-height: 2em;
+		width: 3em;
+	}
+	#search input {
+		font-size: 1em;
+		background: rgba(255,255,255,0.7) !important;
+		border: solid 0.5em #D60303;
+		border-radius: 0px;
+		display: none;
+		color: black;
+		padding: 0 0.5em;
+		height: 3em;
+		width: 100%;
+		position: relative;
+		left: 0em;
+		top: 0px;
+		padding-left: 3em;
+		z-index: 99;
+	}
+	#search svg { position: relative; top: 0.2em; }
+	#search.searching input { display: inline-block; }
+	#search .search-results li a { padding: 0.5em 0.5em 0.5em 0.5em; text-align: left; background-color: rgba(223,223,223,0.92); display: block; color: inherit; text-decoration: none; }
+	#search .search-results li a:hover, #search .search-results li a:focus, #search .search-results li a.selected { background-color: #000000; color: white; }
+	.hex-cell { fill-opacity: 1; transition: fill 0.2s ease-in, stroke 0.2s ease-in; }
+	.hex-label { }
+	.hex-cell.highlighted { stroke: black!important; stroke-width: 2px!important; }
+	.hex-cell.not-highlighted { opacity: 0.3!important; }
+	.hex-cell.hover { stroke: black!important; stroke-width: 5px!important; }
+	.hex-label.hover { fill: black!important; }
+	.hex-label.selected { }
+	.hex-cell.selected { stroke: black!important; stroke-width: 4px!important; stroke-opacity:1 }
+	button.on, button.on:hover { background-color: #D60303!important; color: white!important; }
+
+	.controls { margin-bottom: 1em; margin-top: 1em; }
+	.controls label { padding: 1em; display: inline-block; line-height: 1em; cursor: pointer; }
+	.controls input { opacity: 0.01; padding: 0; margin: 0; position: absolute; top:0; left: 0; width: 100%; height: 100%; cursor: pointer;  }
+	.control { position: relative; display: inline-block;}
+
+	.infobubble {
+		z-index: 1000;
+		top: 1em;
+		left: 50%;
+		transform: translate3d(-50%, 0, 0);
+		position: fixed;
+		max-height: calc(100% - 2em);
+		overflow-y: auto; 
+		text-align: center;
+		margin-right: -50%;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+		background-color: #efefef;
+		color: black;
+		width: 300px;
+	}
+	.infobubble .infobubble_inner { margin: 1em; }
+	.infobubble.covid-19 { text-align: left; }
+	.infobubble a, .infobubble a:visited { color: inherit; }
+	.infobubble .popup-title { border-bottom:1px solid #333;margin:1em 0 0 0; display:block; font-weight: bold; font-size: 1.25em; line-height: 1.5em; font-family: Unit, Franklin Gothic Medium, Arial Bold, sans-serif;; }
+	.infobubble .popup-title + p { margin-top: 0.25em; }
+	.infobubble .close.button { position: absolute; right: 0px; top: 0px; background-color: transparent!important; color: inherit!important; font-size: 2em; padding: 12px 12px 6px 12px; line-height: 1em; margin: 0px; }
+	.infobubble .close.button:hover, .infobubble .close.button:focus { font-weight: bold; }
+	.infobubble .number, strong { font-weight: 700; }
+	.infobubble .small { font-weight: normal; font-size: 0.8em; }
+	.infobubble td { vertical-align: bottom; }
+	.popup-bio { display: flex; }
+	.infobubble table { margin-bottom: 0.5em; }
+	.bottom { color: #999; margin-top: 1em; line-height: 1.25em; }
+	.bottom a, .bottom a:visited { color: inherit; }
+	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
+	.spinner svg { width: 5em; margin: auto; }
+	#tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,0.5em,0); z-index: 100; position: absolute; z-index: 98; }
+	#tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
+	.infobubble #tooltip { display: flex; padding: 1em; max-width: 80%; width: 400px; z-index: 1001; }
+	.infobubble .results tr { cursor: pointer; }
+	#updated { position: absolute; right: 0px; top: 0px; text-align: right; }
+
+	@media only screen and (max-width: 700px) {
+		#hexmap text { display: none; }
+		.infobubble {
+			z-index: 1000;
+			top: 0em;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			max-height: 100%;
+			overflow-y: auto;
+			transform: none;
+			position: fixed;
+			margin-right: 0px;
+			transition: 0s;
+		}
+		.bottom { font-size: 0.6em; }
+		.generalelection { max-width: 100%; }
+		body.modal { overflow: hidden; }
+	}
+	</style>
+</head>
+<body class="b6-bg">
+
+	<div id="main">
+		<h1>COVID-19 reported cases</h1>
+		<div class="controls">
+			<form>
+				<div class="control on">
+					<input type="radio" class="view-toggle switchdata" id="COVID-19-percapita" data="COVID-19" name="view" checked="checked" /><label for="COVID-19-per-capita">Per capita</label>
+				</div>
+				<div class="control off">
+					<input type="radio" class="view-toggle switchdata" id="COVID-19-cases" data="COVID-19" name="view" /><label for="COVID-19-cases">Cases</label>
+				</div>
+			</form>
+			<!--
+			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2017-results" name="view" /><label for="GE2017-results">GE 2017</label>
+			<input type="radio" class="view-toggle switchdata b5-bg" id="GE2015-results" name="view" /><label for="GE2015-results">GE 2015</label>
+			-->
+		</div>
+
+		<div id="hexmap" style="text-align:center;margin:auto;">
+			<div id="search"><div class="search-inner"><label for="constituencies" class="search-button c12-bg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="utla" id="utla" value="" placeholder="e.g. Leeds"></div></div>
+		</div>
+		<div id="key"></div>
+
+	</div>
+	<footer class="bottom padded b1-bg">
+		<div class="holder">
+			<p>Note that this map shows COVID-19 cases per capita in Local Authorities. Public Health England provide the raw data in a mix of Local Authorities and Upper Tier Local Authorities. Where the data are given for Upper Tier Local Authorities, each Local Authority in that Upper Tier Local Authority are given the same per capita values.</p>
+			<p>Visualisation: <a href="https://github.com/odileeds/hexmaps/" target="_parent">ODI Leeds</a> / Data: <a href="https://www.gov.uk/government/publications/covid-19-track-coronavirus-cases" target="_parent">Public Health England</a>. Data available <a href="https://www.arcgis.com/home/item.html?id=b684319181f94875a6879bbc833ca3a6">as a CSV</a>. The <a href="https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationprojections/datasets/localauthoritiesinenglandtable2">2020 population estimates are from ONS</a>.</p>
+		</div>
+	</footer>
+	
+	<script>
+	var utla;
+	
+	var LA2UTLA = { "E06000001":{"id":"E06000001","n":"Hartlepool"},"E06000002":{"id":"E06000002","n":"Middlesbrough"},"E06000003":{"id":"E06000003","n":"Redcar and Cleveland"},"E06000004":{"id":"E06000004","n":"Stockton-on-Tees"},"E06000005":{"id":"E06000005","n":"Darlington"},"E06000006":{"id":"E06000006","n":"Halton"},"E06000007":{"id":"E06000007","n":"Warrington"},"E06000008":{"id":"E06000008","n":"Blackburn with Darwen"},"E06000009":{"id":"E06000009","n":"Blackpool"},"E06000010":{"id":"E06000010","n":"Kingston upon Hull, City of"},"E06000011":{"id":"E06000011","n":"East Riding of Yorkshire"},"E06000012":{"id":"E06000012","n":"North East Lincolnshire"},"E06000013":{"id":"E06000013","n":"North Lincolnshire"},"E06000014":{"id":"E06000014","n":"York"},"E06000015":{"id":"E06000015","n":"Derby"},"E06000016":{"id":"E06000016","n":"Leicester"},"E06000017":{"id":"E06000017","n":"Rutland"},"E06000018":{"id":"E06000018","n":"Nottingham"},"E06000019":{"id":"E06000019","n":"Herefordshire, County of"},"E06000020":{"id":"E06000020","n":"Telford and Wrekin"},"E06000021":{"id":"E06000021","n":"Stoke-on-Trent"},"E06000022":{"id":"E06000022","n":"Bath and North East Somerset"},"E06000023":{"id":"E06000023","n":"Bristol, City of"},"E06000024":{"id":"E06000024","n":"North Somerset"},"E06000025":{"id":"E06000025","n":"South Gloucestershire"},"E06000026":{"id":"E06000026","n":"Plymouth"},"E06000027":{"id":"E06000027","n":"Torbay"},"E06000028":{"id":"E06000028","n":"Bournemouth"},"E06000029":{"id":"E06000029","n":"Poole"},"E06000030":{"id":"E06000030","n":"Swindon"},"E06000031":{"id":"E06000031","n":"Peterborough"},"E06000032":{"id":"E06000032","n":"Luton"},"E06000033":{"id":"E06000033","n":"Southend-on-Sea"},"E06000034":{"id":"E06000034","n":"Thurrock"},"E06000035":{"id":"E06000035","n":"Medway"},"E06000036":{"id":"E06000036","n":"Bracknell Forest"},"E06000037":{"id":"E06000037","n":"West Berkshire"},"E06000038":{"id":"E06000038","n":"Reading"},"E06000039":{"id":"E06000039","n":"Slough"},"E06000040":{"id":"E06000040","n":"Windsor and Maidenhead"},"E06000041":{"id":"E06000041","n":"Wokingham"},"E06000042":{"id":"E06000042","n":"Milton Keynes"},"E06000043":{"id":"E06000043","n":"Brighton and Hove"},"E06000044":{"id":"E06000044","n":"Portsmouth"},"E06000045":{"id":"E06000045","n":"Southampton"},"E06000046":{"id":"E06000046","n":"Isle of Wight"},"E06000047":{"id":"E06000047","n":"County Durham"},"E06000049":{"id":"E06000049","n":"Cheshire East"},"E06000050":{"id":"E06000050","n":"Cheshire West and Chester"},"E06000051":{"id":"E06000051","n":"Shropshire"},"E06000052":{"id":"E06000052","n":"Cornwall"},"E06000053":{"id":"E06000053","n":"Isles of Scilly"},"E06000054":{"id":"E06000054","n":"Wiltshire"},"E06000055":{"id":"E06000055","n":"Bedford"},"E06000056":{"id":"E06000056","n":"Central Bedfordshire"},"E06000057":{"id":"E06000057","n":"Northumberland"},"E07000004":{"id":"E10000002","n":"Buckinghamshire"},"E07000005":{"id":"E10000002","n":"Buckinghamshire"},"E07000146":{"id":"E10000020","n":"Norfolk"},"E07000147":{"id":"E10000020","n":"Norfolk"},"E07000148":{"id":"E10000020","n":"Norfolk"},"E07000149":{"id":"E10000020","n":"Norfolk"},"E07000150":{"id":"E10000021","n":"Northamptonshire"},"E07000151":{"id":"E10000021","n":"Northamptonshire"},"E07000152":{"id":"E10000021","n":"Northamptonshire"},"E07000153":{"id":"E10000021","n":"Northamptonshire"},"E07000154":{"id":"E10000021","n":"Northamptonshire"},"E07000155":{"id":"E10000021","n":"Northamptonshire"},"E07000156":{"id":"E10000021","n":"Northamptonshire"},"E07000163":{"id":"E10000023","n":"North Yorkshire"},"E07000164":{"id":"E10000023","n":"North Yorkshire"},"E07000165":{"id":"E10000023","n":"North Yorkshire"},"E07000166":{"id":"E10000023","n":"North Yorkshire"},"E07000167":{"id":"E10000023","n":"North Yorkshire"},"E07000168":{"id":"E10000023","n":"North Yorkshire"},"E07000169":{"id":"E10000023","n":"North Yorkshire"},"E07000170":{"id":"E10000024","n":"Nottinghamshire"},"E07000171":{"id":"E10000024","n":"Nottinghamshire"},"E07000172":{"id":"E10000024","n":"Nottinghamshire"},"E07000173":{"id":"E10000024","n":"Nottinghamshire"},"E07000174":{"id":"E10000024","n":"Nottinghamshire"},"E07000175":{"id":"E10000024","n":"Nottinghamshire"},"E07000176":{"id":"E10000024","n":"Nottinghamshire"},"E07000177":{"id":"E10000025","n":"Oxfordshire"},"E07000178":{"id":"E10000025","n":"Oxfordshire"},"E07000179":{"id":"E10000025","n":"Oxfordshire"},"E07000180":{"id":"E10000025","n":"Oxfordshire"},"E07000181":{"id":"E10000025","n":"Oxfordshire"},"E07000187":{"id":"E10000027","n":"Somerset"},"E07000188":{"id":"E10000027","n":"Somerset"},"E07000189":{"id":"E10000027","n":"Somerset"},"E07000190":{"id":"E10000027","n":"Somerset"},"E07000191":{"id":"E10000027","n":"Somerset"},"E07000192":{"id":"E10000028","n":"Staffordshire"},"E07000193":{"id":"E10000028","n":"Staffordshire"},"E07000194":{"id":"E10000028","n":"Staffordshire"},"E07000195":{"id":"E10000028","n":"Staffordshire"},"E07000196":{"id":"E10000028","n":"Staffordshire"},"E07000197":{"id":"E10000028","n":"Staffordshire"},"E07000198":{"id":"E10000028","n":"Staffordshire"},"E07000199":{"id":"E10000028","n":"Staffordshire"},"E07000200":{"id":"E10000029","n":"Suffolk"},"E07000201":{"id":"E10000029","n":"Suffolk"},"E07000202":{"id":"E10000029","n":"Suffolk"},"E07000203":{"id":"E10000029","n":"Suffolk"},"E07000204":{"id":"E10000029","n":"Suffolk"},"E07000205":{"id":"E10000029","n":"Suffolk"},"E07000206":{"id":"E10000029","n":"Suffolk"},"E07000207":{"id":"E10000030","n":"Surrey"},"E07000208":{"id":"E10000030","n":"Surrey"},"E07000209":{"id":"E10000030","n":"Surrey"},"E07000210":{"id":"E10000030","n":"Surrey"},"E07000211":{"id":"E10000030","n":"Surrey"},"E07000212":{"id":"E10000030","n":"Surrey"},"E07000213":{"id":"E10000030","n":"Surrey"},"E07000214":{"id":"E10000030","n":"Surrey"},"E07000215":{"id":"E10000030","n":"Surrey"},"E07000216":{"id":"E10000030","n":"Surrey"},"E07000217":{"id":"E10000030","n":"Surrey"},"E07000218":{"id":"E10000031","n":"Warwickshire"},"E07000219":{"id":"E10000031","n":"Warwickshire"},"E07000220":{"id":"E10000031","n":"Warwickshire"},"E07000221":{"id":"E10000031","n":"Warwickshire"},"E07000222":{"id":"E10000031","n":"Warwickshire"},"E07000223":{"id":"E10000032","n":"West Sussex"},"E07000224":{"id":"E10000032","n":"West Sussex"},"E07000225":{"id":"E10000032","n":"West Sussex"},"E07000226":{"id":"E10000032","n":"West Sussex"},"E07000227":{"id":"E10000032","n":"West Sussex"},"E07000228":{"id":"E10000032","n":"West Sussex"},"E07000229":{"id":"E10000032","n":"West Sussex"},"E07000234":{"id":"E10000034","n":"Worcestershire"},"E07000235":{"id":"E10000034","n":"Worcestershire"},"E07000236":{"id":"E10000034","n":"Worcestershire"},"E07000237":{"id":"E10000034","n":"Worcestershire"},"E07000238":{"id":"E10000034","n":"Worcestershire"},"E07000239":{"id":"E10000034","n":"Worcestershire"},"E07000240":{"id":"E10000015","n":"Hertfordshire"},"E07000241":{"id":"E10000015","n":"Hertfordshire"},"E07000242":{"id":"E10000015","n":"Hertfordshire"},"E07000243":{"id":"E10000015","n":"Hertfordshire"},"E08000001":{"id":"E08000001","n":"Bolton"},"E08000002":{"id":"E08000002","n":"Bury"},"E08000003":{"id":"E08000003","n":"Manchester"},"E08000004":{"id":"E08000004","n":"Oldham"},"E08000005":{"id":"E08000005","n":"Rochdale"},"E08000006":{"id":"E08000006","n":"Salford"},"E08000007":{"id":"E08000007","n":"Stockport"},"E08000008":{"id":"E08000008","n":"Tameside"},"E08000009":{"id":"E08000009","n":"Trafford"},"E08000010":{"id":"E08000010","n":"Wigan"},"E08000011":{"id":"E08000011","n":"Knowsley"},"E08000012":{"id":"E08000012","n":"Liverpool"},"E08000013":{"id":"E08000013","n":"St. Helens"},"E08000014":{"id":"E08000014","n":"Sefton"},"E08000015":{"id":"E08000015","n":"Wirral"},"E08000016":{"id":"E08000016","n":"Barnsley"},"E08000017":{"id":"E08000017","n":"Doncaster"},"E08000018":{"id":"E08000018","n":"Rotherham"},"E08000019":{"id":"E08000019","n":"Sheffield"},"E08000021":{"id":"E08000021","n":"Newcastle upon Tyne"},"E08000022":{"id":"E08000022","n":"North Tyneside"},"E08000023":{"id":"E08000023","n":"South Tyneside"},"E08000024":{"id":"E08000024","n":"Sunderland"},"E08000025":{"id":"E08000025","n":"Birmingham"},"E08000026":{"id":"E08000026","n":"Coventry"},"E08000027":{"id":"E08000027","n":"Dudley"},"E08000028":{"id":"E08000028","n":"Sandwell"},"E08000029":{"id":"E08000029","n":"Solihull"},"E08000030":{"id":"E08000030","n":"Walsall"},"E08000031":{"id":"E08000031","n":"Wolverhampton"},"E08000032":{"id":"E08000032","n":"Bradford"},"E08000033":{"id":"E08000033","n":"Calderdale"},"E08000034":{"id":"E08000034","n":"Kirklees"},"E08000035":{"id":"E08000035","n":"Leeds"},"E08000036":{"id":"E08000036","n":"Wakefield"},"E08000037":{"id":"E08000037","n":"Gateshead"},"E09000001":{"id":"E09000001","n":"City of London"},"E09000002":{"id":"E09000002","n":"Barking and Dagenham"},"E09000003":{"id":"E09000003","n":"Barnet"},"E09000004":{"id":"E09000004","n":"Bexley"},"E09000005":{"id":"E09000005","n":"Brent"},"E09000006":{"id":"E09000006","n":"Bromley"},"E09000007":{"id":"E09000007","n":"Camden"},"E09000008":{"id":"E09000008","n":"Croydon"},"E09000009":{"id":"E09000009","n":"Ealing"},"E09000010":{"id":"E09000010","n":"Enfield"},"E09000011":{"id":"E09000011","n":"Greenwich"},"E09000012":{"id":"E09000012","n":"Hackney"},"E09000013":{"id":"E09000013","n":"Hammersmith and Fulham"},"E09000014":{"id":"E09000014","n":"Haringey"},"E09000015":{"id":"E09000015","n":"Harrow"},"E09000016":{"id":"E09000016","n":"Havering"},"E09000017":{"id":"E09000017","n":"Hillingdon"},"E09000018":{"id":"E09000018","n":"Hounslow"},"E09000019":{"id":"E09000019","n":"Islington"},"E09000020":{"id":"E09000020","n":"Kensington and Chelsea"},"E09000021":{"id":"E09000021","n":"Kingston upon Thames"},"E09000022":{"id":"E09000022","n":"Lambeth"},"E09000023":{"id":"E09000023","n":"Lewisham"},"E09000024":{"id":"E09000024","n":"Merton"},"E09000025":{"id":"E09000025","n":"Newham"},"E09000026":{"id":"E09000026","n":"Redbridge"},"E09000027":{"id":"E09000027","n":"Richmond upon Thames"},"E09000028":{"id":"E09000028","n":"Southwark"},"E09000029":{"id":"E09000029","n":"Sutton"},"E09000030":{"id":"E09000030","n":"Tower Hamlets"},"E09000031":{"id":"E09000031","n":"Waltham Forest"},"E09000032":{"id":"E09000032","n":"Wandsworth"},"E09000033":{"id":"E09000033","n":"Westminster"},"W06000001":{"id":"W06000001","n":"Isle of Anglesey"},"W06000002":{"id":"W06000002","n":"Gwynedd"},"W06000003":{"id":"W06000003","n":"Conwy"},"W06000004":{"id":"W06000004","n":"Denbighshire"},"W06000005":{"id":"W06000005","n":"Flintshire"},"W06000006":{"id":"W06000006","n":"Wrexham"},"W06000008":{"id":"W06000008","n":"Ceredigion"},"W06000009":{"id":"W06000009","n":"Pembrokeshire"},"W06000010":{"id":"W06000010","n":"Carmarthenshire"},"W06000011":{"id":"W06000011","n":"Swansea"},"W06000012":{"id":"W06000012","n":"Neath Port Talbot"},"W06000013":{"id":"W06000013","n":"Bridgend"},"W06000014":{"id":"W06000014","n":"Vale of Glamorgan"},"W06000015":{"id":"W06000015","n":"Cardiff"},"W06000016":{"id":"W06000016","n":"Rhondda Cynon Taf"},"W06000018":{"id":"W06000018","n":"Caerphilly"},"W06000019":{"id":"W06000019","n":"Blaenau Gwent"},"W06000020":{"id":"W06000020","n":"Torfaen"},"W06000021":{"id":"W06000021","n":"Monmouthshire"},"W06000022":{"id":"W06000022","n":"Newport"},"W06000023":{"id":"W06000023","n":"Powys"},"W06000024":{"id":"W06000024","n":"Merthyr Tydfil"},"E07000006":{"id":"E10000002","n":"Buckinghamshire"},"E07000007":{"id":"E10000002","n":"Buckinghamshire"},"E07000008":{"id":"E10000003","n":"Cambridgeshire"},"E07000009":{"id":"E10000003","n":"Cambridgeshire"},"E07000010":{"id":"E10000003","n":"Cambridgeshire"},"E07000011":{"id":"E10000003","n":"Cambridgeshire"},"E07000012":{"id":"E10000003","n":"Cambridgeshire"},"E07000026":{"id":"E10000006","n":"Cumbria"},"E07000027":{"id":"E10000006","n":"Cumbria"},"E07000028":{"id":"E10000006","n":"Cumbria"},"E07000029":{"id":"E10000006","n":"Cumbria"},"E07000030":{"id":"E10000006","n":"Cumbria"},"E07000031":{"id":"E10000006","n":"Cumbria"},"E07000032":{"id":"E10000007","n":"Derbyshire"},"E07000033":{"id":"E10000007","n":"Derbyshire"},"E07000034":{"id":"E10000007","n":"Derbyshire"},"E07000035":{"id":"E10000007","n":"Derbyshire"},"E07000036":{"id":"E10000007","n":"Derbyshire"},"E07000037":{"id":"E10000007","n":"Derbyshire"},"E07000038":{"id":"E10000007","n":"Derbyshire"},"E07000039":{"id":"E10000007","n":"Derbyshire"},"E07000040":{"id":"E10000008","n":"Devon"},"E07000041":{"id":"E10000008","n":"Devon"},"E07000042":{"id":"E10000008","n":"Devon"},"E07000043":{"id":"E10000008","n":"Devon"},"E07000044":{"id":"E10000008","n":"Devon"},"E07000045":{"id":"E10000008","n":"Devon"},"E07000046":{"id":"E10000008","n":"Devon"},"E07000047":{"id":"E10000008","n":"Devon"},"E07000048":{"id":"E10000009","n":"Dorset"},"E07000049":{"id":"E10000009","n":"Dorset"},"E07000050":{"id":"E10000009","n":"Dorset"},"E07000051":{"id":"E10000009","n":"Dorset"},"E07000052":{"id":"E10000009","n":"Dorset"},"E07000053":{"id":"E10000009","n":"Dorset"},"E07000061":{"id":"E10000011","n":"East Sussex"},"E07000062":{"id":"E10000011","n":"East Sussex"},"E07000063":{"id":"E10000011","n":"East Sussex"},"E07000064":{"id":"E10000011","n":"East Sussex"},"E07000065":{"id":"E10000011","n":"East Sussex"},"E07000066":{"id":"E10000012","n":"Essex"},"E07000067":{"id":"E10000012","n":"Essex"},"E07000068":{"id":"E10000012","n":"Essex"},"E07000069":{"id":"E10000012","n":"Essex"},"E07000070":{"id":"E10000012","n":"Essex"},"E07000071":{"id":"E10000012","n":"Essex"},"E07000072":{"id":"E10000012","n":"Essex"},"E07000073":{"id":"E10000012","n":"Essex"},"E07000074":{"id":"E10000012","n":"Essex"},"E07000075":{"id":"E10000012","n":"Essex"},"E07000076":{"id":"E10000012","n":"Essex"},"E07000077":{"id":"E10000012","n":"Essex"},"E07000078":{"id":"E10000013","n":"Gloucestershire"},"E07000079":{"id":"E10000013","n":"Gloucestershire"},"E07000080":{"id":"E10000013","n":"Gloucestershire"},"E07000081":{"id":"E10000013","n":"Gloucestershire"},"E07000082":{"id":"E10000013","n":"Gloucestershire"},"E07000083":{"id":"E10000013","n":"Gloucestershire"},"E07000084":{"id":"E10000014","n":"Hampshire"},"E07000085":{"id":"E10000014","n":"Hampshire"},"E07000086":{"id":"E10000014","n":"Hampshire"},"E07000087":{"id":"E10000014","n":"Hampshire"},"E07000088":{"id":"E10000014","n":"Hampshire"},"E07000089":{"id":"E10000014","n":"Hampshire"},"E07000090":{"id":"E10000014","n":"Hampshire"},"E07000091":{"id":"E10000014","n":"Hampshire"},"E07000092":{"id":"E10000014","n":"Hampshire"},"E07000093":{"id":"E10000014","n":"Hampshire"},"E07000094":{"id":"E10000014","n":"Hampshire"},"E07000095":{"id":"E10000015","n":"Hertfordshire"},"E07000096":{"id":"E10000015","n":"Hertfordshire"},"E07000098":{"id":"E10000015","n":"Hertfordshire"},"E07000099":{"id":"E10000015","n":"Hertfordshire"},"E07000102":{"id":"E10000015","n":"Hertfordshire"},"E07000103":{"id":"E10000015","n":"Hertfordshire"},"E07000105":{"id":"E10000016","n":"Kent"},"E07000106":{"id":"E10000016","n":"Kent"},"E07000107":{"id":"E10000016","n":"Kent"},"E07000108":{"id":"E10000016","n":"Kent"},"E07000109":{"id":"E10000016","n":"Kent"},"E07000110":{"id":"E10000016","n":"Kent"},"E07000111":{"id":"E10000016","n":"Kent"},"E07000112":{"id":"E10000016","n":"Kent"},"E07000113":{"id":"E10000016","n":"Kent"},"E07000114":{"id":"E10000016","n":"Kent"},"E07000115":{"id":"E10000016","n":"Kent"},"E07000116":{"id":"E10000016","n":"Kent"},"E07000117":{"id":"E10000017","n":"Lancashire"},"E07000118":{"id":"E10000017","n":"Lancashire"},"E07000119":{"id":"E10000017","n":"Lancashire"},"E07000120":{"id":"E10000017","n":"Lancashire"},"E07000121":{"id":"E10000017","n":"Lancashire"},"E07000122":{"id":"E10000017","n":"Lancashire"},"E07000123":{"id":"E10000017","n":"Lancashire"},"E07000124":{"id":"E10000017","n":"Lancashire"},"E07000125":{"id":"E10000017","n":"Lancashire"},"E07000126":{"id":"E10000017","n":"Lancashire"},"E07000127":{"id":"E10000017","n":"Lancashire"},"E07000128":{"id":"E10000017","n":"Lancashire"},"E07000129":{"id":"E10000018","n":"Leicestershire"},"E07000130":{"id":"E10000018","n":"Leicestershire"},"E07000131":{"id":"E10000018","n":"Leicestershire"},"E07000132":{"id":"E10000018","n":"Leicestershire"},"E07000133":{"id":"E10000018","n":"Leicestershire"},"E07000134":{"id":"E10000018","n":"Leicestershire"},"E07000135":{"id":"E10000018","n":"Leicestershire"},"E07000136":{"id":"E10000019","n":"Lincolnshire"},"E07000137":{"id":"E10000019","n":"Lincolnshire"},"E07000138":{"id":"E10000019","n":"Lincolnshire"},"E07000139":{"id":"E10000019","n":"Lincolnshire"},"E07000140":{"id":"E10000019","n":"Lincolnshire"},"E07000141":{"id":"E10000019","n":"Lincolnshire"},"E07000142":{"id":"E10000019","n":"Lincolnshire"},"E07000143":{"id":"E10000020","n":"Norfolk"},"E07000144":{"id":"E10000020","n":"Norfolk"},"E07000145":{"id":"E10000020","n":"Norfolk"}}
+	var populations = {"E06000047":261868,"E06000005":52038,"E06000001":45595,"E06000002":69360,"E06000057":157458,"E06000003":67005,"E06000004":97817,"E11000007":562806,"E08000037":99993,"E08000021":153228,"E08000022":100815,"E08000023":73517,"E08000024":135253,"E12000002":3635677,"E06000008":74692,"E06000009":69099,"E06000049":188259,"E06000050":168531,"E06000006":63180,"E06000007":104600,"E10000006":246514,"E07000026":48360,"E07000027":33007,"E07000028":53079,"E07000029":33916,"E07000030":26365,"E07000031":51788,"E11000001":1414020,"E08000001":142564,"E08000002":94008,"E08000003":281159,"E08000004":117599,"E08000005":110478,"E08000006":131692,"E08000007":144160,"E08000008":111837,"E08000009":116684,"E08000010":163839,"E10000017":604149,"E07000117":43947,"E07000118":59697,"E07000119":39869,"E07000120":40117,"E07000121":72362,"E07000122":45686,"E07000123":72494,"E07000124":29969,"E07000125":35393,"E07000126":54364,"E07000127":55353,"E07000128":54898,"E11000002":702634,"E08000011":71704,"E08000012":251081,"E08000014":133092,"E08000013":89518,"E08000015":157240,"E12000003":2728776,"E06000011":167888,"E06000010":131762,"E06000012":78392,"E06000013":85773,"E06000014":103887,"E10000023":304577,"E07000163":27731,"E07000164":44912,"E07000165":78384,"E07000166":28274,"E07000167":27393,"E07000168":53166,"E07000169":44717,"E11000003":703853,"E08000016":122739,"E08000017":156275,"E08000018":131172,"E08000019":293666,"E11000006":1152644,"E08000032":266598,"E08000033":103606,"E08000034":218888,"E08000035":390347,"E08000036":173204,"E12000004":2415416,"E06000015":127751,"E06000016":181356,"E06000018":170287,"E06000017":20584,"E10000007":396158,"E07000032":63073,"E07000033":39983,"E07000034":51439,"E07000035":35555,"E07000036":57006,"E07000037":45855,"E07000038":49919,"E07000039":53329,"E10000018":353079,"E07000129":50607,"E07000130":94602,"E07000131":46665,"E07000132":56357,"E07000133":25120,"E07000134":52275,"E07000135":27453,"E10000019":376368,"E07000136":35577,"E07000137":69918,"E07000138":49875,"E07000139":57695,"E07000140":47309,"E07000141":69039,"E07000142":46955,"E10000021":377468,"E07000150":36255,"E07000151":43369,"E07000152":47511,"E07000153":50937,"E07000154":112926,"E07000155":46715,"E07000156":39756,"E10000024":412366,"E07000170":63715,"E07000171":58805,"E07000172":57204,"E07000173":58086,"E07000174":54355,"E07000175":60747,"E07000176":59454,"E12000005":2967551,"E06000019":96483,"E06000051":161847,"E06000021":129933,"E06000020":90362,"E10000028":439045,"E07000192":50334,"E07000193":60487,"E07000194":51823,"E07000195":65020,"E07000196":56449,"E07000197":68726,"E07000198":48811,"E07000199":37396,"E10000031":287255,"E07000218":32804,"E07000219":64079,"E07000220":54402,"E07000221":63968,"E07000222":72003,"E11000005":1467046,"E08000025":571590,"E08000026":193181,"E08000027":158366,"E08000028":164440,"E08000029":106003,"E08000030":141374,"E08000031":132094,"E10000034":295579,"E07000234":49402,"E07000235":38738,"E07000236":42336,"E07000237":50429,"E07000238":64236,"E07000239":50438,"E12000006":3094152,"E06000055":85970,"E06000056":143088,"E06000032":108450,"E06000031":103650,"E06000033":90619,"E06000034":87275,"E10000003":329326,"E07000008":65365,"E07000009":44314,"E07000010":51409,"E07000011":89370,"E07000012":78869,"E10000012":731915,"E07000066":91199,"E07000067":74579,"E07000068":37172,"E07000069":43977,"E07000070":88847,"E07000071":98130,"E07000072":63869,"E07000073":42486,"E07000074":32043,"E07000075":43247,"E07000076":71594,"E07000077":44771,"E10000015":584211,"E07000095":46940,"E07000096":76583,"E07000242":73398,"E07000098":50406,"E07000099":65829,"E07000240":72570,"E07000243":43442,"E07000102":45449,"E07000103":48268,"E07000241":61327,"E10000020":450967,"E07000143":70410,"E07000144":64065,"E07000145":49504,"E07000146":74710,"E07000147":51531,"E07000148":71020,"E07000149":69727,"E10000029":378681,"E07000200":45153,"E07000201":33837,"E07000202":68460,"E07000203":51621,"E07000204":57129,"E07000205":64387,"E07000206":58095,"E12000007":4526035,"E09000007":137911,"E09000001":4925,"E09000012":142522,"E09000013":93441,"E09000014":137843,"E09000019":123495,"E09000020":78701,"E09000022":166355,"E09000023":152633,"E09000025":190893,"E09000028":162255,"E09000030":173895,"E09000032":158701,"E09000033":138765,"E09000002":106958,"E09000003":198805,"E09000004":120850,"E09000005":171383,"E09000006":161089,"E09000008":188497,"E09000009":171783,"E09000010":164697,"E09000011":148230,"E09000015":125866,"E09000016":126019,"E09000017":155844,"E09000018":139184,"E09000021":88190,"E09000024":101943,"E09000026":155440,"E09000027":96541,"E09000029":100961,"E09000031":141424,"E12000008":4553812,"E06000036":61188,"E06000043":147993,"E06000046":70187,"E06000035":138286,"E06000042":134266,"E06000044":110557,"E06000038":83000,"E06000039":76130,"E06000045":130700,"E06000037":78445,"E06000040":75109,"E06000041":84808,"E10000002":267645,"E07000004":101346,"E07000005":46811,"E07000006":33918,"E07000007":85570,"E10000011":271718,"E07000061":50374,"E07000062":45408,"E07000063":50547,"E07000064":46973,"E07000065":78415,"E10000014":679293,"E07000084":87108,"E07000085":59130,"E07000086":65160,"E07000087":57055,"E07000088":42267,"E07000089":48293,"E07000090":61799,"E07000091":86863,"E07000092":47853,"E07000093":62140,"E07000094":61625,"E10000016":784442,"E07000105":64429,"E07000106":82150,"E07000107":56241,"E07000108":59291,"E07000109":52380,"E07000110":85846,"E07000111":59055,"E07000112":56569,"E07000113":75171,"E07000114":69472,"E07000115":65190,"E07000116":58648,"E10000025":347408,"E07000177":75283,"E07000178":78448,"E07000179":70137,"E07000180":68934,"E07000181":54606,"E10000030":588322,"E07000207":66420,"E07000208":39286,"E07000209":74547,"E07000210":42548,"E07000211":73305,"E07000212":43422,"E07000213":49418,"E07000214":44144,"E07000215":42956,"E07000216":61771,"E07000217":50505,"E10000032":424316,"E07000223":31243,"E07000224":78585,"E07000225":59044,"E07000226":57225,"E07000227":70762,"E07000228":73805,"E07000229":53652,"E12000009":2802870,"E06000022":97185,"E06000028":98666,"E06000023":236712,"E06000052":280755,"E06000053":1021,"E06000024":105552,"E06000026":131798,"E06000029":74868,"E06000025":143292,"E06000030":112706,"E06000027":67195,"E06000054":252710,"E10000008":396241,"E07000040":71871,"E07000041":66245,"E07000042":40711,"E07000043":47977,"E07000044":42273,"E07000045":65737,"E07000046":33926,"E07000047":27502,"E10000009":210385,"E07000048":24485,"E07000049":43991,"E07000050":35229,"E07000051":23739,"E07000052":50000,"E07000053":32941,"E10000013":316534,"E07000078":57847,"E07000079":44439,"E07000080":43112,"E07000081":64642,"E07000082":59319,"E07000083":47175,"E10000027":277249,"E07000187":56766,"E07000188":61084,"E07000189":83139,"E07000190":59167,"E07000191":17094};
+	var lookup = {};
+
+	for(la in LA2UTLA){
+		id = LA2UTLA[la].id;
+		if(!lookup[id]) lookup[id] = {'n': LA2UTLA[la].n, 'LA':{} };
+		lookup[id].LA[la] = true;
+	}
+	
+	function process(type,data,attr){
+		type = "COVID-19";
+		if(!this.data[type]) this.data[type] = {};
+
+		if(data.length > 0){
+			for(var i = 0; i < data.length; i++){
+				code = data[i]['GSS_CD'];
+				if(code){
+					cases = parseInt(data[i]['TotalCases']);
+					percapita = (populations[code]) ? 1e6*cases/populations[code] : 0;
+					if(!this.hex.hexes[code]){
+						if(lookup[code]){
+							if(!lookup[code].LA) console.warn(lookup[code]);
+							n = Object.keys(lookup[code].LA).length;
+							//console.log('Population for '+code+' is '+populations[code]);
+							for(var la in lookup[code].LA){
+								this.data[type][la] = {
+									'cases': cases/n,
+									'percapita': percapita,
+									'title':data[i]['GSS_NM'],
+									'desc':'Total cases: '+cases+'<br />Per million people: '+Math.round(percapita)
+								};
+								//console.log(code+' ('+data[i]['GSS_NM']+') converts to '+la+' ('+n+' authorities)')
+							}
+						}else{
+							console.warn('No hex for '+code+' and no UTLA lookup');
+						}
+					}else{
+						//console.log('Population for '+code+' is '+populations[code]);
+						this.data[type][code] = {
+							'cases': cases,
+							'percapita': percapita,
+							'title':data[i]['GSS_NM'],
+							'desc':'Total cases: '+cases+'<br />Per million people: '+Math.round(percapita)
+						};
+					}
+				}
+			}
+		}else{
+			for(var r in this.hex.hexes) this.data[type][r] = {};
+		}
+		now = new Date();
+		if(S('#updated').length == 0) S('#'+this.id).prepend('<div id="updated">?</div>');
+		S('#updated').html('Data: '+now.toISOString().substr(0,10));
+	}
+	
+	function render(title,region,data,attr){
+		var r;
+		var p = "";
+		var lbl = "";
+		var img = "";
+		var wincolour = "";
+		if(!data) data = {};
+
+		lbl = '<h2 class="popup-title">'+(data.title||title)+'</h2>';
+		lbl += (data.desc||'<p>Cases: '+data.cases);
+
+		function postRender(title,region,data){
+			S('#tooltip').remove();
+		}
+
+		return {'label':lbl,'class':'covid-19','color':'','callback': postRender };
+	}
+
+	var views = {
+		'COVID-19-percapita':{
+			'file': 'https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data',
+			'process': process,
+			'popup': {
+				'render': render
+			},
+			'key': function(){
+				var _obj = this;
+				var min = 0;
+				var max = -1e100;
+				var filter = "percapita";
+				var type = "COVID-19";
+				for(utla in this.data[type]){
+					if(this.data[type][utla][filter] > max) max = this.data[type][utla][filter];
+					if(this.data[type][utla][filter] < min) min = this.data[type][utla][filter];
+				}
+				this.hex.setColours = function(region){
+					if(_obj.data[type][region]) return getColourScale(_obj.data[type][region][filter],min,max,"Viridis8");
+					else return "#dfdfdf";
+				}
+				return '';
+			}
+		},
+		'COVID-19-cases':{
+			'file': 'https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data',
+			'process': process,
+			'popup': {
+				'render': render
+			},
+			'key': function(){
+				var _obj = this;
+				var min = 0;
+				var max = -1e100;
+				var filter = "cases";
+				var type = "COVID-19";
+				for(utla in this.data[type]){
+					if(this.data[type][utla][filter] > max) max = this.data[type][utla][filter];
+					if(this.data[type][utla][filter] < min) min = this.data[type][utla][filter];
+				}
+				this.hex.setColours = function(region){
+					if(_obj.data[type][region]) return getColourScale(_obj.data[type][region][filter],min,max,"Viridis8");
+					else return "#dfdfdf";
+				}
+				return '';
+			}
+		}
+	}
+
+
+
+	utla = new ResultsMap('hexmap',{
+		'width':700,
+		'height':850,
+		'padding':0,
+		'file':'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-local-authority-districts-2019.hexjson',
+		'views': views,
+		'search':{'id':'search'}
+	});
+	</script>
+</body>
+</html>

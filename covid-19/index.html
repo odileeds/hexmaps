@@ -209,7 +209,7 @@
 <body class="b6-bg">
 
 	<div id="main">
-		<h1>COVID-19 in the UK</h1>
+		<h1>COVID-19 in England</h1>
 		<div class="controls">
 			<form>
 				<div class="control on">
@@ -258,10 +258,12 @@
 		if(!this.data[type]) this.data[type] = {};
 
 		if(data.length > 0){
+			total = 0;
 			for(var i = 0; i < data.length; i++){
 				code = data[i]['GSS_CD'];
 				if(code){
 					cases = parseInt(data[i]['TotalCases']);
+					total += cases;
 					percapita = (populations[code]) ? 1e6*cases/populations[code] : 0;
 					if(!this.hex.hexes[code]){
 						if(lookup[code]){
@@ -296,7 +298,7 @@
 		}
 		now = new Date();
 		if(S('#updated').length == 0) S('#'+this.id).prepend('<div id="updated">?</div>');
-		S('#updated').html('Data: '+now.toISOString().substr(0,10));
+		S('#updated').html('Total: '+total.toLocaleString());
 	}
 	
 	function render(title,region,data,attr){

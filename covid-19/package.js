@@ -1892,7 +1892,7 @@ function ResultsMap(id,attr){
 					},
 					'error': function(e,attr){
 						console.error('Unable to load '+attr.url);
-						attr.timestamp = "12:00";
+						attr.timestamp = "?";
 						// Process the data
 						attr.process.call(this,attr.type,[],attr);
 						if(typeof attr.callback==="function") attr.callback.call(this,attr.type,attr.dtype);

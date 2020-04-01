@@ -271,7 +271,7 @@
 				if(code){
 					cases = parseInt(data[i]['TotalCases']);
 					total += cases;
-					percapita = (populations[code]) ? 1e3*cases/populations[code] : 0;
+					percapita = (populations[code]) ? 1e5*cases/populations[code] : 0;
 					if(!this.hex.hexes[code]){
 						if(lookup[code]){
 							if(!lookup[code].LA) console.warn(lookup[code]);
@@ -286,7 +286,7 @@
 									'cases': cases/n,
 									'percapita': percapita,
 									'title':data[i]['GSS_NM'],
-									'desc':'<strong>Total cases:</strong> '+cases+'.<br /><strong>Population (2020):</strong> '+(populations[code] ? populations[code].toLocaleString():'?')+'.<br /><strong>Cases per 1000 people:</strong> '+(percapita.toFixed(2))+'.<br /><strong>Includes:</strong> <ul>'+lastring+'</ul>'
+									'desc':'<strong>Total cases:</strong> '+cases+'.<br /><strong>Population (2020):</strong> '+(populations[code] ? populations[code].toLocaleString():'?')+'.<br /><strong>Cases per 100,000 people:</strong> '+Math.round(percapita)+'.<br /><strong>Includes:</strong> <ul>'+lastring+'</ul>'
 								};
 								//console.log(code+' ('+data[i]['GSS_NM']+') converts to '+la+' ('+n+' authorities)')
 							}
@@ -299,7 +299,7 @@
 							'cases': cases,
 							'percapita': percapita,
 							'title':data[i]['GSS_NM'],
-							'desc':'<strong>Total cases:</strong> '+cases+'.<br /><strong>Population (2020):</strong> '+(populations[code] ? populations[code].toLocaleString():'?')+'.<br /><strong>Cases per 1000 people:</strong> '+(percapita.toFixed(2))+'.'
+							'desc':'<strong>Total cases:</strong> '+cases+'.<br /><strong>Population (2020):</strong> '+(populations[code] ? populations[code].toLocaleString():'?')+'.<br /><strong>Cases per 100,000 people:</strong> '+Math.round(percapita)+'.'
 						};
 					}
 				}

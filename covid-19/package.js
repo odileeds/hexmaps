@@ -1646,8 +1646,36 @@ function ResultsMap(id,attr){
 	}
 
 
+	function qs() {
+		var r = {length:0};
+		var q = location.search;
+		if(q && q != '#'){
+			// remove the leading ? and trailing &
+			q.replace(/^\?/,'').replace(/\&$/,'').split('&').forEach(function(e){
+				var key = e.split('=')[0];
+				var val = e.split('=')[1];
+				// convert floats
+				if(/^-?[0-9.]+$/.test(val)) val = parseFloat(val);
+				if(val == "true") val = true;
+				if(val == "false") val = false;
+				if(/^\?[0-9\.]+$/.test(val)) val = parseFloat(val);	// convert floats
+				r[key] = val;
+			});
+		}
+		return r;
+	};
+	
+	this.qs = qs();
+	
+	if(this.qs.headless){
+		S('footer').remove();
+		S('h1').remove();
+	}
+
+	var t;
 	// Use the search string to pick a parameter to display
-	var t = location.search.replace(/\?/,"");
+	t = this.qs.type || location.search.replace(/\?/,"");
+
 	if(t){
 		// Check if this is in the list
 		var options = S('#data-selector option');
@@ -1728,8 +1756,14 @@ function ResultsMap(id,attr){
 		console.log('setType',t,d)
 
 
+		// Create query string
+		this.qs.type = t;
+		str = '';
+		if(this.qs.type) str += (str ? '&':'')+'type='+this.qs.type;
+		if(typeof this.qs.headless==="boolean") str += (str ? '&':'')+'headless='+this.qs.headless;
+
 		// Update the history
-		if(this.pushstate) history.pushState({type:t},"Hexes",(update ? '?'+t : ''));
+		if(this.pushstate) history.pushState({type:t},"Hexes",(update ? '?'+str : ''));
 
 		this.updateData(t,d);
 

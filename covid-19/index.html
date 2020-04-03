@@ -343,9 +343,9 @@
 				var max = -1e100;
 				var filter = "percapita";
 				var type = "COVID-19";
-				for(utla in this.data[type]){
-					if(this.data[type][utla][filter] > max) max = this.data[type][utla][filter];
-					if(this.data[type][utla][filter] < min) min = this.data[type][utla][filter];
+				for(la in this.data[type]){
+					if(this.data[type][la][filter] > max) max = this.data[type][la][filter];
+					if(this.data[type][la][filter] < min) min = this.data[type][la][filter];
 				}
 				this.hex.setColours = function(region){
 					if(_obj.data[type][region]) return getColourScale(_obj.data[type][region][filter],min,max,"Viridis8");
@@ -366,9 +366,9 @@
 				var max = -1e100;
 				var filter = "cases";
 				var type = "COVID-19";
-				for(utla in this.data[type]){
-					if(this.data[type][utla][filter] > max) max = this.data[type][utla][filter];
-					if(this.data[type][utla][filter] < min) min = this.data[type][utla][filter];
+				for(la in this.data[type]){
+					if(this.data[type][la][filter] > max) max = this.data[type][la][filter];
+					if(this.data[type][la][filter] < min) min = this.data[type][la][filter];
 				}
 				this.hex.setColours = function(region){
 					if(_obj.data[type][region]) return getColourScale(_obj.data[type][region][filter],min,max,"Viridis8");
@@ -379,8 +379,6 @@
 		}
 	}
 
-
-
 	utla = new ResultsMap('hexmap',{
 		'width':700,
 		'height':850,
@@ -389,11 +387,6 @@
 		'views': views,
 		'search':{'id':'search'}
 	});
-	
-	if(location.search.indexOf('headless')==1){
-		S('footer').remove();
-		S('h1').remove();
-	}
 	</script>
 </body>
 </html>

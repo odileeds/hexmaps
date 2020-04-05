@@ -269,7 +269,7 @@
 			for(var i = 0; i < data.length; i++){
 				code = data[i]['GSS_CD'];
 				if(code){
-					cases = parseInt(data[i]['TotalCases']);
+					cases = parseInt(data[i]['TotalCases'].replace(/\,/g,""));	// Remove commas from numbers
 					total += cases;
 					percapita = (populations[code]) ? 1e5*cases/populations[code] : 0;
 					if(!this.hex.hexes[code]){

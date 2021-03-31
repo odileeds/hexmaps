@@ -2,10 +2,11 @@ function HexBuilder(id,attr){
 
 	this.name = "HexBuilder";
 	this.version = "1.1";
+	this.attr = attr;
 	this.id = id;
 	var side = 16;
-	var width = 1088;
-	var height = 1220;
+	var width = attr.width||1088;
+	var height = attr.height||1220;
 	var padding = 2;
 	
 	
@@ -27,7 +28,6 @@ function HexBuilder(id,attr){
 
 		side = width/((dim+3)*1.73205);
 		
-
 		this.hex = new HexMap({
 			'id':'hexmap',
 			'width':width,
@@ -43,7 +43,8 @@ function HexBuilder(id,attr){
 			},
 			'formatLabel': function(txt,attr){
 				return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
-			}
+			},
+			'search': this.attr.search
 		});
 		
 		this.hex.on('mouseover',{'builder':this},function(e){

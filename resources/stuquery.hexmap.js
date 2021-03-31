@@ -285,8 +285,8 @@ function HexMap(attr){
 				this.el = S('#'+_obj.id+' .hex-search');
 			}
 
-			if(this.el.find('.search-input').length==0) this.el.append('<input type="text" class="search-input" name="constituencies" id="constituencies" value="">');
-			if(this.el.find('.search-button').length==0) this.el.append('<button class="search-button"></button>');
+			if(this.el.find('.search-button').length==0) this.el.append('<label class="search-button" for="areas"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"></path><circle cx="5" cy="5" r="4"></circle></g></svg></label>');
+			if(this.el.find('.search-input').length==0) this.el.append('<input type="text" class="search-input" name="areas" id="areas" value="">');
 
 			this.el.find('.search-button').on('click',{hexmap:_obj,me:this},function(e){
 				e.data.me.selected = -1;
@@ -642,6 +642,7 @@ function HexMap(attr){
 	if(attr.file) this.load(attr.file);
 	
 	
+	console.log('search',attr.search);
 	this.search = new Search(attr.search);
 
 

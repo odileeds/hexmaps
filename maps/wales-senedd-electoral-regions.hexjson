@@ -1,0 +1,25 @@
+{
+	"layout":"odd-r",
+	"hexes": {
+		"W10000001_1":{"n":"North Wales 1","nawc18cd":"W10000001_1","nawc18nm":"North Wales 1","nawer18nmw":"Gogledd Cymru 1","name":"North Wales 1","q":6,"r":3},
+		"W10000001_2":{"n":"North Wales 2","nawc18cd":"W10000001_2","nawc18nm":"North Wales 2","nawer18nmw":"Gogledd Cymru 2","name":"North Wales 2","q":7,"r":3},
+		"W10000001_3":{"n":"North Wales 3","nawc18cd":"W10000001_3","nawc18nm":"North Wales 3","nawer18nmw":"Gogledd Cymru 3","name":"North Wales 3","q":7,"r":2},
+		"W10000001_4":{"n":"North Wales 4","nawc18cd":"W10000001_4","nawc18nm":"North Wales 4","nawer18nmw":"Gogledd Cymru 4","name":"North Wales 4","q":8,"r":2},
+		"W10000006_1":{"n":"Mid and West Wales 1","nawc18cd":"W10000006_1","nawc18nm":"Mid and West Wales 1","nawer18nmw":"Canolbarth a Gorllewin Cymru 1","name":"Mid and West Wales 1","q":6,"r":1},
+		"W10000006_2":{"n":"Mid and West Wales 2","nawc18cd":"W10000006_2","nawc18nm":"Mid and West Wales 2","nawer18nmw":"Canolbarth a Gorllewin Cymru 2","name":"Mid and West Wales 2","q":7,"r":1},
+		"W10000006_3":{"n":"Mid and West Wales 3","nawc18cd":"W10000006_3","nawc18nm":"Mid and West Wales 3","nawer18nmw":"Canolbarth a Gorllewin Cymru 3","name":"Mid and West Wales 3","q":8,"r":1},
+		"W10000006_4":{"n":"Mid and West Wales 4","nawc18cd":"W10000006_4","nawc18nm":"Mid and West Wales 4","nawer18nmw":"Canolbarth a Gorllewin Cymru 4","name":"Mid and West Wales 4","q":9,"r":1},
+		"W10000007_1":{"n":"South Wales Central 1","nawc18cd":"W10000007_1","nawc18nm":"South Wales Central 1","nawer18nmw":"Canol De Cymru 1","name":"South Wales Central 1","q":6,"r":0},
+		"W10000007_2":{"n":"South Wales Central 2","nawc18cd":"W10000007_2","nawc18nm":"South Wales Central 2","nawer18nmw":"Canol De Cymru 2","name":"South Wales Central 2","q":7,"r":0},
+		"W10000007_3":{"n":"South Wales Central 3","nawc18cd":"W10000007_3","nawc18nm":"South Wales Central 3","nawer18nmw":"Canol De Cymru 3","name":"South Wales Central 3","q":6,"r":-1},
+		"W10000007_4":{"n":"South Wales Central 4","nawc18cd":"W10000007_4","nawc18nm":"South Wales Central 4","nawer18nmw":"Canol De Cymru 4","name":"South Wales Central 4","q":7,"r":-1},
+		"W10000008_1":{"n":"South Wales East 1","nawc18cd":"W10000008_1","nawc18nm":"South Wales East 1","nawer18nmw":"Dwyrain De Cymru 1","name":"South Wales East 1","q":8,"r":0},
+		"W10000008_2":{"n":"South Wales East 2","nawc18cd":"W10000008_2","nawc18nm":"South Wales East 2","nawer18nmw":"Dwyrain De Cymru 2","name":"South Wales East 2","q":9,"r":0},
+		"W10000008_3":{"n":"South Wales East 3","nawc18cd":"W10000008_3","nawc18nm":"South Wales East 3","nawer18nmw":"Dwyrain De Cymru 3","name":"South Wales East 3","q":8,"r":-1},
+		"W10000008_4":{"n":"South Wales East 4","nawc18cd":"W10000008_4","nawc18nm":"South Wales East 4","nawer18nmw":"Dwyrain De Cymru 4","name":"South Wales East 4","q":9,"r":-1},
+		"W10000009_1":{"n":"South Wales West 1","nawc18cd":"W10000009_1","nawc18nm":"South Wales West 1","nawer18nmw":"Gorllewin De Cymru 1","name":"South Wales West 1","q":4,"r":0},
+		"W10000009_2":{"n":"South Wales West 2","nawc18cd":"W10000009_2","nawc18nm":"South Wales West 2","nawer18nmw":"Gorllewin De Cymru 2","name":"South Wales West 2","q":5,"r":0},
+		"W10000009_3":{"n":"South Wales West 3","nawc18cd":"W10000009_3","nawc18nm":"South Wales West 3","nawer18nmw":"Gorllewin De Cymru 3","name":"South Wales West 3","q":4,"r":-1},
+		"W10000009_4":{"n":"South Wales West 4","nawc18cd":"W10000009_4","nawc18nm":"South Wales West 4","nawer18nmw":"Gorllewin De Cymru 4","name":"South Wales West 4","q":5,"r":-1}
+	}
+}

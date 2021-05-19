@@ -37,8 +37,8 @@ function HexBuilder(id,attr){
 			'minFontSize': 0,
 			'grid': true,
 			'style': {
-				'selected':{'fill-opacity':0.5, 'fill':'#EF3AAB' },
-				'default':{'fill-opacity':0.5,'fill':'#722EA5','font-size':side/4},
+				'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
+				'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
 				'grid':{'fill-opacity':0.1,'fill':'#ccc'}
 			},
 			'formatLabel': function(txt,attr){

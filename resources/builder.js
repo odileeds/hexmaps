@@ -475,15 +475,11 @@ function HexBuilder(id,attr){
 	}
 
 	this.setColours = function(){
-/*
 		this.hex.setColours = function(region){
 			if(this.mapping.hexes[region].colour) return this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) return this.mapping.hexes[region].color;
-			var rs = {'YH':'#F9BC26','EM':'#00B6FF','WM':'#E6007C','EA':'#FF6700','SC':'#2254F4','NI':'#722EA5','WA':'#0DBC37','NW':'#1DD3A7','NE':'#D60303','SW':'#178CFF','LO':'#D73058','SE':'#67E767'};
-			if(this.mapping.hexes[region].a && rs[this.mapping.hexes[region].a]) return rs[this.mapping.hexes[region].a];
-			return '#EF3AAB';
+			return '#722EA5';
 		}
-	*/	
 		this.hex.updateColours();
 
 		return this;

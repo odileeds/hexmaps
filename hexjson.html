@@ -11,11 +11,118 @@
 	<meta name="twitter:title" property="og:title" content="HexJSON format">
 	<meta name="twitter:description" property="og:description" content="Defining a format for sharing hex-based maps.">
 	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
+	<script type="text/javascript" src="../odi.hexmap.js/odi.hexmap.js"></script>
+	<style>
+	html,body { background: white; }
+	pre,code { background: #efefef; }
+	.layouts { display:grid; grid-template-columns: repeat(4,1fr); grid-gap: 1em; margin-left: 0!important; margin-bottom: 1em; }
+	.layouts li { list-style: none; text-align: center; }
+	.hexlayout { height: 250px; font-size: 1em; }
+	.hexlayout .hex-cell { fill: #efefef; stroke: #bbb; }
+	.warning {
+		color: #9F6000;
+		background-color: #FEEFB3;
+		padding: 1em;
+		margin-bottom: 1em;
+	}
+	.warning:before {
+		content:'\26a0';
+		margin-right: 0.5em;
+	}
+	.q { fill: #0DBC37; }
+	.r { fill: #178CFF; }
+	.q-axis-same .hex-cell { fill: hsl( 90, 20%, 87%); }
+	.r-axis-same .hex-cell { fill: hsl(200, 15%, 90%); }
+	.q-axis-same.r-axis-same .hex-cell { fill: hsl(60, 100%, 85%); }
+	.q-axis-same.r-axis-same .hex-label { font-weight: bold; }
+	.hex-cell.select {
+		fill: red;
+	}
+	</style>
 	<script>
-	S(document).ready(function(){
-
+	ODI.ready(function(){
+		hexjsonr = {
+			'layout':'odd-r',
+			'hexes':{
+				'00':{'n':'0,0','q':0,'r':0},
+				'01':{'n':'0,1','q':0,'r':1},
+				'02':{'n':'0,2','q':0,'r':2},
+				'03':{'n':'0,3','q':0,'r':3},
+				'10':{'n':'1,0','q':1,'r':0},
+				'11':{'n':'1,1','q':1,'r':1},
+				'12':{'n':'1,2','q':1,'r':2},
+				'13':{'n':'1,3','q':1,'r':3},
+				'20':{'n':'2,0','q':2,'r':0},
+				'21':{'n':'2,1','q':2,'r':1},
+				'22':{'n':'2,2','q':2,'r':2},
+				'23':{'n':'2,3','q':2,'r':3},
+				'30':{'n':'3,0','q':3,'r':0},
+				'31':{'n':'3,1','q':3,'r':1},
+				'32':{'n':'3,2','q':3,'r':2},
+				'33':{'n':'3,3','q':3,'r':3}
+			}
+		};
+		hexjsonq = {
+			'layout':'odd-q',
+			'hexes':{
+				'00':{'n':'0,0','q':0,'r':0},
+				'01':{'n':'0,1','q':0,'r':1},
+				'02':{'n':'0,2','q':0,'r':2},
+				'10':{'n':'1,0','q':1,'r':0},
+				'11':{'n':'1,1','q':1,'r':1},
+				'12':{'n':'1,2','q':1,'r':2},
+				'20':{'n':'2,0','q':2,'r':0},
+				'21':{'n':'2,1','q':2,'r':1},
+				'22':{'n':'2,2','q':2,'r':2},
+				'30':{'n':'3,0','q':3,'r':0},
+				'31':{'n':'3,1','q':3,'r':1},
+				'32':{'n':'3,2','q':3,'r':2},
+				'40':{'n':'4,0','q':4,'r':0},
+				'41':{'n':'4,1','q':4,'r':1},
+				'42':{'n':'4,2','q':4,'r':2}
+			}
+		};
+		function label(txt,attr){
+			tspans = '';
+			tspans += '<tspan class="on q" y="'+(attr.y + (-0.5)*attr['font-size'])+'" x="'+attr.x+'">q:'+attr.hex.q+'</tspan>';
+			tspans += '<tspan class="on r" y="'+(attr.y + (0.5)*attr['font-size'])+'" x="'+attr.x+'">r:'+attr.hex.r+'</tspan>';
+			return tspans;
+		}
+		function highlight(e){
+			hex = e.data.data;
+			hexes = e.data.hexmap.areas;
+			for(r in hexes){
+				select = false;
+				matchq = (hexes[r].data.q==hex.q);
+				matchr = (hexes[r].data.r==hex.r);
+				if(matchq) hexes[r].g.classList.add('q-axis-same');
+				else hexes[r].g.classList.remove('q-axis-same');
+				if(matchr) hexes[r].g.classList.add('r-axis-same');
+				else hexes[r].g.classList.remove('r-axis-same');
+			}
+		}
+		oddr = ODI.hexmap(document.getElementById('odd-r'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonr
+		});
+		oddr.on('mouseover',highlight);
+		hexjsonr.layout = "even-r";
+		evenr = ODI.hexmap(document.getElementById('even-r'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonr
+		});
+		evenr.on('mouseover',highlight);
+		oddq = ODI.hexmap(document.getElementById('odd-q'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonq
+		});
+		oddq.on('mouseover',highlight);
+		hexjsonq.layout = "even-q";
+		evenq = ODI.hexmap(document.getElementById('even-q'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonq
+		});
+		evenq.on('mouseover',highlight);
 	});
 	</script>
 </head>
@@ -39,14 +146,15 @@
 		"E14000531":{"q":-3,"r":-1}
 	}
 }</code></pre>
-			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a>:</p>
-			<ul>
-				<li><code>odd-r</code> (pointy-topped)</li>
-				<li><code>even-r</code> (pointy-topped)</li>
-				<li><code>odd-q</code> (flat-topped)</li>
-				<li><code>even-q</code> (flat-topped)</li>
+			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a> (row number increasing vertically):</p>
+			<ul class="layouts">
+				<li><div id="odd-r" class="hexlayout"></div><code>odd-r</code> (pointy-topped)<br />odd numbered rows shift right</li>
+				<li><div id="even-r" class="hexlayout"></div><code>even-r</code> (pointy-topped)<br />even numbered rows shift right</li>
+				<li><div id="odd-q" class="hexlayout"></div><code>odd-q</code> (flat-topped)<br />odd numbered columns shift up</li>
+				<li><div id="even-q" class="hexlayout"></div><code>even-q</code> (flat-topped)<br />even numbered columns shift up</li>
 			</ul>
-			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates.</p>
+			<div class="warning">Note: the shifts in each coordinate system are based on the absolute column/row numbers, not on their relative position in a layout. Using absolute numbers ensures that a layout still renders correctly if a column or row is added later.</div>
+			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates. You don't have to start at 0,0.</p>
 			<p>You can add your own custom data fields to each hex if you want to. Just make sure you don't use the keys <code>q</code> and <code>r</code> as they will be the coordinates e.g.</p>
 			<pre><code>{
 	"layout": "odd-r",
@@ -74,7 +182,8 @@
 			<h2>Using HexJSON</h2>
 			<p>The format is JSON so should be easy to ingest by your favourite programming language. We'll add examples that people have created below.</p>
 			<ul>
-				<li><strong>Web:</strong> Stuart Lowe created a <a href="builder.html">HexJSON builder</a> that reads a CSV file, allows you to reposition hexes, and save the output.</li>
+				<li><strong>Building a layout:</strong> Stuart Lowe created a <a href="builder.html">HexJSON builder</a> that reads a CSV file, allows you to reposition hexes, and save the output.</li>
+				<li><strong>JS:</strong> Stuart Lowe has created a <a href="https://odileeds.github.io/odi.hexmap.js/">small standalone JS library</a>.</li>
 				<li><strong>D3:</strong> Oli Hawkins has created <a href="https://github.com/olihawkins/d3-hexjson">a plugin to read HexJSON files with D3.js</a>.</li>
 				<li><strong>R:</strong> Tony Hirst wrote a series of blog posts (<a href="https://blog.ouseful.info/2017/06/28/hexjson-htmlwidget-for-r-part-1/">part 1</a>, <a href="https://blog.ouseful.info/2017/06/29/hexjson-htmlwidget-for-r-part-2/">part 2</a>, <a href="https://blog.ouseful.info/2017/06/30/hexjson-htmlwidget-for-r-part-3/">part 3</a>) which describe a HTMLWidget that renders HexJSON for R.</li>
 				<li><strong>R:</strong> Joseph Bailey has a great <a href="https://github.com/sassalley/hexmapr/">tool for generating hex maps from geospatial polygons</a>.</li>

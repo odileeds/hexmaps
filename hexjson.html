@@ -201,7 +201,6 @@
 			hex = e.data.data;
 			hexes = e.data.hexmap.areas;
 			for(r in hexes){
-				select = false;
 				matchq = (hexes[r].data.q==hex.q);
 				matchr = (hexes[r].data.r==hex.r);
 				if(matchq) hexes[r].g.classList.add('q-axis-same');
@@ -210,28 +209,35 @@
 				else hexes[r].g.classList.remove('r-axis-same');
 			}
 		}
+		function dehighlight(e){
+			hexes = e.data.hexmap.areas;
+			for(r in hexes){
+				hexes[r].g.classList.remove('q-axis-same');
+				hexes[r].g.classList.remove('r-axis-same');
+			}		
+		}
 		oddr = ODI.hexmap(document.getElementById('odd-r'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonr
 		});
-		oddr.on('mouseover',highlight);
+		oddr.on('mouseover',highlight).on('mouseout',dehighlight);
 		hexjsonr.layout = "even-r";
 		evenr = ODI.hexmap(document.getElementById('even-r'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonr
 		});
-		evenr.on('mouseover',highlight);
+		evenr.on('mouseover',highlight).on('mouseout',dehighlight);
 		oddq = ODI.hexmap(document.getElementById('odd-q'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonq
 		});
-		oddq.on('mouseover',highlight);
+		oddq.on('mouseover',highlight).on('mouseout',dehighlight);
 		hexjsonq.layout = "even-q";
 		evenq = ODI.hexmap(document.getElementById('even-q'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonq
 		});
-		evenq.on('mouseover',highlight);
+		evenq.on('mouseover',highlight).on('mouseout',dehighlight);
 	});
 	</script>
 </head>

@@ -115,8 +115,9 @@
 	header { margin-bottom: 1em; }
 	p, iframe, h2, h3, figcaption, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
 	p:last-child, figure iframe { margin-bottom: 0; }
-
 	pre,code { background: #efefef; }
+
+
 	.layouts { display:grid; grid-template-columns: repeat(4,1fr); grid-gap: 1em; margin-left: 0!important; margin-bottom: 1em; }
 	.layouts li { list-style: none; text-align: center; }
 	.hexlayout { height: 250px; font-size: 1em; }
@@ -139,6 +140,12 @@
 	.q-axis-same.r-axis-same .hex-label { font-weight: bold; }
 	.hex-cell.select {
 		fill: red;
+	}
+	@media screen and (max-width: 1080px) {
+		.layouts { grid-template-columns: repeat(2,1fr); }
+	}
+	@media screen and (max-width: 600px) {
+		.layouts { grid-template-columns: 100%; }
 	}
 	</style>
 	<script>

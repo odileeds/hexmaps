@@ -3,7 +3,6 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
-	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 	<title>HexJSON format</title>
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@ODILeeds">
@@ -11,9 +10,112 @@
 	<meta name="twitter:title" property="og:title" content="HexJSON format">
 	<meta name="twitter:description" property="og:description" content="Defining a format for sharing hex-based maps.">
 	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<link rel="icon" href="resources/favicon.svg" />
 	<script type="text/javascript" src="https://odileeds.github.io/odi.hexmap.js/odi.hexmap.min.js"></script>
 	<style>
+		
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	  display: block; }
+
+	body {
+	  line-height: 1em; }
+
+	ol, ul {
+	  list-style: none; }
+
+	blockquote, q {
+	  quotes: none; }
+
+	blockquote:before, blockquote:after, q:before, q:after {
+	  content: '';
+	  content: none; }
+
+	table {
+	  border-collapse: collapse;
+	  border-spacing: 0; }
+
+	/* apply a natural box layout model to all elements */
+	*, *:before, *:after {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+
+	/* End of reset */
+	html, body {
+		padding: 0px;
+		margin: 0px;
+		min-height: 100%!important;
+		height: 100%!important;
+		background-color: #efefef;
+		font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+		font-size: 16px;
+		color: #333;
+		line-height: 1.44em;
+	}
+	.leaflet-container { font-size: inherit; }
+	h1 { font-size: 2em; line-height: 1em; }
+	h2 { font-size: 1.7em; margin-top: 1.17647em; margin-bottom: 16px; }
+	h1, h2 { margin-top: 0em; }
+	strong { font-weight: 700; }
+	em { font-style: italic; }
+	header, footer, #main {
+		width: 100%;
+		transition: margin-left 0.3s ease-in;
+	}
+	footer {
+		width: 100%;
+		padding: 1em;
+		padding-bottom: 3em;
+	}
+	footer a {
+		color: white;
+	}
+	.line {
+		text-decoration: underline;
+	}
+	.holder {
+		position: relative;
+		width: 1080px;
+		max-width: 100%;
+		margin: auto;
+	}
+	.padded { padding: 2em; }		
+	code,pre {
+		font-family: monospace;
+		color: #555555;
+		background-color: white;
+	}
+	code {
+		padding: 0.125em 0.25em;
+	}
+	pre {
+		max-width: 100%;
+		overflow-x: auto;
+		padding: 16px;
+		margin-bottom: 16px;
+	}
 	html,body { background: white; }
+	header,footer { background: black; color: white; padding: 1em; }
+	header { margin-bottom: 1em; }
+	p, iframe, h2, h3, figcaption, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
+	p:last-child, figure iframe { margin-bottom: 0; }
+
 	pre,code { background: #efefef; }
 	.layouts { display:grid; grid-template-columns: repeat(4,1fr); grid-gap: 1em; margin-left: 0!important; margin-bottom: 1em; }
 	.layouts li { list-style: none; text-align: center; }
@@ -131,11 +233,11 @@
 
 	<div id="main">
 
-		<div class="b1-bg">
+		<header>
 			<div class="holder">
 				<h1>HexJSON format</h1>
 			</div>
-		</div>
+		</header>
 
 		<div class="holder">
 			<p>We want to make sharing <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">hexagon-based maps</a> - such as our <a href="constituencies.html">UK constituency hex map</a> - easy. We've defined a simple <a href="http://jsonlint.com/">JSON format</a> to achieve that. The format is:</p>

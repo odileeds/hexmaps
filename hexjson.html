@@ -262,7 +262,7 @@
 				<li><div id="odd-q" class="hexlayout"></div><code>odd-q</code> (flat-topped)<br />odd numbered columns shift up</li>
 				<li><div id="even-q" class="hexlayout"></div><code>even-q</code> (flat-topped)<br />even numbered columns shift up</li>
 			</ul>
-			<div class="warning">Note: the shifts in each coordinate system are based on the absolute column/row numbers, not on their relative position in a layout. Using absolute numbers ensures that a layout still renders correctly if a column or row is added later.</div>
+			<div class="warning">Note: the shifts in each coordinate system are based on the absolute column/row numbers as specified in the HexJSON file, not on their relative position in a layout. Using absolute numbers ensures that a layout still renders correctly if a column or row is added later.</div>
 			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates. You don't have to start at 0,0.</p>
 			<p>You can add your own custom data fields to each hex if you want to. Just make sure you don't use the keys <code>q</code> and <code>r</code> as they will be the coordinates e.g.</p>
 			<pre><code>{

@@ -234,24 +234,24 @@
 				hexes[r].g.classList.remove('r-axis-same');
 			}		
 		}
-		oddr = ODI.hexmap(document.getElementById('odd-r'),{
+		oddr = new ODI.hexmap(document.getElementById('odd-r'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonr
 		});
 		oddr.on('mouseover',highlight).on('mouseout',dehighlight);
 		hexjsonr.layout = "even-r";
-		evenr = ODI.hexmap(document.getElementById('even-r'),{
+		evenr = new ODI.hexmap(document.getElementById('even-r'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonr
 		});
 		evenr.on('mouseover',highlight).on('mouseout',dehighlight);
-		oddq = ODI.hexmap(document.getElementById('odd-q'),{
+		oddq = new ODI.hexmap(document.getElementById('odd-q'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonq
 		});
 		oddq.on('mouseover',highlight).on('mouseout',dehighlight);
 		hexjsonq.layout = "even-q";
-		evenq = ODI.hexmap(document.getElementById('even-q'),{
+		evenq = new ODI.hexmap(document.getElementById('even-q'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonq
 		});

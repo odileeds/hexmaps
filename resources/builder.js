@@ -42,6 +42,7 @@ function HexBuilder(id,attr){
 				'grid':{'fill-opacity':0.1,'fill':'#ccc'}
 			},
 			'formatLabel': function(txt,attr){
+				if(!txt) txt = "";
 				return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
 			},
 			'search': this.attr.search

@@ -23,7 +23,7 @@ function HexBuilder(id,attr){
 		
 		dim = Math.max(range.r.max-range.r.min, range.q.max-range.q.min);
 		
-		width = Math.min(S('#hexmap')[0].clientWidth,1080);
+		width = Math.min(S('#hexmap')[0].clientWidth,attr.width||1088);
 		height = width*(range.r.max-range.r.min)/dim;
 
 		side = width/((dim+3)*1.73205);

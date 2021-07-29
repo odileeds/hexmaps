@@ -19,7 +19,7 @@
 	var builder;
 	S(document).ready(function(){
 		builder = new HexBuilder('builder',{
-			'width':1080,
+			'width':document.getElementById('builder').offsetWidth,
 			'search':{'id':'search'}
 		});
 		builder.init();
@@ -173,7 +173,7 @@
 		</div>
 
 		<div id="builder">
-			<div class="holder">
+			<div class="padded">
 				<div id="hexmap">
 					<div id="search"></div>
 				</div>

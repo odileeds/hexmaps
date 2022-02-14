@@ -3,19 +3,259 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
-	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
 	<title>HexJSON format</title>
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@ODILeeds">
-	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/hexjson">
+	<meta name="twitter:url" property="og:url" content="https://open-innovations.org/projects/hexmaps/hexjson">
 	<meta name="twitter:title" property="og:title" content="HexJSON format">
 	<meta name="twitter:description" property="og:description" content="Defining a format for sharing hex-based maps.">
-	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
-	<script type="text/javascript" src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
-	<script>
-	S(document).ready(function(){
+	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
+	<link rel="icon" href="resources/favicon.svg" />
+	<script type="text/javascript" src="https://odileeds.github.io/odi.hexmap.js/odi.hexmap.min.js"></script>
+	<style>
+		
+	/* http://meyerweb.com/eric/tools/css/reset/ 
+	   v2.0 | 20110126
+	   License: none (public domain)
+	*/
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	  margin: 0;
+	  padding: 0;
+	  border: 0;
+	  font-size: 100%;
+	  font: inherit;
+	  vertical-align: baseline;
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
 
+	/* HTML5 display-role reset for older browsers */
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	  display: block; }
+
+	body {
+	  line-height: 1em; }
+
+	ol, ul {
+	  list-style: none; }
+
+	blockquote, q {
+	  quotes: none; }
+
+	blockquote:before, blockquote:after, q:before, q:after {
+	  content: '';
+	  content: none; }
+
+	table {
+	  border-collapse: collapse;
+	  border-spacing: 0; }
+
+	/* apply a natural box layout model to all elements */
+	*, *:before, *:after {
+	  -moz-box-sizing: border-box;
+	  -webkit-box-sizing: border-box;
+	  box-sizing: border-box; }
+
+	/* End of reset */
+	html, body {
+		padding: 0px;
+		margin: 0px;
+		min-height: 100%!important;
+		height: 100%!important;
+		background-color: #efefef;
+		font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+		font-size: 16px;
+		color: #333;
+		line-height: 1.44em;
+	}
+	.leaflet-container { font-size: inherit; }
+	h1 { font-size: 2em; line-height: 1em; }
+	h2 { font-size: 1.7em; margin-top: 1.17647em; margin-bottom: 16px; }
+	h1, h2 { margin-top: 0em; }
+	strong { font-weight: 700; }
+	em { font-style: italic; }
+	header, footer, #main {
+		width: 100%;
+		transition: margin-left 0.3s ease-in;
+	}
+	footer {
+		width: 100%;
+		padding: 1em;
+		padding-bottom: 3em;
+	}
+	footer a {
+		color: white;
+	}
+	.line {
+		text-decoration: underline;
+	}
+	.holder {
+		position: relative;
+		width: 1080px;
+		max-width: 100%;
+		margin: auto;
+	}
+	.padded { padding: 2em; }		
+	code,pre {
+		font-family: monospace;
+		color: #555555;
+		background-color: white;
+	}
+	code {
+		padding: 0.125em 0.25em;
+	}
+	pre {
+		max-width: 100%;
+		overflow-x: auto;
+		padding: 16px;
+		margin-bottom: 16px;
+	}
+	html,body { background: white; }
+	header,footer { background: black; color: white; padding: 1em; }
+	header { margin-bottom: 1em; }
+	p, iframe, h2, h3, figcaption, ul, ol, .block, .padded-bottom { margin-bottom: 16px; }
+	p:last-child, figure iframe { margin-bottom: 0; }
+	pre,code { background: #efefef; }
+
+
+	.layouts { display:grid; grid-template-columns: repeat(4,1fr); grid-gap: 1em; margin-left: 0!important; margin-bottom: 1em; }
+	.layouts li { list-style: none; text-align: center; }
+	.hexlayout { height: 250px; font-size: 1em; }
+	.hexlayout .hex-cell { fill: #efefef; stroke: #bbb; }
+	.warning {
+		color: #9F6000;
+		background-color: #FEEFB3;
+		padding: 1em;
+		margin-bottom: 1em;
+	}
+	.warning:before {
+		content:'\26a0';
+		margin-right: 0.5em;
+	}
+	.q { fill: #0DBC37; }
+	.r { fill: #178CFF; }
+	.q-axis-same .hex-cell { fill: hsl( 90, 20%, 87%); }
+	.r-axis-same .hex-cell { fill: hsl(200, 15%, 90%); }
+	.q-axis-same.r-axis-same .hex-cell { fill: hsl(60, 100%, 85%); }
+	.q-axis-same.r-axis-same .hex-label { font-weight: bold; }
+	.hex-cell.select {
+		fill: red;
+	}
+	@media screen and (max-width: 1080px) {
+		.layouts { grid-template-columns: repeat(2,1fr); }
+	}
+	@media screen and (max-width: 600px) {
+		.layouts { grid-template-columns: 100%; }
+	}
+	</style>
+	<script>
+	ODI.ready(function(){
+		hexjsonr = {
+			'layout':'odd-r',
+			'hexes':{
+				'00':{'n':'0,0','q':0,'r':0},
+				'01':{'n':'0,1','q':0,'r':1},
+				'02':{'n':'0,2','q':0,'r':2},
+				'03':{'n':'0,3','q':0,'r':3},
+				'04':{'n':'0,4','q':0,'r':4},
+				'10':{'n':'1,0','q':1,'r':0},
+				'11':{'n':'1,1','q':1,'r':1},
+				'12':{'n':'1,2','q':1,'r':2},
+				'13':{'n':'1,3','q':1,'r':3},
+				'14':{'n':'1,4','q':1,'r':4},
+				'20':{'n':'2,0','q':2,'r':0},
+				'21':{'n':'2,1','q':2,'r':1},
+				'22':{'n':'2,2','q':2,'r':2},
+				'23':{'n':'2,3','q':2,'r':3},
+				'24':{'n':'2,4','q':2,'r':4},
+				'30':{'n':'3,0','q':3,'r':0},
+				'31':{'n':'3,1','q':3,'r':1},
+				'32':{'n':'3,2','q':3,'r':2},
+				'33':{'n':'3,3','q':3,'r':3},
+				'34':{'n':'3,4','q':3,'r':4},
+				'40':{'n':'4,0','q':4,'r':0},
+				'41':{'n':'4,1','q':4,'r':1},
+				'42':{'n':'4,2','q':4,'r':2},
+				'43':{'n':'4,3','q':4,'r':3},
+				'44':{'n':'4,4','q':4,'r':4}
+			}
+		};
+		hexjsonq = {
+			'layout':'odd-q',
+			'hexes':{
+				'00':{'n':'0,0','q':0,'r':0},
+				'01':{'n':'0,1','q':0,'r':1},
+				'02':{'n':'0,2','q':0,'r':2},
+				'03':{'n':'0,3','q':0,'r':3},
+				'10':{'n':'1,0','q':1,'r':0},
+				'11':{'n':'1,1','q':1,'r':1},
+				'12':{'n':'1,2','q':1,'r':2},
+				'13':{'n':'1,3','q':1,'r':3},
+				'20':{'n':'2,0','q':2,'r':0},
+				'21':{'n':'2,1','q':2,'r':1},
+				'22':{'n':'2,2','q':2,'r':2},
+				'23':{'n':'2,3','q':2,'r':3},
+				'30':{'n':'3,0','q':3,'r':0},
+				'31':{'n':'3,1','q':3,'r':1},
+				'32':{'n':'3,2','q':3,'r':2},
+				'33':{'n':'3,3','q':3,'r':3},
+				'40':{'n':'4,0','q':4,'r':0},
+				'41':{'n':'4,1','q':4,'r':1},
+				'42':{'n':'4,2','q':4,'r':2},
+				'43':{'n':'4,3','q':4,'r':3},
+				'50':{'n':'5,0','q':5,'r':0},
+				'51':{'n':'5,1','q':5,'r':1},
+				'52':{'n':'5,2','q':5,'r':2},
+				'53':{'n':'5,3','q':5,'r':3}
+			}
+		};
+		function label(txt,attr){
+			tspans = '';
+			tspans += '<tspan class="on q" y="'+(attr.y + (-0.5)*attr['font-size'])+'" x="'+attr.x+'">q:'+attr.hex.q+'</tspan>';
+			tspans += '<tspan class="on r" y="'+(attr.y + (0.5)*attr['font-size'])+'" x="'+attr.x+'">r:'+attr.hex.r+'</tspan>';
+			return tspans;
+		}
+		function highlight(e){
+			hex = e.data.data;
+			hexes = e.data.hexmap.areas;
+			for(r in hexes){
+				matchq = (hexes[r].data.q==hex.q);
+				matchr = (hexes[r].data.r==hex.r);
+				if(matchq) hexes[r].g.classList.add('q-axis-same');
+				else hexes[r].g.classList.remove('q-axis-same');
+				if(matchr) hexes[r].g.classList.add('r-axis-same');
+				else hexes[r].g.classList.remove('r-axis-same');
+			}
+		}
+		function dehighlight(e){
+			hexes = e.data.hexmap.areas;
+			for(r in hexes){
+				hexes[r].g.classList.remove('q-axis-same');
+				hexes[r].g.classList.remove('r-axis-same');
+			}		
+		}
+		oddr = new ODI.hexmap(document.getElementById('odd-r'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonr
+		});
+		oddr.on('mouseover',highlight).on('mouseout',dehighlight);
+		hexjsonr.layout = "even-r";
+		evenr = new ODI.hexmap(document.getElementById('even-r'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonr
+		});
+		evenr.on('mouseover',highlight).on('mouseout',dehighlight);
+		oddq = new ODI.hexmap(document.getElementById('odd-q'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonq
+		});
+		oddq.on('mouseover',highlight).on('mouseout',dehighlight);
+		hexjsonq.layout = "even-q";
+		evenq = new ODI.hexmap(document.getElementById('even-q'),{
+			'label':{'show': true,'format':label,'clip':true},
+			'hexjson':hexjsonq
+		});
+		evenq.on('mouseover',highlight).on('mouseout',dehighlight);
 	});
 	</script>
 </head>
@@ -24,14 +264,14 @@
 
 	<div id="main">
 
-		<div class="b1-bg">
+		<header>
 			<div class="holder">
 				<h1>HexJSON format</h1>
 			</div>
-		</div>
+		</header>
 
 		<div class="holder">
-			<p>We want to make sharing <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">hexagon-based maps</a> - such as our <a href="constituencies.html">UK constituency hex map</a> - easy. We've defined a simple <a href="http://jsonlint.com/">JSON format</a> to achieve that. The format is:</p>
+			<p>We want to make sharing <a href="https://open-innovations.org/blog/2017-05-08-mapping-election-with-hexes">hexagon-based maps</a> - such as our <a href="constituencies/index.html">UK constituency hex map</a> - easy. We've defined a simple <a href="http://jsonlint.com/">JSON format</a> to achieve that. The format is:</p>
 			<pre><code>{
 	"layout": "odd-r",
 	"hexes": {
@@ -39,14 +279,15 @@
 		"E14000531":{"q":-3,"r":-1}
 	}
 }</code></pre>
-			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a>:</p>
-			<ul>
-				<li><code>odd-r</code> (pointy-topped)</li>
-				<li><code>even-r</code> (pointy-topped)</li>
-				<li><code>odd-q</code> (flat-topped)</li>
-				<li><code>even-q</code> (flat-topped)</li>
+			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a> (row number increasing vertically):</p>
+			<ul class="layouts">
+				<li><div id="odd-r" class="hexlayout"></div><code>odd-r</code> (pointy-topped)<br />odd numbered rows shift right</li>
+				<li><div id="even-r" class="hexlayout"></div><code>even-r</code> (pointy-topped)<br />even numbered rows shift right</li>
+				<li><div id="odd-q" class="hexlayout"></div><code>odd-q</code> (flat-topped)<br />odd numbered columns shift up</li>
+				<li><div id="even-q" class="hexlayout"></div><code>even-q</code> (flat-topped)<br />even numbered columns shift up</li>
 			</ul>
-			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates.</p>
+			<div class="warning">Note: the shifts in each coordinate system are based on the absolute column/row numbers as specified in the HexJSON file, not on their relative position in a layout. Using absolute numbers ensures that a layout still renders correctly if a column or row is added later.</div>
+			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates. You don't have to start at 0,0.</p>
 			<p>You can add your own custom data fields to each hex if you want to. Just make sure you don't use the keys <code>q</code> and <code>r</code> as they will be the coordinates e.g.</p>
 			<pre><code>{
 	"layout": "odd-r",
@@ -74,7 +315,8 @@
 			<h2>Using HexJSON</h2>
 			<p>The format is JSON so should be easy to ingest by your favourite programming language. We'll add examples that people have created below.</p>
 			<ul>
-				<li><strong>Web:</strong> Stuart Lowe created a <a href="builder.html">HexJSON builder</a> that reads a CSV file, allows you to reposition hexes, and save the output.</li>
+				<li><strong>Building a layout:</strong> Stuart Lowe created a <a href="builder.html">HexJSON builder</a> that reads a CSV file, allows you to reposition hexes, and save the output.</li>
+				<li><strong>JS:</strong> Stuart Lowe has created a <a href="https://odileeds.github.io/odi.hexmap.js/">small standalone JS library</a>.</li>
 				<li><strong>D3:</strong> Oli Hawkins has created <a href="https://github.com/olihawkins/d3-hexjson">a plugin to read HexJSON files with D3.js</a>.</li>
 				<li><strong>R:</strong> Tony Hirst wrote a series of blog posts (<a href="https://blog.ouseful.info/2017/06/28/hexjson-htmlwidget-for-r-part-1/">part 1</a>, <a href="https://blog.ouseful.info/2017/06/29/hexjson-htmlwidget-for-r-part-2/">part 2</a>, <a href="https://blog.ouseful.info/2017/06/30/hexjson-htmlwidget-for-r-part-3/">part 3</a>) which describe a HTMLWidget that renders HexJSON for R.</li>
 				<li><strong>R:</strong> Joseph Bailey has a great <a href="https://github.com/sassalley/hexmapr/">tool for generating hex maps from geospatial polygons</a>.</li>
@@ -85,13 +327,13 @@
 
 	<footer class="b1-bg">
 		<div class="holder">
-			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+			&copy; 2017 <a href="https://open-innovations.org/">Open Innovations</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
 		</div>
 	</footer>
 
-	<script src="https://odileeds.org/resources/odi.log.js"></script>
+	<script src="https://open-innovations.org/resources/oi.log.js"></script>
 	<script>
-	ODI.log.setup({'id':'odileeds','target':['odileeds.org','odileeds.github.io']}).add('action=view');
+	OI.log.setup({'id':'odileeds','target':['open-innovations.org','odileeds.github.io']}).add('action=view');
 	</script>
 
 </body>

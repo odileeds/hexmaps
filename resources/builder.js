@@ -23,7 +23,7 @@ function HexBuilder(id,attr){
 		
 		dim = Math.max(range.r.max-range.r.min, range.q.max-range.q.min);
 		
-		width = Math.min(S('#hexmap')[0].clientWidth,1080);
+		width = Math.min(S('#hexmap')[0].clientWidth,attr.width||1088);
 		height = width*(range.r.max-range.r.min)/dim;
 
 		side = width/((dim+3)*1.73205);
@@ -37,11 +37,12 @@ function HexBuilder(id,attr){
 			'minFontSize': 0,
 			'grid': true,
 			'style': {
-				'selected':{'fill-opacity':0.5, 'fill':'#EF3AAB' },
-				'default':{'fill-opacity':0.5,'fill':'#722EA5','font-size':side/4},
+				'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
+				'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
 				'grid':{'fill-opacity':0.1,'fill':'#ccc'}
 			},
 			'formatLabel': function(txt,attr){
+				if(!txt) txt = "";
 				return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
 			},
 			'search': this.attr.search
@@ -475,15 +476,11 @@ function HexBuilder(id,attr){
 	}
 
 	this.setColours = function(){
-/*
 		this.hex.setColours = function(region){
 			if(this.mapping.hexes[region].colour) return this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) return this.mapping.hexes[region].color;
-			var rs = {'YH':'#F9BC26','EM':'#00B6FF','WM':'#E6007C','EA':'#FF6700','SC':'#2254F4','NI':'#722EA5','WA':'#0DBC37','NW':'#1DD3A7','NE':'#D60303','SW':'#178CFF','LO':'#D73058','SE':'#67E767'};
-			if(this.mapping.hexes[region].a && rs[this.mapping.hexes[region].a]) return rs[this.mapping.hexes[region].a];
-			return '#EF3AAB';
+			return '#722EA5';
 		}
-	*/	
 		this.hex.updateColours();
 
 		return this;

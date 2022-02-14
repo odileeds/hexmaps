@@ -1,34 +1,34 @@
-id,name,q,r
-E05001425,"Guiseley and Rawdon",-3,3
-E05001437,"Otley and Yeadon",-2,3
-E05001411,"Adel and Wharfdale",-1,3
-E05001412,"Alwoodley",0,3
-E05001426,"Harewood",1,3
-E05001443,"Wetherby",2,3
-E05001428,"Horsforth",-2,2
-E05001442,"Weetwood",-1,2
-E05001434,"Moortown",0,2
-E05001440,"Roundhay",1,2
-E05001418,"Calverley and Farsley",-4,1
-E05001416,"Bramley and Stanningley",-3,1
-E05001432,"Kirkstall",-2,1
-E05001427,"Headingley",-1,1
-E05001419,"Chapel Allerton",0,1
-E05001430,"Killingbeck and Seacroft",1,1
-E05001438,"Pudsey",-3,0
-E05001414,"Armley",-2,0
-E05001429,"Hyde Park and Woodhouse",-1,0
-E05001424,"Gipton and Harehills",1,0
-E05001421,"Cross Gates and Whinmoor",2,0
-E05001422,"Farnley and Wortley",-3,-1
-E05001415,"Beeston and Holbeck",-2,-1
-E05001420,"City and Hunslet",-1,-1
-E05001417,"Burmantofts and Richmond Hill",0,-1
-E05001441,"Temple Newsam",1,-1
-E05001435,"Morley North",-2,-2
-E05001433,"Middleton Park",-1,-2
-E05001439,"Rothwell",0,-2
-E05001423,"Garforth and Swillington",1,-2
-E05001436,"Morley South",-2,-3
-E05001413,"Ardsley and Robin Hood",-1,-3
-E05001431,"Kippax and Methley",0,-3
+id,name,q,r,pop,colour
+E05001425,"Guiseley and Rawdon",-3,3,18253,"rgb(247, 171, 45)"
+E05001437,"Otley and Yeadon",-2,3,17616,"rgb(246, 166, 47)"
+E05001411,"Adel and Wharfedale",-1,3,15919,"rgb(248, 186, 38)"
+E05001412,"Alwoodley",0,3,17890,"rgb(245, 150, 55)"
+E05001426,"Harewood",1,3,15194,"rgb(249, 188, 38)"
+E05001443,"Wetherby",2,3,15753,"rgb(247, 172, 45)"
+E05001428,"Horsforth",-2,2,17318,"rgb(247, 172, 45)"
+E05001442,"Weetwood",-1,2,15777,"rgb(246, 160, 50)"
+E05001434,"Moortown",0,2,17595,"rgb(246, 161, 50)"
+E05001440,"Roundhay",1,2,17419,"rgb(247, 170, 45)"
+E05001418,"Calverley and Farsley",-4,1,18009,"rgb(245, 150, 54)"
+E05001416,"Bramley and Stanningley",-3,1,16582,"rgb(236, 61, 95)"
+E05001432,"Kirkstall",-2,1,15547,"rgb(239, 91, 82)"
+E05001427,"Headingley and Hyde Park",-1,1,19339,"rgb(230, 9, 119)"
+E05001419,"Chapel Allerton",0,1,17792,"rgb(241, 117, 70)"
+E05001430,"Killingbeck and Seacroft",1,1,16467,"rgb(233, 36, 107)"
+E05001438,"Pudsey",-3,0,18485,"rgb(244, 139, 60)"
+E05001414,"Armley",-2,0,16270,"rgb(235, 54, 99)"
+E05001429,"Little London and Woodhouse",-1,0,14367,"rgb(230, 0, 124)"
+E05001424,"Gipton and Harehills",0,0,16350,"rgb(235, 58, 97)"
+E05001421,"Cross Gates and Whinmoor",1,0,17819,"rgb(239, 91, 81)"
+E05001422,"Farnley and Wortley",-3,-1,17908,"rgb(237, 73, 90)"
+E05001415,"Beeston and Holbeck",-2,-1,15203,"rgb(235, 54, 98)"
+E05001420,"Hunslet and Riverside",-1,-1,17054,"rgb(236, 68, 92)"
+E05001417,"Burmantofts and Richmond Hill",0,-1,15522,"rgb(235, 52, 100)"
+E05001441,"Temple Newsam",1,-1,16437,"rgb(240, 106, 75)"
+E05001435,"Morley North",-2,-2,17733,"rgb(241, 109, 73)"
+E05001433,"Middleton Park",-1,-2,19135,"rgb(234, 44, 103)"
+E05001439,"Rothwell",0,-2,15889,"rgb(243, 133, 62)"
+E05001423,"Garforth and Swillington",1,-2,16260,"rgb(247, 170, 45)"
+E05001436,"Morley South",-2,-3,16684,"rgb(239, 93, 81)"
+E05001413,"Ardsley and Robin Hood",-1,-3,17443,"rgb(239, 97, 79)"
+E05001431,"Kippax and Methley",0,-3,16355,"rgb(242, 118, 69)"

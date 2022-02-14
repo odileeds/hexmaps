@@ -184,7 +184,7 @@ a.button:hover, button:hover, button:focus, a.button:focus { background-color: #
 
 #hexmap {
 	margin: auto;
-	width: 1080px;
+	width: 100%;
 	max-width: 100%;
 	position: relative;
 }

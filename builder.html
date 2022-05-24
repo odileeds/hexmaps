@@ -141,7 +141,7 @@
 			<div class="b1-bg">
 				<div class="holder" style="text-align:center;">
 					<a href="https://open-innovations.org/"><img src="https://open-innovations.org/resources/images/logos/oi-square-10.svg" width="100px" /></a>
-					<h1>Hex map builder</h1>
+					<h1>Hex cartogram builder</h1>
 				</div>
 			</div>
 		</header>
@@ -188,6 +188,15 @@
 	
 	<footer class="b1-bg">
 		<div class="holder">
+			<h2>Notes</h2>
+			<p>This tool will load CSV and HexJSON files. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. You can optionally colour the hexagons by including a column headed <code class="b5-bg">colour</code>.</p>
+			<p>You can export the map in three ways:</p>
+			<ol style="margin: 1em 0 1em 2em;">
+				<li>HexJSON. This is the prefered output as it can be loaded back in to this tool again.</li>
+				<li>SVG. This will save the image created in the browser. If you output as SVG you won't be able to load it back into this tool.</li>
+				<li>GeoJSON. A cartogram is not geographic but some people have requested "geographic formats" so they can use these hex cartograms with specific GIS software. To make it "geographic" we've done a very simple projection at Null Island (0&deg;, 0&deg;) keeping the result to approximately 0.1&deg;&times;0.1&deg; to try to reduce distortions. If you output as GeoJSON you won't be able to load it back into this tool.</li>
+			</ol>
+			<h2>Credits</h2>
 			&copy; 2017-22 <a href="https://odileeds.org/">Open Innovations</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
 		</div>
 	</footer>

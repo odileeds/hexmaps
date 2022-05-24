@@ -264,14 +264,16 @@ function HexBuilder(id,attr){
 		
 		// If we can save then we build the save buttons and add events to them
 		if(this.saveable){
-			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button> <button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button> <button id="savegeo" class="c10-bg">Save as fake <span class="line">G</span>eoJSON</button></p>');
+			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as HexJSON</button> <button id="savesvg" class="c10-bg">Save map as SVG</button> <button id="savegeo" class="c10-bg">Save as fake GeoJSON</button></p>');
 			// Add event to button
 			S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
 			// Add key binding
-			S(document).on('keypress',{me:this},function(e){
-				if(e.originalEvent.charCode==109) S('#savesvg').trigger('click');	// M
-				if(e.originalEvent.charCode==104) S('#save').trigger('click');		// H
-			});
+			/*
+			document.addEventListener('keydown',function(e){
+				if(e.key=="m" || e.key=="M") S('#savesvg').trigger('click');	// M
+				if(e.key=="h" || e.key=="H") S('#save').trigger('click');		// H
+				if(e.key=="g" || e.key=="G") S('#savegeo').trigger('click');		// H
+			});*/
 
 			// Add event to button
 			S('#savesvg').on('click',{me:this},function(e){ e.data.me.saveSVG(); });

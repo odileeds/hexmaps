@@ -80,6 +80,7 @@ footer {
 footer a {
 	color: white;
 }
+footer p { margin-top: 1em; }
 .line {
 	text-decoration: underline;
 }

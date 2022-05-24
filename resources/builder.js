@@ -21,7 +21,7 @@ function HexBuilder(id,attr){
 			range.q.max = Math.max(this.data.hexes[h].q,range.q.max);
 		}
 		
-		dim = Math.max(range.r.max-range.r.min, range.q.max-range.q.min);
+		var dim = Math.max(range.r.max-range.r.min, range.q.max-range.q.min);
 		
 		width = Math.min(S('#hexmap')[0].clientWidth,attr.width||1088);
 		height = width*(range.r.max-range.r.min)/dim;
@@ -80,14 +80,7 @@ function HexBuilder(id,attr){
 		});
 
 		return this;
-	}
-
-	this.addData = function(){
-		
-		this.hex.load(file,{me:this},function(e){ e.data.me.setColours("region"); });
-
-	}
-
+	};
 	
 	this.label = function(data){
 		var l = "";
@@ -101,7 +94,7 @@ function HexBuilder(id,attr){
 		}
 		S('.infobubble_inner').html(l);
 		return this;
-	}
+	};
 
 	this.saveable = (typeof Blob==="function");
 
@@ -119,7 +112,7 @@ function HexBuilder(id,attr){
 		});
 		S('form').on('submit',{me:this},function(e){
 			e.preventDefault();
-			url = S('#url')[0].value;
+			var url = S('#url')[0].value;
 			if(e.data.me.file) e.data.me.process();
 			else if(!e.data.me.file && url) e.data.me.getFromURL(url,e.data.me.process);
 			else e.data.me.message('No data provided. Please make sure you either provide a URL or file.',{'id':'error','type':'ERROR'});
@@ -132,24 +125,23 @@ function HexBuilder(id,attr){
 
 
 		// Setup the dnd listeners.
-		var _obj = this;
 		var dropZone = document.getElementById('drop_zone');
 		dropZone.addEventListener('dragover', dropOver, false);
 		dropZone.addEventListener('dragout', dragOff, false);
 		S('#standard_files').on('change',{me:this},function(e){ return e.data.me.handleFileSelect(e.originalEvent); });
 
-		var file = location.search.substr(1,);
+		var file = location.search.substr(1);
 		if(file){
 			S('#url')[0].value = file;
 			S('form').trigger('submit');
 		}
 
 		return this;
-	}
+	};
 
 	this.setup = function(){
 		return this;
-	}
+	};
 	
 	
 	this.reset = function(){
@@ -161,7 +153,7 @@ function HexBuilder(id,attr){
 		S('#'+this.id+' .options').removeClass("holder").html("");
 		S('#filedetails').remove();
 		S('#messages').html('');
-		tr = S('table.odi tr');
+		var tr = S('table.odi tr');
 		if(tr.length > 1){
 			for(var i = 1; i < tr.length; i++){
 				S(tr[i]).remove();
@@ -175,17 +167,19 @@ function HexBuilder(id,attr){
 		this.setup();
 		
 		return this;
-	}
+	};
 	
 	this.example = function(){
 		var el = S('#url');
 		el[0].value = el.attr('placeholder').replace(/^.*(https?:\/\/[^\s]+).*$/,function(m,p1){ return p1; });
 		this.getFromURL(el[0].value,this.process);
 		return this;
-	}
+	};
 
 	this.process = function(){
 		
+		var got = {};
+
 		if(!this.file.type){
 			if(this.file.name.indexOf(".csv")>=0) this.file.type = "csv";
 			if(this.file.name.indexOf(".hexjson")>=0) this.file.type = "hexjson";
@@ -200,22 +194,22 @@ function HexBuilder(id,attr){
 		
 		if(this.file.type == "csv"){
 
-			var got = {};
+			var i,j;
 			var data = this.parseCSV(this.file.contents,{'url':this.file.name});
 			this.file.csv = data;
 			this.data = { 'layout': 'odd-r', 'hexes': {} };
 			var id = 0;
 			if(data.rows > 0){
-				for(var j = 0; j < data.rows[0].length; j++){
+				for(j = 0; j < data.rows[0].length; j++){
 					if(data.rows[0][j].toLowerCase()=="id") id = j;
 				}
 			}
 			// Create a HexJSON format
-			for(var i = 0; i < data.rows.length; i++){
+			for(i = 0; i < data.rows.length; i++){
 				// Set a default in case it doesn't exist
 				this.data.hexes[data.rows[i][id]] = { "n": data.rows[i][id] };
 				// Set the properties of the hex
-				for(var j = 0; j < data.rows[i].length; j++){
+				for(j = 0; j < data.rows[i].length; j++){
 					if(data.fields.format[j]=="integer") data.rows[i][j] = parseInt(data.rows[i][j]);
 					if(data.fields.format[j]=="float") data.rows[i][j] = parseFloat(data.rows[i][j]);
 					if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j].toLowerCase()=="true" ? true : false);
@@ -231,10 +225,10 @@ function HexBuilder(id,attr){
 
 		}
 		
-		got = {};
 		var len = 0;
+		var region;
 		// Find out which q,r combinations we have
-		for(var region in this.data.hexes){
+		for(region in this.data.hexes){
 			q = this.data.hexes[region].q;
 			r = this.data.hexes[region].r;
 			if(typeof q==="number" && typeof r==="number"){
@@ -247,7 +241,7 @@ function HexBuilder(id,attr){
 		// Do we need to create dummy q, r values?
 		var q = 0;
 		var r = 0;
-		for(var region in this.data.hexes){
+		for(region in this.data.hexes){
 			if(typeof this.data.hexes[region].q!=="number" && typeof this.data.hexes[region].r!=="number"){
 				while(got[q] && got[q][r]){
 					q++;
@@ -270,7 +264,7 @@ function HexBuilder(id,attr){
 		
 		// If we can save then we build the save buttons and add events to them
 		if(this.saveable){
-			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button> <button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button></p>');
+			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button> <button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button> <button id="savegeo" class="c10-bg">Save map as fake <span class="line">G</span>eoJSON</button></p>');
 			// Add event to button
 			S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
 			// Add key binding
@@ -282,10 +276,13 @@ function HexBuilder(id,attr){
 			// Add event to button
 			S('#savesvg').on('click',{me:this},function(e){ e.data.me.saveSVG(); });
 
+			// Add event to button
+			S('#savegeo').on('click',{me:this},function(e){ e.data.me.saveGeoJSON(); });
+
 		}
 		
 		return this;
-	}
+	};
 
 	function updateClass(btn){
 		S('.switchdata').addClass('b5-bg').removeClass('c10-bg');btn.removeClass('b5-bg').addClass('c10-bg');
@@ -305,7 +302,7 @@ function HexBuilder(id,attr){
 		// Convert the CSV to a JSON structure
 		return CSV2JSON(data);
 
-	}
+	};
 
 	this.getFromURL = function(url,callback){
 		S().ajax(url,{
@@ -322,7 +319,7 @@ function HexBuilder(id,attr){
 			}
 		});
 		return this;
-	}
+	};
 
 	this.handleFileSelect = function(evt){
 
@@ -338,11 +335,12 @@ function HexBuilder(id,attr){
 
 		// files is a FileList of File objects. List some properties.
 		var output = "";
-		f = files[0];
+		var result;
+		var f = files[0];
 		this.file = {'name':f.name};
 
 		// Work out what the file type is
-		typ = "";
+		var typ = "";
 		if(f.name.indexOf(".csv")>=0) typ = "csv";
 		if(f.name.indexOf(".hexjson")>=0) typ = "hexjson";
 
@@ -390,7 +388,42 @@ function HexBuilder(id,attr){
 		this.save(str,"map.svg",'text/application/svg+xml');
 
 		return this;
-	}
+	};
+
+	// Construct a fake GeoJSON. It is "fake" in the sense that we will place the map at Null Island and scale the map to a 0.1x0.1 degree grid to try to keep it fairly Car.
+	this.saveGeoJSON = function(){
+		var h,x,y,bit,j;
+		var scale = 1/(Math.max(this.hex.maxw,this.hex.maxh)*10);
+		var geojson = {"type":"FeatureCollection","features":[]};
+		var feature;
+		for(h in this.hex.hexes){
+			x = 0;
+			y = 0;
+			feature = {"type":"Feature","geometry":{"type":"Polygon","coordinates":[[]]},"properties":clone(this.hex.mapping.hexes[h]||{})};
+			feature.properties.id = h;
+			for(bit = 0; bit < this.hex.hexes[h].path.p.length; bit++){
+				if(this.hex.hexes[h].path.p[bit][0] == "M"){
+					x = this.hex.hexes[h].path.p[bit][1][0];
+					y = this.hex.hexes[h].path.p[bit][1][1];
+				}else if(this.hex.hexes[h].path.p[bit][0] == "m"){
+					x += this.hex.hexes[h].path.p[bit][1][0];
+					y += this.hex.hexes[h].path.p[bit][1][1];
+					feature.geometry.coordinates[0].push([x*scale,-y*scale]);
+				}else if(this.hex.hexes[h].path.p[bit][0] == "l"){
+					for(j = 0; j < this.hex.hexes[h].path.p[bit][1].length; j += 2){
+						x += parseFloat(this.hex.hexes[h].path.p[bit][1][j]);
+						y += parseFloat(this.hex.hexes[h].path.p[bit][1][j+1]);
+						feature.geometry.coordinates[0].push([x*scale,-y*scale]);
+					}
+				}else if(this.hex.hexes[h].path.p[bit][0] == "z"){
+					feature.geometry.coordinates[0].push(feature.geometry.coordinates[0][0]);
+				}
+			}
+			geojson.features.push(feature);
+		}
+		this.save(JSON.stringify(geojson),"map.geojson","application/geo+json");
+		return this;
+	};
 
 	this.save = function(str,file,type){
 
@@ -421,7 +454,7 @@ function HexBuilder(id,attr){
 		}
 		dl.click();
 		return this;
-	}
+	};
 
 	this.log = function(){
 		if(this.logging || arguments[0]=="ERROR"){
@@ -438,11 +471,11 @@ function HexBuilder(id,attr){
 	this.message = function(msg,attr){
 		if(!attr) attr = {};
 		if(!attr.id) attr.id = 'default';
-		if(!attr['type']) attr['type'] = 'message';
-		if(msg) this.log(attr['type'],msg);
+		if(!attr.type) attr.type = 'message';
+		if(msg) this.log(attr.type,msg);
 		var css = "b5-bg";
-		if(attr['type']=="ERROR") css = "c12-bg";
-		if(attr['type']=="WARNING") css = "c14-bg";
+		if(attr.type=="ERROR") css = "c12-bg";
+		if(attr.type=="WARNING") css = "c14-bg";
 		if(attr['class']) css = attr['class'];
 
 		var msgel = S('#messages');
@@ -480,11 +513,11 @@ function HexBuilder(id,attr){
 			if(this.mapping.hexes[region].colour) return this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) return this.mapping.hexes[region].color;
 			return '#722EA5';
-		}
+		};
 		this.hex.updateColours();
 
 		return this;
-	}
+	};
 	
 	/**
 	 * CSVToArray parses any String of Data including '\r' '\n' characters,
@@ -553,11 +586,12 @@ function HexBuilder(id,attr){
 
 
 		var line,datum,header,types;
-		var newdata = new Array();
-		var formats = new Array();
-		var req = new Array();
+		var newdata = [];
+		var formats = [];
+		var req = [];
+		var j,i,k,rows;
 
-		for(var i = 0, rows = 0 ; i < end; i++){
+		for(i = 0, rows = 0 ; i < end; i++){
 
 			// If there is no content on this line we skip it
 			if(data[i] == "") continue;
@@ -568,7 +602,7 @@ function HexBuilder(id,attr){
 			types = new Array(line.length);
 
 			// Loop over each column in the line
-			for(var j=0; j < line.length; j++){
+			for(j=0; j < line.length; j++){
 
 				// Remove any quotes around the column value
 				datum[j] = (line[j][0]=='"' && line[j][line[j].length-1]=='"') ? line[j].substring(1,line[j].length-1) : line[j];
@@ -609,19 +643,19 @@ function HexBuilder(id,attr){
 		
 		// Now, for each column, we sum the different formats we've found
 		var format = new Array(header.length);
-		for(var j = 0; j < header.length; j++){
+		for(j = 0; j < header.length; j++){
 			var count = {};
 			var empty = 0;
-			for(var i = 0; i < newdata.length; i++){
+			for(i = 0; i < newdata.length; i++){
 				if(!newdata[i][j]) empty++;
 			}
-			for(var i = 0 ; i < formats.length; i++){
+			for(i = 0 ; i < formats.length; i++){
 				if(!count[formats[i][j]]) count[formats[i][j]] = 0;
 				count[formats[i][j]]++;
 			}
 			var mx = 0;
 			var best = "";
-			for(var k in count){
+			for(k in count){
 				if(count[k] > mx){
 					mx = count[k];
 					best = k;
@@ -634,7 +668,7 @@ function HexBuilder(id,attr){
 			if(mx > 0.8*newdata.length) format[j] = best;
 
 			// If we have a few floats in with our integers, we change the format to float
-			if(format[j] == "integer" && count['float'] > 0.1*newdata.length) format[j] = "float";
+			if(format[j] == "integer" && count.float > 0.1*newdata.length) format[j] = "float";
 
 			req.push(header[j] ? true : false);
 

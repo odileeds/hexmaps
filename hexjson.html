@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="icon" href="https://open-innovations.org/resources/images/logos/oi-square-10.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
 	<title>HexJSON format</title>
@@ -10,53 +11,60 @@
 	<meta name="twitter:title" property="og:title" content="HexJSON format">
 	<meta name="twitter:description" property="og:description" content="Defining a format for sharing hex-based maps.">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
-	<link rel="icon" href="resources/favicon.svg" />
 	<script type="text/javascript" src="https://odileeds.github.io/odi.hexmap.js/odi.hexmap.min.js"></script>
 	<style>
 		
-	/* http://meyerweb.com/eric/tools/css/reset/ 
-	   v2.0 | 20110126
-	   License: none (public domain)
-	*/
-	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-	  margin: 0;
-	  padding: 0;
-	  border: 0;
-	  font-size: 100%;
-	  font: inherit;
-	  vertical-align: baseline;
-	  -moz-box-sizing: border-box;
-	  -webkit-box-sizing: border-box;
-	  box-sizing: border-box; }
+	/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
 
-	/* HTML5 display-role reset for older browsers */
-	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	  display: block; }
-
-	body {
-	  line-height: 1em; }
-
-	ol, ul {
-	  list-style: none; }
-
-	blockquote, q {
-	  quotes: none; }
-
-	blockquote:before, blockquote:after, q:before, q:after {
-	  content: '';
-	  content: none; }
-
-	table {
-	  border-collapse: collapse;
-	  border-spacing: 0; }
-
-	/* apply a natural box layout model to all elements */
-	*, *:before, *:after {
-	  -moz-box-sizing: border-box;
-	  -webkit-box-sizing: border-box;
-	  box-sizing: border-box; }
-
-	/* End of reset */
+	@font-face {
+	  font-family: 'Poppins';
+	  font-style: italic;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VFteOcEg.woff2) format('woff2');
+	  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+	}
+	@font-face {
+	  font-family: 'Poppins';
+	  font-style: italic;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VGdeOcEg.woff2) format('woff2');
+	  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	@font-face {
+	  font-family: 'Poppins';
+	  font-style: italic;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiDyp8kv8JHgFVrJJLmr19VF9eO.woff2) format('woff2');
+	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	@font-face {
+	  font-family: 'Poppins';
+	  font-style: normal;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2) format('woff2');
+	  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+	}
+	@font-face {
+	  font-family: 'Poppins';
+	  font-style: normal;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2) format('woff2');
+	  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+	}
+	@font-face {
+	  font-family: 'Poppins';
+	  font-style: normal;
+	  font-weight: 600;
+	  font-display: swap;
+	  src: url(https://open-innovations.org/resources/fonts/Poppins/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2) format('woff2');
+	  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	}
+	h1,h2,h3,h4 { font-family: Poppins; line-height: 1em; }
 	html, body {
 		padding: 0px;
 		margin: 0px;

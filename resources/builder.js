@@ -264,7 +264,7 @@ function HexBuilder(id,attr){
 		
 		// If we can save then we build the save buttons and add events to them
 		if(this.saveable){
-			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button> <button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button> <button id="savegeo" class="c10-bg">Save map as fake <span class="line">G</span>eoJSON</button></p>');
+			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as <span class="line">H</span>exJSON</button> <button id="savesvg" class="c10-bg">Save <span class="line">m</span>ap as SVG</button> <button id="savegeo" class="c10-bg">Save as "fake" <span class="line">G</span>eoJSON</button></p>');
 			// Add event to button
 			S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
 			// Add key binding

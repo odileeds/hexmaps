@@ -1,15 +1,31 @@
-function HexBuilder(id,attr){
+function HexBuilder(el,attr){
 
 	this.name = "HexBuilder";
 	this.version = "1.1";
 	this.attr = attr;
-	this.id = id;
+	this.el = el;
+	this.id = el.getAttribute('id');
 	var side = 16;
 	var width = attr.width||1088;
 	var height = attr.height||1220;
 	var padding = 2;
 	
-	
+	this.colours = new Colours();
+	scales = {
+		'Viridis8': 'rgb(122,76,139) 0, rgb(124,109,168) 12.5%, rgb(115,138,177) 25%, rgb(107,164,178) 37.5%, rgb(104,188,170) 50%, rgb(133,211,146) 62.5%, rgb(189,229,97) 75%, rgb(254,240,65) 87.5%, rgb(254,240,65) 100%',
+		'ODI': 'rgb(114,46,165) 0%, rgb(230,0,124) 50%, rgb(249,188,38) 100%',
+		'Heat': 'rgb(0,0,0) 0%, rgb(128,0,0) 25%, rgb(255,128,0) 50%, rgb(255,255,128) 75%, rgb(255,255,255) 100%',
+		'Planck': 'rgb(0,0,255) 0, rgb(0,112,255) 16.666%, rgb(0,221,255) 33.3333%, rgb(255,237,217) 50%, rgb(255,180,0) 66.666%, rgb(255,75,0) 100%',
+		'EPC': '#ef1c3a 1%, #ef1c3a 20.5%, #f78221 20.5%, #f78221 38.5%, #f9ac64 38.5%, #f9ac64 54.5%, #ffcc00 54.5%, #ffcc00 68.5%, #8cc63f 68.5%, #8cc63f 80.5%, #1bb35b 80.5%, #1bb35b 91.5%, #00855a 91.5%, #00855a 120%',
+		'Plasma': 'rgb(12,7,134) 0, rgb(82,1,163) 12.5%, rgb(137,8,165) 25%, rgb(184,50,137) 37.5%, rgb(218,90,104) 50%, rgb(243,135,72) 62.5%, rgb(253,187,43) 75%, rgb(239,248,33) 87.5%',
+		'Referendum': '#4BACC6 0, #B6DDE8 50%, #FFF380 50%, #FFFF00 100%',
+		'Leodis': '#2254F4 0%, #F9BC26 50%, #ffffff 100%',
+		'Longside': '#801638 0%, #addde6 100%'
+	}
+	for(s in scales) this.colours.addScale(s,scales[s]);
+	this.colourscale = 'Viridis8';
+
+
 	this.createMap = function(){
 
 		// Get full range of r and q
@@ -22,14 +38,19 @@ function HexBuilder(id,attr){
 		}
 		
 		var dim = Math.max(range.r.max-range.r.min, range.q.max-range.q.min);
-		
-		width = Math.min(S('#hexmap')[0].clientWidth,attr.width||1088);
+
+		var hxel = this.el.querySelector('.hexmap');
+
+		// Set the ID for the map
+		hxel.setAttribute('id',this.id+'-hexmap');
+
+		width = Math.min(this.el.querySelector('.hexmap').clientWidth,attr.width||1088);
 		height = width*(range.r.max-range.r.min)/dim;
 
-		side = width/((dim+3)*1.73205);
-		
+		side = width/((dim+3)*1.73205);	
+
 		this.hex = new HexMap({
-			'id':'hexmap',
+			'id':this.id+'-hexmap',
 			'width':width,
 			'height':height,
 			'size':side,
@@ -45,7 +66,7 @@ function HexBuilder(id,attr){
 				if(!txt) txt = "";
 				return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
 			},
-			'search': this.attr.search
+			'search': clone(this.attr.search)
 		});
 		
 		this.hex.on('mouseover',{'builder':this},function(e){
@@ -106,6 +127,7 @@ function HexBuilder(id,attr){
 	function dragOff(){ S('.drop').removeClass('drop'); }
 
 	this.init = function(){
+
 		S('form').on('reset',{me:this},function(e){
 			e.preventDefault();
 			e.data.me.reset();
@@ -138,19 +160,17 @@ function HexBuilder(id,attr){
 
 		return this;
 	};
-
-	this.setup = function(){
-		return this;
-	};
-	
 	
 	this.reset = function(){
 		S('#drop_zone').removeClass('loaded');
 		S('#url')[0].value = "";
 		S('#drop_zone .helpertext').css({'display':''});
 		S('#results').css({'display':''});
-		S('#hexmap').html("");
-		S('#'+this.id+' .options').removeClass("holder").html("");
+
+		this.hex.el.remove();
+		this.hex.search.el.html("");
+		this.el.querySelector('.options').innerHTML = '';
+
 		S('#filedetails').remove();
 		S('#messages').html('');
 		var tr = S('table.odi tr');
@@ -160,11 +180,10 @@ function HexBuilder(id,attr){
 			}
 		}
 		S('.part').removeClass('c8-bg').addClass('b5-bg');
+		delete this.hex;
 		delete this.data;
 		delete this.url;
 		delete this.file;
-		
-		this.setup();
 		
 		return this;
 	};
@@ -177,8 +196,6 @@ function HexBuilder(id,attr){
 	};
 
 	this.process = function(){
-		
-		var got = {};
 
 		if(!this.file.type){
 			if(this.file.name.indexOf(".csv")>=0) this.file.type = "csv";
@@ -194,28 +211,121 @@ function HexBuilder(id,attr){
 		
 		if(this.file.type == "csv"){
 
-			var i,j;
+			var i,j,t;
 			var data = this.parseCSV(this.file.contents,{'url':this.file.name});
 			this.file.csv = data;
 			this.data = { 'layout': 'odd-r', 'hexes': {} };
 			var id = 0;
-			if(data.rows > 0){
-				for(j = 0; j < data.rows[0].length; j++){
-					if(data.rows[0][j].toLowerCase()=="id") id = j;
+			// https://en.wikipedia.org/wiki/ONS_coding_system
+			var gss = {
+				'PCON':{
+					'title':'Parliamentary Constituencies (2019)',
+					'patterns':[/^E14/,/^W07/,/^S14/,/^N06/],
+					'count':0,
+					'hexjson':'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/constituencies.hexjson'
+				},
+				'LAD':{
+					'title': 'Local Authority Districts (2021)',
+					'count':0,
+					'patterns':[/^E06/,/^W06/,/^S12/,/^E07/,/^E08/,/^E09/],
+					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-local-authority-districts-2021.hexjson'
+				},
+				'NUTS3':{
+					'title': 'NUTS3 regions',
+					'patterns':[/^UK[C-N][0-9]{2}$/],
+					'count': 0,
+					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-nuts3.hexjson'
+				},
+				'UTLA':{
+					'title': 'Upper Tier Local Authorities',
+					'count': 0,
+					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-upper-tier-local-authorities.hexjson'
+				},
+				'Senedd':{
+					'title': 'Senedd Constituencies',
+					'patterns':[/^W09/],
+					'count':0,
+					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/wales-senedd-constituencies.hexjson'
+				}
+			};
+			var r = -1, q = -1;
+			if(data.fields && data.fields.name){
+				for(j = 0; j < data.fields.name.length; j++){
+					if(data.fields.name[j].toLowerCase()=="id") id = j;
+					if(data.fields.name[j].toLowerCase()=="gss-code") id = j;
+					if(data.fields.name[j].toLowerCase()=="r") r = j;
+					if(data.fields.name[j].toLowerCase()=="q") q = j;
 				}
 			}
-			// Create a HexJSON format
-			for(i = 0; i < data.rows.length; i++){
-				// Set a default in case it doesn't exist
-				this.data.hexes[data.rows[i][id]] = { "n": data.rows[i][id] };
-				// Set the properties of the hex
-				for(j = 0; j < data.rows[i].length; j++){
-					if(data.fields.format[j]=="integer") data.rows[i][j] = parseInt(data.rows[i][j]);
-					if(data.fields.format[j]=="float") data.rows[i][j] = parseFloat(data.rows[i][j]);
-					if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j].toLowerCase()=="true" ? true : false);
-					this.data.hexes[data.rows[i][0]][data.fields.name[j]] = data.rows[i][j];
-					if(data.fields.name[j].toLowerCase() == "name") this.data.hexes[data.rows[i][0]].n = data.rows[i][j];
+			if(r < 0 && q < 0){
+				this.message('No coordinates given.',{'id':'process','type':'WARNING'});
+				for(j = 0; j < data.rows.length; j++){
+					got = false;
+					for(code in gss){
+						if(gss[code].patterns){
+							for(m = 0; m < gss[code].patterns.length; m++){
+								if(data.rows[j][id].match(gss[code].patterns[m])) got = true;
+							}
+							if(got) gss[code].count++;
+						}
+					}
 				}
+				var typ = {'id':'','count':0};
+				for(t in gss){
+					if(gss[t].count > typ.count && !typ.id) typ = {'id':t,'count':gss[t].count};
+				}
+				if(typ.id){
+					if(gss[typ.id].hexjson){
+						this.message('Loading '+gss[typ.id].title+' hexes',{'id':'process','type':'WARNING'});
+						S().ajax(gss[typ.id].hexjson,{
+							'dataType': 'json',
+							'this':this,
+							'data': data,
+							'id': id,
+							'success':function(result,attr){
+								this.message('Loaded '+attr.url,{'id':'process','class':'c5-bg'});
+								// Loop over HexJSON adding in data
+								this.data = result;
+								for(var r = 0; r < attr.data.rows.length; r++){
+									id = attr.data.rows[r][attr.id];
+									if(this.data.hexes[id]){
+										for(j = 0; j < attr.data.fields.name.length; j++){
+											name = attr.data.fields.name[j];
+											if(name && !this.data.hexes[id][name]) this.data.hexes[id][name] = attr.data.rows[r][j];
+										}
+									}else{
+										console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
+									}
+								}
+								
+								this.message('',{'id':'process'});
+								this.processed();
+							},
+							'error': function(e,attr){
+								this.message('Unable to load '+attr.url,{'id':'load','type':'ERROR'});
+							}
+						});
+					}else{
+						this.message('No HexJSON to load for '+t,{'id':'process','type':'WARNING'});
+					}
+				}else{
+					this.message('Unable to guess a known geography.',{'id':'process','type':'WARNING'});
+				}
+			}else{
+				// Create a HexJSON format
+				for(i = 0; i < data.rows.length; i++){
+					// Set a default in case it doesn't exist
+					this.data.hexes[data.rows[i][id]] = { "n": data.rows[i][id] };
+					// Set the properties of the hex
+					for(j = 0; j < data.rows[i].length; j++){
+						if(data.fields.format[j]=="integer") data.rows[i][j] = parseInt(data.rows[i][j]);
+						if(data.fields.format[j]=="float") data.rows[i][j] = parseFloat(data.rows[i][j]);
+						if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j].toLowerCase()=="true" ? true : false);
+						this.data.hexes[data.rows[i][0]][data.fields.name[j]] = data.rows[i][j];
+						if(data.fields.name[j].toLowerCase() == "name") this.data.hexes[data.rows[i][0]].n = data.rows[i][j];
+					}
+				}
+				return this.processed();
 			}
 
 		}else if(this.file.type == "hexjson"){
@@ -223,10 +333,17 @@ function HexBuilder(id,attr){
 			if(typeof this.file.contents==="string") this.data = JSON.parse(this.file.contents);
 			else this.data = this.file.contents;
 
+			return this.processed();
 		}
+		return this;
+	};
+
+	this.processed = function(){
 		
+		var got = {};
 		var len = 0;
 		var region;
+		this.numeric = {};
 		// Find out which q,r combinations we have
 		for(region in this.data.hexes){
 			q = this.data.hexes[region].q;
@@ -255,32 +372,79 @@ function HexBuilder(id,attr){
 				this.data.hexes[region].q = q;
 				this.data.hexes[region].r = r;
 			}
+			for(key in this.data.hexes[region]){
+				if(typeof this.data.hexes[region][key]==="number") this.numeric[key] = true;
+			}
 		}
+		
+		this.el.querySelector('.options').innerHTML = '';
+		
+		// Create a dropdown for colouring the hexes
+		div = document.createElement('div');
+		div.classList.add('config');
+		lbl = document.createElement('label');
+		lbl.innerHTML = 'Select data attribute/column to colour hexes by';
+		lbl.setAttribute('for','data-attribute');
+		div.appendChild(lbl);
+		sel = document.createElement('select');
+		sel.setAttribute('id','data-attribute');
+		sel.innerHTML = '<option>Attributes</option>';
+		for(key in this.numeric){
+			opt = document.createElement('option');
+			opt.innerHTML = key;
+			opt.setAttribute('value',key);
+			sel.appendChild(opt);
+		}
+		sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
+		div.appendChild(sel);
+		this.el.querySelector('.options').appendChild(div);
 
 
+		lbl = document.createElement('label');
+		lbl.innerHTML = 'Select colour scale';
+		lbl.setAttribute('for','data-colourscale');
+		div.appendChild(lbl);
+		cssel = document.createElement('select');
+		cssel.setAttribute('id','data-colourscale');
+		for(s in scales){
+			opt = document.createElement('option');
+			opt.innerHTML = s;
+			opt.setAttribute('value',s);
+			if(this.colourscale == s) opt.setAttribute('selected','selected');
+			cssel.appendChild(opt);
+		}
+		cssel.addEventListener('change',function(e){
+			_obj.colourscale = e.target.value;
+			_obj.setColours(sel.value);
+		});
+		div.appendChild(cssel);
+
+
+		// Create the map
 		this.createMap();
 		this.hex.load(this.data,{me:this},function(e){ e.data.me.setColours("region"); });
 		S('#'+this.id).find('.options').addClass("holder").css({'text-align':'center'});
 		
 		// If we can save then we build the save buttons and add events to them
 		if(this.saveable){
-			S('#'+this.id).find('.options').html('<p><button id="save" class="c10-bg">Save hexes as HexJSON</button> <button id="savesvg" class="c10-bg">Save map as SVG</button> <button id="savegeo" class="c10-bg">Save as fake GeoJSON</button></p>');
-			// Add event to button
-			S('#save').on('click',{me:this},function(e){ e.data.me.save(); });
-			// Add key binding
-			/*
-			document.addEventListener('keydown',function(e){
-				if(e.key=="m" || e.key=="M") S('#savesvg').trigger('click');	// M
-				if(e.key=="h" || e.key=="H") S('#save').trigger('click');		// H
-				if(e.key=="g" || e.key=="G") S('#savegeo').trigger('click');		// H
-			});*/
+			var _obj = this;
+			save = document.createElement('button');
+			save.classList.add('c10-bg');
+			save.innerHTML = 'Save hexes as HexJSON';
+			save.addEventListener('click',function(){ _obj.save(); });
+			this.el.querySelector('.options').appendChild(save);
 
-			// Add event to button
-			S('#savesvg').on('click',{me:this},function(e){ e.data.me.saveSVG(); });
+			savesvg = document.createElement('button');
+			savesvg.classList.add('c10-bg');
+			savesvg.innerHTML = 'Save map as SVG';
+			savesvg.addEventListener('click',function(){ _obj.saveSVG(); });
+			this.el.querySelector('.options').appendChild(savesvg);
 
-			// Add event to button
-			S('#savegeo').on('click',{me:this},function(e){ e.data.me.saveGeoJSON(); });
-
+			savegeo = document.createElement('button');
+			savegeo.classList.add('c10-bg');
+			savegeo.innerHTML = 'Save as fake GeoJSON';
+			savegeo.addEventListener('click',function(){ _obj.saveGeoJSON(); });
+			this.el.querySelector('.options').appendChild(savegeo);
 		}
 		
 		return this;
@@ -510,14 +674,41 @@ function HexBuilder(id,attr){
 		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
 	}
 
-	this.setColours = function(){
+
+	this.setColours = function(key){
+		if(key){
+			// Get range of data
+			var min = 1e100;
+			var max = -1e100;
+			for(region in this.hex.mapping.hexes){
+				if(typeof this.hex.mapping.hexes[region][key]==="number"){
+					min = Math.min(this.hex.mapping.hexes[region][key],min);
+					max = Math.max(this.hex.mapping.hexes[region][key],max);
+				}
+			}
+		}
+		var _obj = this;
+
 		this.hex.setColours = function(region){
-			if(this.mapping.hexes[region].colour) return this.mapping.hexes[region].colour;
-			if(this.mapping.hexes[region].color) return this.mapping.hexes[region].color;
-			return '#722EA5';
+			var c = '#722EA5';
+			if(this.mapping.hexes[region].colour) c = this.mapping.hexes[region].colour;
+			if(this.mapping.hexes[region].color) c = this.mapping.hexes[region].color;
+			if(typeof this.mapping.hexes[region][key]==="number") c = _obj.colours.getColourFromScale(_obj.colourscale,this.mapping.hexes[region][key],min,max);
+			return c;
 		};
 		this.hex.updateColours();
-
+		
+		// Update colour scale bar
+		/*
+		colour.getGradient( this.views[this.options.view].layers[l].colourscale ),{
+						'min': this.views[this.options.view].layers[l].range.min,
+						'max': this.views[this.options.view].layers[l].range.max,
+						'color': color,
+						'scale': this.views[this.options.view].layers[l].colour,
+						'scaleid': this.views[this.options.view].layers[l].colourscale,
+						'levels': (typeof this.options.map.quantised==="number" ? this.options.map.quantised : undefined)
+					}));
+		*/
 		return this;
 	};
 	
@@ -618,6 +809,7 @@ function HexBuilder(id,attr){
 						// If it is an integer and in the range 1700-2100 we'll guess it is a year
 						if(datum[j] >= 1700 && datum[j] < 2100) types[j] = "year";
 					}
+					datum[j] = parseFloat(datum[j]);
 				}else if(datum[j].search(/^(true|false)$/i) >= 0){
 					// The format is boolean
 					types[j] = "boolean";

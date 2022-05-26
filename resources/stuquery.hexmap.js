@@ -279,9 +279,8 @@ function HexMap(attr){
 		this.init = function(){
 
 			if(this.attr.id) this.el = S('#'+this.attr.id);
-
 			if(this.el.length == 0){
-				S('#'+hexmap.id).append('<div class="hex-search"></div>');
+				S('#'+_obj.id).append('<div class="hex-search"></div>');
 				this.el = S('#'+_obj.id+' .hex-search');
 			}
 
@@ -640,20 +639,17 @@ function HexMap(attr){
 		
 	this.size();
 	if(attr.file) this.load(attr.file);
-	
-	
-	console.log('search',attr.search);
+
 	this.search = new Search(attr.search);
-
-
 	return this;
 }
 
 
+/* ============== */
+/* Colours v0.3.2 */
 // Define colour routines
 function Colour(c,n){
 	if(!c) return {};
-
 	function d2h(d) { return ((d < 16) ? "0" : "")+d.toString(16);}
 	function h2d(h) {return parseInt(h,16);}
 	/**
@@ -662,13 +658,15 @@ function Colour(c,n){
 	 * Assumes r, g, and b are contained in the set [0, 255] and
 	 * returns h, s, and v in the set [0, 1].
 	 *
-	 * @param   Number  r       The red color value
-	 * @param   Number  g       The green color value
-	 * @param   Number  b       The blue color value
-	 * @return  Array           The HSV representation
+	 * @param	Number  r		 The red color value
+	 * @param	Number  g		 The green color value
+	 * @param	Number  b		 The blue color value
+	 * @return  Array			  The HSV representation
 	 */
 	function rgb2hsv(r, g, b){
-		r = r/255, g = g/255, b = b/255;
+		r = r/255;
+		g = g/255;
+		b = b/255;
 		var max = Math.max(r, g, b), min = Math.min(r, g, b);
 		var h, s, v = max;
 		var d = max - min;
@@ -703,7 +701,137 @@ function Colour(c,n){
 	for(r = 0, sat = 0; r < this.rgb.length ; r++){
 		if(this.rgb[r] > 200) sat++;
 	}
-	this.text = (this.rgb[0] + this.rgb[1] + this.rgb[2] > 500 || sat > 1) ? "black" : "white";
+	this.toString = function(){
+		return 'rgb'+(this.alpha < 1 ? 'a':'')+'('+this.rgb[0]+','+this.rgb[1]+','+this.rgb[2]+(this.alpha < 1 ? ','+this.alpha:'')+')';
+	};
+	this.text = (this.rgb[0]*0.299 + this.rgb[1]*0.587 + this.rgb[2]*0.114 > 186 ? "black":"white");
 	return this;
 }
+function Colours(){
+	var scales = {
+		'Viridis': 'rgb(68,1,84) 0%, rgb(72,35,116) 10%, rgb(64,67,135) 20%, rgb(52,94,141) 30%, rgb(41,120,142) 40%, rgb(32,143,140) 50%, rgb(34,167,132) 60%, rgb(66,190,113) 70%, rgb(121,209,81) 80%, rgb(186,222,39) 90%, rgb(253,231,36) 100%'
+	};
+	function col(a){
+		if(typeof a==="string") return new Colour(a);
+		else return a;
+	}
+	this.getColourPercent = function(pc,a,b,inParts){
+		var c;
+		pc /= 100;
+		a = col(a);
+		b = col(b);
+		c = {'r':parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc),'g':parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc),'b':parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc),'alpha':1};
+		if(a.alpha<1 || b.alpha<1) c.alpha = ((b.alpha-a.alpha)*pc + a.alpha);
+		if(inParts) return c;
+		else return 'rgb'+(c.alpha && c.alpha<1 ? 'a':'')+'('+c.r+','+c.g+','+c.b+(c.alpha && c.alpha<1 ? ','+c.alpha:'')+')';
+	};
+	this.makeGradient = function(a,b){
+		a = col(a);
+		b = col(b);
+		var grad = a.toString()+' 0%, '+b.toString()+' 100%';
+		if(b) return 'background: '+a.toString()+'; background: -moz-linear-gradient(left, '+grad+');background: -webkit-linear-gradient(left, '+grad+');background: linear-gradient(to right, '+grad+');';
+		else return 'background: '+a.toString()+';';
+	};
+	this.getGradient = function(id){
+		return 'background: -moz-linear-gradient(left, '+scales[id].str+');background: -webkit-linear-gradient(left, '+scales[id].str+');background: linear-gradient(to right, '+scales[id].str+');';
+	};
+	this.addScale = function(id,str){
+		scales[id] = str;
+		processScale(id,str);
+		return this;
+	};
+	this.quantiseScale = function(id,n,id2){
+		var cs,m,pc,step,i;
+		cs = [];
+		m = n-1;
+		pc = 0;
+		step = 100/n;
+		for(i = 0; i < m; i++){
+			cs.push(this.getColourFromScale(id,i,0,m)+' '+(pc)+'%');
+			cs.push(this.getColourFromScale(id,i,0,m)+' '+(pc+step)+'%');
+			pc += step;
+		}
+		cs.push(this.getColourFromScale(id,1,0,1)+' '+(pc)+'%');
+		cs.push(this.getColourFromScale(id,1,0,1)+' 100%');
+		this.addScale(id2,cs.join(", "));
+		return this;
+	};
+	function processScale(id,str){
+		if(scales[id] && scales[id].str){
+			console.warn('Colour scale '+id+' already exists. Bailing out.');
+			return this;
+		}
+		scales[id] = {'str':str};
+		scales[id].stops = extractColours(str);
+		return this;
+	}
+	function extractColours(str){
+		var stops,cs,i,c;
+		stops = str.replace(/^\s+/g,"").replace(/\s+$/g,"").replace(/\s\s/g," ").split(', ');
+		cs = [];
+		for(i = 0; i < stops.length; i++){
+			var bits = stops[i].split(/ /);
+			if(bits.length==2) cs.push({'v':bits[1],'c':new Colour(bits[0])});
+			else if(bits.length==1) cs.push({'c':new Colour(bits[0])});
+		}
+		
+		for(c=0; c < cs.length;c++){
+			if(cs[c].v){
+				// If a colour-stop has a percentage value provided, 
+				if(cs[c].v.indexOf('%')>=0) cs[c].aspercent = true;
+				cs[c].v = parseFloat(cs[c].v);
+			}
+		}
+		return cs;
+	}
 
+	// Process existing scales
+	for(var id in scales){
+		if(scales[id]) processScale(id,scales[id]);
+	}
+	
+	// Return a Colour object for a string
+	this.getColour = function(str){
+		return new Colour(str);
+	};
+	// Return the colour scale string
+	this.getColourScale = function(id){
+		return scales[id].str;
+	};
+	// Return the colour string for this scale, value and min/max
+	this.getColourFromScale = function(s,v,min,max,inParts){
+		var cs,v2,pc,c,cfinal;
+		if(typeof inParts!=="boolean") inParts = false;
+		if(!scales[s]){
+			this.log('WARNING','No colour scale '+s+' exists');
+			return '';
+		}
+		if(typeof v!=="number") v = 0;
+		if(typeof min!=="number") min = 0;
+		if(typeof max!=="number") max = 1;
+		cs = scales[s].stops;
+		v2 = 100*(v-min)/(max-min);
+		cfinal = {};
+		if(v==max){
+			cfinal = {'r':cs[cs.length-1].c.rgb[0],'g':cs[cs.length-1].c.rgb[1],'b':cs[cs.length-1].c.rgb[2],'alpha':cs[cs.length-1].c.alpha};
+		}else{
+			if(cs.length == 1){
+				cfinal = {'r':cs[0].c.rgb[0],'g':cs[0].c.rgb[1],'b':cs[0].c.rgb[2],'alpha':(v2/100).toFixed(3)};
+			}else{
+				for(c = 0; c < cs.length-1; c++){
+					if(v2 >= cs[c].v && v2 <= cs[c+1].v){
+						// On this colour stop
+						pc = 100*(v2 - cs[c].v)/(cs[c+1].v-cs[c].v);
+						if(pc > 100) pc = 100;	// Don't go above colour range
+						cfinal = this.getColourPercent(pc,cs[c].c,cs[c+1].c,true);
+						continue;
+					}
+				}
+			}
+		}
+		if(inParts) return cfinal;
+		else return 'rgba(' + cfinal.r + ',' + cfinal.g + ',' + cfinal.b + ',' + cfinal.alpha + ")";
+	};
+	
+	return this;
+}

@@ -246,6 +246,12 @@ function HexBuilder(el,attr){
 					'patterns':[/^W09/],
 					'count':0,
 					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/wales-senedd-constituencies.hexjson'
+				},
+				'MSOA':{
+					'title': 'MSOAs',
+					'patterns':[/^[EWS]02/],
+					'count': 0,
+					'hexjson': 'https://raw.githubusercontent.com/houseofcommonslibrary/uk-hex-cartograms-noncontiguous/main/hexjson/msoa_hex_coords.hexjson'
 				}
 			};
 			var r = -1, q = -1;

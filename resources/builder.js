@@ -259,6 +259,7 @@ function HexBuilder(el,attr){
 				for(j = 0; j < data.fields.name.length; j++){
 					if(data.fields.name[j].toLowerCase()=="id") id = j;
 					if(data.fields.name[j].toLowerCase()=="gss-code") id = j;
+					if(data.fields.name[j].toLowerCase()=="code") id = j;
 					if(data.fields.name[j].toLowerCase()=="r") r = j;
 					if(data.fields.name[j].toLowerCase()=="q") q = j;
 				}
@@ -282,7 +283,7 @@ function HexBuilder(el,attr){
 				}
 				if(typ.id){
 					if(gss[typ.id].hexjson){
-						this.message('Loading '+gss[typ.id].title+' hexes',{'id':'process','type':'WARNING'});
+						this.message('Loading '+gss[typ.id].title+' hexes from '+gss[typ.id].hexjson,{'id':'process','type':'WARNING'});
 						S().ajax(gss[typ.id].hexjson,{
 							'dataType': 'json',
 							'this':this,

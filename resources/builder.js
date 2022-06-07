@@ -435,23 +435,28 @@ function HexBuilder(el,attr){
 		// If we can save then we build the save buttons and add events to them
 		if(this.saveable){
 			var _obj = this;
+			var div = document.createElement('div');
+			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">The HexJSON format can be reloaded in this tool for further editing.</p><div id="save-secondary"></div><p style="color:#999;">These formats can\'t be reloaded in this tool.</p>';
+			this.el.querySelector('.options').appendChild(div);
+
 			save = document.createElement('button');
 			save.classList.add('c10-bg');
 			save.innerHTML = 'Save hexes as HexJSON';
 			save.addEventListener('click',function(){ _obj.save(); });
-			this.el.querySelector('.options').appendChild(save);
+			console.log(div);
+			div.querySelector('#save-primary').appendChild(save);
 
 			savesvg = document.createElement('button');
 			savesvg.classList.add('c10-bg');
 			savesvg.innerHTML = 'Save map as SVG';
 			savesvg.addEventListener('click',function(){ _obj.saveSVG(); });
-			this.el.querySelector('.options').appendChild(savesvg);
+			div.querySelector('#save-secondary').appendChild(savesvg);
 
 			savegeo = document.createElement('button');
 			savegeo.classList.add('c10-bg');
 			savegeo.innerHTML = 'Save as fake GeoJSON';
 			savegeo.addEventListener('click',function(){ _obj.saveGeoJSON(); });
-			this.el.querySelector('.options').appendChild(savegeo);
+			div.querySelector('#save-secondary').appendChild(savegeo);
 		}
 		
 		return this;

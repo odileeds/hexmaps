@@ -20,7 +20,8 @@ function HexBuilder(el,attr){
 		'Plasma': 'rgb(12,7,134) 0, rgb(82,1,163) 12.5%, rgb(137,8,165) 25%, rgb(184,50,137) 37.5%, rgb(218,90,104) 50%, rgb(243,135,72) 62.5%, rgb(253,187,43) 75%, rgb(239,248,33) 87.5%',
 		'Referendum': '#4BACC6 0, #B6DDE8 50%, #FFF380 50%, #FFFF00 100%',
 		'Leodis': '#2254F4 0%, #F9BC26 50%, #ffffff 100%',
-		'Longside': '#801638 0%, #addde6 100%'
+		'Longside': '#801638 0%, #addde6 100%',
+		'Black': '#000000 0%, #000000 100%'
 	}
 	for(s in scales) this.colours.addScale(s,scales[s]);
 	this.colourscale = 'Viridis8';

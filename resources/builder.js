@@ -152,11 +152,21 @@ function HexBuilder(el,attr){
 		dropZone.addEventListener('dragout', dragOff, false);
 		S('#standard_files').on('change',{me:this},function(e){ return e.data.me.handleFileSelect(e.originalEvent); });
 
-		var file = location.search.substr(1);
+		// Get parts of the query string
+		var str = location.search.substr(1);
+		var bits = str.split(/\&/);
+		this.keys = {'url':bits[0]};
+		for(var b = 1; b < bits.length; b++){
+			kv = bits[b].split(/=/);
+			this.keys[kv[0]] = kv[1];
+		}
+		var file = this.keys.url;
 		if(file){
 			S('#url')[0].value = file;
 			S('form').trigger('submit');
 		}
+		if(this.keys.colourscale && scales[this.keys.colourscale]) this.colourscale = this.keys.colourscale;
+
 
 		return this;
 	};
@@ -400,6 +410,7 @@ function HexBuilder(el,attr){
 			opt = document.createElement('option');
 			opt.innerHTML = key;
 			opt.setAttribute('value',key);
+			if(this.keys.attribute && key == this.keys.attribute) opt.setAttribute('selected','selected');
 			sel.appendChild(opt);
 		}
 		sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
@@ -443,7 +454,6 @@ function HexBuilder(el,attr){
 			save.classList.add('c10-bg');
 			save.innerHTML = 'Save hexes as HexJSON';
 			save.addEventListener('click',function(){ _obj.save(); });
-			console.log(div);
 			div.querySelector('#save-primary').appendChild(save);
 
 			savesvg = document.createElement('button');
@@ -458,7 +468,10 @@ function HexBuilder(el,attr){
 			savegeo.addEventListener('click',function(){ _obj.saveGeoJSON(); });
 			div.querySelector('#save-secondary').appendChild(savegeo);
 		}
-		
+
+		// Set the chosen attribute if one has been provided in the query string
+		if(this.keys.attribute) this.setColours(this.keys.attribute);
+
 		return this;
 	};
 

@@ -71,6 +71,7 @@
 		height: 100%;
 		opacity: 0.01;
 	}
+	.config label { margin-left: 1em; margin-right: 0.25em; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner img { width: 5em; margin: auto; }
 	.hexmap svg { margin: auto; display: block; }
@@ -154,25 +155,25 @@
 		</div>
 
 		<div class="holder">
-			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex cartograms</a> so we've created a tool <em>to help you make hex layouts</em> from your own data. You can either read in an existing <a href="hexjson.html">HexJSON file</a> or start creating your own hex cartogram from a CSV file. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. You can optionally colour the hexagons by including a column headed <code class="b5-bg">colour</code>. Once you have hexagons, move them to your desired positions (click one then click an empty hex to move it there). When you have everything where you want it, save the output. Note that this tool is for creating layouts rather than fully interactive visualisations.</p>
+			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex cartograms</a> so we've created a tool <em>to help you make hex layouts</em> from your own data. Read the <a href="#notes">notes below for more details</a>.</p>
 			
 			<form id="validation_form" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" >
 
 				<section class="chooser">
 					<div class="part b5-bg">
 						<!--<label for="url">URL</label><input id="url" type="url" name="url" class="" placeholder="e.g. https://odileeds.github.io/hexmaps/data/wards-leeds.csv" pattern="https://.*" />-->
-						<label for="url">URL (CSV or HexJSON)</label><input id="url" type="text" name="url" class="" placeholder="e.g. https://odileeds.github.io/hexmaps/data/wards-leeds.csv" />
+						<label for="url"><strong>Load URL</strong> (CSV or <a href="hexjson.html">HexJSON</a>)</label><input id="url" type="text" name="url" class="" placeholder="e.g. https://odileeds.github.io/hexmaps/data/wards-leeds.csv" />
 					</div>
 					<div class="vs">or</div>
 					<div class="part b5-bg dropzone" id="drop_zone">
-						<label for="standard_files">File</label>
+						<label for="standard_files"><strong>Load file</strong></label>
 						<div class="helpertext">Drop a .csv or .hexjson file here (or click to browse files)</div>
 						<input id="standard_files" class="fileselect" type="file" title="browse" name="file" accept=".csv, .hexjson">
 					</div>
 				</section>
-				<button id="submit" type="submit" class="button c10-bg">Hexify</button>
-				<button id="example" class="c8-bg">Load example</button>
+				<button id="submit" type="submit" class="button c10-bg" style="float:right;">Hexify</button>
 				<button id="reset" type="reset" class="c8-bg">Reset</button>
+				<button id="example" class="c8-bg">Load example</button>
 			</form>
 		</div>
 
@@ -191,8 +192,8 @@
 	
 	<footer class="b1-bg">
 		<div class="holder">
-			<h2>Notes</h2>
-			<p>This tool will load CSV and HexJSON files. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. You can optionally colour the hexagons by including a column headed <code class="b5-bg">colour</code>.</p>
+			<h2 id="notes">Notes</h2>
+			<p>You can either read in an existing <a href="hexjson.html">HexJSON</a> file or start creating your own hex cartogram from a CSV file. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. You can optionally colour the hexagons by including a column headed <code class="b5-bg">colour</code>. When you have everything where you want it, save the output. Note that this tool is for creating layouts rather than fully interactive visualisations.</p>
 			<p>You can export the map in three ways:</p>
 			<ol style="margin: 1em 0 1em 2em;">
 				<li>HexJSON. This is the prefered output as it can be loaded back in to this tool again.</li>

@@ -159,7 +159,7 @@ function HexBuilder(el,attr){
 		var str = location.search.substr(1);
 		var bits = str.split(/\&/);
 		for(var b = 0; b < bits.length; b++){
-			if(bits[b].indexOf('http')==0){
+			if(bits[b].indexOf('http')==0 || bits[b].indexOf("=") == -1){
 				this.query.url = bits[b];
 			}else{
 				kv = bits[b].split(/=/);
@@ -269,6 +269,12 @@ function HexBuilder(el,attr){
 					'patterns':[/^[EWS]02/],
 					'count': 0,
 					'hexjson': 'https://raw.githubusercontent.com/houseofcommonslibrary/uk-hex-cartograms-noncontiguous/main/hexjson/msoa_hex_coords.hexjson'
+				},
+				'ICB':{
+					'title': 'NHS ICBs',
+					'patterns':[/^Q[A-Z0-9]{2}$/],
+					'count':0,
+					'hexjson': 'maps/nhs-icb-2022.hexjson'
 				}
 			};
 			var r = -1, q = -1;
@@ -513,7 +519,8 @@ function HexBuilder(el,attr){
 		}
 
 		// Set the chosen attribute if one has been provided in the query string
-		if(this.query.attribute) this.setColours(this.query.attribute);
+		this.setColours(this.query.attribute);
+		
 		this.setLabelState();
 
 		return this;
@@ -786,23 +793,25 @@ function HexBuilder(el,attr){
 			var c = '#722EA5';
 			if(this.mapping.hexes[region].colour) c = this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) c = this.mapping.hexes[region].color;
-			v = this.mapping.hexes[region][key];
-			ok = false;
-			if(typeof v==="number"){
-				ok = true;
-			}else if(typeof v==="string"){
-				if(_obj.numeric[key].type==="date"){
-					if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
-						v = (new Date(v+'T12:00Z')).getTime();
-						ok = true;
-					}else if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
-						v = (new Date(v)).getTime();
-						ok = true;
+			if(key){
+				v = this.mapping.hexes[region][key];
+				ok = false;
+				if(typeof v==="number"){
+					ok = true;
+				}else if(typeof v==="string"){
+					if(_obj.numeric[key].type==="date"){
+						if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
+							v = (new Date(v+'T12:00Z')).getTime();
+							ok = true;
+						}else if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
+							v = (new Date(v)).getTime();
+							ok = true;
+						}
 					}
 				}
+				if(ok) c = _obj.colours.getColourFromScale(_obj.colourscale,v,min,max);
+				else c = 'darkgray';
 			}
-			if(ok) c = _obj.colours.getColourFromScale(_obj.colourscale,v,min,max);
-			else c = 'darkgray';
 			return c;
 		};
 		this.hex.updateColours();

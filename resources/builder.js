@@ -275,6 +275,12 @@ function HexBuilder(el,attr){
 					'patterns':[/^Q[A-Z0-9]{2}$/],
 					'count':0,
 					'hexjson': 'maps/nhs-icb-2022.hexjson'
+				},
+				'US-States':{
+					'title': 'US States',
+					'patterns':[/^(AL|AK|AZ|AR|CA|CO|CT|DC|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)$/],
+					'count':0,
+					'hexjson': 'maps/us-states.hexjson'
 				}
 			};
 			var r = -1, q = -1;

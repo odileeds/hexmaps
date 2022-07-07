@@ -193,11 +193,12 @@
 		<div class="holder">
 			<h2 id="notes">Notes</h2>
 			<p>You can either read in an existing <a href="hexjson.html">HexJSON</a> file or start creating your own hex cartogram from a CSV file. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. You can optionally colour the hexagons by including a column headed <code class="b5-bg">colour</code>. When you have everything where you want it, save the output. Note that this tool is for creating layouts rather than fully interactive visualisations.</p>
-			<p>You can export the map in three ways:</p>
+			<p>You can export the map in four ways:</p>
 			<ol style="margin: 1em 0 1em 2em;">
 				<li>HexJSON. This is the prefered output as it can be loaded back in to this tool again.</li>
 				<li>SVG. This will save the image created in the browser. If you output as SVG you won't be able to load it back into this tool.</li>
 				<li>GeoJSON. A cartogram is not geographic but some people have requested "geographic formats" so they can use these hex cartograms with specific GIS software. To make it "geographic" we've done a very simple projection at Null Island (0&deg;, 0&deg;) keeping the result to approximately 0.1&deg;&times;0.1&deg; to try to reduce distortions. If you output as GeoJSON you won't be able to load it back into this tool.</li>
+				<li>PNG. This will save the map (without the grid) as an image that you can use elsewhere. You won't be able to load it back into this tool but it is useful for screenshots.</li>
 			</ol>
 			<h2>Credits</h2>
 			&copy; 2017-22 <a href="https://odileeds.org/">Open Innovations</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.

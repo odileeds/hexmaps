@@ -9,6 +9,7 @@ function HexBuilder(el,attr){
 	var width = attr.width||1088;
 	var height = attr.height||1220;
 	var padding = 2;
+	this.query = {'labels':true};
 	
 	this.colours = new Colours();
 	scales = {
@@ -156,21 +157,22 @@ function HexBuilder(el,attr){
 		// Get parts of the query string
 		var str = location.search.substr(1);
 		var bits = str.split(/\&/);
-		this.keys = {};
 		for(var b = 0; b < bits.length; b++){
 			if(bits[b].indexOf('http')==0){
-				this.keys.url = bits[b];
+				this.query.url = bits[b];
 			}else{
 				kv = bits[b].split(/=/);
-				this.keys[kv[0]] = kv[1];
+				if(kv[1]=="true") kv[1] = true;
+				if(kv[1]=="false") kv[1] = false;
+				this.query[kv[0]] = kv[1];
 			}
 		}
-		var file = this.keys.url;
+		var file = this.query.url;
 		if(file){
 			S('#url')[0].value = file;
 			S('form').trigger('submit');
 		}
-		if(this.keys.colourscale && scales[this.keys.colourscale]) this.colourscale = this.keys.colourscale;
+		if(this.query.colourscale && scales[this.query.colourscale]) this.colourscale = this.query.colourscale;
 
 
 		return this;
@@ -424,7 +426,7 @@ function HexBuilder(el,attr){
 			opt = document.createElement('option');
 			opt.innerHTML = key;
 			opt.setAttribute('value',key);
-			if(this.keys.attribute && key == this.keys.attribute) opt.setAttribute('selected','selected');
+			if(this.query.attribute && key == this.query.attribute) opt.setAttribute('selected','selected');
 			sel.appendChild(opt);
 		}
 		sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
@@ -484,9 +486,20 @@ function HexBuilder(el,attr){
 		}
 
 		// Set the chosen attribute if one has been provided in the query string
-		if(this.keys.attribute) this.setColours(this.keys.attribute);
+		if(this.query.attribute) this.setColours(this.query.attribute);
+		this.setLabelState();
 
 		return this;
+	};
+	this.setLabelState = function(){
+		var labels = document.querySelectorAll('.hex-label');
+		var label = this.query.labels ? '':'none';
+		for(var l = 0; l < labels.length; l++) labels[l].style.display = label;
+		return this;
+	};
+	this.toggleLabels = function(){
+		this.query.labels = !this.query.labels;
+		return this.setLabelState();
 	};
 
 	function updateClass(btn){

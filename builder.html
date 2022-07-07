@@ -133,6 +133,8 @@
 	.options .save { margin-top: 1em; }
 	select,input { line-height: 2em; height: 2em; font-size: 1em; }
 	.infobubble { color: black; line-height: 1.25em; }
+	footer p { margin-bottom: 1em; }
+	footer h2 { margin-top: 2em; }
 	</style>
 </head>
 <body class="b1-bg">
@@ -193,6 +195,11 @@
 		<div class="holder">
 			<h2 id="notes">Notes</h2>
 			<p>You can either read in an existing <a href="hexjson.html">HexJSON</a> file or start creating your own hex cartogram from a CSV file. The CSV should contain a column with the heading <code class="b5-bg">id</code> that uniquely identifies each hex. Other columns will be added as properties of each hex. You can specify the position of the hex using the column headings <code class="b5-bg">q</code> and <code class="b5-bg">r</code>. A column with the heading <code class="b5-bg">n</code> or <code class="b5-bg">name</code> will set the displayed name of the hex. You can optionally colour the hexagons by including a column headed <code class="b5-bg">colour</code>. When you have everything where you want it, save the output. Note that this tool is for creating layouts rather than fully interactive visualisations.</p>
+			<h2>Using existing layouts</h2>
+			<p>We already know about defined hex layouts for <a href="maps/uk-local-authority-districts-2021.hexjson">UK local authorities</a>, <a href="maps/constituencies.hexjson">UK Parliamentary constituencies</a>, <a href="maps/uk-nuts3.hexjson">UK NUTS3 regions</a>, <a href="maps/uk-upper-tier-local-authorities.hexjson">UK Upper Tier Local Authorities</a>, <a href="https://raw.githubusercontent.com/houseofcommonslibrary/uk-hex-cartograms-noncontiguous/main/hexjson/msoa_hex_coords.hexjson">MSOAs</a>, <a href="maps/nhs-icb-2022.hexjson">NHS Integrated Care Boards</a>, and <a href="maps/us-states.hexjson">US States</a>. If you have a CSV that appears to have a column with codes for one of those, the Builder will try to load an existing hex map layout for you and add the data to that. That means you can use this tool as a simple visualisation tool for CSV files on the web too. For instance, there is <a href="https://github.com/CivilServiceUSA/us-states/blob/master/data/states.csv">a CSV of US State data on Github</a> which has state 2-letter codes so we can load it straight into the Builder and show <a href="https://open-innovations.org/projects/hexmaps/builder.html?https://raw.githubusercontent.com/CivilServiceUSA/us-states/master/data/states.csv&attribute=admission_number">US States coloured by admission number</a>. You can build your own links to this tool of the form:</p>
+			<pre>https://open-innovations.org/projects/hexmaps/builder.html?<em>https://docs.google.com/spreadsheets/d/1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw/gviz/tq?tqx=out:csv</em>&amp;attribute=admission_number&amp;colourscale=Viridis&amp;labels=false</pre>
+			<p>where you can replace <code>https://docs.google.com/spreadsheets/d/1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw/gviz/tq?tqx=out:csv</code> with the URL of a CSV file (if you have an open Google Sheet you can just replace the <code>1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw</code> in that example with your Sheet ID), <code>attribute</code> is the column heading for the numerical/ISO8601 column in the CSV, <code>colourscale</code> is one of our named colour scales, and <code>labels</code> can be used to turn on/off the hex labels.</p>
+			<h2>Exporting the map</h2>
 			<p>You can export the map in four ways:</p>
 			<ol style="margin: 1em 0 1em 2em;">
 				<li>HexJSON. This is the prefered output as it can be loaded back in to this tool again.</li>

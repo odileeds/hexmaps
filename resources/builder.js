@@ -155,10 +155,14 @@ function HexBuilder(el,attr){
 		// Get parts of the query string
 		var str = location.search.substr(1);
 		var bits = str.split(/\&/);
-		this.keys = {'url':bits[0]};
-		for(var b = 1; b < bits.length; b++){
-			kv = bits[b].split(/=/);
-			this.keys[kv[0]] = kv[1];
+		this.keys = {};
+		for(var b = 0; b < bits.length; b++){
+			if(bits[b].indexOf('http')==0){
+				this.keys.url = bits[b];
+			}else{
+				kv = bits[b].split(/=/);
+				this.keys[kv[0]] = kv[1];
+			}
 		}
 		var file = this.keys.url;
 		if(file){
@@ -305,13 +309,17 @@ function HexBuilder(el,attr){
 								this.data = result;
 								for(var r = 0; r < attr.data.rows.length; r++){
 									id = attr.data.rows[r][attr.id];
-									if(this.data.hexes[id]){
-										for(j = 0; j < attr.data.fields.name.length; j++){
-											name = attr.data.fields.name[j];
-											if(name && !this.data.hexes[id][name]) this.data.hexes[id][name] = attr.data.rows[r][j];
+									if(id){
+										if(this.data.hexes[id]){
+											for(j = 0; j < attr.data.fields.name.length; j++){
+												name = attr.data.fields.name[j];
+												if(name && !this.data.hexes[id][name]) this.data.hexes[id][name] = attr.data.rows[r][j];
+											}
+										}else{
+											console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
 										}
 									}else{
-										console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
+										console.warn('Missing ID on line '+r);
 									}
 								}
 								
@@ -356,10 +364,10 @@ function HexBuilder(el,attr){
 	};
 
 	this.processed = function(){
-		
-		var got = {};
-		var len = 0;
-		var region;
+		var got,len,region,s,q,r,d;
+		got = {};
+		len = 0;
+		region;
 		this.numeric = {};
 		// Find out which q,r combinations we have
 		for(region in this.data.hexes){
@@ -371,10 +379,10 @@ function HexBuilder(el,attr){
 			}
 			len++;
 		}
-		var s = Math.ceil(Math.sqrt(len)) + padding*2;
+		s = Math.ceil(Math.sqrt(len)) + padding*2;
 		// Do we need to create dummy q, r values?
-		var q = 0;
-		var r = 0;
+		q = 0;
+		r = 0;
 		for(region in this.data.hexes){
 			if(typeof this.data.hexes[region].q!=="number" && typeof this.data.hexes[region].r!=="number"){
 				while(got[q] && got[q][r]){
@@ -390,7 +398,14 @@ function HexBuilder(el,attr){
 				this.data.hexes[region].r = r;
 			}
 			for(key in this.data.hexes[region]){
-				if(typeof this.data.hexes[region][key]==="number") this.numeric[key] = true;
+				if(typeof this.data.hexes[region][key]==="number") this.numeric[key] = {'type':'number'};
+				if(typeof this.data.hexes[region][key]==="string"){
+					if(this.data.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
+						this.numeric[key] = {'type':'date'};
+					}else if(this.data.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
+						this.numeric[key] = {'type':'date'};
+					}
+				}
 			}
 		}
 		
@@ -701,24 +716,58 @@ function HexBuilder(el,attr){
 
 
 	this.setColours = function(key){
+		var v,min,max;
 		if(key){
 			// Get range of data
-			var min = 1e100;
-			var max = -1e100;
-			for(region in this.hex.mapping.hexes){
-				if(typeof this.hex.mapping.hexes[region][key]==="number"){
-					min = Math.min(this.hex.mapping.hexes[region][key],min);
-					max = Math.max(this.hex.mapping.hexes[region][key],max);
+			min = 1e100;
+			max = -1e100;
+			if(this.numeric[key]){
+				for(region in this.hex.mapping.hexes){
+					v = null;
+					if(this.numeric[key].type==="number"){
+						if(typeof this.hex.mapping.hexes[region][key]==="number"){
+							v = this.hex.mapping.hexes[region][key];
+						}
+					}else if(this.numeric[key].type==="date"){
+						if(this.hex.mapping.hexes[region][key] && typeof this.hex.mapping.hexes[region][key]==="string"){
+							if(this.hex.mapping.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
+								v = (new Date(this.hex.mapping.hexes[region][key]+'T12:00Z')).getTime();
+							}else if(this.hex.mapping.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
+								v = (new Date(this.hex.mapping.hexes[region][key])).getTime();
+							}
+						}
+					}
+					if(typeof v==="number"){
+						min = Math.min(v,min);
+						max = Math.max(v,max);
+					}
 				}
 			}
 		}
 		var _obj = this;
+		console.info('Range: '+min+' to '+max+' for '+key);
 
 		this.hex.setColours = function(region){
 			var c = '#722EA5';
 			if(this.mapping.hexes[region].colour) c = this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) c = this.mapping.hexes[region].color;
-			if(typeof this.mapping.hexes[region][key]==="number") c = _obj.colours.getColourFromScale(_obj.colourscale,this.mapping.hexes[region][key],min,max);
+			v = this.mapping.hexes[region][key];
+			ok = false;
+			if(typeof v==="number"){
+				ok = true;
+			}else if(typeof v==="string"){
+				if(_obj.numeric[key].type==="date"){
+					if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
+						v = (new Date(v+'T12:00Z')).getTime();
+						ok = true;
+					}else if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
+						v = (new Date(v)).getTime();
+						ok = true;
+					}
+				}
+			}
+			if(ok) c = _obj.colours.getColourFromScale(_obj.colourscale,v,min,max);
+			else c = 'darkgray';
 			return c;
 		};
 		this.hex.updateColours();

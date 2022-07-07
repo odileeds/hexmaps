@@ -400,9 +400,7 @@ function HexBuilder(el,attr){
 			for(key in this.data.hexes[region]){
 				if(typeof this.data.hexes[region][key]==="number") this.numeric[key] = {'type':'number'};
 				if(typeof this.data.hexes[region][key]==="string"){
-					if(this.data.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
-						this.numeric[key] = {'type':'date'};
-					}else if(this.data.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
+					if(!isNaN(Date.parse(this.data.hexes[region][key]))){
 						this.numeric[key] = {'type':'date'};
 					}
 				}
@@ -730,11 +728,7 @@ function HexBuilder(el,attr){
 						}
 					}else if(this.numeric[key].type==="date"){
 						if(this.hex.mapping.hexes[region][key] && typeof this.hex.mapping.hexes[region][key]==="string"){
-							if(this.hex.mapping.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
-								v = (new Date(this.hex.mapping.hexes[region][key]+'T12:00Z')).getTime();
-							}else if(this.hex.mapping.hexes[region][key].match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
-								v = (new Date(this.hex.mapping.hexes[region][key])).getTime();
-							}
+							if(!isNaN(Date.parse(this.hex.mapping.hexes[region][key]))) v = (new Date(this.hex.mapping.hexes[region][key])).getTime();
 						}
 					}
 					if(typeof v==="number"){
@@ -838,6 +832,7 @@ function HexBuilder(el,attr){
 	// Function to parse a CSV file and return a JSON structure
 	// Guesses the format of each column based on the data in it.
 	function CSV2JSON(data,start,end){
+		// Version 1.1
 
 		// If we haven't sent a start row value we assume there is a header row
 		if(typeof start!=="number") start = 1;
@@ -850,7 +845,6 @@ function HexBuilder(el,attr){
 			// Cut down to the maximum length
 			end = data.length;
 		}
-
 
 		var line,datum,header,types;
 		var newdata = [];
@@ -870,6 +864,9 @@ function HexBuilder(el,attr){
 
 			// Loop over each column in the line
 			for(j=0; j < line.length; j++){
+
+				// Replace undefined values with empty strings
+				if(typeof line[j]==="undefined") line[j] = "";
 
 				// Remove any quotes around the column value
 				datum[j] = (line[j][0]=='"' && line[j][line[j].length-1]=='"') ? line[j].substring(1,line[j].length-1) : line[j];

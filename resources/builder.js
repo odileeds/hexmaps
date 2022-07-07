@@ -10,6 +10,7 @@ function HexBuilder(el,attr){
 	var height = attr.height||1220;
 	var padding = 2;
 	this.query = {'labels':true};
+	this.options = {};
 	
 	this.colours = new Colours();
 	scales = {
@@ -186,7 +187,6 @@ function HexBuilder(el,attr){
 
 		this.hex.el.remove();
 		this.hex.search.el.html("");
-		this.el.querySelector('.options').innerHTML = '';
 
 		S('#filedetails').remove();
 		S('#messages').html('');
@@ -409,50 +409,57 @@ function HexBuilder(el,attr){
 				}
 			}
 		}
-		
-		this.el.querySelector('.options').innerHTML = '';
-		
+
+		this.options.el = this.el.querySelector('.options');
+
 		// Create a dropdown for colouring the hexes
-		div = document.createElement('div');
-		div.classList.add('config');
-		lbl = document.createElement('label');
-		lbl.innerHTML = 'Select data attribute/column to colour hexes by';
-		lbl.setAttribute('for','data-attribute');
-		div.appendChild(lbl);
-		sel = document.createElement('select');
-		sel.setAttribute('id','data-attribute');
-		sel.innerHTML = '<option>Attributes</option>';
-		for(key in this.numeric){
-			opt = document.createElement('option');
-			opt.innerHTML = key;
-			opt.setAttribute('value',key);
-			if(this.query.attribute && key == this.query.attribute) opt.setAttribute('selected','selected');
-			sel.appendChild(opt);
+		if(!this.options.attrib){
+			div = document.createElement('div');
+			div.classList.add('config');
+			lbl = document.createElement('label');
+			lbl.innerHTML = 'Select data attribute/column to colour hexes by';
+			lbl.setAttribute('for','data-attribute');
+			div.appendChild(lbl);
+			sel = document.createElement('select');
+			sel.setAttribute('id','data-attribute');
+			sel.innerHTML = '<option>Attributes</option>';
+			for(key in this.numeric){
+				opt = document.createElement('option');
+				opt.innerHTML = key;
+				opt.setAttribute('value',key);
+				if(this.query.attribute && key == this.query.attribute) opt.setAttribute('selected','selected');
+				sel.appendChild(opt);
+			}
+			sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
+			div.appendChild(sel);
+
+			this.options.el.insertBefore(div, this.options.el.firstChild);
+			this.options.attrib = div;
 		}
-		sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
-		div.appendChild(sel);
-		this.el.querySelector('.options').appendChild(div);
 
-
-		lbl = document.createElement('label');
-		lbl.innerHTML = 'Select colour scale';
-		lbl.setAttribute('for','data-colourscale');
-		div.appendChild(lbl);
-		cssel = document.createElement('select');
-		cssel.setAttribute('id','data-colourscale');
-		for(s in scales){
-			opt = document.createElement('option');
-			opt.innerHTML = s;
-			opt.setAttribute('value',s);
-			if(this.colourscale == s) opt.setAttribute('selected','selected');
-			cssel.appendChild(opt);
+		if(!this.options.scale){
+			lbl = document.createElement('label');
+			lbl.innerHTML = 'Select colour scale';
+			lbl.setAttribute('for','data-colourscale');
+			this.options.attrib.appendChild(lbl);
+			cssel = document.createElement('select');
+			cssel.setAttribute('id','data-colourscale');
+			for(s in scales){
+				opt = document.createElement('option');
+				opt.innerHTML = s;
+				opt.setAttribute('value',s);
+				if(this.colourscale == s) opt.setAttribute('selected','selected');
+				cssel.appendChild(opt);
+			}
+			cssel.addEventListener('change',function(e){
+				_obj.colourscale = e.target.value;
+				_obj.setColours(sel.value);
+			});
+			this.options.attrib.appendChild(cssel);
+			this.options.scale = cssel;
 		}
-		cssel.addEventListener('change',function(e){
-			_obj.colourscale = e.target.value;
-			_obj.setColours(sel.value);
-		});
-		div.appendChild(cssel);
 
+		this.options.el.style.display = '';
 
 		// Create the map
 		this.createMap();
@@ -463,8 +470,9 @@ function HexBuilder(el,attr){
 		if(this.saveable){
 			var _obj = this;
 			var div = document.createElement('div');
+			div.classList.add('save');
 			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">The HexJSON format can be reloaded in this tool for further editing.</p><div id="save-secondary"></div><p style="color:#999;">These formats can\'t be reloaded in this tool.</p>';
-			this.el.querySelector('.options').appendChild(div);
+			this.options.attrib.appendChild(div);
 
 			save = document.createElement('button');
 			save.classList.add('c10-bg');
@@ -483,6 +491,25 @@ function HexBuilder(el,attr){
 			savegeo.innerHTML = 'Save as fake GeoJSON';
 			savegeo.addEventListener('click',function(){ _obj.saveGeoJSON(); });
 			div.querySelector('#save-secondary').appendChild(savegeo);
+			
+			savepng = document.createElement('button');
+			savepng.classList.add('c10-bg');
+			savepng.innerHTML = 'Save as PNG';
+			savepng.addEventListener('click',function(){
+				var svg = _obj.hex.el[0].querySelector('svg');
+				var grid = svg.querySelectorAll('.hex-grid');
+				// Hide all the grid cells
+				for(var g = 0; g < grid.length; g++) grid[g].style.display = 'none';
+				SVG2PNG(svg,{
+					'src':'hexmap.png',
+					'callback':function(src){
+						// Show all the grid cells
+						for(var g = 0; g < grid.length; g++) grid[g].style.display = '';
+					}
+				});
+			});
+			div.querySelector('#save-secondary').appendChild(savepng);
+
 		}
 
 		// Set the chosen attribute if one has been provided in the query string
@@ -972,6 +999,40 @@ function HexBuilder(el,attr){
 		return (b)+" bytes";
 	}
 
-	return this;
+	function gcd(srcWidth, srcHeight, ratio) {
+		var ratio = Math.min(ratio / srcWidth, ratio / srcHeight);
+		return { width: srcWidth * ratio, height: srcHeight * ratio };
+	}
+	function SVG2PNG(el, opt) {
+		var svg = el.outerHTML;
+		var img = document.createElement("img");
+		var url = URL.createObjectURL(new Blob([svg], { type: "image/svg+xml" }));
+		img.src = url;
+		img.setAttribute("style", "position:fixed;left:-200vw;");
+		img.onload = function onload() {
+			var canvas = document.createElement("canvas");
+			var ctx = canvas.getContext("2d");
+			var { width, height } = gcd(
+			  img.width,
+			  img.height,
+			  document.querySelector("#ratio")?.value || Math.min(img.width, img.height)
+			);
+			canvas.width = width;
+			canvas.height = height;
+			ctx.drawImage(img, 0, 0, width, height);
+			var src = canvas.toDataURL("image/png");
+			var link = document.createElement('a');
+			link.download = opt.src;
+			link.href = src;
+			link.click();
+			img.remove();
+			URL.revokeObjectURL(url);
+			if(typeof opt.callback==="function"){
+				opt.callback.call(this,src);
+			}
+		};
+		document.body.appendChild(img);
+	}
 
+	return this;
 }

@@ -271,10 +271,16 @@ function HexBuilder(el,attr){
 					'hexjson': 'https://raw.githubusercontent.com/houseofcommonslibrary/uk-hex-cartograms-noncontiguous/main/hexjson/msoa_hex_coords.hexjson'
 				},
 				'ICB':{
-					'title': 'NHS ICBs',
+					'title': 'NHS Integrated Care Boards',
 					'patterns':[/^Q[A-Z0-9]{2}$/],
 					'count':0,
 					'hexjson': 'maps/nhs-icb-2022.hexjson'
+				},
+				'PCN':{
+					'title': 'NHS Primary Care Networks',
+					'patterns':[/^U[0-9]{5}$/],
+					'count':0,
+					'hexjson': 'maps/nhs-pcn-2022.hexjson'					
 				},
 				'US-States':{
 					'title': 'US States',

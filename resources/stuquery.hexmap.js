@@ -10,7 +10,7 @@
 //    size: the size of a hexagon in pixels
 function HexMap(attr){
 
-	this.version = "0.4.1";
+	this.version = "0.4.2";
 	if(!attr) attr  = {};
 	this._attr = attr;
 	if(S('#'+attr.id).length==0){
@@ -296,12 +296,15 @@ function HexMap(attr){
 				var regions = {};
 				var li = "";
 				var n = 0;
+				var v;
 				if(value.length > 1){
 					for(var region in e.data.hexmap.hexes){
-						if(e.data.hexmap.hexes[region].attributes.title.toLowerCase().indexOf(value)>=0){
+						v = e.data.hexmap.hexes[region].attributes.title;
+						n = e.data.hexmap.mapping.hexes[region].name;
+						if(v.toLowerCase().indexOf(value)>=0 || n.toLowerCase().indexOf(value)>=0){
 							regions[region] = true;
 							if(n < 8){
-								li += '<li><a href="#" data="'+region+'">'+e.data.hexmap.hexes[region].attributes.title+'</a></li>';
+								li += '<li><a href="#" data="'+region+'">'+v+'</a></li>';
 								n++;
 							}
 						}

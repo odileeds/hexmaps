@@ -1,3 +1,4 @@
+
 function Hexify(el){
 	
 	this.el = S('#'+el);
@@ -11,6 +12,7 @@ function Hexify(el){
 	var USE_GRID = false;
 	var GRID_SIZE = 10;
 	var GRID_TYPE = "HEXA";
+	
 	
 	
 	function dropOver(evt){
@@ -31,6 +33,9 @@ function Hexify(el){
 	document.getElementById('standard_files').addEventListener('change', function(evt){
 		return _obj.handleFileSelect(evt);
 	}, false);
+	document.getElementById('colour-by').addEventListener('change',function(e){
+		_obj.updateColours(e.target.value);
+	});
 
 	
 	
@@ -55,7 +60,7 @@ function Hexify(el){
 
 		// files is a FileList of File objects. List some properties.
 		var output = "";
-		for (var i = 0, f; i < files.length; i++) {
+		for(var i = 0, f; i < files.length; i++) {
 			f = files[i];
 
 			this.file = f.name;
@@ -112,8 +117,22 @@ function Hexify(el){
 	var links = [];
 	var coordlinks = {};
 
-	
+	function separation_distance(p1,p2){
+		var d2km = 111;
+		var correction = Math.cos(p2[1]*Math.PI/180);
+		var dx = d2km*correction*(p1[0]-p2[0]);
+		var dy = d2km*(p1[1]-p2[1]);
+		return Math.sqrt(Math.pow(dx,2)+Math.pow(dy,2));
+	}
+
 	this.loaded = function(k,n){
+
+		var max = 0;
+		var maxh = 0;
+		var d2km = 111; // degrees to km (approx)
+		var templinks = {};
+		var bounds = {'N':-90,'S':90,'E':-180,'W':180};
+
 
 		this.primarykey = k;
 		this.primaryname = n;
@@ -138,27 +157,58 @@ function Hexify(el){
 			var geo = [];
 			if(this.data.features[i].geometry.type=="MultiPolygon"){
 				geo = this.data.features[i].geometry.coordinates[0][0];
+				centroids[i] = centroid(geo,i);
 			}else if(this.data.features[i].geometry.type=="Polygon"){
 				geo = this.data.features[i].geometry.coordinates[0];
+				centroids[i] = centroid(geo,i);
+			}else if(this.data.features[i].geometry.type=="Point"){
+				centroids[i] = this.data.features[i].geometry.coordinates;
+				bounds.N = Math.max(bounds.N,centroids[i][1]);
+				bounds.S = Math.min(bounds.S,centroids[i][1]);
+				bounds.E = Math.max(bounds.E,centroids[i][0]);
+				bounds.W = Math.min(bounds.W,centroids[i][0]);
+				closest = [];
+				// Find the distances to other Points
+				for(var j = 0; j < this.data.features.length; j++){
+					if(this.data.features[i].geometry.type=="Point"){
+						closest.push({'d':separation_distance(this.data.features[i].geometry.coordinates,this.data.features[j].geometry.coordinates),'i':i,'j':j});
+					}
+				}
+				// Sort by closest
+				closest.sort((a, b) => {
+					return a.d - b.d;
+				});
+				// Keep links to the nearest Points
+				for(var k = 0; k < 5; k++){
+					if(closest[k].i != closest[k].j){
+						a = i;
+						b = closest[k].j;
+						if(!templinks[a]) templinks[a] = {};
+						if(!templinks[b]) templinks[b] = {};
+						templinks[a][b] = true;
+						templinks[b][a] = true;
+					}
+				}
 			}
-			centroids[i] = centroid(geo,i);
 			this.data.features[i].centroid = centroids[i];
 		}
+
 		centre = centroid(centroids);
-		templinks = {};
-		
-		// Loop over all the coordinates and find links
-		for(var k in coordlinks){
-			if(Object.keys(coordlinks[k]).length > 1){
-				for(var i in coordlinks[k]){
-					for(var j in coordlinks[k]){
-						if(i!=j){
-							a = Math.min(parseInt(i),parseInt(j));
-							b = Math.max(parseInt(i),parseInt(j));
-							if(!templinks[a]) templinks[a] = {};
-							if(!templinks[b]) templinks[b] = {};
-							templinks[a][b] = true;
-							templinks[b][a] = true;
+
+		if(links.length==0){
+			// Loop over all the coordinates and find links
+			for(var k in coordlinks){
+				if(Object.keys(coordlinks[k]).length > 1){
+					for(var i in coordlinks[k]){
+						for(var j in coordlinks[k]){
+							if(i!=j){
+								a = Math.min(parseInt(i),parseInt(j));
+								b = Math.max(parseInt(i),parseInt(j));
+								if(!templinks[a]) templinks[a] = {};
+								if(!templinks[b]) templinks[b] = {};
+								templinks[a][b] = true;
+								templinks[b][a] = true;
+							}
 						}
 					}
 				}
@@ -170,9 +220,7 @@ function Hexify(el){
 			}
 		}
 
-		var max = 0;
-		var maxh = 0;
-		var d2km = 111; // degrees to km (approx)
+
 		for(var i = 0; i < this.data.features.length; i++){
 			c = this.data.features[i].centroid;
 			// Work out the distance to the overall centroid in km
@@ -184,7 +232,6 @@ function Hexify(el){
 			maxh = Math.max(this.data.features[i].dx,this.data.features[i].dy,maxh);
 			max = Math.max(this.data.features[i]._distance,max);
 		}
-		
 		html = "";
 		var d = Math.min(w,h);
 		for(var i = 0; i < this.data.features.length; i++){
@@ -202,6 +249,22 @@ function Hexify(el){
 
 		this.el.css({'position':'relative'});
 		this.el.html(html);
+		
+		var props = {};
+		for(var i = 0; i < this.data.features.length; i++){
+			for(var p in this.data.features[i].properties){
+				if(!props[p]) props[p] = 0;
+				props[p]++;
+			}
+		}
+		for(var p in props){
+			var opt = document.createElement('option');
+			opt.setAttribute('value',p);
+			opt.innerHTML = p;
+			document.getElementById('colour-by').appendChild(opt);
+		}
+		
+		console.log(props)
 		this.collapse();
 	}
 
@@ -240,7 +303,7 @@ function Hexify(el){
 		json += "\t\"hexes\": {\n";
 		for(var i = 0; i < nodes.length; i++){
 			if(i > 0) json += ',\n';
-			json += "\t\t\""+(nodes[i].properties[this.primarykey] || i)+"\": {\"q\":"+nodes[i].i+",\"r\":"+(-nodes[i].j)+",\"n\":\""+(nodes[i].properties[this.primaryname] || i)+"\"";
+			json += '\t\t"'+(nodes[i].properties[this.primarykey] || i)+'": {"q":'+nodes[i].i+',"r":'+(-nodes[i].j)+',"n":"'+(nodes[i].properties[this.primaryname] || i)+'","colour":"'+nodes[i].hex+'"';
 			for(var k in nodes[i].properties){
 				json += ",\""+k+"\": \""+nodes[i].properties[k]+"\"";
 			}
@@ -304,7 +367,15 @@ function Hexify(el){
 	}
 
 	var shade = new Colour('#d73058');
-	
+	const randomColor = () => {
+		let color = '#';
+		for (let i = 0; i < 6; i++){
+		  const random = Math.random();
+		  const bit = (random * 16) | 0;
+		  color += (bit).toString(16);
+		};
+		return color;
+	};
 	this.collapse = function(){
 
 		var maxr = 0;
@@ -322,11 +393,15 @@ function Hexify(el){
 				}
 			}
 		}
-		
 		var scale = Math.max(1.5/this.minsep,1);
+
+		// Fudge factor
+		scale *= 0.3;
 		
 		var xs = [];
 		var ys = [];
+
+		console.log(document.getElementById('colour-by').value);
 		for(var i = 0; i < areas.length; i++){
 			xs.push(areas[i].x);
 			ys.push(areas[i].y);
@@ -351,6 +426,7 @@ function Hexify(el){
 				radius: 5,
 				properties: areas[i].properties,
 				hex: areas[i]['hex'],
+				distancecolour: areas[i]['hex'],
 				x: areas[i]['x']*scale,
 				y: areas[i]['y']*scale,
 				theta: areas[i]['angle']
@@ -403,6 +479,25 @@ function Hexify(el){
 		
 		d3.select(canvas);
 				
+	}
+	this.updateColours = function(prop){
+
+		var lookup = {};
+		var cat,i,c;
+
+		if(nodes && nodes.length > 0){
+			for(i = 0;  i < nodes.length; i++){
+				c = nodes[i].distancecolour;
+
+				cat = nodes[i].properties[prop];
+				if(cat){
+					if(!lookup[cat]) lookup[cat] = randomColor();
+					c = lookup[cat];
+				}
+				nodes[i].hex = c;
+			}
+			this.draw();
+		}
 	}
 	
 	this.forcesetup = function(jiggle){

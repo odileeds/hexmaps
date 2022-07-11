@@ -3,20 +3,22 @@
 <head>
 	<title>Hexify</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://open-innovations.org/resources/images/logos/oi-square-10.svg" />
 	<meta charset="utf-8" />
 	<meta name="twitter:card" content="summary">
-	<meta name="twitter:site" content="@ODILeeds">
-	<meta name="twitter:url" property="og:url" content="https://odileeds.org/projects/hexmaps/builder">
+	<meta name="twitter:site" content="@OpenInnovates">
+	<meta name="twitter:url" property="og:url" content="https://open-innovations.org/projects/hexmaps/builder">
 	<meta name="twitter:title" property="og:title" content="Hex map builder">
 	<meta name="twitter:description" property="og:description" content="Create your own point-topped hex map from a data file.">
-	<meta name="twitter:image" property="og:image" content="https://odileeds.org/projects/hexmaps/hexmap.png">
+	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
-	<script src="https://slowe.github.io/stuquery/js/stuquery.js"></script>
-	<script src="https://slowe.github.io/stuquery/js/stuquery.svg.js"></script>
-
+	
+	<script type="text/javascript" src="resources/stuquery.js"></script>
+	<script type="text/javascript" src="resources/stuquery.svg.js"></script>
 	<script src="resources/d3.v5.min.js"></script>
 	<script src="resources/stuquery.hexmap.js"></script>
 	<!--<script type="text/javascript" src="resources/builder.js"></script>-->
+	<!--<script src="https://cdn.jsdelivr.net/npm/d3-delaunay@6"></script>-->
 	<script src="resources/hexify.js"></script>
 	<script>
 	var hexify;
@@ -43,7 +45,7 @@
 
 		S('.example').on('click',function(e){
 			console.log('click')
-			S().ajax("imd-leeds.geojson",{
+			S().ajax("https://mapper.odileeds.org/layers/imd-leeds.geojson",{
 				'type':'json',
 				'this': hexify,
 				'success':function(d){
@@ -83,35 +85,41 @@
 	}
 	#hexify, #hexmap { width: 100%; height: 200px; }
 	#d3 { width: 100%; height: 800px; }
+	select,input { line-height: 2em; height: 2em; font-size: 1em; }
 	</style>
 </head>
 <body>
 
 	<div id="main">
 
-		<div class="b1-bg">
-			<div class="holder">
-				<div id="infobutton" style="float:right;">&#8505;</div>
-				<h1>Hexify</h1>
+		<header>
+			<div class="b1-bg">
+				<div class="holder" style="text-align:center;">
+					<a href="https://open-innovations.org/"><img src="https://open-innovations.org/resources/images/logos/oi-square-10.svg" width="100px" /></a>
+					<h1>Hexify</h1>
+				</div>
 			</div>
-		</div>
+		</header>
 
 		<div class="holder">
-			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex maps</a> and sharing them as <a href="https://odileeds.org/projects/hexmaps/hexjson.html">HexJSON</a>. This tool aims to help you make a HexJSON file from a GeoJSON file containing polygons. It parses the polygons, finds neighbours and centres, then uses D3 to bring them together. Use the collapse/jiggle buttons below to adjust the objects. Use the gridify button to force the objects to sit on a hexagonal grid. Then save the output. If you don't have a handy GeoJSON file you can try the <a href="#hexify" class="example">example for Leeds LSOAs</a>. Once you have saved your HexJSON you might want to tidy it up in our <a href="builder.html">HexBuilder</a>.</p>
+			<p>Create <a href="hexjson.html">HexJSON</a> layouts from GeoJSON Polygons/Multipolygons. See <a href="#notes">notes below</a>. Try an <a href="#" class="example">example for Leeds LSOAs</a>.</p>
 			
 			<div id="drop_zone" class="dropzone block">
 				<div class="helpertext">
 					Drop a GeoJSON file here (or click to browse files)<br />
-					<input id="standard_files" class="fileselect" type="file" title="browse" name="files[]" multiple="multiple" accept=".csv, .hexjson">
+					<input id="standard_files" class="fileselect" type="file" title="browse" name="files[]" multiple="multiple" accept=".geojson">
 				</div>
 			</div>
 		</div>
 
 		<div class="holder">
+			<p>The geographic points:</p>
 			<div id="hexify"></div>
+			<p>The gridded points:</p>
 			<div id="d3"><canvas style="width:100%;height:100%"></canvas></div>
 
 			<div style="text-align:center;">
+				<label for="colour-by">Colour-by:</label><select id="colour-by"><option value="">Distance</option></select>
 				<button id="restart" class="c1-bg">Collapse</button>
 				<button id="jiggle" class="c1-bg">Jiggle</button>
 				<button id="gridify" class="c1-bg">Gridify</button>
@@ -124,13 +132,16 @@
 	
 	<footer class="b1-bg">
 		<div class="holder">
-			&copy; 2017 <a href="https://odileeds.org/">ODI Leeds</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+			<h2 id="notes">Notes</h2>
+			<p>This will read a GeoJSON file containing Polygons or Multipolygons. If your GeoJSON contains Points you could load them into a tool such as QGIS and create Voronoi polygons then export the output to use in this tool. It parses the Polygons, finds neighbours and centres, then uses D3 to bring them together. Use the collapse/jiggle buttons below to adjust the objects. Use the gridify button to force the objects to sit on a hexagonal grid. Then save the output. Once you have saved your HexJSON you might want to tidy it up in our <a href="builder.html">HexBuilder</a>.</p>
+			<h2>Credits</h2>
+			&copy; 2017-2022 <a href="https://open-innovations.org/">Open Innovations</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
 		</div>
 	</footer>
 
-	<script src="https://odileeds.org/resources/odi.log.js"></script>
+	<script src="https://open-innovations.org/resources/oi.log.js"></script>
 	<script>
-	ODI.log.setup({'id':'odileeds','target':['odileeds.org','odileeds.github.io']}).add('action=view');
+	OI.log.setup({'id':'odileeds','target':['open-innovations.org','odileeds.github.io']}).add('action=view');
 	</script>
 
 </body>

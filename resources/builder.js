@@ -52,14 +52,15 @@ function HexBuilder(el,attr){
 
 		side = width/((dim+3)*1.73205);	
 
-		this.hex = new HexMap({
+		this.hex = new OI.hexmap(document.getElementById(this.id+'-hexmap'),{
 			'id':this.id+'-hexmap',
 			'width':width,
 			'height':height,
 			'size':side,
 			'padding':padding,
 			'minFontSize': 0,
-			'grid': true,
+			'grid': { 'show': true },
+			'label': { 'show': true },
 			'style': {
 				'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
 				'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
@@ -78,7 +79,7 @@ function HexBuilder(el,attr){
 				e.data.builder.label(e.data.data);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
-					this.attr('fill-opacity',0.5);
+					e.target.setAttribute('fill-opacity',0.5);
 				}
 			}
 		}).on('mouseout',function(e){
@@ -87,7 +88,7 @@ function HexBuilder(el,attr){
 				e.data.hexmap.regionBlur(e.data.region);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
-					this.attr('fill-opacity',0.1);
+					e.target.setAttribute('fill-opacity',0.1);
 				}
 			}
 		}).on('click',{'builder':this},function(e){
@@ -98,7 +99,7 @@ function HexBuilder(el,attr){
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
 					e.data.hexmap.moveTo(e.data.data.q,e.data.data.r);
-					this.attr('fill-opacity',0.1);
+					e.target.setAttribute('fill-opacity',0.1);
 				}
 			}
 		});
@@ -165,7 +166,7 @@ function HexBuilder(el,attr){
 				kv = bits[b].split(/=/);
 				if(kv[1]=="true") kv[1] = true;
 				if(kv[1]=="false") kv[1] = false;
-				this.query[kv[0]] = kv[1];
+				this.query[kv[0]] = decodeURI(kv[1]);
 			}
 		}
 		var file = this.query.url;
@@ -421,9 +422,8 @@ function HexBuilder(el,attr){
 			for(key in this.data.hexes[region]){
 				if(typeof this.data.hexes[region][key]==="number") this.numeric[key] = {'type':'number'};
 				if(typeof this.data.hexes[region][key]==="string"){
-					if(!isNaN(Date.parse(this.data.hexes[region][key]))){
-						this.numeric[key] = {'type':'date'};
-					}
+					if(!isNaN(Date.parse(this.data.hexes[region][key]))) this.numeric[key] = {'type':'date'};
+					if(this.data.hexes[region][key].match(/^#[0-9A-Z]{6}$/i)) this.numeric[key] = {'type':'colour'};
 				}
 			}
 		}
@@ -648,38 +648,43 @@ function HexBuilder(el,attr){
 	this.saveSVG = function(){
 
 		// Make hex json
-		var str = this.hex.paper.canvas.html();
+		var str = this.hex.el.querySelector('svg').outerHTML;
 		this.save(str,"map.svg",'text/application/svg+xml');
 
 		return this;
 	};
-
+	function roundTo(v,dp){
+		if(!dp) dp = 5;
+		var s = Math.pow(10,dp);
+		return Math.round(v*s)/s;
+	}
 	// Construct a fake GeoJSON. It is "fake" in the sense that we will place the map at Null Island and scale the map to a 0.1x0.1 degree grid to try to keep it fairly Car.
 	this.saveGeoJSON = function(){
-		var h,x,y,bit,j;
+		var h,x,y,bit,j,p;
 		var scale = 1/(Math.max(this.hex.maxw,this.hex.maxh)*10);
 		var geojson = {"type":"FeatureCollection","features":[]};
 		var feature;
-		for(h in this.hex.hexes){
+		for(h in this.hex.areas){
 			x = 0;
 			y = 0;
 			feature = {"type":"Feature","geometry":{"type":"Polygon","coordinates":[[]]},"properties":clone(this.hex.mapping.hexes[h]||{})};
 			feature.properties.id = h;
-			for(bit = 0; bit < this.hex.hexes[h].path.p.length; bit++){
-				if(this.hex.hexes[h].path.p[bit][0] == "M"){
-					x = this.hex.hexes[h].path.p[bit][1][0];
-					y = this.hex.hexes[h].path.p[bit][1][1];
-				}else if(this.hex.hexes[h].path.p[bit][0] == "m"){
-					x += this.hex.hexes[h].path.p[bit][1][0];
-					y += this.hex.hexes[h].path.p[bit][1][1];
-					feature.geometry.coordinates[0].push([x*scale,-y*scale]);
-				}else if(this.hex.hexes[h].path.p[bit][0] == "l"){
-					for(j = 0; j < this.hex.hexes[h].path.p[bit][1].length; j += 2){
-						x += parseFloat(this.hex.hexes[h].path.p[bit][1][j]);
-						y += parseFloat(this.hex.hexes[h].path.p[bit][1][j+1]);
-						feature.geometry.coordinates[0].push([x*scale,-y*scale]);
+			p = this.hex.areas[h].orig.array;
+			for(bit = 0; bit < p.length; bit++){
+				if(p[bit][0] == "M"){
+					x = p[bit][1][0];
+					y = p[bit][1][1];
+				}else if(p[bit][0] == "m"){
+					x += p[bit][1][0];
+					y += p[bit][1][1];
+					feature.geometry.coordinates[0].push([roundTo(x*scale),roundTo(-y*scale)]);
+				}else if(p[bit][0] == "l"){
+					for(j = 0; j < p[bit][1].length; j += 2){
+						x += (p[bit][1][j]);
+						y += (p[bit][1][j+1]);
+						feature.geometry.coordinates[0].push([roundTo(x*scale),roundTo(-y*scale)]);
 					}
-				}else if(this.hex.hexes[h].path.p[bit][0] == "z"){
+				}else if(p[bit][0] == "z"){
 					feature.geometry.coordinates[0].push(feature.geometry.coordinates[0][0]);
 				}
 			}
@@ -799,34 +804,35 @@ function HexBuilder(el,attr){
 			}
 		}
 		var _obj = this;
-		console.info('Range: '+min+' to '+max+' for '+key);
+		console.info('Range: '+min+' to '+max+' for '+key,this.hex.mapping.hexes);
 
-		this.hex.setColours = function(region){
+		this.hex.updateColours(function(region){
 			var c = '#722EA5';
 			if(this.mapping.hexes[region].colour) c = this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) c = this.mapping.hexes[region].color;
-			if(key){
+			if(key && _obj.numeric[key]){
 				v = this.mapping.hexes[region][key];
 				ok = false;
 				if(typeof v==="number"){
 					ok = true;
 				}else if(typeof v==="string"){
-					if(_obj.numeric[key].type==="date"){
-						if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
-							v = (new Date(v+'T12:00Z')).getTime();
-							ok = true;
-						}else if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
-							v = (new Date(v)).getTime();
-							ok = true;
+					if(_obj.numeric[key]){
+						if(_obj.numeric[key].type==="date"){
+							if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}$/)){
+								v = (new Date(v+'T12:00Z')).getTime();
+								ok = true;
+							}else if(v.match(/^[0-9]{4}[-\/]?[0-9]{2}[-\/]?[0-9]{2}T[0-9]{2}:[0-9]{2}/)){
+								v = (new Date(v)).getTime();
+								ok = true;
+							}
 						}
 					}
 				}
 				if(ok) c = _obj.colours.getColourFromScale(_obj.colourscale,v,min,max);
-				else c = 'darkgray';
+				else c = (_obj.numeric[key] && _obj.numeric[key].type=="colour" ? v : null)||'darkgray';
 			}
 			return c;
-		};
-		this.hex.updateColours();
+		});
 		
 		// Update colour scale bar
 		/*

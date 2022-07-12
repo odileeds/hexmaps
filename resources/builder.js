@@ -514,7 +514,7 @@ function HexBuilder(el,attr){
 			savepng.classList.add('c10-bg');
 			savepng.innerHTML = 'Save as PNG';
 			savepng.addEventListener('click',function(){
-				var svg = _obj.hex.el[0].querySelector('svg');
+				var svg = _obj.hex.el.querySelector('svg');
 				var grid = svg.querySelectorAll('.hex-grid');
 				// Hide all the grid cells
 				for(var g = 0; g < grid.length; g++) grid[g].style.display = 'none';

@@ -377,19 +377,17 @@
 					var regions = {};
 					var li = "";
 					var n = 0;
-					var v;
+					var v,nm;
 					var areas = e.data.hexmap.areas;
-					console.log(value,e.data);
 
 					if(value.length > 1){
 						for(var region in areas){
-							console.log(region,areas[region])
 							v = areas[region].data.title||"";
-							n = e.data.hexmap.mapping.hexes[region].name;
-							if(v.toLowerCase().indexOf(value)>=0 || n.toLowerCase().indexOf(value)>=0){
+							nm = areas[region].data.name||areas[region].data.n;
+							if(v.toLowerCase().indexOf(value)>=0 || nm.toLowerCase().indexOf(value)>=0){
 								regions[region] = true;
 								if(n < 8){
-									li += '<li><a href="#" data="'+region+'">'+v+'</a></li>';
+									li += '<li><a href="#" data="'+region+'">'+(v||nm)+'</a></li>';
 									n++;
 								}
 							}
@@ -416,7 +414,9 @@
 							e.preventDefault();
 							e.stopPropagation();
 							// Trigger the click event on the appropriate hex
-							e.data.builder.hexes[e.currentTarget.getAttribute('data')].el.trigger('click');
+							var event = document.createEvent('HTMLEvents');
+							event.initEvent('click', true, false);
+							e.data.builder.areas[e.currentTarget.getAttribute('data')].hex.dispatchEvent(event);
 							// Remove the search results
 							e.data.me.el.find('.search-results').remove();
 						});
@@ -451,18 +451,18 @@
 				for(region in rs){
 					if(rs[region]) this.n++;
 				}
-				for(region in _obj.hexes){
+				for(region in _obj.areas){
 					if(this.n>0){
 						if(rs[region]){
-							_obj.hexes[region].highlight = true;//(rs[region]);
-							_obj.hexes[region].attr({'class':'hex-cell highlighted'});
+							_obj.areas[region].highlight = true;
+							setAttr(_obj.areas[region].hex,{'class':'hex-cell highlighted'});
 						}else{
-							_obj.hexes[region].highlight = false;
-							_obj.hexes[region].attr({'class':'hex-cell not-highlighted'});
+							_obj.areas[region].highlight = false;
+							setAttr(_obj.areas[region].hex,{'class':'hex-cell not-highlighted'});
 						}
 					}else{
-						_obj.hexes[region].highlight = false;
-						_obj.hexes[region].attr({'class':'hex-cell'});
+						_obj.areas[region].highlight = false;
+						setAttr(_obj.areas[region].hex,{'class':'hex-cell'});
 					}
 				}
 

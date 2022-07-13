@@ -430,14 +430,16 @@ function HexBuilder(el,attr){
 								this.message('Loaded '+attr.url,{'id':'process','class':'c5-bg'});
 								// Loop over HexJSON adding in data
 								this.data = result;
-								var r,nm;
-								for(r = 0; r < attr.data.rows.length; r++){
-									id = attr.data.rows[r][attr.id];
+								var r,nm,d;
+								d = attr.data.data;
+								
+								for(r = 0; r < d.rows.length; r++){
+									id = d.rows[r][attr.id];
 									if(id){
 										if(this.data.hexes[id]){
-											for(j = 0; j < attr.data.fields.name.length; j++){
-												nm = attr.data.fields.name[j];
-												if(nm && !this.data.hexes[id][nm]) this.data.hexes[id][nm] = attr.data.rows[r][j];
+											for(j = 0; j < d.fields.name.length; j++){
+												nm = d.fields.name[j];
+												if(nm && !this.data.hexes[id][nm]) this.data.hexes[id][nm] = d.rows[r][j];
 											}
 										}else{
 											console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
@@ -447,7 +449,7 @@ function HexBuilder(el,attr){
 									}
 								}
 								
-								this.message('',{'id':'process'});
+								//this.message('',{'id':'process'});
 								this.processed();
 							},
 							'error': function(e,attr){
@@ -854,8 +856,8 @@ function HexBuilder(el,attr){
 		if(attr.type=="WARNING") css = "c14-bg";
 		if(attr['class']) css = attr['class'];
 
-		var msgel = document.getElementById('messages');
-		if(msgel){
+		var msgel = document.querySelector('.message');
+		if(!msgel){
 			msgel = document.createElement('div');
 			msgel.classList.add('message');
 			document.querySelector('header').insertAdjacentElement('afterend', msgel);

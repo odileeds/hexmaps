@@ -13,7 +13,7 @@ function HexBuilder(el,attr){
 	this.options = {};
 	
 	this.colours = new Colours();
-	scales = {
+	var scales = {
 		'Viridis8': 'rgb(122,76,139) 0, rgb(124,109,168) 12.5%, rgb(115,138,177) 25%, rgb(107,164,178) 37.5%, rgb(104,188,170) 50%, rgb(133,211,146) 62.5%, rgb(189,229,97) 75%, rgb(254,240,65) 87.5%, rgb(254,240,65) 100%',
 		'ODI': 'rgb(114,46,165) 0%, rgb(230,0,124) 50%, rgb(249,188,38) 100%',
 		'Heat': 'rgb(0,0,0) 0%, rgb(128,0,0) 25%, rgb(255,128,0) 50%, rgb(255,255,128) 75%, rgb(255,255,255) 100%',
@@ -24,8 +24,8 @@ function HexBuilder(el,attr){
 		'Leodis': '#2254F4 0%, #F9BC26 50%, #ffffff 100%',
 		'Longside': '#801638 0%, #addde6 100%',
 		'Black': '#000000 0%, #000000 100%'
-	}
-	for(s in scales) this.colours.addScale(s,scales[s]);
+	};
+	for(var s in scales) this.colours.addScale(s,scales[s]);
 	this.colourscale = 'Viridis8';
 
 
@@ -69,14 +69,85 @@ function HexBuilder(el,attr){
 			'formatLabel': function(txt,attr){
 				if(!txt) txt = "";
 				return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
-			},
-			'search': clone(this.attr.search)
+			}
 		});
+
+		// Add hexmap search
+		this.search = new OI.hexmapsearch(this.hex);
+
+		// Add key press functionality
+		document.addEventListener('keypress',function(e){
+			e.stopPropagation();
+			if(e.key=="c") _obj.selectBySameColour(e);
+		});
+		this.selectBySameColour = function(){
+			if(this.hex.selected){
+				for(var region in this.hex.areas){
+					if(this.hex.areas[region].fillcolour==this.hex.areas[this.hex.selected].fillcolour){
+						this.hex.areas[region].selected = true;
+						this.hex.setHexStyle(region);
+					}
+				}
+			}
+			return this;
+		};
 		
+		// Move the selected hex to the new coordinates
+		this.moveTo = function(q,r){
+			if(this.hex.selected){
+				var dq = q - this.hex.mapping.hexes[this.hex.selected].q;
+				var dr = r - this.hex.mapping.hexes[this.hex.selected].r;
+				for(var region in this.hex.areas){
+					if(this.hex.areas[region]){
+						if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
+						if(this.hex.areas[region].selected){
+							this.hex.mapping.hexes[region].q += dq;
+							this.hex.mapping.hexes[region].r += dr;
+							var h = this.hex.drawHex(this.hex.mapping.hexes[region].q,this.hex.mapping.hexes[region].r);
+							this.hex.areas[region].hex.setAttribute('d',h.path);
+							this.hex.areas[region].array = h.array;
+							if(this.hex.options.showlabel && this.hex.areas[region].label){
+								this.hex.areas[region].label.setAttribute('x',h.x);
+								this.hex.areas[region].label.setAttribute('y',h.y);
+								this.hex.areas[region].label.setAttribute('clip-path','hex-clip-'+this.hex.mapping.hexes[region].q+'-'+this.hex.mapping.hexes[region].r);
+							}
+							this.hex.areas[region].selected = false;
+							this.hex.setHexStyle(region);
+						}
+					}
+				}
+				this.hex.selected = "";
+			}
+		};
+
+		var _obj = this;
+
+		// Make a tooltip
+		var tip;
+
 		this.hex.on('mouseover',{'builder':this},function(e){
 			if(e.data.type=="hex"){
 				e.data.hexmap.regionFocus(e.data.region);
-				e.data.builder.label(e.data.data);
+				e.data.builder.setLabel(e.data.data);
+
+				// Build tooltip
+				var svg,bb,bbo,hex;
+				svg = e.data.hexmap.el;
+				hex = e.target;
+				if(!tip){
+					// Add a new tooltip
+					tip = document.createElement('div');
+					tip.classList.add('tooltip');
+					svg.appendChild(tip);
+				}
+				// Update contents of tooltip
+				tip.innerHTML = e.data.builder.getLabel(e.data.data,true);
+				// Update position of tooltip
+				bb = hex.getBoundingClientRect();
+				bbo = svg.getBoundingClientRect();
+				tip.style.left = Math.round(bb.left + bb.width/2 - bbo.left + svg.scrollLeft)+'px';
+				tip.style.top = Math.round(bb.top + bb.height/2 - bbo.top)+'px';			
+
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
 					e.target.setAttribute('fill-opacity',0.5);
@@ -84,21 +155,19 @@ function HexBuilder(el,attr){
 			}
 		}).on('mouseout',function(e){
 			if(e.data.type=="hex"){
-				S('.infobubble').remove();
+				removeEl(document.querySelector('.infobubble'));
 				e.data.hexmap.regionBlur(e.data.region);
 			}else if(e.data.type=="grid"){
-				if(e.data.hexmap.selected){
-					e.target.setAttribute('fill-opacity',0.1);
-				}
+				if(e.data.hexmap.selected) e.target.setAttribute('fill-opacity',0.1);
 			}
 		}).on('click',{'builder':this},function(e){
 			if(e.data.type=="hex"){
-				if(e.data.hexmap.search.active) e.data.hexmap.search.toggle();
+				if(_obj.search && _obj.search.active) _obj.search.toggle();
 				e.data.hexmap.regionToggleSelected(e.data.region,true);
-				e.data.builder.label(e.data.data);
+				e.data.builder.getLabel(e.data.data);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected){
-					e.data.hexmap.moveTo(e.data.data.q,e.data.data.r);
+					_obj.moveTo(e.data.data.q,e.data.data.r);
 					e.target.setAttribute('fill-opacity',0.1);
 				}
 			}
@@ -106,60 +175,88 @@ function HexBuilder(el,attr){
 
 		return this;
 	};
-	
-	this.label = function(data){
-		var l = "";
-		if(S('.infobubble').length == 0) S('#'+this.id+' svg').after('<div class="infobubble"><div class="infobubble_inner"></div></div>');
-		
-		if(typeof data==="string") l = data;
+
+	this.getLabel = function(data,short){
+		var l,a,d;
+		d = clone(data);
+		if(typeof d==="string") l = d;
 		else{
-			for(var a in data){
-				l += (l ? '<br />':'')+a+': '+data[a];
+			l = (d.title||d.name||d.n);
+			if(!short){
+				if(typeof d.r==="number" && typeof d.q==="number"){
+					l += (l ? '<br />':'')+'r,q: '+d.r+','+d.q;
+					delete d.r;
+					delete d.q;
+				}
+				for(a in d) l += (l ? '<br />':'')+a+': '+d[a];
 			}
 		}
-		S('.infobubble_inner').html(l);
+		return l;
+	};
+
+	this.setLabel = function(data){
+		var el = document.querySelector('.infobubble');
+		if(!el){
+			var el = document.createElement('div');
+			el.classList.add('infobubble');
+			el.innerHTML = '<div class="infobubble_inner"></div>';
+			this.hex.el.querySelector('svg').insertAdjacentElement('afterend',el);
+		}
+		el.querySelector('.infobubble_inner').innerHTML = this.getLabel(data);
 		return this;
 	};
 
 	this.saveable = (typeof Blob==="function");
 
+	var _obj = this;
+	var dropZone;
 	function dropOver(evt){
 		evt.stopPropagation();
 		evt.preventDefault();
-		S(this).addClass('drop');
+		dropZone.classList.add('drop');
 	}
-	function dragOff(){ S('.drop').removeClass('drop'); }
-
+	function dragOff(){ dropZone.classList.remove('drop'); }
+	function submitForm(e){
+		if(e){
+			e.preventDefault();
+			e.stopPropagation();
+		}
+		var url = "";
+		var el = document.getElementById('url');
+		if(el) url = el.value;
+		if(_obj.file) _obj.process();
+		else if(!_obj.file && url) _obj.getFromURL(url,_obj.process);
+		else _obj.message('No data provided. Please make sure you either provide a URL or file.',{'id':'error','type':'ERROR'});
+		return false;
+	}
 	this.init = function(){
+		
+		var kv,str,bits,b,file,fm;
 
-		S('form').on('reset',{me:this},function(e){
+		
+		fm = document.getElementById('validation_form');
+
+		fm.addEventListener('reset',function(e){
 			e.preventDefault();
-			e.data.me.reset();
+			_obj.reset();
 		});
-		S('form').on('submit',{me:this},function(e){
+		fm.addEventListener('submit',submitForm);
+		document.getElementById('example').addEventListener('click',function(e){
 			e.preventDefault();
-			var url = S('#url')[0].value;
-			if(e.data.me.file) e.data.me.process();
-			else if(!e.data.me.file && url) e.data.me.getFromURL(url,e.data.me.process);
-			else e.data.me.message('No data provided. Please make sure you either provide a URL or file.',{'id':'error','type':'ERROR'});
-			return this;
-		});
-		S('#example').on('click',{me:this},function(e){
-			e.preventDefault();
-			e.data.me.example();
+			_obj.example();
 		});
 
 
 		// Setup the dnd listeners.
-		var dropZone = document.getElementById('drop_zone');
+		dropZone = document.getElementById('drop_zone');
 		dropZone.addEventListener('dragover', dropOver, false);
 		dropZone.addEventListener('dragout', dragOff, false);
-		S('#standard_files').on('change',{me:this},function(e){ return e.data.me.handleFileSelect(e.originalEvent); });
+		document.getElementById('standard_files').addEventListener('change',function(e){ _obj.handleFileSelect(e); });
 
 		// Get parts of the query string
-		var str = location.search.substr(1);
-		var bits = str.split(/\&/);
-		for(var b = 0; b < bits.length; b++){
+		str = location.search.substr(1);
+		bits = str.split(/\&/);
+		for(b = 0; b < bits.length; b++){
 			if(bits[b].indexOf('http')==0 || bits[b].indexOf("=") == -1){
 				this.query.url = bits[b];
 			}else{
@@ -169,35 +266,41 @@ function HexBuilder(el,attr){
 				this.query[kv[0]] = decodeURI(kv[1]);
 			}
 		}
-		var file = this.query.url;
-		if(file){
-			S('#url')[0].value = file;
-			S('form').trigger('submit');
-		}
 		if(this.query.colourscale && scales[this.query.colourscale]) this.colourscale = this.query.colourscale;
 
+		file = this.query.url;
+		if(file){
+			document.getElementById('url').value = file;
+			submitForm();
+		}
 
 		return this;
 	};
-	
+	function removeEl(el){
+		if(el && el.parentNode !== null) el.parentNode.removeChild(el);
+	}
 	this.reset = function(){
-		S('#drop_zone').removeClass('loaded');
-		S('#url')[0].value = "";
-		S('#drop_zone .helpertext').css({'display':''});
-		S('#results').css({'display':''});
+		document.getElementById('drop_zone').classList.remove('loaded');
+		document.getElementById('url').value = "";
+		document.querySelector('#drop_zone .helpertext').style.display = '';
+		if(document.getElementById('results')) document.getElementById('results').style.display = '';
 
 		this.hex.el.remove();
-		this.hex.search.el.html("");
+		
+		this.options.el.innerHTML = "";
+		delete this.options.el;
+		delete this.options.attrib;
+		delete this.options.scale;
 
-		S('#filedetails').remove();
-		S('#messages').html('');
-		var tr = S('table.odi tr');
+		removeEl(document.getElementById('filedetails'));
+		document.getElementById('messages').innerHTML = '';
+		var tr = document.querySelectorAll('table.odi tr');
 		if(tr.length > 1){
-			for(var i = 1; i < tr.length; i++){
-				S(tr[i]).remove();
-			}
+			for(var i = 1; i < tr.length; i++) removeEl(tr[i]);
 		}
-		S('.part').removeClass('c8-bg').addClass('b5-bg');
+		document.querySelector('.part').classList.remove('c8-bg');
+		document.querySelector('.part').classList.add('c5-bg');
+
 		delete this.hex;
 		delete this.data;
 		delete this.url;
@@ -207,9 +310,9 @@ function HexBuilder(el,attr){
 	};
 	
 	this.example = function(){
-		var el = S('#url');
-		el[0].value = el.attr('placeholder').replace(/^.*(https?:\/\/[^\s]+).*$/,function(m,p1){ return p1; });
-		this.getFromURL(el[0].value,this.process);
+		var el = document.getElementById('url');
+		el.value = el.getAttribute('placeholder').replace(/^.*(https?:\/\/[^\s]+).*$/,function(m,p1){ return p1; });
+		this.getFromURL(el.value,this.process);
 		return this;
 	};
 
@@ -229,13 +332,13 @@ function HexBuilder(el,attr){
 		
 		if(this.file.type == "csv"){
 
-			var i,j,t;
+			var i,j,t,gss,r,q,id,code,got,m;
 			var data = this.parseCSV(this.file.contents,{'url':this.file.name});
 			this.file.csv = data;
 			this.data = { 'layout': 'odd-r', 'hexes': {} };
-			var id = 0;
+			id = 0;
 			// https://en.wikipedia.org/wiki/ONS_coding_system
-			var gss = {
+			gss = {
 				'PCON':{
 					'title':'Parliamentary Constituencies (2019)',
 					'patterns':[/^E14/,/^W07/,/^S14/,/^N06/],
@@ -290,7 +393,8 @@ function HexBuilder(el,attr){
 					'hexjson': 'maps/us-states.hexjson'
 				}
 			};
-			var r = -1, q = -1;
+			r = -1;
+			q = -1;
 			if(data.fields && data.fields.name){
 				for(j = 0; j < data.fields.name.length; j++){
 					if(data.fields.name[j].toLowerCase()=="id") id = j;
@@ -320,7 +424,7 @@ function HexBuilder(el,attr){
 				if(typ.id){
 					if(gss[typ.id].hexjson){
 						this.message('Loading '+gss[typ.id].title+' hexes from '+gss[typ.id].hexjson,{'id':'process','type':'WARNING'});
-						S().ajax(gss[typ.id].hexjson,{
+						OI.ajax(gss[typ.id].hexjson,{
 							'dataType': 'json',
 							'this':this,
 							'data': data,
@@ -329,13 +433,14 @@ function HexBuilder(el,attr){
 								this.message('Loaded '+attr.url,{'id':'process','class':'c5-bg'});
 								// Loop over HexJSON adding in data
 								this.data = result;
-								for(var r = 0; r < attr.data.rows.length; r++){
+								var r,nm;
+								for(r = 0; r < attr.data.rows.length; r++){
 									id = attr.data.rows[r][attr.id];
 									if(id){
 										if(this.data.hexes[id]){
 											for(j = 0; j < attr.data.fields.name.length; j++){
-												name = attr.data.fields.name[j];
-												if(name && !this.data.hexes[id][name]) this.data.hexes[id][name] = attr.data.rows[r][j];
+												nm = attr.data.fields.name[j];
+												if(nm && !this.data.hexes[id][nm]) this.data.hexes[id][nm] = attr.data.rows[r][j];
 											}
 										}else{
 											console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
@@ -386,10 +491,9 @@ function HexBuilder(el,attr){
 	};
 
 	this.processed = function(){
-		var got,len,region,s,q,r,d;
+		var got,len,region,s,q,r,key,div,lbl,sel,opt,cssel,save,savesvg,savepng,savegeo;
 		got = {};
 		len = 0;
-		region;
 		this.numeric = {};
 		// Find out which q,r combinations we have
 		for(region in this.data.hexes){
@@ -482,12 +586,14 @@ function HexBuilder(el,attr){
 		// Create the map
 		this.createMap();
 		this.hex.load(this.data,{me:this},function(e){ e.data.me.setColours("region"); });
-		S('#'+this.id).find('.options').addClass("holder").css({'text-align':'center'});
+		var opt = document.querySelector('#'+this.id+' .options');
+		opt.classList.add("holder");
+		opt.style['text-align'] = 'center';
 		
 		// If we can save then we build the save buttons and add events to them
 		if(this.saveable){
 			var _obj = this;
-			var div = document.createElement('div');
+			div = document.createElement('div');
 			div.classList.add('save');
 			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">The HexJSON format can be reloaded in this tool for further editing.</p><div id="save-secondary"></div><p style="color:#999;">These formats can\'t be reloaded in this tool.</p>';
 			this.options.attrib.appendChild(div);
@@ -547,10 +653,6 @@ function HexBuilder(el,attr){
 		this.query.labels = !this.query.labels;
 		return this.setLabelState();
 	};
-
-	function updateClass(btn){
-		S('.switchdata').addClass('b5-bg').removeClass('c10-bg');btn.removeClass('b5-bg').addClass('c10-bg');
-	}
 	
 	this.parseCSV = function(data,attr){
 
@@ -569,7 +671,7 @@ function HexBuilder(el,attr){
 	};
 
 	this.getFromURL = function(url,callback){
-		S().ajax(url,{
+		OI.ajax(url,{
 			'dataType': (url.indexOf('\.hexjson') > 0 ? 'json':'text'),
 			'this':this,
 			'callback': callback,
@@ -635,7 +737,8 @@ function HexBuilder(el,attr){
 			//reader.readAsText(f);
 			var blob = f.slice(start,stop+1);
 			reader.readAsText(blob);
-			S('#drop_zone').append(output).addClass('loaded');
+			dropZone.classList.add('loaded');
+			appendHTML(output,dropZone);
 
 		}else{
 			this.message('Unable to load '+this.file,{'id':'error','type':'ERROR'});
@@ -643,6 +746,13 @@ function HexBuilder(el,attr){
 
 		return this;
 	};
+	
+	function appendHTML(html,el){
+		var d = document.createElement('template');
+		d.innerHTML = html;
+		var c = (typeof d.content==="undefined" ? d : d.content);
+		if(c.childNodes.length > 0) while(c.childNodes.length > 0) el.appendChild(c.childNodes[0]);
+	}
 
 
 	this.saveSVG = function(){
@@ -747,39 +857,30 @@ function HexBuilder(el,attr){
 		if(attr.type=="WARNING") css = "c14-bg";
 		if(attr['class']) css = attr['class'];
 
-		var msgel = S('#messages');
-		if(msgel.length == 0){
-			S('#scenario').before('<div class="message"></div>');
-			msgel = S('.message');
+		var msgel = document.getElementById('messages');
+		if(msgel){
+			msgel = document.createElement('div');
+			msgel.classList.add('message');
+			document.querySelector('header').insertAdjacentElement('afterend', msgel);
 		}
 	
 		if(!msg){
-			if(msgel.length > 0){
+			if(msgel){
 				// Remove the specific message container
-				if(msgel.find('#'+attr.id).length > 0) msgel.find('#'+attr.id).remove();
-				//msgel.find('#'+attr.id).parent().removeClass('padded');
+				if(msgel.querySelectorAll('#'+attr.id).length > 0) removeEl(msgel.querySelector('#'+attr.id));
 			}
 		}else if(msg){
-			// Pad the container
-			//msgel.parent().addClass('padded');
 			// We make a specific message container
-			if(msgel.find('#'+attr.id).length==0) msgel.append('<div id="'+attr.id+'"><div class="holder padded"></div></div>');
-			msgel = msgel.find('#'+attr.id);
-			msgel.attr('class',css).find('.holder').html(msg);
+			if(!msgel.querySelector('#'+attr.id)) appendHTML('<div id="'+attr.id+'"><div class="holder padded"></div></div>',msgel);
+			msgel = msgel.querySelector('#'+attr.id);
+			msgel.setAttribute('class',css);
+			msgel.querySelector('.holder').innerHTML = msg;
 		}
-
 		return this;
 	};
 
-
-
-	function getColour(pc,a,b){
-		return 'rgb('+parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc)+','+parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc)+','+parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc)+')';
-	}
-
-
 	this.setColours = function(key){
-		var v,min,max;
+		var v,min,max,region;
 		if(key){
 			// Get range of data
 			min = 1e100;
@@ -807,7 +908,8 @@ function HexBuilder(el,attr){
 		console.info('Range: '+min+' to '+max+' for '+key,this.hex.mapping.hexes);
 
 		this.hex.updateColours(function(region){
-			var c = '#722EA5';
+			var ok,v,c;
+			c = '#722EA5';
 			if(this.mapping.hexes[region].colour) c = this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) c = this.mapping.hexes[region].color;
 			if(key && _obj.numeric[key]){
@@ -1027,7 +1129,7 @@ function HexBuilder(el,attr){
 	}
 
 	function gcd(srcWidth, srcHeight, ratio) {
-		var ratio = Math.min(ratio / srcWidth, ratio / srcHeight);
+		ratio = Math.min(ratio / srcWidth, ratio / srcHeight);
 		return { width: srcWidth * ratio, height: srcHeight * ratio };
 	}
 	function SVG2PNG(el, opt) {
@@ -1039,14 +1141,15 @@ function HexBuilder(el,attr){
 		img.onload = function onload() {
 			var canvas = document.createElement("canvas");
 			var ctx = canvas.getContext("2d");
-			var { width, height } = gcd(
-			  img.width,
-			  img.height,
-			  document.querySelector("#ratio")?.value || Math.min(img.width, img.height)
+			var rtn;
+			rtn = gcd(
+				img.width,
+				img.height,
+				Math.min(img.width, img.height)
 			);
-			canvas.width = width;
-			canvas.height = height;
-			ctx.drawImage(img, 0, 0, width, height);
+			canvas.width = rtn.width;
+			canvas.height = rtn.height;
+			ctx.drawImage(img, 0, 0, rtn.width, rtn.height);
 			var src = canvas.toDataURL("image/png");
 			var link = document.createElement('a');
 			link.download = opt.src;
@@ -1054,12 +1157,201 @@ function HexBuilder(el,attr){
 			link.click();
 			img.remove();
 			URL.revokeObjectURL(url);
-			if(typeof opt.callback==="function"){
-				opt.callback.call(this,src);
-			}
+			if(typeof opt.callback==="function") opt.callback.call(this,src);
 		};
 		document.body.appendChild(img);
 	}
 
+	return this;
+}
+
+/* ============== */
+/* Colours v0.3.2 */
+// Define colour routines
+function Colour(c,n){
+	if(!c) return {};
+	function d2h(d) { return ((d < 16) ? "0" : "")+d.toString(16);}
+	function h2d(h) {return parseInt(h,16);}
+	/**
+	 * Converts an RGB color value to HSV. Conversion formula
+	 * adapted from http://en.wikipedia.org/wiki/HSV_color_space.
+	 * Assumes r, g, and b are contained in the set [0, 255] and
+	 * returns h, s, and v in the set [0, 1].
+	 *
+	 * @param	Number  r		 The red color value
+	 * @param	Number  g		 The green color value
+	 * @param	Number  b		 The blue color value
+	 * @return  Array			  The HSV representation
+	 */
+	function rgb2hsv(r, g, b){
+		r = r/255;
+		g = g/255;
+		b = b/255;
+		var max = Math.max(r, g, b), min = Math.min(r, g, b);
+		var h, s, v = max;
+		var d = max - min;
+		s = max == 0 ? 0 : d / max;
+		if(max == min) h = 0; // achromatic
+		else{
+			switch(max){
+				case r: h = (g - b) / d + (g < b ? 6 : 0); break;
+				case g: h = (b - r) / d + 2; break;
+				case b: h = (r - g) / d + 4; break;
+			}
+			h /= 6;
+		}
+		return [h, s, v];
+	}
+
+	this.alpha = 1;
+
+	// Let's deal with a variety of input
+	if(c.indexOf('#')==0){
+		this.hex = c;
+		this.rgb = [h2d(c.substring(1,3)),h2d(c.substring(3,5)),h2d(c.substring(5,7))];
+	}else if(c.indexOf('rgb')==0){
+		var bits = c.match(/[0-9\.]+/g);
+		if(bits.length == 4) this.alpha = parseFloat(bits[3]);
+		this.rgb = [parseInt(bits[0]),parseInt(bits[1]),parseInt(bits[2])];
+		this.hex = "#"+d2h(this.rgb[0])+d2h(this.rgb[1])+d2h(this.rgb[2]);
+	}else return {};
+	this.hsv = rgb2hsv(this.rgb[0],this.rgb[1],this.rgb[2]);
+	this.name = (n || "Name");
+	var r,sat;
+	for(r = 0, sat = 0; r < this.rgb.length ; r++){
+		if(this.rgb[r] > 200) sat++;
+	}
+	this.toString = function(){
+		return 'rgb'+(this.alpha < 1 ? 'a':'')+'('+this.rgb[0]+','+this.rgb[1]+','+this.rgb[2]+(this.alpha < 1 ? ','+this.alpha:'')+')';
+	};
+	this.text = (this.rgb[0]*0.299 + this.rgb[1]*0.587 + this.rgb[2]*0.114 > 186 ? "black":"white");
+	return this;
+}
+function Colours(){
+	var scales = {
+		'Viridis': 'rgb(68,1,84) 0%, rgb(72,35,116) 10%, rgb(64,67,135) 20%, rgb(52,94,141) 30%, rgb(41,120,142) 40%, rgb(32,143,140) 50%, rgb(34,167,132) 60%, rgb(66,190,113) 70%, rgb(121,209,81) 80%, rgb(186,222,39) 90%, rgb(253,231,36) 100%'
+	};
+	function col(a){
+		if(typeof a==="string") return new Colour(a);
+		else return a;
+	}
+	this.getColourPercent = function(pc,a,b,inParts){
+		var c;
+		pc /= 100;
+		a = col(a);
+		b = col(b);
+		c = {'r':parseInt(a.rgb[0] + (b.rgb[0]-a.rgb[0])*pc),'g':parseInt(a.rgb[1] + (b.rgb[1]-a.rgb[1])*pc),'b':parseInt(a.rgb[2] + (b.rgb[2]-a.rgb[2])*pc),'alpha':1};
+		if(a.alpha<1 || b.alpha<1) c.alpha = ((b.alpha-a.alpha)*pc + a.alpha);
+		if(inParts) return c;
+		else return 'rgb'+(c.alpha && c.alpha<1 ? 'a':'')+'('+c.r+','+c.g+','+c.b+(c.alpha && c.alpha<1 ? ','+c.alpha:'')+')';
+	};
+	this.makeGradient = function(a,b){
+		a = col(a);
+		b = col(b);
+		var grad = a.toString()+' 0%, '+b.toString()+' 100%';
+		if(b) return 'background: '+a.toString()+'; background: -moz-linear-gradient(left, '+grad+');background: -webkit-linear-gradient(left, '+grad+');background: linear-gradient(to right, '+grad+');';
+		else return 'background: '+a.toString()+';';
+	};
+	this.getGradient = function(id){
+		return 'background: -moz-linear-gradient(left, '+scales[id].str+');background: -webkit-linear-gradient(left, '+scales[id].str+');background: linear-gradient(to right, '+scales[id].str+');';
+	};
+	this.addScale = function(id,str){
+		scales[id] = str;
+		processScale(id,str);
+		return this;
+	};
+	this.quantiseScale = function(id,n,id2){
+		var cs,m,pc,step,i;
+		cs = [];
+		m = n-1;
+		pc = 0;
+		step = 100/n;
+		for(i = 0; i < m; i++){
+			cs.push(this.getColourFromScale(id,i,0,m)+' '+(pc)+'%');
+			cs.push(this.getColourFromScale(id,i,0,m)+' '+(pc+step)+'%');
+			pc += step;
+		}
+		cs.push(this.getColourFromScale(id,1,0,1)+' '+(pc)+'%');
+		cs.push(this.getColourFromScale(id,1,0,1)+' 100%');
+		this.addScale(id2,cs.join(", "));
+		return this;
+	};
+	function processScale(id,str){
+		if(scales[id] && scales[id].str){
+			console.warn('Colour scale '+id+' already exists. Bailing out.');
+			return this;
+		}
+		scales[id] = {'str':str};
+		scales[id].stops = extractColours(str);
+		return this;
+	}
+	function extractColours(str){
+		var stops,cs,i,c;
+		stops = str.replace(/^\s+/g,"").replace(/\s+$/g,"").replace(/\s\s/g," ").split(', ');
+		cs = [];
+		for(i = 0; i < stops.length; i++){
+			var bits = stops[i].split(/ /);
+			if(bits.length==2) cs.push({'v':bits[1],'c':new Colour(bits[0])});
+			else if(bits.length==1) cs.push({'c':new Colour(bits[0])});
+		}
+		
+		for(c=0; c < cs.length;c++){
+			if(cs[c].v){
+				// If a colour-stop has a percentage value provided, 
+				if(cs[c].v.indexOf('%')>=0) cs[c].aspercent = true;
+				cs[c].v = parseFloat(cs[c].v);
+			}
+		}
+		return cs;
+	}
+
+	// Process existing scales
+	for(var id in scales){
+		if(scales[id]) processScale(id,scales[id]);
+	}
+	
+	// Return a Colour object for a string
+	this.getColour = function(str){
+		return new Colour(str);
+	};
+	// Return the colour scale string
+	this.getColourScale = function(id){
+		return scales[id].str;
+	};
+	// Return the colour string for this scale, value and min/max
+	this.getColourFromScale = function(s,v,min,max,inParts){
+		var cs,v2,pc,c,cfinal;
+		if(typeof inParts!=="boolean") inParts = false;
+		if(!scales[s]){
+			this.log('WARNING','No colour scale '+s+' exists');
+			return '';
+		}
+		if(typeof v!=="number") v = 0;
+		if(typeof min!=="number") min = 0;
+		if(typeof max!=="number") max = 1;
+		cs = scales[s].stops;
+		v2 = 100*(v-min)/(max-min);
+		cfinal = {};
+		if(v==max){
+			cfinal = {'r':cs[cs.length-1].c.rgb[0],'g':cs[cs.length-1].c.rgb[1],'b':cs[cs.length-1].c.rgb[2],'alpha':cs[cs.length-1].c.alpha};
+		}else{
+			if(cs.length == 1){
+				cfinal = {'r':cs[0].c.rgb[0],'g':cs[0].c.rgb[1],'b':cs[0].c.rgb[2],'alpha':(v2/100).toFixed(3)};
+			}else{
+				for(c = 0; c < cs.length-1; c++){
+					if(v2 >= cs[c].v && v2 <= cs[c+1].v){
+						// On this colour stop
+						pc = 100*(v2 - cs[c].v)/(cs[c+1].v-cs[c].v);
+						if(pc > 100) pc = 100;	// Don't go above colour range
+						cfinal = this.getColourPercent(pc,cs[c].c,cs[c+1].c,true);
+						continue;
+					}
+				}
+			}
+		}
+		if(inParts) return cfinal;
+		else return 'rgba(' + cfinal.r + ',' + cfinal.g + ',' + cfinal.b + ',' + cfinal.alpha + ")";
+	};
+	
 	return this;
 }

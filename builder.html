@@ -12,24 +12,22 @@
 	<meta name="twitter:description" property="og:description" content="Create your own point-topped hex map from a data file.">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
 	<link rel="StyleSheet" href="resources/style.css" type="text/css" />
-	<script type="text/javascript" src="resources/stuquery.js"></script>
-	<script type="text/javascript" src="resources/stuquery.svg.js"></script>
 	<script type="text/javascript" src="resources/oi.hexmap.js"></script>
+	<script type="text/javascript" src="resources/oi.hexmap-search.js"></script>
 	<script type="text/javascript" src="resources/builder.js"></script>
 	<script>
 	var builder;
-	S(document).ready(function(){
+	OI.ready(function(){
 		builder = new HexBuilder(document.getElementById('builder'),{
-			'width':document.getElementById('builder').offsetWidth,
-			'search':{'id':'search'}
+			'width':document.getElementById('builder').offsetWidth
 		}).init();
 	});
 	</script>
 	<style>
 	section { margin-bottom: 1em; }
-	.chooser { text-align: left; display: flex; line-height: 1.5em; }
+	.chooser { text-align: left; display: grid; grid-template-columns: 1fr auto 1fr; line-height: 1.5em; }
 	.chooser input { font-size:1em; }
-	.chooser .vs { display: inline; margin: 2.5em 0.5em 0 0.5em; font-family: serif; font-style: italic; color: #666666; text-align: center; vertical-align: middle; }
+	.chooser .vs { display: inline; margin: 2em 0.5em 0 0.5em; font-family: serif; font-style: italic; color: #666666; text-align: center; vertical-align: middle; }
 	.chooser .part { position: relative; margin: 0px; width: 100%; display: inline; padding: 1em; line-height: 1.5em;  }
 	.chooser .part input { padding: 0px 2px; }
 	.chooser .part label { display: block; }
@@ -51,7 +49,6 @@
 		height: 100%;
 		padding: 1em;
 		box-sizing: border-box;
-		border: 2px dashed #999999;
 	}
 	.dropzone.loaded {
 		border: 2px solid transparent;
@@ -60,7 +57,8 @@
 		display: none;
 	}
 	.dropzone.drop {
-		background-color: #ddd;
+		background-color: #efefef;
+		outline: 2px dashed #999999;
 	}
 	.dropzone input {
 		position: absolute;
@@ -73,19 +71,28 @@
 	.config label { margin-left: 1em; margin-right: 0.25em; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner img { width: 5em; margin: auto; }
+
+	.hexmap {
+		margin: auto;
+		width: 100%;
+		height: auto;
+		max-width: 100vw;
+		position: relative;
+		overflow: hidden;
+	}
 	.hexmap svg { margin: auto; display: block; }
 	.hex-cell { fill-opacity: 1; }
 	.hex-label { fill: white; }
-	.hex-cell.highlighted { stroke: black!important; stroke-width: 2px!important; }
-	.hex-cell.not-highlighted { opacity: 0.3!important; }
+	.highlighted .hex-cell { stroke: black!important; stroke-width: 2px!important; }
+	.not-highlighted .hex-cell { opacity: 0.3!important; }
 	.hex-cell.hover { stroke: white!important; stroke-width: 5px!important; opacity:1!important; fill-opacity: 1!important; }
 	.hex-label.hover { fill: white!important; }
 	.hex-label.selected { fill: black!important;}
 	.hex-cell.selected { fill: #dfdfdf!important; }
 
-	#search { position: absolute; display: block; width: 100%; max-width: 400px; }
-	#search .search-inner { position: relative; }
-	#search label {
+	.hex-search { position: absolute; display: block; width: 100%; max-width: 400px; }
+	.hex-search .search-inner { position: relative; }
+	.hex-search label {
 		position: absolute;
 		left: 0px;
 		top: 0px;
@@ -106,8 +113,8 @@
 		width: 3em;
 		height: 3em;
 	}
-	#search label svg { }
-	#search input {
+	.hex-search label svg { }
+	.hex-search input {
 		font-size: 1em;
 		background: rgba(255,255,255,0.7) !important;
 		border: solid 0.5em black;
@@ -123,11 +130,28 @@
 		padding-left: 3em;
 		z-index: 99;
 	}
-	#search svg { position: relative; top: 50%; transform: translate3d(0,-50%,0); }
-	#search.searching input { display: inline-block; }
-	#search .search-results { margin: 0px; list-style: none; }
-	#search .search-results li a { padding: 0.5em 0.5em 0.5em 0.5em; text-align: left; background-color: rgba(223,223,223,0.92); display: block; color: inherit; text-decoration: none; }
-	#search .search-results li a:hover, #search .search-results li a:focus, #search .search-results li a.selected { background-color: #000000; color: white; }
+	.hex-search svg { position: relative; top: 50%; transform: translate3d(0,-50%,0); }
+	.hex-search.searching input { display: inline-block; }
+	.hex-search .search-results { margin: 0px!important; list-style: none!important; }
+	.hex-search .search-results li a { padding: 0.5em 0.5em 0.5em 0.5em; text-align: left; background-color: rgba(223,223,223,0.92); display: block; color: inherit; text-decoration: none; }
+	.hex-search .search-results li a:hover, .hex-search .search-results li a:focus, .hex-search .search-results li a.selected { background-color: #000000; color: white; }
+
+
+	.infobubble {
+		z-index: 3;
+		top: 1em;
+		max-height: 30vh;
+		left: 50%;
+		transform: translate3d(-50%, 0, 0);
+		position: fixed;
+		text-align: center;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0.15);
+		background-color: white;
+		padding: 0.5em 1em;
+		overflow-y: auto;
+	}
+	.tooltip { background-color: black; color: white; padding: 0.325em 0.5em; transform: translate3d(-50%,100%,0); z-index: 100; position: absolute; z-index: 98; }
+	.tooltip:before { content: ""; border: 0.5em solid transparent; border-bottom: 0.5em solid black; border-top: 0px; left: 50%; top: 0; transform: translate3d(-50%,-0.5em,0); position: absolute; display: block; width: 0px; height: 0px; }
 
 	.options button { margin-right: 0.25em; }
 	.options .save { margin-top: 1em; }
@@ -158,7 +182,7 @@
 		<div class="holder">
 			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex cartograms</a> so we've created a tool <em>to help you make hex layouts</em> from your own data. Read the <a href="#notes">notes below for more details</a>.</p>
 			
-			<form id="validation_form" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" >
+			<form id="validation_form" name="validation_form" submit="return true;" method="POST" enctype="multipart/form-data" accept-charset="UTF-8" >
 
 				<section class="chooser">
 					<div class="part b5-bg">
@@ -172,7 +196,7 @@
 						<input id="standard_files" class="fileselect" type="file" title="browse" name="file" accept=".csv, .hexjson">
 					</div>
 				</section>
-				<button id="submit" type="submit" class="button c10-bg" style="float:right;">Hexify</button>
+				<button id="btnSubmit" type="submit" class="button c10-bg" style="float:right;">Hexify</button>
 				<button id="reset" type="reset" class="c8-bg">Reset</button>
 				<button id="example" class="c8-bg">Load example</button>
 			</form>
@@ -181,7 +205,6 @@
 		<div id="builder">
 			<div class="padded">
 				<div class="hexmap">
-					<div id="search"></div>
 				</div>
 			</div>
 

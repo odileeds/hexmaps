@@ -230,12 +230,9 @@ function HexBuilder(el,attr){
 		return false;
 	}
 	this.init = function(){
-		
 		var kv,str,bits,b,file,fm;
 
-		
 		fm = document.getElementById('validation_form');
-
 		fm.addEventListener('reset',function(e){
 			e.preventDefault();
 			_obj.reset();
@@ -678,7 +675,7 @@ function HexBuilder(el,attr){
 			'success':function(result,attr){
 				this.message('Loaded '+attr.url,{'id':'load','class':'c5-bg'});
 				this.file = { 'name': attr.url, 'contents': result };
-				if(typeof attr.callback==="function") attr.callback.call(this);
+				if(typeof attr.data.callback==="function") attr.data.callback.call(this);
 			},
 			'error': function(e,attr){
 				this.message('Unable to load '+attr.url,{'id':'load','type':'ERROR'});

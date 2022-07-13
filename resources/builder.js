@@ -134,7 +134,7 @@ function HexBuilder(el,attr){
 				var svg,bb,bbo,hex;
 				svg = e.data.hexmap.el;
 				hex = e.target;
-				if(!tip){
+				if(!tip || !tip.parentNode){
 					// Add a new tooltip
 					tip = document.createElement('div');
 					tip.classList.add('tooltip');
@@ -156,6 +156,7 @@ function HexBuilder(el,attr){
 		}).on('mouseout',function(e){
 			if(e.data.type=="hex"){
 				removeEl(document.querySelector('.infobubble'));
+				removeEl(tip);
 				e.data.hexmap.regionBlur(e.data.region);
 			}else if(e.data.type=="grid"){
 				if(e.data.hexmap.selected) e.target.setAttribute('fill-opacity',0.1);

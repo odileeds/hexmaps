@@ -432,16 +432,14 @@ function HexBuilder(el,attr){
 								this.message('Loaded '+attr.url,{'id':'process','class':'c5-bg'});
 								// Loop over HexJSON adding in data
 								this.data = result;
-								var r,nm,d;
-								d = attr.data.data;
-								
-								for(r = 0; r < d.rows.length; r++){
-									id = d.rows[r][attr.id];
+								var r,nm;
+								for(r = 0; r < attr.data.data.rows.length; r++){
+									id = attr.data.data.rows[r][attr.data.id];
 									if(id){
 										if(this.data.hexes[id]){
-											for(j = 0; j < d.fields.name.length; j++){
-												nm = d.fields.name[j];
-												if(nm && !this.data.hexes[id][nm]) this.data.hexes[id][nm] = d.rows[r][j];
+											for(j = 0; j < attr.data.data.fields.name.length; j++){
+												nm = attr.data.data.fields.name[j];
+												if(nm && !this.data.hexes[id][nm]) this.data.hexes[id][nm] = attr.data.data.rows[r][j];
 											}
 										}else{
 											console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);

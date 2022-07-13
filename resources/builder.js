@@ -298,6 +298,8 @@ function HexBuilder(el,attr){
 		document.querySelector('.part').classList.remove('c8-bg');
 		document.querySelector('.part').classList.add('c5-bg');
 
+		this.message('',{'id':'process'});
+
 		delete this.hex;
 		delete this.data;
 		delete this.url;
@@ -448,8 +450,6 @@ function HexBuilder(el,attr){
 										console.warn('Missing ID on line '+r);
 									}
 								}
-								
-								//this.message('',{'id':'process'});
 								this.processed();
 							},
 							'error': function(e,attr){

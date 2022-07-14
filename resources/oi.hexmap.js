@@ -1,6 +1,6 @@
 /**
 	OI hex map in SVG
-	Version 0.6.0
+	Version 0.6.1
  */
 (function(root){
 
@@ -50,7 +50,7 @@
 	//      size: the size of a hexagon in pixels
 	function HexMap(el,attr){
 
-		this.version = "0.6.0";
+		this.version = "0.6.1";
 		if(!attr) attr  = {};
 		this._attr = attr;
 		this.title = "OI HexMap";
@@ -116,7 +116,7 @@
 		};
 
 		this.style = {
-			'default': { 'fill': '#cccccc','fill-opacity':(this.options.showlabel ? 0.5 : 1),'font-size':fs,'stroke-width':1.5,'stroke-opacity':1,'stroke':'#ffffff' },
+			'default': { 'fill': '#cccccc','fill-opacity':1,'font-size':fs,'stroke-width':1.5,'stroke-opacity':1,'stroke':'#ffffff' },
 			'highlight': { 'fill': '#1DD3A7' },
 			'grid': { 'fill': '#aaa','fill-opacity':0.1 }
 		};
@@ -421,12 +421,17 @@
 
 		this.updateColours = function(fn){
 			var r,fill;
-			if(typeof fn!=="function") fn = function(){ return this.style['default'].fill; };
+			if(typeof fn!=="function"){
+				fn = function(){
+					var fill = this.style['default'].fill;
+					if(_obj.mapping.hexes[r].colour) fill = _obj.mapping.hexes[r].colour;					
+					if(typeof attr.colours==="string") fill = attr.colours;
+					return fill;
+				};
+			}
 			for(r in this.mapping.hexes){
 				if(this.mapping.hexes[r]){
 					fill = this.style['default'].fill;
-					if(this.mapping.hexes[r].colour) fill = this.mapping.hexes[r].colour;					
-					if(typeof attr.colours==="string") fill = attr.colours;
 					if(typeof fn==="function") fill = fn.call(this,r);
 					this.areas[r].fillcolour = fill;
 					this.setHexStyle(r);

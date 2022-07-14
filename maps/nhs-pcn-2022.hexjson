@@ -1,5 +1,7 @@
 {
-	"layout":"odd-r","notes":"Initial draft. Data from ecpn: https://digital.nhs.uk/services/organisation-data-service/file-downloads/gp-and-gp-practice-related-data with Closed PCNs omitted. Data on ICBs from ODS change summary ICB 2022-2023 Year 1 renaming https://digital.nhs.uk/services/organisation-data-service/integrated-care-boards. Region colours match those used for the ICB hex layout.",
+	"layout":"odd-r",
+	"version": "1.0",
+	"notes":"Data from ecpn: https://digital.nhs.uk/services/organisation-data-service/file-downloads/gp-and-gp-practice-related-data with Closed PCNs omitted. Data on ICBs from ODS change summary ICB 2022-2023 Year 1 renaming https://digital.nhs.uk/services/organisation-data-service/integrated-care-boards. Region colours match those used for the ICB hex layout.",
 	"hexes": {
 		"U64053":{"q":15,"r":-79,"n":"0","colour":"#000000","code":"U64053","name":"ISLES OF SCILLY & SOUTH KERRIER PCN","CCG Code":"11N","CCG Name":"NHS KERNOW CCG","ICB Code":"QT6","ICB Name":"NHS CORNWALL AND THE ISLES OF SCILLY INTEGRATED CARE BOARD","Region Code":"Y58","Region Name":"SOUTH WEST COMMISSIONING REGION","Region colour":"#ae2573"},
 		"U68213":{"q":18,"r":-78,"n":"1","colour":"#000000","code":"U68213","name":"NORTH KERRIER EAST PCN","CCG Code":"11N","CCG Name":"NHS KERNOW CCG","ICB Code":"QT6","ICB Name":"NHS CORNWALL AND THE ISLES OF SCILLY INTEGRATED CARE BOARD","Region Code":"Y58","Region Name":"SOUTH WEST COMMISSIONING REGION","Region colour":"#ae2573"},

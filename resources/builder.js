@@ -618,10 +618,11 @@ function HexBuilder(el,attr){
 			savepng.classList.add('c10-bg');
 			savepng.innerHTML = 'Save as PNG';
 			savepng.addEventListener('click',function(){
-				var svg = _obj.hex.el.querySelector('svg');
+				var svg = _obj.hex.el.querySelector('.hexmap-map');
 				var grid = svg.querySelectorAll('.hex-grid');
 				// Hide all the grid cells
 				for(var g = 0; g < grid.length; g++) grid[g].style.display = 'none';
+				console.log(svg,grid);
 				SVG2PNG(svg,{
 					'src':'hexmap.png',
 					'callback':function(src){
@@ -756,7 +757,7 @@ function HexBuilder(el,attr){
 	this.saveSVG = function(){
 
 		// Make hex json
-		var str = this.hex.el.querySelector('svg').outerHTML;
+		var str = this.hex.el.querySelector('.hexmap-map').outerHTML;
 		this.save(str,"map.svg",'text/application/svg+xml');
 
 		return this;

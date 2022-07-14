@@ -1,6 +1,11 @@
 /**
 	OI hex map in SVG
-	Version 0.6.1
+	0.6.1:
+		- bug fixes
+	0.6.0:
+		- change namespace
+		- set padding
+		- can provide function to updateColours()
  */
 (function(root){
 
@@ -74,7 +79,7 @@
 		};
 
 		if(!el){
-			this.log('ERROR','Unable to find the element to draw into',el);
+			this.log('WARNING','No DOM element to add to');
 			return this;
 		}
 
@@ -304,7 +309,7 @@
 			// Create SVG container
 			if(!svg){
 				svg = svgEl('svg');
-				setAttr(svg,{'xmlns':ns,'version':'1.1','overflow':'visible','viewBox':(attr.viewBox||'0 0 '+w+' '+h),'style':'max-width:100%;','preserveAspectRatio':'xMinYMin meet','vector-effect':'non-scaling-stroke'});
+				setAttr(svg,{'class':'hexmap-map','xmlns':ns,'version':'1.1','overflow':'visible','viewBox':(attr.viewBox||'0 0 '+w+' '+h),'style':'max-width:100%;','preserveAspectRatio':'xMinYMin meet','vector-effect':'non-scaling-stroke'});
 				add(svg,this.el);
 			}
 			setAttr(svg,{'width':w,'height':h});
@@ -431,9 +436,7 @@
 			}
 			for(r in this.mapping.hexes){
 				if(this.mapping.hexes[r]){
-					fill = this.style['default'].fill;
-					if(typeof fn==="function") fill = fn.call(this,r);
-					this.areas[r].fillcolour = fill;
+					this.areas[r].fillcolour = fn.call(this,r);
 					this.setHexStyle(r);
 				}
 			}
@@ -441,7 +444,7 @@
 		};
 		
 		this.draw = function(){			
-			var r,q,h,hex;
+			var r,q,h,hex,region;
 
 			var range = this.range;
 			for(region in this.mapping.hexes){
@@ -503,7 +506,7 @@
 				add(this.grid,svg);
 			}
 
-			var min,max,_obj,defs,path,label,hexclip,id;
+			var min,max,_obj,defs,path,label,hexclip,id,g;
 			min = 50000;
 			max = 80000;
 			_obj = this;
@@ -602,7 +605,5 @@
 		return str;
 	}
 
-
 	root.OI = OI;
-
 })(window || this);

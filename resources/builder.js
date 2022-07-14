@@ -259,9 +259,10 @@ function HexBuilder(el,attr){
 				this.query.url = bits[b];
 			}else{
 				kv = bits[b].split(/=/);
+				kv[1] = decodeURI(kv[1]);
 				if(kv[1]=="true") kv[1] = true;
 				if(kv[1]=="false") kv[1] = false;
-				this.query[kv[0]] = decodeURI(kv[1]);
+				this.query[kv[0]] = kv[1];
 			}
 		}
 		if(this.query.colourscale && scales[this.query.colourscale]) this.colourscale = this.query.colourscale;
@@ -644,6 +645,7 @@ function HexBuilder(el,attr){
 	};
 	this.setLabelState = function(){
 		var labels = document.querySelectorAll('.hex-label');
+		console.log(labels,this.query.labels);
 		var label = this.query.labels ? '':'none';
 		for(var l = 0; l < labels.length; l++) labels[l].style.display = label;
 		return this;

@@ -623,7 +623,6 @@ function HexBuilder(el,attr){
 				var grid = svg.querySelectorAll('.hex-grid');
 				// Hide all the grid cells
 				for(var g = 0; g < grid.length; g++) grid[g].style.display = 'none';
-				console.log(svg,grid);
 				SVG2PNG(svg,{
 					'src':'hexmap.png',
 					'callback':function(src){
@@ -645,7 +644,6 @@ function HexBuilder(el,attr){
 	};
 	this.setLabelState = function(){
 		var labels = document.querySelectorAll('.hex-label');
-		console.log(labels,this.query.labels);
 		var label = this.query.labels ? '':'none';
 		for(var l = 0; l < labels.length; l++) labels[l].style.display = label;
 		return this;

@@ -60,7 +60,7 @@ function HexBuilder(el,attr){
 			'padding':padding,
 			'minFontSize': 0,
 			'grid': { 'show': true },
-			'label': { 'show': true },
+			'label': { 'show': this.query.labels },
 			'style': {
 				'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
 				'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
@@ -183,6 +183,7 @@ function HexBuilder(el,attr){
 		if(typeof d==="string") l = d;
 		else{
 			l = (d.title||d.name||d.n);
+			if(typeof l==="undefined" && d[this.typ.name]) l = d[this.typ.name];
 			if(!short){
 				if(typeof d.r==="number" && typeof d.q==="number"){
 					l += (l ? '<br />':'')+'r,q: '+d.r+','+d.q;
@@ -337,65 +338,60 @@ function HexBuilder(el,attr){
 			var data = this.parseCSV(this.file.contents,{'url':this.file.name});
 			this.file.csv = data;
 			this.data = { 'layout': 'odd-r', 'hexes': {} };
-			id = 0;
+			id = -1;
 			// https://en.wikipedia.org/wiki/ONS_coding_system
 			gss = {
 				'PCON':{
 					'title':'Parliamentary Constituencies (2019)',
-					'patterns':[/^E14/,/^W07/,/^S14/,/^N06/],
-					'count':0,
+					'patterns':[/^E14[0-9]{6}$/,/^W07[0-9]{6}$/,/^S14[0-9]{6}$/,/^N06[0-9]{6}$/],
 					'hexjson':'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/constituencies.hexjson'
 				},
 				'LAD':{
 					'title': 'Local Authority Districts (2021)',
-					'count':0,
-					'patterns':[/^E06/,/^W06/,/^S12/,/^E07/,/^E08/,/^E09/],
+					'patterns':[/^E06[0-9]{6}$/,/^W06[0-9]{6}$/,/^S12[0-9]{6}$/,/^E07[0-9]{6}$/,/^E08[0-9]{6}$/,/^E09[0-9]{6}$/],
 					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-local-authority-districts-2021.hexjson'
 				},
 				'NUTS3':{
 					'title': 'NUTS3 regions',
 					'patterns':[/^UK[C-N][0-9]{2}$/],
-					'count': 0,
 					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-nuts3.hexjson'
 				},
 				'UTLA':{
 					'title': 'Upper Tier Local Authorities',
-					'count': 0,
 					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/uk-upper-tier-local-authorities.hexjson'
 				},
 				'Senedd':{
 					'title': 'Senedd Constituencies',
-					'patterns':[/^W09/],
-					'count':0,
+					'patterns':[/^W09[0-9]{6}$/],
 					'hexjson': 'https://raw.githubusercontent.com/odileeds/hexmaps/gh-pages/maps/wales-senedd-constituencies.hexjson'
 				},
 				'MSOA':{
 					'title': 'MSOAs',
-					'patterns':[/^[EWS]02/],
-					'count': 0,
+					'patterns':[/^[EWS]02[0-9]{6}$/],
 					'hexjson': 'https://raw.githubusercontent.com/houseofcommonslibrary/uk-hex-cartograms-noncontiguous/main/hexjson/msoa_hex_coords.hexjson'
 				},
 				'ICB':{
 					'title': 'NHS Integrated Care Boards',
 					'patterns':[/^Q[A-Z0-9]{2}$/],
-					'count':0,
 					'hexjson': 'maps/nhs-icb-2022.hexjson'
 				},
 				'PCN':{
 					'title': 'NHS Primary Care Networks',
 					'patterns':[/^U[0-9]{5}$/],
-					'count':0,
 					'hexjson': 'maps/nhs-pcn-2022.hexjson'					
 				},
 				'US-States':{
 					'title': 'US States',
 					'patterns':[/^(AL|AK|AZ|AR|CA|CO|CT|DC|DE|FL|GA|HI|ID|IL|IN|IA|KS|KY|LA|ME|MD|MA|MI|MN|MS|MO|MT|NE|NV|NH|NJ|NM|NY|NC|ND|OH|OK|OR|PA|RI|SC|SD|TN|TX|UT|VT|VA|WA|WV|WI|WY)$/],
-					'count':0,
 					'hexjson': 'maps/us-states.hexjson'
 				}
 			};
 			r = -1;
 			q = -1;
+			for(code in gss){
+				gss[code].count = 0;
+				gss[code].matches = {};
+			}
 			if(data.fields && data.fields.name){
 				for(j = 0; j < data.fields.name.length; j++){
 					if(data.fields.name[j].toLowerCase()=="id") id = j;
@@ -411,17 +407,31 @@ function HexBuilder(el,attr){
 					got = false;
 					for(code in gss){
 						if(gss[code].patterns){
-							for(m = 0; m < gss[code].patterns.length; m++){
-								if(data.rows[j][id].match(gss[code].patterns[m])) got = true;
+							for(k = 0; k < data.rows[j].length; k++){
+								if(typeof data.rows[j][k]==="string"){
+									for(m = 0; m < gss[code].patterns.length; m++){
+										if(data.rows[j][k].match(gss[code].patterns[m])){
+											got = true;
+											gss[code].matches[data.rows[j][k]] = true;
+											gss[code].id = k;
+										}
+									}
+								}
 							}
-							if(got) gss[code].count++;
+							if(got){
+								gss[code].count++;
+							}
 						}
 					}
 				}
 				var typ = {'id':'','count':0};
 				for(t in gss){
-					if(gss[t].count > typ.count && !typ.id) typ = {'id':t,'count':gss[t].count};
+					n = Object.keys(gss[t].matches).length;
+					if(n > typ.count) typ = {'id':t,'count':n};
 				}
+				if(id < 0 && typeof gss[typ.id].id==="number") id = gss[typ.id].id;
+				if(id >= 0) typ.name = data.fields.name[id];
+				this.typ = typ;
 				if(typ.id){
 					if(gss[typ.id].hexjson){
 						this.message('Loading '+gss[typ.id].title+' hexes from '+gss[typ.id].hexjson,{'id':'process','type':'WARNING'});

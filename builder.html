@@ -68,7 +68,6 @@
 		height: 100%;
 		opacity: 0.01;
 	}
-	.config label { margin-left: 1em; margin-right: 0.25em; }
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner img { width: 5em; margin: auto; }
 
@@ -155,7 +154,11 @@
 
 	.options button { margin-right: 0.25em; }
 	.options .save { margin-top: 1em; }
-	select,input { line-height: 2em; height: 2em; font-size: 1em; }
+	select,input { line-height: 2em; height: 2em; min-width: 2em; font-size: 1em; }
+	.config { line-height: 2em; }
+	.config .row { display: inline-block; margin: 0 0.5em 0.5em 0; }
+	.config .row input, .config .row select { float: right; }
+	.config label { margin-left: 1em; margin-right: 0.25em; line-height: 2em; display: inline-block; }
 	.infobubble { color: black; line-height: 1.25em; }
 	footer p { margin-bottom: 1em; }
 	footer h2 { margin-top: 2em; }

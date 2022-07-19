@@ -564,10 +564,15 @@ function HexBuilder(el,attr){
 		if(!this.options.attrib){
 			div = document.createElement('div');
 			div.classList.add('config');
+			this.options.attrib = div;
+			
+			row = document.createElement('div');
+			row.classList.add('row');
+
 			lbl = document.createElement('label');
 			lbl.innerHTML = 'Select data attribute/column to colour hexes by';
 			lbl.setAttribute('for','data-attribute');
-			div.appendChild(lbl);
+			row.appendChild(lbl);
 			sel = document.createElement('select');
 			sel.setAttribute('id','data-attribute');
 			sel.innerHTML = '<option>Attributes</option>';
@@ -579,17 +584,21 @@ function HexBuilder(el,attr){
 				sel.appendChild(opt);
 			}
 			sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
-			div.appendChild(sel);
+			row.appendChild(sel);
+			
+			this.options.attrib.appendChild(row);
 
 			this.options.el.insertBefore(div, this.options.el.firstChild);
-			this.options.attrib = div;
 		}
 
 		if(!this.options.scale){
+			row = document.createElement('div');
+			row.classList.add('row');
+
 			lbl = document.createElement('label');
 			lbl.innerHTML = 'Select colour scale';
 			lbl.setAttribute('for','data-colourscale');
-			this.options.attrib.appendChild(lbl);
+			row.appendChild(lbl);
 			cssel = document.createElement('select');
 			cssel.setAttribute('id','data-colourscale');
 			for(s in scales){
@@ -603,22 +612,30 @@ function HexBuilder(el,attr){
 				_obj.colourscale = e.target.value;
 				_obj.setColours(sel.value);
 			});
-			this.options.attrib.appendChild(cssel);
+			row.appendChild(cssel);
+			this.options.attrib.appendChild(row);
 			this.options.scale = cssel;
 		}
 		
 		if(!this.options.border){
+			
+			row = document.createElement('div');
+			row.classList.add('row');
+
 			lbl = document.createElement('label');
 			lbl.innerHTML = 'Hex borders?';
 			lbl.setAttribute('for','data-border');
-			this.options.attrib.appendChild(lbl);
+			row.appendChild(lbl);
 			brdel = document.createElement('input');
 			brdel.setAttribute('id','data-border');
 			brdel.setAttribute('type','checkbox');
 			if(this.query.borders) brdel.setAttribute('checked','checked');
 			brdel.addEventListener('change',function(e){ _obj.setBorders(); });
-			this.options.attrib.appendChild(brdel);
+			row.appendChild(brdel);
 			this.options.border = brdel;
+			
+			row.appendChild(brdel);
+			this.options.attrib.appendChild(row);
 		}
 
 		this.options.el.style.display = '';
@@ -636,7 +653,7 @@ function HexBuilder(el,attr){
 			div = document.createElement('div');
 			div.classList.add('save');
 			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">The HexJSON format can be reloaded in this tool for further editing.</p><div id="save-secondary"></div><p style="color:#999;">These formats can\'t be reloaded in this tool.</p>';
-			this.options.attrib.appendChild(div);
+			this.options.el.appendChild(div);
 
 			save = document.createElement('button');
 			save.classList.add('c10-bg');

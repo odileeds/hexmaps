@@ -17,6 +17,8 @@ function HexBuilder(el,attr){
 		'Viridis8': 'rgb(122,76,139) 0, rgb(124,109,168) 12.5%, rgb(115,138,177) 25%, rgb(107,164,178) 37.5%, rgb(104,188,170) 50%, rgb(133,211,146) 62.5%, rgb(189,229,97) 75%, rgb(254,240,65) 87.5%, rgb(254,240,65) 100%',
 		'ODI': 'rgb(114,46,165) 0%, rgb(230,0,124) 50%, rgb(249,188,38) 100%',
 		'Heat': 'rgb(0,0,0) 0%, rgb(128,0,0) 25%, rgb(255,128,0) 50%, rgb(255,255,128) 75%, rgb(255,255,255) 100%',
+		'IMD-low-high': 'rgb(8,64,129) 0%, rgb(8,104,172) 10%, rgb(43,140,190) 20%, rgb(78,179,211) 30%, rgb(123,204,196) 40%, rgb(168,221,181) 50%, rgb(204,235,197) 60%, rgb(224,243,219) 70%, rgb(238,252,217) 80%, rgb(251,252,244) 90%, rgb(251,252,244) 100%',
+		'IMD-high-low': 'rgb(251,252,244) 0%, rgb(238,252,217) 10%, rgb(224,243,219) 20%, rgb(204,235,197) 30%, rgb(168,221,181) 40%, rgb(123,204,196) 50%, rgb(78,179,211) 60%, rgb(43,140,190) 70%, rgb(8,104,172) 80%, rgb(8,64,129) 90%, rgb(8,64,129) 100%',
 		'Planck': 'rgb(0,0,255) 0, rgb(0,112,255) 16.666%, rgb(0,221,255) 33.3333%, rgb(255,237,217) 50%, rgb(255,180,0) 66.666%, rgb(255,75,0) 100%',
 		'EPC': '#ef1c3a 1%, #ef1c3a 20.5%, #f78221 20.5%, #f78221 38.5%, #f9ac64 38.5%, #f9ac64 54.5%, #ffcc00 54.5%, #ffcc00 68.5%, #8cc63f 68.5%, #8cc63f 80.5%, #1bb35b 80.5%, #1bb35b 91.5%, #00855a 91.5%, #00855a 120%',
 		'Plasma': 'rgb(12,7,134) 0, rgb(82,1,163) 12.5%, rgb(137,8,165) 25%, rgb(184,50,137) 37.5%, rgb(218,90,104) 50%, rgb(243,135,72) 62.5%, rgb(253,187,43) 75%, rgb(239,248,33) 87.5%',
@@ -27,7 +29,6 @@ function HexBuilder(el,attr){
 	};
 	for(var s in scales) this.colours.addScale(s,scales[s]);
 	this.colourscale = 'Viridis8';
-
 
 	this.createMap = function(){
 
@@ -588,7 +589,7 @@ function HexBuilder(el,attr){
 			
 			this.options.attrib.appendChild(row);
 
-			this.options.el.insertBefore(div, this.options.el.firstChild);
+			this.options.el.appendChild(div);//insertBefore(div, this.options.el.firstChild);
 		}
 
 		if(!this.options.scale){
@@ -652,30 +653,30 @@ function HexBuilder(el,attr){
 			var _obj = this;
 			div = document.createElement('div');
 			div.classList.add('save');
-			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">The HexJSON format can be reloaded in this tool for further editing.</p><div id="save-secondary"></div><p style="color:#999;">These formats can\'t be reloaded in this tool.</p>';
+			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">Only the HexJSON format can be reloaded in this tool for further editing.</p>';
 			this.options.el.appendChild(div);
 
 			save = document.createElement('button');
 			save.classList.add('c10-bg');
-			save.innerHTML = 'Save hexes as HexJSON';
+			save.innerHTML = 'HexJSON';
 			save.addEventListener('click',function(){ _obj.save(); });
 			div.querySelector('#save-primary').appendChild(save);
 
 			savesvg = document.createElement('button');
-			savesvg.classList.add('c10-bg');
-			savesvg.innerHTML = 'Save map as SVG';
+			savesvg.classList.add('c8-bg');
+			savesvg.innerHTML = 'SVG';
 			savesvg.addEventListener('click',function(){ _obj.saveSVG(); });
-			div.querySelector('#save-secondary').appendChild(savesvg);
+			div.querySelector('#save-primary').appendChild(savesvg);
 
 			savegeo = document.createElement('button');
-			savegeo.classList.add('c10-bg');
-			savegeo.innerHTML = 'Save as fake GeoJSON';
+			savegeo.classList.add('c8-bg');
+			savegeo.innerHTML = 'GeoJSON';
 			savegeo.addEventListener('click',function(){ _obj.saveGeoJSON(); });
-			div.querySelector('#save-secondary').appendChild(savegeo);
+			div.querySelector('#save-primary').appendChild(savegeo);
 			
 			savepng = document.createElement('button');
-			savepng.classList.add('c10-bg');
-			savepng.innerHTML = 'Save as PNG';
+			savepng.classList.add('c8-bg');
+			savepng.innerHTML = 'PNG';
 			savepng.addEventListener('click',function(){
 				var svg = _obj.hex.el.querySelector('.hexmap-map');
 				var grid = svg.querySelectorAll('.hex-grid');
@@ -689,7 +690,7 @@ function HexBuilder(el,attr){
 					}
 				});
 			});
-			div.querySelector('#save-secondary').appendChild(savepng);
+			div.querySelector('#save-primary').appendChild(savepng);
 
 		}
 

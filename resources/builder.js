@@ -9,7 +9,7 @@ function HexBuilder(el,attr){
 	var width = attr.width||1088;
 	var height = attr.height||1220;
 	var padding = 2;
-	this.query = {'labels':true};
+	this.query = {'labels':true,'borders':true};
 	this.options = {};
 	
 	this.colours = new Colours();
@@ -589,6 +589,20 @@ function HexBuilder(el,attr){
 			this.options.attrib.appendChild(cssel);
 			this.options.scale = cssel;
 		}
+		
+		if(!this.options.border){
+			lbl = document.createElement('label');
+			lbl.innerHTML = 'Hex borders?';
+			lbl.setAttribute('for','data-border');
+			this.options.attrib.appendChild(lbl);
+			brdel = document.createElement('input');
+			brdel.setAttribute('id','data-border');
+			brdel.setAttribute('type','checkbox');
+			if(this.query.borders) brdel.setAttribute('checked','checked');
+			brdel.addEventListener('change',function(e){ _obj.setBorders(); });
+			this.options.attrib.appendChild(brdel);
+			this.options.border = brdel;
+		}
 
 		this.options.el.style.display = '';
 
@@ -649,7 +663,19 @@ function HexBuilder(el,attr){
 		this.setColours(this.query.attribute);
 		
 		this.setLabelState();
+		
+		this.setBorders();
 
+		return this;
+	};
+	this.toggleBorders = function(){
+		this.options.border.checked = !this.options.border.checked;
+		this.setBorders();
+		return this;
+	};
+	this.setBorders = function(){
+		var cells = document.querySelectorAll('.hex-cell');
+		for(var c = 0; c < cells.length; c++) cells[c].style['stroke-width'] = (this.options.border.checked) ? '' : '0px';
 		return this;
 	};
 	this.setLabelState = function(){

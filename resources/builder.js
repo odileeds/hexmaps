@@ -445,7 +445,7 @@ function HexBuilder(el,attr){
 								this.message('Loaded '+attr.url,{'id':'process','class':'c5-bg'});
 								// Loop over HexJSON adding in data
 								this.data = result;
-								var r,nm;
+								var r,nm,ok;
 								for(r = 0; r < attr.data.data.rows.length; r++){
 									id = attr.data.data.rows[r][attr.data.id];
 									if(id){
@@ -456,10 +456,26 @@ function HexBuilder(el,attr){
 											}
 										}else{
 											console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
+											delete this.data.hexes[id];
 										}
 									}else{
 										console.warn('Missing ID on line '+r);
 									}
+								}
+								if(this.file.type=="csv"){
+									// Limit the hexes to those with data
+									var removed = 0;
+									for(id in this.data.hexes){
+										ok = false;
+										for(r = 0; r < attr.data.data.rows.length; r++){
+											if(id==attr.data.data.rows[r][attr.data.id]) ok = true;
+										}
+										if(!ok){
+											delete this.data.hexes[id];
+											removed++;
+										}
+									}
+									if(removed) this.message('Removed '+removed+' hexes with no data in '+this.file.name+'.',{'id':'removed','class':'c13-bg'});
 								}
 								this.processed();
 							},

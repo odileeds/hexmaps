@@ -11,7 +11,9 @@ function HexBuilder(el,attr){
 	var padding = 2;
 	this.query = {'labels':true,'borders':true};
 	this.options = {};
-	
+	this.options.el = this.el.querySelector('.options');
+	this.options.el.style.display = 'none';
+
 	this.colours = new Colours();
 	var scales = {
 		'Viridis8': 'rgb(122,76,139) 0, rgb(124,109,168) 12.5%, rgb(115,138,177) 25%, rgb(107,164,178) 37.5%, rgb(104,188,170) 50%, rgb(133,211,146) 62.5%, rgb(189,229,97) 75%, rgb(254,240,65) 87.5%, rgb(254,240,65) 100%',
@@ -288,11 +290,11 @@ function HexBuilder(el,attr){
 		if(document.getElementById('results')) document.getElementById('results').style.display = '';
 
 		this.hex.el.remove();
-		
-		this.options.el.innerHTML = "";
-		delete this.options.el;
+
+		delete this.options.config;
 		delete this.options.attrib;
 		delete this.options.scale;
+		delete this.options.border;
 
 		removeEl(document.getElementById('filedetails'));
 		document.getElementById('messages').innerHTML = '';
@@ -559,13 +561,12 @@ function HexBuilder(el,attr){
 			}
 		}
 
-		this.options.el = this.el.querySelector('.options');
-
 		// Create a dropdown for colouring the hexes
-		if(!this.options.attrib){
+		if(!this.options.config){
 			div = document.createElement('div');
 			div.classList.add('config');
-			this.options.attrib = div;
+			this.options.config = div;
+			this.options.el.appendChild(div);
 			
 			row = document.createElement('div');
 			row.classList.add('row');
@@ -587,9 +588,8 @@ function HexBuilder(el,attr){
 			sel.addEventListener('change',function(e){ _obj.setColours(e.target.value); });
 			row.appendChild(sel);
 			
-			this.options.attrib.appendChild(row);
-
-			this.options.el.appendChild(div);//insertBefore(div, this.options.el.firstChild);
+			this.options.attrib = sel;
+			this.options.config.appendChild(row);
 		}
 
 		if(!this.options.scale){
@@ -614,7 +614,7 @@ function HexBuilder(el,attr){
 				_obj.setColours(sel.value);
 			});
 			row.appendChild(cssel);
-			this.options.attrib.appendChild(row);
+			this.options.config.appendChild(row);
 			this.options.scale = cssel;
 		}
 		
@@ -636,8 +636,9 @@ function HexBuilder(el,attr){
 			this.options.border = brdel;
 			
 			row.appendChild(brdel);
-			this.options.attrib.appendChild(row);
+			this.options.config.appendChild(row);
 		}
+
 
 		this.options.el.style.display = '';
 
@@ -653,7 +654,7 @@ function HexBuilder(el,attr){
 			var _obj = this;
 			div = document.createElement('div');
 			div.classList.add('save');
-			div.innerHTML = '<div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">Only the HexJSON format can be reloaded in this tool for further editing.</p>';
+			div.innerHTML = '<h3>Save cartogram</h3><div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">Only the HexJSON format can be reloaded in this tool for further editing.</p><p id="link"></p>';
 			this.options.el.appendChild(div);
 
 			save = document.createElement('button');
@@ -701,7 +702,7 @@ function HexBuilder(el,attr){
 		
 		this.setBorders();
 
-		return this;
+		return this.updateLink();
 	};
 	this.toggleBorders = function(){
 		this.options.border.checked = !this.options.border.checked;
@@ -711,13 +712,13 @@ function HexBuilder(el,attr){
 	this.setBorders = function(){
 		var cells = document.querySelectorAll('.hex-cell');
 		for(var c = 0; c < cells.length; c++) cells[c].style['stroke-width'] = (this.options.border.checked) ? '' : '0px';
-		return this;
+		return this.updateLink();
 	};
 	this.setLabelState = function(){
 		var labels = document.querySelectorAll('.hex-label');
 		var label = this.query.labels ? '':'none';
 		for(var l = 0; l < labels.length; l++) labels[l].style.display = label;
-		return this;
+		return this.updateLink();
 	};
 	this.toggleLabels = function(){
 		this.query.labels = !this.query.labels;
@@ -741,6 +742,7 @@ function HexBuilder(el,attr){
 	};
 
 	this.getFromURL = function(url,callback){
+		this.url = url;
 		OI.ajax(url,{
 			'dataType': (url.indexOf('\.hexjson') > 0 ? 'json':'text'),
 			'this':this,
@@ -1005,7 +1007,7 @@ function HexBuilder(el,attr){
 			}
 			return c;
 		});
-		
+
 		// Update colour scale bar
 		/*
 		colour.getGradient( this.views[this.options.view].layers[l].colourscale ),{
@@ -1017,6 +1019,14 @@ function HexBuilder(el,attr){
 						'levels': (typeof this.options.map.quantised==="number" ? this.options.map.quantised : undefined)
 					}));
 		*/
+		return this.updateLink();
+	};
+	
+	this.updateLink = function(){
+		var el = document.getElementById('link');
+		if(el){
+			el.innerHTML = '<label for="view">Link to this view:</label><input type="text" class="view" id="view" onClick="this.setSelectionRange(0, this.value.length)" value="'+location.protocol + '//' + location.host + location.pathname+'?'+this.url+'&colourscale='+encodeURI(this.options.scale.value)+'&borders='+this.options.border.checked+'&attribute='+encodeURI(this.options.attrib.value)+'&labels='+this.query.labels+'" />';
+		}
 		return this;
 	};
 	

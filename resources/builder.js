@@ -475,7 +475,7 @@ function HexBuilder(el,attr){
 											removed++;
 										}
 									}
-									if(removed) this.message('Removed '+removed+' hexes with no data in '+this.file.name+'.',{'id':'removed','class':'c13-bg'});
+									if(removed) this.message('Removed '+removed+' hexes with no data in '+this.file.name+'.',{'id':'removed','class':'c14-bg'});
 								}
 								this.processed();
 							},

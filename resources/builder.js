@@ -442,7 +442,7 @@ function HexBuilder(el,attr){
 							'data': data,
 							'id': id,
 							'success':function(result,attr){
-								this.message('Loaded '+attr.url,{'id':'process','class':'c5-bg'});
+								this.message('Loaded '+gss[typ.id].title+' hexes from '+attr.url,{'id':'process','class':'c5-bg'});
 								// Loop over HexJSON adding in data
 								this.data = result;
 								var r,nm,ok;
@@ -728,7 +728,7 @@ function HexBuilder(el,attr){
 			'this':this,
 			'callback': callback,
 			'success':function(result,attr){
-				this.message('Loaded '+attr.url,{'id':'load','class':'c5-bg'});
+				this.message('Loaded data from '+attr.url,{'id':'load','class':'c5-bg'});
 				this.file = { 'name': attr.url, 'contents': result };
 				if(typeof attr.data.callback==="function") attr.data.callback.call(this);
 			},

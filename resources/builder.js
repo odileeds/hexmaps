@@ -266,6 +266,7 @@ function HexBuilder(el,attr){
 				this.query[kv[0]] = kv[1];
 			}
 		}
+		if(!this.query.url && this.query.gsheetid) this.query.url = "https://docs.google.com/spreadsheets/d/"+this.query.gsheetid+"/gviz/tq?tqx=out:csv";
 		if(this.query.colourscale && scales[this.query.colourscale]) this.colourscale = this.query.colourscale;
 
 		file = this.query.url;

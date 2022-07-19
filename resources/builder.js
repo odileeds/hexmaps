@@ -465,7 +465,7 @@ function HexBuilder(el,attr){
 										console.warn('Missing ID on line '+r);
 									}
 								}
-								if(this.file.type=="csv"){
+								if(this.file.type=="csv" && this.query.removeEmpty){
 									// Limit the hexes to those with data
 									var removed = 0;
 									for(id in this.data.hexes){

@@ -9,7 +9,7 @@ function HexBuilder(el,attr){
 	var width = attr.width||1088;
 	var height = attr.height||1220;
 	var padding = 2;
-	this.query = {'labels':true,'borders':true};
+	this.query = {'labels':true,'borders':true,'keepmissing':true};
 	this.options = {};
 	this.options.el = this.el.querySelector('.options');
 	this.options.el.style.display = 'none';
@@ -29,7 +29,14 @@ function HexBuilder(el,attr){
 		'Longside': '#801638 0%, #addde6 100%',
 		'Black': '#000000 0%, #000000 100%'
 	};
-	for(var s in scales) this.colours.addScale(s,scales[s]);
+	var str = '';
+	for(var s in scales){
+		this.colours.addScale(s,scales[s]);
+		console.log(this.colours.getGradient(s));
+		str += (str ? ', ':'')+'<code>'+s+'<span class="scale-preview" style="'+this.colours.getGradient(s)+';"></span></code>';
+	}
+	var snel = document.getElementById('scale-names');
+	if(snel) snel.innerHTML = str;
 	this.colourscale = 'Viridis8';
 
 	this.createMap = function(){
@@ -465,7 +472,7 @@ function HexBuilder(el,attr){
 										console.warn('Missing ID on line '+r);
 									}
 								}
-								if(this.file.type=="csv" && this.query.removeEmpty){
+								if(this.file.type=="csv" && !this.query.keepmissing){
 									// Limit the hexes to those with data
 									var removed = 0;
 									for(id in this.data.hexes){

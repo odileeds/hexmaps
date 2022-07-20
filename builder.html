@@ -240,11 +240,11 @@
 				<li><code>attribute=</code> is the column heading for the column to use for the colour scale - we can cope with numeric valus and ISO8601 dates</li>
 				<li><code>borders=</code> can be set to <code>true</code> or <code>false</code> to turn the hex borders on or off</li>
 				<li><code>colourscale=</code> is one of our named colour scales (<span id="scale-names"></span>)</li>
-				<li><code>labels=</code> can be set to <code>true</code> or <code>false</code> to turn the hex labels on or off</li>
+				<li><code>labels=</code> can be set to <code>true</code> or <code>false</code> to turn the hex labels on or off - turning them off can speed up rendering time for big maps</li>
 				<li><code>keepmissing=</code> can be set to <code>true</code> or <code>false</code> to show or not show hexes that aren't referred to in the data</li>
 			</ul>
 			<h2>Using data in a Google Sheet</h2>
-			<p>If you have data in a publicly-visible Google Sheet you can add the parameter <code>gsheetid=1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw</code> (replace <code>1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw</code> with your Sheet ID) to the URK and the Builder will construct the CSV export URL for you e.g.</p>
+			<p>If you have data in a publicly-visible Google Sheet you can add the parameter <code>gsheetid=1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw</code> (replace <code>1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw</code> with your Sheet ID) to the URL and the Builder will construct the CSV export URL for you e.g. load a simple Google Sheet, hide hex labels, and remove hex borders</p>
 			<pre>https://open-innovations.org/projects/hexmaps/builder.html?<em>gsheetid=1hqFqAyRp7JfHu7jmZK-tBtiU89B28rgfTKHofK16PMw</em>&attribute=Date&labels=false&borders=false</pre>
 			<h2>Exporting the map</h2>
 			<p>You can export the map in four ways:</p>

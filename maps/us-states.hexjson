@@ -30,7 +30,7 @@
 		"MO":{"n":"Missouri","type":"state","capital":"Jefferson City","founding":"1821-08-10","q":6,"r":2},
 		"MT":{"n":"Montana","type":"state","capital":"Helena","founding":"1889-11-08","q":3,"r":4},
 		"NE":{"n":"Nebraska","type":"state","capital":"Lincoln","founding":"1867-03-01","q":5,"r":2},
-		"NV":{"n":"Nevada","type":"state","capital":"Carson City","founding":"1864-10 -31","q":3,"r":2},
+		"NV":{"n":"Nevada","type":"state","capital":"Carson City","founding":"1864-10-31","q":3,"r":2},
 		"NH":{"n":"New Hampshire","type":"state","capital":"Concord","founding":"1788-06-21","q":11,"r":5},
 		"NJ":{"n":"New Jersey","type":"state","capital":"Trenton","founding":"1787-12-18","q":10,"r":3},
 		"NM":{"n":"New Mexico","type":"state","capital":"Santa Fe","founding":"1912-01-06","q":4,"r":1},

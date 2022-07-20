@@ -755,7 +755,7 @@ function HexBuilder(el,attr){
 			'this':this,
 			'callback': callback,
 			'success':function(result,attr){
-				this.message('Loaded data from '+attr.url,{'id':'load','class':'c5-bg'});
+				this.message('Loaded data from '+attr.url+(attr.url.indexOf('odileeds') < 0 && attr.url.indexOf('open-innovations') < 0 ? ' ⚠️ data from an external source' : ''),{'id':'load','class':'c5-bg'});
 				this.file = { 'name': attr.url, 'contents': result };
 				if(typeof attr.data.callback==="function") attr.data.callback.call(this);
 			},

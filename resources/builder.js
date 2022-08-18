@@ -16,15 +16,15 @@ function HexBuilder(el,attr){
 
 	this.colours = new Colours();
 	var scales = {
-		'Viridis8': 'rgb(122,76,139) 0, rgb(124,109,168) 12.5%, rgb(115,138,177) 25%, rgb(107,164,178) 37.5%, rgb(104,188,170) 50%, rgb(133,211,146) 62.5%, rgb(189,229,97) 75%, rgb(254,240,65) 87.5%, rgb(254,240,65) 100%',
+		'Viridis8': 'rgb(122,76,139) 0%, rgb(124,109,168) 12.5%, rgb(115,138,177) 25%, rgb(107,164,178) 37.5%, rgb(104,188,170) 50%, rgb(133,211,146) 62.5%, rgb(189,229,97) 75%, rgb(254,240,65) 87.5%, rgb(254,240,65) 100%',
 		'ODI': 'rgb(114,46,165) 0%, rgb(230,0,124) 50%, rgb(249,188,38) 100%',
 		'Heat': 'rgb(0,0,0) 0%, rgb(128,0,0) 25%, rgb(255,128,0) 50%, rgb(255,255,128) 75%, rgb(255,255,255) 100%',
 		'IMD-low-high': 'rgb(8,64,129) 0%, rgb(8,104,172) 10%, rgb(43,140,190) 20%, rgb(78,179,211) 30%, rgb(123,204,196) 40%, rgb(168,221,181) 50%, rgb(204,235,197) 60%, rgb(224,243,219) 70%, rgb(238,252,217) 80%, rgb(251,252,244) 90%, rgb(251,252,244) 100%',
 		'IMD-high-low': 'rgb(251,252,244) 0%, rgb(238,252,217) 10%, rgb(224,243,219) 20%, rgb(204,235,197) 30%, rgb(168,221,181) 40%, rgb(123,204,196) 50%, rgb(78,179,211) 60%, rgb(43,140,190) 70%, rgb(8,104,172) 80%, rgb(8,64,129) 90%, rgb(8,64,129) 100%',
-		'Planck': 'rgb(0,0,255) 0, rgb(0,112,255) 16.666%, rgb(0,221,255) 33.3333%, rgb(255,237,217) 50%, rgb(255,180,0) 66.666%, rgb(255,75,0) 100%',
-		'EPC': '#ef1c3a 1%, #ef1c3a 20.5%, #f78221 20.5%, #f78221 38.5%, #f9ac64 38.5%, #f9ac64 54.5%, #ffcc00 54.5%, #ffcc00 68.5%, #8cc63f 68.5%, #8cc63f 80.5%, #1bb35b 80.5%, #1bb35b 91.5%, #00855a 91.5%, #00855a 120%',
-		'Plasma': 'rgb(12,7,134) 0, rgb(82,1,163) 12.5%, rgb(137,8,165) 25%, rgb(184,50,137) 37.5%, rgb(218,90,104) 50%, rgb(243,135,72) 62.5%, rgb(253,187,43) 75%, rgb(239,248,33) 87.5%',
-		'Referendum': '#4BACC6 0, #B6DDE8 50%, #FFF380 50%, #FFFF00 100%',
+		'Planck': 'rgb(0,0,255) 0%, rgb(0,112,255) 16.666%, rgb(0,221,255) 33.3333%, rgb(255,237,217) 50%, rgb(255,180,0) 66.666%, rgb(255,75,0) 100%',
+		'EPC': '#ef1c3a 1%, #ef1c3a 20.5%, #f78221 20.5%, #f78221 38.5%, #f9ac64 38.5%, #f9ac64 54.5%, #ffcc00 54.5%, #ffcc00 68.5%, #8cc63f 68.5%, #8cc63f 80.5%, #1bb35b 80.5%, #1bb35b 91.5%, #00855a 91.5%, #00855a 100%',
+		'Plasma': 'rgb(12,7,134) 0%, rgb(82,1,163) 12.5%, rgb(137,8,165) 25%, rgb(184,50,137) 37.5%, rgb(218,90,104) 50%, rgb(243,135,72) 62.5%, rgb(253,187,43) 75%, rgb(239,248,33) 87.5%',
+		'Referendum': '#4BACC6 0%, #B6DDE8 50%, #FFF380 50%, #FFFF00 100%',
 		'Leodis': '#2254F4 0%, #F9BC26 50%, #ffffff 100%',
 		'Longside': '#801638 0%, #addde6 100%',
 		'Black': '#000000 0%, #000000 100%'
@@ -32,7 +32,6 @@ function HexBuilder(el,attr){
 	var str = '';
 	for(var s in scales){
 		this.colours.addScale(s,scales[s]);
-		console.log(this.colours.getGradient(s));
 		str += (str ? ', ':'')+'<code>'+s+'<span class="scale-preview" style="'+this.colours.getGradient(s)+';"></span></code>';
 	}
 	var snel = document.getElementById('scale-names');
@@ -194,6 +193,7 @@ function HexBuilder(el,attr){
 		else{
 			l = (d.title||d.name||d.n);
 			if(typeof l==="undefined" && d[this.typ.name]) l = d[this.typ.name];
+			if(typeof l==="undefined") l = "";
 			if(!short){
 				if(typeof d.r==="number" && typeof d.q==="number"){
 					l += (l ? '<br />':'')+'r,q: '+d.r+','+d.q;
@@ -520,7 +520,7 @@ function HexBuilder(el,attr){
 
 			if(typeof this.file.contents==="string") this.data = JSON.parse(this.file.contents);
 			else this.data = this.file.contents;
-
+			this.typ = {'id':'','count':0};
 			return this.processed();
 		}
 		return this;
@@ -1016,16 +1016,8 @@ function HexBuilder(el,attr){
 		});
 
 		// Update colour scale bar
-		/*
-		colour.getGradient( this.views[this.options.view].layers[l].colourscale ),{
-						'min': this.views[this.options.view].layers[l].range.min,
-						'max': this.views[this.options.view].layers[l].range.max,
-						'color': color,
-						'scale': this.views[this.options.view].layers[l].colour,
-						'scaleid': this.views[this.options.view].layers[l].colourscale,
-						'levels': (typeof this.options.map.quantised==="number" ? this.options.map.quantised : undefined)
-					}));
-		*/
+		var el = document.querySelector('.scale');
+		if(el) el.innerHTML = '<div class="scalebar" style="'+this.colours.getGradient(this.colourscale)+';height:1em;"></div><div class="min" style="float:left;border-left:1px solid '+this.colours.getColourFromScale(this.colourscale,0,0,100)+';padding-left: 0.25em;">'+(min != 1e100 ? min : 'minimum')+'</div><div class="max"style="float:right;border-right:1px solid '+this.colours.getColourFromScale(this.colourscale,100,0,100)+';padding-right: 0.25em;">'+(max != -1e100 ? max : 'maximum')+'</div>';
 		return this.updateLink();
 	};
 	

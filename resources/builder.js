@@ -41,7 +41,7 @@ function HexBuilder(el,attr){
 	this.createMap = function(){
 
 		// Get full range of r and q
-		var range = {'r':{'min':1e100,'max':-1e100},'q':{'min':1e100,'max':-1e100}};
+		var range = {'r':{'min':Infinity,'max':-Infinity},'q':{'min':Infinity,'max':-Infinity}};
 		for(var h in this.data.hexes){
 			range.r.min = Math.min(this.data.hexes[h].r,range.r.min);
 			range.q.min = Math.min(this.data.hexes[h].q,range.q.min);
@@ -1046,7 +1046,7 @@ function HexBuilder(el,attr){
 
 		// Update colour scale bar
 		var el = document.querySelector('.scale');
-		if(el) el.innerHTML = '<div class="scalebar" style="'+this.colours.getGradient(this.colourscale)+';height:1em;"></div><div class="min" style="float:left;border-left:1px solid '+this.colours.getColourFromScale(this.colourscale,0,0,100)+';padding-left: 0.25em;">'+(min != 1e100 ? min : 'minimum')+'</div><div class="max"style="float:right;border-right:1px solid '+this.colours.getColourFromScale(this.colourscale,100,0,100)+';padding-right: 0.25em;">'+(max != -1e100 ? max : 'maximum')+'</div>';
+		if(el) el.innerHTML = '<div class="scalebar" style="'+this.colours.getGradient(this.colourscale)+';height:1em;"></div><div class="min" style="float:left;border-left:1px solid '+this.colours.getColourFromScale(this.colourscale,0,0,100)+';padding-left: 0.25em;">'+(min != Infinity && typeof min!=="undefined" ? min : 'minimum')+'</div><div class="max"style="float:right;border-right:1px solid '+this.colours.getColourFromScale(this.colourscale,100,0,100)+';padding-right: 0.25em;">'+(max != -Infinity && typeof max!=="undefined" ? max : 'maximum')+'</div>';
 		return this.updateLink();
 	};
 	

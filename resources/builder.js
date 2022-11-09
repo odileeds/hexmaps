@@ -1283,13 +1283,19 @@ function HexBuilder(el,attr){
 
 function ColourPicker(builder){
 	this.el = document.createElement('div');
+	this.el.classList.add('hex-colour-picker');
+
+	this.inner = document.createElement('div');
+	this.inner.classList.add('hex-colour-picker-inner');
+	this.inner.classList.add('b2-bg');
+	this.inner.innerHTML = '<h4>Colour:</h4>';
+	this.el.appendChild(this.inner);
+
 	this.input = document.createElement('input');
 	this.btn = document.createElement('button');
-	this.el.classList.add('b2-bg');
-	this.el.style = "position:fixed;top:0;right:1em;padding:1em;";
-	this.el.innerHTML = '<h3 style="margin-top:0;margin-bottom:4px;">Colour:</h3>';
-	this.el.appendChild(this.input);
-	this.el.appendChild(this.btn);
+	this.inner.appendChild(this.input);
+	this.inner.appendChild(this.btn);
+
 	this.input.setAttribute('type','color');
 	this.input.style = "width: 100%";
 	this.btn.innerHTML = "Select by colour";
@@ -1307,7 +1313,7 @@ function ColourPicker(builder){
 	});
 	this.activate = function(){
 		// Add the colour picking tool to the DOM
-		document.body.appendChild(this.el);
+		builder.hex.el.insertBefore(this.el, builder.hex.el.firstChild);
 		if(builder.hex.selected){
 			// Set the value to the current fill colour
 			this.input.value = builder.hex.areas[builder.hex.selected].fillcolour;

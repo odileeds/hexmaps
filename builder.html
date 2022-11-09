@@ -88,7 +88,13 @@
 	.hex-label.selected { fill: black!important;}
 	.hex-cell.selected { fill: #dfdfdf!important; }
 
-	.hex-search { position: absolute; display: block; width: 100%; max-width: 400px; }
+	.hex-search, .hex-colour-picker { position: sticky; top: 0; left: 0; display: block; width: 100%; }
+	.hex-search { max-width: 400px; }
+
+	.hex-colour-picker-inner { position: absolute; top:0; right:1em; padding:1em; display: inline-block; z-index:100; float: right; }
+	.hex-colour-picker h3 { margin-top:0; margin-bottom:4px; }
+
+
 	.hex-search .search-inner { position: relative; }
 	.hex-search label {
 		position: absolute;

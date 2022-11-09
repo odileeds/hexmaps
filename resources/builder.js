@@ -322,11 +322,12 @@ function HexBuilder(el,attr){
 		document.getElementById('url').value = "";
 		document.querySelector('#drop_zone .helpertext').style.display = '';
 		if(document.getElementById('results')) document.getElementById('results').style.display = '';
+		document.getElementById('standard_files').value = "";
 
 		this.hex.el.remove();
 
 		this.options.el.innerHTML = "";
-		this.scalebar.remove();
+		if(this.scalebar) this.scalebar.remove();
 
 		delete this.options.config;
 		delete this.options.attrib;

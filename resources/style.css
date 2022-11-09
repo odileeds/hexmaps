@@ -65,6 +65,7 @@ html, body {
 h1,h2,h3,h4 { font-family: Poppins; line-height: 1em; }
 h1 { font-size: 2em; line-height: 1em; }
 h2 { font-size: 1.7em; margin-top: 1.17647em; margin-bottom: 16px; }
+h3 { font-size: 1.4em; margin-top: 1.4285em; margin-bottom: 16px; }
 h1, h2 { margin-top: 0em; }
 strong { font-weight: 700; }
 em { font-style: italic; }

@@ -335,6 +335,7 @@
 			// Clear the canvas
 			svg.innerHTML = "";
 			this.areas = {};
+			this.grid = null;
 			constructed = false;
 			return this;
 		};

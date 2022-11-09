@@ -61,127 +61,154 @@ function HexBuilder(el,attr){
 
 		side = width/((dim+3)*1.73205);	
 
-		this.hex = new OI.hexmap(document.getElementById(this.id+'-hexmap'),{
-			'id':this.id+'-hexmap',
-			'width':width,
-			'height':height,
-			'size':side,
-			'padding':padding,
-			'minFontSize': 0,
-			'grid': { 'show': true },
-			'label': { 'show': this.query.labels },
-			'style': {
-				'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
-				'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
-				'grid':{'fill-opacity':0.1,'fill':'#ccc'}
-			},
-			'formatLabel': function(txt,attr){
-				if(!txt) txt = "";
-				return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
-			}
-		});
+		var _obj = this;
 
-		// Add hexmap search
-		this.search = new OI.hexmapsearch(this.hex);
-
-		// Add key press functionality
-		document.addEventListener('keypress',function(e){
-			e.stopPropagation();
-			if(e.key=="c") _obj.selectBySameColour(e);
-		});
-		this.selectBySameColour = function(){
-			if(this.hex.selected){
-				for(var region in this.hex.areas){
-					if(this.hex.areas[region].fillcolour==this.hex.areas[this.hex.selected].fillcolour){
-						this.hex.areas[region].selected = true;
-						this.hex.setHexStyle(region);
-					}
+		if(!this.hex){
+			this.hex = new OI.hexmap(document.getElementById(this.id+'-hexmap'),{
+				'id':this.id+'-hexmap',
+				'width':width,
+				'height':height,
+				'size':side,
+				'padding':padding,
+				'minFontSize': 0,
+				'grid': { 'show': true },
+				'label': { 'show': this.query.labels },
+				'style': {
+					'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
+					'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
+					'grid':{'fill-opacity':0.1,'fill':'#ccc'}
+				},
+				'formatLabel': function(txt,attr){
+					if(!txt) txt = "";
+					return txt.replace(/\s/g,"\n").replace(/\//g,"\/\n");
 				}
-			}
-			return this;
-		};
-		
-		// Move the selected hex to the new coordinates
-		this.moveTo = function(q,r){
-			if(this.hex.selected){
-				var dq = q - this.hex.mapping.hexes[this.hex.selected].q;
-				var dr = r - this.hex.mapping.hexes[this.hex.selected].r;
-				for(var region in this.hex.areas){
-					if(this.hex.areas[region]){
-						if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
-						if(this.hex.areas[region].selected){
-							this.hex.mapping.hexes[region].q += dq;
-							this.hex.mapping.hexes[region].r += dr;
-							var h = this.hex.drawHex(this.hex.mapping.hexes[region].q,this.hex.mapping.hexes[region].r);
-							this.hex.areas[region].hex.setAttribute('d',h.path);
-							this.hex.areas[region].array = h.array;
-							if(this.hex.options.showlabel && this.hex.areas[region].label){
-								this.hex.areas[region].label.setAttribute('x',h.x);
-								this.hex.areas[region].label.setAttribute('y',h.y);
-								this.hex.areas[region].label.setAttribute('clip-path','hex-clip-'+this.hex.mapping.hexes[region].q+'-'+this.hex.mapping.hexes[region].r);
-							}
-							this.hex.areas[region].selected = false;
+			});
+
+			// Add key press functionality
+			document.addEventListener('keypress',function(e){
+				e.stopPropagation();
+				if(e.key=="c") _obj.selectBySameColour(e);
+			});
+
+			this.colourpicker = new ColourPicker(this);
+
+			this.selectBySameColour = function(){
+				if(this.hex.selected){
+					for(var region in this.hex.areas){
+						if(this.hex.areas[region].fillcolour==this.hex.areas[this.hex.selected].fillcolour){
+							this.hex.areas[region].selected = true;
 							this.hex.setHexStyle(region);
 						}
 					}
 				}
-				this.hex.selected = "";
-			}
-		};
+				return this;
+			};
 
-		var _obj = this;
-
-		// Make a tooltip
-		var tip;
-
-		this.hex.on('mouseover',{'builder':this},function(e){
-			if(e.data.type=="hex"){
-				e.data.hexmap.regionFocus(e.data.region);
-				e.data.builder.setLabel(e.data.data);
-
-				// Build tooltip
-				var svg,bb,bbo,hex;
-				svg = e.data.hexmap.el;
-				hex = e.target;
-				if(!tip || !tip.parentNode){
-					// Add a new tooltip
-					tip = document.createElement('div');
-					tip.classList.add('tooltip');
-					svg.appendChild(tip);
+			this.changeSelectedColour = function(to){
+				for(var region in this.hex.areas){
+					if(this.hex.areas[region].selected){
+						this.hex.areas[region].fillcolour = to;
+						this.hex.mapping.hexes[region].colour = to;
+						this.hex.areas[region].selected = false;
+						this.hex.setHexStyle(region);
+					}
 				}
-				// Update contents of tooltip
-				tip.innerHTML = e.data.builder.getLabel(e.data.data,true);
-				// Update position of tooltip
-				bb = hex.getBoundingClientRect();
-				bbo = svg.getBoundingClientRect();
-				tip.style.left = Math.round(bb.left + bb.width/2 - bbo.left + svg.scrollLeft)+'px';
-				tip.style.top = Math.round(bb.top + bb.height/2 - bbo.top)+'px';			
+				this.colourpicker.deactivate();
+				return this;
+			};
 
-			}else if(e.data.type=="grid"){
-				if(e.data.hexmap.selected){
-					e.target.setAttribute('fill-opacity',0.5);
+			// Move the selected hex to the new coordinates
+			this.moveTo = function(q,r){
+				if(this.hex.selected){
+					var dq = q - this.hex.mapping.hexes[this.hex.selected].q;
+					var dr = r - this.hex.mapping.hexes[this.hex.selected].r;
+					for(var region in this.hex.areas){
+						if(this.hex.areas[region]){
+							if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
+							if(this.hex.areas[region].selected){
+								this.hex.mapping.hexes[region].q += dq;
+								this.hex.mapping.hexes[region].r += dr;
+								var h = this.hex.drawHex(this.hex.mapping.hexes[region].q,this.hex.mapping.hexes[region].r);
+								this.hex.areas[region].hex.setAttribute('d',h.path);
+								this.hex.areas[region].array = h.array;
+								if(this.hex.options.showlabel && this.hex.areas[region].label){
+									this.hex.areas[region].label.setAttribute('x',h.x);
+									this.hex.areas[region].label.setAttribute('y',h.y);
+									this.hex.areas[region].label.setAttribute('clip-path','hex-clip-'+this.hex.mapping.hexes[region].q+'-'+this.hex.mapping.hexes[region].r);
+								}
+								this.hex.areas[region].selected = false;
+								this.hex.setHexStyle(region);
+							}
+						}
+					}
+					this.hex.selected = "";
 				}
-			}
-		}).on('mouseout',function(e){
-			if(e.data.type=="hex"){
-				removeEl(document.querySelector('.infobubble'));
-				removeEl(tip);
-				e.data.hexmap.regionBlur(e.data.region);
-			}else if(e.data.type=="grid"){
-				if(e.data.hexmap.selected) e.target.setAttribute('fill-opacity',0.1);
-			}
-		}).on('click',{'builder':this},function(e){
-			if(e.data.type=="hex"){
-				if(_obj.search && _obj.search.active) _obj.search.toggle();
-				e.data.hexmap.regionToggleSelected(e.data.region,true);
-				e.data.builder.getLabel(e.data.data);
-			}else if(e.data.type=="grid"){
-				if(e.data.hexmap.selected){
-					_obj.moveTo(e.data.data.q,e.data.data.r);
-					e.target.setAttribute('fill-opacity',0.1);
+			};
+
+
+			// Make a tooltip
+			var tip;
+
+			this.hex.on('mouseover',{'builder':this},function(e){
+				if(e.data.type=="hex"){
+					e.data.hexmap.regionFocus(e.data.region);
+					e.data.builder.setLabel(e.data.data);
+
+					// Build tooltip
+					var svg,bb,bbo,hex;
+					svg = e.data.hexmap.el;
+					hex = e.target;
+					if(!tip || !tip.parentNode){
+						// Add a new tooltip
+						tip = document.createElement('div');
+						tip.classList.add('tooltip');
+						svg.appendChild(tip);
+					}
+					// Update contents of tooltip
+					tip.innerHTML = e.data.builder.getLabel(e.data.data,true);
+					// Update position of tooltip
+					bb = hex.getBoundingClientRect();
+					bbo = svg.getBoundingClientRect();
+					tip.style.left = Math.round(bb.left + bb.width/2 - bbo.left + svg.scrollLeft)+'px';
+					tip.style.top = Math.round(bb.top + bb.height/2 - bbo.top)+'px';			
+
+				}else if(e.data.type=="grid"){
+					if(e.data.hexmap.selected){
+						e.target.setAttribute('fill-opacity',0.5);
+					}
 				}
-			}
-		});
+			}).on('mouseout',function(e){
+				if(e.data.type=="hex"){
+					removeEl(document.querySelector('.infobubble'));
+					removeEl(tip);
+					e.data.hexmap.regionBlur(e.data.region);
+				}else if(e.data.type=="grid"){
+					if(e.data.hexmap.selected) e.target.setAttribute('fill-opacity',0.1);
+				}
+			}).on('click',{'builder':this},function(e){
+				if(e.data.type=="hex"){
+					if(_obj.search && _obj.search.active) _obj.search.toggle();
+					e.data.hexmap.regionToggleSelected(e.data.region,true);
+					e.data.builder.getLabel(e.data.data);
+					// Trigger the colour picker tool
+					if(e.data.builder.hex.areas[e.data.region].selected){
+						e.data.builder.colourpicker.activate();
+					}else{
+						e.data.builder.colourpicker.deactivate();
+					}
+				}else if(e.data.type=="grid"){
+					if(e.data.hexmap.selected){
+						_obj.moveTo(e.data.data.q,e.data.data.r);
+						e.target.setAttribute('fill-opacity',0.1);
+					}
+				}
+			});
+		}
+
+		if(!this.search){
+			// Add hexmap search
+			this.search = new OI.hexmapsearch(this.hex);
+		}
 
 		return this;
 	};
@@ -651,6 +678,8 @@ function HexBuilder(el,attr){
 
 		// Create the map
 		this.createMap();
+
+
 		this.hex.load(this.data,{me:this},function(e){ e.data.me.setColours("region"); });
 		var opt = document.querySelector('#'+this.id+' .options');
 		opt.classList.add("holder");
@@ -962,8 +991,8 @@ function HexBuilder(el,attr){
 		var v,min,max,region;
 		if(key){
 			// Get range of data
-			min = 1e100;
-			max = -1e100;
+			min = Infinity;
+			max = -Infinity;
 			if(this.numeric[key]){
 				for(region in this.hex.mapping.hexes){
 					v = null;
@@ -982,9 +1011,9 @@ function HexBuilder(el,attr){
 					}
 				}
 			}
+			console.info('Range: '+min+' to '+max+' for '+key,this.hex.mapping.hexes);
 		}
 		var _obj = this;
-		console.info('Range: '+min+' to '+max+' for '+key,this.hex.mapping.hexes);
 
 		this.hex.updateColours(function(region){
 			var ok,v,c;
@@ -1242,6 +1271,47 @@ function HexBuilder(el,attr){
 	}
 
 	return this;
+}
+
+function ColourPicker(builder){
+	this.el = document.createElement('div');
+	this.input = document.createElement('input');
+	this.btn = document.createElement('button');
+	this.el.classList.add('b2-bg');
+	this.el.style = "position:fixed;top:0;right:1em;padding:1em;";
+	this.el.innerHTML = '<h3 style="margin-top:0;margin-bottom:4px;">Colour:</h3>';
+	this.el.appendChild(this.input);
+	this.el.appendChild(this.btn);
+	this.input.setAttribute('type','color');
+	this.input.style = "width: 100%";
+	this.btn.innerHTML = "Select by colour";
+	this.btn.classList.add('b5-bg');
+	this.btn.style = "width: 100%";
+	var active = false;
+	var _obj = this;
+	this.input.addEventListener('change',function(e){
+		builder.changeSelectedColour(e.target.value);
+		_obj.deactivate();
+	});
+	this.btn.addEventListener('click',function(e){
+		builder.selectBySameColour();
+		e.target.blur();
+	});
+	this.activate = function(){
+		// Add the colour picking tool to the DOM
+		document.body.appendChild(this.el);
+		if(builder.hex.selected){
+			// Set the value to the current fill colour
+			this.input.value = builder.hex.areas[builder.hex.selected].fillcolour;
+		}
+		active = true;
+	};
+	this.deactivate = function(){
+		if(active){
+			this.el.parentNode.removeChild(this.el);
+			active = false;
+		}
+	};
 }
 
 /* ============== */

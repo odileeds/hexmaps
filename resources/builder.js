@@ -325,6 +325,9 @@ function HexBuilder(el,attr){
 
 		this.hex.el.remove();
 
+		this.options.el.innerHTML = "";
+		this.scalebar.remove();
+
 		delete this.options.config;
 		delete this.options.attrib;
 		delete this.options.scale;
@@ -345,7 +348,10 @@ function HexBuilder(el,attr){
 		delete this.data;
 		delete this.url;
 		delete this.file;
-		
+		delete this.colourpicker;
+		delete this.scalebar;
+		delete this.search;
+
 		return this;
 	};
 	
@@ -1047,6 +1053,7 @@ function HexBuilder(el,attr){
 		// Update colour scale bar
 		var el = document.querySelector('.scale');
 		if(el) el.innerHTML = '<div class="scalebar" style="'+this.colours.getGradient(this.colourscale)+';height:1em;"></div><div class="min" style="float:left;border-left:1px solid '+this.colours.getColourFromScale(this.colourscale,0,0,100)+';padding-left: 0.25em;">'+(min != Infinity && typeof min!=="undefined" ? min : 'minimum')+'</div><div class="max"style="float:right;border-right:1px solid '+this.colours.getColourFromScale(this.colourscale,100,0,100)+';padding-right: 0.25em;">'+(max != -Infinity && typeof max!=="undefined" ? max : 'maximum')+'</div>';
+		this.scalebar = el;
 		return this.updateLink();
 	};
 	

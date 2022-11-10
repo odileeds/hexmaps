@@ -1,5 +1,7 @@
 /**
 	OI hex map in SVG
+	0.6.2:
+	    - allow multiple callbacks to be added with .on()
 	0.6.1:
 		- bug fixes
 	0.6.0:
@@ -60,26 +62,11 @@
 		this._attr = attr;
 		this.title = "OI HexMap";
 		this.logging = (location.search.indexOf('debug=true') >= 0);
-		this.log = function(){
-			// Version 1.1
-			if(this.logging || arguments[0]=="ERROR" || arguments[0]=="WARNING"){
-				var args = Array.prototype.slice.call(arguments, 0);
-				// Build basic result
-				var extra = ['%c'+this.title+'%c: '+args[1],'font-weight:bold;',''];
-				// If there are extra parameters passed we add them
-				if(args.length > 2) extra = extra.concat(args.splice(2));
-				if(console && typeof console.log==="function"){
-					if(arguments[0] == "ERROR") console.error.apply(null,extra);
-					else if(arguments[0] == "WARNING") console.warn.apply(null,extra);
-					else if(arguments[0] == "INFO") console.info.apply(null,extra);
-					else console.log.apply(null,extra);
-				}
-			}
-			return this;
-		};
+		var log = new Log({"title":"OI HexMap","version":this.version});
+		this.log = log.message;
 
 		if(!el){
-			this.log('WARNING','No DOM element to add to');
+			this.log('warn','No DOM element to add to');
 			return this;
 		}
 
@@ -153,18 +140,18 @@
 			}
 			//if(typeof fn !== "function") return this;
 			function done(data,noload){
-				_obj.log('INFO','HexJSON',data);
+				_obj.log('info','HexJSON',data);
 				_obj.setMapping(data);
 				if(noload) _obj.updateColours();
 				if(typeof fn==="function") fn.call(_obj,{'data':prop});
 			}
 			if(typeof file==="string"){
-				this.log('INFO','Loading '+file,prop,fn);
+				this.log('info','Loading '+file,prop,fn);
 				OI.ajax(file,{
 					'this': this,
 					'dataType':'json',
 					'success': function(data){ done(data); },
-					'error': function(e,prop){ this.log('ERROR','Unable to load '+file,prop); }
+					'error': function(e,prop){ this.log('error','Unable to load '+file,prop); }
 				});
 			}else if(typeof file==="object") done(file,true);
 			return this;
@@ -293,7 +280,8 @@
 			}
 			if(typeof fn !== "function") return this;
 			if(!this.callback) this.callback = {};
-			this.callback[type] = { 'fn': fn, 'attr': prop };
+			if(!this.callback[type]) this.callback[type] = [];
+			this.callback[type].push({ 'fn': fn, 'attr': prop });
 			return this;
 		};
 		this.size = function(w,h){
@@ -476,12 +464,16 @@
 			this.range = clone(range);
 
 			function ev(e,t){
+				var rtn = [];
 				if(e.data.hexmap.callback[t]){
-					for(var a in e.data.hexmap.callback[t].attr){
-						if(e.data.hexmap.callback[t].attr[a]) e.data[a] = e.data.hexmap.callback[t].attr[a];
+					for(var c = 0; c < e.data.hexmap.callback[t].length; c++){
+						for(var a in e.data.hexmap.callback[t][c].attr){
+							if(e.data.hexmap.callback[t][c].attr[a]) e.data[a] = e.data.hexmap.callback[t][c].attr[a];
+						}
+						if(typeof e.data.hexmap.callback[t][c].fn==="function") rtn.push(e.data.hexmap.callback[t][c].fn.call(e.data['this']||this,e));
 					}
-					if(typeof e.data.hexmap.callback[t].fn==="function") return e.data.hexmap.callback[t].fn.call(e.data['this']||this,e);
-				}				
+				}
+				return rtn||false;
 			}
 			var events = {
 				'mouseover': function(e){ if(e.data.region){ e.data.hexmap.regionFocus(e.data.region); } ev(e,'mouseover'); },
@@ -574,6 +566,27 @@
 		return this;
 	}
 	OI.hexmap = HexMap;
+
+	function Log(opt){
+		// Console logging version 2.0
+		if(!opt) opt = {};
+		if(!opt.title) opt.title = "Log";
+		if(!opt.version) opt.version = "2.0";
+		this.message = function(...args){
+			var t = args.shift();
+			if(typeof t!=="string") t = "log";
+			var ext = ['%c'+opt.title+' '+opt.version+'%c'];
+			if(args.length > 0){
+				ext[0] += ':';
+				if(typeof args[0]==="string") ext[0] += ' '+args.shift();
+			}
+			ext.push('font-weight:bold;');
+			ext.push('');
+			if(args.length > 0) ext = ext.concat(args);
+			console[t].apply(null,ext);
+		};
+		return this;
+	}
 
 	// Helper functions
 	var ns = 'http://www.w3.org/2000/svg';

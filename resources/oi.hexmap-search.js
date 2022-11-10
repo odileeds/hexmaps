@@ -22,11 +22,13 @@ console.log('reset');
 		this.init = function(){
 
 			el = hex.el.querySelector('.hex-search');
+
 			if(!el){
 				el = document.createElement('div');
 				el.classList.add('hex-search');
 				el.innerHTML = '<div class="search-inner"><label for="constituencies" class="search-button"><svg xmlns="https://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 12 13"><g stroke-width="2" stroke="white" fill="none"><path d="M11.29 11.71l-4-4"/><circle cx="5" cy="5" r="4"/></g></svg></label><input type="text" class="search-input" name="constituencies" id="constituencies" value="" placeholder="e.g. Leeds Central"><ul class="search-results"></ul></div></div>';
-				hex.el.insertBefore(el, hex.el.firstChild);
+				if(hex.el.querySelector('.hex-control')) hex.el.querySelector('.hex-control').appendChild(el);
+				else hex.el.insertBefore(el, hex.el.firstChild);
 			}
 			inp = el.querySelector('.search-input');
 			btn = el.querySelector('.search-button');

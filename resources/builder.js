@@ -90,8 +90,6 @@ function HexBuilder(el,attr){
 				if(e.key=="c") _obj.selectBySameColour(e);
 			});
 
-			this.colourpicker = new ColourPicker(this);
-
 			this.selectBySameColour = function(){
 				if(this.hex.selected){
 					for(var region in this.hex.areas){
@@ -122,7 +120,6 @@ function HexBuilder(el,attr){
 						this.hex.setHexStyle(region);
 					}
 				}
-				this.colourpicker.deactivate();
 				return this;
 			};
 			function isOdd(v){ return v%2==1; }
@@ -212,7 +209,6 @@ function HexBuilder(el,attr){
 			this.hex.on('mouseover',{'builder':this},function(e){
 				if(e.data.type=="hex"){
 					e.data.hexmap.regionFocus(e.data.region);
-					e.data.builder.setLabel(e.data.data);
 
 					// Build tooltip
 					var svg,bb,bbo,hex;
@@ -226,6 +222,7 @@ function HexBuilder(el,attr){
 					}
 					// Update contents of tooltip
 					tip.innerHTML = e.data.builder.getLabel(e.data.data,true);
+
 					// Update position of tooltip
 					bb = hex.getBoundingClientRect();
 					bbo = svg.getBoundingClientRect();
@@ -239,7 +236,6 @@ function HexBuilder(el,attr){
 				}
 			}).on('mouseout',function(e){
 				if(e.data.type=="hex"){
-					removeEl(document.querySelector('.infobubble'));
 					removeEl(tip);
 					e.data.hexmap.regionBlur(e.data.region);
 				}else if(e.data.type=="grid"){
@@ -249,13 +245,6 @@ function HexBuilder(el,attr){
 				if(e.data.type=="hex"){
 					if(_obj.search && _obj.search.active) _obj.search.toggle();
 					e.data.hexmap.regionToggleSelected(e.data.region,true);
-					e.data.builder.getLabel(e.data.data);
-					// Trigger the colour picker tool
-					if(e.data.builder.hex.areas[e.data.region].selected){
-						e.data.builder.colourpicker.activate();
-					}else{
-						e.data.builder.colourpicker.deactivate();
-					}
 				}else if(e.data.type=="grid"){
 					if(e.data.hexmap.selected){
 						_obj.moveTo(e.data.data.q,e.data.data.r);
@@ -263,12 +252,21 @@ function HexBuilder(el,attr){
 					}
 				}
 			});
-		}
 
-		if(!this.search){
+			// Build menu
+			this.menu = new Menu(this);
+
+			this.infobubble = new InfoBubble();
+			this.infobubble.addTo(this.menu);
+
+			this.colourpicker = new ColourPicker();
+			this.colourpicker.addTo(this.menu);
+
 			// Add hexmap search
 			this.search = new OI.hexmapsearch(this.hex);
+
 		}
+
 
 		return this;
 	};
@@ -283,26 +281,15 @@ function HexBuilder(el,attr){
 			if(typeof l==="undefined") l = "";
 			if(!short){
 				if(typeof d.r==="number" && typeof d.q==="number"){
-					l += (l ? '<br />':'')+'r,q: '+d.r+','+d.q;
+					if(l) l = '<strong>'+l+'</strong><br />';
+					l += 'r,q: <strong>'+d.r+','+d.q+'</strong>';
 					delete d.r;
 					delete d.q;
 				}
-				for(a in d) l += (l ? '<br />':'')+a+': '+d[a];
+				for(a in d) l += (l ? '<br />':'')+a+': <strong>'+d[a]+'</strong>';
 			}
 		}
 		return l;
-	};
-
-	this.setLabel = function(data){
-		var el = document.querySelector('.infobubble');
-		if(!el){
-			var el = document.createElement('div');
-			el.classList.add('infobubble');
-			el.innerHTML = '<div class="infobubble_inner"></div>';
-			this.hex.el.querySelector('svg').insertAdjacentElement('afterend',el);
-		}
-		el.querySelector('.infobubble_inner').innerHTML = this.getLabel(data);
-		return this;
 	};
 
 	this.saveable = (typeof Blob==="function");
@@ -1341,67 +1328,193 @@ function HexBuilder(el,attr){
 	return this;
 }
 
-function ColourPicker(builder){
+function Menu(builder){
+
+	this._builder = builder;
+	this.control = builder.el.querySelector('.hex-control');
+	if(!this.control){
+		this.control = document.createElement('div');
+		this.control.classList.add('hex-control');
+		builder.hex.el.insertBefore(this.control, builder.hex.el.firstChild);
+	}
+
+	this.el = document.createElement('div');
+	this.el.classList.add('b1-bg','hex-menu');
+	this.control.appendChild(this.el);
+
+	this.components = {};
+	this.addComponent = function(name,comp){
+		this.components[name] = comp;
+		// Initialise it
+		if(typeof comp.init==="function"){
+			comp.init(this,builder);
+			comp.el.classList.add('hex-menu-item');
+		}
+		return this;
+	};
+	this.append = function(el){
+		this.el.appendChild(el);
+		return this;
+	};
+	this.toggleComponent = function(name){
+		if(this.components[name]) this.components[name].el.style.display = (this.components[name].el.style.display ? 'none' : '');
+		return this;
+	};
+
+	return this;
+}
+
+function InfoBubble(){
+
+	var active = true;
+	this.el = document.createElement('div');
+	this.el.classList.add('hex-info');
+	this.btn = document.createElement('button');
+	this.btn.classList.add('icon');
+	this.el.appendChild(this.btn);
+
+	this.init = function(menu, builder){
+		// Add the main element for this component to the menu's element
+		menu.append(this.el);
+
+		// Add event
+		var _obj = this;
+		this.btn.addEventListener('click',function(e){
+			if(active) _obj.deactivate();
+			else _obj.activate();
+		});
+
+		this.activate = function(){
+			this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/></svg>';
+			active = true;
+		};
+		this.deactivate = function(){
+			this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/><line x1="2" y1="13" x2="14" y2="3" stroke="currentColor" stroke-linecap="round" stroke-width="2" /></svg>';
+			active = false;
+			document.querySelector('.infobubble').remove();
+		};
+
+		this.activate();
+
+		builder.hex.on('mouseover',{},function(e){
+			if(active && e.data.type=="hex"){
+				var el = document.querySelector('.infobubble');
+				if(!el){
+					var el = document.createElement('div');
+					el.classList.add('infobubble');
+					el.innerHTML = '<div class="infobubble_inner"></div>';
+					console.log(el,_obj.el,menu.el);
+					_obj.el.appendChild(el);
+				}
+				el.querySelector('.infobubble_inner').innerHTML = builder.getLabel(e.data.data);
+			}
+		}).on('mouseout',function(e){
+			//if(e.data.type=="hex" && document.querySelector('.infobubble')) document.querySelector('.infobubble').remove();
+		});
+		return this;
+	};
+	this.addTo = function(m){
+		m.addComponent("InfoBubble",this);
+		return this;
+	}
+	return this;
+}
+
+function ColourPicker(){
 
 	var active = false;
-	var _obj = this;
 
 	this.el = document.createElement('div');
 	this.el.classList.add('hex-colour-picker');
+	this.el.style.display = 'none';
 
-	this.inner = document.createElement('div');
-	this.inner.classList.add('hex-colour-picker-inner');
-	this.inner.classList.add('b1-bg');
-	this.inner.innerHTML = '<div><h4>Colour:</h4></div>';
-	this.el.appendChild(this.inner);
+	var id = "colourpicker";
 
-	this.input = document.createElement('input');
-	this.selall = document.createElement('button');
-	this.selnone = document.createElement('button');
+	this.init = function(menu, builder){
 
-	this.input.setAttribute('type','color');
-	this.input.addEventListener('change',function(e){
-		builder.changeSelectedColour(e.target.value);
-		_obj.deactivate();
-	});
+		// Add the main element for this component to the menu's element
+		menu.append(this.el);
 
-	this.selall.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 16 16"><path d="M 8 8 m -6.062 3.5 l 6.062 3.5 6.062 -3.5 0 -7 -6.062 -3.5 -6.062 3.5 0 7z" stroke-dasharray="2 1" /><path d="M 8 8 m -4 0 l 8 0 m -4 -4 l 0 8" /></svg>';
-	this.selall.setAttribute('title','Select all hexagons with this colour');
-	this.selall.classList.add('b5-bg');
-	this.selall.classList.add('icon');
-	this.selall.addEventListener('click',function(e){
-		builder.selectBySameColour();
-		e.target.blur();
-	});
+		this.inner = document.createElement('div');
+		this.inner.classList.add('hex-colour-picker-inner');
+		this.inner.classList.add('b1-bg');
+		this.el.appendChild(this.inner);
 
-	this.selnone.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 16 16"><path d="M 8 8 m -6.062 3.5 l 6.062 3.5 6.062 -3.5 0 -7 -6.062 -3.5 -6.062 3.5 0 7z" stroke-dasharray="2 1" /><path d="M 8 8 m -4 0 l 8 0" /></svg>';
-	this.selnone.setAttribute('title','Deselect all hexagons');
-	this.selnone.classList.add('b5-bg');
-	this.selnone.classList.add('icon');
-	this.selnone.addEventListener('click',function(e){
-		builder.deselectAll();
-		e.target.blur();
-	});
+		this.label = document.createElement('label');
+		this.input = document.createElement('input');
+		this.selall = document.createElement('button');
+		this.selnone = document.createElement('button');
 
-	this.inner.appendChild(this.input);
-	this.inner.appendChild(this.selall);
-	this.inner.appendChild(this.selnone);
+		this.label.innerHTML = "Change colour";
+		this.label.style.textIndent = "-9999px";
+		this.label.setAttribute('for',id);
+		this.label.setAttribute('title','Change colour of selected hexes');
 
-	this.activate = function(){
-		// Add the colour picking tool to the DOM
-		builder.hex.el.insertBefore(this.el, builder.hex.el.firstChild);
-		if(builder.hex.selected){
-			// Set the value to the current fill colour
-			this.input.value = builder.hex.areas[builder.hex.selected].fillcolour;
-		}
-		active = true;
+		this.input.setAttribute('type','color');
+		this.input.setAttribute('id',id);
+		this.input.style.display = 'none';
+
+		this.selall.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 16 16"><path d="M 8 8 m -6.062 3.5 l 6.062 3.5 6.062 -3.5 0 -7 -6.062 -3.5 -6.062 3.5 0 7z" stroke-dasharray="2 1" /><path d="M 8 8 m -4 0 l 8 0 m -4 -4 l 0 8" /></svg>';
+		this.selall.setAttribute('title','Select all hexes with the same colour as the last selection');
+		this.selall.classList.add('b5-bg');
+		this.selall.classList.add('icon');
+
+		this.selnone.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 16 16"><path d="M 8 8 m -6.062 3.5 l 6.062 3.5 6.062 -3.5 0 -7 -6.062 -3.5 -6.062 3.5 0 7z" stroke-dasharray="2 1" /><path d="M 8 8 m -4 0 l 8 0" /></svg>';
+		this.selnone.setAttribute('title','Deselect all hexes');
+		this.selnone.classList.add('b5-bg');
+		this.selnone.classList.add('icon');
+
+		this.inner.appendChild(this.input);
+		this.inner.appendChild(this.label);
+		this.inner.appendChild(this.selall);
+		this.inner.appendChild(this.selnone);
+
+		// Add events
+		var _obj = this;
+		this.input.addEventListener('change',function(e){ _obj.changeColour(e.target.value); });
+		this.selall.addEventListener('click',function(e){ builder.selectBySameColour(); e.target.blur(); });
+		this.selnone.addEventListener('click',function(e){ builder.deselectAll(); e.target.blur(); });
+
+		this.changeColour = function(c){
+			this.label.style.backgroundColor = c;
+			builder.changeSelectedColour(c);
+			return this.deactivate();
+		};
+		this.activate = function(){
+			// Show the colour picking tool in the DOM
+			if(menu) this.el.style.display = '';
+			if(builder && builder.hex.selected){
+				// Set the value to the current fill colour
+				this.input.value = builder.hex.areas[builder.hex.selected].fillcolour;
+				this.label.style.backgroundColor = this.input.value;
+			}
+			active = true;
+			return this;
+		};
+		this.deactivate = function(){
+			if(active){
+				this.el.style.display = 'none';
+				active = false;
+			}
+			return this;
+		};
+
+		builder.hex.on('click',{me:this,'test':2},function(e){
+			if(e.data.type=="hex"){
+				// Trigger the colour picker tool
+				if(builder.hex.areas[e.data.region].selected) e.data.me.activate();
+				else e.data.me.deactivate();
+			}
+		});
+		
+		return this;
 	};
-	this.deactivate = function(){
-		if(active){
-			this.el.parentNode.removeChild(this.el);
-			active = false;
-		}
-	};
+	
+	this.addTo = function(m){
+		m.addComponent("ColourPicker",this);
+		return this;
+	}
+	return this;
 }
 
 /* ============== */

@@ -116,7 +116,7 @@ function HexBuilder(el,attr){
 					if(this.hex.areas[region].selected){
 						this.hex.areas[region].fillcolour = to;
 						this.hex.mapping.hexes[region].colour = to;
-						this.hex.areas[region].selected = false;
+						//this.hex.areas[region].selected = false;
 						this.hex.setHexStyle(region);
 					}
 				}
@@ -281,11 +281,11 @@ function HexBuilder(el,attr){
 			// Build menu
 			this.menu = new Menu(this);
 
-			this.infobubble = new InfoBubble();
-			this.infobubble.addTo(this.menu);
-
 			this.colourpicker = new ColourPicker();
 			this.colourpicker.addTo(this.menu);
+
+			this.infobubble = new InfoBubble();
+			this.infobubble.addTo(this.menu);
 
 			// Add hexmap search
 			this.search = new OI.hexmapsearch(this.hex);
@@ -756,8 +756,8 @@ function HexBuilder(el,attr){
 		// Create the map
 		this.createMap();
 
+		this.hex.addHexes(this.data,{me:this},function(e){ e.data.me.setColours("region"); });
 
-		this.hex.load(this.data,{me:this},function(e){ e.data.me.setColours("region"); });
 		var opt = document.querySelector('#'+this.id+' .options');
 		opt.classList.add("holder");
 		opt.style['text-align'] = 'center';
@@ -1108,7 +1108,7 @@ function HexBuilder(el,attr){
 
 		this.hex.updateColours(function(region){
 			var ok,v,c;
-			c = '#722EA5';
+			c = '#444444';
 			if(this.mapping.hexes[region].colour) c = this.mapping.hexes[region].colour;
 			if(this.mapping.hexes[region].color) c = this.mapping.hexes[region].color;
 			if(key && _obj.numeric[key]){
@@ -1428,7 +1428,7 @@ function InfoBubble(){
 		this.deactivate = function(){
 			this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/><line x1="2" y1="13" x2="14" y2="3" stroke="currentColor" stroke-linecap="round" stroke-width="2" /></svg>';
 			active = false;
-			document.querySelector('.infobubble').remove();
+			if(document.querySelector('.infobubble')) document.querySelector('.infobubble').remove();
 		};
 
 		this.activate();
@@ -1512,7 +1512,7 @@ function ColourPicker(){
 		this.changeColour = function(c){
 			this.label.style.backgroundColor = c;
 			builder.changeSelectedColour(c);
-			return this.deactivate();
+			//return this.deactivate();
 		};
 		this.activate = function(){
 			// Show the colour picking tool in the DOM

@@ -156,6 +156,21 @@
 			}else if(typeof file==="object") done(file,true);
 			return this;
 		};
+		this.addHexes = function(data,prop,fn){
+			if(this.mapping.layout){
+				console.log(prop);
+				if(data.layout == this.mapping.layout){
+					// We want to add the hexagons and rebuild the map
+					for(var r in data.hexes){
+						this.mapping.hexes[r] = data.hexes[r];
+					}
+					data = this.mapping;
+				}else{
+					this.log('warn','Layout has changed so over-writing existing hexes.');
+				}
+			}
+			this.load(data,prop,fn);				
+		};
 
 		var _obj = this;
 		// We'll need to change the sizes when the window changes size

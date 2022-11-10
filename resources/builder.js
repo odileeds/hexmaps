@@ -74,7 +74,7 @@ function HexBuilder(el,attr){
 				'grid': { 'show': true },
 				'label': { 'show': this.query.labels },
 				'style': {
-					'selected':{'fill-opacity':1, 'fill':'#EF3AAB' },
+					'selected':{'fill-opacity':1, 'fill':'' },
 					'default':{'fill-opacity':1,'fill':'#722EA5','font-size':side/4},
 					'grid':{'fill-opacity':0.1,'fill':'#ccc'}
 				},

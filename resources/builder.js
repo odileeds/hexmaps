@@ -1408,8 +1408,6 @@ function InfoBubble(){
 				}
 				el.querySelector('.infobubble_inner').innerHTML = builder.getLabel(e.data.data);
 			}
-		}).on('mouseout',function(e){
-			//if(e.data.type=="hex" && document.querySelector('.infobubble')) document.querySelector('.infobubble').remove();
 		});
 		return this;
 	};

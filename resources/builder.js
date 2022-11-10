@@ -122,8 +122,8 @@ function HexBuilder(el,attr){
 				}
 				return this;
 			};
-			function isOdd(v){ return v%2==1; }
-			function isEven(v){ return v%2==0; }
+			function isOdd(v){ return Math.abs(v)%2==1; }
+			function isEven(v){ return Math.abs(v)%2==0; }
 			this.shiftHex = function(region,shift){
 				var dq,dr,layout,hex;
 				
@@ -171,20 +171,21 @@ function HexBuilder(el,attr){
 					if(isOdd(shift.a.q) && isEven(shift.b.q) && isEven(hex.q)) dr++;
 				}
 
-				this.hex.mapping.hexes[region].q += dq;
-				this.hex.mapping.hexes[region].r += dr;
-				return this;
+				return {'q':this.hex.mapping.hexes[region].q+dq, 'r': this.hex.mapping.hexes[region].r+dr};
 			}
 
 			// Move the selected hex to the new coordinates
 			this.moveTo = function(q,r){
+				var shift,pos,region,h;
 				if(this.hex.selected){
-					var shift = {'a':{'q':this.hex.mapping.hexes[this.hex.selected].q,'r':this.hex.mapping.hexes[this.hex.selected].r},'b':{'q':q,'r':r}};
-					for(var region in this.hex.areas){
+					shift = {'a':{'q':this.hex.mapping.hexes[this.hex.selected].q,'r':this.hex.mapping.hexes[this.hex.selected].r},'b':{'q':q,'r':r}};
+					for(region in this.hex.areas){
 						if(this.hex.areas[region]){
 							if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
 							if(this.hex.areas[region].selected){
-								this.shiftHex(region,shift);
+								pos = this.shiftHex(region,shift);
+								this.hex.mapping.hexes[region].q = pos.q;
+								this.hex.mapping.hexes[region].r = pos.r;
 								var h = this.hex.drawHex(this.hex.mapping.hexes[region].q,this.hex.mapping.hexes[region].r);
 								this.hex.areas[region].hex.setAttribute('d',h.path);
 								this.hex.areas[region].array = h.array;
@@ -230,8 +231,29 @@ function HexBuilder(el,attr){
 					tip.style.top = Math.round(bb.top + bb.height/2 - bbo.top)+'px';			
 
 				}else if(e.data.type=="grid"){
+					var selected = e.data.hexmap.selected;
 					if(e.data.hexmap.selected){
 						e.target.setAttribute('fill-opacity',0.5);
+						
+						var region,cells,c,cell;
+						var q = e.data.data.q;
+						var r = e.data.data.r;
+						var hexes = e.data.hexmap;
+						var shift = {'a':{'q':hexes.mapping.hexes[selected].q,'r':hexes.mapping.hexes[selected].r},'b':{'q':q,'r':r}};
+
+						// Reset grid
+						cells = e.data.hexmap.grid.querySelectorAll('.hex-grid');
+						for(c = 0; c < cells.length; c++) cells[c].setAttribute('fill-opacity',0.1);
+
+						// Set the opacity for every grid cell that will have a selected hex placed on it
+						for(region in hexes.areas){
+							if(hexes.areas[region] && hexes.areas[region].selected){
+								pos = e.data.builder.shiftHex(region,shift);
+								cell = e.data.hexmap.grid.querySelector('.hex-grid[data-q="'+(pos.q||"0")+'"][data-r="'+(pos.r||"0")+'"]');
+								if(cell) cell.setAttribute('fill-opacity',0.5);
+								else e.data.builder.log('warn','No cell for ',pos);
+							}
+						}
 					}
 				}
 			}).on('mouseout',function(e){
@@ -240,6 +262,9 @@ function HexBuilder(el,attr){
 					e.data.hexmap.regionBlur(e.data.region);
 				}else if(e.data.type=="grid"){
 					if(e.data.hexmap.selected) e.target.setAttribute('fill-opacity',0.1);
+					// Reset grid
+					cells = e.data.hexmap.grid.querySelectorAll('.hex-grid');
+					for(c = 0; c < cells.length; c++) cells[c].setAttribute('fill-opacity',0.1);
 				}
 			}).on('click',{'builder':this},function(e){
 				if(e.data.type=="hex"){
@@ -264,9 +289,7 @@ function HexBuilder(el,attr){
 
 			// Add hexmap search
 			this.search = new OI.hexmapsearch(this.hex);
-
 		}
-
 
 		return this;
 	};
@@ -838,7 +861,7 @@ function HexBuilder(el,attr){
 			'this':this,
 			'callback': callback,
 			'success':function(result,attr){
-				this.message('Loaded data from '+attr.url+(attr.url.indexOf('odileeds') < 0 && attr.url.indexOf('open-innovations') < 0 ? ' ⚠️ data from an external source' : ''),{'id':'load','class':'c5-bg'});
+				this.message('Loaded data from '+attr.url+(attr.url.indexOf('odileeds') < 0 && attr.url.indexOf('open-innovations') < 0 ? ' ⚠️ data from an external source' : ''),{'id':'load','class':'c5-bg','type':'info'});
 				this.file = { 'name': attr.url, 'contents': result };
 				if(typeof attr.data.callback==="function") attr.data.callback.call(this);
 			},
@@ -997,27 +1020,41 @@ function HexBuilder(el,attr){
 		return this;
 	};
 
-	this.log = function(){
-		if(this.logging || arguments[0]=="ERROR"){
-			var args = Array.prototype.slice.call(arguments, 0);
-			if(console && typeof console.log==="function"){
-				if(arguments[0] == "ERROR") console.error('%c'+this.name+'%c: '+args[1],'font-weight:bold;','',(args.splice(2).length > 0 ? args.splice(2):""));
-				else if(arguments[0] == "WARNING") console.warn('%c'+this.name+'%c: '+args[1],'font-weight:bold;','',(args.splice(2).length > 0 ? args.splice(2):""));
-				else console.log('%c'+this.name+'%c: '+args[1],'font-weight:bold;','',(args.splice(2).length > 0 ? args.splice(2):""));
-			}
-		}
-		return this;
-	};
 
+	function Log(opt){
+		// Console logging version 2.0
+		if(!opt) opt = {};
+		if(!opt.title) opt.title = "Log";
+		if(!opt.version) opt.version = "2.0";
+		this.message = function(...args){
+			var t = args.shift();
+			if(typeof t!=="string") t = "log";
+			var ext = ['%c'+opt.title+' '+opt.version+'%c'];
+			if(args.length > 0){
+				ext[0] += ':';
+				if(typeof args[0]==="string") ext[0] += ' '+args.shift();
+			}
+			ext.push('font-weight:bold;');
+			ext.push('');
+			if(args.length > 0) ext = ext.concat(args);
+			console[t].apply(null,ext);
+		};
+		return this;
+	}
+
+	var log = new Log({"title":this.name,"version":this.version});
+	this.log = log.message;
+	
 	this.message = function(msg,attr){
 		if(!attr) attr = {};
 		if(!attr.id) attr.id = 'default';
-		if(!attr.type) attr.type = 'message';
-		if(msg) this.log(attr.type,msg);
+		if(!attr.type) attr.type = 'log';
 		var css = "b5-bg";
-		if(attr.type=="ERROR") css = "c12-bg";
-		if(attr.type=="WARNING") css = "c14-bg";
+		if(attr.type=="ERROR"){ css = "c12-bg"; attr.type = 'error'; }
+		if(attr.type=="WARNING"){ css = "c14-bg"; attr.type = 'warn'; }
 		if(attr['class']) css = attr['class'];
+
+		if(msg) this.log(attr.type,msg);
 
 		var msgel = document.querySelector('.message');
 		if(!msgel){
@@ -1065,7 +1102,7 @@ function HexBuilder(el,attr){
 					}
 				}
 			}
-			console.info('Range: '+min+' to '+max+' for '+key,this.hex.mapping.hexes);
+			this.log('info','Range: '+min+' to '+max+' for '+key,this.hex.mapping.hexes);
 		}
 		var _obj = this;
 
@@ -1403,7 +1440,6 @@ function InfoBubble(){
 					var el = document.createElement('div');
 					el.classList.add('infobubble');
 					el.innerHTML = '<div class="infobubble_inner"></div>';
-					console.log(el,_obj.el,menu.el);
 					_obj.el.appendChild(el);
 				}
 				el.querySelector('.infobubble_inner').innerHTML = builder.getLabel(e.data.data);

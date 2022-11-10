@@ -763,6 +763,24 @@ function HexBuilder(el,attr){
 			row.appendChild(brdel);
 			this.options.config.appendChild(row);
 		}
+		if(!this.options.labels){
+			
+			row = document.createElement('div');
+			row.classList.add('row');
+
+			lbl = document.createElement('label');
+			lbl.innerHTML = 'Labels?';
+			lbl.setAttribute('for','data-label');
+			row.appendChild(lbl);
+			lblel = document.createElement('input');
+			lblel.setAttribute('id','data-label');
+			lblel.setAttribute('type','checkbox');
+			if(this.query.labels) lblel.setAttribute('checked','checked');
+			lblel.addEventListener('change',function(e){ _obj.setLabelState(); });
+			this.options.labels = lblel;
+			row.appendChild(lblel);
+			this.options.config.appendChild(row);
+		}
 
 
 		this.options.el.style.display = '';
@@ -845,7 +863,7 @@ function HexBuilder(el,attr){
 	};
 	this.setLabelState = function(){
 		var labels = document.querySelectorAll('.hex-label');
-		var label = this.query.labels ? '':'none';
+		var label = this.options.labels.checked ? '':'none';
 		for(var l = 0; l < labels.length; l++) labels[l].style.display = label;
 		return this.updateLink();
 	};
@@ -1161,7 +1179,7 @@ function HexBuilder(el,attr){
 	this.updateLink = function(){
 		var el = document.getElementById('link');
 		if(el){
-			el.innerHTML = '<label for="view">Link to this view:</label><input type="text" class="view" id="view" onClick="this.setSelectionRange(0, this.value.length)" value="'+location.protocol + '//' + location.host + location.pathname+'?'+this.url+'&colourscale='+encodeURI(this.options.scale.value)+'&borders='+this.options.border.checked+'&attribute='+encodeURI(this.options.attrib.value)+'&labels='+this.query.labels+'" />';
+			el.innerHTML = '<label for="view">Link to this view:</label><input type="text" class="view" id="view" onClick="this.setSelectionRange(0, this.value.length)" value="'+location.protocol + '//' + location.host + location.pathname+'?'+this.url+'&colourscale='+encodeURI(this.options.scale.value)+'&borders='+this.options.border.checked+'&attribute='+encodeURI(this.options.attrib.value)+'&labels='+this.options.labels.checked+'" />';
 		}
 		return this;
 	};

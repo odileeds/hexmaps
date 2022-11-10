@@ -371,7 +371,7 @@
 			range = { 'r': {'min':Infinity,'max':-Infinity}, 'q': {'min':Infinity,'max':-Infinity} };
 			for(region in this.mapping.hexes){
 				if(this.mapping.hexes[region]){
-					p = updatePos(this.mapping.hexes[region].q,this.mapping.hexes[region].r,this.mapping.layout);
+					p = this.mapping.hexes[region];
 					if(p.q > range.q.max) range.q.max = p.q;
 					if(p.q < range.q.min) range.q.min = p.q;
 					if(p.r > range.r.max) range.r.max = p.r;
@@ -396,7 +396,6 @@
 			if(this.properties.orientation=="r") s = Math.min(0.5*tall/(range.r.d*0.75 + 1),(1/Math.sqrt(3))*wide/(range.q.d + 1));	// Pointy-topped
 			else s = Math.min((1/Math.sqrt(3))*tall/(range.r.d + 1),0.5*wide/(range.q.d*0.75 + 1));	// Flat-topped
 
-			//if(typeof attr.size!=="number") 
 			this.setHexSize(s);
 			this.setSize();
 			return this;
@@ -469,16 +468,6 @@
 
 			this.updateRange();
 			var range = this.range;
-
-			// q,r coordinate of the centre of the range
-			var qp = (range.q.max+range.q.min)/2;
-			var rp = (range.r.max+range.r.min)/2;
-			
-			this.properties.x = (this.w/2) - (this.properties.s.cos * 2 *qp);
-			this.properties.y = (this.h/2) + (this.properties.s.sin * 3 *rp);
-
-			// Store this for use elsewhere
-			this.range = clone(range);
 
 			function ev(e,t){
 				var rtn = [];

@@ -146,9 +146,23 @@ function HexBuilder(el,attr){
 					//   - if the current hex is on an odd row it has the same dq
 					if(isOdd(shift.a.r) && isEven(shift.b.r) && isEven(hex.r)) dq++;
 				}else if(layout == "odd-q"){
-					// TODO
+					// If the original hex is shifting from an even column to an odd column then:
+					//   - if the current hex is on an even column it has the same row shift
+					//   - if the current hex is on an odd column it increases dr by 1
+					if(isEven(shift.a.q) && isOdd(shift.b.q) && isOdd(hex.r)) dr++;
+					// If the original hex is shifting from an odd column to an even column then:
+					//   - if the current hex is on an even column we need to decrease dr by 1
+					//   - if the current hex is on an odd column it has the same dr
+					if(isOdd(shift.a.q) && isEven(shift.b.q) && isEven(hex.q)) dr--;
 				}else if(layout == "even-q"){
-					// TODO
+					// If the original hex is shifting from an even column to an odd column then:
+					//   - if the current hex is on an even column it has the same row shift
+					//   - if the current hex is on an odd column it needs to decrease dr by 1
+					if(isEven(shift.a.q) && isOdd(shift.b.q) && isOdd(hex.r)) dr--;
+					// If the original hex is shifting from an odd column to an even column then:
+					//   - if the current hex is on an even column we neeed to inccrease dr by 1
+					//   - if the current hex is on an odd column it has the same dr
+					if(isOdd(shift.a.q) && isEven(shift.b.q) && isEven(hex.q)) dr++;
 				}
 
 				this.hex.mapping.hexes[region].q += dq;

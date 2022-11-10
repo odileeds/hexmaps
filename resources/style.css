@@ -191,7 +191,7 @@ blockquote cite:before {
 blockquote:last-child {
 	margin-bottom: 0;
 }
-button, .button { border: 0px; font-size: 1em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
+button, .button { border: 0px; font-size: 1em; line-height: 1.5em; background-color: #efefef; color: black; text-decoration: none!important; display: inline-block; padding: 0.5em 1em; cursor: pointer; }
 a.button:hover, button:hover, button:focus, a.button:focus { background-color: #333333!important; color: #efefef!important; }
 
 code,pre {

@@ -71,6 +71,9 @@
 	.spinner { position: absolute; left: 50%; top: 50%; transform: translate3d(-50%,-50%,0); z-index: 1000; }
 	.spinner img { width: 5em; margin: auto; }
 
+	button.icon { padding-left: 0.5em; padding-right: 0.5em; }
+	button.icon svg { width: 1.5em; height: 1.5em; }
+
 	.hexmap {
 		margin: auto;
 		width: 100%;
@@ -97,8 +100,10 @@
 	.hex-search, .hex-colour-picker { position: sticky; top: 0; left: 0; display: block; width: 100%; }
 	.hex-search { max-width: 400px; }
 
-	.hex-colour-picker-inner { position: absolute; top:0; right:1em; padding:1em; display: inline-block; z-index:100; }
-	.hex-colour-picker h3 { margin-top:0; margin-bottom:4px; }
+
+	.hex-colour-picker-inner { position: absolute; top:0; right:1em; padding:1em; display: inline-block; z-index:100; display: grid; grid-template-columns: 1fr auto auto; grid-gap: 0.5em; }
+	.hex-colour-picker-inner > *:first-child { margin-top:0; margin-bottom:4px; grid-column: span 3; }
+	.hex-colour-picker-inner input { width: 2.5em; height: 2.5em; border: 0; }
 
 
 	.hex-search .search-inner { position: relative; }

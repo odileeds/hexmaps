@@ -103,6 +103,15 @@ function HexBuilder(el,attr){
 				}
 				return this;
 			};
+			this.deselectAll = function(){
+				if(this.hex.selected){
+					for(var region in this.hex.areas){
+						this.hex.areas[region].selected = false;
+						this.hex.setHexStyle(region);
+					}
+				}
+				return this;				
+			};
 
 			this.changeSelectedColour = function(to){
 				for(var region in this.hex.areas){
@@ -1333,35 +1342,51 @@ function HexBuilder(el,attr){
 }
 
 function ColourPicker(builder){
+
+	var active = false;
+	var _obj = this;
+
 	this.el = document.createElement('div');
 	this.el.classList.add('hex-colour-picker');
 
 	this.inner = document.createElement('div');
 	this.inner.classList.add('hex-colour-picker-inner');
 	this.inner.classList.add('b1-bg');
-	this.inner.innerHTML = '<h4>Colour:</h4>';
+	this.inner.innerHTML = '<div><h4>Colour:</h4></div>';
 	this.el.appendChild(this.inner);
 
 	this.input = document.createElement('input');
-	this.btn = document.createElement('button');
-	this.inner.appendChild(this.input);
-	this.inner.appendChild(this.btn);
+	this.selall = document.createElement('button');
+	this.selnone = document.createElement('button');
 
 	this.input.setAttribute('type','color');
-	this.input.style = "width: 100%";
-	this.btn.innerHTML = "Select by colour";
-	this.btn.classList.add('b5-bg');
-	this.btn.style = "width: 100%";
-	var active = false;
-	var _obj = this;
 	this.input.addEventListener('change',function(e){
 		builder.changeSelectedColour(e.target.value);
 		_obj.deactivate();
 	});
-	this.btn.addEventListener('click',function(e){
+
+	this.selall.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 16 16"><path d="M 8 8 m -6.062 3.5 l 6.062 3.5 6.062 -3.5 0 -7 -6.062 -3.5 -6.062 3.5 0 7z" stroke-dasharray="2 1" /><path d="M 8 8 m -4 0 l 8 0 m -4 -4 l 0 8" /></svg>';
+	this.selall.setAttribute('title','Select all hexagons with this colour');
+	this.selall.classList.add('b5-bg');
+	this.selall.classList.add('icon');
+	this.selall.addEventListener('click',function(e){
 		builder.selectBySameColour();
 		e.target.blur();
 	});
+
+	this.selnone.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1" viewBox="0 0 16 16"><path d="M 8 8 m -6.062 3.5 l 6.062 3.5 6.062 -3.5 0 -7 -6.062 -3.5 -6.062 3.5 0 7z" stroke-dasharray="2 1" /><path d="M 8 8 m -4 0 l 8 0" /></svg>';
+	this.selnone.setAttribute('title','Deselect all hexagons');
+	this.selnone.classList.add('b5-bg');
+	this.selnone.classList.add('icon');
+	this.selnone.addEventListener('click',function(e){
+		builder.deselectAll();
+		e.target.blur();
+	});
+
+	this.inner.appendChild(this.input);
+	this.inner.appendChild(this.selall);
+	this.inner.appendChild(this.selnone);
+
 	this.activate = function(){
 		// Add the colour picking tool to the DOM
 		builder.hex.el.insertBefore(this.el, builder.hex.el.firstChild);

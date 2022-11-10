@@ -777,12 +777,14 @@ function HexBuilder(el,attr){
 		opt.style['text-align'] = 'center';
 		
 		// If we can save then we build the save buttons and add events to them
-		if(this.saveable){
+		if(this.saveable && !this.options.save){
+			
 			var _obj = this;
 			div = document.createElement('div');
 			div.classList.add('save');
 			div.innerHTML = '<h3>Save cartogram</h3><div id="save-primary" style="font-size:1.4em;"></div><p style="color:#999;">Only the HexJSON format can be reloaded in this tool for further editing.</p><p id="link"></p>';
 			this.options.el.appendChild(div);
+			this.options.save = {'el':div};
 
 			save = document.createElement('button');
 			save.classList.add('c10-bg');
@@ -1421,7 +1423,7 @@ function InfoBubble(){
 	this.el = document.createElement('div');
 	this.el.classList.add('hex-info');
 	this.btn = document.createElement('button');
-	this.btn.classList.add('icon');
+	this.btn.classList.add('icon','b5-bg');
 	this.el.appendChild(this.btn);
 
 	this.init = function(menu, builder){
@@ -1474,8 +1476,8 @@ function Expander(){
 	this.el = document.createElement('div');
 	this.el.classList.add('hex-expand');
 	this.btn = document.createElement('button');
-	this.btn.classList.add('icon');
-	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M5 5 l -4 -4 m 3.5 0 l -3.5 0 0 3.5 M5 11l -4 4 m 3.5 0 l -3.5 0 0 -3.5 M11 5l 4 -4 m -3.5 0 l 3.5 0 0 3.5 M11 11 l 4 4 m -3.5 0 l 3.5 0 0 -3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>';
+	this.btn.classList.add('icon','b5-bg');
+	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path d="M5 5 l -4 -4 m 3.5 0 l -3.5 0 0 3.5 M5 11l -4 4 m 3.5 0 l -3.5 0 0 -3.5 M11 5l 4 -4 m -3.5 0 l 3.5 0 0 3.5 M11 11 l 4 4 m -3.5 0 l 3.5 0 0 -3.5" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" /></svg>';
 	this.el.appendChild(this.btn);
 
 	this.init = function(menu, builder){

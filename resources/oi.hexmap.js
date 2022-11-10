@@ -338,7 +338,8 @@
 			// Clear the canvas
 			svg.innerHTML = "";
 			this.areas = {};
-			this.grid = null;
+			if(this.grid) this.grid.remove();
+			delete this.grid;
 			constructed = false;
 			return this;
 		};
@@ -359,7 +360,15 @@
 			this.properties.shift = p[0];
 			this.properties.orientation = p[1];
 			
-			range = { 'r': {'min':1e100,'max':-1e100}, 'q': {'min':1e100,'max':-1e100} };
+			this.updateRange();
+
+			return this.initialized();
+		};
+		
+		this.updateRange = function(){
+
+			var region,p,s;
+			range = { 'r': {'min':Infinity,'max':-Infinity}, 'q': {'min':Infinity,'max':-Infinity} };
 			for(region in this.mapping.hexes){
 				if(this.mapping.hexes[region]){
 					p = updatePos(this.mapping.hexes[region].q,this.mapping.hexes[region].r,this.mapping.layout);
@@ -369,6 +378,14 @@
 					if(p.r < range.r.min) range.r.min = p.r;
 				}
 			}
+
+			// Add padding to range
+			range.q.min -= this.padding;
+			range.q.max += this.padding;
+			range.r.min -= this.padding;
+			range.r.max += this.padding;
+
+
 			// Find range and mid points
 			range.q.d = range.q.max-range.q.min;
 			range.r.d = range.r.max-range.r.min;
@@ -379,10 +396,10 @@
 			if(this.properties.orientation=="r") s = Math.min(0.5*tall/(range.r.d*0.75 + 1),(1/Math.sqrt(3))*wide/(range.q.d + 1));	// Pointy-topped
 			else s = Math.min((1/Math.sqrt(3))*tall/(range.r.d + 1),0.5*wide/(range.q.d*0.75 + 1));	// Flat-topped
 
-			if(typeof attr.size!=="number") this.setHexSize(s);
+			//if(typeof attr.size!=="number") 
+			this.setHexSize(s);
 			this.setSize();
-
-			return this.initialized();
+			return this;
 		};
 
 		this.setSize = function(size){
@@ -450,24 +467,9 @@
 		this.draw = function(){			
 			var r,q,h,hex,region;
 
+			this.updateRange();
 			var range = this.range;
-			for(region in this.mapping.hexes){
-				if(this.mapping.hexes[region]){
-					q = this.mapping.hexes[region].q;
-					r = this.mapping.hexes[region].r;
-					if(q > range.q.max) range.q.max = q;
-					if(q < range.q.min) range.q.min = q;
-					if(r > range.r.max) range.r.max = r;
-					if(r < range.r.min) range.r.min = r;
-				}
-			}
-			
-			// Add padding to range
-			range.q.min -= this.padding;
-			range.q.max += this.padding;
-			range.r.min -= this.padding;
-			range.r.max += this.padding;
-		
+
 			// q,r coordinate of the centre of the range
 			var qp = (range.q.max+range.q.min)/2;
 			var rp = (range.r.max+range.r.min)/2;

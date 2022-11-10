@@ -89,6 +89,17 @@ function HexBuilder(el,attr){
 				e.stopPropagation();
 				if(e.key=="c") _obj.selectBySameColour(e);
 			});
+			
+			this.expand = function(){
+				this.hex.create();
+				this.hex.load(this.hex.mapping,{me:this},function(e){ e.data.me.setColours("region"); });
+				return this;
+			}
+			this.expandPadding = function(){
+				this.hex.padding++;
+				return this.expand();
+			}
+
 
 			this.selectBySameColour = function(){
 				if(this.hex.selected){
@@ -283,6 +294,9 @@ function HexBuilder(el,attr){
 
 			this.colourpicker = new ColourPicker();
 			this.colourpicker.addTo(this.menu);
+
+			this.expander = new Expander();
+			this.expander.addTo(this.menu);
 
 			this.infobubble = new InfoBubble();
 			this.infobubble.addTo(this.menu);
@@ -1449,6 +1463,37 @@ function InfoBubble(){
 	};
 	this.addTo = function(m){
 		m.addComponent("InfoBubble",this);
+		return this;
+	}
+	return this;
+}
+
+function Expander(){
+
+	var active = true;
+	this.el = document.createElement('div');
+	this.el.classList.add('hex-expand');
+	this.btn = document.createElement('button');
+	this.btn.classList.add('icon');
+	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="M5 5 l -4 -4 m 3.5 0 l -3.5 0 0 3.5 M5 11l -4 4 m 3.5 0 l -3.5 0 0 -3.5 M11 5l 4 -4 m -3.5 0 l 3.5 0 0 3.5 M11 11 l 4 4 m -3.5 0 l 3.5 0 0 -3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" /></svg>';
+	this.el.appendChild(this.btn);
+
+	this.init = function(menu, builder){
+		// Add the main element for this component to the menu's element
+		menu.append(this.el);
+
+		// Add event
+		var _obj = this;
+
+		this.btn.addEventListener('click',function(e){
+			builder.expand();
+			e.target.blur();
+		});
+
+		return this;
+	};
+	this.addTo = function(m){
+		m.addComponent("Expander",this);
 		return this;
 	}
 	return this;

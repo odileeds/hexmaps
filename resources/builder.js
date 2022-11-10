@@ -116,18 +116,55 @@ function HexBuilder(el,attr){
 				this.colourpicker.deactivate();
 				return this;
 			};
+			function isOdd(v){ return v%2==1; }
+			function isEven(v){ return v%2==0; }
+			this.shiftHex = function(region,shift){
+				var dq,dr,layout,hex;
+				
+				hex = this.hex.mapping.hexes[region];
+				layout = this.hex.mapping.layout;
+
+				dq = shift.b.q - shift.a.q;
+				dr = shift.b.r - shift.a.r;
+				
+				if(layout == "odd-r"){
+					// If the original hex is shifting from an even row to an odd row then:
+					//   - if the current hex is on an even row it has the same dq
+					//   - if the current hex is on an odd row it increases dq by 1
+					if(isEven(shift.a.r) && isOdd(shift.b.r) && isOdd(hex.r)) dq++;
+					// If the original hex is shifting from an odd row to an even row then:
+					//   - if the current hex is on an even row we need to decrease dq by 1
+					//   - if the current hex is on an odd row it has the same dq
+					if(isOdd(shift.a.r) && isEven(shift.b.r) && isEven(hex.r)) dq--;
+				}else if(layout == "even-r"){
+					// If the original hex is shifting from an even row to an odd row then:
+					//   - if the current hex is on an even row it has the same dq
+					//   - if the current hex is on an odd row it decreases dq by 1
+					if(isEven(shift.a.r) && isOdd(shift.b.r) && isOdd(hex.r)) dq--;
+					// If the original hex is shifting from an odd row to an even row then:
+					//   - if the current hex is on an even row we need to increase dq by 1
+					//   - if the current hex is on an odd row it has the same dq
+					if(isOdd(shift.a.r) && isEven(shift.b.r) && isEven(hex.r)) dq++;
+				}else if(layout == "odd-q"){
+					// TODO
+				}else if(layout == "even-q"){
+					// TODO
+				}
+
+				this.hex.mapping.hexes[region].q += dq;
+				this.hex.mapping.hexes[region].r += dr;
+				return this;
+			}
 
 			// Move the selected hex to the new coordinates
 			this.moveTo = function(q,r){
 				if(this.hex.selected){
-					var dq = q - this.hex.mapping.hexes[this.hex.selected].q;
-					var dr = r - this.hex.mapping.hexes[this.hex.selected].r;
+					var shift = {'a':{'q':this.hex.mapping.hexes[this.hex.selected].q,'r':this.hex.mapping.hexes[this.hex.selected].r},'b':{'q':q,'r':r}};
 					for(var region in this.hex.areas){
 						if(this.hex.areas[region]){
 							if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
 							if(this.hex.areas[region].selected){
-								this.hex.mapping.hexes[region].q += dq;
-								this.hex.mapping.hexes[region].r += dr;
+								this.shiftHex(region,shift);
 								var h = this.hex.drawHex(this.hex.mapping.hexes[region].q,this.hex.mapping.hexes[region].r);
 								this.hex.areas[region].hex.setAttribute('d',h.path);
 								this.hex.areas[region].array = h.array;
@@ -1287,7 +1324,7 @@ function ColourPicker(builder){
 
 	this.inner = document.createElement('div');
 	this.inner.classList.add('hex-colour-picker-inner');
-	this.inner.classList.add('b2-bg');
+	this.inner.classList.add('b1-bg');
 	this.inner.innerHTML = '<h4>Colour:</h4>';
 	this.el.appendChild(this.inner);
 

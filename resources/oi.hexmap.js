@@ -1,5 +1,7 @@
 /**
 	OI hex map in SVG
+	0.6.3:
+	    - fitToRange()
 	0.6.2:
 	    - allow multiple callbacks to be added with .on()
 	0.6.1:
@@ -57,7 +59,7 @@
 	//      size: the size of a hexagon in pixels
 	function HexMap(el,attr){
 
-		this.version = "0.6.1";
+		this.version = "0.6.3";
 		if(!attr) attr  = {};
 		this._attr = attr;
 		this.title = "OI HexMap";
@@ -138,15 +140,12 @@
 				fn = prop;
 				prop = "";
 			}
-			//if(typeof fn !== "function") return this;
 			function done(data,noload){
-				_obj.log('info','HexJSON',data);
 				_obj.setMapping(data);
 				if(noload) _obj.updateColours();
 				if(typeof fn==="function") fn.call(_obj,{'data':prop});
 			}
 			if(typeof file==="string"){
-				this.log('info','Loading '+file,prop,fn);
 				OI.ajax(file,{
 					'this': this,
 					'dataType':'json',
@@ -367,15 +366,22 @@
 		
 		this.updateRange = function(){
 
-			var region,p,s;
+			var region,p,s,q2,r2;
 			range = { 'r': {'min':Infinity,'max':-Infinity}, 'q': {'min':Infinity,'max':-Infinity} };
 			for(region in this.mapping.hexes){
 				if(this.mapping.hexes[region]){
 					p = this.mapping.hexes[region];
-					if(p.q > range.q.max) range.q.max = p.q;
-					if(p.q < range.q.min) range.q.min = p.q;
-					if(p.r > range.r.max) range.r.max = p.r;
-					if(p.r < range.r.min) range.r.min = p.r;
+					q2 = p.q;
+					r2 = p.r;
+					// Calculate effective q,r (taking into account shifts)
+					if(this.mapping.layout=="odd-r" && p.r%2==1) q2 += 0.5;
+					if(this.mapping.layout=="even-r" && p.r%2==0) q2 += 0.5;
+					if(this.mapping.layout=="odd-q" && p.q%2==1) r2 += 0.5;
+					if(this.mapping.layout=="even-q" && p.q%2==0) r2 += 0.5;
+					if(q2 > range.q.max) range.q.max = q2;
+					if(q2 < range.q.min) range.q.min = q2;
+					if(r2 > range.r.max) range.r.max = r2;
+					if(r2 < range.r.min) range.r.min = r2;
 				}
 			}
 
@@ -393,12 +399,24 @@
 			range.r.mid = range.r.min + range.r.d/2;
 			this.range = clone(range);
 
-			if(this.properties.orientation=="r") s = Math.min(0.5*tall/(range.r.d*0.75 + 1),(1/Math.sqrt(3))*wide/(range.q.d + 1));	// Pointy-topped
-			else s = Math.min((1/Math.sqrt(3))*tall/(range.r.d + 1),0.5*wide/(range.q.d*0.75 + 1));	// Flat-topped
-
-			this.setHexSize(s);
+			// If we've passed a specific size for the hexes we use that otherwise we work it out
+			if(typeof attr.size!=="number") this.setHexSize(this.estimateSize());
 			this.setSize();
 			return this;
+		};
+
+		this.fitToRange = function(){
+			this.updateRange();
+			this.setHexSize(this.estimateSize());
+			this.setSize();
+			return this;
+		};
+
+		this.estimateSize = function(){
+			var s;
+			if(this.properties.orientation=="r") s = Math.min(0.5*tall/(range.r.d*0.75 + 1),(1/Math.sqrt(3))*wide/(range.q.d + 1));	// Pointy-topped
+			else s = Math.min((1/Math.sqrt(3))*tall/(range.r.d + 1),0.5*wide/(range.q.d*0.75 + 1));	// Flat-topped
+			return s;
 		};
 
 		this.setSize = function(size){
@@ -489,8 +507,8 @@
 			if((this.options.showgrid || this.options.clip) && !this.grid){
 				this.grid = svgEl('g');
 				setAttr(this.grid,{'class':'hex-grid-holder'});
-				for(q = range.q.min-1; q <= range.q.max+1; q++){
-					for(r = range.r.min-1; r <= range.r.max+1; r++){
+				for(q = range.q.min; q <= range.q.max; q++){
+					for(r = range.r.min; r <= range.r.max; r++){
 						h = this.drawHex(q,r);
 						if(this.options.showgrid){
 							hex = svgEl('path');

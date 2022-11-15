@@ -68,7 +68,6 @@ function HexBuilder(el,attr){
 				'id':this.id+'-hexmap',
 				'width':width,
 				'height':height,
-				'size':side,
 				'padding':padding,
 				'minFontSize': 0,
 				'grid': { 'show': true },
@@ -91,6 +90,7 @@ function HexBuilder(el,attr){
 			});
 			
 			this.expand = function(){
+				this.hex.fitToRange();
 				this.hex.create();
 				this.hex.load(this.hex.mapping,{me:this},function(e){ e.data.me.setColours("region"); });
 				return this;
@@ -1495,7 +1495,7 @@ function Expander(){
 	this.el.classList.add('hex-expand');
 	this.btn = document.createElement('button');
 	this.btn.classList.add('icon','b5-bg');
-	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path d="M5 5 l -4 -4 m 3.5 0 l -3.5 0 0 3.5 M5 11l -4 4 m 3.5 0 l -3.5 0 0 -3.5 M11 5l 4 -4 m -3.5 0 l 3.5 0 0 3.5 M11 11 l 4 4 m -3.5 0 l 3.5 0 0 -3.5" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" /></svg>';
+	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><title>Expand padding</title><path d="M1 1 l 14 0 0 14 -14 0 0 -14" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="1.5 2" stroke-dashoffset="1" /><path d="M3 3 l 10 0 0 10 -10 0 0 -10" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="1.5 2" stroke-dashoffset="1" /><path d="M 8 5 l 0 6 m -3 -3 l 6 0" stroke="currentColor" /></svg>';
 	this.el.appendChild(this.btn);
 
 	this.init = function(menu, builder){
@@ -1506,7 +1506,7 @@ function Expander(){
 		var _obj = this;
 
 		this.btn.addEventListener('click',function(e){
-			builder.expand();
+			builder.expandPadding();
 			e.target.blur();
 		});
 

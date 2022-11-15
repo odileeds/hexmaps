@@ -827,14 +827,13 @@ function HexBuilder(el,attr){
 			savepng.innerHTML = 'PNG';
 			savepng.addEventListener('click',function(){
 				var svg = _obj.hex.el.querySelector('.hexmap-map');
-				var grid = svg.querySelectorAll('.hex-grid');
 				// Hide all the grid cells
-				for(var g = 0; g < grid.length; g++) grid[g].style.display = 'none';
+				svg.querySelector('.hex-grid-holder').style.display = 'none';
 				SVG2PNG(svg,{
 					'src':'hexmap.png',
 					'callback':function(src){
 						// Show all the grid cells
-						for(var g = 0; g < grid.length; g++) grid[g].style.display = '';
+						svg.querySelector('.hex-grid-holder').style.display = '';
 					}
 				});
 			});

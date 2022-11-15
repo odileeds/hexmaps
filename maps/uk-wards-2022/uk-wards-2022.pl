@@ -29,6 +29,26 @@ sub getJSON {
 	return JSON::XS->new->decode($str);	
 }
 
+sub makeJSON {
+	my $json = shift;
+	
+	$txt = JSON::XS->new->utf8->canonical(1)->pretty->space_before(0)->encode($json);
+	
+	$txt =~ s/   /\t/g;
+
+	$txt =~ s/(\t{3}.*)\n/$1/g;
+	$txt =~ s/\,\t{3}/\, /g;
+	$txt =~ s/\t{2}\}(\,?)\n/ \}$1\n/g;
+	$txt =~ s/\{\n\t{3}/\{ /g;
+	
+	$txt =~ s/\"\: /\"\:/g;
+	$txt =~ s/\, \"/\,\"/g;
+	$txt =~ s/":\{ "/":\{"/g;
+	$txt =~ s/\" \},/\"\},/g;
+	
+	return $txt;
+}
+
 sub splitRegions {
 	print "Splitting regions in $hexjsonfile\n";
 	my ($regions,$id,$region,$fh);
@@ -51,32 +71,22 @@ sub splitRegions {
 	}
 }
 
-sub makeJSON {
-	my $json = shift;
-	
-	$txt = JSON::XS->new->utf8->canonical(1)->pretty->space_before(0)->encode($json);
-	
-	$txt =~ s/   /\t/g;
-
-	$txt =~ s/(\t{3}.*)\n/$1/g;
-	$txt =~ s/\,\t{3}/\, /g;
-	$txt =~ s/\t{2}\}(\,?)\n/ \}$1\n/g;
-	$txt =~ s/\{\n\t{3}/\{ /g;
-	
-	$txt =~ s/\"\: /\"\:/g;
-	$txt =~ s/\, \"/\,\"/g;
-	$txt =~ s/":\{ "/":\{"/g;
-	$txt =~ s/\" \},/\"\},/g;
-	
-	return $txt;
-}
-
 sub combineRegions {
+	my ($tmp,$dh,$filename,$json,$hex,$fh);
+	$json = {'layout'=>'odd-r','hexes'=>{}};
 	opendir($dh,"./");
-	while( ($filename = readdir($dh))){
-		if($filename =~ /.hexjson$/){
-			print $filename."\n";
+	while(($filename = readdir($dh))){
+		if($filename =~ /[ENSW][0-9]{8}.hexjson$/){
+			print "Read from $filename\n";
+			$tmp = getJSON($filename);
+			foreach $hex (keys(%{$tmp->{'hexes'}})){
+				$json->{'hexes'}{$hex} = $tmp->{'hexes'}{$hex};
+			}
 		}
 	}
 	closedir($dh);
+
+	open($fh,">","../uk-wards-2022.hexjson");
+	print $fh makeJSON($json);
+	close($fh);
 }

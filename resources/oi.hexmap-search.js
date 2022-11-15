@@ -35,6 +35,8 @@ console.log('reset');
 			btn.addEventListener('click',function(e){
 				_obj.selected = -1;
 				_obj.toggle();
+				// Reset value when opening
+				inp.value = "";
 			});
 			results = el.querySelector('.search-results');
 			

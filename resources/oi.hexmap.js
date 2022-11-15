@@ -391,6 +391,11 @@
 			range.r.min -= this.padding;
 			range.r.max += this.padding;
 
+			// Make sure range is whole numbers
+			range.q.min = Math.floor(range.q.min);
+			range.q.max = Math.ceil(range.q.max);
+			range.r.min = Math.floor(range.r.min);
+			range.r.max = Math.ceil(range.r.max);
 
 			// Find range and mid points
 			range.q.d = range.q.max-range.q.min;

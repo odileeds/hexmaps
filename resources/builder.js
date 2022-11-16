@@ -1461,10 +1461,12 @@ function InfoBubble(){
 
 		this.activate = function(){
 			this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/></svg>';
+			this.btn.setAttribute('title','Hide information');
 			active = true;
 		};
 		this.deactivate = function(){
 			this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"><path d="m9.708 6.075-3.024.379-.108.502.595.108c.387.093.464.232.38.619l-.975 4.577c-.255 1.183.14 1.74 1.067 1.74.72 0 1.554-.332 1.933-.789l.116-.549c-.263.232-.65.325-.905.325-.363 0-.494-.255-.402-.704l1.323-6.208Zm.091-2.755a1.32 1.32 0 1 1-2.64 0 1.32 1.32 0 0 1 2.64 0Z"/><line x1="2" y1="13" x2="14" y2="3" stroke="currentColor" stroke-linecap="round" stroke-width="2" /></svg>';
+			this.btn.setAttribute('title','Show information');
 			active = false;
 			if(document.querySelector('.infobubble')) document.querySelector('.infobubble').remove();
 		};
@@ -1499,7 +1501,8 @@ function Expander(){
 	this.el.classList.add('hex-expand');
 	this.btn = document.createElement('button');
 	this.btn.classList.add('icon','b5-bg');
-	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><title>Expand padding</title><path d="M1 1 l 14 0 0 14 -14 0 0 -14" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="1.5 2" stroke-dashoffset="1" /><path d="M3 3 l 10 0 0 10 -10 0 0 -10" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="1.5 2" stroke-dashoffset="1" /><path d="M 8 5 l 0 6 m -3 -3 l 6 0" stroke="currentColor" /></svg>';
+	this.btn.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path d="M1 1 l 14 0 0 14 -14 0 0 -14" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="1.5 2" stroke-dashoffset="1" /><path d="M3 3 l 10 0 0 10 -10 0 0 -10" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-dasharray="1.5 2" stroke-dashoffset="1" /><path d="M 8 5 l 0 6 m -3 -3 l 6 0" stroke="currentColor" /></svg>';
+	this.btn.setAttribute('title','Expand padding');
 	this.el.appendChild(this.btn);
 
 	this.init = function(menu, builder){

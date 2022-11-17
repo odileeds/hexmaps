@@ -1134,7 +1134,7 @@ function HexBuilder(el,attr){
 							if(!isNaN(Date.parse(this.hex.mapping.hexes[region][key]))) v = (new Date(this.hex.mapping.hexes[region][key])).getTime();
 						}
 					}
-					if(typeof v==="number"){
+					if(typeof v==="number" && !isNaN(v)){
 						min = Math.min(v,min);
 						max = Math.max(v,max);
 					}

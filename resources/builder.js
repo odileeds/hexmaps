@@ -588,11 +588,11 @@ function HexBuilder(el,attr){
 												if(nm && !this.data.hexes[id][nm]) this.data.hexes[id][nm] = attr.data.data.rows[r][j];
 											}
 										}else{
-											console.warn(id+' does not seem to exist in HexJSON',this.data.hexes);
+											this.log("warn",id+' does not seem to exist in HexJSON',this.data.hexes);
 											delete this.data.hexes[id];
 										}
 									}else{
-										console.warn('Missing ID on line '+r);
+										this.log("warn",'Missing ID on line '+r);
 									}
 								}
 								if(this.file.type=="csv" && !this.query.keepmissing){
@@ -632,6 +632,10 @@ function HexBuilder(el,attr){
 						if(data.fields.format[j]=="integer") data.rows[i][j] = parseInt(data.rows[i][j]);
 						if(data.fields.format[j]=="float") data.rows[i][j] = parseFloat(data.rows[i][j]);
 						if(data.fields.format[j]=="boolean") data.rows[i][j] = (data.rows[i][j].toLowerCase()=="true" ? true : false);
+
+						// Fix any NaNs
+						if((data.fields.format[j]=="float" || data.fields.format[j]=="integer") && isNaN(data.rows[i][j])) data.rows[i][j] = "";
+
 						this.data.hexes[data.rows[i][0]][data.fields.name[j]] = data.rows[i][j];
 						if(data.fields.name[j].toLowerCase() == "name") this.data.hexes[data.rows[i][0]].n = data.rows[i][j];
 					}
@@ -1137,6 +1141,8 @@ function HexBuilder(el,attr){
 					if(typeof v==="number" && !isNaN(v)){
 						min = Math.min(v,min);
 						max = Math.max(v,max);
+					}else{
+						this.log("warn",'Region '+region+' is not a valid number: '+v,this.hex.mapping.hexes[region][key])
 					}
 				}
 			}
@@ -1258,7 +1264,7 @@ function HexBuilder(el,attr){
 		var newdata = [];
 		var formats = [];
 		var req = [];
-		var j,i,k,rows;
+		var j,i,k,rows,v;
 
 		for(i = 0, rows = 0 ; i < end; i++){
 

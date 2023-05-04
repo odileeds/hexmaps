@@ -324,13 +324,9 @@ function Constituencies(id,attr){
 		}else if(type == "rural"){
 			S().ajax('../data/2011rural.csv',{
 				'complete':function(d,attr){
-					if(typeof d==="string"){
-						d = d.replace(/\r/g,'');
-						d = d.split(/[\n]/);
-					}
-					for(var i = 1; i < d.length; i++){
-						c = d[i].split(/,/);
-						this.data[attr.type][c[0]] = parseFloat(c[2]);
+					csvAsArray = CSVToArray(d);
+					for(var i = 1; i < csvAsArray.length; i++){
+						this.data[attr.type][csvAsArray[i][0]] = parseFloat(csvAsArray[i][2]);
 					}
 					this.hex.data[attr.type] = this.data[attr.type];
 					this.setColours("rural");

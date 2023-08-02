@@ -192,7 +192,7 @@ function HexBuilder(el,attr){
 					shift = {'a':{'q':this.hex.mapping.hexes[this.hex.selected].q,'r':this.hex.mapping.hexes[this.hex.selected].r},'b':{'q':q,'r':r}};
 					for(region in this.hex.areas){
 						if(this.hex.areas[region]){
-							if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
+							//if(region.indexOf(this.hex.selected)==0) this.hex.areas[region].selected = true;
 							if(this.hex.areas[region].selected){
 								pos = this.shiftHex(region,shift);
 								this.hex.mapping.hexes[region].q = pos.q;

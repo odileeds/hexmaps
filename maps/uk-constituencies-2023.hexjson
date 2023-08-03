@@ -1,5 +1,6 @@
 {
 	"layout":"odd-r",
+	"version": "1.0",
 	"hexes": {
 		"11":{"n":"Barnsley North","r":-23,"q":57,"region":"E12000003","colour":"#F9BC26"},
 		"12":{"n":"Barnsley South","r":-23,"q":58,"region":"E12000003","colour":"#F9BC26"},

@@ -1035,7 +1035,19 @@ function HexBuilder(el,attr){
 
 		// Make hex json
 
-		if(!str) str = JSON.stringify(this.hex.mapping).replace(/\}\,/g,"},\n\t\t").replace(/\}\}\}/,"}\n\t\}\n\}").replace(/\"hexes\":{/,"\n\t\"hexes\": {\n\t\t").replace(/{"layout"/,"{\n\t\"layout\"");
+		// Update the version number
+		if(this.hex.mapping.version){
+			var version = this.hex.mapping.version;
+			var bits = version.split(".");
+			console.log(bits);
+			for(var b = 0; b < bits.length; b++) bits[b] = parseInt(bits[b]);
+			bits[bits.length-1]++;
+			this.hex.mapping.version = bits.join(".");
+		}else{
+			this.hex.mapping.version = "0.1";
+		}
+
+		if(!str) str = JSON.stringify(this.hex.mapping).replace(/\}\,/g,"},\n\t\t").replace(/\}\}\}/,"}\n\t\}\n\}").replace(/\"hexes\":{/,"\n\t\"hexes\": {\n\t\t").replace(/{"layout"/,"{\n\t\"layout\"").replace(/"version"/,"\n\t\"version\"");
 		if(!file) file = "test.hexjson";
 		if(!type) type = 'text/application/json';
 

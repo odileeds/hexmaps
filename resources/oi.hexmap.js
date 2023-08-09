@@ -1,9 +1,11 @@
 /**
 	OI hex map in SVG
+	0.6.4:
+		- Remove browser tooltip
 	0.6.3:
-	    - fitToRange()
+		- fitToRange()
 	0.6.2:
-	    - allow multiple callbacks to be added with .on()
+		- allow multiple callbacks to be added with .on()
 	0.6.1:
 		- bug fixes
 	0.6.0:
@@ -546,7 +548,6 @@
 						setAttr(g,{'data':r});
 						svg.appendChild(g);
 						path = svgEl('path');
-						path.innerHTML = '<title>'+(this.mapping.hexes[r].n || r)+'</title>';
 						setAttr(path,{'d':h.path,'class':'hex-cell','transform-origin':h.x+'px '+h.y+'px','data-q':this.mapping.hexes[r].q,'data-r':this.mapping.hexes[r].r});
 						g.appendChild(path);
 						this.areas[r] = {'g':g,'hex':path,'selected':false,'active':true,'data':this.mapping.hexes[r],'orig':h};

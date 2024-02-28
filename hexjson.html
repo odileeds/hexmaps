@@ -4,14 +4,14 @@
 	<link rel="icon" href="https://open-innovations.org/resources/images/logos/oi-square-10.svg" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8" />
-	<title>HexJSON format</title>
+	<title>HexJSON format v1.1</title>
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="@ODILeeds">
 	<meta name="twitter:url" property="og:url" content="https://open-innovations.org/projects/hexmaps/hexjson">
 	<meta name="twitter:title" property="og:title" content="HexJSON format">
 	<meta name="twitter:description" property="og:description" content="Defining a format for sharing hex-based maps.">
 	<meta name="twitter:image" property="og:image" content="https://open-innovations.org/projects/hexmaps/hexmap.png">
-	<script type="text/javascript" src="https://odileeds.github.io/odi.hexmap.js/odi.hexmap.min.js"></script>
+	<script type="text/javascript" src="https://open-innovations.github.io/oi.hexmap.js/oi.hexmap.js"></script>
 	<style>
 		
 	/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
@@ -78,8 +78,8 @@
 	}
 	.leaflet-container { font-size: inherit; }
 	h1 { font-size: 2em; line-height: 1em; }
-	h2 { font-size: 1.7em; margin-top: 1.17647em; margin-bottom: 16px; }
-	h1, h2 { margin-top: 0em; }
+	h2 { font-size: 1.7rem; margin-top: 3rem; margin-bottom: 16px; }
+	h1 { margin-top: 0em; }
 	strong { font-weight: 700; }
 	em { font-style: italic; }
 	header, footer, #main {
@@ -103,7 +103,8 @@
 		max-width: 100%;
 		margin: auto;
 	}
-	.padded { padding: 2em; }		
+	.padded { padding: 1em; }
+	.tallpadded { padding: 2em 0; }
 	code,pre {
 		font-family: monospace;
 		color: #555555;
@@ -126,8 +127,10 @@
 	pre,code { background: #efefef; }
 
 
-	.layouts { display:grid; grid-template-columns: repeat(4,1fr); grid-gap: 1em; margin-left: 0!important; margin-bottom: 1em; }
-	.layouts li { list-style: none; text-align: center; }
+	.boundaries, .layouts { display:grid; grid-gap: 1em; margin-left: 0!important; margin-bottom: 1em; }
+	.boundaries { grid-template-columns: repeat(4,1fr); }
+	.layouts { grid-template-columns: repeat(4,1fr); }
+	.boundaries li, .layouts li { list-style: none; text-align: center; }
 	.hexlayout { height: 250px; font-size: 1em; }
 	.hexlayout .hex-cell { fill: #efefef; stroke: #bbb; }
 	.warning {
@@ -157,7 +160,7 @@
 	}
 	</style>
 	<script>
-	ODI.ready(function(){
+	OI.ready(function(){
 		hexjsonr = {
 			'layout':'odd-r',
 			'hexes':{
@@ -242,24 +245,24 @@
 				hexes[r].g.classList.remove('r-axis-same');
 			}		
 		}
-		oddr = new ODI.hexmap(document.getElementById('odd-r'),{
+		oddr = new OI.hexmap(document.getElementById('odd-r'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonr
 		});
 		oddr.on('mouseover',highlight).on('mouseout',dehighlight);
 		hexjsonr.layout = "even-r";
-		evenr = new ODI.hexmap(document.getElementById('even-r'),{
+		evenr = new OI.hexmap(document.getElementById('even-r'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonr
 		});
 		evenr.on('mouseover',highlight).on('mouseout',dehighlight);
-		oddq = new ODI.hexmap(document.getElementById('odd-q'),{
+		oddq = new OI.hexmap(document.getElementById('odd-q'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonq
 		});
 		oddq.on('mouseover',highlight).on('mouseout',dehighlight);
 		hexjsonq.layout = "even-q";
-		evenq = new ODI.hexmap(document.getElementById('even-q'),{
+		evenq = new OI.hexmap(document.getElementById('even-q'),{
 			'label':{'show': true,'format':label,'clip':true},
 			'hexjson':hexjsonq
 		});
@@ -276,18 +279,18 @@
 			<div class="b1-bg">
 				<div class="holder" style="text-align:center;">
 					<a href="https://open-innovations.org/"><svg width="80" height="80" overflow="auto" viewBox="-32 -32 64 64" xmlns="http://www.w3.org/2000/svg"><mask id="oi-person"><path d="m-32-32h64v64h-12v-24a4 4 0 0 0 -4 -4h-8a4 4 0 0 0 -4 4v24h-36zm44 27m-8 0a8 8 0 1 0 16 0 8 8 0 1 0-16 0" fill="#fff"></path></mask><g id="oi-logo" fill="#E6007C"><circle r="32" mask="url(#oi-person)"></circle></g></svg></a>
-					<h1>HexJSON format</h1>
+					<h1>HexJSON format v1.1</h1>
 				</div>
 			</div>
 		</header>
 
-		<div class="holder">
-			<p>We want to make sharing <a href="https://open-innovations.org/blog/2017-05-08-mapping-election-with-hexes">hexagon-based maps</a> - such as our <a href="constituencies/index.html">UK constituency hex map</a> - easy. We've defined a simple <a href="http://jsonlint.com/">JSON format</a> to achieve that. The format is:</p>
+		<div class="holder tallpadded padded">
+			<p>We want to make sharing <a href="https://open-innovations.org/blog/2017-05-08-mapping-election-with-hexes">hexagon-based maps</a> - such as our <a href="constituencies/index.html">UK constituency hex map</a> - easy. We've defined a simple <a href="http://jsonlint.com/">JSON format</a> to achieve that. The format requires <code>layout</code> and <code>hexes</code>:</p>
 			<pre><code>{
 	"layout": "odd-r",
 	"hexes": {
-		"E14000530":{"q":-3,"r":-11},
-		"E14000531":{"q":-3,"r":-1}
+		"E14000530": {"q":-3,"r":-11},
+		"E14000531": {"q":-3,"r":-1}
 	}
 }</code></pre>
 			<p>The <code>layout</code> property should be one of the following <a href="http://www.redblobgames.com/grids/hexagons/#coordinates">coordinate systems</a> (row number increasing vertically):</p>
@@ -323,6 +326,145 @@
 	}
 }</code></pre>
 
+			<h2>Adding boundaries</h2>
+			<p>In February 2024 we added the concept of drawing boundaries around hexagons. You can provide them using the additional property <code>boundaries</code> which can contain multiple named boundaries. Each boundary should contain an <code>edges</code> array that defines an ordered series of edges to create a line (the line does not have to be continuous). Each item in the array should provide the <code>q</code>, <code>r</code> coordinates of a particular hexagon along with the edge number <code>e</code>. For example:</p>
+			
+			<pre><code>{
+	"layout": "odd-r",
+	"hexes": { ... },
+	"boundaries": {
+		"name-1": {
+			"edges": [
+				{"q":-3,"r":-11,"e":2},
+				{"q":-3,"r":-12,"e":4}
+			]
+		}
+	}
+}</code></pre>
+			<p>Edges, <code>e</code>, are numbered from 1 to 6 moving clockwise from the top of the hexagon. Positive numbered edges are drawn in a clockwise sense and negative numbered edges are drawn in an anti-clockwise sense. This should allow continuous lines to be created. Note that the <code>edges</code> are not required to continue on from each other; a line may contain gaps. A renderer should check where the end of the last edge finished and the current edge begins to work out if a gap should be left.</p>
+			<ul class="boundaries">
+				<li>
+					<svg class="hexagon" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" viewBox="0 0 70 58" style="max-width:100%;" preserveAspectRatio="xMinYMin meet" vector-effect="non-scaling-stroke">
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(0 -25)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(30)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(21.65 -12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(90)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(21.65 12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(150)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(0 25)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(210)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-21.65 12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(270)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-21.65 -12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(330)" />
+						</g>
+						<text x="35px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">q,r</text>
+						<text x="50px" y="6px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:1</text>
+						<text x="63px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:2</text>
+						<text x="50px" y="52px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:3</text>
+						<text x="20px" y="52px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:4</text>
+						<text x="7px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:5</text>
+						<text x="20px" y="6px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:6</text>
+					</svg>
+					pointy-topped<br />positive edge numbers
+				</li>
+				<li>
+					<svg class="hexagon" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" viewBox="0 0 70 58" style="max-width:100%;" preserveAspectRatio="xMinYMin meet" vector-effect="non-scaling-stroke">
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(0 -25)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(150)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(21.65 -12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(210)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(21.65 12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(270)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(0 25)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(330)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-21.65 12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(30)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-21.65 -12.5)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(90)" />
+						</g>
+						<text x="35px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">q,r</text>
+						<text x="50px" y="6px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:-1</text>
+						<text x="63px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:-2</text>
+						<text x="50px" y="52px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:-3</text>
+						<text x="20px" y="52px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:-4</text>
+						<text x="7px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:-5</text>
+						<text x="20px" y="6px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:-6</text>
+					</svg>
+					pointy-topped<br />negative edge numbers
+				</li>
+				<li>
+					<svg class="hexagon" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" viewBox="0 0 70 58" style="max-width:100%;" preserveAspectRatio="xMinYMin meet" vector-effect="non-scaling-stroke">
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-12.5 -21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(0)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(12.5 -21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(60)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(25 0)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(120)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(12.5 21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(180)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-12.5 21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(240)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-25 0)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(300)" />
+						</g>
+						<text x="35px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">q,r</text>
+						<text x="35px" y="2px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:1</text>
+						<text x="60px" y="16px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:2</text>
+						<text x="60px" y="42px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:3</text>
+						<text x="35px" y="56px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:4</text>
+						<text x="10px" y="42px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:5</text>
+						<text x="10px" y="16px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:6</text>
+					</svg>
+					flat-topped<br />positive edge numbers
+				</li>
+				<li>
+					<svg class="hexagon" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" viewBox="0 0 70 58" style="max-width:100%;" preserveAspectRatio="xMinYMin meet" vector-effect="non-scaling-stroke">
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-12.5 -21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(120)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(12.5 -21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(180)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(25 0)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(240)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(12.5 21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(300)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-12.5 21.65)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(0)" />
+						</g>
+						<g transform-origin="35px 29px" transform="translate(35 29) translate(-25 0)">
+							<path d="m 0 0 l 24 0 m 0 0 l -2 1.5 m 2 -1.5 l -2 -1.5" stroke="black" fill="transparent" stroke-linecap="round" transform="rotate(60)" />
+						</g>
+						<text x="35px" y="29px" dominant-baseline="central" text-anchor="middle" font-size="4px">q,r</text>
+						<text x="35px" y="2px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:1</text>
+						<text x="60px" y="16px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:2</text>
+						<text x="60px" y="42px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:3</text>
+						<text x="35px" y="56px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:4</text>
+						<text x="10px" y="42px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:5</text>
+						<text x="10px" y="16px" dominant-baseline="central" text-anchor="middle" font-size="4px">e:6</text>
+					</svg>
+					flat-topped<br />negative edge numbers
+				</li>
+			</ul>
+
 			<h2>Using HexJSON</h2>
 			<p>The format is JSON so should be easy to ingest by your favourite programming language. We'll add examples that people have created below.</p>
 			<ul>
@@ -337,8 +479,8 @@
 	</div>
 
 	<footer class="b1-bg">
-		<div class="holder">
-			&copy; 2017 <a href="https://open-innovations.org/">Open Innovations</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
+		<div class="holder tallpadded padded">
+			&copy; 2017-2024 <a href="https://open-innovations.org/">Open Innovations</a>. Released under an MIT license. <a href="https://github.com/odileeds/hexmaps">Source on Github</a>.
 		</div>
 	</footer>
 

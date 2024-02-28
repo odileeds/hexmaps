@@ -78,7 +78,7 @@
 	}
 	.leaflet-container { font-size: inherit; }
 	h1 { font-size: 2em; line-height: 1em; }
-	h2 { font-size: 1.7rem; margin-top: 3rem; margin-bottom: 16px; }
+	h2 { font-size: 1.7rem; padding-top: 3rem; margin-bottom: 16px; }
 	h1 { margin-top: 0em; }
 	strong { font-weight: 700; }
 	em { font-style: italic; }
@@ -301,6 +301,7 @@
 				<li><div id="even-q" class="hexlayout"></div><code>even-q</code> (flat-topped)<br />even numbered columns shift up</li>
 			</ul>
 			<div class="warning">Note: the shifts in each coordinate system are based on the absolute column/row numbers as specified in the HexJSON file, not on their relative position in a layout. Using absolute numbers ensures that a layout still renders correctly if a column or row is added later.</div>
+			<h2 id="hexes">Adding hexes</h2>
 			<p>The <code>hexes</code> are then defined using unique keys for each. Every hex is positioned by providing column (<code>q</code>) and row (<code>r</code>) coordinates. You don't have to start at 0,0.</p>
 			<p>You can add your own custom data fields to each hex if you want to. Just make sure you don't use the keys <code>q</code> and <code>r</code> as they will be the coordinates e.g.</p>
 			<pre><code>{
@@ -326,8 +327,8 @@
 	}
 }</code></pre>
 
-			<h2>Adding boundaries</h2>
-			<p>In February 2024 we added the concept of drawing boundaries around hexagons. You can provide them using the additional property <code>boundaries</code> which can contain multiple named boundaries. Each boundary should contain an <code>edges</code> array that defines an ordered series of edges to create a line (the line does not have to be continuous). Each item in the array should provide the <code>q</code>, <code>r</code> coordinates of a particular hexagon along with the edge number <code>e</code>. For example:</p>
+			<h2 id="boundaries">Adding boundaries</h2>
+			<p>In version 1.1 (28th February 2024) we have added the concept of boundaries around hexagons. This lets us define, say, a border between two groups of hexagons. You can provide multiple named boundaries using the additional property <code>boundaries</code>. Each boundary should contain an <code>edges</code> array that defines an ordered series of edges to create a line (the line does not have to be continuous). Each item in the array should provide the <code>q</code> and <code>r</code> coordinates of a particular hexagon along with the edge number <code>e</code>. For example:</p>
 			
 			<pre><code>{
 	"layout": "odd-r",

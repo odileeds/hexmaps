@@ -82,6 +82,7 @@
 	h1 { margin-top: 0em; }
 	strong { font-weight: 700; }
 	em { font-style: italic; }
+	ol { margin-left: 2rem; }
 	header, footer, #main {
 		width: 100%;
 		transition: margin-left 0.3s ease-in;
@@ -342,7 +343,7 @@
 		}
 	}
 }</code></pre>
-			<p>Edges, <code>e</code>, are numbered from 1 to 6 moving clockwise from the top of the hexagon. Positive numbered edges are drawn in a clockwise sense and negative numbered edges are drawn in an anti-clockwise sense. This should allow continuous lines to be created. Note that the <code>edges</code> are not required to continue on from each other; a line may contain gaps. A renderer should check where the end of the last edge finished and the current edge begins to work out if a gap should be left.</p>
+			<p>Edges, <code>e</code>, are numbered from 1 to 6 moving clockwise from the top of the hexagon. Positive numbered edges are drawn in a clockwise sense and negative numbered edges are drawn in an anti-clockwise sense. This should allow continuous lines to be created. </p>
 			<ul class="boundaries">
 				<li>
 					<svg class="hexagon" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" viewBox="0 0 70 58" style="max-width:100%;" preserveAspectRatio="xMinYMin meet" vector-effect="non-scaling-stroke">
@@ -465,8 +466,14 @@
 					flat-topped<br />negative edge numbers
 				</li>
 			</ul>
-			<p>A renderer that supports <code>boundaries</code> may want to give users the option to style a specific boundary using its name or any other properties of the boundary.</p>
-			<p>See an example of <a href="https://open-innovations.github.io/oi.hexmap.js/#ex3">edges being drawn in this example</a>.</p>
+			<p>This means that there are two ways to define the same edge moving in the same direction; using one hexagon's coordinates with a clockwise sense or the neighbouring hexagon in the anti-clockwise sense. Although this adds redundancy, it gives the following advantages:</p>
+			<ol>
+				<li>Allows you to use the "best" hexagon as the base. For instance, if you want to draw a border for Scotland you could make sure that all your edges were based on Scottish hexagons.</li>
+				<li>Drawing multiple anti-clockwise edges around the same hexagon is more straightforward.</li>
+				<li>Allowing anti-clockwise edges needs fewer edges to change if you were to switch between even and odd layouts.</li>
+			</ol>
+			<div class="warning">Note: The <code>edges</code> are not required to continue on from each other. That means that a line may contain gaps. So a renderer should check where the end of the last edge finished and the current edge begins to work out if a gap should be left. A renderer may also wish to give users the option to style a specific boundary using its name or any other properties of the boundary.</div>
+			<p>See <a href="https://open-innovations.github.io/oi.hexmap.js/#ex3">edges being drawn in this example</a>.</p>
 
 			<h2>Using HexJSON</h2>
 			<p>The format is JSON so should be easy to ingest by your favourite programming language. We'll add examples that people have created below.</p>

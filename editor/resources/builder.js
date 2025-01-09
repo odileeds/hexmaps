@@ -842,6 +842,15 @@
 
 		this.getURL = function(url){
 			if(url){
+				if(url.match(/uk-wards-2024/)){
+					// Make banner
+					var txt = 'This is part of a project to <a href="https://github.com/open-innovations/uk-wards-2024/">create a hex layout of UK wards</a>.';
+					var m = url.match(/uk-wards-2024\/([EWNS][0-9]{8}\.hexjson)/);
+					if(m){
+						txt += ' If you\'d like to help improve the map please rearrange hexes following the <a href="https://github.com/open-innovations/uk-wards-2024/?tab=readme-ov-file#design-guidelines">design guidelines</a>. Please note that any changes you make <em>are not saved</em> - if you change the layout you should then go to File&gt;Save HexJSON, save the file, and then update the <a href="https://github.com/open-innovations/uk-wards-2024/blob/main/'+m[1]+'">'+m[1]+'</a> file in the repository.';
+					}
+					msg.info(txt,{'id':'uk-wards-2024'});
+				}
 				msg.log('getURL',url);
 				fetch(url,{}).then(response => {
 					if(!response.ok) throw new Error('Network response was not OK');

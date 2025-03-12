@@ -21,6 +21,8 @@
 		builder = new HexBuilder(document.getElementById('builder'),{
 			'width':document.getElementById('builder').offsetWidth
 		}).init();
+		var editlink = document.getElementById('edit-link');
+		editlink.setAttribute('href',editlink.getAttribute('href')+location.search);
 	});
 	</script>
 	<style>
@@ -209,7 +211,7 @@
 		</div>
 
 		<div class="warning">
-			<div class="holder padded" style="text-align:center;margin-bottom:1rem;">To visualise data on a hex map we suggest using our <a href="viewer.html" style="font-style:italic;">Hexviz</a> tool.</div>
+			<div class="holder padded" style="text-align:center;margin-bottom:1rem;">To visualise data on a hex map we suggest using our <a href="viewer.html" style="font-style:italic;">Hexviz</a> tool. To edit a hex map you may find it easier to use our <a href="editor/index.html" id="edit-link">new hex map editor</a> tool.</div>
 		</div>
 		<div class="holder">
 			<p>We like <a href="https://odileeds.org/blog/2017-05-08-mapping-election-with-hexes">creating hex cartograms</a> and this tool will <em>help you design hex layouts</em> from your own data. Read the <a href="#notes">notes below for more details</a>.</p>

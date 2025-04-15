@@ -244,6 +244,12 @@
 			this.display = new HexDisplay(el.canvas,opts);
 			this.display.init();
 
+			this.search = new Search(this,{
+				'max':10,
+				'render': function(props){ return props.n; }
+			});
+			this.search.addTo(el.main.querySelector('.oi-left'));
+
 			this.setScale(parseFloat(el.zoom.value));
 			window.addEventListener('resize',function(){ _obj.resize(); });
 
@@ -596,12 +602,6 @@
 		this.setHeight = function(){
 			var h = window.innerHeight - el.head.offsetHeight - el.nav.offsetHeight;
 			this.display.setHeight(h);
-			return this;
-		};
-
-		this.zoomToBBox = function(){
-			s = this.display.zoomToBBox();
-			this.setScale(s);
 			return this;
 		};
 
@@ -984,6 +984,17 @@
 			this.display.zoomAround(x,y,z);
 			return this.setScale(z);
 		};
+		this.zoomToBBox = function(){
+			s = this.display.zoomToBBox();
+			this.setScale(s);
+			return this;
+		};
+		this.zoomToHex = function(hex){
+			var xy = getXY(hex.hex.q,hex.hex.r,this.display.layout);
+			this.display.centre = xy;
+			this.setScale(2);
+			return this;
+		};
 
 		this.toggleAbout = function(){
 			var f = window.getComputedStyle(el.foot).display;
@@ -1257,21 +1268,6 @@
 			return getRQ(c.x,c.y,this.layout);
 		};
 
-		this.zoomToBBox = function(){
-			var bboxh,bboxg,x,y,f = null;
-			bboxh = hexes.getBoundingClientRect();
-			if(bboxh.width>0){
-				bboxg = grid.getBoundingClientRect();
-				x = bboxh.x-bboxg.x;
-				y = bboxh.y-bboxg.y;
-				// Centre the bbox
-				this.centre.x += ((x + bboxh.width/2) - this.wide/2)*this.scale;
-				this.centre.y += ((y + bboxh.height/2) - this.tall/2)*this.scale;
-				f = Math.max((bboxh.height)/(bboxg.height-padding*2),(bboxh.width)/(bboxg.width-padding*2));
-			}
-			return this.scale*f;
-		};
-
 		this.removeHex = function(i){
 			if(i >= 0 && i < this.hexes.length){
 				h = this.hexes.splice(i,1);
@@ -1355,8 +1351,20 @@
 			hexagon.setCoords(d[0],d[1]);
 			return hexagon.hex;
 		}
-		this.getXY = function(q,r){ return getXY(q,r,this.display.layout); }
-		this.getRQ = function(x,y){ return getRQ(x,y,this.display.layout); }
+		this.zoomToBBox = function(){
+			var bboxh,bboxg,x,y,f = null;
+			bboxh = hexes.getBoundingClientRect();
+			if(bboxh.width>0){
+				bboxg = grid.getBoundingClientRect();
+				x = bboxh.x-bboxg.x;
+				y = bboxh.y-bboxg.y;
+				// Centre the bbox
+				this.centre.x += ((x + bboxh.width/2) - this.wide/2)*this.scale;
+				this.centre.y += ((y + bboxh.height/2) - this.tall/2)*this.scale;
+				f = Math.max((bboxh.height)/(bboxg.height-padding*2),(bboxh.width)/(bboxg.width-padding*2));
+			}
+			return this.scale*f;
+		};
 		this.zoomAround = function(x,y,z){
 			if(x==null) x = this.wide/2;
 			if(y==null) y = this.tall/2;
@@ -1593,6 +1601,139 @@
 		return this;
 	}
 
+	function Search(builder,opts){
+		if(!opts) opts = {};
+		if(typeof opts.max!=="number") opts.max = 10;
+
+		var el,inp,btn,_obj,out,div,selected = -1;
+		_obj = this;
+
+		if(typeof opts.score!=="function"){
+			opts.score = function(h,str){
+				str = str.toLowerCase();
+				var props = h.getOpts();
+				var score = 0;
+				var name;
+				if("n" in props){
+					name = props.n.toLowerCase();
+					if(name.indexOf(str)==0) score += 1;
+					if(name.indexOf(str)>0) score += 0.5;
+				}
+				return score;
+			};
+		}
+
+		this.open = function(){
+			inp.style.display = "";
+			return this;
+		};
+		this.close = function(){
+			inp.style.display = "none";
+			inp.value = "";
+			out.innerHTML = "";
+			return this;
+		};
+		
+		this.addTo = function(el){
+			if(el){
+				if(!div){
+					div = document.createElement('div');
+					div.classList.add('placesearch');
+					div.innerHTML = '<button class="submit" href="#" title="Search" role="button" aria-label="Search"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16"><path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/></svg></button><div><input class="place" name="place" value="" placeholder="Search for a named area" aria-label="Search for a named area" type="text" /><div class="results"></div></div></div>';
+				}
+				el.appendChild(div);
+				btn = div.querySelector('.placesearch button');
+				inp = div.querySelector('input[type="text"]');
+				out = div.querySelector('.results');
+				btn.addEventListener('click',function(e){
+					inp.style.display = (inp.style.display=="none" ? "":"none");
+					selected = -1;
+					if(inp.style.display=="") inp.focus();
+				});
+				inp.addEventListener('keydown',function(e){
+					e.stopPropagation();
+				});
+				inp.addEventListener('keyup',function(e){
+					e.preventDefault();
+					e.stopPropagation();
+					if(e.key=="ArrowDown") _obj.nav(1);
+					else if(e.key=="ArrowUp") _obj.nav(-1);
+					else if(e.key=="Enter") _obj.select();
+					else _obj.searchResults(e.target.value);
+				});
+				this.close();
+			}
+			return this;
+		};
+		this.searchResults = function(str){
+			str = str.toLowerCase();
+			var results = [],score,i,idx,max;
+
+			if(builder.display.hexes.length > 0){
+				for(i = 0; i < builder.display.hexes.length; i++){
+					score = opts.score.call(this,builder.display.hexes[i],str);
+					if(score > 0){
+						results.push({'id':i,'rank':score});
+					}
+				}
+				results = results.sort(function (a, b) {
+					return a.rank < b.rank ? 1 : -1;
+				});
+			}
+
+			if(results.length) selected = -1;
+			max = Math.min(opts.max,results.length);
+			html = '';
+			for(i = 0; i < max; i++){
+				html += '<li role="option" data-id="' + results[i].id + '" aria-selected="false" tabindex="-1">' + (typeof opts.render==="function" ? opts.render(builder.display.hexes[results[i].id].getOpts()) : builder.display.hexes[results[i].id].getOpts().n ) + "</li>";
+			}
+			out.innerHTML = (html ? '<ol role="listbox">'+html+'</ol>' : '');
+			var li = out.querySelectorAll('li');
+			li.forEach((el,i) => {
+				el.addEventListener('click',function(){
+					_obj.setSelected(i);
+					_obj.select();
+				})
+			});
+			
+			return this;
+		};
+		this.setSelected = function(i){
+			selected = i;
+			var li = out.querySelectorAll('li');
+			var sel = out.querySelectorAll('li.selected');
+			sel.forEach(el => el.classList.remove('selected'));
+			if(selected < 0) selected = li.length-1;
+			if(selected > li.length-1) selected = 0;
+			li[selected].classList.add('selected');
+			return this;
+		};
+		this.nav = function(i){
+			return this.setSelected(selected += i);
+		};
+		this.select = function(){
+			var sel = out.querySelector('li.selected');
+			var id = parseInt(sel.getAttribute('data-id'));
+			var hex = builder.display.hexes[id].getDom();
+			trigger(hex,'mousedown');
+			builder.display.hexes[id].select();
+			trigger(hex,'mouseup');
+			trigger(hex,'mouseover');
+			builder.zoomToHex(builder.display.hexes[id]);
+			this.close();
+			return this;
+		};
+		return this;
+	}
+	function trigger(el, eventType) {
+		if(typeof eventType==='string' && typeof el[eventType]==='function'){
+			el[eventType]();
+		}else{
+			const event =
+			typeof eventType === 'string' ? new Event(eventType, {bubbles: true}) : eventType;
+			el.dispatchEvent(event);
+		}
+	}
 	function balanceText(t,max){
 		var lines = [];
 		var txt = "",end,i = 0,c;

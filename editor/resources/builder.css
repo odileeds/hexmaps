@@ -24,6 +24,15 @@ footer { overflow-y: auto; padding-bottom: 1rem; }
 .oi-left, .oi-right { margin-top: 0; margin-bottom: 0; position: absolute; text-align: left; }
 .oi-left > * + *, .oi-right > * + * { margin-top: 0.5em; }
 .zoomer { margin: 0.5rem; display: flex; gap: 0.5rem; }
+.placesearch { display: flex; color: black; font-size: 1rem; margin: 0.5rem; }
+.placesearch button { cursor: pointer; padding: 0.4em; border: 0; width: 1.8rem; height: 1.8rem; background-color: #444; color: white; display: flex; align-items: center; justify-content: center; }
+.placesearch button svg { width: 1rem; height: 1rem; }
+.placesearch input { font-size: 1rem; width: 100%; padding: 0; border: 0; line-height: 28px; padding-inline: 0.5em; }
+.placesearch .results ol { margin: 0; padding: 0; list-style: none; }
+.placesearch .results ol li { padding: 0.25rem 0.5rem; background: #444; color: white; cursor: pointer; }
+.placesearch .results ol li.selected, .placesearch .results ol li:hover { background: #dfdfdf; color: black; outline: 2px solid #E6007C; border-radius: 2px; }
+
+
 #main { line-height: 1.44em; position: relative; flex-grow: 1; }
 #canvas { cursor: grab; }
 #canvas.dragging { cursor: grabbing; }

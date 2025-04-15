@@ -177,10 +177,10 @@
 								if(!draggingselection){
 									if(this.isSelected()){
 										_obj.deselectHex(this).updateView();
-										this.toFront();
+										this.toBack();
 									}else{
 										_obj.selectHex(this).updateView();
-										this.toBack();
+										this.toFront();
 									}
 								}
 							}
@@ -215,15 +215,15 @@
 							if(e.ctrlKey){
 								if(this.isSelected()){
 									_obj.deselectHex(this).updateView();
-									this.toFront();
+									this.toBack();
 								}else{
 									_obj.selectHex(this).updateView();
-									this.toBack();
+									this.toFront();
 								}
 							}else{
 								_obj.deselectAllHexes();
 								_obj.selectHex(this).updateView();
-								this.toBack();
+								this.toFront();
 							}
 						}
 						dragging = false;

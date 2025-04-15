@@ -842,15 +842,6 @@
 
 		this.getURL = function(url){
 			if(url){
-				if(url.match(/uk-wards-2024/)){
-					// Make banner
-					var txt = 'This is part of a project to <a href="https://github.com/open-innovations/uk-wards-2024/">create a hex layout of UK wards</a>.';
-					var m = url.match(/uk-wards-2024\/([EWNS][0-9]{8}\.hexjson)/);
-					if(m){
-						txt += ' If you\'d like to help improve the layout, please rearrange hexes following the <a href="https://github.com/open-innovations/uk-wards-2024/?tab=readme-ov-file#design-guidelines">design guidelines</a>. Changes are <em>not automatically saved</em> - if you want to contribute your changes you should go to File&gt;Save HexJSON, save the file, and then update the <a href="https://github.com/open-innovations/uk-wards-2024/blob/main/'+m[1]+'">'+m[1]+'</a> file in the repository.';
-					}
-					msg.info(txt,{'id':'uk-wards-2024'});
-				}
 				msg.log('getURL',url);
 				fetch(url,{}).then(response => {
 					if(!response.ok) throw new Error('Network response was not OK');
@@ -858,6 +849,21 @@
 				}).then(json => {
 					this.addHexJSON(json);
 					this.setVisible("map");
+					if(url.match(/uk-wards-2024/)){
+						// Make banner
+						var txt = 'This is part of a project to <a href="https://github.com/open-innovations/uk-wards-2024/">create a hex layout of all UK wards</a>.';
+						var m = url.match(/uk-wards-2024\/([EWNS][0-9]{8}\.hexjson)/);
+						if(m){
+							txt += ' If you\'d like to help improve the layout, please rearrange hexes following the <a href="https://github.com/open-innovations/uk-wards-2024/?tab=readme-ov-file#design-guidelines">design guidelines</a>. Changes are <em>not automatically saved</em> - if you want to contribute your changes you should go to File&gt;Save HexJSON, save the file, and then update the <a href="https://github.com/open-innovations/uk-wards-2024/blob/main/'+m[1]+'">'+m[1]+'</a> file in the repository.';
+						}
+						var m = url.match(/uk-wards-2024\/LAD\/([EWNS][0-9]{8}\.hexjson)/);
+						if(m){
+							var keysArray = Object.keys(json.hexes);
+							var lad = json.hexes[keysArray[0]].LAD24NM;
+							txt += ' If you\'d like to help improve the layout for <strong>'+lad+'</strong>, please rearrange hexes following the <a href="https://github.com/open-innovations/uk-wards-2024/?tab=readme-ov-file#design-guidelines">design guidelines</a>. Changes are <em>not automatically saved</em> - if you want to contribute your changes you should go to File&gt;Save HexJSON, save the file, and then update the <a href="https://github.com/open-innovations/uk-wards-2024/blob/main/LAD/'+m[1]+'">'+m[1]+'</a> file in the repository.';
+						}
+						msg.info(txt,{'id':'uk-wards-2024'});
+					}
 				}).catch(e => {
 					msg.error('There has been a problem loading CSV data from <em>%c'+url+'%c</em>. It may not be publicly accessible or have some other issue.','font-style:italic;','font-style:normal;');
 				});

@@ -172,4 +172,6 @@ ol { padding-left: 1rem; }
 	.b2-bg, a.b2-bg:visited { background-color: #dfdfdf; color: black; }
 	#navigation, #navigation ul, #navigation li[role=menuitem], #navigation .button { background: #444; color: white; }
 	#canvas pattern path {stroke: #40464c; }
+	#hex-info { background: rgba(0, 0, 0, 0.85); }
+	.placesearch button { background: #bbb; color: black; }
 }

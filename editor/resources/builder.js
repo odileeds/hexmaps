@@ -527,7 +527,6 @@
 			// Add key press functionality
 			document.addEventListener('keydown',function(e){
 				e.stopPropagation();
-				e.preventDefault();
 				if(e.key=="c"){
 					_obj.selectBySameColour();
 				}else if(e.key.toLowerCase()=="c" && e.shiftKey){

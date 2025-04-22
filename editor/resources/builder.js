@@ -1335,7 +1335,7 @@
 				// If the original hex is shifting from an even column to an odd column then:
 				//   - if the current hex is on an even column it has the same row shift
 				//   - if the current hex is on an odd column it increases dr by 1
-				if(isEven(shift.a.q) && isOdd(shift.b.q) && isOdd(hexagon.hex.r)) dr++;
+				if(isEven(shift.a.q) && isOdd(shift.b.q) && isOdd(hexagon.hex.q)) dr++;
 				// If the original hex is shifting from an odd column to an even column then:
 				//   - if the current hex is on an even column we need to decrease dr by 1
 				//   - if the current hex is on an odd column it has the same dr
@@ -1344,7 +1344,7 @@
 				// If the original hex is shifting from an even column to an odd column then:
 				//   - if the current hex is on an even column it has the same row shift
 				//   - if the current hex is on an odd column it needs to decrease dr by 1
-				if(isEven(shift.a.q) && isOdd(shift.b.q) && isOdd(hexagon.hex.r)) dr--;
+				if(isEven(shift.a.q) && isOdd(shift.b.q) && isOdd(hexagon.hex.q)) dr--;
 				// If the original hex is shifting from an odd column to an even column then:
 				//   - if the current hex is on an even column we neeed to inccrease dr by 1
 				//   - if the current hex is on an odd column it has the same dr
@@ -1389,8 +1389,9 @@
 	var _hexpath = 'm0-'+_hexs+'l'+_hexsb+','+(_hexs/2)+',0,'+_hexs+',-'+_hexsb+','+(_hexs/2)+',-'+_hexsb+'-'+(_hexs/2)+',0-'+_hexs+','+_hexsb+'-'+(_hexs/2)+'z';
 	var _sq3 = Math.sqrt(3);
 
+	function isLeft(a, b, c){ return (b.x - a.x)*(c.y - a.y) - (b.y - a.y)*(c.x - a.x) >= 0; }
 	function getRQ(x,y,layout){
-		var r,q;
+		var r,q,qp,rp,br,tr;
 		if(layout=="odd-r"){
 			r = Math.floor(-((2*y/_sq3) - _hexsb)/_hexsb2);
 			q = Math.floor(((x + _hexsb)/_hexsb2) + (r&1==1 ? -0.5 : 0));
@@ -1398,15 +1399,23 @@
 			// TO DO: check
 			r = Math.floor(-((2*y/_sq3) - _hexsb)/_hexsb2);
 			q = Math.floor(((x + _hexsb)/_hexsb2) + (r&1==1 ? 0.5 : 0));
-		}else if(layout=="odd-q"){
-			// TO DO
-			//q = Math.round(-x/_hexs2);
-			//r = -Math.round((y - (q&1==1 ? _hexsb : 0))/_hexsb2);
-		}else if(layout=="even-q"){
-			// TO DO
-			//q = Math.round(-x/_hexs2);
-			//y = -(r*_hexsb2 + (q&1==1 ? -_hexsb : 0));
-			//r = -Math.round((y - (q&1==1 ? -_hexsb : 0))/_hexsb2);
+		}else if(layout=="odd-q" || layout=="even-q"){
+			qp = (x + _hexs/2)/_hexs2;
+			q = Math.floor(qp);
+			rp = (-y + _hexsb)/_hexsb2;
+			if(layout=="odd-q") rp += (q&1==1 ? -0.5 : 0);
+			if(layout=="even-q") rp += (q&1==1 ? 0.5 : 0);
+			r = Math.floor(rp);
+			br = !isLeft({'x':2/3,'y':0},{'x':1,'y':0.5},{'x':(qp-q),'y':(rp-r)});
+			tr = !isLeft({'x':1,'y':0.5},{'x':2/3,'y':1},{'x':(qp-q),'y':(rp-r)});
+			if(br || tr) q++;
+			if(layout=="odd-q"){
+				if(br && q&1==1) r--;
+				if(tr && q&1==0) r++;
+			}else if(layout=="even-q"){
+				if(br && q&1==0) r--;
+				if(tr && q&1==1) r++;
+			}
 		}
 		return Hex(q,r);
 	}
@@ -1445,8 +1454,8 @@
 				dirs = [Hex(odd ? q+1:q,r+1),Hex(q+1,r),Hex(odd ? q+1:q,r-1),Hex(odd ? q:q-1,r-1),Hex(q-1,r),Hex(odd ? q:q-1,r+1)];
 			}else if(l=="odd-q" || l=="even-q"){
 				odd = (q&1==1);
-				if(l=="even-q") odd = !odd;
-				dirs = [Hex(q,r+1),Hex(q+1,odd ? r:r+1),Hex(q+1,odd ? r-1:r),Hex(q,r-1),Hex(q-1,odd ? r-1:r),Hex(q-1,odd ? r:r+1)];
+				if(l=="odd-q") dirs = [Hex(q,r+1),Hex(q+1,odd ? r+1:r),Hex(q+1,odd ? r:r-1),Hex(q,r-1),Hex(q-1,odd ? r:r-1),Hex(q-1,odd ? r+1:r)];
+				if(l=="even-q") dirs = [Hex(q,r+1),Hex(q+1,odd ? r:r+1),Hex(q+1,odd ? r-1:r),Hex(q,r-1),Hex(q-1,odd ? r-1:r),Hex(q-1,odd ? r:r+1)];
 			}else{
 				console.error("No layout type given");
 			}
@@ -1455,7 +1464,7 @@
 		this.edges = function(l){
 			var c = [];
 			if(l.indexOf("-r") > 0) return [[0,-1],[f,-.5],[f,.5],[0,1],[-f,.5],[-f,-.5]];
-			else if(l.indexOf("-q") > 0) return [[-.5,-f],[.5,-f],[0,1],[.5,f],[-.5,f],[-1,0]];
+			else if(l.indexOf("-q") > 0) return [[-.5,-f],[.5,-f],[1,0],[.5,f],[-.5,f],[-1,0]];
 			console.error("No layout type given");
 			return [];
 		};

@@ -235,6 +235,12 @@
 						e.stopPropagation();
 						_obj.setHovered();
 						if(!this.isSelected()) _obj.clearInfo();
+					},
+					'contextmenu':function(e){
+						if(clickedHex){
+							e.preventDefault();
+							e.stopPropagation();
+						}
 					}
 				},
 				'resize':function(h){ el.foot.style['max-height'] = h+'px'; }
@@ -521,6 +527,7 @@
 			// Add key press functionality
 			document.addEventListener('keydown',function(e){
 				e.stopPropagation();
+				e.preventDefault();
 				if(e.key=="c"){
 					_obj.selectBySameColour();
 				}else if(e.key.toLowerCase()=="c" && e.shiftKey){

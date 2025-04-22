@@ -329,6 +329,7 @@
 							exs[i].addEventListener('click',function(e){
 								e.preventDefault();
 								document.getElementById('url').value = e.target.getAttribute('href');
+								document.getElementById('standard_files').value = "";
 								document.getElementById('btnSubmit').click();
 							});
 						}

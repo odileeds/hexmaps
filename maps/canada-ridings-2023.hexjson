@@ -342,7 +342,7 @@
 		"59043":{"colour":"rgba(176, 34, 41, 1)","n":"West Vancouver—Sunshine Coast—Sea to Sky Country","party":"Liberal Party of Canada","party_code":"LIB","province":"British Columbia","province_colour":"#429385","q":206,"r":-52},
 		"60001":{"colour":"rgba(176, 34, 41, 1)","n":"Yukon","party":"Liberal Party of Canada","party_code":"LIB","province":"Yukon","province_colour":"#7a8a93","q":208,"r":-38},
 		"61001":{"colour":"rgba(176, 34, 41, 1)","n":"Northwest Territories","party":"Liberal Party of Canada","party_code":"LIB","province":"Northwest Territories","province_colour":"#97b0bf","q":222,"r":-37},
-		"62001":{"colour":"#dfdfdf","n":"Nunavut","party":"","party_code":"","province":"Nova Scotia","province_colour":"#76c6f0","q":237,"r":-36}
+		"62001":{"colour":"#dfdfdf","n":"Nunavut","party":"","party_code":"","province":"Nunavut","province_colour":"#76c6f0","q":237,"r":-36}
 	},
 	"layout":"odd-r",
 	"version":0.5

@@ -1,0 +1,22 @@
+{
+	"layout":"odd-r",
+	"hexes":{
+		"W99900059":{"q":54,"r":-38,"colour":"#c68655","no_rhif":"9","n":"Afan Ogwr Rhondda"},
+		"W99900053":{"q":55,"r":-34,"colour":"#7b379c","no_rhif":"3","n":"Fflint Wrecsam"},
+		"W99900051":{"q":53,"r":-34,"colour":"#722ea5","no_rhif":"1","n":"Bangor Conwy Môn"},
+		"W99900061":{"q":55,"r":-36,"colour":"#c88853","no_rhif":"11","n":"Blaenau Gwent Caerffili Rhymni"},
+		"W99900058":{"q":54,"r":-36,"colour":"#f2b52b","no_rhif":"8","n":"Brycheiniog Tawe Nedd"},
+		"W99900065":{"q":55,"r":-37,"colour":"#ba7a60","no_rhif":"15","n":"Caerdydd Ffynnon Taf"},
+		"W99900064":{"q":56,"r":-38,"colour":"#b57565","no_rhif":"14","n":"Caerdydd Penarth"},
+		"W99900062":{"q":56,"r":-36,"colour":"#d59647","no_rhif":"12","n":"Sir Fynwy Torfaen"},
+		"W99900056":{"q":53,"r":-36,"colour":"#d39548","no_rhif":"6","n":"Sir Gaerfyrddin"},
+		"W99900055":{"q":52,"r":-36,"colour":"#a36176","no_rhif":"5","n":"Ceredigion Penfro"},
+		"W99900052":{"q":54,"r":-34,"colour":"#732fa3","no_rhif":"2","n":"Clwyd"},
+		"W99900054":{"q":53,"r":-35,"colour":"#a05f79","no_rhif":"4","n":"Gwynedd Maldwyn"},
+		"W99900057":{"q":53,"r":-37,"colour":"#ba7a60","no_rhif":"7","n":"Gŵyr Abertawe"},
+		"W99900060":{"q":54,"r":-37,"colour":"#cb8c50","no_rhif":"10","n":"Pontypridd Cynon Merthyr"},
+		"W99900063":{"q":56,"r":-37,"colour":"#bc7c5e","no_rhif":"13","n":"Casnewydd Islwyn"},
+		"W99900066":{"q":55,"r":-38,"colour":"#b87862","no_rhif":"16","n":"Pen-y-bont Bro Morgannwg"}
+	},
+	"version":"0.1"
+}

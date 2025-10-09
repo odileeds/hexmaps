@@ -1,5 +1,5 @@
 {
-	"version":"1.2",
+	"version":"1.0",
 	"layout":"odd-r",
 	"hexes":{
 		"E06000001":{"n":"Hartlepool","q":8,"r":18,"region":"E12000001","colour":"#D60303"},
